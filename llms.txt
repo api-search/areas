@@ -1,0 +1,32 @@
+---
+layout: none
+---
+# areas.apis.io — API Evangelist Areas on the APIs.io Network
+
+> areas.apis.io is the topical slice of the APIs.io network. Each "area" is a curated collection of specifications, tools, and documentation for a subject — schema design, data modeling, cloud, cybersecurity standards, and more — drawn from the API Evangelist topic repos. Areas are how the network organizes reference material by subject, distinct from providers (who ships an API) and industries (who buys an API).
+
+Each area page renders the curated resources for that subject (each with its type and link), cross-links the network providers that work in the area by tag overlap, and lists related areas. The pages link out to each provider's profile on providers.apis.io.
+
+Areas are generated from every `kind: topic` repo maintained under the api-evangelist GitHub organization. Search indexing, AI grounding/RAG, and AI training are explicitly permitted.
+
+## Core entry points
+
+- [Areas directory](https://apis.io/areas/): Browse every curated area with resource/provider counts
+- [sitemap.xml](https://apis.io/sitemap.xml): Sitemap of every area page
+
+## Sister sites in the APIs.io network
+
+- [apis.io](https://apis.io/): Search hub and blog (master [llms.txt](https://apis.io/llms.txt))
+- [providers.apis.io](https://apis.io/providers/): API provider profiles
+- [apis.apis.io](https://apis.io/apis/): Individual API records
+- [industries.apis.io](https://apis.io/industries/): Industry verticals (who buys an API)
+- [regions.apis.io](https://apis.io/regions/): Sales regions
+- [tags.apis.io](https://apis.io/tags/): Free-form tag index
+
+Areas differ from industries and categories: categories describe **what an API does**, industries describe **who buys an API**, and areas organize **reference material by subject** — the topical knowledge base behind the network.
+
+See https://apis.io/llms.txt for the full network map.
+
+## License and usage
+
+Public catalog of API reference metadata, intended for both human and machine consumption. See https://apis.io/terms/.

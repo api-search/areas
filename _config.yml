@@ -1,0 +1,31 @@
+name: APIs.io Areas
+description: Browse the API Evangelist areas on the APIs.io network — curated collections of specifications, tools, and documentation across subjects like schema design, data modeling, cloud, and cybersecurity standards.
+image: https://apis.io/assets/branding/apisio-social-card.png
+url: https://apis.io
+node: website
+nav_active: areas
+
+keywords:
+  - APIs
+  - Areas
+  - Topics
+  - API discovery
+  - Curated resources
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "scripts"]
+include: [".well-known"]
+
+collections:
+  areas:
+    output: true
+    permalink: /areas/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: areas
+    values:
+      layout: area
+
+github_org: api-search
+github_repo: areas

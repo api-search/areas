@@ -1,0 +1,167 @@
+---
+layout: default
+---
+<style>
+  .area-hero { background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%); border: 1px solid #ddd6fe; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
+  .area-overline { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #5b21b6; font-weight: 600; margin-bottom: 0.5rem; }
+  .area-title { font-size: 2rem; font-weight: 700; margin-bottom: 0.75rem; color: #1a1a2e; }
+  .area-stats { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-top: 1rem; font-size: 0.9rem; color: #5b21b6; }
+  .area-stats strong { color: #1a1a2e; font-weight: 700; }
+  .area-overview { font-size: 1rem; line-height: 1.7; color: #2c3e50; margin: 0 0 2.25rem; padding: 0 0.25rem; }
+  .section-title { font-size: 1.1rem; font-weight: 700; color: #1a1a2e; margin: 2rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e3e7ee; }
+  .area-desc { color: #4a5568; line-height: 1.65; }
+  .res-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 0.75rem; margin: 1rem 0 2rem; }
+  .res-card { background: white; border: 1px solid #e3e7ee; border-radius: 8px; padding: 0.9rem 1rem; }
+  .res-card h4 { font-size: 0.98rem; font-weight: 600; margin: 0 0 0.3rem; color: #1a1a2e; }
+  .res-card h4 a { color: #1e40af; text-decoration: none; }
+  .res-card h4 a:hover { text-decoration: underline; }
+  .res-d { font-size: 0.83rem; color: #555; line-height: 1.45; margin: 0 0 0.5rem; }
+  .res-props { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+  .res-prop { display: inline-block; padding: 0.12em 0.5em; background: #f1f3f5; color: #475569; border-radius: 999px; font-size: 0.72rem; text-decoration: none; }
+  .res-prop:hover { background: #e2e8f0; color: #1a1a2e; }
+  .prov-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  .prov-table th, .prov-table td { padding: 0.7rem 0.6rem; text-align: left; border-bottom: 1px solid #e3e7ee; vertical-align: middle; }
+  .prov-table th { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; font-weight: 600; }
+  .prov-table tr:hover { background: #faf5ff; }
+  .prov-name a { color: #1e40af; text-decoration: none; font-weight: 600; }
+  .prov-name a:hover { text-decoration: underline; }
+  .prov-desc { color: #4a5568; font-size: 0.85rem; max-width: 480px; }
+  .prov-num { font-family: monospace; color: #475569; font-size: 0.85rem; text-align: right; }
+  .band-pill { display: inline-block; padding: 0.15em 0.55em; border-radius: 999px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+  .band-exemplar   { background: #d1f7e0; color: #0f5132; }
+  .band-strong     { background: #cfe2ff; color: #0a3d91; }
+  .band-developing { background: #fff3cd; color: #664d03; }
+  .band-thin       { background: #ffe0c2; color: #7a3e07; }
+  .band-minimal    { background: #e9ecef; color: #495057; }
+  .related-pill { display: inline-block; padding: 0.3em 0.75em; background: #ede9fe; color: #5b21b6; border-radius: 999px; font-size: 0.8rem; text-decoration: none; margin: 0.25rem 0.25rem 0.25rem 0; }
+  .related-pill:hover { background: #ddd6fe; }
+  .tag-note { color: #6c757d; font-size: 0.85rem; }
+  .tag-note code { background: #f1f3f5; padding: 0.1em 0.4em; border-radius: 4px; font-size: 0.85em; }
+</style>
+
+<nav aria-label="breadcrumb" style="margin-bottom: 1rem;">
+  <ol class="breadcrumb" style="font-size: 0.85rem;">
+    <li class="breadcrumb-item"><a href="https://apis.io/">Home</a></li>
+    <li class="breadcrumb-item"><a href="https://apis.io/areas/">Areas</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.name }}</li>
+  </ol>
+</nav>
+
+<div class="area-hero">
+  <div class="area-overline">API Evangelist area</div>
+  <h1 class="area-title">{{ page.name }}</h1>
+  <div class="area-stats">
+    <span><strong>{{ page.resource_count }}</strong> resource{% if page.resource_count == 1 %}{% else %}s{% endif %}</span>
+    <span><strong>{{ page.provider_count }}</strong> related provider{% if page.provider_count == 1 %}{% else %}s{% endif %}</span>
+  </div>
+</div>
+
+{% if page.overview %}
+<section class="area-overview">
+  {{ page.overview | markdownify }}
+</section>
+{% endif %}
+
+{% if page.description %}
+<h2 class="section-title">About this area</h2>
+<div class="area-desc">
+  {{ page.description | markdownify }}
+</div>
+{% endif %}
+
+{% if page.resources.size > 0 %}
+<h2 class="section-title" id="resources">Curated resources ({{ page.resource_count }})</h2>
+<div class="res-grid">
+  {% for r in page.resources %}
+  <div class="res-card">
+    <h4>{% if r.url %}<a href="{{ r.url }}" rel="noopener" target="_blank">{{ r.name }}</a>{% else %}{{ r.name }}{% endif %}</h4>
+    {% if r.description %}<p class="res-d">{{ r.description | truncate: 220 }}</p>{% endif %}
+    {% if r.properties.size > 0 %}
+    <div class="res-props">
+      {% for p in r.properties %}<a class="res-prop" href="{{ p.url }}" rel="noopener" target="_blank">{{ p.type }}</a>{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if page.providers.size > 0 %}
+<h2 class="section-title" id="providers">Related providers ({{ page.provider_count }})</h2>
+<p style="font-size: 0.85rem; color: #6c757d; margin: 0 0 1rem;">{% if page.provider_count > page.providers.size %}Top {{ page.providers.size }} of {{ page.provider_count }} network providers tagged for this area — search the full set on <a href="https://apis.io/?search={{ page.name | url_encode }}">apis.io</a>.{% else %}Network providers tagged for this area.{% endif %}</p>
+<table class="prov-table">
+  <thead>
+    <tr>
+      <th>Provider</th>
+      <th>Description</th>
+      <th class="prov-num">APIs</th>
+      <th>Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for p in page.providers %}
+    <tr>
+      <td class="prov-name"><a href="https://apis.io/providers/{{ p.slug }}/">{{ p.name }}</a></td>
+      <td class="prov-desc">{{ p.description | truncate: 180 }}</td>
+      <td class="prov-num">{{ p.api_count }}</td>
+      <td>{% if p.score_band %}<span class="band-pill band-{{ p.score_band }}">{{ p.score_band }}</span>{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% if page.related.size > 0 %}
+<h2 class="section-title">Related areas</h2>
+<div>
+  {% for r in page.related %}
+  <a class="related-pill" href="https://apis.io/areas/{{ r.slug }}/">{{ r.name }} ({{ r.shared }} shared)</a>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if page.tags.size > 0 %}
+<p class="tag-note" style="margin-top: 2rem;">
+  Tags: {% for t in page.tags %}<code>{{ t }}</code>{% if forloop.last == false %}, {% endif %}{% endfor %}.
+  Sourced from the <a href="{{ page.repo }}" rel="noopener" target="_blank">api-evangelist/{{ page.slug }}</a> topic repo.
+</p>
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ page.name | jsonify }},
+  {% if page.description %}"description": {{ page.description | truncate: 300 | jsonify }},{% endif %}
+  "url": "{{ page.url | absolute_url }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "APIs.io Areas",
+    "url": "https://apis.io/areas/"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Resources in {{ page.name }}",
+    "numberOfItems": {{ page.resource_count }},
+    "itemListElement": [
+      {% for r in page.resources limit:50 %}{
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "name": {{ r.name | jsonify }}{% if r.url %},
+        "url": {{ r.url | jsonify }}{% endif %}
+      }{% if forloop.last == false %},{% endif %}{% endfor %}
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://apis.io/"},
+    {"@type": "ListItem", "position": 2, "name": "Areas", "item": "https://apis.io/areas/"},
+    {"@type": "ListItem", "position": 3, "name": {{ page.name | jsonify }}}
+  ]
+}
+</script>

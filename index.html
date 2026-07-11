@@ -1,0 +1,96 @@
+---
+layout: default
+meta_title: "API Evangelist Areas — Browse APIs by Subject | APIs.io"
+meta_description: "Browse the APIs.io network by subject area — schema design, data modeling, cloud, cybersecurity standards, and more. Each area curates the specs, tools, and docs behind a topic and links the providers working in it."
+title: "Areas"
+nav_active: areas
+---
+<style>
+  .area-page-hero { text-align: center; padding: 2rem 0 1rem; }
+  .area-page-hero h1 { font-size: 2.25rem; font-weight: 700; margin-bottom: 0.5rem; color: #1a1a2e; }
+  .area-page-hero p { color: #4a5568; max-width: 680px; margin: 0 auto 1rem; line-height: 1.6; }
+  .area-page-stats { color: #6c757d; font-size: 0.9rem; }
+  .area-page-stats strong { color: #1a1a2e; }
+  .area-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; margin: 2rem 0; }
+  .area-card { background: white; border: 1px solid #e3e7ee; border-radius: 10px; padding: 1.25rem; transition: all 0.15s; text-decoration: none; color: inherit; display: block; }
+  .area-card:hover { border-color: #5b21b6; box-shadow: 0 2px 8px rgba(91, 33, 182, 0.1); transform: translateY(-1px); text-decoration: none; color: inherit; }
+  .area-card h3 { font-size: 1.1rem; font-weight: 700; color: #1a1a2e; margin: 0 0 0.4rem; }
+  .area-card .area-short-txt { font-size: 0.9rem; color: #4a5568; line-height: 1.5; margin: 0 0 0.85rem; min-height: 4.5em; }
+  .area-card-meta { display: flex; gap: 0.75rem; font-size: 0.8rem; color: #475569; align-items: center; flex-wrap: wrap; }
+  .area-card-meta .count { font-family: monospace; }
+  .browse-note { text-align: center; color: #6c757d; font-size: 0.85rem; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #e3e7ee; }
+  .browse-note a { color: #5b21b6; }
+  .differ-box { background: #f8fafc; border-left: 4px solid #5b21b6; padding: 1rem 1.25rem; margin: 2rem 0; border-radius: 0 8px 8px 0; font-size: 0.93rem; color: #4a5568; }
+  .differ-box strong { color: #1a1a2e; }
+</style>
+
+<div class="area-page-hero">
+  <h1>API Evangelist Areas</h1>
+  <p>Browse the APIs.io network by subject. Each area is a curated collection of the specifications, tools, and documentation behind a topic — and links out to the providers on the network working in it.</p>
+  <p class="area-page-stats">
+    <strong>{{ site.data.areas | size }}</strong> areas
+    &middot; sourced from the API Evangelist <a href="https://github.com/api-evangelist">topic repos</a>
+  </p>
+</div>
+
+<div class="area-grid">
+  {% for area in site.data.areas %}
+  <a href="{{ area.url }}" class="area-card">
+    <h3>{{ area.name }}</h3>
+    {% if area.short %}<p class="area-short-txt">{{ area.short }}</p>{% endif %}
+    <div class="area-card-meta">
+      <span class="count"><strong>{{ area.resource_count }}</strong> resources</span>
+      <span class="count"><strong>{{ area.provider_count }}</strong> providers</span>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+<div class="differ-box">
+  <strong>Areas vs. industries vs. categories.</strong> <a href="https://apis.io/industries/">Industries</a> describe <em>who buys an API</em> (financial services, healthcare). <a href="https://apis.io/categories/">Categories</a> describe <em>what an API does</em> (analytics, payments, identity-access). Areas organize the <em>reference material behind a subject</em> — the specs, tools, and docs of schema design, data modeling, or cybersecurity standards — the topical knowledge base that powers the API Evangelist areas.
+</div>
+
+<p class="browse-note">
+  Looking for finer-grained discovery? Browse all <a href="https://apis.io/tags/">3,000+ tags</a>, every <a href="https://apis.io/providers/">provider profile</a>, or every individual <a href="https://apis.io/apis/">API record</a>.
+</p>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "API Evangelist Areas",
+  "description": "Subject-area index of curated API specifications, tools, and documentation on the APIs.io network.",
+  "url": "https://apis.io/areas/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "APIs.io Areas",
+    "url": "https://apis.io/areas/"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ site.data.areas | size }},
+    "itemListElement": [
+      {% for area in site.data.areas %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "name": {{ area.name | jsonify }},
+        "url": {{ area.url | jsonify }},
+        "description": {{ area.short | jsonify }}
+      }{% if forloop.last == false %},{% endif %}
+      {% endfor %}
+    ]
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://apis.io/"},
+    {"@type": "ListItem", "position": 2, "name": "Areas", "item": "https://apis.io/areas/"}
+  ]
+}
+</script>
