@@ -1,21 +1,23 @@
 ---
 layout: default
-meta_title: "API Evangelist Areas — Browse APIs by Subject | APIs.io"
-meta_description: "Browse the APIs.io network by subject area — schema design, data modeling, cloud, cybersecurity standards, and more. Each area curates the specs, tools, and docs behind a topic and links the providers working in it."
+meta_title: "API Evangelist Areas — Browse APIs by Landscape Area | APIs.io"
+meta_description: "Browse the APIs.io network by API Evangelist area — Agents, Design, Deployment, Gateway, Management, Monitoring, Security, Testing, Webhooks, and more. The same 77 curated areas that power apievangelist.com, each cross-linked to the providers on the network working in it."
 title: "Areas"
 nav_active: areas
 ---
 <style>
   .area-page-hero { text-align: center; padding: 2rem 0 1rem; }
   .area-page-hero h1 { font-size: 2.25rem; font-weight: 700; margin-bottom: 0.5rem; color: #1a1a2e; }
-  .area-page-hero p { color: #4a5568; max-width: 680px; margin: 0 auto 1rem; line-height: 1.6; }
+  .area-page-hero p { color: #4a5568; max-width: 700px; margin: 0 auto 1rem; line-height: 1.6; }
   .area-page-stats { color: #6c757d; font-size: 0.9rem; }
   .area-page-stats strong { color: #1a1a2e; }
   .area-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; margin: 2rem 0; }
-  .area-card { background: white; border: 1px solid #e3e7ee; border-radius: 10px; padding: 1.25rem; transition: all 0.15s; text-decoration: none; color: inherit; display: block; }
+  .area-card { background: white; border: 1px solid #e3e7ee; border-radius: 10px; padding: 1.15rem; transition: all 0.15s; text-decoration: none; color: inherit; display: block; }
   .area-card:hover { border-color: #5b21b6; box-shadow: 0 2px 8px rgba(91, 33, 182, 0.1); transform: translateY(-1px); text-decoration: none; color: inherit; }
-  .area-card h3 { font-size: 1.1rem; font-weight: 700; color: #1a1a2e; margin: 0 0 0.4rem; }
-  .area-card .area-short-txt { font-size: 0.9rem; color: #4a5568; line-height: 1.5; margin: 0 0 0.85rem; min-height: 4.5em; }
+  .area-card-head { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.55rem; }
+  .area-card-head img { width: 40px; height: 40px; object-fit: contain; background: #fff; padding: 5px; border-radius: 9px; border: 1px solid #e9ecef; flex-shrink: 0; }
+  .area-card h3 { font-size: 1.05rem; font-weight: 700; color: #1a1a2e; margin: 0; }
+  .area-card .area-short-txt { font-size: 0.88rem; color: #4a5568; line-height: 1.5; margin: 0 0 0.75rem; min-height: 4.4em; }
   .area-card-meta { display: flex; gap: 0.75rem; font-size: 0.8rem; color: #475569; align-items: center; flex-wrap: wrap; }
   .area-card-meta .count { font-family: monospace; }
   .browse-note { text-align: center; color: #6c757d; font-size: 0.85rem; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #e3e7ee; }
@@ -26,20 +28,22 @@ nav_active: areas
 
 <div class="area-page-hero">
   <h1>API Evangelist Areas</h1>
-  <p>Browse the APIs.io network by subject. Each area is a curated collection of the specifications, tools, and documentation behind a topic — and links out to the providers on the network working in it.</p>
+  <p>Browse the APIs.io network by API Evangelist area — the focused corners of the API landscape, from Agents and Design to Webhooks and Workflow Automation. Each area mirrors its <a href="https://apievangelist.com/areas/">apievangelist.com</a> home and cross-links the providers on the network working in it.</p>
   <p class="area-page-stats">
     <strong>{{ site.data.areas | size }}</strong> areas
-    &middot; sourced from the API Evangelist <a href="https://github.com/api-evangelist">topic repos</a>
+    &middot; sourced from <a href="https://github.com/api-search/network/blob/main/_data/network_areas.yml">network_areas.yml</a>
   </p>
 </div>
 
 <div class="area-grid">
   {% for area in site.data.areas %}
   <a href="{{ area.url }}" class="area-card">
-    <h3>{{ area.name }}</h3>
+    <div class="area-card-head">
+      {% if area.icon %}<img src="{{ area.icon }}" alt="" loading="lazy" width="40" height="40" onerror="this.style.display='none'">{% endif %}
+      <h3>{{ area.name }}</h3>
+    </div>
     {% if area.short %}<p class="area-short-txt">{{ area.short }}</p>{% endif %}
     <div class="area-card-meta">
-      <span class="count"><strong>{{ area.resource_count }}</strong> resources</span>
       <span class="count"><strong>{{ area.provider_count }}</strong> providers</span>
     </div>
   </a>
@@ -47,7 +51,7 @@ nav_active: areas
 </div>
 
 <div class="differ-box">
-  <strong>Areas vs. industries vs. categories.</strong> <a href="https://apis.io/industries/">Industries</a> describe <em>who buys an API</em> (financial services, healthcare). <a href="https://apis.io/categories/">Categories</a> describe <em>what an API does</em> (analytics, payments, identity-access). Areas organize the <em>reference material behind a subject</em> — the specs, tools, and docs of schema design, data modeling, or cybersecurity standards — the topical knowledge base that powers the API Evangelist areas.
+  <strong>Areas vs. industries vs. categories.</strong> <a href="https://apis.io/industries/">Industries</a> describe <em>who buys an API</em> (financial services, healthcare). <a href="https://apis.io/categories/">Categories</a> describe <em>what an API does</em> (analytics, payments, identity-access). Areas are the API Evangelist <em>research areas</em> — the corners of the API landscape (design, deployment, gateways, security, testing, webhooks) that Kin Lane has tracked for years. Each area has its own home at <code>&lt;area&gt;.apievangelist.com</code>; here on APIs.io each is cross-linked to the providers working in it.
 </div>
 
 <p class="browse-note">
@@ -59,7 +63,7 @@ nav_active: areas
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "API Evangelist Areas",
-  "description": "Subject-area index of curated API specifications, tools, and documentation on the APIs.io network.",
+  "description": "The curated API Evangelist landscape areas, cross-linked to the providers on the APIs.io network working in each.",
   "url": "https://apis.io/areas/",
   "isPartOf": {
     "@type": "WebSite",
