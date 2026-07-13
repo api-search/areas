@@ -12,15 +12,36 @@ providers:
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 5
-  score_band: strong
-  score_composite: 67.8
+  score_band: exemplar
+  score_composite: 70.9
   shared: 1
 - slug: coveo
   name: Coveo
   description: Coveo is a cloud-based AI-relevance platform that delivers personalized search, recommendations, and discovery experiences across digital workplaces, customer service portals, websites, and commerce storefronts. The Coveo platform exposes a family of REST APIs covering search, content indexing (Pus…
   api_count: 31
   score_band: strong
-  score_composite: 61.8
+  score_composite: 65.0
+  shared: 1
+- slug: apache-nutch
+  name: Apache Nutch
+  description: Apache Nutch is a highly extensible and scalable open-source web crawler software project built on Apache Hadoop data structures for batch processing. It provides a pluggable architecture supporting custom parse filters, scoring filters, index writers, and protocol implementations. Nutch integrates…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.0
+  shared: 1
+- slug: amazon-opensearch-service
+  name: Amazon OpenSearch Service
+  description: Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters for log analytics, full-text search, application monitoring, and more.
+  api_count: 1
+  score_band: strong
+  score_composite: 61.4
+  shared: 1
+- slug: amazon-opensearch
+  name: Amazon OpenSearch Service API
+  description: Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters in the AWS Cloud. It offers visualization capabilities powered by OpenSearch Dashboards and Kibana, and provides direct access to the OpenSearch API so that existing code and applicat…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.8
   shared: 1
 - slug: vespa-ai
   name: Vespa
@@ -29,12 +50,19 @@ providers:
   score_band: developing
   score_composite: 59.8
   shared: 1
-- slug: apache-nutch
-  name: Apache Nutch
-  description: Apache Nutch is a highly extensible and scalable open-source web crawler software project built on Apache Hadoop data structures for batch processing. It provides a pluggable architecture supporting custom parse filters, scoring filters, index writers, and protocol implementations. Nutch integrates…
-  api_count: 1
+- slug: bloomreach
+  name: Bloomreach
+  description: Digital commerce experience platform with REST APIs for search, merchandising, recommendations, CDP, and email/SMS marketing automation.
+  api_count: 6
   score_band: developing
-  score_composite: 58.8
+  score_composite: 59.7
+  shared: 1
+- slug: chroma
+  name: Chroma
+  description: Chroma (Chroma DB) is an open-source AI-native embedding database designed to make it easy to build LLM applications by providing storage, retrieval, and management for vector embeddings, full-text search, regex search, and multi-modal retrieval (text, image, audio). Distributed under the Apache 2.…
+  api_count: 4
+  score_band: developing
+  score_composite: 59.3
   shared: 1
 - slug: browserless
   name: Browserless
@@ -43,26 +71,19 @@ providers:
   score_band: developing
   score_composite: 58.3
   shared: 1
-- slug: amazon-opensearch-service
-  name: Amazon OpenSearch Service
-  description: Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters for log analytics, full-text search, application monitoring, and more.
-  api_count: 1
-  score_band: developing
-  score_composite: 58.2
-  shared: 1
-- slug: amazon-opensearch
-  name: Amazon OpenSearch Service API
-  description: Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters in the AWS Cloud. It offers visualization capabilities powered by OpenSearch Dashboards and Kibana, and provides direct access to the OpenSearch API so that existing code and applicat…
-  api_count: 1
-  score_band: developing
-  score_composite: 57.6
-  shared: 1
 - slug: exa-ai
   name: Exa
   description: Exa is a web search API and AI research platform built specifically for LLMs and agents — semantic and keyword search across the open web with token-efficient highlights, structured outputs, sub-200ms latency tiers, and verticals for code, companies, news, people, research, and financials. The plat…
   api_count: 7
   score_band: developing
   score_composite: 57.2
+  shared: 1
+- slug: bing-news
+  name: Bing News Search
+  description: Microsoft Bing News Search REST API enables developers to retrieve relevant news articles, trending topics, and category-filtered news with image thumbnails and publisher metadata. The API provides search queries against Bing's news index, returning results with titles, descriptions, URLs, publicat…
+  api_count: 3
+  score_band: developing
+  score_composite: 56.5
   shared: 1
 - slug: vectara
   name: Vectara
@@ -71,12 +92,26 @@ providers:
   score_band: developing
   score_composite: 56.4
   shared: 1
+- slug: alphasense
+  name: AlphaSense
+  description: AlphaSense is an AI-powered market intelligence and search platform used by hedge funds, banks, corporates, consulting firms, and law firms to accelerate research and decision-making. The platform unifies 500M+ public and private documents - SEC filings, broker research from 1,500+ firms, news, ear…
+  api_count: 12
+  score_band: developing
+  score_composite: 56.3
+  shared: 1
 - slug: wolframalpha
   name: Wolfram|Alpha
   description: Wolfram|Alpha is a computational knowledge engine that provides answers to natural language queries using a vast curated knowledge base and computational algorithms. The Wolfram|Alpha API suite gives developers programmatic access to computational intelligence for web, mobile, voice, and AI agent a…
   api_count: 6
   score_band: developing
   score_composite: 56.2
+  shared: 1
+- slug: amazon-cloudsearch
+  name: Amazon CloudSearch
+  description: Amazon CloudSearch is a managed search service that makes it easy to set up, manage, and scale a search solution for your website or application. Supports full-text search, Boolean search, faceted search, autocomplete, geospatial search, and 34 languages.
+  api_count: 1
+  score_band: developing
+  score_composite: 55.4
   shared: 1
 - slug: tmdb
   name: The Movie Database
@@ -99,19 +134,19 @@ providers:
   score_band: developing
   score_composite: 53.9
   shared: 1
+- slug: brave
+  name: Brave
+  description: Brave is a privacy-first browser company offering developer APIs for anonymous web search and privacy-preserving advertising. The Brave Search API provides real-time search results from an independent index of over 30 billion pages, designed for AI and LLM applications with schema-enriched results…
+  api_count: 2
+  score_band: developing
+  score_composite: 52.4
+  shared: 1
 - slug: cribl
   name: Cribl
   description: Cribl is an observability pipeline company providing a suite of products for collecting, processing, routing, searching, and storing telemetry data at scale. Cribl's developer platform offers REST APIs across Stream, Edge, Search, Lake, and the As Code product line, exposing programmatic control ov…
   api_count: 6
   score_band: developing
   score_composite: 52.0
-  shared: 1
-- slug: alphasense
-  name: AlphaSense
-  description: AlphaSense is an AI-powered market intelligence and search platform used by hedge funds, banks, corporates, consulting firms, and law firms to accelerate research and decision-making. The platform unifies 500M+ public and private documents - SEC filings, broker research from 1,500+ firms, news, ear…
-  api_count: 12
-  score_band: developing
-  score_composite: 51.6
   shared: 1
 - slug: google-youtube
   name: YouTube Data
@@ -127,13 +162,6 @@ providers:
   score_band: developing
   score_composite: 51.0
   shared: 1
-- slug: bloomreach
-  name: Bloomreach
-  description: Digital commerce experience platform with REST APIs for search, merchandising, recommendations, CDP, and email/SMS marketing automation.
-  api_count: 6
-  score_band: developing
-  score_composite: 50.9
-  shared: 1
 - slug: wolfram-alpha
   name: Wolfram|Alpha
   description: Wolfram|Alpha is a computational knowledge engine that provides answers to natural language queries using a vast curated knowledge base and computational algorithms. The Wolfram|Alpha API suite gives developers programmatic access to computational intelligence for web, mobile, and AI applications.…
@@ -148,19 +176,12 @@ providers:
   score_band: developing
   score_composite: 50.8
   shared: 1
-- slug: amazon-cloudsearch
-  name: Amazon CloudSearch
-  description: Amazon CloudSearch is a managed search service that makes it easy to set up, manage, and scale a search solution for your website or application. Supports full-text search, Boolean search, faceted search, autocomplete, geospatial search, and 34 languages.
-  api_count: 1
+- slug: google-search-console
+  name: Google Search Console
+  description: The Google Search Console API provides programmatic access to Search Console data, allowing you to monitor and maintain your site's presence in Google Search results.
+  api_count: 3
   score_band: developing
-  score_composite: 50.7
-  shared: 1
-- slug: chroma
-  name: Chroma
-  description: Chroma (Chroma DB) is an open-source AI-native embedding database designed to make it easy to build LLM applications by providing storage, retrieval, and management for vector embeddings, full-text search, regex search, and multi-modal retrieval (text, image, audio). Distributed under the Apache 2.…
-  api_count: 4
-  score_band: developing
-  score_composite: 50.5
+  score_composite: 50.6
   shared: 1
 - slug: newscatcher
   name: Newscatcher
@@ -168,13 +189,6 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 50.2
-  shared: 1
-- slug: google-search-console
-  name: Google Search Console
-  description: The Google Search Console API provides programmatic access to Search Console data, allowing you to monitor and maintain your site's presence in Google Search results.
-  api_count: 3
-  score_band: developing
-  score_composite: 49.7
   shared: 1
 - slug: mixedbread-ai
   name: Mixedbread
@@ -197,13 +211,6 @@ providers:
   score_band: developing
   score_composite: 47.8
   shared: 1
-- slug: bing-news
-  name: Bing News Search
-  description: Microsoft Bing News Search REST API enables developers to retrieve relevant news articles, trending topics, and category-filtered news with image thumbnails and publisher metadata. The API provides search queries against Bing's news index, returning results with titles, descriptions, URLs, publicat…
-  api_count: 3
-  score_band: developing
-  score_composite: 47.6
-  shared: 1
 - slug: google
   name: Google
   description: Google's public APIs and services.
@@ -211,19 +218,12 @@ providers:
   score_band: developing
   score_composite: 46.6
   shared: 1
-- slug: microsoft-bing
-  name: Microsoft Bing
-  description: Microsoft Bing provides a comprehensive suite of search APIs that enable developers to integrate web, image, video, news, entity, and visual search capabilities into their applications. These APIs are part of Azure AI Services and provide intelligent search experiences powered by Bing's web-scale i…
-  api_count: 10
-  score_band: developing
-  score_composite: 46.4
-  shared: 1
 related:
 - slug: agents
   name: Agents
   shared: 2
-- slug: machine-learning
-  name: Machine Learning
+- slug: privacy
+  name: Privacy
   shared: 2
 - slug: network
   name: Network
@@ -240,8 +240,8 @@ related:
 overview: 'API Evangelist Search is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [search.apievangelist.com](https://search.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Shodan, Coveo, Vespa, Apache Nutch, Browserless, Amazon OpenSearch Service, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Shodan, Coveo, Apache Nutch, Amazon OpenSearch Service, Amazon OpenSearch Service API, Vespa, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Agents, Machine Learning, Network, and API Evangelist Discovery. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agents, Privacy, Network, and API Evangelist Discovery. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

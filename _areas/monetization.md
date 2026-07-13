@@ -8,19 +8,19 @@ area_host: monetization.apievangelist.com
 icon: https://monetization.apievangelist.com/icon-thumb.png
 provider_count: 12
 providers:
-- slug: apigee
-  name: Apigee
-  description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
-  api_count: 5
-  score_band: strong
-  score_composite: 66.8
-  shared: 1
 - slug: amberflo
   name: Amberflo
   description: Amberflo is a cloud metering, usage-based billing, and AI cost management platform. It provides real-time event ingestion, customer billing automation, AI gateway capabilities, and FinOps visibility for API-driven and AI-powered businesses. The platform supports usage-based, token-based, seat-based…
   api_count: 4
-  score_band: strong
-  score_composite: 63.6
+  score_band: exemplar
+  score_composite: 72.4
+  shared: 1
+- slug: apigee
+  name: Apigee
+  description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
+  api_count: 5
+  score_band: exemplar
+  score_composite: 71.5
   shared: 1
 - slug: moesif
   name: Moesif
@@ -108,7 +108,7 @@ related:
 overview: 'Monetization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monetization.apievangelist.com](https://monetization.apievangelist.com).
 
 
-  12 providers on the network work in this area, including Apigee, Amberflo, Moesif, Podbean, Acast, Pollfish, and 6 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  12 providers on the network work in this area, including Amberflo, Apigee, Moesif, Podbean, Acast, Pollfish, and 6 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Plans, FinOps, Integrations, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'

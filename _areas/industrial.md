@@ -8,26 +8,26 @@ area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
 provider_count: 27
 providers:
+- slug: 3m
+  name: 3M
+  description: 3M is a global science and manufacturing company. The 3M Partner and Supplier API provides real-time access to product, pricing, order, delivery, and invoice data for partners and suppliers, enabling automated commerce and supply chain integration.
+  api_count: 1
+  score_band: developing
+  score_composite: 50.1
+  shared: 1
+- slug: archrock
+  name: Archrock
+  description: 'Archrock (NYSE: AROC) is the premier provider of natural gas compression services and equipment to customers in the oil and natural gas industry throughout the United States. The company operates a large fleet of compression equipment and provides contract operations and aftermarket services.'
+  api_count: 1
+  score_band: developing
+  score_composite: 49.7
+  shared: 1
 - slug: eaton
   name: Eaton
   description: 'Eaton Corporation plc (NYSE: ETN) is a global intelligent-power-management company with operations across electrical, aerospace, vehicle, and eMobility segments. Its digital surface centers on Brightlayer — a software portfolio for data centers, utilities, industrial, buildings, and mobility — toge…'
   api_count: 12
   score_band: developing
   score_composite: 48.5
-  shared: 1
-- slug: 3m
-  name: 3M
-  description: 3M is a global science and manufacturing company. The 3M Partner and Supplier API provides real-time access to product, pricing, order, delivery, and invoice data for partners and suppliers, enabling automated commerce and supply chain integration.
-  api_count: 1
-  score_band: developing
-  score_composite: 46.9
-  shared: 1
-- slug: archrock
-  name: Archrock
-  description: 'Archrock (NYSE: AROC) is the premier provider of natural gas compression services and equipment to customers in the oil and natural gas industry throughout the United States. The company operates a large fleet of compression equipment and provides contract operations and aftermarket services.'
-  api_count: 1
-  score_band: thin
-  score_composite: 44.0
   shared: 1
 - slug: siemens-mindsphere
   name: Siemens MindSphere
@@ -204,7 +204,7 @@ related:
 overview: 'Industrial is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [industrial.apievangelist.com](https://industrial.apievangelist.com).
 
 
-  27 providers on the network work in this area, including Eaton, 3M, Archrock, Siemens MindSphere, Markforged, Blynk, and 21 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  27 providers on the network work in this area, including 3M, Archrock, Eaton, Siemens MindSphere, Markforged, Blynk, and 21 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'

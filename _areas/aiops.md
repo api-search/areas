@@ -50,6 +50,13 @@ providers:
   score_band: thin
   score_composite: 34.1
   shared: 1
+- slug: coralogix
+  name: Coralogix
+  description: Coralogix is an observability platform providing log analytics, metrics, tracing, and AI-powered insights.
+  api_count: 1
+  score_band: thin
+  score_composite: 33.9
+  shared: 1
 - slug: elastic-observability
   name: Elastic Observability
   description: Elastic Observability provides unified logs, metrics, traces, and AI-driven anomaly detection built on the Elastic Stack.
@@ -84,13 +91,6 @@ providers:
   api_count: 1
   score_band: minimal
   score_composite: 27.9
-  shared: 1
-- slug: coralogix
-  name: Coralogix
-  description: Coralogix is an observability platform providing log analytics, metrics, tracing, and AI-powered insights.
-  api_count: 1
-  score_band: minimal
-  score_composite: 26.0
   shared: 1
 - slug: aruba-hpe
   name: HPE Aruba Networking
@@ -170,11 +170,11 @@ providers:
   score_composite: 19.2
   shared: 1
 related:
-- slug: observability
-  name: Observability
-  shared: 2
 - slug: logging
   name: Logging
+  shared: 1
+- slug: observability
+  name: Observability
   shared: 1
 overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aiops.apievangelist.com](https://aiops.apievangelist.com).
 
@@ -182,5 +182,5 @@ overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://api
   23 providers on the network work in this area, including Logz.io, Honeycomb, Juniper Mist AI, Soda, FireHydrant, Metaplane, and 17 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Logging and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

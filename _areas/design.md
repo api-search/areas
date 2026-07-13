@@ -8,54 +8,54 @@ area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
 provider_count: 25
 providers:
-- slug: adobe-creative-cloud
-  name: Adobe Creative Cloud
-  description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
-  api_count: 17
-  score_band: strong
-  score_composite: 62.0
-  shared: 1
 - slug: figma
   name: Figma
   description: Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.
   api_count: 18
   score_band: strong
-  score_composite: 62.0
-  shared: 1
-- slug: adobe-illustrator
-  name: Adobe Illustrator
-  description: Adobe Illustrator is the industry-standard vector graphics application. Its developer platform offers scripting APIs, UXP plugins, CEP extensions, and a C++ SDK for building custom integrations and automating workflows.
-  api_count: 3
-  score_band: developing
-  score_composite: 59.8
+  score_composite: 65.1
   shared: 1
 - slug: autodesk
   name: Autodesk
   description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction pr…
   api_count: 33
-  score_band: developing
-  score_composite: 57.5
+  score_band: strong
+  score_composite: 64.8
+  shared: 1
+- slug: adobe-illustrator
+  name: Adobe Illustrator
+  description: Adobe Illustrator is the industry-standard vector graphics application. Its developer platform offers scripting APIs, UXP plugins, CEP extensions, and a C++ SDK for building custom integrations and automating workflows.
+  api_count: 3
+  score_band: strong
+  score_composite: 64.6
+  shared: 1
+- slug: adobe-creative-cloud
+  name: Adobe Creative Cloud
+  description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
+  api_count: 17
+  score_band: strong
+  score_composite: 62.6
   shared: 1
 - slug: adobe-creative-suite
   name: Adobe Creative Suite
   description: Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography.
   api_count: 16
-  score_band: developing
-  score_composite: 56.8
+  score_band: strong
+  score_composite: 61.5
   shared: 1
 - slug: apple-keynote
   name: Apple Keynote
   description: Apple Keynote is a presentation software application developed by Apple Inc. as part of the iWork productivity suite, available on macOS, iOS, iPadOS, and the web via iCloud. It enables creating visually rich presentations with animations, transitions, charts, and real-time collaboration. Keynote s…
   api_count: 4
   score_band: developing
-  score_composite: 53.3
+  score_composite: 57.4
   shared: 1
 - slug: canva
   name: Canva
   description: APIs for the Canva design platform, enabling developers to integrate Canva's design tools and functionality into their applications.
   api_count: 4
   score_band: developing
-  score_composite: 50.6
+  score_composite: 56.3
   shared: 1
 - slug: autocad
   name: AutoCAD
@@ -99,6 +99,13 @@ providers:
   score_band: thin
   score_composite: 40.3
   shared: 1
+- slug: abstract
+  name: Abstract
+  description: Abstract is a design version control and collaboration platform that brings git-inspired branching, merging, and change history to design teams. It provides a REST API and JavaScript SDK for managing projects, branches, commits, files, collections, and design component libraries across teams, integ…
+  api_count: 1
+  score_band: thin
+  score_composite: 39.5
+  shared: 1
 - slug: wireframes
   name: Wireframes
   description: Wireframes are low-fidelity visual representations of user interface layouts used in early design stages to establish structure, hierarchy, and functionality before high-fidelity design work begins. Major wireframing tools including Figma, Balsamiq, Axure, UXPin, Sketch, and Miro offer APIs and dev…
@@ -119,13 +126,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 34.3
-  shared: 1
-- slug: abstract
-  name: Abstract
-  description: Abstract is a design version control and collaboration platform that brings git-inspired branching, merging, and change history to design teams. It provides a REST API and JavaScript SDK for managing projects, branches, commits, files, collections, and design component libraries across teams, integ…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.7
   shared: 1
 - slug: recraft
   name: Recraft
@@ -184,6 +184,9 @@ providers:
   score_composite: 13.0
   shared: 1
 related:
+- slug: ai-automation
+  name: AI Automation
+  shared: 1
 - slug: developer-experience
   name: Developer Experience
   shared: 1
@@ -193,8 +196,8 @@ related:
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 
 
-  25 providers on the network work in this area, including Adobe Creative Cloud, Figma, Adobe Illustrator, Autodesk, Adobe Creative Suite, Apple Keynote, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  25 providers on the network work in this area, including Figma, Autodesk, Adobe Illustrator, Adobe Creative Cloud, Adobe Creative Suite, Apple Keynote, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Developer Experience and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: AI Automation, Developer Experience, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

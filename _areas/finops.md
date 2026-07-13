@@ -6,14 +6,28 @@ description: FinOps is a cloud financial management discipline combining technol
 area_url: https://finops.apievangelist.com
 area_host: finops.apievangelist.com
 icon: https://finops.apievangelist.com/icon-thumb.png
-provider_count: 47
+provider_count: 49
 providers:
 - slug: amberflo
   name: Amberflo
   description: Amberflo is a cloud metering, usage-based billing, and AI cost management platform. It provides real-time event ingestion, customer billing automation, AI gateway capabilities, and FinOps visibility for API-driven and AI-powered businesses. The platform supports usage-based, token-based, seat-based…
   api_count: 4
+  score_band: exemplar
+  score_composite: 72.4
+  shared: 1
+- slug: cast-ai
+  name: CAST AI
+  description: CAST AI is an Application Performance Automation (APA) platform for Kubernetes that automates cost optimization, autoscaling, workload rightsizing, GPU/LLM workload placement, spot instance selection, and security posture analysis. The platform works across AWS, GCP, Azure, Oracle Cloud, IBM Cloud,…
+  api_count: 1
   score_band: strong
-  score_composite: 63.6
+  score_composite: 62.9
+  shared: 1
+- slug: choreo
+  name: Choreo
+  description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
+  api_count: 3
+  score_band: strong
+  score_composite: 62.7
   shared: 1
 - slug: vantage
   name: Vantage
@@ -22,6 +36,13 @@ providers:
   score_band: developing
   score_composite: 59.6
   shared: 1
+- slug: cloudzero
+  name: CloudZero
+  description: CloudZero is a cloud cost intelligence and FinOps platform that automates the collection, allocation, and analysis of infrastructure spend to uncover waste and improve unit economics. The CloudZero API V2 is REST-oriented, uses API key authentication, and exposes endpoints for querying billing cost…
+  api_count: 7
+  score_band: developing
+  score_composite: 57.7
+  shared: 1
 - slug: cycloid
   name: Cycloid
   description: Cycloid is a unified Internal Developer Portal & Platform combining self-service Service Catalogs (Stacks and StackForms), Infrastructure as Code orchestration, multi-cloud asset inventory (Asset Inventory and InfraView), CI/CD pipeline centralization, FinOps and GreenOps cost / carbon dashboards,…
@@ -29,26 +50,12 @@ providers:
   score_band: developing
   score_composite: 56.2
   shared: 1
-- slug: cast-ai
-  name: CAST AI
-  description: CAST AI is an Application Performance Automation (APA) platform for Kubernetes that automates cost optimization, autoscaling, workload rightsizing, GPU/LLM workload placement, spot instance selection, and security posture analysis. The platform works across AWS, GCP, Azure, Oracle Cloud, IBM Cloud,…
+- slug: amazon-compute-optimizer
+  name: Amazon Compute Optimizer
+  description: Amazon Compute Optimizer analyzes the configuration and utilization metrics of your AWS resources and provides recommendations to help you identify optimal AWS resource configurations. It uses machine learning to analyze historical utilization metrics and generates rightsizing recommendations for E…
   api_count: 1
   score_band: developing
-  score_composite: 54.0
-  shared: 1
-- slug: choreo
-  name: Choreo
-  description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
-  api_count: 3
-  score_band: developing
-  score_composite: 53.9
-  shared: 1
-- slug: cloudzero
-  name: CloudZero
-  description: CloudZero is a cloud cost intelligence and FinOps platform that automates the collection, allocation, and analysis of infrastructure spend to uncover waste and improve unit economics. The CloudZero API V2 is REST-oriented, uses API key authentication, and exposes endpoints for querying billing cost…
-  api_count: 7
-  score_band: developing
-  score_composite: 52.9
+  score_composite: 54.7
   shared: 1
 - slug: schematic
   name: Schematic
@@ -57,12 +64,12 @@ providers:
   score_band: developing
   score_composite: 52.3
   shared: 1
-- slug: amazon-compute-optimizer
-  name: Amazon Compute Optimizer
-  description: Amazon Compute Optimizer analyzes the configuration and utilization metrics of your AWS resources and provides recommendations to help you identify optimal AWS resource configurations. It uses machine learning to analyze historical utilization metrics and generates rightsizing recommendations for E…
+- slug: amnic
+  name: Amnic
+  description: Amnic is a cloud cost observability platform providing real-time cost monitoring, anomaly detection, and optimization for cloud and Kubernetes environments. Powered by context-aware AI agents, Amnic helps FinOps practitioners, engineering leads, and finance teams gain visibility into AWS, GCP, Azur…
   api_count: 1
   score_band: developing
-  score_composite: 51.5
+  score_composite: 52.1
   shared: 1
 - slug: spot-by-netapp
   name: Spot by NetApp
@@ -71,12 +78,12 @@ providers:
   score_band: developing
   score_composite: 50.7
   shared: 1
-- slug: amnic
-  name: Amnic
-  description: Amnic is a cloud cost observability platform providing real-time cost monitoring, anomaly detection, and optimization for cloud and Kubernetes environments. Powered by context-aware AI agents, Amnic helps FinOps practitioners, engineering leads, and finance teams gain visibility into AWS, GCP, Azur…
-  api_count: 1
+- slug: amazon-billing-and-cost-management
+  name: Amazon Billing And Cost Management
+  description: AWS Billing and Cost Management is a suite of tools and APIs that enables organizations to view, analyze, forecast, budget, and optimize their AWS spending. It includes AWS Cost Explorer for cost analysis, AWS Budgets for budget tracking and alerts, Cost Anomaly Detection for ML-powered anomaly ide…
+  api_count: 3
   score_band: developing
-  score_composite: 49.0
+  score_composite: 49.8
   shared: 1
 - slug: snow-software
   name: Snow Software
@@ -92,19 +99,19 @@ providers:
   score_band: developing
   score_composite: 48.0
   shared: 1
+- slug: spot
+  name: Spot
+  description: Spot by Flexera provides cloud infrastructure automation and optimization solutions. The platform includes Elastigroup for compute workload management across spot, reserved, and on-demand instances, Ocean for Kubernetes and container infrastructure automation, and Eco for cloud commitment managemen…
+  api_count: 5
+  score_band: developing
+  score_composite: 45.7
+  shared: 1
 - slug: finout
   name: Finout
   description: Finout is an enterprise-grade FinOps solution that helps companies easily allocate, manage and reduce their cloud spending across their entire infrastructure. We make costs easy to understand across any cloud infrastructure and scalefrom AI cost to Kubernetes. From Startups to enterprises, we turn…
   api_count: 1
   score_band: developing
   score_composite: 45.6
-  shared: 1
-- slug: spot
-  name: Spot
-  description: Spot by Flexera provides cloud infrastructure automation and optimization solutions. The platform includes Elastigroup for compute workload management across spot, reserved, and on-demand instances, Ocean for Kubernetes and container infrastructure automation, and Eco for cloud commitment managemen…
-  api_count: 5
-  score_band: thin
-  score_composite: 44.7
   shared: 1
 - slug: cloudhealth
   name: CloudHealth
@@ -148,12 +155,12 @@ providers:
   score_band: thin
   score_composite: 41.5
   shared: 1
-- slug: amazon-billing-and-cost-management
-  name: Amazon Billing And Cost Management
-  description: AWS Billing and Cost Management is a suite of tools and APIs that enables organizations to view, analyze, forecast, budget, and optimize their AWS spending. It includes AWS Cost Explorer for cost analysis, AWS Budgets for budget tracking and alerts, Cost Anomaly Detection for ML-powered anomaly ide…
-  api_count: 3
+- slug: vantage-sh
+  name: Vantage
+  description: Vantage is a cloud cost management and FinOps platform that gives engineering and finance teams visibility into and control over cloud spend across AWS, Azure, GCP, Kubernetes, Datadog, Snowflake, MongoDB, and other providers. Its public REST API (base https://api.vantage.sh/v2) exposes Costs and C…
+  api_count: 10
   score_band: thin
-  score_composite: 40.9
+  score_composite: 38.4
   shared: 1
 - slug: env0
   name: Env0
@@ -175,6 +182,13 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 37.5
+  shared: 1
+- slug: sequence-hq
+  name: Sequence
+  description: Sequence is a usage-based billing, pricing, and revenue orchestration platform for B2B SaaS and other recurring-revenue businesses. It turns product usage and negotiated contract terms into automated billing schedules, invoices, credit notes, and quotes, backed by a metering engine for usage events…
+  api_count: 6
+  score_band: thin
+  score_composite: 37.0
   shared: 1
 - slug: paigo
   name: Paigo
@@ -204,21 +218,10 @@ providers:
   score_band: thin
   score_composite: 35.4
   shared: 1
-- slug: metronome
-  name: Metronome
-  description: Metronome is a usage-based billing platform providing real-time metering, pricing, invoicing, and revenue recognition for API and cloud services.
-  api_count: 1
-  score_band: thin
-  score_composite: 34.8
-  shared: 1
-- slug: orb-billing
-  name: Orb
-  description: Orb is a usage-based billing and metering platform that turns product usage events into subscriptions, prices, invoices, and credits. The Orb REST API ingests metered events, models customers, plans, prices, and items, runs subscriptions, and automates invoicing, credit ledgers, alerts, and webhook…
-  api_count: 10
-  score_band: thin
-  score_composite: 34.8
-  shared: 1
 related:
+- slug: observability
+  name: Observability
+  shared: 2
 - slug: unified-apis
   name: Unified APIs
   shared: 1
@@ -231,17 +234,14 @@ related:
 - slug: developer-experience
   name: Developer Experience
   shared: 1
-- slug: observability
-  name: Observability
-  shared: 1
 - slug: orchestration
   name: Orchestration
   shared: 1
 overview: 'FinOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [finops.apievangelist.com](https://finops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amberflo, Vantage, Cycloid, CAST AI, Choreo, CloudZero, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amberflo, CAST AI, Choreo, Vantage, CloudZero, Cycloid, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Unified APIs, Monetization, IDE, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Unified APIs, Monetization, and IDE. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

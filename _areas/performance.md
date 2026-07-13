@@ -13,7 +13,7 @@ providers:
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
   api_count: 17
   score_band: exemplar
-  score_composite: 74.7
+  score_composite: 76.3
   shared: 1
 - slug: factorial
   name: Factorial
@@ -27,7 +27,7 @@ providers:
   description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the AWS global network to optimize the path from users to applic…
   api_count: 1
   score_band: developing
-  score_composite: 51.9
+  score_composite: 56.7
   shared: 1
 - slug: google-cloud-trace
   name: Google Cloud Trace
@@ -123,9 +123,6 @@ related:
 - slug: deployment
   name: Deployment
   shared: 1
-- slug: integrations
-  name: Integrations
-  shared: 1
 - slug: monitoring
   name: Monitoring
   shared: 1
@@ -138,5 +135,5 @@ overview: 'Performance is one of the API Evangelist areas on the [APIs.io](https
   15 providers on the network work in this area, including New Relic, Factorial, Amazon Global Accelerator, Google Cloud Trace, Google Cloud Profiler, Lunar.dev, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Analysis, Service Mesh, Deployment, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Analysis, Service Mesh, Deployment, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -19,15 +19,15 @@ providers:
   name: Citrix
   description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
   api_count: 12
-  score_band: developing
-  score_composite: 56.2
+  score_band: strong
+  score_composite: 61.8
   shared: 1
 - slug: apache-cloudstack
   name: Apache CloudStack
   description: Apache CloudStack is an open-source cloud computing platform developed by the Apache Software Foundation for creating, managing, and deploying infrastructure cloud services. It provides a comprehensive IaaS platform supporting multiple hypervisors (KVM, VMware vSphere, XenServer) and a rich API for…
   api_count: 1
   score_band: developing
-  score_composite: 54.7
+  score_composite: 59.5
   shared: 1
 - slug: vmware
   name: VMware
@@ -57,6 +57,13 @@ providers:
   score_band: developing
   score_composite: 48.6
   shared: 1
+- slug: broadcom
+  name: Broadcom
+  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
+  api_count: 3
+  score_band: thin
+  score_composite: 44.6
+  shared: 1
 - slug: google-cloud-vmware-engine
   name: Google Cloud VMware Engine
   description: Google Cloud VMware Engine is a fully managed service that lets you run VMware workloads natively on Google Cloud infrastructure. It provides dedicated, single-tenant VMware SDDC environments with vSphere, vSAN, NSX-T, and HCX, enabling seamless migration and management of VMware-based applications…
@@ -85,13 +92,6 @@ providers:
   score_band: thin
   score_composite: 36.4
   shared: 1
-- slug: broadcom
-  name: Broadcom
-  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
-  api_count: 3
-  score_band: thin
-  score_composite: 35.7
-  shared: 1
 - slug: software-defined-networking
   name: Software-Defined Networking
   description: Software-Defined Networking (SDN) is a network architecture approach that decouples the network control plane from the data forwarding plane, enabling dynamic, programmatically efficient network configuration. SDN controllers expose northbound REST APIs for network applications to define routing, l…
@@ -113,14 +113,11 @@ related:
 - slug: management
   name: Management
   shared: 1
-- slug: containers
-  name: Containers
-  shared: 1
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
   14 providers on the network work in this area, including Veritas InfoScale, Citrix, Apache CloudStack, VMware, Vagrant, Nutanix, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, Management, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

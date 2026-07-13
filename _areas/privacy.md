@@ -8,6 +8,20 @@ area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
 provider_count: 53
 providers:
+- slug: amazon-macie
+  name: Amazon Macie
+  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the discovery of sensitive data, such as personally identifiable…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.6
+  shared: 1
+- slug: amazon-clean-rooms
+  name: Amazon Clean Rooms
+  description: Amazon Clean Rooms enables organizations to collaborate and analyze shared datasets without exposing underlying raw data to partners. Create secure data clean rooms in minutes and collaborate with any company while maintaining data privacy through differential privacy, cryptographic computing, and…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.0
+  shared: 1
 - slug: didomi
   name: Didomi
   description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
@@ -20,21 +34,7 @@ providers:
   description: BigID is a New York City-headquartered data security platform that combines Data Security Posture Management (DSPM), Data Loss Prevention (DLP), access governance, AI security & governance (AISPM), privacy automation, and a unified Data & AI Catalog. Founded in 2016 by Dimitri Sirota and Nimrod Vax…
   api_count: 7
   score_band: developing
-  score_composite: 57.5
-  shared: 1
-- slug: amazon-clean-rooms
-  name: Amazon Clean Rooms
-  description: Amazon Clean Rooms enables organizations to collaborate and analyze shared datasets without exposing underlying raw data to partners. Create secure data clean rooms in minutes and collaborate with any company while maintaining data privacy through differential privacy, cryptographic computing, and…
-  api_count: 1
-  score_band: developing
-  score_composite: 56.9
-  shared: 1
-- slug: amazon-macie
-  name: Amazon Macie
-  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the discovery of sensitive data, such as personally identifiable…
-  api_count: 1
-  score_band: developing
-  score_composite: 56.8
+  score_composite: 59.1
   shared: 1
 - slug: swetrix
   name: Swetrix
@@ -42,6 +42,13 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 53.7
+  shared: 1
+- slug: brave
+  name: Brave
+  description: Brave is a privacy-first browser company offering developer APIs for anonymous web search and privacy-preserving advertising. The Brave Search API provides real-time search results from an independent index of over 30 billion pages, designed for AI and LLM applications with schema-enriched results…
+  api_count: 2
+  score_band: developing
+  score_composite: 52.4
   shared: 1
 - slug: transcend-io
   name: Transcend
@@ -64,6 +71,13 @@ providers:
   score_band: developing
   score_composite: 51.4
   shared: 1
+- slug: signal
+  name: Signal
+  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
+  api_count: 6
+  score_band: developing
+  score_composite: 49.5
+  shared: 1
 - slug: haveibeenpwned
   name: HaveIBeenPwned
   description: Have I Been Pwned (HIBP) is Troy Hunt's free breach-notification and credential-exposure service. The HIBP API v3 lets clients search for email addresses, pastes, stealer-log entries, and monitored domains across the world's largest aggregated breach corpus. A separate free k-anonymity password loo…
@@ -84,6 +98,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 49.0
+  shared: 1
+- slug: blueconic
+  name: BlueConic
+  description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.9
   shared: 1
 - slug: plausible
   name: Plausible
@@ -106,26 +127,12 @@ providers:
   score_band: developing
   score_composite: 47.8
   shared: 1
-- slug: signal
-  name: Signal
-  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
-  api_count: 6
-  score_band: developing
-  score_composite: 45.4
-  shared: 1
 - slug: listrak
   name: Listrak
   description: Retail digital marketing platform with a REST API for managing email and SMS campaigns, subscriber data, behavioral triggers, and cross-channel marketing automation
   api_count: 7
   score_band: thin
   score_composite: 43.9
-  shared: 1
-- slug: brave
-  name: Brave
-  description: Brave is a privacy-first browser company offering developer APIs for anonymous web search and privacy-preserving advertising. The Brave Search API provides real-time search results from an independent index of over 30 billion pages, designed for AI and LLM applications with schema-enriched results…
-  api_count: 2
-  score_band: thin
-  score_composite: 43.6
   shared: 1
 - slug: vlex
   name: vLex
@@ -147,13 +154,6 @@ providers:
   api_count: 4
   score_band: thin
   score_composite: 43.1
-  shared: 1
-- slug: blueconic
-  name: BlueConic
-  description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
-  api_count: 1
-  score_band: thin
-  score_composite: 40.1
   shared: 1
 - slug: freshpaint
   name: Freshpaint
@@ -190,6 +190,13 @@ providers:
   score_band: thin
   score_composite: 37.8
   shared: 1
+- slug: aiignore
+  name: .AIIgnore
+  description: The .aiignore file is a configuration specification that tells AI coding agents and LLM-powered developer tools which files, directories, and content should not be read, processed, or modified. Modeled after .gitignore syntax, .aiignore files protect sensitive data, proprietary code, and personal i…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.1
+  shared: 1
 - slug: mailpace
   name: MailPace
   description: MailPace is a fast, privacy-focused transactional email API for developers. It delivers application email - password resets, receipts, notifications - over a simple HTTPS REST API and SMTP, with DKIM-verified sending domains, Ed25519-signed webhooks, and EU-based hosting.
@@ -211,19 +218,15 @@ providers:
   score_band: thin
   score_composite: 35.3
   shared: 1
-- slug: monero
-  name: Monero
-  description: Monero is a privacy-focused, decentralized cryptocurrency providing JSON-RPC APIs for wallet management, transaction creation, mining coordination, and blockchain data access on the Monero (XMR) network. The daemon RPC exposes node and chain operations while the wallet RPC provides comprehensive wa…
-  api_count: 2
-  score_band: thin
-  score_composite: 35.1
-  shared: 1
 related:
+- slug: search
+  name: API Evangelist Search
+  shared: 2
 - slug: encryption
   name: Encryption
   shared: 1
-- slug: search
-  name: API Evangelist Search
+- slug: machine-learning
+  name: Machine Learning
   shared: 1
 - slug: sdk
   name: SDKs
@@ -231,8 +234,8 @@ related:
 overview: 'Privacy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [privacy.apievangelist.com](https://privacy.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Didomi, BigID, Amazon Clean Rooms, Amazon Macie, Swetrix, Transcend, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Macie, Amazon Clean Rooms, Didomi, BigID, Swetrix, Brave, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Encryption, API Evangelist Search, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Search, Encryption, Machine Learning, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

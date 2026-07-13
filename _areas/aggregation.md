@@ -13,7 +13,7 @@ providers:
   description: At AB Tasty, we are your partner for pushing great ideas even further through optimization. We achieve this by empowering brands to build better experiences using personalization, experimentation, recommendations, merchandising, and the market's only emotions-based segmentation solution.
   api_count: 3
   score_band: developing
-  score_composite: 52.4
+  score_composite: 55.6
   shared: 1
 - slug: mx-platform
   name: MX Platform

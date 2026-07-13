@@ -33,8 +33,8 @@ providers:
   name: Agent Skills
   description: A collection of resources, APIs, and standards related to AI agent skills and capabilities. Agent skills represent the tools, functions, and capabilities that AI agents can invoke to accomplish tasks — spanning web search, code execution, file management, memory, and external API integrations. This…
   api_count: 3
-  score_band: minimal
-  score_composite: 29.0
+  score_band: thin
+  score_composite: 37.8
   shared: 1
 - slug: windsurf
   name: Windsurf

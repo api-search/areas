@@ -6,42 +6,42 @@ description: DNS (Domain Name System) is the distributed naming system that tran
 area_url: https://dns.apievangelist.com
 area_host: dns.apievangelist.com
 icon: https://dns.apievangelist.com/icon-thumb.png
-provider_count: 26
+provider_count: 27
 providers:
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 5
-  score_band: strong
-  score_composite: 67.8
+  score_band: exemplar
+  score_composite: 70.9
   shared: 1
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 54
   score_band: strong
-  score_composite: 65.6
-  shared: 1
-- slug: amazon-cloud-map
-  name: Amazon Cloud Map
-  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
-  api_count: 1
-  score_band: developing
-  score_composite: 55.3
+  score_composite: 69.7
   shared: 1
 - slug: completedns
   name: CompleteDNS
   description: CompleteDNS is a DNS research platform that tracks nameserver modifications and domain drops, with over twenty years of history and billions of recorded changes. The CompleteDNS API exposes domain-scoped lookups that return the chronological history of nameserver changes, drop events, and parking s…
   api_count: 2
   score_band: developing
-  score_composite: 53.7
+  score_composite: 58.5
+  shared: 1
+- slug: amazon-cloud-map
+  name: Amazon Cloud Map
+  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
+  api_count: 1
+  score_band: developing
+  score_composite: 58.4
   shared: 1
 - slug: amazon-route53-resolver
   name: Amazon Route 53 Resolver
   description: Amazon Route 53 Resolver provides DNS resolution for hybrid cloud environments, enabling DNS queries between your VPCs and on-premises networks. It allows you to configure DNS forwarding rules, manage resolver endpoints, and set up conditional forwarding to resolve domain names across your hybrid i…
   api_count: 1
   score_band: developing
-  score_composite: 53.4
+  score_composite: 58.1
   shared: 1
 - slug: google-cloud-dns
   name: Google Cloud DNS
@@ -85,19 +85,19 @@ providers:
   score_band: thin
   score_composite: 42.4
   shared: 1
+- slug: bunny-net
+  name: Bunny.net
+  description: Bunny.net is a content-delivery and edge platform offering a global CDN, edge storage, video streaming, DNS, image optimisation, edge scripting, and WAF / security shielding. The Bunny.net Core Platform REST API at api.bunny.net manages account-level resources - Pull Zones, Storage Zones, DNS Zones…
+  api_count: 16
+  score_band: thin
+  score_composite: 41.8
+  shared: 1
 - slug: unstoppable-domains
   name: Unstoppable Domains
   description: Web3 domain name service providing REST APIs for resolving crypto domain names, managing NFT domains, reverse lookups, cross-chain address resolution, domain registration, and DNS management across 150+ TLDs on multiple blockchains.
   api_count: 4
   score_band: thin
   score_composite: 41.7
-  shared: 1
-- slug: bunny-net
-  name: Bunny.net
-  description: Bunny.net is a content-delivery and edge platform offering a global CDN, edge storage, video streaming, DNS, image optimisation, edge scripting, and WAF / security shielding. The Bunny.net Core Platform REST API at api.bunny.net manages account-level resources - Pull Zones, Storage Zones, DNS Zones…
-  api_count: 16
-  score_band: thin
-  score_composite: 37.7
   shared: 1
 - slug: nacos
   name: Nacos
@@ -176,6 +176,13 @@ providers:
   score_band: minimal
   score_composite: 20.5
   shared: 1
+- slug: domscan
+  name: DomScan
+  description: Domain intelligence API for domain availability, DNS, WHOIS/RDAP, valuation, security checks, email posture, social handle checks, and monitoring workflows. Offers REST API, machine-readable contracts, a hosted MCP server, and llms.txt.
+  api_count: 1
+  score_band: minimal
+  score_composite: 17.4
+  shared: 1
 - slug: cloudflare-com
   name: Cloudflare.com
   description: cloudflare-com is an alias profile for Cloudflare. The canonical company profile lives at the cloudflare repository in the API Evangelist Network; this entry exists so that the ".com" form of the brand resolves into the same canonical record. Cloudflare's developer surface includes a single unified…
@@ -212,7 +219,7 @@ related:
 overview: 'DNS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [dns.apievangelist.com](https://dns.apievangelist.com).
 
 
-  26 providers on the network work in this area, including Shodan, Cloudflare, Amazon Cloud Map, CompleteDNS, Amazon Route 53 Resolver, Google Cloud DNS, and 20 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  27 providers on the network work in this area, including Shodan, Cloudflare, CompleteDNS, Amazon Cloud Map, Amazon Route 53 Resolver, Google Cloud DNS, and 21 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Network, Security, Scraping, and Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'

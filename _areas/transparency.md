@@ -6,8 +6,15 @@ description: An index and topic collection covering public-facing transparency s
 area_url: https://transparency.apievangelist.com
 area_host: transparency.apievangelist.com
 icon: https://transparency.apievangelist.com/icon-thumb.png
-provider_count: 4
+provider_count: 5
 providers:
+- slug: open-payments
+  name: CMS Open Payments
+  description: CMS Open Payments is the U.S. federal transparency program (run by the Centers for Medicare and Medicaid Services) that publishes payments and transfers of value made by drug and medical device manufacturers and group purchasing organizations to physicians, non-physician practitioners, and teaching…
+  api_count: 5
+  score_band: thin
+  score_composite: 35.4
+  shared: 1
 - slug: free-law-project
   name: Free Law Project
   description: Free Law Project is a non-profit organization that seeks to increase access to justice and transparency in the legal system through the use of technology and open data.
@@ -40,5 +47,5 @@ related: []
 overview: 'Transparency is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [transparency.apievangelist.com](https://transparency.apievangelist.com).
 
 
-  Providers on the network working in this area include Free Law Project, Freedom of Information Act, USAspending.gov, and ENTSO-E — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  Providers on the network working in this area include CMS Open Payments, Free Law Project, Freedom of Information Act, USAspending.gov, and ENTSO-E — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

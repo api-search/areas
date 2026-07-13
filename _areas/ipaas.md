@@ -12,8 +12,8 @@ providers:
   name: Workato
   description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
   api_count: 4
-  score_band: strong
-  score_composite: 69.9
+  score_band: exemplar
+  score_composite: 70.5
   shared: 1
 - slug: oracle-integration
   name: Oracle Integration
@@ -36,6 +36,13 @@ providers:
   score_band: strong
   score_composite: 62.5
   shared: 1
+- slug: apifuse
+  name: Apifuse
+  description: Apifuse is a native integration platform that enables SaaS companies to build and embed integrations directly into their products. It provides a white-label integration solution with pre-built connectors across 20+ categories, an embeddable UI, workflow automation, and analytics tools that help dev…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.5
+  shared: 1
 - slug: sap-integration-suite
   name: SAP Integration Suite
   description: SAP Integration Suite is an enterprise integration platform as a service (iPaaS) that connects applications, processes, and people across cloud and on-premises environments. It includes capabilities for Cloud Integration, API Management, Integration Advisor, Open Connectors, Trading Partner Managem…
@@ -50,12 +57,12 @@ providers:
   score_band: developing
   score_composite: 57.7
   shared: 1
-- slug: apifuse
-  name: Apifuse
-  description: Apifuse is a native integration platform that enables SaaS companies to build and embed integrations directly into their products. It provides a white-label integration solution with pre-built connectors across 20+ categories, an embeddable UI, workflow automation, and analytics tools that help dev…
+- slug: aws-step-functions
+  name: AWS Step Functions
+  description: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error handling and retries.
   api_count: 1
   score_band: developing
-  score_composite: 55.8
+  score_composite: 57.6
   shared: 1
 - slug: stackone
   name: StackOne
@@ -71,12 +78,12 @@ providers:
   score_band: developing
   score_composite: 53.2
   shared: 1
-- slug: aws-step-functions
-  name: AWS Step Functions
-  description: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error handling and retries.
+- slug: elastic-io
+  name: Elastic.io
+  description: Elastic IO is a cloud-based integration platform that helps businesses effortlessly connect their various applications, systems, and services. By providing a user-friendly interface and a wide range of pre-built connectors, elastic.io allows organizations to automate and streamline their data integ…
   api_count: 1
   score_band: developing
-  score_composite: 52.9
+  score_composite: 51.5
   shared: 1
 - slug: tray-io
   name: Tray.io
@@ -98,6 +105,20 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 47.3
+  shared: 1
+- slug: azure-logic-apps
+  name: Azure Logic Apps
+  description: Azure Logic Apps is a cloud-based integration platform that enables you to create and run automated workflows integrating apps, data, services, and systems across cloud and on-premises environments.
+  api_count: 1
+  score_band: developing
+  score_composite: 46.5
+  shared: 1
+- slug: celigo
+  name: Celigo
+  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
+  api_count: 4
+  score_band: developing
+  score_composite: 46.1
   shared: 1
 - slug: make
   name: Make
@@ -127,33 +148,12 @@ providers:
   score_band: thin
   score_composite: 43.9
   shared: 1
-- slug: elastic-io
-  name: Elastic.io
-  description: Elastic IO is a cloud-based integration platform that helps businesses effortlessly connect their various applications, systems, and services. By providing a user-friendly interface and a wide range of pre-built connectors, elastic.io allows organizations to automate and streamline their data integ…
-  api_count: 1
-  score_band: thin
-  score_composite: 42.7
-  shared: 1
-- slug: azure-logic-apps
-  name: Azure Logic Apps
-  description: Azure Logic Apps is a cloud-based integration platform that enables you to create and run automated workflows integrating apps, data, services, and systems across cloud and on-premises environments.
-  api_count: 1
-  score_band: thin
-  score_composite: 41.7
-  shared: 1
 - slug: software-ag
   name: Software AG
   description: Software AG provides enterprise integration and API management through webMethods, a platform for connecting applications, processes, and people across hybrid cloud and on-premises environments. The webMethods platform includes API Gateway, Developer Portal, Integration Server, and cloud-native int…
   api_count: 3
   score_band: thin
   score_composite: 40.9
-  shared: 1
-- slug: celigo
-  name: Celigo
-  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
-  api_count: 4
-  score_band: thin
-  score_composite: 39.7
   shared: 1
 - slug: useparagon
   name: Paragon
@@ -230,7 +230,7 @@ related:
   shared: 5
 - slug: ai-automation
   name: AI Automation
-  shared: 4
+  shared: 3
 - slug: orchestration
   name: Orchestration
   shared: 2
@@ -240,7 +240,7 @@ related:
 overview: 'iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ipaas.apievangelist.com](https://ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Workato, Oracle Integration, Paragon, Zapier, SAP Integration Suite, Tray.ai, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Workato, Oracle Integration, Paragon, Zapier, Apifuse, SAP Integration Suite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS, Integrations, Workflow Automation, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

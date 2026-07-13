@@ -8,6 +8,13 @@ area_host: ide.apievangelist.com
 icon: https://ide.apievangelist.com/icon-thumb.png
 provider_count: 19
 providers:
+- slug: choreo
+  name: Choreo
+  description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
+  api_count: 3
+  score_band: strong
+  score_composite: 62.7
+  shared: 1
 - slug: workday-studio
   name: Workday Studio
   description: Workday Studio is an integrated development environment (IDE) for building custom integrations and applications on the Workday platform. It provides tools for creating web services, custom reports, and integration solutions.
@@ -20,21 +27,14 @@ providers:
   description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
   api_count: 12
   score_band: developing
-  score_composite: 55.8
-  shared: 1
-- slug: choreo
-  name: Choreo
-  description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
-  api_count: 3
-  score_band: developing
-  score_composite: 53.9
+  score_composite: 57.3
   shared: 1
 - slug: amazon-cloud9
   name: Amazon Cloud9
   description: AWS Cloud9 is a browser-based integrated development environment (IDE) that enables developers to write, run, and debug code without installing local software. Supports 40+ programming languages with real-time collaboration, integrated terminal, and pre-authenticated AWS CLI.
   api_count: 1
   score_band: developing
-  score_composite: 51.1
+  score_composite: 55.8
   shared: 1
 - slug: vs-code-marketplace
   name: VS Code Marketplace
@@ -154,13 +154,16 @@ related:
 - slug: finops
   name: FinOps
   shared: 1
+- slug: observability
+  name: Observability
+  shared: 1
 - slug: orchestration
   name: Orchestration
   shared: 1
 overview: 'IDE is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ide.apievangelist.com](https://ide.apievangelist.com).
 
 
-  19 providers on the network work in this area, including Workday Studio, GitHub Copilot, Choreo, Amazon Cloud9, VS Code Marketplace, Windsurf, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  19 providers on the network work in this area, including Choreo, Workday Studio, GitHub Copilot, Amazon Cloud9, VS Code Marketplace, Windsurf, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agent Skills, Unified APIs, Agents, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,14 +6,28 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 153
+provider_count: 179
 providers:
+- slug: boomi
+  name: Boomi
+  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 70.7
+  shared: 1
 - slug: kinde
   name: Kinde
   description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
   api_count: 3
   score_band: exemplar
   score_composite: 70.3
+  shared: 1
+- slug: oracle
+  name: Oracle
+  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
+  api_count: 52
+  score_band: strong
+  score_composite: 68.9
   shared: 1
 - slug: svix
   name: Svix
@@ -22,19 +36,19 @@ providers:
   score_band: strong
   score_composite: 68.8
   shared: 1
-- slug: oracle
-  name: Oracle
-  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
-  api_count: 52
+- slug: onfleet
+  name: Onfleet
+  description: Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kro…
+  api_count: 8
   score_band: strong
-  score_composite: 66.4
+  score_composite: 64.0
   shared: 1
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 12
+- slug: appsumo
+  name: AppSumo
+  description: AppSumo Licensing API Documentation - v2.
+  api_count: 1
   score_band: strong
-  score_composite: 63.4
+  score_composite: 63.5
   shared: 1
 - slug: dell-servers
   name: Dell Servers
@@ -48,7 +62,14 @@ providers:
   description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
   api_count: 17
   score_band: strong
-  score_composite: 62.0
+  score_composite: 62.6
+  shared: 1
+- slug: helpscout
+  name: Help Scout
+  description: Help Scout is an email-first help desk platform with shared inboxes, live chat, knowledge bases, and a customer portal. The Help Scout APIs expose conversations, customers, inboxes, users, workflows, ratings, reports, Docs (knowledge base), Beacon (in-app messaging), and webhooks.
+  api_count: 17
+  score_band: strong
+  score_composite: 62.3
   shared: 1
 - slug: workday-recruiting
   name: Workday Recruiting
@@ -57,12 +78,26 @@ providers:
   score_band: strong
   score_composite: 61.8
   shared: 1
-- slug: onfleet
-  name: Onfleet
-  description: Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kro…
-  api_count: 8
+- slug: amazon-appflow
+  name: Amazon AppFlow
+  description: Amazon AppFlow is a fully managed integration service that enables you to securely transfer data between SaaS applications like Salesforce, SAP, Zendesk, Slack, and ServiceNow, and AWS services like Amazon S3 and Amazon Redshift, in just a few clicks.
+  api_count: 1
+  score_band: strong
+  score_composite: 61.5
+  shared: 1
+- slug: apifuse
+  name: Apifuse
+  description: Apifuse is a native integration platform that enables SaaS companies to build and embed integrations directly into their products. It provides a white-label integration solution with pre-built connectors across 20+ categories, an embeddable UI, workflow automation, and analytics tools that help dev…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.5
+  shared: 1
+- slug: bettercloud
+  name: BetterCloud
+  description: BetterCloud is the end-to-end SaaS management platform that enables IT teams to discover, manage, and secure the growing SaaS environment. The platform provides automated workflows, security policies, and management capabilities for SaaS applications in enterprise environments, handling billions of…
+  api_count: 1
   score_band: developing
-  score_composite: 59.9
+  score_composite: 59.1
   shared: 1
 - slug: mobileapi-dev
   name: MobileAPI.dev
@@ -71,19 +106,19 @@ providers:
   score_band: developing
   score_composite: 58.7
   shared: 1
-- slug: amazon-appflow
-  name: Amazon AppFlow
-  description: Amazon AppFlow is a fully managed integration service that enables you to securely transfer data between SaaS applications like Salesforce, SAP, Zendesk, Slack, and ServiceNow, and AWS services like Amazon S3 and Amazon Redshift, in just a few clicks.
-  api_count: 1
+- slug: pipedrive
+  name: Pipedrive
+  description: Pipedrive is a sales CRM and pipeline management tool focused on small and mid-market teams. The Pipedrive REST API exposes deals, persons, organizations, activities, leads, products, pipelines, stages, mail, calls, files, notes, users, permissions, filters, goals, subscriptions, and webhooks.
+  api_count: 21
   score_band: developing
-  score_composite: 58.4
+  score_composite: 57.1
   shared: 1
-- slug: appsumo
-  name: AppSumo
-  description: AppSumo Licensing API Documentation - v2.
-  api_count: 1
+- slug: workday
+  name: Workday
+  description: Collection of Workday REST and SOAP APIs for human capital management, financial management, enterprise planning, analytics, and platform extensibility.
+  api_count: 20
   score_band: developing
-  score_composite: 57.8
+  score_composite: 56.8
   shared: 1
 - slug: housecall-pro
   name: Housecall Pro
@@ -92,12 +127,12 @@ providers:
   score_band: developing
   score_composite: 56.2
   shared: 1
-- slug: bettercloud
-  name: BetterCloud
-  description: BetterCloud is the end-to-end SaaS management platform that enables IT teams to discover, manage, and secure the growing SaaS environment. The platform provides automated workflows, security policies, and management capabilities for SaaS applications in enterprise environments, handling billions of…
-  api_count: 1
+- slug: cloudinary
+  name: Cloudinary
+  description: Cloudinary is a cloud-based service that provides comprehensive solutions for managing digital media assets, including images and videos, for websites and mobile applications. The platform exposes REST APIs for uploading and transforming media, administering assets and product environments, provisi…
+  api_count: 7
   score_band: developing
-  score_composite: 56.0
+  score_composite: 55.9
   shared: 1
 - slug: mews-com
   name: Mews
@@ -106,19 +141,19 @@ providers:
   score_band: developing
   score_composite: 55.9
   shared: 1
-- slug: workday
-  name: Workday
-  description: Collection of Workday REST and SOAP APIs for human capital management, financial management, enterprise planning, analytics, and platform extensibility.
-  api_count: 20
-  score_band: developing
-  score_composite: 55.9
-  shared: 1
-- slug: apifuse
-  name: Apifuse
-  description: Apifuse is a native integration platform that enables SaaS companies to build and embed integrations directly into their products. It provides a white-label integration solution with pre-built connectors across 20+ categories, an embeddable UI, workflow automation, and analytics tools that help dev…
+- slug: amazon-systems-manager
+  name: Amazon Systems Manager
+  description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
   api_count: 1
   score_band: developing
   score_composite: 55.8
+  shared: 1
+- slug: ampersand
+  name: Ampersand
+  description: Ampersand is a developer-first platform for building native SaaS integrations. It provides an embeddable UI component and managed infrastructure that lets developers add product integrations quickly, handling OAuth, data sync, webhooks, and field mapping out of the box. The platform supports hundre…
+  api_count: 1
+  score_band: developing
+  score_composite: 55.7
   shared: 1
 - slug: workday-payroll
   name: Workday Payroll
@@ -134,19 +169,26 @@ providers:
   score_band: developing
   score_composite: 55.3
   shared: 1
-- slug: helpscout
-  name: Help Scout
-  description: Help Scout is an email-first help desk platform with shared inboxes, live chat, knowledge bases, and a customer portal. The Help Scout APIs expose conversations, customers, inboxes, users, workflows, ratings, reports, Docs (knowledge base), Beacon (in-app messaging), and webhooks.
-  api_count: 17
+- slug: blissfully
+  name: Blissfully
+  description: Blissfully was a SaaS management platform providing SaaS discovery, spend optimization, and workflow automation for IT and finance teams. Blissfully was acquired by Vendr in 2022 and integrated into the Vendr platform. Vendr is now a leading SaaS buying and management platform that helps companies…
+  api_count: 4
   score_band: developing
-  score_composite: 55.1
+  score_composite: 54.9
+  shared: 1
+- slug: trelica
+  name: Trelica
+  description: Trelica is a SaaS management platform (now part of 1Password SaaS Manager) providing application discovery, license optimization, contract management, and workflow automation for IT teams. The platform offers a REST API covering applications, users, people, contracts, workflows, assets, and audit l…
+  api_count: 1
+  score_band: developing
+  score_composite: 54.4
   shared: 1
 - slug: buildxact
   name: Buildxact
   description: Buildxact is a Melbourne, Australia-headquartered construction estimating and project management SaaS for residential builders, remodelers, trade contractors, and building-material suppliers. Founded in 2011, the company operates regional offices in Austin, Texas (North America), and serves custome…
   api_count: 2
   score_band: developing
-  score_composite: 54.3
+  score_composite: 53.3
   shared: 1
 - slug: snaplogic
   name: SnapLogic
@@ -154,20 +196,6 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 53.2
-  shared: 1
-- slug: trelica
-  name: Trelica
-  description: Trelica is a SaaS management platform (now part of 1Password SaaS Manager) providing application discovery, license optimization, contract management, and workflow automation for IT teams. The platform offers a REST API covering applications, users, people, contracts, workflows, assets, and audit l…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.8
-  shared: 1
-- slug: ampersand
-  name: Ampersand
-  description: Ampersand is a developer-first platform for building native SaaS integrations. It provides an embeddable UI component and managed infrastructure that lets developers add product integrations quickly, handling OAuth, data sync, webhooks, and field mapping out of the box. The platform supports hundre…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.5
   shared: 1
 - slug: microsoft-power-apps
   name: Microsoft Power Apps
@@ -190,47 +218,19 @@ providers:
   score_band: developing
   score_composite: 52.1
   shared: 1
-- slug: blissfully
-  name: Blissfully
-  description: Blissfully was a SaaS management platform providing SaaS discovery, spend optimization, and workflow automation for IT and finance teams. Blissfully was acquired by Vendr in 2022 and integrated into the Vendr platform. Vendr is now a leading SaaS buying and management platform that helps companies…
-  api_count: 4
-  score_band: developing
-  score_composite: 51.7
-  shared: 1
-- slug: zluri
-  name: Zluri
-  description: Zluri is a SaaS management and operations platform that helps organizations discover, govern, and optimize all their cloud applications. By connecting to SSO, finance, HR systems, and app APIs, it builds a unified system of record for SaaS usage, users, licenses, and spend. IT, finance, and procure…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.6
-  shared: 1
-- slug: lever
-  name: Lever
-  description: Lever is a talent acquisition and applicant tracking platform built on the Opportunities data model. The Lever API exposes candidates, opportunities, postings, interviews, feedback, requisitions, users, files, webhooks, and a public Postings API for embedding job sites.
-  api_count: 23
-  score_band: developing
-  score_composite: 51.5
-  shared: 1
-- slug: apollo-io
-  name: Apollo.io
-  description: Apollo.io is a sales intelligence and engagement platform combining a 270M+ contact database with email and call sequencing. The Apollo REST API exposes people search & enrichment, organization search & enrichment, contacts, accounts, deals, sequences, email accounts, calls, tasks, meetings, lists,…
-  api_count: 22
-  score_band: developing
-  score_composite: 50.8
-  shared: 1
 related:
 - slug: management
   name: Management
-  shared: 3
+  shared: 4
 - slug: integrations
   name: Integrations
   shared: 4
-- slug: ai-automation
-  name: AI Automation
-  shared: 3
 - slug: webhooks
   name: Webhooks
   shared: 3
+- slug: ai-automation
+  name: AI Automation
+  shared: 2
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 2
@@ -240,8 +240,8 @@ related:
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Kinde, Svix, Oracle, Boomi, Dell Servers, Adobe Creative Cloud, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Boomi, Kinde, Oracle, Svix, Onfleet, AppSumo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, Integrations, AI Automation, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, Integrations, Webhooks, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

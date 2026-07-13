@@ -13,21 +13,21 @@ providers:
   description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
   api_count: 1
   score_band: strong
-  score_composite: 62.6
-  shared: 1
-- slug: microsoft-visio
-  name: Microsoft Visio
-  description: APIs and resources for Microsoft Visio, a diagramming and vector graphics application that helps visualize data-connected business process flows. Provides programmatic access to diagrams, pages, shapes, data items, comments, and hyperlinks through Microsoft Graph and JavaScript APIs.
-  api_count: 2
-  score_band: developing
-  score_composite: 58.7
+  score_composite: 67.3
   shared: 1
 - slug: amazon-quicksight
   name: Amazon QuickSight
   description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
   api_count: 1
-  score_band: developing
-  score_composite: 57.5
+  score_band: strong
+  score_composite: 62.2
+  shared: 1
+- slug: microsoft-visio
+  name: Microsoft Visio
+  description: APIs and resources for Microsoft Visio, a diagramming and vector graphics application that helps visualize data-connected business process flows. Provides programmatic access to diagrams, pages, shapes, data items, comments, and hyperlinks through Microsoft Graph and JavaScript APIs.
+  api_count: 2
+  score_band: strong
+  score_composite: 60.2
   shared: 1
 - slug: google-data-studio
   name: Google Data Studio
@@ -48,7 +48,7 @@ providers:
   description: Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. It provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards.
   api_count: 6
   score_band: developing
-  score_composite: 56.4
+  score_composite: 57.4
   shared: 1
 - slug: qlik-sense
   name: Qlik Sense
@@ -141,14 +141,17 @@ related:
 - slug: logging
   name: Logging
   shared: 1
+- slug: machine-learning
+  name: Machine Learning
+  shared: 1
 - slug: observability
   name: Observability
   shared: 1
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Amazon Managed Grafana, Microsoft Visio, Amazon QuickSight, Google Data Studio, Microsoft Visio API, Power BI, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Amazon Managed Grafana, Amazon QuickSight, Microsoft Visio, Google Data Studio, Microsoft Visio API, Power BI, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Monitoring, Logging, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Monitoring, Logging, Machine Learning, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

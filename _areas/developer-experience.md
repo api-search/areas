@@ -6,8 +6,15 @@ description: This is the index of developer experience service and tooling repos
 area_url: https://developer-experience.apievangelist.com
 area_host: developer-experience.apievangelist.com
 icon: https://developer-experience.apievangelist.com/icon-thumb.png
-provider_count: 32
+provider_count: 36
 providers:
+- slug: apimatic
+  name: APIMatic
+  description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languag…
+  api_count: 2
+  score_band: strong
+  score_composite: 66.2
+  shared: 1
 - slug: treblle
   name: Treblle
   description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
@@ -15,12 +22,12 @@ providers:
   score_band: strong
   score_composite: 62.4
   shared: 1
-- slug: apimatic
-  name: APIMatic
-  description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languag…
-  api_count: 2
+- slug: apple
+  name: Apple
+  description: Collection of Apple's public APIs and developer resources.
+  api_count: 19
   score_band: developing
-  score_composite: 57.4
+  score_composite: 56.2
   shared: 1
 - slug: cycloid
   name: Cycloid
@@ -34,14 +41,7 @@ providers:
   description: Acquia is a leading provider of digital experience management solutions for organizations looking to enhance their online presence. They offer a range of services, including cloud hosting, digital asset management, and content management, to help businesses create, manage, and optimize their websit…
   api_count: 3
   score_band: developing
-  score_composite: 51.0
-  shared: 1
-- slug: apple
-  name: Apple
-  description: Collection of Apple's public APIs and developer resources.
-  api_count: 19
-  score_band: developing
-  score_composite: 50.5
+  score_composite: 54.1
   shared: 1
 - slug: fern
   name: Fern
@@ -113,12 +113,47 @@ providers:
   score_band: thin
   score_composite: 44.1
   shared: 1
+- slug: gitbook
+  name: GitBook
+  description: GitBook is a platform that allows users to create, publish, and share online books and documentation. It provides a simple and user-friendly interface for writing and organizing content, as well as tools for collaborating with other authors or team members. With GitBook, users can easily create a p…
+  api_count: 1
+  score_band: thin
+  score_composite: 42.4
+  shared: 1
 - slug: cortex
   name: Cortex
   description: Cortex is an Engineering Operations (EngOps) platform and internal developer portal that helps engineering teams catalog services, enforce production readiness with scorecards, automate self-service workflows, and surface engineering intelligence across their organization. Cortex centralizes data f…
   api_count: 2
   score_band: thin
   score_composite: 42.0
+  shared: 1
+- slug: american-airlines
+  name: American Airlines
+  description: American Airlines is one of the world's largest airlines, operating an extensive domestic and international route network. The company's Runway developer experience platform, built on Spotify's Backstage, provides internal developer tooling and API management for engineering teams. American Airline…
+  api_count: 1
+  score_band: thin
+  score_composite: 40.8
+  shared: 1
+- slug: roadie-io
+  name: Roadie
+  description: Roadie is managed Backstage - a fully hosted internal developer portal (IDP) and software catalog delivered as SaaS, so teams get the Backstage software catalog, TechDocs, Scaffolder software templates, Tech Insights scorecards, and 75+ plugins without operating Backstage themselves. Roadie exposes…
+  api_count: 6
+  score_band: thin
+  score_composite: 38.6
+  shared: 1
+- slug: fern-api
+  name: Fern
+  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generates type-safe SDKs in TypeScript, Python, Go, Java, C#, PHP,…
+  api_count: 4
+  score_band: thin
+  score_composite: 38.4
+  shared: 1
+- slug: cortex-idp
+  name: Cortex
+  description: Cortex (cortex.io) is an internal developer portal (IDP) and software catalog platform. It gives engineering organizations a catalog of services and entities, Scorecards that measure those entities against production-readiness and reliability standards, Initiatives for driving improvement campaigns…
+  api_count: 6
+  score_band: thin
+  score_composite: 38.0
   shared: 1
 - slug: configure8
   name: Configure8
@@ -133,13 +168,6 @@ providers:
   api_count: 4
   score_band: thin
   score_composite: 36.9
-  shared: 1
-- slug: american-airlines
-  name: American Airlines
-  description: American Airlines is one of the world's largest airlines, operating an extensive domestic and international route network. The company's Runway developer experience platform, built on Spotify's Backstage, provides internal developer tooling and API management for engineering teams. American Airline…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.1
   shared: 1
 - slug: stainless-api
   name: Stainless
@@ -169,12 +197,12 @@ providers:
   score_band: thin
   score_composite: 35.4
   shared: 1
-- slug: gitbook
-  name: GitBook
-  description: GitBook is a platform that allows users to create, publish, and share online books and documentation. It provides a simple and user-friendly interface for writing and organizing content, as well as tools for collaborating with other authors or team members. With GitBook, users can easily create a p…
-  api_count: 1
+- slug: speakeasy-api
+  name: Speakeasy
+  description: Speakeasy is an API developer-experience platform that generates production-ready, type-safe SDKs (client libraries), Terraform providers, MCP servers, CLIs, code samples, and docs from an OpenAPI specification. The primary interface is the Speakeasy CLI plus GitHub Actions and the hosted platform,…
+  api_count: 12
   score_band: thin
-  score_composite: 35.2
+  score_composite: 33.7
   shared: 1
 - slug: port-io
   name: Port
@@ -190,38 +218,10 @@ providers:
   score_band: thin
   score_composite: 30.7
   shared: 1
-- slug: score
-  name: Score
-  description: Score is an open-source, platform-agnostic workload specification developed under the Cloud Native Computing Foundation (CNCF) Sandbox program. It provides a developer-centric YAML specification that enables teams to define application workloads once and deploy them across multiple container platfo…
-  api_count: 3
-  score_band: minimal
-  score_composite: 28.5
-  shared: 1
-- slug: pulse-software
-  name: Pulse Software
-  description: The Pulse API is targeted towards developers looking to automate tasks in Pulse.
-  api_count: 1
-  score_band: minimal
-  score_composite: 27.1
-  shared: 1
-- slug: kratix
-  name: Kratix
-  description: Kratix is an open-source framework for building internal developer platforms using Kubernetes, enabling platform teams to deliver customizable, composable Promises as a Service. Kratix exposes its capabilities through Kubernetes Custom Resource Definitions (Promise, Resource, WorkloadGroup, Destina…
-  api_count: 1
-  score_band: minimal
-  score_composite: 25.0
-  shared: 1
-- slug: apiable
-  name: Apiable
-  description: Apiable is an API portal platform that enables businesses to create single-tenant, white-label developer portals with custom domains, branding, and API product management. It supports API monetization, developer self-service onboarding, usage metrics, subscription lifecycle management, and integrat…
-  api_count: 1
-  score_band: minimal
-  score_composite: 24.1
-  shared: 1
 related:
 - slug: documentation
   name: Documentation
-  shared: 4
+  shared: 5
 - slug: sdk
   name: SDKs
   shared: 4
@@ -231,16 +231,16 @@ related:
 - slug: search
   name: API Evangelist Search
   shared: 1
+- slug: cli
+  name: Command Line Interface
+  shared: 1
 - slug: deployment
   name: Deployment
-  shared: 1
-- slug: finops
-  name: FinOps
   shared: 1
 overview: 'Developer Experience is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [developer-experience.apievangelist.com](https://developer-experience.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Treblle, APIMatic, Cycloid, Acquia, Apple, Fern, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including APIMatic, Treblle, Apple, Cycloid, Acquia, Fern, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation, SDKs, Design, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'

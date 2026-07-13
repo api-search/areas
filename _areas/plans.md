@@ -8,19 +8,19 @@ area_host: plans.apievangelist.com
 icon: https://plans.apievangelist.com/icon-thumb.png
 provider_count: 3
 providers:
+- slug: fieldwire
+  name: Fieldwire
+  description: ''
+  api_count: 9
+  score_band: developing
+  score_composite: 57.2
+  shared: 1
 - slug: plandex
   name: Plandex
   description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
   api_count: 1
   score_band: developing
   score_composite: 56.0
-  shared: 1
-- slug: fieldwire
-  name: Fieldwire
-  description: ''
-  api_count: 9
-  score_band: developing
-  score_composite: 53.1
   shared: 1
 - slug: priceops
   name: PriceOps
@@ -42,7 +42,7 @@ related:
 overview: 'Plans is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [plans.apievangelist.com](https://plans.apievangelist.com).
 
 
-  Providers on the network working in this area include Plandex, Fieldwire, and PriceOps — each links out to that provider''s APIs, schemas, and governance artifacts.
+  Providers on the network working in this area include Fieldwire, Plandex, and PriceOps — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monetization, Agents, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

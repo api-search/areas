@@ -13,21 +13,21 @@ providers:
   description: AWS Mainframe Modernization provides tools and resources to help you plan and implement migration and modernization of your mainframe applications to AWS. It supports automated refactoring and replatforming of COBOL applications to run natively on AWS with managed runtime environments, deployment p…
   api_count: 1
   score_band: strong
-  score_composite: 62.3
+  score_composite: 67.0
   shared: 1
 - slug: amazon-datasync
   name: Amazon DataSync
   description: AWS DataSync is an online data transfer service that simplifies, automates, and accelerates moving data between on-premises storage systems, AWS storage services, and other cloud storage. DataSync can transfer data at speeds up to 10 times faster than open-source tools by using purpose-built networ…
   api_count: 1
-  score_band: developing
-  score_composite: 58.4
+  score_band: strong
+  score_composite: 63.1
   shared: 1
 - slug: amazon-dms
   name: Amazon DMS
   description: AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. AWS DMS can migrate your data to and from the most widely used commerc…
   api_count: 1
-  score_band: developing
-  score_composite: 56.5
+  score_band: strong
+  score_composite: 61.2
   shared: 1
 - slug: microsoft-azure-migrate
   name: Azure Migrate
@@ -57,19 +57,19 @@ providers:
   score_band: thin
   score_composite: 40.8
   shared: 1
+- slug: amazon-application-migration-service
+  name: Amazon Application Migration Service
+  description: AWS Application Migration Service (MGN) is the primary migration service recommended for lift-and-shift migrations to AWS. It allows organizations to quickly realize the benefits of migrating applications to the cloud without changes and with minimal downtime.
+  api_count: 1
+  score_band: thin
+  score_composite: 36.9
+  shared: 1
 - slug: kubevirt
   name: KubeVirt
   description: KubeVirt is a CNCF incubating project that extends Kubernetes to run traditional virtual machines alongside containers. It allows users to create, manage, and run VMs using the same Kubernetes APIs and tools used for containers. KubeVirt is ideal for migrating legacy workloads to Kubernetes without…
   api_count: 2
   score_band: thin
   score_composite: 36.4
-  shared: 1
-- slug: amazon-application-migration-service
-  name: Amazon Application Migration Service
-  description: AWS Application Migration Service (MGN) is the primary migration service recommended for lift-and-shift migrations to AWS. It allows organizations to quickly realize the benefits of migrating applications to the cloud without changes and with minimal downtime.
-  api_count: 1
-  score_band: thin
-  score_composite: 33.8
   shared: 1
 - slug: calypso-migration
   name: Calypso Migration

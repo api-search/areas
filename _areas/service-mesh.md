@@ -12,15 +12,36 @@ providers:
   name: AWS App Mesh
   description: AWS App Mesh is a service mesh based on the Envoy proxy that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure including Amazon ECS, EKS, EC2, and Fargate. App Mesh standardizes service communication, gi…
   api_count: 1
+  score_band: strong
+  score_composite: 65.3
+  shared: 1
+- slug: consul
+  name: HashiCorp Consul
+  description: HashiCorp Consul is a distributed, highly available service-networking control plane that automates network configuration, discovers services, enables secure service-to-service communication, and exposes a strongly consistent key/value store. The Consul HTTP API is a REST + JSON service exposed by…
+  api_count: 1
   score_band: developing
-  score_composite: 59.7
+  score_composite: 53.6
   shared: 1
 - slug: kong
   name: Kong
   description: Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agen…
   api_count: 10
   score_band: developing
-  score_composite: 52.0
+  score_composite: 52.9
+  shared: 1
+- slug: apache-dubbo
+  name: Apache Dubbo
+  description: Apache Dubbo is a high-performance, Java-based open-source RPC framework that provides service discovery, traffic management, and observability capabilities for building enterprise-level microservices. It supports multiple protocols including Triple (gRPC-compatible), Dubbo, and REST, with SDKs for…
+  api_count: 3
+  score_band: developing
+  score_composite: 50.9
+  shared: 1
+- slug: consul-connect
+  name: Consul Connect
+  description: Consul Connect is the service mesh subsystem of HashiCorp Consul. Connect provides service identity, mTLS, traffic authorization via intentions, and L7 traffic management through Envoy sidecar proxies. Consul Connect ships with a built-in certificate authority that can also be backed by Vault or ex…
+  api_count: 3
+  score_band: developing
+  score_composite: 50.0
   shared: 1
 - slug: tetrate
   name: Tetrate
@@ -36,19 +57,12 @@ providers:
   score_band: developing
   score_composite: 48.9
   shared: 1
-- slug: consul
-  name: HashiCorp Consul
-  description: HashiCorp Consul is a distributed, highly available service-networking control plane that automates network configuration, discovers services, enables secure service-to-service communication, and exposes a strongly consistent key/value store. The Consul HTTP API is a REST + JSON service exposed by…
+- slug: amazon-app-mesh
+  name: Amazon App Mesh
+  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
   api_count: 1
   score_band: developing
-  score_composite: 48.8
-  shared: 1
-- slug: apache-dubbo
-  name: Apache Dubbo
-  description: Apache Dubbo is a high-performance, Java-based open-source RPC framework that provides service discovery, traffic management, and observability capabilities for building enterprise-level microservices. It supports multiple protocols including Triple (gRPC-compatible), Dubbo, and REST, with SDKs for…
-  api_count: 3
-  score_band: developing
-  score_composite: 46.1
+  score_composite: 48.2
   shared: 1
 - slug: linkerd
   name: Linkerd
@@ -64,13 +78,6 @@ providers:
   score_band: thin
   score_composite: 44.7
   shared: 1
-- slug: consul-connect
-  name: Consul Connect
-  description: Consul Connect is the service mesh subsystem of HashiCorp Consul. Connect provides service identity, mTLS, traffic authorization via intentions, and L7 traffic management through Envoy sidecar proxies. Consul Connect ships with a built-in certificate authority that can also be backed by Vault or ex…
-  api_count: 3
-  score_band: thin
-  score_composite: 44.3
-  shared: 1
 - slug: vmware-tanzu
   name: VMware Tanzu
   description: VMware Tanzu (now part of Broadcom) is a portfolio of products for modernizing applications and infrastructure with a common approach to building, running, and managing Kubernetes across multi-cloud environments. Key APIs include the Tanzu Service Mesh REST API for cluster and global namespace mana…
@@ -84,13 +91,6 @@ providers:
   api_count: 6
   score_band: thin
   score_composite: 42.7
-  shared: 1
-- slug: amazon-app-mesh
-  name: Amazon App Mesh
-  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
-  api_count: 1
-  score_band: thin
-  score_composite: 42.6
   shared: 1
 - slug: envoy
   name: Envoy
@@ -231,7 +231,7 @@ related:
 overview: 'Service Mesh is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [service-mesh.apievangelist.com](https://service-mesh.apievangelist.com).
 
 
-  30 providers on the network work in this area, including AWS App Mesh, Kong, Tetrate, Amazon VPC Lattice, HashiCorp Consul, Apache Dubbo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including AWS App Mesh, HashiCorp Consul, Kong, Apache Dubbo, Consul Connect, Tetrate, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Microservices, Performance, and Proxy. Browse every area at [areas.apis.io](https://apis.io/areas/).'

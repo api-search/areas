@@ -13,14 +13,14 @@ providers:
   description: Zendesk provides customer service and engagement software that helps businesses manage support tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and phonethrough a unified platform.
   api_count: 145
   score_band: strong
-  score_composite: 63.2
+  score_composite: 66.4
   shared: 1
 - slug: salesforce-service-cloud
   name: Salesforce Service Cloud
   description: Salesforce Service Cloud is a customer service and support platform that helps businesses deliver smarter, faster, and more personalized customer service across all channels.
   api_count: 10
   score_band: developing
-  score_composite: 56.4
+  score_composite: 58.6
   shared: 1
 - slug: salesforce-knowledge-management
   name: Salesforce Knowledge Management
@@ -29,6 +29,13 @@ providers:
   score_band: developing
   score_composite: 52.6
   shared: 1
+- slug: inkeep
+  name: Inkeep
+  description: Inkeep is an AI support and agent platform for documentation and products. Its developer platform exposes an OpenAI-compatible RAG / chat completions API over your own content, an Analytics API for logging conversations, feedback, and events, and an Agents / management surface for building and oper…
+  api_count: 3
+  score_band: developing
+  score_composite: 47.1
+  shared: 1
 - slug: service-cloud
   name: Salesforce Service Cloud APIs
   description: A collection of APIs for Salesforce Service Cloud, enabling customer service and support operations.
@@ -36,12 +43,12 @@ providers:
   score_band: thin
   score_composite: 42.9
   shared: 1
-- slug: inkeep
-  name: Inkeep
-  description: Inkeep is an AI support and agent platform for documentation and products. Its developer platform exposes an OpenAI-compatible RAG / chat completions API over your own content, an Analytics API for logging conversations, feedback, and events, and an Agents / management surface for building and oper…
-  api_count: 3
+- slug: papercups
+  name: Papercups
+  description: Papercups is an open-source customer-messaging and live-chat platform built on Elixir/Phoenix, positioned as a self-hosted alternative to Intercom. It exposes a REST API for conversations, messages, and customers, a realtime chat surface over Phoenix WebSocket channels, and outbound webhooks. The p…
+  api_count: 6
   score_band: thin
-  score_composite: 40.8
+  score_composite: 41.9
   shared: 1
 - slug: mendable
   name: Mendable
@@ -49,13 +56,6 @@ providers:
   api_count: 4
   score_band: thin
   score_composite: 38.7
-  shared: 1
-- slug: papercups
-  name: Papercups
-  description: Papercups is an open-source customer-messaging and live-chat platform built on Elixir/Phoenix, positioned as a self-hosted alternative to Intercom. It exposes a REST API for conversations, messages, and customers, a realtime chat surface over Phoenix WebSocket channels, and outbound webhooks. The p…
-  api_count: 6
-  score_band: thin
-  score_composite: 35.6
   shared: 1
 - slug: support-md
   name: SUPPORT.md
@@ -74,7 +74,7 @@ related:
 overview: 'Support is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [support.apievangelist.com](https://support.apievangelist.com).
 
 
-  8 providers on the network work in this area, including Zendesk, Salesforce Service Cloud, Salesforce Knowledge Management, Salesforce Service Cloud APIs, Inkeep, Mendable, and 2 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  8 providers on the network work in this area, including Zendesk, Salesforce Service Cloud, Salesforce Knowledge Management, Inkeep, Salesforce Service Cloud APIs, Papercups, and 2 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'

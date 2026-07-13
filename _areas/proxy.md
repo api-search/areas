@@ -6,14 +6,14 @@ description: This is the index of API proxy, reverse proxy, forward proxy, and p
 area_url: https://proxy.apievangelist.com
 area_host: proxy.apievangelist.com
 icon: https://proxy.apievangelist.com/icon-thumb.png
-provider_count: 21
+provider_count: 23
 providers:
 - slug: bright-data
   name: Bright Data
   description: Bright Data is an Israeli web data platform and operator of the world's largest legitimate residential proxy network (400M+ IPs across 195 countries). The platform combines proxy infrastructure (residential, ISP, datacenter, mobile) with higher-level web-access APIs — Web Unlocker, SERP API, Web Sc…
   api_count: 11
   score_band: strong
-  score_composite: 62.6
+  score_composite: 68.3
   shared: 1
 - slug: soax
   name: SOAX
@@ -21,6 +21,20 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 48.9
+  shared: 1
+- slug: apache-httpd
+  name: Apache HTTP Server
+  description: Apache HTTP Server (httpd) is the world's most widely used web server software. It serves static and dynamic content, acts as a reverse proxy and load balancer, and exposes a mod_status monitoring API and balancer-manager management interface for operational visibility.
+  api_count: 2
+  score_band: developing
+  score_composite: 47.2
+  shared: 1
+- slug: brightdata
+  name: Bright Data
+  description: Bright Data is a web data platform providing a global proxy network (residential, datacenter, ISP, mobile), pre-built Web Scraper APIs for 100+ sites, a SERP API, the Web Unlocker, ready-made Datasets, and a Scraping Browser (Browser API) that exposes a real Chrome DevTools Protocol endpoint over W…
+  api_count: 6
+  score_band: developing
+  score_composite: 45.2
   shared: 1
 - slug: safeline
   name: SafeLine
@@ -43,19 +57,19 @@ providers:
   score_band: thin
   score_composite: 42.6
   shared: 1
-- slug: apache-httpd
-  name: Apache HTTP Server
-  description: Apache HTTP Server (httpd) is the world's most widely used web server software. It serves static and dynamic content, acts as a reverse proxy and load balancer, and exposes a mod_status monitoring API and balancer-manager management interface for operational visibility.
-  api_count: 2
-  score_band: thin
-  score_composite: 42.4
-  shared: 1
 - slug: envoy
   name: Envoy
   description: Envoy is a high-performance, open-source edge and service proxy designed for cloud-native applications and microservice architectures. It provides advanced load balancing, observability, and traffic management features, and serves as the data plane for many service mesh implementations including Is…
   api_count: 5
   score_band: thin
   score_composite: 41.2
+  shared: 1
+- slug: crawlbase
+  name: Crawlbase
+  description: Crawlbase (formerly ProxyCrawl) is a web crawling and scraping platform that fetches any web page through a large rotating proxy network with optional headless-Chrome JavaScript rendering, returning raw HTML, Markdown, screenshots, or structured JSON. A single token-authenticated REST host (api.cra…
+  api_count: 5
+  score_band: thin
+  score_composite: 38.4
   shared: 1
 - slug: zenscrape
   name: Zenscrape
@@ -168,7 +182,7 @@ related:
 overview: 'Proxy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [proxy.apievangelist.com](https://proxy.apievangelist.com).
 
 
-  21 providers on the network work in this area, including Bright Data, SOAX, SafeLine, Contour, Squid, Apache HTTP Server, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  23 providers on the network work in this area, including Bright Data, SOAX, Apache HTTP Server, Bright Data, SafeLine, Contour, and 17 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Caching, Service Mesh, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

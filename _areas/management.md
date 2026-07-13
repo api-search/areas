@@ -12,8 +12,8 @@ providers:
   name: Boomi
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 12
-  score_band: strong
-  score_composite: 63.4
+  score_band: exemplar
+  score_composite: 70.7
   shared: 1
 - slug: dell-servers
   name: Dell Servers
@@ -22,19 +22,19 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
+- slug: amazon-systems-manager
+  name: Amazon Systems Manager
+  description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
+  api_count: 1
+  score_band: developing
+  score_composite: 55.8
+  shared: 1
 - slug: snaplogic
   name: SnapLogic
   description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
   api_count: 4
   score_band: developing
   score_composite: 53.2
-  shared: 1
-- slug: amazon-systems-manager
-  name: Amazon Systems Manager
-  description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.1
   shared: 1
 - slug: wundergraph
   name: WunderGraph
@@ -48,20 +48,20 @@ providers:
   description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
   api_count: 3
   score_band: thin
-  score_composite: 35.7
+  score_composite: 44.6
   shared: 1
 related:
 - slug: saas-management
   name: SaaS Management
-  shared: 3
-- slug: ai-automation
-  name: AI Automation
-  shared: 2
+  shared: 4
 - slug: integrations
   name: Integrations
   shared: 2
 - slug: virtualization
   name: Virtualization
+  shared: 1
+- slug: ai-automation
+  name: AI Automation
   shared: 1
 - slug: embedded-ipaas
   name: Embedded iPaaS
@@ -72,8 +72,8 @@ related:
 overview: 'Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [management.apievangelist.com](https://management.apievangelist.com).
 
 
-  Providers on the network working in this area include Boomi, Dell Servers, SnapLogic, Amazon Systems Manager, WunderGraph, and Broadcom — each links out to that provider''s APIs, schemas, and governance artifacts.
+  Providers on the network working in this area include Boomi, Dell Servers, Amazon Systems Manager, SnapLogic, WunderGraph, and Broadcom — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: SaaS Management, AI Automation, Integrations, and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: SaaS Management, Integrations, Virtualization, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

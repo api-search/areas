@@ -6,8 +6,22 @@ description: An index and topic collection covering webhook delivery, ingestion,
 area_url: https://webhooks.apievangelist.com
 area_host: webhooks.apievangelist.com
 icon: https://webhooks.apievangelist.com/icon-thumb.png
-provider_count: 162
+provider_count: 165
 providers:
+- slug: vercel
+  name: Vercel
+  description: Vercel is a cloud platform that helps developers build, deploy, and scale modern web applications quickly and efficiently. It provides an optimized hosting environment for frontend frameworks like Next.js (which it created), as well as other React, Vue, Angular, and static site projects. Vercel aut…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 71.2
+  shared: 1
+- slug: fastly
+  name: Fastly
+  description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
+  api_count: 23
+  score_band: exemplar
+  score_composite: 70.2
+  shared: 1
 - slug: svix
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
@@ -15,33 +29,61 @@ providers:
   score_band: strong
   score_composite: 68.8
   shared: 1
-- slug: vercel
-  name: Vercel
-  description: Vercel is a cloud platform that helps developers build, deploy, and scale modern web applications quickly and efficiently. It provides an optimized hosting environment for frontend frameworks like Next.js (which it created), as well as other React, Vue, Angular, and static site projects. Vercel aut…
+- slug: composio
+  name: Composio
+  description: Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router…
+  api_count: 8
+  score_band: strong
+  score_composite: 66.1
+  shared: 1
+- slug: buildkite-com
+  name: Buildkite
+  description: Buildkite is a hybrid CI/CD platform that combines a hosted control plane (pipelines.buildkite.com) with self-hosted or Buildkite-Hosted agents that run jobs on customer-controlled infrastructure. The platform spans three core products — Pipelines, Test Engine, and Package Registries — and exposes…
   api_count: 5
   score_band: strong
-  score_composite: 67.1
+  score_composite: 66.0
   shared: 1
 - slug: storyblok
   name: Storyblok
   description: Storyblok is a headless content management system (CMS) with a visual editor that enables developers and content editors to collaboratively build and manage digital experiences. It provides APIs for content delivery, content management, image optimization, and webhook-based event notifications. Sto…
   api_count: 4
   score_band: strong
-  score_composite: 66.9
+  score_composite: 65.9
   shared: 1
-- slug: fastly
-  name: Fastly
-  description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
-  api_count: 23
+- slug: convoy
+  name: Convoy
+  description: Convoy is an open-source, cloud-native webhooks gateway used to securely ingest, persist, debug, deliver, and manage events. It positions itself as "the complete solution for secure, scalable, and reliable webhook delivery," covering both outbound (sending) and inbound (receiving) webhooks with ret…
+  api_count: 1
   score_band: strong
-  score_composite: 66.4
+  score_composite: 65.5
+  shared: 1
+- slug: knock-app
+  name: Knock
+  description: Knock is notifications infrastructure as a service — a product and customer messaging platform you use to power transactional, lifecycle, broadcast, and in-product messaging across email, SMS, push, in-app, in-app guides, chat (Slack / Discord / Teams / WhatsApp), and outbound webhooks. Knock expos…
+  api_count: 14
+  score_band: strong
+  score_composite: 64.9
+  shared: 1
+- slug: allegion
+  name: Allegion
+  description: Allegion plc is a global security products company with $3.8B in 2024 revenue, 13,000+ employees, and 30+ brands across 120 countries (Schlage, Von Duprin, LCN, CISA, Steelcraft, Interflex, SimonsVoss, Yonomi). The Allegion Developer Portal exposes two documented integration surfaces - the Schlage…
+  api_count: 2
+  score_band: strong
+  score_composite: 64.2
   shared: 1
 - slug: square
   name: Square
   description: Square provides APIs for payment processing, point of sale, and business management solutions enabling developers to build custom commerce applications.
   api_count: 37
   score_band: strong
-  score_composite: 63.6
+  score_composite: 64.2
+  shared: 1
+- slug: onfleet
+  name: Onfleet
+  description: Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kro…
+  api_count: 8
+  score_band: strong
+  score_composite: 64.0
   shared: 1
 - slug: hookdeck
   name: Hookdeck
@@ -57,10 +99,10 @@ providers:
   score_band: strong
   score_composite: 62.8
   shared: 1
-- slug: knock-app
-  name: Knock
-  description: Knock is notifications infrastructure as a service — a product and customer messaging platform you use to power transactional, lifecycle, broadcast, and in-product messaging across email, SMS, push, in-app, in-app guides, chat (Slack / Discord / Teams / WhatsApp), and outbound webhooks. Knock expos…
-  api_count: 14
+- slug: 123formbuilder
+  name: 123FormBuilder
+  description: 123FormBuilder is an online form, survey, and workflow builder used to collect, route, and integrate submission data across websites, customer portals, and back-office systems with no-code design and HIPAA-ready configurations. The 123FormBuilder REST API v2 enables programmatic access to forms, fi…
+  api_count: 1
   score_band: strong
   score_composite: 62.7
   shared: 1
@@ -71,6 +113,20 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 1
+- slug: albato
+  name: Albato
+  description: Albato is a no-code automation platform and embedded iPaaS that enables businesses to automate workflows by connecting 1,000+ apps without writing code. Supports multi-step automations with triggers, actions, conditions, and delays. Albato Embedded allows SaaS companies to offer white-label native…
+  api_count: 2
+  score_band: strong
+  score_composite: 62.4
+  shared: 1
+- slug: ahasend
+  name: AhaSend
+  description: AhaSend is a developer-focused transactional email platform providing fast, reliable email delivery via REST API and SMTP relay. It offers features including email tracking, webhooks, email routing, suppression management, domain management, SMTP credentials, and detailed delivery statistics.
+  api_count: 1
+  score_band: strong
+  score_composite: 62.0
+  shared: 1
 - slug: ironclad
   name: Ironclad
   description: Ironclad is the enterprise contract lifecycle management (CLM) platform used by legal, sales, procurement, and finance teams to draft, negotiate, approve, sign, store, and analyze contracts at scale. The platform combines a no-code Workflow Designer, AI-powered Jurist agentic assistant (contract re…
@@ -78,12 +134,12 @@ providers:
   score_band: strong
   score_composite: 62.0
   shared: 1
-- slug: composio
-  name: Composio
-  description: Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router…
-  api_count: 8
+- slug: albato-a-single-no-code-platform-for-all-automations
+  name: Albato A Single No Code Platform For All Automations
+  description: Albato is a no-code automation platform enabling businesses to automate workflows by integrating 1,000+ apps without writing code. The platform supports multi-step automations with triggers, actions, conditions, and delays, plus embedded iPaaS capabilities for SaaS companies to offer native integra…
+  api_count: 2
   score_band: strong
-  score_composite: 61.4
+  score_composite: 61.3
   shared: 1
 - slug: tamara
   name: Tamara
@@ -91,13 +147,6 @@ providers:
   api_count: 8
   score_band: strong
   score_composite: 60.7
-  shared: 1
-- slug: buildkite-com
-  name: Buildkite
-  description: Buildkite is a hybrid CI/CD platform that combines a hosted control plane (pipelines.buildkite.com) with self-hosted or Buildkite-Hosted agents that run jobs on customer-controlled infrastructure. The platform spans three core products — Pipelines, Test Engine, and Package Registries — and exposes…
-  api_count: 5
-  score_band: strong
-  score_composite: 60.4
   shared: 1
 - slug: vital-io
   name: Vital
@@ -113,54 +162,19 @@ providers:
   score_band: strong
   score_composite: 60.2
   shared: 1
-- slug: onfleet
-  name: Onfleet
-  description: Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kro…
-  api_count: 8
-  score_band: developing
-  score_composite: 59.9
-  shared: 1
-- slug: convoy
-  name: Convoy
-  description: Convoy is an open-source, cloud-native webhooks gateway used to securely ingest, persist, debug, deliver, and manage events. It positions itself as "the complete solution for secure, scalable, and reliable webhook delivery," covering both outbound (sending) and inbound (receiving) webhooks with ret…
-  api_count: 1
-  score_band: developing
-  score_composite: 59.8
-  shared: 1
-- slug: ahasend
-  name: AhaSend
-  description: AhaSend is a developer-focused transactional email platform providing fast, reliable email delivery via REST API and SMTP relay. It offers features including email tracking, webhooks, email routing, suppression management, domain management, SMTP credentials, and detailed delivery statistics.
-  api_count: 1
-  score_band: developing
-  score_composite: 58.9
-  shared: 1
-- slug: 123formbuilder
-  name: 123FormBuilder
-  description: 123FormBuilder is an online form, survey, and workflow builder used to collect, route, and integrate submission data across websites, customer portals, and back-office systems with no-code design and HIPAA-ready configurations. The 123FormBuilder REST API v2 enables programmatic access to forms, fi…
-  api_count: 1
-  score_band: developing
-  score_composite: 58.6
-  shared: 1
-- slug: allegion
-  name: Allegion
-  description: Allegion plc is a global security products company with $3.8B in 2024 revenue, 13,000+ employees, and 30+ brands across 120 countries (Schlage, Von Duprin, LCN, CISA, Steelcraft, Interflex, SimonsVoss, Yonomi). The Allegion Developer Portal exposes two documented integration surfaces - the Schlage…
-  api_count: 2
-  score_band: developing
-  score_composite: 58.5
-  shared: 1
-- slug: albato
-  name: Albato
-  description: Albato is a no-code automation platform and embedded iPaaS that enables businesses to automate workflows by connecting 1,000+ apps without writing code. Supports multi-step automations with triggers, actions, conditions, and delays. Albato Embedded allows SaaS companies to offer white-label native…
-  api_count: 2
-  score_band: developing
-  score_composite: 58.2
-  shared: 1
 - slug: cdk-global
   name: CDK Global
   description: CDK Global is the dominant U.S. dealer management system (DMS) provider, serving roughly 15,000 automotive dealerships with software covering sales, F&I, fixed operations, parts, CRM, and digital retail. CDK was spun out of ADP in 2014 and acquired by Brookfield Business Partners in July 2022 for $…
   api_count: 8
   score_band: developing
-  score_composite: 58.2
+  score_composite: 59.8
+  shared: 1
+- slug: filevine
+  name: Filevine
+  description: Filevine is the leading legal case management and operating intelligence platform for plaintiff, personal-injury, mass-tort, family, immigration, criminal-defense, estate-planning, and government legal teams. The platform combines a customizable matter / project system with intake (Lead Docket), do…
+  api_count: 9
+  score_band: developing
+  score_composite: 59.5
   shared: 1
 - slug: thanx
   name: Thanx
@@ -169,19 +183,12 @@ providers:
   score_band: developing
   score_composite: 57.9
   shared: 1
-- slug: albato-a-single-no-code-platform-for-all-automations
-  name: Albato A Single No Code Platform For All Automations
-  description: Albato is a no-code automation platform enabling businesses to automate workflows by integrating 1,000+ apps without writing code. The platform supports multi-step automations with triggers, actions, conditions, and delays, plus embedded iPaaS capabilities for SaaS companies to offer native integra…
+- slug: codehooks
+  name: Codehooks
+  description: Codehooks is a JavaScript-native serverless backend platform that bundles a NoSQL document database, key-value store, persistent queues with workers, CRON jobs, blob storage, frontend hosting, and an automatic CRUD REST API in a single CLI-deployable runtime. Developers write small Node.js handler…
   api_count: 2
   score_band: developing
   score_composite: 57.2
-  shared: 1
-- slug: filevine
-  name: Filevine
-  description: Filevine is the leading legal case management and operating intelligence platform for plaintiff, personal-injury, mass-tort, family, immigration, criminal-defense, estate-planning, and government legal teams. The platform combines a customizable matter / project system with intake (Lead Docket), do…
-  api_count: 9
-  score_band: developing
-  score_composite: 56.4
   shared: 1
 - slug: flipdish
   name: Flipdish
@@ -197,26 +204,19 @@ providers:
   score_band: developing
   score_composite: 55.8
   shared: 1
+- slug: ampersand
+  name: Ampersand
+  description: Ampersand is a developer-first platform for building native SaaS integrations. It provides an embeddable UI component and managed infrastructure that lets developers add product integrations quickly, handling OAuth, data sync, webhooks, and field mapping out of the box. The platform supports hundre…
+  api_count: 1
+  score_band: developing
+  score_composite: 55.7
+  shared: 1
 - slug: phonely
   name: Phonely
   description: Phonely is an AI voice agent platform that answers business phone calls in real time with large-language-model-powered conversation, sub-400ms response latency, 1,000+ voices across 100+ languages, and fine-tuned industry models for healthcare, finance, real estate, and insurance. The platform expo…
   api_count: 2
   score_band: developing
   score_composite: 55.0
-  shared: 1
-- slug: codehooks
-  name: Codehooks
-  description: Codehooks is a JavaScript-native serverless backend platform that bundles a NoSQL document database, key-value store, persistent queues with workers, CRON jobs, blob storage, frontend hosting, and an automatic CRUD REST API in a single CLI-deployable runtime. Developers write small Node.js handler…
-  api_count: 2
-  score_band: developing
-  score_composite: 54.0
-  shared: 1
-- slug: ampersand
-  name: Ampersand
-  description: Ampersand is a developer-first platform for building native SaaS integrations. It provides an embeddable UI component and managed infrastructure that lets developers add product integrations quickly, handling OAuth, data sync, webhooks, and field mapping out of the box. The platform supports hundre…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.5
   shared: 1
 related:
 - slug: integrations
@@ -240,7 +240,7 @@ related:
 overview: 'Webhooks is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [webhooks.apievangelist.com](https://webhooks.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Svix, Vercel, Storyblok, Fastly, Square, Hookdeck, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Vercel, Fastly, Svix, Composio, Buildkite, Storyblok, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Integrations, Observability, SaaS Management, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

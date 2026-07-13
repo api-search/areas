@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 33
+provider_count: 35
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -22,6 +22,13 @@ providers:
   score_band: strong
   score_composite: 68.8
   shared: 1
+- slug: apitoolkit
+  name: APIToolkit (Monoscope)
+  description: APIToolkit (now Monoscope) is an open-source-friendly API observability and monitoring platform that helps teams find and fix production issues before customers notice. It unifies logs, traces, metrics, errors, monitors, and session replay across 17+ framework SDKs and 780+ OpenTelemetry integratio…
+  api_count: 5
+  score_band: developing
+  score_composite: 58.4
+  shared: 1
 - slug: plandex
   name: Plandex
   description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
@@ -29,12 +36,12 @@ providers:
   score_band: developing
   score_composite: 56.0
   shared: 1
-- slug: apitoolkit
-  name: APIToolkit (Monoscope)
-  description: APIToolkit (now Monoscope) is an open-source-friendly API observability and monitoring platform that helps teams find and fix production issues before customers notice. It unifies logs, traces, metrics, errors, monitors, and session replay across 17+ framework SDKs and 780+ OpenTelemetry integratio…
+- slug: continue-dev
+  name: Continue
+  description: Continue is the open-source AI code assistant for VS Code and JetBrains, distributed under Apache 2.0. The Continue IDE extensions and the Continue CLI federate to any LLM provider — Anthropic, OpenAI, Mistral, OpenRouter, Ollama, and a Continue-managed proxy — and load their configuration from Con…
   api_count: 5
   score_band: developing
-  score_composite: 53.7
+  score_composite: 55.5
   shared: 1
 - slug: sideko
   name: Sideko
@@ -43,19 +50,19 @@ providers:
   score_band: developing
   score_composite: 51.4
   shared: 1
-- slug: continue-dev
-  name: Continue
-  description: Continue is the open-source AI code assistant for VS Code and JetBrains, distributed under Apache 2.0. The Continue IDE extensions and the Continue CLI federate to any LLM provider — Anthropic, OpenAI, Mistral, OpenRouter, Ollama, and a Continue-managed proxy — and load their configuration from Con…
-  api_count: 5
-  score_band: developing
-  score_composite: 49.8
-  shared: 1
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 2
   score_band: thin
   score_composite: 43.3
+  shared: 1
+- slug: aider
+  name: Aider
+  description: 'Aider is an open-source, terminal-based AI pair programmer that edits code directly inside a developer''s local Git repository. Written in Python and distributed via PyPI under the Apache 2.0 license, Aider is a BYO-LLM tool: the user supplies API keys for hosted models (Anthropic Claude, OpenAI, De…'
+  api_count: 2
+  score_band: thin
+  score_composite: 42.2
   shared: 1
 - slug: cosign
   name: Cosign
@@ -64,12 +71,12 @@ providers:
   score_band: thin
   score_composite: 40.2
   shared: 1
-- slug: aider
-  name: Aider
-  description: 'Aider is an open-source, terminal-based AI pair programmer that edits code directly inside a developer''s local Git repository. Written in Python and distributed via PyPI under the Apache 2.0 license, Aider is a BYO-LLM tool: the user supplies API keys for hosted models (Anthropic Claude, OpenAI, De…'
-  api_count: 2
+- slug: fern-api
+  name: Fern
+  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generates type-safe SDKs in TypeScript, Python, Go, Java, C#, PHP,…
+  api_count: 4
   score_band: thin
-  score_composite: 39.1
+  score_composite: 38.4
   shared: 1
 - slug: httpie
   name: HTTPie
@@ -183,6 +190,13 @@ providers:
   score_band: minimal
   score_composite: 23.9
   shared: 1
+- slug: bruno-api
+  name: Bruno
+  description: Bruno is an open-source (MIT), git-native API client - a lightweight, offline-first alternative to Postman and Insomnia for exploring and testing APIs. It is a developer TOOL, not a hosted HTTP API provider. Collections are stored on the local filesystem as folders of plain-text files (the .bru "Br…
+  api_count: 5
+  score_band: minimal
+  score_composite: 23.6
+  shared: 1
 - slug: pnpm
   name: pnpm
   description: pnpm is a fast, disk space efficient package manager for JavaScript and Node.js projects. It uses a content-addressable store and a strict, symlinked node_modules layout so every version of every package is stored exactly once on disk and projects can only access dependencies they explicitly declar…
@@ -204,20 +218,6 @@ providers:
   score_band: minimal
   score_composite: 20.4
   shared: 1
-- slug: kubectl
-  name: Kubectl
-  description: kubectl is the official command-line tool for Kubernetes, used to deploy applications, inspect resources, and manage clusters via the Kubernetes API.
-  api_count: 1
-  score_band: minimal
-  score_composite: 20.4
-  shared: 1
-- slug: dvc
-  name: DVC
-  description: DVC (Data Version Control) is an Apache 2.0 open-source CLI and Python library for versioning datasets, models, pipelines, and ML experiments on top of Git. It is not a network service — there is no DVC REST API.
-  api_count: 1
-  score_band: minimal
-  score_composite: 20.0
-  shared: 1
 related:
 - slug: clients
   name: Clients
@@ -225,9 +225,6 @@ related:
 - slug: api-clients
   name: API Clients
   shared: 2
-- slug: versioning
-  name: Versioning
-  shared: 1
 - slug: plans
   name: Plans
   shared: 1
@@ -237,11 +234,14 @@ related:
 - slug: reliability
   name: Reliability
   shared: 1
+- slug: agents
+  name: Agents
+  shared: 1
 overview: 'Command Line Interface is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [cli.apievangelist.com](https://cli.apievangelist.com).
 
 
-  30 providers on the network work in this area, including AWS CLI, Svix, Plandex, APIToolkit (Monoscope), Sideko, Continue, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including AWS CLI, Svix, APIToolkit (Monoscope), Plandex, Continue, Sideko, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Clients, API Clients, Versioning, and Plans. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Clients, API Clients, Plans, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

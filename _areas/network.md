@@ -12,15 +12,15 @@ providers:
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 5
-  score_band: strong
-  score_composite: 67.8
+  score_band: exemplar
+  score_composite: 70.9
   shared: 1
 - slug: atandt
   name: AT&T
   description: AT&T Inc. is a multinational telecommunications conglomerate providing wireless and wireline communications, broadband internet, digital TV, and business services. As a Fortune 100 company, AT&T operates one of the largest telecommunications networks in the United States and globally. This profile…
   api_count: 6
   score_band: developing
-  score_composite: 55.3
+  score_composite: 59.4
   shared: 1
 - slug: microsoft-azure-load-balancer
   name: Azure Load Balancer

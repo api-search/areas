@@ -20,7 +20,7 @@ providers:
   description: Lichess is a free, ad-free, open-source online chess server operated by a French nonprofit and powered entirely by volunteers and donations. It serves millions of games per day with live play, tournaments, puzzles, studies, broadcasts, analysis, and a public API. The server (lila), engine library (…
   api_count: 1
   score_band: developing
-  score_composite: 50.6
+  score_composite: 53.8
   shared: 1
 - slug: telegram
   name: Telegram

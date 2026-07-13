@@ -12,22 +12,22 @@ providers:
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 5
-  score_band: strong
-  score_composite: 67.8
+  score_band: exemplar
+  score_composite: 70.9
   shared: 1
 - slug: adafruit-io
   name: Adafruit IO
   description: Adafruit IO is a cloud Internet of Things platform from Adafruit Industries built for makers, hobbyists, students, and STEM educators. It provides feed-based time-series storage, drag-and-drop dashboards with 20+ visualization block types, actions/triggers for SMS/voice/email/webhook notifications,…
   api_count: 3
   score_band: strong
-  score_composite: 62.1
+  score_composite: 64.7
   shared: 1
 - slug: thingspeak
   name: ThingSpeak
   description: ThingSpeak is an IoT analytics platform from MathWorks that lets devices aggregate, visualize, and analyze live data streams in the cloud. Devices push telemetry to channels via a REST update endpoint or the `mqtt3.thingspeak.com` MQTT broker, and the platform layers in MATLAB Analysis for compute,…
   api_count: 12
   score_band: strong
-  score_composite: 62.1
+  score_composite: 62.7
   shared: 1
 - slug: emnify
   name: emnify

@@ -22,15 +22,9 @@ providers:
   score_band: minimal
   score_composite: 20.0
   shared: 1
-related:
-- slug: cli
-  name: Command Line Interface
-  shared: 1
+related: []
 overview: 'Versioning is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [versioning.apievangelist.com](https://versioning.apievangelist.com).
 
 
-  Providers on the network working in this area include SilverStripe and DVC — each links out to that provider''s APIs, schemas, and governance artifacts.
-
-
-  Related areas: Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Providers on the network working in this area include SilverStripe and DVC — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

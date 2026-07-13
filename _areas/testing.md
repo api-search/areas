@@ -6,21 +6,21 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://testing.apievangelist.com
 area_host: testing.apievangelist.com
 icon: https://testing.apievangelist.com/icon-thumb.png
-provider_count: 79
+provider_count: 83
 providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 17
   score_band: exemplar
-  score_composite: 71.2
+  score_composite: 75.3
   shared: 1
 - slug: uipath
   name: UiPath
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
   api_count: 6
   score_band: exemplar
-  score_composite: 71.1
+  score_composite: 71.7
   shared: 1
 - slug: treblle
   name: Treblle
@@ -29,6 +29,20 @@ providers:
   score_band: strong
   score_composite: 62.4
   shared: 1
+- slug: azure-test-labs
+  name: Azure DevTest Labs
+  description: Azure DevTest Labs enables developers to efficiently self-manage virtual machines and PaaS resources without waiting for approvals. DevTest Labs creates labs consisting of pre-configured bases or Azure Resource Manager templates for development and testing purposes.
+  api_count: 1
+  score_band: strong
+  score_composite: 61.7
+  shared: 1
+- slug: amazon-codebuild
+  name: Amazon CodeBuild
+  description: AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages. CodeBuild scales continuously and processes multiple builds concurrently so your builds are not left waiting in a queue. It supports popular build e…
+  api_count: 1
+  score_band: developing
+  score_composite: 59.7
+  shared: 1
 - slug: speakeasy
   name: Speakeasy
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
@@ -36,19 +50,12 @@ providers:
   score_band: developing
   score_composite: 58.7
   shared: 1
-- slug: azure-test-labs
-  name: Azure DevTest Labs
-  description: Azure DevTest Labs enables developers to efficiently self-manage virtual machines and PaaS resources without waiting for approvals. DevTest Labs creates labs consisting of pre-configured bases or Azure Resource Manager templates for development and testing purposes.
+- slug: apigit
+  name: APIGit
+  description: APIGit is a Git-native platform for full lifecycle API development that combines version control, API design, documentation generation, governance, testing, and dynamic mock servers in a single integrated environment. Teams can build, publish, share, and secure APIs through Git-based workflows.
   api_count: 1
   score_band: developing
-  score_composite: 57.0
-  shared: 1
-- slug: amazon-codebuild
-  name: Amazon CodeBuild
-  description: AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages. CodeBuild scales continuously and processes multiple builds concurrently so your builds are not left waiting in a queue. It supports popular build e…
-  api_count: 1
-  score_band: developing
-  score_composite: 55.0
+  score_composite: 56.0
   shared: 1
 - slug: browserstack
   name: BrowserStack
@@ -57,19 +64,26 @@ providers:
   score_band: developing
   score_composite: 54.4
   shared: 1
+- slug: ambassador
+  name: Ambassador
+  description: Ambassador is a Kubernetes-native API Gateway built on Envoy Proxy, providing routing, load balancing, authentication, and observability for microservices.
+  api_count: 6
+  score_band: developing
+  score_composite: 51.1
+  shared: 1
+- slug: chaos-mesh
+  name: Chaos Mesh
+  description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.1
+  shared: 1
 - slug: reflect
   name: Reflect
   description: Reflect is an AI-powered automated end-to-end testing platform that enables teams to effortlessly create, execute, and troubleshoot automated browser tests. Reflect provides a no-code test recorder for capturing user workflows and a REST API for integrating test execution into CI/CD pipelines. Test…
   api_count: 1
   score_band: developing
   score_composite: 50.9
-  shared: 1
-- slug: apigit
-  name: APIGit
-  description: APIGit is a Git-native platform for full lifecycle API development that combines version control, API design, documentation generation, governance, testing, and dynamic mock servers in a single integrated environment. Teams can build, publish, share, and secure APIs through Git-based workflows.
-  api_count: 1
-  score_band: developing
-  score_composite: 50.3
   shared: 1
 - slug: teamcity
   name: TeamCity
@@ -106,13 +120,6 @@ providers:
   score_band: developing
   score_composite: 47.4
   shared: 1
-- slug: ambassador
-  name: Ambassador
-  description: Ambassador is a Kubernetes-native API Gateway built on Envoy Proxy, providing routing, load balancing, authentication, and observability for microservices.
-  api_count: 6
-  score_band: developing
-  score_composite: 45.4
-  shared: 1
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
@@ -120,12 +127,12 @@ providers:
   score_band: thin
   score_composite: 43.3
   shared: 1
-- slug: chaos-mesh
-  name: Chaos Mesh
-  description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
-  api_count: 1
+- slug: acceptance-criteria
+  name: Acceptance Criteria
+  description: Acceptance criteria are predefined conditions that a product, feature, or user story must meet to be considered complete and acceptable by stakeholders. These criteria establish clear, testable requirements that guide development, validate when work is done, and serve as the foundation for automate…
+  api_count: 5
   score_band: thin
-  score_composite: 42.3
+  score_composite: 40.5
   shared: 1
 - slug: parea
   name: Parea AI
@@ -133,6 +140,27 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 40.5
+  shared: 1
+- slug: testiny
+  name: Testiny
+  description: Testiny is a modern test management platform for QA teams that keeps manual and automated test cases, test plans, test runs, and results in a single place, with reporting and integrations for Jira, GitLab, and GitHub. Everything in the product is backed by a documented REST API (base https://app.te…
+  api_count: 5
+  score_band: thin
+  score_composite: 39.8
+  shared: 1
+- slug: percy
+  name: Percy
+  description: Percy is an all-in-one visual testing and review platform, now part of BrowserStack. Test frameworks and CI upload DOM snapshots via the Percy CLI/SDK; Percy renders them across browsers and widths, diffs each against an approved baseline, and surfaces pixel-level visual changes for review and appr…
+  api_count: 4
+  score_band: thin
+  score_composite: 39.2
+  shared: 1
+- slug: qase
+  name: Qase
+  description: Qase is a cloud test management platform (TestOps) for QA and engineering teams to author test cases, organize them into suites and plans, launch and complete test runs, publish automated results from CI pipelines, and track defects. The Qase TestOps API v1 is a token-authenticated REST API at http…
+  api_count: 7
+  score_band: thin
+  score_composite: 39.2
   shared: 1
 - slug: jsonplaceholder
   name: JSONPlaceholder
@@ -145,6 +173,13 @@ providers:
   name: Test-Driven Development
   description: A software development approach where tests are written before the actual code, following a red-green-refactor cycle to ensure code quality and maintainability. TDD requires developers to write failing tests first, then write minimal code to make them pass, then refactor. It supports the full softw…
   api_count: 6
+  score_band: thin
+  score_composite: 38.5
+  shared: 1
+- slug: testrail
+  name: TestRail
+  description: TestRail is a web-based test case management and QA platform (originally by Gurock, now part of IDERA) for organizing test cases, running test runs and test plans, and recording test results across manual and automated testing. Its HTTP API (v2) exposes projects, suites, sections, cases, runs, plan…
+  api_count: 11
   score_band: thin
   score_composite: 38.5
   shared: 1
@@ -183,48 +218,13 @@ providers:
   score_band: thin
   score_composite: 37.5
   shared: 1
-- slug: acceptance-criteria
-  name: Acceptance Criteria
-  description: Acceptance criteria are predefined conditions that a product, feature, or user story must meet to be considered complete and acceptable by stakeholders. These criteria establish clear, testable requirements that guide development, validate when work is done, and serve as the foundation for automate…
-  api_count: 5
-  score_band: thin
-  score_composite: 37.4
-  shared: 1
-- slug: beeceptor
-  name: Beeceptor
-  description: Beeceptor is an API mocking, HTTP debugging, and proxy platform that lets developers create mock servers instantly without any coding. It supports REST, SOAP, GraphQL, and gRPC mocking, provides real-time HTTP traffic inspection, webhook testing, local tunneling, and AI-powered spec generation. Tea…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.3
-  shared: 1
-- slug: nuclei
-  name: Nuclei
-  description: Nuclei is an open source vulnerability scanner from ProjectDiscovery that uses YAML-based templates to find security issues in APIs, web apps, and infrastructure. It supports multiple protocols (HTTP, DNS, TCP, file), parallel scanning, CI/CD integration, and ships with thousands of community-contr…
-  api_count: 2
-  score_band: thin
-  score_composite: 37.2
-  shared: 1
-- slug: test-rate-limit-check
-  name: Test Rate Limit Check
-  description: Testing and validation of API rate limiting implementations to ensure that APIs correctly enforce request quotas, return appropriate error responses, and recover gracefully when limits are exceeded. Rate limit testing verifies throttling behavior, retry-after headers, burst allowances, and quota re…
-  api_count: 6
-  score_band: thin
-  score_composite: 37.0
-  shared: 1
-- slug: assertible
-  name: Assertible
-  description: Assertible provides a reliable first line of defense against web service failures by providing simple and powerful assertions to test and monitor APIs. It enables automated API testing with assertions on response status, headers, body content, and performance, with integrations for CI/CD pipelines…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.8
-  shared: 1
 related:
 - slug: documentation
   name: Documentation
-  shared: 4
+  shared: 3
 - slug: ai-automation
   name: AI Automation
-  shared: 3
+  shared: 2
 - slug: workflow-automation
   name: Workflow Automation
   shared: 2
@@ -240,7 +240,7 @@ related:
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, UiPath, Treblle, Speakeasy, Azure DevTest Labs, Amazon CodeBuild, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, UiPath, Treblle, Azure DevTest Labs, Amazon CodeBuild, Speakeasy, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation, AI Automation, Workflow Automation, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'

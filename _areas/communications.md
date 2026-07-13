@@ -6,28 +6,35 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 36
+provider_count: 38
 providers:
-- slug: twilio
-  name: Twilio
-  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
-  api_count: 35
-  score_band: strong
-  score_composite: 65.7
-  shared: 1
 - slug: amazon-pinpoint
   name: Amazon Pinpoint
   description: Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communications service that enables you to engage with customers across multiple messaging channels including email, SMS, push notifications, and voice messages. Note - AWS will end support for Amazon Pinpoint on October 30,…
   api_count: 1
   score_band: strong
-  score_composite: 65.1
+  score_composite: 68.2
   shared: 1
 - slug: cisco-webex
   name: Cisco Webex
   description: Cisco Webex is a comprehensive collaboration platform that provides video conferencing, team messaging, file sharing, and calling capabilities for businesses and teams. The Webex developer platform offers REST APIs, SDKs, and integrations for extending and automating collaboration workflows across…
   api_count: 19
   score_band: strong
-  score_composite: 61.6
+  score_composite: 67.3
+  shared: 1
+- slug: twilio
+  name: Twilio
+  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
+  api_count: 35
+  score_band: strong
+  score_composite: 66.7
+  shared: 1
+- slug: ringcentral
+  name: RingCentral
+  description: RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.
+  api_count: 15
+  score_band: strong
+  score_composite: 65.0
   shared: 1
 - slug: parcellab
   name: parcelLab
@@ -36,26 +43,33 @@ providers:
   score_band: developing
   score_composite: 58.8
   shared: 1
-- slug: ringcentral
-  name: RingCentral
-  description: RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.
-  api_count: 15
-  score_band: developing
-  score_composite: 57.7
-  shared: 1
 - slug: bandwidth
   name: Bandwidth
   description: Bandwidth is a leading cloud-based communications platform providing voice, messaging, emergency calling, phone number management, multi-factor authentication, and toll-free verification APIs. Built on Bandwidth's own Tier 1 network, the platform delivers enterprise-grade reliability for CPaaS appl…
   api_count: 6
   score_band: developing
-  score_composite: 55.1
+  score_composite: 58.2
   shared: 1
 - slug: zoom
   name: Zoom
   description: Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.
   api_count: 41
   score_band: developing
-  score_composite: 54.6
+  score_composite: 57.8
+  shared: 1
+- slug: plivo
+  name: Plivo
+  description: Plivo is a global communications platform offering programmable Voice, Messaging (SMS/MMS/WhatsApp), SIP Trunking, Verify, and Lookup APIs, plus an AI Voice Agent platform. The HTTP API is available at https://api.plivo.com/v1/ with HTTP Basic Auth using Auth ID and Auth Token credentials.
+  api_count: 22
+  score_band: developing
+  score_composite: 56.7
+  shared: 1
+- slug: sinch
+  name: Sinch
+  description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
+  api_count: 10
+  score_band: developing
+  score_composite: 54.7
   shared: 1
 - slug: telefon
   name: Telefon
@@ -64,26 +78,19 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
-- slug: sinch
-  name: Sinch
-  description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
-  api_count: 10
-  score_band: developing
-  score_composite: 51.5
-  shared: 1
-- slug: plivo
-  name: Plivo
-  description: Plivo is a global communications platform offering programmable Voice, Messaging (SMS/MMS/WhatsApp), SIP Trunking, Verify, and Lookup APIs, plus an AI Voice Agent platform. The HTTP API is available at https://api.plivo.com/v1/ with HTTP Basic Auth using Auth ID and Auth Token credentials.
-  api_count: 22
-  score_band: developing
-  score_composite: 49.4
-  shared: 1
 - slug: gotowebinar
   name: GoToWebinar
   description: GoToWebinar is GoTo's (formerly LogMeIn) webinar and virtual event platform. The GoToWebinar REST API lets developers create and manage webinars, organizers, registrants, attendees, sessions, panelists, co-organizers, polls, surveys, and recordings, and subscribe to real-time webhook events for reg…
   api_count: 2
   score_band: developing
-  score_composite: 49.1
+  score_composite: 52.3
+  shared: 1
+- slug: bird
+  name: Bird
+  description: Bird (formerly MessageBird) is an omnichannel customer communications platform offering REST APIs for email, SMS, WhatsApp, RCS, push notifications, voice, and data management. Trusted by more than 450,000 developers, Bird provides enterprise-grade connectivity through a global carrier network alon…
+  api_count: 6
+  score_band: developing
+  score_composite: 50.7
   shared: 1
 - slug: telesign
   name: Telesign
@@ -91,6 +98,13 @@ providers:
   api_count: 5
   score_band: developing
   score_composite: 48.6
+  shared: 1
+- slug: exotel
+  name: Exotel
+  description: Exotel is an Indian cloud telephony and customer-engagement (CPaaS) platform offering programmable voice, SMS, virtual numbers (ExoPhones), IVR/call flows, call campaigns, and call-center tooling. Its Twilio-style REST APIs place outbound calls (connect two numbers or connect a number to a call flo…
+  api_count: 6
+  score_band: developing
+  score_composite: 45.9
   shared: 1
 - slug: cisco-webex-meetings
   name: Cisco Webex Meetings
@@ -113,13 +127,6 @@ providers:
   score_band: thin
   score_composite: 43.1
   shared: 1
-- slug: bird
-  name: Bird
-  description: Bird (formerly MessageBird) is an omnichannel customer communications platform offering REST APIs for email, SMS, WhatsApp, RCS, push notifications, voice, and data management. Trusted by more than 450,000 developers, Bird provides enterprise-grade connectivity through a global carrier network alon…
-  api_count: 6
-  score_band: thin
-  score_composite: 41.9
-  shared: 1
 - slug: documo
   name: Documo
   description: Documo (mFax) is a cloud fax and document delivery platform. The Documo REST API lets developers send and receive faxes, provision and manage fax numbers, subscribe to delivery events via webhooks, and manage account resources over a JSON/HTTPS interface secured with an API key.
@@ -131,6 +138,13 @@ providers:
   name: ClickSend
   description: ClickSend is a cloud communications company providing a single REST API for business messaging across SMS, MMS, voice / text-to-speech, transactional email, and physical post - letters and postcards printed and mailed globally. The v3 API (rest.clicksend.com/v3) uses HTTP Basic authentication with…
   api_count: 9
+  score_band: thin
+  score_composite: 38.6
+  shared: 1
+- slug: gupshup
+  name: Gupshup
+  description: Gupshup is a conversational messaging and CPaaS platform (headquartered in India) that lets businesses send and receive messages across WhatsApp, SMS, RCS, and other channels, plus build chatbots and conversational AI journeys. The developer platform exposes REST APIs on api.gupshup.io - most promi…
+  api_count: 6
   score_band: thin
   score_composite: 38.6
   shared: 1
@@ -204,26 +218,9 @@ providers:
   score_band: thin
   score_composite: 33.2
   shared: 1
-- slug: telnyx
-  name: Telnyx
-  description: Telnyx is a private-IP cloud communications platform offering voice (SIP / programmable), SMS, MMS, fax, number management, IoT SIM, AI inference, and authentication APIs.
-  api_count: 9
-  score_band: minimal
-  score_composite: 28.3
-  shared: 1
-- slug: mailersend
-  name: MailerSend
-  description: MailerSend is a transactional email and SMS platform built for developers, with email API, SMTP relay, templates, and analytics.
-  api_count: 1
-  score_band: minimal
-  score_composite: 27.3
-  shared: 1
 related:
 - slug: authentication
   name: Authentication
-  shared: 1
-- slug: embedded-ipaas
-  name: Embedded iPaaS
   shared: 1
 - slug: sdk
   name: SDKs
@@ -231,8 +228,8 @@ related:
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Twilio, Amazon Pinpoint, Cisco Webex, parcelLab, RingCentral, Bandwidth, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Pinpoint, Cisco Webex, Twilio, RingCentral, parcelLab, Bandwidth, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication, Embedded iPaaS, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Authentication and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

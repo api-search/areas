@@ -13,7 +13,28 @@ providers:
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
   api_count: 17
   score_band: exemplar
-  score_composite: 74.7
+  score_composite: 76.3
+  shared: 1
+- slug: sentry
+  name: Sentry
+  description: Sentry is a developer-first application monitoring platform that helps software teams discover, triage, and prioritize errors and performance issues in production. Sentry provides real-time error monitoring, performance tracing, session replay, profiling, and release tracking for web, mobile, and b…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 72.5
+  shared: 1
+- slug: vercel
+  name: Vercel
+  description: Vercel is a cloud platform that helps developers build, deploy, and scale modern web applications quickly and efficiently. It provides an optimized hosting environment for frontend frameworks like Next.js (which it created), as well as other React, Vue, Angular, and static site projects. Vercel aut…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 71.2
+  shared: 1
+- slug: fastly
+  name: Fastly
+  description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
+  api_count: 23
+  score_band: exemplar
+  score_composite: 70.2
   shared: 1
 - slug: logz-io
   name: Logz.io
@@ -22,12 +43,12 @@ providers:
   score_band: strong
   score_composite: 68.3
   shared: 1
-- slug: sentry
-  name: Sentry
-  description: Sentry is a developer-first application monitoring platform that helps software teams discover, triage, and prioritize errors and performance issues in production. Sentry provides real-time error monitoring, performance tracing, session replay, profiling, and release tracking for web, mobile, and b…
-  api_count: 3
+- slug: amazon-managed-grafana
+  name: Amazon Managed Grafana
+  description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
+  api_count: 1
   score_band: strong
-  score_composite: 67.7
+  score_composite: 67.3
   shared: 1
 - slug: raygun
   name: Raygun
@@ -36,19 +57,19 @@ providers:
   score_band: strong
   score_composite: 67.3
   shared: 1
-- slug: vercel
-  name: Vercel
-  description: Vercel is a cloud platform that helps developers build, deploy, and scale modern web applications quickly and efficiently. It provides an optimized hosting environment for frontend frameworks like Next.js (which it created), as well as other React, Vue, Angular, and static site projects. Vercel aut…
-  api_count: 5
+- slug: amazon-managed-prometheus
+  name: Amazon Managed Service for Prometheus
+  description: Amazon Managed Service for Prometheus is a serverless, Prometheus-compatible monitoring service for container metrics. It automatically scales as your monitoring needs increase, works with open-source tools, and integrates with Amazon EKS and other container environments. The service provides fully…
+  api_count: 1
   score_band: strong
-  score_composite: 67.1
+  score_composite: 64.9
   shared: 1
-- slug: fastly
-  name: Fastly
-  description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
-  api_count: 23
+- slug: acceldata
+  name: Acceldata
+  description: Acceldata is an agentic data management platform that helps enterprises monitor, govern, and optimize data across cloud, lakehouse, and hybrid environments. The platform combines AI-powered agents with data observability to proactively detect issues, trace root causes, and automate remediation work…
+  api_count: 1
   score_band: strong
-  score_composite: 66.4
+  score_composite: 63.4
   shared: 1
 - slug: crewai-cloud
   name: CrewAI Cloud
@@ -64,12 +85,26 @@ providers:
   score_band: strong
   score_composite: 63.2
   shared: 1
-- slug: amazon-managed-grafana
-  name: Amazon Managed Grafana
-  description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
+- slug: cast-ai
+  name: CAST AI
+  description: CAST AI is an Application Performance Automation (APA) platform for Kubernetes that automates cost optimization, autoscaling, workload rightsizing, GPU/LLM workload placement, spot instance selection, and security posture analysis. The platform works across AWS, GCP, Azure, Oracle Cloud, IBM Cloud,…
   api_count: 1
   score_band: strong
-  score_composite: 62.6
+  score_composite: 62.9
+  shared: 1
+- slug: choreo
+  name: Choreo
+  description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
+  api_count: 3
+  score_band: strong
+  score_composite: 62.7
+  shared: 1
+- slug: amazon-xray
+  name: Amazon X-Ray
+  description: AWS X-Ray is a distributed tracing service that helps developers analyze and debug production applications, providing end-to-end visibility into requests as they travel through the application. X-Ray provides service maps, trace analysis, sampling rules, group filtering, and AI-powered insights for…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.5
   shared: 1
 - slug: treblle
   name: Treblle
@@ -90,21 +125,14 @@ providers:
   description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.
   api_count: 13
   score_band: strong
-  score_composite: 61.3
+  score_composite: 62.3
   shared: 1
-- slug: acceldata
-  name: Acceldata
-  description: Acceldata is an agentic data management platform that helps enterprises monitor, govern, and optimize data across cloud, lakehouse, and hybrid environments. The platform combines AI-powered agents with data observability to proactively detect issues, trace root causes, and automate remediation work…
+- slug: amazon-cloudwatch
+  name: Amazon CloudWatch
+  description: Amazon CloudWatch is an intelligent observability platform providing complete visibility into performance, availability, and security across your entire technology stack. Monitor applications, infrastructure, and workloads with unified metrics, logs, and traces plus AI-powered insights.
   api_count: 1
   score_band: strong
-  score_composite: 60.2
-  shared: 1
-- slug: amazon-managed-prometheus
-  name: Amazon Managed Service for Prometheus
-  description: Amazon Managed Service for Prometheus is a serverless, Prometheus-compatible monitoring service for container metrics. It automatically scales as your monitoring needs increase, works with open-source tools, and integrates with Amazon EKS and other container environments. The service provides fully…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.2
+  score_composite: 60.4
   shared: 1
 - slug: microsoft-azure-monitor
   name: Azure Monitor
@@ -113,12 +141,40 @@ providers:
   score_band: strong
   score_composite: 60.0
   shared: 1
-- slug: amazon-xray
-  name: Amazon X-Ray
-  description: AWS X-Ray is a distributed tracing service that helps developers analyze and debug production applications, providing end-to-end visibility into requests as they travel through the application. X-Ray provides service maps, trace analysis, sampling rules, group filtering, and AI-powered insights for…
+- slug: aws-x-ray
+  name: AWS X-Ray
+  description: AWS X-Ray is a service that helps developers analyze and debug distributed applications by providing end-to-end tracing of requests as they travel through the application, identifying performance bottlenecks and errors. It is now part of Amazon CloudWatch Application Signals for unified observabili…
   api_count: 1
   score_band: developing
-  score_composite: 57.7
+  score_composite: 58.9
+  shared: 1
+- slug: apitoolkit
+  name: APIToolkit (Monoscope)
+  description: APIToolkit (now Monoscope) is an open-source-friendly API observability and monitoring platform that helps teams find and fix production issues before customers notice. It unifies logs, traces, metrics, errors, monitors, and session replay across 17+ framework SDKs and 780+ OpenTelemetry integratio…
+  api_count: 5
+  score_band: developing
+  score_composite: 58.4
+  shared: 1
+- slug: better-stack
+  name: Better Stack
+  description: Better Stack is a comprehensive infrastructure monitoring and observability platform that combines uptime monitoring, log management, incident management, status pages, and AI-powered site reliability tools. It helps teams identify and resolve website and server issues quickly by providing real-tim…
+  api_count: 1
+  score_band: developing
+  score_composite: 58.0
+  shared: 1
+- slug: cloudwatch
+  name: AWS CloudWatch
+  description: Amazon CloudWatch is a monitoring and observability service that provides data and actionable insights for AWS, hybrid, and on-premises applications and infrastructure resources.
+  api_count: 10
+  score_band: developing
+  score_composite: 57.4
+  shared: 1
+- slug: betteruptime
+  name: Better Uptime
+  description: Better Uptime (now part of Better Stack) is an uptime monitoring and incident management platform that helps engineering teams detect outages, manage on-call schedules, and communicate incidents through status pages. The platform provides a REST API following the JSON:API specification for programm…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.4
   shared: 1
 - slug: sysdig
   name: Sysdig
@@ -127,6 +183,13 @@ providers:
   score_band: developing
   score_composite: 57.3
   shared: 1
+- slug: instabug
+  name: Instabug (Luciq)
+  description: Instabug — now rebranded as Luciq — is an agentic mobile observability platform covering bug reporting, crash reporting, application performance monitoring, session replay, surveys, feature flags, rollout management, and AI agents (Detect, Resolve, Release). Public agent-facing surface is the Luciq…
+  api_count: 8
+  score_band: developing
+  score_composite: 57.2
+  shared: 1
 - slug: sentry-system
   name: Sentry
   description: Sentry is an open-source error tracking and performance monitoring platform that helps developers identify, triage, and resolve issues in their applications in real-time.
@@ -134,12 +197,19 @@ providers:
   score_band: developing
   score_composite: 57.0
   shared: 1
-- slug: amazon-cloudwatch
-  name: Amazon CloudWatch
-  description: Amazon CloudWatch is an intelligent observability platform providing complete visibility into performance, availability, and security across your entire technology stack. Monitor applications, infrastructure, and workloads with unified metrics, logs, and traces plus AI-powered insights.
-  api_count: 1
+- slug: opentelemetry
+  name: OpenTelemetry
+  description: Vendor-neutral open-source observability framework for cloud-native software, providing a collection of tools, APIs, and SDKs for instrumenting, generating, collecting, and exporting telemetry data including metrics, logs, and traces.
+  api_count: 4
   score_band: developing
-  score_composite: 55.6
+  score_composite: 55.3
+  shared: 1
+- slug: appdynamics
+  name: AppDynamics
+  description: AppDynamics, now part of Cisco, is an application performance monitoring (APM) and observability platform that provides full-stack visibility into application, business, and infrastructure performance. The platform offers REST APIs for controller management, metrics, alerts, analytics events, datab…
+  api_count: 9
+  score_band: developing
+  score_composite: 55.2
   shared: 1
 - slug: signoz
   name: SigNoz
@@ -148,100 +218,30 @@ providers:
   score_band: developing
   score_composite: 55.2
   shared: 1
-- slug: honeycomb-io
-  name: Honeycomb
-  description: ''
-  api_count: 12
-  score_band: developing
-  score_composite: 55.0
-  shared: 1
-- slug: better-stack
-  name: Better Stack
-  description: Better Stack is a comprehensive infrastructure monitoring and observability platform that combines uptime monitoring, log management, incident management, status pages, and AI-powered site reliability tools. It helps teams identify and resolve website and server issues quickly by providing real-tim…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.9
-  shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
-  api_count: 56
-  score_band: developing
-  score_composite: 54.7
-  shared: 1
-- slug: solarwinds
-  name: SolarWinds
-  description: A collection of APIs provided by SolarWinds for IT infrastructure management, monitoring, and observability.
-  api_count: 13
-  score_band: developing
-  score_composite: 54.7
-  shared: 1
-- slug: encore-dev
-  name: Encore
-  description: Encore is a backend application framework and developer cloud that lets engineering teams build type-safe distributed systems in TypeScript (Encore.ts) and Go (Encore.go) using declarative Infrastructure from Code. Developers describe APIs, databases, Pub/Sub, object storage, caches, cron jobs, and…
-  api_count: 5
-  score_band: developing
-  score_composite: 54.5
-  shared: 1
-- slug: mezmo
-  name: Mezmo
-  description: ''
-  api_count: 12
-  score_band: developing
-  score_composite: 54.3
-  shared: 1
-- slug: portkey
-  name: Portkey
-  description: Portkey equips AI teams with everything they need to go to production - Gateway, Observability, Guardrails, Governance, and Prompt Management, all in one platform.
-  api_count: 3
-  score_band: developing
-  score_composite: 54.3
-  shared: 1
-- slug: aws-x-ray
-  name: AWS X-Ray
-  description: AWS X-Ray is a service that helps developers analyze and debug distributed applications by providing end-to-end tracing of requests as they travel through the application, identifying performance bottlenecks and errors. It is now part of Amazon CloudWatch Application Signals for unified observabili…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.2
-  shared: 1
-- slug: cast-ai
-  name: CAST AI
-  description: CAST AI is an Application Performance Automation (APA) platform for Kubernetes that automates cost optimization, autoscaling, workload rightsizing, GPU/LLM workload placement, spot instance selection, and security posture analysis. The platform works across AWS, GCP, Azure, Oracle Cloud, IBM Cloud,…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.0
-  shared: 1
-- slug: instabug
-  name: Instabug (Luciq)
-  description: Instabug — now rebranded as Luciq — is an agentic mobile observability platform covering bug reporting, crash reporting, application performance monitoring, session replay, surveys, feature flags, rollout management, and AI agents (Detect, Resolve, Release). Public agent-facing surface is the Luciq…
-  api_count: 8
-  score_band: developing
-  score_composite: 54.0
-  shared: 1
 related:
 - slug: monitoring
   name: Monitoring
-  shared: 10
+  shared: 13
 - slug: logging
   name: Logging
-  shared: 4
-- slug: containers
-  name: Containers
-  shared: 3
+  shared: 5
 - slug: security
   name: Security
   shared: 3
 - slug: webhooks
   name: Webhooks
   shared: 3
-- slug: aiops
-  name: AIOps
+- slug: containers
+  name: Containers
+  shared: 2
+- slug: finops
+  name: FinOps
   shared: 2
 overview: 'Observability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [observability.apievangelist.com](https://observability.apievangelist.com).
 
 
-  30 providers on the network work in this area, including New Relic, Logz.io, Sentry, Raygun, Vercel, Fastly, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including New Relic, Sentry, Vercel, Fastly, Logz.io, Amazon Managed Grafana, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Monitoring, Logging, Containers, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Monitoring, Logging, Security, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -15,6 +15,13 @@ providers:
   score_band: strong
   score_composite: 68.8
   shared: 1
+- slug: chaos-mesh
+  name: Chaos Mesh
+  description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.1
+  shared: 1
 - slug: gremlin
   name: Gremlin
   description: Gremlin is a chaos engineering platform that helps teams build more resilient systems by running controlled failure experiments. It provides tools to simulate infrastructure failures, network issues, and resource exhaustion to identify and fix weaknesses before they cause real outages.
@@ -36,19 +43,12 @@ providers:
   score_band: thin
   score_composite: 43.6
   shared: 1
-- slug: chaos-mesh
-  name: Chaos Mesh
-  description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
-  api_count: 1
-  score_band: thin
-  score_composite: 42.3
-  shared: 1
 - slug: statuspage
   name: Statuspage
   description: Statuspage by Atlassian is a hosted status page and incident communication platform that helps companies communicate real-time service status, incident updates, scheduled maintenance, and component health to customers and internal stakeholders. It supports public and private pages, audience-specifi…
   api_count: 3
-  score_band: minimal
-  score_composite: 25.9
+  score_band: thin
+  score_composite: 32.2
   shared: 1
 - slug: fiix-software
   name: Fiix Software
@@ -83,7 +83,7 @@ related:
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  8 providers on the network work in this area, including Svix, Gremlin, Google Cloud Error Reporting, Memfault, Chaos Mesh, Statuspage, and 2 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  8 providers on the network work in this area, including Svix, Chaos Mesh, Gremlin, Google Cloud Error Reporting, Memfault, Statuspage, and 2 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Logging, Command Line Interface, SaaS Management, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

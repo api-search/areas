@@ -13,14 +13,14 @@ providers:
   description: Amazon ElastiCache is a fully managed in-memory caching service supporting Redis and Memcached. ElastiCache makes it easy to deploy, operate, and scale popular open-source compatible in-memory data stores, improving the performance of web applications.
   api_count: 1
   score_band: strong
-  score_composite: 64.0
+  score_composite: 67.1
   shared: 1
 - slug: apache-ignite
   name: Apache Ignite
   description: Apache Ignite is a distributed database for mission-critical high-velocity applications requiring in-memory performance. It provides ACID transactions, SQL queries, key-value storage, compute grid, and backpressured streaming across distributed clusters. Governed by the Apache Software Foundation u…
   api_count: 3
   score_band: developing
-  score_composite: 54.4
+  score_composite: 57.6
   shared: 1
 - slug: google-cloud-cdn
   name: Google Cloud CDN
@@ -33,8 +33,8 @@ providers:
   name: Apache Geode
   description: Apache Geode is an in-memory data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures. It pools memory, CPU, network resources, and local disk storage across multiple processes, offering a REST API for data…
   api_count: 2
-  score_band: thin
-  score_composite: 43.5
+  score_band: developing
+  score_composite: 48.3
   shared: 1
 - slug: gridgain
   name: GridGain

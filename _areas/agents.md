@@ -6,8 +6,36 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 71
+provider_count: 72
 providers:
+- slug: anthropic
+  name: Anthropic
+  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
+  api_count: 11
+  score_band: strong
+  score_composite: 69.5
+  shared: 1
+- slug: chatgpt
+  name: ChatGPT
+  description: OpenAI's ChatGPT API for conversational AI and language model interactions.
+  api_count: 13
+  score_band: strong
+  score_composite: 67.5
+  shared: 1
+- slug: vapi-ai
+  name: Vapi
+  description: Vapi is a San Francisco-based voice AI platform that lets developers build real-time, low-latency voice agents over phone, web, and SIP. It orchestrates three modular components — a transcriber (STT), an LLM, and a voice (TTS) — into a sub-700ms voice-to-voice pipeline, with first-class support for…
+  api_count: 15
+  score_band: strong
+  score_composite: 66.6
+  shared: 1
+- slug: buildkite-com
+  name: Buildkite
+  description: Buildkite is a hybrid CI/CD platform that combines a hosted control plane (pipelines.buildkite.com) with self-hosted or Buildkite-Hosted agents that run jobs on customer-controlled infrastructure. The platform spans three core products — Pipelines, Test Engine, and Package Registries — and exposes…
+  api_count: 5
+  score_band: strong
+  score_composite: 66.0
+  shared: 1
 - slug: daytona-io
   name: Daytona
   description: Daytona is open-source, secure, and elastic infrastructure for running AI-generated code. Daytona sandboxes spin up in under 90 milliseconds and provide isolated Linux, Windows, and macOS environments where autonomous agents and developer workflows can execute untrusted code, perform file system an…
@@ -15,26 +43,12 @@ providers:
   score_band: strong
   score_composite: 64.0
   shared: 1
-- slug: anthropic
-  name: Anthropic
-  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
-  api_count: 11
+- slug: agentql
+  name: AgentQL
+  description: AgentQL connects LLMs and AI agents to the entire web through a specialized query language, REST API, and Python/JavaScript SDKs. It enables web scraping, data extraction, and browser automation using natural language queries that are self-healing — adapting automatically to page layout changes. Ag…
+  api_count: 3
   score_band: strong
-  score_composite: 63.2
-  shared: 1
-- slug: vapi-ai
-  name: Vapi
-  description: Vapi is a San Francisco-based voice AI platform that lets developers build real-time, low-latency voice agents over phone, web, and SIP. It orchestrates three modular components — a transcriber (STT), an LLM, and a voice (TTS) — into a sub-700ms voice-to-voice pipeline, with first-class support for…
-  api_count: 15
-  score_band: strong
-  score_composite: 62.5
-  shared: 1
-- slug: chatgpt
-  name: ChatGPT
-  description: OpenAI's ChatGPT API for conversational AI and language model interactions.
-  api_count: 13
-  score_band: strong
-  score_composite: 61.8
+  score_composite: 63.0
   shared: 1
 - slug: dust-tt
   name: Dust
@@ -43,12 +57,19 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
-- slug: buildkite-com
-  name: Buildkite
-  description: Buildkite is a hybrid CI/CD platform that combines a hosted control plane (pipelines.buildkite.com) with self-hosted or Buildkite-Hosted agents that run jobs on customer-controlled infrastructure. The platform spans three core products — Pipelines, Test Engine, and Package Registries — and exposes…
-  api_count: 5
+- slug: amazon-bedrock
+  name: Amazon Bedrock
+  description: Amazon Bedrock is a fully managed AWS service that makes high-performing foundation models from leading AI companies available through a unified API for building generative AI applications. It supports text and image generation, conversational AI, model customization and fine-tuning, retrieval-augm…
+  api_count: 4
   score_band: strong
-  score_composite: 60.4
+  score_composite: 60.9
+  shared: 1
+- slug: github-copilot
+  name: GitHub Copilot
+  description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
+  api_count: 12
+  score_band: developing
+  score_composite: 57.3
   shared: 1
 - slug: exa-ai
   name: Exa
@@ -78,13 +99,6 @@ providers:
   score_band: developing
   score_composite: 56.0
   shared: 1
-- slug: github-copilot
-  name: GitHub Copilot
-  description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
-  api_count: 12
-  score_band: developing
-  score_composite: 55.8
-  shared: 1
 - slug: tetrascience
   name: TetraScience
   description: TetraScience is the scientific data and AI platform company behind the Tetra Scientific Data and AI Cloud — purpose-built infrastructure that liberates, replatforms, and engineers raw lab data from instruments, informatics systems, and partner organizations into FAIR, AI-native Tetra Data. The plat…
@@ -99,12 +113,12 @@ providers:
   score_band: developing
   score_composite: 54.6
   shared: 1
-- slug: agentql
-  name: AgentQL
-  description: AgentQL connects LLMs and AI agents to the entire web through a specialized query language, REST API, and Python/JavaScript SDKs. It enables web scraping, data extraction, and browser automation using natural language queries that are self-healing — adapting automatically to page layout changes. Ag…
-  api_count: 3
+- slug: microsoft-copilot
+  name: Microsoft Copilot
+  description: Microsoft Copilot is an AI-powered assistant that helps users with productivity tasks, content generation, and information retrieval across Microsoft 365 applications and services.
+  api_count: 5
   score_band: developing
-  score_composite: 54.2
+  score_composite: 53.9
   shared: 1
 - slug: freestyle-sh
   name: Freestyle
@@ -112,20 +126,6 @@ providers:
   api_count: 8
   score_band: developing
   score_composite: 53.0
-  shared: 1
-- slug: microsoft-copilot
-  name: Microsoft Copilot
-  description: Microsoft Copilot is an AI-powered assistant that helps users with productivity tasks, content generation, and information retrieval across Microsoft 365 applications and services.
-  api_count: 5
-  score_band: developing
-  score_composite: 53.0
-  shared: 1
-- slug: amazon-bedrock
-  name: Amazon Bedrock
-  description: Amazon Bedrock is a fully managed AWS service that makes high-performing foundation models from leading AI companies available through a unified API for building generative AI applications. It supports text and image generation, conversational AI, model customization and fine-tuning, retrieval-augm…
-  api_count: 4
-  score_band: developing
-  score_composite: 52.1
   shared: 1
 - slug: flowise
   name: Flowise
@@ -155,6 +155,13 @@ providers:
   score_band: developing
   score_composite: 49.9
   shared: 1
+- slug: chatwoot
+  name: Chatwoot
+  description: Chatwoot is an open-source customer support and omni-channel messaging platform that provides REST APIs for managing conversations, contacts, agents, teams, labels, and integrating customer communication workflows. It supports live chat, email, WhatsApp, Facebook, Instagram, Telegram, SMS, and more…
+  api_count: 3
+  score_band: developing
+  score_composite: 49.1
+  shared: 1
 - slug: mistral-ai
   name: Mistral AI
   description: Mistral AI is a French artificial intelligence company that develops and provides frontier large language models and APIs for developers and enterprises. Their developer platform offers APIs for chat completions, embeddings, fine-tuning, OCR, batch processing, and agentic workflows, enabling teams…
@@ -176,6 +183,27 @@ providers:
   score_band: developing
   score_composite: 48.2
   shared: 1
+- slug: cognee
+  name: Cognee
+  description: Cognee is an open-source AI memory and knowledge graph platform that enables developers to build persistent, structured memory for AI agents and LLM applications. The platform provides a REST API and Python/TypeScript SDKs for ingesting documents and data from 28+ sources, processing them through a…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.9
+  shared: 1
+- slug: anthropic-claude
+  name: Anthropic Claude
+  description: Anthropic Claude is a family of frontier large language models (Opus, Sonnet, Haiku) accessible via the Anthropic API for building AI assistants, agents, and integrations. The API supports streaming chat completions, tool use, vision, prompt caching, batch processing, the Files API, computer use, a…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.1
+  shared: 1
+- slug: inkeep
+  name: Inkeep
+  description: Inkeep is an AI support and agent platform for documentation and products. Its developer platform exposes an OpenAI-compatible RAG / chat completions API over your own content, an Analytics API for logging conversations, feedback, and events, and an Agents / management surface for building and oper…
+  api_count: 3
+  score_band: developing
+  score_composite: 47.1
+  shared: 1
 - slug: gemini
   name: Gemini
   description: Google's Gemini API provides access to state-of-the-art generative AI models for text generation, multimodal understanding, code generation, and more.
@@ -190,40 +218,15 @@ providers:
   score_band: thin
   score_composite: 43.9
   shared: 1
-- slug: letta
-  name: Letta
-  description: Letta (formerly MemGPT) is a stateful AI agents platform built around long-term memory, tool execution, and multi-agent coordination. The Letta REST API exposes 239 endpoints across 36 public resource categories — agents, memory blocks, archival memory, sources (RAG), custom tools (sandboxed/client…
-  api_count: 3
-  score_band: thin
-  score_composite: 43.4
-  shared: 1
-- slug: langflow
-  name: Langflow
-  description: Langflow is an open-source low-code visual builder for AI agents, RAG pipelines, and LangChain-based workflows. It pairs a drag-and-drop React Flow frontend with a FastAPI backend that exposes every flow as a REST API, an MCP server, and an OpenAI-compatible Responses endpoint. Components are edita…
-  api_count: 13
-  score_band: thin
-  score_composite: 42.5
-  shared: 1
-- slug: anthropic-claude
-  name: Anthropic Claude
-  description: Anthropic Claude is a family of frontier large language models (Opus, Sonnet, Haiku) accessible via the Anthropic API for building AI assistants, agents, and integrations. The API supports streaming chat completions, tool use, vision, prompt caching, batch processing, the Files API, computer use, a…
-  api_count: 1
-  score_band: thin
-  score_composite: 40.8
-  shared: 1
-- slug: inkeep
-  name: Inkeep
-  description: Inkeep is an AI support and agent platform for documentation and products. Its developer platform exposes an OpenAI-compatible RAG / chat completions API over your own content, an Analytics API for logging conversations, feedback, and events, and an Agents / management surface for building and oper…
-  api_count: 3
-  score_band: thin
-  score_composite: 40.8
-  shared: 1
 related:
 - slug: search
   name: API Evangelist Search
   shared: 2
 - slug: integrations
   name: Integrations
+  shared: 2
+- slug: machine-learning
+  name: Machine Learning
   shared: 2
 - slug: plans
   name: Plans
@@ -234,14 +237,11 @@ related:
 - slug: support
   name: Support
   shared: 1
-- slug: ide
-  name: IDE
-  shared: 1
 overview: 'Agents is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents.apievangelist.com](https://agents.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Daytona, Anthropic, Vapi, ChatGPT, Dust, Buildkite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Anthropic, ChatGPT, Vapi, Buildkite, Daytona, AgentQL, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Evangelist Search, Integrations, Plans, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Search, Integrations, Machine Learning, and Plans. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

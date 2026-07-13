@@ -13,7 +13,14 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 17
   score_band: exemplar
-  score_composite: 71.2
+  score_composite: 75.3
+  shared: 1
+- slug: amazon-resource-explorer
+  name: Amazon Resource Explorer
+  description: AWS Resource Explorer is a resource search and discovery service. With Resource Explorer, you can explore your resources across AWS Regions using an internet search-like experience. It provides a unified view of your AWS resources and helps you understand your resource inventory.
+  api_count: 1
+  score_band: developing
+  score_composite: 57.1
   shared: 1
 - slug: microsoft-azure-migrate
   name: Azure Migrate
@@ -28,13 +35,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 55.1
-  shared: 1
-- slug: amazon-resource-explorer
-  name: Amazon Resource Explorer
-  description: AWS Resource Explorer is a resource search and discovery service. With Resource Explorer, you can explore your resources across AWS Regions using an internet search-like experience. It provides a unified view of your AWS resources and helps you understand your resource inventory.
-  api_count: 1
-  score_band: developing
-  score_composite: 52.4
   shared: 1
 - slug: google-cloud-migration-center
   name: Google Cloud Migration Center
@@ -64,6 +64,20 @@ providers:
   score_band: thin
   score_composite: 40.4
   shared: 1
+- slug: bored
+  name: Bored API
+  description: The Bored API is a free, open-source, no-authentication public API that serves suggestions for things to do when you are bored. The canonical reference implementation is an MEVN (MongoDB / Express / Vue / Node) project maintained by Drew Thoennes at github.com/drewthoennes/Bored-API (MIT licensed).…
+  api_count: 2
+  score_band: thin
+  score_composite: 37.9
+  shared: 1
+- slug: apinity-io
+  name: Apinity.io
+  description: Apinity empowers organisations to run their compliant API marketplace that simplifies integration, drives adoption, and secures governance. The platform provides tools for managing API lifecycle, enabling API discovery, enforcing compliance policies, and facilitating secure API-driven integrations…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.4
+  shared: 1
 - slug: artifact-hub
   name: Artifact Hub
   description: Artifact Hub is a CNCF incubating web-based application that enables finding, installing, and publishing cloud-native packages. Built primarily in TypeScript and Go, it addresses fragmentation in the cloud-native ecosystem by providing a single discovery experience for consumers. It supports 27+ ar…
@@ -78,26 +92,12 @@ providers:
   score_band: thin
   score_composite: 35.2
   shared: 1
-- slug: bored
-  name: Bored API
-  description: The Bored API is a free, open-source, no-authentication public API that serves suggestions for things to do when you are bored. The canonical reference implementation is an MEVN (MongoDB / Express / Vue / Node) project maintained by Drew Thoennes at github.com/drewthoennes/Bored-API (MIT licensed).…
-  api_count: 2
-  score_band: thin
-  score_composite: 32.2
-  shared: 1
 - slug: audiomack
   name: Audiomack
   description: Audiomack is an on-demand music streaming and audio discovery platform that lets artists and creators upload unlimited music and podcasts and reach listeners through its iOS, Android, and web apps. The service is widely associated with hip-hop, rap, R&B, Afrobeats, dancehall, reggae, electronic, an…
   api_count: 1
   score_band: thin
   score_composite: 32.0
-  shared: 1
-- slug: apinity-io
-  name: Apinity.io
-  description: Apinity empowers organisations to run their compliant API marketplace that simplifies integration, drives adoption, and secures governance. The platform provides tools for managing API lifecycle, enabling API discovery, enforcing compliance policies, and facilitating secure API-driven integrations…
-  api_count: 1
-  score_band: minimal
-  score_composite: 28.5
   shared: 1
 - slug: algolia
   name: Algolia
@@ -167,7 +167,7 @@ related:
 overview: 'API Evangelist Discovery is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [discovery.apievangelist.com](https://discovery.apievangelist.com).
 
 
-  20 providers on the network work in this area, including Postman, Azure Migrate, The Movie Database, Amazon Resource Explorer, Google Cloud Migration Center, Taboola, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  20 providers on the network work in this area, including Postman, Amazon Resource Explorer, Azure Migrate, The Movie Database, Google Cloud Migration Center, Taboola, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Migration, AI Automation, API Evangelist Search, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
