@@ -22,6 +22,13 @@ providers:
   score_band: exemplar
   score_composite: 71.5
   shared: 1
+- slug: google-adsense
+  name: Google AdSense Management
+  description: The Google AdSense Management API allows publishers to access their inventory and run earnings and performance reports. Publishers can manage ad clients, ad units, custom channels, URL channels, and access payment and policy information programmatically.
+  api_count: 1
+  score_band: developing
+  score_composite: 48.1
+  shared: 1
 - slug: moesif
   name: Moesif
   description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
@@ -49,13 +56,6 @@ providers:
   api_count: 7
   score_band: thin
   score_composite: 40.5
-  shared: 1
-- slug: google-adsense
-  name: Google AdSense Management
-  description: The Google AdSense Management API allows publishers to access their inventory and run earnings and performance reports. Publishers can manage ad clients, ad units, custom channels, URL channels, and access payment and policy information programmatically.
-  api_count: 1
-  score_band: thin
-  score_composite: 39.3
   shared: 1
 - slug: gameanalytics
   name: GameAnalytics
@@ -108,7 +108,7 @@ related:
 overview: 'Monetization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monetization.apievangelist.com](https://monetization.apievangelist.com).
 
 
-  12 providers on the network work in this area, including Amberflo, Apigee, Moesif, Podbean, Acast, Pollfish, and 6 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  12 providers on the network work in this area, including Amberflo, Apigee, Google AdSense Management, Moesif, Podbean, Acast, and 6 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Plans, FinOps, Integrations, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'

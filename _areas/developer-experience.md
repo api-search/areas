@@ -8,6 +8,13 @@ area_host: developer-experience.apievangelist.com
 icon: https://developer-experience.apievangelist.com/icon-thumb.png
 provider_count: 36
 providers:
+- slug: treblle
+  name: Treblle
+  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
+  api_count: 10
+  score_band: strong
+  score_composite: 68.0
+  shared: 1
 - slug: apimatic
   name: APIMatic
   description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languag…
@@ -15,12 +22,12 @@ providers:
   score_band: strong
   score_composite: 66.2
   shared: 1
-- slug: treblle
-  name: Treblle
-  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
-  api_count: 10
-  score_band: strong
-  score_composite: 62.4
+- slug: fern
+  name: Fern
+  description: Fern is an SDK generation and documentation platform designed for the AI era. It transforms OpenAPI, AsyncAPI, Protobuf (gRPC), and OpenRPC specifications into idiomatic, production-ready SDKs across nine languages plus auto-generated, branded developer documentation, an AI-first CLI, llms.txt for…
+  api_count: 1
+  score_band: developing
+  score_composite: 58.6
   shared: 1
 - slug: apple
   name: Apple
@@ -43,9 +50,9 @@ providers:
   score_band: developing
   score_composite: 54.1
   shared: 1
-- slug: fern
-  name: Fern
-  description: Fern is an SDK generation and documentation platform designed for the AI era. It transforms OpenAPI, AsyncAPI, Protobuf (gRPC), and OpenRPC specifications into idiomatic, production-ready SDKs across nine languages plus auto-generated, branded developer documentation, an AI-first CLI, llms.txt for…
+- slug: rely
+  name: Rely.io
+  description: Rely.io is an internal developer portal that aggregates engineering data, provides software catalogs with blueprints and entities, engineering scorecards, self-service developer actions, and workflow automation for platform engineering teams. The platform integrates with CI/CD pipelines, incident m…
   api_count: 1
   score_band: developing
   score_composite: 49.8
@@ -106,12 +113,12 @@ providers:
   score_band: thin
   score_composite: 44.8
   shared: 1
-- slug: rely
-  name: Rely.io
-  description: Rely.io is an internal developer portal that aggregates engineering data, provides software catalogs with blueprints and entities, engineering scorecards, self-service developer actions, and workflow automation for platform engineering teams. The platform integrates with CI/CD pipelines, incident m…
-  api_count: 1
+- slug: scalable-platforms
+  name: Scalable Platforms
+  description: A subject-matter collection covering APIs, tools, and platforms for building and deploying scalable platform infrastructure. This topic encompasses Platform-as-a-Service (PaaS) providers, developer experience platforms, deployment automation, serverless computing, container platforms, and the tools…
+  api_count: 8
   score_band: thin
-  score_composite: 44.1
+  score_composite: 44.6
   shared: 1
 - slug: gitbook
   name: GitBook
@@ -133,6 +140,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 40.8
+  shared: 1
+- slug: grounded-tools
+  name: Grounded.tools
+  description: Grounded.tools (Grounded Docs MCP Server) is an open-source, privacy-first documentation indexing tool that keeps AI assistants informed with up-to-date, version-specific documentation from multiple sources.
+  api_count: 1
+  score_band: thin
+  score_composite: 39.6
   shared: 1
 - slug: roadie-io
   name: Roadie
@@ -176,13 +190,6 @@ providers:
   score_band: thin
   score_composite: 35.8
   shared: 1
-- slug: scalable-platforms
-  name: Scalable Platforms
-  description: A subject-matter collection covering APIs, tools, and platforms for building and deploying scalable platform infrastructure. This topic encompasses Platform-as-a-Service (PaaS) providers, developer experience platforms, deployment automation, serverless computing, container platforms, and the tools…
-  api_count: 8
-  score_band: thin
-  score_composite: 35.7
-  shared: 1
 - slug: terminal-shop
   name: Terminal
   description: Terminal is a developer-focused coffee company with an API-first, SSH-first ordering experience. The Terminal Shop API is a public REST API (Bearer token) for browsing coffee products, managing carts, placing orders, running subscriptions, and handling addresses, cards, and profiles - the same surf…
@@ -211,25 +218,15 @@ providers:
   score_band: thin
   score_composite: 30.9
   shared: 1
-- slug: grounded-tools
-  name: Grounded.tools
-  description: Grounded.tools (Grounded Docs MCP Server) is an open-source, privacy-first documentation indexing tool that keeps AI assistants informed with up-to-date, version-specific documentation from multiple sources.
-  api_count: 1
-  score_band: thin
-  score_composite: 30.7
-  shared: 1
 related:
 - slug: documentation
   name: Documentation
-  shared: 5
+  shared: 4
 - slug: sdk
   name: SDKs
   shared: 4
 - slug: design
   name: Design
-  shared: 1
-- slug: search
-  name: API Evangelist Search
   shared: 1
 - slug: cli
   name: Command Line Interface
@@ -237,11 +234,14 @@ related:
 - slug: deployment
   name: Deployment
   shared: 1
+- slug: finops
+  name: FinOps
+  shared: 1
 overview: 'Developer Experience is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [developer-experience.apievangelist.com](https://developer-experience.apievangelist.com).
 
 
-  30 providers on the network work in this area, including APIMatic, Treblle, Apple, Cycloid, Acquia, Fern, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Treblle, APIMatic, Fern, Apple, Cycloid, Acquia, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Documentation, SDKs, Design, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Documentation, SDKs, Design, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

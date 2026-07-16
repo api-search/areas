@@ -12,15 +12,22 @@ providers:
   name: Logz.io
   description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
   api_count: 19
-  score_band: strong
-  score_composite: 68.3
+  score_band: exemplar
+  score_composite: 77.1
   shared: 1
 - slug: honeycomb-io
   name: Honeycomb
   description: ''
   api_count: 12
-  score_band: developing
-  score_composite: 55.0
+  score_band: strong
+  score_composite: 60.7
+  shared: 1
+- slug: incident-io
+  name: Incident.io
+  description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
+  api_count: 1
+  score_band: thin
+  score_composite: 41.6
   shared: 1
 - slug: mist-ai
   name: Juniper Mist AI
@@ -70,13 +77,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 33.2
-  shared: 1
-- slug: incident-io
-  name: Incident.io
-  description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
-  api_count: 1
-  score_band: thin
-  score_composite: 32.7
   shared: 1
 - slug: chronosphere
   name: Chronosphere
@@ -170,17 +170,17 @@ providers:
   score_composite: 19.2
   shared: 1
 related:
-- slug: logging
-  name: Logging
-  shared: 1
 - slug: observability
   name: Observability
+  shared: 2
+- slug: logging
+  name: Logging
   shared: 1
 overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aiops.apievangelist.com](https://aiops.apievangelist.com).
 
 
-  23 providers on the network work in this area, including Logz.io, Honeycomb, Juniper Mist AI, Soda, FireHydrant, Metaplane, and 17 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  23 providers on the network work in this area, including Logz.io, Honeycomb, Incident.io, Juniper Mist AI, Soda, FireHydrant, and 17 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Logging and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

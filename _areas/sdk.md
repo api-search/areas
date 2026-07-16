@@ -8,6 +8,13 @@ area_host: sdk.apievangelist.com
 icon: https://sdk.apievangelist.com/icon-thumb.png
 provider_count: 75
 providers:
+- slug: speakeasy
+  name: Speakeasy
+  description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
+  api_count: 8
+  score_band: strong
+  score_composite: 63.5
+  shared: 1
 - slug: chroma
   name: Chroma
   description: Chroma (Chroma DB) is an open-source AI-native embedding database designed to make it easy to build LLM applications by providing storage, retrieval, and management for vector embeddings, full-text search, regex search, and multi-modal retrieval (text, image, audio). Distributed under the Apache 2.…
@@ -15,19 +22,40 @@ providers:
   score_band: developing
   score_composite: 59.3
   shared: 1
-- slug: speakeasy
-  name: Speakeasy
-  description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
-  api_count: 8
+- slug: fern
+  name: Fern
+  description: Fern is an SDK generation and documentation platform designed for the AI era. It transforms OpenAPI, AsyncAPI, Protobuf (gRPC), and OpenRPC specifications into idiomatic, production-ready SDKs across nine languages plus auto-generated, branded developer documentation, an AI-first CLI, llms.txt for…
+  api_count: 1
   score_band: developing
-  score_composite: 58.7
+  score_composite: 58.6
   shared: 1
 - slug: split
   name: Split
   description: Split, now part of Harness Feature Management and Experimentation, is a feature flag and experimentation platform that enables teams to safely release features with controlled rollouts and measure their impact. Their developer platform provides REST APIs for managing feature flags, environments, se…
   api_count: 8
   score_band: developing
-  score_composite: 53.6
+  score_composite: 58.3
+  shared: 1
+- slug: transcend-io
+  name: Transcend
+  description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, consent and preference management, privacy assessments, and an A…
+  api_count: 4
+  score_band: developing
+  score_composite: 58.0
+  shared: 1
+- slug: sideko
+  name: Sideko
+  description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
+  api_count: 11
+  score_band: developing
+  score_composite: 57.1
+  shared: 1
+- slug: tripetto
+  name: Tripetto
+  description: Tripetto is a powerful form builder platform and SDK that enables developers to create smart, conversational forms and surveys with advanced conditional logic. The platform provides a JavaScript/TypeScript SDK for embedding form builders and runners into web applications, along with webhook capabil…
+  api_count: 2
+  score_band: developing
+  score_composite: 55.4
   shared: 1
 - slug: commercetools
   name: commercetools
@@ -36,40 +64,12 @@ providers:
   score_band: developing
   score_composite: 52.9
   shared: 1
-- slug: transcend-io
-  name: Transcend
-  description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, consent and preference management, privacy assessments, and an A…
-  api_count: 4
-  score_band: developing
-  score_composite: 52.4
-  shared: 1
 - slug: mercado-pago
   name: Mercado Pago
   description: Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Founded in 2003, it processes a substantial share of LatAm digital payments across Brazil (PIX, Boleto, cards), Argentina, Mexico (SPEI, OXXO), Chile, Colombia, Peru, a…
   api_count: 29
   score_band: developing
   score_composite: 51.9
-  shared: 1
-- slug: sideko
-  name: Sideko
-  description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
-  api_count: 11
-  score_band: developing
-  score_composite: 51.4
-  shared: 1
-- slug: tripetto
-  name: Tripetto
-  description: Tripetto is a powerful form builder platform and SDK that enables developers to create smart, conversational forms and surveys with advanced conditional logic. The platform provides a JavaScript/TypeScript SDK for embedding form builders and runners into web applications, along with webhook capabil…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.7
-  shared: 1
-- slug: fern
-  name: Fern
-  description: Fern is an SDK generation and documentation platform designed for the AI era. It transforms OpenAPI, AsyncAPI, Protobuf (gRPC), and OpenRPC specifications into idiomatic, production-ready SDKs across nine languages plus auto-generated, branded developer documentation, an AI-first CLI, llms.txt for…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.8
   shared: 1
 - slug: android
   name: Android
@@ -92,6 +92,20 @@ providers:
   score_band: developing
   score_composite: 47.2
   shared: 1
+- slug: swagger-codegen
+  name: Swagger Codegen
+  description: Swagger Codegen is an open-source template-driven code generation tool that automatically generates client libraries, server stubs, and API documentation from OpenAPI Specification definitions. It supports 40+ client languages and 20+ server frameworks. Available as a CLI, Docker image, Maven/Gradl…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.3
+  shared: 1
+- slug: scalar
+  name: Scalar
+  description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rules, and automated SDK generation for TypeScript, Python, Go,…
+  api_count: 6
+  score_band: thin
+  score_composite: 44.6
+  shared: 1
 - slug: stream-io
   name: Stream
   description: Stream provides realtime APIs for chat messaging, video and audio (calls and rooms), activity feeds and moderation. Hosted on a global edge network with native SDKs for web, mobile (iOS, Android, Flutter, React Native) and game engines (Unity, Unreal). Stream publishes full OpenAPI specifications f…
@@ -106,12 +120,26 @@ providers:
   score_band: thin
   score_composite: 43.1
   shared: 1
+- slug: patch-io
+  name: Patch
+  description: Patch is an API-first climate platform that helps companies procure carbon credits and removals, run climate strategy programs, and embed climate action into their own products. The core Patch API exposes carbon projects, estimates, and orders so developers can build offset purchase flows directly…
+  api_count: 1
+  score_band: thin
+  score_composite: 43.0
+  shared: 1
 - slug: gitbook
   name: GitBook
   description: GitBook is a platform that allows users to create, publish, and share online books and documentation. It provides a simple and user-friendly interface for writing and organizing content, as well as tools for collaborating with other authors or team members. With GitBook, users can easily create a p…
   api_count: 1
   score_band: thin
   score_composite: 42.4
+  shared: 1
+- slug: retrofit
+  name: Retrofit
+  description: Retrofit is a type-safe HTTP client for Android and the JVM (Java and Kotlin) built by Square, turning HTTP API interfaces into callable Java objects with annotation-based configuration and pluggable serialization. Retrofit is built on top of OkHttp and supports synchronous/asynchronous execution,…
+  api_count: 4
+  score_band: thin
+  score_composite: 42.2
   shared: 1
 - slug: subbly
   name: Subbly
@@ -120,12 +148,12 @@ providers:
   score_band: thin
   score_composite: 42.0
   shared: 1
-- slug: swagger-codegen
-  name: Swagger Codegen
-  description: Swagger Codegen is an open-source template-driven code generation tool that automatically generates client libraries, server stubs, and API documentation from OpenAPI Specification definitions. It supports 40+ client languages and 20+ server frameworks. Available as a CLI, Docker image, Maven/Gradl…
-  api_count: 2
+- slug: thrift
+  name: Apache Thrift
+  description: Apache Thrift is a cross-language RPC framework originally developed at Facebook for scalable cross-language services development. It provides a lightweight, language-independent software stack for point-to-point RPC implementation with clean abstractions for data transport, serialization, and appl…
+  api_count: 1
   score_band: thin
-  score_composite: 40.6
+  score_composite: 40.5
   shared: 1
 - slug: banuba
   name: Banuba
@@ -145,13 +173,6 @@ providers:
   name: CometChat
   description: CometChat is an in-app messaging platform offering chat, voice, and video SDKs plus a server-side REST Management API. The REST API (v3) manages users, auth tokens, groups, group members, messages, conversations, reactions, roles, and webhooks for an app, while client SDKs and a managed realtime We…
   api_count: 8
-  score_band: thin
-  score_composite: 38.9
-  shared: 1
-- slug: scalar
-  name: Scalar
-  description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rules, and automated SDK generation for TypeScript, Python, Go,…
-  api_count: 6
   score_band: thin
   score_composite: 38.9
   shared: 1
@@ -176,12 +197,12 @@ providers:
   score_band: thin
   score_composite: 38.2
   shared: 1
-- slug: patch-io
-  name: Patch
-  description: Patch is an API-first climate platform that helps companies procure carbon credits and removals, run climate strategy programs, and embed climate action into their own products. The core Patch API exposes carbon projects, estimates, and orders so developers can build offset purchase flows directly…
-  api_count: 1
+- slug: smithy
+  name: Smithy
+  description: Smithy is an open source, protocol-agnostic interface definition language (IDL) and toolchain developed at AWS for defining, validating, and generating API clients, servers, and documentation for any programming language. It powers the AWS SDK code generation pipeline and supports protocol-agnostic…
+  api_count: 2
   score_band: thin
-  score_composite: 37.3
+  score_composite: 37.6
   shared: 1
 - slug: liblab
   name: Liblab
@@ -197,33 +218,12 @@ providers:
   score_band: thin
   score_composite: 36.6
   shared: 1
-- slug: smithy
-  name: Smithy
-  description: Smithy is an open source, protocol-agnostic interface definition language (IDL) and toolchain developed at AWS for defining, validating, and generating API clients, servers, and documentation for any programming language. It powers the AWS SDK code generation pipeline and supports protocol-agnostic…
-  api_count: 2
-  score_band: thin
-  score_composite: 36.1
-  shared: 1
-- slug: suki-ai
-  name: Suki AI
-  description: Suki AI provides voice-enabled, ambient clinical intelligence used by clinicians to generate clinical notes, dictate, and complete documentation tasks across more than 400 health systems. Suki for Partners is a developer platform offering REST APIs and SDKs (Web SDK, Headless Web SDK, Mobile SDK fo…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.8
-  shared: 1
-- slug: dagger
-  name: Dagger
-  description: Dagger is an open-source programmable CI/CD engine that runs pipelines in containers using a unified, introspectable GraphQL API. Pipelines are written as code in the developer's preferred language (Go, Python, TypeScript, PHP, Java, .NET, Elixir, or Rust) using Dagger SDKs and packaged as Dagger M…
-  api_count: 4
-  score_band: thin
-  score_composite: 34.7
-  shared: 1
 related:
-- slug: documentation
-  name: Documentation
-  shared: 5
 - slug: developer-experience
   name: Developer Experience
+  shared: 4
+- slug: documentation
+  name: Documentation
   shared: 4
 - slug: search
   name: API Evangelist Search
@@ -240,8 +240,8 @@ related:
 overview: 'SDKs is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [sdk.apievangelist.com](https://sdk.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Chroma, Speakeasy, Split, commercetools, Transcend, Mercado Pago, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Speakeasy, Chroma, Fern, Split, Transcend, Sideko, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Documentation, Developer Experience, API Evangelist Search, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Developer Experience, Documentation, API Evangelist Search, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

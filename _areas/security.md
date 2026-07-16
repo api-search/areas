@@ -6,8 +6,22 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 262
+provider_count: 261
 providers:
+- slug: jfrog
+  name: JFrog
+  description: JFrog provides universal DevOps solutions for software supply chain automation and security, offering a unified platform for managing binaries, securing the software supply chain, and automating DevOps workflows.
+  api_count: 15
+  score_band: exemplar
+  score_composite: 75.2
+  shared: 1
+- slug: databricks
+  name: Databricks
+  description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
+  api_count: 57
+  score_band: exemplar
+  score_composite: 73.3
+  shared: 1
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
@@ -57,10 +71,17 @@ providers:
   score_band: strong
   score_composite: 68.0
   shared: 1
-- slug: databricks
-  name: Databricks
-  description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
-  api_count: 57
+- slug: treblle
+  name: Treblle
+  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
+  api_count: 10
+  score_band: strong
+  score_composite: 68.0
+  shared: 1
+- slug: stytch
+  name: Stytch
+  description: Stytch is an authentication and identity infrastructure provider. Its Consumer and B2B APIs cover passwordless authentication (Magic Links, OTP, OAuth, WebAuthn / Passkeys, TOTP), enterprise SSO (SAML / OIDC) and SCIM, sessions, M2M client-credentials tokens, and Device Fingerprinting / fraud defen…
+  api_count: 3
   score_band: strong
   score_composite: 67.6
   shared: 1
@@ -78,12 +99,12 @@ providers:
   score_band: strong
   score_composite: 67.0
   shared: 1
-- slug: jfrog
-  name: JFrog
-  description: JFrog provides universal DevOps solutions for software supply chain automation and security, offering a unified platform for managing binaries, securing the software supply chain, and automating DevOps workflows.
-  api_count: 15
+- slug: splunk
+  name: Splunk
+  description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.
+  api_count: 13
   score_band: strong
-  score_composite: 66.4
+  score_composite: 67.0
   shared: 1
 - slug: amazon-kms
   name: Amazon KMS
@@ -141,6 +162,20 @@ providers:
   score_band: strong
   score_composite: 64.1
   shared: 1
+- slug: microsoft-entra
+  name: Microsoft Entra
+  description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
+  api_count: 14
+  score_band: strong
+  score_composite: 64.0
+  shared: 1
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 56
+  score_band: strong
+  score_composite: 63.6
+  shared: 1
 - slug: axway
   name: Axway
   description: Axway provides API management, integration, and security solutions enabling organizations to connect, secure, and manage APIs across hybrid IT environments. Axway offers the Amplify platform for API management and a range of integration and security products for enterprises.
@@ -183,47 +218,18 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 1
-- slug: amazon-inspector
-  name: Amazon Inspector
-  description: Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure, providing detailed findings and prioritized remediation guidance.
-  api_count: 1
-  score_band: strong
-  score_composite: 62.5
-  shared: 1
-- slug: treblle
-  name: Treblle
-  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
-  api_count: 10
-  score_band: strong
-  score_composite: 62.4
-  shared: 1
-- slug: splunk
-  name: Splunk
-  description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.
-  api_count: 13
-  score_band: strong
-  score_composite: 62.3
-  shared: 1
-- slug: stytch
-  name: Stytch
-  description: Stytch is an authentication and identity infrastructure provider. Its Consumer and B2B APIs cover passwordless authentication (Magic Links, OTP, OAuth, WebAuthn / Passkeys, TOTP), enterprise SSO (SAML / OIDC) and SCIM, sessions, M2M client-credentials tokens, and Device Fingerprinting / fraud defen…
-  api_count: 3
-  score_band: strong
-  score_composite: 61.9
-  shared: 1
-- slug: amazon-web-services-aws
-  name: Amazon Web Services (AWS)
-  description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
-  api_count: 90
-  score_band: strong
-  score_composite: 60.7
-  shared: 1
 related:
+- slug: observability
+  name: Observability
+  shared: 4
+- slug: authentication
+  name: Authentication
+  shared: 3
 - slug: containers
   name: Containers
   shared: 3
-- slug: observability
-  name: Observability
+- slug: machine-learning
+  name: Machine Learning
   shared: 3
 - slug: logging
   name: Logging
@@ -231,17 +237,11 @@ related:
 - slug: dns
   name: DNS
   shared: 2
-- slug: authentication
-  name: Authentication
-  shared: 2
-- slug: machine-learning
-  name: Machine Learning
-  shared: 2
 overview: 'Security is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [security.apievangelist.com](https://security.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Shodan, Fastly, Cloudflare, Amazon Secrets Manager, 1Password, Amazon Security Lake, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including JFrog, Databricks, Shodan, Fastly, Cloudflare, Amazon Secrets Manager, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, Observability, Logging, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Authentication, Containers, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

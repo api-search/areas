@@ -15,6 +15,13 @@ providers:
   score_band: strong
   score_composite: 67.1
   shared: 1
+- slug: google-cloud-cdn
+  name: Google Cloud CDN
+  description: Google Cloud CDN (Content Delivery Network) uses Google's globally distributed edge points of presence to cache HTTP(S) load-balanced content close to users. It accelerates content delivery, reduces serving costs, and improves availability by leveraging Google's global network infrastructure for fa…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.5
+  shared: 1
 - slug: apache-ignite
   name: Apache Ignite
   description: Apache Ignite is a distributed database for mission-critical high-velocity applications requiring in-memory performance. It provides ACID transactions, SQL queries, key-value storage, compute grid, and backpressured streaming across distributed clusters. Governed by the Apache Software Foundation u…
@@ -22,19 +29,19 @@ providers:
   score_band: developing
   score_composite: 57.6
   shared: 1
-- slug: google-cloud-cdn
-  name: Google Cloud CDN
-  description: Google Cloud CDN (Content Delivery Network) uses Google's globally distributed edge points of presence to cache HTTP(S) load-balanced content close to users. It accelerates content delivery, reduces serving costs, and improves availability by leveraging Google's global network infrastructure for fa…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.7
-  shared: 1
 - slug: apache-geode
   name: Apache Geode
   description: Apache Geode is an in-memory data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures. It pools memory, CPU, network resources, and local disk storage across multiple processes, offering a REST API for data…
   api_count: 2
   score_band: developing
   score_composite: 48.3
+  shared: 1
+- slug: scalable-systems
+  name: Scalable Systems
+  description: A topic collection focused on APIs, tools, and platforms for designing and operating scalable distributed systems. Covers load balancing, auto-scaling, service discovery, distributed caching, message queues, and the cloud infrastructure APIs that enable systems to handle growth in data, traffic, an…
+  api_count: 8
+  score_band: thin
+  score_composite: 44.6
   shared: 1
 - slug: gridgain
   name: GridGain
@@ -49,13 +56,6 @@ providers:
   api_count: 4
   score_band: thin
   score_composite: 40.0
-  shared: 1
-- slug: scalable-systems
-  name: Scalable Systems
-  description: A topic collection focused on APIs, tools, and platforms for designing and operating scalable distributed systems. Covers load balancing, auto-scaling, service discovery, distributed caching, message queues, and the cloud infrastructure APIs that enable systems to handle growth in data, traffic, an…
-  api_count: 8
-  score_band: thin
-  score_composite: 35.7
   shared: 1
 - slug: blacksmith-sh
   name: Blacksmith
@@ -112,7 +112,7 @@ related:
 overview: 'Caching is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [caching.apievangelist.com](https://caching.apievangelist.com).
 
 
-  13 providers on the network work in this area, including Amazon ElastiCache, Apache Ignite, Google Cloud CDN, Apache Geode, GridGain, Cloudflare AI Gateway, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  13 providers on the network work in this area, including Amazon ElastiCache, Google Cloud CDN, Apache Ignite, Apache Geode, Scalable Systems, GridGain, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Network, Proxy, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'

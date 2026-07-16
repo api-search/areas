@@ -8,6 +8,13 @@ area_host: ide.apievangelist.com
 icon: https://ide.apievangelist.com/icon-thumb.png
 provider_count: 19
 providers:
+- slug: workday-studio
+  name: Workday Studio
+  description: Workday Studio is an integrated development environment (IDE) for building custom integrations and applications on the Workday platform. It provides tools for creating web services, custom reports, and integration solutions.
+  api_count: 5
+  score_band: strong
+  score_composite: 63.6
+  shared: 1
 - slug: choreo
   name: Choreo
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
@@ -15,19 +22,12 @@ providers:
   score_band: strong
   score_composite: 62.7
   shared: 1
-- slug: workday-studio
-  name: Workday Studio
-  description: Workday Studio is an integrated development environment (IDE) for building custom integrations and applications on the Workday platform. It provides tools for creating web services, custom reports, and integration solutions.
-  api_count: 5
-  score_band: strong
-  score_composite: 60.5
-  shared: 1
 - slug: github-copilot
   name: GitHub Copilot
   description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
   api_count: 12
-  score_band: developing
-  score_composite: 57.3
+  score_band: strong
+  score_composite: 61.4
   shared: 1
 - slug: amazon-cloud9
   name: Amazon Cloud9
@@ -41,7 +41,21 @@ providers:
   description: VS Code Marketplace is Microsoft's official extension marketplace for Visual Studio Code, offering thousands of extensions for languages, debuggers, themes, and developer tools. It provides a Gallery API for programmatically searching, discovering, and retrieving extension metadata, enabling integr…
   api_count: 1
   score_band: developing
-  score_composite: 46.6
+  score_composite: 51.3
+  shared: 1
+- slug: jupyterlab
+  name: JupyterLab
+  description: JupyterLab is the next-generation web-based interactive development environment for notebooks, code, and data. It is served by Jupyter Server and ships with JupyterLab Server, which provides REST APIs for user-defined settings, workspaces, themes, translations, and license reports, alongside the Ja…
+  api_count: 2
+  score_band: developing
+  score_composite: 50.2
+  shared: 1
+- slug: jetbrains
+  name: JetBrains
+  description: JetBrains is a software development company that provides integrated development environments, CI/CD tools, issue tracking, and team collaboration platforms for software developers. Their product suite includes IntelliJ IDEA, TeamCity, YouTrack, Space, Hub, and the JetBrains Marketplace, all of whi…
+  api_count: 5
+  score_band: developing
+  score_composite: 47.7
   shared: 1
 - slug: windsurfrules
   name: Windsurf
@@ -49,20 +63,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 46.6
-  shared: 1
-- slug: jupyterlab
-  name: JupyterLab
-  description: JupyterLab is the next-generation web-based interactive development environment for notebooks, code, and data. It is served by Jupyter Server and ships with JupyterLab Server, which provides REST APIs for user-defined settings, workspaces, themes, translations, and license reports, alongside the Ja…
-  api_count: 2
-  score_band: thin
-  score_composite: 41.4
-  shared: 1
-- slug: jetbrains
-  name: JetBrains
-  description: JetBrains is a software development company that provides integrated development environments, CI/CD tools, issue tracking, and team collaboration platforms for software developers. Their product suite includes IntelliJ IDEA, TeamCity, YouTrack, Space, Hub, and the JetBrains Marketplace, all of whi…
-  api_count: 5
-  score_band: thin
-  score_composite: 38.9
   shared: 1
 - slug: cursor
   name: Cursor
@@ -163,7 +163,7 @@ related:
 overview: 'IDE is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ide.apievangelist.com](https://ide.apievangelist.com).
 
 
-  19 providers on the network work in this area, including Choreo, Workday Studio, GitHub Copilot, Amazon Cloud9, VS Code Marketplace, Windsurf, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  19 providers on the network work in this area, including Workday Studio, Choreo, GitHub Copilot, Amazon Cloud9, VS Code Marketplace, JupyterLab, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agent Skills, Unified APIs, Agents, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'

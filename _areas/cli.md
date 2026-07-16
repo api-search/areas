@@ -19,8 +19,15 @@ providers:
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 4
+  score_band: exemplar
+  score_composite: 73.5
+  shared: 1
+- slug: plandex
+  name: Plandex
+  description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
+  api_count: 1
   score_band: strong
-  score_composite: 68.8
+  score_composite: 60.8
   shared: 1
 - slug: apitoolkit
   name: APIToolkit (Monoscope)
@@ -29,12 +36,12 @@ providers:
   score_band: developing
   score_composite: 58.4
   shared: 1
-- slug: plandex
-  name: Plandex
-  description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
-  api_count: 1
+- slug: sideko
+  name: Sideko
+  description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
+  api_count: 11
   score_band: developing
-  score_composite: 56.0
+  score_composite: 57.1
   shared: 1
 - slug: continue-dev
   name: Continue
@@ -43,19 +50,33 @@ providers:
   score_band: developing
   score_composite: 55.5
   shared: 1
-- slug: sideko
-  name: Sideko
-  description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
-  api_count: 11
-  score_band: developing
-  score_composite: 51.4
-  shared: 1
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 2
+  score_band: developing
+  score_composite: 52.1
+  shared: 1
+- slug: httpie
+  name: HTTPie
+  description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submission…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.1
+  shared: 1
+- slug: thunder-client
+  name: Thunder Client
+  description: Thunder Client is a lightweight REST API client extension for Visual Studio Code created by Ranga Vadhineni, providing a clean interface for sending HTTP requests, managing collections, and testing APIs without leaving the editor. With nearly 7 million installs, it pioneered GUI-based API testing i…
+  api_count: 2
   score_band: thin
-  score_composite: 43.3
+  score_composite: 43.4
+  shared: 1
+- slug: wget
+  name: Wget
+  description: GNU Wget is a free, open-source command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS protocols. It supports recursive downloading, resuming aborted downloads, mirroring websites, proxy support, and can be run from scripts and cron jobs. Wget2 i…
+  api_count: 2
+  score_band: thin
+  score_composite: 42.6
   shared: 1
 - slug: aider
   name: Aider
@@ -78,13 +99,6 @@ providers:
   score_band: thin
   score_composite: 38.4
   shared: 1
-- slug: httpie
-  name: HTTPie
-  description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submission…
-  api_count: 1
-  score_band: thin
-  score_composite: 38.2
-  shared: 1
 - slug: mockoon
   name: Mockoon
   description: Mockoon is the easiest and quickest way to design and run mock REST APIs. Available as a free, open-source desktop application and CLI, it lets developers build, share, and serve realistic mock endpoints locally, in CI, or in containers. No remote deployment, no account required.
@@ -92,26 +106,12 @@ providers:
   score_band: thin
   score_composite: 35.0
   shared: 1
-- slug: thunder-client
-  name: Thunder Client
-  description: Thunder Client is a lightweight REST API client extension for Visual Studio Code created by Ranga Vadhineni, providing a clean interface for sending HTTP requests, managing collections, and testing APIs without leaving the editor. With nearly 7 million installs, it pioneered GUI-based API testing i…
-  api_count: 2
-  score_band: thin
-  score_composite: 34.6
-  shared: 1
 - slug: amazon-cloudshell
   name: Amazon CloudShell
   description: AWS CloudShell is a browser-based terminal that enables users to manage and explore AWS resources directly from the AWS Management Console. Pre-authenticated, pre-installed with AWS CLI and dev tools, with 1 GB of persistent storage per region.
   api_count: 1
   score_band: thin
   score_composite: 34.3
-  shared: 1
-- slug: wget
-  name: Wget
-  description: GNU Wget is a free, open-source command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS protocols. It supports recursive downloading, resuming aborted downloads, mirroring websites, proxy support, and can be run from scripts and cron jobs. Wget2 i…
-  api_count: 2
-  score_band: thin
-  score_composite: 33.8
   shared: 1
 - slug: bruno
   name: Bruno
@@ -240,7 +240,7 @@ related:
 overview: 'Command Line Interface is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [cli.apievangelist.com](https://cli.apievangelist.com).
 
 
-  30 providers on the network work in this area, including AWS CLI, Svix, APIToolkit (Monoscope), Plandex, Continue, Sideko, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including AWS CLI, Svix, Plandex, APIToolkit (Monoscope), Sideko, Continue, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Clients, API Clients, Plans, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -8,6 +8,20 @@ area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
 provider_count: 72
 providers:
+- slug: dust-tt
+  name: Dust
+  description: Dust is a Paris-based enterprise AI platform for building, deploying, and operating teams of AI agents that have shared context across a company's knowledge and tools. Dust positions itself as the platform for "AI Operators" — the people who design, govern, and continuously improve agentic workflow…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 70.4
+  shared: 1
+- slug: daytona-io
+  name: Daytona
+  description: Daytona is open-source, secure, and elastic infrastructure for running AI-generated code. Daytona sandboxes spin up in under 90 milliseconds and provide isolated Linux, Windows, and macOS environments where autonomous agents and developer workflows can execute untrusted code, perform file system an…
+  api_count: 11
+  score_band: strong
+  score_composite: 69.7
+  shared: 1
 - slug: anthropic
   name: Anthropic
   description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
@@ -36,12 +50,12 @@ providers:
   score_band: strong
   score_composite: 66.0
   shared: 1
-- slug: daytona-io
-  name: Daytona
-  description: Daytona is open-source, secure, and elastic infrastructure for running AI-generated code. Daytona sandboxes spin up in under 90 milliseconds and provide isolated Linux, Windows, and macOS environments where autonomous agents and developer workflows can execute untrusted code, perform file system an…
-  api_count: 11
+- slug: exa-ai
+  name: Exa
+  description: Exa is a web search API and AI research platform built specifically for LLMs and agents — semantic and keyword search across the open web with token-efficient highlights, structured outputs, sub-200ms latency tiers, and verticals for code, companies, news, people, research, and financials. The plat…
+  api_count: 7
   score_band: strong
-  score_composite: 64.0
+  score_composite: 66.0
   shared: 1
 - slug: agentql
   name: AgentQL
@@ -50,12 +64,33 @@ providers:
   score_band: strong
   score_composite: 63.0
   shared: 1
-- slug: dust-tt
-  name: Dust
-  description: Dust is a Paris-based enterprise AI platform for building, deploying, and operating teams of AI agents that have shared context across a company's knowledge and tools. Dust positions itself as the platform for "AI Operators" — the people who design, govern, and continuously improve agentic workflow…
-  api_count: 9
+- slug: vectara
+  name: Vectara
+  description: Vectara is a Retrieval Augmented Generation (RAG) as a service platform that provides grounded generative AI for enterprises. The API-first platform exposes a unified REST API v2 for managing corpora, ingesting documents, performing semantic and hybrid search, generating answers with hallucination…
+  api_count: 7
   score_band: strong
-  score_composite: 61.5
+  score_composite: 62.1
+  shared: 1
+- slug: freestyle-sh
+  name: Freestyle
+  description: Freestyle is the infrastructure for code you didn't write — VMs and Git for AI agents. The platform provides Linux microVMs that boot in under 600ms with live-fork, pause-resume, and persistent snapshots; a multi-tenant Git service with branchable filesystems, GitHub Sync, full-text search, and web…
+  api_count: 8
+  score_band: strong
+  score_composite: 61.8
+  shared: 1
+- slug: workos
+  name: WorkOS
+  description: WorkOS is the "Enterprise Ready" identity platform for B2B SaaS — providing AuthKit user management, enterprise SSO (SAML/OIDC), Directory Sync (SCIM 2.0), Multi-Factor Authentication, Audit Logs, Admin Portal, Fine-Grained Authorization (FGA, formerly Warrant), Radar bot/fraud protection, and an e…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.8
+  shared: 1
+- slug: github-copilot
+  name: GitHub Copilot
+  description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
+  api_count: 12
+  score_band: strong
+  score_composite: 61.4
   shared: 1
 - slug: amazon-bedrock
   name: Amazon Bedrock
@@ -64,40 +99,54 @@ providers:
   score_band: strong
   score_composite: 60.9
   shared: 1
-- slug: github-copilot
-  name: GitHub Copilot
-  description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
-  api_count: 12
-  score_band: developing
-  score_composite: 57.3
-  shared: 1
-- slug: exa-ai
-  name: Exa
-  description: Exa is a web search API and AI research platform built specifically for LLMs and agents — semantic and keyword search across the open web with token-efficient highlights, structured outputs, sub-200ms latency tiers, and verticals for code, companies, news, people, research, and financials. The plat…
-  api_count: 7
-  score_band: developing
-  score_composite: 57.2
-  shared: 1
-- slug: workos
-  name: WorkOS
-  description: WorkOS is the "Enterprise Ready" identity platform for B2B SaaS — providing AuthKit user management, enterprise SSO (SAML/OIDC), Directory Sync (SCIM 2.0), Multi-Factor Authentication, Audit Logs, Admin Portal, Fine-Grained Authorization (FGA, formerly Warrant), Radar bot/fraud protection, and an e…
-  api_count: 1
-  score_band: developing
-  score_composite: 57.1
-  shared: 1
-- slug: vectara
-  name: Vectara
-  description: Vectara is a Retrieval Augmented Generation (RAG) as a service platform that provides grounded generative AI for enterprises. The API-first platform exposes a unified REST API v2 for managing corpora, ingesting documents, performing semantic and hybrid search, generating answers with hallucination…
-  api_count: 7
-  score_band: developing
-  score_composite: 56.4
-  shared: 1
 - slug: plandex
   name: Plandex
   description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
   api_count: 1
+  score_band: strong
+  score_composite: 60.8
+  shared: 1
+- slug: pydantic-ai
+  name: PydanticAI
+  description: PydanticAI is an open-source, model-agnostic Python agent framework built by the Pydantic team, designed to bring the ergonomic, type-safe design philosophy of FastAPI to production-grade generative AI application development. It provides structured outputs, dependency injection, and first-class su…
+  api_count: 2
   score_band: developing
-  score_composite: 56.0
+  score_composite: 59.0
+  shared: 1
+- slug: microsoft-copilot
+  name: Microsoft Copilot
+  description: Microsoft Copilot is an AI-powered assistant that helps users with productivity tasks, content generation, and information retrieval across Microsoft 365 applications and services.
+  api_count: 5
+  score_band: developing
+  score_composite: 58.6
+  shared: 1
+- slug: mistral-ai
+  name: Mistral AI
+  description: Mistral AI is a French artificial intelligence company that develops and provides frontier large language models and APIs for developers and enterprises. Their developer platform offers APIs for chat completions, embeddings, fine-tuning, OCR, batch processing, and agentic workflows, enabling teams…
+  api_count: 8
+  score_band: developing
+  score_composite: 57.9
+  shared: 1
+- slug: prime-intellect
+  name: Prime Intellect
+  description: Prime Intellect is a San Francisco–based startup building an open and decentralized stack for developing and improving AI agents through reinforcement learning. The company combines a 50+ provider GPU compute marketplace (single-node and 1–256 GPU multi-node clusters across H100, H200, B200, and B3…
+  api_count: 6
+  score_band: developing
+  score_composite: 57.5
+  shared: 1
+- slug: e2b-dev
+  name: E2B
+  description: E2B (e2b-dev) provides secure, isolated cloud sandboxes for AI agents and AI-generated code, built on a forked Firecracker microVM runtime. The platform ships a REST Sandbox API, JavaScript and Python SDKs, a Code Interpreter SDK, a Desktop Sandbox for computer-use agents, persistent volumes, a cus…
+  api_count: 7
+  score_band: developing
+  score_composite: 57.0
+  shared: 1
+- slug: smithery-ai
+  name: Smithery
+  description: Smithery is an MCP server registry and hosting platform that lets developers discover, publish, and connect to Model Context Protocol servers from any AI agent. The platform combines a public registry of thousands of community MCP servers with a managed gateway that handles OAuth, credential storag…
+  api_count: 2
+  score_band: developing
+  score_composite: 55.5
   shared: 1
 - slug: tetrascience
   name: TetraScience
@@ -113,26 +162,19 @@ providers:
   score_band: developing
   score_composite: 54.6
   shared: 1
-- slug: microsoft-copilot
-  name: Microsoft Copilot
-  description: Microsoft Copilot is an AI-powered assistant that helps users with productivity tasks, content generation, and information retrieval across Microsoft 365 applications and services.
-  api_count: 5
-  score_band: developing
-  score_composite: 53.9
-  shared: 1
-- slug: freestyle-sh
-  name: Freestyle
-  description: Freestyle is the infrastructure for code you didn't write — VMs and Git for AI agents. The platform provides Linux microVMs that boot in under 600ms with live-fork, pause-resume, and persistent snapshots; a multi-tenant Git service with branchable filesystems, GitHub Sync, full-text search, and web…
-  api_count: 8
-  score_band: developing
-  score_composite: 53.0
-  shared: 1
 - slug: flowise
   name: Flowise
   description: Flowise is an open-source, low-code visual builder for LangChain-based LLM workflows and AI agents. Built on Node.js and TypeScript as a pnpm/Turbo monorepo, Flowise lets developers and non-developers compose chatflows, multi-agent agentflows, RAG pipelines, tools, and assistants on a drag-and-drop…
   api_count: 1
   score_band: developing
-  score_composite: 50.7
+  score_composite: 52.3
+  shared: 1
+- slug: letta
+  name: Letta
+  description: Letta (formerly MemGPT) is a stateful AI agents platform built around long-term memory, tool execution, and multi-agent coordination. The Letta REST API exposes 239 endpoints across 36 public resource categories — agents, memory blocks, archival memory, sources (RAG), custom tools (sandboxed/client…
+  api_count: 3
+  score_band: developing
+  score_composite: 52.2
   shared: 1
 - slug: arcade
   name: Arcade
@@ -141,47 +183,12 @@ providers:
   score_band: developing
   score_composite: 50.6
   shared: 1
-- slug: pydantic-ai
-  name: PydanticAI
-  description: PydanticAI is an open-source, model-agnostic Python agent framework built by the Pydantic team, designed to bring the ergonomic, type-safe design philosophy of FastAPI to production-grade generative AI application development. It provides structured outputs, dependency injection, and first-class su…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.1
-  shared: 1
-- slug: smithery-ai
-  name: Smithery
-  description: Smithery is an MCP server registry and hosting platform that lets developers discover, publish, and connect to Model Context Protocol servers from any AI agent. The platform combines a public registry of thousands of community MCP servers with a managed gateway that handles OAuth, credential storag…
-  api_count: 2
-  score_band: developing
-  score_composite: 49.9
-  shared: 1
 - slug: chatwoot
   name: Chatwoot
   description: Chatwoot is an open-source customer support and omni-channel messaging platform that provides REST APIs for managing conversations, contacts, agents, teams, labels, and integrating customer communication workflows. It supports live chat, email, WhatsApp, Facebook, Instagram, Telegram, SMS, and more…
   api_count: 3
   score_band: developing
   score_composite: 49.1
-  shared: 1
-- slug: mistral-ai
-  name: Mistral AI
-  description: Mistral AI is a French artificial intelligence company that develops and provides frontier large language models and APIs for developers and enterprises. Their developer platform offers APIs for chat completions, embeddings, fine-tuning, OCR, batch processing, and agentic workflows, enabling teams…
-  api_count: 8
-  score_band: developing
-  score_composite: 49.1
-  shared: 1
-- slug: prime-intellect
-  name: Prime Intellect
-  description: Prime Intellect is a San Francisco–based startup building an open and decentralized stack for developing and improving AI agents through reinforcement learning. The company combines a 50+ provider GPU compute marketplace (single-node and 1–256 GPU multi-node clusters across H100, H200, B200, and B3…
-  api_count: 6
-  score_band: developing
-  score_composite: 48.7
-  shared: 1
-- slug: e2b-dev
-  name: E2B
-  description: E2B (e2b-dev) provides secure, isolated cloud sandboxes for AI agents and AI-generated code, built on a forked Firecracker microVM runtime. The platform ships a REST Sandbox API, JavaScript and Python SDKs, a Code Interpreter SDK, a Desktop Sandbox for computer-use agents, persistent volumes, a cus…
-  api_count: 7
-  score_band: developing
-  score_composite: 48.2
   shared: 1
 - slug: cognee
   name: Cognee
@@ -211,22 +218,12 @@ providers:
   score_band: developing
   score_composite: 45.6
   shared: 1
-- slug: glean
-  name: Glean
-  description: Glean is an AI-powered work assistant and enterprise search platform that connects to a company's apps and data sources to provide unified search, generative answers, and autonomous agents grounded in enterprise knowledge. Glean exposes a Client API for end-user features (search, chat, agents, answ…
-  api_count: 8
-  score_band: thin
-  score_composite: 43.9
-  shared: 1
 related:
 - slug: search
   name: API Evangelist Search
   shared: 2
 - slug: integrations
   name: Integrations
-  shared: 2
-- slug: machine-learning
-  name: Machine Learning
   shared: 2
 - slug: plans
   name: Plans
@@ -237,11 +234,14 @@ related:
 - slug: support
   name: Support
   shared: 1
+- slug: ide
+  name: IDE
+  shared: 1
 overview: 'Agents is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents.apievangelist.com](https://agents.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Anthropic, ChatGPT, Vapi, Buildkite, Daytona, AgentQL, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Dust, Daytona, Anthropic, ChatGPT, Vapi, Buildkite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Evangelist Search, Integrations, Machine Learning, and Plans. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Search, Integrations, Plans, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

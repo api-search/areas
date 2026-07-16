@@ -29,6 +29,13 @@ providers:
   score_band: strong
   score_composite: 61.2
   shared: 1
+- slug: google-cloud-migration-center
+  name: Google Cloud Migration Center
+  description: Google Cloud Migration Center is a unified platform that helps accelerate end-to-end cloud migration journeys from on-premises or other cloud environments to Google Cloud. It provides discovery, assessment, and planning tools to help organizations understand their existing infrastructure and plan o…
+  api_count: 1
+  score_band: developing
+  score_composite: 59.9
+  shared: 1
 - slug: microsoft-azure-migrate
   name: Azure Migrate
   description: Azure Migrate provides a unified platform for discovering, assessing, and migrating on-premises servers, infrastructure, applications, databases, and data to Azure. Its REST APIs enable programmatic management of migration projects, discovery, assessment, and replication workflows for VMs, database…
@@ -36,26 +43,26 @@ providers:
   score_band: developing
   score_composite: 56.2
   shared: 1
-- slug: google-cloud-migration-center
-  name: Google Cloud Migration Center
-  description: Google Cloud Migration Center is a unified platform that helps accelerate end-to-end cloud migration journeys from on-premises or other cloud environments to Google Cloud. It provides discovery, assessment, and planning tools to help organizations understand their existing infrastructure and plan o…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.0
-  shared: 1
 - slug: google-cloud-vmware-engine
   name: Google Cloud VMware Engine
   description: Google Cloud VMware Engine is a fully managed service that lets you run VMware workloads natively on Google Cloud infrastructure. It provides dedicated, single-tenant VMware SDDC environments with vSphere, vSAN, NSX-T, and HCX, enabling seamless migration and management of VMware-based applications…
   api_count: 1
-  score_band: thin
-  score_composite: 41.5
+  score_band: developing
+  score_composite: 50.3
   shared: 1
 - slug: google-cloud-transfer-service
   name: Google Cloud Transfer Service
   description: Google Cloud Storage Transfer Service enables seamless data movement across object and file storage systems, including transfers from Amazon S3, Azure Blob Storage, or Cloud Storage to Cloud Storage, and from on-premises storage to Cloud Storage. It is optimized for large-scale transfers involving…
   api_count: 1
-  score_band: thin
-  score_composite: 40.8
+  score_band: developing
+  score_composite: 49.7
+  shared: 1
+- slug: kubevirt
+  name: KubeVirt
+  description: KubeVirt is a CNCF incubating project that extends Kubernetes to run traditional virtual machines alongside containers. It allows users to create, manage, and run VMs using the same Kubernetes APIs and tools used for containers. KubeVirt is ideal for migrating legacy workloads to Kubernetes without…
+  api_count: 2
+  score_band: developing
+  score_composite: 45.3
   shared: 1
 - slug: amazon-application-migration-service
   name: Amazon Application Migration Service
@@ -63,13 +70,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 36.9
-  shared: 1
-- slug: kubevirt
-  name: KubeVirt
-  description: KubeVirt is a CNCF incubating project that extends Kubernetes to run traditional virtual machines alongside containers. It allows users to create, manage, and run VMs using the same Kubernetes APIs and tools used for containers. KubeVirt is ideal for migrating legacy workloads to Kubernetes without…
-  api_count: 2
-  score_band: thin
-  score_composite: 36.4
   shared: 1
 - slug: calypso-migration
   name: Calypso Migration
@@ -94,7 +94,7 @@ related:
 overview: 'Migration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [migration.apievangelist.com](https://migration.apievangelist.com).
 
 
-  10 providers on the network work in this area, including Amazon Mainframe Modernization, Amazon DataSync, Amazon DMS, Azure Migrate, Google Cloud Migration Center, Google Cloud VMware Engine, and 4 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  10 providers on the network work in this area, including Amazon Mainframe Modernization, Amazon DataSync, Amazon DMS, Google Cloud Migration Center, Azure Migrate, Google Cloud VMware Engine, and 4 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Virtualization, API Evangelist Discovery, AI Automation, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -177,7 +177,7 @@
     tool repositories tracking the services and tools that package, deploy, and manage…
   area_url: https://containers.apievangelist.com
   icon: https://containers.apievangelist.com/icon-thumb.png
-  provider_count: 102
+  provider_count: 101
   url: https://apis.io/areas/containers/
 - slug: database
   name: Database
@@ -374,7 +374,7 @@
     model serving infrastructure, and inference providers. Machine learning APIs spa…
   area_url: https://machine-learning.apievangelist.com
   icon: https://machine-learning.apievangelist.com/icon-thumb.png
-  provider_count: 216
+  provider_count: 215
   url: https://apis.io/areas/machine-learning/
 - slug: management
   name: Management
@@ -439,7 +439,7 @@
     orchestration platforms. Container orchestration platforms like Kubernetes, OpenShi…
   area_url: https://orchestration.apievangelist.com
   icon: https://orchestration.apievangelist.com/icon-thumb.png
-  provider_count: 53
+  provider_count: 52
   url: https://apis.io/areas/orchestration/
 - slug: performance
   name: Performance
@@ -547,7 +547,7 @@
     secrets management, encryption, and threat protection. API security spans the…
   area_url: https://security.apievangelist.com
   icon: https://security.apievangelist.com/icon-thumb.png
-  provider_count: 262
+  provider_count: 261
   url: https://apis.io/areas/security/
 - slug: serverless
   name: Serverless

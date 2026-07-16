@@ -13,14 +13,14 @@ providers:
   description: Smithery is an MCP server registry and hosting platform that lets developers discover, publish, and connect to Model Context Protocol servers from any AI agent. The platform combines a public registry of thousands of community MCP servers with a managed gateway that handles OAuth, credential storag…
   api_count: 2
   score_band: developing
-  score_composite: 49.9
+  score_composite: 55.5
   shared: 1
 - slug: smithery
   name: Smithery
   description: Smithery is a platform for discovering, deploying, and managing Model Context Protocol (MCP) servers and skills. It operates a public registry of community-built MCP extensions that AI agents can use to access external tools, data sources, and services, plus a Connect gateway that bundles connectio…
   api_count: 1
   score_band: developing
-  score_composite: 45.0
+  score_composite: 50.7
   shared: 1
 - slug: cursor
   name: Cursor

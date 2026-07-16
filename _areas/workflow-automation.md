@@ -29,6 +29,13 @@ providers:
   score_band: strong
   score_composite: 67.5
   shared: 2
+- slug: microsoft-power-automate
+  name: Microsoft Power Automate
+  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automated, instant, and scheduled cloud flows, as well as desktop f…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.6
+  shared: 2
 - slug: amazon-swf
   name: Amazon Simple Workflow Service
   description: Amazon Simple Workflow Service (Amazon SWF) helps developers build, run, and scale background jobs that have parallel or sequential steps. It is a fully managed state tracker and task coordinator in the cloud that manages intertask dependencies, scheduling, and concurrency for application workflows.
@@ -36,12 +43,19 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 2
-- slug: microsoft-power-automate
-  name: Microsoft Power Automate
-  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automated, instant, and scheduled cloud flows, as well as desktop f…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.5
+- slug: salesforce-flow
+  name: Salesforce Flow
+  description: The Salesforce Flow API enables developers to interact with and manage Salesforce Flow automation processes programmatically. This includes creating, updating, querying, and executing flows within Salesforce using the REST API, Tooling API, and Invocable Actions framework.
+  api_count: 3
+  score_band: developing
+  score_composite: 57.7
+  shared: 2
+- slug: salesforce-automation-system
+  name: Salesforce Automation System
+  description: Salesforce Automation System refers to the collection of APIs and tools within Salesforce for automating business processes, including Flow Builder, approval processes, Process Builder, and Workflow Rules. These capabilities enable organizations to automate CRM, sales, marketing, and customer servi…
+  api_count: 3
+  score_band: developing
+  score_composite: 56.6
   shared: 2
 - slug: activepieces
   name: Activepieces
@@ -50,6 +64,13 @@ providers:
   score_band: developing
   score_composite: 56.1
   shared: 2
+- slug: tray-io
+  name: Tray.io
+  description: Tray.io (now also known as Tray.ai) is an AI-ready integration platform as a service (iPaaS) that enables businesses to integrate and automate workflows across cloud applications using a visual editor, pre-built connectors, and API-level access. The platform includes Merlin Agent Builder for buildi…
+  api_count: 2
+  score_band: developing
+  score_composite: 53.6
+  shared: 2
 - slug: robocorp
   name: Robocorp
   description: Robocorp is an open source RPA and workflow automation platform for building Python-based automation bots. The platform provides the Control Room API for managing workspaces, workers, processes, work items, assets, vaults, webhooks, and task packages. Robocorp also provides the RPA Framework, an op…
@@ -57,26 +78,19 @@ providers:
   score_band: developing
   score_composite: 53.4
   shared: 2
-- slug: salesforce-flow
-  name: Salesforce Flow
-  description: The Salesforce Flow API enables developers to interact with and manage Salesforce Flow automation processes programmatically. This includes creating, updating, querying, and executing flows within Salesforce using the REST API, Tooling API, and Invocable Actions framework.
-  api_count: 3
+- slug: step-functions
+  name: AWS Step Functions
+  description: AWS Step Functions is a serverless orchestration service that enables developers to compose distributed applications and APIs using visual workflows called state machines. It supports Standard and Express workflows, activities, parallel execution, error handling, and integrates with over 200 AWS se…
+  api_count: 1
   score_band: developing
-  score_composite: 53.0
+  score_composite: 50.1
   shared: 2
-- slug: tray-io
-  name: Tray.io
-  description: Tray.io (now also known as Tray.ai) is an AI-ready integration platform as a service (iPaaS) that enables businesses to integrate and automate workflows across cloud applications using a visual editor, pre-built connectors, and API-level access. The platform includes Merlin Agent Builder for buildi…
-  api_count: 2
+- slug: rundeck
+  name: Rundeck
+  description: Rundeck is an open source runbook automation service with a web console, command line tools, and a REST WebAPI. It enables IT teams to easily run automation tasks across a set of nodes, providing self-service operations, job scheduling, and execution history. Rundeck is developed by PagerDuty and s…
+  api_count: 1
   score_band: developing
-  score_composite: 51.1
-  shared: 2
-- slug: salesforce-automation-system
-  name: Salesforce Automation System
-  description: Salesforce Automation System refers to the collection of APIs and tools within Salesforce for automating business processes, including Flow Builder, approval processes, Process Builder, and Workflow Rules. These capabilities enable organizations to automate CRM, sales, marketing, and customer servi…
-  api_count: 3
-  score_band: developing
-  score_composite: 51.0
+  score_composite: 49.3
   shared: 2
 - slug: microsoft-azure-logic-apps
   name: Azure Logic Apps
@@ -85,6 +99,13 @@ providers:
   score_band: developing
   score_composite: 47.3
   shared: 2
+- slug: squillo
+  name: Squillo
+  description: Squillo is a Software as a Utility (SaaU) platform that enables integration and automation of entire IT systems and human processes in minutes, not months. It provides a low-code/no-code approach to connecting enterprise applications, automating workflows, and orchestrating complex IT processes wit…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.6
+  shared: 2
 - slug: celigo
   name: Celigo
   description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
@@ -92,12 +113,12 @@ providers:
   score_band: developing
   score_composite: 46.1
   shared: 2
-- slug: step-functions
-  name: AWS Step Functions
-  description: AWS Step Functions is a serverless orchestration service that enables developers to compose distributed applications and APIs using visual workflows called state machines. It supports Standard and Express workflows, activities, parallel execution, error handling, and integrates with over 200 AWS se…
+- slug: relay-app
+  name: Relay App
+  description: Relay.app is an AI-powered workflow automation platform that converts plain language into reliable visual workflows across 200+ app integrations. It supports webhook triggers, custom HTTP requests, scheduled automation, human-in-the-loop approval workflows, and MCP server tooling for AI agent integ…
   api_count: 1
   score_band: developing
-  score_composite: 45.3
+  score_composite: 46.0
   shared: 2
 - slug: budibase
   name: Budibase
@@ -105,27 +126,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 45.2
-  shared: 2
-- slug: relay-app
-  name: Relay App
-  description: Relay.app is an AI-powered workflow automation platform that converts plain language into reliable visual workflows across 200+ app integrations. It supports webhook triggers, custom HTTP requests, scheduled automation, human-in-the-loop approval workflows, and MCP server tooling for AI agent integ…
-  api_count: 1
-  score_band: thin
-  score_composite: 44.4
-  shared: 2
-- slug: rundeck
-  name: Rundeck
-  description: Rundeck is an open source runbook automation service with a web console, command line tools, and a REST WebAPI. It enables IT teams to easily run automation tasks across a set of nodes, providing self-service operations, job scheduling, and execution history. Rundeck is developed by PagerDuty and s…
-  api_count: 1
-  score_band: thin
-  score_composite: 43.6
-  shared: 2
-- slug: squillo
-  name: Squillo
-  description: Squillo is a Software as a Utility (SaaU) platform that enables integration and automation of entire IT systems and human processes in minutes, not months. It provides a low-code/no-code approach to connecting enterprise applications, automating workflows, and orchestrating complex IT processes wit…
-  api_count: 1
-  score_band: thin
-  score_composite: 41.0
   shared: 2
 - slug: huginn
   name: Huginn
@@ -187,8 +187,15 @@ providers:
   name: Oracle Integration
   description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
   api_count: 4
+  score_band: exemplar
+  score_composite: 70.3
+  shared: 1
+- slug: workday-extend
+  name: Workday Extend
+  description: Workday Extend is a platform that enables developers to build custom applications that integrate seamlessly with Workday. It provides APIs, development tools, and a runtime environment for creating tailored solutions that extend Workday's core functionality.
+  api_count: 6
   score_band: strong
-  score_composite: 67.2
+  score_composite: 69.7
   shared: 1
 - slug: amazon-data-lifecycle-manager
   name: Amazon Data Lifecycle Manager
@@ -211,13 +218,6 @@ providers:
   score_band: strong
   score_composite: 64.4
   shared: 1
-- slug: amazon-iot-events
-  name: Amazon IoT Events
-  description: AWS IoT Events is a managed service that makes it easy to detect and respond to events from IoT sensors and applications. You can use it to build complex event detection logic, create state machines for IoT workflows, and trigger alerts or actions when specific conditions are met.
-  api_count: 1
-  score_band: strong
-  score_composite: 64.4
-  shared: 1
 related:
 - slug: ai-automation
   name: AI Automation
@@ -230,7 +230,7 @@ related:
   shared: 5
 - slug: orchestration
   name: Orchestration
-  shared: 3
+  shared: 4
 - slug: testing
   name: Testing
   shared: 2
@@ -240,7 +240,7 @@ related:
 overview: 'Workflow Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [workflow-automation.apievangelist.com](https://workflow-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Appian, Workato, ServiceNow, Amazon Simple Workflow Service, Microsoft Power Automate, Activepieces, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Appian, Workato, ServiceNow, Microsoft Power Automate, Amazon Simple Workflow Service, Salesforce Flow, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Embedded iPaaS, iPaaS, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'

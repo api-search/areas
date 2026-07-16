@@ -15,6 +15,13 @@ providers:
   score_band: developing
   score_composite: 55.6
   shared: 1
+- slug: google-news
+  name: Google News RSS
+  description: Google News provides RSS feeds that deliver news headlines organized by topic, location, and search query. The feeds expose structured XML data that can be consumed programmatically to retrieve top stories, topic-based headlines (World, Business, Technology, Sports, etc.), location-specific news, a…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.1
+  shared: 1
 - slug: mx-platform
   name: MX Platform
   description: The MX Platform API is a powerful, fully-featured API designed to make aggregating and enhancing financial data easy and reliable. It can seamlessly connect your app or website to tens of thousands of financial institutions.
@@ -22,19 +29,19 @@ providers:
   score_band: developing
   score_composite: 46.7
   shared: 1
-- slug: google-news
-  name: Google News RSS
-  description: Google News provides RSS feeds that deliver news headlines organized by topic, location, and search query. The feeds expose structured XML data that can be consumed programmatically to retrieve top stories, topic-based headlines (World, Business, Technology, Sports, etc.), location-specific news, a…
-  api_count: 1
-  score_band: thin
-  score_composite: 43.3
-  shared: 1
 - slug: krakend
   name: KrakenD
   description: KrakenD is a stateless, distributed, high-performance open-source API gateway written in Go, focused on API aggregation, transformation, and security with a declarative configuration approach.
   api_count: 3
+  score_band: developing
+  score_composite: 46.6
+  shared: 1
+- slug: thenewsapi
+  name: TheNewsAPI
+  description: Global news aggregation REST API providing real-time and historical news articles from thousands of sources with filtering by category, language, country, and search. Indexes over 1 million new articles per week from 40,000+ sources across 50+ countries and 35+ languages.
+  api_count: 1
   score_band: thin
-  score_composite: 37.8
+  score_composite: 38.9
   shared: 1
 - slug: belvo
   name: Belvo
@@ -64,16 +71,9 @@ providers:
   score_band: thin
   score_composite: 33.6
   shared: 1
-- slug: thenewsapi
-  name: TheNewsAPI
-  description: Global news aggregation REST API providing real-time and historical news articles from thousands of sources with filtering by category, language, country, and search. Indexes over 1 million new articles per week from 40,000+ sources across 50+ countries and 35+ languages.
-  api_count: 1
-  score_band: thin
-  score_composite: 30.1
-  shared: 1
 related: []
 overview: 'Aggregation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aggregation.apievangelist.com](https://aggregation.apievangelist.com).
 
 
-  9 providers on the network work in this area, including AB Tasty, MX Platform, Google News RSS, KrakenD, Belvo, Quiltt, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  9 providers on the network work in this area, including AB Tasty, Google News RSS, MX Platform, KrakenD, TheNewsAPI, Belvo, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

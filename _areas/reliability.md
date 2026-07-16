@@ -12,8 +12,15 @@ providers:
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 4
-  score_band: strong
-  score_composite: 68.8
+  score_band: exemplar
+  score_composite: 73.5
+  shared: 1
+- slug: google-cloud-error-reporting
+  name: Google Cloud Error Reporting
+  description: Google Cloud Error Reporting groups and counts similar errors from cloud services and applications, reports new errors, and provides access to error groups and statistics. It automatically analyzes exceptions and displays them in a centralized interface with alerting, helping developers quickly ide…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.2
   shared: 1
 - slug: chaos-mesh
   name: Chaos Mesh
@@ -28,13 +35,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.0
-  shared: 1
-- slug: google-cloud-error-reporting
-  name: Google Cloud Error Reporting
-  description: Google Cloud Error Reporting groups and counts similar errors from cloud services and applications, reports new errors, and provides access to error groups and statistics. It automatically analyzes exceptions and displays them in a centralized interface with alerting, helping developers quickly ide…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.4
   shared: 1
 - slug: memfault
   name: Memfault
@@ -83,7 +83,7 @@ related:
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  8 providers on the network work in this area, including Svix, Chaos Mesh, Gremlin, Google Cloud Error Reporting, Memfault, Statuspage, and 2 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  8 providers on the network work in this area, including Svix, Google Cloud Error Reporting, Chaos Mesh, Gremlin, Memfault, Statuspage, and 2 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Logging, Command Line Interface, SaaS Management, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

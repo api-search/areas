@@ -8,6 +8,13 @@ area_host: ipaas.apievangelist.com
 icon: https://ipaas.apievangelist.com/icon-thumb.png
 provider_count: 31
 providers:
+- slug: paragon
+  name: Paragon
+  description: Paragon is the Integration Infrastructure Platform for B2B SaaS and AI products. The platform combines Connect Portal (managed user authentication for 130+ SaaS apps), Workflows (event-driven async orchestration), ActionKit (Universal API + MCP server giving AI agents synchronous CRUD access to Int…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 70.9
+  shared: 1
 - slug: workato
   name: Workato
   description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
@@ -19,22 +26,29 @@ providers:
   name: Oracle Integration
   description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
   api_count: 4
-  score_band: strong
-  score_composite: 67.2
-  shared: 1
-- slug: paragon
-  name: Paragon
-  description: Paragon is the Integration Infrastructure Platform for B2B SaaS and AI products. The platform combines Connect Portal (managed user authentication for 130+ SaaS apps), Workflows (event-driven async orchestration), ActionKit (Universal API + MCP server giving AI agents synchronous CRUD access to Int…
-  api_count: 6
-  score_band: strong
-  score_composite: 65.2
+  score_band: exemplar
+  score_composite: 70.3
   shared: 1
 - slug: zapier
   name: Zapier
   description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
   api_count: 4
   score_band: strong
-  score_composite: 62.5
+  score_composite: 68.1
+  shared: 1
+- slug: tray-ai
+  name: Tray.ai
+  description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
+  api_count: 2
+  score_band: strong
+  score_composite: 63.3
+  shared: 1
+- slug: sap-integration-suite
+  name: SAP Integration Suite
+  description: SAP Integration Suite is an enterprise integration platform as a service (iPaaS) that connects applications, processes, and people across cloud and on-premises environments. It includes capabilities for Cloud Integration, API Management, Integration Advisor, Open Connectors, Trading Partner Managem…
+  api_count: 7
+  score_band: strong
+  score_composite: 61.6
   shared: 1
 - slug: apifuse
   name: Apifuse
@@ -43,19 +57,19 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
-- slug: sap-integration-suite
-  name: SAP Integration Suite
-  description: SAP Integration Suite is an enterprise integration platform as a service (iPaaS) that connects applications, processes, and people across cloud and on-premises environments. It includes capabilities for Cloud Integration, API Management, Integration Advisor, Open Connectors, Trading Partner Managem…
-  api_count: 7
+- slug: stackone
+  name: StackOne
+  description: StackOne is an AI-powered embedded integration platform as a service (iPaaS) designed to simplify and accelerate how SaaS vendors and AI agents connect with enterprise software. It combines a proprietary LLM-based agent with a real-time execution engine to automate and manage integrations no need f…
+  api_count: 12
   score_band: developing
-  score_composite: 59.0
+  score_composite: 59.4
   shared: 1
-- slug: tray-ai
-  name: Tray.ai
-  description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
-  api_count: 2
+- slug: snaplogic
+  name: SnapLogic
+  description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
+  api_count: 4
   score_band: developing
-  score_composite: 57.7
+  score_composite: 57.9
   shared: 1
 - slug: aws-step-functions
   name: AWS Step Functions
@@ -64,19 +78,19 @@ providers:
   score_band: developing
   score_composite: 57.6
   shared: 1
-- slug: stackone
-  name: StackOne
-  description: StackOne is an AI-powered embedded integration platform as a service (iPaaS) designed to simplify and accelerate how SaaS vendors and AI agents connect with enterprise software. It combines a proprietary LLM-based agent with a real-time execution engine to automate and manage integrations no need f…
-  api_count: 12
+- slug: tray-io
+  name: Tray.io
+  description: Tray.io (now also known as Tray.ai) is an AI-ready integration platform as a service (iPaaS) that enables businesses to integrate and automate workflows across cloud applications using a visual editor, pre-built connectors, and API-level access. The platform includes Merlin Agent Builder for buildi…
+  api_count: 2
   score_band: developing
-  score_composite: 53.7
+  score_composite: 53.6
   shared: 1
-- slug: snaplogic
-  name: SnapLogic
-  description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
-  api_count: 4
+- slug: jetic
+  name: Jetic
+  description: Jetic is the first and only cloud-native API & Integration Platform based on Apache Camel. An iPaaS solution for avoiding costly vendor lock-ins and regaining command of your development - without any drawbacks.
+  api_count: 1
   score_band: developing
-  score_composite: 53.2
+  score_composite: 53.0
   shared: 1
 - slug: elastic-io
   name: Elastic.io
@@ -85,12 +99,12 @@ providers:
   score_band: developing
   score_composite: 51.5
   shared: 1
-- slug: tray-io
-  name: Tray.io
-  description: Tray.io (now also known as Tray.ai) is an AI-ready integration platform as a service (iPaaS) that enables businesses to integrate and automate workflows across cloud applications using a visual editor, pre-built connectors, and API-level access. The platform includes Merlin Agent Builder for buildi…
+- slug: sandbox-banking
+  name: Sandbox Banking
+  description: Sandbox Banking (now nCino Integration Gateway) is an Integration Platform as a Service (iPaaS) purpose-built for financial institutions. The platform enables banks and credit unions to connect core banking systems (Fiserv, Jack Henry, FIS, and 14+ other cores) with fintech applications, loan origi…
   api_count: 2
   score_band: developing
-  score_composite: 51.1
+  score_composite: 49.1
   shared: 1
 - slug: vessel
   name: Vessel
@@ -127,19 +141,12 @@ providers:
   score_band: developing
   score_composite: 46.0
   shared: 1
-- slug: sandbox-banking
-  name: Sandbox Banking
-  description: Sandbox Banking (now nCino Integration Gateway) is an Integration Platform as a Service (iPaaS) purpose-built for financial institutions. The platform enables banks and credit unions to connect core banking systems (Fiserv, Jack Henry, FIS, and 14+ other cores) with fintech applications, loan origi…
-  api_count: 2
-  score_band: thin
-  score_composite: 44.4
-  shared: 1
-- slug: jetic
-  name: Jetic
-  description: Jetic is the first and only cloud-native API & Integration Platform based on Apache Camel. An iPaaS solution for avoiding costly vendor lock-ins and regaining command of your development - without any drawbacks.
-  api_count: 1
-  score_band: thin
-  score_composite: 44.2
+- slug: software-ag
+  name: Software AG
+  description: Software AG provides enterprise integration and API management through webMethods, a platform for connecting applications, processes, and people across hybrid cloud and on-premises environments. The webMethods platform includes API Gateway, Developer Portal, Integration Server, and cloud-native int…
+  api_count: 3
+  score_band: developing
+  score_composite: 45.6
   shared: 1
 - slug: hotglue
   name: Hotglue
@@ -147,13 +154,6 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 43.9
-  shared: 1
-- slug: software-ag
-  name: Software AG
-  description: Software AG provides enterprise integration and API management through webMethods, a platform for connecting applications, processes, and people across hybrid cloud and on-premises environments. The webMethods platform includes API Gateway, Developer Portal, Integration Server, and cloud-native int…
-  api_count: 3
-  score_band: thin
-  score_composite: 40.9
   shared: 1
 - slug: useparagon
   name: Paragon
@@ -221,7 +221,7 @@ providers:
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 18
+  shared: 19
 - slug: integrations
   name: Integrations
   shared: 7
@@ -230,7 +230,7 @@ related:
   shared: 5
 - slug: ai-automation
   name: AI Automation
-  shared: 3
+  shared: 4
 - slug: orchestration
   name: Orchestration
   shared: 2
@@ -240,7 +240,7 @@ related:
 overview: 'iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ipaas.apievangelist.com](https://ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Workato, Oracle Integration, Paragon, Zapier, Apifuse, SAP Integration Suite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Paragon, Workato, Oracle Integration, Zapier, Tray.ai, SAP Integration Suite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS, Integrations, Workflow Automation, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

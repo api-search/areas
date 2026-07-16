@@ -8,6 +8,13 @@ area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
 provider_count: 38
 providers:
+- slug: twilio
+  name: Twilio
+  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
+  api_count: 35
+  score_band: strong
+  score_composite: 69.3
+  shared: 1
 - slug: amazon-pinpoint
   name: Amazon Pinpoint
   description: Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communications service that enables you to engage with customers across multiple messaging channels including email, SMS, push notifications, and voice messages. Note - AWS will end support for Amazon Pinpoint on October 30,…
@@ -22,13 +29,6 @@ providers:
   score_band: strong
   score_composite: 67.3
   shared: 1
-- slug: twilio
-  name: Twilio
-  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
-  api_count: 35
-  score_band: strong
-  score_composite: 66.7
-  shared: 1
 - slug: ringcentral
   name: RingCentral
   description: RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.
@@ -40,8 +40,15 @@ providers:
   name: parcelLab
   description: parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the customer journey. The platform spans four modules — Convert (pr…
   api_count: 2
+  score_band: strong
+  score_composite: 64.5
+  shared: 1
+- slug: telefon
+  name: Telefon
+  description: Telefon is a cloud-based programmable communications platform providing voice calling, SMS messaging, number management, and call recording APIs for developers and enterprises. The platform enables applications to make and receive phone calls, send SMS and MMS messages, manage phone number inventor…
+  api_count: 4
   score_band: developing
-  score_composite: 58.8
+  score_composite: 58.3
   shared: 1
 - slug: bandwidth
   name: Bandwidth
@@ -71,12 +78,12 @@ providers:
   score_band: developing
   score_composite: 54.7
   shared: 1
-- slug: telefon
-  name: Telefon
-  description: Telefon is a cloud-based programmable communications platform providing voice calling, SMS messaging, number management, and call recording APIs for developers and enterprises. The platform enables applications to make and receive phone calls, send SMS and MMS messages, manage phone number inventor…
-  api_count: 4
+- slug: telesign
+  name: Telesign
+  description: Telesign provides a comprehensive suite of communications and security APIs enabling businesses to verify phone numbers, send SMS and voice messages, and assess fraud risk. Core offerings include SMS messaging, voice calls, multi-channel verification (OTP/MFA), phone number intelligence (PhoneID),…
+  api_count: 5
   score_band: developing
-  score_composite: 53.6
+  score_composite: 54.3
   shared: 1
 - slug: gotowebinar
   name: GoToWebinar
@@ -92,12 +99,12 @@ providers:
   score_band: developing
   score_composite: 50.7
   shared: 1
-- slug: telesign
-  name: Telesign
-  description: Telesign provides a comprehensive suite of communications and security APIs enabling businesses to verify phone numbers, send SMS and voice messages, and assess fraud risk. Core offerings include SMS messaging, voice calls, multi-channel verification (OTP/MFA), phone number intelligence (PhoneID),…
-  api_count: 5
+- slug: rainbow
+  name: Rainbow
+  description: Rainbow is a CPaaS platform from Alcatel-Lucent Enterprise (ALE) that lets developers enrich applications with chat, group chat, voice, video, file sharing, and telephony PBX features through more than 200 APIs, REST interfaces, and multi-language SDKs including Node.js, C#, iOS, and Android.
+  api_count: 3
   score_band: developing
-  score_composite: 48.6
+  score_composite: 48.7
   shared: 1
 - slug: exotel
   name: Exotel
@@ -119,13 +126,6 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 44.6
-  shared: 1
-- slug: rainbow
-  name: Rainbow
-  description: Rainbow is a CPaaS platform from Alcatel-Lucent Enterprise (ALE) that lets developers enrich applications with chat, group chat, voice, video, file sharing, and telephony PBX features through more than 200 APIs, REST interfaces, and multi-language SDKs including Node.js, C#, iOS, and Android.
-  api_count: 3
-  score_band: thin
-  score_composite: 43.1
   shared: 1
 - slug: documo
   name: Documo
@@ -228,7 +228,7 @@ related:
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Pinpoint, Cisco Webex, Twilio, RingCentral, parcelLab, Bandwidth, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Amazon Pinpoint, Cisco Webex, RingCentral, parcelLab, Telefon, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Authentication and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -13,7 +13,7 @@ providers:
   description: FiscalNote is a policy intelligence platform that provides legislative, regulatory, and stakeholder data spanning Congress, all 50 U.S. states, and more than 100 countries. FiscalNote expanded its PolicyNote API to eliminate AI hallucinations in compliance workflows by providing primary-source veri…
   api_count: 4
   score_band: developing
-  score_composite: 47.1
+  score_composite: 56.0
   shared: 1
 - slug: kpmg
   name: KPMG

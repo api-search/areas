@@ -13,7 +13,7 @@ providers:
   description: Unified is a real-time unified API platform that provides access to over 360 integrations across 22 categories for B2B SaaS and AI-native products. Unlike traditional integration platforms that cache or sync data periodically, Unified operates with a pass-through architecture where every request hi…
   api_count: 14
   score_band: exemplar
-  score_composite: 74.0
+  score_composite: 77.1
   shared: 1
 - slug: apigee
   name: Apigee
@@ -22,6 +22,13 @@ providers:
   score_band: exemplar
   score_composite: 71.5
   shared: 1
+- slug: paragon
+  name: Paragon
+  description: Paragon is the Integration Infrastructure Platform for B2B SaaS and AI products. The platform combines Connect Portal (managed user authentication for 130+ SaaS apps), Workflows (event-driven async orchestration), ActionKit (Universal API + MCP server giving AI agents synchronous CRUD access to Int…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 70.9
+  shared: 1
 - slug: boomi
   name: Boomi
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
@@ -29,26 +36,26 @@ providers:
   score_band: exemplar
   score_composite: 70.7
   shared: 1
+- slug: merge
+  name: Merge
+  description: Merge is the connective infrastructure for production AI. The Merge Unified API offers one API surface across HRIS, ATS, Accounting, CRM, Ticketing, File Storage, Knowledge Base, and Chat. Merge Agent Handler exposes pre-built enterprise connectors to AI agents via REST + MCP. Merge Gateway provide…
+  api_count: 11
+  score_band: strong
+  score_composite: 69.0
+  shared: 1
+- slug: zapier
+  name: Zapier
+  description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
+  api_count: 4
+  score_band: strong
+  score_composite: 68.1
+  shared: 1
 - slug: composio
   name: Composio
   description: Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router…
   api_count: 8
   score_band: strong
   score_composite: 66.1
-  shared: 1
-- slug: merge
-  name: Merge
-  description: Merge is the connective infrastructure for production AI. The Merge Unified API offers one API surface across HRIS, ATS, Accounting, CRM, Ticketing, File Storage, Knowledge Base, and Chat. Merge Agent Handler exposes pre-built enterprise connectors to AI agents via REST + MCP. Merge Gateway provide…
-  api_count: 11
-  score_band: strong
-  score_composite: 65.8
-  shared: 1
-- slug: paragon
-  name: Paragon
-  description: Paragon is the Integration Infrastructure Platform for B2B SaaS and AI products. The platform combines Connect Portal (managed user authentication for 130+ SaaS apps), Workflows (event-driven async orchestration), ActionKit (Universal API + MCP server giving AI agents synchronous CRUD access to Int…
-  api_count: 6
-  score_band: strong
-  score_composite: 65.2
   shared: 1
 - slug: cobalt
   name: Cobalt
@@ -71,13 +78,6 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
-- slug: zapier
-  name: Zapier
-  description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
-  api_count: 4
-  score_band: strong
-  score_composite: 62.5
-  shared: 1
 - slug: albato
   name: Albato
   description: Albato is a no-code automation platform and embedded iPaaS that enables businesses to automate workflows by connecting 1,000+ apps without writing code. Supports multi-step automations with triggers, actions, conditions, and delays. Albato Embedded allows SaaS companies to offer white-label native…
@@ -99,12 +99,54 @@ providers:
   score_band: strong
   score_composite: 61.3
   shared: 1
+- slug: polyapi
+  name: PolyAPI
+  description: Poly, built using cutting-edge AI and Kubernetes-native technology, accelerates development and simplifies the operation of integrations, orchestrations, and microservices with TypeScript, Python, Java, and C.
+  api_count: 1
+  score_band: strong
+  score_composite: 60.7
+  shared: 1
+- slug: pandium
+  name: Pandium
+  description: Transform integration development from a fragmented, ad hoc process into a streamlined, repeatable workflow with Pandiums Integration Platform. With Pandium, B2B SaaS companies can meet customer demands, reduce technical debt, and stay ahead in an increasingly connected world.
+  api_count: 1
+  score_band: developing
+  score_composite: 59.4
+  shared: 1
+- slug: stackone
+  name: StackOne
+  description: StackOne is an AI-powered embedded integration platform as a service (iPaaS) designed to simplify and accelerate how SaaS vendors and AI agents connect with enterprise software. It combines a proprietary LLM-based agent with a real-time execution engine to automate and manage integrations no need f…
+  api_count: 12
+  score_band: developing
+  score_composite: 59.4
+  shared: 1
+- slug: jentic
+  name: Jentic
+  description: Jentic is an AI infrastructure company building the agentic knowledge layer for APIs. Founded in late 2024 and backed by $4.5M in pre-seed funding, Jentic enables enterprises to confidently manage, scale, and govern AI agent initiatives in a unified platform built on open standards. The platform pr…
+  api_count: 6
+  score_band: developing
+  score_composite: 59.0
+  shared: 1
 - slug: apideck
   name: Apideck
   description: Apideck is the leading Unified API that doesn't store sensitive customer data. Build and maintain native integrations into your product with an exceptional Developer Experience.
   api_count: 15
   score_band: developing
   score_composite: 58.5
+  shared: 1
+- slug: snaplogic
+  name: SnapLogic
+  description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
+  api_count: 4
+  score_band: developing
+  score_composite: 57.9
+  shared: 1
+- slug: superblocks
+  name: Superblocks
+  description: Superblocks is a programmable internal tools platform that enables engineering and IT teams to build, govern, and deploy enterprise-grade internal applications, workflows, and scheduled jobs on top of databases, REST APIs, GraphQL APIs, and 50+ SaaS integrations. The platform exposes a REST managem…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.0
   shared: 1
 - slug: ampersand
   name: Ampersand
@@ -127,33 +169,19 @@ providers:
   score_band: developing
   score_composite: 54.6
   shared: 1
-- slug: stackone
-  name: StackOne
-  description: StackOne is an AI-powered embedded integration platform as a service (iPaaS) designed to simplify and accelerate how SaaS vendors and AI agents connect with enterprise software. It combines a proprietary LLM-based agent with a real-time execution engine to automate and manage integrations no need f…
-  api_count: 12
+- slug: lunar-dev
+  name: Lunar.dev
+  description: Lunar.dev is an enterprise-grade gateway platform for AI governance and third-party API consumption control. It unifies an MCP Gateway, AI Gateway, and API Consumption Gateway into a single control point that gives organizations observability, access control, policy enforcement, quota management, r…
+  api_count: 2
   score_band: developing
-  score_composite: 53.7
+  score_composite: 53.5
   shared: 1
-- slug: jentic
-  name: Jentic
-  description: Jentic is an AI infrastructure company building the agentic knowledge layer for APIs. Founded in late 2024 and backed by $4.5M in pre-seed funding, Jentic enables enterprises to confidently manage, scale, and govern AI agent initiatives in a unified platform built on open standards. The platform pr…
-  api_count: 6
-  score_band: developing
-  score_composite: 53.3
-  shared: 1
-- slug: snaplogic
-  name: SnapLogic
-  description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
-  api_count: 4
-  score_band: developing
-  score_composite: 53.2
-  shared: 1
-- slug: polyapi
-  name: PolyAPI
-  description: Poly, built using cutting-edge AI and Kubernetes-native technology, accelerates development and simplifies the operation of integrations, orchestrations, and microservices with TypeScript, Python, Java, and C.
+- slug: jetic
+  name: Jetic
+  description: Jetic is the first and only cloud-native API & Integration Platform based on Apache Camel. An iPaaS solution for avoiding costly vendor lock-ins and regaining command of your development - without any drawbacks.
   api_count: 1
   score_band: developing
-  score_composite: 51.9
+  score_composite: 53.0
   shared: 1
 - slug: ada
   name: Ada
@@ -176,13 +204,6 @@ providers:
   score_band: developing
   score_composite: 50.6
   shared: 1
-- slug: pandium
-  name: Pandium
-  description: Transform integration development from a fragmented, ad hoc process into a streamlined, repeatable workflow with Pandiums Integration Platform. With Pandium, B2B SaaS companies can meet customer demands, reduce technical debt, and stay ahead in an increasingly connected world.
-  api_count: 1
-  score_band: developing
-  score_composite: 50.6
-  shared: 1
 - slug: cyclr
   name: Cyclr
   description: Cyclr is an embedded iPaaS (integration platform as a service) used by SaaS vendors to deliver native integrations to their customers without each vendor building and maintaining one-off connectors. The platform provides a connector library covering hundreds of business applications (CRM, marketing…
@@ -190,33 +211,12 @@ providers:
   score_band: developing
   score_composite: 50.3
   shared: 1
-- slug: vessel
-  name: Vessel
-  description: Vessel is a developer-first embedded integrations platform that enables product teams to add native integrations to their applications. It provides unified API abstractions, actions APIs, and passthrough APIs to connect with CRM, sales engagement, marketing automation, chat, and dialer tools while…
-  api_count: 4
-  score_band: developing
-  score_composite: 48.9
-  shared: 1
-- slug: nango
-  name: Nango
-  description: Nango.dev is a developer infrastructure platform that simplifies building product integrations with external APIs. It provides the infrastructure to build reliable, scalable integrations fast, including API authentication, a syncing framework, webhook handling, and observability, supporting over 40…
+- slug: productplan
+  name: ProductPlan
+  description: ProductPlan is a road mapping software platform providing a REST API for creating and managing roadmaps, features, goals, OKRs, launches, and discovery. It integrates with tools like Jira, GitHub, Slack, and Trello, enabling teams to plan, align, and share product strategies with stakeholders.
   api_count: 1
   score_band: developing
-  score_composite: 48.6
-  shared: 1
-- slug: superblocks
-  name: Superblocks
-  description: Superblocks is a programmable internal tools platform that enables engineering and IT teams to build, govern, and deploy enterprise-grade internal applications, workflows, and scheduled jobs on top of databases, REST APIs, GraphQL APIs, and 50+ SaaS integrations. The platform exposes a REST managem…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.2
-  shared: 1
-- slug: ballerina
-  name: Ballerina
-  description: Integration problems have been solved by restricted drag-and-drop tools/DSLs or generic programming languages that dont understand the unique challenges of integrations.
-  api_count: 1
-  score_band: developing
-  score_composite: 47.7
+  score_composite: 49.3
   shared: 1
 related:
 - slug: embedded-ipaas
@@ -225,23 +225,23 @@ related:
 - slug: ipaas
   name: iPaaS
   shared: 7
+- slug: ai-automation
+  name: AI Automation
+  shared: 4
 - slug: saas-management
   name: SaaS Management
-  shared: 4
-- slug: webhooks
-  name: Webhooks
   shared: 4
 - slug: management
   name: Management
   shared: 2
-- slug: ai-automation
-  name: AI Automation
+- slug: webhooks
+  name: Webhooks
   shared: 3
 overview: 'Integrations is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [integrations.apievangelist.com](https://integrations.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Unified.to, Apigee, Boomi, Composio, Merge, Paragon, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Unified.to, Apigee, Paragon, Boomi, Merge, Zapier, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Embedded iPaaS, iPaaS, SaaS Management, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Embedded iPaaS, iPaaS, AI Automation, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

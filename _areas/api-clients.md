@@ -12,8 +12,15 @@ providers:
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 2
-  score_band: thin
-  score_composite: 43.3
+  score_band: developing
+  score_composite: 52.1
+  shared: 1
+- slug: ruby
+  name: Ruby Programming Language and Popular API Gems
+  description: 'A profile of the Ruby programming language ecosystem from an API perspective: the language and its standard library HTTP surface (Net::HTTP), the rubygems.org package registry and its public v1/v2 REST API, Bundler, RBS type signatures, popular HTTP/REST client gems (Faraday, http.rb, HTTParty, Exc…'
+  api_count: 15
+  score_band: developing
+  score_composite: 47.3
   shared: 1
 - slug: apollo-graphql
   name: Apollo GraphQL
@@ -22,12 +29,26 @@ providers:
   score_band: thin
   score_composite: 43.1
   shared: 1
-- slug: ruby
-  name: Ruby Programming Language and Popular API Gems
-  description: 'A profile of the Ruby programming language ecosystem from an API perspective: the language and its standard library HTTP surface (Net::HTTP), the rubygems.org package registry and its public v1/v2 REST API, Bundler, RBS type signatures, popular HTTP/REST client gems (Faraday, http.rb, HTTParty, Exc…'
-  api_count: 15
+- slug: wget
+  name: Wget
+  description: GNU Wget is a free, open-source command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS protocols. It supports recursive downloading, resuming aborted downloads, mirroring websites, proxy support, and can be run from scripts and cron jobs. Wget2 i…
+  api_count: 2
   score_band: thin
-  score_composite: 41.7
+  score_composite: 42.6
+  shared: 1
+- slug: rest-client
+  name: REST Client
+  description: REST Client is a Visual Studio Code extension developed by Huachao Mao that enables developers to send HTTP requests and view responses directly within the VS Code editor. It supports RFC 2616 HTTP request format using .http and .rest files, GraphQL queries, cURL commands, multiple authentication s…
+  api_count: 1
+  score_band: thin
+  score_composite: 40.9
+  shared: 1
+- slug: requests
+  name: Requests
+  description: Requests is a simple and elegant HTTP library for Python, designed for human beings. Published under the Apache2 license by the Python Software Foundation (PSF), it is one of the most downloaded Python packages with approximately 300 million weekly downloads and over 4 million dependent repositorie…
+  api_count: 1
+  score_band: thin
+  score_composite: 40.1
   shared: 1
 - slug: hoppscotch
   name: Hoppscotch
@@ -35,27 +56,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 37.7
-  shared: 1
-- slug: wget
-  name: Wget
-  description: GNU Wget is a free, open-source command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS protocols. It supports recursive downloading, resuming aborted downloads, mirroring websites, proxy support, and can be run from scripts and cron jobs. Wget2 i…
-  api_count: 2
-  score_band: thin
-  score_composite: 33.8
-  shared: 1
-- slug: rest-client
-  name: REST Client
-  description: REST Client is a Visual Studio Code extension developed by Huachao Mao that enables developers to send HTTP requests and view responses directly within the VS Code editor. It supports RFC 2616 HTTP request format using .http and .rest files, GraphQL queries, cURL commands, multiple authentication s…
-  api_count: 1
-  score_band: thin
-  score_composite: 32.0
-  shared: 1
-- slug: requests
-  name: Requests
-  description: Requests is a simple and elegant HTTP library for Python, designed for human beings. Published under the Apache2 license by the Python Software Foundation (PSF), it is one of the most downloaded Python packages with approximately 300 million weekly downloads and over 4 million dependent repositorie…
-  api_count: 1
-  score_band: thin
-  score_composite: 31.3
   shared: 1
 - slug: firecamp
   name: Firecamp
@@ -140,7 +140,7 @@ related:
 overview: 'API Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-clients.apievangelist.com](https://api-clients.apievangelist.com).
 
 
-  17 providers on the network work in this area, including Insomnia, Apollo GraphQL, Ruby Programming Language and Popular API Gems, Hoppscotch, Wget, REST Client, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  17 providers on the network work in this area, including Insomnia, Ruby Programming Language and Popular API Gems, Apollo GraphQL, Wget, REST Client, Requests, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Clients, Command Line Interface, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -20,7 +20,7 @@ providers:
   description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
   api_count: 85
   score_band: exemplar
-  score_composite: 70.5
+  score_composite: 73.6
   shared: 1
 - slug: azure-log-analytics
   name: Azure Log Analytics
@@ -29,17 +29,24 @@ providers:
   score_band: exemplar
   score_composite: 70.2
   shared: 1
-- slug: amazon-managed-grafana
-  name: Amazon Managed Grafana
-  description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
-  api_count: 1
+- slug: microsoft-azure-monitor
+  name: Azure Monitor
+  description: Azure Monitor helps you maximize the availability and performance of your applications and services. It delivers a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments.
+  api_count: 15
   score_band: strong
-  score_composite: 67.3
+  score_composite: 68.9
   shared: 1
 - slug: raygun
   name: Raygun
   description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.ra…
   api_count: 15
+  score_band: strong
+  score_composite: 68.9
+  shared: 1
+- slug: amazon-managed-grafana
+  name: Amazon Managed Grafana
+  description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
+  api_count: 1
   score_band: strong
   score_composite: 67.3
   shared: 1
@@ -49,6 +56,20 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 67.0
+  shared: 1
+- slug: splunk
+  name: Splunk
+  description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.
+  api_count: 13
+  score_band: strong
+  score_composite: 67.0
+  shared: 1
+- slug: oracle-enterprise-manager
+  name: Oracle Enterprise Manager
+  description: Oracle Enterprise Manager (OEM) provides a comprehensive management platform for managing Oracle IT infrastructure and applications. The APIs enable programmatic access to monitoring, administration, and automation capabilities.
+  api_count: 17
+  score_band: strong
+  score_composite: 65.5
   shared: 1
 - slug: amazon-managed-prometheus
   name: Amazon Managed Service for Prometheus
@@ -78,19 +99,12 @@ providers:
   score_band: strong
   score_composite: 62.5
   shared: 1
-- slug: splunk
-  name: Splunk
-  description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.
-  api_count: 13
+- slug: sysdig
+  name: Sysdig
+  description: Sysdig is a cloud and container security platform that provides runtime threat detection, vulnerability management, cloud security posture management (CSPM), compliance automation, and observability for containers, Kubernetes, and cloud environments. Sysdig Monitor offers full-stack monitoring and…
+  api_count: 2
   score_band: strong
-  score_composite: 62.3
-  shared: 1
-- slug: oracle-enterprise-manager
-  name: Oracle Enterprise Manager
-  description: Oracle Enterprise Manager (OEM) provides a comprehensive management platform for managing Oracle IT infrastructure and applications. The APIs enable programmatic access to monitoring, administration, and automation capabilities.
-  api_count: 17
-  score_band: strong
-  score_composite: 60.8
+  score_composite: 62.0
   shared: 1
 - slug: amazon-cloudwatch
   name: Amazon CloudWatch
@@ -99,12 +113,12 @@ providers:
   score_band: strong
   score_composite: 60.4
   shared: 1
-- slug: microsoft-azure-monitor
-  name: Azure Monitor
-  description: Azure Monitor helps you maximize the availability and performance of your applications and services. It delivers a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments.
-  api_count: 15
+- slug: grafana
+  name: Grafana
+  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
+  api_count: 1
   score_band: strong
-  score_composite: 60.0
+  score_composite: 60.1
   shared: 1
 - slug: amazon-guardduty
   name: Amazon GuardDuty
@@ -112,6 +126,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 59.8
+  shared: 1
+- slug: netdata
+  name: Netdata
+  description: Netdata is a real-time infrastructure monitoring and observability platform that collects per-second metrics from physical servers, virtual machines, cloud deployments, Kubernetes clusters, and IoT devices. It provides a REST API for querying metrics, alerts, and configuration on individual nodes (…
+  api_count: 2
+  score_band: developing
+  score_composite: 59.6
   shared: 1
 - slug: dun-and-bradstreet
   name: Dun & Bradstreet
@@ -148,6 +169,13 @@ providers:
   score_band: developing
   score_composite: 57.4
   shared: 1
+- slug: redocly
+  name: Redocly
+  description: Redocly is a company that specializes in API documentation and governance tooling. Their platform helps organizations create, manage, and publish API documentation through Realm (the integrated lifecycle platform that unifies Redoc, Revel, and Reef), Reunite (Git-connected collaboration and deploym…
+  api_count: 8
+  score_band: developing
+  score_composite: 57.4
+  shared: 1
 - slug: bigpanda
   name: BigPanda
   description: BigPanda is a software platform that uses artificial intelligence (AI) to help IT operations teams automate incident management by correlating alerts from various systems, identifying root causes, and streamlining the incident resolution process, essentially moving from reactive to proactive incide…
@@ -155,12 +183,26 @@ providers:
   score_band: developing
   score_composite: 57.3
   shared: 1
-- slug: sysdig
-  name: Sysdig
-  description: Sysdig is a cloud and container security platform that provides runtime threat detection, vulnerability management, cloud security posture management (CSPM), compliance automation, and observability for containers, Kubernetes, and cloud environments. Sysdig Monitor offers full-stack monitoring and…
-  api_count: 2
+- slug: google-cloud-endpoints
+  name: Google Cloud Endpoints
+  description: Google Cloud Endpoints is an API management system that helps you secure, monitor, analyze, and set quotas on your APIs using the same infrastructure Google uses for its own APIs. Endpoints works with the Extensible Service Proxy (ESP) or ESPv2 to provide API management capabilities including authe…
+  api_count: 1
   score_band: developing
-  score_composite: 57.3
+  score_composite: 57.2
+  shared: 1
+- slug: google-cloud-monitoring
+  name: Google Cloud Monitoring
+  description: Google Cloud Monitoring provides comprehensive monitoring and observability for cloud infrastructure and applications. It collects metrics, events, and metadata from Google Cloud services, hosted uptime probes, and application instrumentation, enabling dashboards, alerting, uptime monitoring, and s…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.2
+  shared: 1
+- slug: google-cloud-operations-suite
+  name: Google Cloud Operations Suite
+  description: Google Cloud Operations Suite (formerly Stackdriver) provides integrated monitoring, logging, and diagnostics for applications and infrastructure running on Google Cloud. It encompasses Cloud Monitoring, Cloud Logging, Cloud Trace, Cloud Profiler, and Error Reporting to deliver comprehensive observ…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.2
   shared: 1
 - slug: opsgenie
   name: OpsGenie
@@ -169,62 +211,20 @@ providers:
   score_band: developing
   score_composite: 57.2
   shared: 1
-- slug: opentelemetry
-  name: OpenTelemetry
-  description: Vendor-neutral open-source observability framework for cloud-native software, providing a collection of tools, APIs, and SDKs for instrumenting, generating, collecting, and exporting telemetry data including metrics, logs, and traces.
-  api_count: 4
-  score_band: developing
-  score_composite: 55.3
-  shared: 1
-- slug: appdynamics
-  name: AppDynamics
-  description: AppDynamics, now part of Cisco, is an application performance monitoring (APM) and observability platform that provides full-stack visibility into application, business, and infrastructure performance. The platform offers REST APIs for controller management, metrics, alerts, analytics events, datab…
-  api_count: 9
-  score_band: developing
-  score_composite: 55.2
-  shared: 1
-- slug: grafana-com
-  name: Grafana
-  description: Grafana Labs builds the open and composable observability stack used by millions of engineers to visualize, query, alert on, and explore their metrics, logs, traces, and profiles. The flagship Grafana OSS dashboarding platform is paired with Grafana Loki (logs), Grafana Mimir (Prometheus-compatible…
-  api_count: 20
-  score_band: developing
-  score_composite: 53.4
-  shared: 1
-- slug: google-cloud-logging
-  name: Google Cloud Logging
-  description: Google Cloud Logging is a fully-managed service that performs at scale and can ingest application and system log data from thousands of VMs. Allows you to search, monitor, and analyze log data and events from Google Cloud and AWS.
+- slug: opik
+  name: Opik
+  description: Opik is an open-source LLM evaluation, testing, and tracing platform developed by Comet ML that enables developers to debug, evaluate, and monitor LLM applications, RAG systems, and agentic workflows. The platform provides a REST API for logging traces and spans, running automated evaluations with…
   api_count: 1
   score_band: developing
-  score_composite: 53.0
-  shared: 1
-- slug: adt
-  name: ADT
-  description: ADT is a provider of monitored security, interactive home and business automation, and related monitoring services for residential and small business customers across the United States and Canada. ADT offers smart home security systems, professional monitoring, video surveillance, access control, a…
-  api_count: 2
-  score_band: developing
-  score_composite: 52.5
-  shared: 1
-- slug: 1factory
-  name: 1Factory
-  description: 1Factory is a leading provider of quality management software solutions for manufacturing companies. The platform helps businesses streamline their operations, improve efficiency, and ensure product quality at every stage of the production process. Features include real-time monitoring, automated d…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.3
-  shared: 1
-- slug: grafana
-  name: Grafana
-  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.3
+  score_composite: 56.7
   shared: 1
 related:
 - slug: observability
   name: Observability
-  shared: 13
+  shared: 11
 - slug: logging
   name: Logging
-  shared: 4
+  shared: 3
 - slug: visualization
   name: Visualization
   shared: 2
@@ -240,7 +240,7 @@ related:
 overview: 'Monitoring is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monitoring.apievangelist.com](https://monitoring.apievangelist.com).
 
 
-  30 providers on the network work in this area, including New Relic, Datadog, Azure Log Analytics, Amazon Managed Grafana, Raygun, Amazon Lookout for Metrics, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including New Relic, Datadog, Azure Log Analytics, Azure Monitor, Raygun, Amazon Managed Grafana, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, Logging, Visualization, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -22,26 +22,26 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
-- slug: amazon-systems-manager
-  name: Amazon Systems Manager
-  description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
-  api_count: 1
-  score_band: developing
-  score_composite: 55.8
-  shared: 1
 - slug: snaplogic
   name: SnapLogic
   description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
   api_count: 4
   score_band: developing
-  score_composite: 53.2
+  score_composite: 57.9
   shared: 1
 - slug: wundergraph
   name: WunderGraph
   description: Full Lifecycle API Management for (Federated) GraphQL. Schema Registry, composition checks, analytics, metrics, tracing and routing. Deploy 100% on-prem or use our Managed Service. Apache 2.0 licensed, no vendor-lock.
   api_count: 1
   score_band: developing
-  score_composite: 48.5
+  score_composite: 57.4
+  shared: 1
+- slug: amazon-systems-manager
+  name: Amazon Systems Manager
+  description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
+  api_count: 1
+  score_band: developing
+  score_composite: 55.8
   shared: 1
 - slug: broadcom
   name: Broadcom
@@ -53,15 +53,15 @@ providers:
 related:
 - slug: saas-management
   name: SaaS Management
-  shared: 4
+  shared: 5
+- slug: ai-automation
+  name: AI Automation
+  shared: 2
 - slug: integrations
   name: Integrations
   shared: 2
 - slug: virtualization
   name: Virtualization
-  shared: 1
-- slug: ai-automation
-  name: AI Automation
   shared: 1
 - slug: embedded-ipaas
   name: Embedded iPaaS
@@ -72,8 +72,8 @@ related:
 overview: 'Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [management.apievangelist.com](https://management.apievangelist.com).
 
 
-  Providers on the network working in this area include Boomi, Dell Servers, Amazon Systems Manager, SnapLogic, WunderGraph, and Broadcom — each links out to that provider''s APIs, schemas, and governance artifacts.
+  Providers on the network working in this area include Boomi, Dell Servers, SnapLogic, WunderGraph, Amazon Systems Manager, and Broadcom — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: SaaS Management, Integrations, Virtualization, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: SaaS Management, AI Automation, Integrations, and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

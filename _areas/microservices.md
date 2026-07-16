@@ -15,12 +15,26 @@ providers:
   score_band: exemplar
   score_composite: 71.5
   shared: 1
+- slug: nvidia-nim
+  name: NVIDIA NIM
+  description: NVIDIA NIM (NVIDIA Inference Microservices) is a catalog of GPU-accelerated, containerized AI inference microservices that package optimized model engines (TensorRT-LLM, vLLM, SGLang, Triton) behind industry-standard OpenAI-compatible REST APIs. NIM covers large language models, embeddings and rera…
+  api_count: 10
+  score_band: strong
+  score_composite: 66.8
+  shared: 1
 - slug: aws-app-mesh
   name: AWS App Mesh
   description: AWS App Mesh is a service mesh based on the Envoy proxy that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure including Amazon ECS, EKS, EC2, and Fargate. App Mesh standardizes service communication, gi…
   api_count: 1
   score_band: strong
   score_composite: 65.3
+  shared: 1
+- slug: websphere
+  name: IBM WebSphere
+  description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
+  api_count: 8
+  score_band: strong
+  score_composite: 62.9
   shared: 1
 - slug: azure-container-apps
   name: Azure Container Apps
@@ -29,12 +43,26 @@ providers:
   score_band: strong
   score_composite: 61.2
   shared: 1
+- slug: polyapi
+  name: PolyAPI
+  description: Poly, built using cutting-edge AI and Kubernetes-native technology, accelerates development and simplifies the operation of integrations, orchestrations, and microservices with TypeScript, Python, Java, and C.
+  api_count: 1
+  score_band: strong
+  score_composite: 60.7
+  shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
   api_count: 1
   score_band: developing
   score_composite: 59.5
+  shared: 1
+- slug: encore-dev
+  name: Encore
+  description: Encore is a backend application framework and developer cloud that lets engineering teams build type-safe distributed systems in TypeScript (Encore.ts) and Go (Encore.go) using declarative Infrastructure from Code. Developers describe APIs, databases, Pub/Sub, object storage, caches, cron jobs, and…
+  api_count: 5
+  score_band: developing
+  score_composite: 59.2
   shared: 1
 - slug: aws-x-ray
   name: AWS X-Ray
@@ -50,26 +78,19 @@ providers:
   score_band: developing
   score_composite: 58.4
   shared: 1
-- slug: websphere
-  name: IBM WebSphere
-  description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
-  api_count: 8
+- slug: zeebe
+  name: Zeebe
+  description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It implements BPMN 2.0 process execution and provides a REST AP…
+  api_count: 1
   score_band: developing
-  score_composite: 58.2
+  score_composite: 57.4
   shared: 1
-- slug: nvidia-nim
-  name: NVIDIA NIM
-  description: NVIDIA NIM (NVIDIA Inference Microservices) is a catalog of GPU-accelerated, containerized AI inference microservices that package optimized model engines (TensorRT-LLM, vLLM, SGLang, Triton) behind industry-standard OpenAI-compatible REST APIs. NIM covers large language models, embeddings and rera…
-  api_count: 10
-  score_band: developing
-  score_composite: 58.0
-  shared: 1
-- slug: encore-dev
-  name: Encore
-  description: Encore is a backend application framework and developer cloud that lets engineering teams build type-safe distributed systems in TypeScript (Encore.ts) and Go (Encore.go) using declarative Infrastructure from Code. Developers describe APIs, databases, Pub/Sub, object storage, caches, cron jobs, and…
+- slug: grpc
+  name: gRPC
+  description: gRPC is a high-performance, open-source universal RPC framework that uses HTTP/2 for transport, Protocol Buffers as the interface description language, and provides features such as authentication, bidirectional streaming and flow control, blocking or nonblocking bindings, and cancellation and time…
   api_count: 5
   score_band: developing
-  score_composite: 54.5
+  score_composite: 55.2
   shared: 1
 - slug: apollo-config
   name: Apollo Config
@@ -77,6 +98,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 54.2
+  shared: 1
+- slug: datadog-apm
+  name: Datadog APM
+  description: Datadog APM provides end-to-end distributed tracing, continuous profiling, and real-time performance monitoring for applications and microservices. It automatically instruments applications to provide deep visibility into request traces, latency, and error rates across distributed systems.
+  api_count: 1
+  score_band: developing
+  score_composite: 53.7
   shared: 1
 - slug: axon-framework
   name: Axon Framework
@@ -92,26 +120,33 @@ providers:
   score_band: developing
   score_composite: 52.9
   shared: 1
-- slug: polyapi
-  name: PolyAPI
-  description: Poly, built using cutting-edge AI and Kubernetes-native technology, accelerates development and simplifies the operation of integrations, orchestrations, and microservices with TypeScript, Python, Java, and C.
+- slug: spring-cloud-config
+  name: Spring Cloud Config
+  description: Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system. It offers a central place to manage external properties for applications across all environments, backed by Git, SVN, or filesystem repositories with support for encryption, decr…
   api_count: 1
   score_band: developing
-  score_composite: 51.9
+  score_composite: 52.9
   shared: 1
-- slug: zeebe
-  name: Zeebe
-  description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It implements BPMN 2.0 process execution and provides a REST AP…
-  api_count: 1
+- slug: vert-x
+  name: Vert.x
+  description: Eclipse Vert.x is a toolkit for building reactive applications on the JVM, providing support for multiple languages including Java, JavaScript, Groovy, Ruby, and Kotlin with an event-driven, non-blocking architecture. Part of the Eclipse Foundation under the Eclipse Public License 2.0. Vert.x follo…
+  api_count: 7
   score_band: developing
-  score_composite: 51.8
+  score_composite: 52.3
   shared: 1
-- slug: datadog-apm
-  name: Datadog APM
-  description: Datadog APM provides end-to-end distributed tracing, continuous profiling, and real-time performance monitoring for applications and microservices. It automatically instruments applications to provide deep visibility into request traces, latency, and error rates across distributed systems.
-  api_count: 1
+- slug: service-fabric
+  name: Service Fabric
+  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of services at scale including Azure SQL Database, Azure Cosmos DB,…
+  api_count: 2
   score_band: developing
-  score_composite: 51.2
+  score_composite: 51.6
+  shared: 1
+- slug: istio
+  name: Istio
+  description: Istio is an open-source service mesh platform that provides a comprehensive solution for managing, securing, and monitoring microservices in a distributed system. It acts as a middle layer between services, handling communication, routing, and load balancing, as well as providing visibility into th…
+  api_count: 6
+  score_band: developing
+  score_composite: 51.5
   shared: 1
 - slug: architecture-pattern
   name: Architecture Pattern
@@ -155,6 +190,13 @@ providers:
   score_band: developing
   score_composite: 49.7
   shared: 1
+- slug: spring-framework
+  name: Spring Framework
+  description: 'The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications on any kind of deployment platform. A key element of Spring is infrastructural support at the application level: Spring focuses on the "plumbing" of enterprise application…'
+  api_count: 4
+  score_band: developing
+  score_composite: 49.3
+  shared: 1
 - slug: beamable
   name: Beamable
   description: Beamable is a cloud backend platform purpose-built for games and interactive applications, providing REST APIs and SDK integrations for Unity, Unreal, and web environments. The platform delivers production-ready services covering player identity and authentication, virtual currency and economy, inv…
@@ -169,59 +211,17 @@ providers:
   score_band: developing
   score_composite: 48.9
   shared: 1
-- slug: amazon-app-mesh
-  name: Amazon App Mesh
-  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
-  api_count: 1
+- slug: kuma
+  name: Kuma
+  description: Kuma is a platform-agnostic open-source service mesh built on top of Envoy proxy. It provides universal connectivity, security, and observability for services and microservices running on any infrastructure including Kubernetes and VMs.
+  api_count: 3
   score_band: developing
-  score_composite: 48.2
-  shared: 1
-- slug: microsoft-azure-service-fabric
-  name: Azure Service Fabric
-  description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for distributed systems.
-  api_count: 1
-  score_band: developing
-  score_composite: 48.2
-  shared: 1
-- slug: vert-x
-  name: Vert.x
-  description: Eclipse Vert.x is a toolkit for building reactive applications on the JVM, providing support for multiple languages including Java, JavaScript, Groovy, Ruby, and Kotlin with an event-driven, non-blocking architecture. Part of the Eclipse Foundation under the Eclipse Public License 2.0. Vert.x follo…
-  api_count: 7
-  score_band: developing
-  score_composite: 48.2
-  shared: 1
-- slug: spring-cloud-config
-  name: Spring Cloud Config
-  description: Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system. It offers a central place to manage external properties for applications across all environments, backed by Git, SVN, or filesystem repositories with support for encryption, decr…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.3
-  shared: 1
-- slug: webflux
-  name: Spring WebFlux
-  description: Spring WebFlux is a fully non-blocking, reactive-stack web framework built into Spring Framework 5.0+. It enables building highly scalable, asynchronous web applications using the Reactive Streams API with Project Reactor. WebFlux supports annotated controllers, functional routing endpoints, WebSoc…
-  api_count: 8
-  score_band: developing
-  score_composite: 47.2
-  shared: 1
-- slug: opslevel
-  name: OpsLevel
-  description: OpsLevel is a prescriptive internal developer portal for cataloging, measuring, and scaffolding services according to engineering best practices.
-  api_count: 1
-  score_band: developing
-  score_composite: 47.1
-  shared: 1
-- slug: service-fabric
-  name: Service Fabric
-  description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of services at scale including Azure SQL Database, Azure Cosmos DB,…
-  api_count: 2
-  score_band: developing
-  score_composite: 46.9
+  score_composite: 48.8
   shared: 1
 related:
 - slug: service-mesh
   name: Service Mesh
-  shared: 4
+  shared: 5
 - slug: containers
   name: Containers
   shared: 2
@@ -240,7 +240,7 @@ related:
 overview: 'Microservices is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [microservices.apievangelist.com](https://microservices.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Apigee, AWS App Mesh, Azure Container Apps, AWS App Runner, AWS X-Ray, Amazon Cloud Map, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Apigee, NVIDIA NIM, AWS App Mesh, IBM WebSphere, Azure Container Apps, PolyAPI, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Service Mesh, Containers, Integrations, and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'

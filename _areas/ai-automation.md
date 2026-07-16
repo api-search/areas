@@ -57,19 +57,26 @@ providers:
   score_band: exemplar
   score_composite: 70.5
   shared: 1
+- slug: oracle-integration
+  name: Oracle Integration
+  description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 70.3
+  shared: 1
+- slug: workday-extend
+  name: Workday Extend
+  description: Workday Extend is a platform that enables developers to build custom applications that integrate seamlessly with Workday. It provides APIs, development tools, and a runtime environment for creating tailored solutions that extend Workday's core functionality.
+  api_count: 6
+  score_band: strong
+  score_composite: 69.7
+  shared: 1
 - slug: servicenow
   name: ServiceNow
   description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
   api_count: 57
   score_band: strong
   score_composite: 67.5
-  shared: 1
-- slug: oracle-integration
-  name: Oracle Integration
-  description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
-  api_count: 4
-  score_band: strong
-  score_composite: 67.2
   shared: 1
 - slug: amazon-data-lifecycle-manager
   name: Amazon Data Lifecycle Manager
@@ -85,6 +92,13 @@ providers:
   score_band: strong
   score_composite: 65.1
   shared: 1
+- slug: microsoft-power-automate
+  name: Microsoft Power Automate
+  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automated, instant, and scheduled cloud flows, as well as desktop f…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.6
+  shared: 1
 - slug: amazon-incident-manager
   name: Amazon Incident Manager
   description: AWS Systems Manager Incident Manager is an incident management console designed to help users mitigate and recover from incidents affecting their AWS-hosted applications. It enables faster incident resolution by automating response plans and engaging responders across notification channels.
@@ -99,13 +113,6 @@ providers:
   score_band: strong
   score_composite: 64.4
   shared: 1
-- slug: workday-extend
-  name: Workday Extend
-  description: Workday Extend is a platform that enables developers to build custom applications that integrate seamlessly with Workday. It provides APIs, development tools, and a runtime environment for creating tailored solutions that extend Workday's core functionality.
-  api_count: 6
-  score_band: strong
-  score_composite: 64.0
-  shared: 1
 - slug: adobe-premiere
   name: Adobe Premiere Pro
   description: APIs for Adobe Premiere Pro, a professional video editing software that enables programmatic access to video editing, project management, and content creation workflows.
@@ -117,6 +124,13 @@ providers:
   name: Cobalt
   description: Traditional integrations are slow, fragmented, and hinder growth. Cobalt is changing that. A next-gen integration platform with 1,000+ connectors and AI-driven automation redefining how businesses integrate, operate, and scale.
   api_count: 1
+  score_band: strong
+  score_composite: 63.3
+  shared: 1
+- slug: tray-ai
+  name: Tray.ai
+  description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
+  api_count: 2
   score_band: strong
   score_composite: 63.3
   shared: 1
@@ -148,12 +162,12 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 1
-- slug: microsoft-power-automate
-  name: Microsoft Power Automate
-  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automated, instant, and scheduled cloud flows, as well as desktop f…
-  api_count: 1
+- slug: microsoft-excel
+  name: Microsoft Excel
+  description: APIs for automating, integrating, and extending Microsoft Excel functionality including workbook management, data manipulation, charting, and formula execution through Microsoft Graph REST APIs.
+  api_count: 3
   score_band: strong
-  score_composite: 61.5
+  score_composite: 62.4
   shared: 1
 - slug: baserow
   name: Baserow
@@ -162,12 +176,19 @@ providers:
   score_band: strong
   score_composite: 61.2
   shared: 1
-- slug: microsoft-excel
-  name: Microsoft Excel
-  description: APIs for automating, integrating, and extending Microsoft Excel functionality including workbook management, data manipulation, charting, and formula execution through Microsoft Graph REST APIs.
-  api_count: 3
+- slug: salesforce-automation
+  name: Salesforce Automation
+  description: A collection of Salesforce APIs for automating business processes, sales operations, and customer relationship management.
+  api_count: 15
   score_band: developing
-  score_composite: 59.3
+  score_composite: 59.8
+  shared: 1
+- slug: f5-networks
+  name: F5 Networks
+  description: F5 Networks is a leader in application delivery networking technology that specializes in application availability, acceleration, and security solutions.
+  api_count: 11
+  score_band: developing
+  score_composite: 59.5
   shared: 1
 - slug: bettercloud
   name: BetterCloud
@@ -176,47 +197,26 @@ providers:
   score_band: developing
   score_composite: 59.1
   shared: 1
-- slug: tray-ai
-  name: Tray.ai
-  description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
-  api_count: 2
+- slug: sauce-labs
+  name: Sauce Labs
+  description: Sauce Labs is a cloud-based cross-browser and mobile app testing platform trusted by over 100,000 customers worldwide. It provides a comprehensive set of REST APIs for managing test jobs, devices, builds, insights, and results across virtual and real device clouds. The platform supports automated t…
+  api_count: 10
+  score_band: developing
+  score_composite: 58.2
+  shared: 1
+- slug: snaplogic
+  name: SnapLogic
+  description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
+  api_count: 4
+  score_band: developing
+  score_composite: 57.9
+  shared: 1
+- slug: salesforce-flow
+  name: Salesforce Flow
+  description: The Salesforce Flow API enables developers to interact with and manage Salesforce Flow automation processes programmatically. This includes creating, updating, querying, and executing flows within Salesforce using the REST API, Tooling API, and Invocable Actions framework.
+  api_count: 3
   score_band: developing
   score_composite: 57.7
-  shared: 1
-- slug: chef
-  name: Chef
-  description: Chef (Progress Chef) provides infrastructure automation, compliance, and application delivery tooling. Chef exposes REST APIs for the Infra Server (managing nodes, cookbooks, roles, environments, and data bags), Chef Automate (visibility into convergence, compliance, and deployment), Habitat Builde…
-  api_count: 4
-  score_band: developing
-  score_composite: 57.5
-  shared: 1
-- slug: salesforce-automation
-  name: Salesforce Automation
-  description: A collection of Salesforce APIs for automating business processes, sales operations, and customer relationship management.
-  api_count: 15
-  score_band: developing
-  score_composite: 56.7
-  shared: 1
-- slug: advanced-excel
-  name: Advanced Excel
-  description: Advanced Excel is a subject-matter topic encompassing Microsoft Excel's programmatic capabilities for data analysis, formula execution, workbook management, chart generation, and automation. This topic index covers REST APIs, open data schemas, and developer tools for working with Excel workbooks p…
-  api_count: 1
-  score_band: developing
-  score_composite: 56.6
-  shared: 1
-- slug: canva
-  name: Canva
-  description: APIs for the Canva design platform, enabling developers to integrate Canva's design tools and functionality into their applications.
-  api_count: 4
-  score_band: developing
-  score_composite: 56.3
-  shared: 1
-- slug: activepieces
-  name: Activepieces
-  description: Activepieces is an open-source, no-code automation platform that enables users to streamline workflows by connecting various applications and automating tasks. It supports over 400 MCP servers and integrations, allowing developers to build custom TypeScript-based pieces. The platform offers AI agen…
-  api_count: 1
-  score_band: developing
-  score_composite: 56.1
   shared: 1
 related:
 - slug: workflow-automation
@@ -224,24 +224,24 @@ related:
   shared: 16
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 5
+  shared: 6
 - slug: integrations
   name: Integrations
-  shared: 3
+  shared: 4
+- slug: ipaas
+  name: iPaaS
+  shared: 4
+- slug: management
+  name: Management
+  shared: 2
 - slug: orchestration
   name: Orchestration
   shared: 3
-- slug: ipaas
-  name: iPaaS
-  shared: 3
-- slug: saas-management
-  name: SaaS Management
-  shared: 2
 overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ai-automation.apievangelist.com](https://ai-automation.apievangelist.com).
 
 
   30 providers on the network work in this area, including Postman, Amazon EC2 Image Builder, Appian, UiPath, AWS CloudFormation, Boomi, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Workflow Automation, Embedded iPaaS, Integrations, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Workflow Automation, Embedded iPaaS, Integrations, and iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

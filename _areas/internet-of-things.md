@@ -15,12 +15,26 @@ providers:
   score_band: exemplar
   score_composite: 70.9
   shared: 1
+- slug: tago-io
+  name: TagoIO
+  description: TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.1
+  shared: 1
 - slug: adafruit-io
   name: Adafruit IO
   description: Adafruit IO is a cloud Internet of Things platform from Adafruit Industries built for makers, hobbyists, students, and STEM educators. It provides feed-based time-series storage, drag-and-drop dashboards with 20+ visualization block types, actions/triggers for SMS/voice/email/webhook notifications,…
   api_count: 3
   score_band: strong
   score_composite: 64.7
+  shared: 1
+- slug: emnify
+  name: emnify
+  description: emnify is a cloud-native global IoT cellular connectivity provider operating its own mobile core and SuperNetwork across 540+ MNOs in 190+ countries. emnify supplies SIMs, eUICC-enabled multi-form-factor cards, and Consumer/Advanced eSIM (SGP.32) profiles to enterprise IoT deployments — fleet track…
+  api_count: 4
+  score_band: strong
+  score_composite: 63.2
   shared: 1
 - slug: thingspeak
   name: ThingSpeak
@@ -29,40 +43,33 @@ providers:
   score_band: strong
   score_composite: 62.7
   shared: 1
-- slug: emnify
-  name: emnify
-  description: emnify is a cloud-native global IoT cellular connectivity provider operating its own mobile core and SuperNetwork across 540+ MNOs in 190+ countries. emnify supplies SIMs, eUICC-enabled multi-form-factor cards, and Consumer/Advanced eSIM (SGP.32) profiles to enterprise IoT deployments — fleet track…
-  api_count: 4
-  score_band: developing
-  score_composite: 57.5
-  shared: 1
-- slug: tago-io
-  name: TagoIO
-  description: TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO…
-  api_count: 1
-  score_band: developing
-  score_composite: 56.3
-  shared: 1
 - slug: losant
   name: Losant
   description: Losant is an Enterprise IoT Platform that lets product teams build connected experiences, manage fleets of devices, orchestrate edge and embedded compute, and visualize and act on IoT data. The platform exposes a comprehensive REST API (the Platform API) covering applications, devices, data tables,…
   api_count: 9
-  score_band: developing
-  score_composite: 55.5
-  shared: 1
-- slug: the-things-network
-  name: The Things Network / The Things Stack
-  description: The Things Network (TTN) is a free, community-operated global LoRaWAN network with over 280,000 members and 21,000 gateways across 153 countries. It runs on The Things Stack, the open-source (Apache-2.0) LoRaWAN Network Server developed and maintained by The Things Industries. The Things Stack v3 i…
-  api_count: 9
-  score_band: developing
-  score_composite: 53.5
+  score_band: strong
+  score_composite: 61.2
   shared: 1
 - slug: thingsboard
   name: ThingsBoard
   description: ThingsBoard is an open-source IoT platform for device connectivity, data collection, processing, and visualization. Licensed under Apache 2.0 and developed by ThingsBoard Inc., it supports multi-tenant device management, telemetry over MQTT/HTTP/CoAP/LwM2M/SNMP, a drag-and-drop rule engine, calcula…
   api_count: 15
   score_band: developing
-  score_composite: 52.5
+  score_composite: 58.2
+  shared: 1
+- slug: the-things-network
+  name: The Things Network / The Things Stack
+  description: The Things Network (TTN) is a free, community-operated global LoRaWAN network with over 280,000 members and 21,000 gateways across 153 countries. It runs on The Things Stack, the open-source (Apache-2.0) LoRaWAN Network Server developed and maintained by The Things Industries. The Things Stack v3 i…
+  api_count: 9
+  score_band: developing
+  score_composite: 56.0
+  shared: 1
+- slug: itron
+  name: Itron
+  description: 'Itron, Inc. (NASDAQ: ITRI) is a Liberty Lake, Washington–based industrial technology company providing smart-meter, grid-edge, and IoT infrastructure to electric, gas, and water utilities and cities. Itron''s self-described mission is "Creating a more resourceful world" and the company reports 7,700…'
+  api_count: 8
+  score_band: developing
+  score_composite: 51.9
   shared: 1
 - slug: particle
   name: Particle
@@ -70,13 +77,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.3
-  shared: 1
-- slug: itron
-  name: Itron
-  description: 'Itron, Inc. (NASDAQ: ITRI) is a Liberty Lake, Washington–based industrial technology company providing smart-meter, grid-edge, and IoT infrastructure to electric, gas, and water utilities and cities. Itron''s self-described mission is "Creating a more resourceful world" and the company reports 7,700…'
-  api_count: 8
-  score_band: developing
-  score_composite: 47.1
   shared: 1
 - slug: lumen-technologies
   name: Lumen Technologies
@@ -170,7 +170,7 @@ related:
 overview: 'Internet of Things is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [internet-of-things.apievangelist.com](https://internet-of-things.apievangelist.com).
 
 
-  20 providers on the network work in this area, including Shodan, Adafruit IO, ThingSpeak, emnify, TagoIO, Losant, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  20 providers on the network work in this area, including Shodan, TagoIO, Adafruit IO, emnify, ThingSpeak, Losant, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Network, Embedded iPaaS, Analysis, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

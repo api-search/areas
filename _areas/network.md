@@ -36,19 +36,19 @@ providers:
   score_band: thin
   score_composite: 38.9
   shared: 1
+- slug: systemd
+  name: systemd
+  description: systemd is a suite of basic building blocks for a Linux system. It runs as PID 1 and is the system and service manager that bootstraps the rest of the userspace, supervises long-running services, and exposes a coordinated set of D-Bus and Varlink IPC interfaces for managing services (systemd1), use…
+  api_count: 16
+  score_band: thin
+  score_composite: 38.3
+  shared: 1
 - slug: orange
   name: Orange
   description: Orange Developer offers a portfolio of network, communication, identity, location, payment, IoT, and cloud APIs that allow developers to build new customer experiences powered by programmable networks and Orange's telecom infrastructure across Europe, the Middle East, and Africa.
   api_count: 13
   score_band: thin
   score_composite: 32.8
-  shared: 1
-- slug: systemd
-  name: systemd
-  description: systemd is a suite of basic building blocks for a Linux system. It runs as PID 1 and is the system and service manager that bootstraps the rest of the userspace, supervises long-running services, and exposes a coordinated set of D-Bus and Varlink IPC interfaces for managing services (systemd1), use…
-  api_count: 16
-  score_band: thin
-  score_composite: 32.6
   shared: 1
 - slug: zayo-group
   name: Zayo Group Holdings
@@ -107,7 +107,7 @@ related:
 overview: 'Network is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [network.apievangelist.com](https://network.apievangelist.com).
 
 
-  11 providers on the network work in this area, including Shodan, AT&T, Azure Load Balancer, Lumen Technologies, Orange, systemd, and 5 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  11 providers on the network work in this area, including Shodan, AT&T, Azure Load Balancer, Lumen Technologies, systemd, Orange, and 5 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Internet of Things, DNS, Caching, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'

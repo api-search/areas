@@ -22,6 +22,13 @@ providers:
   score_band: strong
   score_composite: 61.1
   shared: 1
+- slug: openrouter
+  name: OpenRouter
+  description: OpenRouter is an API platform that provides unified access to multiple AI language models through a single interface. OpenRouter acts as a "router" or gateway that lets developers and applications access dozens of different AI models from various providers through one standardized API, rather than…
+  api_count: 5
+  score_band: strong
+  score_composite: 60.6
+  shared: 1
 - slug: couchbase
   name: Couchbase
   description: Couchbase is a distributed, document-oriented NoSQL cloud database platform that combines the flexibility of JSON, the power of SQL++ querying, and the performance of an in-memory key-value store. The Couchbase product line includes Couchbase Server (self-managed), Couchbase Capella (fully managed…
@@ -29,12 +36,12 @@ providers:
   score_band: developing
   score_composite: 58.6
   shared: 1
-- slug: openrouter
-  name: OpenRouter
-  description: OpenRouter is an API platform that provides unified access to multiple AI language models through a single interface. OpenRouter acts as a "router" or gateway that lets developers and applications access dozens of different AI models from various providers through one standardized API, rather than…
-  api_count: 5
+- slug: osmapi
+  name: osmAPI
+  description: osmAPI is a unified AI gateway that routes requests to OpenAI, Anthropic, Google, and 14+ LLM providers through a single API. Drop-in compatible with the OpenAI SDK, it provides smart routing, streaming, function calling, web search, response healing, embeddings, audio, and realtime endpoints.
+  api_count: 4
   score_band: developing
-  score_composite: 51.8
+  score_composite: 51.2
   shared: 1
 - slug: requesty
   name: Requesty
@@ -57,12 +64,12 @@ providers:
   score_band: thin
   score_composite: 42.4
   shared: 1
-- slug: osmapi
-  name: osmAPI
-  description: osmAPI is a unified AI gateway that routes requests to OpenAI, Anthropic, Google, and 14+ LLM providers through a single API. Drop-in compatible with the OpenAI SDK, it provides smart routing, streaming, function calling, web search, response healing, embeddings, audio, and realtime endpoints.
+- slug: ipfs
+  name: IPFS
+  description: InterPlanetary File System (IPFS) is a peer-to-peer hypermedia protocol and distributed content-addressed storage system. The Kubo implementation exposes an HTTP RPC API (/api/v0/) for adding, pinning, and retrieving content-addressed files, managing DAG (Directed Acyclic Graph) nodes, key manageme…
   api_count: 4
   score_band: thin
-  score_composite: 42.3
+  score_composite: 41.3
   shared: 1
 - slug: mastercard-gateway-api
   name: Mastercard Gateway API
@@ -77,13 +84,6 @@ providers:
   api_count: 5
   score_band: thin
   score_composite: 38.6
-  shared: 1
-- slug: ipfs
-  name: IPFS
-  description: InterPlanetary File System (IPFS) is a peer-to-peer hypermedia protocol and distributed content-addressed storage system. The Kubo implementation exposes an HTTP RPC API (/api/v0/) for adding, pinning, and retrieving content-addressed files, managing DAG (Directed Acyclic Graph) nodes, key manageme…
-  api_count: 4
-  score_band: thin
-  score_composite: 32.5
   shared: 1
 - slug: pinata
   name: Pinata
@@ -102,7 +102,7 @@ related:
 overview: 'Gateway is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [gateway.apievangelist.com](https://gateway.apievangelist.com).
 
 
-  12 providers on the network work in this area, including Amazon Storage Gateway, Amazon API Gateway, Couchbase, OpenRouter, Requesty, Keywords AI, and 6 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  12 providers on the network work in this area, including Amazon Storage Gateway, Amazon API Gateway, OpenRouter, Couchbase, osmAPI, Requesty, and 6 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Database and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'

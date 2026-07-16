@@ -15,6 +15,27 @@ providers:
   score_band: strong
   score_composite: 65.3
   shared: 1
+- slug: kong
+  name: Kong
+  description: Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agen…
+  api_count: 10
+  score_band: developing
+  score_composite: 57.7
+  shared: 1
+- slug: tetrate
+  name: Tetrate
+  description: Tetrate is an enterprise service mesh company that provides Tetrate Service Bridge (TSB), a multi-cluster, multi-cloud service mesh management platform built on Istio and Envoy Proxy. Tetrate offers management APIs for traffic, security, and observability across distributed microservice environment…
+  api_count: 6
+  score_band: developing
+  score_composite: 54.1
+  shared: 1
+- slug: linkerd
+  name: Linkerd
+  description: Service mesh without the mess. Linkerd adds security, observability, and reliability to any Kubernetes cluster without the complexity of bloat of other meshes.
+  api_count: 5
+  score_band: developing
+  score_composite: 54.0
+  shared: 1
 - slug: consul
   name: HashiCorp Consul
   description: HashiCorp Consul is a distributed, highly available service-networking control plane that automates network configuration, discovers services, enables secure service-to-service communication, and exposes a strongly consistent key/value store. The Consul HTTP API is a REST + JSON service exposed by…
@@ -22,12 +43,12 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
-- slug: kong
-  name: Kong
-  description: Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agen…
-  api_count: 10
+- slug: istio
+  name: Istio
+  description: Istio is an open-source service mesh platform that provides a comprehensive solution for managing, securing, and monitoring microservices in a distributed system. It acts as a middle layer between services, handling communication, routing, and load balancing, as well as providing visibility into th…
+  api_count: 6
   score_band: developing
-  score_composite: 52.9
+  score_composite: 51.5
   shared: 1
 - slug: apache-dubbo
   name: Apache Dubbo
@@ -36,6 +57,13 @@ providers:
   score_band: developing
   score_composite: 50.9
   shared: 1
+- slug: envoy
+  name: Envoy
+  description: Envoy is a high-performance, open-source edge and service proxy designed for cloud-native applications and microservice architectures. It provides advanced load balancing, observability, and traffic management features, and serves as the data plane for many service mesh implementations including Is…
+  api_count: 5
+  score_band: developing
+  score_composite: 50.1
+  shared: 1
 - slug: consul-connect
   name: Consul Connect
   description: Consul Connect is the service mesh subsystem of HashiCorp Consul. Connect provides service identity, mTLS, traffic authorization via intentions, and L7 traffic management through Envoy sidecar proxies. Consul Connect ships with a built-in certificate authority that can also be backed by Vault or ex…
@@ -43,12 +71,26 @@ providers:
   score_band: developing
   score_composite: 50.0
   shared: 1
-- slug: tetrate
-  name: Tetrate
-  description: Tetrate is an enterprise service mesh company that provides Tetrate Service Bridge (TSB), a multi-cluster, multi-cloud service mesh management platform built on Istio and Envoy Proxy. Tetrate offers management APIs for traffic, security, and observability across distributed microservice environment…
-  api_count: 6
+- slug: vmware-tanzu
+  name: VMware Tanzu
+  description: VMware Tanzu (now part of Broadcom) is a portfolio of products for modernizing applications and infrastructure with a common approach to building, running, and managing Kubernetes across multi-cloud environments. Key APIs include the Tanzu Service Mesh REST API for cluster and global namespace mana…
+  api_count: 2
   score_band: developing
-  score_composite: 49.4
+  score_composite: 49.9
+  shared: 1
+- slug: solo
+  name: Solo.io
+  description: Solo.io provides enterprise infrastructure for cloud-native and AI-native environments, including API gateways, service mesh, and agentic AI infrastructure built on Envoy, Istio, and Kubernetes. Products include kgateway (API gateway), Istio-based service mesh, agentgateway (AI gateway), kagent (AI…
+  api_count: 4
+  score_band: developing
+  score_composite: 49.3
+  shared: 1
+- slug: google-anthos
+  name: Google Anthos
+  description: Google Anthos is a managed application platform that extends Google Cloud services and engineering practices to hybrid and multi-cloud environments. Built on Kubernetes, Anthos enables consistent development and operations across on-premises data centers, Google Cloud, and other public clouds like…
+  api_count: 2
+  score_band: developing
+  score_composite: 49.2
   shared: 1
 - slug: amazon-vpc-lattice
   name: Amazon VPC Lattice
@@ -57,6 +99,13 @@ providers:
   score_band: developing
   score_composite: 48.9
   shared: 1
+- slug: kuma
+  name: Kuma
+  description: Kuma is a platform-agnostic open-source service mesh built on top of Envoy proxy. It provides universal connectivity, security, and observability for services and microservices running on any infrastructure including Kubernetes and VMs.
+  api_count: 3
+  score_band: developing
+  score_composite: 48.8
+  shared: 1
 - slug: amazon-app-mesh
   name: Amazon App Mesh
   description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
@@ -64,12 +113,12 @@ providers:
   score_band: developing
   score_composite: 48.2
   shared: 1
-- slug: linkerd
-  name: Linkerd
-  description: Service mesh without the mess. Linkerd adds security, observability, and reliability to any Kubernetes cluster without the complexity of bloat of other meshes.
-  api_count: 5
+- slug: scalable-services
+  name: Scalable Services
+  description: A curated topic collection covering APIs, patterns, tools, and best practices for designing and operating scalable services. This includes cloud-native microservices, API gateways, load balancers, container orchestration, serverless platforms, service meshes, and the architectural patterns that ena…
+  api_count: 8
   score_band: developing
-  score_composite: 45.1
+  score_composite: 46.3
   shared: 1
 - slug: google-cloud-service-mesh
   name: Google Cloud Service Mesh
@@ -78,61 +127,19 @@ providers:
   score_band: thin
   score_composite: 44.7
   shared: 1
-- slug: vmware-tanzu
-  name: VMware Tanzu
-  description: VMware Tanzu (now part of Broadcom) is a portfolio of products for modernizing applications and infrastructure with a common approach to building, running, and managing Kubernetes across multi-cloud environments. Key APIs include the Tanzu Service Mesh REST API for cluster and global namespace mana…
-  api_count: 2
-  score_band: thin
-  score_composite: 44.2
-  shared: 1
-- slug: istio
-  name: Istio
-  description: Istio is an open-source service mesh platform that provides a comprehensive solution for managing, securing, and monitoring microservices in a distributed system. It acts as a middle layer between services, handling communication, routing, and load balancing, as well as providing visibility into th…
-  api_count: 6
-  score_band: thin
-  score_composite: 42.7
-  shared: 1
-- slug: envoy
-  name: Envoy
-  description: Envoy is a high-performance, open-source edge and service proxy designed for cloud-native applications and microservice architectures. It provides advanced load balancing, observability, and traffic management features, and serves as the data plane for many service mesh implementations including Is…
-  api_count: 5
-  score_band: thin
-  score_composite: 41.2
-  shared: 1
-- slug: solo
-  name: Solo.io
-  description: Solo.io provides enterprise infrastructure for cloud-native and AI-native environments, including API gateways, service mesh, and agentic AI infrastructure built on Envoy, Istio, and Kubernetes. Products include kgateway (API gateway), Istio-based service mesh, agentgateway (AI gateway), kagent (AI…
-  api_count: 4
-  score_band: thin
-  score_composite: 40.5
-  shared: 1
-- slug: google-anthos
-  name: Google Anthos
-  description: Google Anthos is a managed application platform that extends Google Cloud services and engineering practices to hybrid and multi-cloud environments. Built on Kubernetes, Anthos enables consistent development and operations across on-premises data centers, Google Cloud, and other public clouds like…
-  api_count: 2
-  score_band: thin
-  score_composite: 40.4
-  shared: 1
-- slug: kuma
-  name: Kuma
-  description: Kuma is a platform-agnostic open-source service mesh built on top of Envoy proxy. It provides universal connectivity, security, and observability for services and microservices running on any infrastructure including Kubernetes and VMs.
-  api_count: 3
-  score_band: thin
-  score_composite: 40.0
-  shared: 1
-- slug: scalable-services
-  name: Scalable Services
-  description: A curated topic collection covering APIs, patterns, tools, and best practices for designing and operating scalable services. This includes cloud-native microservices, API gateways, load balancers, container orchestration, serverless platforms, service meshes, and the architectural patterns that ena…
+- slug: scalable-architecture
+  name: Scalable Architecture
+  description: A subject-matter collection covering APIs, patterns, tools, and frameworks for building scalable system architecture. This topic encompasses microservices design, service mesh, event-driven architecture, CQRS, saga patterns, container orchestration, caching, message queuing, and observability patte…
   api_count: 8
   score_band: thin
-  score_composite: 37.5
+  score_composite: 44.2
   shared: 1
 - slug: traefik-mesh
   name: Traefik Mesh
   description: Traefik Mesh (formerly Maesh) is a lightweight, non-invasive service mesh built on top of Traefik Proxy for Kubernetes. It provides automatic traffic management, observability, and security for microservices without requiring sidecar containers. Traefik Mesh is compliant with the Service Mesh Inter…
   api_count: 1
   score_band: thin
-  score_composite: 36.0
+  score_composite: 41.7
   shared: 1
 - slug: gloo
   name: Gloo
@@ -140,13 +147,6 @@ providers:
   api_count: 4
   score_band: thin
   score_composite: 35.9
-  shared: 1
-- slug: scalable-architecture
-  name: Scalable Architecture
-  description: A subject-matter collection covering APIs, patterns, tools, and frameworks for building scalable system architecture. This topic encompasses microservices design, service mesh, event-driven architecture, CQRS, saga patterns, container orchestration, caching, message queuing, and observability patte…
-  api_count: 8
-  score_band: thin
-  score_composite: 35.4
   shared: 1
 - slug: gloo-mesh
   name: Gloo Mesh
@@ -168,6 +168,13 @@ providers:
   api_count: 3
   score_band: minimal
   score_composite: 29.9
+  shared: 1
+- slug: service-mesh-interface
+  name: Service Mesh Interface (SMI)
+  description: 'Service Mesh Interface (SMI) was a CNCF Sandbox specification that defined a standard, vendor-neutral set of Kubernetes Custom Resource Definitions (CRDs) for the most common service mesh capabilities: traffic policy, traffic telemetry, and traffic management. SMI''s stated mission was "a standard i…'
+  api_count: 4
+  score_band: minimal
+  score_composite: 29.7
   shared: 1
 - slug: tekion
   name: Tekion
@@ -211,27 +218,20 @@ providers:
   score_band: minimal
   score_composite: 23.4
   shared: 1
-- slug: merbridge
-  name: Merbridge
-  description: Merbridge is an open source, eBPF-based service mesh acceleration tool that replaces iptables rules with eBPF traffic interception and uses msg_redirect to shorten the datapath between sidecars and services. It is a CNCF Sandbox project and supports Istio, Linkerd2, and Kuma.
-  api_count: 1
-  score_band: minimal
-  score_composite: 22.9
-  shared: 1
 related:
 - slug: microservices
   name: Microservices
-  shared: 4
+  shared: 5
 - slug: performance
   name: Performance
-  shared: 2
+  shared: 1
 - slug: proxy
   name: Proxy
   shared: 1
 overview: 'Service Mesh is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [service-mesh.apievangelist.com](https://service-mesh.apievangelist.com).
 
 
-  30 providers on the network work in this area, including AWS App Mesh, HashiCorp Consul, Kong, Apache Dubbo, Consul Connect, Tetrate, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including AWS App Mesh, Kong, Tetrate, Linkerd, HashiCorp Consul, Istio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Microservices, Performance, and Proxy. Browse every area at [areas.apis.io](https://apis.io/areas/).'

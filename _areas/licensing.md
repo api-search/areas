@@ -13,14 +13,14 @@ providers:
   description: Warner Music Group is one of the major record labels in the music industry, with recorded music and music publishing operations spanning a roster of artists, songwriters, and labels around the world. WMG includes Warner Records, Atlantic Records, Elektra Records, and Warner Chappell Music (one of t…
   api_count: 1
   score_band: developing
-  score_composite: 45.9
+  score_composite: 50.6
   shared: 1
 - slug: shutterstock
   name: Shutterstock
   description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
   api_count: 1
-  score_band: thin
-  score_composite: 40.7
+  score_band: developing
+  score_composite: 45.4
   shared: 1
 - slug: soundstripe
   name: Soundstripe

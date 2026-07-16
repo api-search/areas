@@ -19,8 +19,8 @@ providers:
   name: TagoIO
   description: TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO…
   api_count: 1
-  score_band: developing
-  score_composite: 56.3
+  score_band: strong
+  score_composite: 65.1
   shared: 1
 - slug: dsg-sports-analytics
   name: DSG Sports Analytics

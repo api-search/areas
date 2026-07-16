@@ -50,6 +50,13 @@ providers:
   score_band: strong
   score_composite: 67.4
   shared: 1
+- slug: modal
+  name: Modal
+  description: Modal is a serverless cloud platform for AI and data workloads. Modal lets developers write ordinary Python and run it on remote GPUs and CPUs with sub-second cold starts, instant autoscaling, and declarative container images. The platform's primitives — Functions, Sandboxes, Volumes, Images, Secre…
+  api_count: 9
+  score_band: strong
+  score_composite: 67.3
+  shared: 1
 - slug: amazon-eventbridge-pipes
   name: Amazon EventBridge Pipes
   description: Amazon EventBridge Pipes helps you create point-to-point integrations between event producers and consumers with optional transform, filter, and enrich steps. It reduces the amount of integration code you need to write and maintain when building event-driven applications.
@@ -92,6 +99,13 @@ providers:
   score_band: strong
   score_composite: 63.9
   shared: 1
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 56
+  score_band: strong
+  score_composite: 63.6
+  shared: 1
 - slug: amazon-eventbridge
   name: Amazon EventBridge
   description: Amazon EventBridge is a serverless event bus service that makes it easy to connect your applications with data from a variety of sources. EventBridge delivers a stream of real-time data from your own applications, SaaS applications, and AWS services and routes that data to targets such as Lambda, S…
@@ -120,19 +134,19 @@ providers:
   score_band: strong
   score_composite: 62.0
   shared: 1
+- slug: freestyle-sh
+  name: Freestyle
+  description: Freestyle is the infrastructure for code you didn't write — VMs and Git for AI agents. The platform provides Linux microVMs that boot in under 600ms with live-fork, pause-resume, and persistent snapshots; a multi-tenant Git service with branchable filesystems, GitHub Sync, full-text search, and web…
+  api_count: 8
+  score_band: strong
+  score_composite: 61.8
+  shared: 1
 - slug: netlify
   name: Netlify
   description: Netlify is a cloud platform for building, deploying, and scaling modern web applications with continuous deployment, serverless functions, and edge computing capabilities.
   api_count: 1
   score_band: strong
   score_composite: 61.8
-  shared: 1
-- slug: modal
-  name: Modal
-  description: Modal is a serverless cloud platform for AI and data workloads. Modal lets developers write ordinary Python and run it on remote GPUs and CPUs with sub-second cold starts, instant autoscaling, and declarative container images. The platform's primitives — Functions, Sandboxes, Volumes, Images, Secre…
-  api_count: 9
-  score_band: strong
-  score_composite: 61.7
   shared: 1
 - slug: azure-container-apps
   name: Azure Container Apps
@@ -169,6 +183,13 @@ providers:
   score_band: developing
   score_composite: 59.7
   shared: 1
+- slug: google-cloud-app-engine
+  name: Google Cloud App Engine
+  description: Google Cloud App Engine is a fully managed, serverless platform for developing and hosting web applications at scale. It supports popular programming languages and provides built-in services and APIs such as NoSQL datastores, memcache, and a user authentication API, allowing developers to focus on…
+  api_count: 1
+  score_band: developing
+  score_composite: 59.7
+  shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
@@ -183,6 +204,13 @@ providers:
   score_band: developing
   score_composite: 59.3
   shared: 1
+- slug: google-cloud-functions
+  name: Google Cloud Functions
+  description: Google Cloud Functions is a lightweight, event-driven, serverless compute platform that allows you to create small, single-purpose functions that respond to cloud events without the need to manage a server or runtime environment.
+  api_count: 1
+  score_band: developing
+  score_composite: 59.3
+  shared: 1
 - slug: neon
   name: Neon
   description: Neon is a serverless Postgres platform that provides fully managed, scalable PostgreSQL databases optimized for modern cloud and edge application development. Their developer platform offers management APIs, data APIs, authentication services, and serverless drivers for building and automating data…
@@ -190,46 +218,15 @@ providers:
   score_band: developing
   score_composite: 59.3
   shared: 1
-- slug: azure-function-apps
-  name: Azure Function Apps
-  description: Azure Functions is a serverless compute service that lets you run event-triggered code without having to explicitly provision or manage infrastructure, with APIs for managing function apps, deployments, and runtime operations.
-  api_count: 1
-  score_band: developing
-  score_composite: 58.9
-  shared: 1
-- slug: aws-step-functions
-  name: AWS Step Functions
-  description: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error handling and retries.
-  api_count: 1
-  score_band: developing
-  score_composite: 57.6
-  shared: 1
-- slug: codehooks
-  name: Codehooks
-  description: Codehooks is a JavaScript-native serverless backend platform that bundles a NoSQL document database, key-value store, persistent queues with workers, CRON jobs, blob storage, frontend hosting, and an automatic CRUD REST API in a single CLI-deployable runtime. Developers write small Node.js handler…
-  api_count: 2
-  score_band: developing
-  score_composite: 57.2
-  shared: 1
-- slug: cloudflare-queues
-  name: Cloudflare Queues
-  description: Cloudflare Queues is a flexible, scalable message queue service built into the Cloudflare Workers ecosystem. It provides guaranteed message delivery with a REST API for creating and managing queues, sending individual or batched messages, configuring push-based Worker consumers and HTTP pull consum…
-  api_count: 1
-  score_band: developing
-  score_composite: 55.9
-  shared: 1
 related:
 - slug: containers
   name: Containers
-  shared: 4
+  shared: 5
 - slug: database
   name: Database
-  shared: 3
+  shared: 2
 - slug: microservices
   name: Microservices
-  shared: 2
-- slug: orchestration
-  name: Orchestration
   shared: 2
 - slug: security
   name: Security
@@ -237,11 +234,14 @@ related:
 - slug: gateway
   name: Gateway
   shared: 1
+- slug: dns
+  name: DNS
+  shared: 1
 overview: 'Serverless is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [serverless.apievangelist.com](https://serverless.apievangelist.com).
 
 
   30 providers on the network work in this area, including Amazon DynamoDB, Amazon API Gateway, Cloudflare, Amazon EFS, Amazon Lambda, Amazon Serverless Application Repository, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, Database, Microservices, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, Database, Microservices, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

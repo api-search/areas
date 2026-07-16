@@ -12,8 +12,8 @@ providers:
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 2
-  score_band: thin
-  score_composite: 43.3
+  score_band: developing
+  score_composite: 52.1
   shared: 1
 - slug: apollo-graphql
   name: Apollo GraphQL
@@ -22,33 +22,33 @@ providers:
   score_band: thin
   score_composite: 43.1
   shared: 1
-- slug: hoppscotch
-  name: Hoppscotch
-  description: Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT.
-  api_count: 1
-  score_band: thin
-  score_composite: 37.7
-  shared: 1
 - slug: wget
   name: Wget
   description: GNU Wget is a free, open-source command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS protocols. It supports recursive downloading, resuming aborted downloads, mirroring websites, proxy support, and can be run from scripts and cron jobs. Wget2 i…
   api_count: 2
   score_band: thin
-  score_composite: 33.8
+  score_composite: 42.6
   shared: 1
 - slug: rest-client
   name: REST Client
   description: REST Client is a Visual Studio Code extension developed by Huachao Mao that enables developers to send HTTP requests and view responses directly within the VS Code editor. It supports RFC 2616 HTTP request format using .http and .rest files, GraphQL queries, cURL commands, multiple authentication s…
   api_count: 1
   score_band: thin
-  score_composite: 32.0
+  score_composite: 40.9
   shared: 1
 - slug: requests
   name: Requests
   description: Requests is a simple and elegant HTTP library for Python, designed for human beings. Published under the Apache2 license by the Python Software Foundation (PSF), it is one of the most downloaded Python packages with approximately 300 million weekly downloads and over 4 million dependent repositorie…
   api_count: 1
   score_band: thin
-  score_composite: 31.3
+  score_composite: 40.1
+  shared: 1
+- slug: hoppscotch
+  name: Hoppscotch
+  description: Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT.
+  api_count: 1
+  score_band: thin
+  score_composite: 37.7
   shared: 1
 - slug: firecamp
   name: Firecamp
@@ -133,7 +133,7 @@ related:
 overview: 'Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [clients.apievangelist.com](https://clients.apievangelist.com).
 
 
-  16 providers on the network work in this area, including Insomnia, Apollo GraphQL, Hoppscotch, Wget, REST Client, Requests, and 10 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  16 providers on the network work in this area, including Insomnia, Apollo GraphQL, Wget, REST Client, Requests, Hoppscotch, and 10 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Clients, Command Line Interface, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

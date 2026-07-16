@@ -22,6 +22,13 @@ providers:
   score_band: developing
   score_composite: 53.8
   shared: 1
+- slug: zoho-cliq
+  name: Zoho Cliq
+  description: Zoho Cliq is a team messaging and collaboration platform with a REST API for managing channels, bots, slash commands, message webhooks, and team communications. The API follows RESTful architecture principles with resource-oriented URLs, JSON request and response bodies, and standard HTTP verbs. It…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.9
+  shared: 1
 - slug: telegram
   name: Telegram
   description: Telegram is a cloud-based instant messaging and voice-over-IP service that provides a comprehensive Bot API for developers to build bots, automate workflows, send notifications, and create interactive experiences on the Telegram platform. The platform supports text messages, media sharing, payments…
@@ -35,13 +42,6 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 43.0
-  shared: 1
-- slug: zoho-cliq
-  name: Zoho Cliq
-  description: Zoho Cliq is a team messaging and collaboration platform with a REST API for managing channels, bots, slash commands, message webhooks, and team communications. The API follows RESTful architecture principles with resource-oriented URLs, JSON request and response bodies, and standard HTTP verbs. It…
-  api_count: 1
-  score_band: thin
-  score_composite: 42.0
   shared: 1
 - slug: liveperson
   name: LivePerson
@@ -75,5 +75,5 @@ related: []
 overview: 'Bots is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [bots.apievangelist.com](https://bots.apievangelist.com).
 
 
-  9 providers on the network work in this area, including Slack, Lichess, Telegram, Microsoft Bot Framework, Zoho Cliq, LivePerson, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  9 providers on the network work in this area, including Slack, Lichess, Zoho Cliq, Telegram, Microsoft Bot Framework, LivePerson, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

@@ -57,6 +57,41 @@ providers:
   score_band: developing
   score_composite: 56.3
   shared: 1
+- slug: google-fonts
+  name: Google Fonts Developer
+  description: The Google Fonts Developer API provides programmatic access to the metadata for all font families served by Google Fonts. Developers can query for available font families, retrieve details about variants, subsets, and categories, access font file URLs, and work with variable font axis metadata. The…
+  api_count: 1
+  score_band: developing
+  score_composite: 54.3
+  shared: 1
+- slug: zeplin
+  name: Zeplin
+  description: Zeplin is a design-to-development handoff platform that bridges the gap between designers and developers by providing a structured workspace for accessing design specs, assets, style guides, components, and annotations. The Zeplin REST API enables programmatic access to all resources within Zeplin…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.1
+  shared: 1
+- slug: penpot
+  name: Penpot
+  description: Penpot is an open-source design and prototyping platform built for design and code collaboration, offering a self-hostable alternative to Figma. It provides a REST RPC API that enables developers to programmatically access and manage projects, files, pages, components, and design assets. Authentica…
+  api_count: 3
+  score_band: developing
+  score_composite: 49.2
+  shared: 1
+- slug: uml
+  name: UML
+  description: UML (Unified Modeling Language) is the standard modeling language for software architecture, system design, and technical documentation. Governed by the Object Management Group (OMG), UML defines a set of notation conventions and diagram types — class, sequence, activity, use case, state, component…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.8
+  shared: 1
+- slug: wireframes
+  name: Wireframes
+  description: Wireframes are low-fidelity visual representations of user interface layouts used in early design stages to establish structure, hierarchy, and functionality before high-fidelity design work begins. Major wireframing tools including Figma, Balsamiq, Axure, UXPin, Sketch, and Miro offer APIs and dev…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.8
+  shared: 1
 - slug: autocad
   name: AutoCAD
   description: APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities through Autodesk Platform Services (APS, formerly Forge) and desktop development environments including AutoLISP, ObjectARX, .NET, and JavaScript.
@@ -71,33 +106,12 @@ providers:
   score_band: developing
   score_composite: 45.8
   shared: 1
-- slug: google-fonts
-  name: Google Fonts Developer
-  description: The Google Fonts Developer API provides programmatic access to the metadata for all font families served by Google Fonts. Developers can query for available font families, retrieve details about variants, subsets, and categories, access font file URLs, and work with variable font axis metadata. The…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.4
-  shared: 1
-- slug: zeplin
-  name: Zeplin
-  description: Zeplin is a design-to-development handoff platform that bridges the gap between designers and developers by providing a structured workspace for accessing design specs, assets, style guides, components, and annotations. The Zeplin REST API enables programmatic access to all resources within Zeplin…
+- slug: the-color-api
+  name: The Color API
+  description: Pass in any valid color and get conversion into any other format, the name of the color, placeholder images and a multitude of schemes.
   api_count: 1
   score_band: thin
-  score_composite: 42.3
-  shared: 1
-- slug: uml
-  name: UML
-  description: UML (Unified Modeling Language) is the standard modeling language for software architecture, system design, and technical documentation. Governed by the Object Management Group (OMG), UML defines a set of notation conventions and diagram types — class, sequence, activity, use case, state, component…
-  api_count: 2
-  score_band: thin
-  score_composite: 41.1
-  shared: 1
-- slug: penpot
-  name: Penpot
-  description: Penpot is an open-source design and prototyping platform built for design and code collaboration, offering a self-hostable alternative to Figma. It provides a REST RPC API that enables developers to programmatically access and manage projects, files, pages, components, and design assets. Authentica…
-  api_count: 3
-  score_band: thin
-  score_composite: 40.3
+  score_composite: 40.0
   shared: 1
 - slug: abstract
   name: Abstract
@@ -106,26 +120,12 @@ providers:
   score_band: thin
   score_composite: 39.5
   shared: 1
-- slug: wireframes
-  name: Wireframes
-  description: Wireframes are low-fidelity visual representations of user interface layouts used in early design stages to establish structure, hierarchy, and functionality before high-fidelity design work begins. Major wireframing tools including Figma, Balsamiq, Axure, UXPin, Sketch, and Miro offer APIs and dev…
-  api_count: 2
-  score_band: thin
-  score_composite: 38.0
-  shared: 1
 - slug: domestika
   name: Domestika
   description: Domestika is an online creative education platform that connects over 8 million creative professionals and learners with high-quality courses across illustration, design, photography, marketing, and more. The platform provides a REST API at api.domestika.org that powers its web and mobile applicati…
   api_count: 1
   score_band: thin
   score_composite: 35.3
-  shared: 1
-- slug: the-color-api
-  name: The Color API
-  description: Pass in any valid color and get conversion into any other format, the name of the color, placeholder images and a multitude of schemes.
-  api_count: 1
-  score_band: thin
-  score_composite: 34.3
   shared: 1
 - slug: recraft
   name: Recraft
@@ -184,9 +184,6 @@ providers:
   score_composite: 13.0
   shared: 1
 related:
-- slug: ai-automation
-  name: AI Automation
-  shared: 1
 - slug: developer-experience
   name: Developer Experience
   shared: 1
@@ -199,5 +196,5 @@ overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://ap
   25 providers on the network work in this area, including Figma, Autodesk, Adobe Illustrator, Adobe Creative Cloud, Adobe Creative Suite, Apple Keynote, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: AI Automation, Developer Experience, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Developer Experience and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

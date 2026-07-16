@@ -8,6 +8,20 @@ area_host: webhooks.apievangelist.com
 icon: https://webhooks.apievangelist.com/icon-thumb.png
 provider_count: 165
 providers:
+- slug: svix
+  name: Svix
+  description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 73.5
+  shared: 1
+- slug: hookdeck
+  name: Hookdeck
+  description: Hookdeck is a Toronto-based webhook and event-infrastructure platform. The Hookdeck Event Gateway sits between webhook senders and your services to receive, verify, queue, retry, transform, filter, route, and observe events reliably at scale. Hookdeck exposes a fully versioned REST Admin API, a CLI…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 72.1
+  shared: 1
 - slug: vercel
   name: Vercel
   description: Vercel is a cloud platform that helps developers build, deploy, and scale modern web applications quickly and efficiently. It provides an optimized hosting environment for frontend frameworks like Next.js (which it created), as well as other React, Vue, Angular, and static site projects. Vercel aut…
@@ -21,13 +35,6 @@ providers:
   api_count: 23
   score_band: exemplar
   score_composite: 70.2
-  shared: 1
-- slug: svix
-  name: Svix
-  description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
-  api_count: 4
-  score_band: strong
-  score_composite: 68.8
   shared: 1
 - slug: composio
   name: Composio
@@ -50,12 +57,26 @@ providers:
   score_band: strong
   score_composite: 65.9
   shared: 1
+- slug: square
+  name: Square
+  description: Square provides APIs for payment processing, point of sale, and business management solutions enabling developers to build custom commerce applications.
+  api_count: 37
+  score_band: strong
+  score_composite: 65.8
+  shared: 1
 - slug: convoy
   name: Convoy
   description: Convoy is an open-source, cloud-native webhooks gateway used to securely ingest, persist, debug, deliver, and manage events. It positions itself as "the complete solution for secure, scalable, and reliable webhook delivery," covering both outbound (sending) and inbound (receiving) webhooks with ret…
   api_count: 1
   score_band: strong
   score_composite: 65.5
+  shared: 1
+- slug: vital-io
+  name: Vital
+  description: Vital (now operating as Junction, formerly tryVital) is a health-data API platform that gives digital-health, virtual-care, diagnostics, wellness, and EHR/EMR builders a single integration to wearable-device data and nationwide lab testing. Connect 300+ wearables and health devices — Apple HealthKi…
+  api_count: 8
+  score_band: strong
+  score_composite: 65.1
   shared: 1
 - slug: knock-app
   name: Knock
@@ -71,13 +92,6 @@ providers:
   score_band: strong
   score_composite: 64.2
   shared: 1
-- slug: square
-  name: Square
-  description: Square provides APIs for payment processing, point of sale, and business management solutions enabling developers to build custom commerce applications.
-  api_count: 37
-  score_band: strong
-  score_composite: 64.2
-  shared: 1
 - slug: onfleet
   name: Onfleet
   description: Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kro…
@@ -85,12 +99,26 @@ providers:
   score_band: strong
   score_composite: 64.0
   shared: 1
-- slug: hookdeck
-  name: Hookdeck
-  description: Hookdeck is a Toronto-based webhook and event-infrastructure platform. The Hookdeck Event Gateway sits between webhook senders and your services to receive, verify, queue, retry, transform, filter, route, and observe events reliably at scale. Hookdeck exposes a fully versioned REST Admin API, a CLI…
-  api_count: 12
+- slug: paypal
+  name: PayPal
+  description: PayPal is a global online payment system that lets individuals and businesses send and receive money electronically. PayPal exposes a broad surface of REST APIs covering payments, orders, subscriptions, invoicing, payouts, disputes, payment tokens, shipping tracking, transaction reporting, partner…
+  api_count: 13
   score_band: strong
-  score_composite: 63.2
+  score_composite: 63.8
+  shared: 1
+- slug: ironclad
+  name: Ironclad
+  description: Ironclad is the enterprise contract lifecycle management (CLM) platform used by legal, sales, procurement, and finance teams to draft, negotiate, approve, sign, store, and analyze contracts at scale. The platform combines a no-code Workflow Designer, AI-powered Jurist agentic assistant (contract re…
+  api_count: 4
+  score_band: strong
+  score_composite: 63.6
+  shared: 1
+- slug: mindbody
+  name: Mindbody
+  description: Mindbody is a business management and consumer marketplace platform for the fitness, beauty, and wellness industries, providing scheduling, point of sale, client management, marketing, and reporting tools for studios, gyms, salons, and spas. The Mindbody Public API (v6) provides REST endpoints for…
+  api_count: 2
+  score_band: strong
+  score_composite: 63.4
   shared: 1
 - slug: wufoo:wufoo
   name: Wufoo
@@ -127,12 +155,12 @@ providers:
   score_band: strong
   score_composite: 62.0
   shared: 1
-- slug: ironclad
-  name: Ironclad
-  description: Ironclad is the enterprise contract lifecycle management (CLM) platform used by legal, sales, procurement, and finance teams to draft, negotiate, approve, sign, store, and analyze contracts at scale. The platform combines a no-code Workflow Designer, AI-powered Jurist agentic assistant (contract re…
-  api_count: 4
+- slug: tamara
+  name: Tamara
+  description: Tamara is the Saudi Arabia–headquartered MENA shopping and Buy-Now-Pay-Later platform offering Shariah-compliant split-payment and Pay-Now solutions across Saudi Arabia, the United Arab Emirates, Kuwait, Bahrain, and Oman. Founded in 2020 and licensed by SAMA (Saudi Central Bank), Tamara provides m…
+  api_count: 8
   score_band: strong
-  score_composite: 62.0
+  score_composite: 61.7
   shared: 1
 - slug: albato-a-single-no-code-platform-for-all-automations
   name: Albato A Single No Code Platform For All Automations
@@ -141,26 +169,12 @@ providers:
   score_band: strong
   score_composite: 61.3
   shared: 1
-- slug: tamara
-  name: Tamara
-  description: Tamara is the Saudi Arabia–headquartered MENA shopping and Buy-Now-Pay-Later platform offering Shariah-compliant split-payment and Pay-Now solutions across Saudi Arabia, the United Arab Emirates, Kuwait, Bahrain, and Oman. Founded in 2020 and licensed by SAMA (Saudi Central Bank), Tamara provides m…
-  api_count: 8
-  score_band: strong
-  score_composite: 60.7
-  shared: 1
-- slug: vital-io
-  name: Vital
-  description: Vital (now operating as Junction, formerly tryVital) is a health-data API platform that gives digital-health, virtual-care, diagnostics, wellness, and EHR/EMR builders a single integration to wearable-device data and nationwide lab testing. Connect 300+ wearables and health devices — Apple HealthKi…
-  api_count: 8
-  score_band: strong
-  score_composite: 60.4
-  shared: 1
-- slug: mindbody
-  name: Mindbody
-  description: Mindbody is a business management and consumer marketplace platform for the fitness, beauty, and wellness industries, providing scheduling, point of sale, client management, marketing, and reporting tools for studios, gyms, salons, and spas. The Mindbody Public API (v6) provides REST endpoints for…
+- slug: thinkific
+  name: Thinkific
+  description: Thinkific is an online course creation and delivery platform that enables creators and businesses to build, market, and sell courses, communities, and digital products. The Thinkific Admin REST API provides programmatic access to site data including courses, enrollments, users, products, orders, bu…
   api_count: 2
   score_band: strong
-  score_composite: 60.2
+  score_composite: 60.6
   shared: 1
 - slug: cdk-global
   name: CDK Global
@@ -169,6 +183,20 @@ providers:
   score_band: developing
   score_composite: 59.8
   shared: 1
+- slug: tidio
+  name: Tidio
+  description: Tidio is a customer service platform used by over 300,000 businesses that combines live chat, AI-powered chatbots (Lyro AI), and email ticketing into a unified support workspace. The platform exposes a REST OpenAPI for managing contacts, conversations, and tickets, a Webhooks system for real-time e…
+  api_count: 3
+  score_band: developing
+  score_composite: 59.7
+  shared: 1
+- slug: flipdish
+  name: Flipdish
+  description: Flipdish is an online ordering and branded-app platform that gives restaurants and takeaways their own websites, mobile apps, kiosks, and order-management tools to take direct, commission-friendly orders. For developers and integration partners, Flipdish exposes a REST API (Flipdish Open API v1.0,…
+  api_count: 10
+  score_band: developing
+  score_composite: 59.6
+  shared: 1
 - slug: filevine
   name: Filevine
   description: Filevine is the leading legal case management and operating intelligence platform for plaintiff, personal-injury, mass-tort, family, immigration, criminal-defense, estate-planning, and government legal teams. The platform combines a customizable matter / project system with intake (Lead Docket), do…
@@ -176,60 +204,32 @@ providers:
   score_band: developing
   score_composite: 59.5
   shared: 1
-- slug: thanx
-  name: Thanx
-  description: Thanx is a customer engagement, loyalty, and marketing automation platform for restaurants and other offline businesses, built to acquire, engage, and retain best customers and grow customer lifetime value. The platform combines data infrastructure, lifecycle marketing, loyalty and CRM, and digital…
-  api_count: 3
-  score_band: developing
-  score_composite: 57.9
-  shared: 1
-- slug: codehooks
-  name: Codehooks
-  description: Codehooks is a JavaScript-native serverless backend platform that bundles a NoSQL document database, key-value store, persistent queues with workers, CRON jobs, blob storage, frontend hosting, and an automatic CRUD REST API in a single CLI-deployable runtime. Developers write small Node.js handler…
-  api_count: 2
-  score_band: developing
-  score_composite: 57.2
-  shared: 1
-- slug: flipdish
-  name: Flipdish
-  description: Flipdish is an online ordering and branded-app platform that gives restaurants and takeaways their own websites, mobile apps, kiosks, and order-management tools to take direct, commission-friendly orders. For developers and integration partners, Flipdish exposes a REST API (Flipdish Open API v1.0,…
-  api_count: 10
-  score_band: developing
-  score_composite: 56.4
-  shared: 1
-- slug: punchh
-  name: Punchh
-  description: Punchh, now part of PAR Technology and offered under the PAR Engagement brand, is an enterprise loyalty, offers, and customer engagement platform for restaurants. It unifies guest data from online ordering, mobile apps, POS, and kiosks into a single view so brands can run personalized loyalty and m…
-  api_count: 4
-  score_band: developing
-  score_composite: 55.8
-  shared: 1
-- slug: ampersand
-  name: Ampersand
-  description: Ampersand is a developer-first platform for building native SaaS integrations. It provides an embeddable UI component and managed infrastructure that lets developers add product integrations quickly, handling OAuth, data sync, webhooks, and field mapping out of the box. The platform supports hundre…
+- slug: docuseal
+  name: DocuSeal
+  description: DocuSeal is an open-source document signing platform that provides a REST API for building electronic signature workflows into applications. The API supports creating and managing templates, sending signature requests via submissions, and tracking signing status through submitter endpoints. DocuSea…
   api_count: 1
   score_band: developing
-  score_composite: 55.7
+  score_composite: 59.0
   shared: 1
-- slug: phonely
-  name: Phonely
-  description: Phonely is an AI voice agent platform that answers business phone calls in real time with large-language-model-powered conversation, sub-400ms response latency, 1,000+ voices across 100+ languages, and fine-tuned industry models for healthcare, finance, real estate, and insurance. The platform expo…
-  api_count: 2
+- slug: deel
+  name: Deel
+  description: Deel is a global workforce platform combining payroll, Employer of Record (EOR), independent contractor management, HRIS, ATS, IT/device management, immigration, and background screenings across 150+ countries. The Deel Public API and SCIM API expose the full worker lifecycle — hire, onboard, pay,…
+  api_count: 8
   score_band: developing
-  score_composite: 55.0
+  score_composite: 58.7
   shared: 1
 related:
 - slug: integrations
   name: Integrations
-  shared: 4
+  shared: 3
 - slug: observability
   name: Observability
   shared: 3
-- slug: saas-management
-  name: SaaS Management
-  shared: 3
 - slug: embedded-ipaas
   name: Embedded iPaaS
+  shared: 2
+- slug: saas-management
+  name: SaaS Management
   shared: 2
 - slug: security
   name: Security
@@ -240,8 +240,8 @@ related:
 overview: 'Webhooks is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [webhooks.apievangelist.com](https://webhooks.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Vercel, Fastly, Svix, Composio, Buildkite, Storyblok, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Svix, Hookdeck, Vercel, Fastly, Composio, Buildkite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Integrations, Observability, SaaS Management, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Integrations, Observability, Embedded iPaaS, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

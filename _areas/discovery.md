@@ -15,12 +15,40 @@ providers:
   score_band: exemplar
   score_composite: 75.3
   shared: 1
+- slug: google-cloud-migration-center
+  name: Google Cloud Migration Center
+  description: Google Cloud Migration Center is a unified platform that helps accelerate end-to-end cloud migration journeys from on-premises or other cloud environments to Google Cloud. It provides discovery, assessment, and planning tools to help organizations understand their existing infrastructure and plan o…
+  api_count: 1
+  score_band: developing
+  score_composite: 59.9
+  shared: 1
+- slug: taboola
+  name: Taboola
+  description: 'Taboola (NASDAQ: TBLA) is a New-York-headquartered native and discovery advertising company founded in 2007 by Adam Singolda. Its Realize performance marketing platform serves recommendation widgets across major publishers (a 30-year exclusive partnership with Yahoo since 2022) and offers advertise…'
+  api_count: 7
+  score_band: developing
+  score_composite: 58.6
+  shared: 1
+- slug: tmdb
+  name: The Movie Database
+  description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
+  api_count: 1
+  score_band: developing
+  score_composite: 58.3
+  shared: 1
 - slug: amazon-resource-explorer
   name: Amazon Resource Explorer
   description: AWS Resource Explorer is a resource search and discovery service. With Resource Explorer, you can explore your resources across AWS Regions using an internet search-like experience. It provides a unified view of your AWS resources and helps you understand your resource inventory.
   api_count: 1
   score_band: developing
   score_composite: 57.1
+  shared: 1
+- slug: worldcat
+  name: WorldCat
+  description: OCLC WorldCat REST API for searching 500 million+ library holdings worldwide, accessing bibliographic records, finding library locations, and retrieving rich metadata for books, videos, music, and other media. Provides access to the WorldCat Search API, WorldCat Metadata API, WorldCat Knowledge Bas…
+  api_count: 4
+  score_band: developing
+  score_composite: 56.4
   shared: 1
 - slug: microsoft-azure-migrate
   name: Azure Migrate
@@ -29,40 +57,12 @@ providers:
   score_band: developing
   score_composite: 56.2
   shared: 1
-- slug: tmdb
-  name: The Movie Database
-  description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
-  api_count: 1
-  score_band: developing
-  score_composite: 55.1
-  shared: 1
-- slug: google-cloud-migration-center
-  name: Google Cloud Migration Center
-  description: Google Cloud Migration Center is a unified platform that helps accelerate end-to-end cloud migration journeys from on-premises or other cloud environments to Google Cloud. It provides discovery, assessment, and planning tools to help organizations understand their existing infrastructure and plan o…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.0
-  shared: 1
-- slug: taboola
-  name: Taboola
-  description: 'Taboola (NASDAQ: TBLA) is a New-York-headquartered native and discovery advertising company founded in 2007 by Adam Singolda. Its Realize performance marketing platform serves recommendation widgets across major publishers (a 30-year exclusive partnership with Yahoo since 2022) and offers advertise…'
-  api_count: 7
-  score_band: developing
-  score_composite: 49.7
-  shared: 1
-- slug: worldcat
-  name: WorldCat
-  description: OCLC WorldCat REST API for searching 500 million+ library holdings worldwide, accessing bibliographic records, finding library locations, and retrieving rich metadata for books, videos, music, and other media. Provides access to the WorldCat Search API, WorldCat Metadata API, WorldCat Knowledge Bas…
-  api_count: 4
-  score_band: developing
-  score_composite: 47.6
-  shared: 1
 - slug: productplan
   name: ProductPlan
   description: ProductPlan is a road mapping software platform providing a REST API for creating and managing roadmaps, features, goals, OKRs, launches, and discovery. It integrates with tools like Jira, GitHub, Slack, and Trello, enabling teams to plan, align, and share product strategies with stakeholders.
   api_count: 1
-  score_band: thin
-  score_composite: 40.4
+  score_band: developing
+  score_composite: 49.3
   shared: 1
 - slug: bored
   name: Bored API
@@ -158,6 +158,9 @@ related:
 - slug: search
   name: API Evangelist Search
   shared: 1
+- slug: integrations
+  name: Integrations
+  shared: 1
 - slug: testing
   name: Testing
   shared: 1
@@ -167,8 +170,8 @@ related:
 overview: 'API Evangelist Discovery is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [discovery.apievangelist.com](https://discovery.apievangelist.com).
 
 
-  20 providers on the network work in this area, including Postman, Amazon Resource Explorer, Azure Migrate, The Movie Database, Google Cloud Migration Center, Taboola, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  20 providers on the network work in this area, including Postman, Google Cloud Migration Center, Taboola, The Movie Database, Amazon Resource Explorer, WorldCat, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, AI Automation, API Evangelist Search, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, AI Automation, API Evangelist Search, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

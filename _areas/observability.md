@@ -8,6 +8,13 @@ area_host: observability.apievangelist.com
 icon: https://observability.apievangelist.com/icon-thumb.png
 provider_count: 156
 providers:
+- slug: logz-io
+  name: Logz.io
+  description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
+  api_count: 19
+  score_band: exemplar
+  score_composite: 77.1
+  shared: 1
 - slug: new-relic
   name: New Relic
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
@@ -21,6 +28,13 @@ providers:
   api_count: 3
   score_band: exemplar
   score_composite: 72.5
+  shared: 1
+- slug: hookdeck
+  name: Hookdeck
+  description: Hookdeck is a Toronto-based webhook and event-infrastructure platform. The Hookdeck Event Gateway sits between webhook senders and your services to receive, verify, queue, retry, transform, filter, route, and observe events reliably at scale. Hookdeck exposes a fully versioned REST Admin API, a CLI…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 72.1
   shared: 1
 - slug: vercel
   name: Vercel
@@ -36,12 +50,33 @@ providers:
   score_band: exemplar
   score_composite: 70.2
   shared: 1
-- slug: logz-io
-  name: Logz.io
-  description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
-  api_count: 19
+- slug: microsoft-azure-monitor
+  name: Azure Monitor
+  description: Azure Monitor helps you maximize the availability and performance of your applications and services. It delivers a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments.
+  api_count: 15
   score_band: strong
-  score_composite: 68.3
+  score_composite: 68.9
+  shared: 1
+- slug: raygun
+  name: Raygun
+  description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.ra…
+  api_count: 15
+  score_band: strong
+  score_composite: 68.9
+  shared: 1
+- slug: highlight-io
+  name: Highlight (highlight.io)
+  description: Highlight (highlight.io) is the open-source, full-stack monitoring platform — session replay, error monitoring, logging, distributed tracing, and metrics in a single tool. Built on OpenTelemetry, rrweb, and ClickHouse, Highlight correlates server-side spans and logs back to the originating browser…
+  api_count: 7
+  score_band: strong
+  score_composite: 68.0
+  shared: 1
+- slug: treblle
+  name: Treblle
+  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
+  api_count: 10
+  score_band: strong
+  score_composite: 68.0
   shared: 1
 - slug: amazon-managed-grafana
   name: Amazon Managed Grafana
@@ -50,12 +85,19 @@ providers:
   score_band: strong
   score_composite: 67.3
   shared: 1
-- slug: raygun
-  name: Raygun
-  description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.ra…
-  api_count: 15
+- slug: splunk
+  name: Splunk
+  description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.
+  api_count: 13
   score_band: strong
-  score_composite: 67.3
+  score_composite: 67.0
+  shared: 1
+- slug: sentry-system
+  name: Sentry
+  description: Sentry is an open-source error tracking and performance monitoring platform that helps developers identify, triage, and resolve issues in their applications in real-time.
+  api_count: 21
+  score_band: strong
+  score_composite: 65.9
   shared: 1
 - slug: amazon-managed-prometheus
   name: Amazon Managed Service for Prometheus
@@ -63,6 +105,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 64.9
+  shared: 1
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 56
+  score_band: strong
+  score_composite: 63.6
   shared: 1
 - slug: acceldata
   name: Acceldata
@@ -75,13 +124,6 @@ providers:
   name: CrewAI Cloud
   description: CrewAI Cloud (CrewAI AMP) is the managed Agent Management Platform for deploying, monitoring, scaling, and governing CrewAI multi-agent workflows in production. AMP exposes a per-crew REST API for kickoff, status, inputs, and human-in-the-loop resume operations, plus webhook streaming for task, ste…
   api_count: 3
-  score_band: strong
-  score_composite: 63.2
-  shared: 1
-- slug: hookdeck
-  name: Hookdeck
-  description: Hookdeck is a Toronto-based webhook and event-infrastructure platform. The Hookdeck Event Gateway sits between webhook senders and your services to receive, verify, queue, retry, transform, filter, route, and observe events reliably at scale. Hookdeck exposes a fully versioned REST Admin API, a CLI…
-  api_count: 12
   score_band: strong
   score_composite: 63.2
   shared: 1
@@ -106,26 +148,19 @@ providers:
   score_band: strong
   score_composite: 62.5
   shared: 1
-- slug: treblle
-  name: Treblle
-  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
-  api_count: 10
+- slug: sysdig
+  name: Sysdig
+  description: Sysdig is a cloud and container security platform that provides runtime threat detection, vulnerability management, cloud security posture management (CSPM), compliance automation, and observability for containers, Kubernetes, and cloud environments. Sysdig Monitor offers full-stack monitoring and…
+  api_count: 2
   score_band: strong
-  score_composite: 62.4
+  score_composite: 62.0
   shared: 1
-- slug: highlight-io
-  name: Highlight (highlight.io)
-  description: Highlight (highlight.io) is the open-source, full-stack monitoring platform — session replay, error monitoring, logging, distributed tracing, and metrics in a single tool. Built on OpenTelemetry, rrweb, and ClickHouse, Highlight correlates server-side spans and logs back to the originating browser…
-  api_count: 7
+- slug: honeycomb-io
+  name: Honeycomb
+  description: ''
+  api_count: 12
   score_band: strong
-  score_composite: 62.3
-  shared: 1
-- slug: splunk
-  name: Splunk
-  description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.
-  api_count: 13
-  score_band: strong
-  score_composite: 62.3
+  score_composite: 60.7
   shared: 1
 - slug: amazon-cloudwatch
   name: Amazon CloudWatch
@@ -134,114 +169,79 @@ providers:
   score_band: strong
   score_composite: 60.4
   shared: 1
-- slug: microsoft-azure-monitor
-  name: Azure Monitor
-  description: Azure Monitor helps you maximize the availability and performance of your applications and services. It delivers a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments.
-  api_count: 15
+- slug: solarwinds
+  name: SolarWinds
+  description: A collection of APIs provided by SolarWinds for IT infrastructure management, monitoring, and observability.
+  api_count: 13
+  score_band: strong
+  score_composite: 60.4
+  shared: 1
+- slug: grafana
+  name: Grafana
+  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.1
+  shared: 1
+- slug: mezmo
+  name: Mezmo
+  description: ''
+  api_count: 12
   score_band: strong
   score_composite: 60.0
   shared: 1
-- slug: aws-x-ray
-  name: AWS X-Ray
-  description: AWS X-Ray is a service that helps developers analyze and debug distributed applications by providing end-to-end tracing of requests as they travel through the application, identifying performance bottlenecks and errors. It is now part of Amazon CloudWatch Application Signals for unified observabili…
-  api_count: 1
-  score_band: developing
-  score_composite: 58.9
-  shared: 1
-- slug: apitoolkit
-  name: APIToolkit (Monoscope)
-  description: APIToolkit (now Monoscope) is an open-source-friendly API observability and monitoring platform that helps teams find and fix production issues before customers notice. It unifies logs, traces, metrics, errors, monitors, and session replay across 17+ framework SDKs and 780+ OpenTelemetry integratio…
-  api_count: 5
-  score_band: developing
-  score_composite: 58.4
-  shared: 1
-- slug: better-stack
-  name: Better Stack
-  description: Better Stack is a comprehensive infrastructure monitoring and observability platform that combines uptime monitoring, log management, incident management, status pages, and AI-powered site reliability tools. It helps teams identify and resolve website and server issues quickly by providing real-tim…
-  api_count: 1
-  score_band: developing
-  score_composite: 58.0
-  shared: 1
-- slug: cloudwatch
-  name: AWS CloudWatch
-  description: Amazon CloudWatch is a monitoring and observability service that provides data and actionable insights for AWS, hybrid, and on-premises applications and infrastructure resources.
-  api_count: 10
-  score_band: developing
-  score_composite: 57.4
-  shared: 1
-- slug: betteruptime
-  name: Better Uptime
-  description: Better Uptime (now part of Better Stack) is an uptime monitoring and incident management platform that helps engineering teams detect outages, manage on-call schedules, and communicate incidents through status pages. The platform provides a REST API following the JSON:API specification for programm…
-  api_count: 1
-  score_band: developing
-  score_composite: 57.4
-  shared: 1
-- slug: sysdig
-  name: Sysdig
-  description: Sysdig is a cloud and container security platform that provides runtime threat detection, vulnerability management, cloud security posture management (CSPM), compliance automation, and observability for containers, Kubernetes, and cloud environments. Sysdig Monitor offers full-stack monitoring and…
+- slug: netdata
+  name: Netdata
+  description: Netdata is a real-time infrastructure monitoring and observability platform that collects per-second metrics from physical servers, virtual machines, cloud deployments, Kubernetes clusters, and IoT devices. It provides a REST API for querying metrics, alerts, and configuration on individual nodes (…
   api_count: 2
   score_band: developing
-  score_composite: 57.3
+  score_composite: 59.6
   shared: 1
-- slug: instabug
-  name: Instabug (Luciq)
-  description: Instabug — now rebranded as Luciq — is an agentic mobile observability platform covering bug reporting, crash reporting, application performance monitoring, session replay, surveys, feature flags, rollout management, and AI agents (Detect, Resolve, Release). Public agent-facing surface is the Luciq…
-  api_count: 8
+- slug: waxell
+  name: Waxell
+  description: Waxell is an AI agent governance and observability platform that provides runtime policy enforcement, auto-instrumented LLM telemetry, MCP governance, cost management, and durable workflow execution for agents built in any Python framework or third-party agentic tool (Claude Code, Cursor, LangChain…
+  api_count: 2
   score_band: developing
-  score_composite: 57.2
+  score_composite: 59.6
   shared: 1
-- slug: sentry-system
-  name: Sentry
-  description: Sentry is an open-source error tracking and performance monitoring platform that helps developers identify, triage, and resolve issues in their applications in real-time.
-  api_count: 21
+- slug: encore-dev
+  name: Encore
+  description: Encore is a backend application framework and developer cloud that lets engineering teams build type-safe distributed systems in TypeScript (Encore.ts) and Go (Encore.go) using declarative Infrastructure from Code. Developers describe APIs, databases, Pub/Sub, object storage, caches, cron jobs, and…
+  api_count: 5
   score_band: developing
-  score_composite: 57.0
+  score_composite: 59.2
   shared: 1
-- slug: opentelemetry
-  name: OpenTelemetry
-  description: Vendor-neutral open-source observability framework for cloud-native software, providing a collection of tools, APIs, and SDKs for instrumenting, generating, collecting, and exporting telemetry data including metrics, logs, and traces.
-  api_count: 4
+- slug: jentic
+  name: Jentic
+  description: Jentic is an AI infrastructure company building the agentic knowledge layer for APIs. Founded in late 2024 and backed by $4.5M in pre-seed funding, Jentic enables enterprises to confidently manage, scale, and govern AI agent initiatives in a unified platform built on open standards. The platform pr…
+  api_count: 6
   score_band: developing
-  score_composite: 55.3
-  shared: 1
-- slug: appdynamics
-  name: AppDynamics
-  description: AppDynamics, now part of Cisco, is an application performance monitoring (APM) and observability platform that provides full-stack visibility into application, business, and infrastructure performance. The platform offers REST APIs for controller management, metrics, alerts, analytics events, datab…
-  api_count: 9
-  score_band: developing
-  score_composite: 55.2
-  shared: 1
-- slug: signoz
-  name: SigNoz
-  description: SigNoz is an open source observability platform with logs, traces, and metrics in a single pane, built natively on OpenTelemetry. It is a full-stack open-source APM and observability tool that serves as an open-source alternative to DataDog, NewRelic, and other proprietary monitoring solutions. Sig…
-  api_count: 1
-  score_band: developing
-  score_composite: 55.2
+  score_composite: 59.0
   shared: 1
 related:
 - slug: monitoring
   name: Monitoring
-  shared: 13
+  shared: 11
 - slug: logging
   name: Logging
-  shared: 5
+  shared: 4
 - slug: security
   name: Security
+  shared: 4
+- slug: containers
+  name: Containers
   shared: 3
 - slug: webhooks
   name: Webhooks
   shared: 3
-- slug: containers
-  name: Containers
-  shared: 2
-- slug: finops
-  name: FinOps
+- slug: visualization
+  name: Visualization
   shared: 2
 overview: 'Observability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [observability.apievangelist.com](https://observability.apievangelist.com).
 
 
-  30 providers on the network work in this area, including New Relic, Sentry, Vercel, Fastly, Logz.io, Amazon Managed Grafana, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Logz.io, New Relic, Sentry, Hookdeck, Vercel, Fastly, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Monitoring, Logging, Security, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Monitoring, Logging, Security, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

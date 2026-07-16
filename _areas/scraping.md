@@ -15,6 +15,13 @@ providers:
   score_band: developing
   score_composite: 57.7
   shared: 1
+- slug: konbiniapi
+  name: KonbiniAPI
+  description: KonbiniAPI is the social data layer for Instagram and TikTok, normalizing real-time public profile, post, video, comment, audio, location, and search data into a consistent ActivityStreams 2.0 (W3C) format. The service exposes one Bearer-authenticated REST API and an MCP (Model Context Protocol) in…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.5
+  shared: 1
 - slug: spider-cloud
   name: Spider
   description: Spider is a Rust-based, AI-friendly web scraping and crawling cloud. Point it at a URL and get back clean markdown, structured JSON, screenshots, or links — at up to 100K pages per second — with anti-bot bypass, residential proxies, headless browsers, and native MCP, LangChain, LlamaIndex, CrewAI,…
@@ -28,13 +35,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 45.6
-  shared: 1
-- slug: konbiniapi
-  name: KonbiniAPI
-  description: KonbiniAPI is the social data layer for Instagram and TikTok, normalizing real-time public profile, post, video, comment, audio, location, and search data into a consistent ActivityStreams 2.0 (W3C) format. The service exposes one Bearer-authenticated REST API and an MCP (Model Context Protocol) in…
-  api_count: 1
-  score_band: thin
-  score_composite: 44.8
   shared: 1
 - slug: frostbyte
   name: Frostbyte
@@ -151,7 +151,7 @@ related:
 overview: 'Scraping is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [scraping.apievangelist.com](https://scraping.apievangelist.com).
 
 
-  19 providers on the network work in this area, including Oxylabs, Spider, Firecrawl, KonbiniAPI, Frostbyte, Octoparse, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  19 providers on the network work in this area, including Oxylabs, KonbiniAPI, Spider, Firecrawl, Frostbyte, Octoparse, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Proxies and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

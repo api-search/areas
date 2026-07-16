@@ -6,8 +6,15 @@ description: An index and topic collection covering machine learning APIs, MLOps
 area_url: https://machine-learning.apievangelist.com
 area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
-provider_count: 216
+provider_count: 215
 providers:
+- slug: databricks
+  name: Databricks
+  description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
+  api_count: 57
+  score_band: exemplar
+  score_composite: 73.3
+  shared: 1
 - slug: amazon-sagemaker
   name: Amazon SageMaker
   description: Amazon SageMaker is a fully managed machine learning platform that enables developers and data scientists to build, train, and deploy machine learning models at scale. SageMaker removes the heavy lifting from each step of the machine learning process, providing built-in algorithms, managed Jupyter…
@@ -64,13 +71,6 @@ providers:
   score_band: strong
   score_composite: 67.7
   shared: 1
-- slug: databricks
-  name: Databricks
-  description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
-  api_count: 57
-  score_band: strong
-  score_composite: 67.6
-  shared: 1
 - slug: amazon-entity-resolution
   name: Amazon Entity Resolution
   description: Amazon Entity Resolution is a service that helps you match and link related records across multiple applications, channels, and data stores using machine learning and configurable matching techniques to identify and consolidate records that refer to the same entity.
@@ -84,6 +84,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 67.0
+  shared: 1
+- slug: teradata
+  name: Teradata
+  description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scale. Teradata offers REST APIs for managing QueryGrid data fab…
+  api_count: 2
+  score_band: strong
+  score_composite: 66.9
   shared: 1
 - slug: amazon-supply-chain
   name: Amazon Supply Chain
@@ -106,12 +113,12 @@ providers:
   score_band: strong
   score_composite: 65.7
   shared: 1
-- slug: azure-databricks
-  name: Azure Databricks
-  description: Azure Databricks is an Apache Spark-based analytics platform optimized for Microsoft Azure. It provides a collaborative workspace for data engineers, data scientists, and analysts to work together on big data and machine learning workloads.
-  api_count: 39
+- slug: zenml
+  name: ZenML
+  description: ZenML is an open-source MLOps and LLMOps framework that unifies machine learning and generative AI workflows through a single orchestration, versioning, and governance layer. It provides a Python SDK, CLI, REST API, and server for managing pipelines, stacks, artifacts, models, and deployments acros…
+  api_count: 2
   score_band: strong
-  score_composite: 65.1
+  score_composite: 65.2
   shared: 1
 - slug: coveo
   name: Coveo
@@ -127,12 +134,40 @@ providers:
   score_band: strong
   score_composite: 64.8
   shared: 1
-- slug: teradata
-  name: Teradata
-  description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scale. Teradata offers REST APIs for managing QueryGrid data fab…
-  api_count: 2
+- slug: dataiku
+  name: Dataiku
+  description: Dataiku is an advanced data science and machine learning platform that enables teams to build and deploy AI applications at scale.
+  api_count: 9
   score_band: strong
-  score_composite: 63.7
+  score_composite: 64.6
+  shared: 1
+- slug: viam
+  name: Viam
+  description: Viam is a robotics and edge AI platform founded in 2020 by Eliot Horowitz (MongoDB co-founder and former CTO). It pairs viam-server — a gRPC-based runtime that runs on Linux single-board computers (RDK) and ESP32-class microcontrollers (micro-rdk) — with viam.app, a multi-tenant cloud for fleet man…
+  api_count: 14
+  score_band: strong
+  score_composite: 64.2
+  shared: 1
+- slug: google-analytics
+  name: Google Analytics
+  description: Google Analytics provides data and insights about website and app usage, enabling businesses to understand their audience and optimize their digital properties through customer-centric measurement, machine learning insights, and cross-platform attribution.
+  api_count: 6
+  score_band: strong
+  score_composite: 64.1
+  shared: 1
+- slug: mathpix
+  name: Mathpix
+  description: ''
+  api_count: 7
+  score_band: strong
+  score_composite: 63.8
+  shared: 1
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 56
+  score_band: strong
+  score_composite: 63.6
   shared: 1
 - slug: amazon-forecast
   name: Amazon Forecast
@@ -147,6 +182,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 63.2
+  shared: 1
+- slug: paperspace
+  name: Paperspace
+  description: Paperspace is a GPU cloud platform for AI, ML, and 3D rendering workloads, acquired by DigitalOcean in 2023. The platform combines on-demand GPU/CPU machines (Core), the Gradient ML workflow stack (Notebooks, Datasets, Models, Workflows), and container-as-a-service Deployments under a single team-s…
+  api_count: 10
+  score_band: strong
+  score_composite: 63.1
   shared: 1
 - slug: amazon-glue-databrew
   name: Amazon Glue DataBrew
@@ -169,79 +211,37 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 1
-- slug: amazon-quicksight
-  name: Amazon QuickSight
-  description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
+- slug: databricks-asset-bundles
+  name: Databricks Asset Bundles
+  description: Databricks Asset Bundles (DABs) provide an infrastructure-as-code approach to managing Databricks data and AI projects. Bundles enable version control, CI/CD, deployment, and management of Databricks resources such as jobs, pipelines, apps, schemas, experiments, and model serving endpoints across w…
   api_count: 1
   score_band: strong
-  score_composite: 62.2
-  shared: 1
-- slug: amazon-redshift
-  name: Amazon Redshift
-  description: Amazon Redshift is a fast, fully managed cloud data warehouse that makes it simple and cost-effective to analyze all your data using standard SQL and your existing Business Intelligence (BI) tools.
-  api_count: 3
-  score_band: strong
-  score_composite: 62.0
-  shared: 1
-- slug: amazon-macie
-  name: Amazon Macie
-  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the discovery of sensitive data, such as personally identifiable…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.6
-  shared: 1
-- slug: amazon-personalize
-  name: Amazon Personalize
-  description: Amazon Personalize is a fully managed machine learning service that enables developers to create individualized recommendations for customers using their applications.
-  api_count: 1
-  score_band: strong
-  score_composite: 61.4
-  shared: 1
-- slug: amazon-transcribe
-  name: Amazon Transcribe
-  description: Amazon Transcribe is a speech-to-text service that uses machine learning models to convert audio to text, supporting real-time streaming and batch transcription with automatic speech recognition (ASR).
-  api_count: 1
-  score_band: strong
-  score_composite: 61.0
-  shared: 1
-- slug: google-analytics
-  name: Google Analytics
-  description: Google Analytics provides data and insights about website and app usage, enabling businesses to understand their audience and optimize their digital properties through customer-centric measurement, machine learning insights, and cross-platform attribution.
-  api_count: 6
-  score_band: strong
-  score_composite: 61.0
-  shared: 1
-- slug: amazon-bedrock
-  name: Amazon Bedrock
-  description: Amazon Bedrock is a fully managed AWS service that makes high-performing foundation models from leading AI companies available through a unified API for building generative AI applications. It supports text and image generation, conversational AI, model customization and fine-tuning, retrieval-augm…
-  api_count: 4
-  score_band: strong
-  score_composite: 60.9
+  score_composite: 62.4
   shared: 1
 related:
-- slug: agents
-  name: Agents
-  shared: 2
 - slug: security
   name: Security
+  shared: 3
+- slug: containers
+  name: Containers
   shared: 2
-- slug: visualization
-  name: Visualization
-  shared: 1
 - slug: search
   name: API Evangelist Search
+  shared: 1
+- slug: agents
+  name: Agents
   shared: 1
 - slug: database
   name: Database
   shared: 1
-- slug: monitoring
-  name: Monitoring
+- slug: deployment
+  name: Deployment
   shared: 1
 overview: 'Machine Learning is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [machine-learning.apievangelist.com](https://machine-learning.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon SageMaker, Anthropic, Amazon DevOps Guru, Amazon Lookout for Vision, Claude, Amazon Polly, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Databricks, Amazon SageMaker, Anthropic, Amazon DevOps Guru, Amazon Lookout for Vision, Claude, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Agents, Security, Visualization, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Security, Containers, API Evangelist Search, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

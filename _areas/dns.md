@@ -22,6 +22,13 @@ providers:
   score_band: strong
   score_composite: 69.7
   shared: 1
+- slug: google-cloud-dns
+  name: Google Cloud DNS
+  description: Google Cloud DNS is a scalable, reliable, and managed authoritative Domain Name System (DNS) service running on the same infrastructure as Google. It provides low-latency, high-availability DNS serving with 100% uptime SLA, supporting both public and private DNS zones for domain name resolution.
+  api_count: 1
+  score_band: strong
+  score_composite: 60.5
+  shared: 1
 - slug: completedns
   name: CompleteDNS
   description: CompleteDNS is a DNS research platform that tracks nameserver modifications and domain drops, with over twenty years of history and billions of recorded changes. The CompleteDNS API exposes domain-scoped lookups that return the chronological history of nameserver changes, drop events, and parking s…
@@ -43,19 +50,12 @@ providers:
   score_band: developing
   score_composite: 58.1
   shared: 1
-- slug: google-cloud-dns
-  name: Google Cloud DNS
-  description: Google Cloud DNS is a scalable, reliable, and managed authoritative Domain Name System (DNS) service running on the same infrastructure as Google. It provides low-latency, high-availability DNS serving with 100% uptime SLA, supporting both public and private DNS zones for domain name resolution.
-  api_count: 1
-  score_band: developing
-  score_composite: 51.7
-  shared: 1
 - slug: infoblox
   name: Infoblox
   description: Infoblox is a networking and cybersecurity company providing DDI (DNS, DHCP, and IPAM) solutions and protective DNS-layer security services. Its product portfolio spans the Universal DDI suite for unified hybrid and multi-cloud network services, NIOS DDI for on-premises deployments, NIOS-X as a Ser…
   api_count: 17
   score_band: developing
-  score_composite: 47.8
+  score_composite: 56.7
   shared: 1
 - slug: frostbyte
   name: Frostbyte
@@ -219,7 +219,7 @@ related:
 overview: 'DNS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [dns.apievangelist.com](https://dns.apievangelist.com).
 
 
-  27 providers on the network work in this area, including Shodan, Cloudflare, CompleteDNS, Amazon Cloud Map, Amazon Route 53 Resolver, Google Cloud DNS, and 21 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  27 providers on the network work in this area, including Shodan, Cloudflare, Google Cloud DNS, CompleteDNS, Amazon Cloud Map, Amazon Route 53 Resolver, and 21 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Network, Security, Scraping, and Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'

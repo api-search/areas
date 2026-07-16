@@ -20,7 +20,21 @@ providers:
   description: Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 "Legendre") covering employees, contracts, attendance, ti…
   api_count: 22
   score_band: strong
-  score_composite: 63.4
+  score_composite: 69.1
+  shared: 1
+- slug: google-cloud-trace
+  name: Google Cloud Trace
+  description: Google Cloud Trace is a distributed tracing system that collects latency data from applications and displays it in near real-time. It helps developers understand how requests propagate through their application, identify performance bottlenecks, and analyze latency across microservices and distribu…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.6
+  shared: 1
+- slug: google-cloud-profiler
+  name: Google Cloud Profiler
+  description: Google Cloud Profiler is a statistical, low-overhead profiling service that continuously monitors CPU usage and memory allocation in production applications. It attributes resource consumption to specific source code sections, supports Go, Java, Node.js, and Python, and provides flame graph visuali…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.2
   shared: 1
 - slug: amazon-global-accelerator
   name: Amazon Global Accelerator
@@ -29,26 +43,19 @@ providers:
   score_band: developing
   score_composite: 56.7
   shared: 1
-- slug: google-cloud-trace
-  name: Google Cloud Trace
-  description: Google Cloud Trace is a distributed tracing system that collects latency data from applications and displays it in near real-time. It helps developers understand how requests propagate through their application, identify performance bottlenecks, and analyze latency across microservices and distribu…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.8
-  shared: 1
-- slug: google-cloud-profiler
-  name: Google Cloud Profiler
-  description: Google Cloud Profiler is a statistical, low-overhead profiling service that continuously monitors CPU usage and memory allocation in production applications. It attributes resource consumption to specific source code sections, supports Go, Java, Node.js, and Python, and provides flame graph visuali…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.4
-  shared: 1
 - slug: lunar-dev
   name: Lunar.dev
   description: Lunar.dev is an enterprise-grade gateway platform for AI governance and third-party API consumption control. It unifies an MCP Gateway, AI Gateway, and API Consumption Gateway into a single control point that gives organizations observability, access control, policy enforcement, quota management, r…
   api_count: 2
-  score_band: thin
-  score_composite: 44.6
+  score_band: developing
+  score_composite: 53.5
+  shared: 1
+- slug: whoop
+  name: WHOOP
+  description: WHOOP is a fitness and recovery wearable platform providing a REST API for accessing sleep, recovery, strain, and workout metrics from the WHOOP band. The API uses OAuth 2.0 authorization code flow with Bearer tokens to allow developers to build applications that access member health and performanc…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.0
   shared: 1
 - slug: oracle-partitioning
   name: Oracle Partitioning
@@ -57,26 +64,26 @@ providers:
   score_band: thin
   score_composite: 44.5
   shared: 1
-- slug: whoop
-  name: WHOOP
-  description: WHOOP is a fitness and recovery wearable platform providing a REST API for accessing sleep, recovery, strain, and workout metrics from the WHOOP band. The API uses OAuth 2.0 authorization code flow with Bearer tokens to allow developers to build applications that access member health and performanc…
-  api_count: 1
-  score_band: thin
-  score_composite: 40.2
-  shared: 1
 - slug: scalability
   name: Scalability
   description: A subject-matter collection covering APIs, tools, frameworks, and data sources related to application scalability, infrastructure scaling, performance optimization, and elastic resource management. This topic spans cloud provider auto-scaling, event-driven autoscaling (KEDA), load balancing, databa…
   api_count: 7
   score_band: thin
-  score_composite: 35.4
+  score_composite: 44.2
   shared: 1
 - slug: scalable-architecture
   name: Scalable Architecture
   description: A subject-matter collection covering APIs, patterns, tools, and frameworks for building scalable system architecture. This topic encompasses microservices design, service mesh, event-driven architecture, CQRS, saga patterns, container orchestration, caching, message queuing, and observability patte…
   api_count: 8
   score_band: thin
-  score_composite: 35.4
+  score_composite: 44.2
+  shared: 1
+- slug: vegeta
+  name: Vegeta
+  description: Vegeta is an open source HTTP load testing tool and library written in Go for generating constant request rates to measure API performance and reliability under sustained load. Supports CLI and library usage with attack plans, rate limiting, duration control, and detailed result metrics including l…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.6
   shared: 1
 - slug: questdb
   name: QuestDB
@@ -91,13 +98,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 34.8
-  shared: 1
-- slug: vegeta
-  name: Vegeta
-  description: Vegeta is an open source HTTP load testing tool and library written in Go for generating constant request rates to measure API performance and reliability under sustained load. Supports CLI and library usage with attack plans, rate limiting, duration control, and detailed result metrics including l…
-  api_count: 1
-  score_band: minimal
-  score_composite: 28.7
   shared: 1
 - slug: merbridge
   name: Merbridge
@@ -117,11 +117,11 @@ related:
 - slug: analysis
   name: Analysis
   shared: 1
-- slug: service-mesh
-  name: Service Mesh
-  shared: 2
 - slug: deployment
   name: Deployment
+  shared: 1
+- slug: integrations
+  name: Integrations
   shared: 1
 - slug: monitoring
   name: Monitoring
@@ -129,11 +129,14 @@ related:
 - slug: observability
   name: Observability
   shared: 1
+- slug: service-mesh
+  name: Service Mesh
+  shared: 1
 overview: 'Performance is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [performance.apievangelist.com](https://performance.apievangelist.com).
 
 
-  15 providers on the network work in this area, including New Relic, Factorial, Amazon Global Accelerator, Google Cloud Trace, Google Cloud Profiler, Lunar.dev, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  15 providers on the network work in this area, including New Relic, Factorial, Google Cloud Trace, Google Cloud Profiler, Amazon Global Accelerator, Lunar.dev, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Analysis, Service Mesh, Deployment, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Analysis, Deployment, Integrations, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

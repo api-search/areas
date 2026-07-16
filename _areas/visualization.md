@@ -15,6 +15,20 @@ providers:
   score_band: strong
   score_composite: 67.3
   shared: 1
+- slug: google-data-studio
+  name: Google Data Studio
+  description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sources and supports community connectors and visualizations for…
+  api_count: 4
+  score_band: strong
+  score_composite: 66.4
+  shared: 1
+- slug: microsoft-visio
+  name: Microsoft Visio
+  description: APIs and resources for Microsoft Visio, a diagramming and vector graphics application that helps visualize data-connected business process flows. Provides programmatic access to diagrams, pages, shapes, data items, comments, and hyperlinks through Microsoft Graph and JavaScript APIs.
+  api_count: 2
+  score_band: strong
+  score_composite: 64.3
+  shared: 1
 - slug: amazon-quicksight
   name: Amazon QuickSight
   description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
@@ -22,47 +36,40 @@ providers:
   score_band: strong
   score_composite: 62.2
   shared: 1
-- slug: microsoft-visio
-  name: Microsoft Visio
-  description: APIs and resources for Microsoft Visio, a diagramming and vector graphics application that helps visualize data-connected business process flows. Provides programmatic access to diagrams, pages, shapes, data items, comments, and hyperlinks through Microsoft Graph and JavaScript APIs.
-  api_count: 2
-  score_band: strong
-  score_composite: 60.2
-  shared: 1
-- slug: google-data-studio
-  name: Google Data Studio
-  description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sources and supports community connectors and visualizations for…
-  api_count: 4
-  score_band: developing
-  score_composite: 57.5
-  shared: 1
-- slug: visio
-  name: Microsoft Visio API
-  description: Microsoft Visio provides APIs for creating, editing, and managing Visio diagrams and drawings. The Visio JavaScript API enables developers to build Office Add-ins that interact with Visio diagrams embedded in SharePoint Online pages, accessing document elements such as pages, shapes, hyperlinks, co…
-  api_count: 2
-  score_band: developing
-  score_composite: 57.5
-  shared: 1
 - slug: power-bi
   name: Power BI
   description: Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. It provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards.
   api_count: 6
-  score_band: developing
-  score_composite: 57.4
+  score_band: strong
+  score_composite: 62.1
   shared: 1
 - slug: qlik-sense
   name: Qlik Sense
   description: APIs for Qlik Sense, a business intelligence and data analytics platform providing engine, repository, cloud, embedding, and data integration capabilities.
   api_count: 6
-  score_band: developing
-  score_composite: 51.7
+  score_band: strong
+  score_composite: 60.6
   shared: 1
 - slug: grafana
   name: Grafana
   description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
   api_count: 1
+  score_band: strong
+  score_composite: 60.1
+  shared: 1
+- slug: visio
+  name: Microsoft Visio API
+  description: Microsoft Visio provides APIs for creating, editing, and managing Visio diagrams and drawings. The Visio JavaScript API enables developers to build Office Add-ins that interact with Visio diagrams embedded in SharePoint Online pages, accessing document elements such as pages, shapes, hyperlinks, co…
+  api_count: 2
+  score_band: strong
+  score_composite: 60.0
+  shared: 1
+- slug: elastic
+  name: Elastic
+  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
+  api_count: 3
   score_band: developing
-  score_composite: 51.3
+  score_composite: 50.0
   shared: 1
 - slug: kibana
   name: Kibana
@@ -77,13 +84,6 @@ providers:
   api_count: 8
   score_band: thin
   score_composite: 44.2
-  shared: 1
-- slug: elastic
-  name: Elastic
-  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
-  api_count: 3
-  score_band: thin
-  score_composite: 41.2
   shared: 1
 - slug: windy
   name: Windy
@@ -106,19 +106,19 @@ providers:
   score_band: thin
   score_composite: 36.0
   shared: 1
+- slug: threejs
+  name: Three.js
+  description: Three.js is an open-source JavaScript 3D library originally created by Ricardo Cabello (mrdoob) in 2010 and now maintained by a broad community of contributors. It abstracts WebGL and WebGPU behind a clean object-oriented API — Scenes, Cameras, Lights, Geometries, Materials, Textures, Loaders, Cont…
+  api_count: 6
+  score_band: thin
+  score_composite: 35.8
+  shared: 1
 - slug: lucidchart
   name: Lucidchart
   description: Lucidchart is a web-based intelligent diagramming application by Lucid Software, part of the Lucid Visual Collaboration Suite (Lucidchart, Lucidspark, Lucidscale). The Lucid Developer Platform exposes a REST API for documents/folders/collaborators/content, an Extension API for in-editor extensions,…
   api_count: 7
   score_band: thin
   score_composite: 35.3
-  shared: 1
-- slug: threejs
-  name: Three.js
-  description: Three.js is an open-source JavaScript 3D library originally created by Ricardo Cabello (mrdoob) in 2010 and now maintained by a broad community of contributors. It abstracts WebGL and WebGPU behind a clean object-oriented API — Scenes, Cameras, Lights, Geometries, Materials, Textures, Loaders, Cont…
-  api_count: 6
-  score_band: minimal
-  score_composite: 27.0
   shared: 1
 - slug: qlik-mashups
   name: Qlik Mashups
@@ -138,20 +138,17 @@ related:
 - slug: monitoring
   name: Monitoring
   shared: 2
-- slug: logging
-  name: Logging
-  shared: 1
-- slug: machine-learning
-  name: Machine Learning
-  shared: 1
 - slug: observability
   name: Observability
+  shared: 2
+- slug: logging
+  name: Logging
   shared: 1
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Amazon Managed Grafana, Amazon QuickSight, Microsoft Visio, Google Data Studio, Microsoft Visio API, Power BI, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Amazon Managed Grafana, Google Data Studio, Microsoft Visio, Amazon QuickSight, Power BI, Qlik Sense, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Monitoring, Logging, Machine Learning, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Monitoring, Observability, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

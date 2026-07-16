@@ -22,6 +22,20 @@ providers:
   score_band: exemplar
   score_composite: 74.9
   shared: 1
+- slug: yugabytedb
+  name: YugabyteDB
+  description: YugabyteDB is a distributed PostgreSQL-compatible SQL database for cloud-native and mission-critical applications. It is delivered as open-source YugabyteDB Core, the fully managed YugabyteDB Aeon DBaaS, and the self-managed YugabyteDB Anywhere control plane, with REST APIs for programmatic managem…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 73.0
+  shared: 1
+- slug: oracle
+  name: Oracle
+  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
+  api_count: 52
+  score_band: exemplar
+  score_composite: 72.1
+  shared: 1
 - slug: amazon-dynamodb
   name: Amazon DynamoDB
   description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-value and document data models.
@@ -29,19 +43,12 @@ providers:
   score_band: exemplar
   score_composite: 70.0
   shared: 1
-- slug: yugabytedb
-  name: YugabyteDB
-  description: YugabyteDB is a distributed PostgreSQL-compatible SQL database for cloud-native and mission-critical applications. It is delivered as open-source YugabyteDB Core, the fully managed YugabyteDB Aeon DBaaS, and the self-managed YugabyteDB Anywhere control plane, with REST APIs for programmatic managem…
-  api_count: 2
+- slug: oracle-goldengate
+  name: Oracle GoldenGate
+  description: Oracle GoldenGate enables real-time data integration and replication in heterogeneous IT environments. These APIs provide programmatic access to manage and monitor GoldenGate deployments, processes, and configurations.
+  api_count: 6
   score_band: strong
-  score_composite: 69.9
-  shared: 1
-- slug: oracle
-  name: Oracle
-  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
-  api_count: 52
-  score_band: strong
-  score_composite: 68.9
+  score_composite: 68.1
   shared: 1
 - slug: amazon-documentdb
   name: Amazon DocumentDB
@@ -57,6 +64,13 @@ providers:
   score_band: strong
   score_composite: 67.1
   shared: 1
+- slug: teradata
+  name: Teradata
+  description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scale. Teradata offers REST APIs for managing QueryGrid data fab…
+  api_count: 2
+  score_band: strong
+  score_composite: 66.9
+  shared: 1
 - slug: notion
   name: Notion
   description: Notion is an all-in-one workspace that combines notes, tasks, wikis, and databases. The Notion API allows developers to integrate Notion with other tools and build custom applications on top of Notion's platform.
@@ -70,6 +84,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 66.3
+  shared: 1
+- slug: snowflake
+  name: Snowflake
+  description: Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science, and data application development capabilities.
+  api_count: 47
+  score_band: strong
+  score_composite: 65.8
   shared: 1
 - slug: convex
   name: Convex
@@ -85,26 +106,12 @@ providers:
   score_band: strong
   score_composite: 63.9
   shared: 1
-- slug: teradata
-  name: Teradata
-  description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scale. Teradata offers REST APIs for managing QueryGrid data fab…
+- slug: scylladb
+  name: ScyllaDB
+  description: ScyllaDB is a high-performance distributed NoSQL database engineered for real-time, data-intensive applications, offering close-to-the-metal architecture with predictable single-digit millisecond latencies and millions of operations per second. It is fully compatible with Apache Cassandra's CQL int…
   api_count: 2
   score_band: strong
-  score_composite: 63.7
-  shared: 1
-- slug: oracle-goldengate
-  name: Oracle GoldenGate
-  description: Oracle GoldenGate enables real-time data integration and replication in heterogeneous IT environments. These APIs provide programmatic access to manage and monitor GoldenGate deployments, processes, and configurations.
-  api_count: 6
-  score_band: strong
   score_composite: 63.4
-  shared: 1
-- slug: snowflake
-  name: Snowflake
-  description: Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science, and data application development capabilities.
-  api_count: 47
-  score_band: strong
-  score_composite: 62.7
   shared: 1
 - slug: amazon-qldb
   name: Amazon QLDB
@@ -141,12 +148,54 @@ providers:
   score_band: strong
   score_composite: 61.2
   shared: 1
+- slug: google-cloud-bigtable
+  name: Google Cloud Bigtable
+  description: Google Cloud Bigtable is a fully managed, scalable NoSQL database service designed for large analytical and operational workloads. It offers consistent sub-10ms latency and seamless scalability, making it ideal for time-series data, IoT, ad tech, fintech, and machine learning applications. Bigtable…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.0
+  shared: 1
+- slug: google-cloud-sql
+  name: Google Cloud SQL
+  description: Google Cloud SQL is a fully managed relational database service that supports MySQL, PostgreSQL, and SQL Server. It handles routine database tasks such as provisioning, replication, backups, and failover, allowing developers to focus on application development. Cloud SQL provides high availability,…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.0
+  shared: 1
+- slug: google-cloud-spanner
+  name: Google Cloud Spanner
+  description: Google Cloud Spanner is a fully managed, mission-critical relational database service that offers transactional consistency at global scale, automatic synchronous replication, and schemas with SQL support. It combines the benefits of relational database structure with non-relational horizontal scal…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.0
+  shared: 1
+- slug: google-cloud-firestore
+  name: Google Cloud Firestore
+  description: Google Cloud Firestore is a flexible, scalable NoSQL cloud database for mobile, web, and server development. It keeps data in sync across client apps through real-time listeners and offers offline support for mobile and web, enabling responsive apps that work regardless of network latency or intern…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.5
+  shared: 1
+- slug: nutanix
+  name: Nutanix
+  description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
+  api_count: 8
+  score_band: strong
+  score_composite: 60.4
+  shared: 1
 - slug: apache-couchdb
   name: Apache CouchDB
   description: Apache CouchDB is an open-source distributed document-oriented NoSQL database governed by the Apache Software Foundation. It uses JSON for data storage, a RESTful HTTP/JSON API for all database operations, and the Couch Replication Protocol for multi-primary synchronization across servers, mobile d…
   api_count: 1
   score_band: strong
   score_composite: 60.1
+  shared: 1
+- slug: sybase
+  name: Sybase
+  description: A collection of APIs and resources for Sybase database systems.
+  api_count: 7
+  score_band: developing
+  score_composite: 59.0
   shared: 1
 - slug: couchbase
   name: Couchbase
@@ -155,73 +204,24 @@ providers:
   score_band: developing
   score_composite: 58.6
   shared: 1
-- slug: codehooks
-  name: Codehooks
-  description: Codehooks is a JavaScript-native serverless backend platform that bundles a NoSQL document database, key-value store, persistent queues with workers, CRON jobs, blob storage, frontend hosting, and an automatic CRUD REST API in a single CLI-deployable runtime. Developers write small Node.js handler…
-  api_count: 2
-  score_band: developing
-  score_composite: 57.2
-  shared: 1
-- slug: clickhouse
-  name: ClickHouse
-  description: ClickHouse is a fast open-source column-oriented database management system that enables real-time analytical reporting using SQL. ClickHouse exposes multiple interfaces - an HTTP interface for SQL queries, native TCP, MySQL and PostgreSQL wire-compatible interfaces, and a gRPC interface - and the…
-  api_count: 6
-  score_band: developing
-  score_composite: 56.5
-  shared: 1
-- slug: sybase
-  name: Sybase
-  description: A collection of APIs and resources for Sybase database systems.
-  api_count: 7
-  score_band: developing
-  score_composite: 56.5
-  shared: 1
-- slug: microsoft-azure-mysql
-  name: Azure Database for MySQL
-  description: Azure Database for MySQL is a fully managed relational database service based on the open-source MySQL community edition. Its REST APIs enable management of flexible servers, single servers, databases, firewall and network rules, configurations, replicas, and backups with built-in high availability…
-  api_count: 9
-  score_band: developing
-  score_composite: 56.2
-  shared: 1
-- slug: supabase
-  name: Supabase
-  description: Supabase is an open-source Firebase alternative that provides a suite of backend services built on top of PostgreSQL. It offers a managed PostgreSQL database with auto-generated REST and GraphQL APIs via PostgREST, real-time data subscriptions via WebSockets, user authentication with JWT (GoTrue),…
-  api_count: 6
-  score_band: developing
-  score_composite: 55.9
-  shared: 1
-- slug: amazon-timestream
-  name: Amazon Timestream
-  description: Amazon Timestream is a fast, scalable, and serverless time series database service designed for IoT and operational applications. It makes it easy to store and analyze trillions of events per day at a fraction of the cost of relational databases, with built-in time series analytics functions and au…
-  api_count: 1
-  score_band: developing
-  score_composite: 55.8
-  shared: 1
 - slug: scaleway
   name: Scaleway
   description: Scaleway is a European cloud provider offering a full suite of compute, storage, networking, AI, and serverless infrastructure services. Scaleway provides a comprehensive REST API for programmatic management of all cloud resources including Instances, Kubernetes clusters (Kapsule and Kosmos), manag…
   api_count: 11
   score_band: developing
-  score_composite: 55.4
+  score_composite: 57.9
   shared: 1
-- slug: scylladb
-  name: ScyllaDB
-  description: ScyllaDB is a high-performance distributed NoSQL database engineered for real-time, data-intensive applications, offering close-to-the-metal architecture with predictable single-digit millisecond latencies and millions of operations per second. It is fully compatible with Apache Cassandra's CQL int…
+- slug: nocodb
+  name: NocoDB
+  description: NocoDB is an open-source, self-hostable alternative to Airtable that turns any relational database — MySQL, PostgreSQL, Microsoft SQL Server, or SQLite — into a collaborative smart spreadsheet. It exposes a versioned REST API (v2 and v3) with separate Data APIs for record CRUD operations and Meta A…
   api_count: 2
   score_band: developing
-  score_composite: 54.6
-  shared: 1
-- slug: cockroachdb
-  name: CockroachDB
-  description: CockroachDB is a distributed SQL database with strong consistency, PostgreSQL compatibility, and a managed cloud offering. The Cloud API manages cluster lifecycle; the Cluster API exposes per-node operational state for monitoring and troubleshooting.
-  api_count: 2
-  score_band: developing
-  score_composite: 54.0
+  score_composite: 57.5
   shared: 1
 related:
 - slug: serverless
   name: Serverless
-  shared: 3
+  shared: 2
 - slug: migration
   name: Migration
   shared: 1
@@ -231,16 +231,16 @@ related:
 - slug: caching
   name: Caching
   shared: 1
+- slug: virtualization
+  name: Virtualization
+  shared: 1
 - slug: ai-automation
   name: AI Automation
-  shared: 1
-- slug: authentication
-  name: Authentication
   shared: 1
 overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [database.apievangelist.com](https://database.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Neptune, Bubble, Amazon DynamoDB, YugabyteDB, Oracle, Amazon DocumentDB, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Neptune, Bubble, YugabyteDB, Oracle, Amazon DynamoDB, Oracle GoldenGate, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Serverless, Migration, Gateway, and Caching. Browse every area at [areas.apis.io](https://apis.io/areas/).'

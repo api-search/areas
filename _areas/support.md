@@ -27,7 +27,7 @@ providers:
   description: API for managing knowledge articles, categories, and data in Salesforce Knowledge. Enables creating, reading, updating, publishing, and archiving knowledge articles for customer self-service and agent-assisted support scenarios across multiple channels including internal app, public knowledge base,…
   api_count: 2
   score_band: developing
-  score_composite: 52.6
+  score_composite: 58.3
   shared: 1
 - slug: inkeep
   name: Inkeep
@@ -61,8 +61,8 @@ providers:
   name: SUPPORT.md
   description: SUPPORT.md is a GitHub community health file that describes how users can get help with an open source project. When present in a repository root or .github/ directory, GitHub automatically links to it from issue creation flows, directing users to appropriate support channels before filing bugs.
   api_count: 1
-  score_band: minimal
-  score_composite: 27.9
+  score_band: thin
+  score_composite: 36.7
   shared: 1
 related:
 - slug: documentation
