@@ -152,49 +152,49 @@ providers:
   name: NameSilo
   description: NameSilo is a domain registrar and web services provider offering domain registration, hosting, email, and SSL solutions. NameSilo exposes a Domain API enabling programmatic domain search, registration, and management via HTTPS GET requests with XML or JSON responses, plus an MCP server for AI agen…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 29.6
   shared: 1
 - slug: dns-check
   name: DNS Check
   description: DNS Check is a domain DNS monitoring service that lets teams monitor, share, and troubleshoot DNS records across multiple record types (A, AAAA, CNAME, MX, NS, PTR, SOA, SPF, SRV, TXT). The platform detects unresponsive name servers, incorrect IP addresses, missing or duplicated records, SPF record…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 22.7
   shared: 1
 - slug: dns-coffee
   name: DNS Coffee
   description: DNS Coffee collects, analyzes, and archives changes to root zone files provided by various top-level domains (TLDs), offering one of the most comprehensive views of the current state of the Domain Name System (DNS). By continuously tracking these changes, DNS Coffee uncovers valuable trends over ti…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.5
   shared: 1
 - slug: pi-hole
   name: Pi-hole
   description: Pi-hole is an open source network-wide DNS sinkhole that blocks ads, tracking, and unwanted domains across all devices on a local network without requiring per-device software. It runs on lightweight hardware such as Raspberry Pi and offers a web admin interface plus a REST API (introduced in v6 vi…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.5
   shared: 1
 - slug: domscan
   name: DomScan
   description: Domain intelligence API for domain availability, DNS, WHOIS/RDAP, valuation, security checks, email posture, social handle checks, and monitoring workflows. Offers REST API, machine-readable contracts, a hosted MCP server, and llms.txt.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 17.4
   shared: 1
 - slug: cloudflare-com
   name: Cloudflare.com
   description: cloudflare-com is an alias profile for Cloudflare. The canonical company profile lives at the cloudflare repository in the API Evangelist Network; this entry exists so that the ".com" form of the brand resolves into the same canonical record. Cloudflare's developer surface includes a single unified…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.9
   shared: 1
 - slug: verisign
   name: VeriSign
   description: VeriSign is a major US corporation and Fortune 1000 company. The VeriSign API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 15.9
   shared: 1
 related:

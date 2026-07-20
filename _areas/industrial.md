@@ -68,126 +68,126 @@ providers:
   name: AMETEK
   description: 'AMETEK is a leading global manufacturer of electronic instruments and electromechanical devices with annual sales of over $6 billion. The company operates through two differentiated business segments: Electronic Instruments Group (EIG) and Electromechanical Group (EMG), serving industries including…'
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 29.8
   shared: 1
 - slug: civil-infrastructure-platform
   name: Civil Infrastructure Platform
   description: The Civil Infrastructure Platform (CIP) is a Linux Foundation collaborative project that builds an industrial-grade open source base layer for civil infrastructure systems such as transportation, power generation and distribution, building and city management, industrial control, and healthcare equ…
   api_count: 5
-  score_band: minimal
+  score_band: emerging
   score_composite: 28.8
   shared: 1
 - slug: sanmina
   name: Sanmina
   description: Sanmina Corporation is a global contract manufacturer and leading provider of end-to-end design, manufacturing, logistics, and repair solutions for OEMs across defense, industrial, medical, communications, and computing markets. Through its 42Q subsidiary, Sanmina offers a cloud-based Manufacturing…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 28.4
   shared: 1
 - slug: anixter-international
   name: Anixter International
   description: Anixter International was a leading global distributor of network and security solutions, electrical and electronic solutions, and utility power solutions. In June 2020, Anixter was acquired by Wesco International for approximately $4.5 billion, creating a combined company with over $17 billion in…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 24.0
   shared: 1
 - slug: ashland
   name: Ashland
   description: Ashland is a global specialty chemicals company headquartered in Wilmington, Delaware, that provides high-performance ingredients and additives for the pharmaceutical, personal care, food and beverage, coatings, adhesives, and industrial markets. The company's product portfolio includes cellulose e…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 23.9
   shared: 1
 - slug: margo
   name: Margo
   description: Margo is a Linux Foundation open standard initiative for interoperability at the edge of industrial automation ecosystems. Founded by ABB, Capgemini, Microsoft, Rockwell Automation, Schneider Electric, and Siemens, it defines mechanisms for interoperability between edge applications, devices, and o…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.6
   shared: 1
 - slug: kaman
   name: Kaman Corporation
   description: Kaman Corporation is a major US corporation and Fortune 1000 company. The Kaman Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 17.0
   shared: 1
 - slug: matthews-international
   name: Matthews International
   description: Matthews International is a major US corporation and Fortune 1000 company. The Matthews International API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 17.0
   shared: 1
 - slug: circor-international
   name: CIRCOR International
   description: CIRCOR International is a major US corporation and Fortune 1000 company. The CIRCOR International API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.5
   shared: 1
 - slug: enpro-industries
   name: EnPro Industries
   description: EnPro Industries is a major US corporation and Fortune 1000 company. The EnPro Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.5
   shared: 1
 - slug: moog
   name: Moog
   description: Moog Inc. is a worldwide designer, manufacturer, and integrator of precision motion and fluid control products and solutions for aerospace, defense, industrial, and medical applications. Product divisions include actuation, motion systems, motors, propulsion, valves, aerospace components, and defen…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.5
   shared: 1
 - slug: nacco-industries
   name: NACCO Industries
   description: NACCO Industries is a major US corporation and Fortune 1000 company. The NACCO Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.5
   shared: 1
 - slug: nordson
   name: Nordson Corporation
   description: Nordson Corporation is a major US corporation and Fortune 1000 company. The Nordson Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.5
   shared: 1
 - slug: regal-rexnord
   name: Regal Rexnord
   description: Regal Rexnord is a major US corporation and Fortune 1000 company. The Regal Rexnord API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.5
   shared: 1
 - slug: sensata-technologies
   name: Sensata Technologies
   description: Sensata Technologies is a major US corporation and Fortune 1000 company. The Sensata Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.5
   shared: 1
 - slug: watts-water-technologies
   name: Watts Water Technologies
   description: Watts Water Technologies is a major US corporation and Fortune 1000 company. The Watts Water Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.5
   shared: 1
 - slug: graco
   name: Graco Inc
   description: Graco Inc is a major US corporation and Fortune 1000 company. The Graco Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 15.3
   shared: 1
 - slug: bosch
   name: Bosch
   description: Bosch is a German multinational engineering and technology company producing automotive components, industrial technology, consumer goods, and energy and building technology. Bosch operates the Bosch IoT Suite, an open IoT platform offering device management, software rollouts, edge services, and I…
   api_count: 5
-  score_band: minimal
+  score_band: emerging
   score_composite: 15.0
   shared: 1
 - slug: hexcel

@@ -124,98 +124,98 @@ providers:
   name: Promptfoo
   description: Promptfoo is an open-source LLM evaluation and red-teaming framework distributed as a TypeScript CLI and Node.js library under the MIT license. Developers use it to evaluate prompts, models, and RAG pipelines side by side, run automated red team attacks against LLM applications, scan code for LLM v…
   api_count: 6
-  score_band: minimal
+  score_band: emerging
   score_composite: 29.3
   shared: 1
 - slug: formspree
   name: Formspree
   description: 'Formspree is a form backend for static and Jamstack sites. Two API surfaces matter: (1) the public form-submission endpoint (formspree.io/f/{hashid}) that accepts POST submissions and returns JSON when the Accept header is set, and (2) the Forms API (formspree.io/api/0/...) for programmatic submiss…'
   api_count: 2
-  score_band: minimal
+  score_band: emerging
   score_composite: 28.3
   shared: 1
 - slug: shell-scripting
   name: Shell Scripting
   description: A collection of APIs and resources for Shell Scripting development, including utilities, documentation, and tools.
   api_count: 5
-  score_band: minimal
+  score_band: emerging
   score_composite: 27.7
   shared: 1
 - slug: copa
   name: Copa (Project Copacetic)
   description: Project Copacetic (Copa) is an open source command line tool that patches container images directly using BuildKit, without requiring a full image rebuild. Copa parses vulnerability scan reports from Trivy and other scanners, applies the corresponding OS package updates via the appropriate package…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 27.3
   shared: 1
 - slug: kaniko
   name: Kaniko
   description: Kaniko is an open-source tool from Google that builds container images from a Dockerfile inside a container or Kubernetes cluster without requiring a Docker daemon. It executes each command within a Dockerfile in userspace, enabling secure container builds in environments where running a Docker dae…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 26.7
   shared: 1
 - slug: component-model
   name: Component Model
   description: The WebAssembly Component Model is a broad-reaching architecture for building interoperable WebAssembly libraries, applications, and environments. It defines components as portable, sandboxed units of code that can compose with each other across language and runtime boundaries. The model introduces…
   api_count: 4
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.7
   shared: 1
 - slug: konfig
   name: Konfig
   description: Konfig was a developer-tools startup that generated SDKs, API documentation, interactive demos, and tutorials from OpenAPI Specifications and Postman Collections, delivered primarily through the konfig-cli command-line interface and GitHub Actions automation. The company was sunset in December 2024…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.0
   shared: 1
 - slug: carvel
   name: Carvel
   description: Carvel is a set of reliable, single-purpose, composable command-line tools that help build, configure, and deploy applications to Kubernetes. The toolset includes ytt for YAML templating, kapp for application lifecycle management, kbld for immutable image references, imgpkg for OCI bundling, vendir…
   api_count: 7
-  score_band: minimal
+  score_band: emerging
   score_composite: 24.5
   shared: 1
 - slug: nitric
   name: Nitric
   description: Nitric is an open-source cloud framework and infrastructure-from-code SDK plus CLI for building cloud applications in TypeScript, Python, Go, or Dart. You declare resources - APIs, schedules, queues, topics, buckets, key-value stores, secrets, and websockets - directly in your application code, and…
   api_count: 11
-  score_band: minimal
+  score_band: emerging
   score_composite: 24.3
   shared: 1
 - slug: azure-cli
   name: Azure CLI
   description: Azure CLI is the official cross-platform command-line tool for managing Microsoft Azure resources and services from the terminal.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 23.9
   shared: 1
 - slug: bruno-api
   name: Bruno
   description: Bruno is an open-source (MIT), git-native API client - a lightweight, offline-first alternative to Postman and Insomnia for exploring and testing APIs. It is a developer TOOL, not a hosted HTTP API provider. Collections are stored on the local filesystem as folders of plain-text files (the .bru "Br…
   api_count: 5
-  score_band: minimal
+  score_band: emerging
   score_composite: 23.6
   shared: 1
 - slug: pnpm
   name: pnpm
   description: pnpm is a fast, disk space efficient package manager for JavaScript and Node.js projects. It uses a content-addressable store and a strict, symlinked node_modules layout so every version of every package is stored exactly once on disk and projects can only access dependencies they explicitly declar…
   api_count: 5
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.9
   shared: 1
 - slug: cline
   name: Cline
   description: Cline (formerly Claude Dev) is an open-source autonomous coding agent. The Cline VS Code extension has 5M+ installs; JetBrains is in early access; the Cline CLI is also available. Edits files, runs commands, uses the browser, and federates to multiple LLM providers. An MCP Marketplace extends Cline…
   api_count: 5
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.9
   shared: 1
 - slug: hurl
   name: Hurl
   description: Hurl is an open source command-line tool for running HTTP requests defined in a simple plain text format with built-in assertions for API testing.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.4
   shared: 1
 related:

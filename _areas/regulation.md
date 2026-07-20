@@ -26,28 +26,28 @@ providers:
   name: Alcohol and Tobacco Tax and Trade Bureau
   description: The Alcohol and Tobacco Tax and Trade Bureau (TTB), statutorily named the Tax and Trade Bureau, is a bureau of the United States Department of the Treasury. TTB regulates and collects federal excise taxes on alcohol, tobacco, firearms, and ammunition. The bureau enforces Federal laws and regulation…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 27.0
   shared: 1
 - slug: occ
   name: Office of the Comptroller of the Currency (OCC)
   description: The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks. The OCC provides REST APIs and data tools for national bank and federal savings association data, C…
   api_count: 4
-  score_band: minimal
+  score_band: emerging
   score_composite: 26.6
   shared: 1
 - slug: committee-on-foreign-investment-in-the-united-states
   name: Committee on Foreign Investment in the United States
   description: The Committee on Foreign Investment in the United States (CFIUS) is an inter-agency committee chaired by the U.S. Department of the Treasury that reviews certain foreign investment transactions for national security implications. CFIUS reviews are governed by the Defense Production Act and Section…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.0
   shared: 1
 - slug: ccpa
   name: CCPA (California Consumer Privacy Act)
   description: 'The California Consumer Privacy Act (CCPA), amended by the California Privacy Rights Act (CPRA), is a state statute that grants California residents rights over their personal information: the right to know, delete, correct, opt-out of sale/sharing, limit use of sensitive personal information, and…'
   api_count: 4
-  score_band: minimal
+  score_band: emerging
   score_composite: 22.5
   shared: 1
 related:

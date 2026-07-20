@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://testing.apievangelist.com
 area_host: testing.apievangelist.com
 icon: https://testing.apievangelist.com/icon-thumb.png
-provider_count: 83
+provider_count: 84
 providers:
 - slug: postman
   name: Postman
@@ -183,6 +183,13 @@ providers:
   score_band: developing
   score_composite: 45.8
   shared: 1
+- slug: limrun
+  name: Limrun
+  description: Limrun (Limrun, Inc.) is a Y Combinator-backed cloud infrastructure company for mobile development, built so cloud coding agents and Linux CI runners can build, run, and test iOS and Android apps without a Mac. Limrun exposes three composable cloud services behind one REST control plane at api.limr…
+  api_count: 1
+  score_band: thin
+  score_composite: 44.3
+  shared: 1
 - slug: rest-assured
   name: REST Assured
   description: REST Assured is a Java library for simplifying the testing and validation of RESTful APIs. It provides a fluent domain-specific language (DSL) built on the given-when-then BDD pattern, making it easy to write readable and maintainable API tests. REST Assured supports HTTP methods GET, POST, PUT, DE…
@@ -210,13 +217,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 40.7
-  shared: 1
-- slug: acceptance-criteria
-  name: Acceptance Criteria
-  description: Acceptance criteria are predefined conditions that a product, feature, or user story must meet to be considered complete and acceptable by stakeholders. These criteria establish clear, testable requirements that guide development, validate when work is done, and serve as the foundation for automate…
-  api_count: 5
-  score_band: thin
-  score_composite: 40.5
   shared: 1
 related:
 - slug: documentation

@@ -12,8 +12,8 @@ providers:
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
   api_count: 35
-  score_band: strong
-  score_composite: 69.3
+  score_band: exemplar
+  score_composite: 73.2
   shared: 1
 - slug: amazon-pinpoint
   name: Amazon Pinpoint

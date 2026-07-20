@@ -215,7 +215,7 @@ providers:
   name: Flux CD
   description: Flux is a set of continuous and progressive delivery solutions for Kubernetes that are open and extensible, enabling GitOps-based automation for keeping Kubernetes clusters in sync with sources of configuration like Git repositories.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.0
   shared: 1
 related:

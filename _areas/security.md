@@ -6,7 +6,7 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 261
+provider_count: 264
 providers:
 - slug: jfrog
   name: JFrog

@@ -138,42 +138,42 @@ providers:
   name: Avocode
   description: Avocode was a design handoff platform with a REST API for managing projects, design files, shared screens, annotations, and design spec exports for developer-designer collaboration. Acquired by Ceros in October 2021 and sunset on October 1, 2023, Avocode supported design files from Sketch, Figma, A…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 28.5
   shared: 1
 - slug: framer
   name: Framer
   description: 'Framer is a design tool and CMS for shipping production websites without code. The Framer developer surface is centred on in-editor extensibility: the Plugin API for building tools that interact with the Framer Editor and CMS, Code Components for custom React components, Code Overrides for HOC-styl…'
   api_count: 6
-  score_band: minimal
+  score_band: emerging
   score_composite: 26.5
   shared: 1
 - slug: invision
   name: InVision
   description: InVision was a digital product design platform used by teams to build the world's best customer experiences. It provided REST APIs for managing prototypes, design documents, boards, comments, workflows, and design system components including design tokens and icons via the Design System Manager (DS…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 26.5
   shared: 1
 - slug: sketch
   name: Sketch
   description: Sketch is a digital design tool for Mac providing a REST API for managing workspaces, documents, libraries, components, prototypes, and share links in the Sketch cloud collaboration environment. The Cloud REST API (api.sketch.cloud/v1) supports Personal Access Token and OAuth 2.0 authentication, en…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.8
   shared: 1
 - slug: spline
   name: Spline
   description: Spline is a real-time collaborative 3D design tool with AI-driven object generation, web embedding, and animation. Spline does NOT publish a REST API for 3D scene generation as of May 2026; instead it exposes Code APIs (Web, SwiftUI, Kotlin) for embedding scenes, plus a real-time API for variables/…
   api_count: 5
-  score_band: minimal
+  score_band: emerging
   score_composite: 24.6
   shared: 1
 - slug: knoll
   name: Knoll Inc
   description: Knoll Inc is a major US corporation and Fortune 1000 company. The Knoll Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 15.3
   shared: 1
 - slug: customink-api

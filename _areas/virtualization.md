@@ -103,7 +103,7 @@ providers:
   name: Proxmox VE
   description: Proxmox Virtual Environment (Proxmox VE) is an open-source server virtualization platform that combines KVM hypervisor and LXC containers, software-defined storage and networking, and clustering and high- availability features in a single web-managed solution. The Proxmox VE API exposes all platfor…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 22.1
   shared: 1
 related:

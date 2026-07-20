@@ -68,35 +68,35 @@ providers:
   name: Turborepo
   description: Turborepo is a high-performance build system for JavaScript and TypeScript codebases, built by Vercel and written in Rust. It accelerates monorepo development by orchestrating task pipelines with explicit dependency graphs, hashing task inputs to skip redundant work, and caching task outputs locall…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 29.9
   shared: 1
 - slug: openpipe
   name: OpenPipe
   description: OpenPipe is a fine-tuning and inference platform for distilling expensive frontier-LLM workloads into smaller, cheaper specialized models. Captures production traces (OpenAI and Anthropic), fine-tunes, evaluates with judges, caches results, and serves the result via OpenAI-compatible API. Also supp…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 28.5
   shared: 1
 - slug: varnish
   name: Varnish Cache
   description: Varnish Cache is a high-performance HTTP accelerator and reverse proxy designed for content-heavy dynamic websites and APIs. It sits in front of web servers and caches HTTP responses to serve repeated requests without hitting the backend, dramatically reducing load and latency. Varnish is configure…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.7
   shared: 1
 - slug: tailcall
   name: Tailcall
   description: Tailcall is a high-performance GraphQL API gateway and runtime that lets developers compose multiple upstream REST, gRPC, and GraphQL APIs into a unified GraphQL schema. Built in Rust, it offers declarative configuration via .graphql files with directives for HTTP, caching, batching, and security c…
   api_count: 2
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.2
   shared: 1
 - slug: cloudfront
   name: CloudFront
   description: CloudFront is Amazon Web Services' content delivery network (CDN) for delivering data, video, applications, and APIs globally with low latency. This repository is the short-form profile for AWS CloudFront; the canonical AWS service profile lives at amazon-cloudfront in the API Evangelist Network. C…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.1
   shared: 1
 related:

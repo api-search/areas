@@ -6,7 +6,7 @@ description: An index and topic collection covering container orchestration and 
 area_url: https://orchestration.apievangelist.com
 area_host: orchestration.apievangelist.com
 icon: https://orchestration.apievangelist.com/icon-thumb.png
-provider_count: 52
+provider_count: 53
 providers:
 - slug: uipath
   name: UiPath
@@ -28,6 +28,13 @@ providers:
   api_count: 6
   score_band: strong
   score_composite: 69.7
+  shared: 1
+- slug: azure-kubernetes-service
+  name: Azure Kubernetes Service
+  description: Azure Kubernetes Service (AKS) simplifies deploying a managed Kubernetes cluster in Azure by offloading the operational overhead to Azure. As a hosted Kubernetes service, Azure handles critical tasks, like health monitoring and maintenance.
+  api_count: 8
+  score_band: strong
+  score_composite: 66.7
   shared: 1
 - slug: microsoft-azure-kubernetes-service
   name: Azure Kubernetes Service
@@ -211,22 +218,15 @@ providers:
   score_band: thin
   score_composite: 44.1
   shared: 1
-- slug: shuffle
-  name: Shuffle
-  description: Shuffle is an open source security automation platform (SOAR) built for and by security professionals. The platform enables security teams to orchestrate workflows across their entire security tool stack using a no-code/low-code interface powered by OpenAPI integrations. Shuffle provides workflow a…
-  api_count: 1
-  score_band: thin
-  score_composite: 43.6
-  shared: 1
 related:
+- slug: containers
+  name: Containers
+  shared: 4
 - slug: workflow-automation
   name: Workflow Automation
   shared: 4
 - slug: ai-automation
   name: AI Automation
-  shared: 3
-- slug: containers
-  name: Containers
   shared: 3
 - slug: embedded-ipaas
   name: Embedded iPaaS
@@ -240,8 +240,8 @@ related:
 overview: 'Orchestration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [orchestration.apievangelist.com](https://orchestration.apievangelist.com).
 
 
-  30 providers on the network work in this area, including UiPath, Workato, Workday Extend, Azure Kubernetes Service, Choreo, Fyno, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including UiPath, Workato, Workday Extend, Azure Kubernetes Service, Azure Kubernetes Service, Choreo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Workflow Automation, AI Automation, Containers, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, Workflow Automation, AI Automation, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -89,42 +89,42 @@ providers:
   name: StackBlitz
   description: StackBlitz is an online development environment that runs Node.js applications entirely in the browser using WebContainers, a WebAssembly-based operating system that boots Node.js in milliseconds without a remote server. It serves developers, technical writers, and platform teams who need interacti…
   api_count: 2
-  score_band: minimal
+  score_band: emerging
   score_composite: 29.4
   shared: 1
 - slug: windsurf
   name: Windsurf
   description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 23.3
   shared: 1
 - slug: jetbrains-plugin
   name: JetBrains Marketplace
   description: JetBrains Marketplace is the official plugin and theme distribution platform for JetBrains IDEs including IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, Rider, and other IntelliJ Platform products. The marketplace hosts thousands of free and paid plugins that extend IDE functionality with new…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 23.2
   shared: 1
 - slug: nx-dev
   name: Nx
   description: Nx is a smart, fast, extensible monorepo build system and integrated CI platform created and maintained by Nrwl. The Nx CLI (Rust core, TypeScript plugins) provides task orchestration, dependency-graph analysis, affected-only execution, local caching, and code generation across Angular, React, Next…
   api_count: 10
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.2
   shared: 1
 - slug: codeium
   name: Codeium
   description: Codeium has been rebranded as Windsurf. The codeium.com URL now redirects to windsurf.com. The legacy Codeium product offered AI-powered code completion, search, and chat across IDEs (VS Code, JetBrains, Vim, Emacs, etc.). Codeium for Enterprise lives on as the enterprise / self-host SKU within Win…
   api_count: 2
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.2
   shared: 1
 - slug: refact-ai
   name: Refact.ai
   description: Refact.ai is an open-source, local-first AI coding assistant and autonomous software-engineering agent built by Small Magellanic Cloud Ai Ltd. ("SmallCloud"). The product combines an IDE-integrated chat experience (Ask / Explore / Debug / Review / Plan modes), accurate code completion powered by Qw…
   api_count: 2
-  score_band: minimal
+  score_band: emerging
   score_composite: 19.5
   shared: 1
 - slug: visual-studio

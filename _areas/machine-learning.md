@@ -6,7 +6,7 @@ description: An index and topic collection covering machine learning APIs, MLOps
 area_url: https://machine-learning.apievangelist.com
 area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
-provider_count: 215
+provider_count: 216
 providers:
 - slug: databricks
   name: Databricks

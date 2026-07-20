@@ -201,21 +201,21 @@ providers:
   name: Jitterbit
   description: Jitterbit is a modern enterprise iPaaS platform infused with AI for API integrations. The Jitterbit Developer Portal provides resources for creating connectors, plugins, templates, and recipes to extend the Jitterbit Harmony platform.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 24.9
   shared: 1
 - slug: oneio
   name: ONEiO
   description: ONEiO is a managed integration service provider delivering IntegrationOps as a Service, providing cloud-based, automation-led integrations for enterprise IT that go live in weeks and evolve automatically.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.4
   shared: 1
 - slug: ifttt
   name: IFTTT
   description: IFTTT (If This Then That) is a consumer and prosumer automation platform that connects more than 750 apps, devices, and services through conditional Applets that chain triggers to actions. The IFTTT Maker Webhooks service exposes a public HTTP API that lets developers fire triggers and execute Appl…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.0
   shared: 1
 related:

@@ -6,7 +6,7 @@ description: An index of container runtime, orchestration, registry, security, a
 area_url: https://containers.apievangelist.com
 area_host: containers.apievangelist.com
 icon: https://containers.apievangelist.com/icon-thumb.png
-provider_count: 101
+provider_count: 102
 providers:
 - slug: cloudflare
   name: Cloudflare
@@ -21,6 +21,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 68.7
+  shared: 1
+- slug: azure-kubernetes-service
+  name: Azure Kubernetes Service
+  description: Azure Kubernetes Service (AKS) simplifies deploying a managed Kubernetes cluster in Azure by offloading the operational overhead to Azure. As a hosted Kubernetes service, Azure handles critical tasks, like health monitoring and maintenance.
+  api_count: 8
+  score_band: strong
+  score_composite: 66.7
   shared: 1
 - slug: anchore
   name: Anchore
@@ -211,22 +218,15 @@ providers:
   score_band: developing
   score_composite: 54.3
   shared: 1
-- slug: openshift
-  name: OpenShift
-  description: A comprehensive API definition for Red Hat OpenShift, the enterprise Kubernetes platform.
-  api_count: 26
-  score_band: developing
-  score_composite: 53.9
-  shared: 1
 related:
 - slug: serverless
   name: Serverless
   shared: 5
-- slug: observability
-  name: Observability
-  shared: 3
 - slug: orchestration
   name: Orchestration
+  shared: 4
+- slug: observability
+  name: Observability
   shared: 3
 - slug: security
   name: Security
@@ -240,8 +240,8 @@ related:
 overview: 'Containers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [containers.apievangelist.com](https://containers.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cloudflare, Amazon ECR, Anchore, Amazon Managed Service for Prometheus, Aqua Security, Red Hat, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Cloudflare, Amazon ECR, Azure Kubernetes Service, Anchore, Amazon Managed Service for Prometheus, Aqua Security, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Serverless, Observability, Orchestration, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Serverless, Orchestration, Observability, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

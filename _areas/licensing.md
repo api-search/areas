@@ -40,35 +40,35 @@ providers:
   name: Getty Images
   description: Getty Images is a premium stock media licensor of editorial and creative photography, illustrations, video, and music. The Getty Images API exposes search, asset metadata, and download endpoints for licensing partners and enterprise customers. Authentication is via API key + OAuth 2.0 client creden…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 28.5
   shared: 1
 - slug: occ
   name: Office of the Comptroller of the Currency (OCC)
   description: The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks. The OCC provides REST APIs and data tools for national bank and federal savings association data, C…
   api_count: 4
-  score_band: minimal
+  score_band: emerging
   score_composite: 26.6
   shared: 1
 - slug: openchain
   name: OpenChain
   description: OpenChain is an international standard (ISO/IEC 5230) under the Linux Foundation for open source license compliance programs. It helps organizations manage open source licensing consistently by providing a benchmark for trust between organizations in the software supply chain.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.6
   shared: 1
 - slug: spdx
   name: SPDX
   description: The Software Package Data Exchange (SPDX) is an open standard under the Linux Foundation for communicating software bill of materials information including components, licenses, copyrights, and security references. It is an ISO/IEC standard (ISO/IEC 5962) used for software supply chain transparency.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.6
   shared: 1
 - slug: universal-music-group
   name: Universal Music Group
   description: 'Universal Music Group N.V. (UMG) is the world''s largest music company, headquartered in Hilversum, Netherlands with operational headquarters in Santa Monica, California. Spun off from Vivendi and listed on Euronext Amsterdam (ticker: UMG) on September 21, 2021 at a EUR 54 billion valuation, UMG ope…'
   api_count: 8
-  score_band: minimal
+  score_band: emerging
   score_composite: 15.3
   shared: 1
 related:

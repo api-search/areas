@@ -61,14 +61,14 @@ providers:
   name: Renovate
   description: Renovate is an open source automated dependency update bot maintained by Mend. It scans repositories for references to dependencies across 100+ package managers — npm, pip, poetry, Maven, Gradle, NuGet, Go modules, Cargo, Bundler, Docker, Helm, Kubernetes, Terraform, GitHub Actions and many more —…
   api_count: 6
-  score_band: minimal
+  score_band: emerging
   score_composite: 28.4
   shared: 1
 - slug: google-chat-integrations-for-workspace
   name: Google Chat Integrations for Workspace
   description: Google Chat is the messaging and collaboration platform built into Google Workspace, allowing teams to chat in direct messages, group conversations, and spaces with threaded discussions, file sharing, tasks, and Chat app integrations. The Google Chat REST API lets developers build Chat apps that se…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.2
   shared: 1
 related: []

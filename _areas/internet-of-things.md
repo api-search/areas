@@ -110,35 +110,35 @@ providers:
   name: Cox Communications
   description: Cox Communications is a leading American telecommunications provider offering broadband internet, cable TV, and phone services for residential and business customers. Cox provides REST APIs for account management, service configuration, network diagnostics, and customer portal integrations across i…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 24.9
   shared: 1
 - slug: comcast
   name: Comcast
   description: Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.8
   shared: 1
 - slug: tcp-ip
   name: TCP/IP
   description: TCP/IP (Transmission Control Protocol/Internet Protocol) is the foundational communication protocol suite that powers the internet and most computer networks. It provides reliable, ordered delivery of data between applications across diverse network hardware through a layered architecture of protoc…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.7
   shared: 1
 - slug: cogent-communications
   name: Cogent Communications
   description: Cogent Communications is a major US corporation and Fortune 1000 company. The Cogent Communications API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.5
   shared: 1
 - slug: vodafone
   name: Vodafone
   description: Vodafone Group plc is a UK-headquartered (Newbury, England) multinational telecommunications company and one of the world's largest mobile and fixed network operators, with operations in 15 country markets and partner-market agreements covering 40+ additional countries across Europe and Africa. The…
   api_count: 27
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.0
   shared: 1
 - slug: cablevision-systems

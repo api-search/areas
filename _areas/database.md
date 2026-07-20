@@ -6,7 +6,7 @@ description: An index and topic collection covering managed databases and databa
 area_url: https://database.apievangelist.com
 area_host: database.apievangelist.com
 icon: https://database.apievangelist.com/icon-thumb.png
-provider_count: 119
+provider_count: 120
 providers:
 - slug: amazon-neptune
   name: Amazon Neptune

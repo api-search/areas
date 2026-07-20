@@ -40,21 +40,21 @@ providers:
   name: Windsurf
   description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 23.3
   shared: 1
 - slug: cline
   name: Cline
   description: Cline (formerly Claude Dev) is an open-source autonomous coding agent. The Cline VS Code extension has 5M+ installs; JetBrains is in early access; the Cline CLI is also available. Edits files, runs commands, uses the browser, and federates to multiple LLM providers. An MCP Marketplace extends Cline…
   api_count: 5
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.9
   shared: 1
 - slug: dia-browser
   name: Dia (The Browser Company)
   description: Dia is The Browser Company's successor browser to Arc, positioned as an AI-native browser that integrates a chat assistant, contextual search across open tabs and connected apps (GSuite, Slack, Notion, GitHub), Morning Brief summaries, automatic Reports, Better Meetings, and Live Work integrations…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.1
   shared: 1
 related:

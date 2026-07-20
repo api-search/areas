@@ -19,7 +19,7 @@ providers:
   name: Selenium
   description: Selenium is a suite of tools for automating web browsers across many platforms. It provides a way to control browsers programmatically for testing web applications and automating browser-based tasks.
   api_count: 2
-  score_band: minimal
+  score_band: emerging
   score_composite: 18.7
   shared: 1
 related: []

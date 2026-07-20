@@ -12,7 +12,7 @@ providers:
   name: An API of Ice And Fire
   description: An API of Ice And Fire is the world's greatest source for quantified and structured data from the universe of A Song of Ice and Fire (and the HBO series Game of Thrones). The open, read-only REST API exposes Books, Characters, and Houses as hypermedia resources with HAL-style URL references, RFC 59…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 29.1
   shared: 1
 related: []

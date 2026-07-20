@@ -12,7 +12,7 @@ providers:
   name: Opendoor
   description: Opendoor is an iBuyer that lets U.S. homeowners request a near-instant cash offer on their home, sell directly to Opendoor, list with Opendoor through its agent network, or browse off-market inventory via Opendoor Exclusives. Founded in 2014 and publicly traded on NASDAQ as OPEN, the company runs b…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 24.7
   shared: 1
 related: []

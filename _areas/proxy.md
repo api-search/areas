@@ -117,56 +117,56 @@ providers:
   name: Dev Proxy
   description: Dev Proxy is a Microsoft command-line tool for simulating, testing, and debugging API interactions during development.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 28.5
   shared: 1
 - slug: oauth2-proxy
   name: Oauth2-Proxy
   description: oauth2-proxy is an open-source reverse proxy that provides authentication with Google, Azure, OpenID Connect, and many more identity providers.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 28.5
   shared: 1
 - slug: varnish
   name: Varnish Cache
   description: Varnish Cache is a high-performance HTTP accelerator and reverse proxy designed for content-heavy dynamic websites and APIs. It sits in front of web servers and caches HTTP responses to serve repeated requests without hitting the backend, dramatically reducing load and latency. Varnish is configure…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.7
   shared: 1
 - slug: pipy
   name: Pipy
   description: Pipy is a high-performance, programmable network proxy designed for cloud, edge, and IoT environments. Written in C++ with an embedded JavaScript engine (PipyJS), it provides a small footprint, broad CPU architecture support, and a modular filter-based architecture for protocol conversion, traffic…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.0
   shared: 1
 - slug: pomerium
   name: Pomerium
   description: Pomerium is an identity-aware reverse proxy that enables secure, zero-trust access to internal applications without a VPN.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.7
   shared: 1
 - slug: mosn
   name: MOSN
   description: MOSN (Modular Open Smart Network) is a cloud-native network proxy written in Go, open-sourced by Ant Group. It serves as a Service Mesh data plane and can function as L4/L7 load balancer, API gateway, and cloud-native ingress, with multi-protocol support including HTTP/1.1, HTTP/2, and gRPC.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.4
   shared: 1
 - slug: proxyman
   name: Proxyman
   description: Proxyman is a modern, native macOS app for HTTP/HTTPS debugging proxy with advanced features for API development and testing.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.4
   shared: 1
 - slug: privoxy
   name: Privoxy
   description: Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page content, and managing cookies.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.1
   shared: 1
 related:

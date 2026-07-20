@@ -54,14 +54,14 @@ providers:
   name: Fiix Software
   description: Fiix (by Rockwell Automation) is a cloud-based CMMS (Computerized Maintenance Management System) platform for maintenance and reliability teams in manufacturing, facilities, and utilities. The Fiix API provides programmatic access to assets, work orders, purchase orders, parts, users, and maintenan…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 18.5
   shared: 1
 - slug: nobl9
   name: Nobl9
   description: Nobl9 is a service-level objective (SLO) management platform that helps engineering and SRE teams define, measure, and act on reliability targets across cloud and observability tools. The platform aggregates data from Datadog, Prometheus, New Relic, Splunk, AWS CloudWatch, and other sources to comp…
   api_count: 2
-  score_band: minimal
+  score_band: emerging
   score_composite: 15.1
   shared: 1
 related:

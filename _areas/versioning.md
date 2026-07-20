@@ -12,14 +12,14 @@ providers:
   name: SilverStripe
   description: SilverStripe is an open-source PHP content management system and framework with a GraphQL and REST API for managing pages, assets, versioning, and custom data objects. It powers 50,000+ live sites and provides a flexible, extensible platform for developers to build content-driven web applications w…
   api_count: 2
-  score_band: minimal
+  score_band: emerging
   score_composite: 29.5
   shared: 1
 - slug: dvc
   name: DVC
   description: DVC (Data Version Control) is an Apache 2.0 open-source CLI and Python library for versioning datasets, models, pipelines, and ML experiments on top of Git. It is not a network service — there is no DVC REST API.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.0
   shared: 1
 related: []

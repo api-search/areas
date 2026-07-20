@@ -103,42 +103,42 @@ providers:
   name: Cheerio
   description: Cheerio is a fast, flexible, and elegant Node.js library for parsing and manipulating HTML and XML using a jQuery-compatible API. It is widely used for server-side web scraping, HTML transformation, data extraction, and static site generation. Cheerio is MIT licensed and distributed as the cheerio…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 26.1
   shared: 1
 - slug: beautiful-soup
   name: Beautiful Soup
   description: Beautiful Soup is a Python library for pulling data out of HTML and XML files, widely used for web scraping and screen scraping tasks. It provides a parse tree API with simple methods for navigating, searching, and modifying parsed HTML/XML documents. Beautiful Soup automatically handles encoding,…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.8
   shared: 1
 - slug: crawlee
   name: Crawlee
   description: Crawlee is an open-source web scraping and crawling library maintained by Apify, providing a unified set of crawler classes, request queues, datasets, and key-value stores for building reliable scrapers. It is available for both JavaScript/TypeScript (Node.js) and Python, offering HTTP, Cheerio, JS…
   api_count: 2
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.8
   shared: 1
 - slug: zyte
   name: Zyte
   description: Zyte is a web data extraction platform providing APIs, smart proxy management, and AI-powered data extraction built on the Scrapy framework.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 20.4
   shared: 1
 - slug: puppeteer
   name: Puppeteer
   description: Puppeteer is a Node.js library providing a high-level API to control headless Chrome or Chromium browsers for web scraping, testing, and automation.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 19.9
   shared: 1
 - slug: scrapy
   name: Scrapy
   description: Scrapy is an open-source Python web crawling framework for extracting structured data from websites using spiders and built-in data pipelines.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 19.9
   shared: 1
 related:

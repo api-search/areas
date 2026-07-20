@@ -54,35 +54,35 @@ providers:
   name: Zayo Group Holdings
   description: Zayo Group Holdings is a major US corporation and Fortune 1000 company. The Zayo Group Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.3
   shared: 1
 - slug: cloudfront
   name: CloudFront
   description: CloudFront is Amazon Web Services' content delivery network (CDN) for delivering data, video, applications, and APIs globally with low latency. This repository is the short-form profile for AWS CloudFront; the canonical AWS service profile lives at amazon-cloudfront in the API Evangelist Network. C…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.1
   shared: 1
 - slug: centurylink
   name: CenturyLink (Lumen Technologies)
   description: CenturyLink is the residential broadband and home services brand of Lumen Technologies, a Fortune 500 telecommunications provider operating one of the largest fiber networks in North America. Following the Level 3 acquisition and rebrand to Lumen, CenturyLink's developer surface is exposed through…
   api_count: 5
-  score_band: minimal
+  score_band: emerging
   score_composite: 19.7
   shared: 1
 - slug: cloudflare-com
   name: Cloudflare.com
   description: cloudflare-com is an alias profile for Cloudflare. The canonical company profile lives at the cloudflare repository in the API Evangelist Network; this entry exists so that the ".com" form of the brand resolves into the same canonical record. Cloudflare's developer surface includes a single unified…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.9
   shared: 1
 - slug: cogent-communications
   name: Cogent Communications
   description: Cogent Communications is a major US corporation and Fortune 1000 company. The Cogent Communications API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 16.5
   shared: 1
 related:

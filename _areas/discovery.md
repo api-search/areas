@@ -103,49 +103,49 @@ providers:
   name: Algolia
   description: Algolia is a hosted search and discovery platform that delivers fast, typo-tolerant search, browse, recommendations, and personalization through a suite of REST APIs and edge-distributed infrastructure. It powers search experiences for ecommerce, media, SaaS, and content sites, pairing a synchronou…
   api_count: 11
-  score_band: minimal
+  score_band: emerging
   score_composite: 27.3
   shared: 1
 - slug: zyla
   name: Zyla
   description: Zyla API Hub is an API marketplace that provides unified access to over 10,000 APIs through a single account, API key, and SDK, simplifying API discovery, integration, and management for developers.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 24.2
   shared: 1
 - slug: api-stack
   name: API Stack
   description: API Stack is a free directory and discovery platform powered by Apideck that catalogs 213+ third-party API tools and services across 50+ categories including API gateways, management, design, authentication, developer portals, specifications, testing, security, monitoring, and marketplaces, helping…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 22.4
   shared: 1
 - slug: launching-next
   name: Launching Next
   description: Launching Next is a startup discovery and submission platform that publishes daily listings of new and trending tech startups and side projects worldwide. Founded as a long-running startup directory, the platform has featured over 45,000 startups and side projects, making it a go-to resource for fo…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.7
   shared: 1
 - slug: podchaser
   name: Podchaser
   description: Podchaser provides one of the most comprehensive podcast databases, exposed through a GraphQL API designed to drive podcast discovery for listeners, podcasters, brands, and platform partners. The API surface is GraphQL-only and is therefore not represented as an OpenAPI specification in this index.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.7
   shared: 1
 - slug: tel-aviv-university
   name: Tel Aviv University
   description: 'Tel Aviv University (TAU) is Israel''s largest public research university, located in Tel Aviv, and is ranked #209 in the QS World University Rankings 2025. TAU does not publish a centralized, public developer portal or open-data API program. Its confirmed machine-accessible surface is limited to st…'
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.7
   shared: 1
 - slug: oclc
   name: OCLC
   description: 'The Discovery API allows you to surface both WorldCat and WorldCat Discovery central index data in search results, including: Materials held by your library and ...'
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 17.9
   shared: 1
 related:

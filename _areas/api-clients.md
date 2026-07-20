@@ -61,70 +61,70 @@ providers:
   name: Firecamp
   description: Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-C…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.0
   shared: 1
 - slug: got
   name: Got
   description: Got is a human-friendly and powerful HTTP request library for Node.js with support for streams, retries, and pagination.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 23.0
   shared: 1
 - slug: http-client
   name: HTTP Client
   description: HTTP Client is JetBrains' built-in tool for creating, editing, and executing HTTP requests directly from the IDE. Requests are stored in .http and .rest files alongside source code, with code highlighting, completion for hosts and methods, code folding, inline documentation, and live templates acce…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 22.9
   shared: 1
 - slug: yaak
   name: Yaak
   description: Yaak is an open-source desktop API client for organizing and executing REST, GraphQL, WebSockets, Server Sent Events, and gRPC requests. Built with Tauri, Rust, and React, it is a privacy-first, fast desktop client with no telemetry and no cloud lock-in.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 22.9
   shared: 1
 - slug: axios
   name: Axios
   description: Axios is a promise-based HTTP client for the browser and Node.js with automatic JSON data transformation and request/response interceptors.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.2
   shared: 1
 - slug: node-fetch
   name: Node-Fetch
   description: node-fetch is a lightweight module that brings the Fetch API to Node.js for making HTTP requests. It is a client library, not an API service, and provides a window.fetch-compatible interface for server-side JavaScript.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.2
   shared: 1
 - slug: ezy
   name: Ezy
   description: ezy is a graphical gRPC and gRPC-Web client for testing and debugging gRPC services with an intuitive desktop interface.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 19.9
   shared: 1
 - slug: nightingale
   name: Nightingale
   description: Nightingale REST Client is a modern, resource-friendly REST API client for Windows.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 19.9
   shared: 1
 - slug: okhttp
   name: OkHttp
   description: OkHttp is an efficient HTTP and HTTP/2 client for Android and Java applications with connection pooling and transparent GZIP.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 19.9
   shared: 1
 - slug: paw
   name: Paw
   description: Paw (now RapidAPI for Mac) is a full-featured HTTP client that lets you test and describe the APIs you build or consume. It provides a native macOS API testing experience with collaboration features.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 19.9
   shared: 1
 related:

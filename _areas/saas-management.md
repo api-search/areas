@@ -6,7 +6,7 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 179
+provider_count: 182
 providers:
 - slug: svix
   name: Svix

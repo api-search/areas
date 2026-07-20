@@ -131,7 +131,7 @@ providers:
   name: Huginn
   description: Huginn is an open-source system for building agents that perform automated tasks online. Self-hosted agents can monitor the web, send and receive events, and trigger workflows. Each Huginn instance exposes a JSON-based HTTP interface (the Web Requests API) that lets external systems trigger scenari…
   api_count: 2
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.7
   shared: 2
 - slug: postman

@@ -75,7 +75,7 @@ providers:
   name: Calypso Migration
   description: Nasdaq Calypso Migration services support financial institutions in migrating data and configurations between Calypso environments. Calypso (formerly Adenza / Calypso Technology) is a cross-asset front-to-back capital markets technology platform used by banks, asset managers, central banks, and cle…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.9
   shared: 1
 related:

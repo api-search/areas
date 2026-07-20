@@ -19,21 +19,21 @@ providers:
   name: Beamer
   description: Beamer is a changelog and notification center tool for announcing product updates, new features, and API changes to end users. It provides an embeddable feed widget, push notifications, email digests, and a public changelog page. The Beamer REST API enables programmatic management of posts, users,…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 28.0
   shared: 1
 - slug: launchnotes
   name: LaunchNotes
   description: LaunchNotes is a release communication platform for sharing changelogs, roadmaps, and deprecation notices. The platform helps product, engineering, and customer-facing teams coordinate launches, communicate releases, and notify customers about deprecations through a structured publishing workflow a…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 26.5
   shared: 1
 - slug: oasdiff
   name: Oasdiff
   description: Oasdiff is an open-source tool for detecting breaking changes and generating changelogs from OpenAPI specifications.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 18.2
   shared: 1
 related: []

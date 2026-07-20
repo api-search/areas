@@ -6,8 +6,15 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 101
+provider_count: 102
 providers:
+- slug: twilio
+  name: Twilio
+  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
+  api_count: 35
+  score_band: exemplar
+  score_composite: 73.2
+  shared: 1
 - slug: kinde
   name: Kinde
   description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
@@ -21,13 +28,6 @@ providers:
   api_count: 10
   score_band: exemplar
   score_composite: 71.4
-  shared: 1
-- slug: twilio
-  name: Twilio
-  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
-  api_count: 35
-  score_band: strong
-  score_composite: 69.3
   shared: 1
 - slug: auth0
   name: Auth0
@@ -240,7 +240,7 @@ related:
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Kinde, Microsoft Active Directory, Twilio, Auth0, PropelAuth, Stytch, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Kinde, Microsoft Active Directory, Auth0, PropelAuth, Stytch, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Security, Agents, Communications, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'

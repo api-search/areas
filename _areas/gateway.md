@@ -89,7 +89,7 @@ providers:
   name: Pinata
   description: Pinata is an IPFS pinning and dedicated-gateway provider with a Files API, IPFS Pinning Service API, dedicated Gateways, Groups, and Workspaces. Built around IPFS CIDs with JWT-authenticated REST APIs and an SDK.
   api_count: 4
-  score_band: minimal
+  score_band: emerging
   score_composite: 19.4
   shared: 1
 related:

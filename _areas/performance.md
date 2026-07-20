@@ -103,14 +103,14 @@ providers:
   name: Merbridge
   description: Merbridge is an open source, eBPF-based service mesh acceleration tool that replaces iptables rules with eBPF traffic interception and uses msg_redirect to shorten the datapath between sidecars and services. It is a CNCF Sandbox project and supports Istio, Linkerd2, and Kuma.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 22.9
   shared: 1
 - slug: grafast
   name: Grafast
   description: Next-generation PostgreSQL-backed GraphQL planning and execution engine from the Graphile project, replacing graphql-js execution with a plan-based approach to eliminate N+1 queries.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 15.1
   shared: 1
 related:

@@ -152,28 +152,28 @@ providers:
   name: Loki
   description: Loki is an open source log aggregation system from Grafana Labs designed to store and query logs efficiently using labels instead of full-text indexing.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 28.8
   shared: 1
 - slug: log4j
   name: Apache Log4j
   description: Apache Log4j is a versatile, industrial-grade Java logging framework composed of an API, its implementation, and components to assist deployment for various use cases. It is part of the Apache Logging Services project. Log4j is a Java library distributed as Maven artifacts and is consumed via its J…
   api_count: 2
-  score_band: minimal
+  score_band: emerging
   score_composite: 27.3
   shared: 1
 - slug: graylog
   name: Graylog
   description: Graylog is an open source log management platform for collecting, indexing, and analyzing log data with alerting and dashboard capabilities.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 23.4
   shared: 1
 - slug: airbrake
   name: Airbrake
   description: Airbrake is an error monitoring and application performance management platform that captures exceptions, deployments, and performance traces across web, mobile, and backend applications using language-specific notifier libraries. The platform aggregates errors with smart grouping, routing alerts t…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 22.1
   shared: 1
 related:

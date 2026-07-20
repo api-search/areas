@@ -6,7 +6,7 @@ description: An index and topic collection covering webhook delivery, ingestion,
 area_url: https://webhooks.apievangelist.com
 area_host: webhooks.apievangelist.com
 icon: https://webhooks.apievangelist.com/icon-thumb.png
-provider_count: 165
+provider_count: 166
 providers:
 - slug: svix
   name: Svix

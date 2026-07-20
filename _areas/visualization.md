@@ -124,14 +124,14 @@ providers:
   name: Qlik Mashups
   description: APIs and resources for building custom visualizations and analytics applications using Qlik Sense mashups.
   api_count: 5
-  score_band: minimal
+  score_band: emerging
   score_composite: 24.1
   shared: 1
 - slug: matplotlib
   name: Matplotlib
   description: Matplotlib is a comprehensive open source library for creating static, animated, and interactive visualizations in Python. It provides a MATLAB-like interface via pyplot and an object-oriented API for full customization of publication-quality figures and plots.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 21.5
   shared: 1
 related:

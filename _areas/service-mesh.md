@@ -166,56 +166,56 @@ providers:
   name: Greymatter
   description: Greymatter is a Kubernetes-native, zero trust networking platform that delivers secure, agentic, and scalable service connectivity across multi-cloud, hybrid, and edge environments. It provides a unified platform with five integrated layers covering service connectivity, zero trust security, orches…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 29.9
   shared: 1
 - slug: service-mesh-interface
   name: Service Mesh Interface (SMI)
   description: 'Service Mesh Interface (SMI) was a CNCF Sandbox specification that defined a standard, vendor-neutral set of Kubernetes Custom Resource Definitions (CRDs) for the most common service mesh capabilities: traffic policy, traffic telemetry, and traffic management. SMI''s stated mission was "a standard i…'
   api_count: 4
-  score_band: minimal
+  score_band: emerging
   score_composite: 29.7
   shared: 1
 - slug: tekion
   name: Tekion
   description: Tekion is a cloud-native, AI-native automotive retail platform whose flagship Automotive Retail Cloud (ARC) is a modern dealer management system (DMS) spanning sales, service, parts, inventory, F&I, accounting, and CRM for franchise dealerships and OEMs. Tekion exposes its data and workflows to tec…
   api_count: 6
-  score_band: minimal
+  score_band: emerging
   score_composite: 29.7
   shared: 1
 - slug: calico
   name: Calico
   description: Calico is an open source networking and network security solution for containers, virtual machines, and native host-based workloads. Created and maintained by Tigera, it is the most widely adopted solution for container networking and security, powering over 8 million nodes daily across 166 countri…
   api_count: 3
-  score_band: minimal
+  score_band: emerging
   score_composite: 28.1
   shared: 1
 - slug: buoyant
   name: Buoyant
   description: Buoyant is the creator of Linkerd, the CNCF-graduated service mesh for Kubernetes. Linkerd provides zero-trust security via mutual TLS, ultra-high availability with automated failover, and observability for microservices including AI/LLM workloads. Buoyant Enterprise Linkerd adds enterprise feature…
   api_count: 2
-  score_band: minimal
+  score_band: emerging
   score_composite: 27.6
   shared: 1
 - slug: ambient-mesh
   name: Ambient Mesh
   description: Ambient Mesh is a sidecar-less service mesh architecture built on Istio that simplifies microservices communication, enhances zero-trust security, and improves observability without requiring sidecar proxy injection. It uses a shared per-node proxy (ztunnel) for zero-trust security and optional way…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 26.3
   shared: 1
 - slug: nginx-service-mesh
   name: NGINX Service Mesh
   description: NGINX Service Mesh (NSM) is a service mesh from F5 NGINX powered by NGINX Plus, designed to manage container-to-container traffic in Kubernetes environments. It provides mTLS, traffic policies via the Service Mesh Interface (SMI), traffic splitting, rate limiting, observability (Prometheus, Grafana…
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 25.0
   shared: 1
 - slug: tripo3d
   name: Tripo3D
   description: Tripo3D (by VAST) is an AI 3D generation platform with text-to-3D, image-to-3D, mesh refinement, and texturing APIs producing game-ready 3D assets. The Tripo API uses an async task-based REST pattern at https://api.tripo3d.ai/v2/openapi/task. Authenticate with API key.
   api_count: 1
-  score_band: minimal
+  score_band: emerging
   score_composite: 23.4
   shared: 1
 related:
