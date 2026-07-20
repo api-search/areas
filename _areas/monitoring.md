@@ -6,7 +6,7 @@ description: An index and topic collection covering API monitoring, application 
 area_url: https://monitoring.apievangelist.com
 area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
-provider_count: 92
+provider_count: 117
 providers:
 - slug: new-relic
   name: New Relic
@@ -43,6 +43,13 @@ providers:
   score_band: strong
   score_composite: 68.9
   shared: 1
+- slug: oracle-enterprise-manager
+  name: Oracle Enterprise Manager
+  description: Oracle Enterprise Manager (OEM) provides a comprehensive management platform for managing Oracle IT infrastructure and applications. The APIs enable programmatic access to monitoring, administration, and automation capabilities.
+  api_count: 17
+  score_band: strong
+  score_composite: 68.5
+  shared: 1
 - slug: amazon-managed-grafana
   name: Amazon Managed Grafana
   description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
@@ -64,12 +71,12 @@ providers:
   score_band: strong
   score_composite: 67.0
   shared: 1
-- slug: oracle-enterprise-manager
-  name: Oracle Enterprise Manager
-  description: Oracle Enterprise Manager (OEM) provides a comprehensive management platform for managing Oracle IT infrastructure and applications. The APIs enable programmatic access to monitoring, administration, and automation capabilities.
-  api_count: 17
+- slug: grafana
+  name: Grafana
+  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
+  api_count: 1
   score_band: strong
-  score_composite: 65.5
+  score_composite: 65.2
   shared: 1
 - slug: amazon-managed-prometheus
   name: Amazon Managed Service for Prometheus
@@ -112,13 +119,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 60.4
-  shared: 1
-- slug: grafana
-  name: Grafana
-  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.1
   shared: 1
 - slug: amazon-guardduty
   name: Amazon GuardDuty
@@ -240,7 +240,7 @@ related:
 overview: 'Monitoring is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monitoring.apievangelist.com](https://monitoring.apievangelist.com).
 
 
-  30 providers on the network work in this area, including New Relic, Datadog, Azure Log Analytics, Azure Monitor, Raygun, Amazon Managed Grafana, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including New Relic, Datadog, Azure Log Analytics, Azure Monitor, Raygun, Oracle Enterprise Manager, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, Logging, Visualization, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'

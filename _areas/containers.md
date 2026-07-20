@@ -8,6 +8,13 @@ area_host: containers.apievangelist.com
 icon: https://containers.apievangelist.com/icon-thumb.png
 provider_count: 102
 providers:
+- slug: red-hat
+  name: Red Hat
+  description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
+  api_count: 49
+  score_band: exemplar
+  score_composite: 70.3
+  shared: 1
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
@@ -21,6 +28,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 68.7
+  shared: 1
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 56
+  score_band: strong
+  score_composite: 66.9
   shared: 1
 - slug: azure-kubernetes-service
   name: Azure Kubernetes Service
@@ -50,26 +64,12 @@ providers:
   score_band: strong
   score_composite: 64.9
   shared: 1
-- slug: red-hat
-  name: Red Hat
-  description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
-  api_count: 49
-  score_band: strong
-  score_composite: 64.9
-  shared: 1
 - slug: microsoft-azure-kubernetes-service
   name: Azure Kubernetes Service
   description: Azure Kubernetes Service (AKS) simplifies deploying a managed Kubernetes cluster in Azure by offloading the operational overhead to Azure. As a hosted Kubernetes service, Azure handles critical tasks, like health monitoring and maintenance.
   api_count: 8
   score_band: strong
   score_composite: 64.5
-  shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
-  api_count: 56
-  score_band: strong
-  score_composite: 63.6
   shared: 1
 - slug: paperspace
   name: Paperspace
@@ -211,37 +211,37 @@ providers:
   score_band: developing
   score_composite: 54.5
   shared: 1
-- slug: solaris-zones
-  name: Solaris Zones
-  description: API for managing Solaris Zones (containers) and virtualization on Oracle Solaris systems.
-  api_count: 9
+- slug: kubernetes
+  name: Kubernetes
+  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
+  api_count: 1
   score_band: developing
-  score_composite: 54.3
+  score_composite: 54.4
   shared: 1
 related:
+- slug: orchestration
+  name: Orchestration
+  shared: 5
 - slug: serverless
   name: Serverless
   shared: 5
-- slug: orchestration
-  name: Orchestration
-  shared: 4
+- slug: deployment
+  name: Deployment
+  shared: 3
 - slug: observability
   name: Observability
   shared: 3
 - slug: security
   name: Security
   shared: 3
-- slug: deployment
-  name: Deployment
-  shared: 2
 - slug: machine-learning
   name: Machine Learning
   shared: 2
 overview: 'Containers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [containers.apievangelist.com](https://containers.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cloudflare, Amazon ECR, Azure Kubernetes Service, Anchore, Amazon Managed Service for Prometheus, Aqua Security, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Red Hat, Cloudflare, Amazon ECR, IBM, Azure Kubernetes Service, Anchore, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Serverless, Orchestration, Observability, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Orchestration, Serverless, Deployment, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

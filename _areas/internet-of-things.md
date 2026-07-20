@@ -6,7 +6,7 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 20
+provider_count: 24
 providers:
 - slug: shodan
   name: Shodan
@@ -78,12 +78,33 @@ providers:
   score_band: developing
   score_composite: 51.3
   shared: 1
+- slug: bitfinder
+  name: Bitfinder
+  description: Bitfinder, Inc., doing business as Awair, builds indoor air quality (IAQ) monitors and a cloud platform used across homes, offices, schools, and commercial spaces. Its devices (Awair Element, Awair Omni, and 2nd Edition) measure the Awair Score along with temperature, humidity, CO2, chemicals (VOC)…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.4
+  shared: 1
+- slug: esper
+  name: Esper
+  description: Esper is the DevOps platform for connected devices, providing cloud-based Android (and edge) device management, application deployment, and remote orchestration for dedicated-device fleets. The Esper Manage REST API lets developers programmatically provision, monitor, and control Android-based dedi…
+  api_count: 1
+  score_band: thin
+  score_composite: 42.3
+  shared: 1
 - slug: lumen-technologies
   name: Lumen Technologies
   description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Center, Lumen exposes REST APIs that allow customers to programm…
   api_count: 2
   score_band: thin
   score_composite: 38.9
+  shared: 1
+- slug: lisnr
+  name: LISNR
+  description: LISNR is a Cincinnati, Ohio company whose ultrasonic data-over-audio technology transmits data between devices using inaudible high-frequency tones instead of radio. Its Radius SDKs (Radius, Radius 3, Point, and the legacy and SDA product lines) embed a transmitter/receiver into iOS, Android, React…
+  api_count: 2
+  score_band: thin
+  score_composite: 36.3
   shared: 1
 - slug: ubidots
   name: Ubidots
@@ -105,6 +126,13 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 31.7
+  shared: 1
+- slug: liesheng
+  name: Liesheng Group
+  description: Liesheng Group (猎声集团 / Liesheng Technology) is a Dongguan, Guangdong based consumer-electronics company founded on 25 May 2015 as one of Xiaomi's first ecosystem-chain suppliers. It operates as a global ODM/OEM solution provider — it engineered the Redmi AirDots true-wireless earbuds — while buildi…
+  api_count: 2
+  score_band: thin
+  score_composite: 30.2
   shared: 1
 - slug: cox
   name: Cox Communications
@@ -158,20 +186,20 @@ related:
 - slug: analysis
   name: Analysis
   shared: 1
-- slug: dns
-  name: DNS
-  shared: 1
 - slug: industrial
   name: Industrial
   shared: 1
 - slug: search
   name: API Evangelist Search
   shared: 1
+- slug: dns
+  name: DNS
+  shared: 1
 overview: 'Internet of Things is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [internet-of-things.apievangelist.com](https://internet-of-things.apievangelist.com).
 
 
-  20 providers on the network work in this area, including Shodan, TagoIO, Adafruit IO, emnify, ThingSpeak, Losant, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  24 providers on the network work in this area, including Shodan, TagoIO, Adafruit IO, emnify, ThingSpeak, Losant, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Network, Embedded iPaaS, Analysis, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Network, Embedded iPaaS, Analysis, and Industrial. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

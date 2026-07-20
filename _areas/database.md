@@ -6,7 +6,7 @@ description: An index and topic collection covering managed databases and databa
 area_url: https://database.apievangelist.com
 area_host: database.apievangelist.com
 icon: https://database.apievangelist.com/icon-thumb.png
-provider_count: 120
+provider_count: 131
 providers:
 - slug: amazon-neptune
   name: Amazon Neptune
@@ -43,6 +43,13 @@ providers:
   score_band: exemplar
   score_composite: 70.0
   shared: 1
+- slug: notion
+  name: Notion
+  description: Notion is an all-in-one workspace that combines notes, tasks, wikis, and databases. The Notion API allows developers to integrate Notion with other tools and build custom applications on top of Notion's platform.
+  api_count: 1
+  score_band: strong
+  score_composite: 69.4
+  shared: 1
 - slug: oracle-goldengate
   name: Oracle GoldenGate
   description: Oracle GoldenGate enables real-time data integration and replication in heterogeneous IT environments. These APIs provide programmatic access to manage and monitor GoldenGate deployments, processes, and configurations.
@@ -70,13 +77,6 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 66.9
-  shared: 1
-- slug: notion
-  name: Notion
-  description: Notion is an all-in-one workspace that combines notes, tasks, wikis, and databases. The Notion API allows developers to integrate Notion with other tools and build custom applications on top of Notion's platform.
-  api_count: 1
-  score_band: strong
-  score_composite: 66.4
   shared: 1
 - slug: amazon-keyspaces
   name: Amazon Keyspaces
@@ -211,12 +211,12 @@ providers:
   score_band: developing
   score_composite: 57.9
   shared: 1
-- slug: nocodb
-  name: NocoDB
-  description: NocoDB is an open-source, self-hostable alternative to Airtable that turns any relational database — MySQL, PostgreSQL, Microsoft SQL Server, or SQLite — into a collaborative smart spreadsheet. It exposes a versioned REST API (v2 and v3) with separate Data APIs for record CRUD operations and Meta A…
+- slug: kurrent
+  name: Kurrent
+  description: Kurrent — formerly Event Store Ltd — builds KurrentDB, an event-native database purpose-built to store, process and deliver application state changes as an immutable, append-only log of events. Where a traditional CRUD database overwrites rows and discards the history that produced them, KurrentDB…
   api_count: 2
   score_band: developing
-  score_composite: 57.5
+  score_composite: 57.7
   shared: 1
 related:
 - slug: serverless
@@ -225,11 +225,11 @@ related:
 - slug: migration
   name: Migration
   shared: 1
-- slug: gateway
-  name: Gateway
-  shared: 1
 - slug: caching
   name: Caching
+  shared: 1
+- slug: gateway
+  name: Gateway
   shared: 1
 - slug: virtualization
   name: Virtualization
@@ -240,8 +240,8 @@ related:
 overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [database.apievangelist.com](https://database.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Neptune, Bubble, YugabyteDB, Oracle, Amazon DynamoDB, Oracle GoldenGate, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Neptune, Bubble, YugabyteDB, Oracle, Amazon DynamoDB, Notion, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Serverless, Migration, Gateway, and Caching. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Serverless, Migration, Caching, and Gateway. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

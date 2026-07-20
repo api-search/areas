@@ -6,7 +6,7 @@ description: Service mesh is a dedicated infrastructure layer for handling servi
 area_url: https://service-mesh.apievangelist.com
 area_host: service-mesh.apievangelist.com
 icon: https://service-mesh.apievangelist.com/icon-thumb.png
-provider_count: 34
+provider_count: 35
 providers:
 - slug: aws-app-mesh
   name: AWS App Mesh
@@ -91,6 +91,13 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 49.2
+  shared: 1
+- slug: isovalent
+  name: Isovalent
+  description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium project (a CNCF graduated project), the Hubble observability laye…
+  api_count: 3
+  score_band: developing
+  score_composite: 49.0
   shared: 1
 - slug: amazon-vpc-lattice
   name: Amazon VPC Lattice
@@ -211,17 +218,10 @@ providers:
   score_band: emerging
   score_composite: 25.0
   shared: 1
-- slug: tripo3d
-  name: Tripo3D
-  description: Tripo3D (by VAST) is an AI 3D generation platform with text-to-3D, image-to-3D, mesh refinement, and texturing APIs producing game-ready 3D assets. The Tripo API uses an async task-based REST pattern at https://api.tripo3d.ai/v2/openapi/task. Authenticate with API key.
-  api_count: 1
-  score_band: emerging
-  score_composite: 23.4
-  shared: 1
 related:
 - slug: microservices
   name: Microservices
-  shared: 5
+  shared: 6
 - slug: performance
   name: Performance
   shared: 1

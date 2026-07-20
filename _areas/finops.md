@@ -6,7 +6,7 @@ description: FinOps is a cloud financial management discipline combining technol
 area_url: https://finops.apievangelist.com
 area_host: finops.apievangelist.com
 icon: https://finops.apievangelist.com/icon-thumb.png
-provider_count: 49
+provider_count: 54
 providers:
 - slug: amberflo
   name: Amberflo
@@ -106,13 +106,6 @@ providers:
   score_band: developing
   score_composite: 50.4
   shared: 1
-- slug: spot
-  name: Spot
-  description: Spot by Flexera provides cloud infrastructure automation and optimization solutions. The platform includes Elastigroup for compute workload management across spot, reserved, and on-demand instances, Ocean for Kubernetes and container infrastructure automation, and Eco for cloud commitment managemen…
-  api_count: 5
-  score_band: developing
-  score_composite: 50.4
-  shared: 1
 - slug: amazon-billing-and-cost-management
   name: Amazon Billing And Cost Management
   description: AWS Billing and Cost Management is a suite of tools and APIs that enables organizations to view, analyze, forecast, budget, and optimize their AWS spending. It includes AWS Cost Explorer for cost analysis, AWS Budgets for budget tracking and alerts, Cost Anomaly Detection for ML-powered anomaly ide…
@@ -155,12 +148,33 @@ providers:
   score_band: developing
   score_composite: 45.6
   shared: 1
+- slug: devtron
+  name: Devtron
+  description: Devtron is an open-source, AI-native Kubernetes management and software delivery platform that unifies application, infrastructure, and cost management for engineering, DevOps, and SRE teams. It provides Kubernetes-native CI/CD, GitOps (ArgoCD/FluxCD), multi-cluster operations, security and complia…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.2
+  shared: 1
 - slug: scalr
   name: Scalr
   description: Scalr is an enterprise-grade, drop-in replacement for Terraform Cloud and a remote Terraform operations backend that provides cost estimation, policy enforcement, and collaborative infrastructure management. Scalr features a hierarchical account-environment-workspace model, full compatibility with…
   api_count: 4
   score_band: developing
   score_composite: 45.1
+  shared: 1
+- slug: alphaus
+  name: Alphaus
+  description: Alphaus is a Tokyo-based cloud FinOps company (No. 1 in Japan) whose platform helps enterprises, managed service providers, and cloud resellers manage and optimize multi-cloud spend across AWS, Azure, and GCP. Its products include Octo (cost visibility and optimization), Ripple and WavePro (reselle…
+  api_count: 1
+  score_band: thin
+  score_composite: 44.3
+  shared: 1
+- slug: archera
+  name: Archera
+  description: Archera is a cloud financial operations (FinOps) platform that helps organizations reduce cloud spend by 20-30% through intelligent commitment management and insured, short-term cloud commitments across AWS, Azure, and Google Cloud. Its Guaranteed Commitments (Guaranteed Savings Plans, Guaranteed R…
+  api_count: 2
+  score_band: thin
+  score_composite: 44.3
   shared: 1
 - slug: cloudhealth
   name: CloudHealth
@@ -203,20 +217,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 38.0
-  shared: 1
-- slug: densify
-  name: Densify
-  description: Densify (now Kubex) provides a machine learning powered cloud and container optimization platform that continuously right-sizes resources to reduce cost and improve performance across Kubernetes, public cloud, and virtualized environments. The Densify REST API exposes optimization analysis, recomme…
-  api_count: 2
-  score_band: thin
-  score_composite: 37.5
-  shared: 1
-- slug: sequence-hq
-  name: Sequence
-  description: Sequence is a usage-based billing, pricing, and revenue orchestration platform for B2B SaaS and other recurring-revenue businesses. It turns product usage and negotiated contract terms into automated billing schedules, invoices, credit notes, and quotes, backed by a metering engine for usage events…
-  api_count: 6
-  score_band: thin
-  score_composite: 37.0
   shared: 1
 related:
 - slug: observability

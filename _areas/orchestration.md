@@ -6,7 +6,7 @@ description: An index and topic collection covering container orchestration and 
 area_url: https://orchestration.apievangelist.com
 area_host: orchestration.apievangelist.com
 icon: https://orchestration.apievangelist.com/icon-thumb.png
-provider_count: 53
+provider_count: 58
 providers:
 - slug: uipath
   name: UiPath
@@ -64,6 +64,13 @@ providers:
   score_band: strong
   score_composite: 62.1
   shared: 1
+- slug: apache-airflow
+  name: Apache Airflow
+  description: Apache Airflow is an open-source platform to programmatically author, schedule, and monitor workflows, developed by the Apache Software Foundation. It allows you to define workflows as Directed Acyclic Graphs (DAGs) in Python code, making them maintainable, versionable, testable, and collaborative.…
+  api_count: 2
+  score_band: strong
+  score_composite: 61.3
+  shared: 1
 - slug: transmit-security
   name: Transmit Security
   description: Transmit Security provides the Mosaic platform, a comprehensive CIAM (Customer Identity and Access Management) solution offering REST APIs for passkey and WebAuthn authentication, fraud detection and risk-based access control, identity orchestration, identity verification, and user journey manageme…
@@ -92,13 +99,6 @@ providers:
   score_band: developing
   score_composite: 58.6
   shared: 1
-- slug: apache-airflow
-  name: Apache Airflow
-  description: Apache Airflow is an open-source platform to programmatically author, schedule, and monitor workflows, developed by the Apache Software Foundation. It allows you to define workflows as Directed Acyclic Graphs (DAGs) in Python code, making them maintainable, versionable, testable, and collaborative.…
-  api_count: 2
-  score_band: developing
-  score_composite: 58.3
-  shared: 1
 - slug: aws-step-functions
   name: AWS Step Functions
   description: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error handling and retries.
@@ -112,6 +112,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 57.6
+  shared: 1
+- slug: kubernetes
+  name: Kubernetes
+  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
+  api_count: 1
+  score_band: developing
+  score_composite: 54.4
   shared: 1
 - slug: ansible-automation-platform
   name: Ansible Automation Platform
@@ -140,13 +147,6 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 51.8
-  shared: 1
-- slug: kubernetes
-  name: Kubernetes
-  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.4
   shared: 1
 - slug: ansible
   name: Ansible
@@ -221,12 +221,12 @@ providers:
 related:
 - slug: containers
   name: Containers
-  shared: 4
-- slug: workflow-automation
-  name: Workflow Automation
-  shared: 4
+  shared: 5
 - slug: ai-automation
   name: AI Automation
+  shared: 3
+- slug: workflow-automation
+  name: Workflow Automation
   shared: 3
 - slug: embedded-ipaas
   name: Embedded iPaaS
@@ -243,5 +243,5 @@ overview: 'Orchestration is one of the API Evangelist areas on the [APIs.io](htt
   30 providers on the network work in this area, including UiPath, Workato, Workday Extend, Azure Kubernetes Service, Azure Kubernetes Service, Choreo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, Workflow Automation, AI Automation, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, AI Automation, Workflow Automation, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

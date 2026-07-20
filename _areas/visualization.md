@@ -8,6 +8,13 @@ area_host: visualization.apievangelist.com
 icon: https://visualization.apievangelist.com/icon-thumb.png
 provider_count: 18
 providers:
+- slug: power-bi
+  name: Power BI
+  description: Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. It provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards.
+  api_count: 6
+  score_band: strong
+  score_composite: 68.0
+  shared: 1
 - slug: amazon-managed-grafana
   name: Amazon Managed Grafana
   description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
@@ -21,6 +28,13 @@ providers:
   api_count: 4
   score_band: strong
   score_composite: 66.4
+  shared: 1
+- slug: grafana
+  name: Grafana
+  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.2
   shared: 1
 - slug: microsoft-visio
   name: Microsoft Visio
@@ -36,26 +50,12 @@ providers:
   score_band: strong
   score_composite: 62.2
   shared: 1
-- slug: power-bi
-  name: Power BI
-  description: Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. It provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards.
-  api_count: 6
-  score_band: strong
-  score_composite: 62.1
-  shared: 1
 - slug: qlik-sense
   name: Qlik Sense
   description: APIs for Qlik Sense, a business intelligence and data analytics platform providing engine, repository, cloud, embedding, and data integration capabilities.
   api_count: 6
   score_band: strong
   score_composite: 60.6
-  shared: 1
-- slug: grafana
-  name: Grafana
-  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.1
   shared: 1
 - slug: visio
   name: Microsoft Visio API
@@ -147,7 +147,7 @@ related:
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Amazon Managed Grafana, Google Data Studio, Microsoft Visio, Amazon QuickSight, Power BI, Qlik Sense, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Power BI, Amazon Managed Grafana, Google Data Studio, Grafana, Microsoft Visio, Amazon QuickSight, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monitoring, Observability, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'

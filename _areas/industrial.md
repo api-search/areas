@@ -6,7 +6,7 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 27
+provider_count: 29
 providers:
 - slug: eaton
   name: Eaton
@@ -35,6 +35,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 49.7
+  shared: 1
+- slug: cosmo-tech
+  name: Cosmo Tech
+  description: Cosmo Tech is a predictive and prescriptive AI-simulation (digital twin) platform for industry, based in Lyon, France and backed by Insight Partners. Its open-source Cosmo Tech Cloud Platform API (Kotlin, MIT) lets teams model organizations, workspaces, solutions, datasets, runners and runs, then c…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.5
   shared: 1
 - slug: timken
   name: Timken
@@ -105,6 +112,13 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 21.6
+  shared: 1
+- slug: ermeo
+  name: Ermeo
+  description: Ermeo (rebranded Causeway Field) is a French connected-operator / field-operations SaaS platform that lets industrial and field teams digitize paper procedures into dynamic, interactive workflows for inspections, maintenance, and interventions. Operators complete pre-built interactive forms on mobi…
+  api_count: 1
+  score_band: emerging
+  score_composite: 18.0
   shared: 1
 - slug: kaman
   name: Kaman Corporation
@@ -204,7 +218,7 @@ related:
 overview: 'Industrial is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [industrial.apievangelist.com](https://industrial.apievangelist.com).
 
 
-  27 providers on the network work in this area, including Eaton, Siemens MindSphere, 3M, Archrock, Timken, Vishay Intertechnology, and 21 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  29 providers on the network work in this area, including Eaton, Siemens MindSphere, 3M, Archrock, Cosmo Tech, Timken, and 23 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'

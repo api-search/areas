@@ -6,8 +6,15 @@ description: An index and topic collection covering serverless compute, function
 area_url: https://serverless.apievangelist.com
 area_host: serverless.apievangelist.com
 icon: https://serverless.apievangelist.com/icon-thumb.png
-provider_count: 103
+provider_count: 111
 providers:
+- slug: fal-ai
+  name: fal
+  description: fal (Features and Labels, Inc.) is a generative media platform providing the world's fastest API for running image, video, audio, and multimodal generative AI models. Through a unified queue-based REST API at https://queue.fal.run, plus realtime WebSocket and SSE streaming surfaces, fal serves 1,00…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 70.8
+  shared: 1
 - slug: amazon-dynamodb
   name: Amazon DynamoDB
   description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-value and document data models.
@@ -57,6 +64,13 @@ providers:
   score_band: strong
   score_composite: 67.3
   shared: 1
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 56
+  score_band: strong
+  score_composite: 66.9
+  shared: 1
 - slug: amazon-eventbridge-pipes
   name: Amazon EventBridge Pipes
   description: Amazon EventBridge Pipes helps you create point-to-point integrations between event producers and consumers with optional transform, filter, and enrich steps. It reduces the amount of integration code you need to write and maintain when building event-driven applications.
@@ -70,13 +84,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 66.3
-  shared: 1
-- slug: fal-ai
-  name: fal
-  description: fal (Features and Labels, Inc.) is a generative media platform providing the world's fastest API for running image, video, audio, and multimodal generative AI models. Through a unified queue-based REST API at https://queue.fal.run, plus realtime WebSocket and SSE streaming surfaces, fal serves 1,00…
-  api_count: 9
-  score_band: strong
-  score_composite: 65.7
   shared: 1
 - slug: microsoft-azure-web-pubsub
   name: Azure Web PubSub
@@ -98,13 +105,6 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 63.9
-  shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
-  api_count: 56
-  score_band: strong
-  score_composite: 63.6
   shared: 1
 - slug: amazon-eventbridge
   name: Amazon EventBridge
@@ -234,13 +234,13 @@ related:
 - slug: gateway
   name: Gateway
   shared: 1
-- slug: dns
-  name: DNS
+- slug: search
+  name: API Evangelist Search
   shared: 1
 overview: 'Serverless is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [serverless.apievangelist.com](https://serverless.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon DynamoDB, Amazon API Gateway, Cloudflare, Amazon EFS, Amazon Lambda, Amazon Serverless Application Repository, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including fal, Amazon DynamoDB, Amazon API Gateway, Cloudflare, Amazon EFS, Amazon Lambda, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, Database, Microservices, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

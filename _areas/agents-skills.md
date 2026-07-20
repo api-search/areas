@@ -6,8 +6,15 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 7
+provider_count: 14
 providers:
+- slug: bitpanda
+  name: Bitpanda
+  description: Bitpanda is a European retail investment platform, founded in Vienna in 2014, that lets users buy, sell, and hold cryptocurrencies, stocks, ETFs, precious metals, commodities, and crypto indices from a single account. Its developer surface centres on the read-only Bitpanda Platform API (developer.b…
+  api_count: 1
+  score_band: developing
+  score_composite: 55.8
+  shared: 1
 - slug: smithery-ai
   name: Smithery
   description: Smithery is an MCP server registry and hosting platform that lets developers discover, publish, and connect to Model Context Protocol servers from any AI agent. The platform combines a public registry of thousands of community MCP servers with a managed gateway that handles OAuth, credential storag…
@@ -15,12 +22,33 @@ providers:
   score_band: developing
   score_composite: 55.5
   shared: 1
+- slug: 360learning
+  name: 360Learning
+  description: '360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automate the platform: provision and activate users, organize them…'
+  api_count: 5
+  score_band: developing
+  score_composite: 51.2
+  shared: 1
+- slug: lightrun
+  name: Lightrun
+  description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.7
+  shared: 1
 - slug: smithery
   name: Smithery
   description: Smithery is a platform for discovering, deploying, and managing Model Context Protocol (MCP) servers and skills. It operates a public registry of community-built MCP extensions that AI agents can use to access external tools, data sources, and services, plus a Connect gateway that bundles connectio…
   api_count: 1
   score_band: developing
   score_composite: 50.7
+  shared: 1
+- slug: cloud-academy
+  name: Cloud Academy
+  description: Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines.…
+  api_count: 1
+  score_band: thin
+  score_composite: 44.9
   shared: 1
 - slug: cursor
   name: Cursor
@@ -35,6 +63,27 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 37.8
+  shared: 1
+- slug: gloat
+  name: Gloat
+  description: 'Gloat is an AI-native workforce orchestration and talent-marketplace platform. Its developer APIs let enterprises connect HR, learning, and skills data to Gloat: syncing users, jobs, projects, candidacies, and learning items, and maintaining a skills-and-job-architecture ontology (the Skills Founda…'
+  api_count: 1
+  score_band: thin
+  score_composite: 33.6
+  shared: 1
+- slug: instawork
+  name: Instawork
+  description: Instawork is a flexible-staffing marketplace that connects businesses in hospitality, warehouse, events, retail, and food service with vetted hourly workers ("Pros") for short-term shifts across the USA and Canada. Businesses post or rebook shifts and Instawork's ML-driven "Smart assign" matching f…
+  api_count: 1
+  score_band: emerging
+  score_composite: 27.1
+  shared: 1
+- slug: fibe
+  name: Fibe
+  description: Fibe (formerly EarlySalary) is a digital consumer lending platform in India, founded in 2015 and headquartered in Pune. It offers instant personal loans up to Rs 10 lakh, loans against mutual funds, fixed deposits, a co-branded Fibe Axis Bank credit card, insurance, and purpose-driven (BNPL) financ…
+  api_count: 1
+  score_band: emerging
+  score_composite: 24.6
   shared: 1
 - slug: windsurf
   name: Windsurf
@@ -64,14 +113,14 @@ related:
 - slug: agents
   name: Agents
   shared: 1
-- slug: cli
-  name: Command Line Interface
+- slug: logging
+  name: Logging
   shared: 1
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
-  7 providers on the network work in this area, including Smithery, Smithery, Cursor, Agent Skills, Windsurf, Cline, and 1 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  14 providers on the network work in this area, including Bitpanda, Smithery, 360Learning, Lightrun, Smithery, Cloud Academy, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: IDE, Agents, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: IDE, Agents, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

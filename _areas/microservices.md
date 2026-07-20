@@ -6,7 +6,7 @@ description: An index of microservices architecture frameworks, service discover
 area_url: https://microservices.apievangelist.com
 area_host: microservices.apievangelist.com
 icon: https://microservices.apievangelist.com/icon-thumb.png
-provider_count: 96
+provider_count: 92
 providers:
 - slug: apigee
   name: Apigee
@@ -20,7 +20,7 @@ providers:
   description: NVIDIA NIM (NVIDIA Inference Microservices) is a catalog of GPU-accelerated, containerized AI inference microservices that package optimized model engines (TensorRT-LLM, vLLM, SGLang, Triton) behind industry-standard OpenAI-compatible REST APIs. NIM covers large language models, embeddings and rera…
   api_count: 10
   score_band: strong
-  score_composite: 66.8
+  score_composite: 69.9
   shared: 1
 - slug: aws-app-mesh
   name: AWS App Mesh
@@ -169,13 +169,6 @@ providers:
   score_band: developing
   score_composite: 50.8
   shared: 1
-- slug: architectural-design-patterns
-  name: Architectural Design Patterns
-  description: Architectural Design Patterns are reusable solutions to commonly occurring problems in software architecture. They provide templates for designing system structure, component interactions, and overall organization of applications across a range of industries and technical contexts.
-  api_count: 1
-  score_band: developing
-  score_composite: 50.6
-  shared: 1
 - slug: dapr
   name: Dapr
   description: Dapr (Distributed Application Runtime) is a portable, event-driven runtime that makes it easy for developers to build resilient, stateless, and stateful applications that run on the cloud and edge. It provides building block APIs for state management, pub/sub messaging, service invocation, bindings…
@@ -218,10 +211,17 @@ providers:
   score_band: developing
   score_composite: 48.8
   shared: 1
+- slug: amazon-app-mesh
+  name: Amazon App Mesh
+  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
+  api_count: 1
+  score_band: developing
+  score_composite: 48.2
+  shared: 1
 related:
 - slug: service-mesh
   name: Service Mesh
-  shared: 5
+  shared: 6
 - slug: containers
   name: Containers
   shared: 2

@@ -89,17 +89,17 @@ related:
 - slug: internet-of-things
   name: Internet of Things
   shared: 3
-- slug: dns
-  name: DNS
-  shared: 2
 - slug: caching
   name: Caching
   shared: 1
-- slug: logging
-  name: Logging
-  shared: 1
 - slug: search
   name: API Evangelist Search
+  shared: 1
+- slug: dns
+  name: DNS
+  shared: 1
+- slug: logging
+  name: Logging
   shared: 1
 - slug: security
   name: Security
@@ -110,5 +110,5 @@ overview: 'Network is one of the API Evangelist areas on the [APIs.io](https://a
   11 providers on the network work in this area, including Shodan, AT&T, Azure Load Balancer, Lumen Technologies, systemd, Orange, and 5 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Internet of Things, DNS, Caching, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Internet of Things, Caching, API Evangelist Search, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

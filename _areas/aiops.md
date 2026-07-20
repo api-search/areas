@@ -6,7 +6,7 @@ description: AIOps applies artificial intelligence and machine learning to IT op
 area_url: https://aiops.apievangelist.com
 area_host: aiops.apievangelist.com
 icon: https://aiops.apievangelist.com/icon-thumb.png
-provider_count: 23
+provider_count: 30
 providers:
 - slug: logz-io
   name: Logz.io
@@ -22,6 +22,27 @@ providers:
   score_band: strong
   score_composite: 60.7
   shared: 1
+- slug: kentik
+  name: Kentik
+  description: Kentik is a network observability company whose SaaS platform (the Kentik Portal) unifies network flow records, BGP routing, SNMP and streaming telemetry, synthetic tests, and cloud VPC/flow logs into one analytics engine for network performance monitoring, capacity planning, DDoS detection and mit…
+  api_count: 20
+  score_band: developing
+  score_composite: 52.9
+  shared: 1
+- slug: deeptrace
+  name: Deeptrace
+  description: Deeptrace is an AI SRE (site reliability engineering) agent that automatically investigates and root-causes production alerts by reasoning across logs, traces, metrics, and code. It triages and prioritizes alerts, produces evidence-backed root cause analyses in a couple of minutes, answers natural-…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.9
+  shared: 1
+- slug: chamber
+  name: Chamber
+  description: Chamber is an AIOps control plane for enterprise AI infrastructure (Y Combinator W26, Seattle). Its always-on agent — Chambie — monitors, diagnoses, and automatically resolves GPU workload failures across AWS, GCP, Azure, and on-premise Kubernetes clusters, and optimizes utilization so ML teams can…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.7
+  shared: 1
 - slug: incident-io
   name: Incident.io
   description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
@@ -29,12 +50,26 @@ providers:
   score_band: thin
   score_composite: 41.6
   shared: 1
+- slug: doctor-droid
+  name: Doctor Droid
+  description: Doctor Droid (DrDroid), built by Deep Sea Tech Inc., is an AI-powered SRE and on-call agent that builds a knowledge graph of your technology stack — cloud, code, and telemetry — to accelerate incident response and root-cause analysis. DroidAgent runs automated investigations from the dashboard, fro…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.7
+  shared: 1
 - slug: mist-ai
   name: Juniper Mist AI
   description: Juniper Mist AI is the AI-driven enterprise networking platform that powers Juniper Networks' AI-Native Networking portfolio. Acquired by Juniper Networks in 2019, Mist pioneered cloud-native, microservices Wi-Fi and extended its AIOps approach across Wired Assurance (EX/QFX switches), WAN Assuranc…
   api_count: 3
   score_band: thin
   score_composite: 37.4
+  shared: 1
+- slug: brownie
+  name: IncidentFox (Brownie)
+  description: IncidentFox (the company was surfaced in the API Evangelist network under its Y Combinator portfolio codename "Brownie") is an open-source, AI-powered SRE platform that automates production incident investigation and response. Its multi-agent system triages alerts, queries logs, metrics, traces and…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.4
   shared: 1
 - slug: soda-data
   name: Soda
@@ -84,6 +119,20 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 29.4
+  shared: 1
+- slug: carrot-labs
+  name: Carrot Labs
+  description: Carrot Labs is the company behind SuperPenguin, an AI spend intelligence platform that tracks, attributes, and forecasts spending across 14+ LLM, speech, and gateway providers including OpenAI, Anthropic, Google Gemini, AWS Bedrock, Vercel AI Gateway, Deepgram, ElevenLabs, LiveKit, and LiteLLM. Sup…
+  api_count: 1
+  score_band: emerging
+  score_composite: 28.6
+  shared: 1
+- slug: kosmoslabs
+  name: Kosmos AI Labs
+  description: Kosmos AI Labs builds an operational intelligence platform that correlates signals across fragmented enterprise systems — Jira, Salesforce Service Cloud, GitHub, ServiceNow, Zendesk, Linear, Bitbucket, Azure DevOps, Pylon and OpenTelemetry — to surface Risk Events with ranked causes and supporting…
+  api_count: 1
+  score_band: emerging
+  score_composite: 28.0
   shared: 1
 - slug: opsramp
   name: OpsRamp
@@ -179,7 +228,7 @@ related:
 overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aiops.apievangelist.com](https://aiops.apievangelist.com).
 
 
-  23 providers on the network work in this area, including Logz.io, Honeycomb, Incident.io, Juniper Mist AI, Soda, FireHydrant, and 17 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Logz.io, Honeycomb, Kentik, Deeptrace, Chamber, Incident.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'

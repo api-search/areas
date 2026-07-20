@@ -6,7 +6,7 @@ description: An index and topic collection covering webhook delivery, ingestion,
 area_url: https://webhooks.apievangelist.com
 area_host: webhooks.apievangelist.com
 icon: https://webhooks.apievangelist.com/icon-thumb.png
-provider_count: 166
+provider_count: 274
 providers:
 - slug: svix
   name: Svix
@@ -36,26 +36,33 @@ providers:
   score_band: exemplar
   score_composite: 70.2
   shared: 1
+- slug: knock-app
+  name: Knock
+  description: Knock is notifications infrastructure as a service — a product and customer messaging platform you use to power transactional, lifecycle, broadcast, and in-product messaging across email, SMS, push, in-app, in-app guides, chat (Slack / Discord / Teams / WhatsApp), and outbound webhooks. Knock expos…
+  api_count: 14
+  score_band: strong
+  score_composite: 69.3
+  shared: 1
 - slug: composio
   name: Composio
   description: Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router…
   api_count: 8
   score_band: strong
-  score_composite: 66.1
-  shared: 1
-- slug: buildkite-com
-  name: Buildkite
-  description: Buildkite is a hybrid CI/CD platform that combines a hosted control plane (pipelines.buildkite.com) with self-hosted or Buildkite-Hosted agents that run jobs on customer-controlled infrastructure. The platform spans three core products — Pipelines, Test Engine, and Package Registries — and exposes…
-  api_count: 5
-  score_band: strong
-  score_composite: 66.0
+  score_composite: 69.2
   shared: 1
 - slug: storyblok
   name: Storyblok
   description: Storyblok is a headless content management system (CMS) with a visual editor that enables developers and content editors to collaboratively build and manage digital experiences. It provides APIs for content delivery, content management, image optimization, and webhook-based event notifications. Sto…
   api_count: 4
   score_band: strong
-  score_composite: 65.9
+  score_composite: 68.8
+  shared: 1
+- slug: buildkite-com
+  name: Buildkite
+  description: Buildkite is a hybrid CI/CD platform that combines a hosted control plane (pipelines.buildkite.com) with self-hosted or Buildkite-Hosted agents that run jobs on customer-controlled infrastructure. The platform spans three core products — Pipelines, Test Engine, and Package Registries — and exposes…
+  api_count: 5
+  score_band: strong
+  score_composite: 67.8
   shared: 1
 - slug: square
   name: Square
@@ -77,13 +84,6 @@ providers:
   api_count: 8
   score_band: strong
   score_composite: 65.1
-  shared: 1
-- slug: knock-app
-  name: Knock
-  description: Knock is notifications infrastructure as a service — a product and customer messaging platform you use to power transactional, lifecycle, broadcast, and in-product messaging across email, SMS, push, in-app, in-app guides, chat (Slack / Discord / Teams / WhatsApp), and outbound webhooks. Knock expos…
-  api_count: 14
-  score_band: strong
-  score_composite: 64.9
   shared: 1
 - slug: allegion
   name: Allegion
@@ -240,7 +240,7 @@ related:
 overview: 'Webhooks is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [webhooks.apievangelist.com](https://webhooks.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Svix, Hookdeck, Vercel, Fastly, Composio, Buildkite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Svix, Hookdeck, Vercel, Fastly, Knock, Composio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Integrations, Observability, Embedded iPaaS, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,7 +6,7 @@ description: AI automation combines artificial intelligence with workflow and pr
 area_url: https://ai-automation.apievangelist.com
 area_host: ai-automation.apievangelist.com
 icon: https://ai-automation.apievangelist.com/icon-thumb.png
-provider_count: 165
+provider_count: 193
 providers:
 - slug: postman
   name: Postman
@@ -14,6 +14,13 @@ providers:
   api_count: 17
   score_band: exemplar
   score_composite: 75.3
+  shared: 1
+- slug: servicenow
+  name: ServiceNow
+  description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
+  api_count: 57
+  score_band: exemplar
+  score_composite: 73.4
   shared: 1
 - slug: amazon-ec2-image-builder
   name: Amazon EC2 Image Builder
@@ -36,6 +43,13 @@ providers:
   score_band: exemplar
   score_composite: 71.7
   shared: 1
+- slug: microsoft-power-automate
+  name: Microsoft Power Automate
+  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automated, instant, and scheduled cloud flows, as well as desktop f…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 71.3
+  shared: 1
 - slug: cloudformation
   name: AWS CloudFormation
   description: A collection of APIs provided by AWS for infrastructure as code provisioning and management of AWS and third-party resources using CloudFormation templates and the Cloud Control API.
@@ -57,6 +71,13 @@ providers:
   score_band: exemplar
   score_composite: 70.5
   shared: 1
+- slug: microsoft-excel
+  name: Microsoft Excel
+  description: APIs for automating, integrating, and extending Microsoft Excel functionality including workbook management, data manipulation, charting, and formula execution through Microsoft Graph REST APIs.
+  api_count: 3
+  score_band: exemplar
+  score_composite: 70.4
+  shared: 1
 - slug: oracle-integration
   name: Oracle Integration
   description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
@@ -71,13 +92,6 @@ providers:
   score_band: strong
   score_composite: 69.7
   shared: 1
-- slug: servicenow
-  name: ServiceNow
-  description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
-  api_count: 57
-  score_band: strong
-  score_composite: 67.5
-  shared: 1
 - slug: amazon-data-lifecycle-manager
   name: Amazon Data Lifecycle Manager
   description: Amazon Data Lifecycle Manager provides an automated way to manage the lifecycle of your AWS resources. Using lifecycle policies, you can automate the creation, retention, and deletion of Amazon EBS snapshots and EBS-backed AMIs, reducing storage costs and simplifying backup management. Policies tar…
@@ -91,13 +105,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 65.1
-  shared: 1
-- slug: microsoft-power-automate
-  name: Microsoft Power Automate
-  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automated, instant, and scheduled cloud flows, as well as desktop f…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.6
   shared: 1
 - slug: amazon-incident-manager
   name: Amazon Incident Manager
@@ -155,6 +162,13 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 1
+- slug: chef
+  name: Chef
+  description: Chef (Progress Chef) provides infrastructure automation, compliance, and application delivery tooling. Chef exposes REST APIs for the Infra Server (managing nodes, cookbooks, roles, environments, and data bags), Chef Automate (visibility into convergence, compliance, and deployment), Habitat Builde…
+  api_count: 4
+  score_band: strong
+  score_composite: 62.6
+  shared: 1
 - slug: windmill
   name: Windmill
   description: Windmill is an open-source developer platform and workflow engine for turning scripts into webhooks, workflows, and internal apps. It supports TypeScript, Python, Go, PHP, Bash, C#, SQL, and Rust, and serves as an open-source alternative to Retool, Airflow, and Temporal for building comprehensive i…
@@ -162,19 +176,19 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 1
-- slug: microsoft-excel
-  name: Microsoft Excel
-  description: APIs for automating, integrating, and extending Microsoft Excel functionality including workbook management, data manipulation, charting, and formula execution through Microsoft Graph REST APIs.
-  api_count: 3
-  score_band: strong
-  score_composite: 62.4
-  shared: 1
 - slug: baserow
   name: Baserow
   description: Baserow is an open-source no-code database platform that allows teams to build databases, automations, applications, and AI agents without writing code. It offers a REST API for programmatically managing workspaces, databases, tables, rows, fields, and views. The platform is available as a cloud-ho…
   api_count: 1
   score_band: strong
   score_composite: 61.2
+  shared: 1
+- slug: celonis
+  name: Celonis
+  description: Celonis is the process intelligence and process mining company. Its cloud platform ingests event data from enterprise systems, builds Knowledge Models of how business processes actually run, and surfaces KPIs, bottlenecks and automation opportunities. For developers Celonis publishes a Developer Ce…
+  api_count: 7
+  score_band: strong
+  score_composite: 60.1
   shared: 1
 - slug: salesforce-automation
   name: Salesforce Automation
@@ -197,51 +211,37 @@ providers:
   score_band: developing
   score_composite: 59.1
   shared: 1
-- slug: sauce-labs
-  name: Sauce Labs
-  description: Sauce Labs is a cloud-based cross-browser and mobile app testing platform trusted by over 100,000 customers worldwide. It provides a comprehensive set of REST APIs for managing test jobs, devices, builds, insights, and results across virtual and real device clouds. The platform supports automated t…
-  api_count: 10
+- slug: fundamental-research-labs
+  name: Fundamental Research Labs
+  description: Fundamental Research Labs (formerly Altera) is an applied AI research company building autonomous, collaborative AI agents, founded by researchers from MIT EECS, the Stanford NLP Group, Google X, and Citadel and backed by Andreessen Horowitz and Prosus. Its flagship product, Shortcut, is an AI anal…
+  api_count: 1
   score_band: developing
   score_composite: 58.2
-  shared: 1
-- slug: snaplogic
-  name: SnapLogic
-  description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
-  api_count: 4
-  score_band: developing
-  score_composite: 57.9
-  shared: 1
-- slug: salesforce-flow
-  name: Salesforce Flow
-  description: The Salesforce Flow API enables developers to interact with and manage Salesforce Flow automation processes programmatically. This includes creating, updating, querying, and executing flows within Salesforce using the REST API, Tooling API, and Invocable Actions framework.
-  api_count: 3
-  score_band: developing
-  score_composite: 57.7
   shared: 1
 related:
 - slug: workflow-automation
   name: Workflow Automation
-  shared: 16
+  shared: 8
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 6
+  shared: 5
 - slug: integrations
   name: Integrations
-  shared: 4
-- slug: ipaas
-  name: iPaaS
-  shared: 4
-- slug: management
-  name: Management
-  shared: 2
+  shared: 3
 - slug: orchestration
   name: Orchestration
   shared: 3
+- slug: ipaas
+  name: iPaaS
+  shared: 3
+- slug: saas-management
+  name: SaaS Management
+  shared: 2
 overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ai-automation.apievangelist.com](https://ai-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, Amazon EC2 Image Builder, Appian, UiPath, AWS CloudFormation, Boomi, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, ServiceNow, Amazon EC2 Image Builder, Appian, UiPath, Microsoft Power Automate, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Workflow Automation, Embedded iPaaS, Integrations, and iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Workflow Automation, Embedded iPaaS, Integrations, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

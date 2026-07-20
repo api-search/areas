@@ -6,7 +6,7 @@ description: An index and topic collection covering chatbots, conversational age
 area_url: https://bots.apievangelist.com
 area_host: bots.apievangelist.com
 icon: https://bots.apievangelist.com/icon-thumb.png
-provider_count: 9
+provider_count: 13
 providers:
 - slug: slack
   name: Slack
@@ -29,6 +29,13 @@ providers:
   score_band: developing
   score_composite: 50.9
   shared: 1
+- slug: highrise
+  name: Highrise
+  description: 'Highrise is a mobile-first virtual world by Pocket Worlds Inc where users create avatars, hang out in social rooms, design and trade fashion items, and build custom worlds. Alongside the consumer app, Highrise operates a developer platform for creators: a WebSocket Bot API for running programmable…'
+  api_count: 3
+  score_band: developing
+  score_composite: 49.7
+  shared: 1
 - slug: telegram
   name: Telegram
   description: Telegram is a cloud-based instant messaging and voice-over-IP service that provides a comprehensive Bot API for developers to build bots, automate workflows, send notifications, and create interactive experiences on the Telegram platform. The platform supports text messages, media sharing, payments…
@@ -42,6 +49,20 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 43.0
+  shared: 1
+- slug: kataai
+  name: Kata.ai
+  description: Kata.ai is an Indonesian enterprise conversational-AI company that builds AI agents and chatbots for customer experience, marketing, sales, and HR across financial services, retail, healthcare, automotive, and government. Its developer-facing Kata Platform lets teams create bot projects that bundle…
+  api_count: 2
+  score_band: thin
+  score_composite: 40.8
+  shared: 1
+- slug: hummingbot
+  name: Hummingbot
+  description: 'Hummingbot is an open source Python framework, maintained by the Hummingbot Foundation, that lets traders build and run automated, high-frequency crypto trading strategies across both centralized (CEX) and decentralized (DEX) venues. The project ships several developer-facing components: the Hummin…'
+  api_count: 2
+  score_band: thin
+  score_composite: 36.2
   shared: 1
 - slug: liveperson
   name: LivePerson
@@ -64,6 +85,13 @@ providers:
   score_band: emerging
   score_composite: 28.4
   shared: 1
+- slug: groupme
+  name: GroupMe
+  description: GroupMe is a group messaging application, owned by Microsoft, that lets people chat in named groups and direct conversations across iOS, Android, and the web, including over SMS. For developers, GroupMe publishes the GroupMe API v3 — a REST + JSON API at https://api.groupme.com/v3 authenticated wit…
+  api_count: 1
+  score_band: emerging
+  score_composite: 27.5
+  shared: 1
 - slug: google-chat-integrations-for-workspace
   name: Google Chat Integrations for Workspace
   description: Google Chat is the messaging and collaboration platform built into Google Workspace, allowing teams to chat in direct messages, group conversations, and spaces with threaded discussions, file sharing, tasks, and Chat app integrations. The Google Chat REST API lets developers build Chat apps that se…
@@ -75,5 +103,5 @@ related: []
 overview: 'Bots is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [bots.apievangelist.com](https://bots.apievangelist.com).
 
 
-  9 providers on the network work in this area, including Slack, Lichess, Zoho Cliq, Telegram, Microsoft Bot Framework, LivePerson, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  13 providers on the network work in this area, including Slack, Lichess, Zoho Cliq, Highrise, Telegram, Microsoft Bot Framework, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

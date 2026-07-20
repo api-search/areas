@@ -6,8 +6,15 @@ description: An index and topic collection covering integrated development envir
 area_url: https://ide.apievangelist.com
 area_host: ide.apievangelist.com
 icon: https://ide.apievangelist.com/icon-thumb.png
-provider_count: 19
+provider_count: 20
 providers:
+- slug: github-copilot
+  name: GitHub Copilot
+  description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
+  api_count: 12
+  score_band: strong
+  score_composite: 64.5
+  shared: 1
 - slug: workday-studio
   name: Workday Studio
   description: Workday Studio is an integrated development environment (IDE) for building custom integrations and applications on the Workday platform. It provides tools for creating web services, custom reports, and integration solutions.
@@ -22,19 +29,19 @@ providers:
   score_band: strong
   score_composite: 62.7
   shared: 1
-- slug: github-copilot
-  name: GitHub Copilot
-  description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
-  api_count: 12
-  score_band: strong
-  score_composite: 61.4
-  shared: 1
 - slug: amazon-cloud9
   name: Amazon Cloud9
   description: AWS Cloud9 is a browser-based integrated development environment (IDE) that enables developers to write, run, and debug code without installing local software. Supports 40+ programming languages with real-time collaboration, integrated terminal, and pre-authenticated AWS CLI.
   api_count: 1
   score_band: developing
   score_composite: 55.8
+  shared: 1
+- slug: anysphere
+  name: Anysphere
+  description: Anysphere is the applied-research company behind Cursor, the AI-native code editor and agent platform. Beyond the desktop app, Cursor ships a public Cloud Agents REST API (https://api.cursor.com) that lets developers programmatically create autonomous coding agents, submit prompt runs, stream run e…
+  api_count: 1
+  score_band: developing
+  score_composite: 55.5
   shared: 1
 - slug: vs-code-marketplace
   name: VS Code Marketplace
@@ -154,16 +161,16 @@ related:
 - slug: finops
   name: FinOps
   shared: 1
+- slug: machine-learning
+  name: Machine Learning
+  shared: 1
 - slug: observability
   name: Observability
-  shared: 1
-- slug: orchestration
-  name: Orchestration
   shared: 1
 overview: 'IDE is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ide.apievangelist.com](https://ide.apievangelist.com).
 
 
-  19 providers on the network work in this area, including Workday Studio, Choreo, GitHub Copilot, Amazon Cloud9, VS Code Marketplace, JupyterLab, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  20 providers on the network work in this area, including GitHub Copilot, Workday Studio, Choreo, Amazon Cloud9, Anysphere, VS Code Marketplace, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agent Skills, Unified APIs, Agents, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'

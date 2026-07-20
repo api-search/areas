@@ -6,7 +6,7 @@ description: A collection of services, tooling, and open source solutions for AP
 area_url: https://gateway.apievangelist.com
 area_host: gateway.apievangelist.com
 icon: https://gateway.apievangelist.com/icon-thumb.png
-provider_count: 12
+provider_count: 13
 providers:
 - slug: amazon-storage-gateway
   name: Amazon Storage Gateway
@@ -35,6 +35,13 @@ providers:
   api_count: 12
   score_band: developing
   score_composite: 58.6
+  shared: 1
+- slug: dedaluslabs
+  name: Dedalus Labs
+  description: 'Dedalus Labs builds infrastructure for AI agents. It runs two production APIs: the Dedalus Agents API, an OpenAI-compatible MCP gateway that lets you mix and match any model from any provider with tools drawn from the Dedalus MCP marketplace (chat completions, embeddings, audio, images, and OCR thr…'
+  api_count: 2
+  score_band: developing
+  score_composite: 51.9
   shared: 1
 - slug: osmapi
   name: osmAPI
@@ -102,7 +109,7 @@ related:
 overview: 'Gateway is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [gateway.apievangelist.com](https://gateway.apievangelist.com).
 
 
-  12 providers on the network work in this area, including Amazon Storage Gateway, Amazon API Gateway, OpenRouter, Couchbase, osmAPI, Requesty, and 6 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  13 providers on the network work in this area, including Amazon Storage Gateway, Amazon API Gateway, OpenRouter, Couchbase, Dedalus Labs, osmAPI, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Database and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'

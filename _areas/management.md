@@ -53,15 +53,15 @@ providers:
 related:
 - slug: saas-management
   name: SaaS Management
-  shared: 5
-- slug: ai-automation
-  name: AI Automation
-  shared: 2
+  shared: 4
 - slug: integrations
   name: Integrations
   shared: 2
 - slug: virtualization
   name: Virtualization
+  shared: 1
+- slug: ai-automation
+  name: AI Automation
   shared: 1
 - slug: embedded-ipaas
   name: Embedded iPaaS
@@ -75,5 +75,5 @@ overview: 'Management is one of the API Evangelist areas on the [APIs.io](https:
   Providers on the network working in this area include Boomi, Dell Servers, SnapLogic, WunderGraph, Amazon Systems Manager, and Broadcom — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: SaaS Management, AI Automation, Integrations, and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: SaaS Management, Integrations, Virtualization, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

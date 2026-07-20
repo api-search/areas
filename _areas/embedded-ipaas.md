@@ -6,7 +6,7 @@ description: This is the index of embedded iPaaS service and tooling repos being
 area_url: https://embedded-ipaas.apievangelist.com
 area_host: embedded-ipaas.apievangelist.com
 icon: https://embedded-ipaas.apievangelist.com/icon-thumb.png
-provider_count: 59
+provider_count: 61
 providers:
 - slug: workato
   name: Workato
@@ -22,6 +22,13 @@ providers:
   score_band: thin
   score_composite: 35.8
   shared: 2
+- slug: zapier
+  name: Zapier
+  description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
+  api_count: 4
+  score_band: exemplar
+  score_composite: 73.2
+  shared: 1
 - slug: paragon
   name: Paragon
   description: Paragon is the Integration Infrastructure Platform for B2B SaaS and AI products. The platform combines Connect Portal (managed user authentication for 130+ SaaS apps), Workflows (event-driven async orchestration), ActionKit (Universal API + MCP server giving AI agents synchronous CRUD access to Int…
@@ -35,13 +42,6 @@ providers:
   api_count: 4
   score_band: exemplar
   score_composite: 70.3
-  shared: 1
-- slug: zapier
-  name: Zapier
-  description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
-  api_count: 4
-  score_band: strong
-  score_composite: 68.1
   shared: 1
 - slug: viam
   name: Viam
@@ -227,10 +227,10 @@ related:
   shared: 13
 - slug: ai-automation
   name: AI Automation
-  shared: 6
+  shared: 5
 - slug: workflow-automation
   name: Workflow Automation
-  shared: 5
+  shared: 4
 - slug: internet-of-things
   name: Internet of Things
   shared: 2
@@ -240,7 +240,7 @@ related:
 overview: 'Embedded iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [embedded-ipaas.apievangelist.com](https://embedded-ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Workato, Alloy Automation, Paragon, Oracle Integration, Zapier, Viam, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Workato, Alloy Automation, Zapier, Paragon, Oracle Integration, Viam, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: iPaaS, Integrations, AI Automation, and Workflow Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

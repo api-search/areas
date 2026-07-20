@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://testing.apievangelist.com
 area_host: testing.apievangelist.com
 icon: https://testing.apievangelist.com/icon-thumb.png
-provider_count: 84
+provider_count: 94
 providers:
 - slug: postman
   name: Postman
@@ -50,6 +50,13 @@ providers:
   score_band: developing
   score_composite: 59.7
   shared: 1
+- slug: coval
+  name: Coval
+  description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Coval supports inbound/outbound voice, standard chat, chat over…
+  api_count: 1
+  score_band: developing
+  score_composite: 58.7
+  shared: 1
 - slug: teamcity
   name: TeamCity
   description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing projects, build configurations, agents, and infrastructure.
@@ -63,6 +70,13 @@ providers:
   api_count: 10
   score_band: developing
   score_composite: 58.2
+  shared: 1
+- slug: gradle
+  name: Gradle
+  description: Gradle Inc. (Gradle Technologies) is the company behind the open-source Gradle Build Tool, downloaded more than 25 million times a month across the Java, JVM, Android, Kotlin, C/C++, and native ecosystems, and Develocity (formerly Gradle Enterprise), its commercial Developer Productivity Engineerin…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.1
   shared: 1
 - slug: lambdatest
   name: LambdaTest
@@ -91,6 +105,13 @@ providers:
   api_count: 16
   score_band: developing
   score_composite: 54.4
+  shared: 1
+- slug: kubeshop
+  name: Kubeshop
+  description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypress, Playwright, k6, JMeter, pytest and others — then aggreg…
+  api_count: 3
+  score_band: developing
+  score_composite: 52.5
   shared: 1
 - slug: insomnia
   name: Insomnia
@@ -126,6 +147,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 49.3
+  shared: 1
+- slug: emerge-tools
+  name: Emerge Tools
+  description: Emerge Tools is a mobile developer-tools platform used by teams at DoorDash, Square, and Duolingo to ship faster, smaller, better-performing iOS and Android apps. Its products include Size Analysis (monitor and reduce app size with PR alerts and competitor benchmarking), Snapshots (visual regressio…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.1
   shared: 1
 - slug: wiremock
   name: WireMock
@@ -190,41 +218,13 @@ providers:
   score_band: thin
   score_composite: 44.3
   shared: 1
-- slug: rest-assured
-  name: REST Assured
-  description: REST Assured is a Java library for simplifying the testing and validation of RESTful APIs. It provides a fluent domain-specific language (DSL) built on the given-when-then BDD pattern, making it easy to write readable and maintainable API tests. REST Assured supports HTTP methods GET, POST, PUT, DE…
-  api_count: 1
-  score_band: thin
-  score_composite: 43.6
-  shared: 1
-- slug: cucumber
-  name: Cucumber
-  description: Cucumber is an open-source Behavior Driven Development (BDD) tool for running automated tests written in plain language using the Gherkin syntax. It enables collaboration between technical and non-technical team members by expressing executable specifications as Given/When/Then scenarios. Cucumber…
-  api_count: 5
-  score_band: thin
-  score_composite: 41.9
-  shared: 1
-- slug: jsonplaceholder
-  name: JSONPlaceholder
-  description: JSONPlaceholder is a free, no-auth fake REST API for prototyping, tutorials, and testing. It exposes six relational resources — posts, comments, albums, photos, todos, and users — over six standard REST routes per resource. All write operations (POST, PUT, PATCH, DELETE) are accepted and respond as…
-  api_count: 1
-  score_band: thin
-  score_composite: 41.6
-  shared: 1
-- slug: json-placeholder
-  name: JSONPlaceholder
-  description: Free fake REST API for testing and prototyping providing mock data for posts, comments, albums, photos, todos, and users without any setup. Handles approximately 3 billion requests per month and supports all standard HTTP methods with CORS and JSONP support.
-  api_count: 1
-  score_band: thin
-  score_composite: 40.7
-  shared: 1
 related:
 - slug: documentation
   name: Documentation
   shared: 4
 - slug: ai-automation
   name: AI Automation
-  shared: 3
+  shared: 2
 - slug: workflow-automation
   name: Workflow Automation
   shared: 2

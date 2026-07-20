@@ -6,7 +6,7 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 53
+provider_count: 64
 providers:
 - slug: didomi
   name: Didomi
@@ -78,6 +78,13 @@ providers:
   score_band: developing
   score_composite: 53.5
   shared: 1
+- slug: inth
+  name: Inth
+  description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-source, developer-first consent management platform with 3M+ npm…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.4
+  shared: 1
 - slug: listrak
   name: Listrak
   description: Retail digital marketing platform with a REST API for managing email and SMS campaigns, subscriber data, behavioral triggers, and cross-channel marketing automation
@@ -105,6 +112,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 52.1
+  shared: 1
+- slug: certifaction
+  name: Certifaction
+  description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electroni…'
+  api_count: 2
+  score_band: developing
+  score_composite: 51.7
   shared: 1
 - slug: matomo
   name: Matomo
@@ -148,6 +162,20 @@ providers:
   score_band: developing
   score_composite: 47.8
   shared: 1
+- slug: aleo
+  name: Aleo
+  description: Aleo is a privacy-first, zero-knowledge Layer-1 blockchain for building fully private applications. Developers write smart contracts in Leo — a purpose-built language for zero-knowledge applications — compile them with snarkVM, and run them on the decentralized snarkOS network, keeping inputs, outp…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.6
+  shared: 1
+- slug: diaspora
+  name: Diaspora
+  description: diaspora* is a privacy-aware, decentralized, open source social network, launched in 2010 and released under the AGPL. Rather than running on servers owned by a single company, diaspora* runs as a federated network of independently operated servers called "pods" — anyone can join an existing pod or…
+  api_count: 1
+  score_band: thin
+  score_composite: 44.7
+  shared: 1
 - slug: monero
   name: Monero
   description: Monero is a privacy-focused, decentralized cryptocurrency providing JSON-RPC APIs for wallet management, transaction creation, mining coordination, and blockchain data access on the Monero (XMR) network. The daemon RPC exposes node and chain operations while the wallet RPC provides comprehensive wa…
@@ -169,6 +197,13 @@ providers:
   score_band: thin
   score_composite: 42.3
   shared: 1
+- slug: incountry
+  name: InCountry
+  description: InCountry is a data-residency-as-a-service (DRaaS) platform that lets companies store, process, and comply with the data-localization and privacy laws of specific countries without building in-country infrastructure. Its OAuth2-secured REST API stores regulated records (PII, financial, and health d…
+  api_count: 1
+  score_band: thin
+  score_composite: 39.8
+  shared: 1
 - slug: freshpaint
   name: Freshpaint
   description: Freshpaint is a healthcare privacy platform and customer-data platform that collects first-party event data and governs it for HIPAA compliance before fanning it out to 100+ marketing, analytics, and data destinations. Its server-side HTTP API ingests track, identify, page, and screen events at htt…
@@ -183,45 +218,10 @@ providers:
   score_band: thin
   score_composite: 39.2
   shared: 1
-- slug: simpleanalytics
-  name: Simple Analytics
-  description: Simple Analytics is a privacy-first, cookieless web analytics platform built in the EU. It collects no personal data and needs no cookie banner, while exposing a REST API to pull aggregated dashboard stats, export raw data points (page views and events), collect custom events server-side, and manag…
-  api_count: 4
-  score_band: thin
-  score_composite: 38.4
-  shared: 1
-- slug: liveramp
-  name: LiveRamp
-  description: LiveRamp is a data connectivity platform that enables enterprises to safely connect, control, and activate first-party customer data across the digital ecosystem. Their developer platform exposes a suite of REST APIs for identity resolution, data activation, clean-room collaboration, marketplace da…
-  api_count: 9
-  score_band: thin
-  score_composite: 38.3
-  shared: 1
-- slug: kagi
-  name: Kagi
-  description: Kagi is a privacy-focused premium search engine that also operates a commercial APIs portfolio for developers. The Kagi APIs Portal exposes Search, Enrichment, Universal Summarizer, and FastGPT endpoints, plus a free Small Web RSS feed for non-commercial use. The portal includes an API Playground,…
-  api_count: 4
-  score_band: thin
-  score_composite: 38.1
-  shared: 1
-- slug: rybbit
-  name: Rybbit
-  description: Rybbit is an open-source, privacy-friendly web and product analytics platform positioned as a cookieless alternative to Google Analytics and Plausible. It ingests pageviews and custom events through a lightweight tracking script and HTTP /api/track endpoint, and exposes a Bearer-key-authenticated S…
-  api_count: 4
-  score_band: thin
-  score_composite: 37.8
-  shared: 1
-- slug: aiignore
-  name: .AIIgnore
-  description: The .aiignore file is a configuration specification that tells AI coding agents and LLM-powered developer tools which files, directories, and content should not be read, processed, or modified. Modeled after .gitignore syntax, .aiignore files protect sensitive data, proprietary code, and personal i…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.1
-  shared: 1
 related:
 - slug: encryption
   name: Encryption
-  shared: 2
+  shared: 3
 - slug: search
   name: API Evangelist Search
   shared: 2

@@ -6,7 +6,7 @@ description: An index and topic collection covering machine learning APIs, MLOps
 area_url: https://machine-learning.apievangelist.com
 area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
-provider_count: 216
+provider_count: 328
 providers:
 - slug: databricks
   name: Databricks
@@ -15,19 +15,26 @@ providers:
   score_band: exemplar
   score_composite: 73.3
   shared: 1
+- slug: amazon-rekognition
+  name: Amazon Rekognition
+  description: Amazon Rekognition is a cloud-based computer vision service that makes it easy to add image and video analysis to your applications, providing capabilities such as object and scene detection, facial analysis, face comparison, celebrity recognition, text detection, content moderation, custom labels,…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 73.2
+  shared: 1
+- slug: anthropic
+  name: Anthropic
+  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 72.6
+  shared: 1
 - slug: amazon-sagemaker
   name: Amazon SageMaker
   description: Amazon SageMaker is a fully managed machine learning platform that enables developers and data scientists to build, train, and deploy machine learning models at scale. SageMaker removes the heavy lifting from each step of the machine learning process, providing built-in algorithms, managed Jupyter…
   api_count: 6
   score_band: exemplar
   score_composite: 71.2
-  shared: 1
-- slug: anthropic
-  name: Anthropic
-  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
-  api_count: 11
-  score_band: strong
-  score_composite: 69.5
   shared: 1
 - slug: amazon-devops-guru
   name: Amazon DevOps Guru
@@ -57,13 +64,6 @@ providers:
   score_band: strong
   score_composite: 68.2
   shared: 1
-- slug: amazon-rekognition
-  name: Amazon Rekognition
-  description: Amazon Rekognition is a cloud-based computer vision service that makes it easy to add image and video analysis to your applications, providing capabilities such as object and scene detection, facial analysis, face comparison, celebrity recognition, text detection, content moderation, custom labels,…
-  api_count: 1
-  score_band: strong
-  score_composite: 68.2
-  shared: 1
 - slug: amazon-kendra
   name: Amazon Kendra
   description: Amazon Kendra is an intelligent enterprise search service powered by machine learning that enables organizations to index and search across multiple data sources, delivering highly accurate and relevant answers to natural language queries.
@@ -84,6 +84,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 67.0
+  shared: 1
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 56
+  score_band: strong
+  score_composite: 66.9
   shared: 1
 - slug: teradata
   name: Teradata
@@ -141,6 +148,13 @@ providers:
   score_band: strong
   score_composite: 64.6
   shared: 1
+- slug: github-copilot
+  name: GitHub Copilot
+  description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
+  api_count: 12
+  score_band: strong
+  score_composite: 64.5
+  shared: 1
 - slug: viam
   name: Viam
   description: Viam is a robotics and edge AI platform founded in 2020 by Eliot Horowitz (MongoDB co-founder and former CTO). It pairs viam-server — a gRPC-based runtime that runs on Linux single-board computers (RDK) and ESP32-class microcontrollers (micro-rdk) — with viam.app, a multi-tenant cloud for fleet man…
@@ -161,13 +175,6 @@ providers:
   api_count: 7
   score_band: strong
   score_composite: 63.8
-  shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
-  api_count: 56
-  score_band: strong
-  score_composite: 63.6
   shared: 1
 - slug: amazon-forecast
   name: Amazon Forecast
@@ -211,37 +218,30 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 1
-- slug: databricks-asset-bundles
-  name: Databricks Asset Bundles
-  description: Databricks Asset Bundles (DABs) provide an infrastructure-as-code approach to managing Databricks data and AI projects. Bundles enable version control, CI/CD, deployment, and management of Databricks resources such as jobs, pipelines, apps, schemas, experiments, and model serving endpoints across w…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.4
-  shared: 1
 related:
 - slug: security
   name: Security
   shared: 3
+- slug: agents
+  name: Agents
+  shared: 2
 - slug: containers
   name: Containers
   shared: 2
+- slug: ide
+  name: IDE
+  shared: 1
 - slug: search
   name: API Evangelist Search
-  shared: 1
-- slug: agents
-  name: Agents
   shared: 1
 - slug: database
   name: Database
   shared: 1
-- slug: deployment
-  name: Deployment
-  shared: 1
 overview: 'Machine Learning is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [machine-learning.apievangelist.com](https://machine-learning.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Databricks, Amazon SageMaker, Anthropic, Amazon DevOps Guru, Amazon Lookout for Vision, Claude, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Databricks, Amazon Rekognition, Anthropic, Amazon SageMaker, Amazon DevOps Guru, Amazon Lookout for Vision, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Security, Containers, API Evangelist Search, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Security, Agents, Containers, and IDE. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

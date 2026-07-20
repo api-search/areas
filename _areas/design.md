@@ -6,21 +6,21 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://design.apievangelist.com
 area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
-provider_count: 25
+provider_count: 28
 providers:
 - slug: figma
   name: Figma
   description: Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.
   api_count: 18
   score_band: strong
-  score_composite: 65.1
+  score_composite: 69.7
   shared: 1
 - slug: autodesk
   name: Autodesk
   description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction pr…
   api_count: 33
   score_band: strong
-  score_composite: 64.8
+  score_composite: 68.1
   shared: 1
 - slug: adobe-illustrator
   name: Adobe Illustrator
@@ -71,6 +71,13 @@ providers:
   score_band: developing
   score_composite: 51.1
   shared: 1
+- slug: autocad
+  name: AutoCAD
+  description: APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities through Autodesk Platform Services (APS, formerly Forge) and desktop development environments including AutoLISP, ObjectARX, .NET, and JavaScript.
+  api_count: 6
+  score_band: developing
+  score_composite: 49.5
+  shared: 1
 - slug: penpot
   name: Penpot
   description: Penpot is an open-source design and prototyping platform built for design and code collaboration, offering a self-hostable alternative to Figma. It provides a REST RPC API that enables developers to programmatically access and manage projects, files, pages, components, and design assets. Authentica…
@@ -85,26 +92,19 @@ providers:
   score_band: developing
   score_composite: 46.8
   shared: 1
-- slug: wireframes
-  name: Wireframes
-  description: Wireframes are low-fidelity visual representations of user interface layouts used in early design stages to establish structure, hierarchy, and functionality before high-fidelity design work begins. Major wireframing tools including Figma, Balsamiq, Axure, UXPin, Sketch, and Miro offer APIs and dev…
-  api_count: 2
-  score_band: developing
-  score_composite: 46.8
-  shared: 1
-- slug: autocad
-  name: AutoCAD
-  description: APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities through Autodesk Platform Services (APS, formerly Forge) and desktop development environments including AutoLISP, ObjectARX, .NET, and JavaScript.
-  api_count: 6
-  score_band: developing
-  score_composite: 46.2
-  shared: 1
 - slug: adobe-suite
   name: Adobe Suite
   description: Collection of Adobe Creative Cloud and Experience Cloud APIs.
   api_count: 23
   score_band: developing
   score_composite: 45.8
+  shared: 1
+- slug: 99designs
+  name: 99designs
+  description: 99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.6
   shared: 1
 - slug: the-color-api
   name: The Color API
@@ -120,12 +120,33 @@ providers:
   score_band: thin
   score_composite: 39.5
   shared: 1
+- slug: kittl
+  name: Kittl
+  description: Kittl is a Berlin-based, browser-based graphic design platform positioned for commerce-driven creative workflows — "Canva is for content, Kittl is for commerce." It serves small business owners, Shopify and Etsy sellers, print-on-demand businesses, DTC brands, freelancers, agencies and small creati…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.7
+  shared: 1
 - slug: domestika
   name: Domestika
   description: Domestika is an online creative education platform that connects over 8 million creative professionals and learners with high-quality courses across illustration, design, photography, marketing, and more. The platform provides a REST API at api.domestika.org that powers its web and mobile applicati…
   api_count: 1
   score_band: thin
   score_composite: 35.3
+  shared: 1
+- slug: havenly
+  name: Havenly
+  description: Havenly is an online interior-design platform that connects clients with professional designers for virtual and in-person home-decorating services. Clients take a style quiz, match with a designer, collaborate on 3D room renderings, and shop curated furniture and decor from partner brands at exclus…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.1
+  shared: 1
+- slug: gamma
+  name: Gamma
+  description: 'Gamma (Gamma Tech, Inc.) is an AI-native productivity platform for creating presentations, documents, websites, and social posts from a prompt or from existing content. Its public Generate API lets developers programmatically produce and manage gammas: generate from scratch or from a template, poll…'
+  api_count: 1
+  score_band: thin
+  score_composite: 32.0
   shared: 1
 - slug: recraft
   name: Recraft
@@ -193,7 +214,7 @@ related:
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 
 
-  25 providers on the network work in this area, including Figma, Autodesk, Adobe Illustrator, Adobe Creative Cloud, Adobe Creative Suite, Apple Keynote, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  28 providers on the network work in this area, including Figma, Autodesk, Adobe Illustrator, Adobe Creative Cloud, Adobe Creative Suite, Apple Keynote, and 22 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Developer Experience and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'

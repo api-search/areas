@@ -6,14 +6,14 @@ description: An index and topic collection covering customer support, help desk,
 area_url: https://support.apievangelist.com
 area_host: support.apievangelist.com
 icon: https://support.apievangelist.com/icon-thumb.png
-provider_count: 8
+provider_count: 7
 providers:
 - slug: zendesk
   name: Zendesk
   description: Zendesk provides customer service and engagement software that helps businesses manage support tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and phonethrough a unified platform.
   api_count: 145
   score_band: strong
-  score_composite: 66.4
+  score_composite: 69.7
   shared: 1
 - slug: salesforce-service-cloud
   name: Salesforce Service Cloud
@@ -57,25 +57,15 @@ providers:
   score_band: thin
   score_composite: 38.7
   shared: 1
-- slug: support-md
-  name: SUPPORT.md
-  description: SUPPORT.md is a GitHub community health file that describes how users can get help with an open source project. When present in a repository root or .github/ directory, GitHub automatically links to it from issue creation flows, directing users to appropriate support channels before filing bugs.
-  api_count: 1
-  score_band: thin
-  score_composite: 36.7
-  shared: 1
 related:
 - slug: documentation
   name: Documentation
   shared: 2
-- slug: agents
-  name: Agents
-  shared: 1
 overview: 'Support is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [support.apievangelist.com](https://support.apievangelist.com).
 
 
-  8 providers on the network work in this area, including Zendesk, Salesforce Service Cloud, Salesforce Knowledge Management, Inkeep, Salesforce Service Cloud APIs, Papercups, and 2 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  7 providers on the network work in this area, including Zendesk, Salesforce Service Cloud, Salesforce Knowledge Management, Inkeep, Salesforce Service Cloud APIs, Papercups, and 1 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Documentation and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

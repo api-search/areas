@@ -6,7 +6,7 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 182
+provider_count: 255
 providers:
 - slug: svix
   name: Svix
@@ -35,6 +35,13 @@ providers:
   api_count: 12
   score_band: exemplar
   score_composite: 70.7
+  shared: 1
+- slug: workday
+  name: Workday
+  description: Collection of Workday REST and SOAP APIs for human capital management, financial management, enterprise planning, analytics, and platform extensibility.
+  api_count: 20
+  score_band: strong
+  score_composite: 66.6
   shared: 1
 - slug: housecall-pro
   name: Housecall Pro
@@ -113,13 +120,6 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
-- slug: workday
-  name: Workday
-  description: Collection of Workday REST and SOAP APIs for human capital management, financial management, enterprise planning, analytics, and platform extensibility.
-  api_count: 20
-  score_band: strong
-  score_composite: 61.5
-  shared: 1
 - slug: torii
   name: Torii
   description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide license and usage data, automate user onboarding and offboar…
@@ -141,6 +141,13 @@ providers:
   score_band: developing
   score_composite: 59.1
   shared: 1
+- slug: leankit
+  name: LeanKit
+  description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hierarchies. LeanKit exposes a documented RESTful v2 API at http…
+  api_count: 3
+  score_band: developing
+  score_composite: 58.8
+  shared: 1
 - slug: workday-payroll
   name: Workday Payroll
   description: Workday Payroll provides comprehensive APIs for managing payroll operations, employee compensation, tax calculations, and payment processing within the Workday platform.
@@ -161,6 +168,13 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 58.2
+  shared: 1
+- slug: lawvu
+  name: LawVu
+  description: LawVu is a New Zealand-founded legal technology company whose LegalOS is a connected workspace for corporate in-house legal teams, bringing matter management, contract lifecycle management, legal request intake, spend management and e-billing, document management, reporting and embedded AI into a s…
+  api_count: 7
+  score_band: developing
+  score_composite: 58.1
   shared: 1
 - slug: snaplogic
   name: SnapLogic
@@ -204,30 +218,16 @@ providers:
   score_band: developing
   score_composite: 55.9
   shared: 1
-- slug: amazon-systems-manager
-  name: Amazon Systems Manager
-  description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
-  api_count: 1
-  score_band: developing
-  score_composite: 55.8
-  shared: 1
-- slug: ampersand
-  name: Ampersand
-  description: Ampersand is a developer-first platform for building native SaaS integrations. It provides an embeddable UI component and managed infrastructure that lets developers add product integrations quickly, handling OAuth, data sync, webhooks, and field mapping out of the box. The platform supports hundre…
-  api_count: 1
-  score_band: developing
-  score_composite: 55.7
-  shared: 1
 related:
 - slug: management
   name: Management
-  shared: 5
+  shared: 4
 - slug: integrations
   name: Integrations
-  shared: 4
+  shared: 3
 - slug: ai-automation
   name: AI Automation
-  shared: 3
+  shared: 2
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 2
@@ -240,7 +240,7 @@ related:
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Svix, Oracle, Kinde, Boomi, Housecall Pro, Workday Recruiting, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Svix, Oracle, Kinde, Boomi, Workday, Housecall Pro, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Management, Integrations, AI Automation, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

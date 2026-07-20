@@ -6,7 +6,7 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 101
+provider_count: 115
 providers:
 - slug: shodan
   name: Shodan
@@ -20,7 +20,7 @@ providers:
   description: Exa is a web search API and AI research platform built specifically for LLMs and agents — semantic and keyword search across the open web with token-efficient highlights, structured outputs, sub-200ms latency tiers, and verticals for code, companies, news, people, research, and financials. The plat…
   api_count: 7
   score_band: strong
-  score_composite: 66.0
+  score_composite: 69.3
   shared: 1
 - slug: coveo
   name: Coveo
@@ -176,12 +176,26 @@ providers:
   score_band: developing
   score_composite: 54.0
   shared: 1
+- slug: aito-technologies
+  name: Aito Technologies
+  description: Aito Technologies (Aito.ai, legal entity Episto Oy of Vantaa, Finland) builds a predictive database that delivers instant, calibrated machine-learning predictions from live business data with no model training. Its REST Query API exposes a SQL-like JSON interface for prediction, recommendation, sim…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.9
+  shared: 1
 - slug: duckduckgo
   name: DuckDuckGo
   description: DuckDuckGo is an independent online-privacy company best known for its tracker-free search engine and the DuckDuckGo Browser (iOS, Android, macOS, Windows). It operates the public Instant Answer API at api.duckduckgo.com (free, JSON/XML), the Duck.ai anonymous AI-chat proxy at duck.ai (routes to An…
   api_count: 4
   score_band: developing
   score_composite: 53.5
+  shared: 1
+- slug: delphi
+  name: Delphi
+  description: Delphi is an AI platform for building "Digital Minds" — hyper-realistic AI clones trained exclusively on a person's own content (podcasts, videos, blogs, long-form writing, live feeds) that match how they speak, write, and think. Audiences can call, text, or video-chat a clone 24/7 for Q&A, coachin…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.4
   shared: 1
 - slug: newsapi
   name: NewsAPI
@@ -203,20 +217,6 @@ providers:
   api_count: 6
   score_band: developing
   score_composite: 52.0
-  shared: 1
-- slug: opensearch
-  name: OpenSearch
-  description: OpenSearch is the open source, community-driven search, analytics, and observability suite (forked from Elasticsearch and Kibana) maintained under the Linux Foundation's OpenSearch Software Foundation. The platform exposes REST APIs across the search engine, the OpenSearch Dashboards UI, and a set…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.6
-  shared: 1
-- slug: microsoft-azure-search
-  name: Azure AI Search
-  description: Azure AI Search (formerly Azure Cognitive Search) is a cloud search service with built-in AI capabilities for enriching content and enabling vector and semantic search over heterogeneous data. It indexes content from Azure data sources and supports full-text, faceted, geospatial, vector, and hybrid…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.8
   shared: 1
 related:
 - slug: agents

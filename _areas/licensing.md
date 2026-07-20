@@ -6,7 +6,7 @@ description: 'An index and topic collection covering software licensing APIs acr
 area_url: https://licensing.apievangelist.com
 area_host: licensing.apievangelist.com
 icon: https://licensing.apievangelist.com/icon-thumb.png
-provider_count: 9
+provider_count: 11
 providers:
 - slug: warner-music-group
   name: Warner Music Group
@@ -36,6 +36,13 @@ providers:
   score_band: thin
   score_composite: 34.3
   shared: 1
+- slug: agentsync
+  name: Agentsync
+  description: AgentSync builds modern insurance compliance infrastructure that connects carriers, agencies, MGAs, and producers. Its ProducerSync API is a REST API delivering more than 200 enriched data points sourced from the National Insurance Producer Registry (NIPR) — producer and adjuster licensing, carrier…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.4
+  shared: 1
 - slug: getty
   name: Getty Images
   description: Getty Images is a premium stock media licensor of editorial and creative photography, illustrations, video, and music. The Getty Images API exposes search, asset metadata, and download endpoints for licensing partners and enterprise customers. Authentication is via API key + OAuth 2.0 client creden…
@@ -49,6 +56,13 @@ providers:
   api_count: 4
   score_band: emerging
   score_composite: 26.6
+  shared: 1
+- slug: certifyos
+  name: Certifyos
+  description: CertifyOS is a healthcare provider data platform that delivers a single, AI-enabled source of truth for provider information. Founded in 2021 by former Oscar Health employees and led by CEO Anshul Rathi, the New York-based company offers an API-first platform that automates every stage of provider…
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.9
   shared: 1
 - slug: openchain
   name: OpenChain
@@ -78,7 +92,7 @@ related:
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).
 
 
-  9 providers on the network work in this area, including Warner Music Group, Shutterstock, Soundstripe, FCC (Federal Communications Commission), Getty Images, Office of the Comptroller of the Currency (OCC), and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  11 providers on the network work in this area, including Warner Music Group, Shutterstock, Soundstripe, FCC (Federal Communications Commission), Agentsync, Getty Images, and 5 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Regulation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

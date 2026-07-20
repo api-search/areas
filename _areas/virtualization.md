@@ -6,7 +6,7 @@ description: 'An index and topic collection covering virtualization across two i
 area_url: https://virtualization.apievangelist.com
 area_host: virtualization.apievangelist.com
 icon: https://virtualization.apievangelist.com/icon-thumb.png
-provider_count: 14
+provider_count: 13
 providers:
 - slug: veritas-infoscale
   name: Veritas InfoScale
@@ -92,13 +92,6 @@ providers:
   score_band: thin
   score_composite: 37.9
   shared: 1
-- slug: software-defined-networking
-  name: Software-Defined Networking
-  description: Software-Defined Networking (SDN) is a network architecture approach that decouples the network control plane from the data forwarding plane, enabling dynamic, programmatically efficient network configuration. SDN controllers expose northbound REST APIs for network applications to define routing, l…
-  api_count: 2
-  score_band: thin
-  score_composite: 37.8
-  shared: 1
 - slug: proxmox
   name: Proxmox VE
   description: Proxmox Virtual Environment (Proxmox VE) is an open-source server virtualization platform that combines KVM hypervisor and LXC containers, software-defined storage and networking, and clustering and high- availability features in a single web-managed solution. The Proxmox VE API exposes all platfor…
@@ -113,17 +106,14 @@ related:
 - slug: management
   name: Management
   shared: 1
-- slug: containers
-  name: Containers
-  shared: 1
 - slug: database
   name: Database
   shared: 1
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
-  14 providers on the network work in this area, including Veritas InfoScale, Citrix, Nutanix, Apache CloudStack, VMware, Vagrant, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  13 providers on the network work in this area, including Veritas InfoScale, Citrix, Nutanix, Apache CloudStack, VMware, Vagrant, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, Management, Containers, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, Management, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -6,7 +6,7 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 264
+provider_count: 349
 providers:
 - slug: jfrog
   name: JFrog
@@ -22,6 +22,13 @@ providers:
   score_band: exemplar
   score_composite: 73.3
   shared: 1
+- slug: amazon-secrets-manager
+  name: Amazon Secrets Manager
+  description: Amazon Secrets Manager helps you manage, retrieve, and rotate database credentials, API keys, and other secrets throughout their lifecycle. It provides centralized secrets management with built-in integration for Amazon RDS, Amazon Redshift, and Amazon DocumentDB, enabling automatic rotation of sec…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 73.1
+  shared: 1
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
@@ -36,26 +43,19 @@ providers:
   score_band: exemplar
   score_composite: 70.2
   shared: 1
+- slug: 1password
+  name: 1Password
+  description: 1Password is a password manager that helps individuals and businesses securely store and manage passwords, credentials, and sensitive information. The platform provides a Connect Server API for programmatic secrets management, an Events API for security monitoring and audit logging, and a Partnersh…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 70.1
+  shared: 1
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 54
   score_band: strong
   score_composite: 69.7
-  shared: 1
-- slug: amazon-secrets-manager
-  name: Amazon Secrets Manager
-  description: Amazon Secrets Manager helps you manage, retrieve, and rotate database credentials, API keys, and other secrets throughout their lifecycle. It provides centralized secrets management with built-in integration for Amazon RDS, Amazon Redshift, and Amazon DocumentDB, enabling automatic rotation of sec…
-  api_count: 1
-  score_band: strong
-  score_composite: 69.2
-  shared: 1
-- slug: 1password
-  name: 1Password
-  description: 1Password is a password manager that helps individuals and businesses securely store and manage passwords, credentials, and sensitive information. The platform provides a Connect Server API for programmatic secrets management, an Events API for security monitoring and audit logging, and a Partnersh…
-  api_count: 3
-  score_band: strong
-  score_composite: 68.3
   shared: 1
 - slug: amazon-security-lake
   name: Amazon Security Lake
@@ -105,6 +105,13 @@ providers:
   api_count: 13
   score_band: strong
   score_composite: 67.0
+  shared: 1
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 56
+  score_band: strong
+  score_composite: 66.9
   shared: 1
 - slug: amazon-kms
   name: Amazon KMS
@@ -169,12 +176,12 @@ providers:
   score_band: strong
   score_composite: 64.0
   shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
-  api_count: 56
+- slug: kondukto
+  name: Kondukto
+  description: Kondukto — now shipped as Invicti ASPM following Invicti Security's acquisition of the company — is an Application Security Posture Management platform that centralizes and automates the AppSec vulnerability management lifecycle. It ingests, deduplicates and correlates findings from more than eight…
+  api_count: 1
   score_band: strong
-  score_composite: 63.6
+  score_composite: 63.9
   shared: 1
 - slug: axway
   name: Axway
@@ -211,13 +218,6 @@ providers:
   score_band: strong
   score_composite: 62.7
   shared: 1
-- slug: amazon-vpc
-  name: Amazon VPC
-  description: Amazon Virtual Private Cloud (VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define, with complete control over IP addressing, subnets, routing, and network gateways.
-  api_count: 1
-  score_band: strong
-  score_composite: 62.6
-  shared: 1
 related:
 - slug: observability
   name: Observability
@@ -231,16 +231,16 @@ related:
 - slug: machine-learning
   name: Machine Learning
   shared: 3
-- slug: logging
-  name: Logging
-  shared: 2
 - slug: dns
   name: DNS
+  shared: 2
+- slug: logging
+  name: Logging
   shared: 2
 overview: 'Security is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [security.apievangelist.com](https://security.apievangelist.com).
 
 
-  30 providers on the network work in this area, including JFrog, Databricks, Shodan, Fastly, Cloudflare, Amazon Secrets Manager, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including JFrog, Databricks, Amazon Secrets Manager, Shodan, Fastly, 1Password, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, Authentication, Containers, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'

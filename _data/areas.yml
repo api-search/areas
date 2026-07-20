@@ -8,7 +8,7 @@
     capability units that AI coding agents load to extend their behavior. Agent Skill…
   area_url: https://agents-skills.apievangelist.com
   icon: https://agents-skills.apievangelist.com/icon-thumb.png
-  provider_count: 7
+  provider_count: 14
   url: https://apis.io/areas/agents-skills/
 - slug: agents
   name: Agents
@@ -16,7 +16,7 @@
     runtimes that enable autonomous reasoning, tool use, and multi-step task executio…
   area_url: https://agents.apievangelist.com
   icon: https://agents.apievangelist.com/icon-thumb.png
-  provider_count: 73
+  provider_count: 140
   url: https://apis.io/areas/agents/
 - slug: aggregation
   name: Aggregation
@@ -33,7 +33,7 @@
     au…
   area_url: https://ai-automation.apievangelist.com
   icon: https://ai-automation.apievangelist.com/icon-thumb.png
-  provider_count: 165
+  provider_count: 193
   url: https://apis.io/areas/ai-automation/
 - slug: aiops
   name: AIOps
@@ -42,7 +42,7 @@
     a…
   area_url: https://aiops.apievangelist.com
   icon: https://aiops.apievangelist.com/icon-thumb.png
-  provider_count: 23
+  provider_count: 30
   url: https://apis.io/areas/aiops/
 - slug: analysis
   name: Analysis
@@ -79,7 +79,7 @@
   short: Searching across API Evangelist.
   area_url: https://search.apievangelist.com
   icon: https://search.apievangelist.com/icon-thumb.png
-  provider_count: 101
+  provider_count: 115
   url: https://apis.io/areas/search/
 - slug: api-proxies
   name: API Proxies
@@ -87,7 +87,7 @@
     used in front of APIs, including HTTP reverse proxies, edge proxies, load balancer…
   area_url: https://api-proxies.apievangelist.com
   icon: https://api-proxies.apievangelist.com/icon-thumb.png
-  provider_count: 10
+  provider_count: 11
   url: https://apis.io/areas/api-proxies/
 - slug: authentication
   name: Authentication
@@ -95,7 +95,7 @@
     authorization, identity management, and secrets management. This collec…
   area_url: https://authentication.apievangelist.com
   icon: https://authentication.apievangelist.com/icon-thumb.png
-  provider_count: 102
+  provider_count: 123
   url: https://apis.io/areas/authentication/
 - slug: backups
   name: Backups
@@ -112,7 +112,7 @@
     are…
   area_url: https://bots.apievangelist.com
   icon: https://bots.apievangelist.com/icon-thumb.png
-  provider_count: 9
+  provider_count: 13
   url: https://apis.io/areas/bots/
 - slug: breaches
   name: Breaches
@@ -161,7 +161,7 @@
     line interfaces, HTTP clients, and terminal-based API tools. This collection co…
   area_url: https://cli.apievangelist.com
   icon: https://cli.apievangelist.com/icon-thumb.png
-  provider_count: 35
+  provider_count: 42
   url: https://apis.io/areas/cli/
 - slug: communications
   name: Communications
@@ -169,7 +169,7 @@
     (CPaaS) and messaging-and-voice infrastructure APIs. This network gathers providers…
   area_url: https://communications.apievangelist.com
   icon: https://communications.apievangelist.com/icon-thumb.png
-  provider_count: 38
+  provider_count: 49
   url: https://apis.io/areas/communications/
 - slug: containers
   name: Containers
@@ -185,7 +185,7 @@
     offerings exposing APIs. Database APIs enable developers to provision, confi…
   area_url: https://database.apievangelist.com
   icon: https://database.apievangelist.com/icon-thumb.png
-  provider_count: 120
+  provider_count: 131
   url: https://apis.io/areas/database/
 - slug: deployment
   name: Deployment
@@ -194,7 +194,7 @@
     APIs…
   area_url: https://deployment.apievangelist.com
   icon: https://deployment.apievangelist.com/icon-thumb.png
-  provider_count: 36
+  provider_count: 42
   url: https://apis.io/areas/deployment/
 - slug: deprecation
   name: Deprecation
@@ -212,7 +212,7 @@
     A…
   area_url: https://design.apievangelist.com
   icon: https://design.apievangelist.com/icon-thumb.png
-  provider_count: 25
+  provider_count: 28
   url: https://apis.io/areas/design/
 - slug: developer-experience
   name: Developer Experience
@@ -220,7 +220,7 @@
     tracked by the API Evangelist network, covering developer portals, API documentation…
   area_url: https://developer-experience.apievangelist.com
   icon: https://developer-experience.apievangelist.com/icon-thumb.png
-  provider_count: 36
+  provider_count: 38
   url: https://apis.io/areas/developer-experience/
 - slug: dns
   name: DNS
@@ -229,7 +229,7 @@
     comput…
   area_url: https://dns.apievangelist.com
   icon: https://dns.apievangelist.com/icon-thumb.png
-  provider_count: 27
+  provider_count: 32
   url: https://apis.io/areas/dns/
 - slug: documentation
   name: Documentation
@@ -237,7 +237,7 @@
     API and developer documentation. This collection covers hosted documentation plat…
   area_url: https://documentation.apievangelist.com
   icon: https://documentation.apievangelist.com/icon-thumb.png
-  provider_count: 65
+  provider_count: 63
   url: https://apis.io/areas/documentation/
 - slug: embeddable
   name: Embeddable
@@ -245,7 +245,7 @@
     iframe-able experiences, and embedded analytics. Embeddable platforms allow product…
   area_url: https://embeddable.apievangelist.com
   icon: https://embeddable.apievangelist.com/icon-thumb.png
-  provider_count: 0
+  provider_count: 2
   url: https://apis.io/areas/embeddable/
 - slug: embedded-ipaas
   name: Embedded iPaaS
@@ -253,7 +253,7 @@
     by the API Evangelist network.
   area_url: https://embedded-ipaas.apievangelist.com
   icon: https://embedded-ipaas.apievangelist.com/icon-thumb.png
-  provider_count: 59
+  provider_count: 61
   url: https://apis.io/areas/embedded-ipaas/
 - slug: encryption
   name: Encryption
@@ -262,7 +262,7 @@
     encr…
   area_url: https://encryption.apievangelist.com
   icon: https://encryption.apievangelist.com/icon-thumb.png
-  provider_count: 13
+  provider_count: 19
   url: https://apis.io/areas/encryption/
 - slug: finops
   name: FinOps
@@ -270,7 +270,7 @@
     and business practices to drive accountability and optimize cloud spending thr…
   area_url: https://finops.apievangelist.com
   icon: https://finops.apievangelist.com/icon-thumb.png
-  provider_count: 49
+  provider_count: 54
   url: https://apis.io/areas/finops/
 - slug: gateway
   name: Gateway
@@ -279,7 +279,7 @@
     o…
   area_url: https://gateway.apievangelist.com
   icon: https://gateway.apievangelist.com/icon-thumb.png
-  provider_count: 12
+  provider_count: 13
   url: https://apis.io/areas/gateway/
 - slug: hypermedia
   name: Hypermedia
@@ -288,7 +288,7 @@
     sel…
   area_url: https://hypermedia.apievangelist.com
   icon: https://hypermedia.apievangelist.com/icon-thumb.png
-  provider_count: 1
+  provider_count: 2
   url: https://apis.io/areas/hypermedia/
 - slug: ide
   name: IDE
@@ -297,7 +297,7 @@
     editor…
   area_url: https://ide.apievangelist.com
   icon: https://ide.apievangelist.com/icon-thumb.png
-  provider_count: 19
+  provider_count: 20
   url: https://apis.io/areas/ide/
 - slug: industrial
   name: Industrial
@@ -306,7 +306,7 @@
     asset ma…
   area_url: https://industrial.apievangelist.com
   icon: https://industrial.apievangelist.com/icon-thumb.png
-  provider_count: 27
+  provider_count: 29
   url: https://apis.io/areas/industrial/
 - slug: integrations
   name: Integrations
@@ -315,7 +315,7 @@
     A…
   area_url: https://integrations.apievangelist.com
   icon: https://integrations.apievangelist.com/icon-thumb.png
-  provider_count: 52
+  provider_count: 53
   url: https://apis.io/areas/integrations/
 - slug: internet-of-things
   name: Internet of Things
@@ -324,7 +324,7 @@
     messag…
   area_url: https://internet-of-things.apievangelist.com
   icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-  provider_count: 20
+  provider_count: 24
   url: https://apis.io/areas/internet-of-things/
 - slug: ipaas
   name: iPaaS
@@ -332,7 +332,7 @@
     tracked by the API Evangelist network.
   area_url: https://ipaas.apievangelist.com
   icon: https://ipaas.apievangelist.com/icon-thumb.png
-  provider_count: 31
+  provider_count: 32
   url: https://apis.io/areas/ipaas/
 - slug: issues
   name: Issues
@@ -350,7 +350,7 @@
     (SPDX,…'
   area_url: https://licensing.apievangelist.com
   icon: https://licensing.apievangelist.com/icon-thumb.png
-  provider_count: 9
+  provider_count: 11
   url: https://apis.io/areas/licensing/
 - slug: logging
   name: Logging
@@ -358,7 +358,7 @@
     and log pipeline services. Logging platforms collect event records from appl…
   area_url: https://logging.apievangelist.com
   icon: https://logging.apievangelist.com/icon-thumb.png
-  provider_count: 24
+  provider_count: 30
   url: https://apis.io/areas/logging/
 - slug: low-hanging-fruit
   name: Low Hanging Fruit
@@ -374,7 +374,7 @@
     model serving infrastructure, and inference providers. Machine learning APIs spa…
   area_url: https://machine-learning.apievangelist.com
   icon: https://machine-learning.apievangelist.com/icon-thumb.png
-  provider_count: 216
+  provider_count: 328
   url: https://apis.io/areas/machine-learning/
 - slug: management
   name: Management
@@ -390,7 +390,7 @@
     messaging, workflow orchestration, and distributed systems tooling repositori…
   area_url: https://microservices.apievangelist.com
   icon: https://microservices.apievangelist.com/icon-thumb.png
-  provider_count: 96
+  provider_count: 92
   url: https://apis.io/areas/microservices/
 - slug: migration
   name: Migration
@@ -398,7 +398,7 @@
     migration, and API migration platforms and services. Migration platforms help…
   area_url: https://migration.apievangelist.com
   icon: https://migration.apievangelist.com/icon-thumb.png
-  provider_count: 10
+  provider_count: 11
   url: https://apis.io/areas/migration/
 - slug: monetization
   name: Monetization
@@ -407,7 +407,7 @@
     reve…'
   area_url: https://monetization.apievangelist.com
   icon: https://monetization.apievangelist.com/icon-thumb.png
-  provider_count: 12
+  provider_count: 18
   url: https://apis.io/areas/monetization/
 - slug: monitoring
   name: Monitoring
@@ -416,7 +416,7 @@
     d…
   area_url: https://monitoring.apievangelist.com
   icon: https://monitoring.apievangelist.com/icon-thumb.png
-  provider_count: 92
+  provider_count: 117
   url: https://apis.io/areas/monitoring/
 - slug: network
   name: Network
@@ -431,7 +431,7 @@
     monitoring, logging, tracing, metrics, and analytics. This collection co…
   area_url: https://observability.apievangelist.com
   icon: https://observability.apievangelist.com/icon-thumb.png
-  provider_count: 156
+  provider_count: 196
   url: https://apis.io/areas/observability/
 - slug: orchestration
   name: Orchestration
@@ -439,7 +439,7 @@
     orchestration platforms. Container orchestration platforms like Kubernetes, OpenShi…
   area_url: https://orchestration.apievangelist.com
   icon: https://orchestration.apievangelist.com/icon-thumb.png
-  provider_count: 53
+  provider_count: 58
   url: https://apis.io/areas/orchestration/
 - slug: performance
   name: Performance
@@ -481,7 +481,7 @@
     data subject rights, data classification, and PII detection APIs. Privacy platfo…
   area_url: https://privacy.apievangelist.com
   icon: https://privacy.apievangelist.com/icon-thumb.png
-  provider_count: 53
+  provider_count: 64
   url: https://apis.io/areas/privacy/
 - slug: proxy
   name: Proxy
@@ -505,7 +505,7 @@
     reliability platforms, service level objectives (SLOs), error budgets, chaos enginee…
   area_url: https://reliability.apievangelist.com
   icon: https://reliability.apievangelist.com/icon-thumb.png
-  provider_count: 8
+  provider_count: 9
   url: https://apis.io/areas/reliability/
 - slug: road-map
   name: Road Map
@@ -522,7 +522,7 @@
     to discover, manage, optimize, and secure their portfolio of SaaS applications…
   area_url: https://saas-management.apievangelist.com
   icon: https://saas-management.apievangelist.com/icon-thumb.png
-  provider_count: 182
+  provider_count: 255
   url: https://apis.io/areas/saas-management/
 - slug: scraping
   name: Scraping
@@ -539,7 +539,7 @@
     co…
   area_url: https://sdk.apievangelist.com
   icon: https://sdk.apievangelist.com/icon-thumb.png
-  provider_count: 75
+  provider_count: 116
   url: https://apis.io/areas/sdk/
 - slug: security
   name: Security
@@ -547,7 +547,7 @@
     secrets management, encryption, and threat protection. API security spans the…
   area_url: https://security.apievangelist.com
   icon: https://security.apievangelist.com/icon-thumb.png
-  provider_count: 264
+  provider_count: 349
   url: https://apis.io/areas/security/
 - slug: serverless
   name: Serverless
@@ -555,7 +555,7 @@
     (FaaS) runtimes, and edge function platforms. Serverless platforms abstract aw…
   area_url: https://serverless.apievangelist.com
   icon: https://serverless.apievangelist.com/icon-thumb.png
-  provider_count: 103
+  provider_count: 111
   url: https://apis.io/areas/serverless/
 - slug: service-mesh
   name: Service Mesh
@@ -563,7 +563,7 @@
     communication in microservices architectures. It provides traffic management,…
   area_url: https://service-mesh.apievangelist.com
   icon: https://service-mesh.apievangelist.com/icon-thumb.png
-  provider_count: 34
+  provider_count: 35
   url: https://apis.io/areas/service-mesh/
 - slug: support
   name: Support
@@ -571,7 +571,7 @@
     knowledge base, and live chat APIs. Customer support platforms power the interfa…
   area_url: https://support.apievangelist.com
   icon: https://support.apievangelist.com/icon-thumb.png
-  provider_count: 8
+  provider_count: 7
   url: https://apis.io/areas/support/
 - slug: testing
   name: Testing
@@ -579,7 +579,7 @@
     mocking, load testing, contract testing, and quality assurance. This collectio…
   area_url: https://testing.apievangelist.com
   icon: https://testing.apievangelist.com/icon-thumb.png
-  provider_count: 84
+  provider_count: 94
   url: https://apis.io/areas/testing/
 - slug: transparency
   name: Transparency
@@ -614,7 +614,7 @@
     VM…'
   area_url: https://virtualization.apievangelist.com
   icon: https://virtualization.apievangelist.com/icon-thumb.png
-  provider_count: 14
+  provider_count: 13
   url: https://apis.io/areas/virtualization/
 - slug: visualization
   name: Visualization
@@ -630,7 +630,7 @@
     retry, and inspection APIs. Webhooks are the dominant HTTP pattern for asyn…
   area_url: https://webhooks.apievangelist.com
   icon: https://webhooks.apievangelist.com/icon-thumb.png
-  provider_count: 166
+  provider_count: 274
   url: https://apis.io/areas/webhooks/
 - slug: workflow-automation
   name: Workflow Automation
@@ -638,5 +638,5 @@
     tracked by the API Evangelist network.
   area_url: https://workflow-automation.apievangelist.com
   icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-  provider_count: 232
+  provider_count: 276
   url: https://apis.io/areas/workflow-automation/

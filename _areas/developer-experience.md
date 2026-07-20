@@ -6,7 +6,7 @@ description: This is the index of developer experience service and tooling repos
 area_url: https://developer-experience.apievangelist.com
 area_host: developer-experience.apievangelist.com
 icon: https://developer-experience.apievangelist.com/icon-thumb.png
-provider_count: 36
+provider_count: 38
 providers:
 - slug: treblle
   name: Treblle
@@ -127,6 +127,13 @@ providers:
   score_band: thin
   score_composite: 42.4
   shared: 1
+- slug: bettermode
+  name: Bettermode
+  description: Bettermode is an all-in-one customer community platform (formerly Tribe) that lets organizations launch branded, no-code communities to turn engagement into measurable retention and growth. It combines discussion forums, Q&A, knowledge base, member directories, events, wishlists, changelogs, and ro…
+  api_count: 1
+  score_band: thin
+  score_composite: 42.3
+  shared: 1
 - slug: cortex
   name: Cortex
   description: Cortex is an Engineering Operations (EngOps) platform and internal developer portal that helps engineering teams catalog services, enforce production readiness with scorecards, automate self-service workflows, and surface engineering intelligence across their organization. Cortex centralizes data f…
@@ -211,20 +218,13 @@ providers:
   score_band: thin
   score_composite: 33.7
   shared: 1
-- slug: port-io
-  name: Port
-  description: Port is an Internal Developer Portal built around an API-first software catalog, customizable blueprints and entities, self-service actions, and scorecards. Platform teams model their own domain (services, environments, pipelines, AI agents, cloud resources) as blueprints, ingest data from integrat…
-  api_count: 14
-  score_band: thin
-  score_composite: 30.9
-  shared: 1
 related:
 - slug: documentation
   name: Documentation
   shared: 4
 - slug: sdk
   name: SDKs
-  shared: 4
+  shared: 3
 - slug: design
   name: Design
   shared: 1

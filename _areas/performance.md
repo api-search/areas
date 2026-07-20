@@ -15,13 +15,6 @@ providers:
   score_band: exemplar
   score_composite: 76.3
   shared: 1
-- slug: factorial
-  name: Factorial
-  description: Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 "Legendre") covering employees, contracts, attendance, ti…
-  api_count: 22
-  score_band: strong
-  score_composite: 69.1
-  shared: 1
 - slug: google-cloud-trace
   name: Google Cloud Trace
   description: Google Cloud Trace is a distributed tracing system that collects latency data from applications and displays it in near real-time. It helps developers understand how requests propagate through their application, identify performance bottlenecks, and analyze latency across microservices and distribu…
@@ -99,6 +92,13 @@ providers:
   score_band: thin
   score_composite: 34.8
   shared: 1
+- slug: headspin
+  name: HeadSpin
+  description: HeadSpin is a real-device digital-experience, functional, and performance testing platform for mobile, web, and OTT applications. Teams test, monitor, and optimize app behavior on real devices and real SIMs across 60+ locations in 50+ countries, running manual and automated tests through frameworks…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.6
+  shared: 1
 - slug: merbridge
   name: Merbridge
   description: Merbridge is an open source, eBPF-based service mesh acceleration tool that replaces iptables rules with eBPF traffic interception and uses msg_redirect to shorten the datapath between sidecars and services. It is a CNCF Sandbox project and supports Istio, Linkerd2, and Kuma.
@@ -135,7 +135,7 @@ related:
 overview: 'Performance is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [performance.apievangelist.com](https://performance.apievangelist.com).
 
 
-  15 providers on the network work in this area, including New Relic, Factorial, Google Cloud Trace, Google Cloud Profiler, Amazon Global Accelerator, Lunar.dev, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  15 providers on the network work in this area, including New Relic, Google Cloud Trace, Google Cloud Profiler, Amazon Global Accelerator, Lunar.dev, WHOOP, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Analysis, Deployment, Integrations, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,8 +6,15 @@ description: This is the index of workflow automation service and tooling repos 
 area_url: https://workflow-automation.apievangelist.com
 area_host: workflow-automation.apievangelist.com
 icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-provider_count: 232
+provider_count: 276
 providers:
+- slug: servicenow
+  name: ServiceNow
+  description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
+  api_count: 57
+  score_band: exemplar
+  score_composite: 73.4
+  shared: 2
 - slug: appian
   name: Appian
   description: Appian is a low-code automation platform that accelerates the creation of high-impact business applications. The platform combines intelligent automation and enterprise low-code development to help organizations build apps and workflows rapidly.
@@ -15,26 +22,19 @@ providers:
   score_band: exemplar
   score_composite: 72.2
   shared: 2
+- slug: microsoft-power-automate
+  name: Microsoft Power Automate
+  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automated, instant, and scheduled cloud flows, as well as desktop f…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 71.3
+  shared: 2
 - slug: workato
   name: Workato
   description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
   api_count: 4
   score_band: exemplar
   score_composite: 70.5
-  shared: 2
-- slug: servicenow
-  name: ServiceNow
-  description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
-  api_count: 57
-  score_band: strong
-  score_composite: 67.5
-  shared: 2
-- slug: microsoft-power-automate
-  name: Microsoft Power Automate
-  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automated, instant, and scheduled cloud flows, as well as desktop f…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.6
   shared: 2
 - slug: amazon-swf
   name: Amazon Simple Workflow Service
@@ -77,6 +77,20 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 53.4
+  shared: 2
+- slug: gumloop
+  name: Gumloop
+  description: Gumloop is an AI-agent automation platform for building, deploying, and governing agents that automate real work — data analysis, customer support, CRM management, and back-office tasks — across tools like Slack, Microsoft Teams, and Gmail. Its public REST API (https://api.gumloop.com/api/v1) expos…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.4
+  shared: 2
+- slug: jinba
+  name: Jinba
+  description: Jinba is an enterprise-grade platform for building, running, and deploying AI-powered workflows and agents using natural language. Business teams describe a process in plain language, refine it in a visual graph editor or a YAML manifest, and deploy it to production as an API or an MCP server. The…
+  api_count: 2
+  score_band: developing
+  score_composite: 51.2
   shared: 2
 - slug: step-functions
   name: AWS Step Functions
@@ -127,6 +141,41 @@ providers:
   score_band: developing
   score_composite: 45.2
   shared: 2
+- slug: elementum
+  name: Elementum
+  description: Elementum is an AI-native process automation and orchestration platform that lets enterprises build custom business workflows that coordinate people, rules, LLMs, and AI agents without moving data out of the customer's own data warehouse (its "Zero Persistence" / CloudLink model, with first-class S…
+  api_count: 1
+  score_band: thin
+  score_composite: 43.8
+  shared: 2
+- slug: duvoai
+  name: duvo.ai
+  description: Duvo (taskcrew Inc.) is an enterprise process-intelligence and automation platform that captures how work actually happens and turns it into shared process catalogues, role-specific training, improvement plans, transformation roadmaps, SAP migration fact bases, and governed automation across existi…
+  api_count: 1
+  score_band: thin
+  score_composite: 41.5
+  shared: 2
+- slug: bryter
+  name: Bryter
+  description: BRYTER is a no-code service automation and AI productivity platform for legal and professional-services teams, used by law firms and corporate legal, compliance, and operations departments to build self-service applications, document automation, and rule-based workflows without writing code. Beyond…
+  api_count: 3
+  score_band: thin
+  score_composite: 35.0
+  shared: 2
+- slug: coreview-fka-4ward365
+  name: CoreView (FKA 4ward365)
+  description: CoreView (formerly 4ward365) is an enterprise Microsoft 365 governance, security, and automation platform. It secures the configuration, identity, and access layers of Microsoft 365 tenants and provides delegated administration, license management, reporting, and workflow automation. CoreView expos…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.0
+  shared: 2
+- slug: ema
+  name: Ema
+  description: Ema is an enterprise "AI Employee" platform that builds autonomous agents to automate cross-functional workflows across HR, IT, Finance, customer support and healthcare operations. Its Autopilot builder turns plain-language descriptions into working AI Employees, EmaFusion combines 100+ AI models t…
+  api_count: 1
+  score_band: emerging
+  score_composite: 26.9
+  shared: 2
 - slug: huginn
   name: Huginn
   description: Huginn is an open-source system for building agents that perform automated tasks online. Self-hosted agents can monitor the web, send and receive events, and trigger workflows. Each Huginn instance exposes a JSON-based HTTP interface (the Web Requests API) that lets external systems trigger scenari…
@@ -169,78 +218,29 @@ providers:
   score_band: exemplar
   score_composite: 71.7
   shared: 1
-- slug: cloudformation
-  name: AWS CloudFormation
-  description: A collection of APIs provided by AWS for infrastructure as code provisioning and management of AWS and third-party resources using CloudFormation templates and the Cloud Control API.
-  api_count: 2
-  score_band: exemplar
-  score_composite: 70.9
-  shared: 1
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 12
-  score_band: exemplar
-  score_composite: 70.7
-  shared: 1
-- slug: oracle-integration
-  name: Oracle Integration
-  description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 70.3
-  shared: 1
-- slug: workday-extend
-  name: Workday Extend
-  description: Workday Extend is a platform that enables developers to build custom applications that integrate seamlessly with Workday. It provides APIs, development tools, and a runtime environment for creating tailored solutions that extend Workday's core functionality.
-  api_count: 6
-  score_band: strong
-  score_composite: 69.7
-  shared: 1
-- slug: amazon-data-lifecycle-manager
-  name: Amazon Data Lifecycle Manager
-  description: Amazon Data Lifecycle Manager provides an automated way to manage the lifecycle of your AWS resources. Using lifecycle policies, you can automate the creation, retention, and deletion of Amazon EBS snapshots and EBS-backed AMIs, reducing storage costs and simplifying backup management. Policies tar…
-  api_count: 1
-  score_band: strong
-  score_composite: 66.0
-  shared: 1
-- slug: amazon-data-pipeline
-  name: Amazon Data Pipeline
-  description: AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it is stored, transform and process it a…
-  api_count: 1
-  score_band: strong
-  score_composite: 65.1
-  shared: 1
-- slug: amazon-incident-manager
-  name: Amazon Incident Manager
-  description: AWS Systems Manager Incident Manager is an incident management console designed to help users mitigate and recover from incidents affecting their AWS-hosted applications. It enables faster incident resolution by automating response plans and engaging responders across notification channels.
-  api_count: 1
-  score_band: strong
-  score_composite: 64.4
-  shared: 1
 related:
 - slug: ai-automation
   name: AI Automation
-  shared: 16
+  shared: 8
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 5
+  shared: 4
 - slug: ipaas
   name: iPaaS
-  shared: 5
+  shared: 4
 - slug: orchestration
   name: Orchestration
-  shared: 4
+  shared: 3
 - slug: testing
   name: Testing
   shared: 2
-- slug: management
-  name: Management
+- slug: discovery
+  name: API Evangelist Discovery
   shared: 1
 overview: 'Workflow Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [workflow-automation.apievangelist.com](https://workflow-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Appian, Workato, ServiceNow, Microsoft Power Automate, Amazon Simple Workflow Service, Salesforce Flow, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including ServiceNow, Appian, Microsoft Power Automate, Workato, Amazon Simple Workflow Service, Salesforce Flow, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Embedded iPaaS, iPaaS, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'

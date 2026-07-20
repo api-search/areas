@@ -6,7 +6,7 @@ description: An index and topic collection covering data migration, cloud migrat
 area_url: https://migration.apievangelist.com
 area_host: migration.apievangelist.com
 icon: https://migration.apievangelist.com/icon-thumb.png
-provider_count: 10
+provider_count: 11
 providers:
 - slug: amazon-mainframe-modernization
   name: Amazon Mainframe Modernization
@@ -42,6 +42,13 @@ providers:
   api_count: 8
   score_band: developing
   score_composite: 56.2
+  shared: 1
+- slug: import2
+  name: Import2
+  description: Import2 is a fully automated data-migration platform that moves customer data between SaaS applications — CRM, helpdesk, and project-management tools — without CSV exports or custom development. Users connect a source and destination app and Import2 moves records, custom fields, pipelines, and deal…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.9
   shared: 1
 - slug: google-cloud-vmware-engine
   name: Google Cloud VMware Engine
@@ -94,7 +101,7 @@ related:
 overview: 'Migration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [migration.apievangelist.com](https://migration.apievangelist.com).
 
 
-  10 providers on the network work in this area, including Amazon Mainframe Modernization, Amazon DataSync, Amazon DMS, Google Cloud Migration Center, Azure Migrate, Google Cloud VMware Engine, and 4 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  11 providers on the network work in this area, including Amazon Mainframe Modernization, Amazon DataSync, Amazon DMS, Google Cloud Migration Center, Azure Migrate, Import2, and 5 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Virtualization, API Evangelist Discovery, AI Automation, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'

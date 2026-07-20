@@ -6,7 +6,7 @@ description: An index and topic collection covering log ingestion, log search, l
 area_url: https://logging.apievangelist.com
 area_host: logging.apievangelist.com
 icon: https://logging.apievangelist.com/icon-thumb.png
-provider_count: 24
+provider_count: 30
 providers:
 - slug: logz-io
   name: Logz.io
@@ -78,12 +78,33 @@ providers:
   score_band: developing
   score_composite: 53.0
   shared: 1
+- slug: lightrun
+  name: Lightrun
+  description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.7
+  shared: 1
+- slug: edge-delta
+  name: Edge Delta
+  description: Edge Delta is an AI-powered observability platform that pairs enterprise-grade telemetry pipelines with agentic AI Teammates for SRE, security, and DevOps teams. Its intelligent pipelines control and route logs, metrics, traces, and events from any source to any destination with in-stream reduction…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.3
+  shared: 1
 - slug: fluentd
   name: Fluentd
   description: Open source data collector for unified logging layer that allows you to unify data collection and consumption for better use and understanding of data.
   api_count: 3
   score_band: developing
   score_composite: 49.3
+  shared: 1
+- slug: codag
+  name: Codag
+  description: Codag is a Y Combinator (Summer 2026) developer-tools company building drop-in log compression for AI agents. It takes oversized infrastructure logs — from Kubernetes, Docker, AWS CloudWatch, Vercel, Railway, Datadog, Sentry, syslog and unstructured sources — and returns only the lines that matter…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.1
   shared: 1
 - slug: axiom
   name: Axiom
@@ -113,6 +134,13 @@ providers:
   score_band: thin
   score_composite: 43.6
   shared: 1
+- slug: calyptia
+  name: Calyptia
+  description: Calyptia builds Calyptia Cloud (Telemetry Pipeline) and Calyptia Core, a commercial management plane for Fluent Bit — the widely deployed open-source agent and processor for logs, metrics and traces. The Calyptia Cloud API lets teams create and operate core instances, telemetry pipelines, agent fle…
+  api_count: 1
+  score_band: thin
+  score_composite: 40.8
+  shared: 1
 - slug: elastic-stack
   name: Elastic Stack
   description: The Elastic Stack (formerly known as the ELK Stack) is a collection of open-source products from Elastic designed to help users take data from any source, in any format, and search, analyze, and visualize that data in real-time. The stack includes Elasticsearch for search and analytics, Kibana for…
@@ -126,6 +154,13 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 40.1
+  shared: 1
+- slug: bitdrift
+  name: bitdrift
+  description: bitdrift builds Capture, a cost-effective dynamic mobile observability platform for iOS, Android, and React Native. A lightweight on-device SDK stores high-volume telemetry locally and uploads only what is needed under real-time control from the bitdrift control plane, avoiding lengthy mobile relea…
+  api_count: 1
+  score_band: thin
+  score_composite: 39.6
   shared: 1
 - slug: elk-stack
   name: Elastic Stack (ELK Stack)
@@ -176,6 +211,13 @@ providers:
   score_band: emerging
   score_composite: 22.1
   shared: 1
+- slug: humio
+  name: Humio
+  description: Humio is a log management and observability platform built for ingesting, storing, and searching machine data in real time at scale. Backed by Accel and acquired by CrowdStrike in 2021, Humio is now delivered as CrowdStrike Falcon LogScale. It provides high-throughput streaming ingest (including Sp…
+  api_count: 1
+  score_band: emerging
+  score_composite: 17.4
+  shared: 1
 related:
 - slug: observability
   name: Observability
@@ -192,13 +234,13 @@ related:
 - slug: network
   name: Network
   shared: 1
-- slug: visualization
-  name: Visualization
+- slug: agents-skills
+  name: Agent Skills
   shared: 1
 overview: 'Logging is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [logging.apievangelist.com](https://logging.apievangelist.com).
 
 
-  24 providers on the network work in this area, including Logz.io, Azure Log Analytics, Fastly, Highlight (highlight.io), Splunk, Google Cloud Operations Suite, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Logz.io, Azure Log Analytics, Fastly, Highlight (highlight.io), Splunk, Google Cloud Operations Suite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, Monitoring, Security, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'

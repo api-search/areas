@@ -6,7 +6,7 @@ description: An index and topic collection covering encryption services, key man
 area_url: https://encryption.apievangelist.com
 area_host: encryption.apievangelist.com
 icon: https://encryption.apievangelist.com/icon-thumb.png
-provider_count: 13
+provider_count: 19
 providers:
 - slug: amazon-kms
   name: Amazon KMS
@@ -35,6 +35,20 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 56.8
+  shared: 1
+- slug: ironcore-labs
+  name: IronCore Labs
+  description: IronCore Labs builds application-layer encryption tools that keep sensitive data private while it stays usable. Its products include SaaS Shield (tenant-controlled envelope encryption with customer-managed keys / BYOK for multi-tenant SaaS), Cloaked Search (a transparent encrypting proxy for Elasti…
+  api_count: 1
+  score_band: developing
+  score_composite: 55.7
+  shared: 1
+- slug: evervault
+  name: Evervault
+  description: Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption keys on Evervault's side while customers hold the ciphertext,…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.9
   shared: 1
 - slug: akeyless
   name: Akeyless
@@ -92,6 +106,20 @@ providers:
   score_band: thin
   score_composite: 40.2
   shared: 1
+- slug: incountry
+  name: InCountry
+  description: InCountry is a data-residency-as-a-service (DRaaS) platform that lets companies store, process, and comply with the data-localization and privacy laws of specific countries without building in-country infrastructure. Its OAuth2-secured REST API stores regulated records (PII, financial, and health d…
+  api_count: 1
+  score_band: thin
+  score_composite: 39.8
+  shared: 1
+- slug: blindinsight
+  name: BlindInsight
+  description: BlindInsight (Blind Insight) is an end-to-end encrypted datastore and privacy-preserving data-analysis platform. It lets teams encrypt, ingest, search, and run machine learning and LLM queries over fully encrypted records without ever exposing plaintext, using a locally deployed Blind Proxy that tr…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.3
+  shared: 1
 - slug: xmtp
   name: XMTP
   description: XMTP (Extensible Message Transport Protocol) is a decentralized, open messaging protocol that enables end-to-end encrypted communication between Ethereum wallet addresses and other decentralized identifiers. Built on MLS (Messaging Layer Security), XMTP provides developer SDKs and a gRPC-based netw…
@@ -99,17 +127,31 @@ providers:
   score_band: thin
   score_composite: 33.5
   shared: 1
+- slug: lattica
+  name: Lattica
+  description: LatticaAI is an Israeli privacy-technology company building Fully Homomorphic Encryption (FHE) as a service, letting AI inference and database queries run on encrypted data at cloud scale with zero plaintext exposure. Lattica builds the full stack — the cryptography, a compiler that turns models in…
+  api_count: 1
+  score_band: thin
+  score_composite: 31.1
+  shared: 1
+- slug: ciphertrust
+  name: CipherTrust
+  description: CipherTrust Manager is Thales's centralized key- and data-security management platform and the control plane of the CipherTrust Data Security Platform (CDSP). It provides a unified plane for encryption key lifecycle management, secrets management, certificates, tokenization, data discovery, and pol…
+  api_count: 1
+  score_band: emerging
+  score_composite: 20.3
+  shared: 1
 related:
 - slug: privacy
   name: Privacy
-  shared: 2
+  shared: 3
 - slug: security
   name: Security
   shared: 1
 overview: 'Encryption is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [encryption.apievangelist.com](https://encryption.apievangelist.com).
 
 
-  13 providers on the network work in this area, including Amazon KMS, Google Cloud KMS, Amazon Certificate Manager, HashiCorp Vault, Akeyless, Signal, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  19 providers on the network work in this area, including Amazon KMS, Google Cloud KMS, Amazon Certificate Manager, HashiCorp Vault, IronCore Labs, Evervault, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Privacy and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

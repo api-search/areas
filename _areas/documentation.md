@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://documentation.apievangelist.com
 area_host: documentation.apievangelist.com
 icon: https://documentation.apievangelist.com/icon-thumb.png
-provider_count: 65
+provider_count: 63
 providers:
 - slug: apidog
   name: Apidog
@@ -29,6 +29,13 @@ providers:
   score_band: strong
   score_composite: 68.0
   shared: 1
+- slug: confluence
+  name: Confluence
+  description: APIs for Atlassian Confluence - team collaboration and knowledge management software.
+  api_count: 62
+  score_band: strong
+  score_composite: 67.0
+  shared: 1
 - slug: apimatic
   name: APIMatic
   description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languag…
@@ -49,13 +56,6 @@ providers:
   api_count: 5
   score_band: strong
   score_composite: 62.8
-  shared: 1
-- slug: confluence
-  name: Confluence
-  description: APIs for Atlassian Confluence - team collaboration and knowledge management software.
-  api_count: 62
-  score_band: strong
-  score_composite: 62.7
   shared: 1
 - slug: swaggerhub
   name: SwaggerHub
@@ -106,6 +106,13 @@ providers:
   score_band: developing
   score_composite: 54.0
   shared: 1
+- slug: companycam
+  name: CompanyCam
+  description: CompanyCam is a photo-based job-site documentation platform for contractors and the trades — roofing, restoration, solar, home services and construction. Its mobile apps capture location- and time-stamped photos and videos that sync to a shared, project-organized workspace so crews, offices and cli…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.5
+  shared: 1
 - slug: atlassian-confluence
   name: Atlassian Confluence
   description: Atlassian Confluence is a team collaboration and wiki platform for creating, organizing, and discussing work with your team. It provides REST APIs (v1 and v2) and a GraphQL API for managing content, spaces, pages, users, labels, and search across Confluence Cloud deployments, enabling automation, a…
@@ -140,6 +147,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 47.8
+  shared: 1
+- slug: hackmd
+  name: HackMD
+  description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide decks or books. HackMD exposes a v1 REST API at api.hackmd.io…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.6
   shared: 1
 - slug: stainless
   name: Stainless
@@ -204,20 +218,6 @@ providers:
   score_band: thin
   score_composite: 44.8
   shared: 1
-- slug: zudoku
-  name: Zudoku
-  description: Zudoku is an open-source, developer-first platform for creating clean, consistent API documentation built on a modern stack including React, TypeScript, and Vite. The tool enables developers to auto-generate documentation from OpenAPI v2/v3 schemas (supporting both single and multi-API setups) and…
-  api_count: 1
-  score_band: thin
-  score_composite: 44.8
-  shared: 1
-- slug: redoc
-  name: ReDoc
-  description: ReDoc is an open-source API documentation renderer for OpenAPI specifications by Redocly. It generates a responsive three-panel documentation layout from OpenAPI 3.1, 3.0, and Swagger 2.0 definitions. The left panel provides a search bar and navigation menu, the central panel displays documentation…
-  api_count: 1
-  score_band: thin
-  score_composite: 43.7
-  shared: 1
 related:
 - slug: developer-experience
   name: Developer Experience
@@ -231,16 +231,16 @@ related:
 - slug: support
   name: Support
   shared: 2
-- slug: agents
-  name: Agents
-  shared: 1
 - slug: cli
   name: Command Line Interface
+  shared: 1
+- slug: deployment
+  name: Deployment
   shared: 1
 overview: 'Documentation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [documentation.apievangelist.com](https://documentation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Apidog, ReadMe, Treblle, APIMatic, Speakeasy, Mintlify, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Apidog, ReadMe, Treblle, Confluence, APIMatic, Speakeasy, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Developer Experience, SDKs, Testing, and Support. Browse every area at [areas.apis.io](https://apis.io/areas/).'

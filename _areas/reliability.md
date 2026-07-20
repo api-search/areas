@@ -6,7 +6,7 @@ description: An index and topic collection covering site reliability engineering
 area_url: https://reliability.apievangelist.com
 area_host: reliability.apievangelist.com
 icon: https://reliability.apievangelist.com/icon-thumb.png
-provider_count: 8
+provider_count: 9
 providers:
 - slug: svix
   name: Svix
@@ -43,6 +43,13 @@ providers:
   score_band: thin
   score_composite: 43.6
   shared: 1
+- slug: antithesis
+  name: Antithesis
+  description: Antithesis is an autonomous software testing platform that finds deep bugs in mission-critical systems using deterministic simulation and continuous fuzzing. It runs your entire system inside a deterministic hypervisor, injects faults and network partitions, explores reachable states, and reproduce…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.7
+  shared: 1
 - slug: statuspage
   name: Statuspage
   description: Statuspage by Atlassian is a hosted status page and incident communication platform that helps companies communicate real-time service status, incident updates, scheduled maintenance, and component health to customers and internal stakeholders. It supports public and private pages, audience-specifi…
@@ -65,11 +72,11 @@ providers:
   score_composite: 15.1
   shared: 1
 related:
-- slug: logging
-  name: Logging
-  shared: 1
 - slug: cli
   name: Command Line Interface
+  shared: 1
+- slug: logging
+  name: Logging
   shared: 1
 - slug: saas-management
   name: SaaS Management
@@ -83,8 +90,8 @@ related:
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  8 providers on the network work in this area, including Svix, Google Cloud Error Reporting, Chaos Mesh, Gremlin, Memfault, Statuspage, and 2 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  9 providers on the network work in this area, including Svix, Google Cloud Error Reporting, Chaos Mesh, Gremlin, Memfault, Antithesis, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Logging, Command Line Interface, SaaS Management, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Command Line Interface, Logging, SaaS Management, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

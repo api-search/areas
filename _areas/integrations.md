@@ -6,7 +6,7 @@ description: An index and topic collection covering the broad integration toolin
 area_url: https://integrations.apievangelist.com
 area_host: integrations.apievangelist.com
 icon: https://integrations.apievangelist.com/icon-thumb.png
-provider_count: 52
+provider_count: 53
 providers:
 - slug: unified-to
   name: Unified.to
@@ -14,6 +14,13 @@ providers:
   api_count: 14
   score_band: exemplar
   score_composite: 77.1
+  shared: 1
+- slug: zapier
+  name: Zapier
+  description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
+  api_count: 4
+  score_band: exemplar
+  score_composite: 73.2
   shared: 1
 - slug: apigee
   name: Apigee
@@ -36,26 +43,19 @@ providers:
   score_band: exemplar
   score_composite: 70.7
   shared: 1
+- slug: composio
+  name: Composio
+  description: Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router…
+  api_count: 8
+  score_band: strong
+  score_composite: 69.2
+  shared: 1
 - slug: merge
   name: Merge
   description: Merge is the connective infrastructure for production AI. The Merge Unified API offers one API surface across HRIS, ATS, Accounting, CRM, Ticketing, File Storage, Knowledge Base, and Chat. Merge Agent Handler exposes pre-built enterprise connectors to AI agents via REST + MCP. Merge Gateway provide…
   api_count: 11
   score_band: strong
   score_composite: 69.0
-  shared: 1
-- slug: zapier
-  name: Zapier
-  description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
-  api_count: 4
-  score_band: strong
-  score_composite: 68.1
-  shared: 1
-- slug: composio
-  name: Composio
-  description: Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router…
-  api_count: 8
-  score_band: strong
-  score_composite: 66.1
   shared: 1
 - slug: cobalt
   name: Cobalt
@@ -225,23 +225,23 @@ related:
 - slug: ipaas
   name: iPaaS
   shared: 7
-- slug: ai-automation
-  name: AI Automation
-  shared: 4
-- slug: saas-management
-  name: SaaS Management
-  shared: 4
 - slug: management
   name: Management
   shared: 2
+- slug: ai-automation
+  name: AI Automation
+  shared: 3
+- slug: saas-management
+  name: SaaS Management
+  shared: 3
 - slug: webhooks
   name: Webhooks
   shared: 3
 overview: 'Integrations is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [integrations.apievangelist.com](https://integrations.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Unified.to, Apigee, Paragon, Boomi, Merge, Zapier, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Unified.to, Zapier, Apigee, Paragon, Boomi, Composio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Embedded iPaaS, iPaaS, AI Automation, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Embedded iPaaS, iPaaS, Management, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

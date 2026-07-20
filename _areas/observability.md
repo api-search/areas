@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://observability.apievangelist.com
 area_host: observability.apievangelist.com
 icon: https://observability.apievangelist.com/icon-thumb.png
-provider_count: 156
+provider_count: 196
 providers:
 - slug: logz-io
   name: Logz.io
@@ -50,6 +50,13 @@ providers:
   score_band: exemplar
   score_composite: 70.2
   shared: 1
+- slug: sentry-system
+  name: Sentry
+  description: Sentry is an open-source error tracking and performance monitoring platform that helps developers identify, triage, and resolve issues in their applications in real-time.
+  api_count: 21
+  score_band: strong
+  score_composite: 69.2
+  shared: 1
 - slug: microsoft-azure-monitor
   name: Azure Monitor
   description: Azure Monitor helps you maximize the availability and performance of your applications and services. It delivers a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments.
@@ -92,12 +99,19 @@ providers:
   score_band: strong
   score_composite: 67.0
   shared: 1
-- slug: sentry-system
-  name: Sentry
-  description: Sentry is an open-source error tracking and performance monitoring platform that helps developers identify, triage, and resolve issues in their applications in real-time.
-  api_count: 21
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 56
   score_band: strong
-  score_composite: 65.9
+  score_composite: 66.9
+  shared: 1
+- slug: grafana
+  name: Grafana
+  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.2
   shared: 1
 - slug: amazon-managed-prometheus
   name: Amazon Managed Service for Prometheus
@@ -105,13 +119,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 64.9
-  shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
-  api_count: 56
-  score_band: strong
-  score_composite: 63.6
   shared: 1
 - slug: acceldata
   name: Acceldata
@@ -175,13 +182,6 @@ providers:
   api_count: 13
   score_band: strong
   score_composite: 60.4
-  shared: 1
-- slug: grafana
-  name: Grafana
-  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.1
   shared: 1
 - slug: mezmo
   name: Mezmo

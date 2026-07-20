@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://sdk.apievangelist.com
 area_host: sdk.apievangelist.com
 icon: https://sdk.apievangelist.com/icon-thumb.png
-provider_count: 75
+provider_count: 116
 providers:
 - slug: speakeasy
   name: Speakeasy
@@ -50,12 +50,40 @@ providers:
   score_band: developing
   score_composite: 57.1
   shared: 1
+- slug: general-translation
+  name: General Translation
+  description: General Translation is an end-to-end internationalization (i18n) and localization platform for developers, backed by a16z. It combines open-source i18n libraries for React, Next.js, React Native, Node.js, and Python with an AI-powered translation API, a context platform (glossaries and translation…
+  api_count: 1
+  score_band: developing
+  score_composite: 56.7
+  shared: 1
+- slug: krisp
+  name: Krisp
+  description: 'Krisp is a Voice AI platform whose real-time speech-enhancement models run on over 200 million devices, licensed by Discord, Twilio, and VMware among others. Beyond its consumer AI Note Taker, Krisp ships a developer surface: the AI Voice SDK family (VIVA for voice AI agents — voice isolation, turn…'
+  api_count: 2
+  score_band: developing
+  score_composite: 55.7
+  shared: 1
 - slug: tripetto
   name: Tripetto
   description: Tripetto is a powerful form builder platform and SDK that enables developers to create smart, conversational forms and surveys with advanced conditional logic. The platform provides a JavaScript/TypeScript SDK for embedding form builders and runners into web applications, along with webhook capabil…
   api_count: 2
   score_band: developing
   score_composite: 55.4
+  shared: 1
+- slug: graphy
+  name: Graphy
+  description: Graphy is an AI-powered data visualization platform that turns raw data into presentation-ready charts and interactive data stories. Alongside its no-code chart maker (Google Sheets, CSV and Excel import, AI insights, conversational data chat and 20+ chart types), Graphy ships a developer platform…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.6
+  shared: 1
+- slug: android
+  name: Android
+  description: Collection of APIs and services available in the Android ecosystem.
+  api_count: 21
+  score_band: developing
+  score_composite: 53.1
   shared: 1
 - slug: commercetools
   name: commercetools
@@ -70,13 +98,6 @@ providers:
   api_count: 29
   score_band: developing
   score_composite: 51.9
-  shared: 1
-- slug: android
-  name: Android
-  description: Collection of APIs and services available in the Android ecosystem.
-  api_count: 21
-  score_band: developing
-  score_composite: 48.8
   shared: 1
 - slug: apache-http
   name: Apache HttpComponents
@@ -99,6 +120,13 @@ providers:
   score_band: developing
   score_composite: 46.3
   shared: 1
+- slug: alokai-formerly-vue-storefront
+  name: Alokai (formerly Vue Storefront)
+  description: Alokai (formerly Vue Storefront) is a Frontend-as-a-Service platform for composable, headless commerce. It connects enterprise ecommerce backends (SAP Commerce Cloud, Salesforce, Adobe Commerce/Magento, commercetools, BigCommerce, Shopware and others) to fast, customizable storefronts through the A…
+  api_count: 1
+  score_band: thin
+  score_composite: 44.6
+  shared: 1
 - slug: scalar
   name: Scalar
   description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rules, and automated SDK generation for TypeScript, Python, Go,…
@@ -106,12 +134,26 @@ providers:
   score_band: thin
   score_composite: 44.6
   shared: 1
+- slug: keyper
+  name: Keyper
+  description: keyper is an Austrian technology company providing connected ticketing and digital access solutions. Its developer platform lets ticketing systems, resellers and access control systems (ACS) deliver e-tickets and exchange access data through the keyper Access API, Connect Provider / Reseller APIs,…
+  api_count: 1
+  score_band: thin
+  score_composite: 44.4
+  shared: 1
 - slug: stream-io
   name: Stream
   description: Stream provides realtime APIs for chat messaging, video and audio (calls and rooms), activity feeds and moderation. Hosted on a global edge network with native SDKs for web, mobile (iOS, Android, Flutter, React Native) and game engines (Unity, Unreal). Stream publishes full OpenAPI specifications f…
   api_count: 4
   score_band: thin
   score_composite: 43.5
+  shared: 1
+- slug: appsamurai
+  name: Appsamurai
+  description: AppSamurai (operated by Netvent) is a global, AI-powered mobile app growth platform founded in 2016. It offers user acquisition, retargeting, OEM / on-device app discovery, rewarded user acquisition, and monetization across one platform, plus the Storyly in-app stories product and the Interceptd ad…
+  api_count: 1
+  score_band: thin
+  score_composite: 43.4
   shared: 1
 - slug: superviz
   name: SuperViz
@@ -155,6 +197,13 @@ providers:
   score_band: thin
   score_composite: 40.5
   shared: 1
+- slug: helika
+  name: Helika
+  description: Helika is a game and brand analytics platform, originally built for web3 and blockchain games, that helps studios, sports teams, and entertainment brands collect, unify, and act on player and community engagement data. Its Analytics Service API ingests gameplay and engagement events through a singl…
+  api_count: 1
+  score_band: thin
+  score_composite: 40.0
+  shared: 1
 - slug: banuba
   name: Banuba
   description: Banuba is an AR and AI technology company providing the Face AR SDK for augmented reality face effects, beauty filters, and virtual try-on experiences. The SDK supports iOS, Android, Web (HTML5), Windows, macOS, Unity, Flutter, and React Native. Use cases include live streaming beauty filters, vide…
@@ -162,80 +211,31 @@ providers:
   score_band: thin
   score_composite: 39.9
   shared: 1
-- slug: camtasia
-  name: Camtasia
-  description: Camtasia is a screen recording and video editing software by TechSmith that allows users to create professional videos, tutorials, and presentations with built-in editing tools, effects, and media assets. Camtasia itself does not publish a public REST API, but it integrates tightly with TechSmith S…
-  api_count: 2
+- slug: bitdrift
+  name: bitdrift
+  description: bitdrift builds Capture, a cost-effective dynamic mobile observability platform for iOS, Android, and React Native. A lightweight on-device SDK stores high-volume telemetry locally and uploads only what is needed under real-time control from the bitdrift control plane, avoiding lengthy mobile relea…
+  api_count: 1
   score_band: thin
-  score_composite: 39.1
-  shared: 1
-- slug: cometchat
-  name: CometChat
-  description: CometChat is an in-app messaging platform offering chat, voice, and video SDKs plus a server-side REST Management API. The REST API (v3) manages users, auth tokens, groups, group members, messages, conversations, reactions, roles, and webhooks for an app, while client SDKs and a managed realtime We…
-  api_count: 8
-  score_band: thin
-  score_composite: 38.9
-  shared: 1
-- slug: talkjs
-  name: TalkJS
-  description: TalkJS is a chat API and SDK for adding messaging to web and mobile apps. It pairs a customizable pre-built chat UI (the TalkJS JavaScript SDK and Chat UI) with a server-side REST API at https://api.talkjs.com/v1/{appId} for managing users, conversations, participants, and messages, importing exist…
-  api_count: 5
-  score_band: thin
-  score_composite: 38.6
-  shared: 1
-- slug: velt
-  name: Velt
-  description: Velt is a real-time collaboration platform delivered primarily as a client SDK (React components and framework wrappers) for adding presence, live cursors, comments, notifications, huddles, recordings, and live selection to applications. Its server-side surface is the Velt Data (REST) API at api.ve…
-  api_count: 7
-  score_band: thin
-  score_composite: 38.6
-  shared: 1
-- slug: daily-co
-  name: Daily
-  description: Daily provides WebRTC video and audio infrastructure for developers — REST APIs for rooms, recordings, transcripts, meetings, dial-out and Daily Bots / Pipecat Cloud (voice AI agents), plus client SDKs for Web, iOS, Android, React Native and Flutter.
-  api_count: 2
-  score_band: thin
-  score_composite: 38.2
-  shared: 1
-- slug: smithy
-  name: Smithy
-  description: Smithy is an open source, protocol-agnostic interface definition language (IDL) and toolchain developed at AWS for defining, validating, and generating API clients, servers, and documentation for any programming language. It powers the AWS SDK code generation pipeline and supports protocol-agnostic…
-  api_count: 2
-  score_band: thin
-  score_composite: 37.6
-  shared: 1
-- slug: liblab
-  name: Liblab
-  description: liblab generates and publishes type-safe, idiomatic SDKs in TypeScript, Python, Java, .NET, Go, PHP, and Terraform from OpenAPI/Swagger/Postman specs, plus MCP servers that expose those APIs to AI agents. The platform ships a CLI, hosted portal, and CI/CD GitHub Action that publish SDKs to customer…
-  api_count: 4
-  score_band: thin
-  score_composite: 36.9
-  shared: 1
-- slug: dyte
-  name: Dyte
-  description: Dyte is a live video and voice developer platform offering client SDKs plus a v2 REST API for programmatically creating meetings, adding participants and issuing their auth tokens, querying completed sessions, and managing recordings, livestreams, and webhooks. Dyte was acquired by Cloudflare in 20…
-  api_count: 6
-  score_band: thin
-  score_composite: 36.6
+  score_composite: 39.6
   shared: 1
 related:
-- slug: developer-experience
-  name: Developer Experience
-  shared: 4
 - slug: documentation
   name: Documentation
   shared: 4
+- slug: developer-experience
+  name: Developer Experience
+  shared: 3
 - slug: search
   name: API Evangelist Search
+  shared: 1
+- slug: agents
+  name: Agents
   shared: 1
 - slug: cli
   name: Command Line Interface
   shared: 1
-- slug: communications
-  name: Communications
-  shared: 1
-- slug: privacy
-  name: Privacy
+- slug: logging
+  name: Logging
   shared: 1
 overview: 'SDKs is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [sdk.apievangelist.com](https://sdk.apievangelist.com).
 
@@ -243,5 +243,5 @@ overview: 'SDKs is one of the API Evangelist areas on the [APIs.io](https://apis
   30 providers on the network work in this area, including Speakeasy, Chroma, Fern, Split, Transcend, Sideko, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Developer Experience, Documentation, API Evangelist Search, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Documentation, Developer Experience, API Evangelist Search, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

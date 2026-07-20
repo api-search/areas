@@ -6,7 +6,7 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 38
+provider_count: 49
 providers:
 - slug: twilio
   name: Twilio
@@ -15,6 +15,13 @@ providers:
   score_band: exemplar
   score_composite: 73.2
   shared: 1
+- slug: cisco-webex
+  name: Cisco Webex
+  description: Cisco Webex is a comprehensive collaboration platform that provides video conferencing, team messaging, file sharing, and calling capabilities for businesses and teams. The Webex developer platform offers REST APIs, SDKs, and integrations for extending and automating collaboration workflows across…
+  api_count: 19
+  score_band: exemplar
+  score_composite: 71.9
+  shared: 1
 - slug: amazon-pinpoint
   name: Amazon Pinpoint
   description: Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communications service that enables you to engage with customers across multiple messaging channels including email, SMS, push notifications, and voice messages. Note - AWS will end support for Amazon Pinpoint on October 30,…
@@ -22,19 +29,12 @@ providers:
   score_band: strong
   score_composite: 68.2
   shared: 1
-- slug: cisco-webex
-  name: Cisco Webex
-  description: Cisco Webex is a comprehensive collaboration platform that provides video conferencing, team messaging, file sharing, and calling capabilities for businesses and teams. The Webex developer platform offers REST APIs, SDKs, and integrations for extending and automating collaboration workflows across…
-  api_count: 19
-  score_band: strong
-  score_composite: 67.3
-  shared: 1
 - slug: ringcentral
   name: RingCentral
   description: RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.
   api_count: 15
   score_band: strong
-  score_composite: 65.0
+  score_composite: 68.0
   shared: 1
 - slug: parcellab
   name: parcelLab
@@ -99,12 +99,33 @@ providers:
   score_band: developing
   score_composite: 50.7
   shared: 1
+- slug: community
+  name: Community
+  description: Community is a conversational messaging platform that lets brands, creators, artists, sports teams, media companies, and political organizations reach their audiences directly over SMS, MMS, WhatsApp, Apple Messages for Business, and RCS. Founded in 2019 and remote-first, Community pairs a campaign…
+  api_count: 2
+  score_band: developing
+  score_composite: 50.0
+  shared: 1
 - slug: rainbow
   name: Rainbow
   description: Rainbow is a CPaaS platform from Alcatel-Lucent Enterprise (ALE) that lets developers enrich applications with chat, group chat, voice, video, file sharing, and telephony PBX features through more than 200 APIs, REST interfaces, and multi-language SDKs including Node.js, C#, iOS, and Android.
   api_count: 3
   score_band: developing
   score_composite: 48.7
+  shared: 1
+- slug: aptly
+  name: Aptly
+  description: Aptly is the AI operations layer for property management, built by Invisible Apps, Inc. It unifies resident and owner communication (calls, texts, emails, and chat) with board-based workflows, automation, and AI agents that handle leasing inquiries, maintenance requests, and around-the-clock reside…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.0
+  shared: 1
+- slug: cloudtalk
+  name: CloudTalk
+  description: CloudTalk is an AI-powered cloud call center and business phone system (CCaaS) for sales and customer support teams, backed by Point Nine. Its public REST API (served at https://my.cloudtalk.io/api, published as OpenAPI 3.0.1 version 1.7) lets developers automate calls, contacts, agents, groups, ph…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.9
   shared: 1
 - slug: exotel
   name: Exotel
@@ -127,12 +148,40 @@ providers:
   score_band: thin
   score_composite: 44.6
   shared: 1
+- slug: agentphone
+  name: AgentPhone
+  description: AgentPhone is the telephony infrastructure layer for AI agents. A single REST API provisions real US/Canada phone numbers for agents with voice calling, SMS, MMS, and iMessage built in, plus unified webhooks, automatic conversation threading, real-time call transcription, hosted-LLM or webhook voic…
+  api_count: 1
+  score_band: thin
+  score_composite: 43.7
+  shared: 1
+- slug: engagespark
+  name: engageSPARK
+  description: engageSPARK is a mobile messaging and engagement platform for reaching hard-to-reach populations in low- and middle-income countries at scale. It lets NGOs, researchers, microfinance institutions, and businesses run SMS, automated voice (IVR), WhatsApp, and pre-paid airtime top-up campaigns across…
+  api_count: 1
+  score_band: thin
+  score_composite: 42.6
+  shared: 1
+- slug: confrere
+  name: Confrere
+  description: Confrere is a privacy-first, embeddable video-consultation platform (now a Compodium product) built in the Nordics for healthcare providers, therapists, consultants, tutors, and sales teams who need secure, encrypted video meetings that clients join from any modern browser with no download. Its ser…
+  api_count: 1
+  score_band: thin
+  score_composite: 40.9
+  shared: 1
 - slug: documo
   name: Documo
   description: Documo (mFax) is a cloud fax and document delivery platform. The Documo REST API lets developers send and receive faxes, provision and manage fax numbers, subscribe to delivery events via webhooks, and manage account resources over a JSON/HTTPS interface secured with an API key.
   api_count: 4
   score_band: thin
   score_composite: 40.2
+  shared: 1
+- slug: kumospace
+  name: Kumospace
+  description: Kumospace is a virtual office platform for remote and distributed teams, providing a persistent spatial workspace where colleagues move between rooms and floors, with proximity-based spatial audio and video, team chat channels, scheduled and ad-hoc meetings, recordings, transcription and meeting su…
+  api_count: 1
+  score_band: thin
+  score_composite: 40.0
   shared: 1
 - slug: clicksend
   name: ClickSend
@@ -148,6 +197,13 @@ providers:
   score_band: thin
   score_composite: 38.6
   shared: 1
+- slug: hustle
+  name: Hustle
+  description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and a…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.5
+  shared: 1
 - slug: smsapi
   name: SMSAPI
   description: SMSAPI is a European bulk business-messaging provider headquartered in Poland and part of LINK Mobility. Its REST API delivers SMS, MMS, and voice (VMS) messaging, email marketing, two-factor authentication, contact and group management, sender field registration, subuser administration, and accoun…
@@ -162,74 +218,18 @@ providers:
   score_band: thin
   score_composite: 37.3
   shared: 1
-- slug: ourpeople
-  name: OurPeople
-  description: The OurPeople API uses common standards to allow easy read and write access to your data. OurPeople is a frontline communications platform that helps organizations communicate with deskless workers.
-  api_count: 1
-  score_band: thin
-  score_composite: 37.3
-  shared: 1
-- slug: dyte
-  name: Dyte
-  description: Dyte is a live video and voice developer platform offering client SDKs plus a v2 REST API for programmatically creating meetings, adding participants and issuing their auth tokens, querying completed sessions, and managing recordings, livestreams, and webhooks. Dyte was acquired by Cloudflare in 20…
-  api_count: 6
-  score_band: thin
-  score_composite: 36.6
-  shared: 1
-- slug: orange-business
-  name: Orange Business
-  description: Orange Business is the B2B, telco-cloud, and developer arm of Orange S.A. — France's leading telecommunications group operating across Europe, the Middle East, and Africa. The company markets itself as "an operator, integrator, and platform player" and serves 30,000+ enterprise customers across 65…
-  api_count: 35
-  score_band: thin
-  score_composite: 36.4
-  shared: 1
-- slug: africastalking
-  name: Africa's Talking
-  description: Africa's Talking is a pan-African communications platform that exposes a unified set of REST APIs for SMS, USSD, Voice, Airtime, Mobile Data, and Payments. Developers authenticate with an apiKey and username and reach mobile subscribers across Kenya, Nigeria, Uganda, Tanzania, Rwanda, and other Afr…
-  api_count: 6
-  score_band: thin
-  score_composite: 35.8
-  shared: 1
-- slug: motorola-solutions
-  name: Motorola Solutions
-  description: Motorola Solutions is a Fortune 500 company that provides developer APIs and integration capabilities through its developer platform. Motorola Solutions provides APIs for public safety communications, command center software, and video security integration. The platform enables partners to build on…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.0
-  shared: 1
-- slug: 46elks
-  name: 46elks
-  description: 46elks is a Swedish communications platform as a service (CPaaS) offering a simple HTTP REST API for sending and receiving SMS and MMS, making and receiving voice calls with programmable call actions, provisioning virtual phone numbers, and handling media and recordings. The API uses HTTP Basic aut…
-  api_count: 6
-  score_band: thin
-  score_composite: 34.9
-  shared: 1
-- slug: loops
-  name: Loops
-  description: Loops is an email platform for SaaS companies, combining marketing campaigns, transactional emails, and contact management with a developer-first API.
-  api_count: 1
-  score_band: thin
-  score_composite: 34.8
-  shared: 1
-- slug: textmagic
-  name: Textmagic
-  description: Textmagic is a business text-messaging platform offering two-way SMS, bulk messaging, SMS marketing, and team inboxes. Its REST API (v2) lets developers send and receive messages, manage contacts and lists, schedule and template messages, and administer sender IDs and dedicated numbers programmatic…
-  api_count: 7
-  score_band: thin
-  score_composite: 33.2
-  shared: 1
 related:
+- slug: embeddable
+  name: Embeddable
+  shared: 1
 - slug: authentication
   name: Authentication
-  shared: 1
-- slug: sdk
-  name: SDKs
   shared: 1
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Twilio, Amazon Pinpoint, Cisco Webex, RingCentral, parcelLab, Telefon, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Cisco Webex, Amazon Pinpoint, RingCentral, parcelLab, Telefon, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Embeddable and Authentication. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

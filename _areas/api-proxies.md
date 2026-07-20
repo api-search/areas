@@ -6,7 +6,7 @@ description: An index and topic collection covering reverse-proxy and edge-proxy
 area_url: https://api-proxies.apievangelist.com
 area_host: api-proxies.apievangelist.com
 icon: https://api-proxies.apievangelist.com/icon-thumb.png
-provider_count: 10
+provider_count: 11
 providers:
 - slug: ngrok
   name: ngrok
@@ -78,6 +78,13 @@ providers:
   score_band: thin
   score_composite: 32.5
   shared: 1
+- slug: snapapi-pics
+  name: SnapAPI
+  description: SnapAPI is a REST API for turning any URL into visual captures or structured data with a single call - screenshots (PNG, JPEG, WebP, AVIF), full-page PDFs, scroll videos (MP4, WebM, GIF), markdown/text/metadata extraction tuned for AI pipelines, and multi-page scraping with anti-bot stealth and pro…
+  api_count: 7
+  score_band: emerging
+  score_composite: 29.1
+  shared: 1
 related:
 - slug: scraping
   name: Scraping
@@ -85,7 +92,7 @@ related:
 overview: 'API Proxies is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-proxies.apievangelist.com](https://api-proxies.apievangelist.com).
 
 
-  10 providers on the network work in this area, including ngrok, Hyperbrowser, Oxylabs, ZenRows, Smartproxy, Envoy Proxy, and 4 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  11 providers on the network work in this area, including ngrok, Hyperbrowser, Oxylabs, ZenRows, Smartproxy, Envoy Proxy, and 5 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'

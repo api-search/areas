@@ -6,8 +6,15 @@ description: This is the index of iPaaS (integration platform as a service) repo
 area_url: https://ipaas.apievangelist.com
 area_host: ipaas.apievangelist.com
 icon: https://ipaas.apievangelist.com/icon-thumb.png
-provider_count: 31
+provider_count: 32
 providers:
+- slug: zapier
+  name: Zapier
+  description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
+  api_count: 4
+  score_band: exemplar
+  score_composite: 73.2
+  shared: 1
 - slug: paragon
   name: Paragon
   description: Paragon is the Integration Infrastructure Platform for B2B SaaS and AI products. The platform combines Connect Portal (managed user authentication for 130+ SaaS apps), Workflows (event-driven async orchestration), ActionKit (Universal API + MCP server giving AI agents synchronous CRUD access to Int…
@@ -28,13 +35,6 @@ providers:
   api_count: 4
   score_band: exemplar
   score_composite: 70.3
-  shared: 1
-- slug: zapier
-  name: Zapier
-  description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
-  api_count: 4
-  score_band: strong
-  score_composite: 68.1
   shared: 1
 - slug: tray-ai
   name: Tray.ai
@@ -169,6 +169,13 @@ providers:
   score_band: thin
   score_composite: 38.2
   shared: 1
+- slug: automat
+  name: Automat
+  description: Automat builds AI agents that operate computers the way people do, replacing legacy RPA tools like UiPath, Automation Anywhere, and Blue Prism with intelligent, self-healing managed automations. Founded in 2022 by ex-Google engineers, the platform combines UI-based AI agents (RPA using Computer Use…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.4
+  shared: 1
 - slug: revert-dev
   name: Revert
   description: Revert is an open-source unified API for building product integrations. A single normalized interface fronts many third-party SaaS providers across categories like CRM, with managed OAuth connections, a unified data model (contacts, leads, deals, companies, notes, tasks, events, users), a passthrou…
@@ -211,13 +218,6 @@ providers:
   score_band: emerging
   score_composite: 21.4
   shared: 1
-- slug: ifttt
-  name: IFTTT
-  description: IFTTT (If This Then That) is a consumer and prosumer automation platform that connects more than 750 apps, devices, and services through conditional Applets that chain triggers to actions. The IFTTT Maker Webhooks service exposes a public HTTP API that lets developers fire triggers and execute Appl…
-  api_count: 1
-  score_band: emerging
-  score_composite: 20.0
-  shared: 1
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
@@ -227,10 +227,10 @@ related:
   shared: 7
 - slug: workflow-automation
   name: Workflow Automation
-  shared: 5
+  shared: 4
 - slug: ai-automation
   name: AI Automation
-  shared: 4
+  shared: 3
 - slug: orchestration
   name: Orchestration
   shared: 2
@@ -240,7 +240,7 @@ related:
 overview: 'iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ipaas.apievangelist.com](https://ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Paragon, Workato, Oracle Integration, Zapier, Tray.ai, SAP Integration Suite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Zapier, Paragon, Workato, Oracle Integration, Tray.ai, SAP Integration Suite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS, Integrations, Workflow Automation, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

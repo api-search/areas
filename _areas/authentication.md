@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 102
+provider_count: 123
 providers:
 - slug: twilio
   name: Twilio
@@ -28,6 +28,13 @@ providers:
   api_count: 10
   score_band: exemplar
   score_composite: 71.4
+  shared: 1
+- slug: composio
+  name: Composio
+  description: Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router…
+  api_count: 8
+  score_band: strong
+  score_composite: 69.2
   shared: 1
 - slug: auth0
   name: Auth0
@@ -63,13 +70,6 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 66.5
-  shared: 1
-- slug: composio
-  name: Composio
-  description: Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router…
-  api_count: 8
-  score_band: strong
-  score_composite: 66.1
   shared: 1
 - slug: beyond-identity
   name: Beyond Identity
@@ -240,7 +240,7 @@ related:
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Twilio, Kinde, Microsoft Active Directory, Auth0, PropelAuth, Stytch, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Kinde, Microsoft Active Directory, Composio, Auth0, PropelAuth, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Security, Agents, Communications, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'

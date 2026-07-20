@@ -6,7 +6,7 @@ description: DNS (Domain Name System) is the distributed naming system that tran
 area_url: https://dns.apievangelist.com
 area_host: dns.apievangelist.com
 icon: https://dns.apievangelist.com/icon-thumb.png
-provider_count: 27
+provider_count: 32
 providers:
 - slug: shodan
   name: Shodan
@@ -57,6 +57,13 @@ providers:
   score_band: developing
   score_composite: 56.7
   shared: 1
+- slug: domaintools
+  name: DomainTools
+  description: DomainTools is a domain and DNS intelligence company whose APIs power threat investigation, hunting, and monitoring for security teams. Its product surface spans Iris Investigate (pivot-based domain investigation), Iris Enrich (bulk domain enrichment), and Iris Detect (brand-infringement monitoring…
+  api_count: 4
+  score_band: developing
+  score_composite: 52.0
+  shared: 1
 - slug: frostbyte
   name: Frostbyte
   description: Free API platform for developers and AI agents — 40+ services including IP Geolocation, Crypto Prices, Screenshots, DNS, Scraping, Code Execution. Free tier of 200 credits with no signup; USDC on Base top-ups via x402 for higher volume.
@@ -84,6 +91,20 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 42.4
+  shared: 1
+- slug: dnsfilter
+  name: DNSFilter
+  description: DNSFilter is an AI-powered DNS security and content-filtering platform that protects organizations from cyber threats and unwanted content at the DNS layer. Its machine-learning engine blocks malicious domains — phishing, malware, ransomware, and botnet command-and-control — often before they appea…
+  api_count: 1
+  score_band: thin
+  score_composite: 42.3
+  shared: 1
+- slug: d3
+  name: D3
+  description: D3 is a crypto-infrastructure company building the internet's domain layer, tokenized. Through its Doma Protocol, D3 brings ICANN domain names on-chain as tokenized name assets and unlocks "DomainFi" — programmable DNS, fractionalized domain tokens, an on-chain marketplace, and agentic commerce. De…
+  api_count: 1
+  score_band: thin
+  score_composite: 41.9
   shared: 1
 - slug: bunny-net
   name: Bunny.net
@@ -141,6 +162,13 @@ providers:
   score_band: thin
   score_composite: 32.4
   shared: 1
+- slug: datum
+  name: Datum
+  description: Datum is an open source network cloud built for AI, founded in 2024 and backed by $13.6M from Amplify Partners, CRV, Encoded Ventures, Cervin Ventures, Ex/Ante, Step Function, and Vine Ventures, and founded by Zac Smith and Jacob Smith (ex-Equinix, Packet). Datum gives AI-native developers and alte…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.2
+  shared: 1
 - slug: dnsimple
   name: DNSimple
   description: DNSimple is a domain management and DNS hosting service that provides users with a simple and easy way to manage their domain names and DNS settings. With DNSimple, users can register new domain names, transfer existing ones, and easily update DNS records to point their domains to the desired serve…
@@ -176,6 +204,13 @@ providers:
   score_band: emerging
   score_composite: 20.5
   shared: 1
+- slug: donuts
+  name: Donuts
+  description: Donuts (now operating as Identity Digital, following the 2022 merger of Donuts Inc. and Afilias) runs the world's largest portfolio of new generic top-level domains (gTLDs) — more than 280 extensions such as .email, .guru, .social, .live, and .restaurant. As a wholesale domain registry it provides…
+  api_count: 1
+  score_band: emerging
+  score_composite: 20.4
+  shared: 1
 - slug: domscan
   name: DomScan
   description: Domain intelligence API for domain availability, DNS, WHOIS/RDAP, valuation, security checks, email posture, social handle checks, and monitoring workflows. Offers REST API, machine-readable contracts, a hosted MCP server, and llms.txt.
@@ -183,27 +218,13 @@ providers:
   score_band: emerging
   score_composite: 17.4
   shared: 1
-- slug: cloudflare-com
-  name: Cloudflare.com
-  description: cloudflare-com is an alias profile for Cloudflare. The canonical company profile lives at the cloudflare repository in the API Evangelist Network; this entry exists so that the ".com" form of the brand resolves into the same canonical record. Cloudflare's developer surface includes a single unified…
-  api_count: 1
-  score_band: emerging
-  score_composite: 16.9
-  shared: 1
-- slug: verisign
-  name: VeriSign
-  description: VeriSign is a major US corporation and Fortune 1000 company. The VeriSign API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 1
-  score_band: emerging
-  score_composite: 15.9
-  shared: 1
 related:
-- slug: network
-  name: Network
-  shared: 2
 - slug: security
   name: Security
   shared: 2
+- slug: network
+  name: Network
+  shared: 1
 - slug: scraping
   name: Scraping
   shared: 1
@@ -219,8 +240,8 @@ related:
 overview: 'DNS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [dns.apievangelist.com](https://dns.apievangelist.com).
 
 
-  27 providers on the network work in this area, including Shodan, Cloudflare, Google Cloud DNS, CompleteDNS, Amazon Cloud Map, Amazon Route 53 Resolver, and 21 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Shodan, Cloudflare, Google Cloud DNS, CompleteDNS, Amazon Cloud Map, Amazon Route 53 Resolver, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Network, Security, Scraping, and Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Security, Network, Scraping, and Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

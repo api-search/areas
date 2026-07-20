@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 35
+provider_count: 42
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -85,6 +85,13 @@ providers:
   score_band: thin
   score_composite: 42.2
   shared: 1
+- slug: flutterflow
+  name: FlutterFlow
+  description: FlutterFlow is a visual, low-code development platform for building native mobile, web, and desktop applications on Flutter without sacrificing app quality or features. Beyond the visual builder, FlutterFlow exposes Project APIs — a REST surface at api.flutterflow.io/v2 for programmatically listing…
+  api_count: 1
+  score_band: thin
+  score_composite: 41.6
+  shared: 1
 - slug: cosign
   name: Cosign
   description: Cosign is the command-line client of the Sigstore project for signing, verifying, and storing container images, OCI artifacts, blobs, and in-toto attestations. Cosign supports keyless signing using OpenID Connect identity providers (Google, GitHub, Microsoft) by obtaining short-lived certificates f…
@@ -98,6 +105,20 @@ providers:
   api_count: 4
   score_band: thin
   score_composite: 38.4
+  shared: 1
+- slug: bit
+  name: Bit
+  description: Bit (teambit) is the platform for the modular web — a build system and cloud for component-driven development. Bit lets teams create, version, and share reusable components as standard npm packages across projects and frameworks (React, Vue, Angular, Node.js, Next.js and more), with independent bui…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.9
+  shared: 1
+- slug: cycode
+  name: Cycode
+  description: Cycode is a complete Application Security Posture Management (ASPM) and software supply chain security platform that delivers visibility, security, and integrity across the entire software development lifecycle. Its Risk Intelligence Graph (RIG) correlates findings from SAST, SCA, secrets, IaC, and…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.4
   shared: 1
 - slug: mockoon
   name: Mockoon
@@ -113,12 +134,26 @@ providers:
   score_band: thin
   score_composite: 34.3
   shared: 1
+- slug: guildai
+  name: Guild.ai
+  description: Guild.ai is a control plane for AI agents that lets engineering teams build, deploy, govern, and share agents in production. Agents are authored in TypeScript with the @guildai/agents-sdk (alongside Guild Native and Goose recipe agent types) and run in a governed, sandboxed runtime that mediates al…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.0
+  shared: 1
 - slug: bruno
   name: Bruno
   description: Bruno is an open-source, Git-native, offline-first API client for exploring and testing APIs. It stores collections directly on the filesystem as plain text files using the Bru markup language, making collections version-controllable alongside code. Bruno supports REST, GraphQL, and gRPC APIs, scri…
   api_count: 1
   score_band: thin
   score_composite: 32.4
+  shared: 1
+- slug: digger
+  name: Digger
+  description: Digger (diggerhq), backed by Initialized Capital, builds developer infrastructure across two open-source-rooted product lines. OpenTaco (formerly the Digger CE project) is an Infrastructure-as-Code orchestration and Terraform/OpenTofu state-management platform that runs plan/apply inside your exist…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.6
   shared: 1
 - slug: promptfoo
   name: Promptfoo
@@ -162,6 +197,13 @@ providers:
   score_band: emerging
   score_composite: 25.7
   shared: 1
+- slug: bittensor
+  name: Bittensor
+  description: Bittensor is an open, decentralized machine-intelligence network built on a Substrate blockchain (subtensor). Contributors earn the TAO token by supplying useful work to specialized subnets — miners produce, validators score, and stakers back them — with emissions distributed by Yuma Consensus. Dev…
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.2
+  shared: 1
 - slug: konfig
   name: Konfig
   description: Konfig was a developer-tools startup that generated SDKs, API documentation, interactive demos, and tutorials from OpenAPI Specifications and Postman Collections, delivered primarily through the konfig-cli command-line interface and GitHub Actions automation. The company was sunset in December 2024…
@@ -176,48 +218,6 @@ providers:
   score_band: emerging
   score_composite: 24.5
   shared: 1
-- slug: nitric
-  name: Nitric
-  description: Nitric is an open-source cloud framework and infrastructure-from-code SDK plus CLI for building cloud applications in TypeScript, Python, Go, or Dart. You declare resources - APIs, schedules, queues, topics, buckets, key-value stores, secrets, and websockets - directly in your application code, and…
-  api_count: 11
-  score_band: emerging
-  score_composite: 24.3
-  shared: 1
-- slug: azure-cli
-  name: Azure CLI
-  description: Azure CLI is the official cross-platform command-line tool for managing Microsoft Azure resources and services from the terminal.
-  api_count: 1
-  score_band: emerging
-  score_composite: 23.9
-  shared: 1
-- slug: bruno-api
-  name: Bruno
-  description: Bruno is an open-source (MIT), git-native API client - a lightweight, offline-first alternative to Postman and Insomnia for exploring and testing APIs. It is a developer TOOL, not a hosted HTTP API provider. Collections are stored on the local filesystem as folders of plain-text files (the .bru "Br…
-  api_count: 5
-  score_band: emerging
-  score_composite: 23.6
-  shared: 1
-- slug: pnpm
-  name: pnpm
-  description: pnpm is a fast, disk space efficient package manager for JavaScript and Node.js projects. It uses a content-addressable store and a strict, symlinked node_modules layout so every version of every package is stored exactly once on disk and projects can only access dependencies they explicitly declar…
-  api_count: 5
-  score_band: emerging
-  score_composite: 21.9
-  shared: 1
-- slug: cline
-  name: Cline
-  description: Cline (formerly Claude Dev) is an open-source autonomous coding agent. The Cline VS Code extension has 5M+ installs; JetBrains is in early access; the Cline CLI is also available. Edits files, runs commands, uses the browser, and federates to multiple LLM providers. An MCP Marketplace extends Cline…
-  api_count: 5
-  score_band: emerging
-  score_composite: 20.9
-  shared: 1
-- slug: hurl
-  name: Hurl
-  description: Hurl is an open source command-line tool for running HTTP requests defined in a simple plain text format with built-in assertions for API testing.
-  api_count: 1
-  score_band: emerging
-  score_composite: 20.4
-  shared: 1
 related:
 - slug: clients
   name: Clients
@@ -228,14 +228,14 @@ related:
 - slug: plans
   name: Plans
   shared: 1
-- slug: agents-skills
-  name: Agent Skills
-  shared: 1
 - slug: reliability
   name: Reliability
   shared: 1
 - slug: agents
   name: Agents
+  shared: 1
+- slug: developer-experience
+  name: Developer Experience
   shared: 1
 overview: 'Command Line Interface is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [cli.apievangelist.com](https://cli.apievangelist.com).
 
@@ -243,5 +243,5 @@ overview: 'Command Line Interface is one of the API Evangelist areas on the [API
   30 providers on the network work in this area, including AWS CLI, Svix, Plandex, APIToolkit (Monoscope), Sideko, Continue, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Clients, API Clients, Plans, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Clients, API Clients, Plans, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---
