@@ -6,8 +6,15 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://observability.apievangelist.com
 area_host: observability.apievangelist.com
 icon: https://observability.apievangelist.com/icon-thumb.png
-provider_count: 196
+provider_count: 295
 providers:
+- slug: new-relic
+  name: New Relic
+  description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
+  api_count: 17
+  score_band: exemplar
+  score_composite: 78.9
+  shared: 1
 - slug: logz-io
   name: Logz.io
   description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
@@ -15,12 +22,12 @@ providers:
   score_band: exemplar
   score_composite: 77.1
   shared: 1
-- slug: new-relic
-  name: New Relic
-  description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
-  api_count: 17
+- slug: fastly
+  name: Fastly
+  description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
+  api_count: 23
   score_band: exemplar
-  score_composite: 76.3
+  score_composite: 72.8
   shared: 1
 - slug: sentry
   name: Sentry
@@ -42,13 +49,6 @@ providers:
   api_count: 5
   score_band: exemplar
   score_composite: 71.2
-  shared: 1
-- slug: fastly
-  name: Fastly
-  description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
-  api_count: 23
-  score_band: exemplar
-  score_composite: 70.2
   shared: 1
 - slug: sentry-system
   name: Sentry
@@ -162,6 +162,20 @@ providers:
   score_band: strong
   score_composite: 62.0
   shared: 1
+- slug: coval
+  name: Coval
+  description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Coval supports inbound/outbound voice, standard chat, chat over…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.4
+  shared: 1
+- slug: upsun
+  name: Upsun
+  description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.0
+  shared: 1
 - slug: honeycomb-io
   name: Honeycomb
   description: ''
@@ -190,6 +204,13 @@ providers:
   score_band: strong
   score_composite: 60.0
   shared: 1
+- slug: dash0
+  name: Dash0
+  description: Dash0 is an OpenTelemetry-native observability platform for engineering teams who want full visibility into logs, metrics, traces, profiles and events without operating complex pipelines or proprietary agents. Founded in 2023 (Series B, $110M, 2026), Dash0 ingests OTLP natively, correlates signals…
+  api_count: 1
+  score_band: developing
+  score_composite: 59.7
+  shared: 1
 - slug: netdata
   name: Netdata
   description: Netdata is a real-time infrastructure monitoring and observability platform that collects per-second metrics from physical servers, virtual machines, cloud deployments, Kubernetes clusters, and IoT devices. It provides a REST API for querying metrics, alerts, and configuration on individual nodes (…
@@ -197,40 +218,19 @@ providers:
   score_band: developing
   score_composite: 59.6
   shared: 1
-- slug: waxell
-  name: Waxell
-  description: Waxell is an AI agent governance and observability platform that provides runtime policy enforcement, auto-instrumented LLM telemetry, MCP governance, cost management, and durable workflow execution for agents built in any Python framework or third-party agentic tool (Claude Code, Cursor, LangChain…
-  api_count: 2
-  score_band: developing
-  score_composite: 59.6
-  shared: 1
-- slug: encore-dev
-  name: Encore
-  description: Encore is a backend application framework and developer cloud that lets engineering teams build type-safe distributed systems in TypeScript (Encore.ts) and Go (Encore.go) using declarative Infrastructure from Code. Developers describe APIs, databases, Pub/Sub, object storage, caches, cron jobs, and…
-  api_count: 5
-  score_band: developing
-  score_composite: 59.2
-  shared: 1
-- slug: jentic
-  name: Jentic
-  description: Jentic is an AI infrastructure company building the agentic knowledge layer for APIs. Founded in late 2024 and backed by $4.5M in pre-seed funding, Jentic enables enterprises to confidently manage, scale, and govern AI agent initiatives in a unified platform built on open standards. The platform pr…
-  api_count: 6
-  score_band: developing
-  score_composite: 59.0
-  shared: 1
 related:
 - slug: monitoring
   name: Monitoring
-  shared: 11
+  shared: 12
+- slug: containers
+  name: Containers
+  shared: 4
 - slug: logging
   name: Logging
   shared: 4
 - slug: security
   name: Security
   shared: 4
-- slug: containers
-  name: Containers
-  shared: 3
 - slug: webhooks
   name: Webhooks
   shared: 3
@@ -240,8 +240,8 @@ related:
 overview: 'Observability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [observability.apievangelist.com](https://observability.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Logz.io, New Relic, Sentry, Hookdeck, Vercel, Fastly, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including New Relic, Logz.io, Fastly, Sentry, Hookdeck, Vercel, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Monitoring, Logging, Security, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Monitoring, Containers, Logging, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

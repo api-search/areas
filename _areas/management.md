@@ -13,7 +13,7 @@ providers:
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 12
   score_band: exemplar
-  score_composite: 70.7
+  score_composite: 73.3
   shared: 1
 - slug: dell-servers
   name: Dell Servers
@@ -53,13 +53,10 @@ providers:
 related:
 - slug: saas-management
   name: SaaS Management
-  shared: 4
+  shared: 3
 - slug: integrations
   name: Integrations
   shared: 2
-- slug: virtualization
-  name: Virtualization
-  shared: 1
 - slug: ai-automation
   name: AI Automation
   shared: 1
@@ -69,11 +66,14 @@ related:
 - slug: monitoring
   name: Monitoring
   shared: 1
+- slug: virtualization
+  name: Virtualization
+  shared: 1
 overview: 'Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [management.apievangelist.com](https://management.apievangelist.com).
 
 
   Providers on the network working in this area include Boomi, Dell Servers, SnapLogic, WunderGraph, Amazon Systems Manager, and Broadcom — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: SaaS Management, Integrations, Virtualization, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: SaaS Management, Integrations, AI Automation, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

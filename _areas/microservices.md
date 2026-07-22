@@ -6,7 +6,7 @@ description: An index of microservices architecture frameworks, service discover
 area_url: https://microservices.apievangelist.com
 area_host: microservices.apievangelist.com
 icon: https://microservices.apievangelist.com/icon-thumb.png
-provider_count: 92
+provider_count: 108
 providers:
 - slug: apigee
   name: Apigee
@@ -106,6 +106,13 @@ providers:
   score_band: developing
   score_composite: 53.7
   shared: 1
+- slug: amazon-sqs
+  name: Amazon SQS
+  description: Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
+  api_count: 1
+  score_band: developing
+  score_composite: 53.5
+  shared: 1
 - slug: axon-framework
   name: Axon Framework
   description: Axon Framework is a Java framework for building event-driven microservices using CQRS (Command Query Responsibility Segregation) and event sourcing patterns, providing the building blocks to implement scalable and maintainable distributed systems.
@@ -126,6 +133,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 52.9
+  shared: 1
+- slug: dapr
+  name: Dapr
+  description: Dapr (Distributed Application Runtime) is a portable, event-driven runtime that makes it easy for developers to build resilient, stateless, and stateful applications that run on the cloud and edge. It provides building block APIs for state management, pub/sub messaging, service invocation, bindings…
+  api_count: 13
+  score_band: developing
+  score_composite: 52.7
   shared: 1
 - slug: vert-x
   name: Vert.x
@@ -162,19 +176,12 @@ providers:
   score_band: developing
   score_composite: 50.9
   shared: 1
-- slug: amazon-sqs
-  name: Amazon SQS
-  description: Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
+- slug: signadot
+  name: Signadot
+  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
   api_count: 1
   score_band: developing
-  score_composite: 50.8
-  shared: 1
-- slug: dapr
-  name: Dapr
-  description: Dapr (Distributed Application Runtime) is a portable, event-driven runtime that makes it easy for developers to build resilient, stateless, and stateful applications that run on the cloud and edge. It provides building block APIs for state management, pub/sub messaging, service invocation, bindings…
-  api_count: 13
-  score_band: developing
-  score_composite: 50.0
+  score_composite: 50.1
   shared: 1
 - slug: akka
   name: Akka
@@ -211,17 +218,10 @@ providers:
   score_band: developing
   score_composite: 48.8
   shared: 1
-- slug: amazon-app-mesh
-  name: Amazon App Mesh
-  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
-  api_count: 1
-  score_band: developing
-  score_composite: 48.2
-  shared: 1
 related:
 - slug: service-mesh
   name: Service Mesh
-  shared: 6
+  shared: 5
 - slug: containers
   name: Containers
   shared: 2
@@ -231,11 +231,11 @@ related:
 - slug: serverless
   name: Serverless
   shared: 2
-- slug: monetization
-  name: Monetization
-  shared: 1
 - slug: dns
   name: DNS
+  shared: 1
+- slug: deployment
+  name: Deployment
   shared: 1
 overview: 'Microservices is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [microservices.apievangelist.com](https://microservices.apievangelist.com).
 

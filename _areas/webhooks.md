@@ -6,7 +6,7 @@ description: An index and topic collection covering webhook delivery, ingestion,
 area_url: https://webhooks.apievangelist.com
 area_host: webhooks.apievangelist.com
 icon: https://webhooks.apievangelist.com/icon-thumb.png
-provider_count: 274
+provider_count: 410
 providers:
 - slug: svix
   name: Svix
@@ -14,6 +14,13 @@ providers:
   api_count: 4
   score_band: exemplar
   score_composite: 73.5
+  shared: 1
+- slug: fastly
+  name: Fastly
+  description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
+  api_count: 23
+  score_band: exemplar
+  score_composite: 72.8
   shared: 1
 - slug: hookdeck
   name: Hookdeck
@@ -28,13 +35,6 @@ providers:
   api_count: 5
   score_band: exemplar
   score_composite: 71.2
-  shared: 1
-- slug: fastly
-  name: Fastly
-  description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
-  api_count: 23
-  score_band: exemplar
-  score_composite: 70.2
   shared: 1
 - slug: knock-app
   name: Knock
@@ -57,6 +57,13 @@ providers:
   score_band: strong
   score_composite: 68.8
   shared: 1
+- slug: square
+  name: Square
+  description: Square provides APIs for payment processing, point of sale, and business management solutions enabling developers to build custom commerce applications.
+  api_count: 37
+  score_band: strong
+  score_composite: 68.4
+  shared: 1
 - slug: buildkite-com
   name: Buildkite
   description: Buildkite is a hybrid CI/CD platform that combines a hosted control plane (pipelines.buildkite.com) with self-hosted or Buildkite-Hosted agents that run jobs on customer-controlled infrastructure. The platform spans three core products — Pipelines, Test Engine, and Package Registries — and exposes…
@@ -64,12 +71,12 @@ providers:
   score_band: strong
   score_composite: 67.8
   shared: 1
-- slug: square
-  name: Square
-  description: Square provides APIs for payment processing, point of sale, and business management solutions enabling developers to build custom commerce applications.
-  api_count: 37
+- slug: onfleet
+  name: Onfleet
+  description: Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kro…
+  api_count: 8
   score_band: strong
-  score_composite: 65.8
+  score_composite: 66.7
   shared: 1
 - slug: convoy
   name: Convoy
@@ -92,12 +99,12 @@ providers:
   score_band: strong
   score_composite: 64.2
   shared: 1
-- slug: onfleet
-  name: Onfleet
-  description: Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kro…
-  api_count: 8
+- slug: attentive
+  name: Attentive
+  description: Attentive is a martech SMS and email marketing platform for e-commerce and retail brands. Its developer platform exposes REST APIs (v1 and v2) plus a GraphQL API for managing subscribers and subscriptions, sending SMS/email and ecommerce events (product view, add-to-cart, purchase), setting custom…
+  api_count: 2
   score_band: strong
-  score_composite: 64.0
+  score_composite: 63.8
   shared: 1
 - slug: paypal
   name: PayPal
@@ -148,6 +155,13 @@ providers:
   score_band: strong
   score_composite: 62.4
   shared: 1
+- slug: filevine
+  name: Filevine
+  description: Filevine is the leading legal case management and operating intelligence platform for plaintiff, personal-injury, mass-tort, family, immigration, criminal-defense, estate-planning, and government legal teams. The platform combines a customizable matter / project system with intake (Lead Docket), do…
+  api_count: 9
+  score_band: strong
+  score_composite: 62.2
+  shared: 1
 - slug: ahasend
   name: AhaSend
   description: AhaSend is a developer-focused transactional email platform providing fast, reliable email delivery via REST API and SMTP relay. It offers features including email tracking, webhooks, email routing, suppression management, domain management, SMTP credentials, and detailed delivery statistics.
@@ -197,26 +211,12 @@ providers:
   score_band: developing
   score_composite: 59.6
   shared: 1
-- slug: filevine
-  name: Filevine
-  description: Filevine is the leading legal case management and operating intelligence platform for plaintiff, personal-injury, mass-tort, family, immigration, criminal-defense, estate-planning, and government legal teams. The platform combines a customizable matter / project system with intake (Lead Docket), do…
-  api_count: 9
-  score_band: developing
-  score_composite: 59.5
-  shared: 1
-- slug: docuseal
-  name: DocuSeal
-  description: DocuSeal is an open-source document signing platform that provides a REST API for building electronic signature workflows into applications. The API supports creating and managing templates, sending signature requests via submissions, and tracking signing status through submitter endpoints. DocuSea…
+- slug: airmeet
+  name: Airmeet
+  description: Airmeet is a virtual, hybrid and in-person events platform used to run webinars, conferences, summits, meetups, workshops and trade shows with interactive stages, networking lounges, booths, polls, Q&A and engagement analytics. Its Public API lets developers create and manage events (Airmeets), ses…
   api_count: 1
   score_band: developing
-  score_composite: 59.0
-  shared: 1
-- slug: deel
-  name: Deel
-  description: Deel is a global workforce platform combining payroll, Employer of Record (EOR), independent contractor management, HRIS, ATS, IT/device management, immigration, and background screenings across 150+ countries. The Deel Public API and SCIM API expose the full worker lifecycle — hire, onboard, pay,…
-  api_count: 8
-  score_band: developing
-  score_composite: 58.7
+  score_composite: 59.5
   shared: 1
 related:
 - slug: integrations
@@ -240,7 +240,7 @@ related:
 overview: 'Webhooks is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [webhooks.apievangelist.com](https://webhooks.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Svix, Hookdeck, Vercel, Fastly, Knock, Composio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Svix, Fastly, Hookdeck, Vercel, Knock, Composio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Integrations, Observability, Embedded iPaaS, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'

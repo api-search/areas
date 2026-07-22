@@ -6,21 +6,21 @@ description: An index of container runtime, orchestration, registry, security, a
 area_url: https://containers.apievangelist.com
 area_host: containers.apievangelist.com
 icon: https://containers.apievangelist.com/icon-thumb.png
-provider_count: 102
+provider_count: 128
 providers:
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 54
+  score_band: exemplar
+  score_composite: 72.4
+  shared: 1
 - slug: red-hat
   name: Red Hat
   description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
   api_count: 49
   score_band: exemplar
   score_composite: 70.3
-  shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 54
-  score_band: strong
-  score_composite: 69.7
   shared: 1
 - slug: amazon-ecr
   name: Amazon ECR
@@ -35,13 +35,6 @@ providers:
   api_count: 56
   score_band: strong
   score_composite: 66.9
-  shared: 1
-- slug: azure-kubernetes-service
-  name: Azure Kubernetes Service
-  description: Azure Kubernetes Service (AKS) simplifies deploying a managed Kubernetes cluster in Azure by offloading the operational overhead to Azure. As a hosted Kubernetes service, Azure handles critical tasks, like health monitoring and maintenance.
-  api_count: 8
-  score_band: strong
-  score_composite: 66.7
   shared: 1
 - slug: anchore
   name: Anchore
@@ -106,6 +99,13 @@ providers:
   score_band: strong
   score_composite: 61.2
   shared: 1
+- slug: upsun
+  name: Upsun
+  description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.0
+  shared: 1
 - slug: amazon-web-services-aws
   name: Amazon Web Services (AWS)
   description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
@@ -119,6 +119,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 60.5
+  shared: 1
+- slug: kubernetes
+  name: Kubernetes
+  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.1
   shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
@@ -211,26 +218,19 @@ providers:
   score_band: developing
   score_composite: 54.5
   shared: 1
-- slug: kubernetes
-  name: Kubernetes
-  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.4
-  shared: 1
 related:
-- slug: orchestration
-  name: Orchestration
-  shared: 5
 - slug: serverless
   name: Serverless
   shared: 5
 - slug: deployment
   name: Deployment
-  shared: 3
+  shared: 4
 - slug: observability
   name: Observability
-  shared: 3
+  shared: 4
+- slug: orchestration
+  name: Orchestration
+  shared: 4
 - slug: security
   name: Security
   shared: 3
@@ -240,8 +240,8 @@ related:
 overview: 'Containers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [containers.apievangelist.com](https://containers.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Red Hat, Cloudflare, Amazon ECR, IBM, Azure Kubernetes Service, Anchore, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Cloudflare, Red Hat, Amazon ECR, IBM, Anchore, Amazon Managed Service for Prometheus, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Orchestration, Serverless, Deployment, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Serverless, Deployment, Observability, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

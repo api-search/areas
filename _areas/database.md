@@ -6,7 +6,7 @@ description: An index and topic collection covering managed databases and databa
 area_url: https://database.apievangelist.com
 area_host: database.apievangelist.com
 icon: https://database.apievangelist.com/icon-thumb.png
-provider_count: 131
+provider_count: 173
 providers:
 - slug: amazon-neptune
   name: Amazon Neptune
@@ -29,6 +29,13 @@ providers:
   score_band: exemplar
   score_composite: 73.0
   shared: 1
+- slug: notion
+  name: Notion
+  description: Notion is an all-in-one workspace that combines notes, tasks, wikis, and databases. The Notion API allows developers to integrate Notion with other tools and build custom applications on top of Notion's platform.
+  api_count: 1
+  score_band: exemplar
+  score_composite: 72.1
+  shared: 1
 - slug: oracle
   name: Oracle
   description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
@@ -42,13 +49,6 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 70.0
-  shared: 1
-- slug: notion
-  name: Notion
-  description: Notion is an all-in-one workspace that combines notes, tasks, wikis, and databases. The Notion API allows developers to integrate Notion with other tools and build custom applications on top of Notion's platform.
-  api_count: 1
-  score_band: strong
-  score_composite: 69.4
   shared: 1
 - slug: oracle-goldengate
   name: Oracle GoldenGate
@@ -92,6 +92,13 @@ providers:
   score_band: strong
   score_composite: 65.8
   shared: 1
+- slug: apache-couchdb
+  name: Apache CouchDB
+  description: Apache CouchDB is an open-source distributed document-oriented NoSQL database governed by the Apache Software Foundation. It uses JSON for data storage, a RESTful HTTP/JSON API for all database operations, and the Couch Replication Protocol for multi-primary synchronization across servers, mobile d…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.7
+  shared: 1
 - slug: convex
   name: Convex
   description: Convex is a serverless backend platform that provides a real-time database, cloud functions, and infrastructure for building modern web and mobile applications. It offers a TypeScript-first developer experience with reactive queries, transactional mutations, and integrated file storage, all accessi…
@@ -126,6 +133,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 62.4
+  shared: 1
+- slug: clickhouse
+  name: ClickHouse
+  description: ClickHouse is a fast open-source column-oriented database management system that enables real-time analytical reporting using SQL. ClickHouse exposes multiple interfaces - an HTTP interface for SQL queries, native TCP, MySQL and PostgreSQL wire-compatible interfaces, and a gRPC interface - and the…
+  api_count: 6
+  score_band: strong
+  score_composite: 62.1
   shared: 1
 - slug: cockroach-labs
   name: Cockroach Labs
@@ -176,6 +190,13 @@ providers:
   score_band: strong
   score_composite: 60.5
   shared: 1
+- slug: kurrent
+  name: Kurrent
+  description: Kurrent — formerly Event Store Ltd — builds KurrentDB, an event-native database purpose-built to store, process and deliver application state changes as an immutable, append-only log of events. Where a traditional CRUD database overwrites rows and discards the history that produced them, KurrentDB…
+  api_count: 2
+  score_band: strong
+  score_composite: 60.4
+  shared: 1
 - slug: nutanix
   name: Nutanix
   description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
@@ -183,12 +204,12 @@ providers:
   score_band: strong
   score_composite: 60.4
   shared: 1
-- slug: apache-couchdb
-  name: Apache CouchDB
-  description: Apache CouchDB is an open-source distributed document-oriented NoSQL database governed by the Apache Software Foundation. It uses JSON for data storage, a RESTful HTTP/JSON API for all database operations, and the Couch Replication Protocol for multi-primary synchronization across servers, mobile d…
+- slug: vividcortex
+  name: VividCortex
+  description: VividCortex is a SaaS database performance monitoring platform, now part of SolarWinds and marketed as SolarWinds Database Performance Monitor (DPM). It uses lightweight per-host agents to capture and analyze every query executed against MySQL, PostgreSQL, MongoDB, Redis, Amazon Aurora, and SQL Ser…
   api_count: 1
-  score_band: strong
-  score_composite: 60.1
+  score_band: developing
+  score_composite: 59.3
   shared: 1
 - slug: sybase
   name: Sybase
@@ -196,27 +217,6 @@ providers:
   api_count: 7
   score_band: developing
   score_composite: 59.0
-  shared: 1
-- slug: couchbase
-  name: Couchbase
-  description: Couchbase is a distributed, document-oriented NoSQL cloud database platform that combines the flexibility of JSON, the power of SQL++ querying, and the performance of an in-memory key-value store. The Couchbase product line includes Couchbase Server (self-managed), Couchbase Capella (fully managed…
-  api_count: 12
-  score_band: developing
-  score_composite: 58.6
-  shared: 1
-- slug: scaleway
-  name: Scaleway
-  description: Scaleway is a European cloud provider offering a full suite of compute, storage, networking, AI, and serverless infrastructure services. Scaleway provides a comprehensive REST API for programmatic management of all cloud resources including Instances, Kubernetes clusters (Kapsule and Kosmos), manag…
-  api_count: 11
-  score_band: developing
-  score_composite: 57.9
-  shared: 1
-- slug: kurrent
-  name: Kurrent
-  description: Kurrent — formerly Event Store Ltd — builds KurrentDB, an event-native database purpose-built to store, process and deliver application state changes as an immutable, append-only log of events. Where a traditional CRUD database overwrites rows and discards the history that produced them, KurrentDB…
-  api_count: 2
-  score_band: developing
-  score_composite: 57.7
   shared: 1
 related:
 - slug: serverless
@@ -228,20 +228,20 @@ related:
 - slug: caching
   name: Caching
   shared: 1
-- slug: gateway
-  name: Gateway
-  shared: 1
-- slug: virtualization
-  name: Virtualization
-  shared: 1
 - slug: ai-automation
   name: AI Automation
+  shared: 1
+- slug: machine-learning
+  name: Machine Learning
+  shared: 1
+- slug: monitoring
+  name: Monitoring
   shared: 1
 overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [database.apievangelist.com](https://database.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Neptune, Bubble, YugabyteDB, Oracle, Amazon DynamoDB, Notion, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Neptune, Bubble, YugabyteDB, Notion, Oracle, Amazon DynamoDB, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Serverless, Migration, Caching, and Gateway. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Serverless, Migration, Caching, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

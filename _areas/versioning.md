@@ -6,7 +6,7 @@ description: An index and topic collection covering API versioning patterns, sch
 area_url: https://versioning.apievangelist.com
 area_host: versioning.apievangelist.com
 icon: https://versioning.apievangelist.com/icon-thumb.png
-provider_count: 2
+provider_count: 3
 providers:
 - slug: silverstripe
   name: SilverStripe
@@ -22,9 +22,22 @@ providers:
   score_band: emerging
   score_composite: 20.0
   shared: 1
-related: []
+- slug: changelog-md
+  name: CHANGELOG.md (Keep a Changelog)
+  description: CHANGELOG.md is a community convention for a human-readable, Markdown- formatted file at the root of a project that records notable changes between versions. The leading specification is "Keep a Changelog" by Olivier Lacan, which defines a stable, opinionated set of section headings (Added, Changed…
+  api_count: 0
+  score_band: minimal
+  score_composite: 10.6
+  shared: 1
+related:
+- slug: change-log
+  name: Change Log
+  shared: 1
 overview: 'Versioning is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [versioning.apievangelist.com](https://versioning.apievangelist.com).
 
 
-  Providers on the network working in this area include SilverStripe and DVC — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  Providers on the network working in this area include SilverStripe, DVC, and CHANGELOG.md (Keep a Changelog) — each links out to that provider''s APIs, schemas, and governance artifacts.
+
+
+  Related areas: Change Log. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

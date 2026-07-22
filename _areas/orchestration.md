@@ -6,21 +6,21 @@ description: An index and topic collection covering container orchestration and 
 area_url: https://orchestration.apievangelist.com
 area_host: orchestration.apievangelist.com
 icon: https://orchestration.apievangelist.com/icon-thumb.png
-provider_count: 58
+provider_count: 75
 providers:
 - slug: uipath
   name: UiPath
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
   api_count: 6
   score_band: exemplar
-  score_composite: 71.7
+  score_composite: 74.4
   shared: 1
 - slug: workato
   name: Workato
   description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
   api_count: 4
   score_band: exemplar
-  score_composite: 70.5
+  score_composite: 73.2
   shared: 1
 - slug: workday-extend
   name: Workday Extend
@@ -28,13 +28,6 @@ providers:
   api_count: 6
   score_band: strong
   score_composite: 69.7
-  shared: 1
-- slug: azure-kubernetes-service
-  name: Azure Kubernetes Service
-  description: Azure Kubernetes Service (AKS) simplifies deploying a managed Kubernetes cluster in Azure by offloading the operational overhead to Azure. As a hosted Kubernetes service, Azure handles critical tasks, like health monitoring and maintenance.
-  api_count: 8
-  score_band: strong
-  score_composite: 66.7
   shared: 1
 - slug: microsoft-azure-kubernetes-service
   name: Azure Kubernetes Service
@@ -85,6 +78,13 @@ providers:
   score_band: strong
   score_composite: 60.5
   shared: 1
+- slug: kubernetes
+  name: Kubernetes
+  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.1
+  shared: 1
 - slug: apache-oozie
   name: Apache Oozie
   description: Apache Oozie is a workflow scheduler system for managing Apache Hadoop jobs. It enables users to define workflows as directed acyclic graphs (DAGs) of actions including MapReduce, Pig, Hive, Sqoop, and custom Java/shell steps. Coordinator jobs trigger workflows based on time schedules or data avail…
@@ -113,12 +113,12 @@ providers:
   score_band: developing
   score_composite: 57.6
   shared: 1
-- slug: kubernetes
-  name: Kubernetes
-  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
+- slug: tower
+  name: Tower
+  description: Tower is a Python-native data flow orchestrator and fully-managed data backend for pipelines, agents, and data applications, pairing serverless (or self-hosted) Python compute with an open Apache Iceberg-based lakehouse that is compatible with Snowflake, Spark, and DuckDB. Teams deploy versioned ap…
   api_count: 1
   score_band: developing
-  score_composite: 54.4
+  score_composite: 54.3
   shared: 1
 - slug: ansible-automation-platform
   name: Ansible Automation Platform
@@ -190,12 +190,26 @@ providers:
   score_band: developing
   score_composite: 48.0
   shared: 1
+- slug: pinkfish
+  name: Pinkfish
+  description: Pinkfish is an enterprise agentic AI and business orchestration platform that runs multi-step workflows across an organization's stack, combining AI agents with real system integrations, permissions, and auditability for critical operations. The platform pairs a natural-language "Coworker" and visu…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.9
+  shared: 1
 - slug: restate
   name: Restate
   description: Restate is a low-latency durable execution engine for building resilient applications that tolerate all infrastructure faults. It provides durable execution for workflows, event-driven handlers, and stateful orchestration of microservices with exactly-once semantics, automatic retries, and built-in…
   api_count: 1
   score_band: developing
   score_composite: 47.5
+  shared: 1
+- slug: conductor
+  name: Conductor
+  description: Conductor allows you to build a complex application using simple and granular tasks that do not need to be aware of or keep track of the state of your application's execution flow. Conductor keeps track of the state, calls tasks in the right order (sequentially or in parallel, as defined by you), r…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.8
   shared: 1
 - slug: restack
   name: Restack
@@ -204,32 +218,18 @@ providers:
   score_band: developing
   score_composite: 45.9
   shared: 1
-- slug: conductor
-  name: Conductor
-  description: Conductor allows you to build a complex application using simple and granular tasks that do not need to be aware of or keep track of the state of your application's execution flow. Conductor keeps track of the state, calls tasks in the right order (sequentially or in parallel, as defined by you), r…
-  api_count: 1
-  score_band: thin
-  score_composite: 44.1
-  shared: 1
-- slug: talend
-  name: Talend
-  description: Talend (now part of Qlik) provides data integration, quality, and API management capabilities through cloud-native APIs for ETL, data pipelines, and application integration. The Qlik Talend Cloud platform exposes REST APIs for orchestrating tasks and plans, executing data integration jobs, managing…
-  api_count: 6
-  score_band: thin
-  score_composite: 44.1
-  shared: 1
 related:
-- slug: containers
-  name: Containers
-  shared: 5
 - slug: ai-automation
   name: AI Automation
-  shared: 3
-- slug: workflow-automation
-  name: Workflow Automation
-  shared: 3
+  shared: 4
+- slug: containers
+  name: Containers
+  shared: 4
 - slug: embedded-ipaas
   name: Embedded iPaaS
+  shared: 2
+- slug: workflow-automation
+  name: Workflow Automation
   shared: 2
 - slug: ipaas
   name: iPaaS
@@ -240,8 +240,8 @@ related:
 overview: 'Orchestration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [orchestration.apievangelist.com](https://orchestration.apievangelist.com).
 
 
-  30 providers on the network work in this area, including UiPath, Workato, Workday Extend, Azure Kubernetes Service, Azure Kubernetes Service, Choreo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including UiPath, Workato, Workday Extend, Azure Kubernetes Service, Choreo, Fyno, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, AI Automation, Workflow Automation, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: AI Automation, Containers, Embedded iPaaS, and Workflow Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

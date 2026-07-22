@@ -6,7 +6,7 @@ description: An index and topic collection covering chatbots, conversational age
 area_url: https://bots.apievangelist.com
 area_host: bots.apievangelist.com
 icon: https://bots.apievangelist.com/icon-thumb.png
-provider_count: 13
+provider_count: 17
 providers:
 - slug: slack
   name: Slack
@@ -20,7 +20,14 @@ providers:
   description: Lichess is a free, ad-free, open-source online chess server operated by a French nonprofit and powered entirely by volunteers and donations. It serves millions of games per day with live play, tournaments, puzzles, studies, broadcasts, analysis, and a public API. The server (lila), engine library (…
   api_count: 1
   score_band: developing
-  score_composite: 53.8
+  score_composite: 56.4
+  shared: 1
+- slug: zenzap
+  name: ZenZap
+  description: Zenzap is an AI-native work communication platform — "Work Chat Built for the AI Era" — used by teams in healthcare, hospitality, construction, food service, retail, franchise, manufacturing, and non-profit operations. It organizes work into topics (group chats / channels / conversations) carrying…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.1
   shared: 1
 - slug: zoho-cliq
   name: Zoho Cliq
@@ -71,6 +78,20 @@ providers:
   score_band: thin
   score_composite: 33.3
   shared: 1
+- slug: groupme
+  name: GroupMe
+  description: GroupMe is a group messaging application, owned by Microsoft, that lets people chat in named groups and direct conversations across iOS, Android, and the web, including over SMS. For developers, GroupMe publishes the GroupMe API v3 — a REST + JSON API at https://api.groupme.com/v3 authenticated wit…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.1
+  shared: 1
+- slug: alta5
+  name: Alta5
+  description: Alta5 is the technology brand of Option Alpha, LLC, a St. Petersburg, Florida company (founded 2010) that operates optionalpha.com, a no-code automated options-and-stock trading platform for retail traders. Users build "bots" from natural-language recipes that discover, backtest, and automate tradi…
+  api_count: 0
+  score_band: thin
+  score_composite: 32.4
+  shared: 1
 - slug: bot-butcher
   name: Bot Butcher
   description: Bot Butcher is an AI-powered spam detection API that uses a fine-tuned large language model to classify contact form submissions as spam or legitimate messages. The service analyzes messages within the context of what each website is about, providing context-aware classification with 99% reported a…
@@ -85,13 +106,6 @@ providers:
   score_band: emerging
   score_composite: 28.4
   shared: 1
-- slug: groupme
-  name: GroupMe
-  description: GroupMe is a group messaging application, owned by Microsoft, that lets people chat in named groups and direct conversations across iOS, Android, and the web, including over SMS. For developers, GroupMe publishes the GroupMe API v3 — a REST + JSON API at https://api.groupme.com/v3 authenticated wit…
-  api_count: 1
-  score_band: emerging
-  score_composite: 27.5
-  shared: 1
 - slug: google-chat-integrations-for-workspace
   name: Google Chat Integrations for Workspace
   description: Google Chat is the messaging and collaboration platform built into Google Workspace, allowing teams to chat in direct messages, group conversations, and spaces with threaded discussions, file sharing, tasks, and Chat app integrations. The Google Chat REST API lets developers build Chat apps that se…
@@ -99,9 +113,23 @@ providers:
   score_band: emerging
   score_composite: 25.2
   shared: 1
+- slug: regression-games
+  name: Regression Games
+  description: Regression Games builds AI agents and bots for video games. Its platform lets studios create bots for QA testing, multiplayer simulation, game balancing, and NPC behavior with minimal code. The Unity SDK (gg.regression.unity.bots / RGUnityBots) adds AI-driven automated playtesting, UI and screensho…
+  api_count: 0
+  score_band: emerging
+  score_composite: 16.3
+  shared: 1
+- slug: kik
+  name: Kik
+  description: Kik is a freeware instant-messaging mobile app for iOS and Android, known for letting users register with only a username rather than a phone number. Founded in 2009 by University of Waterloo students and released in 2010, Kik grew to hundreds of millions of registered users and was especially popu…
+  api_count: 0
+  score_band: minimal
+  score_composite: 10.5
+  shared: 1
 related: []
 overview: 'Bots is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [bots.apievangelist.com](https://bots.apievangelist.com).
 
 
-  13 providers on the network work in this area, including Slack, Lichess, Zoho Cliq, Highrise, Telegram, Microsoft Bot Framework, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  17 providers on the network work in this area, including Slack, Lichess, ZenZap, Zoho Cliq, Highrise, Telegram, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

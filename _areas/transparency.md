@@ -6,8 +6,15 @@ description: An index and topic collection covering public-facing transparency s
 area_url: https://transparency.apievangelist.com
 area_host: transparency.apievangelist.com
 icon: https://transparency.apievangelist.com/icon-thumb.png
-provider_count: 5
+provider_count: 6
 providers:
+- slug: loon-finance
+  name: Loon Finance
+  description: Loon is a Calgary-based fintech and the issuer of CADC, a regulated, fiat-backed stablecoin pegged 1:1 to the Canadian dollar. Reserves are held in segregated cash deposits at ATB Financial and attested independently every month by HDCPA Professional Corporation, with FINTRAC compliance and a prosp…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.0
+  shared: 1
 - slug: open-payments
   name: CMS Open Payments
   description: CMS Open Payments is the U.S. federal transparency program (run by the Centers for Medicare and Medicaid Services) that publishes payments and transfers of value made by drug and medical device manufacturers and group purchasing organizations to physicians, non-physician practitioners, and teaching…
@@ -47,5 +54,5 @@ related: []
 overview: 'Transparency is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [transparency.apievangelist.com](https://transparency.apievangelist.com).
 
 
-  Providers on the network working in this area include CMS Open Payments, Free Law Project, Freedom of Information Act, USAspending.gov, and ENTSO-E — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  Providers on the network working in this area include Loon Finance, CMS Open Payments, Free Law Project, Freedom of Information Act, USAspending.gov, and ENTSO-E — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

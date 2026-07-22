@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 42
+provider_count: 106
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -43,6 +43,13 @@ providers:
   score_band: developing
   score_composite: 57.1
   shared: 1
+- slug: qfex
+  name: Qfex
+  description: QFEX is the first 24/7 exchange built exclusively for US equities, commodities, and FX, offering high-leverage perpetual futures on traditional assets without a broker. Founded by former Tower Research and Citadel engineers who met studying mathematics at Cambridge, QFEX gives retail and institutio…
+  api_count: 3
+  score_band: developing
+  score_composite: 55.6
+  shared: 1
 - slug: continue-dev
   name: Continue
   description: Continue is the open-source AI code assistant for VS Code and JetBrains, distributed under Apache 2.0. The Continue IDE extensions and the Continue CLI federate to any LLM provider — Anthropic, OpenAI, Mistral, OpenRouter, Ollama, and a Continue-managed proxy — and load their configuration from Con…
@@ -57,12 +64,26 @@ providers:
   score_band: developing
   score_composite: 52.1
   shared: 1
+- slug: tesslio
+  name: tessl.io
+  description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing, and publishing skills and plugins, server-side quality revi…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.3
+  shared: 1
 - slug: httpie
   name: HTTPie
   description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submission…
   api_count: 1
   score_band: developing
   score_composite: 47.1
+  shared: 1
+- slug: terminal-use
+  name: Terminal Use
+  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
+  api_count: 1
+  score_band: thin
+  score_composite: 43.5
   shared: 1
 - slug: thunder-client
   name: Thunder Client
@@ -71,12 +92,26 @@ providers:
   score_band: thin
   score_composite: 43.4
   shared: 1
+- slug: vlt
+  name: vlt
+  description: vlt (pronounced "volt") is a JavaScript package management company started by the creator of npm and former members of the npm core team, and backed by Accel. It ships the open source vlt package manager CLI, the npm-compatible vlt serverless registry (vsr) that runs on Cloudflare's edge network, a…
+  api_count: 1
+  score_band: thin
+  score_composite: 42.9
+  shared: 1
 - slug: wget
   name: Wget
   description: GNU Wget is a free, open-source command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS protocols. It supports recursive downloading, resuming aborted downloads, mirroring websites, proxy support, and can be run from scripts and cron jobs. Wget2 i…
   api_count: 2
   score_band: thin
   score_composite: 42.6
+  shared: 1
+- slug: sageox
+  name: SageOx
+  description: SageOx is a Seattle-based platform that acts as the "hivemind for human-agent teams" — it captures team discussions, decisions, and AI coding-agent work sessions and distills them into a shared, searchable Ledger (per-repo history) and Team Context (team-wide knowledge) so that agents inherit full…
+  api_count: 1
+  score_band: thin
+  score_composite: 42.3
   shared: 1
 - slug: aider
   name: Aider
@@ -85,6 +120,20 @@ providers:
   score_band: thin
   score_composite: 42.2
   shared: 1
+- slug: mammoth-media
+  name: Mammoth Media
+  description: Mammoth Media is a Greylock-backed consumer technology company whose current product is TokenBot (mammoth.la now redirects to tokenbot.com) — a social, copy-trading platform for cryptocurrency communities on Discord and Telegram that synchronizes algorithmic trades across 12+ exchanges in real time…
+  api_count: 1
+  score_band: thin
+  score_composite: 42.0
+  shared: 1
+- slug: stakpak
+  name: StakPak
+  description: Stakpak is an open-source autonomous DevOps AI agent, distributed as a single Rust binary, that runs 24/7 on your machines to keep applications running — performing health checks, auto-healing failures, monitoring cloud cost, rotating secrets, renewing certificates, and alerting teams only when hum…
+  api_count: 1
+  score_band: thin
+  score_composite: 41.8
+  shared: 1
 - slug: flutterflow
   name: FlutterFlow
   description: FlutterFlow is a visual, low-code development platform for building native mobile, web, and desktop applications on Flutter without sacrificing app quality or features. Beyond the visual builder, FlutterFlow exposes Project APIs — a REST surface at api.flutterflow.io/v2 for programmatically listing…
@@ -92,10 +141,24 @@ providers:
   score_band: thin
   score_composite: 41.6
   shared: 1
+- slug: nx
+  name: Nx
+  description: Nx is an open-source, technology-agnostic monorepo build platform from Nrwl (backed by a16z) that speeds up builds and CI through computation caching, task orchestration, and running only the projects affected by a change. Its developer surface spans a local CLI (nx) with a large family of first-pa…
+  api_count: 0
+  score_band: thin
+  score_composite: 40.4
+  shared: 1
 - slug: cosign
   name: Cosign
   description: Cosign is the command-line client of the Sigstore project for signing, verifying, and storing container images, OCI artifacts, blobs, and in-toto attestations. Cosign supports keyless signing using OpenID Connect identity providers (Google, GitHub, Microsoft) by obtaining short-lived certificates f…
   api_count: 3
+  score_band: thin
+  score_composite: 40.2
+  shared: 1
+- slug: tabtabtab
+  name: TabTabTab
+  description: 'TabTabTab runs coding agents in the background, triggered by webhooks, schedules, Slack, or direct requests. You wire up a trigger once and work comes back to you: code changes arrive as pull requests you can verify before you merge, while ops and data-analysis jobs skip the PR and report back when…'
+  api_count: 1
   score_band: thin
   score_composite: 40.2
   shared: 1
@@ -106,12 +169,40 @@ providers:
   score_band: thin
   score_composite: 38.4
   shared: 1
+- slug: superset
+  name: Superset
+  description: Superset is an open-source, terminal-first code editor built for the AI-agent era, letting engineers run 100+ CLI coding agents (Claude Code, Cursor, OpenCode, Gemini, Copilot, Mistral Vibe and more) in parallel, each isolated in its own Git worktree so work never collides. The desktop app pairs wi…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.8
+  shared: 1
 - slug: bit
   name: Bit
   description: Bit (teambit) is the platform for the modular web — a build system and cloud for component-driven development. Bit lets teams create, version, and share reusable components as standard npm packages across projects and frameworks (React, Vue, Angular, Node.js, Next.js and more), with independent bui…
   api_count: 1
   score_band: thin
   score_composite: 36.9
+  shared: 1
+- slug: qumulo
+  name: Qumulo
+  description: Qumulo is an enterprise data platform company that delivers a single, unified file and object storage system spanning on-premises data centers, the edge, and the public cloud (AWS, Azure, GCP) at exabyte scale. Every Qumulo cluster exposes a comprehensive versioned REST API (v1/v2/v3+) and the comp…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.6
+  shared: 1
+- slug: digger
+  name: Digger
+  description: Digger (diggerhq), backed by Initialized Capital, builds developer infrastructure across two open-source-rooted product lines. OpenTaco (formerly the Digger CE project) is an Infrastructure-as-Code orchestration and Terraform/OpenTofu state-management platform that runs plan/apply inside your exist…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.3
+  shared: 1
+- slug: serverless
+  name: Serverless
+  description: Serverless, Inc. builds the Serverless Framework, the original and most widely adopted open-source tool for building, deploying and operating serverless applications on AWS Lambda and other managed cloud services. It pairs a YAML-configured, multi-language command-line interface with a Dashboard fo…
+  api_count: 0
+  score_band: thin
+  score_composite: 36.3
   shared: 1
 - slug: cycode
   name: Cycode
@@ -120,103 +211,12 @@ providers:
   score_band: thin
   score_composite: 35.4
   shared: 1
-- slug: mockoon
-  name: Mockoon
-  description: Mockoon is the easiest and quickest way to design and run mock REST APIs. Available as a free, open-source desktop application and CLI, it lets developers build, share, and serve realistic mock endpoints locally, in CI, or in containers. No remote deployment, no account required.
-  api_count: 1
+- slug: hashboard
+  name: Hashboard
+  description: 'Hashboard is a business intelligence (BI) platform built around a BI-as-code workflow: data teams define their semantic layer, metrics, explorations, and dashboards as version-controlled configuration files and manage them with the Hashboard CLI (hb) and the hashquery Python framework. Changes are…'
+  api_count: 0
   score_band: thin
-  score_composite: 35.0
-  shared: 1
-- slug: amazon-cloudshell
-  name: Amazon CloudShell
-  description: AWS CloudShell is a browser-based terminal that enables users to manage and explore AWS resources directly from the AWS Management Console. Pre-authenticated, pre-installed with AWS CLI and dev tools, with 1 GB of persistent storage per region.
-  api_count: 1
-  score_band: thin
-  score_composite: 34.3
-  shared: 1
-- slug: guildai
-  name: Guild.ai
-  description: Guild.ai is a control plane for AI agents that lets engineering teams build, deploy, govern, and share agents in production. Agents are authored in TypeScript with the @guildai/agents-sdk (alongside Guild Native and Goose recipe agent types) and run in a governed, sandboxed runtime that mediates al…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.0
-  shared: 1
-- slug: bruno
-  name: Bruno
-  description: Bruno is an open-source, Git-native, offline-first API client for exploring and testing APIs. It stores collections directly on the filesystem as plain text files using the Bru markup language, making collections version-controllable alongside code. Bruno supports REST, GraphQL, and gRPC APIs, scri…
-  api_count: 1
-  score_band: thin
-  score_composite: 32.4
-  shared: 1
-- slug: digger
-  name: Digger
-  description: Digger (diggerhq), backed by Initialized Capital, builds developer infrastructure across two open-source-rooted product lines. OpenTaco (formerly the Digger CE project) is an Infrastructure-as-Code orchestration and Terraform/OpenTofu state-management platform that runs plan/apply inside your exist…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.6
-  shared: 1
-- slug: promptfoo
-  name: Promptfoo
-  description: Promptfoo is an open-source LLM evaluation and red-teaming framework distributed as a TypeScript CLI and Node.js library under the MIT license. Developers use it to evaluate prompts, models, and RAG pipelines side by side, run automated red team attacks against LLM applications, scan code for LLM v…
-  api_count: 6
-  score_band: emerging
-  score_composite: 29.3
-  shared: 1
-- slug: formspree
-  name: Formspree
-  description: 'Formspree is a form backend for static and Jamstack sites. Two API surfaces matter: (1) the public form-submission endpoint (formspree.io/f/{hashid}) that accepts POST submissions and returns JSON when the Accept header is set, and (2) the Forms API (formspree.io/api/0/...) for programmatic submiss…'
-  api_count: 2
-  score_band: emerging
-  score_composite: 28.3
-  shared: 1
-- slug: shell-scripting
-  name: Shell Scripting
-  description: A collection of APIs and resources for Shell Scripting development, including utilities, documentation, and tools.
-  api_count: 5
-  score_band: emerging
-  score_composite: 27.7
-  shared: 1
-- slug: copa
-  name: Copa (Project Copacetic)
-  description: Project Copacetic (Copa) is an open source command line tool that patches container images directly using BuildKit, without requiring a full image rebuild. Copa parses vulnerability scan reports from Trivy and other scanners, applies the corresponding OS package updates via the appropriate package…
-  api_count: 3
-  score_band: emerging
-  score_composite: 27.3
-  shared: 1
-- slug: kaniko
-  name: Kaniko
-  description: Kaniko is an open-source tool from Google that builds container images from a Dockerfile inside a container or Kubernetes cluster without requiring a Docker daemon. It executes each command within a Dockerfile in userspace, enabling secure container builds in environments where running a Docker dae…
-  api_count: 1
-  score_band: emerging
-  score_composite: 26.7
-  shared: 1
-- slug: component-model
-  name: Component Model
-  description: The WebAssembly Component Model is a broad-reaching architecture for building interoperable WebAssembly libraries, applications, and environments. It defines components as portable, sandboxed units of code that can compose with each other across language and runtime boundaries. The model introduces…
-  api_count: 4
-  score_band: emerging
-  score_composite: 25.7
-  shared: 1
-- slug: bittensor
-  name: Bittensor
-  description: Bittensor is an open, decentralized machine-intelligence network built on a Substrate blockchain (subtensor). Contributors earn the TAO token by supplying useful work to specialized subnets — miners produce, validators score, and stakers back them — with emissions distributed by Yuma Consensus. Dev…
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.2
-  shared: 1
-- slug: konfig
-  name: Konfig
-  description: Konfig was a developer-tools startup that generated SDKs, API documentation, interactive demos, and tutorials from OpenAPI Specifications and Postman Collections, delivered primarily through the konfig-cli command-line interface and GitHub Actions automation. The company was sunset in December 2024…
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.0
-  shared: 1
-- slug: carvel
-  name: Carvel
-  description: Carvel is a set of reliable, single-purpose, composable command-line tools that help build, configure, and deploy applications to Kubernetes. The toolset includes ytt for YAML templating, kapp for application lifecycle management, kbld for immutable image references, imgpkg for OCI bundling, vendir…
-  api_count: 7
-  score_band: emerging
-  score_composite: 24.5
+  score_composite: 35.1
   shared: 1
 related:
 - slug: clients
@@ -231,16 +231,16 @@ related:
 - slug: reliability
   name: Reliability
   shared: 1
-- slug: agents
-  name: Agents
+- slug: caching
+  name: Caching
   shared: 1
-- slug: developer-experience
-  name: Developer Experience
+- slug: ide
+  name: IDE
   shared: 1
 overview: 'Command Line Interface is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [cli.apievangelist.com](https://cli.apievangelist.com).
 
 
-  30 providers on the network work in this area, including AWS CLI, Svix, Plandex, APIToolkit (Monoscope), Sideko, Continue, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including AWS CLI, Svix, Plandex, APIToolkit (Monoscope), Sideko, Qfex, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Clients, API Clients, Plans, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'

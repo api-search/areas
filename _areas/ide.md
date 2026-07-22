@@ -6,7 +6,7 @@ description: An index and topic collection covering integrated development envir
 area_url: https://ide.apievangelist.com
 area_host: ide.apievangelist.com
 icon: https://ide.apievangelist.com/icon-thumb.png
-provider_count: 20
+provider_count: 25
 providers:
 - slug: github-copilot
   name: GitHub Copilot
@@ -78,6 +78,13 @@ providers:
   score_band: thin
   score_composite: 38.8
   shared: 1
+- slug: superset
+  name: Superset
+  description: Superset is an open-source, terminal-first code editor built for the AI-agent era, letting engineers run 100+ CLI coding agents (Claude Code, Cursor, OpenCode, Gemini, Copilot, Mistral Vibe and more) in parallel, each isolated in its own Git worktree so work never collides. The desktop app pairs wi…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.8
+  shared: 1
 - slug: cognition
   name: Cognition AI
   description: Cognition AI is an applied AI lab building Devin, an autonomous AI software engineer that plans, writes, tests, and ships production code. The company also operates the Windsurf agentic IDE following its 2025 acquisition of the Windsurf team and product. Devin is sold to individual developers, engi…
@@ -127,6 +134,27 @@ providers:
   score_band: emerging
   score_composite: 20.2
   shared: 1
+- slug: qt
+  name: Qt
+  description: Qt Group is a global software company that builds cross-platform development, design, and quality-assurance tools used across more than 70 industries and billions of devices. Its portfolio spans the Qt Framework (cross-platform C++ software libraries and APIs), the Qt Creator IDE, Qt for MCUs, Qt D…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.2
+  shared: 1
+- slug: clad-labs
+  name: Clad Labs
+  description: Clad Labs is a San Francisco developer-tools startup (Y Combinator, Fall 2025) building Chad IDE, a desktop development environment that orchestrates multiple AI coding agents — Claude Code, Cursor CLI, and OpenAI Codex — from a single interface. Developers spin up teams of parallel agents, keep ea…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.0
+  shared: 1
+- slug: zed-editor
+  name: Zed
+  description: Zed is an open-source, high-performance multiplayer code editor written from scratch in Rust and built around GPU-accelerated rendering through its own GPUI framework. Created by Zed Industries — founded by Nathan Sobo, Antonio Scandurra, and Max Brunsfeld, the team behind Atom, Electron, and Tree-…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.0
+  shared: 1
 - slug: refact-ai
   name: Refact.ai
   description: Refact.ai is an open-source, local-first AI coding assistant and autonomous software-engineering agent built by Small Magellanic Cloud Ai Ltd. ("SmallCloud"). The product combines an IDE-integrated chat experience (Ask / Explore / Debug / Review / Plan modes), accurate code completion powered by Qw…
@@ -141,6 +169,13 @@ providers:
   score_band: minimal
   score_composite: 14.2
   shared: 1
+- slug: editorconfig
+  name: EditorConfig
+  description: EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format…
+  api_count: 0
+  score_band: minimal
+  score_composite: 12.7
+  shared: 1
 - slug: visual-studio-code
   name: Visual Studio Code
   description: Visual Studio Code is a free, open-source, cross-platform code editor developed by Microsoft for Windows, Linux, macOS, and the web, built on the MIT-licensed Code - OSS project and distinguished by features such as IntelliSense, debugging, integrated Git, and a marketplace with tens of thousands o…
@@ -149,14 +184,17 @@ providers:
   score_composite: 10.9
   shared: 1
 related:
-- slug: agents-skills
-  name: Agent Skills
-  shared: 2
 - slug: unified-apis
   name: Unified APIs
   shared: 1
+- slug: agents-skills
+  name: Agent Skills
+  shared: 2
 - slug: agents
   name: Agents
+  shared: 1
+- slug: cli
+  name: Command Line Interface
   shared: 1
 - slug: finops
   name: FinOps
@@ -164,14 +202,11 @@ related:
 - slug: machine-learning
   name: Machine Learning
   shared: 1
-- slug: observability
-  name: Observability
-  shared: 1
 overview: 'IDE is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ide.apievangelist.com](https://ide.apievangelist.com).
 
 
-  20 providers on the network work in this area, including GitHub Copilot, Workday Studio, Choreo, Amazon Cloud9, Anysphere, VS Code Marketplace, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  25 providers on the network work in this area, including GitHub Copilot, Workday Studio, Choreo, Amazon Cloud9, Anysphere, VS Code Marketplace, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Agent Skills, Unified APIs, Agents, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Unified APIs, Agent Skills, Agents, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

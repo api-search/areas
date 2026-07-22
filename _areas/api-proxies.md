@@ -6,7 +6,7 @@ description: An index and topic collection covering reverse-proxy and edge-proxy
 area_url: https://api-proxies.apievangelist.com
 area_host: api-proxies.apievangelist.com
 icon: https://api-proxies.apievangelist.com/icon-thumb.png
-provider_count: 11
+provider_count: 12
 providers:
 - slug: ngrok
   name: ngrok
@@ -28,6 +28,13 @@ providers:
   api_count: 14
   score_band: developing
   score_composite: 57.7
+  shared: 1
+- slug: nimbleway
+  name: Nimbleway
+  description: Nimble (Nimbleway) is a real-time web data intelligence platform that turns any public web page into structured, analysis-ready data at scale. Its AI-Native SDK exposes Search, Extract, Map, Crawl, SERP, Media Download, and Web Search Agents over a single REST API (https://sdk.nimbleway.com/v1), pl…
+  api_count: 1
+  score_band: developing
+  score_composite: 54.4
   shared: 1
 - slug: zenrows
   name: ZenRows
@@ -92,7 +99,7 @@ related:
 overview: 'API Proxies is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-proxies.apievangelist.com](https://api-proxies.apievangelist.com).
 
 
-  11 providers on the network work in this area, including ngrok, Hyperbrowser, Oxylabs, ZenRows, Smartproxy, Envoy Proxy, and 5 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  12 providers on the network work in this area, including ngrok, Hyperbrowser, Oxylabs, Nimbleway, ZenRows, Smartproxy, and 6 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'

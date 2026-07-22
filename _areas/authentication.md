@@ -6,14 +6,21 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 123
+provider_count: 174
 providers:
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
   api_count: 35
   score_band: exemplar
-  score_composite: 73.2
+  score_composite: 75.9
+  shared: 1
+- slug: auth0
+  name: Auth0
+  description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes a Management API (OpenAPI 3.1, 221 paths, 2,567 schemas), an…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 73.7
   shared: 1
 - slug: kinde
   name: Kinde
@@ -29,19 +36,19 @@ providers:
   score_band: exemplar
   score_composite: 71.4
   shared: 1
+- slug: okta
+  name: Okta
+  description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Secur…
+  api_count: 3
+  score_band: strong
+  score_composite: 69.3
+  shared: 1
 - slug: composio
   name: Composio
   description: Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router…
   api_count: 8
   score_band: strong
   score_composite: 69.2
-  shared: 1
-- slug: auth0
-  name: Auth0
-  description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes a Management API (OpenAPI 3.1, 221 paths, 2,567 schemas), an…
-  api_count: 6
-  score_band: strong
-  score_composite: 68.0
   shared: 1
 - slug: propelauth
   name: PropelAuth
@@ -56,13 +63,6 @@ providers:
   api_count: 3
   score_band: strong
   score_composite: 67.6
-  shared: 1
-- slug: okta
-  name: Okta
-  description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Secur…
-  api_count: 3
-  score_band: strong
-  score_composite: 66.6
   shared: 1
 - slug: aws-cognito
   name: Amazon Cognito
@@ -183,6 +183,13 @@ providers:
   score_band: developing
   score_composite: 57.6
   shared: 1
+- slug: yubico
+  name: Yubico
+  description: Yubico is the security company behind the YubiKey hardware authentication device and the inventor of the Yubico One-Time Password (OTP). Its public developer surface centers on YubiCloud, a hosted REST service that verifies Yubico OTPs via a signed HTTPS request to api.yubico.com, alongside a broad…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.6
+  shared: 1
 - slug: google-cloud-endpoints
   name: Google Cloud Endpoints
   description: Google Cloud Endpoints is an API management system that helps you secure, monitor, analyze, and set quotas on your APIs using the same infrastructure Google uses for its own APIs. Endpoints works with the Extensible Service Proxy (ESP) or ESPv2 to provide API management capabilities including authe…
@@ -211,13 +218,6 @@ providers:
   score_band: developing
   score_composite: 56.2
   shared: 1
-- slug: frontegg
-  name: Frontegg
-  description: Frontegg is a customer identity and access management (CIAM) platform for B2B SaaS. It provides self-serve authentication, multi-tenancy, role-based access control, single sign-on, SCIM provisioning, entitlements, and an admin portal that ships with the product. Frontegg publishes OpenAPI specifica…
-  api_count: 11
-  score_band: developing
-  score_composite: 56.1
-  shared: 1
 related:
 - slug: security
   name: Security
@@ -231,16 +231,16 @@ related:
 - slug: integrations
   name: Integrations
   shared: 1
-- slug: monitoring
-  name: Monitoring
-  shared: 1
 - slug: orchestration
   name: Orchestration
+  shared: 1
+- slug: privacy
+  name: Privacy
   shared: 1
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Twilio, Kinde, Microsoft Active Directory, Composio, Auth0, PropelAuth, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Auth0, Kinde, Microsoft Active Directory, Okta, Composio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Security, Agents, Communications, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'

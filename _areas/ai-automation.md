@@ -6,7 +6,7 @@ description: AI automation combines artificial intelligence with workflow and pr
 area_url: https://ai-automation.apievangelist.com
 area_host: ai-automation.apievangelist.com
 icon: https://ai-automation.apievangelist.com/icon-thumb.png
-provider_count: 193
+provider_count: 475
 providers:
 - slug: postman
   name: Postman
@@ -15,12 +15,33 @@ providers:
   score_band: exemplar
   score_composite: 75.3
   shared: 1
+- slug: uipath
+  name: UiPath
+  description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 74.4
+  shared: 1
 - slug: servicenow
   name: ServiceNow
   description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
   api_count: 57
   score_band: exemplar
   score_composite: 73.4
+  shared: 1
+- slug: boomi
+  name: Boomi
+  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 73.3
+  shared: 1
+- slug: workato
+  name: Workato
+  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 73.2
   shared: 1
 - slug: amazon-ec2-image-builder
   name: Amazon EC2 Image Builder
@@ -36,13 +57,6 @@ providers:
   score_band: exemplar
   score_composite: 72.2
   shared: 1
-- slug: uipath
-  name: UiPath
-  description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
-  api_count: 6
-  score_band: exemplar
-  score_composite: 71.7
-  shared: 1
 - slug: microsoft-power-automate
   name: Microsoft Power Automate
   description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automated, instant, and scheduled cloud flows, as well as desktop f…
@@ -56,20 +70,6 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 70.9
-  shared: 1
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 12
-  score_band: exemplar
-  score_composite: 70.7
-  shared: 1
-- slug: workato
-  name: Workato
-  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 70.5
   shared: 1
 - slug: microsoft-excel
   name: Microsoft Excel
@@ -120,6 +120,13 @@ providers:
   score_band: strong
   score_composite: 64.4
   shared: 1
+- slug: fundamental-research-labs
+  name: Fundamental Research Labs
+  description: Fundamental Research Labs (formerly Altera) is an applied AI research company building autonomous, collaborative AI agents, founded by researchers from MIT EECS, the Stanford NLP Group, Google X, and Citadel and backed by Andreessen Horowitz and Prosus. Its flagship product, Shortcut, is an AI anal…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.8
+  shared: 1
 - slug: adobe-premiere
   name: Adobe Premiere Pro
   description: APIs for Adobe Premiere Pro, a professional video editing software that enables programmatic access to video editing, project management, and content creation workflows.
@@ -155,6 +162,13 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
+- slug: celonis
+  name: Celonis
+  description: Celonis is the process intelligence and process mining company. Its cloud platform ingests event data from enterprise systems, builds Knowledge Models of how business processes actually run, and surfaces KPIs, bottlenecks and automation opportunities. For developers Celonis publishes a Developer Ce…
+  api_count: 7
+  score_band: strong
+  score_composite: 62.7
+  shared: 1
 - slug: amazon-swf
   name: Amazon Simple Workflow Service
   description: Amazon Simple Workflow Service (Amazon SWF) helps developers build, run, and scale background jobs that have parallel or sequential steps. It is a fully managed state tracker and task coordinator in the cloud that manages intertask dependencies, scheduling, and concurrency for application workflows.
@@ -176,6 +190,13 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 1
+- slug: klaviyo
+  name: Klaviyo
+  description: Klaviyo is a marketing automation and customer data platform built for ecommerce. Build custom integrations to bring data into Klaviyo to create personalized experiences across email, SMS, mobile push, and more. The Klaviyo API exposes profiles, events, lists, segments, campaigns, flows, catalogs,…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.6
+  shared: 1
 - slug: baserow
   name: Baserow
   description: Baserow is an open-source no-code database platform that allows teams to build databases, automations, applications, and AI agents without writing code. It offers a REST API for programmatically managing workspaces, databases, tables, rows, fields, and views. The platform is available as a cloud-ho…
@@ -183,65 +204,44 @@ providers:
   score_band: strong
   score_composite: 61.2
   shared: 1
-- slug: celonis
-  name: Celonis
-  description: Celonis is the process intelligence and process mining company. Its cloud platform ingests event data from enterprise systems, builds Knowledge Models of how business processes actually run, and surfaces KPIs, bottlenecks and automation opportunities. For developers Celonis publishes a Developer Ce…
-  api_count: 7
+- slug: coasty
+  name: Coasty
+  description: Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work across sandboxed virtual machines. It exposes a public REST…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.6
+  shared: 1
+- slug: kubernetes
+  name: Kubernetes
+  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
+  api_count: 1
   score_band: strong
   score_composite: 60.1
   shared: 1
-- slug: salesforce-automation
-  name: Salesforce Automation
-  description: A collection of Salesforce APIs for automating business processes, sales operations, and customer relationship management.
-  api_count: 15
-  score_band: developing
-  score_composite: 59.8
-  shared: 1
-- slug: f5-networks
-  name: F5 Networks
-  description: F5 Networks is a leader in application delivery networking technology that specializes in application availability, acceleration, and security solutions.
-  api_count: 11
-  score_band: developing
-  score_composite: 59.5
-  shared: 1
-- slug: bettercloud
-  name: BetterCloud
-  description: BetterCloud is the end-to-end SaaS management platform that enables IT teams to discover, manage, and secure the growing SaaS environment. The platform provides automated workflows, security policies, and management capabilities for SaaS applications in enterprise environments, handling billions of…
-  api_count: 1
-  score_band: developing
-  score_composite: 59.1
-  shared: 1
-- slug: fundamental-research-labs
-  name: Fundamental Research Labs
-  description: Fundamental Research Labs (formerly Altera) is an applied AI research company building autonomous, collaborative AI agents, founded by researchers from MIT EECS, the Stanford NLP Group, Google X, and Citadel and backed by Andreessen Horowitz and Prosus. Its flagship product, Shortcut, is an AI anal…
-  api_count: 1
-  score_band: developing
-  score_composite: 58.2
-  shared: 1
 related:
-- slug: workflow-automation
-  name: Workflow Automation
-  shared: 8
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 5
-- slug: integrations
-  name: Integrations
-  shared: 3
+- slug: workflow-automation
+  name: Workflow Automation
+  shared: 5
 - slug: orchestration
   name: Orchestration
+  shared: 4
+- slug: integrations
+  name: Integrations
   shared: 3
 - slug: ipaas
   name: iPaaS
   shared: 3
-- slug: saas-management
-  name: SaaS Management
+- slug: testing
+  name: Testing
   shared: 2
 overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ai-automation.apievangelist.com](https://ai-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, ServiceNow, Amazon EC2 Image Builder, Appian, UiPath, Microsoft Power Automate, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, UiPath, ServiceNow, Boomi, Workato, Amazon EC2 Image Builder, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Workflow Automation, Embedded iPaaS, Integrations, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Embedded iPaaS, Workflow Automation, Orchestration, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

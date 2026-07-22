@@ -6,14 +6,14 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 49
+provider_count: 95
 providers:
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
   api_count: 35
   score_band: exemplar
-  score_composite: 73.2
+  score_composite: 75.9
   shared: 1
 - slug: cisco-webex
   name: Cisco Webex
@@ -43,26 +43,33 @@ providers:
   score_band: strong
   score_composite: 64.5
   shared: 1
+- slug: bandwidth
+  name: Bandwidth
+  description: Bandwidth is a leading cloud-based communications platform providing voice, messaging, emergency calling, phone number management, multi-factor authentication, and toll-free verification APIs. Built on Bandwidth's own Tier 1 network, the platform delivers enterprise-grade reliability for CPaaS appl…
+  api_count: 6
+  score_band: strong
+  score_composite: 60.9
+  shared: 1
+- slug: sinch
+  name: Sinch
+  description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
+  api_count: 10
+  score_band: strong
+  score_composite: 60.4
+  shared: 1
+- slug: zoom
+  name: Zoom
+  description: Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.
+  api_count: 41
+  score_band: strong
+  score_composite: 60.4
+  shared: 1
 - slug: telefon
   name: Telefon
   description: Telefon is a cloud-based programmable communications platform providing voice calling, SMS messaging, number management, and call recording APIs for developers and enterprises. The platform enables applications to make and receive phone calls, send SMS and MMS messages, manage phone number inventor…
   api_count: 4
   score_band: developing
   score_composite: 58.3
-  shared: 1
-- slug: bandwidth
-  name: Bandwidth
-  description: Bandwidth is a leading cloud-based communications platform providing voice, messaging, emergency calling, phone number management, multi-factor authentication, and toll-free verification APIs. Built on Bandwidth's own Tier 1 network, the platform delivers enterprise-grade reliability for CPaaS appl…
-  api_count: 6
-  score_band: developing
-  score_composite: 58.2
-  shared: 1
-- slug: zoom
-  name: Zoom
-  description: Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.
-  api_count: 41
-  score_band: developing
-  score_composite: 57.8
   shared: 1
 - slug: plivo
   name: Plivo
@@ -71,12 +78,12 @@ providers:
   score_band: developing
   score_composite: 56.7
   shared: 1
-- slug: sinch
-  name: Sinch
-  description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
-  api_count: 10
+- slug: gotowebinar
+  name: GoToWebinar
+  description: GoToWebinar is GoTo's (formerly LogMeIn) webinar and virtual event platform. The GoToWebinar REST API lets developers create and manage webinars, organizers, registrants, attendees, sessions, panelists, co-organizers, polls, surveys, and recordings, and subscribe to real-time webhook events for reg…
+  api_count: 2
   score_band: developing
-  score_composite: 54.7
+  score_composite: 54.9
   shared: 1
 - slug: telesign
   name: Telesign
@@ -85,12 +92,33 @@ providers:
   score_band: developing
   score_composite: 54.3
   shared: 1
-- slug: gotowebinar
-  name: GoToWebinar
-  description: GoToWebinar is GoTo's (formerly LogMeIn) webinar and virtual event platform. The GoToWebinar REST API lets developers create and manage webinars, organizers, registrants, attendees, sessions, panelists, co-organizers, polls, surveys, and recordings, and subscribe to real-time webhook events for reg…
+- slug: cloudtalk
+  name: CloudTalk
+  description: CloudTalk is an AI-powered cloud call center and business phone system (CCaaS) for sales and customer support teams, backed by Point Nine. Its public REST API (served at https://my.cloudtalk.io/api, published as OpenAPI 3.0.1 version 1.7) lets developers automate calls, contacts, agents, groups, ph…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.6
+  shared: 1
+- slug: zavu
+  name: Zavu
+  description: Zavu is a unified multi-channel messaging platform that consolidates SMS, WhatsApp, Telegram, Email, Voice, and Messenger behind a single REST API, so developers integrate once instead of stitching together Twilio, Vonage, MessageBird and others. The Unified Messaging Layer API adds smart ML-powere…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.1
+  shared: 1
+- slug: community
+  name: Community
+  description: Community is a conversational messaging platform that lets brands, creators, artists, sports teams, media companies, and political organizations reach their audiences directly over SMS, MMS, WhatsApp, Apple Messages for Business, and RCS. Founded in 2019 and remote-first, Community pairs a campaign…
   api_count: 2
   score_band: developing
-  score_composite: 52.3
+  score_composite: 52.7
+  shared: 1
+- slug: openphone
+  name: OpenPhone
+  description: OpenPhone (rebranded to Quo in 2026) is a business phone and customer communications platform that provides shared phone numbers, calling, SMS/MMS texting, AI call summaries and transcripts, contacts, conversations, and tasks for teams. Its public REST API lets developers programmatically send mess…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.5
   shared: 1
 - slug: bird
   name: Bird
@@ -99,12 +127,33 @@ providers:
   score_band: developing
   score_composite: 50.7
   shared: 1
-- slug: community
-  name: Community
-  description: Community is a conversational messaging platform that lets brands, creators, artists, sports teams, media companies, and political organizations reach their audiences directly over SMS, MMS, WhatsApp, Apple Messages for Business, and RCS. Founded in 2019 and remote-first, Community pairs a campaign…
+- slug: sendhub
+  name: SendHub
+  description: SendHub is a business text messaging platform for SMS/MMS marketing campaigns, two-way texting, appointment reminders, bulk messaging, SMS surveys, group messaging, and VoIP calling, used by more than 10,000 businesses. It exposes a REST-like v1 API at api.sendhub.com for programmatically managing…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.4
+  shared: 1
+- slug: whereby
+  name: Whereby
+  description: Whereby is an embeddable video API plus standalone meetings product that lets developers add browser-based, no-download video calls to their apps with a few lines of code or build deeply customized experiences via SDKs. The REST API at api.whereby.dev/v1 covers meetings, rooms, recordings, transcri…
   api_count: 2
   score_band: developing
-  score_composite: 50.0
+  score_composite: 50.3
+  shared: 1
+- slug: agentphone
+  name: AgentPhone
+  description: AgentPhone is the telephony infrastructure layer for AI agents. A single REST API provisions real US/Canada phone numbers for agents with voice calling, SMS, MMS, and iMessage built in, plus unified webhooks, automatic conversation threading, real-time call transcription, hosted-LLM or webhook voic…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.3
+  shared: 1
+- slug: sobot
+  name: Sobot
+  description: Sobot is an all-in-one AI-powered contact center and customer engagement platform used by more than 100,000 companies worldwide. Its products span an omnichannel Live Chat workspace, a multilingual AI Chatbot, cloud Voice / call-center with global numbers, a collaborative Ticketing system, a WhatsA…
+  api_count: 3
+  score_band: developing
+  score_composite: 49.3
   shared: 1
 - slug: rainbow
   name: Rainbow
@@ -113,19 +162,19 @@ providers:
   score_band: developing
   score_composite: 48.7
   shared: 1
+- slug: nfon
+  name: Nfon
+  description: NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication.…
+  api_count: 4
+  score_band: developing
+  score_composite: 48.5
+  shared: 1
 - slug: aptly
   name: Aptly
   description: Aptly is the AI operations layer for property management, built by Invisible Apps, Inc. It unifies resident and owner communication (calls, texts, emails, and chat) with board-based workflows, automation, and AI agents that handle leasing inquiries, maintenance requests, and around-the-clock reside…
   api_count: 1
   score_band: developing
   score_composite: 48.0
-  shared: 1
-- slug: cloudtalk
-  name: CloudTalk
-  description: CloudTalk is an AI-powered cloud call center and business phone system (CCaaS) for sales and customer support teams, backed by Point Nine. Its public REST API (served at https://my.cloudtalk.io/api, published as OpenAPI 3.0.1 version 1.7) lets developers automate calls, contacts, agents, groups, ph…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.9
   shared: 1
 - slug: exotel
   name: Exotel
@@ -141,26 +190,26 @@ providers:
   score_band: developing
   score_composite: 45.6
   shared: 1
-- slug: whereby
-  name: Whereby
-  description: Whereby is an embeddable video API plus standalone meetings product that lets developers add browser-based, no-download video calls to their apps with a few lines of code or build deeply customized experiences via SDKs. The REST API at api.whereby.dev/v1 covers meetings, rooms, recordings, transcri…
-  api_count: 2
-  score_band: thin
-  score_composite: 44.6
-  shared: 1
-- slug: agentphone
-  name: AgentPhone
-  description: AgentPhone is the telephony infrastructure layer for AI agents. A single REST API provisions real US/Canada phone numbers for agents with voice calling, SMS, MMS, and iMessage built in, plus unified webhooks, automatic conversation threading, real-time call transcription, hosted-LLM or webhook voic…
-  api_count: 1
-  score_band: thin
-  score_composite: 43.7
-  shared: 1
 - slug: engagespark
   name: engageSPARK
   description: engageSPARK is a mobile messaging and engagement platform for reaching hard-to-reach populations in low- and middle-income countries at scale. It lets NGOs, researchers, microfinance institutions, and businesses run SMS, automated voice (IVR), WhatsApp, and pre-paid airtime top-up campaigns across…
   api_count: 1
+  score_band: developing
+  score_composite: 45.3
+  shared: 1
+- slug: veritus
+  name: Veritus
+  description: Veritus (Veritus Agent) is a San Francisco fintech (Y Combinator S2025) building compliant, voice-first AI agents for the consumer-lending lifecycle - origination, servicing, and collections. Its omnichannel platform places AI voice calls, SMS, and email to borrowers, running every contact through…
+  api_count: 1
   score_band: thin
-  score_composite: 42.6
+  score_composite: 44.4
+  shared: 1
+- slug: hustle
+  name: Hustle
+  description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and a…
+  api_count: 1
+  score_band: thin
+  score_composite: 44.2
   shared: 1
 - slug: confrere
   name: Confrere
@@ -169,55 +218,6 @@ providers:
   score_band: thin
   score_composite: 40.9
   shared: 1
-- slug: documo
-  name: Documo
-  description: Documo (mFax) is a cloud fax and document delivery platform. The Documo REST API lets developers send and receive faxes, provision and manage fax numbers, subscribe to delivery events via webhooks, and manage account resources over a JSON/HTTPS interface secured with an API key.
-  api_count: 4
-  score_band: thin
-  score_composite: 40.2
-  shared: 1
-- slug: kumospace
-  name: Kumospace
-  description: Kumospace is a virtual office platform for remote and distributed teams, providing a persistent spatial workspace where colleagues move between rooms and floors, with proximity-based spatial audio and video, team chat channels, scheduled and ad-hoc meetings, recordings, transcription and meeting su…
-  api_count: 1
-  score_band: thin
-  score_composite: 40.0
-  shared: 1
-- slug: clicksend
-  name: ClickSend
-  description: ClickSend is a cloud communications company providing a single REST API for business messaging across SMS, MMS, voice / text-to-speech, transactional email, and physical post - letters and postcards printed and mailed globally. The v3 API (rest.clicksend.com/v3) uses HTTP Basic authentication with…
-  api_count: 9
-  score_band: thin
-  score_composite: 38.6
-  shared: 1
-- slug: gupshup
-  name: Gupshup
-  description: Gupshup is a conversational messaging and CPaaS platform (headquartered in India) that lets businesses send and receive messages across WhatsApp, SMS, RCS, and other channels, plus build chatbots and conversational AI journeys. The developer platform exposes REST APIs on api.gupshup.io - most promi…
-  api_count: 6
-  score_band: thin
-  score_composite: 38.6
-  shared: 1
-- slug: hustle
-  name: Hustle
-  description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and a…
-  api_count: 1
-  score_band: thin
-  score_composite: 38.5
-  shared: 1
-- slug: smsapi
-  name: SMSAPI
-  description: SMSAPI is a European bulk business-messaging provider headquartered in Poland and part of LINK Mobility. Its REST API delivers SMS, MMS, and voice (VMS) messaging, email marketing, two-factor authentication, contact and group management, sender field registration, subuser administration, and accoun…
-  api_count: 11
-  score_band: thin
-  score_composite: 37.8
-  shared: 1
-- slug: cisco-control-hub
-  name: Cisco Control Hub
-  description: Cisco Control Hub is the administration console for Webex services. Programmatic access is delivered through the Webex Admin and adjacent REST APIs at webexapis.com — covering people, organizations, locations, workspaces, devices, licenses, calling configuration, audit events, and analytics reports…
-  api_count: 9
-  score_band: thin
-  score_composite: 37.3
-  shared: 1
 related:
 - slug: embeddable
   name: Embeddable
@@ -225,11 +225,14 @@ related:
 - slug: authentication
   name: Authentication
   shared: 1
+- slug: embedded-ipaas
+  name: Embedded iPaaS
+  shared: 1
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Twilio, Cisco Webex, Amazon Pinpoint, RingCentral, parcelLab, Telefon, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Cisco Webex, Amazon Pinpoint, RingCentral, parcelLab, Bandwidth, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Embeddable and Authentication. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Embeddable, Authentication, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

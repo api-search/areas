@@ -6,7 +6,7 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 349
+provider_count: 757
 providers:
 - slug: jfrog
   name: JFrog
@@ -14,6 +14,20 @@ providers:
   api_count: 15
   score_band: exemplar
   score_composite: 75.2
+  shared: 1
+- slug: auth0
+  name: Auth0
+  description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes a Management API (OpenAPI 3.1, 221 paths, 2,567 schemas), an…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 73.7
+  shared: 1
+- slug: shodan
+  name: Shodan
+  description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 73.6
   shared: 1
 - slug: databricks
   name: Databricks
@@ -29,19 +43,19 @@ providers:
   score_band: exemplar
   score_composite: 73.1
   shared: 1
-- slug: shodan
-  name: Shodan
-  description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
-  api_count: 5
-  score_band: exemplar
-  score_composite: 70.9
-  shared: 1
 - slug: fastly
   name: Fastly
   description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
   api_count: 23
   score_band: exemplar
-  score_composite: 70.2
+  score_composite: 72.8
+  shared: 1
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 54
+  score_band: exemplar
+  score_composite: 72.4
   shared: 1
 - slug: 1password
   name: 1Password
@@ -50,26 +64,12 @@ providers:
   score_band: exemplar
   score_composite: 70.1
   shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 54
-  score_band: strong
-  score_composite: 69.7
-  shared: 1
 - slug: amazon-security-lake
   name: Amazon Security Lake
   description: Amazon Security Lake is a service that automatically centralizes an organization's security data from cloud, on-premises, and custom sources into a purpose-built data lake stored in your own Amazon S3. It manages the data lifecycle to help you optimize storage and supports OCSF (Open Cybersecurity…
   api_count: 1
   score_band: strong
   score_composite: 68.3
-  shared: 1
-- slug: auth0
-  name: Auth0
-  description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes a Management API (OpenAPI 3.1, 221 paths, 2,567 schemas), an…
-  api_count: 6
-  score_band: strong
-  score_composite: 68.0
   shared: 1
 - slug: treblle
   name: Treblle
@@ -112,6 +112,13 @@ providers:
   api_count: 56
   score_band: strong
   score_composite: 66.9
+  shared: 1
+- slug: kondukto
+  name: Kondukto
+  description: Kondukto — now shipped as Invicti ASPM following Invicti Security's acquisition of the company — is an Application Security Posture Management platform that centralizes and automates the AppSec vulnerability management lifecycle. It ingests, deduplicates and correlates findings from more than eight…
+  api_count: 1
+  score_band: strong
+  score_composite: 66.5
   shared: 1
 - slug: amazon-kms
   name: Amazon KMS
@@ -176,13 +183,6 @@ providers:
   score_band: strong
   score_composite: 64.0
   shared: 1
-- slug: kondukto
-  name: Kondukto
-  description: Kondukto — now shipped as Invicti ASPM following Invicti Security's acquisition of the company — is an Application Security Posture Management platform that centralizes and automates the AppSec vulnerability management lifecycle. It ingests, deduplicates and correlates findings from more than eight…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.9
-  shared: 1
 - slug: axway
   name: Axway
   description: Axway provides API management, integration, and security solutions enabling organizations to connect, secure, and manage APIs across hybrid IT environments. Axway offers the Amplify platform for API management and a range of integration and security products for enterprises.
@@ -240,7 +240,7 @@ related:
 overview: 'Security is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [security.apievangelist.com](https://security.apievangelist.com).
 
 
-  30 providers on the network work in this area, including JFrog, Databricks, Amazon Secrets Manager, Shodan, Fastly, 1Password, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including JFrog, Auth0, Shodan, Databricks, Amazon Secrets Manager, Fastly, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, Authentication, Containers, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'

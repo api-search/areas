@@ -6,21 +6,21 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://design.apievangelist.com
 area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
-provider_count: 28
+provider_count: 89
 providers:
-- slug: figma
-  name: Figma
-  description: Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.
-  api_count: 18
-  score_band: strong
-  score_composite: 69.7
-  shared: 1
 - slug: autodesk
   name: Autodesk
   description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction pr…
   api_count: 33
-  score_band: strong
-  score_composite: 68.1
+  score_band: exemplar
+  score_composite: 73.8
+  shared: 1
+- slug: figma
+  name: Figma
+  description: Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.
+  api_count: 18
+  score_band: exemplar
+  score_composite: 72.4
   shared: 1
 - slug: adobe-illustrator
   name: Adobe Illustrator
@@ -50,6 +50,13 @@ providers:
   score_band: developing
   score_composite: 57.4
   shared: 1
+- slug: onshape
+  name: Onshape
+  description: Onshape is a cloud-native computer-aided design (CAD) and product data management (PDM) platform, part of PTC, that runs entirely in a web browser with real-time collaboration, versioning, and configurations. Its public REST API (OpenAPI 3.0.1, base https://cad.onshape.com/api/v16) exposes document…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.3
+  shared: 1
 - slug: canva
   name: Canva
   description: APIs for the Canva design platform, enabling developers to integrate Canva's design tools and functionality into their applications.
@@ -70,6 +77,20 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.1
+  shared: 1
+- slug: napkin
+  name: Napkin
+  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
+  api_count: 1
+  score_band: developing
+  score_composite: 50.7
+  shared: 1
+- slug: napkinai
+  name: Napkin.AI
+  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, mind maps, icons, and infographics — and into full presentations, with no prompting or design skill required. Two products share the same text-to-visual engine: Napkin Visuals (standalone diagrams and graphics, exportabl…'
+  api_count: 1
+  score_band: developing
+  score_composite: 50.6
   shared: 1
 - slug: autocad
   name: AutoCAD
@@ -148,12 +169,26 @@ providers:
   score_band: thin
   score_composite: 32.0
   shared: 1
+- slug: uxpin
+  name: UXPin
+  description: UXPin is an AI-powered, code-based design and prototyping platform where designers work with real production React components instead of vector approximations. Its Merge technology syncs a team's design system from Git or Storybook onto the design canvas, its Forge AI assistant generates and iterat…
+  api_count: 0
+  score_band: thin
+  score_composite: 31.5
+  shared: 1
 - slug: recraft
   name: Recraft
   description: Recraft is an AI design platform offering raster and vector image generation, image editing, inpainting, background removal/generation, vectorization, upscaling, and style creation. The Recraft API is REST-based at https://external.api.recraft.ai/v1, compatible with the OpenAI Python client, and us…
   api_count: 1
   score_band: thin
   score_composite: 30.1
+  shared: 1
+- slug: snaptrude
+  name: Snaptrude
+  description: Snaptrude is a cloud-native design platform for architecture and interior design that unifies sketching, real-time collaboration, AI-assisted programming, and BIM into a single browser-based tool. Snaptrude 3.0 offers four integrated modes — Program, Design Canvas, Present, and BIM — that turn conc…
+  api_count: 1
+  score_band: emerging
+  score_composite: 29.1
   shared: 1
 - slug: avocode
   name: Avocode
@@ -162,6 +197,20 @@ providers:
   score_band: emerging
   score_composite: 28.5
   shared: 1
+- slug: ux-magic-ai
+  name: UX Magic AI
+  description: UXMagic (UX Magic AI) is an AI UI/UX design platform that turns text prompts, screenshots, hand-drawn sketches, website URLs, and existing Figma files into pixel-perfect, Figma-ready UI designs and production-ready code. Built by UXMagic Inc. (founded 2024, Dover, Delaware; backed by 500 Global) an…
+  api_count: 0
+  score_band: emerging
+  score_composite: 26.8
+  shared: 1
+- slug: paper
+  name: Paper
+  description: Paper (paper.design) is a modern, agent-native design tool built on HTML and CSS web standards — a connected canvas where teams design, share, and ship with AI agents. Instead of drawing abstract vector representations of interfaces, Paper renders real HTML/CSS, so what you design is production cod…
+  api_count: 0
+  score_band: emerging
+  score_composite: 26.7
+  shared: 1
 - slug: framer
   name: Framer
   description: 'Framer is a design tool and CMS for shipping production websites without code. The Framer developer surface is centred on in-editor extensibility: the Plugin API for building tools that interact with the Framer Editor and CMS, Code Components for custom React components, Code Overrides for HOC-styl…'
@@ -169,42 +218,10 @@ providers:
   score_band: emerging
   score_composite: 26.5
   shared: 1
-- slug: invision
-  name: InVision
-  description: InVision was a digital product design platform used by teams to build the world's best customer experiences. It provided REST APIs for managing prototypes, design documents, boards, comments, workflows, and design system components including design tokens and icons via the Design System Manager (DS…
-  api_count: 1
-  score_band: emerging
-  score_composite: 26.5
-  shared: 1
-- slug: sketch
-  name: Sketch
-  description: Sketch is a digital design tool for Mac providing a REST API for managing workspaces, documents, libraries, components, prototypes, and share links in the Sketch cloud collaboration environment. The Cloud REST API (api.sketch.cloud/v1) supports Personal Access Token and OAuth 2.0 authentication, en…
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.8
-  shared: 1
-- slug: spline
-  name: Spline
-  description: Spline is a real-time collaborative 3D design tool with AI-driven object generation, web embedding, and animation. Spline does NOT publish a REST API for 3D scene generation as of May 2026; instead it exposes Code APIs (Web, SwiftUI, Kotlin) for embedding scenes, plus a real-time API for variables/…
-  api_count: 5
-  score_band: emerging
-  score_composite: 24.6
-  shared: 1
-- slug: knoll
-  name: Knoll Inc
-  description: Knoll Inc is a major US corporation and Fortune 1000 company. The Knoll Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 1
-  score_band: emerging
-  score_composite: 15.3
-  shared: 1
-- slug: customink-api
-  name: Custom Ink
-  description: Custom Ink is a direct-to-consumer custom apparel and promotional products company that lets groups design and order custom t-shirts, hoodies, hats, drinkware, bags, and other branded merchandise through an online Design Lab, instant price quotes, and full-service order fulfillment. As of the revie…
-  api_count: 1
-  score_band: minimal
-  score_composite: 13.0
-  shared: 1
 related:
+- slug: visualization
+  name: Visualization
+  shared: 2
 - slug: developer-experience
   name: Developer Experience
   shared: 1
@@ -214,8 +231,8 @@ related:
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 
 
-  28 providers on the network work in this area, including Figma, Autodesk, Adobe Illustrator, Adobe Creative Cloud, Adobe Creative Suite, Apple Keynote, and 22 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Autodesk, Figma, Adobe Illustrator, Adobe Creative Cloud, Adobe Creative Suite, Apple Keynote, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Developer Experience and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Visualization, Developer Experience, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

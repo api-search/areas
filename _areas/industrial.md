@@ -6,7 +6,7 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 29
+provider_count: 144
 providers:
 - slug: eaton
   name: Eaton
@@ -14,6 +14,13 @@ providers:
   api_count: 12
   score_band: developing
   score_composite: 54.2
+  shared: 1
+- slug: weavix
+  name: Weavix
+  description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.4
   shared: 1
 - slug: siemens-mindsphere
   name: Siemens MindSphere
@@ -36,12 +43,33 @@ providers:
   score_band: developing
   score_composite: 49.7
   shared: 1
+- slug: remberg
+  name: Remberg
+  description: remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventi…
+  api_count: 12
+  score_band: developing
+  score_composite: 46.9
+  shared: 1
 - slug: cosmo-tech
   name: Cosmo Tech
   description: Cosmo Tech is a predictive and prescriptive AI-simulation (digital twin) platform for industry, based in Lyon, France and backed by Insight Partners. Its open-source Cosmo Tech Cloud Platform API (Kotlin, MIT) lets teams model organizations, workspaces, solutions, datasets, runners and runs, then c…
   api_count: 1
   score_band: developing
   score_composite: 46.5
+  shared: 1
+- slug: renesas
+  name: Renesas
+  description: 'Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products for automotive, industrial, infrastructure, and consumer el…'
+  api_count: 1
+  score_band: thin
+  score_composite: 43.1
+  shared: 1
+- slug: steute-technologies-gmbh-and-co-kg
+  name: steute Technologies GmbH & Co. KG
+  description: 'steute Technologies GmbH & Co. KG is a German industrial technology company headquartered in Löhne that develops switchgear, sensors and controls under the tagline "Applied Intelligence", organized into three divisions: Meditec (certified user interfaces such as foot and hand controls for medical d…'
+  api_count: 1
+  score_band: thin
+  score_composite: 41.3
   shared: 1
 - slug: timken
   name: Timken
@@ -71,6 +99,13 @@ providers:
   score_band: thin
   score_composite: 32.5
   shared: 1
+- slug: parsable
+  name: Parsable
+  description: Parsable is a Connected Worker platform for manufacturing and industrial operations. Its mobile-first software replaces paper-based standard operating procedures with digital work instructions, guiding frontline workers through audits, inspections, maintenance, safety, quality, and production workf…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.8
+  shared: 1
 - slug: ametek
   name: AMETEK
   description: 'AMETEK is a leading global manufacturer of electronic instruments and electromechanical devices with annual sales of over $6 billion. The company operates through two differentiated business segments: Electronic Instruments Group (EIG) and Electromechanical Group (EMG), serving industries including…'
@@ -91,6 +126,20 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 28.4
+  shared: 1
+- slug: poka
+  name: Poka
+  description: Poka is a manufacturing-focused connected worker platform that helps industrial and frontline teams standardize work execution across learning, daily management, and operations. It combines digital work instructions, on-the-job training, skills management, and factory-floor knowledge sharing with e…
+  api_count: 1
+  score_band: emerging
+  score_composite: 27.2
+  shared: 1
+- slug: swipeguide
+  name: Swipeguide
+  description: SwipeGuide was a frontline digital work-instruction platform for manufacturing that has since been acquired by L2L (formerly Leading2Lean); the swipeguide.com domain now 301-redirects to l2l.com. L2L operates a Connected Workforce / Connected Manufacturing Operations platform (the L2L Dispatch Smar…
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.1
   shared: 1
 - slug: anixter-international
   name: Anixter International
@@ -113,6 +162,48 @@ providers:
   score_band: emerging
   score_composite: 21.6
   shared: 1
+- slug: control-seat
+  name: Control Seat
+  description: Control Seat is an AI-native industrial systems integrator building a modern replacement for legacy SCADA (Supervisory Control and Data Acquisition) platforms such as Ignition, WinCC, and FactoryTalk. It designs, builds, deploys, and runs the full industrial control stack, from PLC programming (All…
+  api_count: 0
+  score_band: emerging
+  score_composite: 21.2
+  shared: 1
+- slug: deephow
+  name: DeepHow
+  description: DeepHow is an enterprise Physical AI platform that helps industrial companies capture, verify, and optimize operational knowledge across manufacturing, pharmaceutical, and electronics assembly environments. It turns expert know-how into searchable digital workflows, uses vision AI for live standard…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.6
+  shared: 1
+- slug: entytle
+  name: Entytle
+  description: Entytle, Inc. (founded 2014, Austin, Texas) provides an Installed Base Intelligence SaaS platform for equipment manufacturers (OEMs). It unifies fragmented data from ERP, CRM, FSM systems, and spreadsheets into a single "Source of Truth" for an OEM's installed base, then applies purpose-built AI an…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.2
+  shared: 1
+- slug: realwear
+  name: RealWear
+  description: RealWear builds rugged, hands-free head-mounted and assisted-reality wearable computers (the Navigator series and HMT-1) for frontline and industrial workers in energy, manufacturing, field service, and utilities. Its Android-based devices are operated entirely by voice through the on-device WearHF…
+  api_count: 0
+  score_band: emerging
+  score_composite: 19.4
+  shared: 1
+- slug: laserhub
+  name: Laserhub
+  description: Laserhub is a Stuttgart-based digital procurement platform for custom-manufactured metal and plastic parts, founded to replace the traditional RFQ cycle for sheet metal, tube and machined components with instant online quoting. Buyers register at app.laserhub.com, upload CAD files, and receive an a…
+  api_count: 0
+  score_band: emerging
+  score_composite: 19.0
+  shared: 1
+- slug: aris-machina
+  name: Aris Machina
+  description: Aris Machina builds AI-powered industrial software for advanced manufacturing, describing its mission as delivering "industrial superintelligence" that unifies design, production, and operations through AI agents and a shared semantic knowledge model. Its products include Protos, an AI co-engineer…
+  api_count: 0
+  score_band: emerging
+  score_composite: 18.1
+  shared: 1
 - slug: ermeo
   name: Ermeo
   description: Ermeo (rebranded Causeway Field) is a French connected-operator / field-operations SaaS platform that lets industrial and field teams digitize paper procedures into dynamic, interactive workflows for inspections, maintenance, and interventions. Operators complete pre-built interactive forms on mobi…
@@ -127,98 +218,14 @@ providers:
   score_band: emerging
   score_composite: 17.0
   shared: 1
-- slug: matthews-international
-  name: Matthews International
-  description: Matthews International is a major US corporation and Fortune 1000 company. The Matthews International API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 1
-  score_band: emerging
-  score_composite: 17.0
-  shared: 1
-- slug: circor-international
-  name: CIRCOR International
-  description: CIRCOR International is a major US corporation and Fortune 1000 company. The CIRCOR International API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 1
-  score_band: emerging
-  score_composite: 16.5
-  shared: 1
-- slug: enpro-industries
-  name: EnPro Industries
-  description: EnPro Industries is a major US corporation and Fortune 1000 company. The EnPro Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 1
-  score_band: emerging
-  score_composite: 16.5
-  shared: 1
-- slug: moog
-  name: Moog
-  description: Moog Inc. is a worldwide designer, manufacturer, and integrator of precision motion and fluid control products and solutions for aerospace, defense, industrial, and medical applications. Product divisions include actuation, motion systems, motors, propulsion, valves, aerospace components, and defen…
-  api_count: 1
-  score_band: emerging
-  score_composite: 16.5
-  shared: 1
-- slug: nacco-industries
-  name: NACCO Industries
-  description: NACCO Industries is a major US corporation and Fortune 1000 company. The NACCO Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 1
-  score_band: emerging
-  score_composite: 16.5
-  shared: 1
-- slug: nordson
-  name: Nordson Corporation
-  description: Nordson Corporation is a major US corporation and Fortune 1000 company. The Nordson Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 1
-  score_band: emerging
-  score_composite: 16.5
-  shared: 1
-- slug: regal-rexnord
-  name: Regal Rexnord
-  description: Regal Rexnord is a major US corporation and Fortune 1000 company. The Regal Rexnord API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 1
-  score_band: emerging
-  score_composite: 16.5
-  shared: 1
-- slug: sensata-technologies
-  name: Sensata Technologies
-  description: Sensata Technologies is a major US corporation and Fortune 1000 company. The Sensata Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 1
-  score_band: emerging
-  score_composite: 16.5
-  shared: 1
-- slug: watts-water-technologies
-  name: Watts Water Technologies
-  description: Watts Water Technologies is a major US corporation and Fortune 1000 company. The Watts Water Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 1
-  score_band: emerging
-  score_composite: 16.5
-  shared: 1
-- slug: graco
-  name: Graco Inc
-  description: Graco Inc is a major US corporation and Fortune 1000 company. The Graco Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 1
-  score_band: emerging
-  score_composite: 15.3
-  shared: 1
-- slug: bosch
-  name: Bosch
-  description: Bosch is a German multinational engineering and technology company producing automotive components, industrial technology, consumer goods, and energy and building technology. Bosch operates the Bosch IoT Suite, an open IoT platform offering device management, software rollouts, edge services, and I…
-  api_count: 5
-  score_band: emerging
-  score_composite: 15.0
-  shared: 1
-- slug: hexcel
-  name: Hexcel
-  description: 'Hexcel Corporation (NYSE: HXL) is a global leader in advanced composite materials for the aerospace, defense and space, and industrial markets. Headquartered in Stamford, Connecticut and operating roughly 18 manufacturing facilities worldwide with about 5,800 employees, Hexcel produces HexTow carbo…'
-  api_count: 6
-  score_band: minimal
-  score_composite: 9.4
-  shared: 1
 related:
 - slug: internet-of-things
   name: Internet of Things
-  shared: 1
+  shared: 2
 overview: 'Industrial is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [industrial.apievangelist.com](https://industrial.apievangelist.com).
 
 
-  29 providers on the network work in this area, including Eaton, Siemens MindSphere, 3M, Archrock, Cosmo Tech, Timken, and 23 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Eaton, Weavix, Siemens MindSphere, 3M, Archrock, Remberg, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,8 +6,15 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://documentation.apievangelist.com
 area_host: documentation.apievangelist.com
 icon: https://documentation.apievangelist.com/icon-thumb.png
-provider_count: 63
+provider_count: 86
 providers:
+- slug: confluence
+  name: Confluence
+  description: APIs for Atlassian Confluence - team collaboration and knowledge management software.
+  api_count: 62
+  score_band: exemplar
+  score_composite: 72.7
+  shared: 1
 - slug: apidog
   name: Apidog
   description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborativ…'
@@ -28,13 +35,6 @@ providers:
   api_count: 10
   score_band: strong
   score_composite: 68.0
-  shared: 1
-- slug: confluence
-  name: Confluence
-  description: APIs for Atlassian Confluence - team collaboration and knowledge management software.
-  api_count: 62
-  score_band: strong
-  score_composite: 67.0
   shared: 1
 - slug: apimatic
   name: APIMatic
@@ -92,6 +92,13 @@ providers:
   score_band: developing
   score_composite: 57.0
   shared: 1
+- slug: companycam
+  name: CompanyCam
+  description: CompanyCam is a photo-based job-site documentation platform for contractors and the trades — roofing, restoration, solar, home services and construction. Its mobile apps capture location- and time-stamped photos and videos that sync to a shared, project-organized workspace so crews, offices and cli…
+  api_count: 1
+  score_band: developing
+  score_composite: 56.1
+  shared: 1
 - slug: apigit
   name: APIGit
   description: APIGit is a Git-native platform for full lifecycle API development that combines version control, API design, documentation generation, governance, testing, and dynamic mock servers in a single integrated environment. Teams can build, publish, share, and secure APIs through Git-based workflows.
@@ -106,12 +113,33 @@ providers:
   score_band: developing
   score_composite: 54.0
   shared: 1
-- slug: companycam
-  name: CompanyCam
-  description: CompanyCam is a photo-based job-site documentation platform for contractors and the trades — roofing, restoration, solar, home services and construction. Its mobile apps capture location- and time-stamped photos and videos that sync to a shared, project-organized workspace so crews, offices and cli…
+- slug: planradar
+  name: PlanRadar
+  description: PlanRadar is a SaaS platform for construction and real estate documentation, defect and task management, and site inspections, used by builders, owners, facility managers, architects and engineers in more than 75 countries. Its secure REST Open API (v1 and v2) lets Pro and Enterprise customers read…
   api_count: 1
   score_band: developing
-  score_composite: 50.5
+  score_composite: 53.0
+  shared: 1
+- slug: dreamfactory
+  name: DreamFactory
+  description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
+  api_count: 1
+  score_band: developing
+  score_composite: 52.2
+  shared: 1
+- slug: inkeep
+  name: Inkeep
+  description: Inkeep is an AI support and agent platform for documentation and products. Its developer platform exposes an OpenAI-compatible RAG / chat completions API over your own content, an Analytics API for logging conversations, feedback, and events, and an Agents / management surface for building and oper…
+  api_count: 3
+  score_band: developing
+  score_composite: 49.8
+  shared: 1
+- slug: scribe
+  name: Scribe
+  description: Scribe (scribehow) is an AI workflow-documentation platform founded in 2019 that automatically turns any process or software walkthrough into a step-by-step guide. Its products — Scribe Capture, the knowledge base, and the newer Scribe Optimize workflow-mapping platform — are used by more than five…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.7
   shared: 1
 - slug: atlassian-confluence
   name: Atlassian Confluence
@@ -141,6 +169,13 @@ providers:
   score_band: developing
   score_composite: 49.1
   shared: 1
+- slug: gitbook
+  name: GitBook
+  description: GitBook is a platform that allows users to create, publish, and share online books and documentation. It provides a simple and user-friendly interface for writing and organizing content, as well as tools for collaborating with other authors or team members. With GitBook, users can easily create a p…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.1
+  shared: 1
 - slug: apigen
   name: APIGen
   description: ApiGen is an open source PHP API documentation generator that automatically produces smart and simple documentation from PHP source code. It supports PHP 7.1+ including all PHP 8.3 features like enums, union types, readonly classes, and intersection types. ApiGen is maintained by the ApiGen GitHub…
@@ -169,26 +204,12 @@ providers:
   score_band: developing
   score_composite: 47.1
   shared: 1
-- slug: inkeep
-  name: Inkeep
-  description: Inkeep is an AI support and agent platform for documentation and products. Its developer platform exposes an OpenAI-compatible RAG / chat completions API over your own content, an Analytics API for logging conversations, feedback, and events, and an Agents / management surface for building and oper…
-  api_count: 3
-  score_band: developing
-  score_composite: 47.1
-  shared: 1
 - slug: test-plans
   name: Test Plans
   description: Structured documentation outlining test objectives, scope, approach, resources, schedule, and deliverables for software testing activities. Test plans define the overall strategy for testing a system or feature, specifying what will be tested, how it will be tested, who will test it, and what const…
   api_count: 5
   score_band: developing
   score_composite: 46.9
-  shared: 1
-- slug: dreamfactory
-  name: DreamFactory
-  description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
-  api_count: 1
-  score_band: developing
-  score_composite: 46.6
   shared: 1
 - slug: slite
   name: Slite
@@ -197,37 +218,16 @@ providers:
   score_band: developing
   score_composite: 46.3
   shared: 1
-- slug: princess-beef-heavy-industries
-  name: Princess Beef Heavy Industries
-  description: At Princess Beef Heavy Industries (or as we call it pb33f), we build beautifully designed heavy-duty and enterprise grade software for code hackers and ...
-  api_count: 2
-  score_band: developing
-  score_composite: 45.5
-  shared: 1
-- slug: api-fiddle
-  name: API-Fiddle
-  description: API-Fiddle is an interactive, collaborative API design platform for creating professional APIs based on OpenAPI. It provides first-class support for OpenAPI 3.x, data transfer objects, API versioning, suggested response codes, parameter serialization, pagination patterns, and response structuring b…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.4
-  shared: 1
-- slug: rapidoc
-  name: RapiDoc
-  description: RapiDoc is a web component that allows developers to easily integrate interactive documentation for their APIs. It provides a user-friendly interface for exploring and testing API endpoints, displaying detailed information about request and response parameters, and offering code examples in multipl…
-  api_count: 1
-  score_band: thin
-  score_composite: 44.8
-  shared: 1
 related:
 - slug: developer-experience
   name: Developer Experience
-  shared: 4
+  shared: 5
 - slug: sdk
   name: SDKs
-  shared: 4
+  shared: 5
 - slug: testing
   name: Testing
-  shared: 4
+  shared: 3
 - slug: support
   name: Support
   shared: 2
@@ -240,7 +240,7 @@ related:
 overview: 'Documentation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [documentation.apievangelist.com](https://documentation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Apidog, ReadMe, Treblle, Confluence, APIMatic, Speakeasy, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Confluence, Apidog, ReadMe, Treblle, APIMatic, Speakeasy, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Developer Experience, SDKs, Testing, and Support. Browse every area at [areas.apis.io](https://apis.io/areas/).'

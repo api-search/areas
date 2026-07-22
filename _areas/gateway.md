@@ -6,7 +6,7 @@ description: A collection of services, tooling, and open source solutions for AP
 area_url: https://gateway.apievangelist.com
 area_host: gateway.apievangelist.com
 icon: https://gateway.apievangelist.com/icon-thumb.png
-provider_count: 13
+provider_count: 14
 providers:
 - slug: amazon-storage-gateway
   name: Amazon Storage Gateway
@@ -41,7 +41,14 @@ providers:
   description: 'Dedalus Labs builds infrastructure for AI agents. It runs two production APIs: the Dedalus Agents API, an OpenAI-compatible MCP gateway that lets you mix and match any model from any provider with tools drawn from the Dedalus MCP marketplace (chat completions, embeddings, audio, images, and OCR thr…'
   api_count: 2
   score_band: developing
-  score_composite: 51.9
+  score_composite: 57.6
+  shared: 1
+- slug: onecli
+  name: Onecli
+  description: OneCLI is an open-source credential gateway and identity layer for AI agents. Agents connect to Gmail, GitHub, Slack, AWS, Jira and 50+ other services through a network-layer proxy that injects real API keys and OAuth tokens at request time, so the agent only ever sees placeholder credential stubs…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.4
   shared: 1
 - slug: osmapi
   name: osmAPI
@@ -54,22 +61,22 @@ providers:
   name: Requesty
   description: Requesty is an LLM routing and gateway platform that exposes a single OpenAI-compatible API across 300+ models from providers like OpenAI, Anthropic, DeepSeek, and Together AI. The Requesty Router adds intelligent routing, automatic fallbacks, response caching, spend controls, and per-request cost…
   api_count: 4
-  score_band: thin
-  score_composite: 44.9
+  score_band: developing
+  score_composite: 47.6
   shared: 1
 - slug: keywordsai
   name: Keywords AI
   description: Keywords AI is an LLM observability and gateway platform. It exposes an OpenAI-compatible proxy (chat completions across 250+ models) plus REST APIs for request logging, prompt management, threads, evaluations, and traces - all under a single Bearer-authenticated API at https://api.keywordsai.co/ap…
   api_count: 6
-  score_band: thin
-  score_composite: 44.5
+  score_band: developing
+  score_composite: 47.2
   shared: 1
 - slug: martian-ai
   name: Martian
   description: Martian operates an LLM model router and gateway that dynamically routes each request to the best underlying model across providers for the optimal balance of quality, latency, and cost. The Martian Gateway exposes a drop-in, OpenAI-compatible REST API (and an Anthropic Messages-compatible surface)…
   api_count: 3
-  score_band: thin
-  score_composite: 42.4
+  score_band: developing
+  score_composite: 45.1
   shared: 1
 - slug: ipfs
   name: IPFS
@@ -100,8 +107,8 @@ providers:
   score_composite: 19.4
   shared: 1
 related:
-- slug: database
-  name: Database
+- slug: agents
+  name: Agents
   shared: 1
 - slug: serverless
   name: Serverless
@@ -109,8 +116,8 @@ related:
 overview: 'Gateway is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [gateway.apievangelist.com](https://gateway.apievangelist.com).
 
 
-  13 providers on the network work in this area, including Amazon Storage Gateway, Amazon API Gateway, OpenRouter, Couchbase, Dedalus Labs, osmAPI, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  14 providers on the network work in this area, including Amazon Storage Gateway, Amazon API Gateway, OpenRouter, Couchbase, Dedalus Labs, Onecli, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Database and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agents and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

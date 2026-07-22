@@ -6,7 +6,7 @@ description: FinOps is a cloud financial management discipline combining technol
 area_url: https://finops.apievangelist.com
 area_host: finops.apievangelist.com
 icon: https://finops.apievangelist.com/icon-thumb.png
-provider_count: 54
+provider_count: 71
 providers:
 - slug: amberflo
   name: Amberflo
@@ -99,6 +99,13 @@ providers:
   score_band: developing
   score_composite: 52.1
   shared: 1
+- slug: paid
+  name: Paid
+  description: Paid (paid.ai) is the monetization platform for AI agents. It gives teams that build and sell AI agents the pricing, billing, and margin infrastructure to charge with flexible models — credits, usage-based, seat-based, and outcome-based pricing — while tracking the AI costs and delivered value behi…
+  api_count: 2
+  score_band: developing
+  score_composite: 51.0
+  shared: 1
 - slug: kion
   name: Kion
   description: Kion is a cloud operations platform that provides automated governance and FinOps capabilities across AWS, Azure, GCP, and OCI through a self-hosted deployment model. The platform consolidates multiple point solutions into a comprehensive system that helps organizations allocate and track cloud spe…
@@ -127,6 +134,20 @@ providers:
   score_band: developing
   score_composite: 48.5
   shared: 1
+- slug: revefi
+  name: Revefi
+  description: Revefi is an AI-powered data operations platform that delivers FinOps, observability, and optimization for modern data warehouses and AI/LLM workloads. Its zero-touch "data copilot" (Raden) autonomously monitors data quality, spend, performance, and usage across Snowflake, Databricks, BigQuery, and…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.3
+  shared: 1
+- slug: devtron
+  name: Devtron
+  description: Devtron is an open-source, AI-native Kubernetes management and software delivery platform that unifies application, infrastructure, and cost management for engineering, DevOps, and SRE teams. It provides Kubernetes-native CI/CD, GitOps (ArgoCD/FluxCD), multi-cluster operations, security and complia…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.9
+  shared: 1
 - slug: ternary
   name: Ternary
   description: Ternary is a multi-cloud FinOps platform providing cost visibility, anomaly detection, commitment management, forecasting, and Kubernetes cost allocation for cloud environments. Originally built for Google Cloud, Ternary now supports AWS, Azure, and other cloud providers through its Universal Spend…
@@ -147,13 +168,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 45.6
-  shared: 1
-- slug: devtron
-  name: Devtron
-  description: Devtron is an open-source, AI-native Kubernetes management and software delivery platform that unifies application, infrastructure, and cost management for engineering, DevOps, and SRE teams. It provides Kubernetes-native CI/CD, GitOps (ArgoCD/FluxCD), multi-cluster operations, security and complia…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.2
   shared: 1
 - slug: scalr
   name: Scalr
@@ -204,29 +218,15 @@ providers:
   score_band: thin
   score_composite: 39.2
   shared: 1
-- slug: vantage-sh
-  name: Vantage
-  description: Vantage is a cloud cost management and FinOps platform that gives engineering and finance teams visibility into and control over cloud spend across AWS, Azure, GCP, Kubernetes, Datadog, Snowflake, MongoDB, and other providers. Its public REST API (base https://api.vantage.sh/v2) exposes Costs and C…
-  api_count: 10
-  score_band: thin
-  score_composite: 38.4
-  shared: 1
-- slug: env0
-  name: Env0
-  description: env0 is an infrastructure-as-code automation platform providing cost estimation, policy enforcement, and self-service environments for Terraform, OpenTofu, Pulumi, CloudFormation, and Kubernetes workloads.
-  api_count: 1
-  score_band: thin
-  score_composite: 38.0
-  shared: 1
 related:
+- slug: monetization
+  name: Monetization
+  shared: 2
 - slug: observability
   name: Observability
   shared: 2
 - slug: unified-apis
   name: Unified APIs
-  shared: 1
-- slug: monetization
-  name: Monetization
   shared: 1
 - slug: ide
   name: IDE
@@ -243,5 +243,5 @@ overview: 'FinOps is one of the API Evangelist areas on the [APIs.io](https://ap
   30 providers on the network work in this area, including Amberflo, Vantage, CAST AI, Choreo, CloudZero, Spot by NetApp, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability, Unified APIs, Monetization, and IDE. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Monetization, Observability, Unified APIs, and IDE. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

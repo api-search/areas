@@ -6,7 +6,7 @@ description: AIOps applies artificial intelligence and machine learning to IT op
 area_url: https://aiops.apievangelist.com
 area_host: aiops.apievangelist.com
 icon: https://aiops.apievangelist.com/icon-thumb.png
-provider_count: 30
+provider_count: 46
 providers:
 - slug: logz-io
   name: Logz.io
@@ -27,7 +27,7 @@ providers:
   description: Kentik is a network observability company whose SaaS platform (the Kentik Portal) unifies network flow records, BGP routing, SNMP and streaming telemetry, synthetic tests, and cloud VPC/flow logs into one analytics engine for network performance monitoring, capacity planning, DDoS detection and mit…
   api_count: 20
   score_band: developing
-  score_composite: 52.9
+  score_composite: 58.5
   shared: 1
 - slug: deeptrace
   name: Deeptrace
@@ -43,12 +43,40 @@ providers:
   score_band: developing
   score_composite: 48.7
   shared: 1
+- slug: opsmill
+  name: OpsMill
+  description: OpsMill is the company behind Infrahub, an open-source, graph-based infrastructure data management platform that unifies a source of truth for network, data center, and cloud automation. Infrahub combines a flexible, extensible schema, native version control with branching and merging, and unified…
+  api_count: 2
+  score_band: developing
+  score_composite: 47.8
+  shared: 1
+- slug: virtual-instruments
+  name: Virtana (Virtual Instruments)
+  description: Virtana (formerly Virtual Instruments) is an AI-powered hybrid infrastructure observability company whose platform monitors and optimizes performance, cost, and risk across on-premises, colocation, and cloud environments. The platform spans Infrastructure Observability, Container Observability, App…
+  api_count: 3
+  score_band: thin
+  score_composite: 44.9
+  shared: 1
 - slug: incident-io
   name: Incident.io
   description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
   api_count: 1
   score_band: thin
   score_composite: 41.6
+  shared: 1
+- slug: brownie
+  name: IncidentFox (Brownie)
+  description: IncidentFox (the company was surfaced in the API Evangelist network under its Y Combinator portfolio codename "Brownie") is an open-source, AI-powered SRE platform that automates production incident investigation and response. Its multi-agent system triages alerts, queries logs, metrics, traces and…
+  api_count: 1
+  score_band: thin
+  score_composite: 41.0
+  shared: 1
+- slug: runwhen
+  name: RunWhen
+  description: RunWhen is an AI platform for building safe-for-production agents that triage alerts, remediate infrastructure, analyze cost, and answer questions about production systems. Engineering teams compose reusable "Skills" (CodeBundles) into agents that run standalone or from Claude, Cursor, and VS Code…
+  api_count: 1
+  score_band: thin
+  score_composite: 40.9
   shared: 1
 - slug: doctor-droid
   name: Doctor Droid
@@ -57,19 +85,19 @@ providers:
   score_band: thin
   score_composite: 38.7
   shared: 1
+- slug: neubird
+  name: Neubird
+  description: NeuBird AI is "The Production Operations Agent" — an autonomous AI SRE platform that investigates, triages, and resolves production incidents. It connects to an organization's existing observability and operations stack (Datadog, Splunk, CloudWatch, PagerDuty, ServiceNow, Slack, Kubernetes, AWS, Az…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.6
+  shared: 1
 - slug: mist-ai
   name: Juniper Mist AI
   description: Juniper Mist AI is the AI-driven enterprise networking platform that powers Juniper Networks' AI-Native Networking portfolio. Acquired by Juniper Networks in 2019, Mist pioneered cloud-native, microservices Wi-Fi and extended its AIOps approach across Wired Assurance (EX/QFX switches), WAN Assuranc…
   api_count: 3
   score_band: thin
   score_composite: 37.4
-  shared: 1
-- slug: brownie
-  name: IncidentFox (Brownie)
-  description: IncidentFox (the company was surfaced in the API Evangelist network under its Y Combinator portfolio codename "Brownie") is an open-source, AI-powered SRE platform that automates production incident investigation and response. Its multi-agent system triages alerts, queries logs, metrics, traces and…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.4
   shared: 1
 - slug: soda-data
   name: Soda
@@ -190,34 +218,6 @@ providers:
   score_band: emerging
   score_composite: 20.5
   shared: 1
-- slug: motadata
-  name: Motadata
-  description: Motadata is an AIOps platform for IT infrastructure monitoring, log management, network analytics, and service desk automation.
-  api_count: 1
-  score_band: emerging
-  score_composite: 20.4
-  shared: 1
-- slug: zenoss
-  name: Zenoss
-  description: Zenoss is an AIOps and full-stack monitoring platform for hybrid IT infrastructure observability and event management.
-  api_count: 1
-  score_band: emerging
-  score_composite: 20.4
-  shared: 1
-- slug: blameless
-  name: Blameless
-  description: Blameless is an SRE and incident management platform for reliability, incident resolution, and blameless retrospectives.
-  api_count: 1
-  score_band: emerging
-  score_composite: 19.9
-  shared: 1
-- slug: shoreline
-  name: Shoreline
-  description: Shoreline is an incident automation platform that enables operators to build automated remediation for recurring incidents.
-  api_count: 1
-  score_band: emerging
-  score_composite: 19.2
-  shared: 1
 related:
 - slug: observability
   name: Observability
@@ -225,11 +225,14 @@ related:
 - slug: logging
   name: Logging
   shared: 1
+- slug: performance
+  name: Performance
+  shared: 1
 overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aiops.apievangelist.com](https://aiops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Logz.io, Honeycomb, Kentik, Deeptrace, Chamber, Incident.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Logz.io, Honeycomb, Kentik, Deeptrace, Chamber, OpsMill, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Logging, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -43,6 +43,13 @@ providers:
   score_band: developing
   score_composite: 48.3
   shared: 1
+- slug: brightdata
+  name: Bright Data
+  description: Bright Data is a web data platform providing a global proxy network (residential, datacenter, ISP, mobile), pre-built Web Scraper APIs for 100+ sites, a SERP API, the Web Unlocker, ready-made Datasets, and a Scraping Browser (Browser API) that exposes a real Chrome DevTools Protocol endpoint over W…
+  api_count: 6
+  score_band: developing
+  score_composite: 47.9
+  shared: 1
 - slug: apache-httpd
   name: Apache HTTP Server
   description: Apache HTTP Server (httpd) is the world's most widely used web server software. It serves static and dynamic content, acts as a reverse proxy and load balancer, and exposes a mod_status monitoring API and balancer-manager management interface for operational visibility.
@@ -56,13 +63,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 46.5
-  shared: 1
-- slug: brightdata
-  name: Bright Data
-  description: Bright Data is a web data platform providing a global proxy network (residential, datacenter, ISP, mobile), pre-built Web Scraper APIs for 100+ sites, a SERP API, the Web Unlocker, ready-made Datasets, and a Scraping Browser (Browser API) that exposes a real Chrome DevTools Protocol endpoint over W…
-  api_count: 6
-  score_band: developing
-  score_composite: 45.2
   shared: 1
 - slug: sozu
   name: Sozu
@@ -176,14 +176,11 @@ related:
 - slug: service-mesh
   name: Service Mesh
   shared: 1
-- slug: testing
-  name: Testing
-  shared: 1
 overview: 'Proxy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [proxy.apievangelist.com](https://proxy.apievangelist.com).
 
 
-  23 providers on the network work in this area, including Bright Data, SOAX, Envoy, SafeLine, Squid, Apache HTTP Server, and 17 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  23 providers on the network work in this area, including Bright Data, SOAX, Envoy, SafeLine, Squid, Bright Data, and 17 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Caching, Service Mesh, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Caching and Service Mesh. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

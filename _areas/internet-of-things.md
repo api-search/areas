@@ -6,14 +6,14 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 24
+provider_count: 70
 providers:
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 5
   score_band: exemplar
-  score_composite: 70.9
+  score_composite: 73.6
   shared: 1
 - slug: tago-io
   name: TagoIO
@@ -64,6 +64,13 @@ providers:
   score_band: developing
   score_composite: 56.0
   shared: 1
+- slug: weavix
+  name: Weavix
+  description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.4
+  shared: 1
 - slug: itron
   name: Itron
   description: 'Itron, Inc. (NASDAQ: ITRI) is a Liberty Lake, Washington–based industrial technology company providing smart-meter, grid-edge, and IoT infrastructure to electric, gas, and water utilities and cities. Itron''s self-described mission is "Creating a more resourceful world" and the company reports 7,700…'
@@ -78,6 +85,13 @@ providers:
   score_band: developing
   score_composite: 51.3
   shared: 1
+- slug: esper
+  name: Esper
+  description: Esper is the DevOps platform for connected devices, providing cloud-based Android (and edge) device management, application deployment, and remote orchestration for dedicated-device fleets. The Esper Manage REST API lets developers programmatically provision, monitor, and control Android-based dedi…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.0
+  shared: 1
 - slug: bitfinder
   name: Bitfinder
   description: Bitfinder, Inc., doing business as Awair, builds indoor air quality (IAQ) monitors and a cloud platform used across homes, offices, schools, and commercial spaces. Its devices (Awair Element, Awair Omni, and 2nd Edition) measure the Awair Score along with temperature, humidity, CO2, chemicals (VOC)…
@@ -85,12 +99,12 @@ providers:
   score_band: developing
   score_composite: 47.4
   shared: 1
-- slug: esper
-  name: Esper
-  description: Esper is the DevOps platform for connected devices, providing cloud-based Android (and edge) device management, application deployment, and remote orchestration for dedicated-device fleets. The Esper Manage REST API lets developers programmatically provision, monitor, and control Android-based dedi…
+- slug: telemetron-ai
+  name: Telemetron
+  description: Telemetron is an AI-powered customer support platform for hardware companies, backed by Y Combinator. It connects to IoT devices in real time, correlates device telemetry with customer records, diagnoses issues with AI, and resolves support tickets automatically. Its External API (ext-v1) lets hard…
   api_count: 1
-  score_band: thin
-  score_composite: 42.3
+  score_band: developing
+  score_composite: 45.0
   shared: 1
 - slug: lumen-technologies
   name: Lumen Technologies
@@ -105,6 +119,13 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 36.3
+  shared: 1
+- slug: liesheng
+  name: Liesheng Group
+  description: Liesheng Group (猎声集团 / Liesheng Technology) is a Dongguan, Guangdong based consumer-electronics company founded on 25 May 2015 as one of Xiaomi's first ecosystem-chain suppliers. It operates as a global ODM/OEM solution provider — it engineered the Redmi AirDots true-wireless earbuds — while buildi…
+  api_count: 2
+  score_band: thin
+  score_composite: 35.8
   shared: 1
 - slug: ubidots
   name: Ubidots
@@ -127,12 +148,19 @@ providers:
   score_band: thin
   score_composite: 31.7
   shared: 1
-- slug: liesheng
-  name: Liesheng Group
-  description: Liesheng Group (猎声集团 / Liesheng Technology) is a Dongguan, Guangdong based consumer-electronics company founded on 25 May 2015 as one of Xiaomi's first ecosystem-chain suppliers. It operates as a global ODM/OEM solution provider — it engineered the Redmi AirDots true-wireless earbuds — while buildi…
-  api_count: 2
-  score_band: thin
-  score_composite: 30.2
+- slug: wiliot
+  name: Wiliot
+  description: 'Wiliot operates an ambient IoT platform built on battery-free "IoT Pixels" - postage-stamp-sized Bluetooth sensor tags - and a cloud that turns everyday physical items into a continuous, real-time data source for supply-chain visibility ("Physical AI"). Wiliot''s Cloud APIs expose three surfaces: a…'
+  api_count: 3
+  score_band: emerging
+  score_composite: 29.6
+  shared: 1
+- slug: univers
+  name: Univers
+  description: Univers (formerly Envision Digital) is a Singapore-headquartered company building "The Platform for Physical AI" — its EnOS platform runs real-time, autonomous operations across energy grids, buildings, transportation, and industrial manufacturing, managing over 1,000 GW of energy assets and 400M+…
+  api_count: 1
+  score_band: emerging
+  score_composite: 29.5
   shared: 1
 - slug: cox
   name: Cox Communications
@@ -155,26 +183,40 @@ providers:
   score_band: emerging
   score_composite: 21.7
   shared: 1
+- slug: medigate
+  name: Medigate
+  description: Medigate was a healthcare IoT / connected-medical-device cybersecurity company (headquartered in Brooklyn, NY, backed by Partech and others) that built the first security platform dedicated to healthcare IoT — device discovery, risk assessment, and clinically-aware network segmentation for hospital…
+  api_count: 1
+  score_band: emerging
+  score_composite: 18.9
+  shared: 1
+- slug: ampaworks
+  name: AMPAworks
+  description: AMPAworks builds AI-powered smart-shelf inventory management for healthcare and defense supply chains. Its platform pairs computer-vision cameras and rolling kiosks that image inventory to auto-count stock in real time with software that tracks supplies 24/7, automates reordering, and gives teams l…
+  api_count: 0
+  score_band: emerging
+  score_composite: 17.8
+  shared: 1
+- slug: silabs
+  name: Silicon Labs
+  description: Silicon Labs (Silabs) is a fabless semiconductor company headquartered in Austin, Texas that designs silicon, software, and solutions for a more connected, IoT world. Its portfolio includes wireless connectivity SoCs and modules for Bluetooth, Bluetooth Mesh, Zigbee, Thread, Matter, Z-Wave, Wi-Fi,…
+  api_count: 0
+  score_band: emerging
+  score_composite: 17.8
+  shared: 1
+- slug: tovala
+  name: Tovala
+  description: Tovala is a Chicago-based food-technology company that pairs a fresh meal delivery service with its proprietary smart countertop ovens. Weekly rotating, chef-crafted meals ship with QR codes that the Tovala Smart Oven (5-in-1) and Smart Oven Pro (6-in-1 with steam) scan to cook automatically, elimi…
+  api_count: 0
+  score_band: emerging
+  score_composite: 17.2
+  shared: 1
 - slug: cogent-communications
   name: Cogent Communications
   description: Cogent Communications is a major US corporation and Fortune 1000 company. The Cogent Communications API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
   score_band: emerging
   score_composite: 16.5
-  shared: 1
-- slug: vodafone
-  name: Vodafone
-  description: Vodafone Group plc is a UK-headquartered (Newbury, England) multinational telecommunications company and one of the world's largest mobile and fixed network operators, with operations in 15 country markets and partner-market agreements covering 40+ additional countries across Europe and Africa. The…
-  api_count: 27
-  score_band: emerging
-  score_composite: 16.0
-  shared: 1
-- slug: cablevision-systems
-  name: Cablevision Systems
-  description: Cablevision Systems was a U.S. cable television company that provided telecommunications and television services (Optimum TV, Optimum Online, Optimum Voice) in the New York metropolitan area. It was acquired by Altice in 2016 and now operates as part of Altice USA under the Optimum consumer brand.
-  api_count: 1
-  score_band: minimal
-  score_composite: 11.7
   shared: 1
 related:
 - slug: network
@@ -183,11 +225,11 @@ related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 2
-- slug: analysis
-  name: Analysis
-  shared: 1
 - slug: industrial
   name: Industrial
+  shared: 2
+- slug: analysis
+  name: Analysis
   shared: 1
 - slug: search
   name: API Evangelist Search
@@ -198,8 +240,8 @@ related:
 overview: 'Internet of Things is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [internet-of-things.apievangelist.com](https://internet-of-things.apievangelist.com).
 
 
-  24 providers on the network work in this area, including Shodan, TagoIO, Adafruit IO, emnify, ThingSpeak, Losant, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Shodan, TagoIO, Adafruit IO, emnify, ThingSpeak, Losant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Network, Embedded iPaaS, Analysis, and Industrial. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Network, Embedded iPaaS, Industrial, and Analysis. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

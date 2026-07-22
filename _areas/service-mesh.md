@@ -6,7 +6,7 @@ description: Service mesh is a dedicated infrastructure layer for handling servi
 area_url: https://service-mesh.apievangelist.com
 area_host: service-mesh.apievangelist.com
 icon: https://service-mesh.apievangelist.com/icon-thumb.png
-provider_count: 35
+provider_count: 40
 providers:
 - slug: aws-app-mesh
   name: AWS App Mesh
@@ -221,12 +221,12 @@ providers:
 related:
 - slug: microservices
   name: Microservices
-  shared: 6
-- slug: performance
-  name: Performance
-  shared: 1
+  shared: 5
 - slug: proxy
   name: Proxy
+  shared: 1
+- slug: performance
+  name: Performance
   shared: 1
 overview: 'Service Mesh is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [service-mesh.apievangelist.com](https://service-mesh.apievangelist.com).
 
@@ -234,5 +234,5 @@ overview: 'Service Mesh is one of the API Evangelist areas on the [APIs.io](http
   30 providers on the network work in this area, including AWS App Mesh, Kong, Tetrate, Linkerd, HashiCorp Consul, Istio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Microservices, Performance, and Proxy. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Microservices, Proxy, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

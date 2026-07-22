@@ -6,8 +6,15 @@ description: An index and topic collection covering machine learning APIs, MLOps
 area_url: https://machine-learning.apievangelist.com
 area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
-provider_count: 328
+provider_count: 1031
 providers:
+- slug: anthropic
+  name: Anthropic
+  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 75.2
+  shared: 1
 - slug: databricks
   name: Databricks
   description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
@@ -21,13 +28,6 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 73.2
-  shared: 1
-- slug: anthropic
-  name: Anthropic
-  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
-  api_count: 11
-  score_band: exemplar
-  score_composite: 72.6
   shared: 1
 - slug: amazon-sagemaker
   name: Amazon SageMaker
@@ -70,6 +70,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 67.7
+  shared: 1
+- slug: replicate
+  name: Replicate
+  description: Replicate lets you run machine learning models in the cloud with a simple API. Thousands of open-source models are available, and you can run your own custom models at scale. Run image generation, language models, audio synthesis, video generation, and more with a few lines of code. Replicate makes…
+  api_count: 1
+  score_band: strong
+  score_composite: 67.5
   shared: 1
 - slug: amazon-entity-resolution
   name: Amazon Entity Resolution
@@ -134,13 +141,6 @@ providers:
   score_band: strong
   score_composite: 65.0
   shared: 1
-- slug: replicate
-  name: Replicate
-  description: Replicate lets you run machine learning models in the cloud with a simple API. Thousands of open-source models are available, and you can run your own custom models at scale. Run image generation, language models, audio synthesis, video generation, and more with a few lines of code. Replicate makes…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.8
-  shared: 1
 - slug: dataiku
   name: Dataiku
   description: Dataiku is an advanced data science and machine learning platform that enables teams to build and deploy AI applications at scale.
@@ -204,19 +204,19 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
+- slug: celonis
+  name: Celonis
+  description: Celonis is the process intelligence and process mining company. Its cloud platform ingests event data from enterprise systems, builds Knowledge Models of how business processes actually run, and surfaces KPIs, bottlenecks and automation opportunities. For developers Celonis publishes a Developer Ce…
+  api_count: 7
+  score_band: strong
+  score_composite: 62.7
+  shared: 1
 - slug: azure
   name: Microsoft Azure
   description: Microsoft Azure is a comprehensive cloud computing platform offering IaaS, PaaS, and SaaS solutions for building, deploying, and managing applications through Microsoft's global network of datacenters.
   api_count: 3
   score_band: strong
   score_composite: 62.7
-  shared: 1
-- slug: amazon-healthimaging
-  name: Amazon HealthImaging
-  description: AWS HealthImaging is a HIPAA-eligible service that helps healthcare providers and their software partners store, transform, and apply machine learning to medical images. It provides sub-second image retrieval and enables scaling from hundreds to millions of medical images.
-  api_count: 1
-  score_band: strong
-  score_composite: 62.6
   shared: 1
 related:
 - slug: security
@@ -231,16 +231,16 @@ related:
 - slug: ide
   name: IDE
   shared: 1
+- slug: ai-automation
+  name: AI Automation
+  shared: 1
 - slug: search
   name: API Evangelist Search
-  shared: 1
-- slug: database
-  name: Database
   shared: 1
 overview: 'Machine Learning is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [machine-learning.apievangelist.com](https://machine-learning.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Databricks, Amazon Rekognition, Anthropic, Amazon SageMaker, Amazon DevOps Guru, Amazon Lookout for Vision, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Anthropic, Databricks, Amazon Rekognition, Amazon SageMaker, Amazon DevOps Guru, Amazon Lookout for Vision, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Security, Agents, Containers, and IDE. Browse every area at [areas.apis.io](https://apis.io/areas/).'

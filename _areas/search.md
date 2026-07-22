@@ -6,14 +6,14 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 115
+provider_count: 162
 providers:
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 5
   score_band: exemplar
-  score_composite: 70.9
+  score_composite: 73.6
   shared: 1
 - slug: exa-ai
   name: Exa
@@ -148,6 +148,13 @@ providers:
   score_band: developing
   score_composite: 56.3
   shared: 1
+- slug: delphi
+  name: Delphi
+  description: Delphi is an AI platform for building "Digital Minds" — hyper-realistic AI clones trained exclusively on a person's own content (podcasts, videos, blogs, long-form writing, live feeds) that match how they speak, write, and think. Audiences can call, text, or video-chat a clone 24/7 for Q&A, coachin…
+  api_count: 1
+  score_band: developing
+  score_composite: 56.1
+  shared: 1
 - slug: amazon-cloudsearch
   name: Amazon CloudSearch
   description: Amazon CloudSearch is a managed search service that makes it easy to set up, manage, and scale a search solution for your website or application. Supports full-text search, Boolean search, faceted search, autocomplete, geospatial search, and 34 languages.
@@ -183,19 +190,19 @@ providers:
   score_band: developing
   score_composite: 53.9
   shared: 1
+- slug: tinyfish
+  name: TinyFish
+  description: 'TinyFish provides enterprise infrastructure for AI web agents — a unified platform that lets AI systems interact with the live web at scale. It ships four API surfaces: a Web Agent Automation API that turns natural-language goals into browser automations on real websites (sync, async, SSE-streaming…'
+  api_count: 4
+  score_band: developing
+  score_composite: 53.9
+  shared: 1
 - slug: duckduckgo
   name: DuckDuckGo
   description: DuckDuckGo is an independent online-privacy company best known for its tracker-free search engine and the DuckDuckGo Browser (iOS, Android, macOS, Windows). It operates the public Instant Answer API at api.duckduckgo.com (free, JSON/XML), the Duck.ai anonymous AI-chat proxy at duck.ai (routes to An…
   api_count: 4
   score_band: developing
   score_composite: 53.5
-  shared: 1
-- slug: delphi
-  name: Delphi
-  description: Delphi is an AI platform for building "Digital Minds" — hyper-realistic AI clones trained exclusively on a person's own content (podcasts, videos, blogs, long-form writing, live feeds) that match how they speak, write, and think. Audiences can call, text, or video-chat a clone 24/7 for Q&A, coachin…
-  api_count: 1
-  score_band: developing
-  score_composite: 53.4
   shared: 1
 - slug: newsapi
   name: NewsAPI
@@ -211,13 +218,6 @@ providers:
   score_band: developing
   score_composite: 52.4
   shared: 1
-- slug: cribl
-  name: Cribl
-  description: Cribl is an observability pipeline company providing a suite of products for collecting, processing, routing, searching, and storing telemetry data at scale. Cribl's developer platform offers REST APIs across Stream, Edge, Search, Lake, and the As Code product line, exposing programmatic control ov…
-  api_count: 6
-  score_band: developing
-  score_composite: 52.0
-  shared: 1
 related:
 - slug: agents
   name: Agents
@@ -231,11 +231,11 @@ related:
 - slug: discovery
   name: API Evangelist Discovery
   shared: 1
-- slug: internet-of-things
-  name: Internet of Things
-  shared: 1
 - slug: dns
   name: DNS
+  shared: 1
+- slug: internet-of-things
+  name: Internet of Things
   shared: 1
 overview: 'API Evangelist Search is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [search.apievangelist.com](https://search.apievangelist.com).
 

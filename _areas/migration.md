@@ -6,7 +6,7 @@ description: An index and topic collection covering data migration, cloud migrat
 area_url: https://migration.apievangelist.com
 area_host: migration.apievangelist.com
 icon: https://migration.apievangelist.com/icon-thumb.png
-provider_count: 11
+provider_count: 13
 providers:
 - slug: amazon-mainframe-modernization
   name: Amazon Mainframe Modernization
@@ -85,12 +85,26 @@ providers:
   score_band: emerging
   score_composite: 25.9
   shared: 1
+- slug: tessera-labs
+  name: Tessera Labs
+  description: Tessera Labs is an AI-native enterprise software company building a governed, multi-agent AI platform that automates complex ERP and business-system transformations, compressing SAP ECC-to-S/4HANA migrations and broader modernization work from years to weeks. The platform orchestrates data, process…
+  api_count: 0
+  score_band: minimal
+  score_composite: 11.3
+  shared: 1
+- slug: aelita
+  name: Aelita Software
+  description: Aelita Software Corporation was an enterprise systems-management software company founded in 1998 by Ratmir Timashev (who later co-founded Veeam Software). Headquartered in the Columbus, Ohio area (Dublin/Powell, OH), Aelita built Windows infrastructure management tooling for Microsoft Active Direc…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.3
+  shared: 1
 related:
-- slug: virtualization
-  name: Virtualization
-  shared: 2
 - slug: discovery
   name: API Evangelist Discovery
+  shared: 2
+- slug: virtualization
+  name: Virtualization
   shared: 2
 - slug: ai-automation
   name: AI Automation
@@ -101,8 +115,8 @@ related:
 overview: 'Migration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [migration.apievangelist.com](https://migration.apievangelist.com).
 
 
-  11 providers on the network work in this area, including Amazon Mainframe Modernization, Amazon DataSync, Amazon DMS, Google Cloud Migration Center, Azure Migrate, Import2, and 5 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  13 providers on the network work in this area, including Amazon Mainframe Modernization, Amazon DataSync, Amazon DMS, Google Cloud Migration Center, Azure Migrate, Import2, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Virtualization, API Evangelist Discovery, AI Automation, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Discovery, Virtualization, AI Automation, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

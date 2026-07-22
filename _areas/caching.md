@@ -6,7 +6,7 @@ description: An index and topic collection covering API-accessible caching servi
 area_url: https://caching.apievangelist.com
 area_host: caching.apievangelist.com
 icon: https://caching.apievangelist.com/icon-thumb.png
-provider_count: 13
+provider_count: 19
 providers:
 - slug: amazon-elasticache
   name: Amazon ElastiCache
@@ -43,6 +43,13 @@ providers:
   score_band: thin
   score_composite: 44.6
   shared: 1
+- slug: momento
+  name: Momento
+  description: Momento is a serverless data platform that provides low-latency, pay-as-you-go infrastructure without servers to provision, tune, or scale. Its core services are Momento Cache (an ephemeral serverless cache and drop-in Redis replacement), Momento Topics (a serverless publish/subscribe event bus), a…
+  api_count: 1
+  score_band: thin
+  score_composite: 41.6
+  shared: 1
 - slug: gridgain
   name: GridGain
   description: GridGain is a unified real-time data platform that provides in-memory computing for transactions, analytics, and AI workloads. Built on top of Apache Ignite, it offers distributed database, caching, and computing capabilities for high-performance data-intensive applications.
@@ -50,12 +57,26 @@ providers:
   score_band: thin
   score_composite: 41.4
   shared: 1
+- slug: nx
+  name: Nx
+  description: Nx is an open-source, technology-agnostic monorepo build platform from Nrwl (backed by a16z) that speeds up builds and CI through computation caching, task orchestration, and running only the projects affected by a change. Its developer surface spans a local CLI (nx) with a large family of first-pa…
+  api_count: 0
+  score_band: thin
+  score_composite: 40.4
+  shared: 1
 - slug: cloudflare-ai-gateway
   name: Cloudflare AI Gateway
   description: Cloudflare AI Gateway is a managed LLM proxy that sits in front of 23+ AI providers (OpenAI, Anthropic, Google AI Studio, Google Vertex AI, Amazon Bedrock, Azure OpenAI, Workers AI, Mistral, Cohere, Groq, DeepSeek, Cerebras, xAI, Perplexity, Replicate, HuggingFace, OpenRouter, ElevenLabs, Deepgram,…
   api_count: 4
   score_band: thin
   score_composite: 40.0
+  shared: 1
+- slug: avrea
+  name: Avrea
+  description: 'Avrea is CI/CD infrastructure for GitHub Actions: high-performance managed runners (AMD EPYC and Apple M-series), smart multi-system caching, and full build observability with flaky-test detection and live SSH debugging into running jobs. A one-line change to a GitHub Actions workflow migrates jobs…'
+  api_count: 0
+  score_band: thin
+  score_composite: 35.4
   shared: 1
 - slug: blacksmith-sh
   name: Blacksmith
@@ -85,6 +106,13 @@ providers:
   score_band: emerging
   score_composite: 25.7
   shared: 1
+- slug: readyset
+  name: ReadySet
+  description: Readyset is a realtime SQL caching engine for Postgres and MySQL. It sits between applications and the database as a wire-compatible proxy, automatically caching the results of costly SELECT queries and keeping them up to date from the database replication stream with no application code changes or…
+  api_count: 0
+  score_band: emerging
+  score_composite: 25.4
+  shared: 1
 - slug: tailcall
   name: Tailcall
   description: Tailcall is a high-performance GraphQL API gateway and runtime that lets developers compose multiple upstream REST, gRPC, and GraphQL APIs into a unified GraphQL schema. Built in Rust, it offers declarative configuration via .graphql files with directives for HTTP, caching, batching, and security c…
@@ -99,6 +127,20 @@ providers:
   score_band: emerging
   score_composite: 25.1
   shared: 1
+- slug: timesten
+  name: TimesTen
+  description: TimesTen is an in-memory relational database company that spun out of Hewlett-Packard Labs in Palo Alto in 1996 as TimesTen Performance Software, taking venture backing that included Lightspeed Venture Partners, and was acquired by Oracle Corporation in 2005. The product lives on as Oracle TimesTen…
+  api_count: 0
+  score_band: minimal
+  score_composite: 11.2
+  shared: 1
+- slug: picasso
+  name: Picasso
+  description: Picasso is an image downloading and caching library for Android, focused on simplicity and minimal disk space usage. It is an open-source project by Square. Picasso is a client-side library, not a hosted HTTP API.
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.2
+  shared: 1
 related:
 - slug: network
   name: Network
@@ -106,14 +148,20 @@ related:
 - slug: proxy
   name: Proxy
   shared: 1
+- slug: cli
+  name: Command Line Interface
+  shared: 1
 - slug: database
   name: Database
+  shared: 1
+- slug: performance
+  name: Performance
   shared: 1
 overview: 'Caching is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [caching.apievangelist.com](https://caching.apievangelist.com).
 
 
-  13 providers on the network work in this area, including Amazon ElastiCache, Google Cloud CDN, Apache Ignite, Apache Geode, Scalable Systems, GridGain, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  19 providers on the network work in this area, including Amazon ElastiCache, Google Cloud CDN, Apache Ignite, Apache Geode, Scalable Systems, Momento, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Network, Proxy, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Network, Proxy, Command Line Interface, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

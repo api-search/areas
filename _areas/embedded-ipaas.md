@@ -6,14 +6,14 @@ description: This is the index of embedded iPaaS service and tooling repos being
 area_url: https://embedded-ipaas.apievangelist.com
 area_host: embedded-ipaas.apievangelist.com
 icon: https://embedded-ipaas.apievangelist.com/icon-thumb.png
-provider_count: 61
+provider_count: 90
 providers:
 - slug: workato
   name: Workato
   description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
   api_count: 4
   score_band: exemplar
-  score_composite: 70.5
+  score_composite: 73.2
   shared: 2
 - slug: alloy-automation
   name: Alloy Automation
@@ -134,12 +134,26 @@ providers:
   score_band: developing
   score_composite: 57.6
   shared: 1
+- slug: elastic-io
+  name: Elastic.io
+  description: Elastic IO is a cloud-based integration platform that helps businesses effortlessly connect their various applications, systems, and services. By providing a user-friendly interface and a wide range of pre-built connectors, elastic.io allows organizations to automate and streamline their data integ…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.2
+  shared: 1
 - slug: 1nce
   name: 1NCE
   description: 1NCE is a Cologne-headquartered global IoT connectivity provider best known for the IoT Lifetime Flat — a single one-time fee that bundles a multi-network SIM with 500 MB of data and 250 SMS over a 10-year subscription. The 1NCE Management API on api.1nce.com/management-api exposes the same surface…
   api_count: 6
   score_band: developing
   score_composite: 55.7
+  shared: 1
+- slug: screenleap-inc
+  name: Screenleap Inc
+  description: Screenleap is a Y Combinator-backed company whose API lets developers add live screen sharing, video conferencing, audio conferencing and chat to their own websites and online products. Integrations create a session server-to-server over a REST/JSON HTTP interface (base https://api.screenleap.com/v…
+  api_count: 1
+  score_band: developing
+  score_composite: 54.2
   shared: 1
 - slug: tray-io
   name: Tray.io
@@ -148,19 +162,19 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
+- slug: cyclr
+  name: Cyclr
+  description: Cyclr is an embedded iPaaS (integration platform as a service) used by SaaS vendors to deliver native integrations to their customers without each vendor building and maintaining one-off connectors. The platform provides a connector library covering hundreds of business applications (CRM, marketing…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.0
+  shared: 1
 - slug: jetic
   name: Jetic
   description: Jetic is the first and only cloud-native API & Integration Platform based on Apache Camel. An iPaaS solution for avoiding costly vendor lock-ins and regaining command of your development - without any drawbacks.
   api_count: 1
   score_band: developing
   score_composite: 53.0
-  shared: 1
-- slug: elastic-io
-  name: Elastic.io
-  description: Elastic IO is a cloud-based integration platform that helps businesses effortlessly connect their various applications, systems, and services. By providing a user-friendly interface and a wide range of pre-built connectors, elastic.io allows organizations to automate and streamline their data integ…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.5
   shared: 1
 - slug: particle
   name: Particle
@@ -169,10 +183,10 @@ providers:
   score_band: developing
   score_composite: 51.3
   shared: 1
-- slug: cyclr
-  name: Cyclr
-  description: Cyclr is an embedded iPaaS (integration platform as a service) used by SaaS vendors to deliver native integrations to their customers without each vendor building and maintaining one-off connectors. The platform provides a connector library covering hundreds of business applications (CRM, marketing…
-  api_count: 1
+- slug: whereby
+  name: Whereby
+  description: Whereby is an embeddable video API plus standalone meetings product that lets developers add browser-based, no-download video calls to their apps with a few lines of code or build deeply customized experiences via SDKs. The REST API at api.whereby.dev/v1 covers meetings, rooms, recordings, transcri…
+  api_count: 2
   score_band: developing
   score_composite: 50.3
   shared: 1
@@ -204,24 +218,10 @@ providers:
   score_band: developing
   score_composite: 47.3
   shared: 1
-- slug: azure-logic-apps
-  name: Azure Logic Apps
-  description: Azure Logic Apps is a cloud-based integration platform that enables you to create and run automated workflows integrating apps, data, services, and systems across cloud and on-premises environments.
-  api_count: 1
-  score_band: developing
-  score_composite: 46.5
-  shared: 1
-- slug: celigo
-  name: Celigo
-  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
-  api_count: 4
-  score_band: developing
-  score_composite: 46.1
-  shared: 1
 related:
 - slug: ipaas
   name: iPaaS
-  shared: 19
+  shared: 17
 - slug: integrations
   name: Integrations
   shared: 13
@@ -230,7 +230,7 @@ related:
   shared: 5
 - slug: workflow-automation
   name: Workflow Automation
-  shared: 4
+  shared: 3
 - slug: internet-of-things
   name: Internet of Things
   shared: 2

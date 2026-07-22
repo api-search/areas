@@ -6,8 +6,15 @@ description: An index and topic collection covering embeddable widgets, JavaScri
 area_url: https://embeddable.apievangelist.com
 area_host: embeddable.apievangelist.com
 icon: https://embeddable.apievangelist.com/icon-thumb.png
-provider_count: 2
+provider_count: 3
 providers:
+- slug: screenleap
+  name: Screenleap
+  description: Screenleap is a screen sharing and online meeting service that lets anyone share their screen instantly from a browser with no software install required for viewers. Beyond the consumer product, Screenleap offers a REST-style developer API (api.screenleap.com/v2) that lets businesses embed live int…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.6
+  shared: 1
 - slug: confrere
   name: Confrere
   description: Confrere is a privacy-first, embeddable video-consultation platform (now a Compodium product) built in the Nordics for healthcare providers, therapists, consultants, tutors, and sales teams who need secure, encrypted video meetings that clients join from any modern browser with no download. Its ser…
@@ -29,7 +36,7 @@ related:
 overview: 'Embeddable is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [embeddable.apievangelist.com](https://embeddable.apievangelist.com).
 
 
-  Providers on the network working in this area include Confrere and Desmos — each links out to that provider''s APIs, schemas, and governance artifacts.
+  Providers on the network working in this area include Screenleap, Confrere, and Desmos — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Communications. Browse every area at [areas.apis.io](https://apis.io/areas/).'

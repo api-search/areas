@@ -6,7 +6,7 @@ description: An index and topic collection covering application deployment platf
 area_url: https://deployment.apievangelist.com
 area_host: deployment.apievangelist.com
 icon: https://deployment.apievangelist.com/icon-thumb.png
-provider_count: 42
+provider_count: 61
 providers:
 - slug: amazon-elastic-beanstalk
   name: Amazon Elastic Beanstalk
@@ -28,6 +28,27 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 62.4
+  shared: 1
+- slug: laravel
+  name: Laravel
+  description: 'Laravel is the company behind the Laravel PHP framework and a suite of commercial developer infrastructure products: Laravel Cloud (a fully managed PaaS for deploying and scaling Laravel and Symfony applications), Laravel Forge (server provisioning and application deployment across DigitalOcean, AW…'
+  api_count: 4
+  score_band: strong
+  score_composite: 61.5
+  shared: 1
+- slug: upsun
+  name: Upsun
+  description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.0
+  shared: 1
+- slug: kubernetes
+  name: Kubernetes
+  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.1
   shared: 1
 - slug: amazon-codedeploy
   name: Amazon CodeDeploy
@@ -57,6 +78,20 @@ providers:
   score_band: developing
   score_composite: 58.4
   shared: 1
+- slug: nuon
+  name: Nuon
+  description: Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into their customers' own AWS, Azure, or GCP accounts while keeping a…
+  api_count: 1
+  score_band: developing
+  score_composite: 58.3
+  shared: 1
+- slug: render
+  name: Render
+  description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, PostgreSQL databases, Redis/Key-Value stores, and persistent disks.…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.4
+  shared: 1
 - slug: bentoml
   name: BentoML
   description: BentoML is an open-source unified inference platform for building, packaging, and deploying machine learning models as scalable REST API services. Developers define services using Python class decorators that automatically expose model inference logic as HTTP endpoints. BentoCloud, the managed clou…
@@ -71,26 +106,12 @@ providers:
   score_band: developing
   score_composite: 55.8
   shared: 1
-- slug: laravel
-  name: Laravel
-  description: 'Laravel is the company behind the Laravel PHP framework and a suite of commercial developer infrastructure products: Laravel Cloud (a fully managed PaaS for deploying and scaling Laravel and Symfony applications), Laravel Forge (server provisioning and application deployment across DigitalOcean, AW…'
-  api_count: 4
-  score_band: developing
-  score_composite: 55.8
-  shared: 1
 - slug: deno
   name: Deno
   description: Deno is a modern JavaScript and TypeScript runtime built on V8 that emphasizes security, simplicity, and developer productivity. It provides a comprehensive developer platform including the Deno Deploy serverless edge network, a built-in key-value store, and a standard library of audited modules, a…
   api_count: 6
   score_band: developing
   score_composite: 54.7
-  shared: 1
-- slug: kubernetes
-  name: Kubernetes
-  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.4
   shared: 1
 - slug: lunar-dev
   name: Lunar.dev
@@ -106,12 +127,12 @@ providers:
   score_band: developing
   score_composite: 52.6
   shared: 1
-- slug: render
-  name: Render
-  description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, PostgreSQL databases, Redis/Key-Value stores, and persistent disks.…
+- slug: dreamfactory
+  name: DreamFactory
+  description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
   api_count: 1
   score_band: developing
-  score_composite: 51.8
+  score_composite: 52.2
   shared: 1
 - slug: microsoft-azure-pipelines
   name: Azure Pipelines
@@ -127,6 +148,13 @@ providers:
   score_band: developing
   score_composite: 50.9
   shared: 1
+- slug: release
+  name: Release
+  description: Release is a developer-tools platform that provisions on-demand, full-stack ephemeral environments inside your own AWS or GCP cloud accounts. Positioned as a Heroku replacement and a Vercel alternative for full-stack apps, Release turns a repository plus a .release.yaml (or Docker Compose) file int…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.7
+  shared: 1
 - slug: microsoft-bicep
   name: Microsoft Bicep
   description: Microsoft Bicep is a domain-specific language (DSL) that uses declarative syntax to deploy Azure resources. It provides a transparent abstraction over ARM templates and offers a more concise syntax, improved type safety, and better support for modularity and code reuse.
@@ -134,12 +162,12 @@ providers:
   score_band: developing
   score_composite: 49.1
   shared: 1
-- slug: dreamfactory
-  name: DreamFactory
-  description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
+- slug: agentuity
+  name: Agentuity
+  description: Agentuity is a full-stack cloud platform for building, deploying, and operating AI agents and the framework apps around them. Developers keep their existing framework (Next.js, Hono, React Router, SvelteKit, Nuxt, Astro, Vite React, TanStack Start) and attach Agentuity service clients for key-value…
   api_count: 1
   score_band: developing
-  score_composite: 46.6
+  score_composite: 47.8
   shared: 1
 - slug: semaphore
   name: Semaphore
@@ -162,19 +190,26 @@ providers:
   score_band: thin
   score_composite: 44.2
   shared: 1
+- slug: terminal-use
+  name: Terminal Use
+  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
+  api_count: 1
+  score_band: thin
+  score_composite: 43.5
+  shared: 1
+- slug: render-com
+  name: Render
+  description: Render is a unified cloud application platform (PaaS) for building, deploying, and scaling web services, static sites, background workers, cron jobs, and one-off jobs alongside managed Postgres and Key Value (Redis-compatible) datastores. The Render REST API (https://api.render.com/v1) exposes almo…
+  api_count: 15
+  score_band: thin
+  score_composite: 42.7
+  shared: 1
 - slug: baseten
   name: Baseten
   description: Baseten is a production inference platform for deploying and serving custom and pre-trained ML models. Offers a Model APIs catalog with OpenAI-compatible endpoints (DeepSeek, Qwen, GLM, Nemotron), dedicated deployments via Truss, autoscaling GPU compute, async/queue inference, training, chains (mul…
   api_count: 3
   score_band: thin
   score_composite: 42.3
-  shared: 1
-- slug: agentuity
-  name: Agentuity
-  description: Agentuity is a full-stack cloud platform for building, deploying, and operating AI agents and the framework apps around them. Developers keep their existing framework (Next.js, Hono, React Router, SvelteKit, Nuxt, Astro, Vite React, TanStack Start) and attach Agentuity service clients for key-value…
-  api_count: 1
-  score_band: thin
-  score_composite: 42.1
   shared: 1
 - slug: coolify
   name: Coolify
@@ -183,47 +218,15 @@ providers:
   score_band: thin
   score_composite: 41.2
   shared: 1
-- slug: scalable-inference-serving
-  name: Scalable Inference Serving
-  description: A collection of APIs, frameworks, and platforms for scalable machine learning model inference serving, deployment, and management. This includes the KServe Open Inference Protocol (the CNCF standard for model serving on Kubernetes), BentoML (developer packaging and serving), vLLM (high-throughput L…
-  api_count: 6
-  score_band: thin
-  score_composite: 41.0
-  shared: 1
-- slug: render-com
-  name: Render
-  description: Render is a unified cloud application platform (PaaS) for building, deploying, and scaling web services, static sites, background workers, cron jobs, and one-off jobs alongside managed Postgres and Key Value (Redis-compatible) datastores. The Render REST API (https://api.render.com/v1) exposes almo…
-  api_count: 15
-  score_band: thin
-  score_composite: 40.0
-  shared: 1
-- slug: dokploy
-  name: Dokploy
-  description: Dokploy is an open-source, self-hostable Platform-as-a-Service (PaaS) — an alternative to Heroku, Vercel, and Netlify — that deploys applications, Docker Compose stacks, and managed databases across one or many servers using Docker and Docker Swarm, with Traefik handling routing and TLS.
-  api_count: 1
-  score_band: thin
-  score_composite: 39.4
-  shared: 1
-- slug: railway-app
-  name: Railway
-  description: Railway is a cloud application deployment platform (PaaS) that builds, deploys, and scales services, databases, and cron jobs from a Git repository or Docker image. Its programmatic surface is a GraphQL-first Public API served at https://backboard.railway.com/graphql/v2 - the same API that powers t…
-  api_count: 13
-  score_band: thin
-  score_composite: 37.8
-  shared: 1
-- slug: flightcontrol
-  name: Flightcontrol
-  description: Flightcontrol deploys applications to your own AWS account with a Heroku-like developer experience. It provisions and manages AWS infrastructure from a flightcontrol.json config-as-code file and exposes an HTTP management API for triggering deployments, managing environments, services, environment…
-  api_count: 4
-  score_band: thin
-  score_composite: 37.3
-  shared: 1
 related:
 - slug: containers
   name: Containers
-  shared: 3
-- slug: performance
-  name: Performance
+  shared: 4
+- slug: ai-automation
+  name: AI Automation
+  shared: 1
+- slug: cli
+  name: Command Line Interface
   shared: 1
 - slug: developer-experience
   name: Developer Experience
@@ -234,14 +237,11 @@ related:
 - slug: integrations
   name: Integrations
   shared: 1
-- slug: microservices
-  name: Microservices
-  shared: 1
 overview: 'Deployment is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deployment.apievangelist.com](https://deployment.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Elastic Beanstalk, Google Cloud Deploy, Databricks Asset Bundles, Amazon CodeDeploy, AWS App Runner, TeamCity, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Elastic Beanstalk, Google Cloud Deploy, Databricks Asset Bundles, Laravel, Upsun, Kubernetes, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, Performance, Developer Experience, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, AI Automation, Command Line Interface, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

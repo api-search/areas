@@ -6,14 +6,14 @@ description: An index and topic collection covering API monitoring, application 
 area_url: https://monitoring.apievangelist.com
 area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
-provider_count: 117
+provider_count: 176
 providers:
 - slug: new-relic
   name: New Relic
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
   api_count: 17
   score_band: exemplar
-  score_composite: 76.3
+  score_composite: 78.9
   shared: 1
 - slug: datadog
   name: Datadog
@@ -113,6 +113,13 @@ providers:
   score_band: strong
   score_composite: 62.0
   shared: 1
+- slug: laravel
+  name: Laravel
+  description: 'Laravel is the company behind the Laravel PHP framework and a suite of commercial developer infrastructure products: Laravel Cloud (a fully managed PaaS for deploying and scaling Laravel and Symfony applications), Laravel Forge (server provisioning and application deployment across DigitalOcean, AW…'
+  api_count: 4
+  score_band: strong
+  score_composite: 61.5
+  shared: 1
 - slug: amazon-cloudwatch
   name: Amazon CloudWatch
   description: Amazon CloudWatch is an intelligent observability platform providing complete visibility into performance, availability, and security across your entire technology stack. Monitor applications, infrastructure, and workloads with unified metrics, logs, and traces plus AI-powered insights.
@@ -120,12 +127,26 @@ providers:
   score_band: strong
   score_composite: 60.4
   shared: 1
+- slug: opsgenie
+  name: OpsGenie
+  description: OpsGenie is an incident management and alerting platform, now part of Atlassian, that helps operations teams manage on-call schedules, route alerts, and coordinate incident response. The OpsGenie developer platform provides a comprehensive set of REST APIs for programmatically managing alerts, inci…
+  api_count: 12
+  score_band: developing
+  score_composite: 59.9
+  shared: 1
 - slug: amazon-guardduty
   name: Amazon GuardDuty
   description: Amazon GuardDuty is an intelligent threat detection service that continuously monitors your AWS accounts, workloads, and data for malicious activity. It uses machine learning, anomaly detection, and integrated threat intelligence to identify and prioritize potential threats to your AWS environment.
   api_count: 1
   score_band: developing
   score_composite: 59.8
+  shared: 1
+- slug: dash0
+  name: Dash0
+  description: Dash0 is an OpenTelemetry-native observability platform for engineering teams who want full visibility into logs, metrics, traces, profiles and events without operating complex pipelines or proprietary agents. Founded in 2023 (Series B, $110M, 2026), Dash0 ingests OTLP natively, correlates signals…
+  api_count: 1
+  score_band: developing
+  score_composite: 59.7
   shared: 1
 - slug: netdata
   name: Netdata
@@ -140,6 +161,13 @@ providers:
   api_count: 8
   score_band: developing
   score_composite: 59.4
+  shared: 1
+- slug: vividcortex
+  name: VividCortex
+  description: VividCortex is a SaaS database performance monitoring platform, now part of SolarWinds and marketed as SolarWinds Database Performance Monitor (DPM). It uses lightweight per-host agents to capture and analyze every query executed against MySQL, PostgreSQL, MongoDB, Redis, Amazon Aurora, and SQL Ser…
+  api_count: 1
+  score_band: developing
+  score_composite: 59.3
   shared: 1
 - slug: cronitor
   name: Cronitor
@@ -162,6 +190,13 @@ providers:
   score_band: developing
   score_composite: 58.0
   shared: 1
+- slug: opentelemetry
+  name: OpenTelemetry
+  description: Vendor-neutral open-source observability framework for cloud-native software, providing a collection of tools, APIs, and SDKs for instrumenting, generating, collecting, and exporting telemetry data including metrics, logs, and traces.
+  api_count: 4
+  score_band: developing
+  score_composite: 57.9
+  shared: 1
 - slug: cloudwatch
   name: AWS CloudWatch
   description: Amazon CloudWatch is a monitoring and observability service that provides data and actionable insights for AWS, hybrid, and on-premises applications and infrastructure resources.
@@ -183,45 +218,10 @@ providers:
   score_band: developing
   score_composite: 57.3
   shared: 1
-- slug: google-cloud-endpoints
-  name: Google Cloud Endpoints
-  description: Google Cloud Endpoints is an API management system that helps you secure, monitor, analyze, and set quotas on your APIs using the same infrastructure Google uses for its own APIs. Endpoints works with the Extensible Service Proxy (ESP) or ESPv2 to provide API management capabilities including authe…
-  api_count: 1
-  score_band: developing
-  score_composite: 57.2
-  shared: 1
-- slug: google-cloud-monitoring
-  name: Google Cloud Monitoring
-  description: Google Cloud Monitoring provides comprehensive monitoring and observability for cloud infrastructure and applications. It collects metrics, events, and metadata from Google Cloud services, hosted uptime probes, and application instrumentation, enabling dashboards, alerting, uptime monitoring, and s…
-  api_count: 1
-  score_band: developing
-  score_composite: 57.2
-  shared: 1
-- slug: google-cloud-operations-suite
-  name: Google Cloud Operations Suite
-  description: Google Cloud Operations Suite (formerly Stackdriver) provides integrated monitoring, logging, and diagnostics for applications and infrastructure running on Google Cloud. It encompasses Cloud Monitoring, Cloud Logging, Cloud Trace, Cloud Profiler, and Error Reporting to deliver comprehensive observ…
-  api_count: 1
-  score_band: developing
-  score_composite: 57.2
-  shared: 1
-- slug: opsgenie
-  name: OpsGenie
-  description: OpsGenie is an incident management and alerting platform, now part of Atlassian, that helps operations teams manage on-call schedules, route alerts, and coordinate incident response. The OpsGenie developer platform provides a comprehensive set of REST APIs for programmatically managing alerts, inci…
-  api_count: 12
-  score_band: developing
-  score_composite: 57.2
-  shared: 1
-- slug: opik
-  name: Opik
-  description: Opik is an open-source LLM evaluation, testing, and tracing platform developed by Comet ML that enables developers to debug, evaluate, and monitor LLM applications, RAG systems, and agentic workflows. The platform provides a REST API for logging traces and spans, running automated evaluations with…
-  api_count: 1
-  score_band: developing
-  score_composite: 56.7
-  shared: 1
 related:
 - slug: observability
   name: Observability
-  shared: 11
+  shared: 12
 - slug: logging
   name: Logging
   shared: 3
@@ -234,8 +234,8 @@ related:
 - slug: security
   name: Security
   shared: 2
-- slug: analysis
-  name: Analysis
+- slug: management
+  name: Management
   shared: 1
 overview: 'Monitoring is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monitoring.apievangelist.com](https://monitoring.apievangelist.com).
 

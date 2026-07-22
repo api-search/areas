@@ -6,7 +6,7 @@ description: An index and topic collection covering encryption services, key man
 area_url: https://encryption.apievangelist.com
 area_host: encryption.apievangelist.com
 icon: https://encryption.apievangelist.com/icon-thumb.png
-provider_count: 19
+provider_count: 42
 providers:
 - slug: amazon-kms
   name: Amazon KMS
@@ -21,6 +21,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 59.2
+  shared: 1
+- slug: evervault
+  name: Evervault
+  description: Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption keys on Evervault's side while customers hold the ciphertext,…
+  api_count: 1
+  score_band: developing
+  score_composite: 58.6
   shared: 1
 - slug: amazon-certificate-manager
   name: Amazon Certificate Manager
@@ -43,12 +50,12 @@ providers:
   score_band: developing
   score_composite: 55.7
   shared: 1
-- slug: evervault
-  name: Evervault
-  description: Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption keys on Evervault's side while customers hold the ciphertext,…
-  api_count: 1
+- slug: signal
+  name: Signal
+  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
+  api_count: 6
   score_band: developing
-  score_composite: 52.9
+  score_composite: 52.1
   shared: 1
 - slug: akeyless
   name: Akeyless
@@ -57,12 +64,12 @@ providers:
   score_band: developing
   score_composite: 51.8
   shared: 1
-- slug: signal
-  name: Signal
-  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
-  api_count: 6
+- slug: virtru
+  name: Virtru
+  description: Virtru is a data-centric security company whose Data Security Platform is built on OpenTDF, the open Trusted Data Format. Applications encrypt data with attribute-based access control (ABAC) and enforce who can decrypt it through Key Access Servers (KAS), independent of where the data travels — ema…
+  api_count: 15
   score_band: developing
-  score_composite: 49.5
+  score_composite: 50.0
   shared: 1
 - slug: digicert
   name: Digicert
@@ -92,12 +99,33 @@ providers:
   score_band: developing
   score_composite: 45.2
   shared: 1
+- slug: seismic-systems
+  name: Seismic Systems
+  description: Seismic Systems Inc. is a fintech company building a privacy-enabled ("encrypted") blockchain — a shielded EVM implementing the "Mercury" specification — that aims to power a complete stablecoin stack. Backed by a $17M seed led by a16z crypto, Seismic lets developers build private tokens (SRC20) wh…
+  api_count: 1
+  score_band: thin
+  score_composite: 43.1
+  shared: 1
 - slug: vpn
   name: VPN
   description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corporate networks, protecting privacy on public Wi-Fi, and bypass…
   api_count: 4
   score_band: thin
   score_composite: 42.3
+  shared: 1
+- slug: blindinsight
+  name: BlindInsight
+  description: BlindInsight (Blind Insight) is an end-to-end encrypted datastore and privacy-preserving data-analysis platform. It lets teams encrypt, ingest, search, and run machine learning and LLM queries over fully encrypted records without ever exposing plaintext, using a locally deployed Blind Proxy that tr…
+  api_count: 1
+  score_band: thin
+  score_composite: 41.0
+  shared: 1
+- slug: skyflow
+  name: Skyflow
+  description: Skyflow is a data privacy vault platform that lets companies isolate, protect, and govern sensitive customer data (PII, PCI, PHI) and secrets in a zero-trust vault, then use it safely through tokenization, encryption, polymorphic de-identification, and fine-grained data governance. Developers integ…
+  api_count: 2
+  score_band: thin
+  score_composite: 41.0
   shared: 1
 - slug: sops
   name: SOPS
@@ -113,12 +141,12 @@ providers:
   score_band: thin
   score_composite: 39.8
   shared: 1
-- slug: blindinsight
-  name: BlindInsight
-  description: BlindInsight (Blind Insight) is an end-to-end encrypted datastore and privacy-preserving data-analysis platform. It lets teams encrypt, ingest, search, and run machine learning and LLM queries over fully encrypted records without ever exposing plaintext, using a locally deployed Blind Proxy that tr…
+- slug: truevault
+  name: TrueVault
+  description: TrueVault provides developer infrastructure for storing and managing sensitive personal data in a compliant way. Its original product, TrueVault Safe, is a HIPAA-oriented REST API and secure datastore that lets applications create Vaults and store encrypted Documents, BLOBs, Users, and Schemas, wit…
   api_count: 1
   score_band: thin
-  score_composite: 38.3
+  score_composite: 36.5
   shared: 1
 - slug: xmtp
   name: XMTP
@@ -127,12 +155,26 @@ providers:
   score_band: thin
   score_composite: 33.5
   shared: 1
+- slug: virgil-security
+  name: Virgil Security
+  description: Virgil Security is an end-to-end encryption and key-management platform for developers. It ships client SDKs and JWT-authenticated cloud services that let applications add end-to-end encryption for messaging and files (E3Kit), breach-proof password and data protection using Password-Hardened Encryp…
+  api_count: 1
+  score_band: thin
+  score_composite: 31.9
+  shared: 1
 - slug: lattica
   name: Lattica
   description: LatticaAI is an Israeli privacy-technology company building Fully Homomorphic Encryption (FHE) as a service, letting AI inference and database queries run on encrypted data at cloud scale with zero plaintext exposure. Lattica builds the full stack — the cryptography, a compiler that turns models in…
   api_count: 1
   score_band: thin
   score_composite: 31.1
+  shared: 1
+- slug: plakar
+  name: Plakar
+  description: Plakar is an open-source, end-to-end encrypted, deduplicated backup and restore platform powered by Kloset, an immutable data store engine. It encrypts and deduplicates data at the source before it leaves your system (encryption keys stay in your own secret manager), stores it in a non-proprietary…
+  api_count: 0
+  score_band: emerging
+  score_composite: 28.5
   shared: 1
 - slug: ciphertrust
   name: CipherTrust
@@ -141,17 +183,52 @@ providers:
   score_band: emerging
   score_composite: 20.3
   shared: 1
+- slug: keybase
+  name: Keybase
+  description: Keybase is an end-to-end encrypted messaging, file-sharing, and key-directory platform built on public-key cryptography, founded by Chris Coyne and Max Krohn and acquired by Zoom in 2020. It maps human-readable usernames to public keys and cryptographically verifiable social-identity proofs (Twitte…
+  api_count: 1
+  score_band: emerging
+  score_composite: 20.0
+  shared: 1
+- slug: anjuna
+  name: Anjuna
+  description: Anjuna Security provides a confidential-computing platform that lets organizations run existing applications inside hardware-based secure enclaves (Trusted Execution Environments) across AWS Nitro, AMD SEV, and Intel SGX without code changes, keeping data encrypted at rest, in transit, and in use.…
+  api_count: 0
+  score_band: emerging
+  score_composite: 17.3
+  shared: 1
+- slug: confide
+  name: Confide *
+  description: Confide is a confidential messaging application that lets people communicate digitally with the same level of privacy and security as the spoken word. Messages are end-to-end encrypted, ephemeral (they disappear after being read), and screenshot-protected so recipients cannot capture or forward the…
+  api_count: 0
+  score_band: emerging
+  score_composite: 16.6
+  shared: 1
+- slug: vera
+  name: Vera
+  description: Vera was a data-centric security company delivering information rights management (IRM) as a service, letting businesses encrypt, track, audit, and revoke access to files anywhere they travel, with an SDK and REST API for embedding AES 256-bit encryption and policy enforcement into applications. Ba…
+  api_count: 0
+  score_band: minimal
+  score_composite: 12.8
+  shared: 1
+- slug: shardsecure
+  name: ShardSecure
+  description: ShardSecure is a data security company providing agentless, file-level data protection that keeps sensitive data private, resilient, and compliant across on-premises, cloud, and hybrid or multi-cloud environments. Its platform uses microsharding to cryptographically fragment and distribute data so…
+  api_count: 0
+  score_band: minimal
+  score_composite: 12.3
+  shared: 1
 related:
 - slug: privacy
   name: Privacy
-  shared: 3
+  shared: 1
 - slug: security
   name: Security
   shared: 1
 overview: 'Encryption is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [encryption.apievangelist.com](https://encryption.apievangelist.com).
 
 
-  19 providers on the network work in this area, including Amazon KMS, Google Cloud KMS, Amazon Certificate Manager, HashiCorp Vault, IronCore Labs, Evervault, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon KMS, Google Cloud KMS, Evervault, Amazon Certificate Manager, HashiCorp Vault, IronCore Labs, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Privacy and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

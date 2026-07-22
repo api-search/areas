@@ -6,14 +6,21 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 140
+provider_count: 273
 providers:
 - slug: anthropic
   name: Anthropic
   description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
   api_count: 11
   score_band: exemplar
-  score_composite: 72.6
+  score_composite: 75.2
+  shared: 1
+- slug: vapi-ai
+  name: Vapi
+  description: Vapi is a San Francisco-based voice AI platform that lets developers build real-time, low-latency voice agents over phone, web, and SIP. It orchestrates three modular components — a transcriber (STT), an LLM, and a voice (TTS) — into a sub-700ms voice-to-voice pipeline, with first-class support for…
+  api_count: 15
+  score_band: exemplar
+  score_composite: 72.3
   shared: 1
 - slug: chatgpt
   name: ChatGPT
@@ -36,13 +43,6 @@ providers:
   score_band: strong
   score_composite: 69.7
   shared: 1
-- slug: vapi-ai
-  name: Vapi
-  description: Vapi is a San Francisco-based voice AI platform that lets developers build real-time, low-latency voice agents over phone, web, and SIP. It orchestrates three modular components — a transcriber (STT), an LLM, and a voice (TTS) — into a sub-700ms voice-to-voice pipeline, with first-class support for…
-  api_count: 15
-  score_band: strong
-  score_composite: 69.6
-  shared: 1
 - slug: exa-ai
   name: Exa
   description: Exa is a web search API and AI research platform built specifically for LLMs and agents — semantic and keyword search across the open web with token-efficient highlights, structured outputs, sub-200ms latency tiers, and verticals for code, companies, news, people, research, and financials. The plat…
@@ -63,6 +63,20 @@ providers:
   api_count: 12
   score_band: strong
   score_composite: 64.5
+  shared: 1
+- slug: fundamental-research-labs
+  name: Fundamental Research Labs
+  description: Fundamental Research Labs (formerly Altera) is an applied AI research company building autonomous, collaborative AI agents, founded by researchers from MIT EECS, the Stanford NLP Group, Google X, and Citadel and backed by Andreessen Horowitz and Prosus. Its flagship product, Shortcut, is an AI anal…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.8
+  shared: 1
+- slug: parallel
+  name: Parallel
+  description: 'Parallel Web Systems builds web APIs purpose-built for AI agents: a high-accuracy Search API, an Extract API that turns URLs into clean LLM-ready markdown, a Task/Deep Research API with tiered processors (lite through ultra), FindAll for natural-language entity discovery and enrichment, a Monitor A…'
+  api_count: 1
+  score_band: strong
+  score_composite: 63.5
   shared: 1
 - slug: agentql
   name: AgentQL
@@ -120,6 +134,20 @@ providers:
   score_band: strong
   score_composite: 60.7
   shared: 1
+- slug: lightfield
+  name: Lightfield
+  description: Lightfield is an agent-native customer relationship management (CRM) platform for high-growth and AI-native go-to-market teams. Rather than depending on manual data entry, Lightfield captures customer interactions — calls, emails, meetings and external signals — as unstructured data, organizes them…
+  api_count: 1
+  score_band: developing
+  score_composite: 59.7
+  shared: 1
+- slug: thoughtspot
+  name: ThoughtSpot
+  description: ThoughtSpot is an agentic analytics and business intelligence platform that turns data into decisions using AI agents (Spotter), Search, automated insights, and embedded analytics. The ThoughtSpot Public REST API v2.0 exposes 191 operations across authentication, users, groups, roles, orgs, metadat…
+  api_count: 1
+  score_band: developing
+  score_composite: 59.2
+  shared: 1
 - slug: pydantic-ai
   name: PydanticAI
   description: PydanticAI is an open-source, model-agnostic Python agent framework built by the Pydantic team, designed to bring the ergonomic, type-safe design philosophy of FastAPI to production-grade generative AI application development. It provides structured outputs, dependency injection, and first-class su…
@@ -134,19 +162,26 @@ providers:
   score_band: developing
   score_composite: 58.6
   shared: 1
-- slug: fundamental-research-labs
-  name: Fundamental Research Labs
-  description: Fundamental Research Labs (formerly Altera) is an applied AI research company building autonomous, collaborative AI agents, founded by researchers from MIT EECS, the Stanford NLP Group, Google X, and Citadel and backed by Andreessen Horowitz and Prosus. Its flagship product, Shortcut, is an AI anal…
-  api_count: 1
-  score_band: developing
-  score_composite: 58.2
-  shared: 1
 - slug: mistral-ai
   name: Mistral AI
   description: Mistral AI is a French artificial intelligence company that develops and provides frontier large language models and APIs for developers and enterprises. Their developer platform offers APIs for chat completions, embeddings, fine-tuning, OCR, batch processing, and agentic workflows, enabling teams…
   api_count: 8
   score_band: developing
   score_composite: 57.9
+  shared: 1
+- slug: beyond-presence
+  name: Beyond Presence
+  description: Beyond Presence (brand "bey") is a Europe-based AI company building real-time conversational AI video agents and speech-to-video (S2V) technology. Its platform lets developers deploy hyper-realistic AI video avatars that respond in real time (sub-1.2s latency at up to 1080p) across HR, sales, suppo…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.7
+  shared: 1
+- slug: dedaluslabs
+  name: Dedalus Labs
+  description: 'Dedalus Labs builds infrastructure for AI agents. It runs two production APIs: the Dedalus Agents API, an OpenAI-compatible MCP gateway that lets you mix and match any model from any provider with tools drawn from the Dedalus MCP marketplace (chat completions, embeddings, audio, images, and OCR thr…'
+  api_count: 2
+  score_band: developing
+  score_composite: 57.6
   shared: 1
 - slug: prime-intellect
   name: Prime Intellect
@@ -155,6 +190,20 @@ providers:
   score_band: developing
   score_composite: 57.5
   shared: 1
+- slug: lilt
+  name: Lilt
+  description: 'LILT is an AI translation and localization platform that pairs contextual, adaptive machine translation with human linguist verification. The LILT REST API (https://api.lilt.com) exposes the platform programmatically: adaptive machine translation, large-scale translation memory and the Lexicon term…'
+  api_count: 1
+  score_band: developing
+  score_composite: 57.2
+  shared: 1
+- slug: langdock
+  name: Langdock
+  description: Langdock is an enterprise AI platform — "The Platform for AI Adoption" — that lets organizations deploy model-agnostic AI across their workforce through Chat, Workflows, Agents, Skills, Integrations, and a public API. The platform is EU-hosted on Microsoft Azure with ISO 27001 and SOC 2 Type II cer…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.1
+  shared: 1
 - slug: e2b-dev
   name: E2B
   description: E2B (e2b-dev) provides secure, isolated cloud sandboxes for AI agents and AI-generated code, built on a forked Firecracker microVM runtime. The platform ships a REST Sandbox API, JavaScript and Python SDKs, a Code Interpreter SDK, a Desktop Sandbox for computer-use agents, persistent volumes, a cus…
@@ -162,61 +211,12 @@ providers:
   score_band: developing
   score_composite: 57.0
   shared: 1
-- slug: smithery-ai
-  name: Smithery
-  description: Smithery is an MCP server registry and hosting platform that lets developers discover, publish, and connect to Model Context Protocol servers from any AI agent. The platform combines a public registry of thousands of community MCP servers with a managed gateway that handles OAuth, credential storag…
-  api_count: 2
-  score_band: developing
-  score_composite: 55.5
-  shared: 1
-- slug: tetrascience
-  name: TetraScience
-  description: TetraScience is the scientific data and AI platform company behind the Tetra Scientific Data and AI Cloud — purpose-built infrastructure that liberates, replatforms, and engineers raw lab data from instruments, informatics systems, and partner organizations into FAIR, AI-native Tetra Data. The plat…
+- slug: natural-ai
+  name: Natural AI
+  description: 'Natural (natural.com) is the agentic payments platform: one API for AI agents, apps, and businesses to send, receive, and manage money. Agents get FDIC-insured wallets, credit lines, and the ability to pay or request funds by email, phone, @handle, party, or agent ID, plus card issuing, merchant ac…'
   api_count: 1
   score_band: developing
-  score_composite: 55.5
-  shared: 1
-- slug: n8n
-  name: N8n
-  description: Build with the precision of code or the speed of drag-n-drop. Host with on-prem control or in-the-cloud convenience. n8n gives you more freedom to implement multi-step AI agents and integrate apps than any other tool.
-  api_count: 2
-  score_band: developing
-  score_composite: 54.6
-  shared: 1
-- slug: lilt
-  name: Lilt
-  description: 'LILT is an AI translation and localization platform that pairs contextual, adaptive machine translation with human linguist verification. The LILT REST API (https://api.lilt.com) exposes the platform programmatically: adaptive machine translation, large-scale translation memory and the Lexicon term…'
-  api_count: 1
-  score_band: developing
-  score_composite: 54.5
-  shared: 1
-- slug: langdock
-  name: Langdock
-  description: Langdock is an enterprise AI platform — "The Platform for AI Adoption" — that lets organizations deploy model-agnostic AI across their workforce through Chat, Workflows, Agents, Skills, Integrations, and a public API. The platform is EU-hosted on Microsoft Azure with ISO 27001 and SOC 2 Type II cer…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.4
-  shared: 1
-- slug: compresr
-  name: Compresr
-  description: Compresr is an LLM context-compression API. You send the long context you would otherwise pass to a model plus the query you want answered, and Compresr returns a shorter context that keeps the answer-bearing spans and drops the rest — fewer input tokens, lower cost, a longer effective context wind…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.1
-  shared: 1
-- slug: lightfield
-  name: Lightfield
-  description: Lightfield is an agent-native customer relationship management (CRM) platform for high-growth and AI-native go-to-market teams. Rather than depending on manual data entry, Lightfield captures customer interactions — calls, emails, meetings and external signals — as unstructured data, organizes them…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.0
-  shared: 1
-- slug: graphy
-  name: Graphy
-  description: Graphy is an AI-powered data visualization platform that turns raw data into presentation-ready charts and interactive data stories. Alongside its no-code chart maker (Google Sheets, CSV and Excel import, AI insights, conversational data chat and 20+ chart types), Graphy ships a developer platform…
-  api_count: 1
-  score_band: developing
-  score_composite: 53.6
+  score_composite: 56.9
   shared: 1
 related:
 - slug: search
@@ -228,8 +228,8 @@ related:
 - slug: plans
   name: Plans
   shared: 1
-- slug: agents-skills
-  name: Agent Skills
+- slug: gateway
+  name: Gateway
   shared: 1
 - slug: ide
   name: IDE
@@ -240,8 +240,8 @@ related:
 overview: 'Agents is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents.apievangelist.com](https://agents.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Anthropic, ChatGPT, Dust, Daytona, Vapi, Exa, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Anthropic, Vapi, ChatGPT, Dust, Daytona, Exa, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Evangelist Search, Machine Learning, Plans, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Search, Machine Learning, Plans, and Gateway. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

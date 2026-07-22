@@ -6,7 +6,7 @@ description: An index and topic collection covering the broad integration toolin
 area_url: https://integrations.apievangelist.com
 area_host: integrations.apievangelist.com
 icon: https://integrations.apievangelist.com/icon-thumb.png
-provider_count: 53
+provider_count: 72
 providers:
 - slug: unified-to
   name: Unified.to
@@ -14,6 +14,13 @@ providers:
   api_count: 14
   score_band: exemplar
   score_composite: 77.1
+  shared: 1
+- slug: boomi
+  name: Boomi
+  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 73.3
   shared: 1
 - slug: zapier
   name: Zapier
@@ -35,13 +42,6 @@ providers:
   api_count: 6
   score_band: exemplar
   score_composite: 70.9
-  shared: 1
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 12
-  score_band: exemplar
-  score_composite: 70.7
   shared: 1
 - slug: composio
   name: Composio
@@ -141,12 +141,26 @@ providers:
   score_band: developing
   score_composite: 57.9
   shared: 1
+- slug: elastic-io
+  name: Elastic.io
+  description: Elastic IO is a cloud-based integration platform that helps businesses effortlessly connect their various applications, systems, and services. By providing a user-friendly interface and a wide range of pre-built connectors, elastic.io allows organizations to automate and streamline their data integ…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.2
+  shared: 1
 - slug: superblocks
   name: Superblocks
   description: Superblocks is a programmable internal tools platform that enables engineering and IT teams to build, govern, and deploy enterprise-grade internal applications, workflows, and scheduled jobs on top of databases, REST APIs, GraphQL APIs, and 50+ SaaS integrations. The platform exposes a REST managem…
   api_count: 1
   score_band: developing
   score_composite: 57.0
+  shared: 1
+- slug: spot
+  name: Spot
+  description: Spot AI is a physical-security video-AI platform that turns surveillance cameras into AI agents which monitor spaces 24/7, detect suspicious activity, and trigger automated responses across retail, manufacturing, construction, healthcare, and education. The Spot AI Developer API is a JSON REST API…
+  api_count: 3
+  score_band: developing
+  score_composite: 56.0
   shared: 1
 - slug: ampersand
   name: Ampersand
@@ -176,6 +190,13 @@ providers:
   score_band: developing
   score_composite: 53.5
   shared: 1
+- slug: cyclr
+  name: Cyclr
+  description: Cyclr is an embedded iPaaS (integration platform as a service) used by SaaS vendors to deliver native integrations to their customers without each vendor building and maintaining one-off connectors. The platform provides a connector library covering hundreds of business applications (CRM, marketing…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.0
+  shared: 1
 - slug: jetic
   name: Jetic
   description: Jetic is the first and only cloud-native API & Integration Platform based on Apache Camel. An iPaaS solution for avoiding costly vendor lock-ins and regaining command of your development - without any drawbacks.
@@ -190,33 +211,12 @@ providers:
   score_band: developing
   score_composite: 51.7
   shared: 1
-- slug: elastic-io
-  name: Elastic.io
-  description: Elastic IO is a cloud-based integration platform that helps businesses effortlessly connect their various applications, systems, and services. By providing a user-friendly interface and a wide range of pre-built connectors, elastic.io allows organizations to automate and streamline their data integ…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.5
-  shared: 1
 - slug: arcade
   name: Arcade
   description: Arcade.dev is the MCP runtime for production AI agent deployments. The Arcade Engine — a hosted or self-hostable API surface — handles OAuth user authorization, manages user tokens, and exposes 7,000+ pre-built integrations as Model Context Protocol tools that agent frameworks like LangChain, OpenA…
   api_count: 4
   score_band: developing
   score_composite: 50.6
-  shared: 1
-- slug: cyclr
-  name: Cyclr
-  description: Cyclr is an embedded iPaaS (integration platform as a service) used by SaaS vendors to deliver native integrations to their customers without each vendor building and maintaining one-off connectors. The platform provides a connector library covering hundreds of business applications (CRM, marketing…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.3
-  shared: 1
-- slug: productplan
-  name: ProductPlan
-  description: ProductPlan is a road mapping software platform providing a REST API for creating and managing roadmaps, features, goals, OKRs, launches, and discovery. It integrates with tools like Jira, GitHub, Slack, and Trello, enabling teams to plan, align, and share product strategies with stakeholders.
-  api_count: 1
-  score_band: developing
-  score_composite: 49.3
   shared: 1
 related:
 - slug: embedded-ipaas
@@ -240,7 +240,7 @@ related:
 overview: 'Integrations is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [integrations.apievangelist.com](https://integrations.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Unified.to, Zapier, Apigee, Paragon, Boomi, Composio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Unified.to, Boomi, Zapier, Apigee, Paragon, Composio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS, iPaaS, Management, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

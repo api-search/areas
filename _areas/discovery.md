@@ -6,7 +6,7 @@ description: Mapping the technical details of API operations to the human standa
 area_url: https://discovery.apievangelist.com
 area_host: discovery.apievangelist.com
 icon: https://discovery.apievangelist.com/icon-thumb.png
-provider_count: 20
+provider_count: 37
 providers:
 - slug: postman
   name: Postman
@@ -99,6 +99,13 @@ providers:
   score_band: thin
   score_composite: 32.0
   shared: 1
+- slug: voidpet
+  name: Voidpet
+  description: Voidpet is a creative games studio behind emotion-inspired games, stories, characters, and community — including Voidpet Dungeon, a turn-based roguelite RPG about befriending and battling emotion-inspired creatures, and Voidpet Garden, a mental-health companion game for collecting emotions and prac…
+  api_count: 1
+  score_band: thin
+  score_composite: 31.6
+  shared: 1
 - slug: algolia
   name: Algolia
   description: Algolia is a hosted search and discovery platform that delivers fast, typo-tolerant search, browse, recommendations, and personalization through a suite of REST APIs and edge-distributed infrastructure. It powers search experiences for ecommerce, media, SaaS, and content sites, pairing a synchronou…
@@ -141,12 +148,75 @@ providers:
   score_band: emerging
   score_composite: 21.7
   shared: 1
+- slug: paxton-ai
+  name: Paxton AI
+  description: Paxton AI is a legal AI assistant built for attorneys and law firms, delivering rapid case-law and regulatory research, AI-assisted document drafting, file analysis, deposition and discovery summarization, and specialized workflows for medical chronologies and billing summaries. Founded by Tanguy C…
+  api_count: 0
+  score_band: emerging
+  score_composite: 18.2
+  shared: 1
 - slug: oclc
   name: OCLC
   description: 'The Discovery API allows you to surface both WorldCat and WorldCat Discovery central index data in search results, including: Materials held by your library and ...'
   api_count: 1
   score_band: emerging
   score_composite: 17.9
+  shared: 1
+- slug: equipboard
+  name: Equipboard
+  description: Equipboard is a community-sourced music-gear discovery platform where musicians, producers, and DJs find the equipment behind the music. Members browse the gear their favorite artists play — guitars, effects pedals, synthesizers, DAWs, plug-ins, microphones, drum machines, and keyboards — build and…
+  api_count: 0
+  score_band: minimal
+  score_composite: 14.5
+  shared: 1
+- slug: neotaste
+  name: NeoTaste
+  description: NeoTaste is a restaurant discovery and dining-deals mobile app operated by NeoTaste GmbH (Osnabrück, Germany). Under the tagline "Discover more. Pay less." it surfaces curated local restaurants and exclusive member deals such as 2-for-1 main courses and a free starter with a main, letting diners tr…
+  api_count: 0
+  score_band: minimal
+  score_composite: 14.4
+  shared: 1
+- slug: qidz-holding
+  name: QiDZ Holding
+  description: QiDZ Holding operates theQapp (formerly QiDZ), a consumer mobile platform that helps families discover, compare, and book activities, entertainment, and dining experiences across the United Arab Emirates and the wider Middle East (Dubai, Abu Dhabi, Riyadh, Jeddah, Eastern Province, Manama, and Cair…
+  api_count: 0
+  score_band: minimal
+  score_composite: 14.4
+  shared: 1
+- slug: startup-ranking
+  name: Startup Ranking
+  description: Startup Ranking is a platform that tracks, ranks, and indexes startups worldwide based on web presence, social metrics, and growth signals. It provides startup discovery, competitive benchmarking, and market intelligence for investors, entrepreneurs, and researchers.
+  api_count: 0
+  score_band: minimal
+  score_composite: 14.4
+  shared: 1
+- slug: dice
+  name: DICE
+  description: DICE is a mobile-first live events discovery and ticketing platform founded in London in 2014 by Phil Hutcheon. Through the DICE app (iOS and Android) and dice.fm, fans discover concerts, club nights, festivals, tours and livestreams, buy fee-transparent tickets that live securely in-app, join wait…
+  api_count: 0
+  score_band: minimal
+  score_composite: 14.3
+  shared: 1
+- slug: its-good
+  name: Its Good
+  description: It's Good is a social dining recommendation app that reimagines how people discover restaurants and bars by surfacing recommendations from trusted friends rather than crowdsourced reviews from strangers. Founded in 2023 and co-founded by Mike Rosenthal (CEO) and musician John Legend, the iOS app le…
+  api_count: 0
+  score_band: minimal
+  score_composite: 13.1
+  shared: 1
+- slug: eve-legal
+  name: Eve
+  description: Eve (eve.legal) is a legal AI platform built by Butler Labs, Inc. for plaintiff law firms. Marketed as "the only legal AI that works your whole case with you," Eve 2.0 is positioned as a proactive AI workforce that spans the full plaintiff case lifecycle — intake and evaluation, pre-litigation draf…
+  api_count: 0
+  score_band: minimal
+  score_composite: 12.6
+  shared: 1
+- slug: qraved
+  name: Qraved
+  description: Qraved is Indonesia's leading food discovery platform, self-described as the "No. 1 Food App for Indonesia," helping diners across Jakarta, Bali, Bandung, Surabaya, Medan and other cities explore restaurants, read reviews and dining guides, watch food videos, and connect with a community of food en…
+  api_count: 0
+  score_band: minimal
+  score_composite: 12.3
   shared: 1
 related:
 - slug: migration
@@ -158,20 +228,14 @@ related:
 - slug: search
   name: API Evangelist Search
   shared: 1
-- slug: integrations
-  name: Integrations
-  shared: 1
 - slug: testing
   name: Testing
-  shared: 1
-- slug: workflow-automation
-  name: Workflow Automation
   shared: 1
 overview: 'API Evangelist Discovery is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [discovery.apievangelist.com](https://discovery.apievangelist.com).
 
 
-  20 providers on the network work in this area, including Postman, Google Cloud Migration Center, Taboola, The Movie Database, Amazon Resource Explorer, WorldCat, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, Google Cloud Migration Center, Taboola, The Movie Database, Amazon Resource Explorer, WorldCat, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, AI Automation, API Evangelist Search, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, AI Automation, API Evangelist Search, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -6,14 +6,14 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://analysis.apievangelist.com
 area_host: analysis.apievangelist.com
 icon: https://analysis.apievangelist.com/icon-thumb.png
-provider_count: 6
+provider_count: 7
 providers:
 - slug: new-relic
   name: New Relic
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
   api_count: 17
   score_band: exemplar
-  score_composite: 76.3
+  score_composite: 78.9
   shared: 1
 - slug: tago-io
   name: TagoIO
@@ -50,10 +50,14 @@ providers:
   score_band: emerging
   score_composite: 20.9
   shared: 1
-related:
-- slug: performance
-  name: Performance
+- slug: lumafield
+  name: Lumafield
+  description: Lumafield is a manufacturing technology company that builds accessible industrial X-ray computed tomography (CT) scanning hardware and AI-powered cloud analysis software. Its Neptune and Triton scanners pair with the Voyager cloud platform so engineers and manufacturers can inspect the inside of pa…
+  api_count: 0
+  score_band: emerging
+  score_composite: 18.7
   shared: 1
+related:
 - slug: internet-of-things
   name: Internet of Things
   shared: 1
@@ -63,11 +67,14 @@ related:
 - slug: observability
   name: Observability
   shared: 1
+- slug: performance
+  name: Performance
+  shared: 1
 overview: 'Analysis is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [analysis.apievangelist.com](https://analysis.apievangelist.com).
 
 
-  Providers on the network working in this area include New Relic, TagoIO, DSG Sports Analytics, Domo, LF Research, and API Insights — each links out to that provider''s APIs, schemas, and governance artifacts.
+  7 providers on the network work in this area, including New Relic, TagoIO, DSG Sports Analytics, Domo, LF Research, API Insights, and 1 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Performance, Internet of Things, Monitoring, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Internet of Things, Monitoring, Observability, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

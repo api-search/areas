@@ -6,14 +6,14 @@ description: ''
 area_url: https://network.apievangelist.com
 area_host: network.apievangelist.com
 icon: https://network.apievangelist.com/icon-thumb.png
-provider_count: 11
+provider_count: 13
 providers:
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 5
   score_band: exemplar
-  score_composite: 70.9
+  score_composite: 73.6
   shared: 1
 - slug: atandt
   name: AT&T
@@ -64,6 +64,13 @@ providers:
   score_band: emerging
   score_composite: 25.1
   shared: 1
+- slug: amazon-web-services
+  name: Amazon Web Services
+  description: A network index of all Amazon Web Services (AWS) API profiles maintained by the API Evangelist organization, covering all AWS services across compute, storage, database, networking, security, AI/ML, and more.
+  api_count: 0
+  score_band: emerging
+  score_composite: 21.3
+  shared: 1
 - slug: centurylink
   name: CenturyLink (Lumen Technologies)
   description: CenturyLink is the residential broadband and home services brand of Lumen Technologies, a Fortune 500 telecommunications provider operating one of the largest fiber networks in North America. Following the Level 3 acquisition and rebrand to Lumen, CenturyLink's developer surface is exposed through…
@@ -84,6 +91,13 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 16.5
+  shared: 1
+- slug: api-evangelist-network
+  name: API Evangelist Network
+  description: A network index of all APIs.json files maintained by the API Evangelist organization, providing a comprehensive directory of API definitions across the network.
+  api_count: 0
+  score_band: minimal
+  score_composite: 3.5
   shared: 1
 related:
 - slug: internet-of-things
@@ -107,7 +121,7 @@ related:
 overview: 'Network is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [network.apievangelist.com](https://network.apievangelist.com).
 
 
-  11 providers on the network work in this area, including Shodan, AT&T, Azure Load Balancer, Lumen Technologies, systemd, Orange, and 5 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  13 providers on the network work in this area, including Shodan, AT&T, Azure Load Balancer, Lumen Technologies, systemd, Orange, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Internet of Things, Caching, API Evangelist Search, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

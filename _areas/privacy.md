@@ -6,7 +6,7 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 64
+provider_count: 136
 providers:
 - slug: didomi
   name: Didomi
@@ -64,12 +64,33 @@ providers:
   score_band: developing
   score_composite: 58.0
   shared: 1
+- slug: millimetric
+  name: Millimetric
+  description: Millimetric is API-first, privacy-respecting web and product analytics for developers, indie startups ("vibe coders"), and AI agents. It captures events over a simple REST API (/v1/track, /v1/batch, /v1/identify, /v1/query, /v1/stats, /v1/sources), a ~1.8 KB browser SDK, and a zero-dependency Node…
+  api_count: 1
+  score_band: developing
+  score_composite: 57.9
+  shared: 1
 - slug: haveibeenpwned
   name: HaveIBeenPwned
   description: Have I Been Pwned (HIBP) is Troy Hunt's free breach-notification and credential-exposure service. The HIBP API v3 lets clients search for email addresses, pastes, stealer-log entries, and monitored domains across the world's largest aggregated breach corpus. A separate free k-anonymity password loo…
   api_count: 2
   score_band: developing
   score_composite: 54.8
+  shared: 1
+- slug: pimloc
+  name: Pimloc
+  description: Pimloc is a UK-based AI company whose Secure Redact platform automates the redaction and anonymization of personally identifiable information (PII) in video, audio, images and documents — blurring faces, license plates, screens, on-screen text and full bodies with high accuracy. Used across law enf…
+  api_count: 1
+  score_band: developing
+  score_composite: 54.8
+  shared: 1
+- slug: certifaction
+  name: Certifaction
+  description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electroni…'
+  api_count: 2
+  score_band: developing
+  score_composite: 54.4
   shared: 1
 - slug: duckduckgo
   name: DuckDuckGo
@@ -82,6 +103,13 @@ providers:
   name: Inth
   description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-source, developer-first consent management platform with 3M+ npm…
   api_count: 1
+  score_band: developing
+  score_composite: 53.4
+  shared: 1
+- slug: nym-technologies
+  name: Nym Technologies
+  description: Nym Technologies SA builds Nym, an open-source decentralized privacy infrastructure. Its flagship product NymVPN is a decentralized VPN built on the Nym mixnet, a multi-layer network of mix nodes that shuffles and delays packets to protect metadata (who talks to whom, when, and from where), not jus…
+  api_count: 2
   score_band: developing
   score_composite: 53.4
   shared: 1
@@ -106,6 +134,20 @@ providers:
   score_band: developing
   score_composite: 52.3
   shared: 1
+- slug: signal
+  name: Signal
+  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
+  api_count: 6
+  score_band: developing
+  score_composite: 52.1
+  shared: 1
+- slug: terminal-3
+  name: Terminal 3
+  description: Terminal 3 (T3) is a data-freedom and decentralized-identity company (founded 2023, Hong Kong) building privacy-preserving identity, verifiable credentials, and confidential computing infrastructure. Its products include T3 Verify (enterprise KYC/AML with real-time identity and liveness verificatio…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.1
+  shared: 1
 - slug: umami
   name: Umami
   description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full programmatic access to analytics data, website management, sess…
@@ -113,26 +155,12 @@ providers:
   score_band: developing
   score_composite: 52.1
   shared: 1
-- slug: certifaction
-  name: Certifaction
-  description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electroni…'
-  api_count: 2
-  score_band: developing
-  score_composite: 51.7
-  shared: 1
 - slug: matomo
   name: Matomo
   description: Matomo is an open source web analytics platform that provides comprehensive website and application usage analytics with full data ownership. Formerly known as Piwik, it offers an alternative to Google Analytics with on-premise or cloud hosting options, ensuring complete control over analytics data…
   api_count: 5
   score_band: developing
   score_composite: 51.4
-  shared: 1
-- slug: signal
-  name: Signal
-  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
-  api_count: 6
-  score_band: developing
-  score_composite: 49.5
   shared: 1
 - slug: vlex
   name: vLex
@@ -169,6 +197,13 @@ providers:
   score_band: developing
   score_composite: 46.6
   shared: 1
+- slug: k-id
+  name: k-ID
+  description: k-ID is a compliance platform that lets games, social apps, AI products, and commerce deliver age-appropriate experiences across 200+ jurisdictions. Its Compliance Development Kit (CDK) encodes auto-updating regulatory logic for regimes like COPPA, GDPR-Kids, the UK Age Appropriate Design Code and…
+  api_count: 1
+  score_band: thin
+  score_composite: 44.9
+  shared: 1
 - slug: diaspora
   name: Diaspora
   description: diaspora* is a privacy-aware, decentralized, open source social network, launched in 2010 and released under the AGPL. Rather than running on servers owned by a single company, diaspora* runs as a federated network of independently operated servers called "pods" — anyone can join an existing pod or…
@@ -183,50 +218,15 @@ providers:
   score_band: thin
   score_composite: 44.0
   shared: 1
-- slug: usercentrics
-  name: Usercentrics
-  description: Usercentrics is a Munich-based consent management platform (CMP) and privacy compliance provider. Founded in 2017 and led by CEO Donna Dror, Usercentrics acquired Danish CMP Cookiebot (Cybot) in September 2021 and acquired MCP Manager in January 2026. The platform serves 2.4M+ websites and apps acr…
-  api_count: 4
-  score_band: thin
-  score_composite: 43.1
-  shared: 1
-- slug: vpn
-  name: VPN
-  description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corporate networks, protecting privacy on public Wi-Fi, and bypass…
-  api_count: 4
-  score_band: thin
-  score_composite: 42.3
-  shared: 1
-- slug: incountry
-  name: InCountry
-  description: InCountry is a data-residency-as-a-service (DRaaS) platform that lets companies store, process, and comply with the data-localization and privacy laws of specific countries without building in-country infrastructure. Its OAuth2-secured REST API stores regulated records (PII, financial, and health d…
-  api_count: 1
-  score_band: thin
-  score_composite: 39.8
-  shared: 1
-- slug: freshpaint
-  name: Freshpaint
-  description: Freshpaint is a healthcare privacy platform and customer-data platform that collects first-party event data and governs it for HIPAA compliance before fanning it out to 100+ marketing, analytics, and data destinations. Its server-side HTTP API ingests track, identify, page, and screen events at htt…
-  api_count: 4
-  score_band: thin
-  score_composite: 39.5
-  shared: 1
-- slug: dead-drop
-  name: Dead Drop
-  description: Privacy-focused, ephemeral data-sharing API with zero-knowledge encryption. Open source under MIT, built on Cloudflare Workers, Hono, and D1.
-  api_count: 1
-  score_band: thin
-  score_composite: 39.2
-  shared: 1
 related:
-- slug: encryption
-  name: Encryption
-  shared: 3
 - slug: search
   name: API Evangelist Search
   shared: 2
 - slug: authentication
   name: Authentication
+  shared: 1
+- slug: encryption
+  name: Encryption
   shared: 1
 - slug: sdk
   name: SDKs
@@ -237,5 +237,5 @@ overview: 'Privacy is one of the API Evangelist areas on the [APIs.io](https://a
   30 providers on the network work in this area, including Didomi, Amazon Macie, Fathom Analytics, Amazon Clean Rooms, Swetrix, BigID, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Encryption, API Evangelist Search, Authentication, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Search, Authentication, Encryption, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

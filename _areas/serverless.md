@@ -6,8 +6,22 @@ description: An index and topic collection covering serverless compute, function
 area_url: https://serverless.apievangelist.com
 area_host: serverless.apievangelist.com
 icon: https://serverless.apievangelist.com/icon-thumb.png
-provider_count: 111
+provider_count: 135
 providers:
+- slug: aws-api-gateway
+  name: Amazon API Gateway
+  description: Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, and WebSocket APIs with built-in traffic management, authoriz…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 72.6
+  shared: 1
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 54
+  score_band: exemplar
+  score_composite: 72.4
+  shared: 1
 - slug: fal-ai
   name: fal
   description: fal (Features and Labels, Inc.) is a generative media platform providing the world's fastest API for running image, video, audio, and multimodal generative AI models. Through a unified queue-based REST API at https://queue.fal.run, plus realtime WebSocket and SSE streaming surfaces, fal serves 1,00…
@@ -21,20 +35,6 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 70.0
-  shared: 1
-- slug: aws-api-gateway
-  name: Amazon API Gateway
-  description: Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, and WebSocket APIs with built-in traffic management, authoriz…
-  api_count: 4
-  score_band: strong
-  score_composite: 69.9
-  shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 54
-  score_band: strong
-  score_composite: 69.7
   shared: 1
 - slug: amazon-efs
   name: Amazon EFS
@@ -85,6 +85,13 @@ providers:
   score_band: strong
   score_composite: 66.3
   shared: 1
+- slug: amazon-eventbridge
+  name: Amazon EventBridge
+  description: Amazon EventBridge is a serverless event bus service that makes it easy to connect your applications with data from a variety of sources. EventBridge delivers a stream of real-time data from your own applications, SaaS applications, and AWS services and routes that data to targets such as Lambda, S…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.7
+  shared: 1
 - slug: microsoft-azure-web-pubsub
   name: Azure Web PubSub
   description: Azure Web PubSub is a fully-managed service that enables building real-time, two-way messaging applications using publish-subscribe patterns over WebSockets. It supports broadcasting messages to clients in groups, sending messages to specific connections or users, and integrating with serverless ev…
@@ -99,19 +106,19 @@ providers:
   score_band: strong
   score_composite: 65.2
   shared: 1
+- slug: netlify
+  name: Netlify
+  description: Netlify is a cloud platform for building, deploying, and scaling modern web applications with continuous deployment, serverless functions, and edge computing capabilities.
+  api_count: 1
+  score_band: strong
+  score_composite: 64.5
+  shared: 1
 - slug: microsoft-azure-functions
   name: Microsoft Azure Functions
   description: Azure Functions is a serverless compute platform from Microsoft Azure enabling event-driven code execution triggered by HTTP requests, timers, queues, blobs, and other Azure services. The Azure Functions management API provides programmatic access to function app lifecycle management, deployment, c…
   api_count: 2
   score_band: strong
   score_composite: 63.9
-  shared: 1
-- slug: amazon-eventbridge
-  name: Amazon EventBridge
-  description: Amazon EventBridge is a serverless event bus service that makes it easy to connect your applications with data from a variety of sources. EventBridge delivers a stream of real-time data from your own applications, SaaS applications, and AWS services and routes that data to targets such as Lambda, S…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.1
   shared: 1
 - slug: amazon-proton
   name: Amazon Proton
@@ -138,13 +145,6 @@ providers:
   name: Freestyle
   description: Freestyle is the infrastructure for code you didn't write — VMs and Git for AI agents. The platform provides Linux microVMs that boot in under 600ms with live-fork, pause-resume, and persistent snapshots; a multi-tenant Git service with branchable filesystems, GitHub Sync, full-text search, and web…
   api_count: 8
-  score_band: strong
-  score_composite: 61.8
-  shared: 1
-- slug: netlify
-  name: Netlify
-  description: Netlify is a cloud platform for building, deploying, and scaling modern web applications with continuous deployment, serverless functions, and edge computing capabilities.
-  api_count: 1
   score_band: strong
   score_composite: 61.8
   shared: 1
@@ -240,7 +240,7 @@ related:
 overview: 'Serverless is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [serverless.apievangelist.com](https://serverless.apievangelist.com).
 
 
-  30 providers on the network work in this area, including fal, Amazon DynamoDB, Amazon API Gateway, Cloudflare, Amazon EFS, Amazon Lambda, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon API Gateway, Cloudflare, fal, Amazon DynamoDB, Amazon EFS, Amazon Lambda, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, Database, Microservices, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

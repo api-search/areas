@@ -6,7 +6,7 @@ description: An index and topic collection covering data visualization, charts, 
 area_url: https://visualization.apievangelist.com
 area_host: visualization.apievangelist.com
 icon: https://visualization.apievangelist.com/icon-thumb.png
-provider_count: 18
+provider_count: 29
 providers:
 - slug: power-bi
   name: Power BI
@@ -63,6 +63,20 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 60.0
+  shared: 1
+- slug: napkin
+  name: Napkin
+  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
+  api_count: 1
+  score_band: developing
+  score_composite: 50.7
+  shared: 1
+- slug: napkinai
+  name: Napkin.AI
+  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, mind maps, icons, and infographics — and into full presentations, with no prompting or design skill required. Two products share the same text-to-visual engine: Napkin Visuals (standalone diagrams and graphics, exportabl…'
+  api_count: 1
+  score_band: developing
+  score_composite: 50.6
   shared: 1
 - slug: elastic
   name: Elastic
@@ -134,7 +148,73 @@ providers:
   score_band: emerging
   score_composite: 21.5
   shared: 1
+- slug: tech-soft-3d
+  name: Tech Soft 3D
+  description: Tech Soft 3D builds developer SDKs and enterprise applications that power 3D data exchange, visualization, and analysis across engineering, manufacturing, and design. Its HOOPS toolkits (Exchange for CAD data translation and access, Visualize for high-performance 3D graphics, Access, Mesh, Solve, a…
+  api_count: 0
+  score_band: emerging
+  score_composite: 19.4
+  shared: 1
+- slug: all3d
+  name: All3D
+  description: ALL3D, Inc. is a San Francisco AI-powered visual content platform that replaces traditional product photography for ecommerce brands and agencies. Users upload a product photo and its real-world dimensions, build a scene from inspiration images and props, and generate 4K studio and lifestyle images…
+  api_count: 0
+  score_band: emerging
+  score_composite: 18.7
+  shared: 1
+- slug: qbiq
+  name: Qbiq
+  description: Qbiq is an AI-powered space planning and architectural visualization platform for real estate. It lets brokers, architects, developers, and space planners generate optimized 2D floor plans, photorealistic 3D renderings, virtual tours, Revit/CAD models, and quantity takeoffs from an uploaded space p…
+  api_count: 0
+  score_band: minimal
+  score_composite: 14.9
+  shared: 1
+- slug: sira-medical
+  name: Sira Medical
+  description: Sira Medical develops augmented reality software that transforms 3D radiological imaging into patient-specific holographic models projected onto real-world backgrounds. Delivered through head-mounted AR devices (such as Microsoft HoloLens) and mobile platforms, the technology helps surgeons perform…
+  api_count: 0
+  score_band: minimal
+  score_composite: 14.4
+  shared: 1
+- slug: flowcharts
+  name: Flowcharts
+  description: Flowcharts are a visual modeling technique used across software engineering, systems analysis, business process design, and education to depict the steps, decisions, and flow of a process or algorithm. Within an API context, flowcharts are used to model workflows, integration patterns, retry logic,…
+  api_count: 0
+  score_band: minimal
+  score_composite: 8.5
+  shared: 1
+- slug: noteable
+  name: Noteable
+  description: Noteable was a collaborative, cloud-based data notebook platform that combined code (SQL, Python, and R), natural language, and interactive no-code visualizations so data teams could explore, visualize, and act on data together in a single browser-based workspace. It offered real-time collaboration…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.7
+  shared: 1
+- slug: planby-technologies-inc
+  name: Planby Technologies, Inc.
+  description: Planby Technologies, Inc. (PLANBY) is a Seoul-based AI transformation partner for architecture and construction organizations, helping construction firms, architectural offices, and interior studios adopt AI-powered workflows. Its products include PLANA (interior and concept CG rendering automation…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.7
+  shared: 1
+- slug: lagoa
+  name: Lagoa
+  description: Lagoa was a cloud-based 3D visualization, rendering, and CAD publishing platform built by TeamUp Technologies Inc., billed as the first web-based platform for photoreal 3D visualization and rendering. It let artists, designers, engineers, and architects import over 40 native CAD formats, build kine…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.3
+  shared: 1
+- slug: gantt-charts
+  name: Gantt Charts
+  description: Gantt charts are a project-management visualization that depicts tasks, timelines, dependencies, and progress against a calendar. This repository tracks APIs, libraries, and SaaS providers that produce, render, or expose Gantt-chart data for project planning and scheduling use cases.
+  api_count: 0
+  score_band: minimal
+  score_composite: 5.5
+  shared: 1
 related:
+- slug: design
+  name: Design
+  shared: 2
 - slug: monitoring
   name: Monitoring
   shared: 2
@@ -147,8 +227,8 @@ related:
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Power BI, Amazon Managed Grafana, Google Data Studio, Grafana, Microsoft Visio, Amazon QuickSight, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  29 providers on the network work in this area, including Power BI, Amazon Managed Grafana, Google Data Studio, Grafana, Microsoft Visio, Amazon QuickSight, and 23 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Monitoring, Observability, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Design, Monitoring, Observability, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

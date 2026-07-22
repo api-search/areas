@@ -6,7 +6,7 @@ description: This is the index of developer experience service and tooling repos
 area_url: https://developer-experience.apievangelist.com
 area_host: developer-experience.apievangelist.com
 icon: https://developer-experience.apievangelist.com/icon-thumb.png
-provider_count: 38
+provider_count: 50
 providers:
 - slug: treblle
   name: Treblle
@@ -50,6 +50,20 @@ providers:
   score_band: developing
   score_composite: 54.1
   shared: 1
+- slug: unblocked
+  name: Unblocked
+  description: Unblocked is an AI context engine for engineering teams that consolidates code, documentation, tickets, and conversations from sources like GitHub, Slack, Jira, Confluence, Notion, and Google Drive into grounded, cited answers for engineers and AI coding agents. The product spans developer Q&A, AI…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.6
+  shared: 1
+- slug: signadot
+  name: Signadot
+  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
+  api_count: 1
+  score_band: developing
+  score_composite: 50.1
+  shared: 1
 - slug: rely
   name: Rely.io
   description: Rely.io is an internal developer portal that aggregates engineering data, provides software catalogs with blueprints and entities, engineering scorecards, self-service developer actions, and workflow automation for platform engineering teams. The platform integrates with CI/CD pipelines, incident m…
@@ -70,6 +84,20 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 49.2
+  shared: 1
+- slug: gitbook
+  name: GitBook
+  description: GitBook is a platform that allows users to create, publish, and share online books and documentation. It provides a simple and user-friendly interface for writing and organizing content, as well as tools for collaborating with other authors or team members. With GitBook, users can easily create a p…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.1
+  shared: 1
+- slug: bettermode
+  name: Bettermode
+  description: Bettermode is an all-in-one customer community platform (formerly Tribe) that lets organizations launch branded, no-code communities to turn engagement into measurable retention and growth. It combines discussion forums, Q&A, knowledge base, member directories, events, wishlists, changelogs, and ro…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.9
   shared: 1
 - slug: qovery
   name: Qovery
@@ -120,26 +148,19 @@ providers:
   score_band: thin
   score_composite: 44.6
   shared: 1
-- slug: gitbook
-  name: GitBook
-  description: GitBook is a platform that allows users to create, publish, and share online books and documentation. It provides a simple and user-friendly interface for writing and organizing content, as well as tools for collaborating with other authors or team members. With GitBook, users can easily create a p…
-  api_count: 1
-  score_band: thin
-  score_composite: 42.4
-  shared: 1
-- slug: bettermode
-  name: Bettermode
-  description: Bettermode is an all-in-one customer community platform (formerly Tribe) that lets organizations launch branded, no-code communities to turn engagement into measurable retention and growth. It combines discussion forums, Q&A, knowledge base, member directories, events, wishlists, changelogs, and ro…
-  api_count: 1
-  score_band: thin
-  score_composite: 42.3
-  shared: 1
 - slug: cortex
   name: Cortex
   description: Cortex is an Engineering Operations (EngOps) platform and internal developer portal that helps engineering teams catalog services, enforce production readiness with scorecards, automate self-service workflows, and surface engineering intelligence across their organization. Cortex centralizes data f…
   api_count: 2
   score_band: thin
   score_composite: 42.0
+  shared: 1
+- slug: readmeio
+  name: ReadMe.io
+  description: ReadMe is a developer-experience platform that turns an OpenAPI definition into interactive, personalized API documentation and developer hubs — complete with a live API Explorer ("Try It!"), guides, recipes, a changelog, discussions, and Developer Metrics that show how real users call your API. Te…
+  api_count: 3
+  score_band: thin
+  score_composite: 41.6
   shared: 1
 - slug: american-airlines
   name: American Airlines
@@ -154,6 +175,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 39.6
+  shared: 1
+- slug: software
+  name: Software
+  description: Software (software.com) is the developer-productivity company behind the Code Time and Music Time editor plugins, now rebranded and operating as Antenna (antenna.dev). Antenna is an AI-native development intelligence platform — a control plane for AI-driven software development that measures AI-too…
+  api_count: 1
+  score_band: thin
+  score_composite: 39.3
   shared: 1
 - slug: roadie-io
   name: Roadie
@@ -190,52 +218,24 @@ providers:
   score_band: thin
   score_composite: 36.9
   shared: 1
-- slug: stainless-api
-  name: Stainless
-  description: Stainless is a New York-based developer-tools company that turns an OpenAPI specification into a portfolio of high-quality, idiomatic SDKs, reference documentation, MCP servers, CLIs, and Terraform providers. The platform was founded by veterans of Stripe, Heroku, and Twilio with the explicit goal…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.8
-  shared: 1
-- slug: terminal-shop
-  name: Terminal
-  description: Terminal is a developer-focused coffee company with an API-first, SSH-first ordering experience. The Terminal Shop API is a public REST API (Bearer token) for browsing coffee products, managing carts, placing orders, running subscriptions, and handling addresses, cards, and profiles - the same surf…
-  api_count: 7
-  score_band: thin
-  score_composite: 35.7
-  shared: 1
-- slug: northflank
-  name: Northflank
-  description: Northflank is an internal developer platform providing self-service deployment, scaling, and management of applications, databases, and jobs across cloud providers.
-  api_count: 1
-  score_band: thin
-  score_composite: 35.4
-  shared: 1
-- slug: speakeasy-api
-  name: Speakeasy
-  description: Speakeasy is an API developer-experience platform that generates production-ready, type-safe SDKs (client libraries), Terraform providers, MCP servers, CLIs, code samples, and docs from an OpenAPI specification. The primary interface is the Speakeasy CLI plus GitHub Actions and the hosted platform,…
-  api_count: 12
-  score_band: thin
-  score_composite: 33.7
-  shared: 1
 related:
 - slug: documentation
   name: Documentation
-  shared: 4
+  shared: 5
 - slug: sdk
   name: SDKs
   shared: 3
-- slug: design
-  name: Design
-  shared: 1
+- slug: testing
+  name: Testing
+  shared: 2
 - slug: cli
   name: Command Line Interface
   shared: 1
 - slug: deployment
   name: Deployment
   shared: 1
-- slug: finops
-  name: FinOps
+- slug: design
+  name: Design
   shared: 1
 overview: 'Developer Experience is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [developer-experience.apievangelist.com](https://developer-experience.apievangelist.com).
 
@@ -243,5 +243,5 @@ overview: 'Developer Experience is one of the API Evangelist areas on the [APIs.
   30 providers on the network work in this area, including Treblle, APIMatic, Fern, Apple, Cycloid, Acquia, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Documentation, SDKs, Design, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Documentation, SDKs, Testing, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -6,7 +6,7 @@ description: 'An index and topic collection covering API and SaaS monetization p
 area_url: https://monetization.apievangelist.com
 area_host: monetization.apievangelist.com
 icon: https://monetization.apievangelist.com/icon-thumb.png
-provider_count: 18
+provider_count: 58
 providers:
 - slug: amberflo
   name: Amberflo
@@ -27,14 +27,42 @@ providers:
   description: Appcharge is a monetization and payments platform (merchant of record) for mobile game publishers. It lets studios sell in-game offers direct-to-consumer outside the app stores through a hosted web store, a mobile Checkout SDK, and Payment Links — covering checkout sessions, price localization, cou…
   api_count: 1
   score_band: developing
-  score_composite: 56.7
+  score_composite: 59.4
   shared: 1
 - slug: drippay
   name: Drippay
   description: Drippay, Inc. ("drip") is a Y Combinator company (YC P26) building two connected products. drip is a local-first Mac app that turns LinkedIn, iMessage, and email conversations into a self-filling CRM with AI drafting, follow-up, and meeting booking. The Drip API is a usage-based billing and executi…
   api_count: 1
   score_band: developing
-  score_composite: 50.9
+  score_composite: 56.5
+  shared: 1
+- slug: streamelements
+  name: StreamElements
+  description: StreamElements is a cloud-based platform for live streamers and content creators on Twitch, YouTube, Kick and Facebook, offering 100% free customizable overlays and alerts, a chatbot, tipping and donations, loyalty points, giveaways and contests, song requests, a media/merch store, brand sponsorshi…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.1
+  shared: 1
+- slug: paid
+  name: Paid
+  description: Paid (paid.ai) is the monetization platform for AI agents. It gives teams that build and sell AI agents the pricing, billing, and margin infrastructure to charge with flexible models — credits, usage-based, seat-based, and outcome-based pricing — while tracking the AI costs and delivered value behi…
+  api_count: 2
+  score_band: developing
+  score_composite: 51.0
+  shared: 1
+- slug: viglink
+  name: VigLink (Sovrn Commerce)
+  description: VigLink pioneered automatic affiliate link monetization for publishers, turning ordinary product links into revenue-generating affiliate links across a network of tens of thousands of merchants. Founded in 2009 and backed by investors including Uncork Capital, VigLink was acquired by Sovrn in early…
+  api_count: 8
+  score_band: developing
+  score_composite: 50.6
+  shared: 1
+- slug: solvimon
+  name: Solvimon
+  description: Solvimon is an IPO-ready billing and monetization platform for usage-based and hybrid pricing that unifies metering, CPQ (quote-to-cash), subscriptions, invoicing, payments and revenue recognition in a single system. It is PSP-agnostic (Stripe, Adyen, Checkout.com) with multi-currency support, and…
+  api_count: 4
+  score_band: developing
+  score_composite: 49.8
   shared: 1
 - slug: google-adsense
   name: Google AdSense Management
@@ -42,6 +70,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 48.1
+  shared: 1
+- slug: opera
+  name: Opera
+  description: Opera is the Norway-based maker of the Opera, Opera GX, and Opera Mini web browsers and operator of the Opera Ads advertising and monetization platform. Opera Ads exposes a public Open API for advertisers (daily campaign reporting and server-to-server conversion events) and for publishers (app and…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.7
   shared: 1
 - slug: moesif
   name: Moesif
@@ -106,12 +141,26 @@ providers:
   score_band: thin
   score_composite: 34.2
   shared: 1
+- slug: vungle
+  name: Vungle
+  description: Vungle is a mobile app monetization and user-acquisition platform, now operated as part of Liftoff (the merged Liftoff + Vungle mobile growth company). Vungle's in-app advertising SDKs help mobile publishers monetize with performance-focused ad formats (video, interactive, and playable ads), while…
+  api_count: 4
+  score_band: thin
+  score_composite: 34.2
+  shared: 1
 - slug: kevel
   name: Kevel
   description: Kevel is an API-first ad serving platform that lets brands and publishers build unified, fully customized ad systems supporting any ad format, any creative, and multiple demand sources. Kevel exposes a Decision API for ad requests, a Management API for campaign and creative operations, a Reporting…
   api_count: 4
   score_band: thin
   score_composite: 33.3
+  shared: 1
+- slug: monetizenow
+  name: MonetizeNow
+  description: MonetizeNow is an enterprise monetization platform that unifies quoting, billing, and usage metering into a single quote-to-cash system for B2B SaaS companies. It combines a CPQ/quote builder with guided selling, a billing engine supporting subscriptions, credits, and usage-based pricing, multi-cur…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.0
   shared: 1
 - slug: priceops
   name: PriceOps
@@ -134,12 +183,47 @@ providers:
   score_band: emerging
   score_composite: 28.4
   shared: 1
-related:
-- slug: plans
-  name: Plans
+- slug: inmobi
+  name: InMobi
+  description: InMobi is a global advertising technology and mobile marketing platform headquartered in Bengaluru, India, and backed by SoftBank Vision Fund. It positions itself as the intelligence layer of the consumer internet, connecting brands and consumers across mobile apps and the open web. InMobi's enterp…
+  api_count: 0
+  score_band: emerging
+  score_composite: 27.9
   shared: 1
+- slug: rad
+  name: Rad.
+  description: Rad TV (Rad.) is a two-sided subscription video platform connecting content creators with consumers. For creators it offers AI-powered content enhancement tools — video upscaling to 4K/8K (Real-ESRGAN/ESPCN), stereo-to-surround audio upmixing, multilingual AI subtitling in 40+ languages, and viral…
+  api_count: 1
+  score_band: emerging
+  score_composite: 24.3
+  shared: 1
+- slug: themonetizr
+  name: TheMonetizr
+  description: Monetizr (TheMonetizr) is a gaming media platform for in-game brand advertising that turns gameplay into measurable, voluntary, and non-skippable brand engagement. Brands run branded campaigns and missions inside mobile games; players complete them for in-game or brand-sponsored rewards, reporting…
+  api_count: 1
+  score_band: emerging
+  score_composite: 24.3
+  shared: 1
+- slug: madvertise
+  name: Madvertise
+  description: Madvertise is a mobile advertising and monetization brand now operating within Azerion as the "BlueStack" (Improve Digital InApp) mobile SDK suite and the mng-ads.com ad-serving platform. It lets mobile publishers monetize in-app inventory with banner, interstitial, native, rewarded-video and App O…
+  api_count: 2
+  score_band: emerging
+  score_composite: 23.8
+  shared: 1
+- slug: touchmark
+  name: Touchmark
+  description: Touchmark is solving AI pricing - instead of AI being priced per token regardless of quality, Touchmark prices it by the quality, efficiency, and value of the output, so spend is fair, predictable, and tied to what you actually get. Applications emit the events they already produce (model outputs,…
+  api_count: 1
+  score_band: emerging
+  score_composite: 23.0
+  shared: 1
+related:
 - slug: finops
   name: FinOps
+  shared: 2
+- slug: plans
+  name: Plans
   shared: 1
 - slug: integrations
   name: Integrations
@@ -150,8 +234,8 @@ related:
 overview: 'Monetization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monetization.apievangelist.com](https://monetization.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Amberflo, Apigee, Appcharge, Drippay, Google AdSense Management, Moesif, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amberflo, Apigee, Appcharge, Drippay, StreamElements, Paid, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Plans, FinOps, Integrations, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: FinOps, Plans, Integrations, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

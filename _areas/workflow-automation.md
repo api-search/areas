@@ -6,7 +6,7 @@ description: This is the index of workflow automation service and tooling repos 
 area_url: https://workflow-automation.apievangelist.com
 area_host: workflow-automation.apievangelist.com
 icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-provider_count: 276
+provider_count: 641
 providers:
 - slug: servicenow
   name: ServiceNow
@@ -14,6 +14,13 @@ providers:
   api_count: 57
   score_band: exemplar
   score_composite: 73.4
+  shared: 2
+- slug: workato
+  name: Workato
+  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 73.2
   shared: 2
 - slug: appian
   name: Appian
@@ -28,13 +35,6 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 71.3
-  shared: 2
-- slug: workato
-  name: Workato
-  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 70.5
   shared: 2
 - slug: amazon-swf
   name: Amazon Simple Workflow Service
@@ -64,6 +64,20 @@ providers:
   score_band: developing
   score_composite: 56.1
   shared: 2
+- slug: gumloop
+  name: Gumloop
+  description: Gumloop is an AI-agent automation platform for building, deploying, and governing agents that automate real work — data analysis, customer support, CRM management, and back-office tasks — across tools like Slack, Microsoft Teams, and Gmail. Its public REST API (https://api.gumloop.com/api/v1) expos…
+  api_count: 1
+  score_band: developing
+  score_composite: 54.0
+  shared: 2
+- slug: jinba
+  name: Jinba
+  description: Jinba is an enterprise-grade platform for building, running, and deploying AI-powered workflows and agents using natural language. Business teams describe a process in plain language, refine it in a visual graph editor or a YAML manifest, and deploy it to production as an API or an MCP server. The…
+  api_count: 2
+  score_band: developing
+  score_composite: 53.8
+  shared: 2
 - slug: tray-io
   name: Tray.io
   description: Tray.io (now also known as Tray.ai) is an AI-ready integration platform as a service (iPaaS) that enables businesses to integrate and automate workflows across cloud applications using a visual editor, pre-built connectors, and API-level access. The platform includes Merlin Agent Builder for buildi…
@@ -78,19 +92,12 @@ providers:
   score_band: developing
   score_composite: 53.4
   shared: 2
-- slug: gumloop
-  name: Gumloop
-  description: Gumloop is an AI-agent automation platform for building, deploying, and governing agents that automate real work — data analysis, customer support, CRM management, and back-office tasks — across tools like Slack, Microsoft Teams, and Gmail. Its public REST API (https://api.gumloop.com/api/v1) expos…
+- slug: process-street
+  name: Process Street
+  description: Process Street is a no-code workflow and process management platform for building, running, and automating recurring team processes as workflows (reusable templates) and workflow runs (checklists). Its REST Public API is organized around resource-oriented URLs, accepts and returns JSON, and covers…
   api_count: 1
   score_band: developing
-  score_composite: 51.4
-  shared: 2
-- slug: jinba
-  name: Jinba
-  description: Jinba is an enterprise-grade platform for building, running, and deploying AI-powered workflows and agents using natural language. Business teams describe a process in plain language, refine it in a visual graph editor or a YAML manifest, and deploy it to production as an API or an MCP server. The…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.2
+  score_composite: 51.9
   shared: 2
 - slug: step-functions
   name: AWS Step Functions
@@ -112,6 +119,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 47.3
+  shared: 2
+- slug: duvoai
+  name: duvo.ai
+  description: Duvo (taskcrew Inc.) is an enterprise process-intelligence and automation platform that captures how work actually happens and turns it into shared process catalogues, role-specific training, improvement plans, transformation roadmaps, SAP migration fact bases, and governed automation across existi…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.2
   shared: 2
 - slug: squillo
   name: Squillo
@@ -148,12 +162,19 @@ providers:
   score_band: thin
   score_composite: 43.8
   shared: 2
-- slug: duvoai
-  name: duvo.ai
-  description: Duvo (taskcrew Inc.) is an enterprise process-intelligence and automation platform that captures how work actually happens and turns it into shared process catalogues, role-specific training, improvement plans, transformation roadmaps, SAP migration fact bases, and governed automation across existi…
+- slug: rewst
+  name: Rewst
+  description: Rewst is a workflow automation and integration (iPaaS/RPA) platform built specifically for managed service providers (MSPs). It combines a visual workflow builder, a form builder, an app builder, 90+ managed MSP integrations (PSA, RMM, Microsoft 365, security tools), reusable automation packages ca…
   api_count: 1
   score_band: thin
-  score_composite: 41.5
+  score_composite: 41.3
+  shared: 2
+- slug: morf
+  name: Morf
+  description: Morf is a HIPAA-compliant healthcare automation and integration platform that connects EHRs, CRMs, payment systems, and communication tools so digital health teams can eliminate manual work and put patient outreach on autopilot. Workflows are triggered by inbound webhooks from source applications (…
+  api_count: 1
+  score_band: thin
+  score_composite: 39.2
   shared: 2
 - slug: bryter
   name: Bryter
@@ -169,6 +190,20 @@ providers:
   score_band: thin
   score_composite: 33.0
   shared: 2
+- slug: kubeark
+  name: Kubeark
+  description: 'Kubeark is an enterprise orchestration and AI automation platform that standardizes system integration across hybrid estates. It combines three surfaces: workflow automation, where technical teams and end users build language-agnostic workflows and long-running jobs from a node-based editor; integr…'
+  api_count: 0
+  score_band: emerging
+  score_composite: 28.8
+  shared: 2
+- slug: qingflow
+  name: qingflow
+  description: Qingflow (轻流) is an AI-powered no-code and low-code business management platform that lets enterprises build digital operations systems — forms, workflows and approval processes, portals, reports, data management, and automation — without writing code. Its Open Platform exposes OpenAPI interfaces,…
+  api_count: 0
+  score_band: emerging
+  score_composite: 28.8
+  shared: 2
 - slug: ema
   name: Ema
   description: Ema is an enterprise "AI Employee" platform that builds autonomous agents to automate cross-functional workflows across HR, IT, Finance, customer support and healthcare operations. Its Autopilot builder turns plain-language descriptions into working AI Employees, EmaFusion combines 100+ AI models t…
@@ -176,72 +211,31 @@ providers:
   score_band: emerging
   score_composite: 26.9
   shared: 2
-- slug: huginn
-  name: Huginn
-  description: Huginn is an open-source system for building agents that perform automated tasks online. Self-hosted agents can monitor the web, send and receive events, and trigger workflows. Each Huginn instance exposes a JSON-based HTTP interface (the Web Requests API) that lets external systems trigger scenari…
-  api_count: 2
+- slug: viktor
+  name: Viktor
+  description: 'Viktor is an autonomous AI employee that lives inside Slack and Microsoft Teams, connects to 3,200+ business tools, and completes real work rather than just answering questions: pulling and reconciling data, generating reports and dashboards, running scheduled and proactive automations, writing cod…'
+  api_count: 0
   score_band: emerging
-  score_composite: 21.7
+  score_composite: 26.1
   shared: 2
-- slug: postman
-  name: Postman
-  description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 17
-  score_band: exemplar
-  score_composite: 75.3
-  shared: 1
-- slug: bubble
-  name: Bubble
-  description: Bubble is a no-code application development platform that lets builders ship full-stack web and mobile apps without writing code. Bubble exposes three developer APIs — the Data API for CRUD against the app database, the Workflow API for triggering backend automations, and a JavaScript Plugin API fo…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 74.9
-  shared: 1
-- slug: asana
-  name: Asana
-  description: Asana is a web and mobile application designed to help teams organize, track, and manage their work. The Asana API allows developers to programmatically access and integrate Asana's project management capabilities into their applications.
-  api_count: 45
-  score_band: exemplar
-  score_composite: 74.8
-  shared: 1
-- slug: amazon-ec2-image-builder
-  name: Amazon EC2 Image Builder
-  description: EC2 Image Builder simplifies the building, testing, and deployment of Virtual Machine and container images for use on AWS or on-premises. It provides an automated pipeline to create and maintain secure, up-to-date server images without requiring scripting expertise.
-  api_count: 1
-  score_band: exemplar
-  score_composite: 72.6
-  shared: 1
-- slug: uipath
-  name: UiPath
-  description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
-  api_count: 6
-  score_band: exemplar
-  score_composite: 71.7
-  shared: 1
 related:
-- slug: ai-automation
-  name: AI Automation
-  shared: 8
-- slug: embedded-ipaas
-  name: Embedded iPaaS
-  shared: 4
 - slug: ipaas
   name: iPaaS
-  shared: 4
+  shared: 6
+- slug: ai-automation
+  name: AI Automation
+  shared: 5
+- slug: embedded-ipaas
+  name: Embedded iPaaS
+  shared: 3
 - slug: orchestration
   name: Orchestration
-  shared: 3
-- slug: testing
-  name: Testing
   shared: 2
-- slug: discovery
-  name: API Evangelist Discovery
-  shared: 1
 overview: 'Workflow Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [workflow-automation.apievangelist.com](https://workflow-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including ServiceNow, Appian, Microsoft Power Automate, Workato, Amazon Simple Workflow Service, Salesforce Flow, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including ServiceNow, Workato, Appian, Microsoft Power Automate, Amazon Simple Workflow Service, Salesforce Flow, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: AI Automation, Embedded iPaaS, iPaaS, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: iPaaS, AI Automation, Embedded iPaaS, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

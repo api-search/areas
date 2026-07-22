@@ -6,7 +6,7 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 255
+provider_count: 945
 providers:
 - slug: svix
   name: Svix
@@ -14,6 +14,13 @@ providers:
   api_count: 4
   score_band: exemplar
   score_composite: 73.5
+  shared: 1
+- slug: boomi
+  name: Boomi
+  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 73.3
   shared: 1
 - slug: oracle
   name: Oracle
@@ -29,12 +36,12 @@ providers:
   score_band: exemplar
   score_composite: 71.8
   shared: 1
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 12
-  score_band: exemplar
-  score_composite: 70.7
+- slug: onfleet
+  name: Onfleet
+  description: Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kro…
+  api_count: 8
+  score_band: strong
+  score_composite: 66.7
   shared: 1
 - slug: workday
   name: Workday
@@ -56,13 +63,6 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 64.9
-  shared: 1
-- slug: onfleet
-  name: Onfleet
-  description: Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kro…
-  api_count: 8
-  score_band: strong
-  score_composite: 64.0
   shared: 1
 - slug: appsumo
   name: AppSumo
@@ -120,6 +120,13 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
+- slug: leankit
+  name: LeanKit
+  description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hierarchies. LeanKit exposes a documented RESTful v2 API at http…
+  api_count: 3
+  score_band: strong
+  score_composite: 61.4
+  shared: 1
 - slug: torii
   name: Torii
   description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide license and usage data, automate user onboarding and offboar…
@@ -134,6 +141,27 @@ providers:
   score_band: strong
   score_composite: 60.9
   shared: 1
+- slug: lawvu
+  name: LawVu
+  description: LawVu is a New Zealand-founded legal technology company whose LegalOS is a connected workspace for corporate in-house legal teams, bringing matter management, contract lifecycle management, legal request intake, spend management and e-billing, document management, reporting and embedded AI into a s…
+  api_count: 7
+  score_band: strong
+  score_composite: 60.8
+  shared: 1
+- slug: pipedrive
+  name: Pipedrive
+  description: Pipedrive is a sales CRM and pipeline management tool focused on small and mid-market teams. The Pipedrive REST API exposes deals, persons, organizations, activities, leads, products, pipelines, stages, mail, calls, files, notes, users, permissions, filters, goals, subscriptions, and webhooks.
+  api_count: 21
+  score_band: developing
+  score_composite: 59.8
+  shared: 1
+- slug: lightfield
+  name: Lightfield
+  description: Lightfield is an agent-native customer relationship management (CRM) platform for high-growth and AI-native go-to-market teams. Rather than depending on manual data entry, Lightfield captures customer interactions — calls, emails, meetings and external signals — as unstructured data, organizes them…
+  api_count: 1
+  score_band: developing
+  score_composite: 59.7
+  shared: 1
 - slug: bettercloud
   name: BetterCloud
   description: BetterCloud is the end-to-end SaaS management platform that enables IT teams to discover, manage, and secure the growing SaaS environment. The platform provides automated workflows, security policies, and management capabilities for SaaS applications in enterprise environments, handling billions of…
@@ -141,19 +169,26 @@ providers:
   score_band: developing
   score_composite: 59.1
   shared: 1
-- slug: leankit
-  name: LeanKit
-  description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hierarchies. LeanKit exposes a documented RESTful v2 API at http…
-  api_count: 3
-  score_band: developing
-  score_composite: 58.8
-  shared: 1
 - slug: workday-payroll
   name: Workday Payroll
   description: Workday Payroll provides comprehensive APIs for managing payroll operations, employee compensation, tax calculations, and payment processing within the Workday platform.
   api_count: 4
   score_band: developing
   score_composite: 58.6
+  shared: 1
+- slug: coda-project
+  name: Coda Project
+  description: Coda Project, Inc. is the maker of Coda (now branded Superhuman Docs), an all-in-one collaborative workspace that blends the flexibility of a document, the structure of a spreadsheet, the power of applications, and the intelligence of AI into a single canvas. Founded in 2014 by Shishir Mehrotra and…
+  api_count: 2
+  score_band: developing
+  score_composite: 58.5
+  shared: 1
+- slug: usersnap
+  name: Usersnap
+  description: Usersnap is a user feedback platform from Perg/Linz, Austria that lets product, development, customer success, and marketing teams capture, organize, and act on user feedback with embeddable widgets for screenshots, screen recordings, ratings, and surveys. Beyond the widgets, Usersnap ships a plan-…
+  api_count: 1
+  score_band: developing
+  score_composite: 58.4
   shared: 1
 - slug: microsoft-power-apps
   name: Microsoft Power Apps
@@ -169,12 +204,12 @@ providers:
   score_band: developing
   score_composite: 58.2
   shared: 1
-- slug: lawvu
-  name: LawVu
-  description: LawVu is a New Zealand-founded legal technology company whose LegalOS is a connected workspace for corporate in-house legal teams, bringing matter management, contract lifecycle management, legal request intake, spend management and e-billing, document management, reporting and embedded AI into a s…
-  api_count: 7
+- slug: vanilla-forums
+  name: Vanilla Forums
+  description: Vanilla Forums is the cloud community-forum platform now sold as Higher Logic Vanilla, powering B2B/B2C customer communities and association member communities. Every Vanilla community serves a REST API (API v2) at /api/v2 with a per-site OpenAPI 3 description, personal-access-token and JWT bearer…
+  api_count: 1
   score_band: developing
-  score_composite: 58.1
+  score_composite: 58.0
   shared: 1
 - slug: snaplogic
   name: SnapLogic
@@ -183,51 +218,13 @@ providers:
   score_band: developing
   score_composite: 57.9
   shared: 1
-- slug: wundergraph
-  name: WunderGraph
-  description: Full Lifecycle API Management for (Federated) GraphQL. Schema Registry, composition checks, analytics, metrics, tracing and routing. Deploy 100% on-prem or use our Managed Service. Apache 2.0 licensed, no vendor-lock.
-  api_count: 1
-  score_band: developing
-  score_composite: 57.4
-  shared: 1
-- slug: zluri
-  name: Zluri
-  description: Zluri is a SaaS management and operations platform that helps organizations discover, govern, and optimize all their cloud applications. By connecting to SSO, finance, HR systems, and app APIs, it builds a unified system of record for SaaS usage, users, licenses, and spend. IT, finance, and procure…
-  api_count: 1
-  score_band: developing
-  score_composite: 57.3
-  shared: 1
-- slug: pipedrive
-  name: Pipedrive
-  description: Pipedrive is a sales CRM and pipeline management tool focused on small and mid-market teams. The Pipedrive REST API exposes deals, persons, organizations, activities, leads, products, pipelines, stages, mail, calls, files, notes, users, permissions, filters, goals, subscriptions, and webhooks.
-  api_count: 21
-  score_band: developing
-  score_composite: 57.1
-  shared: 1
-- slug: document360
-  name: Document360
-  description: Document360 is a SaaS knowledge base platform that allows teams to create, manage, and publish self-service knowledge bases and documentation portals. It supports version control, categories, team collaboration, analytics, and an API for integrating documentation into external workflows.
-  api_count: 1
-  score_band: developing
-  score_composite: 57.0
-  shared: 1
-- slug: cloudinary
-  name: Cloudinary
-  description: Cloudinary is a cloud-based service that provides comprehensive solutions for managing digital media assets, including images and videos, for websites and mobile applications. The platform exposes REST APIs for uploading and transforming media, administering assets and product environments, provisi…
-  api_count: 7
-  score_band: developing
-  score_composite: 55.9
-  shared: 1
 related:
 - slug: management
   name: Management
-  shared: 4
+  shared: 3
 - slug: integrations
   name: Integrations
   shared: 3
-- slug: ai-automation
-  name: AI Automation
-  shared: 2
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 2
@@ -237,11 +234,14 @@ related:
 - slug: ipaas
   name: iPaaS
   shared: 2
+- slug: reliability
+  name: Reliability
+  shared: 1
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Svix, Oracle, Kinde, Boomi, Workday, Housecall Pro, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Svix, Boomi, Oracle, Kinde, Onfleet, Workday, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, Integrations, AI Automation, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, Integrations, Embedded iPaaS, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

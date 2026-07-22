@@ -6,21 +6,21 @@ description: DNS (Domain Name System) is the distributed naming system that tran
 area_url: https://dns.apievangelist.com
 area_host: dns.apievangelist.com
 icon: https://dns.apievangelist.com/icon-thumb.png
-provider_count: 32
+provider_count: 39
 providers:
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 5
   score_band: exemplar
-  score_composite: 70.9
+  score_composite: 73.6
   shared: 1
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 54
-  score_band: strong
-  score_composite: 69.7
+  score_band: exemplar
+  score_composite: 72.4
   shared: 1
 - slug: google-cloud-dns
   name: Google Cloud DNS
@@ -64,6 +64,13 @@ providers:
   score_band: developing
   score_composite: 52.0
   shared: 1
+- slug: amazon-route-53
+  name: Amazon Route 53
+  description: Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service that provides DNS routing, domain name registration, and health checking capabilities. Route 53 connects user requests to internet applications running on AWS or on-premises infrastructure, and can be used to ro…
+  api_count: 0
+  score_band: developing
+  score_composite: 49.4
+  shared: 1
 - slug: frostbyte
   name: Frostbyte
   description: Free API platform for developers and AI agents — 40+ services including IP Geolocation, Crypto Prices, Screenshots, DNS, Scraping, Code Execution. Free tier of 200 credits with no signup; USDC on Base top-ups via x402 for higher volume.
@@ -84,6 +91,13 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 43.1
+  shared: 1
+- slug: tucows
+  name: Tucows
+  description: Tucows is one of the world's largest internet-services and domain companies. Its OpenSRS division runs a wholesale reseller platform for domain-name registration, DNS, TLS/SSL certificates and hosted email, exposed through the OpenSRS API (an XML-over-HTTPS reseller protocol) and the OpenSRS Mail A…
+  api_count: 2
+  score_band: thin
+  score_composite: 43.0
   shared: 1
 - slug: cpanel
   name: cPanel
@@ -127,6 +141,13 @@ providers:
   score_band: thin
   score_composite: 36.7
   shared: 1
+- slug: stack-machine
+  name: Stack Machine
+  description: StackMachine is elastic, headless infrastructure for AI applications and agents. It runs existing Node.js, Python, and PHP codebases as WebAssembly with sub-5ms cold starts and sandboxed execution for untrusted or AI-generated code, packing thousands of apps per server. The platform is driven by a…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.6
+  shared: 1
 - slug: openprovider
   name: Openprovider
   description: 'Openprovider is a wholesaler of Internet services and products with a unique platform from which you can find and manage all the products you need: domains, new gTLDs, SSL certificates, licenses for Plesk and Virtuozzo, spam filters, and more.'
@@ -148,6 +169,13 @@ providers:
   score_band: thin
   score_composite: 34.1
   shared: 1
+- slug: virtualmin
+  name: Virtualmin
+  description: Virtualmin is an open-source web hosting control panel for Linux and BSD, built on top of Webmin, that lets administrators and resellers manage websites, virtual servers, DNS, email, FTP, databases, SSL certificates, WordPress and more from a single interface. Distributed as a community GPL edition…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.0
+  shared: 1
 - slug: gandi
   name: Gandi
   description: Gandi is a domain name registrar and web hosting provider. The Gandi v5 Public API exposes domain management, LiveDNS, certificates, email, organization, billing, and hosting capabilities for programmatic use.
@@ -158,6 +186,13 @@ providers:
 - slug: networkcalc
   name: NetworkCalc
   description: NetworkCalc provides a free RESTful API platform for monitoring and managing business networks and domains. Public APIs include a subnet calculator, DNS tools, security tools, encoder, and binary converter, with additional authenticated APIs for alerts, authorization, domains, reports, and subnets.
+  api_count: 1
+  score_band: thin
+  score_composite: 32.4
+  shared: 1
+- slug: spaceship
+  name: Spaceship
+  description: Spaceship is a domain registrar and domain marketplace offering domain registration, DNS management, WHOIS privacy protection, and a SellerHub resale marketplace with SafePay escrow. Its public REST API (https://spaceship.dev/api, v1) exposes 40 operations across domain management, availability, se…
   api_count: 1
   score_band: thin
   score_composite: 32.4
@@ -183,41 +218,6 @@ providers:
   score_band: emerging
   score_composite: 29.6
   shared: 1
-- slug: dns-check
-  name: DNS Check
-  description: DNS Check is a domain DNS monitoring service that lets teams monitor, share, and troubleshoot DNS records across multiple record types (A, AAAA, CNAME, MX, NS, PTR, SOA, SPF, SRV, TXT). The platform detects unresponsive name servers, incorrect IP addresses, missing or duplicated records, SPF record…
-  api_count: 1
-  score_band: emerging
-  score_composite: 22.7
-  shared: 1
-- slug: dns-coffee
-  name: DNS Coffee
-  description: DNS Coffee collects, analyzes, and archives changes to root zone files provided by various top-level domains (TLDs), offering one of the most comprehensive views of the current state of the Domain Name System (DNS). By continuously tracking these changes, DNS Coffee uncovers valuable trends over ti…
-  api_count: 1
-  score_band: emerging
-  score_composite: 20.5
-  shared: 1
-- slug: pi-hole
-  name: Pi-hole
-  description: Pi-hole is an open source network-wide DNS sinkhole that blocks ads, tracking, and unwanted domains across all devices on a local network without requiring per-device software. It runs on lightweight hardware such as Raspberry Pi and offers a web admin interface plus a REST API (introduced in v6 vi…
-  api_count: 1
-  score_band: emerging
-  score_composite: 20.5
-  shared: 1
-- slug: donuts
-  name: Donuts
-  description: Donuts (now operating as Identity Digital, following the 2022 merger of Donuts Inc. and Afilias) runs the world's largest portfolio of new generic top-level domains (gTLDs) — more than 280 extensions such as .email, .guru, .social, .live, and .restaurant. As a wholesale domain registry it provides…
-  api_count: 1
-  score_band: emerging
-  score_composite: 20.4
-  shared: 1
-- slug: domscan
-  name: DomScan
-  description: Domain intelligence API for domain availability, DNS, WHOIS/RDAP, valuation, security checks, email posture, social handle checks, and monitoring workflows. Offers REST API, machine-readable contracts, a hosted MCP server, and llms.txt.
-  api_count: 1
-  score_band: emerging
-  score_composite: 17.4
-  shared: 1
 related:
 - slug: security
   name: Security
@@ -228,14 +228,14 @@ related:
 - slug: scraping
   name: Scraping
   shared: 1
-- slug: internet-of-things
-  name: Internet of Things
-  shared: 1
 - slug: search
   name: API Evangelist Search
   shared: 1
 - slug: containers
   name: Containers
+  shared: 1
+- slug: internet-of-things
+  name: Internet of Things
   shared: 1
 overview: 'DNS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [dns.apievangelist.com](https://dns.apievangelist.com).
 
@@ -243,5 +243,5 @@ overview: 'DNS is one of the API Evangelist areas on the [APIs.io](https://apis.
   30 providers on the network work in this area, including Shodan, Cloudflare, Google Cloud DNS, CompleteDNS, Amazon Cloud Map, Amazon Route 53 Resolver, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Security, Network, Scraping, and Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Security, Network, Scraping, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

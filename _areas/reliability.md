@@ -6,7 +6,7 @@ description: An index and topic collection covering site reliability engineering
 area_url: https://reliability.apievangelist.com
 area_host: reliability.apievangelist.com
 icon: https://reliability.apievangelist.com/icon-thumb.png
-provider_count: 9
+provider_count: 15
 providers:
 - slug: svix
   name: Svix
@@ -21,6 +21,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 57.2
+  shared: 1
+- slug: sonarly
+  name: Sonarly
+  description: Sonarly is an AI production-reliability platform (Y Combinator W2026, Paris) that turns noisy production alerts into clear, deduplicated bug reports and ships ready-to-merge fix pull requests. It connects to a team's code (GitHub/GitLab) and their error and observability stack — Sentry, Datadog, Gr…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.0
   shared: 1
 - slug: chaos-mesh
   name: Chaos Mesh
@@ -42,6 +49,13 @@ providers:
   api_count: 9
   score_band: thin
   score_composite: 43.6
+  shared: 1
+- slug: overops
+  name: Overops
+  description: OverOps (formerly Takipi) is a continuous reliability platform that helps teams who ship software ensure rapid code changes do not degrade the customer experience. It runs in the cloud or on-premises, instruments Java and .NET applications with a micro-agent, and automatically identifies, prevents,…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.2
   shared: 1
 - slug: antithesis
   name: Antithesis
@@ -71,6 +85,34 @@ providers:
   score_band: emerging
   score_composite: 15.1
   shared: 1
+- slug: augury
+  name: Augury
+  description: Augury is a New York City-headquartered industrial AI company founded in 2011 by Gal Shaul and Saar Yoskovitz that profiles itself as the leader in Machine Health and Production Health for manufacturing. Its flagship offering pairs purpose-built IoT vibration, temperature, and magnetic sensors — mo…
+  api_count: 0
+  score_band: minimal
+  score_composite: 13.3
+  shared: 1
+- slug: pairio
+  name: Pairio
+  description: Pairio is an AI-powered maintenance assistant for manufacturing and industrial teams, built by Pairio GmbH in Munich, Germany and backed by Y Combinator. Technicians capture voice, photos, and video on the shop floor, and Pairio troubleshoots machine breakdowns, searches technical documentation and…
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.3
+  shared: 1
+- slug: distributional
+  name: Distributional
+  description: Distributional is an a16z-backed company (security contact Scott Clark) tracked in the API Evangelist network. As of July 2026 distributional.com serves a pre-launch holding page ("Something new is coming") with no public API, backend, or authentication surface. The site does publish machine-readab…
+  api_count: 0
+  score_band: minimal
+  score_composite: 7.6
+  shared: 1
+- slug: omen
+  name: Omen
+  description: Omen (omen.ai) delivers real-time asset intelligence through continuous fluid analysis, monitoring the health of mission-critical machinery in data centers and heavy industry. Its two offerings are a non-invasive permanent sensor that attaches to equipment for continuous, automated fluid (oil, cool…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.3
+  shared: 1
 related:
 - slug: cli
   name: Command Line Interface
@@ -90,7 +132,7 @@ related:
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  9 providers on the network work in this area, including Svix, Google Cloud Error Reporting, Chaos Mesh, Gremlin, Memfault, Antithesis, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  15 providers on the network work in this area, including Svix, Google Cloud Error Reporting, Sonarly, Chaos Mesh, Gremlin, Memfault, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Command Line Interface, Logging, SaaS Management, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
