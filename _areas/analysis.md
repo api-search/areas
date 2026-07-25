@@ -11,16 +11,16 @@ providers:
 - slug: new-relic
   name: New Relic
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
-  api_count: 17
+  api_count: 41
   score_band: exemplar
-  score_composite: 78.9
+  score_composite: 78.4
   shared: 1
 - slug: tago-io
   name: TagoIO
   description: TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO…
-  api_count: 1
+  api_count: 22
   score_band: strong
-  score_composite: 65.1
+  score_composite: 65.2
   shared: 1
 - slug: dsg-sports-analytics
   name: DSG Sports Analytics

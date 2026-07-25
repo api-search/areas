@@ -6,21 +6,21 @@ description: An index and topic collection covering API clients, the developer t
 area_url: https://api-clients.apievangelist.com
 area_host: api-clients.apievangelist.com
 icon: https://api-clients.apievangelist.com/icon-thumb.png
-provider_count: 17
+provider_count: 18
 providers:
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
-  api_count: 2
+  api_count: 4
   score_band: developing
-  score_composite: 52.1
+  score_composite: 52.9
   shared: 1
 - slug: ruby
   name: Ruby Programming Language and Popular API Gems
   description: 'A profile of the Ruby programming language ecosystem from an API perspective: the language and its standard library HTTP surface (Net::HTTP), the rubygems.org package registry and its public v1/v2 REST API, Bundler, RBS type signatures, popular HTTP/REST client gems (Faraday, http.rb, HTTParty, Exc…'
-  api_count: 15
+  api_count: 23
   score_band: developing
-  score_composite: 47.3
+  score_composite: 47.4
   shared: 1
 - slug: apollo-graphql
   name: Apollo GraphQL
@@ -63,6 +63,13 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 25.0
+  shared: 1
+- slug: httpx
+  name: HTTPX
+  description: HTTPX is a fully featured HTTP client for Python 3 with sync and async APIs, HTTP/1.1 and HTTP/2 support. It is broadly compatible with the popular requests library while adding modern features such as strict timeouts, type annotations, direct WSGI and ASGI transport, SSL verification, cookie persi…
+  api_count: 1
+  score_band: emerging
+  score_composite: 24.0
   shared: 1
 - slug: got
   name: Got
@@ -130,7 +137,7 @@ providers:
 related:
 - slug: clients
   name: Clients
-  shared: 16
+  shared: 17
 - slug: cli
   name: Command Line Interface
   shared: 2
@@ -140,7 +147,7 @@ related:
 overview: 'API Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-clients.apievangelist.com](https://api-clients.apievangelist.com).
 
 
-  17 providers on the network work in this area, including Insomnia, Ruby Programming Language and Popular API Gems, Apollo GraphQL, Wget, REST Client, Requests, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Insomnia, Ruby Programming Language and Popular API Gems, Apollo GraphQL, Wget, REST Client, Requests, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Clients, Command Line Interface, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

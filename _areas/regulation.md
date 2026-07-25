@@ -11,16 +11,16 @@ providers:
 - slug: fiscalnote
   name: FiscalNote
   description: FiscalNote is a policy intelligence platform that provides legislative, regulatory, and stakeholder data spanning Congress, all 50 U.S. states, and more than 100 countries. FiscalNote expanded its PolicyNote API to eliminate AI hallucinations in compliance workflows by providing primary-source veri…
-  api_count: 4
+  api_count: 13
   score_band: developing
-  score_composite: 56.0
+  score_composite: 55.7
   shared: 1
 - slug: kpmg
   name: KPMG
   description: KPMG is one of the Big Four professional services organizations, operating through a global network of independent member firms affiliated with KPMG International Limited, a private English company limited by guarantee that itself does not provide services to clients. The network spans more than 27…
-  api_count: 1
+  api_count: 4
   score_band: thin
-  score_composite: 32.0
+  score_composite: 34.2
   shared: 1
 - slug: alcohol-and-tobacco-tax-and-trade-bureau
   name: Alcohol and Tobacco Tax and Trade Bureau
@@ -34,7 +34,7 @@ providers:
   description: The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks. The OCC provides REST APIs and data tools for national bank and federal savings association data, C…
   api_count: 4
   score_band: emerging
-  score_composite: 26.6
+  score_composite: 26.2
   shared: 1
 - slug: committee-on-foreign-investment-in-the-united-states
   name: Committee on Foreign Investment in the United States

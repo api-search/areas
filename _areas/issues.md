@@ -11,9 +11,9 @@ providers:
 - slug: forgejo
   name: Forgejo
   description: Forgejo is a self-hosted lightweight software forge and open-source Git service (a Gitea fork) managed by the non-profit Codeberg e.V. It provides a comprehensive REST API for managing repositories, users, organizations, issues, pull requests, CI/CD workflows via Actions, and package registries. Fo…
-  api_count: 1
+  api_count: 10
   score_band: thin
-  score_composite: 42.5
+  score_composite: 43.3
   shared: 1
 - slug: plane
   name: Plane

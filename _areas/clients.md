@@ -6,14 +6,14 @@ description: This is the index of API client, HTTP client, and API consumer tool
 area_url: https://clients.apievangelist.com
 area_host: clients.apievangelist.com
 icon: https://clients.apievangelist.com/icon-thumb.png
-provider_count: 16
+provider_count: 17
 providers:
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
-  api_count: 2
+  api_count: 4
   score_band: developing
-  score_composite: 52.1
+  score_composite: 52.9
   shared: 1
 - slug: apollo-graphql
   name: Apollo GraphQL
@@ -56,6 +56,13 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 25.0
+  shared: 1
+- slug: httpx
+  name: HTTPX
+  description: HTTPX is a fully featured HTTP client for Python 3 with sync and async APIs, HTTP/1.1 and HTTP/2 support. It is broadly compatible with the popular requests library while adding modern features such as strict timeouts, type annotations, direct WSGI and ASGI transport, SSL verification, cookie persi…
+  api_count: 1
+  score_band: emerging
+  score_composite: 24.0
   shared: 1
 - slug: got
   name: Got
@@ -123,7 +130,7 @@ providers:
 related:
 - slug: api-clients
   name: API Clients
-  shared: 16
+  shared: 17
 - slug: cli
   name: Command Line Interface
   shared: 2
@@ -133,7 +140,7 @@ related:
 overview: 'Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [clients.apievangelist.com](https://clients.apievangelist.com).
 
 
-  16 providers on the network work in this area, including Insomnia, Apollo GraphQL, Wget, REST Client, Requests, Hoppscotch, and 10 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  17 providers on the network work in this area, including Insomnia, Apollo GraphQL, Wget, REST Client, Requests, Hoppscotch, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Clients, Command Line Interface, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,42 +6,63 @@ description: 'An index and topic collection covering software licensing APIs acr
 area_url: https://licensing.apievangelist.com
 area_host: licensing.apievangelist.com
 icon: https://licensing.apievangelist.com/icon-thumb.png
-provider_count: 28
+provider_count: 30
 providers:
 - slug: replicated
   name: Replicated
   description: Replicated is a commercial software distribution platform that lets independent software vendors (ISVs) deliver and manage modern applications into complex, customer-controlled environments — including on-prem, self-hosted, and air-gapped networks with little or no outbound internet access. The pla…
-  api_count: 1
+  api_count: 22
   score_band: strong
-  score_composite: 60.7
+  score_composite: 61.5
+  shared: 1
+- slug: 7digital
+  name: 7digital
+  description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
+  api_count: 23
+  score_band: strong
+  score_composite: 60.1
   shared: 1
 - slug: warner-music-group
   name: Warner Music Group
   description: Warner Music Group is one of the major record labels in the music industry, with recorded music and music publishing operations spanning a roster of artists, songwriters, and labels around the world. WMG includes Warner Records, Atlantic Records, Elektra Records, and Warner Chappell Music (one of t…
-  api_count: 1
+  api_count: 4
   score_band: developing
-  score_composite: 50.6
+  score_composite: 51.4
+  shared: 1
+- slug: fossology
+  name: FOSSology
+  description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations through automated scanning, human clearing workflows, and SP…
+  api_count: 15
+  score_band: developing
+  score_composite: 48.0
   shared: 1
 - slug: shutterstock
   name: Shutterstock
   description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
-  api_count: 1
+  api_count: 10
   score_band: developing
-  score_composite: 45.4
-  shared: 1
-- slug: soundstripe
-  name: Soundstripe
-  description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.8
+  score_composite: 46.4
   shared: 1
 - slug: story-protocol
   name: Story Protocol
   description: Story Protocol is a purpose-built EVM Layer 1 blockchain for onchain intellectual property (the "IP blockchain"), powered by Proof of Creativity, built by Pip Labs and backed by a16z. Its public REST API (api.storyapis.com) is a read-only indexer that exposes IP assets, collections, license terms,…
+  api_count: 13
+  score_band: thin
+  score_composite: 39.9
+  shared: 1
+- slug: agentsync
+  name: Agentsync
+  description: AgentSync builds modern insurance compliance infrastructure that connects carriers, agencies, MGAs, and producers. Its ProducerSync API is a REST API delivering more than 200 enriched data points sourced from the National Insurance Producer Registry (NIPR) — producer and adjuster licensing, carrier…
   api_count: 1
   score_band: thin
-  score_composite: 35.7
+  score_composite: 37.3
+  shared: 1
+- slug: soundstripe
+  name: Soundstripe
+  description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
+  api_count: 7
+  score_band: thin
+  score_composite: 37.3
   shared: 1
 - slug: fcc
   name: FCC (Federal Communications Commission)
@@ -50,33 +71,40 @@ providers:
   score_band: thin
   score_composite: 34.3
   shared: 1
-- slug: agentsync
-  name: Agentsync
-  description: AgentSync builds modern insurance compliance infrastructure that connects carriers, agencies, MGAs, and producers. Its ProducerSync API is a REST API delivering more than 200 enriched data points sourced from the National Insurance Producer Registry (NIPR) — producer and adjuster licensing, carrier…
-  api_count: 1
+- slug: getty
+  name: Getty Images
+  description: Getty Images is a premium stock media licensor of editorial and creative photography, illustrations, video, and music. The Getty Images API exposes search, asset metadata, and download endpoints for licensing partners and enterprise customers. Authentication is via API key + OAuth 2.0 client creden…
+  api_count: 5
   score_band: thin
-  score_composite: 32.4
+  score_composite: 32.7
   shared: 1
 - slug: certifyos
   name: Certifyos
   description: CertifyOS is a healthcare provider data platform that delivers a single, AI-enabled source of truth for provider information. Founded in 2021 by former Oscar Health employees and led by CEO Anshul Rathi, the New York-based company offers an API-first platform that automates every stage of provider…
   api_count: 1
   score_band: thin
-  score_composite: 31.6
-  shared: 1
-- slug: getty
-  name: Getty Images
-  description: Getty Images is a premium stock media licensor of editorial and creative photography, illustrations, video, and music. The Getty Images API exposes search, asset metadata, and download endpoints for licensing partners and enterprise customers. Authentication is via API key + OAuth 2.0 client creden…
-  api_count: 1
-  score_band: emerging
-  score_composite: 28.5
+  score_composite: 31.4
   shared: 1
 - slug: occ
   name: Office of the Comptroller of the Currency (OCC)
   description: The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks. The OCC provides REST APIs and data tools for national bank and federal savings association data, C…
   api_count: 4
   score_band: emerging
-  score_composite: 26.6
+  score_composite: 26.2
+  shared: 1
+- slug: medallion
+  name: Medallion
+  description: Medallion is an AI-powered healthcare operations platform for provider credentialing, enrollment, and licensing, operated by FirstLayerAI, Inc. It positions itself as the AI operations partner powering healthcare's first real-time CVO (Credentialing Verification Organization), NCQA-certified, and s…
+  api_count: 0
+  score_band: emerging
+  score_composite: 25.0
+  shared: 1
+- slug: govwell
+  name: GovWell
+  description: GovWell is a cloud-based AI operating system for modern local and county government, used by municipal and county agencies across 40+ U.S. states to digitize and automate civic services. The platform replaces paper and legacy systems with online workflows for permitting, licensing, planning and zon…
+  api_count: 0
+  score_band: emerging
+  score_composite: 21.7
   shared: 1
 - slug: openchain
   name: OpenChain
@@ -92,12 +120,12 @@ providers:
   score_band: emerging
   score_composite: 21.6
   shared: 1
-- slug: medallion
-  name: Medallion
-  description: Medallion is an AI-powered healthcare operations platform for provider credentialing, enrollment, and licensing, operated by FirstLayerAI, Inc. It positions itself as the AI operations partner powering healthcare's first real-time CVO (Credentialing Verification Organization), NCQA-certified, and s…
+- slug: kaizen-labs
+  name: Kaizen Labs
+  description: Kaizen Labs is a New York City based govtech company founded in 2022 that builds modern, AI-native software for America's essential public services. Its modular SaaS platform helps local, state, and federal agencies replace legacy systems and deliver resident-facing digital services across recreati…
   api_count: 0
   score_band: emerging
-  score_composite: 19.7
+  score_composite: 19.9
   shared: 1
 - slug: tradespace
   name: Tradespace
@@ -105,20 +133,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 18.7
-  shared: 1
-- slug: govwell
-  name: GovWell
-  description: GovWell is a cloud-based AI operating system for modern local and county government, used by municipal and county agencies across 40+ U.S. states to digitize and automate civic services. The platform replaces paper and legacy systems with online workflows for permitting, licensing, planning and zon…
-  api_count: 0
-  score_band: emerging
-  score_composite: 18.2
-  shared: 1
-- slug: kaizen-labs
-  name: Kaizen Labs
-  description: Kaizen Labs is a New York City based govtech company founded in 2022 that builds modern, AI-native software for America's essential public services. Its modular SaaS platform helps local, state, and federal agencies replace legacy systems and deliver resident-facing digital services across recreati…
-  api_count: 0
-  score_band: emerging
-  score_composite: 17.6
   shared: 1
 - slug: universal-music-group
   name: Universal Music Group
@@ -132,7 +146,7 @@ providers:
   description: Payna is a compliance operating system for financial licensing that automates applications, renewals, maintenance, and monitoring across all 50 US states and jurisdictions. It tracks state statutes, NMLS procedures, and FinCEN requirements in real time, calculates filing deadlines backward from due…
   api_count: 0
   score_band: minimal
-  score_composite: 11.3
+  score_composite: 14.6
   shared: 1
 - slug: acknowledgments-md
   name: ACKNOWLEDGMENTS.md
@@ -153,7 +167,7 @@ providers:
   description: FilmTrack is a cloud-based content and rights management platform for the media and entertainment industry, streamlining the intellectual property lifecycle from project inception through distribution. Its software gives distributors and studios a holistic view of the data behind rights, availabili…
   api_count: 0
   score_band: minimal
-  score_composite: 9.7
+  score_composite: 10.2
   shared: 1
 - slug: centric-brands
   name: Centric Brands
@@ -176,6 +190,13 @@ providers:
   score_band: minimal
   score_composite: 7.2
   shared: 1
+- slug: eql-games
+  name: EQL Games
+  description: EQL Games is a Louisville, Kentucky based lottery-industry technology company that operates as an original game studio, third-party content aggregator, and boutique licensor for the global iLottery market. Its iLottery Marketplace aggregates a catalog of 300+ games from 24 partner studios behind a…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.8
+  shared: 1
 - slug: endeavor
   name: Endeavor
   description: Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media,…
@@ -190,19 +211,12 @@ providers:
   score_band: minimal
   score_composite: 6.8
   shared: 1
-- slug: eql-games
-  name: EQL Games
-  description: EQL Games is a Louisville, Kentucky based lottery-industry technology company that operates as an original game studio, third-party content aggregator, and boutique licensor for the global iLottery market. Its iLottery Marketplace aggregates a catalog of 300+ games from 24 partner studios behind a…
-  api_count: 0
-  score_band: minimal
-  score_composite: 6.3
-  shared: 1
 - slug: peerless-systems
   name: Peerless Systems
   description: Peerless Systems Corporation is a technology company that describes itself as a leader in embedded imaging solutions. Historically focused on embedded imaging and printing controller technology and intellectual-property licensing for digital document, printer, and multifunction-device OEMs, the com…
   api_count: 0
   score_band: minimal
-  score_composite: 6.3
+  score_composite: 6.8
   shared: 1
 related:
 - slug: regulation
@@ -211,7 +225,7 @@ related:
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).
 
 
-  28 providers on the network work in this area, including Replicated, Warner Music Group, Shutterstock, Soundstripe, Story Protocol, FCC (Federal Communications Commission), and 22 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Replicated, 7digital, Warner Music Group, FOSSology, Shutterstock, Story Protocol, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Regulation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

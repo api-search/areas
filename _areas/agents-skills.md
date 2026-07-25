@@ -11,65 +11,72 @@ providers:
 - slug: 360learning
   name: 360Learning
   description: '360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automate the platform: provision and activate users, organize them…'
-  api_count: 5
+  api_count: 17
   score_band: developing
-  score_composite: 56.8
+  score_composite: 58.9
   shared: 1
 - slug: lightrun
   name: Lightrun
   description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
-  api_count: 1
+  api_count: 20
   score_band: developing
-  score_composite: 56.4
+  score_composite: 58.1
   shared: 1
 - slug: bitpanda
   name: Bitpanda
   description: Bitpanda is a European retail investment platform, founded in Vienna in 2014, that lets users buy, sell, and hold cryptocurrencies, stocks, ETFs, precious metals, commodities, and crypto indices from a single account. Its developer surface centres on the read-only Bitpanda Platform API (developer.b…
-  api_count: 1
+  api_count: 4
   score_band: developing
-  score_composite: 55.8
+  score_composite: 57.9
   shared: 1
 - slug: smithery-ai
   name: Smithery
   description: Smithery is an MCP server registry and hosting platform that lets developers discover, publish, and connect to Model Context Protocol servers from any AI agent. The platform combines a public registry of thousands of community MCP servers with a managed gateway that handles OAuth, credential storag…
-  api_count: 2
+  api_count: 9
   score_band: developing
-  score_composite: 55.5
+  score_composite: 55.9
   shared: 1
 - slug: smithery
   name: Smithery
   description: Smithery is a platform for discovering, deploying, and managing Model Context Protocol (MCP) servers and skills. It operates a public registry of community-built MCP extensions that AI agents can use to access external tools, data sources, and services, plus a Connect gateway that bundles connectio…
-  api_count: 1
+  api_count: 9
   score_band: developing
-  score_composite: 50.7
+  score_composite: 54.6
   shared: 1
 - slug: phenom
   name: Phenom
   description: Phenom is an HR technology company whose Intelligent Talent Experience platform applies AI to every stage of the talent lifecycle — helping candidates find and apply to the right jobs, recruiters and hiring managers source and engage talent, employees grow, and HR teams operate more efficiently. Th…
-  api_count: 1
+  api_count: 9
   score_band: developing
-  score_composite: 47.3
+  score_composite: 48.0
   shared: 1
 - slug: cloud-academy
   name: Cloud Academy
   description: Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines.…
-  api_count: 1
-  score_band: thin
-  score_composite: 44.9
+  api_count: 3
+  score_band: developing
+  score_composite: 45.6
   shared: 1
 - slug: macroscope
   name: Macroscope
   description: Macroscope is an AI code-intelligence platform (GitHub org prassoai) that connects to a team's codebase and workflow tools to review pull requests, answer questions, and take action. Its three surfaces are an Agent (query the codebase and trigger actions via Slack, GitHub, or an HTTP API), Code Rev…
   api_count: 1
   score_band: thin
-  score_composite: 42.3
+  score_composite: 44.9
   shared: 1
 - slug: sitefire
   name: Sitefire
   description: Sitefire is a Generative Engine Optimization (GEO) platform — the marketing suite for the agentic web and a self-described System of Record for AI visibility. It monitors how AI models (ChatGPT, Gemini, Perplexity, DeepSeek, Google AI Mode and AI Overviews) mention and cite a brand across tracked t…
   api_count: 1
   score_band: thin
-  score_composite: 41.8
+  score_composite: 42.7
+  shared: 1
+- slug: cursor
+  name: Cursor
+  description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
+  api_count: 10
+  score_band: thin
+  score_composite: 40.6
   shared: 1
 - slug: gloat
   name: Gloat
@@ -78,19 +85,19 @@ providers:
   score_band: thin
   score_composite: 39.3
   shared: 1
-- slug: cursor
-  name: Cursor
-  description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
-  api_count: 4
-  score_band: thin
-  score_composite: 38.8
-  shared: 1
 - slug: agent-skills
   name: Agent Skills
   description: A collection of resources, APIs, and standards related to AI agent skills and capabilities. Agent skills represent the tools, functions, and capabilities that AI agents can invoke to accomplish tasks — spanning web search, code execution, file management, memory, and external API integrations. This…
   api_count: 3
   score_band: thin
-  score_composite: 37.8
+  score_composite: 38.3
+  shared: 1
+- slug: windsurf
+  name: Windsurf
+  description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
+  api_count: 8
+  score_band: thin
+  score_composite: 37.5
   shared: 1
 - slug: nexad
   name: Nexad
@@ -111,7 +118,7 @@ providers:
   description: 'Tessl is an agent-enablement platform that gives engineering teams a management layer for AI agent skills and plugins: continuously build, test, distribute, and optimize the context that coding agents rely on, with the security and governance of enterprise software. It centers on the Tessl Registry…'
   api_count: 0
   score_band: thin
-  score_composite: 30.9
+  score_composite: 31.4
   shared: 1
 - slug: limit-break
   name: Limit Break
@@ -132,7 +139,7 @@ providers:
   description: Numeric is an AI close-automation platform that unifies close management, financial reporting, and cash operations for complex, high-volume accounting teams (customers include Brex, Plaid, and Stash). Its products span close checklists and account reconciliation, cash matching and journal-entry aut…
   api_count: 1
   score_band: emerging
-  score_composite: 25.8
+  score_composite: 26.3
   shared: 1
 - slug: heeler
   name: Heeler
@@ -160,14 +167,7 @@ providers:
   description: 'Perseus (legal name Efficient Systems Inc.) is an applied AI lab focused on semantic search in latent spaces, founded by Samrath Chadha and backed by Y Combinator (Fall 2025 batch). Its first product is a retrieval engine that grounds coding agents in real code: developers and agents describe the c…'
   api_count: 0
   score_band: emerging
-  score_composite: 23.4
-  shared: 1
-- slug: windsurf
-  name: Windsurf
-  description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
-  api_count: 3
-  score_band: emerging
-  score_composite: 23.3
+  score_composite: 23.9
   shared: 1
 - slug: fxlabs
   name: APIsec
@@ -204,19 +204,19 @@ providers:
   score_band: emerging
   score_composite: 18.7
   shared: 1
+- slug: treasury
+  name: Treasury
+  description: Treasury (treasury.app) is a consumer investing and personal-finance education platform that bills itself as "the first investing platform built for learning as a community" and a "non-judgmental investing community." It pairs creator-led learning communities (workshops, coaching, and discussion fo…
+  api_count: 0
+  score_band: emerging
+  score_composite: 18.5
+  shared: 1
 - slug: intrinsic-ai
   name: Intrinsic
   description: Intrinsic is a Mountain View, California industrial robotics software company spun out of Alphabet's X "moonshot factory" and led by CEO Wendy Tan White. Its mission is to make industrial robots radically easier to program, use, and innovate with so that automation is accessible to a much broader r…
   api_count: 0
   score_band: emerging
   score_composite: 17.9
-  shared: 1
-- slug: columnar
-  name: Columnar
-  description: Columnar is a data-infrastructure company advancing open standards for database connectivity. It builds and maintains tooling around ADBC (Apache Arrow Database Connectivity), including dbc — a cross-platform command-line package manager that installs and manages ADBC drivers across macOS, Linux, a…
-  api_count: 0
-  score_band: emerging
-  score_composite: 16.8
   shared: 1
 related:
 - slug: ide
@@ -225,11 +225,14 @@ related:
 - slug: logging
   name: Logging
   shared: 1
+- slug: monitoring
+  name: Monitoring
+  shared: 1
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
   30 providers on the network work in this area, including 360Learning, Lightrun, Bitpanda, Smithery, Smithery, Phenom, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: IDE and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: IDE, Logging, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

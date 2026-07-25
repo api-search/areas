@@ -11,16 +11,16 @@ providers:
 - slug: art
   name: Artsy
   description: 'Artsy (art.sy) is the online marketplace and platform for discovering, buying, and selling fine art, connecting collectors with galleries, museums, art fairs, and auction houses worldwide. Artsy operates a public developer program: the Artsy Public API (v2) is a HAL hypermedia REST API exposing Art…'
-  api_count: 1
+  api_count: 25
   score_band: thin
-  score_composite: 40.3
+  score_composite: 42.3
   shared: 1
 - slug: an-api-of-ice-and-fire
   name: An API of Ice And Fire
   description: An API of Ice And Fire is the world's greatest source for quantified and structured data from the universe of A Song of Ice and Fire (and the HBO series Game of Thrones). The open, read-only REST API exposes Books, Characters, and Houses as hypermedia resources with HAL-style URL references, RFC 59…
-  api_count: 1
+  api_count: 4
   score_band: emerging
-  score_composite: 29.1
+  score_composite: 29.2
   shared: 1
 related: []
 overview: 'Hypermedia is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [hypermedia.apievangelist.com](https://hypermedia.apievangelist.com).

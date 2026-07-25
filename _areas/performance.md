@@ -6,21 +6,21 @@ description: An index and topic collection covering API and web performance, inc
 area_url: https://performance.apievangelist.com
 area_host: performance.apievangelist.com
 icon: https://performance.apievangelist.com/icon-thumb.png
-provider_count: 33
+provider_count: 34
 providers:
 - slug: new-relic
   name: New Relic
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
-  api_count: 17
+  api_count: 41
   score_band: exemplar
-  score_composite: 78.9
+  score_composite: 78.4
   shared: 1
-- slug: factorial
-  name: Factorial
-  description: Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 "Legendre") covering employees, contracts, attendance, ti…
-  api_count: 22
+- slug: amazon-global-accelerator
+  name: Amazon Global Accelerator
+  description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the AWS global network to optimize the path from users to applic…
+  api_count: 49
   score_band: strong
-  score_composite: 69.1
+  score_composite: 61.0
   shared: 1
 - slug: google-cloud-trace
   name: Google Cloud Trace
@@ -36,26 +36,26 @@ providers:
   score_band: developing
   score_composite: 57.2
   shared: 1
-- slug: amazon-global-accelerator
-  name: Amazon Global Accelerator
-  description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the AWS global network to optimize the path from users to applic…
-  api_count: 1
-  score_band: developing
-  score_composite: 56.7
-  shared: 1
 - slug: lunar-dev
   name: Lunar.dev
   description: Lunar.dev is an enterprise-grade gateway platform for AI governance and third-party API consumption control. It unifies an MCP Gateway, AI Gateway, and API Consumption Gateway into a single control point that gives organizations observability, access control, policy enforcement, quota management, r…
-  api_count: 2
+  api_count: 5
   score_band: developing
-  score_composite: 53.5
+  score_composite: 56.7
   shared: 1
 - slug: whoop
   name: WHOOP
   description: WHOOP is a fitness and recovery wearable platform providing a REST API for accessing sleep, recovery, strain, and workout metrics from the WHOOP band. The API uses OAuth 2.0 authorization code flow with Bearer tokens to allow developers to build applications that access member health and performanc…
-  api_count: 1
+  api_count: 7
   score_band: developing
-  score_composite: 49.0
+  score_composite: 52.8
+  shared: 1
+- slug: sage-hr
+  name: Sage HR
+  description: Sage HR (formerly CakeHR) is a cloud HRIS for small and mid-sized businesses, owned by Sage Group plc. It bundles core HR records, leave management, performance, recruitment (ATS), timesheets, shift scheduling, expenses, and onboarding/offboarding into a modular per-employee SaaS. The Sage HR REST…
+  api_count: 14
+  score_band: developing
+  score_composite: 48.8
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
@@ -85,6 +85,20 @@ providers:
   score_band: thin
   score_composite: 44.2
   shared: 1
+- slug: questdb
+  name: QuestDB
+  description: QuestDB is a high-performance open-source time-series database. It exposes three programmatic surfaces — an HTTP REST API for SQL queries and CSV import/export, the InfluxDB Line Protocol (ILP) over TCP and HTTP for high-throughput ingestion, and the PostgreSQL wire protocol for compatibility with…
+  api_count: 10
+  score_band: thin
+  score_composite: 40.8
+  shared: 1
+- slug: apicontext
+  name: APIContext
+  description: APIContext (formerly APImetrics) is an advanced synthetic API testing and monitoring platform that measures API performance, enforces SLOs, and validates API conformance for critical APIs. It provides an API directory with performance data on 300+ top API providers and offers solutions for develope…
+  api_count: 13
+  score_band: thin
+  score_composite: 39.9
+  shared: 1
 - slug: polar-signals
   name: Polar Signals
   description: Polar Signals is a continuous profiling company built by the team behind the open-source Parca project. Its Polar Signals Cloud product uses eBPF to continuously profile CPU, memory, and NVIDIA GPU workloads across Kubernetes, Docker, ECS, and bare metal with under 1% overhead and no code changes,…
@@ -106,19 +120,12 @@ providers:
   score_band: thin
   score_composite: 37.6
   shared: 1
-- slug: questdb
-  name: QuestDB
-  description: QuestDB is a high-performance open-source time-series database. It exposes three programmatic surfaces — an HTTP REST API for SQL queries and CSV import/export, the InfluxDB Line Protocol (ILP) over TCP and HTTP for high-throughput ingestion, and the PostgreSQL wire protocol for compatibility with…
-  api_count: 4
-  score_band: thin
-  score_composite: 35.3
-  shared: 1
-- slug: apicontext
-  name: APIContext
-  description: APIContext (formerly APImetrics) is an advanced synthetic API testing and monitoring platform that measures API performance, enforces SLOs, and validates API conformance for critical APIs. It provides an API directory with performance data on 300+ top API providers and offers solutions for develope…
+- slug: unravel-data-systems
+  name: Unravel Data Systems
+  description: Unravel Data Systems is an AI-powered data observability and FinOps platform that helps data teams optimize performance, cost, and reliability across modern data stacks including Databricks, Snowflake, BigQuery, Amazon EMR, and Cloudera. The self-hosted and SaaS platform exposes a REST API (JSON ov…
   api_count: 1
   score_band: thin
-  score_composite: 34.8
+  score_composite: 37.3
   shared: 1
 - slug: headspin
   name: HeadSpin
@@ -132,7 +139,7 @@ providers:
   description: Readyset is a realtime SQL caching engine for Postgres and MySQL. It sits between applications and the database as a wire-compatible proxy, automatically caching the results of costly SELECT queries and keeping them up to date from the database replication stream with no application code changes or…
   api_count: 0
   score_band: emerging
-  score_composite: 25.4
+  score_composite: 25.9
   shared: 1
 - slug: merbridge
   name: Merbridge
@@ -153,14 +160,21 @@ providers:
   description: Flarion is a data-processing acceleration company that speeds up distributed data engines without code changes or infrastructure migration. Its plug-and-play engine replaces row-by-row JVM execution with a native, vectorized runtime built in Rust on Apache Arrow and DataFusion, delivering roughly 3…
   api_count: 0
   score_band: emerging
-  score_composite: 16.5
+  score_composite: 17.0
+  shared: 1
+- slug: ethossystems
+  name: Ethos Systems
+  description: Ethos Systems is an AI-powered human readiness platform that unifies learning, performance, and outcomes management in a single system built for enterprise and government deployment across both commercial and classified networks. Founded in 2019 and headquartered in Redwood City, California, Ethos…
+  api_count: 0
+  score_band: emerging
+  score_composite: 16.8
   shared: 1
 - slug: the-meta
   name: The Meta
   description: 'The Meta is the gaming-performance company behind KovaaK''s Aim Trainer (formerly "Kovaak 2.0: The Meta"), a PC esports training platform distributed on Steam that pairs guided, skill-specific training modules with Kovaak''s Sandbox aim trainer and its library of 2,600+ user-generated scenarios. The…'
   api_count: 0
   score_band: emerging
-  score_composite: 15.2
+  score_composite: 15.7
   shared: 1
 - slug: grafast
   name: Grafast
@@ -168,13 +182,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 15.1
-  shared: 1
-- slug: ethossystems
-  name: Ethos Systems
-  description: Ethos Systems is an AI-powered human readiness platform that unifies learning, performance, and outcomes management in a single system built for enterprise and government deployment across both commercial and classified networks. Founded in 2019 and headquartered in Redwood City, California, Ethos…
-  api_count: 0
-  score_band: minimal
-  score_composite: 14.5
   shared: 1
 - slug: teamworks
   name: Teamworks
@@ -188,7 +195,7 @@ providers:
   description: Granulate is a real-time continuous optimization company acquired by Intel in 2022 and now offered as Intel Tiber App-Level Optimization. Its platform autonomously tunes OS-level and runtime behavior (scheduling, memory, networking) for compute, Kubernetes, and big-data workloads to cut CPU cost an…
   api_count: 0
   score_band: minimal
-  score_composite: 10.0
+  score_composite: 10.5
   shared: 1
 - slug: big-o-notation
   name: Big O Notation
@@ -202,7 +209,7 @@ providers:
   description: Nazar (nazar.ai) is an AI-powered database performance and cost optimization platform that helps engineering and DBA teams monitor, analyze, and tune their databases. It supports Postgres, MySQL, SQL Server, MariaDB, Amazon Aurora, Oracle, and SAP HANA across cloud, on-premises, and hybrid environm…
   api_count: 0
   score_band: minimal
-  score_composite: 8.9
+  score_composite: 9.4
   shared: 1
 - slug: http-2
   name: HTTP/2
@@ -210,13 +217,6 @@ providers:
   api_count: 0
   score_band: minimal
   score_composite: 8.7
-  shared: 1
-- slug: reniac
-  name: Reniac
-  description: rENIAC Inc. is a Santa Clara-based data acceleration company whose flagship product, the rENIAC Data Engine (rDE), is a drop-in accelerator for open source and NoSQL databases such as Apache Cassandra. Combining FPGAs with proprietary software, rDE speeds storage, network, and compute operations an…
-  api_count: 0
-  score_band: minimal
-  score_composite: 7.4
   shared: 1
 related:
 - slug: analysis
@@ -240,7 +240,7 @@ related:
 overview: 'Performance is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [performance.apievangelist.com](https://performance.apievangelist.com).
 
 
-  30 providers on the network work in this area, including New Relic, Factorial, Google Cloud Trace, Google Cloud Profiler, Amazon Global Accelerator, Lunar.dev, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including New Relic, Amazon Global Accelerator, Google Cloud Trace, Google Cloud Profiler, Lunar.dev, WHOOP, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Analysis, Caching, AIOps, and Deployment. Browse every area at [areas.apis.io](https://apis.io/areas/).'
