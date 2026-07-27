@@ -18,9 +18,9 @@ providers:
 - slug: opendoor
   name: Opendoor
   description: Opendoor is an iBuyer that lets U.S. homeowners request a near-instant cash offer on their home, sell directly to Opendoor, list with Opendoor through its agent network, or browse off-market inventory via Opendoor Exclusives. Founded in 2014 and publicly traded on NASDAQ as OPEN, the company runs b…
-  api_count: 3
+  api_count: 1
   score_band: emerging
-  score_composite: 24.7
+  score_composite: 24.0
   shared: 1
 related: []
 overview: 'API Evangelist Partners is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [partners.apievangelist.com](https://partners.apievangelist.com).

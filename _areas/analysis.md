@@ -13,7 +13,7 @@ providers:
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
   api_count: 41
   score_band: exemplar
-  score_composite: 78.4
+  score_composite: 83.1
   shared: 1
 - slug: tago-io
   name: TagoIO

@@ -6,14 +6,21 @@ description: ''
 area_url: https://network.apievangelist.com
 area_host: network.apievangelist.com
 icon: https://network.apievangelist.com/icon-thumb.png
-provider_count: 13
+provider_count: 14
 providers:
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 15
   score_band: exemplar
-  score_composite: 73.1
+  score_composite: 75.3
+  shared: 1
+- slug: att
+  name: AT&T
+  description: 'AT&T Inc. is a multinational telecommunications holding company providing wireless and wireline communications, broadband, and business networking to consumers and enterprises. Its developer surface spans four programs: the legacy AT&T Developer Program (SMS, MMS, in-app messaging, speech and OAuth…'
+  api_count: 28
+  score_band: strong
+  score_composite: 61.9
   shared: 1
 - slug: atandt
   name: AT&T
@@ -22,47 +29,47 @@ providers:
   score_band: developing
   score_composite: 59.4
   shared: 1
-- slug: orange
-  name: Orange
-  description: Orange Developer offers a portfolio of network, communication, identity, location, payment, IoT, and cloud APIs that allow developers to build new customer experiences powered by programmable networks and Orange's telecom infrastructure across Europe, the Middle East, and Africa.
-  api_count: 15
-  score_band: developing
-  score_composite: 48.4
-  shared: 1
 - slug: microsoft-azure-load-balancer
   name: Azure Load Balancer
   description: Azure Load Balancer is a high-performance, low-latency layer-4 load balancing service for distributing inbound and outbound network traffic across virtual machines and other Azure resources. It supports public and internal load balancers, health probes, NAT rules, and HA scenarios.
   api_count: 2
   score_band: developing
-  score_composite: 47.3
+  score_composite: 50.5
+  shared: 1
+- slug: orange
+  name: Orange
+  description: Orange Developer offers a portfolio of network, communication, identity, location, payment, IoT, and cloud APIs that allow developers to build new customer experiences powered by programmable networks and Orange's telecom infrastructure across Europe, the Middle East, and Africa.
+  api_count: 15
+  score_band: developing
+  score_composite: 50.1
   shared: 1
 - slug: lumen-technologies
   name: Lumen Technologies
   description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Center, Lumen exposes REST APIs that allow customers to programm…
   api_count: 3
   score_band: thin
-  score_composite: 39.6
+  score_composite: 42.9
   shared: 1
 - slug: systemd
   name: systemd
   description: systemd is a suite of basic building blocks for a Linux system. It runs as PID 1 and is the system and service manager that bootstraps the rest of the userspace, supervises long-running services, and exposes a coordinated set of D-Bus and Varlink IPC interfaces for managing services (systemd1), use…
   api_count: 34
   score_band: thin
-  score_composite: 38.2
+  score_composite: 40.7
   shared: 1
 - slug: zayo-group
   name: Zayo Group Holdings
   description: Zayo Group Holdings is a major US corporation and Fortune 1000 company. The Zayo Group Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 2
   score_band: thin
-  score_composite: 30.9
+  score_composite: 34.2
   shared: 1
 - slug: cloudfront
   name: CloudFront
   description: CloudFront is Amazon Web Services' content delivery network (CDN) for delivering data, video, applications, and APIs globally with low latency. This repository is the short-form profile for AWS CloudFront; the canonical AWS service profile lives at amazon-cloudfront in the API Evangelist Network. C…
   api_count: 7
-  score_band: emerging
-  score_composite: 29.2
+  score_band: thin
+  score_composite: 32.5
   shared: 1
 - slug: amazon-web-services
   name: Amazon Web Services
@@ -121,7 +128,7 @@ related:
 overview: 'Network is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [network.apievangelist.com](https://network.apievangelist.com).
 
 
-  13 providers on the network work in this area, including Shodan, AT&T, Orange, Azure Load Balancer, Lumen Technologies, systemd, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  14 providers on the network work in this area, including Shodan, AT&T, AT&T, Azure Load Balancer, Orange, Lumen Technologies, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Internet of Things, Caching, API Evangelist Search, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

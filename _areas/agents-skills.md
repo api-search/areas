@@ -6,8 +6,22 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 37
+provider_count: 38
 providers:
+- slug: smithery-ai
+  name: Smithery
+  description: Smithery is an MCP server registry and hosting platform that lets developers discover, publish, and connect to Model Context Protocol servers from any AI agent. The platform combines a public registry of thousands of community MCP servers with a managed gateway that handles OAuth, credential storag…
+  api_count: 9
+  score_band: strong
+  score_composite: 61.4
+  shared: 1
+- slug: smithery
+  name: Smithery
+  description: Smithery is a platform for discovering, deploying, and managing Model Context Protocol (MCP) servers and skills. It operates a public registry of community-built MCP extensions that AI agents can use to access external tools, data sources, and services, plus a Connect gateway that bundles connectio…
+  api_count: 9
+  score_band: strong
+  score_composite: 60.1
+  shared: 1
 - slug: 360learning
   name: 360Learning
   description: '360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automate the platform: provision and activate users, organize them…'
@@ -28,20 +42,6 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 57.9
-  shared: 1
-- slug: smithery-ai
-  name: Smithery
-  description: Smithery is an MCP server registry and hosting platform that lets developers discover, publish, and connect to Model Context Protocol servers from any AI agent. The platform combines a public registry of thousands of community MCP servers with a managed gateway that handles OAuth, credential storag…
-  api_count: 9
-  score_band: developing
-  score_composite: 55.9
-  shared: 1
-- slug: smithery
-  name: Smithery
-  description: Smithery is a platform for discovering, deploying, and managing Model Context Protocol (MCP) servers and skills. It operates a public registry of community-built MCP extensions that AI agents can use to access external tools, data sources, and services, plus a Connect gateway that bundles connectio…
-  api_count: 9
-  score_band: developing
-  score_composite: 54.6
   shared: 1
 - slug: phenom
   name: Phenom
@@ -64,6 +64,13 @@ providers:
   score_band: thin
   score_composite: 44.9
   shared: 1
+- slug: cursor
+  name: Cursor
+  description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
+  api_count: 10
+  score_band: thin
+  score_composite: 43.9
+  shared: 1
 - slug: sitefire
   name: Sitefire
   description: Sitefire is a Generative Engine Optimization (GEO) platform — the marketing suite for the agentic web and a self-described System of Record for AI visibility. It monitors how AI models (ChatGPT, Gemini, Perplexity, DeepSeek, Google AI Mode and AI Overviews) mention and cite a brand across tracked t…
@@ -71,12 +78,12 @@ providers:
   score_band: thin
   score_composite: 42.7
   shared: 1
-- slug: cursor
-  name: Cursor
-  description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
-  api_count: 10
+- slug: windsurf
+  name: Windsurf
+  description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
+  api_count: 8
   score_band: thin
-  score_composite: 40.6
+  score_composite: 40.7
   shared: 1
 - slug: gloat
   name: Gloat
@@ -91,13 +98,6 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 38.3
-  shared: 1
-- slug: windsurf
-  name: Windsurf
-  description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
-  api_count: 8
-  score_band: thin
-  score_composite: 37.5
   shared: 1
 - slug: nexad
   name: Nexad
@@ -133,6 +133,13 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 27.1
+  shared: 1
+- slug: legal-and-general
+  name: Legal & General
+  description: Legal & General Group plc is a FTSE 100 United Kingdom life insurer, retirement and institutional asset manager headquartered in London and regulated by the FCA and PRA. Its lines of business are life and protection insurance (term life, critical illness, income protection), workplace and individua…
+  api_count: 0
+  score_band: emerging
+  score_composite: 26.3
   shared: 1
 - slug: numeric
   name: Numeric
@@ -211,28 +218,21 @@ providers:
   score_band: emerging
   score_composite: 18.5
   shared: 1
-- slug: intrinsic-ai
-  name: Intrinsic
-  description: Intrinsic is a Mountain View, California industrial robotics software company spun out of Alphabet's X "moonshot factory" and led by CEO Wendy Tan White. Its mission is to make industrial robots radically easier to program, use, and innovate with so that automation is accessible to a much broader r…
-  api_count: 0
-  score_band: emerging
-  score_composite: 17.9
-  shared: 1
 related:
 - slug: ide
   name: IDE
   shared: 2
+- slug: agents
+  name: Agents
+  shared: 1
 - slug: logging
   name: Logging
-  shared: 1
-- slug: monitoring
-  name: Monitoring
   shared: 1
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
-  30 providers on the network work in this area, including 360Learning, Lightrun, Bitpanda, Smithery, Smithery, Phenom, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Smithery, Smithery, 360Learning, Lightrun, Bitpanda, Phenom, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: IDE, Logging, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: IDE, Agents, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

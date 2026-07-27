@@ -13,7 +13,28 @@ providers:
   description: Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. It provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards.
   api_count: 11
   score_band: exemplar
-  score_composite: 72.4
+  score_composite: 75.6
+  shared: 1
+- slug: grafana
+  name: Grafana
+  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
+  api_count: 138
+  score_band: exemplar
+  score_composite: 70.3
+  shared: 1
+- slug: amazon-quicksight
+  name: Amazon QuickSight
+  description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
+  api_count: 2
+  score_band: exemplar
+  score_composite: 70.2
+  shared: 1
+- slug: google-data-studio
+  name: Google Data Studio
+  description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sources and supports community connectors and visualizations for…
+  api_count: 6
+  score_band: strong
+  score_composite: 68.9
   shared: 1
 - slug: amazon-managed-grafana
   name: Amazon Managed Grafana
@@ -22,26 +43,12 @@ providers:
   score_band: strong
   score_composite: 68.7
   shared: 1
-- slug: grafana
-  name: Grafana
-  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
-  api_count: 138
-  score_band: strong
-  score_composite: 67.8
-  shared: 1
-- slug: google-data-studio
-  name: Google Data Studio
-  description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sources and supports community connectors and visualizations for…
-  api_count: 6
+- slug: qlik-sense
+  name: Qlik Sense
+  description: APIs for Qlik Sense, a business intelligence and data analytics platform providing engine, repository, cloud, embedding, and data integration capabilities.
+  api_count: 8
   score_band: strong
   score_composite: 66.9
-  shared: 1
-- slug: amazon-quicksight
-  name: Amazon QuickSight
-  description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
-  api_count: 2
-  score_band: strong
-  score_composite: 65.7
   shared: 1
 - slug: microsoft-visio
   name: Microsoft Visio
@@ -50,26 +57,19 @@ providers:
   score_band: strong
   score_composite: 65.1
   shared: 1
-- slug: qlik-sense
-  name: Qlik Sense
-  description: APIs for Qlik Sense, a business intelligence and data analytics platform providing engine, repository, cloud, embedding, and data integration capabilities.
-  api_count: 8
-  score_band: strong
-  score_composite: 64.9
-  shared: 1
 - slug: visio
   name: Microsoft Visio API
   description: Microsoft Visio provides APIs for creating, editing, and managing Visio diagrams and drawings. The Visio JavaScript API enables developers to build Office Add-ins that interact with Visio diagrams embedded in SharePoint Online pages, accessing document elements such as pages, shapes, hyperlinks, co…
   api_count: 8
   score_band: strong
-  score_composite: 60.8
+  score_composite: 64.0
   shared: 1
 - slug: elastic
   name: Elastic
   description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
   api_count: 12
   score_band: developing
-  score_composite: 50.8
+  score_composite: 54.1
   shared: 1
 - slug: napkin
   name: Napkin
@@ -85,6 +85,13 @@ providers:
   score_band: developing
   score_composite: 50.6
   shared: 1
+- slug: qlik-cloud
+  name: Qlik Cloud
+  description: Collection of APIs for Qlik Cloud platform, providing data integration, analytics, and visualization capabilities.
+  api_count: 13
+  score_band: developing
+  score_composite: 47.1
+  shared: 1
 - slug: kibana
   name: Kibana
   description: Kibana is an open-source data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence. Kibana provides histograms, line graphs, pie charts, heat maps, geospatial visualizations, dashboards, alerting, and management of saved obj…
@@ -92,40 +99,33 @@ providers:
   score_band: developing
   score_composite: 47.0
   shared: 1
-- slug: qlik-cloud
-  name: Qlik Cloud
-  description: Collection of APIs for Qlik Cloud platform, providing data integration, analytics, and visualization capabilities.
-  api_count: 13
-  score_band: developing
-  score_composite: 45.1
-  shared: 1
 - slug: lucidchart
   name: Lucidchart
   description: Lucidchart is a web-based intelligent diagramming application by Lucid Software, part of the Lucid Visual Collaboration Suite (Lucidchart, Lucidspark, Lucidscale). The Lucid Developer Platform exposes a REST API for documents/folders/collaborators/content, an Extension API for in-editor extensions,…
   api_count: 9
   score_band: thin
-  score_composite: 38.7
-  shared: 1
-- slug: apache-zeppelin
-  name: Apache Zeppelin
-  description: Apache Zeppelin is a web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala, Python, R, and more. It provides built-in data visualization, collaboration features, and interpreter integration with Apache Spark, JDBC, Python, R, Shell, and…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.5
+  score_composite: 41.9
   shared: 1
 - slug: windy
   name: Windy
   description: Windy.com is a weather visualization platform serving high-resolution forecast models, animated weather maps, and a global webcam network. The Windy API exposes three developer products - a Point Forecast API for multi-model numerical weather data at a coordinate, an embeddable Map Forecast API bas…
   api_count: 2
   score_band: thin
-  score_composite: 37.3
+  score_composite: 40.6
+  shared: 1
+- slug: apache-zeppelin
+  name: Apache Zeppelin
+  description: Apache Zeppelin is a web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala, Python, R, and more. It provides built-in data visualization, collaboration features, and interpreter integration with Apache Spark, JDBC, Python, R, Shell, and…
+  api_count: 1
+  score_band: thin
+  score_composite: 39.5
   shared: 1
 - slug: perses
   name: Perses
   description: Perses is an open-source monitoring and dashboarding tool designed as a modern alternative for visualizing time-series data with a focus on performance, extensibility, and GitOps. Perses exposes a REST API for managing dashboards, datasources, ephemeral dashboards, projects, roles, role bindings, s…
   api_count: 5
   score_band: thin
-  score_composite: 36.8
+  score_composite: 38.8
   shared: 1
 - slug: threejs
   name: Three.js
@@ -230,7 +230,7 @@ related:
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 
 
-  29 providers on the network work in this area, including Power BI, Amazon Managed Grafana, Grafana, Google Data Studio, Amazon QuickSight, Microsoft Visio, and 23 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  29 providers on the network work in this area, including Power BI, Grafana, Amazon QuickSight, Google Data Studio, Amazon Managed Grafana, Qlik Sense, and 23 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Design, Monitoring, Observability, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,8 +6,15 @@ description: 'An index and topic collection covering software licensing APIs acr
 area_url: https://licensing.apievangelist.com
 area_host: licensing.apievangelist.com
 icon: https://licensing.apievangelist.com/icon-thumb.png
-provider_count: 30
+provider_count: 31
 providers:
+- slug: 7digital
+  name: 7digital
+  description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
+  api_count: 23
+  score_band: strong
+  score_composite: 64.0
+  shared: 1
 - slug: replicated
   name: Replicated
   description: Replicated is a commercial software distribution platform that lets independent software vendors (ISVs) deliver and manage modern applications into complex, customer-controlled environments — including on-prem, self-hosted, and air-gapped networks with little or no outbound internet access. The pla…
@@ -15,33 +22,40 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
-- slug: 7digital
-  name: 7digital
-  description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
-  api_count: 23
-  score_band: strong
-  score_composite: 60.1
+- slug: acma
+  name: ACMA
+  description: The Australian Communications and Media Authority (ACMA) is the Commonwealth regulator for telecommunications, radiocommunications, broadcasting and online content in Australia. It issues carrier licences and apparatus and spectrum licences, maintains the Register of Radiocommunications Licences, a…
+  api_count: 2
+  score_band: developing
+  score_composite: 56.3
   shared: 1
 - slug: warner-music-group
   name: Warner Music Group
   description: Warner Music Group is one of the major record labels in the music industry, with recorded music and music publishing operations spanning a roster of artists, songwriters, and labels around the world. WMG includes Warner Records, Atlantic Records, Elektra Records, and Warner Chappell Music (one of t…
   api_count: 4
   score_band: developing
-  score_composite: 51.4
+  score_composite: 56.0
   shared: 1
 - slug: fossology
   name: FOSSology
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations through automated scanning, human clearing workflows, and SP…
   api_count: 15
   score_band: developing
-  score_composite: 48.0
+  score_composite: 52.2
   shared: 1
 - slug: shutterstock
   name: Shutterstock
   description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
   api_count: 10
   score_band: developing
-  score_composite: 46.4
+  score_composite: 51.9
+  shared: 1
+- slug: soundstripe
+  name: Soundstripe
+  description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
+  api_count: 7
+  score_band: thin
+  score_composite: 40.6
   shared: 1
 - slug: story-protocol
   name: Story Protocol
@@ -57,12 +71,12 @@ providers:
   score_band: thin
   score_composite: 37.3
   shared: 1
-- slug: soundstripe
-  name: Soundstripe
-  description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
-  api_count: 7
+- slug: getty
+  name: Getty Images
+  description: Getty Images is a premium stock media licensor of editorial and creative photography, illustrations, video, and music. The Getty Images API exposes search, asset metadata, and download endpoints for licensing partners and enterprise customers. Authentication is via API key + OAuth 2.0 client creden…
+  api_count: 5
   score_band: thin
-  score_composite: 37.3
+  score_composite: 35.9
   shared: 1
 - slug: fcc
   name: FCC (Federal Communications Commission)
@@ -70,13 +84,6 @@ providers:
   api_count: 9
   score_band: thin
   score_composite: 34.3
-  shared: 1
-- slug: getty
-  name: Getty Images
-  description: Getty Images is a premium stock media licensor of editorial and creative photography, illustrations, video, and music. The Getty Images API exposes search, asset metadata, and download endpoints for licensing partners and enterprise customers. Authentication is via API key + OAuth 2.0 client creden…
-  api_count: 5
-  score_band: thin
-  score_composite: 32.7
   shared: 1
 - slug: certifyos
   name: Certifyos
@@ -88,7 +95,7 @@ providers:
 - slug: occ
   name: Office of the Comptroller of the Currency (OCC)
   description: The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks. The OCC provides REST APIs and data tools for national bank and federal savings association data, C…
-  api_count: 4
+  api_count: 3
   score_band: emerging
   score_composite: 26.2
   shared: 1
@@ -137,7 +144,7 @@ providers:
 - slug: universal-music-group
   name: Universal Music Group
   description: 'Universal Music Group N.V. (UMG) is the world''s largest music company, headquartered in Hilversum, Netherlands with operational headquarters in Santa Monica, California. Spun off from Vivendi and listed on Euronext Amsterdam (ticker: UMG) on September 21, 2021 at a EUR 54 billion valuation, UMG ope…'
-  api_count: 8
+  api_count: 5
   score_band: emerging
   score_composite: 15.3
   shared: 1
@@ -211,13 +218,6 @@ providers:
   score_band: minimal
   score_composite: 6.8
   shared: 1
-- slug: peerless-systems
-  name: Peerless Systems
-  description: Peerless Systems Corporation is a technology company that describes itself as a leader in embedded imaging solutions. Historically focused on embedded imaging and printing controller technology and intellectual-property licensing for digital document, printer, and multifunction-device OEMs, the com…
-  api_count: 0
-  score_band: minimal
-  score_composite: 6.8
-  shared: 1
 related:
 - slug: regulation
   name: Regulation
@@ -225,7 +225,7 @@ related:
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Replicated, 7digital, Warner Music Group, FOSSology, Shutterstock, Story Protocol, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including 7digital, Replicated, ACMA, Warner Music Group, FOSSology, Shutterstock, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Regulation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

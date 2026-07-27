@@ -8,19 +8,40 @@ area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
 provider_count: 90
 providers:
-- slug: autodesk
-  name: Autodesk
-  description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction pr…
-  api_count: 69
-  score_band: exemplar
-  score_composite: 73.3
-  shared: 1
 - slug: figma
   name: Figma
   description: Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.
   api_count: 16
   score_band: exemplar
-  score_composite: 73.0
+  score_composite: 77.7
+  shared: 1
+- slug: autodesk
+  name: Autodesk
+  description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction pr…
+  api_count: 69
+  score_band: exemplar
+  score_composite: 75.8
+  shared: 1
+- slug: adobe-creative-cloud
+  name: Adobe Creative Cloud
+  description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
+  api_count: 24
+  score_band: strong
+  score_composite: 66.8
+  shared: 1
+- slug: adobe-creative-suite
+  name: Adobe Creative Suite
+  description: Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography.
+  api_count: 38
+  score_band: strong
+  score_composite: 66.2
+  shared: 1
+- slug: canva
+  name: Canva
+  description: APIs for the Canva design platform, enabling developers to integrate Canva's design tools and functionality into their applications.
+  api_count: 12
+  score_band: strong
+  score_composite: 64.6
   shared: 1
 - slug: adobe-illustrator
   name: Adobe Illustrator
@@ -29,24 +50,10 @@ providers:
   score_band: strong
   score_composite: 64.5
   shared: 1
-- slug: adobe-creative-cloud
-  name: Adobe Creative Cloud
-  description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
-  api_count: 24
-  score_band: strong
-  score_composite: 62.5
-  shared: 1
-- slug: adobe-creative-suite
-  name: Adobe Creative Suite
-  description: Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography.
-  api_count: 38
-  score_band: strong
-  score_composite: 61.5
-  shared: 1
-- slug: canva
-  name: Canva
-  description: APIs for the Canva design platform, enabling developers to integrate Canva's design tools and functionality into their applications.
-  api_count: 12
+- slug: google-fonts
+  name: Google Fonts Developer
+  description: The Google Fonts Developer API provides programmatic access to the metadata for all font families served by Google Fonts. Developers can query for available font families, retrieve details about variants, subsets, and categories, access font file URLs, and work with variable font axis metadata. The…
+  api_count: 1
   score_band: strong
   score_composite: 60.8
   shared: 1
@@ -63,13 +70,6 @@ providers:
   api_count: 7
   score_band: developing
   score_composite: 57.4
-  shared: 1
-- slug: google-fonts
-  name: Google Fonts Developer
-  description: The Google Fonts Developer API provides programmatic access to the metadata for all font families served by Google Fonts. Developers can query for available font families, retrieve details about variants, subsets, and categories, access font file URLs, and work with variable font axis metadata. The…
-  api_count: 1
-  score_band: developing
-  score_composite: 56.2
   shared: 1
 - slug: zeplin
   name: Zeplin
@@ -92,6 +92,13 @@ providers:
   score_band: developing
   score_composite: 50.6
   shared: 1
+- slug: uml
+  name: UML
+  description: UML (Unified Modeling Language) is the standard modeling language for software architecture, system design, and technical documentation. Governed by the Object Management Group (OMG), UML defines a set of notation conventions and diagram types — class, sequence, activity, use case, state, component…
+  api_count: 3
+  score_band: developing
+  score_composite: 50.0
+  shared: 1
 - slug: autocad
   name: AutoCAD
   description: APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities through Autodesk Platform Services (APS, formerly Forge) and desktop development environments including AutoLISP, ObjectARX, .NET, and JavaScript.
@@ -106,19 +113,19 @@ providers:
   score_band: developing
   score_composite: 46.9
   shared: 1
-- slug: uml
-  name: UML
-  description: UML (Unified Modeling Language) is the standard modeling language for software architecture, system design, and technical documentation. Governed by the Object Management Group (OMG), UML defines a set of notation conventions and diagram types — class, sequence, activity, use case, state, component…
-  api_count: 3
-  score_band: developing
-  score_composite: 46.8
-  shared: 1
 - slug: adobe-suite
   name: Adobe Suite
   description: Collection of Adobe Creative Cloud and Experience Cloud APIs.
   api_count: 23
   score_band: developing
   score_composite: 45.8
+  shared: 1
+- slug: the-color-api
+  name: The Color API
+  description: Pass in any valid color and get conversion into any other format, the name of the color, placeholder images and a multitude of schemes.
+  api_count: 2
+  score_band: developing
+  score_composite: 45.7
   shared: 1
 - slug: penpot
   name: Penpot
@@ -127,12 +134,12 @@ providers:
   score_band: thin
   score_composite: 43.5
   shared: 1
-- slug: the-color-api
-  name: The Color API
-  description: Pass in any valid color and get conversion into any other format, the name of the color, placeholder images and a multitude of schemes.
-  api_count: 2
+- slug: havenly
+  name: Havenly
+  description: Havenly is an online interior-design platform that connects clients with professional designers for virtual and in-person home-decorating services. Clients take a style quiz, match with a designer, collaborate on 3D room renderings, and shop curated furniture and decor from partner brands at exclus…
+  api_count: 11
   score_band: thin
-  score_composite: 42.5
+  score_composite: 39.9
   shared: 1
 - slug: abstract
   name: Abstract
@@ -148,12 +155,12 @@ providers:
   score_band: thin
   score_composite: 38.7
   shared: 1
-- slug: havenly
-  name: Havenly
-  description: Havenly is an online interior-design platform that connects clients with professional designers for virtual and in-person home-decorating services. Clients take a style quiz, match with a designer, collaborate on 3D room renderings, and shop curated furniture and decor from partner brands at exclus…
-  api_count: 11
+- slug: recraft
+  name: Recraft
+  description: Recraft is an AI design platform offering raster and vector image generation, image editing, inpainting, background removal/generation, vectorization, upscaling, and style creation. The Recraft API is REST-based at https://external.api.recraft.ai/v1, compatible with the OpenAI Python client, and us…
+  api_count: 5
   score_band: thin
-  score_composite: 36.7
+  score_composite: 35.7
   shared: 1
 - slug: domestika
   name: Domestika
@@ -166,13 +173,6 @@ providers:
   name: Gamma
   description: 'Gamma (Gamma Tech, Inc.) is an AI-native productivity platform for creating presentations, documents, websites, and social posts from a prompt or from existing content. Its public Generate API lets developers programmatically produce and manage gammas: generate from scratch or from a template, poll…'
   api_count: 1
-  score_band: thin
-  score_composite: 32.5
-  shared: 1
-- slug: recraft
-  name: Recraft
-  description: Recraft is an AI design platform offering raster and vector image generation, image editing, inpainting, background removal/generation, vectorization, upscaling, and style creation. The Recraft API is REST-based at https://external.api.recraft.ai/v1, compatible with the OpenAI Python client, and us…
-  api_count: 5
   score_band: thin
   score_composite: 32.5
   shared: 1
@@ -222,6 +222,9 @@ related:
 - slug: visualization
   name: Visualization
   shared: 2
+- slug: ai-automation
+  name: AI Automation
+  shared: 1
 - slug: developer-experience
   name: Developer Experience
   shared: 1
@@ -231,8 +234,8 @@ related:
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Autodesk, Figma, Adobe Illustrator, Adobe Creative Cloud, Adobe Creative Suite, Canva, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Figma, Autodesk, Adobe Creative Cloud, Adobe Creative Suite, Canva, Adobe Illustrator, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Visualization, Developer Experience, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Visualization, AI Automation, Developer Experience, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

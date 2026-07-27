@@ -20,7 +20,7 @@ providers:
   description: ''
   api_count: 21
   score_band: strong
-  score_composite: 60.8
+  score_composite: 63.3
   shared: 1
 - slug: kentik
   name: Kentik
@@ -50,6 +50,13 @@ providers:
   score_band: developing
   score_composite: 48.8
   shared: 1
+- slug: incident-io
+  name: Incident.io
+  description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
+  api_count: 25
+  score_band: developing
+  score_composite: 45.6
+  shared: 1
 - slug: runwhen
   name: RunWhen
   description: RunWhen is an AI platform for building safe-for-production agents that triage alerts, remediate infrastructure, analyze cost, and answer questions about production systems. Engineering teams compose reusable "Skills" (CodeBundles) into agents that run standalone or from Claude, Cursor, and VS Code…
@@ -57,26 +64,19 @@ providers:
   score_band: developing
   score_composite: 45.1
   shared: 1
+- slug: mist-ai
+  name: Juniper Mist AI
+  description: Juniper Mist AI is the AI-driven enterprise networking platform that powers Juniper Networks' AI-Native Networking portfolio. Acquired by Juniper Networks in 2019, Mist pioneered cloud-native, microservices Wi-Fi and extended its AIOps approach across Wired Assurance (EX/QFX switches), WAN Assuranc…
+  api_count: 211
+  score_band: developing
+  score_composite: 45.0
+  shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
   description: Virtana (formerly Virtual Instruments) is an AI-powered hybrid infrastructure observability company whose platform monitors and optimizes performance, cost, and risk across on-premises, colocation, and cloud environments. The platform spans Infrastructure Observability, Container Observability, App…
   api_count: 3
   score_band: thin
   score_composite: 44.9
-  shared: 1
-- slug: mist-ai
-  name: Juniper Mist AI
-  description: Juniper Mist AI is the AI-driven enterprise networking platform that powers Juniper Networks' AI-Native Networking portfolio. Acquired by Juniper Networks in 2019, Mist pioneered cloud-native, microservices Wi-Fi and extended its AIOps approach across Wired Assurance (EX/QFX switches), WAN Assuranc…
-  api_count: 211
-  score_band: thin
-  score_composite: 43.7
-  shared: 1
-- slug: incident-io
-  name: Incident.io
-  description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
-  api_count: 25
-  score_band: thin
-  score_composite: 43.6
   shared: 1
 - slug: brownie
   name: IncidentFox (Brownie)
@@ -104,28 +104,35 @@ providers:
   description: Soda is a data quality platform that enables data testing, monitoring, and anomaly detection across data pipelines.
   api_count: 6
   score_band: thin
-  score_composite: 35.9
+  score_composite: 37.9
   shared: 1
 - slug: firehydrant
   name: FireHydrant
   description: FireHydrant is an incident management platform providing automated runbooks, status pages, and retrospective workflows.
   api_count: 16
   score_band: thin
-  score_composite: 35.7
+  score_composite: 37.7
   shared: 1
 - slug: elastic-observability
   name: Elastic Observability
   description: Elastic Observability provides unified logs, metrics, traces, and AI-driven anomaly detection built on the Elastic Stack.
   api_count: 5
   score_band: thin
-  score_composite: 35.1
+  score_composite: 37.1
   shared: 1
 - slug: metaplane
   name: Metaplane
   description: Metaplane is a data observability platform providing automated anomaly detection and data quality monitoring.
   api_count: 5
   score_band: thin
-  score_composite: 34.8
+  score_composite: 36.8
+  shared: 1
+- slug: rootly
+  name: Rootly
+  description: Rootly is an incident management platform that automates incident response workflows and integrates with existing tools.
+  api_count: 7
+  score_band: thin
+  score_composite: 35.9
   shared: 1
 - slug: coralogix
   name: Coralogix
@@ -134,26 +141,19 @@ providers:
   score_band: thin
   score_composite: 33.9
   shared: 1
-- slug: rootly
-  name: Rootly
-  description: Rootly is an incident management platform that automates incident response workflows and integrates with existing tools.
-  api_count: 7
-  score_band: thin
-  score_composite: 33.9
-  shared: 1
 - slug: chronosphere
   name: Chronosphere
   description: Chronosphere is a cloud-native observability platform for managing and controlling observability data at scale.
   api_count: 33
   score_band: thin
-  score_composite: 30.4
+  score_composite: 32.4
   shared: 1
 - slug: opsramp
   name: OpsRamp
   description: OpsRamp is an AIOps and IT operations management platform for hybrid infrastructure monitoring and management.
   api_count: 10
-  score_band: emerging
-  score_composite: 29.5
+  score_band: thin
+  score_composite: 31.5
   shared: 1
 - slug: carrot-labs
   name: Carrot Labs
@@ -174,7 +174,7 @@ providers:
   description: Keep is an open-source AIOps and alert management platform that unifies alerts from any monitoring tool, providing deduplication, correlation, enrichment, and workflow automation across observability, incident response, ticketing, and CMDB systems. The Keep REST API enables programmatic access to a…
   api_count: 27
   score_band: emerging
-  score_composite: 24.5
+  score_composite: 27.7
   shared: 1
 - slug: aruba-hpe
   name: HPE Aruba Networking
@@ -219,11 +219,11 @@ providers:
   score_composite: 21.5
   shared: 1
 related:
-- slug: logging
-  name: Logging
-  shared: 1
 - slug: observability
   name: Observability
+  shared: 2
+- slug: logging
+  name: Logging
   shared: 1
 - slug: performance
   name: Performance
@@ -234,5 +234,5 @@ overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://api
   30 providers on the network work in this area, including Logz.io, Honeycomb, Kentik, OpsMill, Deeptrace, Chamber, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Logging, Observability, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Logging, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

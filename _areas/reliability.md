@@ -13,21 +13,28 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 21
   score_band: exemplar
-  score_composite: 76.5
+  score_composite: 78.5
   shared: 1
 - slug: google-cloud-error-reporting
   name: Google Cloud Error Reporting
   description: Google Cloud Error Reporting groups and counts similar errors from cloud services and applications, reports new errors, and provides access to error groups and statistics. It automatically analyzes exceptions and displays them in a centralized interface with alerting, helping developers quickly ide…
   api_count: 1
-  score_band: developing
-  score_composite: 57.2
+  score_band: strong
+  score_composite: 61.8
   shared: 1
 - slug: chaos-mesh
   name: Chaos Mesh
   description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
   api_count: 7
   score_band: developing
-  score_composite: 53.1
+  score_composite: 56.5
+  shared: 1
+- slug: gremlin
+  name: Gremlin
+  description: Gremlin is a chaos engineering platform that helps teams build more resilient systems by running controlled failure experiments. It provides tools to simulate infrastructure failures, network issues, and resource exhaustion to identify and fix weaknesses before they cause real outages.
+  api_count: 55
+  score_band: developing
+  score_composite: 56.3
   shared: 1
 - slug: sonarly
   name: Sonarly
@@ -36,19 +43,19 @@ providers:
   score_band: developing
   score_composite: 52.5
   shared: 1
-- slug: gremlin
-  name: Gremlin
-  description: Gremlin is a chaos engineering platform that helps teams build more resilient systems by running controlled failure experiments. It provides tools to simulate infrastructure failures, network issues, and resource exhaustion to identify and fix weaknesses before they cause real outages.
-  api_count: 55
-  score_band: developing
-  score_composite: 52.4
-  shared: 1
 - slug: memfault
   name: Memfault
   description: Memfault is a device observability and reliability platform for connected products built on MCUs, embedded Linux, and Android. The Memfault Cloud ingests device data (coredumps, logs, metrics, reboots) and provides issue grouping, alerting, charting, fleet analytics, and over-the-air firmware updat…
   api_count: 20
   score_band: developing
-  score_composite: 46.3
+  score_composite: 49.5
+  shared: 1
+- slug: statuspage
+  name: Statuspage
+  description: Statuspage by Atlassian is a hosted status page and incident communication platform that helps companies communicate real-time service status, incident updates, scheduled maintenance, and component health to customers and internal stakeholders. It supports public and private pages, audience-specifi…
+  api_count: 4
+  score_band: thin
+  score_composite: 43.2
   shared: 1
 - slug: overops
   name: Overops
@@ -56,13 +63,6 @@ providers:
   api_count: 16
   score_band: thin
   score_composite: 42.1
-  shared: 1
-- slug: statuspage
-  name: Statuspage
-  description: Statuspage by Atlassian is a hosted status page and incident communication platform that helps companies communicate real-time service status, incident updates, scheduled maintenance, and component health to customers and internal stakeholders. It supports public and private pages, audience-specifi…
-  api_count: 4
-  score_band: thin
-  score_composite: 41.2
   shared: 1
 - slug: antithesis
   name: Antithesis
@@ -132,7 +132,7 @@ related:
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  15 providers on the network work in this area, including Svix, Google Cloud Error Reporting, Chaos Mesh, Sonarly, Gremlin, Memfault, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  15 providers on the network work in this area, including Svix, Google Cloud Error Reporting, Chaos Mesh, Gremlin, Sonarly, Memfault, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Command Line Interface, Logging, SaaS Management, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

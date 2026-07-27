@@ -13,7 +13,14 @@ providers:
   description: AWS Key Management Service (KMS) is a managed service that makes it easy to create and control the cryptographic keys used to protect your data, integrated with other AWS services to simplify encryption of data stored and managed in those services.
   api_count: 2
   score_band: exemplar
-  score_composite: 70.7
+  score_composite: 75.3
+  shared: 1
+- slug: google-cloud-kms
+  name: Google Cloud KMS
+  description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symmetric and asymmetric keys for securing data and workloads.
+  api_count: 3
+  score_band: strong
+  score_composite: 64.5
   shared: 1
 - slug: evervault
   name: Evervault
@@ -22,12 +29,12 @@ providers:
   score_band: strong
   score_composite: 64.3
   shared: 1
-- slug: google-cloud-kms
-  name: Google Cloud KMS
-  description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symmetric and asymmetric keys for securing data and workloads.
-  api_count: 3
+- slug: vault
+  name: HashiCorp Vault
+  description: HashiCorp Vault is an open source tool for securely storing and accessing secrets. A secret is anything you want to tightly control access to, such as API keys, passwords, certificates, and more. Vault provides a unified interface to any secret while providing tight access control via policies and…
+  api_count: 9
   score_band: strong
-  score_composite: 60.0
+  score_composite: 62.2
   shared: 1
 - slug: amazon-certificate-manager
   name: Amazon Certificate Manager
@@ -43,19 +50,26 @@ providers:
   score_band: developing
   score_composite: 57.6
   shared: 1
-- slug: vault
-  name: HashiCorp Vault
-  description: HashiCorp Vault is an open source tool for securely storing and accessing secrets. A secret is anything you want to tightly control access to, such as API keys, passwords, certificates, and more. Vault provides a unified interface to any secret while providing tight access control via policies and…
-  api_count: 9
-  score_band: developing
-  score_composite: 56.8
-  shared: 1
 - slug: signal
   name: Signal
   description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
   api_count: 14
   score_band: developing
-  score_composite: 52.1
+  score_composite: 55.4
+  shared: 1
+- slug: hashicorp-vault
+  name: HashiCorp Vault
+  description: HashiCorp Vault is a secrets management tool that provides secure storage, access control, and distribution of tokens, passwords, certificates, and encryption keys. It provides a unified interface to any secret while providing tight access control and recording a detailed audit log.
+  api_count: 9
+  score_band: developing
+  score_composite: 52.6
+  shared: 1
+- slug: digicert
+  name: Digicert
+  description: Digicert is a leading provider of digital security solutions, specializing in SSL/TLS certificates, PKI solutions, and website security. They help organizations of all sizes protect their websites, data, and communications from cyber threats by providing secure encryption and authentication service…
+  api_count: 9
+  score_band: developing
+  score_composite: 50.4
   shared: 1
 - slug: virtru
   name: Virtru
@@ -64,19 +78,12 @@ providers:
   score_band: developing
   score_composite: 50.4
   shared: 1
-- slug: hashicorp-vault
+- slug: hvault
   name: HashiCorp Vault
-  description: HashiCorp Vault is a secrets management tool that provides secure storage, access control, and distribution of tokens, passwords, certificates, and encryption keys. It provides a unified interface to any secret while providing tight access control and recording a detailed audit log.
-  api_count: 9
+  description: HashiCorp Vault secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets in modern computing. Vault handles leasing, key revocation, key rolling, and auditing. Through a unified API, users can access an encrypted Key/Value store and network encryp…
+  api_count: 28
   score_band: developing
-  score_composite: 49.3
-  shared: 1
-- slug: digicert
-  name: Digicert
-  description: Digicert is a leading provider of digital security solutions, specializing in SSL/TLS certificates, PKI solutions, and website security. They help organizations of all sizes protect their websites, data, and communications from cyber threats by providing secure encryption and authentication service…
-  api_count: 9
-  score_band: developing
-  score_composite: 48.4
+  score_composite: 48.9
   shared: 1
 - slug: infisical
   name: Infisical
@@ -99,12 +106,12 @@ providers:
   score_band: developing
   score_composite: 46.6
   shared: 1
-- slug: hvault
-  name: HashiCorp Vault
-  description: HashiCorp Vault secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets in modern computing. Vault handles leasing, key revocation, key rolling, and auditing. Through a unified API, users can access an encrypted Key/Value store and network encryp…
-  api_count: 28
+- slug: vpn
+  name: VPN
+  description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corporate networks, protecting privacy on public Wi-Fi, and bypass…
+  api_count: 6
   score_band: developing
-  score_composite: 46.4
+  score_composite: 46.1
   shared: 1
 - slug: blindinsight
   name: BlindInsight
@@ -119,13 +126,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 43.1
-  shared: 1
-- slug: vpn
-  name: VPN
-  description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corporate networks, protecting privacy on public Wi-Fi, and bypass…
-  api_count: 6
-  score_band: thin
-  score_composite: 42.8
   shared: 1
 - slug: sops
   name: SOPS
@@ -219,11 +219,11 @@ providers:
   score_composite: 16.6
   shared: 1
 related:
-- slug: bots
-  name: Bots
-  shared: 1
 - slug: privacy
   name: Privacy
+  shared: 2
+- slug: bots
+  name: Bots
   shared: 1
 - slug: security
   name: Security
@@ -231,8 +231,8 @@ related:
 overview: 'Encryption is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [encryption.apievangelist.com](https://encryption.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon KMS, Evervault, Google Cloud KMS, Amazon Certificate Manager, IronCore Labs, HashiCorp Vault, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon KMS, Google Cloud KMS, Evervault, HashiCorp Vault, Amazon Certificate Manager, IronCore Labs, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Bots, Privacy, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Privacy, Bots, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

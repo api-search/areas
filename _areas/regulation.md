@@ -6,21 +6,28 @@ description: Regulation encompasses the rules, laws, and standards established b
 area_url: https://regulation.apievangelist.com
 area_host: regulation.apievangelist.com
 icon: https://regulation.apievangelist.com/icon-thumb.png
-provider_count: 10
+provider_count: 11
 providers:
 - slug: fiscalnote
   name: FiscalNote
   description: FiscalNote is a policy intelligence platform that provides legislative, regulatory, and stakeholder data spanning Congress, all 50 U.S. states, and more than 100 countries. FiscalNote expanded its PolicyNote API to eliminate AI hallucinations in compliance workflows by providing primary-source veri…
   api_count: 13
   score_band: developing
-  score_composite: 55.7
+  score_composite: 58.5
   shared: 1
 - slug: kpmg
   name: KPMG
   description: KPMG is one of the Big Four professional services organizations, operating through a global network of independent member firms affiliated with KPMG International Limited, a private English company limited by guarantee that itself does not provide services to clients. The network spans more than 27…
   api_count: 4
   score_band: thin
-  score_composite: 34.2
+  score_composite: 37.4
+  shared: 1
+- slug: rics
+  name: RICS (Royal Institution of Chartered Surveyors)
+  description: RICS, the Royal Institution of Chartered Surveyors, is the British royal-chartered professional body founded in London in 1868 that qualifies, regulates and sets standards for surveyors, valuers and built-environment professionals worldwide, with the United Kingdom as its home market. In the proper…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.9
   shared: 1
 - slug: alcohol-and-tobacco-tax-and-trade-bureau
   name: Alcohol and Tobacco Tax and Trade Bureau
@@ -32,7 +39,7 @@ providers:
 - slug: occ
   name: Office of the Comptroller of the Currency (OCC)
   description: The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks. The OCC provides REST APIs and data tools for national bank and federal savings association data, C…
-  api_count: 4
+  api_count: 3
   score_band: emerging
   score_composite: 26.2
   shared: 1
@@ -85,7 +92,7 @@ related:
 overview: 'Regulation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [regulation.apievangelist.com](https://regulation.apievangelist.com).
 
 
-  10 providers on the network work in this area, including FiscalNote, KPMG, Alcohol and Tobacco Tax and Trade Bureau, Office of the Comptroller of the Currency (OCC), Committee on Foreign Investment in the United States, CCPA (California Consumer Privacy Act), and 4 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  11 providers on the network work in this area, including FiscalNote, KPMG, RICS (Royal Institution of Chartered Surveyors), Alcohol and Tobacco Tax and Trade Bureau, Office of the Comptroller of the Currency (OCC), Committee on Foreign Investment in the United States, and 5 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Licensing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

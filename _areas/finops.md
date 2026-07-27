@@ -19,71 +19,106 @@ providers:
   name: Vantage
   description: Vantage is a cloud cost management platform designed for modern engineering teams to monitor, optimize, and control their cloud infrastructure spending across multiple providers. The platform helps companies identify immediate cost savings through features like automated purchasing of savings plans…
   api_count: 25
-  score_band: strong
-  score_composite: 66.9
+  score_band: exemplar
+  score_composite: 71.6
   shared: 1
 - slug: cast-ai
   name: CAST AI
   description: CAST AI is an Application Performance Automation (APA) platform for Kubernetes that automates cost optimization, autoscaling, workload rightsizing, GPU/LLM workload placement, spot instance selection, and security posture analysis. The platform works across AWS, GCP, Azure, Oracle Cloud, IBM Cloud,…
   api_count: 17
   score_band: strong
-  score_composite: 63.6
+  score_composite: 69.1
   shared: 1
 - slug: choreo
   name: Choreo
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
   api_count: 16
   score_band: strong
-  score_composite: 62.9
-  shared: 1
-- slug: spot-by-netapp
-  name: Spot by NetApp
-  description: Spot by NetApp (formerly Spot by Flexera, originally Spotinst) is a cloud infrastructure optimization platform providing automated cost optimization, scaling, and intelligent management for cloud workloads across AWS, Azure, and GCP. The Spot platform includes Elastigroup for intelligent auto-scali…
-  api_count: 10
-  score_band: developing
-  score_composite: 59.4
+  score_composite: 67.1
   shared: 1
 - slug: cloudzero
   name: CloudZero
   description: CloudZero is a cloud cost intelligence and FinOps platform that automates the collection, allocation, and analysis of infrastructure spend to uncover waste and improve unit economics. The CloudZero API V2 is REST-oriented, uses API key authentication, and exposes endpoints for querying billing cost…
   api_count: 12
-  score_band: developing
-  score_composite: 57.7
+  score_band: strong
+  score_composite: 63.1
+  shared: 1
+- slug: spot-by-netapp
+  name: Spot by NetApp
+  description: Spot by NetApp (formerly Spot by Flexera, originally Spotinst) is a cloud infrastructure optimization platform providing automated cost optimization, scaling, and intelligent management for cloud workloads across AWS, Azure, and GCP. The Spot platform includes Elastigroup for intelligent auto-scali…
+  api_count: 10
+  score_band: strong
+  score_composite: 62.7
+  shared: 1
+- slug: finout
+  name: Finout
+  description: Finout is an enterprise-grade FinOps solution that helps companies easily allocate, manage and reduce their cloud spending across their entire infrastructure. We make costs easy to understand across any cloud infrastructure and scalefrom AI cost to Kubernetes. From Startups to enterprises, we turn…
+  api_count: 6
+  score_band: strong
+  score_composite: 60.6
+  shared: 1
+- slug: spacelift
+  name: Spacelift
+  description: Spacelift is an infrastructure-as-code (IaC) orchestration platform that combines AI-assisted deployments, GitOps pipelines, and policy-as-code governance. It supports Terraform, OpenTofu, Pulumi, CloudFormation, Kubernetes, and Ansible. Key features include drift detection, OPA-based policies, sel…
+  api_count: 2
+  score_band: strong
+  score_composite: 60.6
+  shared: 1
+- slug: cycloid
+  name: Cycloid
+  description: Cycloid is a unified Internal Developer Portal & Platform combining self-service Service Catalogs (Stacks and StackForms), Infrastructure as Code orchestration, multi-cloud asset inventory (Asset Inventory and InfraView), CI/CD pipeline centralization, FinOps and GreenOps cost / carbon dashboards,…
+  api_count: 8
+  score_band: strong
+  score_composite: 60.2
   shared: 1
 - slug: stigg
   name: Stigg
   description: Stigg is a product-led growth monetization platform providing REST and GraphQL APIs for managing pricing plans, entitlements, usage-based billing, feature flags, and subscription lifecycle. It serves as a monetization control layer for SaaS and AI products, enabling engineering teams to implement f…
   api_count: 9
   score_band: developing
-  score_composite: 57.6
-  shared: 1
-- slug: cycloid
-  name: Cycloid
-  description: Cycloid is a unified Internal Developer Portal & Platform combining self-service Service Catalogs (Stacks and StackForms), Infrastructure as Code orchestration, multi-cloud asset inventory (Asset Inventory and InfraView), CI/CD pipeline centralization, FinOps and GreenOps cost / carbon dashboards,…
-  api_count: 8
-  score_band: developing
-  score_composite: 57.0
-  shared: 1
-- slug: spacelift
-  name: Spacelift
-  description: Spacelift is an infrastructure-as-code (IaC) orchestration platform that combines AI-assisted deployments, GitOps pipelines, and policy-as-code governance. It supports Terraform, OpenTofu, Pulumi, CloudFormation, Kubernetes, and Ansible. Key features include drift detection, OPA-based policies, sel…
-  api_count: 2
-  score_band: developing
-  score_composite: 56.0
+  score_composite: 59.6
   shared: 1
 - slug: schematic
   name: Schematic
   description: Schematic is a feature and entitlement management platform for SaaS companies, providing pricing, packaging, and metering capabilities. It enables engineering and product teams to manage feature flags, define subscription plans, track feature usage, and control customer entitlements without code ch…
   api_count: 20
   score_band: developing
-  score_composite: 55.7
+  score_composite: 59.1
   shared: 1
-- slug: finout
-  name: Finout
-  description: Finout is an enterprise-grade FinOps solution that helps companies easily allocate, manage and reduce their cloud spending across their entire infrastructure. We make costs easy to understand across any cloud infrastructure and scalefrom AI cost to Kubernetes. From Startups to enterprises, we turn…
-  api_count: 6
+- slug: kion
+  name: Kion
+  description: Kion is a cloud operations platform that provides automated governance and FinOps capabilities across AWS, Azure, GCP, and OCI through a self-hosted deployment model. The platform consolidates multiple point solutions into a comprehensive system that helps organizations allocate and track cloud spe…
+  api_count: 25
   score_band: developing
-  score_composite: 55.2
+  score_composite: 57.4
+  shared: 1
+- slug: amnic
+  name: Amnic
+  description: Amnic is a cloud cost observability platform providing real-time cost monitoring, anomaly detection, and optimization for cloud and Kubernetes environments. Powered by context-aware AI agents, Amnic helps FinOps practitioners, engineering leads, and finance teams gain visibility into AWS, GCP, Azur…
+  api_count: 1
+  score_band: developing
+  score_composite: 56.3
+  shared: 1
+- slug: langwatch
+  name: LangWatch
+  description: LangWatch is an open-source LLM observability, evaluation, and AI agent testing platform. Built around OpenTelemetry-native tracing, LangWatch lets teams instrument LLM applications (LangChain, LangGraph, DSPy, OpenAI Agents, LiteLLM, Pydantic AI, CrewAI, AWS Bedrock, and more), run real-time and b…
+  api_count: 28
+  score_band: developing
+  score_composite: 54.6
+  shared: 1
+- slug: nops
+  name: nOps
+  description: nOps is an AI-powered cloud cost visibility and optimization platform that helps organizations reduce their AWS spending by 50% or more through autonomous management and automation. The platform provides 100% visibility into cloud costs across AWS, GCP, Azure, Kubernetes, GenAI, and SaaS applicatio…
+  api_count: 2
+  score_band: developing
+  score_composite: 54.0
+  shared: 1
+- slug: densify
+  name: Densify
+  description: Densify (now Kubex) provides a machine learning powered cloud and container optimization platform that continuously right-sizes resources to reduce cost and improve performance across Kubernetes, public cloud, and virtualized environments. The Densify REST API exposes optimization analysis, recomme…
+  api_count: 7
+  score_band: developing
+  score_composite: 53.8
   shared: 1
 - slug: amazon-billing-and-cost-management
   name: Amazon Billing And Cost Management
@@ -92,17 +127,17 @@ providers:
   score_band: developing
   score_composite: 53.5
   shared: 1
-- slug: langwatch
-  name: LangWatch
-  description: LangWatch is an open-source LLM observability, evaluation, and AI agent testing platform. Built around OpenTelemetry-native tracing, LangWatch lets teams instrument LLM applications (LangChain, LangGraph, DSPy, OpenAI Agents, LiteLLM, Pydantic AI, CrewAI, AWS Bedrock, and more), run real-time and b…
-  api_count: 28
-  score_band: developing
-  score_composite: 53.3
-  shared: 1
 - slug: amazon-compute-optimizer
   name: Amazon Compute Optimizer
   description: Amazon Compute Optimizer analyzes the configuration and utilization metrics of your AWS resources and provides recommendations to help you identify optimal AWS resource configurations. It uses machine learning to analyze historical utilization metrics and generates rightsizing recommendations for E…
   api_count: 21
+  score_band: developing
+  score_composite: 53.2
+  shared: 1
+- slug: snow-software
+  name: Snow Software
+  description: Snow Software (now Flexera Snow) is an IT asset and SaaS management platform providing visibility into software licenses, cloud spend, SaaS usage, and hardware assets across the enterprise. Snow Atlas is the cloud-native platform offering SAM (Software Asset Management), SaaS Management, Cloud Lice…
+  api_count: 31
   score_band: developing
   score_composite: 53.2
   shared: 1
@@ -113,40 +148,19 @@ providers:
   score_band: developing
   score_composite: 52.8
   shared: 1
-- slug: kion
-  name: Kion
-  description: Kion is a cloud operations platform that provides automated governance and FinOps capabilities across AWS, Azure, GCP, and OCI through a self-hosted deployment model. The platform consolidates multiple point solutions into a comprehensive system that helps organizations allocate and track cloud spe…
-  api_count: 25
-  score_band: developing
-  score_composite: 52.7
-  shared: 1
-- slug: amnic
-  name: Amnic
-  description: Amnic is a cloud cost observability platform providing real-time cost monitoring, anomaly detection, and optimization for cloud and Kubernetes environments. Powered by context-aware AI agents, Amnic helps FinOps practitioners, engineering leads, and finance teams gain visibility into AWS, GCP, Azur…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.1
-  shared: 1
-- slug: snow-software
-  name: Snow Software
-  description: Snow Software (now Flexera Snow) is an IT asset and SaaS management platform providing visibility into software licenses, cloud spend, SaaS usage, and hardware assets across the enterprise. Snow Atlas is the cloud-native platform offering SAM (Software Asset Management), SaaS Management, Cloud Lice…
-  api_count: 31
-  score_band: developing
-  score_composite: 51.2
-  shared: 1
-- slug: densify
-  name: Densify
-  description: Densify (now Kubex) provides a machine learning powered cloud and container optimization platform that continuously right-sizes resources to reduce cost and improve performance across Kubernetes, public cloud, and virtualized environments. The Densify REST API exposes optimization analysis, recomme…
-  api_count: 7
-  score_band: developing
-  score_composite: 50.5
-  shared: 1
 - slug: ternary
   name: Ternary
   description: Ternary is a multi-cloud FinOps platform providing cost visibility, anomaly detection, commitment management, forecasting, and Kubernetes cost allocation for cloud environments. Originally built for Google Cloud, Ternary now supports AWS, Azure, and other cloud providers through its Universal Spend…
   api_count: 6
   score_band: developing
-  score_composite: 50.5
+  score_composite: 52.5
+  shared: 1
+- slug: finops-foundation
+  name: FinOps Foundation
+  description: The FinOps Foundation aims to help organizations optimize their cloud spending and improve cloud financial management practices. By providing education, tools, and resources, the foundation equips teams with the skills and knowledge needed to effectively manage cloud costs.
+  api_count: 3
+  score_band: developing
+  score_composite: 51.2
   shared: 1
 - slug: revefi
   name: Revefi
@@ -155,12 +169,12 @@ providers:
   score_band: developing
   score_composite: 48.9
   shared: 1
-- slug: nops
-  name: nOps
-  description: nOps is an AI-powered cloud cost visibility and optimization platform that helps organizations reduce their AWS spending by 50% or more through autonomous management and automation. The platform provides 100% visibility into cloud costs across AWS, GCP, Azure, Kubernetes, GenAI, and SaaS applicatio…
-  api_count: 2
+- slug: harness-cloud-cost
+  name: Harness Cloud Cost Management
+  description: Harness Cloud Cost Management (CCM) provides intelligent cloud cost optimization with AI-driven recommendations, customizable cost perspectives, budgets, anomaly detection, and chargeback / showback through cost categories. CCM ingests cost data from AWS, Azure, GCP, and Kubernetes clusters and exp…
+  api_count: 6
   score_band: developing
-  score_composite: 48.5
+  score_composite: 48.4
   shared: 1
 - slug: devtron
   name: Devtron
@@ -169,12 +183,12 @@ providers:
   score_band: developing
   score_composite: 47.7
   shared: 1
-- slug: finops-foundation
-  name: FinOps Foundation
-  description: The FinOps Foundation aims to help organizations optimize their cloud spending and improve cloud financial management practices. By providing education, tools, and resources, the foundation equips teams with the skills and knowledge needed to effectively manage cloud costs.
-  api_count: 3
+- slug: opencost
+  name: OpenCost
+  description: An open source CNCF specification and reference implementation for real-time cost monitoring of Kubernetes infrastructure and cloud spending, enabling teams to measure, allocate, and optimize cloud costs across workloads.
+  api_count: 4
   score_band: developing
-  score_composite: 46.9
+  score_composite: 47.6
   shared: 1
 - slug: paigo
   name: Paigo
@@ -190,12 +204,12 @@ providers:
   score_band: developing
   score_composite: 46.7
   shared: 1
-- slug: harness-cloud-cost
-  name: Harness Cloud Cost Management
-  description: Harness Cloud Cost Management (CCM) provides intelligent cloud cost optimization with AI-driven recommendations, customizable cost perspectives, budgets, anomaly detection, and chargeback / showback through cost categories. CCM ingests cost data from AWS, Azure, GCP, and Kubernetes clusters and exp…
-  api_count: 6
+- slug: cloudhealth
+  name: CloudHealth
+  description: CloudHealth (now VMware Tanzu CloudHealth, owned by Broadcom) is a multi-cloud financial and operational management platform. It provides cost visibility, optimization recommendations, asset inventory, custom perspectives (groupings), policies, governance, and partner/MSP billing workflows across A…
+  api_count: 7
   score_band: developing
-  score_composite: 45.2
+  score_composite: 46.3
   shared: 1
 - slug: alphaus
   name: Alphaus
@@ -203,20 +217,6 @@ providers:
   api_count: 15
   score_band: developing
   score_composite: 45.1
-  shared: 1
-- slug: cloudhealth
-  name: CloudHealth
-  description: CloudHealth (now VMware Tanzu CloudHealth, owned by Broadcom) is a multi-cloud financial and operational management platform. It provides cost visibility, optimization recommendations, asset inventory, custom perspectives (groupings), policies, governance, and partner/MSP billing workflows across A…
-  api_count: 7
-  score_band: thin
-  score_composite: 44.3
-  shared: 1
-- slug: opencost
-  name: OpenCost
-  description: An open source CNCF specification and reference implementation for real-time cost monitoring of Kubernetes infrastructure and cloud spending, enabling teams to measure, allocate, and optimize cloud costs across workloads.
-  api_count: 4
-  score_band: thin
-  score_composite: 43.4
   shared: 1
 related:
 - slug: monetization
@@ -240,7 +240,7 @@ related:
 overview: 'FinOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [finops.apievangelist.com](https://finops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amberflo, Vantage, CAST AI, Choreo, Spot by NetApp, CloudZero, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amberflo, Vantage, CAST AI, Choreo, CloudZero, Spot by NetApp, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monetization, Observability, Unified APIs, and IDE. Browse every area at [areas.apis.io](https://apis.io/areas/).'

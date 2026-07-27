@@ -12,15 +12,43 @@ providers:
   name: Amazon Elastic Beanstalk
   description: AWS Elastic Beanstalk is a platform-as-a-service (PaaS) that makes it easy to deploy, manage, and scale web applications and services. You simply upload your code and Elastic Beanstalk automatically handles the deployment, capacity provisioning, load balancing, auto-scaling, and application health…
   api_count: 4
+  score_band: exemplar
+  score_composite: 74.0
+  shared: 1
+- slug: google-cloud-deploy
+  name: Google Cloud Deploy
+  description: Google Cloud Deploy is a managed continuous delivery service that automates the deployment of applications to Google Cloud target environments such as GKE, Cloud Run, and Anthos. It provides an opinionated delivery pipeline that promotes releases through a series of target environments with approva…
+  api_count: 4
   score_band: strong
-  score_composite: 68.6
+  score_composite: 67.8
+  shared: 1
+- slug: amazon-launch-wizard
+  name: Amazon Launch Wizard
+  description: AWS Launch Wizard is a service that guides you through the sizing, configuration, and deployment of enterprise applications on AWS, such as Microsoft SQL Server Always On and HANA-based SAP systems, without the need to manually identify and provision individual AWS resources.
+  api_count: 1
+  score_band: strong
+  score_composite: 67.3
   shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
   api_count: 13
   score_band: strong
-  score_composite: 63.8
+  score_composite: 67.0
+  shared: 1
+- slug: kubernetes
+  name: Kubernetes
+  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
+  api_count: 7
+  score_band: strong
+  score_composite: 65.9
+  shared: 1
+- slug: teamcity
+  name: TeamCity
+  description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing projects, build configurations, agents, and infrastructure.
+  api_count: 17
+  score_band: strong
+  score_composite: 64.0
   shared: 1
 - slug: laravel
   name: Laravel
@@ -29,26 +57,12 @@ providers:
   score_band: strong
   score_composite: 63.6
   shared: 1
-- slug: google-cloud-deploy
-  name: Google Cloud Deploy
-  description: Google Cloud Deploy is a managed continuous delivery service that automates the deployment of applications to Google Cloud target environments such as GKE, Cloud Run, and Anthos. It provides an opinionated delivery pipeline that promotes releases through a series of target environments with approva…
-  api_count: 4
-  score_band: strong
-  score_composite: 63.2
-  shared: 1
 - slug: upsun
   name: Upsun
   description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
   api_count: 50
   score_band: strong
   score_composite: 62.8
-  shared: 1
-- slug: amazon-launch-wizard
-  name: Amazon Launch Wizard
-  description: AWS Launch Wizard is a service that guides you through the sizing, configuration, and deployment of enterprise applications on AWS, such as Microsoft SQL Server Always On and HANA-based SAP systems, without the need to manually identify and provision individual AWS resources.
-  api_count: 1
-  score_band: strong
-  score_composite: 62.7
   shared: 1
 - slug: databricks-asset-bundles
   name: Databricks Asset Bundles
@@ -64,19 +78,40 @@ providers:
   score_band: strong
   score_composite: 62.0
   shared: 1
-- slug: kubernetes
-  name: Kubernetes
-  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
-  api_count: 7
+- slug: lunar-dev
+  name: Lunar.dev
+  description: Lunar.dev is an enterprise-grade gateway platform for AI governance and third-party API consumption control. It unifies an MCP Gateway, AI Gateway, and API Consumption Gateway into a single control point that gives organizations observability, access control, policy enforcement, quota management, r…
+  api_count: 5
   score_band: strong
-  score_composite: 61.3
+  score_composite: 60.9
   shared: 1
-- slug: teamcity
-  name: TeamCity
-  description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing projects, build configurations, agents, and infrastructure.
-  api_count: 17
+- slug: render
+  name: Render
+  description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, PostgreSQL databases, Redis/Key-Value stores, and persistent disks.…
+  api_count: 26
+  score_band: strong
+  score_composite: 60.3
+  shared: 1
+- slug: microsoft-azure-pipelines
+  name: Azure Pipelines
+  description: Azure Pipelines is a cloud service that you can use to automatically build and test your code project and make it available to other users. It works with just about any language or project type.
+  api_count: 11
+  score_band: strong
+  score_composite: 60.0
+  shared: 1
+- slug: dreamfactory
+  name: DreamFactory
+  description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
+  api_count: 16
   score_band: developing
-  score_composite: 59.4
+  score_composite: 59.8
+  shared: 1
+- slug: deno
+  name: Deno
+  description: Deno is a modern JavaScript and TypeScript runtime built on V8 that emphasizes security, simplicity, and developer productivity. It provides a comprehensive developer platform including the Deno Deploy serverless edge network, a built-in key-value store, and a standard library of audited modules, a…
+  api_count: 11
+  score_band: developing
+  score_composite: 59.3
   shared: 1
 - slug: nuon
   name: Nuon
@@ -85,33 +120,12 @@ providers:
   score_band: developing
   score_composite: 59.1
   shared: 1
-- slug: render
-  name: Render
-  description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, PostgreSQL databases, Redis/Key-Value stores, and persistent disks.…
-  api_count: 26
-  score_band: developing
-  score_composite: 58.1
-  shared: 1
-- slug: microsoft-azure-pipelines
-  name: Azure Pipelines
-  description: Azure Pipelines is a cloud service that you can use to automatically build and test your code project and make it available to other users. It works with just about any language or project type.
-  api_count: 11
-  score_band: developing
-  score_composite: 56.7
-  shared: 1
-- slug: lunar-dev
-  name: Lunar.dev
-  description: Lunar.dev is an enterprise-grade gateway platform for AI governance and third-party API consumption control. It unifies an MCP Gateway, AI Gateway, and API Consumption Gateway into a single control point that gives organizations observability, access control, policy enforcement, quota management, r…
-  api_count: 5
-  score_band: developing
-  score_composite: 56.7
-  shared: 1
 - slug: argo-cd
   name: Argo CD
   description: Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes that automates the deployment of applications by using Git repositories as the source of truth for defining the desired application state. It supports multiple config management tools (Helm, Kustomize, Jsonnet, plain YAML), mu…
   api_count: 13
   score_band: developing
-  score_composite: 56.5
+  score_composite: 58.5
   shared: 1
 - slug: codesphere
   name: Codesphere
@@ -134,20 +148,6 @@ providers:
   score_band: developing
   score_composite: 55.0
   shared: 1
-- slug: deno
-  name: Deno
-  description: Deno is a modern JavaScript and TypeScript runtime built on V8 that emphasizes security, simplicity, and developer productivity. It provides a comprehensive developer platform including the Deno Deploy serverless edge network, a built-in key-value store, and a standard library of audited modules, a…
-  api_count: 11
-  score_band: developing
-  score_composite: 54.7
-  shared: 1
-- slug: dreamfactory
-  name: DreamFactory
-  description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
-  api_count: 16
-  score_band: developing
-  score_composite: 54.3
-  shared: 1
 - slug: bentoml
   name: BentoML
   description: BentoML is an open-source unified inference platform for building, packaging, and deploying machine learning models as scalable REST API services. Developers define services using Python class decorators that automatically expose model inference logic as HTTP endpoints. BentoCloud, the managed clou…
@@ -155,19 +155,26 @@ providers:
   score_band: developing
   score_composite: 53.2
   shared: 1
+- slug: microsoft-bicep
+  name: Microsoft Bicep
+  description: Microsoft Bicep is a domain-specific language (DSL) that uses declarative syntax to deploy Azure resources. It provides a transparent abstraction over ARM templates and offers a more concise syntax, improved type safety, and better support for modularity and code reuse.
+  api_count: 5
+  score_band: developing
+  score_composite: 52.3
+  shared: 1
+- slug: baseten
+  name: Baseten
+  description: Baseten is a production inference platform for deploying and serving custom and pre-trained ML models. Offers a Model APIs catalog with OpenAI-compatible endpoints (DeepSeek, Qwen, GLM, Nemotron), dedicated deployments via Truss, autoscaling GPU compute, async/queue inference, training, chains (mul…
+  api_count: 3
+  score_band: developing
+  score_composite: 49.8
+  shared: 1
 - slug: alpic
   name: Alpic
   description: Alpic is the MCP-native cloud platform for building, deploying, monitoring, and distributing Model Context Protocol (MCP) servers and ChatGPT Apps. Its stack spans the open-source Skybridge TypeScript framework, the `alpic` CLI, Alpic Cloud (one-click deploy, multi-environment support, runtime and…
   api_count: 8
   score_band: developing
   score_composite: 49.3
-  shared: 1
-- slug: microsoft-bicep
-  name: Microsoft Bicep
-  description: Microsoft Bicep is a domain-specific language (DSL) that uses declarative syntax to deploy Azure resources. It provides a transparent abstraction over ARM templates and offers a more concise syntax, improved type safety, and better support for modularity and code reuse.
-  api_count: 5
-  score_band: developing
-  score_composite: 49.1
   shared: 1
 - slug: semaphore
   name: Semaphore
@@ -183,47 +190,40 @@ providers:
   score_band: developing
   score_composite: 47.8
   shared: 1
-- slug: baseten
-  name: Baseten
-  description: Baseten is a production inference platform for deploying and serving custom and pre-trained ML models. Offers a Model APIs catalog with OpenAI-compatible endpoints (DeepSeek, Qwen, GLM, Nemotron), dedicated deployments via Truss, autoscaling GPU compute, async/queue inference, training, chains (mul…
-  api_count: 3
-  score_band: developing
-  score_composite: 46.6
-  shared: 1
 - slug: scalable-platforms
   name: Scalable Platforms
   description: A subject-matter collection covering APIs, tools, and platforms for building and deploying scalable platform infrastructure. This topic encompasses Platform-as-a-Service (PaaS) providers, developer experience platforms, deployment automation, serverless computing, container platforms, and the tools…
   api_count: 7
   score_band: developing
-  score_composite: 46.0
-  shared: 1
-- slug: terminal-use
-  name: Terminal Use
-  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
-  api_count: 28
-  score_band: thin
-  score_composite: 43.8
-  shared: 1
-- slug: coolify
-  name: Coolify
-  description: Coolify is an open-source, self-hostable Platform-as-a-Service alternative to Vercel, Heroku, Netlify, and Railway. It lets you deploy static sites, APIs, full-stack applications, databases, and 280+ one-click services to any SSH-accessible server (VPS, bare-metal, Raspberry Pi, EC2, Hetzner, Digit…
-  api_count: 19
-  score_band: thin
-  score_composite: 43.6
+  score_composite: 46.7
   shared: 1
 - slug: render-com
   name: Render
   description: Render is a unified cloud application platform (PaaS) for building, deploying, and scaling web services, static sites, background workers, cron jobs, and one-off jobs alongside managed Postgres and Key Value (Redis-compatible) datastores. The Render REST API (https://api.render.com/v1) exposes almo…
   api_count: 17
+  score_band: developing
+  score_composite: 46.1
+  shared: 1
+- slug: coolify
+  name: Coolify
+  description: Coolify is an open-source, self-hostable Platform-as-a-Service alternative to Vercel, Heroku, Netlify, and Railway. It lets you deploy static sites, APIs, full-stack applications, databases, and 280+ one-click services to any SSH-accessible server (VPS, bare-metal, Raspberry Pi, EC2, Hetzner, Digit…
+  api_count: 19
+  score_band: developing
+  score_composite: 45.6
+  shared: 1
+- slug: scalable-inference-serving
+  name: Scalable Inference Serving
+  description: A collection of APIs, frameworks, and platforms for scalable machine learning model inference serving, deployment, and management. This includes the KServe Open Inference Protocol (the CNCF standard for model serving on Kubernetes), BentoML (developer packaging and serving), vLLM (high-throughput L…
+  api_count: 9
   score_band: thin
-  score_composite: 43.6
+  score_composite: 44.0
   shared: 1
 related:
 - slug: containers
   name: Containers
   shared: 3
-- slug: cli
-  name: Command Line Interface
+- slug: ai-automation
+  name: AI Automation
   shared: 1
 - slug: developer-experience
   name: Developer Experience
@@ -240,8 +240,8 @@ related:
 overview: 'Deployment is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deployment.apievangelist.com](https://deployment.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Elastic Beanstalk, AWS App Runner, Laravel, Google Cloud Deploy, Upsun, Amazon Launch Wizard, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Elastic Beanstalk, Google Cloud Deploy, Amazon Launch Wizard, AWS App Runner, Kubernetes, TeamCity, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, Command Line Interface, Developer Experience, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, AI Automation, Developer Experience, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

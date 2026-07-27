@@ -6,21 +6,35 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 98
+provider_count: 99
 providers:
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
   api_count: 115
   score_band: exemplar
-  score_composite: 75.6
+  score_composite: 76.8
   shared: 1
 - slug: cisco-webex
   name: Cisco Webex
   description: Cisco Webex is a comprehensive collaboration platform that provides video conferencing, team messaging, file sharing, and calling capabilities for businesses and teams. The Webex developer platform offers REST APIs, SDKs, and integrations for extending and automating collaboration workflows across…
   api_count: 21
   score_band: exemplar
-  score_composite: 71.9
+  score_composite: 74.4
+  shared: 1
+- slug: parcellab
+  name: parcelLab
+  description: parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the customer journey. The platform spans four modules — Convert (pr…
+  api_count: 8
+  score_band: exemplar
+  score_composite: 72.1
+  shared: 1
+- slug: amazon-pinpoint
+  name: Amazon Pinpoint
+  description: Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communications service that enables you to engage with customers across multiple messaging channels including email, SMS, push notifications, and voice messages. Note - AWS will end support for Amazon Pinpoint on October 30,…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 70.3
   shared: 1
 - slug: ringcentral
   name: RingCentral
@@ -29,61 +43,75 @@ providers:
   score_band: strong
   score_composite: 69.5
   shared: 1
-- slug: amazon-pinpoint
-  name: Amazon Pinpoint
-  description: Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communications service that enables you to engage with customers across multiple messaging channels including email, SMS, push notifications, and voice messages. Note - AWS will end support for Amazon Pinpoint on October 30,…
-  api_count: 6
-  score_band: strong
-  score_composite: 67.8
-  shared: 1
-- slug: parcellab
-  name: parcelLab
-  description: parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the customer journey. The platform spans four modules — Convert (pr…
-  api_count: 8
-  score_band: strong
-  score_composite: 66.7
-  shared: 1
 - slug: plivo
   name: Plivo
   description: Plivo is a global communications platform offering programmable Voice, Messaging (SMS/MMS/WhatsApp), SIP Trunking, Verify, and Lookup APIs, plus an AI Voice Agent platform. The HTTP API is available at https://api.plivo.com/v1/ with HTTP Basic Auth using Auth ID and Auth Token credentials.
   api_count: 24
   score_band: strong
-  score_composite: 65.6
+  score_composite: 66.4
   shared: 1
 - slug: zoom
   name: Zoom
   description: Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.
   api_count: 47
   score_band: strong
-  score_composite: 61.4
-  shared: 1
-- slug: sinch
-  name: Sinch
-  description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
-  api_count: 35
-  score_band: strong
-  score_composite: 61.0
+  score_composite: 66.1
   shared: 1
 - slug: bandwidth
   name: Bandwidth
   description: Bandwidth is a leading cloud-based communications platform providing voice, messaging, emergency calling, phone number management, multi-factor authentication, and toll-free verification APIs. Built on Bandwidth's own Tier 1 network, the platform delivers enterprise-grade reliability for CPaaS appl…
   api_count: 18
   score_band: strong
-  score_composite: 60.9
+  score_composite: 64.1
+  shared: 1
+- slug: sinch
+  name: Sinch
+  description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
+  api_count: 35
+  score_band: strong
+  score_composite: 63.5
+  shared: 1
+- slug: kudosity
+  name: Kudosity
+  description: Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, l…
+  api_count: 2
+  score_band: strong
+  score_composite: 62.2
   shared: 1
 - slug: telefon
   name: Telefon
   description: Telefon is a cloud-based programmable communications platform providing voice calling, SMS messaging, number management, and call recording APIs for developers and enterprises. The platform enables applications to make and receive phone calls, send SMS and MMS messages, manage phone number inventor…
   api_count: 7
+  score_band: strong
+  score_composite: 61.6
+  shared: 1
+- slug: zoom-phone
+  name: Zoom Phone
+  description: Zoom Phone is the cloud PBX / UCaaS voice product of Zoom Communications, headquartered in San Jose, California, and sold worldwide from its United States home market. It replaces on-premise telephony with a cloud calling service — extensions, auto receptionists, IVR, call queues, shared line group…
+  api_count: 3
   score_band: developing
-  score_composite: 58.3
+  score_composite: 59.8
   shared: 1
 - slug: cisco-webex-meetings
   name: Cisco Webex Meetings
   description: Cisco Webex Meetings is the meetings-focused subset of the Webex collaboration platform, providing scheduling, hosting, recording, transcription, and meeting administration capabilities through the Webex REST API. Authentication uses OAuth 2.0 access tokens, personal access tokens, or service apps…
   api_count: 14
   score_band: developing
-  score_composite: 57.0
+  score_composite: 59.0
+  shared: 1
+- slug: gotowebinar
+  name: GoToWebinar
+  description: GoToWebinar is GoTo's (formerly LogMeIn) webinar and virtual event platform. The GoToWebinar REST API lets developers create and manage webinars, organizers, registrants, attendees, sessions, panelists, co-organizers, polls, surveys, and recordings, and subscribe to real-time webhook events for reg…
+  api_count: 12
+  score_band: developing
+  score_composite: 58.6
+  shared: 1
+- slug: telesign
+  name: Telesign
+  description: Telesign provides a comprehensive suite of communications and security APIs enabling businesses to verify phone numbers, send SMS and voice messages, and assess fraud risk. Core offerings include SMS messaging, voice calls, multi-channel verification (OTP/MFA), phone number intelligence (PhoneID),…
+  api_count: 5
+  score_band: developing
+  score_composite: 58.0
   shared: 1
 - slug: zavu
   name: Zavu
@@ -91,13 +119,6 @@ providers:
   api_count: 21
   score_band: developing
   score_composite: 55.5
-  shared: 1
-- slug: gotowebinar
-  name: GoToWebinar
-  description: GoToWebinar is GoTo's (formerly LogMeIn) webinar and virtual event platform. The GoToWebinar REST API lets developers create and manage webinars, organizers, registrants, attendees, sessions, panelists, co-organizers, polls, surveys, and recordings, and subscribe to real-time webhook events for reg…
-  api_count: 12
-  score_band: developing
-  score_composite: 55.3
   shared: 1
 - slug: openphone
   name: OpenPhone
@@ -110,13 +131,6 @@ providers:
   name: Bird
   description: Bird (formerly MessageBird) is an omnichannel customer communications platform offering REST APIs for email, SMS, WhatsApp, RCS, push notifications, voice, and data management. Trusted by more than 450,000 developers, Bird provides enterprise-grade connectivity through a global carrier network alon…
   api_count: 10
-  score_band: developing
-  score_composite: 54.8
-  shared: 1
-- slug: telesign
-  name: Telesign
-  description: Telesign provides a comprehensive suite of communications and security APIs enabling businesses to verify phone numbers, send SMS and voice messages, and assess fraud risk. Core offerings include SMS messaging, voice calls, multi-channel verification (OTP/MFA), phone number intelligence (PhoneID),…
-  api_count: 5
   score_band: developing
   score_composite: 54.8
   shared: 1
@@ -139,7 +153,14 @@ providers:
   description: Whereby is an embeddable video API plus standalone meetings product that lets developers add browser-based, no-download video calls to their apps with a few lines of code or build deeply customized experiences via SDKs. The REST API at api.whereby.dev/v1 covers meetings, rooms, recordings, transcri…
   api_count: 8
   score_band: developing
-  score_composite: 51.4
+  score_composite: 52.1
+  shared: 1
+- slug: rainbow
+  name: Rainbow
+  description: Rainbow is a CPaaS platform from Alcatel-Lucent Enterprise (ALE) that lets developers enrich applications with chat, group chat, voice, video, file sharing, and telephony PBX features through more than 200 APIs, REST interfaces, and multi-language SDKs including Node.js, C#, iOS, and Android.
+  api_count: 7
+  score_band: developing
+  score_composite: 51.8
   shared: 1
 - slug: sendhub
   name: SendHub
@@ -169,19 +190,19 @@ providers:
   score_band: developing
   score_composite: 49.4
   shared: 1
-- slug: rainbow
-  name: Rainbow
-  description: Rainbow is a CPaaS platform from Alcatel-Lucent Enterprise (ALE) that lets developers enrich applications with chat, group chat, voice, video, file sharing, and telephony PBX features through more than 200 APIs, REST interfaces, and multi-language SDKs including Node.js, C#, iOS, and Android.
-  api_count: 7
+- slug: exotel
+  name: Exotel
+  description: Exotel is an Indian cloud telephony and customer-engagement (CPaaS) platform offering programmable voice, SMS, virtual numbers (ExoPhones), IVR/call flows, call campaigns, and call-center tooling. Its Twilio-style REST APIs place outbound calls (connect two numbers or connect a number to a call flo…
+  api_count: 6
   score_band: developing
-  score_composite: 48.6
+  score_composite: 49.1
   shared: 1
 - slug: nfon
   name: Nfon
   description: NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication.…
   api_count: 52
   score_band: developing
-  score_composite: 48.1
+  score_composite: 48.9
   shared: 1
 - slug: engagespark
   name: engageSPARK
@@ -190,33 +211,12 @@ providers:
   score_band: developing
   score_composite: 46.9
   shared: 1
-- slug: exotel
-  name: Exotel
-  description: Exotel is an Indian cloud telephony and customer-engagement (CPaaS) platform offering programmable voice, SMS, virtual numbers (ExoPhones), IVR/call flows, call campaigns, and call-center tooling. Its Twilio-style REST APIs place outbound calls (connect two numbers or connect a number to a call flo…
-  api_count: 6
-  score_band: developing
-  score_composite: 45.9
-  shared: 1
 - slug: phone-com
   name: Phone Com
   description: Phone.com is a cloud business phone and unified communications provider for small and mid-sized businesses, offering VoIP calling, SMS/MMS, video conferencing, fax, and virtual phone numbers. Its developer platform is the JSON REST v4 API (codenamed "Phoenix") at api.phone.com, which gives programm…
   api_count: 1
   score_band: developing
   score_composite: 45.5
-  shared: 1
-- slug: veritus
-  name: Veritus
-  description: Veritus (Veritus Agent) is a San Francisco fintech (Y Combinator S2025) building compliant, voice-first AI agents for the consumer-lending lifecycle - origination, servicing, and collections. Its omnichannel platform places AI voice calls, SMS, and email to borrowers, running every contact through…
-  api_count: 4
-  score_band: developing
-  score_composite: 45.0
-  shared: 1
-- slug: hustle
-  name: Hustle
-  description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and a…
-  api_count: 9
-  score_band: thin
-  score_composite: 44.2
   shared: 1
 related:
 - slug: authentication
@@ -228,7 +228,7 @@ related:
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Twilio, Cisco Webex, RingCentral, Amazon Pinpoint, parcelLab, Plivo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Cisco Webex, parcelLab, Amazon Pinpoint, RingCentral, Plivo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Authentication and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

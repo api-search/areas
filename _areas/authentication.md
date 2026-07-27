@@ -13,7 +13,35 @@ providers:
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
   api_count: 115
   score_band: exemplar
-  score_composite: 75.6
+  score_composite: 76.8
+  shared: 1
+- slug: active-directory
+  name: Microsoft Active Directory
+  description: Microsoft Active Directory and Microsoft Entra ID provide identity and access management for organizations of all sizes. Microsoft Graph API is the unified REST API gateway for accessing and managing Microsoft Entra ID (formerly Azure Active Directory), including users, groups, applications, device…
+  api_count: 14
+  score_band: exemplar
+  score_composite: 76.3
+  shared: 1
+- slug: kinde
+  name: Kinde
+  description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
+  api_count: 31
+  score_band: exemplar
+  score_composite: 75.1
+  shared: 1
+- slug: okta
+  name: Okta
+  description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Secur…
+  api_count: 28
+  score_band: exemplar
+  score_composite: 74.7
+  shared: 1
+- slug: propelauth
+  name: PropelAuth
+  description: PropelAuth is a B2B SaaS authentication and multi-tenant user management platform purpose-built for organizations that sell to other organizations. It provides hosted login UIs, first-class organizations / tenants with custom roles and permissions, enterprise SSO via SAML and OIDC, SCIM directory s…
+  api_count: 18
+  score_band: exemplar
+  score_composite: 72.3
   shared: 1
 - slug: auth0
   name: Auth0
@@ -22,26 +50,33 @@ providers:
   score_band: exemplar
   score_composite: 71.7
   shared: 1
-- slug: kinde
-  name: Kinde
-  description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
-  api_count: 31
+- slug: composio
+  name: Composio
+  description: Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router…
+  api_count: 38
   score_band: exemplar
-  score_composite: 71.6
+  score_composite: 71.0
   shared: 1
-- slug: okta
-  name: Okta
-  description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Secur…
-  api_count: 28
+- slug: stytch
+  name: Stytch
+  description: Stytch is an authentication and identity infrastructure provider. Its Consumer and B2B APIs cover passwordless authentication (Magic Links, OTP, OAuth, WebAuthn / Passkeys, TOTP), enterprise SSO (SAML / OIDC) and SCIM, sessions, M2M client-credentials tokens, and Device Fingerprinting / fraud defen…
+  api_count: 47
   score_band: exemplar
-  score_composite: 71.2
+  score_composite: 70.7
   shared: 1
-- slug: active-directory
-  name: Microsoft Active Directory
-  description: Microsoft Active Directory and Microsoft Entra ID provide identity and access management for organizations of all sizes. Microsoft Graph API is the unified REST API gateway for accessing and managing Microsoft Entra ID (formerly Azure Active Directory), including users, groups, applications, device…
-  api_count: 14
+- slug: tiktok-for-developers
+  name: TikTok for Developers
+  description: TikTok for Developers provides a suite of REST APIs enabling third-party platforms to integrate with TikTok's social video ecosystem. Products include Login Kit, Display API, Content Posting API, Research API, and the TikTok API for Business, supporting use cases from user authentication and video…
+  api_count: 8
   score_band: exemplar
-  score_composite: 70.8
+  score_composite: 70.6
+  shared: 1
+- slug: amazon-iam
+  name: Amazon IAM
+  description: Amazon Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users, groups, roles, and policies, and use permissions to allow and deny their access to AWS resources. IAM is a feature of your AWS account off…
+  api_count: 5
+  score_band: strong
+  score_composite: 69.3
   shared: 1
 - slug: aws-cognito
   name: Amazon Cognito
@@ -50,33 +85,33 @@ providers:
   score_band: strong
   score_composite: 68.9
   shared: 1
-- slug: composio
-  name: Composio
-  description: Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router…
-  api_count: 38
+- slug: clerk-com
+  name: Clerk
+  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
+  api_count: 76
   score_band: strong
   score_composite: 68.5
   shared: 1
-- slug: stytch
-  name: Stytch
-  description: Stytch is an authentication and identity infrastructure provider. Its Consumer and B2B APIs cover passwordless authentication (Magic Links, OTP, OAuth, WebAuthn / Passkeys, TOTP), enterprise SSO (SAML / OIDC) and SCIM, sessions, M2M client-credentials tokens, and Device Fingerprinting / fraud defen…
-  api_count: 47
+- slug: workos
+  name: WorkOS
+  description: WorkOS is the "Enterprise Ready" identity platform for B2B SaaS — providing AuthKit user management, enterprise SSO (SAML/OIDC), Directory Sync (SCIM 2.0), Multi-Factor Authentication, Audit Logs, Admin Portal, Fine-Grained Authorization (FGA, formerly Warrant), Radar bot/fraud protection, and an e…
+  api_count: 41
   score_band: strong
-  score_composite: 68.2
+  score_composite: 68.5
   shared: 1
-- slug: propelauth
-  name: PropelAuth
-  description: PropelAuth is a B2B SaaS authentication and multi-tenant user management platform purpose-built for organizations that sell to other organizations. It provides hosted login UIs, first-class organizations / tenants with custom roles and permissions, enterprise SSO via SAML and OIDC, SCIM directory s…
-  api_count: 18
+- slug: microsoft-entra
+  name: Microsoft Entra
+  description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
+  api_count: 17
   score_band: strong
-  score_composite: 68.1
+  score_composite: 67.3
   shared: 1
-- slug: tiktok-for-developers
-  name: TikTok for Developers
-  description: TikTok for Developers provides a suite of REST APIs enabling third-party platforms to integrate with TikTok's social video ecosystem. Products include Login Kit, Display API, Content Posting API, Research API, and the TikTok API for Business, supporting use cases from user authentication and video…
-  api_count: 8
+- slug: workday-security
+  name: Workday Security
+  description: Collection of Workday Security APIs for managing authentication, authorization, and security configurations including identity management, security groups, audit logging, privacy, and user activity monitoring.
+  api_count: 13
   score_band: strong
-  score_composite: 67.4
+  score_composite: 67.0
   shared: 1
 - slug: amazon-iam-identity-center
   name: Amazon IAM Identity Center
@@ -84,20 +119,6 @@ providers:
   api_count: 56
   score_band: strong
   score_composite: 66.9
-  shared: 1
-- slug: clerk-com
-  name: Clerk
-  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
-  api_count: 76
-  score_band: strong
-  score_composite: 66.0
-  shared: 1
-- slug: workos
-  name: WorkOS
-  description: WorkOS is the "Enterprise Ready" identity platform for B2B SaaS — providing AuthKit user management, enterprise SSO (SAML/OIDC), Directory Sync (SCIM 2.0), Multi-Factor Authentication, Audit Logs, Admin Portal, Fine-Grained Authorization (FGA, formerly Warrant), Radar bot/fraud protection, and an e…
-  api_count: 41
-  score_band: strong
-  score_composite: 66.0
   shared: 1
 - slug: beyond-identity
   name: Beyond Identity
@@ -113,26 +134,12 @@ providers:
   score_band: strong
   score_composite: 65.1
   shared: 1
-- slug: amazon-iam
-  name: Amazon IAM
-  description: Amazon Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users, groups, roles, and policies, and use permissions to allow and deny their access to AWS resources. IAM is a feature of your AWS account off…
-  api_count: 5
+- slug: forgerock
+  name: ForgeRock
+  description: ForgeRock, now part of Ping Identity, provides digital identity and access management solutions for secure authentication, authorization, and identity governance across cloud and hybrid environments.
+  api_count: 38
   score_band: strong
-  score_composite: 64.7
-  shared: 1
-- slug: microsoft-entra
-  name: Microsoft Entra
-  description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.
-  api_count: 17
-  score_band: strong
-  score_composite: 64.0
-  shared: 1
-- slug: workday-security
-  name: Workday Security
-  description: Collection of Workday Security APIs for managing authentication, authorization, and security configurations including identity management, security groups, audit logging, privacy, and user activity monitoring.
-  api_count: 13
-  score_band: strong
-  score_composite: 63.7
+  score_composite: 63.9
   shared: 1
 - slug: amazon-directory-service
   name: Amazon Directory Service
@@ -141,6 +148,13 @@ providers:
   score_band: strong
   score_composite: 63.1
   shared: 1
+- slug: neon
+  name: Neon
+  description: Neon is a serverless Postgres platform that provides fully managed, scalable PostgreSQL databases optimized for modern cloud and edge application development. Their developer platform offers management APIs, data APIs, authentication services, and serverless drivers for building and automating data…
+  api_count: 13
+  score_band: strong
+  score_composite: 63.0
+  shared: 1
 - slug: transmit-security
   name: Transmit Security
   description: Transmit Security provides the Mosaic platform, a comprehensive CIAM (Customer Identity and Access Management) solution offering REST APIs for passkey and WebAuthn authentication, fraud detection and risk-based access control, identity orchestration, identity verification, and user journey manageme…
@@ -148,26 +162,47 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 1
-- slug: forgerock
-  name: ForgeRock
-  description: ForgeRock, now part of Ping Identity, provides digital identity and access management solutions for secure authentication, authorization, and identity governance across cloud and hybrid environments.
-  api_count: 38
-  score_band: strong
-  score_composite: 61.4
-  shared: 1
 - slug: ios
   name: iOS
   description: iOS is Apple's mobile operating system and the developer platform behind iPhone apps. While the bulk of the iOS SDK is delivered as Swift / Objective-C client frameworks (UIKit, SwiftUI, MapKit, HealthKit, HomeKit, SiriKit, StoreKit, AppIntents, PassKit, WidgetKit, ActivityKit), Apple also exposes…
   api_count: 199
   score_band: strong
-  score_composite: 61.3
+  score_composite: 62.4
   shared: 1
-- slug: neon
-  name: Neon
-  description: Neon is a serverless Postgres platform that provides fully managed, scalable PostgreSQL databases optimized for modern cloud and edge application development. Their developer platform offers management APIs, data APIs, authentication services, and serverless drivers for building and automating data…
-  api_count: 13
+- slug: google-cloud-api-gateway
+  name: Google Cloud API Gateway
+  description: Google Cloud API Gateway enables you to provide secure access to your backend services through a well-defined REST API that is consistent across all of your services. It is a fully managed, pay-per-use gateway designed for serverless workloads, supporting Cloud Functions, Cloud Run, and App Engine…
+  api_count: 1
   score_band: strong
-  score_composite: 61.0
+  score_composite: 62.2
+  shared: 1
+- slug: google-cloud-endpoints
+  name: Google Cloud Endpoints
+  description: Google Cloud Endpoints is an API management system that helps you secure, monitor, analyze, and set quotas on your APIs using the same infrastructure Google uses for its own APIs. Endpoints works with the Extensible Service Proxy (ESP) or ESPv2 to provide API management capabilities including authe…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.8
+  shared: 1
+- slug: zitadel
+  name: Zitadel
+  description: Zitadel is an open source identity infrastructure platform providing secure authentication and user management with built-in support for OAuth 2.0, OpenID Connect, SAML 2.0, SCIM, FIDO2, and passkeys. It offers multi-tenancy, fine-grained authorization, and a comprehensive management API for buildi…
+  api_count: 11
+  score_band: strong
+  score_composite: 61.4
+  shared: 1
+- slug: unkey
+  name: Unkey
+  description: Unkey is the developer platform for modern APIs, providing globally distributed API key management, rate limiting, identity management, analytics, and deployment capabilities. The platform enables API providers to issue, verify, and revoke keys with metadata, expiration, usage credits, permissions,…
+  api_count: 8
+  score_band: strong
+  score_composite: 60.9
+  shared: 1
+- slug: google-firebase
+  name: Google Firebase
+  description: Google Firebase is a comprehensive app development platform that provides backend services, SDKs, and APIs for building and scaling mobile and web applications, including authentication, real-time databases, cloud messaging, hosting, and analytics.
+  api_count: 5
+  score_band: strong
+  score_composite: 60.2
   shared: 1
 - slug: civic
   name: Civic
@@ -176,52 +211,17 @@ providers:
   score_band: strong
   score_composite: 60.0
   shared: 1
-- slug: hanko
-  name: Hanko
-  description: Hanko is a passkey-first, open-source authentication platform that serves as a modern alternative to Auth0, Clerk, and WorkOS. It provides a REST API covering passkeys (WebAuthn/FIDO2), passwords, OAuth social login, SAML SSO, multi-factor authentication, and session management. Hanko is available…
-  api_count: 22
+- slug: microsoft-azure-active-directory
+  name: Microsoft Azure Active Directory
+  description: Microsoft Azure Active Directory (Azure AD), now Microsoft Entra ID, is Microsoft's cloud-based identity and access management service, which helps employees sign in and access resources.
+  api_count: 12
   score_band: developing
-  score_composite: 58.3
-  shared: 1
-- slug: slashid
-  name: SlashID
-  description: 'SlashID is a developer-first identity platform that provides REST APIs for passwordless authentication, multi-factor authentication, passkeys, and comprehensive user management across web and mobile applications. The platform offers three core modules: Identity Management for building authenticatio…'
-  api_count: 24
-  score_band: developing
-  score_composite: 58.0
-  shared: 1
-- slug: google-cloud-api-gateway
-  name: Google Cloud API Gateway
-  description: Google Cloud API Gateway enables you to provide secure access to your backend services through a well-defined REST API that is consistent across all of your services. It is a fully managed, pay-per-use gateway designed for serverless workloads, supporting Cloud Functions, Cloud Run, and App Engine…
-  api_count: 1
-  score_band: developing
-  score_composite: 57.6
-  shared: 1
-- slug: yubico
-  name: Yubico
-  description: Yubico is the security company behind the YubiKey hardware authentication device and the inventor of the Yubico One-Time Password (OTP). Its public developer surface centers on YubiCloud, a hosted REST service that verifies Yubico OTPs via a signed HTTPS request to api.yubico.com, alongside a broad…
-  api_count: 1
-  score_band: developing
-  score_composite: 57.6
-  shared: 1
-- slug: google-cloud-endpoints
-  name: Google Cloud Endpoints
-  description: Google Cloud Endpoints is an API management system that helps you secure, monitor, analyze, and set quotas on your APIs using the same infrastructure Google uses for its own APIs. Endpoints works with the Extensible Service Proxy (ESP) or ESPv2 to provide API management capabilities including authe…
-  api_count: 1
-  score_band: developing
-  score_composite: 57.2
-  shared: 1
-- slug: insforge
-  name: Insforge
-  description: InsForge is an open-source (Apache-2.0), agent-native cloud infrastructure platform built so that AI coding agents can provision and operate an entire backend end to end through a CLI and packaged agent skills instead of a human clicking through a dashboard. A single project bundles a Postgres data…
-  api_count: 11
-  score_band: developing
-  score_composite: 57.2
+  score_composite: 59.8
   shared: 1
 related:
 - slug: security
   name: Security
-  shared: 3
+  shared: 4
 - slug: agents
   name: Agents
   shared: 1
@@ -231,16 +231,16 @@ related:
 - slug: integrations
   name: Integrations
   shared: 1
+- slug: monitoring
+  name: Monitoring
+  shared: 1
 - slug: orchestration
   name: Orchestration
-  shared: 1
-- slug: privacy
-  name: Privacy
   shared: 1
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Twilio, Auth0, Kinde, Okta, Microsoft Active Directory, Amazon Cognito, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Microsoft Active Directory, Kinde, Okta, PropelAuth, Auth0, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Security, Agents, Communications, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'

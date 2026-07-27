@@ -8,6 +8,13 @@ area_host: virtualization.apievangelist.com
 icon: https://virtualization.apievangelist.com/icon-thumb.png
 provider_count: 34
 providers:
+- slug: nutanix
+  name: Nutanix
+  description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
+  api_count: 21
+  score_band: strong
+  score_composite: 67.8
+  shared: 1
 - slug: veritas-infoscale
   name: Veritas InfoScale
   description: APIs for Veritas InfoScale, an enterprise storage and availability management solution that provides high availability, disaster recovery, and storage management capabilities across physical, virtual, and cloud environments.
@@ -15,12 +22,12 @@ providers:
   score_band: strong
   score_composite: 66.8
   shared: 1
-- slug: nutanix
-  name: Nutanix
-  description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
-  api_count: 21
+- slug: citrix
+  name: Citrix
+  description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
+  api_count: 27
   score_band: strong
-  score_composite: 65.8
+  score_composite: 64.3
   shared: 1
 - slug: vmware
   name: VMware
@@ -29,12 +36,12 @@ providers:
   score_band: strong
   score_composite: 63.4
   shared: 1
-- slug: citrix
-  name: Citrix
-  description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
-  api_count: 27
+- slug: vagrant
+  name: Vagrant
+  description: Vagrant, by HashiCorp, is a tool for building and managing virtualized development environments. Their developer platform provides APIs and SDKs for interacting with Vagrant Cloud and the HCP Vagrant Box Registry, enabling automation of box lifecycle management, plugin development, and integration…
+  api_count: 7
   score_band: strong
-  score_composite: 61.8
+  score_composite: 61.1
   shared: 1
 - slug: apache-cloudstack
   name: Apache CloudStack
@@ -43,19 +50,26 @@ providers:
   score_band: strong
   score_composite: 60.2
   shared: 1
-- slug: vagrant
-  name: Vagrant
-  description: Vagrant, by HashiCorp, is a tool for building and managing virtualized development environments. Their developer platform provides APIs and SDKs for interacting with Vagrant Cloud and the HCP Vagrant Box Registry, enabling automation of box lifecycle management, plugin development, and integration…
-  api_count: 7
-  score_band: developing
-  score_composite: 59.1
-  shared: 1
 - slug: solaris-zones
   name: Solaris Zones
   description: API for managing Solaris Zones (containers) and virtualization on Oracle Solaris systems.
   api_count: 26
   score_band: developing
-  score_composite: 54.4
+  score_composite: 56.9
+  shared: 1
+- slug: google-cloud-vmware-engine
+  name: Google Cloud VMware Engine
+  description: Google Cloud VMware Engine is a fully managed service that lets you run VMware workloads natively on Google Cloud infrastructure. It provides dedicated, single-tenant VMware SDDC environments with vSphere, vSAN, NSX-T, and HCX, enabling seamless migration and management of VMware-based applications…
+  api_count: 3
+  score_band: developing
+  score_composite: 55.7
+  shared: 1
+- slug: openstack
+  name: OpenStack
+  description: Open source cloud computing platform for building and managing public and private clouds, providing infrastructure as a service (IaaS) through a set of interrelated services including Compute (Nova), Object Storage (Swift), Block Storage (Cinder), Networking (Neutron), Identity (Keystone), Image (G…
+  api_count: 22
+  score_band: developing
+  score_composite: 55.3
   shared: 1
 - slug: slide
   name: Slide
@@ -63,20 +77,6 @@ providers:
   api_count: 14
   score_band: developing
   score_composite: 52.3
-  shared: 1
-- slug: google-cloud-vmware-engine
-  name: Google Cloud VMware Engine
-  description: Google Cloud VMware Engine is a fully managed service that lets you run VMware workloads natively on Google Cloud infrastructure. It provides dedicated, single-tenant VMware SDDC environments with vSphere, vSAN, NSX-T, and HCX, enabling seamless migration and management of VMware-based applications…
-  api_count: 3
-  score_band: developing
-  score_composite: 51.1
-  shared: 1
-- slug: openstack
-  name: OpenStack
-  description: Open source cloud computing platform for building and managing public and private clouds, providing infrastructure as a service (IaaS) through a set of interrelated services including Compute (Nova), Object Storage (Swift), Block Storage (Cinder), Networking (Neutron), Identity (Keystone), Image (G…
-  api_count: 22
-  score_band: developing
-  score_composite: 50.8
   shared: 1
 - slug: smol-machines
   name: Smol Machines
@@ -90,14 +90,14 @@ providers:
   description: KubeVirt is a CNCF incubating project that extends Kubernetes to run traditional virtual machines alongside containers. It allows users to create, manage, and run VMs using the same Kubernetes APIs and tools used for containers. KubeVirt is ideal for migrating legacy workloads to Kubernetes without…
   api_count: 8
   score_band: developing
-  score_composite: 46.4
+  score_composite: 49.8
   shared: 1
 - slug: broadcom
   name: Broadcom
   description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
   api_count: 20
-  score_band: thin
-  score_composite: 44.4
+  score_band: developing
+  score_composite: 48.6
   shared: 1
 - slug: vers
   name: Vers
@@ -113,19 +113,19 @@ providers:
   score_band: thin
   score_composite: 38.6
   shared: 1
+- slug: incus
+  name: Incus
+  description: Incus is a modern open source system container and virtual machine manager maintained by LinuxContainers.org as a community-led fork of Canonical's LXD. It provides a unified experience for running and managing system containers and VMs across single hosts and clusters, with image-based deployment,…
+  api_count: 22
+  score_band: thin
+  score_composite: 36.1
+  shared: 1
 - slug: platform9
   name: Platform9
   description: Platform9 is an enterprise private cloud company whose flagship Private Cloud Director is a full-featured VMware alternative for running virtual machines and containers on your own hardware. Built on a hardened OpenStack and Kubernetes foundation, it delivers high availability, live migration, dyna…
   api_count: 1
   score_band: thin
   score_composite: 35.2
-  shared: 1
-- slug: incus
-  name: Incus
-  description: Incus is a modern open source system container and virtual machine manager maintained by LinuxContainers.org as a community-led fork of Canonical's LXD. It provides a unified experience for running and managing system containers and VMs across single hosts and clusters, with image-based deployment,…
-  api_count: 22
-  score_band: thin
-  score_composite: 34.1
   shared: 1
 - slug: parallels-swsoft
   name: Parallels (SWSoft)
@@ -141,6 +141,13 @@ providers:
   score_band: thin
   score_composite: 30.7
   shared: 1
+- slug: proxmox
+  name: Proxmox VE
+  description: Proxmox Virtual Environment (Proxmox VE) is an open-source server virtualization platform that combines KVM hypervisor and LXC containers, software-defined storage and networking, and clustering and high- availability features in a single web-managed solution. The Proxmox VE API exposes all platfor…
+  api_count: 5
+  score_band: emerging
+  score_composite: 29.3
+  shared: 1
 - slug: tintri
   name: Tintri
   description: 'Tintri, now part of DDN, builds intelligent enterprise data-management and storage infrastructure: the VMstore virtualization-aware storage platform, the Tintri Cloud Platform (TCP) and Cloud Engine (TCE), and the Tintri Global Center (TGC) management fabric. Tintri exposes a versioned, session-aut…'
@@ -154,13 +161,6 @@ providers:
   api_count: 10
   score_band: emerging
   score_composite: 28.5
-  shared: 1
-- slug: proxmox
-  name: Proxmox VE
-  description: Proxmox Virtual Environment (Proxmox VE) is an open-source server virtualization platform that combines KVM hypervisor and LXC containers, software-defined storage and networking, and clustering and high- availability features in a single web-managed solution. The Proxmox VE API exposes all platfor…
-  api_count: 5
-  score_band: emerging
-  score_composite: 26.1
   shared: 1
 - slug: nanovms
   name: NanoVMs
@@ -231,7 +231,7 @@ related:
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Veritas InfoScale, Nutanix, VMware, Citrix, Apache CloudStack, Vagrant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Nutanix, Veritas InfoScale, Citrix, VMware, Vagrant, Apache CloudStack, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Migration, Management, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'

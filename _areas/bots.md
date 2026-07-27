@@ -12,15 +12,15 @@ providers:
   name: Slack
   description: Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.
   api_count: 115
-  score_band: strong
-  score_composite: 68.4
+  score_band: exemplar
+  score_composite: 73.1
   shared: 1
 - slug: lichess
   name: Lichess
   description: Lichess is a free, ad-free, open-source online chess server operated by a French nonprofit and powered entirely by volunteers and donations. It serves millions of games per day with live play, tournaments, puzzles, studies, broadcasts, analysis, and a public API. The server (lila), engine library (…
   api_count: 23
-  score_band: developing
-  score_composite: 58.7
+  score_band: strong
+  score_composite: 64.2
   shared: 1
 - slug: zenzap
   name: ZenZap
@@ -29,19 +29,19 @@ providers:
   score_band: developing
   score_composite: 54.6
   shared: 1
+- slug: telegram
+  name: Telegram
+  description: Telegram is a cloud-based instant messaging and voice-over-IP service that provides a comprehensive Bot API for developers to build bots, automate workflows, send notifications, and create interactive experiences on the Telegram platform. The platform supports text messages, media sharing, payments…
+  api_count: 10
+  score_band: developing
+  score_composite: 53.6
+  shared: 1
 - slug: zoho-cliq
   name: Zoho Cliq
   description: Zoho Cliq is a team messaging and collaboration platform with a REST API for managing channels, bots, slash commands, message webhooks, and team communications. The API follows RESTful architecture principles with resource-oriented URLs, JSON request and response bodies, and standard HTTP verbs. It…
   api_count: 22
   score_band: developing
   score_composite: 53.3
-  shared: 1
-- slug: telegram
-  name: Telegram
-  description: Telegram is a cloud-based instant messaging and voice-over-IP service that provides a comprehensive Bot API for developers to build bots, automate workflows, send notifications, and create interactive experiences on the Telegram platform. The platform supports text messages, media sharing, payments…
-  api_count: 10
-  score_band: developing
-  score_composite: 50.9
   shared: 1
 - slug: highrise
   name: Highrise
@@ -54,8 +54,8 @@ providers:
   name: Microsoft Bot Framework
   description: Microsoft Bot Framework provides APIs and SDKs for building conversational AI bots that work across multiple channels including Teams, Slack, and custom applications.
   api_count: 6
-  score_band: thin
-  score_composite: 43.0
+  score_band: developing
+  score_composite: 45.0
   shared: 1
 - slug: kataai
   name: Kata.ai
@@ -64,19 +64,19 @@ providers:
   score_band: thin
   score_composite: 40.7
   shared: 1
+- slug: bot-butcher
+  name: Bot Butcher
+  description: Bot Butcher is an AI-powered spam detection API that uses a fine-tuned large language model to classify contact form submissions as spam or legitimate messages. The service analyzes messages within the context of what each website is about, providing context-aware classification with 99% reported a…
+  api_count: 2
+  score_band: thin
+  score_composite: 37.7
+  shared: 1
 - slug: hummingbot
   name: Hummingbot
   description: 'Hummingbot is an open source Python framework, maintained by the Hummingbot Foundation, that lets traders build and run automated, high-frequency crypto trading strategies across both centralized (CEX) and decentralized (DEX) venues. The project ships several developer-facing components: the Hummin…'
   api_count: 17
   score_band: thin
   score_composite: 36.8
-  shared: 1
-- slug: bot-butcher
-  name: Bot Butcher
-  description: Bot Butcher is an AI-powered spam detection API that uses a fine-tuned large language model to classify contact form submissions as spam or legitimate messages. The service analyzes messages within the context of what each website is about, providing context-aware classification with 99% reported a…
-  api_count: 2
-  score_band: thin
-  score_composite: 35.7
   shared: 1
 - slug: here-not-there-labs
   name: Here Not There Labs
@@ -99,19 +99,19 @@ providers:
   score_band: thin
   score_composite: 33.3
   shared: 1
+- slug: google-chat-integrations-for-workspace
+  name: Google Chat Integrations for Workspace
+  description: Google Chat is the messaging and collaboration platform built into Google Workspace, allowing teams to chat in direct messages, group conversations, and spaces with threaded discussions, file sharing, tasks, and Chat app integrations. The Google Chat REST API lets developers build Chat apps that se…
+  api_count: 8
+  score_band: thin
+  score_composite: 32.2
+  shared: 1
 - slug: alta5
   name: Alta5
   description: Alta5 is the technology brand of Option Alpha, LLC, a St. Petersburg, Florida company (founded 2010) that operates optionalpha.com, a no-code automated options-and-stock trading platform for retail traders. Users build "bots" from natural-language recipes that discover, backtest, and automate tradi…
   api_count: 0
   score_band: thin
   score_composite: 32.1
-  shared: 1
-- slug: google-chat-integrations-for-workspace
-  name: Google Chat Integrations for Workspace
-  description: Google Chat is the messaging and collaboration platform built into Google Workspace, allowing teams to chat in direct messages, group conversations, and spaces with threaded discussions, file sharing, tasks, and Chat app integrations. The Google Chat REST API lets developers build Chat apps that se…
-  api_count: 8
-  score_band: emerging
-  score_composite: 28.9
   shared: 1
 - slug: renovate-bot
   name: Renovate
@@ -141,7 +141,7 @@ related:
 overview: 'Bots is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [bots.apievangelist.com](https://bots.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Slack, Lichess, ZenZap, Zoho Cliq, Telegram, Highrise, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Slack, Lichess, ZenZap, Telegram, Zoho Cliq, Highrise, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Encryption. Browse every area at [areas.apis.io](https://apis.io/areas/).'

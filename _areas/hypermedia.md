@@ -19,8 +19,8 @@ providers:
   name: An API of Ice And Fire
   description: An API of Ice And Fire is the world's greatest source for quantified and structured data from the universe of A Song of Ice and Fire (and the HBO series Game of Thrones). The open, read-only REST API exposes Books, Characters, and Houses as hypermedia resources with HAL-style URL references, RFC 59…
   api_count: 4
-  score_band: emerging
-  score_composite: 29.2
+  score_band: thin
+  score_composite: 32.0
   shared: 1
 related: []
 overview: 'Hypermedia is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [hypermedia.apievangelist.com](https://hypermedia.apievangelist.com).

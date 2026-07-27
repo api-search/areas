@@ -13,28 +13,35 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 24
   score_band: exemplar
-  score_composite: 75.2
+  score_composite: 79.1
   shared: 1
 - slug: uipath
   name: UiPath
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
   api_count: 32
   score_band: exemplar
-  score_composite: 74.3
+  score_composite: 79.0
   shared: 1
 - slug: treblle
   name: Treblle
   description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
   api_count: 15
-  score_band: strong
-  score_composite: 68.0
+  score_band: exemplar
+  score_composite: 72.2
   shared: 1
 - slug: speakeasy
   name: Speakeasy
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
   api_count: 20
   score_band: strong
-  score_composite: 64.4
+  score_composite: 66.4
+  shared: 1
+- slug: teamcity
+  name: TeamCity
+  description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing projects, build configurations, agents, and infrastructure.
+  api_count: 17
+  score_band: strong
+  score_composite: 64.0
   shared: 1
 - slug: azure-test-labs
   name: Azure DevTest Labs
@@ -64,19 +71,19 @@ providers:
   score_band: developing
   score_composite: 59.9
   shared: 1
+- slug: reflect
+  name: Reflect
+  description: Reflect is an AI-powered automated end-to-end testing platform that enables teams to effortlessly create, execute, and troubleshoot automated browser tests. Reflect provides a no-code test recorder for capturing user workflows and a REST API for integrating test execution into CI/CD pipelines. Test…
+  api_count: 3
+  score_band: developing
+  score_composite: 59.6
+  shared: 1
 - slug: amazon-codebuild
   name: Amazon CodeBuild
   description: AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages. CodeBuild scales continuously and processes multiple builds concurrently so your builds are not left waiting in a queue. It supports popular build e…
   api_count: 47
   score_band: developing
   score_composite: 59.5
-  shared: 1
-- slug: teamcity
-  name: TeamCity
-  description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing projects, build configurations, agents, and infrastructure.
-  api_count: 17
-  score_band: developing
-  score_composite: 59.4
   shared: 1
 - slug: qa-wolf
   name: QA Wolf
@@ -92,12 +99,40 @@ providers:
   score_band: developing
   score_composite: 58.5
   shared: 1
+- slug: ambassador
+  name: Ambassador
+  description: Ambassador is a Kubernetes-native API Gateway built on Envoy Proxy, providing routing, load balancing, authentication, and observability for microservices.
+  api_count: 11
+  score_band: developing
+  score_composite: 58.2
+  shared: 1
+- slug: reqres
+  name: ReqRes
+  description: 'ReqRes (reqres.in) is a hosted REST API originally launched by Ben Howdle as a free no-auth fake-API surface for AJAX prototyping, tutorials, and frontend testing. As of the 2025 relaunch it operates as a freemium SaaS product: every request to /api/* and /app/* now requires an x-api-key header obt…'
+  api_count: 6
+  score_band: developing
+  score_composite: 58.2
+  shared: 1
 - slug: lambdatest
   name: LambdaTest
   description: LambdaTest (rebranding as TestMu AI) is a cloud-based AI-powered test execution platform that enables developers and QA teams to run Selenium, Cypress, Playwright, and Appium automation tests across 3,000+ browser and OS combinations at scale. The platform provides live interactive cross-browser an…
   api_count: 20
   score_band: developing
   score_composite: 57.6
+  shared: 1
+- slug: browserstack
+  name: BrowserStack
+  description: BrowserStack provides instant access to 3500+ real mobile devices and desktop browsers for testing web and mobile applications across different platforms and operating systems.
+  api_count: 22
+  score_band: developing
+  score_composite: 57.1
+  shared: 1
+- slug: insomnia
+  name: Insomnia
+  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
+  api_count: 4
+  score_band: developing
+  score_composite: 57.1
   shared: 1
 - slug: apigit
   name: APIGit
@@ -106,19 +141,12 @@ providers:
   score_band: developing
   score_composite: 56.8
   shared: 1
-- slug: reflect
-  name: Reflect
-  description: Reflect is an AI-powered automated end-to-end testing platform that enables teams to effortlessly create, execute, and troubleshoot automated browser tests. Reflect provides a no-code test recorder for capturing user workflows and a REST API for integrating test execution into CI/CD pipelines. Test…
-  api_count: 3
+- slug: chaos-mesh
+  name: Chaos Mesh
+  description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
+  api_count: 7
   score_band: developing
-  score_composite: 56.4
-  shared: 1
-- slug: ambassador
-  name: Ambassador
-  description: Ambassador is a Kubernetes-native API Gateway built on Envoy Proxy, providing routing, load balancing, authentication, and observability for microservices.
-  api_count: 11
-  score_band: developing
-  score_composite: 56.2
+  score_composite: 56.5
   shared: 1
 - slug: kubeshop
   name: Kubeshop
@@ -134,27 +162,6 @@ providers:
   score_band: developing
   score_composite: 55.3
   shared: 1
-- slug: browserstack
-  name: BrowserStack
-  description: BrowserStack provides instant access to 3500+ real mobile devices and desktop browsers for testing web and mobile applications across different platforms and operating systems.
-  api_count: 22
-  score_band: developing
-  score_composite: 55.1
-  shared: 1
-- slug: chaos-mesh
-  name: Chaos Mesh
-  description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
-  api_count: 7
-  score_band: developing
-  score_composite: 53.1
-  shared: 1
-- slug: insomnia
-  name: Insomnia
-  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
-  api_count: 4
-  score_band: developing
-  score_composite: 52.9
-  shared: 1
 - slug: emerge-tools
   name: Emerge Tools
   description: Emerge Tools is a mobile developer-tools platform used by teams at DoorDash, Square, and Duolingo to ship faster, smaller, better-performing iOS and Android apps. Its products include Size Analysis (monitor and reduce app size with PR alerts and competitor benchmarking), Snapshots (visual regressio…
@@ -162,12 +169,19 @@ providers:
   score_band: developing
   score_composite: 52.8
   shared: 1
-- slug: reqres
-  name: ReqRes
-  description: 'ReqRes (reqres.in) is a hosted REST API originally launched by Ben Howdle as a free no-auth fake-API surface for AJAX prototyping, tutorials, and frontend testing. As of the 2025 relaunch it operates as a freemium SaaS product: every request to /api/* and /app/* now requires an x-api-key header obt…'
-  api_count: 6
+- slug: test-cases
+  name: Test Cases
+  description: Structured scenarios that verify software functionality by defining inputs, execution conditions, and expected results to ensure quality and correctness. Test cases are the fundamental units of software testing that document what needs to be tested, the conditions under which the test runs, and the…
+  api_count: 9
   score_band: developing
-  score_composite: 52.8
+  score_composite: 52.5
+  shared: 1
+- slug: test-driven-development
+  name: Test-Driven Development
+  description: A software development approach where tests are written before the actual code, following a red-green-refactor cycle to ensure code quality and maintainability. TDD requires developers to write failing tests first, then write minimal code to make them pass, then refactor. It supports the full softw…
+  api_count: 5
+  score_band: developing
+  score_composite: 52.5
   shared: 1
 - slug: parea
   name: Parea AI
@@ -190,33 +204,19 @@ providers:
   score_band: developing
   score_composite: 50.8
   shared: 1
-- slug: http-toolkit
-  name: HTTP Toolkit
-  description: HTTP Toolkit is a beautiful, cross-platform, and open-source tool for debugging, testing, and building with HTTP(S) on Windows, Linux, and Mac. It provides a REST API for intercepting HTTP/HTTPS traffic, inspecting requests and responses, automated mocking and rewriting of API traffic, and integrat…
-  api_count: 4
+- slug: wiremock
+  name: WireMock
+  description: WireMock is an open source tool for mocking HTTP services and APIs. It enables developers to build stable, predictable development environments by creating mock APIs that simulate the behavior of real services. WireMock provides a comprehensive admin API for managing stub mappings, recording real t…
+  api_count: 6
   score_band: developing
-  score_composite: 49.4
-  shared: 1
-- slug: test-cases
-  name: Test Cases
-  description: Structured scenarios that verify software functionality by defining inputs, execution conditions, and expected results to ensure quality and correctness. Test cases are the fundamental units of software testing that document what needs to be tested, the conditions under which the test runs, and the…
-  api_count: 9
-  score_band: developing
-  score_composite: 49.3
-  shared: 1
-- slug: test-driven-development
-  name: Test-Driven Development
-  description: A software development approach where tests are written before the actual code, following a red-green-refactor cycle to ensure code quality and maintainability. TDD requires developers to write failing tests first, then write minimal code to make them pass, then refactor. It supports the full softw…
-  api_count: 5
-  score_band: developing
-  score_composite: 49.3
+  score_composite: 50.8
   shared: 1
 - slug: test-scripts
   name: Test Scripts
   description: Automated scripts used to verify software functionality, validate code behavior, and ensure quality through repeatable testing procedures. Test scripts encode testing logic in executable form, enabling continuous integration pipelines to run validation automatically on every code change. They suppo…
   api_count: 11
   score_band: developing
-  score_composite: 48.2
+  score_composite: 50.7
   shared: 1
 related:
 - slug: documentation
@@ -228,20 +228,20 @@ related:
 - slug: developer-experience
   name: Developer Experience
   shared: 2
-- slug: observability
-  name: Observability
-  shared: 2
 - slug: reliability
   name: Reliability
   shared: 1
 - slug: clients
   name: Clients
   shared: 1
+- slug: api-clients
+  name: API Clients
+  shared: 1
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, UiPath, Treblle, Speakeasy, Azure DevTest Labs, Coval, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, UiPath, Treblle, Speakeasy, TeamCity, Azure DevTest Labs, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Documentation, AI Automation, Developer Experience, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Documentation, AI Automation, Developer Experience, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

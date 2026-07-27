@@ -13,14 +13,14 @@ providers:
   description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
   api_count: 15
   score_band: strong
-  score_composite: 63.6
+  score_composite: 67.1
   shared: 1
 - slug: fieldwire
   name: Fieldwire
   description: ''
   api_count: 29
   score_band: strong
-  score_composite: 60.0
+  score_composite: 62.6
   shared: 1
 - slug: priceops
   name: PriceOps

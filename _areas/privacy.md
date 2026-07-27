@@ -6,21 +6,35 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 136
+provider_count: 137
 providers:
 - slug: amazon-macie
   name: Amazon Macie
   description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the discovery of sensitive data, such as personally identifiable…
   api_count: 24
   score_band: strong
-  score_composite: 64.6
+  score_composite: 69.2
+  shared: 1
+- slug: workday-security
+  name: Workday Security
+  description: Collection of Workday Security APIs for managing authentication, authorization, and security configurations including identity management, security groups, audit logging, privacy, and user activity monitoring.
+  api_count: 13
+  score_band: strong
+  score_composite: 67.0
   shared: 1
 - slug: didomi
   name: Didomi
   description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
   api_count: 37
   score_band: strong
-  score_composite: 64.5
+  score_composite: 66.7
+  shared: 1
+- slug: swetrix
+  name: Swetrix
+  description: Swetrix is an open source, privacy-focused web analytics platform that provides cookieless tracking, real-time dashboards, and GDPR-compliant analytics without collecting personal data. It offers a fully-featured REST API for tracking events, querying statistics, managing projects, and integrating…
+  api_count: 13
+  score_band: strong
+  score_composite: 66.6
   shared: 1
 - slug: fathom
   name: Fathom Analytics
@@ -29,19 +43,12 @@ providers:
   score_band: strong
   score_composite: 64.3
   shared: 1
-- slug: workday-security
-  name: Workday Security
-  description: Collection of Workday Security APIs for managing authentication, authorization, and security configurations including identity management, security groups, audit logging, privacy, and user activity monitoring.
-  api_count: 13
+- slug: bigid
+  name: BigID
+  description: BigID is a New York City-headquartered data security platform that combines Data Security Posture Management (DSPM), Data Loss Prevention (DLP), access governance, AI security & governance (AISPM), privacy automation, and a unified Data & AI Catalog. Founded in 2016 by Dimitri Sirota and Nimrod Vax…
+  api_count: 10
   score_band: strong
-  score_composite: 63.7
-  shared: 1
-- slug: swetrix
-  name: Swetrix
-  description: Swetrix is an open source, privacy-focused web analytics platform that provides cookieless tracking, real-time dashboards, and GDPR-compliant analytics without collecting personal data. It offers a fully-featured REST API for tracking events, querying statistics, managing projects, and integrating…
-  api_count: 13
-  score_band: strong
-  score_composite: 63.3
+  score_composite: 63.2
   shared: 1
 - slug: amazon-clean-rooms
   name: Amazon Clean Rooms
@@ -50,6 +57,20 @@ providers:
   score_band: strong
   score_composite: 62.0
   shared: 1
+- slug: haveibeenpwned
+  name: HaveIBeenPwned
+  description: Have I Been Pwned (HIBP) is Troy Hunt's free breach-notification and credential-exposure service. The HIBP API v3 lets clients search for email addresses, pastes, stealer-log entries, and monitored domains across the world's largest aggregated breach corpus. A separate free k-anonymity password loo…
+  api_count: 8
+  score_band: strong
+  score_composite: 61.5
+  shared: 1
+- slug: umami
+  name: Umami
+  description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full programmatic access to analytics data, website management, sess…
+  api_count: 7
+  score_band: strong
+  score_composite: 61.2
+  shared: 1
 - slug: millimetric
   name: Millimetric
   description: Millimetric is API-first, privacy-respecting web and product analytics for developers, indie startups ("vibe coders"), and AI agents. It captures events over a simple REST API (/v1/track, /v1/batch, /v1/identify, /v1/query, /v1/stats, /v1/sources), a ~1.8 KB browser SDK, and a zero-dependency Node…
@@ -57,12 +78,12 @@ providers:
   score_band: developing
   score_composite: 59.2
   shared: 1
-- slug: bigid
-  name: BigID
-  description: BigID is a New York City-headquartered data security platform that combines Data Security Posture Management (DSPM), Data Loss Prevention (DLP), access governance, AI security & governance (AISPM), privacy automation, and a unified Data & AI Catalog. Founded in 2016 by Dimitri Sirota and Nimrod Vax…
-  api_count: 10
+- slug: matomo
+  name: Matomo
+  description: Matomo is an open source web analytics platform that provides comprehensive website and application usage analytics with full data ownership. Formerly known as Piwik, it offers an alternative to Google Analytics with on-premise or cloud hosting options, ensuring complete control over analytics data…
+  api_count: 5
   score_band: developing
-  score_composite: 59.0
+  score_composite: 58.0
   shared: 1
 - slug: transcend-io
   name: Transcend
@@ -71,20 +92,6 @@ providers:
   score_band: developing
   score_composite: 58.0
   shared: 1
-- slug: haveibeenpwned
-  name: HaveIBeenPwned
-  description: Have I Been Pwned (HIBP) is Troy Hunt's free breach-notification and credential-exposure service. The HIBP API v3 lets clients search for email addresses, pastes, stealer-log entries, and monitored domains across the world's largest aggregated breach corpus. A separate free k-anonymity password loo…
-  api_count: 8
-  score_band: developing
-  score_composite: 56.0
-  shared: 1
-- slug: matomo
-  name: Matomo
-  description: Matomo is an open source web analytics platform that provides comprehensive website and application usage analytics with full data ownership. Formerly known as Piwik, it offers an alternative to Google Analytics with on-premise or cloud hosting options, ensuring complete control over analytics data…
-  api_count: 5
-  score_band: developing
-  score_composite: 56.0
-  shared: 1
 - slug: certifaction
   name: Certifaction
   description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electroni…'
@@ -92,12 +99,12 @@ providers:
   score_band: developing
   score_composite: 55.9
   shared: 1
-- slug: umami
-  name: Umami
-  description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full programmatic access to analytics data, website management, sess…
-  api_count: 7
+- slug: signal
+  name: Signal
+  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
+  api_count: 14
   score_band: developing
-  score_composite: 55.7
+  score_composite: 55.4
   shared: 1
 - slug: pimloc
   name: Pimloc
@@ -105,6 +112,20 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 55.1
+  shared: 1
+- slug: vlex
+  name: vLex
+  description: vLex (part of Clio) is a global legal intelligence platform that applies AI to ingest, enrich, classify, and deliver insights from over 100 million legal documents across 2,000+ multilingual sources. The vLex Iceberg platform provides REST APIs for legal document anonymization, classification, key…
+  api_count: 6
+  score_band: developing
+  score_composite: 54.8
+  shared: 1
+- slug: plausible
+  name: Plausible
+  description: Plausible is an open source, privacy-friendly web analytics platform designed as a lightweight alternative to Google Analytics. It provides essential website traffic metrics without using cookies or collecting personal data, making it compliant with GDPR, CCPA, and other privacy regulations out of…
+  api_count: 8
+  score_band: developing
+  score_composite: 54.1
   shared: 1
 - slug: duckduckgo
   name: DuckDuckGo
@@ -148,27 +169,6 @@ providers:
   score_band: developing
   score_composite: 53.1
   shared: 1
-- slug: vlex
-  name: vLex
-  description: vLex (part of Clio) is a global legal intelligence platform that applies AI to ingest, enrich, classify, and deliver insights from over 100 million legal documents across 2,000+ multilingual sources. The vLex Iceberg platform provides REST APIs for legal document anonymization, classification, key…
-  api_count: 6
-  score_band: developing
-  score_composite: 52.8
-  shared: 1
-- slug: signal
-  name: Signal
-  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
-  api_count: 14
-  score_band: developing
-  score_composite: 52.1
-  shared: 1
-- slug: plausible
-  name: Plausible
-  description: Plausible is an open source, privacy-friendly web analytics platform designed as a lightweight alternative to Google Analytics. It provides essential website traffic metrics without using cookies or collecting personal data, making it compliant with GDPR, CCPA, and other privacy regulations out of…
-  api_count: 8
-  score_band: developing
-  score_composite: 50.9
-  shared: 1
 - slug: listrak
   name: Listrak
   description: Retail digital marketing platform with a REST API for managing email and SMS campaigns, subscriber data, behavioral triggers, and cross-channel marketing automation
@@ -188,7 +188,7 @@ providers:
   description: Nightfall AI is a data security platform that specializes in identifying and protecting sensitive information within an organization. By utilizing machine learning technology, Nightfall AI can automatically scan files, emails, and messages to detect and classify sensitive data such as credit card n…
   api_count: 2
   score_band: developing
-  score_composite: 47.8
+  score_composite: 49.8
   shared: 1
 - slug: aleo
   name: Aleo
@@ -204,29 +204,26 @@ providers:
   score_band: developing
   score_composite: 47.2
   shared: 1
-- slug: screenpipe
-  name: Screenpipe
-  description: Screenpipe is a local-first, source-available desktop application (by Mediar AI, Y Combinator S26) that continuously captures everything you see, say, and hear on your computer, reads on-screen text through OS accessibility APIs with an OCR fallback, transcribes system and microphone audio locally…
-  api_count: 18
+- slug: kagi
+  name: Kagi
+  description: Kagi is a privacy-focused premium search engine that also operates a commercial APIs portfolio for developers. The Kagi APIs Portal exposes Search, Enrichment, Universal Summarizer, and FastGPT endpoints, plus a free Small Web RSS feed for non-commercial use. The portal includes an API Playground,…
+  api_count: 6
   score_band: developing
-  score_composite: 45.0
+  score_composite: 46.1
   shared: 1
-- slug: k-id
-  name: k-ID
-  description: k-ID is a compliance platform that lets games, social apps, AI products, and commerce deliver age-appropriate experiences across 200+ jurisdictions. Its Compliance Development Kit (CDK) encodes auto-updating regulatory logic for regimes like COPPA, GDPR-Kids, the UK Age Appropriate Design Code and…
-  api_count: 1
-  score_band: thin
-  score_composite: 44.9
+- slug: vpn
+  name: VPN
+  description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corporate networks, protecting privacy on public Wi-Fi, and bypass…
+  api_count: 6
+  score_band: developing
+  score_composite: 46.1
   shared: 1
 related:
-- slug: search
-  name: API Evangelist Search
-  shared: 1
-- slug: authentication
-  name: Authentication
-  shared: 1
 - slug: encryption
   name: Encryption
+  shared: 2
+- slug: authentication
+  name: Authentication
   shared: 1
 - slug: machine-learning
   name: Machine Learning
@@ -237,8 +234,8 @@ related:
 overview: 'Privacy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [privacy.apievangelist.com](https://privacy.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Macie, Didomi, Fathom Analytics, Workday Security, Swetrix, Amazon Clean Rooms, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Macie, Workday Security, Didomi, Swetrix, Fathom Analytics, BigID, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Evangelist Search, Authentication, Encryption, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Encryption, Authentication, Machine Learning, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

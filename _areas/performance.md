@@ -13,35 +13,35 @@ providers:
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
   api_count: 41
   score_band: exemplar
-  score_composite: 78.4
+  score_composite: 83.1
   shared: 1
 - slug: amazon-global-accelerator
   name: Amazon Global Accelerator
   description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the AWS global network to optimize the path from users to applic…
   api_count: 49
   score_band: strong
-  score_composite: 61.0
+  score_composite: 64.8
   shared: 1
 - slug: google-cloud-trace
   name: Google Cloud Trace
   description: Google Cloud Trace is a distributed tracing system that collects latency data from applications and displays it in near real-time. It helps developers understand how requests propagate through their application, identify performance bottlenecks, and analyze latency across microservices and distribu…
   api_count: 1
-  score_band: developing
-  score_composite: 57.6
+  score_band: strong
+  score_composite: 62.2
   shared: 1
 - slug: google-cloud-profiler
   name: Google Cloud Profiler
   description: Google Cloud Profiler is a statistical, low-overhead profiling service that continuously monitors CPU usage and memory allocation in production applications. It attributes resource consumption to specific source code sections, supports Go, Java, Node.js, and Python, and provides flame graph visuali…
   api_count: 1
-  score_band: developing
-  score_composite: 57.2
+  score_band: strong
+  score_composite: 61.8
   shared: 1
 - slug: lunar-dev
   name: Lunar.dev
   description: Lunar.dev is an enterprise-grade gateway platform for AI governance and third-party API consumption control. It unifies an MCP Gateway, AI Gateway, and API Consumption Gateway into a single control point that gives organizations observability, access control, policy enforcement, quota management, r…
   api_count: 5
-  score_band: developing
-  score_composite: 56.7
+  score_band: strong
+  score_composite: 60.9
   shared: 1
 - slug: whoop
   name: WHOOP
@@ -55,7 +55,7 @@ providers:
   description: Sage HR (formerly CakeHR) is a cloud HRIS for small and mid-sized businesses, owned by Sage Group plc. It bundles core HR records, leave management, performance, recruitment (ATS), timesheets, shift scheduling, expenses, and onboarding/offboarding into a modular per-employee SaaS. The Sage HR REST…
   api_count: 14
   score_band: developing
-  score_composite: 48.8
+  score_composite: 51.4
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
@@ -90,7 +90,7 @@ providers:
   description: QuestDB is a high-performance open-source time-series database. It exposes three programmatic surfaces — an HTTP REST API for SQL queries and CSV import/export, the InfluxDB Line Protocol (ILP) over TCP and HTTP for high-throughput ingestion, and the PostgreSQL wire protocol for compatibility with…
   api_count: 10
   score_band: thin
-  score_composite: 40.8
+  score_composite: 44.0
   shared: 1
 - slug: apicontext
   name: APIContext
