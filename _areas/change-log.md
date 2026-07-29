@@ -13,7 +13,7 @@ providers:
   description: CHANGELOG.md is a community convention for a human-readable, Markdown- formatted file at the root of a project that records notable changes between versions. The leading specification is "Keep a Changelog" by Olivier Lacan, which defines a stable, opinionated set of section headings (Added, Changed…
   api_count: 0
   score_band: minimal
-  score_composite: 10.6
+  score_composite: 8.8
   shared: 1
 related:
 - slug: versioning

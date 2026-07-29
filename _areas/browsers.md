@@ -13,14 +13,14 @@ providers:
   description: Kernel is browser infrastructure for AI agents and web automations. Founded in 2025 by Catherine Jue (CEO) and Rafael Garcia (CTO) and backed by Accel and Y Combinator (S25), Kernel runs sandboxed Chromium browsers on a unikernel platform with sub-150ms cold starts, built-in stealth mode, residenti…
   api_count: 22
   score_band: thin
-  score_composite: 43.5
+  score_composite: 40.5
   shared: 1
 - slug: selenium
   name: Selenium
   description: Selenium is a suite of tools for automating web browsers across many platforms. It provides a way to control browsers programmatically for testing web applications and automating browser-based tasks.
   api_count: 8
   score_band: thin
-  score_composite: 33.4
+  score_composite: 31.4
   shared: 1
 related: []
 overview: 'Browsers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [browsers.apievangelist.com](https://browsers.apievangelist.com).

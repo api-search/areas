@@ -6,217 +6,217 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://design.apievangelist.com
 area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
-provider_count: 90
+provider_count: 89
 providers:
 - slug: figma
   name: Figma
   description: Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.
   api_count: 16
   score_band: exemplar
-  score_composite: 77.7
+  score_composite: 76.5
   shared: 1
 - slug: autodesk
   name: Autodesk
   description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction pr…
   api_count: 69
   score_band: exemplar
-  score_composite: 75.8
+  score_composite: 76.0
   shared: 1
 - slug: adobe-creative-cloud
   name: Adobe Creative Cloud
   description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
   api_count: 24
   score_band: strong
-  score_composite: 66.8
-  shared: 1
-- slug: adobe-creative-suite
-  name: Adobe Creative Suite
-  description: Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography.
-  api_count: 38
-  score_band: strong
-  score_composite: 66.2
+  score_composite: 62.8
   shared: 1
 - slug: canva
   name: Canva
   description: APIs for the Canva design platform, enabling developers to integrate Canva's design tools and functionality into their applications.
   api_count: 12
   score_band: strong
-  score_composite: 64.6
+  score_composite: 62.5
+  shared: 1
+- slug: adobe-creative-suite
+  name: Adobe Creative Suite
+  description: Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography.
+  api_count: 38
+  score_band: strong
+  score_composite: 61.9
   shared: 1
 - slug: adobe-illustrator
   name: Adobe Illustrator
   description: Adobe Illustrator is the industry-standard vector graphics application. Its developer platform offers scripting APIs, UXP plugins, CEP extensions, and a C++ SDK for building custom integrations and automating workflows.
   api_count: 11
   score_band: strong
-  score_composite: 64.5
+  score_composite: 59.9
   shared: 1
 - slug: google-fonts
   name: Google Fonts Developer
   description: The Google Fonts Developer API provides programmatic access to the metadata for all font families served by Google Fonts. Developers can query for available font families, retrieve details about variants, subsets, and categories, access font file URLs, and work with variable font axis metadata. The…
   api_count: 1
   score_band: strong
-  score_composite: 60.8
+  score_composite: 57.8
   shared: 1
 - slug: onshape
   name: Onshape
   description: Onshape is a cloud-native computer-aided design (CAD) and product data management (PDM) platform, part of PTC, that runs entirely in a web browser with real-time collaboration, versioning, and configurations. Its public REST API (OpenAPI 3.0.1, base https://cad.onshape.com/api/v16) exposes document…
   api_count: 42
   score_band: developing
-  score_composite: 57.5
-  shared: 1
-- slug: apple-keynote
-  name: Apple Keynote
-  description: Apple Keynote is a presentation software application developed by Apple Inc. as part of the iWork productivity suite, available on macOS, iOS, iPadOS, and the web via iCloud. It enables creating visually rich presentations with animations, transitions, charts, and real-time collaboration. Keynote s…
-  api_count: 7
-  score_band: developing
-  score_composite: 57.4
+  score_composite: 55.1
   shared: 1
 - slug: zeplin
   name: Zeplin
   description: Zeplin is a design-to-development handoff platform that bridges the gap between designers and developers by providing a structured workspace for accessing design specs, assets, style guides, components, and annotations. The Zeplin REST API enables programmatic access to all resources within Zeplin…
   api_count: 16
   score_band: developing
-  score_composite: 54.7
-  shared: 1
-- slug: napkin
-  name: Napkin
-  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
-  api_count: 1
-  score_band: developing
-  score_composite: 50.7
-  shared: 1
-- slug: napkinai
-  name: Napkin.AI
-  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, mind maps, icons, and infographics — and into full presentations, with no prompting or design skill required. Two products share the same text-to-visual engine: Napkin Visuals (standalone diagrams and graphics, exportabl…'
-  api_count: 1
-  score_band: developing
-  score_composite: 50.6
-  shared: 1
-- slug: uml
-  name: UML
-  description: UML (Unified Modeling Language) is the standard modeling language for software architecture, system design, and technical documentation. Governed by the Object Management Group (OMG), UML defines a set of notation conventions and diagram types — class, sequence, activity, use case, state, component…
-  api_count: 3
-  score_band: developing
-  score_composite: 50.0
+  score_composite: 51.7
   shared: 1
 - slug: autocad
   name: AutoCAD
   description: APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities through Autodesk Platform Services (APS, formerly Forge) and desktop development environments including AutoLISP, ObjectARX, .NET, and JavaScript.
   api_count: 6
   score_band: developing
-  score_composite: 49.5
+  score_composite: 51.0
+  shared: 1
+- slug: apple-keynote
+  name: Apple Keynote
+  description: Apple Keynote is a presentation software application developed by Apple Inc. as part of the iWork productivity suite, available on macOS, iOS, iPadOS, and the web via iCloud. It enables creating visually rich presentations with animations, transitions, charts, and real-time collaboration. Keynote s…
+  api_count: 7
+  score_band: developing
+  score_composite: 50.7
+  shared: 1
+- slug: napkin
+  name: Napkin
+  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
+  api_count: 1
+  score_band: developing
+  score_composite: 49.7
+  shared: 1
+- slug: napkinai
+  name: Napkin.AI
+  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, mind maps, icons, and infographics — and into full presentations, with no prompting or design skill required. Two products share the same text-to-visual engine: Napkin Visuals (standalone diagrams and graphics, exportabl…'
+  api_count: 1
+  score_band: developing
+  score_composite: 48.7
+  shared: 1
+- slug: uml
+  name: UML
+  description: UML (Unified Modeling Language) is the standard modeling language for software architecture, system design, and technical documentation. Governed by the Object Management Group (OMG), UML defines a set of notation conventions and diagram types — class, sequence, activity, use case, state, component…
+  api_count: 3
+  score_band: developing
+  score_composite: 45.4
   shared: 1
 - slug: 99designs
   name: 99designs
   description: 99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.…
   api_count: 4
   score_band: developing
-  score_composite: 46.9
+  score_composite: 42.5
   shared: 1
 - slug: adobe-suite
   name: Adobe Suite
   description: Collection of Adobe Creative Cloud and Experience Cloud APIs.
   api_count: 23
   score_band: developing
-  score_composite: 45.8
-  shared: 1
-- slug: the-color-api
-  name: The Color API
-  description: Pass in any valid color and get conversion into any other format, the name of the color, placeholder images and a multitude of schemes.
-  api_count: 2
-  score_band: developing
-  score_composite: 45.7
+  score_composite: 42.2
   shared: 1
 - slug: penpot
   name: Penpot
   description: Penpot is an open-source design and prototyping platform built for design and code collaboration, offering a self-hostable alternative to Figma. It provides a REST RPC API that enables developers to programmatically access and manage projects, files, pages, components, and design assets. Authentica…
   api_count: 139
   score_band: thin
-  score_composite: 43.5
+  score_composite: 39.8
   shared: 1
 - slug: havenly
   name: Havenly
   description: Havenly is an online interior-design platform that connects clients with professional designers for virtual and in-person home-decorating services. Clients take a style quiz, match with a designer, collaborate on 3D room renderings, and shop curated furniture and decor from partner brands at exclus…
   api_count: 11
   score_band: thin
-  score_composite: 39.9
-  shared: 1
-- slug: abstract
-  name: Abstract
-  description: Abstract is a design version control and collaboration platform that brings git-inspired branching, merging, and change history to design teams. It provides a REST API and JavaScript SDK for managing projects, branches, commits, files, collections, and design component libraries across teams, integ…
-  api_count: 1
-  score_band: thin
   score_composite: 39.5
+  shared: 1
+- slug: the-color-api
+  name: The Color API
+  description: Pass in any valid color and get conversion into any other format, the name of the color, placeholder images and a multitude of schemes.
+  api_count: 2
+  score_band: thin
+  score_composite: 38.4
   shared: 1
 - slug: kittl
   name: Kittl
   description: Kittl is a Berlin-based, browser-based graphic design platform positioned for commerce-driven creative workflows — "Canva is for content, Kittl is for commerce." It serves small business owners, Shopify and Etsy sellers, print-on-demand businesses, DTC brands, freelancers, agencies and small creati…
   api_count: 1
   score_band: thin
-  score_composite: 38.7
+  score_composite: 38.3
+  shared: 1
+- slug: abstract
+  name: Abstract
+  description: Abstract is a design version control and collaboration platform that brings git-inspired branching, merging, and change history to design teams. It provides a REST API and JavaScript SDK for managing projects, branches, commits, files, collections, and design component libraries across teams, integ…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.7
   shared: 1
 - slug: recraft
   name: Recraft
   description: Recraft is an AI design platform offering raster and vector image generation, image editing, inpainting, background removal/generation, vectorization, upscaling, and style creation. The Recraft API is REST-based at https://external.api.recraft.ai/v1, compatible with the OpenAI Python client, and us…
   api_count: 5
   score_band: thin
-  score_composite: 35.7
-  shared: 1
-- slug: domestika
-  name: Domestika
-  description: Domestika is an online creative education platform that connects over 8 million creative professionals and learners with high-quality courses across illustration, design, photography, marketing, and more. The platform provides a REST API at api.domestika.org that powers its web and mobile applicati…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.3
+  score_composite: 33.8
   shared: 1
 - slug: gamma
   name: Gamma
   description: 'Gamma (Gamma Tech, Inc.) is an AI-native productivity platform for creating presentations, documents, websites, and social posts from a prompt or from existing content. Its public Generate API lets developers programmatically produce and manage gammas: generate from scratch or from a template, poll…'
   api_count: 1
   score_band: thin
-  score_composite: 32.5
+  score_composite: 33.5
   shared: 1
 - slug: uxpin
   name: UXPin
   description: UXPin is an AI-powered, code-based design and prototyping platform where designers work with real production React components instead of vector approximations. Its Merge technology syncs a team's design system from Git or Storybook onto the design canvas, its Forge AI assistant generates and iterat…
   api_count: 0
   score_band: thin
-  score_composite: 31.5
+  score_composite: 33.1
+  shared: 1
+- slug: domestika
+  name: Domestika
+  description: Domestika is an online creative education platform that connects over 8 million creative professionals and learners with high-quality courses across illustration, design, photography, marketing, and more. The platform provides a REST API at api.domestika.org that powers its web and mobile applicati…
+  api_count: 1
+  score_band: thin
+  score_composite: 31.0
   shared: 1
 - slug: snaptrude
   name: Snaptrude
   description: Snaptrude is a cloud-native design platform for architecture and interior design that unifies sketching, real-time collaboration, AI-assisted programming, and BIM into a single browser-based tool. Snaptrude 3.0 offers four integrated modes — Program, Design Canvas, Present, and BIM — that turn conc…
   api_count: 1
-  score_band: emerging
-  score_composite: 29.6
-  shared: 1
-- slug: avocode
-  name: Avocode
-  description: Avocode was a design handoff platform with a REST API for managing projects, design files, shared screens, annotations, and design spec exports for developer-designer collaboration. Acquired by Ceros in October 2021 and sunset on October 1, 2023, Avocode supported design files from Sketch, Figma, A…
-  api_count: 1
-  score_band: emerging
-  score_composite: 28.5
-  shared: 1
-- slug: taste
-  name: Taste
-  description: Taste Labs is a San Francisco research lab and infrastructure company building "the taste layer for AI" — decoding subjective design domains to end AI slop. Its Taste Engine API extracts brand and design guidelines from a reference site or a prior submission and enhances website and slide-deck prom…
-  api_count: 3
-  score_band: emerging
-  score_composite: 27.6
-  shared: 1
-- slug: paper
-  name: Paper
-  description: Paper (paper.design) is a modern, agent-native design tool built on HTML and CSS web standards — a connected canvas where teams design, share, and ship with AI agents. Instead of drawing abstract vector representations of interfaces, Paper renders real HTML/CSS, so what you design is production cod…
-  api_count: 0
-  score_band: emerging
-  score_composite: 27.2
+  score_band: thin
+  score_composite: 28.0
   shared: 1
 - slug: ux-magic-ai
   name: UX Magic AI
   description: UXMagic (UX Magic AI) is an AI UI/UX design platform that turns text prompts, screenshots, hand-drawn sketches, website URLs, and existing Figma files into pixel-perfect, Figma-ready UI designs and production-ready code. Built by UXMagic Inc. (founded 2024, Dover, Delaware; backed by 500 Global) an…
   api_count: 0
   score_band: emerging
-  score_composite: 26.8
+  score_composite: 26.9
+  shared: 1
+- slug: paper
+  name: Paper
+  description: Paper (paper.design) is a modern, agent-native design tool built on HTML and CSS web standards — a connected canvas where teams design, share, and ship with AI agents. Instead of drawing abstract vector representations of interfaces, Paper renders real HTML/CSS, so what you design is production cod…
+  api_count: 0
+  score_band: emerging
+  score_composite: 26.2
+  shared: 1
+- slug: rive
+  name: Rive
+  description: Rive is an interactive design and animation platform and real-time graphics engine that lets designers, animators, and developers create, animate, and code interactive experiences in one place and ship them across every platform. Built around a State Machine design system and a GPU-accelerated vect…
+  api_count: 0
+  score_band: emerging
+  score_composite: 26.0
+  shared: 1
+- slug: avocode
+  name: Avocode
+  description: Avocode was a design handoff platform with a REST API for managing projects, design files, shared screens, annotations, and design spec exports for developer-designer collaboration. Acquired by Ceros in October 2021 and sunset on October 1, 2023, Avocode supported design files from Sketch, Figma, A…
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.8
   shared: 1
 related:
 - slug: visualization
@@ -234,7 +234,7 @@ related:
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Figma, Autodesk, Adobe Creative Cloud, Adobe Creative Suite, Canva, Adobe Illustrator, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Figma, Autodesk, Adobe Creative Cloud, Canva, Adobe Creative Suite, Adobe Illustrator, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Visualization, AI Automation, Developer Experience, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'

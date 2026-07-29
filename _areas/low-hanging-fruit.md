@@ -13,7 +13,7 @@ providers:
   description: Chiquita Brands International is a leading global producer, marketer, and distributor of bananas and other fresh produce, recognized worldwide by the iconic Blue Sticker on its bananas. Founded in 1899 as the United Fruit Company and rebranded as Chiquita in 1990, the company is headquartered in Et…
   api_count: 0
   score_band: minimal
-  score_composite: 11.4
+  score_composite: 9.7
   shared: 1
 related: []
 overview: 'Low Hanging Fruit is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [low-hanging-fruit.apievangelist.com](https://low-hanging-fruit.apievangelist.com).

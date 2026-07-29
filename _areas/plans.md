@@ -13,21 +13,21 @@ providers:
   description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
   api_count: 15
   score_band: strong
-  score_composite: 67.1
+  score_composite: 64.0
   shared: 1
 - slug: fieldwire
   name: Fieldwire
   description: ''
   api_count: 29
   score_band: strong
-  score_composite: 62.6
+  score_composite: 61.3
   shared: 1
 - slug: priceops
   name: PriceOps
   description: PriceOps is a pricing and packaging infrastructure platform for SaaS companies that enables simulation of pricing strategies, design of packaging tiers, and launch of pricing pages within minutes. The platform provides REST APIs for managing customer information, usage records, pricing plans, entit…
   api_count: 1
-  score_band: thin
-  score_composite: 31.5
+  score_band: emerging
+  score_composite: 27.7
   shared: 1
 related:
 - slug: agents

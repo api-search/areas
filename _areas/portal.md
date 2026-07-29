@@ -13,7 +13,7 @@ providers:
   description: Customer Portals is the topic dedicated to the architecture, APIs, schemas, and reference designs behind self-service customer portals. A customer portal is a secure web or mobile experience where authenticated customers can manage their profile, view orders and invoices, pay bills, submit and trac…
   api_count: 0
   score_band: minimal
-  score_composite: 6.8
+  score_composite: 5.0
   shared: 1
 related:
 - slug: support
