@@ -50,13 +50,6 @@ providers:
   score_band: exemplar
   score_composite: 71.4
   shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 54
-  score_band: exemplar
-  score_composite: 70.9
-  shared: 1
 - slug: amazon-eventbridge
   name: Amazon EventBridge
   description: Amazon EventBridge is a serverless event bus service that makes it easy to connect your applications with data from a variety of sources. EventBridge delivers a stream of real-time data from your own applications, SaaS applications, and AWS services and routes that data to targets such as Lambda, S…
@@ -70,6 +63,13 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 70.3
+  shared: 1
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 87
+  score_band: exemplar
+  score_composite: 69.9
   shared: 1
 - slug: amazon-efs
   name: Amazon EFS

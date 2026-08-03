@@ -6,7 +6,7 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 99
+provider_count: 102
 providers:
 - slug: twilio
   name: Twilio
@@ -98,6 +98,13 @@ providers:
   api_count: 7
   score_band: strong
   score_composite: 56.1
+  shared: 1
+- slug: nextiva
+  name: Nextiva
+  description: Nextiva is a Scottsdale, Arizona based cloud communications and customer experience company whose NextOS / NEXT platform combines UCaaS business phone service, contact center (NCX), SMS and team messaging, voice AI agents, and conversation analytics for small business through enterprise. Its develo…
+  api_count: 5
+  score_band: developing
+  score_composite: 55.8
   shared: 1
 - slug: gotowebinar
   name: GoToWebinar
@@ -210,13 +217,6 @@ providers:
   api_count: 17
   score_band: developing
   score_composite: 46.5
-  shared: 1
-- slug: veritus
-  name: Veritus
-  description: Veritus (Veritus Agent) is a San Francisco fintech (Y Combinator S2025) building compliant, voice-first AI agents for the consumer-lending lifecycle - origination, servicing, and collections. Its omnichannel platform places AI voice calls, SMS, and email to borrowers, running every contact through…
-  api_count: 4
-  score_band: developing
-  score_composite: 46.0
   shared: 1
 related:
 - slug: authentication

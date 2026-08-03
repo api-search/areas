@@ -60,7 +60,7 @@ providers:
 - slug: scrapfly
   name: Scrapfly
   description: Scrapfly is a web scraping API platform that enables effortless collection of web data with battle-tested APIs that scale. It provides capabilities for scraping web pages, capturing screenshots, and extracting structured data with AI assistance to handle anti-bot measures and JavaScript rendering.…
-  api_count: 6
+  api_count: 7
   score_band: developing
   score_composite: 47.7
   shared: 1

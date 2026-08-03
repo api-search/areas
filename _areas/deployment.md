@@ -6,7 +6,7 @@ description: An index and topic collection covering application deployment platf
 area_url: https://deployment.apievangelist.com
 area_host: deployment.apievangelist.com
 icon: https://deployment.apievangelist.com/icon-thumb.png
-provider_count: 61
+provider_count: 62
 providers:
 - slug: amazon-elastic-beanstalk
   name: Amazon Elastic Beanstalk
@@ -42,6 +42,13 @@ providers:
   api_count: 42
   score_band: strong
   score_composite: 64.8
+  shared: 1
+- slug: outsystems
+  name: OutSystems
+  description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11), the self-managed/PaaS platform, and OutSystems Developer Clo…
+  api_count: 14
+  score_band: strong
+  score_composite: 64.2
   shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
@@ -211,13 +218,6 @@ providers:
   score_band: developing
   score_composite: 44.3
   shared: 1
-- slug: scalable-platforms
-  name: Scalable Platforms
-  description: A subject-matter collection covering APIs, tools, and platforms for building and deploying scalable platform infrastructure. This topic encompasses Platform-as-a-Service (PaaS) providers, developer experience platforms, deployment automation, serverless computing, container platforms, and the tools…
-  api_count: 7
-  score_band: developing
-  score_composite: 43.9
-  shared: 1
 related:
 - slug: containers
   name: Containers
@@ -228,20 +228,20 @@ related:
 - slug: dns
   name: DNS
   shared: 1
-- slug: developer-experience
-  name: Developer Experience
-  shared: 1
 - slug: documentation
   name: Documentation
   shared: 1
 - slug: integrations
   name: Integrations
   shared: 1
+- slug: microservices
+  name: Microservices
+  shared: 1
 overview: 'Deployment is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deployment.apievangelist.com](https://deployment.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Elastic Beanstalk, Kubernetes, Google Cloud Deploy, Amazon Launch Wizard, Laravel, AWS App Runner, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Elastic Beanstalk, Kubernetes, Google Cloud Deploy, Amazon Launch Wizard, Laravel, OutSystems, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, AI Automation, DNS, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, AI Automation, DNS, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

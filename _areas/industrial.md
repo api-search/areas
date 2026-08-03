@@ -6,7 +6,7 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 144
+provider_count: 146
 providers:
 - slug: eaton
   name: Eaton
@@ -176,6 +176,13 @@ providers:
   score_band: emerging
   score_composite: 21.1
   shared: 1
+- slug: gecko-robotics
+  name: Gecko Robotics
+  description: Gecko Robotics is a Pittsburgh, Pennsylvania based AI and robotics company that inspects and manages critical physical infrastructure. Its wall-climbing, aerial and submersible robots capture full-coverage ultrasonic, visual and other sensor readings from boilers, pressure vessels, tanks, pipelines…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.3
+  shared: 1
 - slug: realwear
   name: RealWear
   description: RealWear builds rugged, hands-free head-mounted and assisted-reality wearable computers (the Navigator series and HMT-1) for frontline and industrial workers in energy, manufacturing, field service, and utilities. Its Android-based devices are operated entirely by voice through the on-device WearHF…
@@ -210,13 +217,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 17.5
-  shared: 1
-- slug: shapeci
-  name: ShapeCI
-  description: 'ShapeCI is software for industrials — a next-generation PDM (product data management) platform enabled by modern version control that helps hardware enterprises go from design to start of production in weeks rather than years. It brings a Git-style workflow to hardware and CAD: teams and projects h…'
-  api_count: 0
-  score_band: emerging
-  score_composite: 15.9
   shared: 1
 related:
 - slug: internet-of-things

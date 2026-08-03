@@ -6,7 +6,7 @@ description: An index and topic collection covering machine learning APIs, MLOps
 area_url: https://machine-learning.apievangelist.com
 area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
-provider_count: 1038
+provider_count: 1062
 providers:
 - slug: anthropic
   name: Anthropic
@@ -209,7 +209,7 @@ providers:
   description: ''
   api_count: 7
   score_band: strong
-  score_composite: 65.0
+  score_composite: 64.8
   shared: 1
 - slug: amazon-lookout-for-metrics
   name: Amazon Lookout for Metrics

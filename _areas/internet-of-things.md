@@ -6,7 +6,7 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 74
+provider_count: 79
 providers:
 - slug: shodan
   name: Shodan
@@ -78,6 +78,13 @@ providers:
   score_band: developing
   score_composite: 53.4
   shared: 1
+- slug: afero
+  name: Afero
+  description: 'Afero, Inc. is a Los Altos, California IoT platform company founded in 2014 by Joe Britt and Shin Matsumura. Afero ships an end-to-end connected-product stack: ASR secure radio modules with a hardware root of trust and an embedded Hardware Security Module, the afLib MCU libraries and Secure Linux D…'
+  api_count: 5
+  score_band: developing
+  score_composite: 52.3
+  shared: 1
 - slug: weavix
   name: Weavix
   description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
@@ -134,6 +141,13 @@ providers:
   score_band: thin
   score_composite: 37.9
   shared: 1
+- slug: wyze
+  name: Wyze
+  description: 'Wyze Labs, Inc. is a Kirkland, Washington consumer smart-home company founded in 2017 by former Amazon employees, known for value-priced connected hardware: indoor and outdoor security cameras, video doorbells, smart locks, contact and motion sensors, plugs, bulbs and light strips, robot vacuums, t…'
+  api_count: 4
+  score_band: thin
+  score_composite: 37.8
+  shared: 1
 - slug: internet-engineering-task-force
   name: Internet Engineering Task Force
   description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of the internet. The IETF publishes freely accessible RFCs (Reque…
@@ -169,6 +183,20 @@ providers:
   score_band: thin
   score_composite: 29.8
   shared: 1
+- slug: artisight
+  name: Artisight
+  description: Artisight is a smart hospital platform company founded in 2015 out of Northwestern Medicine that pairs NVIDIA GPU-powered edge sensors — dual 4K cameras, multi-microphone arrays and RTLS radios — with computer vision, speech recognition and deep learning to deliver virtual nursing, ambient clinical…
+  api_count: 2
+  score_band: thin
+  score_composite: 28.3
+  shared: 1
+- slug: r-zero
+  name: R-Zero
+  description: R-Zero Systems is a San Francisco based building-intelligence company founded in 2020 that combines privacy-first occupancy sensors, indoor-air-quality monitoring and AI to autonomously optimize HVAC ventilation in commercial real estate, healthcare and higher-education buildings, claiming 20-40% H…
+  api_count: 2
+  score_band: emerging
+  score_composite: 27.8
+  shared: 1
 - slug: wiliot
   name: Wiliot
   description: 'Wiliot operates an ambient IoT platform built on battery-free "IoT Pixels" - postage-stamp-sized Bluetooth sensor tags - and a cloud that turns everyday physical items into a continuous, real-time data source for supply-chain visibility ("Physical AI"). Wiliot''s Cloud APIs expose three surfaces: a…'
@@ -183,40 +211,12 @@ providers:
   score_band: emerging
   score_composite: 25.6
   shared: 1
-- slug: cox
-  name: Cox Communications
-  description: Cox Communications is a leading American telecommunications provider offering broadband internet, cable TV, and phone services for residential and business customers. Cox provides REST APIs for account management, service configuration, network diagnostics, and customer portal integrations across i…
-  api_count: 3
-  score_band: emerging
-  score_composite: 21.5
-  shared: 1
-- slug: medigate
-  name: Medigate
-  description: Medigate was a healthcare IoT / connected-medical-device cybersecurity company (headquartered in Brooklyn, NY, backed by Partech and others) that built the first security platform dedicated to healthcare IoT — device discovery, risk assessment, and clinically-aware network segmentation for hospital…
+- slug: ather-energy
+  name: Ather Energy
+  description: Ather Energy Limited is a Bengaluru-based Indian electric two-wheeler manufacturer founded in 2013 by Tarun Mehta and Swapnil Jain. It designs and builds connected electric scooters — the Ather 450 series (450S, 450X, 450 Apex) and the family-oriented Rizta — around AtherStack, its proprietary in-h…
   api_count: 1
   score_band: emerging
-  score_composite: 20.4
-  shared: 1
-- slug: tcp-ip
-  name: TCP/IP
-  description: TCP/IP (Transmission Control Protocol/Internet Protocol) is the foundational communication protocol suite that powers the internet and most computer networks. It provides reliable, ordered delivery of data between applications across diverse network hardware through a layered architecture of protoc…
-  api_count: 1
-  score_band: emerging
-  score_composite: 19.7
-  shared: 1
-- slug: comcast
-  name: Comcast
-  description: Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on…
-  api_count: 3
-  score_band: emerging
-  score_composite: 19.5
-  shared: 1
-- slug: tovala
-  name: Tovala
-  description: Tovala is a Chicago-based food-technology company that pairs a fresh meal delivery service with its proprietary smart countertop ovens. Weekly rotating, chef-crafted meals ship with QR codes that the Tovala Smart Oven (5-in-1) and Smart Oven Pro (6-in-1 with steam) scan to cook automatically, elimi…
-  api_count: 0
-  score_band: emerging
-  score_composite: 17.8
+  score_composite: 22.5
   shared: 1
 related:
 - slug: network

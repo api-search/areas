@@ -221,9 +221,6 @@ related:
 - slug: observability
   name: Observability
   shared: 2
-- slug: search
-  name: API Evangelist Search
-  shared: 1
 - slug: logging
   name: Logging
   shared: 1
@@ -236,5 +233,5 @@ overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](htt
   29 providers on the network work in this area, including Power BI, Grafana, Google Data Studio, Amazon QuickSight, Amazon Managed Grafana, Qlik Sense, and 23 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Design, Monitoring, Observability, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Design, Monitoring, Observability, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

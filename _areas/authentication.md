@@ -85,19 +85,19 @@ providers:
   score_band: exemplar
   score_composite: 66.3
   shared: 1
-- slug: clerk-com
-  name: Clerk
-  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
-  api_count: 76
-  score_band: strong
-  score_composite: 65.9
-  shared: 1
 - slug: aws-cognito
   name: Amazon Cognito
   description: 'Amazon Cognito is an AWS service that provides authentication, authorization, and user management for web and mobile applications. It supports OAuth2, OIDC, SAML federation, and social identity providers. Cognito has two main components: User Pools for user authentication and app integration, and F…'
   api_count: 124
+  score_band: exemplar
+  score_composite: 66.1
+  shared: 1
+- slug: clerk-com
+  name: Clerk
+  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
+  api_count: 77
   score_band: strong
-  score_composite: 65.2
+  score_composite: 65.8
   shared: 1
 - slug: amazon-iam-identity-center
   name: Amazon IAM Identity Center

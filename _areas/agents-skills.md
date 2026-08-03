@@ -6,8 +6,15 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 38
+provider_count: 41
 providers:
+- slug: visier
+  name: Visier
+  description: Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering. Visier publishes a broad suite of public REST APIs — Data…
+  api_count: 10
+  score_band: strong
+  score_composite: 60.0
+  shared: 1
 - slug: lightrun
   name: Lightrun
   description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
@@ -36,12 +43,19 @@ providers:
   score_band: strong
   score_composite: 57.4
   shared: 1
+- slug: nord-security
+  name: Nord Security
+  description: Nord Security is a Lithuania-founded digital security and privacy company whose consumer and business portfolio spans NordVPN, NordPass, NordLocker, NordLayer (network access security for business), NordProtect/Coveron, Saily (eSIM) and NordStellar (external threat exposure management). Its develop…
+  api_count: 10
+  score_band: strong
+  score_composite: 57.4
+  shared: 1
 - slug: smithery
   name: Smithery
   description: Smithery is a platform for discovering, deploying, and managing Model Context Protocol (MCP) servers and skills. It operates a public registry of community-built MCP extensions that AI agents can use to access external tools, data sources, and services, plus a Connect gateway that bundles connectio…
   api_count: 9
   score_band: strong
-  score_composite: 56.0
+  score_composite: 56.9
   shared: 1
 - slug: phenom
   name: Phenom
@@ -155,6 +169,13 @@ providers:
   score_band: emerging
   score_composite: 25.6
   shared: 1
+- slug: agentic-resource-discovery
+  name: Agentic Resource Discovery (ARD)
+  description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked set of MCP servers, agent cards, skills, workflows and APIs i…
+  api_count: 2
+  score_band: emerging
+  score_composite: 25.3
+  shared: 1
 - slug: legal-and-general
   name: Legal & General
   description: Legal & General Group plc is a FTSE 100 United Kingdom life insurer, retirement and institutional asset manager headquartered in London and regulated by the FCA and PRA. Its lines of business are life and protection insurance (term life, critical illness, income protection), workplace and individua…
@@ -197,42 +218,27 @@ providers:
   score_band: emerging
   score_composite: 17.5
   shared: 1
-- slug: hyperwrite
-  name: HyperWrite
-  description: HyperWrite (by OthersideAI) is an AI writing assistant plus Personal Assistant and Agent product line that combines AutoWrite, TypeAhead, HyperChat, an AI Document Editor, Scholar AI research, and a Chrome extension that lets an agent take real actions in the browser (Gmail, LinkedIn, shopping, tra…
-  api_count: 0
-  score_band: emerging
-  score_composite: 17.0
-  shared: 1
-- slug: atlas-openai
-  name: ChatGPT Atlas
-  description: ChatGPT Atlas is OpenAI's Chromium-based AI browser, launched October 21, 2025 for macOS, with Windows, iOS, and Android announced as coming soon. It embeds ChatGPT as a sidebar assistant for page summarization, comparison, and cursor-chat text rewriting, plus an Agent Mode (paid Plus/Pro) that can…
-  api_count: 0
-  score_band: emerging
-  score_composite: 16.9
-  shared: 1
-- slug: columnar
-  name: Columnar
-  description: Columnar is a data-infrastructure company advancing open standards for database connectivity. It builds and maintains tooling around ADBC (Apache Arrow Database Connectivity), including dbc — a cross-platform command-line package manager that installs and manages ADBC drivers across macOS, Linux, a…
-  api_count: 0
-  score_band: emerging
-  score_composite: 16.3
-  shared: 1
 related:
 - slug: ide
   name: IDE
   shared: 2
+- slug: discovery
+  name: API Evangelist Discovery
+  shared: 1
 - slug: logging
   name: Logging
   shared: 1
 - slug: monitoring
   name: Monitoring
   shared: 1
+- slug: privacy
+  name: Privacy
+  shared: 1
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Lightrun, Smithery, 360Learning, Bitpanda, Smithery, Phenom, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Visier, Lightrun, Smithery, 360Learning, Bitpanda, Nord Security, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: IDE, Logging, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: IDE, API Evangelist Discovery, Logging, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

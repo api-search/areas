@@ -6,14 +6,14 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://sdk.apievangelist.com
 area_host: sdk.apievangelist.com
 icon: https://sdk.apievangelist.com/icon-thumb.png
-provider_count: 343
+provider_count: 346
 providers:
 - slug: speakeasy
   name: Speakeasy
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
-  api_count: 8
+  api_count: 20
   score_band: strong
-  score_composite: 63.6
+  score_composite: 64.4
   shared: 1
 - slug: android
   name: Android
@@ -39,7 +39,7 @@ providers:
 - slug: dwolla
   name: Dwolla
   description: Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform that lets businesses programmatically move money across the U.S. banking system. Its v2 REST API — a JSON-HAL hypermedia API secured with OAuth 2.0 client-credentials — supports ACH (standard and Same-Day),…
-  api_count: 18
+  api_count: 19
   score_band: strong
   score_composite: 60.3
   shared: 1
@@ -141,6 +141,13 @@ providers:
   score_band: developing
   score_composite: 51.8
   shared: 1
+- slug: netomi
+  name: Netomi
+  description: Netomi (founded 2016 as msg.ai) is an enterprise agentic AI platform for customer experience. Its "Agentic OS for CX" orchestrates a network of AI agents across chat, email, telephony, social, search, MCP and API channels, layering a governance tier (topic and policy guardrails, prompt security, re…
+  api_count: 2
+  score_band: developing
+  score_composite: 51.6
+  shared: 1
 - slug: ostium-labs
   name: Ostium Labs
   description: Ostium is a decentralized perpetual-futures exchange that lets traders access global real-world-asset markets — stocks, ETFs, commodities, indices, forex and crypto — directly from a self-custodial crypto wallet, with leverage and no broker or intermediary. Built on Arbitrum, the protocol pairs an…
@@ -210,13 +217,6 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 48.8
-  shared: 1
-- slug: patch-io
-  name: Patch
-  description: Patch is an API-first climate platform that helps companies procure carbon credits and removals, run climate strategy programs, and embed climate action into their own products. The core Patch API exposes carbon projects, estimates, and orders so developers can build offset purchase flows directly…
-  api_count: 4
-  score_band: developing
-  score_composite: 47.9
   shared: 1
 related:
 - slug: documentation

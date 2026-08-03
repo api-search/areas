@@ -6,7 +6,7 @@ description: 'An index and topic collection covering software licensing APIs acr
 area_url: https://licensing.apievangelist.com
 area_host: licensing.apievangelist.com
 icon: https://licensing.apievangelist.com/icon-thumb.png
-provider_count: 31
+provider_count: 32
 providers:
 - slug: replicated
   name: Replicated
@@ -90,7 +90,7 @@ providers:
   description: The Federal Communications Commission provides free public REST APIs for radio station license lookup, broadband coverage maps, spectrum auction data, broadcast contours, census block conversions, consumer complaint databases, electronic comment filings, and regulatory data. All APIs are free with…
   api_count: 9
   score_band: thin
-  score_composite: 29.6
+  score_composite: 32.8
   shared: 1
 - slug: occ
   name: Office of the Comptroller of the Currency (OCC)
@@ -126,6 +126,13 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 19.9
+  shared: 1
+- slug: aceable
+  name: Aceable
+  description: 'Aceable (Aceable Brands) is an Austin, Texas mobile-first online education company founded in 2013 that builds state-accredited licensing and continuing-education courses across four brands: Aceable (drivers ed, defensive driving and traffic school in 40+ US states), Aceable Agent (real estate pre-…'
+  api_count: 0
+  score_band: emerging
+  score_composite: 18.9
   shared: 1
 - slug: tradespace
   name: Tradespace
@@ -207,13 +214,6 @@ providers:
 - slug: endeavor
   name: Endeavor
   description: Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media,…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.0
-  shared: 1
-- slug: endeavor-group-holdings
-  name: Endeavor Group Holdings
-  description: Endeavor Group Holdings was a global sports and entertainment company that represented talent, owned and operated events, and provided licensing, marketing, and media services through subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separa…
   api_count: 0
   score_band: minimal
   score_composite: 5.0

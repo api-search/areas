@@ -6,7 +6,7 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 949
+provider_count: 958
 providers:
 - slug: boomi
   name: Boomi
@@ -63,6 +63,13 @@ providers:
   api_count: 78
   score_band: strong
   score_composite: 64.2
+  shared: 1
+- slug: connecteam
+  name: Connecteam
+  description: Connecteam is a mobile-first workforce management platform for deskless and non-desk teams, bundling time clock and GPS timesheets, job scheduling, task boards, digital forms and checklists, chat and company communication, HR onboarding, time off, pay rates and sales data into three purchasable hub…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.1
   shared: 1
 - slug: mobileapi-dev
   name: MobileAPI.dev
@@ -210,13 +217,6 @@ providers:
   api_count: 9
   score_band: strong
   score_composite: 59.6
-  shared: 1
-- slug: workday-report-writer
-  name: Workday Report Writer
-  description: APIs for Workday Report Writer - a tool for creating custom reports and data extracts from Workday HCM and Financial systems.
-  api_count: 9
-  score_band: strong
-  score_composite: 59.5
   shared: 1
 related:
 - slug: management

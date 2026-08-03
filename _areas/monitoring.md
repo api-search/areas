@@ -6,7 +6,7 @@ description: An index and topic collection covering API monitoring, application 
 area_url: https://monitoring.apievangelist.com
 area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
-provider_count: 179
+provider_count: 181
 providers:
 - slug: new-relic
   name: New Relic
@@ -190,6 +190,13 @@ providers:
   score_band: strong
   score_composite: 59.8
   shared: 1
+- slug: bigeye
+  name: Bigeye
+  description: Bigeye is an enterprise data observability and AI trust platform that monitors data quality, detects schema changes and anomalies, classifies sensitive data, and maps column-level lineage across warehouses, lakes, BI tools and ETL pipelines. The platform combines automated data quality monitoring,…
+  api_count: 4
+  score_band: strong
+  score_composite: 59.6
+  shared: 1
 - slug: rollbar
   name: Rollbar
   description: Rollbar is a real-time error tracking and monitoring platform for software teams. It automatically captures exceptions and errors from web, mobile, and server-side applications, groups them by root cause, and provides actionable alerts to speed up debugging. Rollbar provides SDKs for over a dozen p…
@@ -210,13 +217,6 @@ providers:
   api_count: 5
   score_band: strong
   score_composite: 58.8
-  shared: 1
-- slug: netdata
-  name: Netdata
-  description: Netdata is a real-time infrastructure monitoring and observability platform that collects per-second metrics from physical servers, virtual machines, cloud deployments, Kubernetes clusters, and IoT devices. It provides a REST API for querying metrics, alerts, and configuration on individual nodes (…
-  api_count: 20
-  score_band: strong
-  score_composite: 58.6
   shared: 1
 related:
 - slug: observability

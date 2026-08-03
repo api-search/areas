@@ -18,9 +18,9 @@ providers:
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 54
+  api_count: 87
   score_band: exemplar
-  score_composite: 70.9
+  score_composite: 69.9
   shared: 1
 - slug: google-cloud-dns
   name: Google Cloud DNS

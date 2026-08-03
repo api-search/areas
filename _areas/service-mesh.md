@@ -6,7 +6,7 @@ description: Service mesh is a dedicated infrastructure layer for handling servi
 area_url: https://service-mesh.apievangelist.com
 area_host: service-mesh.apievangelist.com
 icon: https://service-mesh.apievangelist.com/icon-thumb.png
-provider_count: 41
+provider_count: 42
 providers:
 - slug: aws-app-mesh
   name: AWS App Mesh
@@ -14,6 +14,13 @@ providers:
   api_count: 4
   score_band: strong
   score_composite: 65.5
+  shared: 1
+- slug: solo-io
+  name: Solo.io
+  description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gatewa…
+  api_count: 5
+  score_band: strong
+  score_composite: 61.9
   shared: 1
 - slug: kong
   name: Kong
@@ -211,13 +218,6 @@ providers:
   score_band: emerging
   score_composite: 24.0
   shared: 1
-- slug: ambient-mesh
-  name: Ambient Mesh
-  description: Ambient Mesh is a sidecar-less service mesh architecture built on Istio that simplifies microservices communication, enhances zero-trust security, and improves observability without requiring sidecar proxy injection. It uses a shared per-node proxy (ztunnel) for zero-trust security and optional way…
-  api_count: 1
-  score_band: emerging
-  score_composite: 23.9
-  shared: 1
 related:
 - slug: microservices
   name: Microservices
@@ -231,7 +231,7 @@ related:
 overview: 'Service Mesh is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [service-mesh.apievangelist.com](https://service-mesh.apievangelist.com).
 
 
-  30 providers on the network work in this area, including AWS App Mesh, Kong, HashiCorp Consul, Tetrate, Linkerd, VMware Tanzu, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including AWS App Mesh, Solo.io, Kong, HashiCorp Consul, Tetrate, Linkerd, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Microservices, Proxy, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'

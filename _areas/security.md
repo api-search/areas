@@ -6,7 +6,7 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 767
+provider_count: 775
 providers:
 - slug: amazon-secrets-manager
   name: Amazon Secrets Manager
@@ -71,13 +71,6 @@ providers:
   score_band: exemplar
   score_composite: 71.5
   shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 54
-  score_band: exemplar
-  score_composite: 70.9
-  shared: 1
 - slug: amazon-vpc
   name: Amazon VPC
   description: Amazon Virtual Private Cloud (VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define, with complete control over IP addressing, subnets, routing, and network gateways.
@@ -91,6 +84,13 @@ providers:
   api_count: 10
   score_band: exemplar
   score_composite: 70.2
+  shared: 1
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 87
+  score_band: exemplar
+  score_composite: 69.9
   shared: 1
 - slug: treblle
   name: Treblle
@@ -176,17 +176,17 @@ providers:
   score_band: exemplar
   score_composite: 66.0
   shared: 1
-- slug: clerk-com
-  name: Clerk
-  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
-  api_count: 76
-  score_band: strong
-  score_composite: 65.9
-  shared: 1
 - slug: amazon-signer
   name: Amazon Signer
   description: AWS Signer is a fully managed code-signing service to ensure the trust and integrity of your code. It manages the code-signing certificate public and private keys and enables central management and deployment of code signing certificates for Lambda functions and IoT devices.
   api_count: 5
+  score_band: strong
+  score_composite: 65.8
+  shared: 1
+- slug: clerk-com
+  name: Clerk
+  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
+  api_count: 77
   score_band: strong
   score_composite: 65.8
   shared: 1

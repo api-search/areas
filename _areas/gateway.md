@@ -60,9 +60,9 @@ providers:
 - slug: requesty
   name: Requesty
   description: Requesty is an LLM routing and gateway platform that exposes a single OpenAI-compatible API across 300+ models from providers like OpenAI, Anthropic, DeepSeek, and Together AI. The Requesty Router adds intelligent routing, automatic fallbacks, response caching, spend controls, and per-request cost…
-  api_count: 4
+  api_count: 5
   score_band: developing
-  score_composite: 48.7
+  score_composite: 48.4
   shared: 1
 - slug: keywordsai
   name: Keywords AI

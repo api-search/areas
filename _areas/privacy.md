@@ -6,7 +6,7 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 137
+provider_count: 139
 providers:
 - slug: amazon-macie
   name: Amazon Macie
@@ -36,6 +36,13 @@ providers:
   score_band: strong
   score_composite: 63.6
   shared: 1
+- slug: appsflyer
+  name: AppsFlyer
+  description: AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers to measure, attribute and optimize user acquisition across mobile, web, CTV, console and PC. Its developer surface spans mobile and platform SDKs (iOS, Android, Unity, React Native, Flutter, Cordova, Unreal, Ro…
+  api_count: 10
+  score_band: strong
+  score_composite: 61.3
+  shared: 1
 - slug: fathom
   name: Fathom Analytics
   description: Fathom Analytics is a privacy-first website analytics platform that provides GDPR-compliant, cookie-free analytics as an alternative to Google Analytics. The platform serves thousands of companies, including Fortune 100 enterprises and government agencies, offering simple and accurate traffic metri…
@@ -63,6 +70,13 @@ providers:
   api_count: 8
   score_band: strong
   score_composite: 59.1
+  shared: 1
+- slug: nord-security
+  name: Nord Security
+  description: Nord Security is a Lithuania-founded digital security and privacy company whose consumer and business portfolio spans NordVPN, NordPass, NordLocker, NordLayer (network access security for business), NordProtect/Coveron, Saily (eSIM) and NordStellar (external threat exposure management). Its develop…
+  api_count: 10
+  score_band: strong
+  score_composite: 57.4
   shared: 1
 - slug: certifaction
   name: Certifaction
@@ -204,21 +218,10 @@ providers:
   score_band: developing
   score_composite: 45.9
   shared: 1
-- slug: blueconic
-  name: BlueConic
-  description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
-  api_count: 28
-  score_band: developing
-  score_composite: 45.7
-  shared: 1
-- slug: kagi
-  name: Kagi
-  description: Kagi is a privacy-focused premium search engine that also operates a commercial APIs portfolio for developers. The Kagi APIs Portal exposes Search, Enrichment, Universal Summarizer, and FastGPT endpoints, plus a free Small Web RSS feed for non-commercial use. The portal includes an API Playground,…
-  api_count: 6
-  score_band: developing
-  score_composite: 44.8
-  shared: 1
 related:
+- slug: agents-skills
+  name: Agent Skills
+  shared: 1
 - slug: authentication
   name: Authentication
   shared: 1
@@ -234,8 +237,8 @@ related:
 overview: 'Privacy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [privacy.apievangelist.com](https://privacy.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Macie, Swetrix, Didomi, Workday Security, Fathom Analytics, BigID, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Macie, Swetrix, Didomi, Workday Security, AppsFlyer, Fathom Analytics, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication, Encryption, Machine Learning, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agent Skills, Authentication, Encryption, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

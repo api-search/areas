@@ -6,7 +6,7 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 274
+provider_count: 284
 providers:
 - slug: vapi-ai
   name: Vapi
@@ -99,6 +99,13 @@ providers:
   score_band: strong
   score_composite: 65.5
   shared: 1
+- slug: anecdotes
+  name: anecdotes
+  description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed compliance. Its Compliance OS collects evidence automatically…
+  api_count: 3
+  score_band: strong
+  score_composite: 65.1
+  shared: 1
 - slug: plandex
   name: Plandex
   description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
@@ -162,6 +169,13 @@ providers:
   score_band: strong
   score_composite: 61.1
   shared: 1
+- slug: beyond-presence
+  name: Beyond Presence
+  description: Beyond Presence (brand "bey") is a Europe-based AI company building real-time conversational AI video agents and speech-to-video (S2V) technology. Its platform lets developers deploy hyper-realistic AI video avatars that respond in real time (sub-1.2s latency at up to 1080p) across HR, sales, suppo…
+  api_count: 7
+  score_band: strong
+  score_composite: 60.4
+  shared: 1
 - slug: prime-intellect
   name: Prime Intellect
   description: Prime Intellect is a San Francisco–based startup building an open and decentralized stack for developing and improving AI agents through reinforcement learning. The company combines a 50+ provider GPU compute marketplace (single-node and 1–256 GPU multi-node clusters across H100, H200, B200, and B3…
@@ -175,13 +189,6 @@ providers:
   api_count: 16
   score_band: strong
   score_composite: 59.7
-  shared: 1
-- slug: beyond-presence
-  name: Beyond Presence
-  description: Beyond Presence (brand "bey") is a Europe-based AI company building real-time conversational AI video agents and speech-to-video (S2V) technology. Its platform lets developers deploy hyper-realistic AI video avatars that respond in real time (sub-1.2s latency at up to 1080p) across HR, sales, suppo…
-  api_count: 7
-  score_band: strong
-  score_composite: 59.6
   shared: 1
 - slug: brainfish
   name: Brainfish
@@ -210,13 +217,6 @@ providers:
   api_count: 15
   score_band: strong
   score_composite: 58.6
-  shared: 1
-- slug: compresr
-  name: Compresr
-  description: Compresr is an LLM context-compression API. You send the long context you would otherwise pass to a model plus the query you want answered, and Compresr returns a shorter context that keeps the answer-bearing spans and drops the rest — fewer input tokens, lower cost, a longer effective context wind…
-  api_count: 27
-  score_band: strong
-  score_composite: 58.4
   shared: 1
 related:
 - slug: machine-learning

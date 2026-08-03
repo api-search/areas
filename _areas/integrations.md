@@ -60,9 +60,9 @@ providers:
 - slug: apideck
   name: Apideck
   description: Apideck is the leading Unified API that doesn't store sensitive customer data. Build and maintain native integrations into your product with an exceptional Developer Experience.
-  api_count: 15
+  api_count: 54
   score_band: exemplar
-  score_composite: 66.2
+  score_composite: 66.5
   shared: 1
 - slug: polyapi
   name: PolyAPI

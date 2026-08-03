@@ -15,19 +15,19 @@ providers:
   score_band: exemplar
   score_composite: 74.6
   shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 54
-  score_band: exemplar
-  score_composite: 70.9
-  shared: 1
 - slug: red-hat
   name: Red Hat
   description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
   api_count: 75
   score_band: exemplar
   score_composite: 70.4
+  shared: 1
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 87
+  score_band: exemplar
+  score_composite: 69.9
   shared: 1
 - slug: amazon-ecr
   name: Amazon ECR
@@ -125,7 +125,7 @@ providers:
   description: TensorDock operates a global GPU cloud marketplace that connects independent hardware hosts with customers needing affordable on-demand and spot GPU compute. The platform exposes two REST APIs — the original Marketplace API (v0) at marketplace.tensordock.com and the newer Instances API (v2) at dash…
   api_count: 3
   score_band: strong
-  score_composite: 62.9
+  score_composite: 62.7
   shared: 1
 - slug: google-cloud-run
   name: Google Cloud Run
@@ -240,7 +240,7 @@ related:
 overview: 'Containers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [containers.apievangelist.com](https://containers.apievangelist.com).
 
 
-  30 providers on the network work in this area, including IBM, Cloudflare, Red Hat, Amazon ECR, Azure Kubernetes Service, Amazon Web Services (AWS), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including IBM, Red Hat, Cloudflare, Amazon ECR, Azure Kubernetes Service, Amazon Web Services (AWS), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Serverless, Deployment, Observability, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'

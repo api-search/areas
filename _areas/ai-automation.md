@@ -6,14 +6,14 @@ description: AI automation combines artificial intelligence with workflow and pr
 area_url: https://ai-automation.apievangelist.com
 area_host: ai-automation.apievangelist.com
 icon: https://ai-automation.apievangelist.com/icon-thumb.png
-provider_count: 479
+provider_count: 483
 providers:
 - slug: xquik-api
   name: Xquik
   description: Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.
   api_count: 3
   score_band: exemplar
-  score_composite: 84.9
+  score_composite: 86.7
   shared: 1
 - slug: dynatrace
   name: Dynatrace

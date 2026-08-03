@@ -6,7 +6,7 @@ description: This is the index of workflow automation service and tooling repos 
 area_url: https://workflow-automation.apievangelist.com
 area_host: workflow-automation.apievangelist.com
 icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-provider_count: 646
+provider_count: 651
 providers:
 - slug: servicenow
   name: ServiceNow
@@ -162,19 +162,19 @@ providers:
   score_band: developing
   score_composite: 49.1
   shared: 2
+- slug: rundeck
+  name: Rundeck
+  description: Rundeck is an open source runbook automation service with a web console, command line tools, and a REST WebAPI. It enables IT teams to easily run automation tasks across a set of nodes, providing self-service operations, job scheduling, and execution history. Rundeck is developed by PagerDuty and s…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.6
+  shared: 2
 - slug: elementum
   name: Elementum
   description: Elementum is an AI-native process automation and orchestration platform that lets enterprises build custom business workflows that coordinate people, rules, LLMs, and AI agents without moving data out of the customer's own data warehouse (its "Zero Persistence" / CloudLink model, with first-class S…
   api_count: 18
   score_band: developing
   score_composite: 45.8
-  shared: 2
-- slug: rundeck
-  name: Rundeck
-  description: Rundeck is an open source runbook automation service with a web console, command line tools, and a REST WebAPI. It enables IT teams to easily run automation tasks across a set of nodes, providing self-service operations, job scheduling, and execution history. Rundeck is developed by PagerDuty and s…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.3
   shared: 2
 - slug: kubeark
   name: Kubeark

@@ -6,7 +6,7 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 167
+provider_count: 171
 providers:
 - slug: exa-ai
   name: Exa
@@ -169,6 +169,13 @@ providers:
   score_band: strong
   score_composite: 56.0
   shared: 1
+- slug: constructorio
+  name: Constructor.io
+  description: Constructor (Constructor.io) is an AI-powered ecommerce search and product discovery platform for online retailers. Its APIs cover autocomplete/autosuggest, keyword and natural-language search, image search, category browse, recommendations, quizzes, collections, offsite/email discovery, retail med…
+  api_count: 18
+  score_band: strong
+  score_composite: 56.0
+  shared: 1
 - slug: opensearch
   name: OpenSearch
   description: OpenSearch is the open source, community-driven search, analytics, and observability suite (forked from Elasticsearch and Kibana) maintained under the Linux Foundation's OpenSearch Software Foundation. The platform exposes REST APIs across the search engine, the OpenSearch Dashboards UI, and a set…
@@ -204,19 +211,12 @@ providers:
   score_band: developing
   score_composite: 53.1
   shared: 1
-- slug: elastic
-  name: Elastic
-  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
-  api_count: 12
+- slug: artlist
+  name: Artlist
+  description: Artlist is a creative-assets platform for video creators, marketers and brands, licensing royalty-free music, sound effects, stock footage, video templates, LUTs and editing plugins alongside a generative AI toolkit. The Artlist Enterprise API, published at developer.artlist.io, opens the company's…
+  api_count: 3
   score_band: developing
-  score_composite: 52.4
-  shared: 1
-- slug: tako
-  name: Tako
-  description: Tako is an AI answer-engine API for authoritative, source-grounded data. It serves live financial, macroeconomic, and company data as cited answers, structured knowledge cards (charts, tables, maps), and embeddable visualizations for agents and applications. Developers build with four core APIs — S…
-  api_count: 2
-  score_band: developing
-  score_composite: 52.4
+  score_composite: 53.1
   shared: 1
 related:
 - slug: agents
@@ -224,9 +224,6 @@ related:
   shared: 2
 - slug: network
   name: Network
-  shared: 1
-- slug: visualization
-  name: Visualization
   shared: 1
 - slug: discovery
   name: API Evangelist Discovery
@@ -237,11 +234,14 @@ related:
 - slug: developer-experience
   name: Developer Experience
   shared: 1
+- slug: internet-of-things
+  name: Internet of Things
+  shared: 1
 overview: 'API Evangelist Search is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [search.apievangelist.com](https://search.apievangelist.com).
 
 
   30 providers on the network work in this area, including Exa, Shodan, Amazon OpenSearch Service, Amazon OpenSearch Service API, Vectara, YouTube Data, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Agents, Network, Visualization, and API Evangelist Discovery. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agents, Network, API Evangelist Discovery, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

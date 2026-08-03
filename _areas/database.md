@@ -6,14 +6,14 @@ description: An index and topic collection covering managed databases and databa
 area_url: https://database.apievangelist.com
 area_host: database.apievangelist.com
 icon: https://database.apievangelist.com/icon-thumb.png
-provider_count: 174
+provider_count: 177
 providers:
 - slug: notion
   name: Notion
   description: Notion is an all-in-one workspace that combines notes, tasks, wikis, and databases. The Notion API allows developers to integrate Notion with other tools and build custom applications on top of Notion's platform.
   api_count: 6
   score_band: exemplar
-  score_composite: 78.2
+  score_composite: 79.1
   shared: 1
 - slug: bubble
   name: Bubble
@@ -197,6 +197,13 @@ providers:
   score_band: strong
   score_composite: 59.9
   shared: 1
+- slug: pingcap
+  name: PingCAP
+  description: PingCAP is the company behind TiDB, an open-source, MySQL-compatible distributed SQL database built for hybrid transactional and analytical processing (HTAP), horizontal scale-out, Raft-based strong consistency, and vector search for AI workloads. PingCAP operates TiDB Cloud, the fully managed DBaa…
+  api_count: 10
+  score_band: strong
+  score_composite: 59.6
+  shared: 1
 - slug: scylladb
   name: ScyllaDB
   description: ScyllaDB is a high-performance distributed NoSQL database engineered for real-time, data-intensive applications, offering close-to-the-metal architecture with predictable single-digit millisecond latencies and millions of operations per second. It is fully compatible with Apache Cassandra's CQL int…
@@ -210,13 +217,6 @@ providers:
   api_count: 9
   score_band: strong
   score_composite: 59.3
-  shared: 1
-- slug: cockroachdb
-  name: CockroachDB
-  description: CockroachDB is a distributed SQL database with strong consistency, PostgreSQL compatibility, and a managed cloud offering. The Cloud API manages cluster lifecycle; the Cluster API exposes per-node operational state for monitoring and troubleshooting.
-  api_count: 26
-  score_band: strong
-  score_composite: 58.7
   shared: 1
 related:
 - slug: serverless

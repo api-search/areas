@@ -106,6 +106,13 @@ providers:
   score_band: developing
   score_composite: 54.6
   shared: 1
+- slug: datadog-apm
+  name: Datadog APM
+  description: Datadog APM provides end-to-end distributed tracing, continuous profiling, and real-time performance monitoring for applications and microservices. It automatically instruments applications to provide deep visibility into request traces, latency, and error rates across distributed systems.
+  api_count: 1
+  score_band: developing
+  score_composite: 53.3
+  shared: 1
 - slug: amazon-fargate
   name: Amazon Fargate
   description: Amazon Fargate is a serverless compute engine for containers that works with both Amazon ECS and Amazon EKS. Fargate removes the need to provision and manage servers, letting you specify and pay for resources per application, and improves security through application isolation by design.
@@ -182,13 +189,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 50.1
-  shared: 1
-- slug: datadog-apm
-  name: Datadog APM
-  description: Datadog APM provides end-to-end distributed tracing, continuous profiling, and real-time performance monitoring for applications and microservices. It automatically instruments applications to provide deep visibility into request traces, latency, and error rates across distributed systems.
-  api_count: 1
-  score_band: developing
-  score_composite: 49.4
   shared: 1
 - slug: kuma
   name: Kuma

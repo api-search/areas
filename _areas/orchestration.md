@@ -6,7 +6,7 @@ description: An index and topic collection covering container orchestration and 
 area_url: https://orchestration.apievangelist.com
 area_host: orchestration.apievangelist.com
 icon: https://orchestration.apievangelist.com/icon-thumb.png
-provider_count: 79
+provider_count: 80
 providers:
 - slug: inngest
   name: Inngest
@@ -120,19 +120,19 @@ providers:
   score_band: strong
   score_composite: 57.6
   shared: 1
+- slug: fyno
+  name: Fyno
+  description: Fyno is a notification routing and orchestration platform that provides a single unified REST API for sending and managing notifications across 10+ communication channels including email, SMS, push, WhatsApp, in-app, RCS, voice, and iMessage. Engineering teams integrate once to gain access to 100+…
+  api_count: 10
+  score_band: strong
+  score_composite: 56.7
+  shared: 1
 - slug: hatchet
   name: Hatchet
   description: Hatchet is an open-source distributed task queue and workflow orchestration engine for background jobs, AI agents, and durable workflows. It is Postgres-backed, MIT-licensed, and ships with first-class SDKs for Python, TypeScript, Go, and Ruby plus a managed offering (Hatchet Cloud) and a self-host…
   api_count: 27
   score_band: strong
   score_composite: 56.5
-  shared: 1
-- slug: fyno
-  name: Fyno
-  description: Fyno is a notification routing and orchestration platform that provides a single unified REST API for sending and managing notifications across 10+ communication channels including email, SMS, push, WhatsApp, in-app, RCS, voice, and iMessage. Engineering teams integrate once to gain access to 100+…
-  api_count: 10
-  score_band: developing
-  score_composite: 55.9
   shared: 1
 - slug: apache-oozie
   name: Apache Oozie

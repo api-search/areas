@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://testing.apievangelist.com
 area_host: testing.apievangelist.com
 icon: https://testing.apievangelist.com/icon-thumb.png
-provider_count: 132
+provider_count: 134
 providers:
 - slug: postman
   name: Postman
@@ -29,12 +29,19 @@ providers:
   score_band: exemplar
   score_composite: 68.5
   shared: 1
+- slug: tricentis
+  name: Tricentis
+  description: Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, Tosca Cloud), AI-driven test management (qTest), performance t…
+  api_count: 9
+  score_band: strong
+  score_composite: 64.6
+  shared: 1
 - slug: speakeasy
   name: Speakeasy
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
-  api_count: 8
+  api_count: 20
   score_band: strong
-  score_composite: 63.6
+  score_composite: 64.4
   shared: 1
 - slug: coval
   name: Coval
@@ -127,6 +134,13 @@ providers:
   score_band: developing
   score_composite: 54.2
   shared: 1
+- slug: accessibe
+  name: accessiBe
+  description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility Act. Its portfolio spans accessWidget (an AI-driven remediat…
+  api_count: 2
+  score_band: developing
+  score_composite: 54.2
+  shared: 1
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
@@ -204,20 +218,6 @@ providers:
   score_band: developing
   score_composite: 47.2
   shared: 1
-- slug: limrun
-  name: Limrun
-  description: Limrun (Limrun, Inc.) is a Y Combinator-backed cloud infrastructure company for mobile development, built so cloud coding agents and Linux CI runners can build, run, and test iOS and Android apps without a Mac. Limrun exposes three composable cloud services behind one REST control plane at api.limr…
-  api_count: 7
-  score_band: developing
-  score_composite: 46.8
-  shared: 1
-- slug: test-rate-limit-check
-  name: Test Rate Limit Check
-  description: Testing and validation of API rate limiting implementations to ensure that APIs correctly enforce request quotas, return appropriate error responses, and recover gracefully when limits are exceeded. Rate limit testing verifies throttling behavior, retry-after headers, burst allowances, and quota re…
-  api_count: 9
-  score_band: developing
-  score_composite: 46.7
-  shared: 1
 related:
 - slug: ai-automation
   name: AI Automation
@@ -240,7 +240,7 @@ related:
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, UiPath, Treblle, Speakeasy, Coval, TeamCity, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, UiPath, Treblle, Tricentis, Speakeasy, Coval, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Developer Experience, Documentation, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'

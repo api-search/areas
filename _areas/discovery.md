@@ -6,7 +6,7 @@ description: Mapping the technical details of API operations to the human standa
 area_url: https://discovery.apievangelist.com
 area_host: discovery.apievangelist.com
 icon: https://discovery.apievangelist.com/icon-thumb.png
-provider_count: 38
+provider_count: 39
 providers:
 - slug: postman
   name: Postman
@@ -67,9 +67,9 @@ providers:
 - slug: artifact-hub
   name: Artifact Hub
   description: Artifact Hub is a CNCF incubating web-based application that enables finding, installing, and publishing cloud-native packages. Built primarily in TypeScript and Go, it addresses fragmentation in the cloud-native ecosystem by providing a single discovery experience for consumers. It supports 27+ ar…
-  api_count: 9
+  api_count: 10
   score_band: developing
-  score_composite: 42.9
+  score_composite: 44.5
   shared: 1
 - slug: bored
   name: Bored API
@@ -112,6 +112,13 @@ providers:
   api_count: 6
   score_band: emerging
   score_composite: 27.2
+  shared: 1
+- slug: agentic-resource-discovery
+  name: Agentic Resource Discovery (ARD)
+  description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked set of MCP servers, agent cards, skills, workflows and APIs i…
+  api_count: 2
+  score_band: emerging
+  score_composite: 25.3
   shared: 1
 - slug: algolia
   name: Algolia
@@ -211,13 +218,6 @@ providers:
   score_band: minimal
   score_composite: 11.8
   shared: 1
-- slug: atmosfy
-  name: Atmosfy
-  description: Atmosfy is a live-video mapping platform that bills itself as the world's largest live video map, aggregating 500M+ geo-tagged short-form videos across 100M+ places in 20,000+ cities and 150+ countries. The consumer app lets people see what restaurants, bars, hotels, and events actually look like i…
-  api_count: 0
-  score_band: minimal
-  score_composite: 11.2
-  shared: 1
 related:
 - slug: migration
   name: Migration
@@ -228,6 +228,9 @@ related:
 - slug: search
   name: API Evangelist Search
   shared: 1
+- slug: agents-skills
+  name: Agent Skills
+  shared: 1
 - slug: testing
   name: Testing
   shared: 1
@@ -237,5 +240,5 @@ overview: 'API Evangelist Discovery is one of the API Evangelist areas on the [A
   30 providers on the network work in this area, including Postman, Google Cloud Migration Center, Amazon Resource Explorer, Taboola, Azure Migrate, The Movie Database, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, AI Automation, API Evangelist Search, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, AI Automation, API Evangelist Search, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

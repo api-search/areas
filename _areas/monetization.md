@@ -6,7 +6,7 @@ description: 'An index and topic collection covering API and SaaS monetization p
 area_url: https://monetization.apievangelist.com
 area_host: monetization.apievangelist.com
 icon: https://monetization.apievangelist.com/icon-thumb.png
-provider_count: 59
+provider_count: 60
 providers:
 - slug: apigee
   name: Apigee
@@ -91,6 +91,13 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 46.9
+  shared: 1
+- slug: news-break
+  name: News Break
+  description: NewsBreak is the leading local news and information platform in the United States, operated by Particle Media, Inc., a Delaware corporation founded in Silicon Valley in 2015 and launched as a mobile app in 2016. Its AI-powered platform serves more than 40 million Americans a month with local news,…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.1
   shared: 1
 - slug: moesif
   name: Moesif
@@ -210,13 +217,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 24.2
-  shared: 1
-- slug: madvertise
-  name: Madvertise
-  description: Madvertise is a mobile advertising and monetization brand now operating within Azerion as the "BlueStack" (Improve Digital InApp) mobile SDK suite and the mng-ads.com ad-serving platform. It lets mobile publishers monetize in-app inventory with banner, interstitial, native, rewarded-video and App O…
-  api_count: 2
-  score_band: emerging
-  score_composite: 23.6
   shared: 1
 related:
 - slug: finops

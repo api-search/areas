@@ -6,7 +6,7 @@ description: An index and topic collection covering encryption services, key man
 area_url: https://encryption.apievangelist.com
 area_host: encryption.apievangelist.com
 icon: https://encryption.apievangelist.com/icon-thumb.png
-provider_count: 44
+provider_count: 45
 providers:
 - slug: amazon-kms
   name: Amazon KMS
@@ -42,6 +42,13 @@ providers:
   api_count: 5
   score_band: developing
   score_composite: 55.7
+  shared: 1
+- slug: fortanix
+  name: Fortanix
+  description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, HSM, tokenization and secrets service delivered as SaaS or as…
+  api_count: 3
+  score_band: developing
+  score_composite: 55.6
   shared: 1
 - slug: signal
   name: Signal
@@ -211,13 +218,6 @@ providers:
   score_band: emerging
   score_composite: 17.9
   shared: 1
-- slug: confide
-  name: Confide *
-  description: Confide is a confidential messaging application that lets people communicate digitally with the same level of privacy and security as the spoken word. Messages are end-to-end encrypted, ephemeral (they disappear after being read), and screenshot-protected so recipients cannot capture or forward the…
-  api_count: 0
-  score_band: emerging
-  score_composite: 15.5
-  shared: 1
 related:
 - slug: bots
   name: Bots
@@ -231,7 +231,7 @@ related:
 overview: 'Encryption is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [encryption.apievangelist.com](https://encryption.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon KMS, Evervault, Google Cloud KMS, Amazon Certificate Manager, IronCore Labs, Signal, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon KMS, Evervault, Google Cloud KMS, Amazon Certificate Manager, IronCore Labs, Fortanix, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Bots, Privacy, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

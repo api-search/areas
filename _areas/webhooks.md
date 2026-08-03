@@ -6,14 +6,14 @@ description: An index and topic collection covering webhook delivery, ingestion,
 area_url: https://webhooks.apievangelist.com
 area_host: webhooks.apievangelist.com
 icon: https://webhooks.apievangelist.com/icon-thumb.png
-provider_count: 435
+provider_count: 445
 providers:
 - slug: xquik-api
   name: Xquik
   description: Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.
   api_count: 3
   score_band: exemplar
-  score_composite: 84.9
+  score_composite: 86.7
   shared: 1
 - slug: inngest
   name: Inngest
@@ -127,6 +127,13 @@ providers:
   score_band: strong
   score_composite: 65.1
   shared: 1
+- slug: bolt-financial
+  name: Bolt Financial
+  description: Bolt Financial, Inc. is an American commerce technology company that gives retailers a one-click, identity-powered checkout backed by a shopper account network, payments processing, tokenization and fraud protection. Merchants integrate Bolt either through platform plugins (Adobe Commerce/Magento,…
+  api_count: 5
+  score_band: strong
+  score_composite: 64.3
+  shared: 1
 - slug: mindbody
   name: Mindbody
   description: Mindbody is a business management and consumer marketplace platform for the fitness, beauty, and wellness industries, providing scheduling, point of sale, client management, marketing, and reporting tools for studios, gyms, salons, and spas. The Mindbody Public API (v6) provides REST endpoints for…
@@ -210,13 +217,6 @@ providers:
   api_count: 18
   score_band: strong
   score_composite: 61.1
-  shared: 1
-- slug: pexa
-  name: PEXA
-  description: PEXA (Property Exchange Australia) operates Australia's dominant Electronic Lodgement Network (ELN), the digital rail on which property is settled and title dealings are lodged with the state land registries. Where the Australian real estate value chain splits into a listings duopoly (REA Group and…
-  api_count: 5
-  score_band: strong
-  score_composite: 61.0
   shared: 1
 related:
 - slug: observability

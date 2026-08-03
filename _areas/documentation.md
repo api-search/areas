@@ -53,9 +53,9 @@ providers:
 - slug: speakeasy
   name: Speakeasy
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
-  api_count: 8
+  api_count: 20
   score_band: strong
-  score_composite: 63.6
+  score_composite: 64.4
   shared: 1
 - slug: mintlify
   name: Mintlify
