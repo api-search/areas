@@ -13,42 +13,42 @@ providers:
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 20
   score_band: exemplar
-  score_composite: 72.1
+  score_composite: 72.4
   shared: 1
 - slug: wundergraph
   name: WunderGraph
   description: Full Lifecycle API Management for (Federated) GraphQL. Schema Registry, composition checks, analytics, metrics, tracing and routing. Deploy 100% on-prem or use our Managed Service. Apache 2.0 licensed, no vendor-lock.
   api_count: 10
   score_band: strong
-  score_composite: 62.4
+  score_composite: 63.0
   shared: 1
 - slug: snaplogic
   name: SnapLogic
   description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
   api_count: 7
   score_band: strong
-  score_composite: 60.2
+  score_composite: 60.8
   shared: 1
 - slug: dell-servers
   name: Dell Servers
   description: APIs for managing and monitoring Dell PowerEdge servers and infrastructure, including the iDRAC Redfish out-of-band management interface, OpenManage Enterprise centralized console and its modular, power, support, and VMware integrations, telemetry streaming, the Lifecycle Controller, RACADM, and th…
   api_count: 27
   score_band: strong
-  score_composite: 59.7
+  score_composite: 60.5
   shared: 1
 - slug: amazon-systems-manager
   name: Amazon Systems Manager
   description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
   api_count: 5
   score_band: strong
-  score_composite: 58.9
+  score_composite: 59.9
   shared: 1
 - slug: broadcom
   name: Broadcom
   description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
   api_count: 20
   score_band: developing
-  score_composite: 44.8
+  score_composite: 45.3
   shared: 1
 related:
 - slug: saas-management

@@ -13,7 +13,7 @@ providers:
   description: 'Nift is a customer-gifting and acquisition platform: businesses send "thank-you" gifts that let their own customers discover and try new brands, restaurants, and services, while the partnering brands gain new customers at the moment of gift selection. Proprietary AI matches each recipient to releva…'
   api_count: 1
   score_band: developing
-  score_composite: 43.0
+  score_composite: 43.7
   shared: 1
 - slug: opendoor
   name: Opendoor

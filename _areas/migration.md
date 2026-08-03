@@ -13,77 +13,77 @@ providers:
   description: AWS Mainframe Modernization provides tools and resources to help you plan and implement migration and modernization of your mainframe applications to AWS. It supports automated refactoring and replatforming of COBOL applications to run natively on AWS with managed runtime environments, deployment p…
   api_count: 5
   score_band: exemplar
-  score_composite: 66.4
+  score_composite: 67.1
   shared: 1
 - slug: amazon-datasync
   name: Amazon DataSync
   description: AWS DataSync is an online data transfer service that simplifies, automates, and accelerates moving data between on-premises storage systems, AWS storage services, and other cloud storage. DataSync can transfer data at speeds up to 10 times faster than open-source tools by using purpose-built networ…
   api_count: 6
-  score_band: strong
-  score_composite: 65.8
+  score_band: exemplar
+  score_composite: 66.4
   shared: 1
 - slug: google-cloud-migration-center
   name: Google Cloud Migration Center
   description: Google Cloud Migration Center is a unified platform that helps accelerate end-to-end cloud migration journeys from on-premises or other cloud environments to Google Cloud. It provides discovery, assessment, and planning tools to help organizations understand their existing infrastructure and plan o…
   api_count: 4
   score_band: strong
-  score_composite: 62.0
+  score_composite: 62.6
   shared: 1
 - slug: amazon-dms
   name: Amazon DMS
   description: AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. AWS DMS can migrate your data to and from the most widely used commerc…
   api_count: 72
   score_band: strong
-  score_composite: 60.6
+  score_composite: 61.5
   shared: 1
 - slug: microsoft-azure-migrate
   name: Azure Migrate
   description: Azure Migrate provides a unified platform for discovering, assessing, and migrating on-premises servers, infrastructure, applications, databases, and data to Azure. Its REST APIs enable programmatic management of migration projects, discovery, assessment, and replication workflows for VMs, database…
   api_count: 9
   score_band: strong
-  score_composite: 58.1
+  score_composite: 58.3
   shared: 1
 - slug: google-cloud-vmware-engine
   name: Google Cloud VMware Engine
   description: Google Cloud VMware Engine is a fully managed service that lets you run VMware workloads natively on Google Cloud infrastructure. It provides dedicated, single-tenant VMware SDDC environments with vSphere, vSAN, NSX-T, and HCX, enabling seamless migration and management of VMware-based applications…
   api_count: 3
   score_band: developing
-  score_composite: 51.5
+  score_composite: 52.2
   shared: 1
 - slug: google-cloud-transfer-service
   name: Google Cloud Transfer Service
   description: Google Cloud Storage Transfer Service enables seamless data movement across object and file storage systems, including transfers from Amazon S3, Azure Blob Storage, or Cloud Storage to Cloud Storage, and from on-premises storage to Cloud Storage. It is optimized for large-scale transfers involving…
   api_count: 3
   score_band: developing
-  score_composite: 50.9
+  score_composite: 51.6
   shared: 1
 - slug: import2
   name: Import2
   description: Import2 is a fully automated data-migration platform that moves customer data between SaaS applications — CRM, helpdesk, and project-management tools — without CSV exports or custom development. Users connect a source and destination app and Import2 moves records, custom fields, pipelines, and deal…
   api_count: 2
   score_band: developing
-  score_composite: 48.9
+  score_composite: 49.7
   shared: 1
 - slug: kubevirt
   name: KubeVirt
   description: KubeVirt is a CNCF incubating project that extends Kubernetes to run traditional virtual machines alongside containers. It allows users to create, manage, and run VMs using the same Kubernetes APIs and tools used for containers. KubeVirt is ideal for migrating legacy workloads to Kubernetes without…
   api_count: 8
   score_band: developing
-  score_composite: 45.7
+  score_composite: 46.5
   shared: 1
 - slug: amazon-application-migration-service
   name: Amazon Application Migration Service
   description: AWS Application Migration Service (MGN) is the primary migration service recommended for lift-and-shift migrations to AWS. It allows organizations to quickly realize the benefits of migrating applications to the cloud without changes and with minimal downtime.
   api_count: 10
   score_band: thin
-  score_composite: 37.6
+  score_composite: 38.1
   shared: 1
 - slug: amazon-application-discovery-service
   name: Amazon Application Discovery Service
   description: Amazon Application Discovery Service helps enterprise customers plan application migration projects by automatically identifying servers, virtual machines, software, and software dependencies running in their on-premises data centers.
   api_count: 6
-  score_band: thin
-  score_composite: 36.5
+  score_band: emerging
+  score_composite: 27.2
   shared: 1
 - slug: calypso-migration
   name: Calypso Migration

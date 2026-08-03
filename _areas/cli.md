@@ -20,56 +20,56 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 21
   score_band: exemplar
-  score_composite: 70.1
+  score_composite: 71.2
   shared: 1
 - slug: plandex
   name: Plandex
   description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
   api_count: 15
   score_band: strong
-  score_composite: 64.0
+  score_composite: 64.7
   shared: 1
 - slug: continue-dev
   name: Continue
   description: Continue is the open-source AI code assistant for VS Code and JetBrains, distributed under Apache 2.0. The Continue IDE extensions and the Continue CLI federate to any LLM provider — Anthropic, OpenAI, Mistral, OpenRouter, Ollama, and a Continue-managed proxy — and load their configuration from Con…
   api_count: 5
   score_band: strong
-  score_composite: 58.3
+  score_composite: 58.9
   shared: 1
 - slug: sideko
   name: Sideko
   description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
   api_count: 18
   score_band: strong
-  score_composite: 58.3
+  score_composite: 58.7
   shared: 1
 - slug: apitoolkit
   name: APIToolkit (Monoscope)
   description: APIToolkit (now Monoscope) is an open-source-friendly API observability and monitoring platform that helps teams find and fix production issues before customers notice. It unifies logs, traces, metrics, errors, monitors, and session replay across 17+ framework SDKs and 780+ OpenTelemetry integratio…
   api_count: 7
   score_band: strong
-  score_composite: 57.5
+  score_composite: 58.1
   shared: 1
 - slug: qfex
   name: Qfex
   description: QFEX is the first 24/7 exchange built exclusively for US equities, commodities, and FX, offering high-leverage perpetual futures on traditional assets without a broker. Founded by former Tower Research and Citadel engineers who met studying mathematics at Cambridge, QFEX gives retail and institutio…
   api_count: 5
   score_band: developing
-  score_composite: 54.4
+  score_composite: 55.2
   shared: 1
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 4
   score_band: developing
-  score_composite: 53.3
+  score_composite: 53.9
   shared: 1
 - slug: tesslio
   name: tessl.io
   description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing, and publishing skills and plugins, server-side quality revi…
   api_count: 35
   score_band: developing
-  score_composite: 50.9
+  score_composite: 52.0
   shared: 1
 - slug: mammoth-media
   name: Mammoth Media
@@ -90,28 +90,28 @@ providers:
   description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submission…
   api_count: 2
   score_band: developing
-  score_composite: 46.0
+  score_composite: 46.7
   shared: 1
 - slug: jetify
   name: Jetify
   description: Jetify builds developer tooling for reproducible environments and package management, backed by the Nix ecosystem. Its open-source Devbox CLI creates instant, isolated, predictable development shells; Jetify Cloud adds team secrets management, a private Nix package cache, and deployments; Nixhub in…
   api_count: 3
   score_band: developing
-  score_composite: 45.6
+  score_composite: 46.6
   shared: 1
 - slug: formspree
   name: Formspree
   description: 'Formspree is a form backend for static and Jamstack sites. Two API surfaces matter: (1) the public form-submission endpoint (formspree.io/f/{hashid}) that accepts POST submissions and returns JSON when the Accept header is set, and (2) the Forms API (formspree.io/api/0/...) for programmatic submiss…'
   api_count: 3
   score_band: developing
-  score_composite: 45.2
+  score_composite: 46.0
   shared: 1
 - slug: stakpak
   name: StakPak
   description: Stakpak is an open-source autonomous DevOps AI agent, distributed as a single Rust binary, that runs 24/7 on your machines to keep applications running — performing health checks, auto-healing failures, monitoring cloud cost, rotating secrets, renewing certificates, and alerting teams only when hum…
   api_count: 20
   score_band: developing
-  score_composite: 44.5
+  score_composite: 45.5
   shared: 1
 - slug: vlt
   name: vlt
@@ -139,7 +139,14 @@ providers:
   description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
   api_count: 28
   score_band: thin
-  score_composite: 40.2
+  score_composite: 41.2
+  shared: 1
+- slug: fern-api
+  name: Fern
+  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generates type-safe SDKs in TypeScript, Python, Go, Java, C#, PHP,…
+  api_count: 5
+  score_band: thin
+  score_composite: 39.4
   shared: 1
 - slug: nx
   name: Nx
@@ -147,20 +154,6 @@ providers:
   api_count: 0
   score_band: thin
   score_composite: 39.4
-  shared: 1
-- slug: aider
-  name: Aider
-  description: 'Aider is an open-source, terminal-based AI pair programmer that edits code directly inside a developer''s local Git repository. Written in Python and distributed via PyPI under the Apache 2.0 license, Aider is a BYO-LLM tool: the user supplies API keys for hosted models (Anthropic Claude, OpenAI, De…'
-  api_count: 15
-  score_band: thin
-  score_composite: 38.6
-  shared: 1
-- slug: fern-api
-  name: Fern
-  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generates type-safe SDKs in TypeScript, Python, Go, Java, C#, PHP,…
-  api_count: 5
-  score_band: thin
-  score_composite: 38.6
   shared: 1
 - slug: thunder-client
   name: Thunder Client
@@ -217,6 +210,13 @@ providers:
   api_count: 0
   score_band: thin
   score_composite: 35.6
+  shared: 1
+- slug: mockoon
+  name: Mockoon
+  description: Mockoon is the easiest and quickest way to design and run mock REST APIs. Available as a free, open-source desktop application and CLI, it lets developers build, share, and serve realistic mock endpoints locally, in CI, or in containers. No remote deployment, no account required.
+  api_count: 2
+  score_band: thin
+  score_composite: 35.5
   shared: 1
 related:
 - slug: clients

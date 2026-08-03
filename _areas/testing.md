@@ -13,70 +13,77 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 24
   score_band: exemplar
-  score_composite: 76.4
+  score_composite: 76.8
   shared: 1
 - slug: uipath
   name: UiPath
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
   api_count: 32
   score_band: exemplar
-  score_composite: 75.1
+  score_composite: 75.2
   shared: 1
 - slug: treblle
   name: Treblle
   description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
   api_count: 15
   score_band: exemplar
-  score_composite: 68.0
-  shared: 1
-- slug: coval
-  name: Coval
-  description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Coval supports inbound/outbound voice, standard chat, chat over…
-  api_count: 25
-  score_band: strong
-  score_composite: 62.7
+  score_composite: 68.5
   shared: 1
 - slug: speakeasy
   name: Speakeasy
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
   api_count: 8
   score_band: strong
-  score_composite: 61.5
+  score_composite: 63.6
+  shared: 1
+- slug: coval
+  name: Coval
+  description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Coval supports inbound/outbound voice, standard chat, chat over…
+  api_count: 25
+  score_band: strong
+  score_composite: 63.3
   shared: 1
 - slug: teamcity
   name: TeamCity
   description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing projects, build configurations, agents, and infrastructure.
   api_count: 17
   score_band: strong
-  score_composite: 59.7
+  score_composite: 60.5
   shared: 1
 - slug: rainforest-qa
   name: Rainforest QA
   description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, environments, sites and folders, trigger and rerun test runs, a…
   api_count: 18
   score_band: strong
-  score_composite: 58.6
+  score_composite: 59.5
   shared: 1
 - slug: amazon-codebuild
   name: Amazon CodeBuild
   description: AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages. CodeBuild scales continuously and processes multiple builds concurrently so your builds are not left waiting in a queue. It supports popular build e…
   api_count: 47
   score_band: strong
-  score_composite: 57.8
-  shared: 1
-- slug: sauce-labs
-  name: Sauce Labs
-  description: Sauce Labs is a cloud-based cross-browser and mobile app testing platform trusted by over 100,000 customers worldwide. It provides a comprehensive set of REST APIs for managing test jobs, devices, builds, insights, and results across virtual and real device clouds. The platform supports automated t…
-  api_count: 9
-  score_band: strong
-  score_composite: 57.7
+  score_composite: 58.5
   shared: 1
 - slug: gradle
   name: Gradle
   description: Gradle Inc. (Gradle Technologies) is the company behind the open-source Gradle Build Tool, downloaded more than 25 million times a month across the Java, JVM, Android, Kotlin, C/C++, and native ecosystems, and Develocity (formerly Gradle Enterprise), its commercial Developer Productivity Engineerin…
   api_count: 11
   score_band: strong
-  score_composite: 57.2
+  score_composite: 58.4
+  shared: 1
+- slug: sauce-labs
+  name: Sauce Labs
+  description: Sauce Labs is a cloud-based cross-browser and mobile app testing platform trusted by over 100,000 customers worldwide. It provides a comprehensive set of REST APIs for managing test jobs, devices, builds, insights, and results across virtual and real device clouds. The platform supports automated t…
+  api_count: 9
+  score_band: strong
+  score_composite: 58.4
+  shared: 1
+- slug: browserstack
+  name: BrowserStack
+  description: BrowserStack provides instant access to 3500+ real mobile devices and desktop browsers for testing web and mobile applications across different platforms and operating systems.
+  api_count: 22
+  score_band: strong
+  score_composite: 56.6
   shared: 1
 - slug: azure-test-labs
   name: Azure DevTest Labs
@@ -85,26 +92,26 @@ providers:
   score_band: strong
   score_composite: 56.4
   shared: 1
-- slug: browserstack
-  name: BrowserStack
-  description: BrowserStack provides instant access to 3500+ real mobile devices and desktop browsers for testing web and mobile applications across different platforms and operating systems.
-  api_count: 22
-  score_band: developing
-  score_composite: 55.6
-  shared: 1
 - slug: reflect
   name: Reflect
   description: Reflect is an AI-powered automated end-to-end testing platform that enables teams to effortlessly create, execute, and troubleshoot automated browser tests. Reflect provides a no-code test recorder for capturing user workflows and a REST API for integrating test execution into CI/CD pipelines. Test…
   api_count: 3
-  score_band: developing
-  score_composite: 55.4
+  score_band: strong
+  score_composite: 56.4
   shared: 1
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypress, Playwright, k6, JMeter, pytest and others — then aggreg…
   api_count: 30
+  score_band: strong
+  score_composite: 56.0
+  shared: 1
+- slug: scorecard
+  name: Scorecard
+  description: Scorecard is a simulation and evaluation platform for building, testing, and deploying frontier AI agents. Teams run their agents through thousands of realistic scenarios, judge outputs with configurable AI, human, and heuristic metrics, and ship new capabilities with confidence. The platform organ…
+  api_count: 7
   score_band: developing
-  score_composite: 55.1
+  score_composite: 55.5
   shared: 1
 - slug: testfairy
   name: TestFairy
@@ -113,61 +120,40 @@ providers:
   score_band: developing
   score_composite: 55.1
   shared: 1
-- slug: qa-wolf
-  name: QA Wolf
-  description: 'QA Wolf is a hybrid platform and service that takes QA off software teams'' plates: AI maps an application''s user journeys, converts plain-language prompts into Playwright and Appium tests, and runs those flows in massively parallel cloud infrastructure across web, iOS, and Android. Alongside the pl…'
-  api_count: 2
-  score_band: developing
-  score_composite: 54.6
-  shared: 1
-- slug: scorecard
-  name: Scorecard
-  description: Scorecard is a simulation and evaluation platform for building, testing, and deploying frontier AI agents. Teams run their agents through thousands of realistic scenarios, judge outputs with configurable AI, human, and heuristic metrics, and ship new capabilities with confidence. The platform organ…
-  api_count: 7
-  score_band: developing
-  score_composite: 54.2
-  shared: 1
 - slug: ambassador
   name: Ambassador
   description: Ambassador is a Kubernetes-native API Gateway built on Envoy Proxy, providing routing, load balancing, authentication, and observability for microservices.
   api_count: 11
   score_band: developing
-  score_composite: 53.5
+  score_composite: 54.2
   shared: 1
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 4
   score_band: developing
-  score_composite: 53.3
-  shared: 1
-- slug: lambdatest
-  name: LambdaTest
-  description: LambdaTest (rebranding as TestMu AI) is a cloud-based AI-powered test execution platform that enables developers and QA teams to run Selenium, Cypress, Playwright, and Appium automation tests across 3,000+ browser and OS combinations at scale. The platform provides live interactive cross-browser an…
-  api_count: 20
-  score_band: developing
-  score_composite: 52.8
+  score_composite: 53.9
   shared: 1
 - slug: emerge-tools
   name: Emerge Tools
   description: Emerge Tools is a mobile developer-tools platform used by teams at DoorDash, Square, and Duolingo to ship faster, smaller, better-performing iOS and Android apps. Its products include Size Analysis (monitor and reduce app size with PR alerts and competitor benchmarking), Snapshots (visual regressio…
   api_count: 10
   score_band: developing
-  score_composite: 52.7
+  score_composite: 53.8
   shared: 1
-- slug: reqres
-  name: ReqRes
-  description: 'ReqRes (reqres.in) is a hosted REST API originally launched by Ben Howdle as a free no-auth fake-API surface for AJAX prototyping, tutorials, and frontend testing. As of the 2025 relaunch it operates as a freemium SaaS product: every request to /api/* and /app/* now requires an x-api-key header obt…'
-  api_count: 6
+- slug: lambdatest
+  name: LambdaTest
+  description: LambdaTest (rebranding as TestMu AI) is a cloud-based AI-powered test execution platform that enables developers and QA teams to run Selenium, Cypress, Playwright, and Appium automation tests across 3,000+ browser and OS combinations at scale. The platform provides live interactive cross-browser an…
+  api_count: 20
   score_band: developing
-  score_composite: 51.0
+  score_composite: 53.6
   shared: 1
 - slug: chaos-mesh
   name: Chaos Mesh
   description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
   api_count: 7
   score_band: developing
-  score_composite: 50.9
+  score_composite: 51.7
   shared: 1
 - slug: signadot
   name: Signadot
@@ -176,57 +162,71 @@ providers:
   score_band: developing
   score_composite: 50.2
   shared: 1
-- slug: apigit
-  name: APIGit
-  description: APIGit is a Git-native platform for full lifecycle API development that combines version control, API design, documentation generation, governance, testing, and dynamic mock servers in a single integrated environment. Teams can build, publish, share, and secure APIs through Git-based workflows.
-  api_count: 4
-  score_band: developing
-  score_composite: 49.4
-  shared: 1
 - slug: test-cases
   name: Test Cases
   description: Structured scenarios that verify software functionality by defining inputs, execution conditions, and expected results to ensure quality and correctness. Test cases are the fundamental units of software testing that document what needs to be tested, the conditions under which the test runs, and the…
   api_count: 9
   score_band: developing
-  score_composite: 49.0
+  score_composite: 49.8
   shared: 1
 - slug: test-driven-development
   name: Test-Driven Development
   description: A software development approach where tests are written before the actual code, following a red-green-refactor cycle to ensure code quality and maintainability. TDD requires developers to write failing tests first, then write minimal code to make them pass, then refactor. It supports the full softw…
   api_count: 5
   score_band: developing
-  score_composite: 49.0
+  score_composite: 49.8
   shared: 1
 - slug: localstack
   name: LocalStack
   description: LocalStack is a cloud service emulator that runs in a single container on your laptop or in your CI environment, providing a local test and mocking framework for developing cloud applications against AWS, Snowflake, and Azure without provisioning real infrastructure. It ships a CLI, a Docker image,…
   api_count: 2
   score_band: developing
-  score_composite: 48.3
+  score_composite: 49.6
   shared: 1
 - slug: test-scripts
   name: Test Scripts
   description: Automated scripts used to verify software functionality, validate code behavior, and ensure quality through repeatable testing procedures. Test scripts encode testing logic in executable form, enabling continuous integration pipelines to run validation automatically on every code change. They suppo…
   api_count: 11
   score_band: developing
-  score_composite: 47.3
+  score_composite: 48.2
   shared: 1
 - slug: test-suites
   name: Test Suites
   description: A collection of organized test cases designed to validate specific functionality or features of software applications and APIs. Test suites group related test cases into logical units that can be executed together, providing comprehensive coverage of a system's behavior. They are widely used by dev…
   api_count: 10
   score_band: developing
-  score_composite: 47.3
+  score_composite: 48.2
+  shared: 1
+- slug: confident-cannabis
+  name: Confident Cannabis
+  description: Confident Cannabis (CC Software LLC, operating as Confident LIMS) is a cloud-based Laboratory Information Management System for analytical testing labs and their clients across cannabis and hemp, food and beverage, environmental, agriculture, nutraceuticals, cosmetics, oil and gas, and industrial c…
+  api_count: 10
+  score_band: developing
+  score_composite: 47.2
+  shared: 1
+- slug: limrun
+  name: Limrun
+  description: Limrun (Limrun, Inc.) is a Y Combinator-backed cloud infrastructure company for mobile development, built so cloud coding agents and Linux CI runners can build, run, and test iOS and Android apps without a Mac. Limrun exposes three composable cloud services behind one REST control plane at api.limr…
+  api_count: 7
+  score_band: developing
+  score_composite: 46.8
+  shared: 1
+- slug: test-rate-limit-check
+  name: Test Rate Limit Check
+  description: Testing and validation of API rate limiting implementations to ensure that APIs correctly enforce request quotas, return appropriate error responses, and recover gracefully when limits are exceeded. Rate limit testing verifies throttling behavior, retry-after headers, burst allowances, and quota re…
+  api_count: 9
+  score_band: developing
+  score_composite: 46.7
   shared: 1
 related:
-- slug: documentation
-  name: Documentation
-  shared: 3
 - slug: ai-automation
   name: AI Automation
   shared: 2
 - slug: developer-experience
   name: Developer Experience
+  shared: 2
+- slug: documentation
+  name: Documentation
   shared: 2
 - slug: observability
   name: Observability
@@ -240,8 +240,8 @@ related:
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, UiPath, Treblle, Coval, Speakeasy, TeamCity, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, UiPath, Treblle, Speakeasy, Coval, TeamCity, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Documentation, AI Automation, Developer Experience, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: AI Automation, Developer Experience, Documentation, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

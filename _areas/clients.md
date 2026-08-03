@@ -13,7 +13,7 @@ providers:
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 4
   score_band: developing
-  score_composite: 53.3
+  score_composite: 53.9
   shared: 1
 - slug: hoppscotch
   name: Hoppscotch

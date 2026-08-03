@@ -20,14 +20,14 @@ providers:
   description: ''
   api_count: 21
   score_band: strong
-  score_composite: 60.1
+  score_composite: 60.9
   shared: 1
 - slug: kentik
   name: Kentik
   description: Kentik is a network observability company whose SaaS platform (the Kentik Portal) unifies network flow records, BGP routing, SNMP and streaming telemetry, synthetic tests, and cloud VPC/flow logs into one analytics engine for network performance monitoring, capacity planning, DDoS detection and mit…
   api_count: 24
   score_band: strong
-  score_composite: 57.5
+  score_composite: 58.4
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
@@ -41,21 +41,21 @@ providers:
   description: OpsMill is the company behind Infrahub, an open-source, graph-based infrastructure data management platform that unifies a source of truth for network, data center, and cloud automation. Infrahub combines a flexible, extensible schema, native version control with branching and merging, and unified…
   api_count: 16
   score_band: developing
-  score_composite: 50.1
+  score_composite: 51.3
   shared: 1
 - slug: deeptrace
   name: Deeptrace
   description: Deeptrace is an AI SRE (site reliability engineering) agent that automatically investigates and root-causes production alerts by reasoning across logs, traces, metrics, and code. It triages and prioritizes alerts, produces evidence-backed root cause analyses in a couple of minutes, answers natural-…
   api_count: 2
   score_band: developing
-  score_composite: 47.8
+  score_composite: 48.6
   shared: 1
 - slug: chamber
   name: Chamber
   description: Chamber is an AIOps control plane for enterprise AI infrastructure (Y Combinator W26, Seattle). Its always-on agent — Chambie — monitors, diagnoses, and automatically resolves GPU workload failures across AWS, GCP, Azure, and on-premise Kubernetes clusters, and optimizes utilization so ML teams can…
   api_count: 4
   score_band: developing
-  score_composite: 47.4
+  score_composite: 48.2
   shared: 1
 - slug: brownie
   name: IncidentFox (Brownie)
@@ -69,21 +69,21 @@ providers:
   description: RunWhen is an AI platform for building safe-for-production agents that triage alerts, remediate infrastructure, analyze cost, and answer questions about production systems. Engineering teams compose reusable "Skills" (CodeBundles) into agents that run standalone or from Claude, Cursor, and VS Code…
   api_count: 51
   score_band: developing
-  score_composite: 45.3
+  score_composite: 46.6
   shared: 1
 - slug: incident-io
   name: Incident.io
   description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
   api_count: 25
   score_band: developing
-  score_composite: 44.4
+  score_composite: 45.2
   shared: 1
 - slug: mist-ai
   name: Juniper Mist AI
   description: Juniper Mist AI is the AI-driven enterprise networking platform that powers Juniper Networks' AI-Native Networking portfolio. Acquired by Juniper Networks in 2019, Mist pioneered cloud-native, microservices Wi-Fi and extended its AIOps approach across Wired Assurance (EX/QFX switches), WAN Assuranc…
   api_count: 211
   score_band: developing
-  score_composite: 42.6
+  score_composite: 43.6
   shared: 1
 - slug: doctor-droid
   name: Doctor Droid
@@ -104,56 +104,56 @@ providers:
   description: FireHydrant is an incident management platform providing automated runbooks, status pages, and retrospective workflows.
   api_count: 16
   score_band: thin
-  score_composite: 38.2
+  score_composite: 38.9
   shared: 1
 - slug: coralogix
   name: Coralogix
   description: Coralogix is an observability platform providing log analytics, metrics, tracing, and AI-powered insights.
   api_count: 1
   score_band: thin
-  score_composite: 38.1
+  score_composite: 37.8
   shared: 1
 - slug: soda-data
   name: Soda
   description: Soda is a data quality platform that enables data testing, monitoring, and anomaly detection across data pipelines.
   api_count: 6
   score_band: thin
-  score_composite: 36.8
+  score_composite: 37.7
   shared: 1
 - slug: rootly
   name: Rootly
   description: Rootly is an incident management platform that automates incident response workflows and integrates with existing tools.
   api_count: 7
   score_band: thin
-  score_composite: 36.7
+  score_composite: 37.6
   shared: 1
 - slug: metaplane
   name: Metaplane
   description: Metaplane is a data observability platform providing automated anomaly detection and data quality monitoring.
   api_count: 5
   score_band: thin
-  score_composite: 35.7
+  score_composite: 36.8
   shared: 1
 - slug: elastic-observability
   name: Elastic Observability
   description: Elastic Observability provides unified logs, metrics, traces, and AI-driven anomaly detection built on the Elastic Stack.
   api_count: 5
   score_band: thin
-  score_composite: 35.0
+  score_composite: 36.0
   shared: 1
 - slug: opsramp
   name: OpsRamp
   description: OpsRamp is an AIOps and IT operations management platform for hybrid infrastructure monitoring and management.
   api_count: 10
   score_band: thin
-  score_composite: 30.5
+  score_composite: 31.7
   shared: 1
 - slug: chronosphere
   name: Chronosphere
   description: Chronosphere is a cloud-native observability platform for managing and controlling observability data at scale.
   api_count: 33
   score_band: thin
-  score_composite: 30.2
+  score_composite: 31.5
   shared: 1
 - slug: blameless
   name: Blameless
@@ -181,7 +181,7 @@ providers:
   description: Keep is an open-source AIOps and alert management platform that unifies alerts from any monitoring tool, providing deduplication, correlation, enrichment, and workflow automation across observability, incident response, ticketing, and CMDB systems. The Keep REST API enables programmatic access to a…
   api_count: 27
   score_band: emerging
-  score_composite: 24.5
+  score_composite: 24.1
   shared: 1
 - slug: aruba-hpe
   name: HPE Aruba Networking

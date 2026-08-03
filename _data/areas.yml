@@ -439,7 +439,7 @@
     orchestration platforms. Container orchestration platforms like Kubernetes, OpenShi…
   area_url: https://orchestration.apievangelist.com
   icon: https://orchestration.apievangelist.com/icon-thumb.png
-  provider_count: 78
+  provider_count: 79
   url: https://apis.io/areas/orchestration/
 - slug: performance
   name: Performance

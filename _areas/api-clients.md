@@ -13,7 +13,7 @@ providers:
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 4
   score_band: developing
-  score_composite: 53.3
+  score_composite: 53.9
   shared: 1
 - slug: hoppscotch
   name: Hoppscotch
@@ -27,7 +27,7 @@ providers:
   description: 'A profile of the Ruby programming language ecosystem from an API perspective: the language and its standard library HTTP surface (Net::HTTP), the rubygems.org package registry and its public v1/v2 REST API, Bundler, RBS type signatures, popular HTTP/REST client gems (Faraday, http.rb, HTTParty, Exc…'
   api_count: 23
   score_band: developing
-  score_composite: 47.4
+  score_composite: 47.9
   shared: 1
 - slug: apollo-graphql
   name: Apollo GraphQL

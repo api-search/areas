@@ -15,54 +15,54 @@ providers:
   score_band: strong
   score_composite: 59.7
   shared: 1
-- slug: 7digital
-  name: 7digital
-  description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
-  api_count: 23
-  score_band: strong
-  score_composite: 56.7
-  shared: 1
 - slug: acma
   name: ACMA
   description: The Australian Communications and Media Authority (ACMA) is the Commonwealth regulator for telecommunications, radiocommunications, broadcasting and online content in Australia. It issues carrier licences and apparatus and spectrum licences, maintains the Register of Radiocommunications Licences, a…
   api_count: 2
-  score_band: developing
-  score_composite: 55.8
+  score_band: strong
+  score_composite: 56.6
   shared: 1
 - slug: warner-music-group
   name: Warner Music Group
   description: Warner Music Group is one of the major record labels in the music industry, with recorded music and music publishing operations spanning a roster of artists, songwriters, and labels around the world. WMG includes Warner Records, Atlantic Records, Elektra Records, and Warner Chappell Music (one of t…
   api_count: 4
   score_band: developing
-  score_composite: 51.8
+  score_composite: 52.3
   shared: 1
 - slug: shutterstock
   name: Shutterstock
   description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
   api_count: 10
   score_band: developing
-  score_composite: 47.7
+  score_composite: 49.0
+  shared: 1
+- slug: 7digital
+  name: 7digital
+  description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
+  api_count: 23
+  score_band: developing
+  score_composite: 48.8
   shared: 1
 - slug: fossology
   name: FOSSology
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations through automated scanning, human clearing workflows, and SP…
   api_count: 15
   score_band: developing
-  score_composite: 46.7
+  score_composite: 46.9
   shared: 1
 - slug: story-protocol
   name: Story Protocol
   description: Story Protocol is a purpose-built EVM Layer 1 blockchain for onchain intellectual property (the "IP blockchain"), powered by Proof of Creativity, built by Pip Labs and backed by a16z. Its public REST API (api.storyapis.com) is a read-only indexer that exposes IP assets, collections, license terms,…
   api_count: 13
   score_band: thin
-  score_composite: 38.8
+  score_composite: 39.8
   shared: 1
 - slug: soundstripe
   name: Soundstripe
   description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
   api_count: 7
   score_band: thin
-  score_composite: 38.5
+  score_composite: 39.4
   shared: 1
 - slug: agentsync
   name: Agentsync
@@ -76,7 +76,7 @@ providers:
   description: Getty Images is a premium stock media licensor of editorial and creative photography, illustrations, video, and music. The Getty Images API exposes search, asset metadata, and download endpoints for licensing partners and enterprise customers. Authentication is via API key + OAuth 2.0 client creden…
   api_count: 5
   score_band: thin
-  score_composite: 33.9
+  score_composite: 34.9
   shared: 1
 - slug: certifyos
   name: Certifyos
@@ -225,7 +225,7 @@ related:
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Replicated, 7digital, ACMA, Warner Music Group, Shutterstock, FOSSology, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Replicated, ACMA, Warner Music Group, Shutterstock, 7digital, FOSSology, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Regulation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

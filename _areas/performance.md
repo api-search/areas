@@ -13,35 +13,35 @@ providers:
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
   api_count: 41
   score_band: exemplar
-  score_composite: 79.3
+  score_composite: 80.0
   shared: 1
 - slug: amazon-global-accelerator
   name: Amazon Global Accelerator
   description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the AWS global network to optimize the path from users to applic…
   api_count: 49
   score_band: strong
-  score_composite: 61.4
+  score_composite: 62.0
   shared: 1
 - slug: google-cloud-trace
   name: Google Cloud Trace
   description: Google Cloud Trace is a distributed tracing system that collects latency data from applications and displays it in near real-time. It helps developers understand how requests propagate through their application, identify performance bottlenecks, and analyze latency across microservices and distribu…
   api_count: 1
   score_band: strong
-  score_composite: 59.3
+  score_composite: 60.2
   shared: 1
 - slug: google-cloud-profiler
   name: Google Cloud Profiler
   description: Google Cloud Profiler is a statistical, low-overhead profiling service that continuously monitors CPU usage and memory allocation in production applications. It attributes resource consumption to specific source code sections, supports Go, Java, Node.js, and Python, and provides flame graph visuali…
   api_count: 1
   score_band: strong
-  score_composite: 58.9
+  score_composite: 59.8
   shared: 1
 - slug: lunar-dev
   name: Lunar.dev
   description: Lunar.dev is an enterprise-grade gateway platform for AI governance and third-party API consumption control. It unifies an MCP Gateway, AI Gateway, and API Consumption Gateway into a single control point that gives organizations observability, access control, policy enforcement, quota management, r…
   api_count: 5
   score_band: strong
-  score_composite: 56.1
+  score_composite: 57.0
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
@@ -55,14 +55,14 @@ providers:
   description: Sage HR (formerly CakeHR) is a cloud HRIS for small and mid-sized businesses, owned by Sage Group plc. It bundles core HR records, leave management, performance, recruitment (ATS), timesheets, shift scheduling, expenses, and onboarding/offboarding into a modular per-employee SaaS. The Sage HR REST…
   api_count: 14
   score_band: developing
-  score_composite: 47.9
+  score_composite: 48.9
   shared: 1
 - slug: whoop
   name: WHOOP
   description: WHOOP is a fitness and recovery wearable platform providing a REST API for accessing sleep, recovery, strain, and workout metrics from the WHOOP band. The API uses OAuth 2.0 authorization code flow with Bearer tokens to allow developers to build applications that access member health and performanc…
   api_count: 7
   score_band: developing
-  score_composite: 47.6
+  score_composite: 48.1
   shared: 1
 - slug: unravel-data-systems
   name: Unravel Data Systems
@@ -71,19 +71,19 @@ providers:
   score_band: developing
   score_composite: 45.5
   shared: 1
+- slug: questdb
+  name: QuestDB
+  description: QuestDB is a high-performance open-source time-series database. It exposes three programmatic surfaces — an HTTP REST API for SQL queries and CSV import/export, the InfluxDB Line Protocol (ILP) over TCP and HTTP for high-throughput ingestion, and the PostgreSQL wire protocol for compatibility with…
+  api_count: 10
+  score_band: thin
+  score_composite: 41.6
+  shared: 1
 - slug: oracle-partitioning
   name: Oracle Partitioning
   description: Oracle Partitioning enables tables and indexes to be partitioned into smaller, more manageable pieces, improving performance, availability, and manageability of large database objects.
   api_count: 3
   score_band: thin
   score_composite: 40.8
-  shared: 1
-- slug: questdb
-  name: QuestDB
-  description: QuestDB is a high-performance open-source time-series database. It exposes three programmatic surfaces — an HTTP REST API for SQL queries and CSV import/export, the InfluxDB Line Protocol (ILP) over TCP and HTTP for high-throughput ingestion, and the PostgreSQL wire protocol for compatibility with…
-  api_count: 10
-  score_band: thin
-  score_composite: 40.7
   shared: 1
 - slug: codspeed
   name: CodSpeed
@@ -99,6 +99,13 @@ providers:
   score_band: thin
   score_composite: 39.4
   shared: 1
+- slug: apicontext
+  name: APIContext
+  description: APIContext (formerly APImetrics) is an advanced synthetic API testing and monitoring platform that measures API performance, enforces SLOs, and validates API conformance for critical APIs. It provides an API directory with performance data on 300+ top API providers and offers solutions for develope…
+  api_count: 13
+  score_band: thin
+  score_composite: 38.4
+  shared: 1
 - slug: scalability
   name: Scalability
   description: A subject-matter collection covering APIs, tools, frameworks, and data sources related to application scalability, infrastructure scaling, performance optimization, and elastic resource management. This topic spans cloud provider auto-scaling, event-driven autoscaling (KEDA), load balancing, databa…
@@ -112,13 +119,6 @@ providers:
   api_count: 8
   score_band: thin
   score_composite: 38.2
-  shared: 1
-- slug: apicontext
-  name: APIContext
-  description: APIContext (formerly APImetrics) is an advanced synthetic API testing and monitoring platform that measures API performance, enforces SLOs, and validates API conformance for critical APIs. It provides an API directory with performance data on 300+ top API providers and offers solutions for develope…
-  api_count: 13
-  score_band: thin
-  score_composite: 38.1
   shared: 1
 - slug: vegeta
   name: Vegeta

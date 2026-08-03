@@ -13,42 +13,42 @@ providers:
   description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
   api_count: 20
   score_band: strong
-  score_composite: 58.9
-  shared: 1
-- slug: 360learning
-  name: 360Learning
-  description: '360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automate the platform: provision and activate users, organize them…'
-  api_count: 17
-  score_band: strong
-  score_composite: 57.5
+  score_composite: 59.8
   shared: 1
 - slug: smithery-ai
   name: Smithery
   description: Smithery is an MCP server registry and hosting platform that lets developers discover, publish, and connect to Model Context Protocol servers from any AI agent. The platform combines a public registry of thousands of community MCP servers with a managed gateway that handles OAuth, credential storag…
   api_count: 9
   score_band: strong
-  score_composite: 57.5
+  score_composite: 58.3
+  shared: 1
+- slug: 360learning
+  name: 360Learning
+  description: '360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automate the platform: provision and activate users, organize them…'
+  api_count: 17
+  score_band: strong
+  score_composite: 57.7
   shared: 1
 - slug: bitpanda
   name: Bitpanda
   description: Bitpanda is a European retail investment platform, founded in Vienna in 2014, that lets users buy, sell, and hold cryptocurrencies, stocks, ETFs, precious metals, commodities, and crypto indices from a single account. Its developer surface centres on the read-only Bitpanda Platform API (developer.b…
   api_count: 4
   score_band: strong
-  score_composite: 56.7
+  score_composite: 57.4
   shared: 1
 - slug: smithery
   name: Smithery
   description: Smithery is a platform for discovering, deploying, and managing Model Context Protocol (MCP) servers and skills. It operates a public registry of community-built MCP extensions that AI agents can use to access external tools, data sources, and services, plus a Connect gateway that bundles connectio…
   api_count: 9
-  score_band: developing
-  score_composite: 55.3
+  score_band: strong
+  score_composite: 56.0
   shared: 1
 - slug: phenom
   name: Phenom
   description: Phenom is an HR technology company whose Intelligent Talent Experience platform applies AI to every stage of the talent lifecycle — helping candidates find and apply to the right jobs, recruiters and hiring managers source and engage talent, employees grow, and HR teams operate more efficiently. Th…
   api_count: 9
   score_band: developing
-  score_composite: 48.0
+  score_composite: 48.8
   shared: 1
 - slug: gloat
   name: Gloat
@@ -57,6 +57,13 @@ providers:
   score_band: developing
   score_composite: 45.2
   shared: 1
+- slug: sitefire
+  name: Sitefire
+  description: Sitefire is a Generative Engine Optimization (GEO) platform — the marketing suite for the agentic web and a self-described System of Record for AI visibility. It monitors how AI models (ChatGPT, Gemini, Perplexity, DeepSeek, Google AI Mode and AI Overviews) mention and cite a brand across tracked t…
+  api_count: 1
+  score_band: developing
+  score_composite: 43.2
+  shared: 1
 - slug: cloud-academy
   name: Cloud Academy
   description: Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines.…
@@ -64,33 +71,19 @@ providers:
   score_band: developing
   score_composite: 42.6
   shared: 1
-- slug: sitefire
-  name: Sitefire
-  description: Sitefire is a Generative Engine Optimization (GEO) platform — the marketing suite for the agentic web and a self-described System of Record for AI visibility. It monitors how AI models (ChatGPT, Gemini, Perplexity, DeepSeek, Google AI Mode and AI Overviews) mention and cite a brand across tracked t…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.2
-  shared: 1
-- slug: macroscope
-  name: Macroscope
-  description: Macroscope is an AI code-intelligence platform (GitHub org prassoai) that connects to a team's codebase and workflow tools to review pull requests, answer questions, and take action. Its three surfaces are an Agent (query the codebase and trigger actions via Slack, GitHub, or an HTTP API), Code Rev…
-  api_count: 1
-  score_band: thin
-  score_composite: 41.8
-  shared: 1
 - slug: cursor
   name: Cursor
   description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
   api_count: 10
   score_band: thin
-  score_composite: 41.0
+  score_composite: 41.8
   shared: 1
 - slug: windsurf
   name: Windsurf
   description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
   api_count: 8
   score_band: thin
-  score_composite: 38.6
+  score_composite: 39.5
   shared: 1
 - slug: nexad
   name: Nexad
@@ -105,6 +98,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 33.9
+  shared: 1
+- slug: macroscope
+  name: Macroscope
+  description: Macroscope is an AI code-intelligence platform (GitHub org prassoai) that connects to a team's codebase and workflow tools to review pull requests, answer questions, and take action. Its three surfaces are an Agent (query the codebase and trigger actions via Slack, GitHub, or an HTTP API), Code Rev…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.4
   shared: 1
 - slug: tessl
   name: Tessl
@@ -231,7 +231,7 @@ related:
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Lightrun, 360Learning, Smithery, Bitpanda, Smithery, Phenom, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Lightrun, Smithery, 360Learning, Bitpanda, Smithery, Phenom, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: IDE, Logging, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
