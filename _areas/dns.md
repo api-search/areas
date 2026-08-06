@@ -71,19 +71,19 @@ providers:
   score_band: developing
   score_composite: 51.3
   shared: 1
+- slug: d3
+  name: D3
+  description: D3 is a crypto-infrastructure company building the internet's domain layer, tokenized. Through its Doma Protocol, D3 brings ICANN domain names on-chain as tokenized name assets and unlocks "DomainFi" — programmable DNS, fractionalized domain tokens, an on-chain marketplace, and agentic commerce. De…
+  api_count: 2
+  score_band: developing
+  score_composite: 48.8
+  shared: 1
 - slug: cpanel
   name: cPanel
   description: cPanel is a web-based control panel that provides a graphical interface and automation tools to simplify the management of web hosting services. cPanel exposes a family of HTTP APIs (UAPI, WHM API 1, and the legacy cPanel API 2) for automating account, domain, email, database, DNS, and server-wide…
   api_count: 7
   score_band: developing
   score_composite: 47.3
-  shared: 1
-- slug: d3
-  name: D3
-  description: D3 is a crypto-infrastructure company building the internet's domain layer, tokenized. Through its Doma Protocol, D3 brings ICANN domain names on-chain as tokenized name assets and unlocks "DomainFi" — programmable DNS, fractionalized domain tokens, an on-chain marketplace, and agentic commerce. De…
-  api_count: 2
-  score_band: developing
-  score_composite: 46.1
   shared: 1
 - slug: stack-machine
   name: Stack Machine
@@ -113,6 +113,13 @@ providers:
   score_band: developing
   score_composite: 45.7
   shared: 1
+- slug: unstoppable-domains
+  name: Unstoppable Domains
+  description: Web3 domain name service providing REST APIs for resolving crypto domain names, managing NFT domains, reverse lookups, cross-chain address resolution, domain registration, and DNS management across 150+ TLDs on multiple blockchains.
+  api_count: 33
+  score_band: developing
+  score_composite: 43.5
+  shared: 1
 - slug: frostbyte
   name: Frostbyte
   description: Free API platform for developers and AI agents — 40+ services including IP Geolocation, Crypto Prices, Screenshots, DNS, Scraping, Code Execution. Free tier of 200 credits with no signup; USDC on Base top-ups via x402 for higher volume.
@@ -141,12 +148,12 @@ providers:
   score_band: thin
   score_composite: 41.1
   shared: 1
-- slug: unstoppable-domains
-  name: Unstoppable Domains
-  description: Web3 domain name service providing REST APIs for resolving crypto domain names, managing NFT domains, reverse lookups, cross-chain address resolution, domain registration, and DNS management across 150+ TLDs on multiple blockchains.
-  api_count: 33
+- slug: openprovider
+  name: Openprovider
+  description: 'Openprovider is a wholesaler of Internet services and products with a unique platform from which you can find and manage all the products you need: domains, new gTLDs, SSL certificates, licenses for Plesk and Virtuozzo, spam filters, and more.'
+  api_count: 35
   score_band: thin
-  score_composite: 40.7
+  score_composite: 39.6
   shared: 1
 - slug: quantcdn
   name: QuantCDN
@@ -162,12 +169,12 @@ providers:
   score_band: thin
   score_composite: 38.1
   shared: 1
-- slug: openprovider
-  name: Openprovider
-  description: 'Openprovider is a wholesaler of Internet services and products with a unique platform from which you can find and manage all the products you need: domains, new gTLDs, SSL certificates, licenses for Plesk and Virtuozzo, spam filters, and more.'
-  api_count: 35
+- slug: godaddy
+  name: GoDaddy
+  description: GoDaddy is a domain registrar and web hosting company offering REST APIs for domain registration, DNS management, certificates, shopper accounts, subscriptions, aftermarket auctions, and abuse reporting.
+  api_count: 7
   score_band: thin
-  score_composite: 36.0
+  score_composite: 35.8
   shared: 1
 - slug: gandi
   name: Gandi
@@ -189,13 +196,6 @@ providers:
   api_count: 5
   score_band: thin
   score_composite: 34.1
-  shared: 1
-- slug: godaddy
-  name: GoDaddy
-  description: GoDaddy is a domain registrar and web hosting company offering REST APIs for domain registration, DNS management, certificates, shopper accounts, subscriptions, aftermarket auctions, and abuse reporting.
-  api_count: 7
-  score_band: thin
-  score_composite: 33.4
   shared: 1
 - slug: datum
   name: Datum

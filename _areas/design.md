@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://design.apievangelist.com
 area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
-provider_count: 89
+provider_count: 90
 providers:
 - slug: figma
   name: Figma
@@ -92,6 +92,13 @@ providers:
   score_band: developing
   score_composite: 49.5
   shared: 1
+- slug: 99designs
+  name: 99designs
+  description: 99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.…
+  api_count: 4
+  score_band: developing
+  score_composite: 46.6
+  shared: 1
 - slug: uml
   name: UML
   description: UML (Unified Modeling Language) is the standard modeling language for software architecture, system design, and technical documentation. Governed by the Object Management Group (OMG), UML defines a set of notation conventions and diagram types — class, sequence, activity, use case, state, component…
@@ -155,13 +162,6 @@ providers:
   score_band: thin
   score_composite: 34.7
   shared: 1
-- slug: 99designs
-  name: 99designs
-  description: 99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.…
-  api_count: 4
-  score_band: thin
-  score_composite: 34.6
-  shared: 1
 - slug: gamma
   name: Gamma
   description: 'Gamma (Gamma Tech, Inc.) is an AI-native productivity platform for creating presentations, documents, websites, and social posts from a prompt or from existing content. Its public Generate API lets developers programmatically produce and manage gammas: generate from scratch or from a template, poll…'
@@ -190,6 +190,13 @@ providers:
   score_band: thin
   score_composite: 28.0
   shared: 1
+- slug: paperless-post
+  name: Paperless Post
+  description: Paperless Post is a New York City based digital and print stationery company whose platform lets people design, send, and manage online invitations, greeting cards, save-the-dates, and free Flyers for weddings, birthdays, holidays, business events, and other occasions. Founded in 2008 by siblings J…
+  api_count: 1
+  score_band: emerging
+  score_composite: 27.1
+  shared: 1
 - slug: ux-magic-ai
   name: UX Magic AI
   description: UXMagic (UX Magic AI) is an AI UI/UX design platform that turns text prompts, screenshots, hand-drawn sketches, website URLs, and existing Figma files into pixel-perfect, Figma-ready UI designs and production-ready code. Built by UXMagic Inc. (founded 2024, Dover, Delaware; backed by 500 Global) an…
@@ -210,13 +217,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 26.2
-  shared: 1
-- slug: rive
-  name: Rive
-  description: Rive is an interactive design and animation platform and real-time graphics engine that lets designers, animators, and developers create, animate, and code interactive experiences in one place and ship them across every platform. Built around a State Machine design system and a GPU-accelerated vect…
-  api_count: 0
-  score_band: emerging
-  score_composite: 26.0
   shared: 1
 related:
 - slug: visualization

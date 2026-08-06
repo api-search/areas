@@ -6,7 +6,7 @@ description: This is the index of iPaaS (integration platform as a service) repo
 area_url: https://ipaas.apievangelist.com
 area_host: ipaas.apievangelist.com
 icon: https://ipaas.apievangelist.com/icon-thumb.png
-provider_count: 46
+provider_count: 45
 providers:
 - slug: zapier
   name: Zapier
@@ -99,6 +99,13 @@ providers:
   score_band: developing
   score_composite: 54.9
   shared: 1
+- slug: rewst
+  name: Rewst
+  description: Rewst is a workflow automation and integration (iPaaS/RPA) platform built specifically for managed service providers (MSPs). It combines a visual workflow builder, a form builder, an app builder, 90+ managed MSP integrations (PSA, RMM, Microsoft 365, security tools), reusable automation packages ca…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.2
+  shared: 1
 - slug: vessel
   name: Vessel
   description: Vessel is a developer-first embedded integrations platform that enables product teams to add native integrations to their applications. It provides unified API abstractions, actions APIs, and passthrough APIs to connect with CRM, sales engagement, marketing automation, chat, and dialer tools while…
@@ -126,13 +133,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 49.6
-  shared: 1
-- slug: rewst
-  name: Rewst
-  description: Rewst is a workflow automation and integration (iPaaS/RPA) platform built specifically for managed service providers (MSPs). It combines a visual workflow builder, a form builder, an app builder, 90+ managed MSP integrations (PSA, RMM, Microsoft 365, security tools), reusable automation packages ca…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.5
   shared: 1
 - slug: morf
   name: Morf
@@ -187,8 +187,8 @@ providers:
   name: Azure Logic Apps
   description: Azure Logic Apps is a cloud-based integration platform that enables you to create and run automated workflows integrating apps, data, services, and systems across cloud and on-premises environments.
   api_count: 23
-  score_band: thin
-  score_composite: 41.3
+  score_band: developing
+  score_composite: 43.7
   shared: 1
 - slug: hull
   name: Hull
@@ -221,7 +221,7 @@ providers:
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 17
+  shared: 18
 - slug: integrations
   name: Integrations
   shared: 7

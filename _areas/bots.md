@@ -57,6 +57,13 @@ providers:
   score_band: thin
   score_composite: 40.8
   shared: 1
+- slug: hummingbot
+  name: Hummingbot
+  description: 'Hummingbot is an open source Python framework, maintained by the Hummingbot Foundation, that lets traders build and run automated, high-frequency crypto trading strategies across both centralized (CEX) and decentralized (DEX) venues. The project ships several developer-facing components: the Hummin…'
+  api_count: 17
+  score_band: thin
+  score_composite: 39.4
+  shared: 1
 - slug: groupme
   name: GroupMe
   description: GroupMe is a group messaging application, owned by Microsoft, that lets people chat in named groups and direct conversations across iOS, Android, and the web, including over SMS. For developers, GroupMe publishes the GroupMe API v3 — a REST + JSON API at https://api.groupme.com/v3 authenticated wit…
@@ -77,13 +84,6 @@ providers:
   api_count: 0
   score_band: thin
   score_composite: 37.3
-  shared: 1
-- slug: hummingbot
-  name: Hummingbot
-  description: 'Hummingbot is an open source Python framework, maintained by the Hummingbot Foundation, that lets traders build and run automated, high-frequency crypto trading strategies across both centralized (CEX) and decentralized (DEX) venues. The project ships several developer-facing components: the Hummin…'
-  api_count: 17
-  score_band: thin
-  score_composite: 37.1
   shared: 1
 - slug: bot-butcher
   name: Bot Butcher

@@ -64,6 +64,13 @@ providers:
   score_band: developing
   score_composite: 55.9
   shared: 1
+- slug: signadot
+  name: Signadot
+  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
+  api_count: 5
+  score_band: developing
+  score_composite: 55.7
+  shared: 1
 - slug: fern
   name: Fern
   description: Fern is an SDK generation and documentation platform designed for the AI era. It transforms OpenAPI, AsyncAPI, Protobuf (gRPC), and OpenRPC specifications into idiomatic, production-ready SDKs across nine languages plus auto-generated, branded developer documentation, an AI-first CLI, llms.txt for…
@@ -105,13 +112,6 @@ providers:
   api_count: 6
   score_band: developing
   score_composite: 50.3
-  shared: 1
-- slug: signadot
-  name: Signadot
-  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
-  api_count: 5
-  score_band: developing
-  score_composite: 50.2
   shared: 1
 - slug: stainless
   name: Stainless

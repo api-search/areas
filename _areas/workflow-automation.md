@@ -6,7 +6,7 @@ description: This is the index of workflow automation service and tooling repos 
 area_url: https://workflow-automation.apievangelist.com
 area_host: workflow-automation.apievangelist.com
 icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-provider_count: 651
+provider_count: 655
 providers:
 - slug: servicenow
   name: ServiceNow
@@ -106,6 +106,13 @@ providers:
   score_band: developing
   score_composite: 53.3
   shared: 2
+- slug: rewst
+  name: Rewst
+  description: Rewst is a workflow automation and integration (iPaaS/RPA) platform built specifically for managed service providers (MSPs). It combines a visual workflow builder, a form builder, an app builder, 90+ managed MSP integrations (PSA, RMM, Microsoft 365, security tools), reusable automation packages ca…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.2
+  shared: 2
 - slug: relay-app
   name: Relay App
   description: Relay.app is an AI-powered workflow automation platform that converts plain language into reliable visual workflows across 200+ app integrations. It supports webhook triggers, custom HTTP requests, scheduled automation, human-in-the-loop approval workflows, and MCP server tooling for AI agent integ…
@@ -147,13 +154,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 49.6
-  shared: 2
-- slug: rewst
-  name: Rewst
-  description: Rewst is a workflow automation and integration (iPaaS/RPA) platform built specifically for managed service providers (MSPs). It combines a visual workflow builder, a form builder, an app builder, 90+ managed MSP integrations (PSA, RMM, Microsoft 365, security tools), reusable automation packages ca…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.5
   shared: 2
 - slug: morf
   name: Morf
@@ -227,7 +227,7 @@ related:
   shared: 4
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 3
+  shared: 4
 - slug: orchestration
   name: Orchestration
   shared: 1

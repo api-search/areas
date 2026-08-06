@@ -48,7 +48,7 @@ providers:
   description: European Network of Transmission System Operators for Electricity (ENTSO-E) provides the Transparency Platform REST API, a synchronous RESTful interface for accessing pan-European electricity market data. The API delivers datasets covering load forecasts, actual generation per type and per plant, i…
   api_count: 1
   score_band: emerging
-  score_composite: 16.6
+  score_composite: 18.9
   shared: 1
 related: []
 overview: 'Transparency is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [transparency.apievangelist.com](https://transparency.apievangelist.com).

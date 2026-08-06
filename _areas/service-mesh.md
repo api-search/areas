@@ -20,7 +20,7 @@ providers:
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gatewa…
   api_count: 5
   score_band: strong
-  score_composite: 61.9
+  score_composite: 61.2
   shared: 1
 - slug: kong
   name: Kong
@@ -113,6 +113,13 @@ providers:
   score_band: developing
   score_composite: 47.9
   shared: 1
+- slug: apache-dubbo
+  name: Apache Dubbo
+  description: Apache Dubbo is a high-performance, Java-based open-source RPC framework that provides service discovery, traffic management, and observability capabilities for building enterprise-level microservices. It supports multiple protocols including Triple (gRPC-compatible), Dubbo, and REST, with SDKs for…
+  api_count: 16
+  score_band: developing
+  score_composite: 47.2
+  shared: 1
 - slug: scalable-services
   name: Scalable Services
   description: A curated topic collection covering APIs, patterns, tools, and best practices for designing and operating scalable services. This includes cloud-native microservices, API gateways, load balancers, container orchestration, serverless platforms, service meshes, and the architectural patterns that ena…
@@ -120,19 +127,12 @@ providers:
   score_band: developing
   score_composite: 46.6
   shared: 1
-- slug: apache-dubbo
-  name: Apache Dubbo
-  description: Apache Dubbo is a high-performance, Java-based open-source RPC framework that provides service discovery, traffic management, and observability capabilities for building enterprise-level microservices. It supports multiple protocols including Triple (gRPC-compatible), Dubbo, and REST, with SDKs for…
-  api_count: 16
-  score_band: developing
-  score_composite: 46.3
-  shared: 1
 - slug: isovalent
   name: Isovalent
   description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium project (a CNCF graduated project), the Hubble observability laye…
   api_count: 10
   score_band: developing
-  score_composite: 44.8
+  score_composite: 46.5
   shared: 1
 - slug: solo
   name: Solo.io

@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://testing.apievangelist.com
 area_host: testing.apievangelist.com
 icon: https://testing.apievangelist.com/icon-thumb.png
-provider_count: 134
+provider_count: 135
 providers:
 - slug: postman
   name: Postman
@@ -29,13 +29,6 @@ providers:
   score_band: exemplar
   score_composite: 68.5
   shared: 1
-- slug: tricentis
-  name: Tricentis
-  description: Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, Tosca Cloud), AI-driven test management (qTest), performance t…
-  api_count: 9
-  score_band: strong
-  score_composite: 64.6
-  shared: 1
 - slug: speakeasy
   name: Speakeasy
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
@@ -50,6 +43,13 @@ providers:
   score_band: strong
   score_composite: 63.3
   shared: 1
+- slug: tricentis
+  name: Tricentis
+  description: Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, Tosca Cloud), AI-driven test management (qTest), performance t…
+  api_count: 9
+  score_band: strong
+  score_composite: 62.8
+  shared: 1
 - slug: teamcity
   name: TeamCity
   description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing projects, build configurations, agents, and infrastructure.
@@ -63,6 +63,13 @@ providers:
   api_count: 18
   score_band: strong
   score_composite: 59.5
+  shared: 1
+- slug: azure-test-labs
+  name: Azure DevTest Labs
+  description: Azure DevTest Labs enables developers to efficiently self-manage virtual machines and PaaS resources without waiting for approvals. DevTest Labs creates labs consisting of pre-configured bases or Azure Resource Manager templates for development and testing purposes.
+  api_count: 25
+  score_band: strong
+  score_composite: 58.8
   shared: 1
 - slug: amazon-codebuild
   name: Amazon CodeBuild
@@ -92,13 +99,6 @@ providers:
   score_band: strong
   score_composite: 56.6
   shared: 1
-- slug: azure-test-labs
-  name: Azure DevTest Labs
-  description: Azure DevTest Labs enables developers to efficiently self-manage virtual machines and PaaS resources without waiting for approvals. DevTest Labs creates labs consisting of pre-configured bases or Azure Resource Manager templates for development and testing purposes.
-  api_count: 25
-  score_band: strong
-  score_composite: 56.4
-  shared: 1
 - slug: reflect
   name: Reflect
   description: Reflect is an AI-powered automated end-to-end testing platform that enables teams to effortlessly create, execute, and troubleshoot automated browser tests. Reflect provides a no-code test recorder for capturing user workflows and a REST API for integrating test execution into CI/CD pipelines. Test…
@@ -112,6 +112,13 @@ providers:
   api_count: 30
   score_band: strong
   score_composite: 56.0
+  shared: 1
+- slug: signadot
+  name: Signadot
+  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
+  api_count: 5
+  score_band: developing
+  score_composite: 55.7
   shared: 1
 - slug: scorecard
   name: Scorecard
@@ -162,6 +169,13 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
+- slug: opkey
+  name: Opkey
+  description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests and change-impact analysis for Oracle Cloud/EBS, Workday, Sale…
+  api_count: 2
+  score_band: developing
+  score_composite: 51.8
+  shared: 1
 - slug: chaos-mesh
   name: Chaos Mesh
   description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
@@ -169,12 +183,19 @@ providers:
   score_band: developing
   score_composite: 51.7
   shared: 1
-- slug: signadot
-  name: Signadot
-  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
-  api_count: 5
+- slug: parea
+  name: Parea AI
+  description: Parea AI is an LLM evaluation, testing, and observability platform designed for AI engineering teams building production-ready LLM applications. The platform provides a REST API for managing prompt versions, running automated test suites, collecting human feedback, and tracking quality metrics acro…
+  api_count: 1
   score_band: developing
-  score_composite: 50.2
+  score_composite: 50.7
+  shared: 1
+- slug: panaya
+  name: Panaya
+  description: Panaya is an enterprise change-intelligence and agentic-testing platform for business applications, helping organizations de-risk changes to SAP (including S/4HANA migrations and upgrades), Oracle (EBS, Cloud, NetSuite), Salesforce, Workday, ServiceNow and SuccessFactors. Its platform combines chan…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.5
   shared: 1
 - slug: test-cases
   name: Test Cases
@@ -197,27 +218,6 @@ providers:
   score_band: developing
   score_composite: 49.6
   shared: 1
-- slug: test-scripts
-  name: Test Scripts
-  description: Automated scripts used to verify software functionality, validate code behavior, and ensure quality through repeatable testing procedures. Test scripts encode testing logic in executable form, enabling continuous integration pipelines to run validation automatically on every code change. They suppo…
-  api_count: 11
-  score_band: developing
-  score_composite: 48.2
-  shared: 1
-- slug: test-suites
-  name: Test Suites
-  description: A collection of organized test cases designed to validate specific functionality or features of software applications and APIs. Test suites group related test cases into logical units that can be executed together, providing comprehensive coverage of a system's behavior. They are widely used by dev…
-  api_count: 10
-  score_band: developing
-  score_composite: 48.2
-  shared: 1
-- slug: confident-cannabis
-  name: Confident Cannabis
-  description: Confident Cannabis (CC Software LLC, operating as Confident LIMS) is a cloud-based Laboratory Information Management System for analytical testing labs and their clients across cannabis and hemp, food and beverage, environmental, agriculture, nutraceuticals, cosmetics, oil and gas, and industrial c…
-  api_count: 10
-  score_band: developing
-  score_composite: 47.2
-  shared: 1
 related:
 - slug: ai-automation
   name: AI Automation
@@ -231,16 +231,16 @@ related:
 - slug: observability
   name: Observability
   shared: 2
-- slug: reliability
-  name: Reliability
-  shared: 1
 - slug: clients
   name: Clients
+  shared: 1
+- slug: reliability
+  name: Reliability
   shared: 1
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, UiPath, Treblle, Tricentis, Speakeasy, Coval, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, UiPath, Treblle, Speakeasy, Coval, Tricentis, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Developer Experience, Documentation, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'

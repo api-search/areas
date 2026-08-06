@@ -8,6 +8,13 @@ area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
 provider_count: 139
 providers:
+- slug: didomi
+  name: Didomi
+  description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
+  api_count: 37
+  score_band: exemplar
+  score_composite: 66.6
+  shared: 1
 - slug: amazon-macie
   name: Amazon Macie
   description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the discovery of sensitive data, such as personally identifiable…
@@ -22,19 +29,19 @@ providers:
   score_band: strong
   score_composite: 63.9
   shared: 1
-- slug: didomi
-  name: Didomi
-  description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
-  api_count: 37
-  score_band: strong
-  score_composite: 63.8
-  shared: 1
 - slug: workday-security
   name: Workday Security
   description: Collection of Workday Security APIs for managing authentication, authorization, and security configurations including identity management, security groups, audit logging, privacy, and user activity monitoring.
   api_count: 13
   score_band: strong
   score_composite: 63.6
+  shared: 1
+- slug: millimetric
+  name: Millimetric
+  description: Millimetric is API-first, privacy-respecting web and product analytics for developers, indie startups ("vibe coders"), and AI agents. It captures events over a simple REST API (/v1/track, /v1/batch, /v1/identify, /v1/query, /v1/stats, /v1/sources), a ~1.8 KB browser SDK, and a zero-dependency Node…
+  api_count: 3
+  score_band: strong
+  score_composite: 62.6
   shared: 1
 - slug: appsflyer
   name: AppsFlyer
@@ -56,13 +63,6 @@ providers:
   api_count: 10
   score_band: strong
   score_composite: 60.5
-  shared: 1
-- slug: millimetric
-  name: Millimetric
-  description: Millimetric is API-first, privacy-respecting web and product analytics for developers, indie startups ("vibe coders"), and AI agents. It captures events over a simple REST API (/v1/track, /v1/batch, /v1/identify, /v1/query, /v1/stats, /v1/sources), a ~1.8 KB browser SDK, and a zero-dependency Node…
-  api_count: 3
-  score_band: strong
-  score_composite: 59.9
   shared: 1
 - slug: haveibeenpwned
   name: HaveIBeenPwned
@@ -237,7 +237,7 @@ related:
 overview: 'Privacy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [privacy.apievangelist.com](https://privacy.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Macie, Swetrix, Didomi, Workday Security, AppsFlyer, Fathom Analytics, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Didomi, Amazon Macie, Swetrix, Workday Security, Millimetric, AppsFlyer, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agent Skills, Authentication, Encryption, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'

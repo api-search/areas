@@ -27,7 +27,7 @@ providers:
   description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
   api_count: 19
   score_band: exemplar
-  score_composite: 71.1
+  score_composite: 70.3
   shared: 1
 - slug: highlight-io
   name: Highlight (highlight.io)
@@ -71,6 +71,13 @@ providers:
   score_band: strong
   score_composite: 56.2
   shared: 1
+- slug: edge-delta
+  name: Edge Delta
+  description: Edge Delta is an AI-powered observability platform that pairs enterprise-grade telemetry pipelines with agentic AI Teammates for SRE, security, and DevOps teams. Its intelligent pipelines control and route logs, metrics, traces, and events from any source to any destination with in-stream reduction…
+  api_count: 19
+  score_band: developing
+  score_composite: 54.9
+  shared: 1
 - slug: opentelemetry
   name: OpenTelemetry
   description: Vendor-neutral open-source observability framework for cloud-native software, providing a collection of tools, APIs, and SDKs for instrumenting, generating, collecting, and exporting telemetry data including metrics, logs, and traces.
@@ -99,19 +106,19 @@ providers:
   score_band: developing
   score_composite: 52.7
   shared: 1
+- slug: log10
+  name: Log10
+  description: Log10 is an LLMOps platform that provides REST API and SDK capabilities for capturing, logging, and managing LLM completions across major providers such as OpenAI, Anthropic, Google Gemini, Mistral, and Meta Llama. The platform enables engineering teams to debug prompt chains, run automated evaluat…
+  api_count: 6
+  score_band: developing
+  score_composite: 52.0
+  shared: 1
 - slug: codag
   name: Codag
   description: Codag is a Y Combinator (Summer 2026) developer-tools company building drop-in log compression for AI agents. It takes oversized infrastructure logs — from Kubernetes, Docker, AWS CloudWatch, Vercel, Railway, Datadog, Sentry, syslog and unstructured sources — and returns only the lines that matter…
   api_count: 19
   score_band: developing
   score_composite: 51.9
-  shared: 1
-- slug: edge-delta
-  name: Edge Delta
-  description: Edge Delta is an AI-powered observability platform that pairs enterprise-grade telemetry pipelines with agentic AI Teammates for SRE, security, and DevOps teams. Its intelligent pipelines control and route logs, metrics, traces, and events from any source to any destination with in-stream reduction…
-  api_count: 19
-  score_band: developing
-  score_composite: 51.5
   shared: 1
 - slug: superlog
   name: Superlog
@@ -126,13 +133,6 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 50.3
-  shared: 1
-- slug: log10
-  name: Log10
-  description: Log10 is an LLMOps platform that provides REST API and SDK capabilities for capturing, logging, and managing LLM completions across major providers such as OpenAI, Anthropic, Google Gemini, Mistral, and Meta Llama. The platform enables engineering teams to debug prompt chains, run automated evaluat…
-  api_count: 6
-  score_band: developing
-  score_composite: 49.2
   shared: 1
 - slug: memfault
   name: Memfault

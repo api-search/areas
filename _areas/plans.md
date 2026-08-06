@@ -20,7 +20,7 @@ providers:
   description: ''
   api_count: 29
   score_band: strong
-  score_composite: 61.8
+  score_composite: 64.5
   shared: 1
 - slug: priceops
   name: PriceOps

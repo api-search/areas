@@ -6,7 +6,7 @@ description: An index and topic collection covering managed databases and databa
 area_url: https://database.apievangelist.com
 area_host: database.apievangelist.com
 icon: https://database.apievangelist.com/icon-thumb.png
-provider_count: 177
+provider_count: 180
 providers:
 - slug: notion
   name: Notion
@@ -43,13 +43,6 @@ providers:
   score_band: exemplar
   score_composite: 72.0
   shared: 1
-- slug: oracle
-  name: Oracle
-  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
-  api_count: 56
-  score_band: exemplar
-  score_composite: 71.5
-  shared: 1
 - slug: amazon-elasticache
   name: Amazon ElastiCache
   description: Amazon ElastiCache is a fully managed in-memory caching service supporting Redis and Memcached. ElastiCache makes it easy to deploy, operate, and scale popular open-source compatible in-memory data stores, improving the performance of web applications.
@@ -63,6 +56,13 @@ providers:
   api_count: 4
   score_band: exemplar
   score_composite: 70.3
+  shared: 1
+- slug: oracle
+  name: Oracle
+  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
+  api_count: 216
+  score_band: exemplar
+  score_composite: 67.2
   shared: 1
 - slug: oracle-goldengate
   name: Oracle GoldenGate
@@ -169,6 +169,13 @@ providers:
   score_band: strong
   score_composite: 62.7
   shared: 1
+- slug: pingcap
+  name: PingCAP
+  description: PingCAP is the company behind TiDB, an open-source, MySQL-compatible distributed SQL database built for hybrid transactional and analytical processing (HTAP), horizontal scale-out, Raft-based strong consistency, and vector search for AI workloads. PingCAP operates TiDB Cloud, the fully managed DBaa…
+  api_count: 10
+  score_band: strong
+  score_composite: 61.6
+  shared: 1
 - slug: amazon-dms
   name: Amazon DMS
   description: AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. AWS DMS can migrate your data to and from the most widely used commerc…
@@ -196,13 +203,6 @@ providers:
   api_count: 4
   score_band: strong
   score_composite: 59.9
-  shared: 1
-- slug: pingcap
-  name: PingCAP
-  description: PingCAP is the company behind TiDB, an open-source, MySQL-compatible distributed SQL database built for hybrid transactional and analytical processing (HTAP), horizontal scale-out, Raft-based strong consistency, and vector search for AI workloads. PingCAP operates TiDB Cloud, the fully managed DBaa…
-  api_count: 10
-  score_band: strong
-  score_composite: 59.6
   shared: 1
 - slug: scylladb
   name: ScyllaDB
@@ -240,7 +240,7 @@ related:
 overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [database.apievangelist.com](https://database.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Notion, Bubble, Amazon Neptune, Amazon Keyspaces, Amazon DynamoDB, Oracle, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Notion, Bubble, Amazon Neptune, Amazon Keyspaces, Amazon DynamoDB, Amazon ElastiCache, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Serverless, Migration, Caching, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,8 +6,15 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://sdk.apievangelist.com
 area_host: sdk.apievangelist.com
 icon: https://sdk.apievangelist.com/icon-thumb.png
-provider_count: 346
+provider_count: 348
 providers:
+- slug: general-translation
+  name: General Translation
+  description: General Translation is an end-to-end internationalization (i18n) and localization platform for developers, backed by a16z. It combines open-source i18n libraries for React, Next.js, React Native, Node.js, and Python with an AI-powered translation API, a context platform (glossaries and translation…
+  api_count: 7
+  score_band: exemplar
+  score_composite: 66.1
+  shared: 1
 - slug: speakeasy
   name: Speakeasy
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
@@ -21,13 +28,6 @@ providers:
   api_count: 24
   score_band: strong
   score_composite: 62.3
-  shared: 1
-- slug: general-translation
-  name: General Translation
-  description: General Translation is an end-to-end internationalization (i18n) and localization platform for developers, backed by a16z. It combines open-source i18n libraries for React, Next.js, React Native, Node.js, and Python with an AI-powered translation API, a context platform (glossaries and translation…
-  api_count: 7
-  score_band: strong
-  score_composite: 62.0
   shared: 1
 - slug: chroma
   name: Chroma
@@ -77,6 +77,13 @@ providers:
   api_count: 19
   score_band: strong
   score_composite: 56.1
+  shared: 1
+- slug: the-guild-dev
+  name: The Guild
+  description: The Guild is an open-source software group building much of the GraphQL ecosystem's tooling, published together at the-guild.dev. Its portfolio spans GraphQL Hive (schema registry, usage observability and breaking-change detection), GraphQL Mesh (composing many APIs into one graph), GraphQL Yoga (s…
+  api_count: 10
+  score_band: developing
+  score_composite: 53.9
   shared: 1
 - slug: fern
   name: Fern
@@ -211,13 +218,6 @@ providers:
   score_band: developing
   score_composite: 49.1
   shared: 1
-- slug: hansoft
-  name: Hansoft
-  description: Hansoft, now branded P4 Plan by Perforce, is a real-time agile project planning and portfolio management tool for software, game, and hardware teams. It lets multiple teams work in their preferred methodology simultaneously (Scrum, Kanban, and Gantt) within a single backlog, with field-level permis…
-  api_count: 3
-  score_band: developing
-  score_composite: 48.8
-  shared: 1
 related:
 - slug: documentation
   name: Documentation
@@ -240,7 +240,7 @@ related:
 overview: 'SDKs is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [sdk.apievangelist.com](https://sdk.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Speakeasy, Android, General Translation, Chroma, Dwolla, Krisp, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including General Translation, Speakeasy, Android, Chroma, Dwolla, Krisp, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation, Developer Experience, API Evangelist Search, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

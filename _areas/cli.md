@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 106
+provider_count: 105
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -20,7 +20,7 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 21
   score_band: exemplar
-  score_composite: 71.2
+  score_composite: 74.6
   shared: 1
 - slug: plandex
   name: Plandex
@@ -76,7 +76,7 @@ providers:
   description: Mammoth Media is a Greylock-backed consumer technology company whose current product is TokenBot (mammoth.la now redirects to tokenbot.com) — a social, copy-trading platform for cryptocurrency communities on Discord and Telegram that synchronizes algorithmic trades across 12+ exchanges in real time…
   api_count: 1
   score_band: developing
-  score_composite: 47.5
+  score_composite: 49.9
   shared: 1
 - slug: tabtabtab
   name: TabTabTab
@@ -176,13 +176,6 @@ providers:
   score_band: thin
   score_composite: 36.8
   shared: 1
-- slug: serverless
-  name: Serverless
-  description: Serverless, Inc. builds the Serverless Framework, the original and most widely adopted open-source tool for building, deploying and operating serverless applications on AWS Lambda and other managed cloud services. It pairs a YAML-configured, multi-language command-line interface with a Dashboard fo…
-  api_count: 0
-  score_band: thin
-  score_composite: 36.8
-  shared: 1
 - slug: wget
   name: Wget
   description: GNU Wget is a free, open-source command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS protocols. It supports recursive downloading, resuming aborted downloads, mirroring websites, proxy support, and can be run from scripts and cron jobs. Wget2 i…
@@ -217,6 +210,13 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 35.5
+  shared: 1
+- slug: bruin
+  name: Bruin
+  description: Bruin is an end-to-end, open-source AI data platform that consolidates data ingestion, SQL and Python transformation, orchestration, quality checks, column-level lineage, and natural-language analytics into a single Git-native tool - positioned as a replacement for a fragmented Fivetran + dbt + Air…
+  api_count: 0
+  score_band: thin
+  score_composite: 35.3
   shared: 1
 related:
 - slug: clients

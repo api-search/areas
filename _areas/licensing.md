@@ -6,14 +6,21 @@ description: 'An index and topic collection covering software licensing APIs acr
 area_url: https://licensing.apievangelist.com
 area_host: licensing.apievangelist.com
 icon: https://licensing.apievangelist.com/icon-thumb.png
-provider_count: 32
+provider_count: 33
 providers:
 - slug: replicated
   name: Replicated
   description: Replicated is a commercial software distribution platform that lets independent software vendors (ISVs) deliver and manage modern applications into complex, customer-controlled environments — including on-prem, self-hosted, and air-gapped networks with little or no outbound internet access. The pla…
   api_count: 22
   score_band: strong
-  score_composite: 59.7
+  score_composite: 63.4
+  shared: 1
+- slug: opengov
+  name: OpenGov
+  description: OpenGov builds cloud enterprise resource planning and public service software for state and local government, serving more than 2,000 communities across budgeting and performance, financial management, procurement and contract management, vendor management, permitting and licensing, enterprise asse…
+  api_count: 10
+  score_band: strong
+  score_composite: 63.0
   shared: 1
 - slug: acma
   name: ACMA
@@ -50,19 +57,19 @@ providers:
   score_band: developing
   score_composite: 46.9
   shared: 1
+- slug: soundstripe
+  name: Soundstripe
+  description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
+  api_count: 7
+  score_band: developing
+  score_composite: 42.1
+  shared: 1
 - slug: story-protocol
   name: Story Protocol
   description: Story Protocol is a purpose-built EVM Layer 1 blockchain for onchain intellectual property (the "IP blockchain"), powered by Proof of Creativity, built by Pip Labs and backed by a16z. Its public REST API (api.storyapis.com) is a read-only indexer that exposes IP assets, collections, license terms,…
   api_count: 13
   score_band: thin
   score_composite: 39.8
-  shared: 1
-- slug: soundstripe
-  name: Soundstripe
-  description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
-  api_count: 7
-  score_band: thin
-  score_composite: 39.4
   shared: 1
 - slug: agentsync
   name: Agentsync
@@ -211,13 +218,6 @@ providers:
   score_band: minimal
   score_composite: 5.0
   shared: 1
-- slug: endeavor
-  name: Endeavor
-  description: Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media,…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.0
-  shared: 1
 related:
 - slug: regulation
   name: Regulation
@@ -225,7 +225,7 @@ related:
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Replicated, ACMA, Warner Music Group, Shutterstock, 7digital, FOSSology, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Replicated, OpenGov, ACMA, Warner Music Group, Shutterstock, 7digital, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Regulation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

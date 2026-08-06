@@ -64,6 +64,13 @@ providers:
   score_band: strong
   score_composite: 63.4
   shared: 1
+- slug: companycam
+  name: CompanyCam
+  description: CompanyCam is a photo-based job-site documentation platform for contractors and the trades — roofing, restoration, solar, home services and construction. Its mobile apps capture location- and time-stamped photos and videos that sync to a shared, project-organized workspace so crews, offices and cli…
+  api_count: 10
+  score_band: strong
+  score_composite: 62.5
+  shared: 1
 - slug: document360
   name: Document360
   description: Document360 is a SaaS knowledge base platform that allows teams to create, manage, and publish self-service knowledge bases and documentation portals. It supports version control, categories, team collaboration, analytics, and an API for integrating documentation into external workflows.
@@ -85,19 +92,19 @@ providers:
   score_band: strong
   score_composite: 58.7
   shared: 1
-- slug: companycam
-  name: CompanyCam
-  description: CompanyCam is a photo-based job-site documentation platform for contractors and the trades — roofing, restoration, solar, home services and construction. Its mobile apps capture location- and time-stamped photos and videos that sync to a shared, project-organized workspace so crews, offices and cli…
-  api_count: 10
-  score_band: strong
-  score_composite: 58.4
-  shared: 1
 - slug: dreamfactory
   name: DreamFactory
   description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
   api_count: 16
   score_band: developing
   score_composite: 55.4
+  shared: 1
+- slug: scribe
+  name: Scribe
+  description: Scribe (scribehow) is an AI workflow-documentation platform founded in 2019 that automatically turns any process or software walkthrough into a step-by-step guide. Its products — Scribe Capture, the knowledge base, and the newer Scribe Optimize workflow-mapping platform — are used by more than five…
+  api_count: 3
+  score_band: developing
+  score_composite: 54.4
   shared: 1
 - slug: nuclino
   name: Nuclino
@@ -120,12 +127,12 @@ providers:
   score_band: developing
   score_composite: 53.5
   shared: 1
-- slug: scribe
-  name: Scribe
-  description: Scribe (scribehow) is an AI workflow-documentation platform founded in 2019 that automatically turns any process or software walkthrough into a step-by-step guide. Its products — Scribe Capture, the knowledge base, and the newer Scribe Optimize workflow-mapping platform — are used by more than five…
-  api_count: 3
+- slug: hackmd
+  name: HackMD
+  description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide decks or books. HackMD exposes a v1 REST API at api.hackmd.io…
+  api_count: 8
   score_band: developing
-  score_composite: 51.6
+  score_composite: 52.2
   shared: 1
 - slug: gitbook
   name: GitBook
@@ -146,19 +153,12 @@ providers:
   description: PlanRadar is a SaaS platform for construction and real estate documentation, defect and task management, and site inspections, used by builders, owners, facility managers, architects and engineers in more than 75 countries. Its secure REST Open API (v1 and v2) lets Pro and Enterprise customers read…
   api_count: 36
   score_band: developing
-  score_composite: 49.9
+  score_composite: 50.1
   shared: 1
 - slug: doctave
   name: Doctave
   description: Doctave is a platform for building modern technical documentation sites. Bring your guides, your API references and SDK documentation, and build developer portals that make your product stand out. It supports a docs-as-code workflow powered by Markdown and OpenAPI, with Git-friendly version control…
   api_count: 4
-  score_band: developing
-  score_composite: 49.5
-  shared: 1
-- slug: hackmd
-  name: HackMD
-  description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide decks or books. HackMD exposes a v1 REST API at api.hackmd.io…
-  api_count: 8
   score_band: developing
   score_composite: 49.5
   shared: 1

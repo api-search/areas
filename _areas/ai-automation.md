@@ -6,15 +6,8 @@ description: AI automation combines artificial intelligence with workflow and pr
 area_url: https://ai-automation.apievangelist.com
 area_host: ai-automation.apievangelist.com
 icon: https://ai-automation.apievangelist.com/icon-thumb.png
-provider_count: 483
+provider_count: 486
 providers:
-- slug: xquik-api
-  name: Xquik
-  description: Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.
-  api_count: 3
-  score_band: exemplar
-  score_composite: 86.7
-  shared: 1
 - slug: dynatrace
   name: Dynatrace
   description: Dynatrace is a software intelligence platform that provides application performance monitoring, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management.
@@ -85,6 +78,13 @@ providers:
   score_band: exemplar
   score_composite: 68.9
   shared: 1
+- slug: coasty
+  name: Coasty
+  description: Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work across sandboxed virtual machines. It exposes a public REST…
+  api_count: 8
+  score_band: exemplar
+  score_composite: 67.4
+  shared: 1
 - slug: amazon-data-pipeline
   name: Amazon Data Pipeline
   description: AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it is stored, transform and process it a…
@@ -147,13 +147,6 @@ providers:
   api_count: 4
   score_band: strong
   score_composite: 64.9
-  shared: 1
-- slug: coasty
-  name: Coasty
-  description: Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work across sandboxed virtual machines. It exposes a public REST…
-  api_count: 8
-  score_band: strong
-  score_composite: 64.7
   shared: 1
 - slug: amazon-swf
   name: Amazon Simple Workflow Service
@@ -218,6 +211,13 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
+- slug: klaviyo
+  name: Klaviyo
+  description: Klaviyo is a marketing automation and customer data platform built for ecommerce. Build custom integrations to bring data into Klaviyo to create personalized experiences across email, SMS, mobile push, and more. The Klaviyo API exposes profiles, events, lists, segments, campaigns, flows, catalogs,…
+  api_count: 23
+  score_band: strong
+  score_composite: 61.8
+  shared: 1
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
@@ -234,13 +234,13 @@ related:
 - slug: testing
   name: Testing
   shared: 2
-- slug: webhooks
-  name: Webhooks
+- slug: ipaas
+  name: iPaaS
   shared: 2
 overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ai-automation.apievangelist.com](https://ai-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Xquik, Dynatrace, Postman, UiPath, ServiceNow, Appian, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Dynatrace, Postman, UiPath, ServiceNow, Appian, Workato, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS, Orchestration, Workflow Automation, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'

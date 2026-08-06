@@ -8,6 +8,13 @@ area_host: api-clients.apievangelist.com
 icon: https://api-clients.apievangelist.com/icon-thumb.png
 provider_count: 18
 providers:
+- slug: apollo-graphql
+  name: Apollo GraphQL
+  description: 'Apollo Graph, Inc. — trading publicly as Apollo and Apollo GraphQL — is the San Francisco company behind the Apollo GraphQL platform: Apollo GraphOS (a hosted supergraph platform with a schema registry, schema checks, proposals, launches, and operation/field insights), the Apollo Router and Apollo…'
+  api_count: 11
+  score_band: exemplar
+  score_composite: 66.1
+  shared: 1
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
@@ -28,13 +35,6 @@ providers:
   api_count: 23
   score_band: developing
   score_composite: 47.9
-  shared: 1
-- slug: apollo-graphql
-  name: Apollo GraphQL
-  description: Whether your team is new to GraphQL, or seasoned experts, learn why Apollo is the fastest and safest way to build and scale your APIs.
-  api_count: 11
-  score_band: thin
-  score_composite: 41.2
   shared: 1
 - slug: wget
   name: Wget
@@ -147,7 +147,7 @@ related:
 overview: 'API Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-clients.apievangelist.com](https://api-clients.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Insomnia, Hoppscotch, Ruby Programming Language and Popular API Gems, Apollo GraphQL, Wget, REST Client, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Apollo GraphQL, Insomnia, Hoppscotch, Ruby Programming Language and Popular API Gems, Wget, REST Client, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Clients, Command Line Interface, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

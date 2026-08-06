@@ -13,7 +13,7 @@ providers:
   description: 'Artsy (art.sy) is the online marketplace and platform for discovering, buying, and selling fine art, connecting collectors with galleries, museums, art fairs, and auction houses worldwide. Artsy operates a public developer program: the Artsy Public API (v2) is a HAL hypermedia REST API exposing Art…'
   api_count: 25
   score_band: developing
-  score_composite: 42.0
+  score_composite: 44.8
   shared: 1
 - slug: an-api-of-ice-and-fire
   name: An API of Ice And Fire

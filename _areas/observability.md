@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://observability.apievangelist.com
 area_host: observability.apievangelist.com
 icon: https://observability.apievangelist.com/icon-thumb.png
-provider_count: 301
+provider_count: 305
 providers:
 - slug: new-relic
   name: New Relic
@@ -57,13 +57,6 @@ providers:
   score_band: exemplar
   score_composite: 71.5
   shared: 1
-- slug: logz-io
-  name: Logz.io
-  description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
-  api_count: 19
-  score_band: exemplar
-  score_composite: 71.1
-  shared: 1
 - slug: vercel
   name: Vercel
   description: Vercel is a cloud platform that helps developers build, deploy, and scale modern web applications quickly and efficiently. It provides an optimized hosting environment for frontend frameworks like Next.js (which it created), as well as other React, Vue, Angular, and static site projects. Vercel aut…
@@ -84,6 +77,13 @@ providers:
   api_count: 8
   score_band: exemplar
   score_composite: 70.4
+  shared: 1
+- slug: logz-io
+  name: Logz.io
+  description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
+  api_count: 19
+  score_band: exemplar
+  score_composite: 70.3
   shared: 1
 - slug: highlight-io
   name: Highlight (highlight.io)
@@ -112,6 +112,13 @@ providers:
   api_count: 17
   score_band: exemplar
   score_composite: 68.3
+  shared: 1
+- slug: controlup
+  name: ControlUp
+  description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Paral…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 68.2
   shared: 1
 - slug: amazon-xray
   name: Amazon X-Ray
@@ -190,6 +197,13 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
+- slug: s2-dev
+  name: S2 Dev
+  description: S2 ("Stream Store") is the API for unlimited, durable, real-time streams. Where object storage deals with blobs, S2 provides append-able, ordered record streams that can be tailed in real time and replayed from any retained point. Core data-plane operations are append, read, and check-tail; the con…
+  api_count: 6
+  score_band: strong
+  score_composite: 62.4
+  shared: 1
 - slug: upsun
   name: Upsun
   description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
@@ -203,20 +217,6 @@ providers:
   api_count: 31
   score_band: strong
   score_composite: 61.6
-  shared: 1
-- slug: dash0
-  name: Dash0
-  description: Dash0 is an OpenTelemetry-native observability platform for engineering teams who want full visibility into logs, metrics, traces, profiles and events without operating complex pipelines or proprietary agents. Founded in 2023 (Series B, $110M, 2026), Dash0 ingests OTLP natively, correlates signals…
-  api_count: 18
-  score_band: strong
-  score_composite: 61.5
-  shared: 1
-- slug: encore-dev
-  name: Encore
-  description: Encore is a backend application framework and developer cloud that lets engineering teams build type-safe distributed systems in TypeScript (Encore.ts) and Go (Encore.go) using declarative Infrastructure from Code. Developers describe APIs, databases, Pub/Sub, object storage, caches, cron jobs, and…
-  api_count: 6
-  score_band: strong
-  score_composite: 61.4
   shared: 1
 related:
 - slug: monitoring

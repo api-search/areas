@@ -6,7 +6,7 @@ description: This is the index of embedded iPaaS service and tooling repos being
 area_url: https://embedded-ipaas.apievangelist.com
 area_host: embedded-ipaas.apievangelist.com
 icon: https://embedded-ipaas.apievangelist.com/icon-thumb.png
-provider_count: 96
+provider_count: 97
 providers:
 - slug: workato
   name: Workato
@@ -183,6 +183,13 @@ providers:
   score_band: developing
   score_composite: 53.4
   shared: 1
+- slug: rewst
+  name: Rewst
+  description: Rewst is a workflow automation and integration (iPaaS/RPA) platform built specifically for managed service providers (MSPs). It combines a visual workflow builder, a form builder, an app builder, 90+ managed MSP integrations (PSA, RMM, Microsoft 365, security tools), reusable automation packages ca…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.2
+  shared: 1
 - slug: whereby
   name: Whereby
   description: Whereby is an embeddable video API plus standalone meetings product that lets developers add browser-based, no-download video calls to their apps with a few lines of code or build deeply customized experiences via SDKs. The REST API at api.whereby.dev/v1 covers meetings, rooms, recordings, transcri…
@@ -211,17 +218,10 @@ providers:
   score_band: developing
   score_composite: 50.1
   shared: 1
-- slug: kombo
-  name: Kombo
-  description: Kombo is a unified API for HR and ATS integrations, enabling B2B SaaS companies to connect with HRIS, payroll, recruiting, and learning systems through a single integration.
-  api_count: 8
-  score_band: developing
-  score_composite: 49.7
-  shared: 1
 related:
 - slug: ipaas
   name: iPaaS
-  shared: 17
+  shared: 18
 - slug: integrations
   name: Integrations
   shared: 13
@@ -230,7 +230,7 @@ related:
   shared: 4
 - slug: workflow-automation
   name: Workflow Automation
-  shared: 3
+  shared: 4
 - slug: internet-of-things
   name: Internet of Things
   shared: 2

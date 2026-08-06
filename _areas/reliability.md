@@ -6,14 +6,14 @@ description: An index and topic collection covering site reliability engineering
 area_url: https://reliability.apievangelist.com
 area_host: reliability.apievangelist.com
 icon: https://reliability.apievangelist.com/icon-thumb.png
-provider_count: 16
+provider_count: 17
 providers:
 - slug: svix
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 21
   score_band: exemplar
-  score_composite: 71.2
+  score_composite: 74.6
   shared: 1
 - slug: google-cloud-error-reporting
   name: Google Cloud Error Reporting
@@ -120,6 +120,13 @@ providers:
   score_band: minimal
   score_composite: 5.0
   shared: 1
+- slug: base-operations
+  name: Base Operations
+  description: Base Operations provides patterns and resources for API operational management including monitoring, reliability, incident response, and performance management for API programs.
+  api_count: 0
+  score_band: minimal
+  score_composite: 3.2
+  shared: 1
 related:
 - slug: cli
   name: Command Line Interface
@@ -139,7 +146,7 @@ related:
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  16 providers on the network work in this area, including Svix, Google Cloud Error Reporting, Gremlin, Chaos Mesh, Sonarly, Memfault, and 10 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  17 providers on the network work in this area, including Svix, Google Cloud Error Reporting, Gremlin, Chaos Mesh, Sonarly, Memfault, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Command Line Interface, Logging, SaaS Management, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

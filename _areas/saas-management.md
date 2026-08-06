@@ -6,28 +6,21 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 958
+provider_count: 965
 providers:
+- slug: svix
+  name: Svix
+  description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
+  api_count: 21
+  score_band: exemplar
+  score_composite: 74.6
+  shared: 1
 - slug: boomi
   name: Boomi
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 20
   score_band: exemplar
   score_composite: 72.4
-  shared: 1
-- slug: oracle
-  name: Oracle
-  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
-  api_count: 56
-  score_band: exemplar
-  score_composite: 71.5
-  shared: 1
-- slug: svix
-  name: Svix
-  description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
-  api_count: 21
-  score_band: exemplar
-  score_composite: 71.2
   shared: 1
 - slug: kinde
   name: Kinde
@@ -50,6 +43,27 @@ providers:
   score_band: exemplar
   score_composite: 68.3
   shared: 1
+- slug: connecteam
+  name: Connecteam
+  description: Connecteam is a mobile-first workforce management platform for deskless and non-desk teams, bundling time clock and GPS timesheets, job scheduling, task boards, digital forms and checklists, chat and company communication, HR onboarding, time off, pay rates and sales data into three purchasable hub…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.2
+  shared: 1
+- slug: oracle
+  name: Oracle
+  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
+  api_count: 216
+  score_band: exemplar
+  score_composite: 67.2
+  shared: 1
+- slug: coda-project
+  name: Coda Project
+  description: Coda Project, Inc. is the maker of Coda (now branded Superhuman Docs), an all-in-one collaborative workspace that blends the flexibility of a document, the structure of a spreadsheet, the power of applications, and the intelligence of AI into a single canvas. Founded in 2014 by Shishir Mehrotra and…
+  api_count: 32
+  score_band: exemplar
+  score_composite: 66.2
+  shared: 1
 - slug: microsoft-power-apps
   name: Microsoft Power Apps
   description: Collection of APIs for Microsoft Power Apps platform enabling low-code application development, automation, and data connectivity.
@@ -64,19 +78,12 @@ providers:
   score_band: strong
   score_composite: 64.2
   shared: 1
-- slug: connecteam
-  name: Connecteam
-  description: Connecteam is a mobile-first workforce management platform for deskless and non-desk teams, bundling time clock and GPS timesheets, job scheduling, task boards, digital forms and checklists, chat and company communication, HR onboarding, time off, pay rates and sales data into three purchasable hub…
-  api_count: 1
+- slug: lucid
+  name: Lucid
+  description: Lucid Software Inc. is the visual collaboration company behind the Lucid Suite — Lucidchart (intelligent diagramming), Lucidspark (virtual whiteboarding) and Lucidscale (cloud visualization) — plus the Lucid Cloud, Process and Enterprise Shield accelerators and airfocus. The Lucid Developer Platfor…
+  api_count: 5
   score_band: strong
-  score_composite: 64.1
-  shared: 1
-- slug: mobileapi-dev
-  name: MobileAPI.dev
-  description: MobileAPI.dev is a commercial REST API that provides structured device specifications, product images, and metadata for over 31,500 smartphones, tablets, smartwatches, and laptops from more than 200 brands. The API exposes 12 normalized spec categories per device (Network, Body, Display, Platform,…
-  api_count: 9
-  score_band: strong
-  score_composite: 64.0
+  score_composite: 63.3
   shared: 1
 - slug: adobe-creative-cloud
   name: Adobe Creative Cloud
@@ -85,19 +92,19 @@ providers:
   score_band: strong
   score_composite: 63.2
   shared: 1
-- slug: wundergraph
-  name: WunderGraph
-  description: Full Lifecycle API Management for (Federated) GraphQL. Schema Registry, composition checks, analytics, metrics, tracing and routing. Deploy 100% on-prem or use our Managed Service. Apache 2.0 licensed, no vendor-lock.
-  api_count: 10
-  score_band: strong
-  score_composite: 63.0
-  shared: 1
 - slug: lightfield
   name: Lightfield
   description: Lightfield is an agent-native customer relationship management (CRM) platform for high-growth and AI-native go-to-market teams. Rather than depending on manual data entry, Lightfield captures customer interactions — calls, emails, meetings and external signals — as unstructured data, organizes them…
   api_count: 13
   score_band: strong
   score_composite: 62.9
+  shared: 1
+- slug: mobileapi-dev
+  name: MobileAPI.dev
+  description: MobileAPI.dev is a commercial REST API that provides structured device specifications, product images, and metadata for over 31,500 smartphones, tablets, smartwatches, and laptops from more than 200 brands. The API exposes 12 normalized spec categories per device (Network, Body, Display, Platform,…
+  api_count: 9
+  score_band: strong
+  score_composite: 62.7
   shared: 1
 - slug: usersnap
   name: Usersnap
@@ -110,6 +117,13 @@ providers:
   name: LeanKit
   description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hierarchies. LeanKit exposes a documented RESTful v2 API at http…
   api_count: 25
+  score_band: strong
+  score_composite: 62.6
+  shared: 1
+- slug: vitally
+  name: Vitally
+  description: Vitally is an AI-powered Customer Success platform (CSP) that unifies customer data, health scores, and revenue context with workflow automation — Hubs, automated Playbooks, Docs, Projects, and NPS and custom surveys — plus Vitally AI (Copilot, Summaries, Meeting Recorder). Its public REST API expo…
+  api_count: 9
   score_band: strong
   score_composite: 62.6
   shared: 1
@@ -127,13 +141,6 @@ providers:
   score_band: strong
   score_composite: 62.3
   shared: 1
-- slug: coda-project
-  name: Coda Project
-  description: Coda Project, Inc. is the maker of Coda (now branded Superhuman Docs), an all-in-one collaborative workspace that blends the flexibility of a document, the structure of a spreadsheet, the power of applications, and the intelligence of AI into a single canvas. Founded in 2014 by Shishir Mehrotra and…
-  api_count: 32
-  score_band: strong
-  score_composite: 62.1
-  shared: 1
 - slug: helpscout
   name: Help Scout
   description: Help Scout is an email-first help desk platform with shared inboxes, live chat, knowledge bases, and a customer portal. The Help Scout APIs expose conversations, customers, inboxes, users, workflows, ratings, reports, Docs (knowledge base), Beacon (in-app messaging), and webhooks.
@@ -148,12 +155,26 @@ providers:
   score_band: strong
   score_composite: 61.6
   shared: 1
+- slug: read-ai
+  name: Read AI
+  description: Read AI is an AI-powered meeting intelligence platform that joins Zoom, Microsoft Teams and Google Meet calls as an authorized notetaker and turns them into structured meeting reports — summaries, chapter summaries, action items, key questions, topics, full speaker-attributed transcripts and engage…
+  api_count: 2
+  score_band: strong
+  score_composite: 61.5
+  shared: 1
 - slug: lawvu
   name: LawVu
   description: LawVu is a New Zealand-founded legal technology company whose LegalOS is a connected workspace for corporate in-house legal teams, bringing matter management, contract lifecycle management, legal request intake, spend management and e-billing, document management, reporting and embedded AI into a s…
   api_count: 26
   score_band: strong
   score_composite: 61.3
+  shared: 1
+- slug: rocketlane
+  name: Rocketlane
+  description: Rocketlane is an AI-powered Professional Services Automation (PSA) platform that unifies customer onboarding, project delivery, resource management, time tracking, and professional-services financials in one system. Its public REST API (base https://api.rocketlane.com/api/1.0/) exposes projects, ta…
+  api_count: 13
+  score_band: strong
+  score_composite: 61.2
   shared: 1
 - slug: oracle-fusion
   name: Oracle Fusion Cloud Applications
@@ -190,46 +211,25 @@ providers:
   score_band: strong
   score_composite: 60.5
   shared: 1
-- slug: workday-payroll
-  name: Workday Payroll
-  description: Workday Payroll provides comprehensive APIs for managing payroll operations, employee compensation, tax calculations, and payment processing within the Workday platform.
-  api_count: 21
+- slug: salsify
+  name: Salsify
+  description: Salsify is a product experience management (PXM) and supplier experience management (SXM) platform used by brands, distributors and retailers to centralize product content, digital assets and syndication to the digital shelf. The Salsify platform exposes a REST API at app.salsify.com/api/v1/orgs co…
+  api_count: 3
   score_band: strong
   score_composite: 60.4
-  shared: 1
-- slug: amazon-systems-manager
-  name: Amazon Systems Manager
-  description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
-  api_count: 5
-  score_band: strong
-  score_composite: 59.9
-  shared: 1
-- slug: vitally
-  name: Vitally
-  description: Vitally is an AI-powered Customer Success platform (CSP) that unifies customer data, health scores, and revenue context with workflow automation — Hubs, automated Playbooks, Docs, Projects, and NPS and custom surveys — plus Vitally AI (Copilot, Summaries, Meeting Recorder). Its public REST API expo…
-  api_count: 9
-  score_band: strong
-  score_composite: 59.9
-  shared: 1
-- slug: brainfish
-  name: Brainfish
-  description: Brainfish is an AI product-support platform for B2B SaaS companies, built in Sydney and deployed globally with US/EU/AU data residency. Its AI support agents resolve customer tickets across chat, email, in-product, Slack and Teams, grounding every answer in the company's real product knowledge rath…
-  api_count: 9
-  score_band: strong
-  score_composite: 59.6
   shared: 1
 related:
 - slug: management
   name: Management
-  shared: 5
+  shared: 3
+- slug: webhooks
+  name: Webhooks
+  shared: 3
 - slug: agents
   name: Agents
   shared: 2
 - slug: integrations
   name: Integrations
-  shared: 2
-- slug: webhooks
-  name: Webhooks
   shared: 2
 - slug: reliability
   name: Reliability
@@ -240,8 +240,8 @@ related:
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Boomi, Oracle, Svix, Kinde, Workday, Onfleet, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Svix, Boomi, Kinde, Workday, Onfleet, Connecteam, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, Agents, Integrations, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, Webhooks, Agents, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

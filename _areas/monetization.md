@@ -6,7 +6,7 @@ description: 'An index and topic collection covering API and SaaS monetization p
 area_url: https://monetization.apievangelist.com
 area_host: monetization.apievangelist.com
 icon: https://monetization.apievangelist.com/icon-thumb.png
-provider_count: 60
+provider_count: 62
 providers:
 - slug: apigee
   name: Apigee
@@ -36,19 +36,19 @@ providers:
   score_band: strong
   score_composite: 56.2
   shared: 1
+- slug: coda-payments
+  name: Coda Payments
+  description: Coda Payments (trading as Coda, coda.co) is a Singapore-headquartered global Merchant of Record and monetization platform for digital content publishers, game studios and app developers. Its Codapay API lets partners accept 300+ local and global payment methods — cards, e-wallets, direct carrier bi…
+  api_count: 4
+  score_band: developing
+  score_composite: 54.7
+  shared: 1
 - slug: streamelements
   name: StreamElements
   description: StreamElements is a cloud-based platform for live streamers and content creators on Twitch, YouTube, Kick and Facebook, offering 100% free customizable overlays and alerts, a chatbot, tipping and donations, loyalty points, giveaways and contests, song requests, a media/merch store, brand sponsorshi…
   api_count: 24
   score_band: developing
   score_composite: 53.2
-  shared: 1
-- slug: netcracker
-  name: Netcracker
-  description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
-  api_count: 4
-  score_band: developing
-  score_composite: 52.7
   shared: 1
 - slug: solvimon
   name: Solvimon
@@ -64,6 +64,13 @@ providers:
   score_band: developing
   score_composite: 52.3
   shared: 1
+- slug: netcracker
+  name: Netcracker
+  description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
+  api_count: 4
+  score_band: developing
+  score_composite: 52.2
+  shared: 1
 - slug: viglink
   name: VigLink (Sovrn Commerce)
   description: VigLink pioneered automatic affiliate link monetization for publishers, turning ordinary product links into revenue-generating affiliate links across a network of tens of thousands of merchants. Founded in 2009 and backed by investors including Uncork Capital, VigLink was acquired by Sovrn in early…
@@ -75,6 +82,13 @@ providers:
   name: Google AdSense Management
   description: The Google AdSense Management API allows publishers to access their inventory and run earnings and performance reports. Publishers can manage ad clients, ad units, custom channels, URL channels, and access payment and policy information programmatically.
   api_count: 5
+  score_band: developing
+  score_composite: 50.2
+  shared: 1
+- slug: news-break
+  name: News Break
+  description: NewsBreak is the leading local news and information platform in the United States, operated by Particle Media, Inc., a Delaware corporation founded in Silicon Valley in 2015 and launched as a mobile app in 2016. Its AI-powered platform serves more than 40 million Americans a month with local news,…
+  api_count: 2
   score_band: developing
   score_composite: 50.2
   shared: 1
@@ -92,13 +106,6 @@ providers:
   score_band: developing
   score_composite: 46.9
   shared: 1
-- slug: news-break
-  name: News Break
-  description: NewsBreak is the leading local news and information platform in the United States, operated by Particle Media, Inc., a Delaware corporation founded in Silicon Valley in 2015 and launched as a mobile app in 2016. Its AI-powered platform serves more than 40 million Americans a month with local news,…
-  api_count: 2
-  score_band: developing
-  score_composite: 46.1
-  shared: 1
 - slug: moesif
   name: Moesif
   description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
@@ -110,6 +117,13 @@ providers:
   name: Podbean
   description: Podbean is a podcast hosting, distribution, and monetization platform for creators, businesses, and networks. Its public REST API (base https://api.podbean.com/v1) uses OAuth 2.0 and lets third-party apps and integrations manage a user's podcast programmatically - read podcast profiles, list and pu…
   api_count: 6
+  score_band: developing
+  score_composite: 42.5
+  shared: 1
+- slug: vungle
+  name: Vungle
+  description: Vungle is a mobile app monetization and user-acquisition platform, now operated as part of Liftoff (the merged Liftoff + Vungle mobile growth company). Vungle's in-app advertising SDKs help mobile publishers monetize with performance-focused ad formats (video, interactive, and playable ads), while…
+  api_count: 4
   score_band: developing
   score_composite: 42.5
   shared: 1
@@ -126,13 +140,6 @@ providers:
   api_count: 4
   score_band: thin
   score_composite: 41.3
-  shared: 1
-- slug: vungle
-  name: Vungle
-  description: Vungle is a mobile app monetization and user-acquisition platform, now operated as part of Liftoff (the merged Liftoff + Vungle mobile growth company). Vungle's in-app advertising SDKs help mobile publishers monetize with performance-focused ad formats (video, interactive, and playable ads), while…
-  api_count: 4
-  score_band: thin
-  score_composite: 39.8
   shared: 1
 - slug: acast
   name: Acast
@@ -211,13 +218,6 @@ providers:
   score_band: emerging
   score_composite: 26.5
   shared: 1
-- slug: themonetizr
-  name: TheMonetizr
-  description: Monetizr (TheMonetizr) is a gaming media platform for in-game brand advertising that turns gameplay into measurable, voluntary, and non-skippable brand engagement. Brands run branded campaigns and missions inside mobile games; players complete them for in-game or brand-sponsored rewards, reporting…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.2
-  shared: 1
 related:
 - slug: finops
   name: FinOps
@@ -237,7 +237,7 @@ related:
 overview: 'Monetization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monetization.apievangelist.com](https://monetization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Apigee, Appcharge, Amberflo, Drippay, StreamElements, Netcracker, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Apigee, Appcharge, Amberflo, Drippay, Coda Payments, StreamElements, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: FinOps, Plans, Integrations, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'

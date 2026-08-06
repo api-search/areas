@@ -106,15 +106,9 @@ providers:
   score_band: thin
   score_composite: 36.4
   shared: 1
-related:
-- slug: agents
-  name: Agents
-  shared: 1
+related: []
 overview: 'Gateway is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [gateway.apievangelist.com](https://gateway.apievangelist.com).
 
 
-  14 providers on the network work in this area, including Amazon Storage Gateway, OpenRouter, Dedalus Labs, Amazon API Gateway, Couchbase, osmAPI, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
-
-
-  Related areas: Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  14 providers on the network work in this area, including Amazon Storage Gateway, OpenRouter, Dedalus Labs, Amazon API Gateway, Couchbase, osmAPI, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

@@ -12,8 +12,8 @@ providers:
   name: Consumer Data Right (Energy)
   description: 'The Consumer Data Right (CDR) is Australia''s statutory consumer data-sharing regime, created under Part IVD of the Competition and Consumer Act 2010 and extended from banking into electricity by the Consumer Data Right (Energy Sector) Designation 2020. It is run by three bodies: the ACCC as lead re…'
   api_count: 6
-  score_band: developing
-  score_composite: 54.9
+  score_band: strong
+  score_composite: 58.3
   shared: 1
 - slug: fiscalnote
   name: FiscalNote
@@ -27,7 +27,7 @@ providers:
   description: The Australian Energy Regulator (AER) is the independent national economic regulator of Australia's energy markets, established under the Competition and Consumer Act 2010 and operating alongside the ACCC. It sets network revenues and prices, enforces the National Electricity, Gas and Energy Retail…
   api_count: 3
   score_band: developing
-  score_composite: 47.3
+  score_composite: 50.8
   shared: 1
 - slug: rics
   name: RICS (Royal Institution of Chartered Surveyors)

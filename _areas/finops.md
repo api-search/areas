@@ -71,19 +71,19 @@ providers:
   score_band: strong
   score_composite: 57.8
   shared: 1
+- slug: schematic
+  name: Schematic
+  description: 'Schematic is a monetization platform that lets developers implement pricing once so that go-to-market teams can control pricing, packaging and entitlements without code changes. It decouples pricing from code: engineering integrates the entitlement and metering layer, and product, sales and finance…'
+  api_count: 20
+  score_band: strong
+  score_composite: 56.8
+  shared: 1
 - slug: stigg
   name: Stigg
   description: Stigg is a product-led growth monetization platform providing REST and GraphQL APIs for managing pricing plans, entitlements, usage-based billing, feature flags, and subscription lifecycle. It serves as a monetization control layer for SaaS and AI products, enabling engineering teams to implement f…
   api_count: 9
   score_band: strong
   score_composite: 56.3
-  shared: 1
-- slug: schematic
-  name: Schematic
-  description: Schematic is a feature and entitlement management platform for SaaS companies, providing pricing, packaging, and metering capabilities. It enables engineering and product teams to manage feature flags, define subscription plans, track feature usage, and control customer entitlements without code ch…
-  api_count: 20
-  score_band: strong
-  score_composite: 56.1
   shared: 1
 - slug: langwatch
   name: LangWatch
@@ -197,6 +197,13 @@ providers:
   score_band: developing
   score_composite: 44.6
   shared: 1
+- slug: alphaus
+  name: Alphaus
+  description: Alphaus is a Tokyo-based cloud FinOps company (No. 1 in Japan) whose platform helps enterprises, managed service providers, and cloud resellers manage and optimize multi-cloud spend across AWS, Azure, and GCP. Its products include Octo (cost visibility and optimization), Ripple and WavePro (reselle…
+  api_count: 15
+  score_band: developing
+  score_composite: 44.1
+  shared: 1
 - slug: opencost
   name: OpenCost
   description: An open source CNCF specification and reference implementation for real-time cost monitoring of Kubernetes infrastructure and cloud spending, enabling teams to measure, allocate, and optimize cloud costs across workloads.
@@ -210,13 +217,6 @@ providers:
   api_count: 18
   score_band: developing
   score_composite: 42.5
-  shared: 1
-- slug: paigo
-  name: Paigo
-  description: Paigo is a usage-based billing infrastructure platform with a REST API for metering API calls, tracking consumption, managing pricing tiers, and automating invoice generation for developer products. It supports pay-as-you-go, subscription tier, seat-based, custom unit, and top-up pricing models wit…
-  api_count: 8
-  score_band: developing
-  score_composite: 42.4
   shared: 1
 related:
 - slug: monetization

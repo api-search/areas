@@ -6,7 +6,7 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 284
+provider_count: 295
 providers:
 - slug: vapi-ai
   name: Vapi
@@ -57,6 +57,13 @@ providers:
   score_band: exemplar
   score_composite: 71.8
   shared: 1
+- slug: landingai
+  name: Landing.ai
+  description: LandingAI, founded by Andrew Ng, builds production AI for visual and document understanding. Its flagship product is Agentic Document Extraction (ADE), which converts real-world documents — PDFs, images, Office files and spreadsheets — into structured, auditable data. ADE exposes a family of REST A…
+  api_count: 13
+  score_band: exemplar
+  score_composite: 71.4
+  shared: 1
 - slug: daytona-io
   name: Daytona
   description: Daytona is open-source, secure, and elastic infrastructure for running AI-generated code. Daytona sandboxes spin up in under 90 milliseconds and provide isolated Linux, Windows, and macOS environments where autonomous agents and developer workflows can execute untrusted code, perform file system an…
@@ -71,19 +78,19 @@ providers:
   score_band: exemplar
   score_composite: 69.2
   shared: 1
-- slug: landingai
-  name: Landing.ai
-  description: LandingAI, founded by Andrew Ng, builds production AI for visual and document understanding. Its flagship product is Agentic Document Extraction (ADE), which converts real-world documents — PDFs, images, Office files and spreadsheets — into structured, auditable data. ADE exposes a family of REST A…
-  api_count: 13
-  score_band: exemplar
-  score_composite: 67.3
-  shared: 1
 - slug: microsoft-copilot
   name: Microsoft Copilot
   description: Microsoft Copilot is an AI-powered assistant that helps users with productivity tasks, content generation, and information retrieval across Microsoft 365 applications and services.
   api_count: 7
   score_band: exemplar
   score_composite: 66.8
+  shared: 1
+- slug: e2b-dev
+  name: E2B
+  description: E2B (e2b-dev) provides secure, isolated cloud sandboxes for AI agents and AI-generated code, built on a forked Firecracker microVM runtime. The platform ships a REST Sandbox API, JavaScript and Python SDKs, a Code Interpreter SDK, a Desktop Sandbox for computer-use agents, persistent volumes, a cus…
+  api_count: 14
+  score_band: exemplar
+  score_composite: 66.6
   shared: 1
 - slug: workos
   name: WorkOS
@@ -120,6 +127,13 @@ providers:
   score_band: strong
   score_composite: 64.2
   shared: 1
+- slug: lilt
+  name: Lilt
+  description: 'LILT is an AI translation and localization platform that pairs contextual, adaptive machine translation with human linguist verification. The LILT REST API (https://api.lilt.com) exposes the platform programmatically: adaptive machine translation, large-scale translation memory and the Lexicon term…'
+  api_count: 13
+  score_band: strong
+  score_composite: 63.5
+  shared: 1
 - slug: amazon-bedrock
   name: Amazon Bedrock
   description: Amazon Bedrock is a fully managed AWS service that makes high-performing foundation models from leading AI companies available through a unified API for building generative AI applications. It supports text and image generation, conversational AI, model customization and fine-tuning, retrieval-augm…
@@ -155,12 +169,19 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
-- slug: e2b-dev
-  name: E2B
-  description: E2B (e2b-dev) provides secure, isolated cloud sandboxes for AI agents and AI-generated code, built on a forked Firecracker microVM runtime. The platform ships a REST Sandbox API, JavaScript and Python SDKs, a Code Interpreter SDK, a Desktop Sandbox for computer-use agents, persistent volumes, a cus…
-  api_count: 14
+- slug: compresr
+  name: Compresr
+  description: Compresr is an LLM context-compression API. You send the long context you would otherwise pass to a model plus the query you want answered, and Compresr returns a shorter context that keeps the answer-bearing spans and drops the rest — fewer input tokens, lower cost, a longer effective context wind…
+  api_count: 27
   score_band: strong
   score_composite: 62.5
+  shared: 1
+- slug: read-ai
+  name: Read AI
+  description: Read AI is an AI-powered meeting intelligence platform that joins Zoom, Microsoft Teams and Google Meet calls as an authorized notetaker and turns them into structured meeting reports — summaries, chapter summaries, action items, key questions, topics, full speaker-attributed transcripts and engage…
+  api_count: 2
+  score_band: strong
+  score_composite: 61.5
   shared: 1
 - slug: thoughtspot
   name: ThoughtSpot
@@ -169,6 +190,13 @@ providers:
   score_band: strong
   score_composite: 61.1
   shared: 1
+- slug: fastino-labs
+  name: Fastino Labs
+  description: Fastino Labs is an applied research lab building production-ready small language models (SLMs) for agentic AI — structured data extraction, classification, PII detection, and safety moderation. Its Pioneer platform is an agentic fine-tuning and inference API that lets teams generate synthetic train…
+  api_count: 4
+  score_band: strong
+  score_composite: 60.7
+  shared: 1
 - slug: beyond-presence
   name: Beyond Presence
   description: Beyond Presence (brand "bey") is a Europe-based AI company building real-time conversational AI video agents and speech-to-video (S2V) technology. Its platform lets developers deploy hyper-realistic AI video avatars that respond in real time (sub-1.2s latency at up to 1080p) across HR, sales, suppo…
@@ -176,47 +204,19 @@ providers:
   score_band: strong
   score_composite: 60.4
   shared: 1
+- slug: nextroll
+  name: NextRoll
+  description: 'NextRoll, Inc. is a San Francisco-based marketing technology company that operates two brands on a shared machine-learning and identity platform: AdRoll, a cross-channel digital advertising and retargeting platform for ecommerce and D2C marketers, and AdRoll ABM (formerly RollWorks), an account-bas…'
+  api_count: 9
+  score_band: strong
+  score_composite: 59.9
+  shared: 1
 - slug: prime-intellect
   name: Prime Intellect
   description: Prime Intellect is a San Francisco–based startup building an open and decentralized stack for developing and improving AI agents through reinforcement learning. The company combines a 50+ provider GPU compute marketplace (single-node and 1–256 GPU multi-node clusters across H100, H200, B200, and B3…
   api_count: 20
   score_band: strong
   score_composite: 59.9
-  shared: 1
-- slug: dedaluslabs
-  name: Dedalus Labs
-  description: 'Dedalus Labs builds infrastructure for AI agents. It runs two production APIs: the Dedalus Agents API, an OpenAI-compatible MCP gateway that lets you mix and match any model from any provider with tools drawn from the Dedalus MCP marketplace (chat completions, embeddings, audio, images, and OCR thr…'
-  api_count: 16
-  score_band: strong
-  score_composite: 59.7
-  shared: 1
-- slug: brainfish
-  name: Brainfish
-  description: Brainfish is an AI product-support platform for B2B SaaS companies, built in Sydney and deployed globally with US/EU/AU data residency. Its AI support agents resolve customer tickets across chat, email, in-product, Slack and Teams, grounding every answer in the company's real product knowledge rath…
-  api_count: 9
-  score_band: strong
-  score_composite: 59.6
-  shared: 1
-- slug: lilt
-  name: Lilt
-  description: 'LILT is an AI translation and localization platform that pairs contextual, adaptive machine translation with human linguist verification. The LILT REST API (https://api.lilt.com) exposes the platform programmatically: adaptive machine translation, large-scale translation memory and the Lexicon term…'
-  api_count: 13
-  score_band: strong
-  score_composite: 59.4
-  shared: 1
-- slug: mistral-ai
-  name: Mistral AI
-  description: Mistral AI is a French artificial intelligence company that develops and provides frontier large language models and APIs for developers and enterprises. Their developer platform offers APIs for chat completions, embeddings, fine-tuning, OCR, batch processing, and agentic workflows, enabling teams…
-  api_count: 8
-  score_band: strong
-  score_composite: 59.1
-  shared: 1
-- slug: n8n
-  name: N8n
-  description: Build with the precision of code or the speed of drag-n-drop. Host with on-prem control or in-the-cloud convenience. n8n gives you more freedom to implement multi-step AI agents and integrate apps than any other tool.
-  api_count: 15
-  score_band: strong
-  score_composite: 58.6
   shared: 1
 related:
 - slug: machine-learning
@@ -228,11 +228,11 @@ related:
 - slug: saas-management
   name: SaaS Management
   shared: 2
+- slug: webhooks
+  name: Webhooks
+  shared: 2
 - slug: plans
   name: Plans
-  shared: 1
-- slug: gateway
-  name: Gateway
   shared: 1
 - slug: ide
   name: IDE
@@ -243,5 +243,5 @@ overview: 'Agents is one of the API Evangelist areas on the [APIs.io](https://ap
   30 providers on the network work in this area, including Vapi, ChatGPT, Anthropic, GitHub Copilot, Exa, Dust, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Machine Learning, API Evangelist Search, SaaS Management, and Plans. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Machine Learning, API Evangelist Search, SaaS Management, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

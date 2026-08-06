@@ -106,26 +106,26 @@ providers:
   score_band: developing
   score_composite: 44.8
   shared: 1
-- slug: platform9
-  name: Platform9
-  description: Platform9 is an enterprise private cloud company whose flagship Private Cloud Director is a full-featured VMware alternative for running virtual machines and containers on your own hardware. Built on a hardened OpenStack and Kubernetes foundation, it delivers high availability, live migration, dyna…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.2
-  shared: 1
 - slug: firecracker
   name: Firecracker
   description: Firecracker is an open source virtual machine monitor (VMM) built by Amazon Web Services that uses KVM to create and manage lightweight microVMs. Designed for serverless computing and container workloads, it provides the security and isolation of traditional VMs with the speed and resource efficien…
   api_count: 19
   score_band: thin
-  score_composite: 35.0
+  score_composite: 38.7
   shared: 1
 - slug: incus
   name: Incus
   description: Incus is a modern open source system container and virtual machine manager maintained by LinuxContainers.org as a community-led fork of Canonical's LXD. It provides a unified experience for running and managing system containers and VMs across single hosts and clusters, with image-based deployment,…
   api_count: 22
   score_band: thin
-  score_composite: 32.2
+  score_composite: 37.0
+  shared: 1
+- slug: platform9
+  name: Platform9
+  description: Platform9 is an enterprise private cloud company whose flagship Private Cloud Director is a full-featured VMware alternative for running virtual machines and containers on your own hardware. Built on a hardened OpenStack and Kubernetes foundation, it delivers high availability, live migration, dyna…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.2
   shared: 1
 - slug: parallels
   name: Parallels
@@ -141,6 +141,13 @@ providers:
   score_band: thin
   score_composite: 29.8
   shared: 1
+- slug: simplivity
+  name: SimpliVity
+  description: SimpliVity is the hyperconverged infrastructure (HCI) pioneer acquired by Hewlett Packard Enterprise in 2017 and now shipped as HPE SimpliVity. Its data virtualization platform runs on the OmniStack software stack, delivering built-in deduplication, compression, backup, replication, and disaster re…
+  api_count: 10
+  score_band: emerging
+  score_composite: 27.6
+  shared: 1
 - slug: proxmox
   name: Proxmox VE
   description: Proxmox Virtual Environment (Proxmox VE) is an open-source server virtualization platform that combines KVM hypervisor and LXC containers, software-defined storage and networking, and clustering and high- availability features in a single web-managed solution. The Proxmox VE API exposes all platfor…
@@ -154,13 +161,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 26.5
-  shared: 1
-- slug: simplivity
-  name: SimpliVity
-  description: SimpliVity is the hyperconverged infrastructure (HCI) pioneer acquired by Hewlett Packard Enterprise in 2017 and now shipped as HPE SimpliVity. Its data virtualization platform runs on the OmniStack software stack, delivering built-in deduplication, compression, backup, replication, and disaster re…
-  api_count: 10
-  score_band: emerging
-  score_composite: 24.4
   shared: 1
 - slug: nanovms
   name: NanoVMs

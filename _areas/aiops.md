@@ -13,7 +13,7 @@ providers:
   description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
   api_count: 19
   score_band: exemplar
-  score_composite: 71.1
+  score_composite: 70.3
   shared: 1
 - slug: honeycomb-io
   name: Honeycomb
@@ -43,6 +43,13 @@ providers:
   score_band: developing
   score_composite: 51.3
   shared: 1
+- slug: brownie
+  name: IncidentFox (Brownie)
+  description: IncidentFox (the company was surfaced in the API Evangelist network under its Y Combinator portfolio codename "Brownie") is an open-source, AI-powered SRE platform that automates production incident investigation and response. Its multi-agent system triages alerts, queries logs, metrics, traces and…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.0
+  shared: 1
 - slug: deeptrace
   name: Deeptrace
   description: Deeptrace is an AI SRE (site reliability engineering) agent that automatically investigates and root-causes production alerts by reasoning across logs, traces, metrics, and code. It triages and prioritizes alerts, produces evidence-backed root cause analyses in a couple of minutes, answers natural-…
@@ -56,13 +63,6 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 48.2
-  shared: 1
-- slug: brownie
-  name: IncidentFox (Brownie)
-  description: IncidentFox (the company was surfaced in the API Evangelist network under its Y Combinator portfolio codename "Brownie") is an open-source, AI-powered SRE platform that automates production incident investigation and response. Its multi-agent system triages alerts, queries logs, metrics, traces and…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.9
   shared: 1
 - slug: runwhen
   name: RunWhen
@@ -231,7 +231,7 @@ related:
 overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aiops.apievangelist.com](https://aiops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Logz.io, Honeycomb, Kentik, Virtana (Virtual Instruments), OpsMill, Deeptrace, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Logz.io, Honeycomb, Kentik, Virtana (Virtual Instruments), OpsMill, IncidentFox (Brownie), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Logging, Observability, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'

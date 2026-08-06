@@ -6,7 +6,7 @@ description: An index and topic collection covering the broad integration toolin
 area_url: https://integrations.apievangelist.com
 area_host: integrations.apievangelist.com
 icon: https://integrations.apievangelist.com/icon-thumb.png
-provider_count: 73
+provider_count: 71
 providers:
 - slug: zapier
   name: Zapier
@@ -169,13 +169,6 @@ providers:
   score_band: strong
   score_composite: 56.1
   shared: 1
-- slug: spot
-  name: Spot
-  description: Spot AI is a physical-security video-AI platform that turns surveillance cameras into AI agents which monitor spaces 24/7, detect suspicious activity, and trigger automated responses across retail, manufacturing, construction, healthcare, and education. The Spot AI Developer API is a JSON REST API…
-  api_count: 15
-  score_band: strong
-  score_composite: 56.0
-  shared: 1
 - slug: superblocks
   name: Superblocks
   description: Superblocks is a programmable internal tools platform that enables engineering and IT teams to build, govern, and deploy enterprise-grade internal applications, workflows, and scheduled jobs on top of databases, REST APIs, GraphQL APIs, and 50+ SaaS integrations. The platform exposes a REST managem…
@@ -217,6 +210,13 @@ providers:
   api_count: 19
   score_band: developing
   score_composite: 51.1
+  shared: 1
+- slug: nango
+  name: Nango
+  description: Nango.dev is a developer infrastructure platform that simplifies building product integrations with external APIs. It provides the infrastructure to build reliable, scalable integrations fast, including API authentication, a syncing framework, webhook handling, and observability, supporting over 40…
+  api_count: 6
+  score_band: developing
+  score_composite: 50.8
   shared: 1
 related:
 - slug: embedded-ipaas

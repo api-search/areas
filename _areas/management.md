@@ -15,13 +15,6 @@ providers:
   score_band: exemplar
   score_composite: 72.4
   shared: 1
-- slug: wundergraph
-  name: WunderGraph
-  description: Full Lifecycle API Management for (Federated) GraphQL. Schema Registry, composition checks, analytics, metrics, tracing and routing. Deploy 100% on-prem or use our Managed Service. Apache 2.0 licensed, no vendor-lock.
-  api_count: 10
-  score_band: strong
-  score_composite: 63.0
-  shared: 1
 - slug: snaplogic
   name: SnapLogic
   description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
@@ -43,6 +36,13 @@ providers:
   score_band: strong
   score_composite: 59.9
   shared: 1
+- slug: wundergraph
+  name: WunderGraph
+  description: Full Lifecycle API Management for (Federated) GraphQL. Schema Registry, composition checks, analytics, metrics, tracing and routing. Deploy 100% on-prem or use our Managed Service. Apache 2.0 licensed, no vendor-lock.
+  api_count: 11
+  score_band: developing
+  score_composite: 53.1
+  shared: 1
 - slug: broadcom
   name: Broadcom
   description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
@@ -53,7 +53,7 @@ providers:
 related:
 - slug: saas-management
   name: SaaS Management
-  shared: 5
+  shared: 3
 - slug: integrations
   name: Integrations
   shared: 2
@@ -72,7 +72,7 @@ related:
 overview: 'Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [management.apievangelist.com](https://management.apievangelist.com).
 
 
-  Providers on the network working in this area include Boomi, WunderGraph, SnapLogic, Dell Servers, Amazon Systems Manager, and Broadcom — each links out to that provider''s APIs, schemas, and governance artifacts.
+  Providers on the network working in this area include Boomi, SnapLogic, Dell Servers, Amazon Systems Manager, WunderGraph, and Broadcom — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: SaaS Management, Integrations, AI Automation, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

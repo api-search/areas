@@ -6,7 +6,7 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 79
+provider_count: 81
 providers:
 - slug: shodan
   name: Shodan
@@ -69,7 +69,7 @@ providers:
   description: The Things Network (TTN) is a free, community-operated global LoRaWAN network with over 280,000 members and 21,000 gateways across 153 countries. It runs on The Things Stack, the open-source (Apache-2.0) LoRaWAN Network Server developed and maintained by The Things Industries. The Things Stack v3 i…
   api_count: 58
   score_band: strong
-  score_composite: 56.1
+  score_composite: 56.4
   shared: 1
 - slug: particle
   name: Particle
@@ -78,19 +78,26 @@ providers:
   score_band: developing
   score_composite: 53.4
   shared: 1
-- slug: afero
-  name: Afero
-  description: 'Afero, Inc. is a Los Altos, California IoT platform company founded in 2014 by Joe Britt and Shin Matsumura. Afero ships an end-to-end connected-product stack: ASR secure radio modules with a hardware root of trust and an embedded Hardware Security Module, the afLib MCU libraries and Secure Linux D…'
-  api_count: 5
-  score_band: developing
-  score_composite: 52.3
-  shared: 1
 - slug: weavix
   name: Weavix
   description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
   api_count: 8
   score_band: developing
   score_composite: 51.8
+  shared: 1
+- slug: afero
+  name: Afero
+  description: 'Afero, Inc. is a Los Altos, California IoT platform company founded in 2014 by Joe Britt and Shin Matsumura. Afero ships an end-to-end connected-product stack: ASR secure radio modules with a hardware root of trust and an embedded Hardware Security Module, the afLib MCU libraries and Secure Linux D…'
+  api_count: 5
+  score_band: developing
+  score_composite: 51.1
+  shared: 1
+- slug: esper
+  name: Esper
+  description: Esper is the DevOps platform for connected devices, providing cloud-based Android (and edge) device management, application deployment, and remote orchestration for dedicated-device fleets. The Esper Manage REST API lets developers programmatically provision, monitor, and control Android-based dedi…
+  api_count: 13
+  score_band: developing
+  score_composite: 49.3
   shared: 1
 - slug: itron
   name: Itron
@@ -105,13 +112,6 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 46.5
-  shared: 1
-- slug: esper
-  name: Esper
-  description: Esper is the DevOps platform for connected devices, providing cloud-based Android (and edge) device management, application deployment, and remote orchestration for dedicated-device fleets. The Esper Manage REST API lets developers programmatically provision, monitor, and control Android-based dedi…
-  api_count: 13
-  score_band: developing
-  score_composite: 46.1
   shared: 1
 - slug: liesheng
   name: Liesheng Group
@@ -134,12 +134,19 @@ providers:
   score_band: thin
   score_composite: 41.3
   shared: 1
+- slug: quanergy
+  name: Quanergy
+  description: Quanergy Solutions, Inc. is a San Jose, California company that builds 3D LiDAR sensors and perception software for physical security, crowd management and industrial automation. Its Q-Track, Q-Shield, Q-Vision F540 and M-Series sensors feed QORTEX DTC, an on-premises detect-track-classify server t…
+  api_count: 1
+  score_band: thin
+  score_composite: 40.9
+  shared: 1
 - slug: bitfinder
   name: Bitfinder
   description: Bitfinder, Inc., doing business as Awair, builds indoor air quality (IAQ) monitors and a cloud platform used across homes, offices, schools, and commercial spaces. Its devices (Awair Element, Awair Omni, and 2nd Edition) measure the Awair Score along with temperature, humidity, CO2, chemicals (VOC)…
   api_count: 3
   score_band: thin
-  score_composite: 37.9
+  score_composite: 40.2
   shared: 1
 - slug: wyze
   name: Wyze
@@ -210,13 +217,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 25.6
-  shared: 1
-- slug: ather-energy
-  name: Ather Energy
-  description: Ather Energy Limited is a Bengaluru-based Indian electric two-wheeler manufacturer founded in 2013 by Tarun Mehta and Swapnil Jain. It designs and builds connected electric scooters — the Ather 450 series (450S, 450X, 450 Apex) and the family-oriented Rizta — around AtherStack, its proprietary in-h…
-  api_count: 1
-  score_band: emerging
-  score_composite: 22.5
   shared: 1
 related:
 - slug: network

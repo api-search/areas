@@ -22,6 +22,13 @@ providers:
   score_band: exemplar
   score_composite: 71.8
   shared: 1
+- slug: zoom-phone
+  name: Zoom Phone
+  description: Zoom Phone is the cloud PBX / UCaaS voice product of Zoom Communications, headquartered in San Jose, California, and sold worldwide from its United States home market. It replaces on-premise telephony with a cloud calling service — extensions, auto receptionists, IVR, call queues, shared line group…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 68.2
+  shared: 1
 - slug: parcellab
   name: parcelLab
   description: parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the customer journey. The platform spans four modules — Convert (pr…
@@ -43,13 +50,6 @@ providers:
   score_band: strong
   score_composite: 64.7
   shared: 1
-- slug: zoom-phone
-  name: Zoom Phone
-  description: Zoom Phone is the cloud PBX / UCaaS voice product of Zoom Communications, headquartered in San Jose, California, and sold worldwide from its United States home market. It replaces on-premise telephony with a cloud calling service — extensions, auto receptionists, IVR, call queues, shared line group…
-  api_count: 3
-  score_band: strong
-  score_composite: 64.7
-  shared: 1
 - slug: zoom
   name: Zoom
   description: Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.
@@ -57,19 +57,19 @@ providers:
   score_band: strong
   score_composite: 63.2
   shared: 1
+- slug: kudosity
+  name: Kudosity
+  description: Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, l…
+  api_count: 2
+  score_band: strong
+  score_composite: 62.4
+  shared: 1
 - slug: sinch
   name: Sinch
   description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
   api_count: 35
   score_band: strong
   score_composite: 62.2
-  shared: 1
-- slug: kudosity
-  name: Kudosity
-  description: Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, l…
-  api_count: 2
-  score_band: strong
-  score_composite: 60.1
   shared: 1
 - slug: bandwidth
   name: Bandwidth
@@ -96,6 +96,13 @@ providers:
   name: Telefon
   description: Telefon is a cloud-based programmable communications platform providing voice calling, SMS messaging, number management, and call recording APIs for developers and enterprises. The platform enables applications to make and receive phone calls, send SMS and MMS messages, manage phone number inventor…
   api_count: 7
+  score_band: strong
+  score_composite: 56.1
+  shared: 1
+- slug: zavu
+  name: Zavu
+  description: Zavu is a unified multi-channel messaging platform that consolidates SMS, WhatsApp, Telegram, Email, Voice, and Messenger behind a single REST API, so developers integrate once instead of stitching together Twilio, Vonage, MessageBird and others. The Unified Messaging Layer API adds smart ML-powere…
+  api_count: 21
   score_band: strong
   score_composite: 56.1
   shared: 1
@@ -133,13 +140,6 @@ providers:
   api_count: 9
   score_band: developing
   score_composite: 53.2
-  shared: 1
-- slug: zavu
-  name: Zavu
-  description: Zavu is a unified multi-channel messaging platform that consolidates SMS, WhatsApp, Telegram, Email, Voice, and Messenger behind a single REST API, so developers integrate once instead of stitching together Twilio, Vonage, MessageBird and others. The Unified Messaging Layer API adds smart ML-powere…
-  api_count: 21
-  score_band: developing
-  score_composite: 52.6
   shared: 1
 - slug: cloudtalk
   name: CloudTalk
@@ -225,11 +225,14 @@ related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 1
+- slug: webhooks
+  name: Webhooks
+  shared: 1
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Twilio, Cisco Webex, parcelLab, RingCentral, Amazon Pinpoint, Zoom Phone, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Cisco Webex, Zoom Phone, parcelLab, RingCentral, Amazon Pinpoint, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Authentication, Embedded iPaaS, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

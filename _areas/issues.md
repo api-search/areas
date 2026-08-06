@@ -13,14 +13,14 @@ providers:
   description: Forgejo is a self-hosted lightweight software forge and open-source Git service (a Gitea fork) managed by the non-profit Codeberg e.V. It provides a comprehensive REST API for managing repositories, users, organizations, issues, pull requests, CI/CD workflows via Actions, and package registries. Fo…
   api_count: 10
   score_band: thin
-  score_composite: 37.5
+  score_composite: 40.4
   shared: 1
 - slug: plane
   name: Plane
   description: Plane is an open-source, AI-native project management platform that enables teams to manage issues, cycles, modules, pages, analytics, and workspace members through a comprehensive REST API. Available as a fully managed cloud service or self-hosted on your own infrastructure using Docker or Kuberne…
   api_count: 1
   score_band: thin
-  score_composite: 34.7
+  score_composite: 37.4
   shared: 1
 related: []
 overview: 'Issues is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [issues.apievangelist.com](https://issues.apievangelist.com).

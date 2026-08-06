@@ -6,7 +6,7 @@ description: An index and topic collection covering API monitoring, application 
 area_url: https://monitoring.apievangelist.com
 area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
-provider_count: 181
+provider_count: 184
 providers:
 - slug: new-relic
   name: New Relic
@@ -56,6 +56,13 @@ providers:
   api_count: 15
   score_band: exemplar
   score_composite: 68.7
+  shared: 1
+- slug: controlup
+  name: ControlUp
+  description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Paral…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 68.2
   shared: 1
 - slug: amazon-security-hub
   name: Amazon Security Hub
@@ -189,13 +196,6 @@ providers:
   api_count: 20
   score_band: strong
   score_composite: 59.8
-  shared: 1
-- slug: bigeye
-  name: Bigeye
-  description: Bigeye is an enterprise data observability and AI trust platform that monitors data quality, detects schema changes and anomalies, classifies sensitive data, and maps column-level lineage across warehouses, lakes, BI tools and ETL pipelines. The platform combines automated data quality monitoring,…
-  api_count: 4
-  score_band: strong
-  score_composite: 59.6
   shared: 1
 - slug: rollbar
   name: Rollbar

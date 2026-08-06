@@ -13,7 +13,7 @@ providers:
   description: Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering. Visier publishes a broad suite of public REST APIs — Data…
   api_count: 10
   score_band: strong
-  score_composite: 60.0
+  score_composite: 60.6
   shared: 1
 - slug: lightrun
   name: Lightrun
@@ -57,6 +57,13 @@ providers:
   score_band: strong
   score_composite: 56.9
   shared: 1
+- slug: cloud-academy
+  name: Cloud Academy
+  description: Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines.…
+  api_count: 3
+  score_band: developing
+  score_composite: 52.2
+  shared: 1
 - slug: phenom
   name: Phenom
   description: Phenom is an HR technology company whose Intelligent Talent Experience platform applies AI to every stage of the talent lifecycle — helping candidates find and apply to the right jobs, recruiters and hiring managers source and engage talent, employees grow, and HR teams operate more efficiently. Th…
@@ -77,13 +84,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 43.2
-  shared: 1
-- slug: cloud-academy
-  name: Cloud Academy
-  description: Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines.…
-  api_count: 3
-  score_band: developing
-  score_composite: 42.6
   shared: 1
 - slug: cursor
   name: Cursor

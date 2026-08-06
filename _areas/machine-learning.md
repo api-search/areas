@@ -6,7 +6,7 @@ description: An index and topic collection covering machine learning APIs, MLOps
 area_url: https://machine-learning.apievangelist.com
 area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
-provider_count: 1062
+provider_count: 1079
 providers:
 - slug: anthropic
   name: Anthropic
@@ -57,6 +57,13 @@ providers:
   score_band: exemplar
   score_composite: 72.2
   shared: 1
+- slug: landingai
+  name: Landing.ai
+  description: LandingAI, founded by Andrew Ng, builds production AI for visual and document understanding. Its flagship product is Agentic Document Extraction (ADE), which converts real-world documents — PDFs, images, Office files and spreadsheets — into structured, auditable data. ADE exposes a family of REST A…
+  api_count: 13
+  score_band: exemplar
+  score_composite: 71.4
+  shared: 1
 - slug: claude
   name: Claude
   description: Anthropic's Claude AI assistant API for natural language processing and conversation.
@@ -70,13 +77,6 @@ providers:
   api_count: 16
   score_band: exemplar
   score_composite: 67.8
-  shared: 1
-- slug: landingai
-  name: Landing.ai
-  description: LandingAI, founded by Andrew Ng, builds production AI for visual and document understanding. Its flagship product is Agentic Document Extraction (ADE), which converts real-world documents — PDFs, images, Office files and spreadsheets — into structured, auditable data. ADE exposes a family of REST A…
-  api_count: 13
-  score_band: exemplar
-  score_composite: 67.3
   shared: 1
 - slug: amazon-web-services-aws
   name: Amazon Web Services (AWS)

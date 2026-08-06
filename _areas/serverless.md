@@ -6,7 +6,7 @@ description: An index and topic collection covering serverless compute, function
 area_url: https://serverless.apievangelist.com
 area_host: serverless.apievangelist.com
 icon: https://serverless.apievangelist.com/icon-thumb.png
-provider_count: 137
+provider_count: 138
 providers:
 - slug: inngest
   name: Inngest
@@ -134,6 +134,13 @@ providers:
   score_band: strong
   score_composite: 63.8
   shared: 1
+- slug: microsoft-azure-functions
+  name: Microsoft Azure Functions
+  description: Azure Functions is a serverless compute platform from Microsoft Azure enabling event-driven code execution triggered by HTTP requests, timers, queues, blobs, and other Azure services. The Azure Functions management API provides programmatic access to function app lifecycle management, deployment, c…
+  api_count: 23
+  score_band: strong
+  score_composite: 63.7
+  shared: 1
 - slug: convex
   name: Convex
   description: Convex is a serverless backend platform that provides a real-time database, cloud functions, and infrastructure for building modern web and mobile applications. It offers a TypeScript-first developer experience with reactive queries, transactional mutations, and integrated file storage, all accessi…
@@ -161,13 +168,6 @@ providers:
   api_count: 84
   score_band: strong
   score_composite: 62.8
-  shared: 1
-- slug: microsoft-azure-functions
-  name: Microsoft Azure Functions
-  description: Azure Functions is a serverless compute platform from Microsoft Azure enabling event-driven code execution triggered by HTTP requests, timers, queues, blobs, and other Azure services. The Azure Functions management API provides programmatic access to function app lifecycle management, deployment, c…
-  api_count: 23
-  score_band: strong
-  score_composite: 62.4
   shared: 1
 - slug: aws-step-functions
   name: AWS Step Functions

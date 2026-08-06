@@ -6,7 +6,7 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 146
+provider_count: 152
 providers:
 - slug: eaton
   name: Eaton
@@ -36,19 +36,19 @@ providers:
   score_band: developing
   score_composite: 51.2
   shared: 1
+- slug: remberg
+  name: Remberg
+  description: remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventi…
+  api_count: 19
+  score_band: developing
+  score_composite: 50.2
+  shared: 1
 - slug: renesas
   name: Renesas
   description: 'Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products for automotive, industrial, infrastructure, and consumer el…'
   api_count: 6
   score_band: developing
   score_composite: 48.0
-  shared: 1
-- slug: remberg
-  name: Remberg
-  description: remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventi…
-  api_count: 19
-  score_band: developing
-  score_composite: 47.5
   shared: 1
 - slug: archrock
   name: Archrock
@@ -84,6 +84,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 34.5
+  shared: 1
+- slug: innovapptive
+  name: Innovapptive
+  description: Innovapptive is a Houston-headquartered industrial software company whose AI-first Connected Worker Platform (CWP) digitizes frontline work across maintenance, operations, warehouse, EHS and continuous-improvement processes for asset-intensive industries — oil and gas, chemicals, mining and metals,…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.7
   shared: 1
 - slug: parsable
   name: Parsable
@@ -140,6 +147,13 @@ providers:
   api_count: 5
   score_band: emerging
   score_composite: 25.3
+  shared: 1
+- slug: redaptive
+  name: Redaptive
+  description: Redaptive is an energy infrastructure modernization company that funds, installs, and measures energy-saving and energy-generating equipment across large multi-site commercial, industrial, healthcare and real-estate portfolios under an Efficiency-as-a-Service and Energy-as-a-Service model, so custo…
+  api_count: 3
+  score_band: emerging
+  score_composite: 23.6
   shared: 1
 - slug: anixter-international
   name: Anixter International
@@ -204,20 +218,6 @@ providers:
   score_band: emerging
   score_composite: 19.1
   shared: 1
-- slug: ermeo
-  name: Ermeo
-  description: Ermeo (rebranded Causeway Field) is a French connected-operator / field-operations SaaS platform that lets industrial and field teams digitize paper procedures into dynamic, interactive workflows for inspections, maintenance, and interventions. Operators complete pre-built interactive forms on mobi…
-  api_count: 1
-  score_band: emerging
-  score_composite: 17.8
-  shared: 1
-- slug: aris-machina
-  name: Aris Machina
-  description: Aris Machina builds AI-powered industrial software for advanced manufacturing, describing its mission as delivering "industrial superintelligence" that unifies design, production, and operations through AI agents and a shared semantic knowledge model. Its products include Protos, an AI co-engineer…
-  api_count: 0
-  score_band: emerging
-  score_composite: 17.5
-  shared: 1
 related:
 - slug: internet-of-things
   name: Internet of Things
@@ -225,7 +225,7 @@ related:
 overview: 'Industrial is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [industrial.apievangelist.com](https://industrial.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Eaton, 3M, Weavix, Siemens MindSphere, Renesas, Remberg, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Eaton, 3M, Weavix, Siemens MindSphere, Remberg, Renesas, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'

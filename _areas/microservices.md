@@ -8,19 +8,19 @@ area_host: microservices.apievangelist.com
 icon: https://microservices.apievangelist.com/icon-thumb.png
 provider_count: 111
 providers:
+- slug: nvidia-nim
+  name: NVIDIA NIM
+  description: NVIDIA NIM (NVIDIA Inference Microservices) is a catalog of GPU-accelerated, containerized AI inference microservices that package optimized model engines (TensorRT-LLM, vLLM, SGLang, Triton) behind industry-standard OpenAI-compatible REST APIs. NIM covers large language models, embeddings and rera…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 75.7
+  shared: 1
 - slug: apigee
   name: Apigee
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 40
   score_band: exemplar
   score_composite: 74.0
-  shared: 1
-- slug: nvidia-nim
-  name: NVIDIA NIM
-  description: NVIDIA NIM (NVIDIA Inference Microservices) is a catalog of GPU-accelerated, containerized AI inference microservices that package optimized model engines (TensorRT-LLM, vLLM, SGLang, Triton) behind industry-standard OpenAI-compatible REST APIs. NIM covers large language models, embeddings and rera…
-  api_count: 11
-  score_band: exemplar
-  score_composite: 71.6
   shared: 1
 - slug: aws-app-mesh
   name: AWS App Mesh
@@ -99,12 +99,26 @@ providers:
   score_band: developing
   score_composite: 55.9
   shared: 1
+- slug: signadot
+  name: Signadot
+  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
+  api_count: 5
+  score_band: developing
+  score_composite: 55.7
+  shared: 1
 - slug: spring-cloud-config
   name: Spring Cloud Config
   description: Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system. It offers a central place to manage external properties for applications across all environments, backed by Git, SVN, or filesystem repositories with support for encryption, decr…
   api_count: 4
   score_band: developing
   score_composite: 54.6
+  shared: 1
+- slug: the-guild-dev
+  name: The Guild
+  description: The Guild is an open-source software group building much of the GraphQL ecosystem's tooling, published together at the-guild.dev. Its portfolio spans GraphQL Hive (schema registry, usage observability and breaking-change detection), GraphQL Mesh (composing many APIs into one graph), GraphQL Yoga (s…
+  api_count: 10
+  score_band: developing
+  score_composite: 53.9
   shared: 1
 - slug: datadog-apm
   name: Datadog APM
@@ -133,6 +147,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 52.6
+  shared: 1
+- slug: beamable
+  name: Beamable
+  description: Beamable is a cloud backend platform purpose-built for games and interactive applications, providing REST APIs and SDK integrations for Unity, Unreal, and web environments. The platform delivers production-ready services covering player identity and authentication, virtual currency and economy, inv…
+  api_count: 3
+  score_band: developing
+  score_composite: 52.4
   shared: 1
 - slug: amazon-vpc-lattice
   name: Amazon VPC Lattice
@@ -176,13 +197,6 @@ providers:
   score_band: developing
   score_composite: 51.3
   shared: 1
-- slug: signadot
-  name: Signadot
-  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
-  api_count: 5
-  score_band: developing
-  score_composite: 50.2
-  shared: 1
 - slug: microsoft-azure-service-fabric
   name: Azure Service Fabric
   description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for distributed systems.
@@ -204,20 +218,6 @@ providers:
   score_band: developing
   score_composite: 49.2
   shared: 1
-- slug: akka
-  name: Akka
-  description: Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM using the actor model for Java and Scala. Maintained by Lightbend, Akka provides a comprehensive set of libraries including actors, HTTP, streams, cluster, persistence, an…
-  api_count: 6
-  score_band: developing
-  score_composite: 49.1
-  shared: 1
-- slug: beamable
-  name: Beamable
-  description: Beamable is a cloud backend platform purpose-built for games and interactive applications, providing REST APIs and SDK integrations for Unity, Unreal, and web environments. The platform delivers production-ready services covering player identity and authentication, virtual currency and economy, inv…
-  api_count: 3
-  score_band: developing
-  score_composite: 48.3
-  shared: 1
 related:
 - slug: service-mesh
   name: Service Mesh
@@ -231,16 +231,16 @@ related:
 - slug: integrations
   name: Integrations
   shared: 2
-- slug: observability
-  name: Observability
-  shared: 2
 - slug: serverless
   name: Serverless
   shared: 2
+- slug: deployment
+  name: Deployment
+  shared: 1
 overview: 'Microservices is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [microservices.apievangelist.com](https://microservices.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Apigee, NVIDIA NIM, AWS App Mesh, Azure Container Apps, PolyAPI, AWS App Runner, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including NVIDIA NIM, Apigee, AWS App Mesh, Azure Container Apps, PolyAPI, AWS App Runner, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Service Mesh, Containers, Developer Experience, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'

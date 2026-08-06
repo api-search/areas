@@ -43,6 +43,13 @@ providers:
   score_band: strong
   score_composite: 58.3
   shared: 1
+- slug: import2
+  name: Import2
+  description: Import2 is a fully automated data-migration platform that moves customer data between SaaS applications — CRM, helpdesk, and project-management tools — without CSV exports or custom development. Users connect a source and destination app and Import2 moves records, custom fields, pipelines, and deal…
+  api_count: 2
+  score_band: developing
+  score_composite: 52.4
+  shared: 1
 - slug: google-cloud-vmware-engine
   name: Google Cloud VMware Engine
   description: Google Cloud VMware Engine is a fully managed service that lets you run VMware workloads natively on Google Cloud infrastructure. It provides dedicated, single-tenant VMware SDDC environments with vSphere, vSAN, NSX-T, and HCX, enabling seamless migration and management of VMware-based applications…
@@ -56,13 +63,6 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 51.6
-  shared: 1
-- slug: import2
-  name: Import2
-  description: Import2 is a fully automated data-migration platform that moves customer data between SaaS applications — CRM, helpdesk, and project-management tools — without CSV exports or custom development. Users connect a source and destination app and Import2 moves records, custom fields, pipelines, and deal…
-  api_count: 2
-  score_band: developing
-  score_composite: 49.7
   shared: 1
 - slug: kubevirt
   name: KubeVirt
@@ -122,7 +122,7 @@ related:
 overview: 'Migration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [migration.apievangelist.com](https://migration.apievangelist.com).
 
 
-  14 providers on the network work in this area, including Amazon Mainframe Modernization, Amazon DataSync, Google Cloud Migration Center, Amazon DMS, Azure Migrate, Google Cloud VMware Engine, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  14 providers on the network work in this area, including Amazon Mainframe Modernization, Amazon DataSync, Google Cloud Migration Center, Amazon DMS, Azure Migrate, Import2, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Evangelist Discovery, Virtualization, AI Automation, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'

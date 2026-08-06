@@ -48,7 +48,7 @@ providers:
   description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, HSM, tokenization and secrets service delivered as SaaS or as…
   api_count: 3
   score_band: developing
-  score_composite: 55.6
+  score_composite: 55.3
   shared: 1
 - slug: signal
   name: Signal
@@ -77,6 +77,13 @@ providers:
   api_count: 9
   score_band: developing
   score_composite: 49.8
+  shared: 1
+- slug: akeyless
+  name: Akeyless
+  description: Akeyless is a cloud-native identity security platform that unifies secrets management, machine identity, and privileged access for AI agents, machines, and humans at scale. The platform provides a REST API with 200+ endpoints covering secrets vaulting, dynamic secrets generation, certificate lifecy…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.8
   shared: 1
 - slug: vault
   name: HashiCorp Vault
@@ -112,13 +119,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 44.1
-  shared: 1
-- slug: akeyless
-  name: Akeyless
-  description: Akeyless is a cloud-native identity security platform that unifies secrets management, machine identity, and privileged access for AI agents, machines, and humans at scale. The platform provides a REST API with 200+ endpoints covering secrets vaulting, dynamic secrets generation, certificate lifecy…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.7
   shared: 1
 - slug: blindinsight
   name: BlindInsight
@@ -169,6 +169,13 @@ providers:
   score_band: thin
   score_composite: 31.7
   shared: 1
+- slug: xmtp
+  name: XMTP
+  description: XMTP (Extensible Message Transport Protocol) is a decentralized, open messaging protocol that enables end-to-end encrypted communication between Ethereum wallet addresses and other decentralized identifiers. Built on MLS (Messaging Layer Security), XMTP provides developer SDKs and a gRPC-based netw…
+  api_count: 7
+  score_band: thin
+  score_composite: 31.0
+  shared: 1
 - slug: lattica
   name: Lattica
   description: LatticaAI is an Israeli privacy-technology company building Fully Homomorphic Encryption (FHE) as a service, letting AI inference and database queries run on encrypted data at cloud scale with zero plaintext exposure. Lattica builds the full stack — the cryptography, a compiler that turns models in…
@@ -182,13 +189,6 @@ providers:
   api_count: 0
   score_band: thin
   score_composite: 28.9
-  shared: 1
-- slug: xmtp
-  name: XMTP
-  description: XMTP (Extensible Message Transport Protocol) is a decentralized, open messaging protocol that enables end-to-end encrypted communication between Ethereum wallet addresses and other decentralized identifiers. Built on MLS (Messaging Layer Security), XMTP provides developer SDKs and a gRPC-based netw…
-  api_count: 7
-  score_band: thin
-  score_composite: 28.7
   shared: 1
 - slug: ciphertrust
   name: CipherTrust

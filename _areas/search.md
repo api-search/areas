@@ -6,7 +6,7 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 171
+provider_count: 172
 providers:
 - slug: exa-ai
   name: Exa
@@ -155,6 +155,13 @@ providers:
   score_band: strong
   score_composite: 57.4
   shared: 1
+- slug: airweave
+  name: Airweave
+  description: Airweave is an open-source (MIT) context-retrieval layer that lets AI agents and RAG pipelines search across 50+ connected apps and databases through a single API. It syncs data from sources like Slack, Notion, GitHub, Google Drive, and Postgres, then exposes instant (sub-second vector), classic (L…
+  api_count: 5
+  score_band: strong
+  score_composite: 57.2
+  shared: 1
 - slug: tmdb
   name: The Movie Database
   description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
@@ -183,6 +190,20 @@ providers:
   score_band: developing
   score_composite: 55.4
   shared: 1
+- slug: newsapi
+  name: NewsAPI
+  description: NewsAPI is a simple, easy-to-use REST API that returns JSON metadata for news articles and breaking headlines published by over 80,000 worldwide sources and blogs. The API supports full-text keyword search across hundreds of millions of articles, filtering by source domain, language, date range, an…
+  api_count: 3
+  score_band: developing
+  score_composite: 55.2
+  shared: 1
+- slug: tako
+  name: Tako
+  description: Tako is an AI answer-engine API for authoritative, source-grounded data. It serves live financial, macroeconomic, and company data as cited answers, structured knowledge cards (charts, tables, maps), and embeddable visualizations for agents and applications. Developers build with four core APIs — S…
+  api_count: 2
+  score_band: developing
+  score_composite: 55.1
+  shared: 1
 - slug: newscatcher
   name: Newscatcher
   description: Newscatcher is a news search and aggregation API platform that provides access to over 120,000 news sources worldwide with full-text search, NLP enrichment, entity extraction, sentiment analysis, and automated clustering. The platform offers three core products — a News API for structured article r…
@@ -190,33 +211,12 @@ providers:
   score_band: developing
   score_composite: 55.0
   shared: 1
-- slug: aito-technologies
-  name: Aito Technologies
-  description: Aito Technologies (Aito.ai, legal entity Episto Oy of Vantaa, Finland) builds a predictive database that delivers instant, calibrated machine-learning predictions from live business data with no model training. Its REST Query API exposes a SQL-like JSON interface for prediction, recommendation, sim…
-  api_count: 3
-  score_band: developing
-  score_composite: 54.3
-  shared: 1
-- slug: microsoft-azure-search
-  name: Azure AI Search
-  description: Azure AI Search (formerly Azure Cognitive Search) is a cloud search service with built-in AI capabilities for enriching content and enabling vector and semantic search over heterogeneous data. It indexes content from Azure data sources and supports full-text, faceted, geospatial, vector, and hybrid…
-  api_count: 3
-  score_band: developing
-  score_composite: 53.6
-  shared: 1
-- slug: airweave
-  name: Airweave
-  description: Airweave is an open-source (MIT) context-retrieval layer that lets AI agents and RAG pipelines search across 50+ connected apps and databases through a single API. It syncs data from sources like Slack, Notion, GitHub, Google Drive, and Postgres, then exposes instant (sub-second vector), classic (L…
+- slug: mem
+  name: Mem
+  description: Mem is an AI-native note-taking and knowledge workspace that captures notes, meetings, and ideas and keeps them instantly searchable and discoverable. It pairs a Workspace (notes, collections, projects, calendar, meeting transcription) with an Agent that tracks priorities and surfaces timely remind…
   api_count: 5
   score_band: developing
-  score_composite: 53.1
-  shared: 1
-- slug: artlist
-  name: Artlist
-  description: Artlist is a creative-assets platform for video creators, marketers and brands, licensing royalty-free music, sound effects, stock footage, video templates, LUTs and editing plugins alongside a generative AI toolkit. The Artlist Enterprise API, published at developer.artlist.io, opens the company's…
-  api_count: 3
-  score_band: developing
-  score_composite: 53.1
+  score_composite: 54.8
   shared: 1
 related:
 - slug: agents

@@ -6,21 +6,21 @@ description: An index and topic collection covering webhook delivery, ingestion,
 area_url: https://webhooks.apievangelist.com
 area_host: webhooks.apievangelist.com
 icon: https://webhooks.apievangelist.com/icon-thumb.png
-provider_count: 445
+provider_count: 454
 providers:
-- slug: xquik-api
-  name: Xquik
-  description: Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.
-  api_count: 3
-  score_band: exemplar
-  score_composite: 86.7
-  shared: 1
 - slug: inngest
   name: Inngest
   description: Inngest is an event-driven durable execution platform for background jobs, step functions, scheduled workflows, and AI agent orchestration. It exposes a v1 event ingestion and run inspection API, a v2 management API (accounts, environments, apps, webhooks, keys, function invocation, runs, traces),…
   api_count: 8
   score_band: exemplar
   score_composite: 76.4
+  shared: 1
+- slug: svix
+  name: Svix
+  description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
+  api_count: 21
+  score_band: exemplar
+  score_composite: 74.6
   shared: 1
 - slug: fastly
   name: Fastly
@@ -35,6 +35,13 @@ providers:
   api_count: 45
   score_band: exemplar
   score_composite: 72.7
+  shared: 1
+- slug: knock-app
+  name: Knock
+  description: Knock is notifications infrastructure as a service — a product and customer messaging platform you use to power transactional, lifecycle, broadcast, and in-product messaging across email, SMS, push, in-app, in-app guides, chat (Slack / Discord / Teams / WhatsApp), and outbound webhooks. Knock expos…
+  api_count: 35
+  score_band: exemplar
+  score_composite: 72.2
   shared: 1
 - slug: buildkite-com
   name: Buildkite
@@ -57,13 +64,6 @@ providers:
   score_band: exemplar
   score_composite: 71.5
   shared: 1
-- slug: svix
-  name: Svix
-  description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
-  api_count: 21
-  score_band: exemplar
-  score_composite: 71.2
-  shared: 1
 - slug: vercel
   name: Vercel
   description: Vercel is a cloud platform that helps developers build, deploy, and scale modern web applications quickly and efficiently. It provides an optimized hosting environment for frontend frameworks like Next.js (which it created), as well as other React, Vue, Angular, and static site projects. Vercel aut…
@@ -85,13 +85,6 @@ providers:
   score_band: exemplar
   score_composite: 69.6
   shared: 1
-- slug: knock-app
-  name: Knock
-  description: Knock is notifications infrastructure as a service — a product and customer messaging platform you use to power transactional, lifecycle, broadcast, and in-product messaging across email, SMS, push, in-app, in-app guides, chat (Slack / Discord / Teams / WhatsApp), and outbound webhooks. Knock expos…
-  api_count: 35
-  score_band: exemplar
-  score_composite: 68.7
-  shared: 1
 - slug: hookdeck
   name: Hookdeck
   description: Hookdeck is a Toronto-based webhook and event-infrastructure platform. The Hookdeck Event Gateway sits between webhook senders and your services to receive, verify, queue, retry, transform, filter, route, and observe events reliably at scale. Hookdeck exposes a fully versioned REST Admin API, a CLI…
@@ -112,6 +105,13 @@ providers:
   api_count: 5
   score_band: exemplar
   score_composite: 66.6
+  shared: 1
+- slug: convoy
+  name: Convoy
+  description: Convoy is an open-source, cloud-native webhooks gateway used to securely ingest, persist, debug, deliver, and manage events. It positions itself as "the complete solution for secure, scalable, and reliable webhook delivery," covering both outbound (sending) and inbound (receiving) webhooks with ret…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 66.3
   shared: 1
 - slug: 123formbuilder
   name: 123FormBuilder
@@ -141,10 +141,10 @@ providers:
   score_band: strong
   score_composite: 64.1
   shared: 1
-- slug: convoy
-  name: Convoy
-  description: Convoy is an open-source, cloud-native webhooks gateway used to securely ingest, persist, debug, deliver, and manage events. It positions itself as "the complete solution for secure, scalable, and reliable webhook delivery," covering both outbound (sending) and inbound (receiving) webhooks with ret…
-  api_count: 11
+- slug: gofundme
+  name: GoFundMe
+  description: GoFundMe is the world's largest social fundraising platform, operating both the consumer crowdfunding site at gofundme.com and GoFundMe Pro (formerly Classy, acquired in 2022) — the enterprise fundraising suite nonprofits use for donation pages, peer-to-peer campaigns, recurring giving, ticketed ev…
+  api_count: 3
   score_band: strong
   score_composite: 64.0
   shared: 1
@@ -183,6 +183,20 @@ providers:
   score_band: strong
   score_composite: 62.5
   shared: 1
+- slug: companycam
+  name: CompanyCam
+  description: CompanyCam is a photo-based job-site documentation platform for contractors and the trades — roofing, restoration, solar, home services and construction. Its mobile apps capture location- and time-stamped photos and videos that sync to a shared, project-organized workspace so crews, offices and cli…
+  api_count: 10
+  score_band: strong
+  score_composite: 62.5
+  shared: 1
+- slug: kudosity
+  name: Kudosity
+  description: Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, l…
+  api_count: 2
+  score_band: strong
+  score_composite: 62.4
+  shared: 1
 - slug: payabli
   name: Payabli
   description: Payabli is an embedded payments platform and fintech operating system that lets software companies integrate and monetize financial services directly inside their products through a single API. Its "three Ps" cover Pay In (payment acceptance and receivables), Pay Out (payables and disbursements), a…
@@ -197,39 +211,22 @@ providers:
   score_band: strong
   score_composite: 61.6
   shared: 1
-- slug: soldo-software-and-services
-  name: Soldo Software and Services
-  description: Soldo is a spend management platform that pairs prepaid Mastercard company cards with software for controlling, tracking, and reporting business spending. The Soldo Business API (v2) gives developers programmatic access to that platform - creating and controlling cards, managing wallets and interna…
-  api_count: 46
+- slug: read-ai
+  name: Read AI
+  description: Read AI is an AI-powered meeting intelligence platform that joins Zoom, Microsoft Teams and Google Meet calls as an authorized notetaker and turns them into structured meeting reports — summaries, chapter summaries, action items, key questions, topics, full speaker-attributed transcripts and engage…
+  api_count: 2
   score_band: strong
-  score_composite: 61.3
-  shared: 1
-- slug: albato-a-single-no-code-platform-for-all-automations
-  name: Albato A Single No Code Platform For All Automations
-  description: Albato is a no-code automation platform enabling businesses to automate workflows by integrating 1,000+ apps without writing code. The platform supports multi-step automations with triggers, actions, conditions, and delays, plus embedded iPaaS capabilities for SaaS companies to offer native integra…
-  api_count: 5
-  score_band: strong
-  score_composite: 61.1
-  shared: 1
-- slug: vital-io
-  name: Vital
-  description: Vital (now operating as Junction, formerly tryVital) is a health-data API platform that gives digital-health, virtual-care, diagnostics, wellness, and EHR/EMR builders a single integration to wearable-device data and nationwide lab testing. Connect 300+ wearables and health devices — Apple HealthKi…
-  api_count: 18
-  score_band: strong
-  score_composite: 61.1
+  score_composite: 61.5
   shared: 1
 related:
 - slug: observability
   name: Observability
   shared: 3
-- slug: ai-automation
-  name: AI Automation
-  shared: 2
-- slug: integrations
-  name: Integrations
-  shared: 2
 - slug: saas-management
   name: SaaS Management
+  shared: 3
+- slug: agents
+  name: Agents
   shared: 2
 - slug: security
   name: Security
@@ -237,11 +234,14 @@ related:
 - slug: reliability
   name: Reliability
   shared: 1
+- slug: ai-automation
+  name: AI Automation
+  shared: 1
 overview: 'Webhooks is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [webhooks.apievangelist.com](https://webhooks.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Xquik, Inngest, Fastly, Square, Buildkite, Composio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Inngest, Svix, Fastly, Square, Knock, Buildkite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability, AI Automation, Integrations, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, SaaS Management, Agents, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---
