@@ -6,14 +6,14 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://testing.apievangelist.com
 area_host: testing.apievangelist.com
 icon: https://testing.apievangelist.com/icon-thumb.png
-provider_count: 135
+provider_count: 136
 providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 24
+  api_count: 39
   score_band: exemplar
-  score_composite: 76.8
+  score_composite: 75.8
   shared: 1
 - slug: uipath
   name: UiPath
@@ -46,9 +46,9 @@ providers:
 - slug: tricentis
   name: Tricentis
   description: Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, Tosca Cloud), AI-driven test management (qTest), performance t…
-  api_count: 9
+  api_count: 102
   score_band: strong
-  score_composite: 62.8
+  score_composite: 63.1
   shared: 1
 - slug: teamcity
   name: TeamCity
@@ -57,19 +57,19 @@ providers:
   score_band: strong
   score_composite: 60.5
   shared: 1
+- slug: azure-test-labs
+  name: Azure DevTest Labs
+  description: Azure DevTest Labs enables developers to efficiently self-manage virtual machines and PaaS resources without waiting for approvals. DevTest Labs creates labs consisting of pre-configured bases or Azure Resource Manager templates for development and testing purposes.
+  api_count: 25
+  score_band: strong
+  score_composite: 59.8
+  shared: 1
 - slug: rainforest-qa
   name: Rainforest QA
   description: Rainforest QA is a no-code software testing platform that combines AI-powered test creation, crowdsourced manual QA, and automated browser testing in one place. Its REST API and command-line interface let teams create and manage tests, environments, sites and folders, trigger and rerun test runs, a…
   api_count: 18
   score_band: strong
   score_composite: 59.5
-  shared: 1
-- slug: azure-test-labs
-  name: Azure DevTest Labs
-  description: Azure DevTest Labs enables developers to efficiently self-manage virtual machines and PaaS resources without waiting for approvals. DevTest Labs creates labs consisting of pre-configured bases or Azure Resource Manager templates for development and testing purposes.
-  api_count: 25
-  score_band: strong
-  score_composite: 58.8
   shared: 1
 - slug: amazon-codebuild
   name: Amazon CodeBuild
@@ -92,6 +92,13 @@ providers:
   score_band: strong
   score_composite: 58.4
   shared: 1
+- slug: signadot
+  name: Signadot
+  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
+  api_count: 5
+  score_band: strong
+  score_composite: 56.7
+  shared: 1
 - slug: browserstack
   name: BrowserStack
   description: BrowserStack provides instant access to 3500+ real mobile devices and desktop browsers for testing web and mobile applications across different platforms and operating systems.
@@ -112,13 +119,6 @@ providers:
   api_count: 30
   score_band: strong
   score_composite: 56.0
-  shared: 1
-- slug: signadot
-  name: Signadot
-  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
-  api_count: 5
-  score_band: developing
-  score_composite: 55.7
   shared: 1
 - slug: scorecard
   name: Scorecard
@@ -169,19 +169,19 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
-- slug: opkey
-  name: Opkey
-  description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests and change-impact analysis for Oracle Cloud/EBS, Workday, Sale…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.8
-  shared: 1
 - slug: chaos-mesh
   name: Chaos Mesh
   description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
   api_count: 7
   score_band: developing
   score_composite: 51.7
+  shared: 1
+- slug: opkey
+  name: Opkey
+  description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests and change-impact analysis for Oracle Cloud/EBS, Workday, Sale…
+  api_count: 16
+  score_band: developing
+  score_composite: 51.5
   shared: 1
 - slug: parea
   name: Parea AI
@@ -231,11 +231,11 @@ related:
 - slug: observability
   name: Observability
   shared: 2
-- slug: clients
-  name: Clients
-  shared: 1
 - slug: reliability
   name: Reliability
+  shared: 1
+- slug: clients
+  name: Clients
   shared: 1
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 

@@ -6,7 +6,7 @@ description: DNS (Domain Name System) is the distributed naming system that tran
 area_url: https://dns.apievangelist.com
 area_host: dns.apievangelist.com
 icon: https://dns.apievangelist.com/icon-thumb.png
-provider_count: 41
+provider_count: 45
 providers:
 - slug: shodan
   name: Shodan
@@ -15,12 +15,26 @@ providers:
   score_band: exemplar
   score_composite: 73.3
   shared: 1
+- slug: whoisfreaks
+  name: WhoisFreaks
+  description: WhoisFreaks is a domain and IP intelligence provider whose REST API suite covers live WHOIS, historical WHOIS, bulk and reverse WHOIS, IP and ASN WHOIS, live/historical/reverse DNS, domain availability with suggestions, typosquatting discovery, SSL certificate lookup, subdomain enumeration, IP geol…
+  api_count: 23
+  score_band: exemplar
+  score_composite: 71.1
+  shared: 1
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 87
   score_band: exemplar
   score_composite: 69.9
+  shared: 1
+- slug: apifreaks-api-hub-for-developers
+  name: APIFreaks - API Hub for Developers
+  description: APIFreaks is a first-party REST API hub built by JFreaks Software Solutions (Lahore, Pakistan) that ships more than 100 production endpoints behind a single API key and a single shared credit pool. The catalog spans IP geolocation and threat intelligence, WHOIS (live, historical, reverse, ASN), DNS…
+  api_count: 27
+  score_band: exemplar
+  score_composite: 69.8
   shared: 1
 - slug: google-cloud-dns
   name: Google Cloud DNS
@@ -57,6 +71,13 @@ providers:
   score_band: strong
   score_composite: 58.0
   shared: 1
+- slug: mcp360
+  name: MCP360
+  description: MCP360 is a hosted unified Model Context Protocol gateway operated by Delta4 Infotech Pvt. Ltd. that gives AI agents access to 38 tool services — 106 individual tools — through a single credentialed endpoint, plus a no-code Custom MCP Builder that wraps any REST API as an MCP server. Every service…
+  api_count: 38
+  score_band: developing
+  score_composite: 55.7
+  shared: 1
 - slug: domaintools
   name: DomainTools
   description: DomainTools is a domain and DNS intelligence company whose APIs power threat investigation, hunting, and monitoring for security teams. Its product surface spans Iris Investigate (pivot-based domain investigation), Iris Enrich (bulk domain enrichment), and Iris Detect (brand-infringement monitoring…
@@ -70,6 +91,13 @@ providers:
   api_count: 32
   score_band: developing
   score_composite: 51.3
+  shared: 1
+- slug: linkpeek
+  name: LinkPeek
+  description: A developer utility REST API bundling ~92 JSON endpoints for URL intelligence (link preview, metadata, OpenGraph), QR generation, DNS/WHOIS/SSL security checks, and data-conversion dev tools. Includes an OpenAI-compatible chat/completions surface. Hobby-grade service hosted on Oracle Cloud Free Tie…
+  api_count: 6
+  score_band: developing
+  score_composite: 49.0
   shared: 1
 - slug: d3
   name: D3
@@ -153,7 +181,7 @@ providers:
   description: 'Openprovider is a wholesaler of Internet services and products with a unique platform from which you can find and manage all the products you need: domains, new gTLDs, SSL certificates, licenses for Plesk and Virtuozzo, spam filters, and more.'
   api_count: 35
   score_band: thin
-  score_composite: 39.6
+  score_composite: 40.5
   shared: 1
 - slug: quantcdn
   name: QuantCDN
@@ -174,7 +202,7 @@ providers:
   description: GoDaddy is a domain registrar and web hosting company offering REST APIs for domain registration, DNS management, certificates, shopper accounts, subscriptions, aftermarket auctions, and abuse reporting.
   api_count: 7
   score_band: thin
-  score_composite: 35.8
+  score_composite: 36.8
   shared: 1
 - slug: gandi
   name: Gandi
@@ -190,35 +218,10 @@ providers:
   score_band: thin
   score_composite: 34.4
   shared: 1
-- slug: networkcalc
-  name: NetworkCalc
-  description: NetworkCalc provides a free RESTful API platform for monitoring and managing business networks and domains. Public APIs include a subnet calculator, DNS tools, security tools, encoder, and binary converter, with additional authenticated APIs for alerts, authorization, domains, reports, and subnets.
-  api_count: 5
-  score_band: thin
-  score_composite: 34.1
-  shared: 1
-- slug: datum
-  name: Datum
-  description: Datum is an open source network cloud built for AI, founded in 2024 and backed by $13.6M from Amplify Partners, CRV, Encoded Ventures, Cervin Ventures, Ex/Ante, Step Function, and Vine Ventures, and founded by Zac Smith and Jacob Smith (ex-Equinix, Packet). Datum gives AI-native developers and alte…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.1
-  shared: 1
-- slug: virtualmin
-  name: Virtualmin
-  description: Virtualmin is an open-source web hosting control panel for Linux and BSD, built on top of Webmin, that lets administrators and resellers manage websites, virtual servers, DNS, email, FTP, databases, SSL certificates, WordPress and more from a single interface. Distributed as a community GPL edition…
-  api_count: 1
-  score_band: thin
-  score_composite: 32.1
-  shared: 1
-- slug: dns-check
-  name: DNS Check
-  description: DNS Check is a domain DNS monitoring service that lets teams monitor, share, and troubleshoot DNS records across multiple record types (A, AAAA, CNAME, MX, NS, PTR, SOA, SPF, SRV, TXT). The platform detects unresponsive name servers, incorrect IP addresses, missing or duplicated records, SPF record…
-  api_count: 2
-  score_band: thin
-  score_composite: 28.3
-  shared: 1
 related:
+- slug: search
+  name: API Evangelist Search
+  shared: 2
 - slug: security
   name: Security
   shared: 2
@@ -227,9 +230,6 @@ related:
   shared: 1
 - slug: scraping
   name: Scraping
-  shared: 1
-- slug: search
-  name: API Evangelist Search
   shared: 1
 - slug: containers
   name: Containers
@@ -240,8 +240,8 @@ related:
 overview: 'DNS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [dns.apievangelist.com](https://dns.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Shodan, Cloudflare, Google Cloud DNS, Infoblox, Amazon Route 53, Amazon Route 53 Resolver, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Shodan, WhoisFreaks, Cloudflare, APIFreaks - API Hub for Developers, Google Cloud DNS, Infoblox, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Security, Network, Scraping, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Search, Security, Network, and Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

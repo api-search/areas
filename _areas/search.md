@@ -6,7 +6,7 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 172
+provider_count: 174
 providers:
 - slug: exa-ai
   name: Exa
@@ -78,19 +78,19 @@ providers:
   score_band: strong
   score_composite: 60.5
   shared: 1
-- slug: vespa-ai
-  name: Vespa
-  description: Vespa is an open-source AI search engine, big-data serving engine, and vector database originally developed inside Yahoo and spun out as Vespa.ai AS. Vespa combines vector search, text search (BM25), structured filtering, and machine-learned ranking — including native tensor inference — into a sing…
-  api_count: 8
-  score_band: strong
-  score_composite: 60.4
-  shared: 1
 - slug: chroma
   name: Chroma
   description: Chroma (Chroma DB) is an open-source AI-native embedding database designed to make it easy to build LLM applications by providing storage, retrieval, and management for vector embeddings, full-text search, regex search, and multi-modal retrieval (text, image, audio). Distributed under the Apache 2.…
   api_count: 8
   score_band: strong
   score_composite: 60.3
+  shared: 1
+- slug: vespa-ai
+  name: Vespa
+  description: Vespa is an open-source AI search engine, big-data serving engine, and vector database originally developed inside Yahoo and spun out as Vespa.ai AS. Vespa combines vector search, text search (BM25), structured filtering, and machine-learned ranking — including native tensor inference — into a sing…
+  api_count: 9
+  score_band: strong
+  score_composite: 59.9
   shared: 1
 - slug: unblocked
   name: Unblocked
@@ -183,6 +183,13 @@ providers:
   score_band: strong
   score_composite: 56.0
   shared: 1
+- slug: mcp360
+  name: MCP360
+  description: MCP360 is a hosted unified Model Context Protocol gateway operated by Delta4 Infotech Pvt. Ltd. that gives AI agents access to 38 tool services — 106 individual tools — through a single credentialed endpoint, plus a no-code Custom MCP Builder that wraps any REST API as an MCP server. Every service…
+  api_count: 38
+  score_band: developing
+  score_composite: 55.7
+  shared: 1
 - slug: opensearch
   name: OpenSearch
   description: OpenSearch is the open source, community-driven search, analytics, and observability suite (forked from Elasticsearch and Kibana) maintained under the Linux Foundation's OpenSearch Software Foundation. The platform exposes REST APIs across the search engine, the OpenSearch Dashboards UI, and a set…
@@ -211,25 +218,18 @@ providers:
   score_band: developing
   score_composite: 55.0
   shared: 1
-- slug: mem
-  name: Mem
-  description: Mem is an AI-native note-taking and knowledge workspace that captures notes, meetings, and ideas and keeps them instantly searchable and discoverable. It pairs a Workspace (notes, collections, projects, calendar, meeting transcription) with an Agent that tracks priorities and surfaces timely remind…
-  api_count: 5
-  score_band: developing
-  score_composite: 54.8
-  shared: 1
 related:
 - slug: agents
   name: Agents
+  shared: 2
+- slug: dns
+  name: DNS
   shared: 2
 - slug: network
   name: Network
   shared: 1
 - slug: discovery
   name: API Evangelist Discovery
-  shared: 1
-- slug: dns
-  name: DNS
   shared: 1
 - slug: developer-experience
   name: Developer Experience
@@ -243,5 +243,5 @@ overview: 'API Evangelist Search is one of the API Evangelist areas on the [APIs
   30 providers on the network work in this area, including Exa, Shodan, Amazon OpenSearch Service, Amazon OpenSearch Service API, Vectara, YouTube Data, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Agents, Network, API Evangelist Discovery, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agents, DNS, Network, and API Evangelist Discovery. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

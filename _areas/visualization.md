@@ -6,7 +6,7 @@ description: An index and topic collection covering data visualization, charts, 
 area_url: https://visualization.apievangelist.com
 area_host: visualization.apievangelist.com
 icon: https://visualization.apievangelist.com/icon-thumb.png
-provider_count: 29
+provider_count: 30
 providers:
 - slug: power-bi
   name: Power BI
@@ -176,6 +176,13 @@ providers:
   score_band: emerging
   score_composite: 13.1
   shared: 1
+- slug: brelyon
+  name: Brelyon
+  description: Brelyon is an MIT Media Lab spin-off building headset-free virtual displays — desktop monitors that use electro-optics and computational rendering to produce monocular image depth rather than autostereoscopic 3D. Its Ultra Reality line delivers a 122-inch virtual screen filling roughly 110 degrees…
+  api_count: 0
+  score_band: minimal
+  score_composite: 11.8
+  shared: 1
 - slug: flowcharts
   name: Flowcharts
   description: Flowcharts are a visual modeling technique used across software engineering, systems analysis, business process design, and education to depict the steps, decisions, and flow of a process or algorithm. Within an API context, flowcharts are used to model workflows, integration patterns, retry logic,…
@@ -230,7 +237,7 @@ related:
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 
 
-  29 providers on the network work in this area, including Power BI, Grafana, Google Data Studio, Amazon QuickSight, Amazon Managed Grafana, Qlik Sense, and 23 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Power BI, Grafana, Google Data Studio, Amazon QuickSight, Amazon Managed Grafana, Qlik Sense, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Design, Monitoring, Observability, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'

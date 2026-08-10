@@ -6,7 +6,7 @@ description: An index and topic collection covering serverless compute, function
 area_url: https://serverless.apievangelist.com
 area_host: serverless.apievangelist.com
 icon: https://serverless.apievangelist.com/icon-thumb.png
-provider_count: 138
+provider_count: 140
 providers:
 - slug: inngest
   name: Inngest
@@ -92,19 +92,26 @@ providers:
   score_band: exemplar
   score_composite: 67.2
   shared: 1
-- slug: modal
-  name: Modal
-  description: Modal is a serverless cloud platform for AI and data workloads. Modal lets developers write ordinary Python and run it on remote GPUs and CPUs with sub-second cold starts, instant autoscaling, and declarative container images. The platform's primitives — Functions, Sandboxes, Volumes, Images, Secre…
-  api_count: 17
-  score_band: exemplar
-  score_composite: 67.0
-  shared: 1
 - slug: azure-container-apps
   name: Azure Container Apps
   description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
   api_count: 5
   score_band: strong
   score_composite: 65.4
+  shared: 1
+- slug: modal-com
+  name: Modal
+  description: Modal is a serverless cloud platform for AI and data workloads. Modal lets developers write ordinary Python and run it on remote GPUs and CPUs with sub-second cold starts, instant autoscaling, and declarative container images. The platform's primitives — Functions, Sandboxes, Volumes, Images, Secre…
+  api_count: 17
+  score_band: strong
+  score_composite: 64.8
+  shared: 1
+- slug: microsoft-azure-functions
+  name: Microsoft Azure Functions
+  description: Azure Functions is a serverless compute platform from Microsoft Azure enabling event-driven code execution triggered by HTTP requests, timers, queues, blobs, and other Azure services. The Azure Functions management API provides programmatic access to function app lifecycle management, deployment, c…
+  api_count: 23
+  score_band: strong
+  score_composite: 64.7
   shared: 1
 - slug: amazon-step-functions
   name: Amazon Step Functions
@@ -133,13 +140,6 @@ providers:
   api_count: 35
   score_band: strong
   score_composite: 63.8
-  shared: 1
-- slug: microsoft-azure-functions
-  name: Microsoft Azure Functions
-  description: Azure Functions is a serverless compute platform from Microsoft Azure enabling event-driven code execution triggered by HTTP requests, timers, queues, blobs, and other Azure services. The Azure Functions management API provides programmatic access to function app lifecycle management, deployment, c…
-  api_count: 23
-  score_band: strong
-  score_composite: 63.7
   shared: 1
 - slug: convex
   name: Convex

@@ -6,7 +6,7 @@ description: Regulation encompasses the rules, laws, and standards established b
 area_url: https://regulation.apievangelist.com
 area_host: regulation.apievangelist.com
 icon: https://regulation.apievangelist.com/icon-thumb.png
-provider_count: 16
+provider_count: 17
 providers:
 - slug: cdr-energy
   name: Consumer Data Right (Energy)
@@ -28,6 +28,13 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 50.8
+  shared: 1
+- slug: i6eal-open-ai-data-api
+  name: i6eal Open AI Data API
+  description: A free, no-authentication open-data REST API from i6eal (a German AI studio operated by Syka Ventures UG) exposing 16 AI-related datasets and monitors for Germany and the EU as static JSON/CSV/JSON-LD/Atom files served over HTTPS from CloudFront. Coverage spans public procurement, federal budget li…
+  api_count: 17
+  score_band: thin
+  score_composite: 41.1
   shared: 1
 - slug: rics
   name: RICS (Royal Institution of Chartered Surveyors)
@@ -127,7 +134,7 @@ related:
 overview: 'Regulation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [regulation.apievangelist.com](https://regulation.apievangelist.com).
 
 
-  16 providers on the network work in this area, including Consumer Data Right (Energy), FiscalNote, Australian Energy Regulator, RICS (Royal Institution of Chartered Surveyors), KPMG, Australian Energy Market Commission, and 10 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  17 providers on the network work in this area, including Consumer Data Right (Energy), FiscalNote, Australian Energy Regulator, i6eal Open AI Data API, RICS (Royal Institution of Chartered Surveyors), KPMG, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Licensing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

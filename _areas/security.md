@@ -6,7 +6,7 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 778
+provider_count: 789
 providers:
 - slug: amazon-secrets-manager
   name: Amazon Secrets Manager
@@ -113,13 +113,6 @@ providers:
   score_band: exemplar
   score_composite: 67.8
   shared: 1
-- slug: amazon-iam-access-analyzer
-  name: Amazon IAM Access Analyzer
-  description: AWS IAM Access Analyzer helps you set, verify, and refine your IAM policies by providing a suite of capabilities including findings for external, internal, and unused access, basic and custom policy checks for validating policies, and policy generation to generate fine-grained policies. It uses aut…
-  api_count: 10
-  score_band: exemplar
-  score_composite: 67.2
-  shared: 1
 - slug: amazon-security-hub
   name: Amazon Security Hub
   description: AWS Security Hub is a cloud security posture management service that provides a comprehensive view of your security state across AWS accounts. It aggregates, organizes, and prioritizes security findings from multiple AWS services and third-party tools, enabling centralized security monitoring, comp…
@@ -161,6 +154,13 @@ providers:
   api_count: 13
   score_band: exemplar
   score_composite: 66.1
+  shared: 1
+- slug: amazon-iam-access-analyzer
+  name: Amazon IAM Access Analyzer
+  description: AWS IAM Access Analyzer helps you set, verify, and refine your IAM policies by providing a suite of capabilities including findings for external, internal, and unused access, basic and custom policy checks for validating policies, and policy generation to generate fine-grained policies. It uses aut…
+  api_count: 10
+  score_band: exemplar
+  score_composite: 66.0
   shared: 1
 - slug: amazon-inspector
   name: Amazon Inspector

@@ -6,8 +6,15 @@ description: AI automation combines artificial intelligence with workflow and pr
 area_url: https://ai-automation.apievangelist.com
 area_host: ai-automation.apievangelist.com
 icon: https://ai-automation.apievangelist.com/icon-thumb.png
-provider_count: 486
+provider_count: 493
 providers:
+- slug: xquik-api
+  name: Xquik
+  description: Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.
+  api_count: 3
+  score_band: exemplar
+  score_composite: 90.5
+  shared: 1
 - slug: dynatrace
   name: Dynatrace
   description: Dynatrace is a software intelligence platform that provides application performance monitoring, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management.
@@ -18,9 +25,9 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 24
+  api_count: 39
   score_band: exemplar
-  score_composite: 76.8
+  score_composite: 75.8
   shared: 1
 - slug: uipath
   name: UiPath
@@ -34,7 +41,7 @@ providers:
   description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
   api_count: 63
   score_band: exemplar
-  score_composite: 75.0
+  score_composite: 74.2
   shared: 1
 - slug: appian
   name: Appian
@@ -82,6 +89,13 @@ providers:
   name: Coasty
   description: Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work across sandboxed virtual machines. It exposes a public REST…
   api_count: 8
+  score_band: exemplar
+  score_composite: 67.4
+  shared: 1
+- slug: cobalt
+  name: Cobalt
+  description: Traditional integrations are slow, fragmented, and hinder growth. Cobalt is changing that. A next-gen integration platform with 1,000+ connectors and AI-driven automation redefining how businesses integrate, operate, and scale.
+  api_count: 10
   score_band: exemplar
   score_composite: 67.4
   shared: 1
@@ -169,13 +183,6 @@ providers:
   score_band: strong
   score_composite: 63.9
   shared: 1
-- slug: cobalt
-  name: Cobalt
-  description: Traditional integrations are slow, fragmented, and hinder growth. Cobalt is changing that. A next-gen integration platform with 1,000+ connectors and AI-driven automation redefining how businesses integrate, operate, and scale.
-  api_count: 10
-  score_band: strong
-  score_composite: 63.7
-  shared: 1
 - slug: chef
   name: Chef
   description: Chef (Progress Chef) provides infrastructure automation, compliance, and application delivery tooling. Chef exposes REST APIs for the Infra Server (managing nodes, cookbooks, roles, environments, and data bags), Chef Automate (visibility into convergence, compliance, and deployment), Habitat Builde…
@@ -211,13 +218,6 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
-- slug: klaviyo
-  name: Klaviyo
-  description: Klaviyo is a marketing automation and customer data platform built for ecommerce. Build custom integrations to bring data into Klaviyo to create personalized experiences across email, SMS, mobile push, and more. The Klaviyo API exposes profiles, events, lists, segments, campaigns, flows, catalogs,…
-  api_count: 23
-  score_band: strong
-  score_composite: 61.8
-  shared: 1
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
@@ -234,13 +234,13 @@ related:
 - slug: testing
   name: Testing
   shared: 2
-- slug: ipaas
-  name: iPaaS
+- slug: webhooks
+  name: Webhooks
   shared: 2
 overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ai-automation.apievangelist.com](https://ai-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Dynatrace, Postman, UiPath, ServiceNow, Appian, Workato, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Xquik, Dynatrace, Postman, UiPath, ServiceNow, Appian, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS, Orchestration, Workflow Automation, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,7 +6,7 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 965
+provider_count: 983
 providers:
 - slug: svix
   name: Svix
@@ -53,9 +53,9 @@ providers:
 - slug: oracle
   name: Oracle
   description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
-  api_count: 216
+  api_count: 378
   score_band: exemplar
-  score_composite: 67.2
+  score_composite: 67.3
   shared: 1
 - slug: coda-project
   name: Coda Project
@@ -91,6 +91,13 @@ providers:
   api_count: 24
   score_band: strong
   score_composite: 63.2
+  shared: 1
+- slug: asknicely
+  name: AskNicely
+  description: AskNicely is a customer-experience (CX) platform for service businesses, built around Net Promoter Score, CSAT and 5-Star surveys delivered by email, SMS, web badge and in-app. It collects frontline feedback, routes it to managers and staff through leaderboards, coaching and case management, and sy…
+  api_count: 6
+  score_band: strong
+  score_composite: 62.9
   shared: 1
 - slug: lightfield
   name: Lightfield
@@ -211,25 +218,18 @@ providers:
   score_band: strong
   score_composite: 60.5
   shared: 1
-- slug: salsify
-  name: Salsify
-  description: Salsify is a product experience management (PXM) and supplier experience management (SXM) platform used by brands, distributors and retailers to centralize product content, digital assets and syndication to the digital shelf. The Salsify platform exposes a REST API at app.salsify.com/api/v1/orgs co…
-  api_count: 3
-  score_band: strong
-  score_composite: 60.4
-  shared: 1
 related:
 - slug: management
   name: Management
-  shared: 3
-- slug: webhooks
-  name: Webhooks
   shared: 3
 - slug: agents
   name: Agents
   shared: 2
 - slug: integrations
   name: Integrations
+  shared: 2
+- slug: webhooks
+  name: Webhooks
   shared: 2
 - slug: reliability
   name: Reliability
@@ -243,5 +243,5 @@ overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](h
   30 providers on the network work in this area, including Svix, Boomi, Kinde, Workday, Onfleet, Connecteam, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, Webhooks, Agents, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, Agents, Integrations, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

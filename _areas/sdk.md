@@ -6,8 +6,15 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://sdk.apievangelist.com
 area_host: sdk.apievangelist.com
 icon: https://sdk.apievangelist.com/icon-thumb.png
-provider_count: 348
+provider_count: 350
 providers:
+- slug: swagger-codegen
+  name: Swagger Codegen
+  description: Swagger Codegen is an open-source template-driven code generation tool that automatically generates client libraries, server stubs, and API documentation from OpenAPI Specification definitions. It supports 40+ client languages and 20+ server frameworks. Available as a CLI, Docker image, Maven/Gradl…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 74.3
+  shared: 1
 - slug: general-translation
   name: General Translation
   description: General Translation is an end-to-end internationalization (i18n) and localization platform for developers, backed by a16z. It combines open-source i18n libraries for React, Next.js, React Native, Node.js, and Python with an AI-powered translation API, a context platform (glossaries and translation…
@@ -71,12 +78,33 @@ providers:
   score_band: strong
   score_composite: 58.3
   shared: 1
+- slug: hey-api
+  name: Hey API
+  description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR hooks, MSW and Playwright test doubles, and Fastify/NestJS/Hon…
+  api_count: 7
+  score_band: strong
+  score_composite: 56.1
+  shared: 1
 - slug: commercetools
   name: commercetools
   description: commercetools is the leading composable, headless, API-first Commerce platform powering large-scale B2C, B2B, and marketplace digital commerce for enterprise brands. The platform exposes a broad API surface organized into the HTTP API (core REST interface), GraphQL API (flexible query and mutation…
   api_count: 19
   score_band: strong
   score_composite: 56.1
+  shared: 1
+- slug: suki-ai
+  name: Suki AI
+  description: Suki AI provides voice-enabled, ambient clinical intelligence used by clinicians to generate clinical notes, dictate, and complete documentation tasks across more than 400 health systems. Suki for Partners is a developer platform offering REST APIs and SDKs (Web SDK, Headless Web SDK, Mobile SDK fo…
+  api_count: 10
+  score_band: developing
+  score_composite: 54.3
+  shared: 1
+- slug: ceros
+  name: Ceros
+  description: Ceros is an experiential content platform used by marketing, design and agency teams to build interactive, no-code web content — microsites, landing pages, interactive reports, infographics, pitch decks and embeddable experiences — in a browser design studio and publish them to a CDN. Its developer…
+  api_count: 6
+  score_band: developing
+  score_composite: 54.1
   shared: 1
 - slug: the-guild-dev
   name: The Guild
@@ -120,13 +148,6 @@ providers:
   score_band: developing
   score_composite: 53.4
   shared: 1
-- slug: transcend-io
-  name: Transcend
-  description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, consent and preference management, privacy assessments, and an A…
-  api_count: 4
-  score_band: developing
-  score_composite: 53.3
-  shared: 1
 - slug: episerver
   name: Episerver
   description: Episerver is a digital experience platform (DXP) vendor that rebranded to Optimizely in 2021 after Episerver acquired Optimizely; the developer surface now ships under the Optimizely brand. The platform combines content management (CMS / Content Cloud), a headless Content Delivery and Content Manag…
@@ -140,6 +161,20 @@ providers:
   api_count: 30
   score_band: developing
   score_composite: 52.7
+  shared: 1
+- slug: transcend-io
+  name: Transcend
+  description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, consent and preference management, privacy assessments, and an A…
+  api_count: 11
+  score_band: developing
+  score_composite: 52.5
+  shared: 1
+- slug: patch-io
+  name: Patch
+  description: Patch is an API-first climate platform that helps companies procure carbon credits and removals, run climate strategy programs, and embed climate action into their own products. The core Patch API exposes carbon projects, estimates, and orders so developers can build offset purchase flows directly…
+  api_count: 4
+  score_band: developing
+  score_composite: 52.1
   shared: 1
 - slug: fidel
   name: Fidel
@@ -183,64 +218,29 @@ providers:
   score_band: developing
   score_composite: 50.4
   shared: 1
-- slug: waniwani
-  name: Waniwani
-  description: 'Waniwani is an AI distribution platform: it helps companies build, deploy, and optimize AI apps — lightweight services built on the Model Context Protocol (MCP) that represent a product inside AI conversations on ChatGPT, Claude, Gemini, and Perplexity. The platform spans an AI app builder, synthet…'
-  api_count: 1
-  score_band: developing
-  score_composite: 50.2
-  shared: 1
-- slug: firework
-  name: Firework
-  description: Firework is a video commerce platform that helps brands and retailers bring the in-store experience and human connection online through shoppable short-form video, livestream shopping, 1:1 video chat, digital showrooms, and an AI shopping agent. Operated by Loop Now Technologies and backed by SoftB…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.6
-  shared: 1
-- slug: soul-machines
-  name: Soul Machines
-  description: Soul Machines builds autonomously animated "Digital People" — AI-driven interactive avatars that combine a real-time facial/gesture animation engine with conversational AI so brands can deploy human-like agents for customer experience, sales, education, and health. Developers integrate Digital Peop…
-  api_count: 2
-  score_band: developing
-  score_composite: 49.4
-  shared: 1
-- slug: stainless
-  name: Stainless
-  description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic, Cloudflare, Google, and OpenAI, Stainless automates the boil…
-  api_count: 10
-  score_band: developing
-  score_composite: 49.3
-  shared: 1
-- slug: reactor
-  name: Reactor
-  description: Reactor is a real-time video AI platform that streams generative video from GPU-hosted models to web and mobile applications over WebRTC, with sub-second round-trip latency and no infrastructure to manage. Developers connect through a JavaScript/React SDK or an async Python SDK, mint short-lived se…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.1
-  shared: 1
 related:
 - slug: documentation
   name: Documentation
-  shared: 5
+  shared: 4
 - slug: developer-experience
   name: Developer Experience
-  shared: 3
+  shared: 2
 - slug: search
   name: API Evangelist Search
   shared: 1
 - slug: cli
   name: Command Line Interface
   shared: 1
+- slug: design
+  name: Design
+  shared: 1
 - slug: integrations
   name: Integrations
-  shared: 1
-- slug: logging
-  name: Logging
   shared: 1
 overview: 'SDKs is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [sdk.apievangelist.com](https://sdk.apievangelist.com).
 
 
-  30 providers on the network work in this area, including General Translation, Speakeasy, Android, Chroma, Dwolla, Krisp, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Swagger Codegen, General Translation, Speakeasy, Android, Chroma, Dwolla, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation, Developer Experience, API Evangelist Search, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

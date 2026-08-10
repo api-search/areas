@@ -36,19 +36,19 @@ providers:
   score_band: strong
   score_composite: 57.1
   shared: 1
+- slug: fortanix
+  name: Fortanix
+  description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, HSM, tokenization and secrets service delivered as SaaS or as…
+  api_count: 3
+  score_band: developing
+  score_composite: 55.8
+  shared: 1
 - slug: ironcore-labs
   name: IronCore Labs
   description: IronCore Labs builds application-layer encryption tools that keep sensitive data private while it stays usable. Its products include SaaS Shield (tenant-controlled envelope encryption with customer-managed keys / BYOK for multi-tenant SaaS), Cloaked Search (a transparent encrypting proxy for Elasti…
   api_count: 5
   score_band: developing
   score_composite: 55.7
-  shared: 1
-- slug: fortanix
-  name: Fortanix
-  description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, HSM, tokenization and secrets service delivered as SaaS or as…
-  api_count: 3
-  score_band: developing
-  score_composite: 55.3
   shared: 1
 - slug: signal
   name: Signal
@@ -231,7 +231,7 @@ related:
 overview: 'Encryption is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [encryption.apievangelist.com](https://encryption.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon KMS, Evervault, Google Cloud KMS, Amazon Certificate Manager, IronCore Labs, Fortanix, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon KMS, Evervault, Google Cloud KMS, Amazon Certificate Manager, Fortanix, IronCore Labs, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Bots, Privacy, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

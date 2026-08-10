@@ -50,6 +50,13 @@ providers:
   score_band: strong
   score_composite: 56.7
   shared: 1
+- slug: signadot
+  name: Signadot
+  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
+  api_count: 5
+  score_band: strong
+  score_composite: 56.7
+  shared: 1
 - slug: bettermode
   name: Bettermode
   description: Bettermode is an all-in-one customer community platform (formerly Tribe) that lets organizations launch branded, no-code communities to turn engagement into measurable retention and growth. It combines discussion forums, Q&A, knowledge base, member directories, events, wishlists, changelogs, and ro…
@@ -63,13 +70,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 55.9
-  shared: 1
-- slug: signadot
-  name: Signadot
-  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
-  api_count: 5
-  score_band: developing
-  score_composite: 55.7
   shared: 1
 - slug: fern
   name: Fern
@@ -222,11 +222,11 @@ related:
 - slug: documentation
   name: Documentation
   shared: 5
-- slug: sdk
-  name: SDKs
-  shared: 3
 - slug: microservices
   name: Microservices
+  shared: 2
+- slug: sdk
+  name: SDKs
   shared: 2
 - slug: testing
   name: Testing
@@ -243,5 +243,5 @@ overview: 'Developer Experience is one of the API Evangelist areas on the [APIs.
   30 providers on the network work in this area, including APIMatic, Treblle, Apple, Unblocked, Cycloid, Atlassian Compass, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Documentation, SDKs, Microservices, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Documentation, Microservices, SDKs, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -176,19 +176,19 @@ providers:
   score_band: developing
   score_composite: 44.8
   shared: 1
+- slug: azure-logic-apps
+  name: Azure Logic Apps
+  description: Azure Logic Apps is a cloud-based integration platform that enables you to create and run automated workflows integrating apps, data, services, and systems across cloud and on-premises environments.
+  api_count: 23
+  score_band: developing
+  score_composite: 44.6
+  shared: 1
 - slug: automat
   name: Automat
   description: Automat builds AI agents that operate computers the way people do, replacing legacy RPA tools like UiPath, Automation Anywhere, and Blue Prism with intelligent, self-healing managed automations. Founded in 2022 by ex-Google engineers, the platform combines UI-based AI agents (RPA using Computer Use…
   api_count: 1
   score_band: developing
   score_composite: 43.9
-  shared: 1
-- slug: azure-logic-apps
-  name: Azure Logic Apps
-  description: Azure Logic Apps is a cloud-based integration platform that enables you to create and run automated workflows integrating apps, data, services, and systems across cloud and on-premises environments.
-  api_count: 23
-  score_band: developing
-  score_composite: 43.7
   shared: 1
 - slug: hull
   name: Hull

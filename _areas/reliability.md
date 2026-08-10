@@ -6,7 +6,7 @@ description: An index and topic collection covering site reliability engineering
 area_url: https://reliability.apievangelist.com
 area_host: reliability.apievangelist.com
 icon: https://reliability.apievangelist.com/icon-thumb.png
-provider_count: 17
+provider_count: 16
 providers:
 - slug: svix
   name: Svix
@@ -120,13 +120,6 @@ providers:
   score_band: minimal
   score_composite: 5.0
   shared: 1
-- slug: base-operations
-  name: Base Operations
-  description: Base Operations provides patterns and resources for API operational management including monitoring, reliability, incident response, and performance management for API programs.
-  api_count: 0
-  score_band: minimal
-  score_composite: 3.2
-  shared: 1
 related:
 - slug: cli
   name: Command Line Interface
@@ -146,7 +139,7 @@ related:
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  17 providers on the network work in this area, including Svix, Google Cloud Error Reporting, Gremlin, Chaos Mesh, Sonarly, Memfault, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  16 providers on the network work in this area, including Svix, Google Cloud Error Reporting, Gremlin, Chaos Mesh, Sonarly, Memfault, and 10 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Command Line Interface, Logging, SaaS Management, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

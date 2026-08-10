@@ -6,7 +6,7 @@ description: An index and topic collection covering managed databases and databa
 area_url: https://database.apievangelist.com
 area_host: database.apievangelist.com
 icon: https://database.apievangelist.com/icon-thumb.png
-provider_count: 180
+provider_count: 181
 providers:
 - slug: notion
   name: Notion
@@ -60,9 +60,9 @@ providers:
 - slug: oracle
   name: Oracle
   description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
-  api_count: 216
+  api_count: 378
   score_band: exemplar
-  score_composite: 67.2
+  score_composite: 67.3
   shared: 1
 - slug: oracle-goldengate
   name: Oracle GoldenGate
@@ -169,13 +169,6 @@ providers:
   score_band: strong
   score_composite: 62.7
   shared: 1
-- slug: pingcap
-  name: PingCAP
-  description: PingCAP is the company behind TiDB, an open-source, MySQL-compatible distributed SQL database built for hybrid transactional and analytical processing (HTAP), horizontal scale-out, Raft-based strong consistency, and vector search for AI workloads. PingCAP operates TiDB Cloud, the fully managed DBaa…
-  api_count: 10
-  score_band: strong
-  score_composite: 61.6
-  shared: 1
 - slug: amazon-dms
   name: Amazon DMS
   description: AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. AWS DMS can migrate your data to and from the most widely used commerc…
@@ -183,12 +176,26 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
+- slug: pingcap
+  name: PingCAP
+  description: PingCAP is the company behind TiDB, an open-source, MySQL-compatible distributed SQL database built for hybrid transactional and analytical processing (HTAP), horizontal scale-out, Raft-based strong consistency, and vector search for AI workloads. PingCAP operates TiDB Cloud, the fully managed DBaa…
+  api_count: 32
+  score_band: strong
+  score_composite: 60.9
+  shared: 1
 - slug: oracle-apex
   name: Oracle APEX
   description: Oracle Application Express (APEX) is a low-code development platform that enables you to build scalable, secure enterprise apps with world-class features.
   api_count: 21
   score_band: strong
   score_composite: 60.7
+  shared: 1
+- slug: timescale
+  name: Timescale
+  description: Timescale — rebranded as Tiger Data in 2025 — is the PostgreSQL data platform company behind TimescaleDB, the open-source PostgreSQL extension for time-series and real-time analytics, and Tiger Cloud, a fully managed PostgreSQL cloud service on AWS and Azure. The platform adds hypertables (automati…
+  api_count: 12
+  score_band: strong
+  score_composite: 60.6
   shared: 1
 - slug: vividcortex
   name: VividCortex
@@ -210,13 +217,6 @@ providers:
   api_count: 9
   score_band: strong
   score_composite: 59.6
-  shared: 1
-- slug: clickhouse
-  name: ClickHouse
-  description: ClickHouse is a fast open-source column-oriented database management system that enables real-time analytical reporting using SQL. ClickHouse exposes multiple interfaces - an HTTP interface for SQL queries, native TCP, MySQL and PostgreSQL wire-compatible interfaces, and a gRPC interface - and the…
-  api_count: 9
-  score_band: strong
-  score_composite: 59.3
   shared: 1
 related:
 - slug: serverless

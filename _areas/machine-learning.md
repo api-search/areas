@@ -6,7 +6,7 @@ description: An index and topic collection covering machine learning APIs, MLOps
 area_url: https://machine-learning.apievangelist.com
 area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
-provider_count: 1079
+provider_count: 1102
 providers:
 - slug: anthropic
   name: Anthropic
@@ -113,13 +113,6 @@ providers:
   score_band: exemplar
   score_composite: 66.6
   shared: 1
-- slug: amazon-lookout-for-vision
-  name: Amazon Lookout for Vision
-  description: Amazon Lookout for Vision is a machine learning service that spots defects and anomalies in visual representations using computer vision. With just a small sample of images, it builds a custom computer vision model to enable you to identify damaged products or issues before production issues arise.…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 66.6
-  shared: 1
 - slug: amazon-transcribe
   name: Amazon Transcribe
   description: Amazon Transcribe is a speech-to-text service that uses machine learning models to convert audio to text, supporting real-time streaming and batch transcription with automatic speech recognition (ASR).
@@ -176,6 +169,13 @@ providers:
   score_band: strong
   score_composite: 65.4
   shared: 1
+- slug: amazon-lookout-for-vision
+  name: Amazon Lookout for Vision
+  description: Amazon Lookout for Vision is a machine learning service that spots defects and anomalies in visual representations using computer vision. With just a small sample of images, it builds a custom computer vision model to enable you to identify damaged products or issues before production issues arise.…
+  api_count: 2
+  score_band: strong
+  score_composite: 65.4
+  shared: 1
 - slug: amazon-guardduty
   name: Amazon GuardDuty
   description: Amazon GuardDuty is an intelligent threat detection service that continuously monitors your AWS accounts, workloads, and data for malicious activity. It uses machine learning, anomaly detection, and integrated threat intelligence to identify and prioritize potential threats to your AWS environment.
@@ -204,17 +204,17 @@ providers:
   score_band: strong
   score_composite: 65.1
   shared: 1
-- slug: mathpix
-  name: Mathpix
-  description: ''
-  api_count: 7
-  score_band: strong
-  score_composite: 64.8
-  shared: 1
 - slug: amazon-lookout-for-metrics
   name: Amazon Lookout for Metrics
   description: Amazon Lookout for Metrics uses machine learning to automatically detect anomalies in business and operational metrics such as revenue performance, customer engagement, and user activity. It continuously monitors data from various sources including Amazon S3, CloudWatch, RDS, Redshift, Athena, and…
   api_count: 28
+  score_band: strong
+  score_composite: 64.7
+  shared: 1
+- slug: viam
+  name: Viam
+  description: Viam is a robotics and edge AI platform founded in 2020 by Eliot Horowitz (MongoDB co-founder and former CTO). It pairs viam-server — a gRPC-based runtime that runs on Linux single-board computers (RDK) and ESP32-class microcontrollers (micro-rdk) — with viam.app, a multi-tenant cloud for fleet man…
+  api_count: 52
   score_band: strong
   score_composite: 64.7
   shared: 1

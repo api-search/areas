@@ -6,7 +6,7 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 152
+provider_count: 155
 providers:
 - slug: eaton
   name: Eaton
@@ -153,7 +153,7 @@ providers:
   description: Redaptive is an energy infrastructure modernization company that funds, installs, and measures energy-saving and energy-generating equipment across large multi-site commercial, industrial, healthcare and real-estate portfolios under an Efficiency-as-a-Service and Energy-as-a-Service model, so custo…
   api_count: 3
   score_band: emerging
-  score_composite: 23.6
+  score_composite: 22.6
   shared: 1
 - slug: anixter-international
   name: Anixter International

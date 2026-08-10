@@ -8,19 +8,19 @@ area_host: service-mesh.apievangelist.com
 icon: https://service-mesh.apievangelist.com/icon-thumb.png
 provider_count: 42
 providers:
+- slug: solo-io
+  name: Solo.io
+  description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gatewa…
+  api_count: 15
+  score_band: exemplar
+  score_composite: 81.9
+  shared: 1
 - slug: aws-app-mesh
   name: AWS App Mesh
   description: AWS App Mesh is a service mesh based on the Envoy proxy that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure including Amazon ECS, EKS, EC2, and Fargate. App Mesh standardizes service communication, gi…
   api_count: 4
   score_band: strong
   score_composite: 65.5
-  shared: 1
-- slug: solo-io
-  name: Solo.io
-  description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gatewa…
-  api_count: 5
-  score_band: strong
-  score_composite: 61.2
   shared: 1
 - slug: kong
   name: Kong
@@ -50,13 +50,6 @@ providers:
   score_band: developing
   score_composite: 53.8
   shared: 1
-- slug: vmware-tanzu
-  name: VMware Tanzu
-  description: VMware Tanzu (now part of Broadcom) is a portfolio of products for modernizing applications and infrastructure with a common approach to building, running, and managing Kubernetes across multi-cloud environments. Key APIs include the Tanzu Service Mesh REST API for cluster and global namespace mana…
-  api_count: 4
-  score_band: developing
-  score_composite: 52.0
-  shared: 1
 - slug: amazon-vpc-lattice
   name: Amazon VPC Lattice
   description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
@@ -84,6 +77,13 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 51.2
+  shared: 1
+- slug: vmware-tanzu
+  name: VMware Tanzu
+  description: VMware Tanzu (now part of Broadcom) is a portfolio of products for modernizing applications and infrastructure with a common approach to building, running, and managing Kubernetes across multi-cloud environments. Key APIs include the Tanzu Service Mesh REST API for cluster and global namespace mana…
+  api_count: 5
+  score_band: developing
+  score_composite: 51.0
   shared: 1
 - slug: envoy
   name: Envoy
@@ -231,7 +231,7 @@ related:
 overview: 'Service Mesh is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [service-mesh.apievangelist.com](https://service-mesh.apievangelist.com).
 
 
-  30 providers on the network work in this area, including AWS App Mesh, Solo.io, Kong, HashiCorp Consul, Tetrate, Linkerd, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Solo.io, AWS App Mesh, Kong, HashiCorp Consul, Tetrate, Linkerd, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Microservices, Proxy, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'

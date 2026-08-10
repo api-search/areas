@@ -6,7 +6,7 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 139
+provider_count: 141
 providers:
 - slug: didomi
   name: Didomi
@@ -106,13 +106,6 @@ providers:
   score_band: developing
   score_composite: 54.5
   shared: 1
-- slug: transcend-io
-  name: Transcend
-  description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, consent and preference management, privacy assessments, and an A…
-  api_count: 4
-  score_band: developing
-  score_composite: 53.3
-  shared: 1
 - slug: plausible
   name: Plausible
   description: Plausible is an open source, privacy-friendly web analytics platform designed as a lightweight alternative to Google Analytics. It provides essential website traffic metrics without using cookies or collecting personal data, making it compliant with GDPR, CCPA, and other privacy regulations out of…
@@ -126,6 +119,13 @@ providers:
   api_count: 23
   score_band: developing
   score_composite: 52.7
+  shared: 1
+- slug: transcend-io
+  name: Transcend
+  description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, consent and preference management, privacy assessments, and an A…
+  api_count: 11
+  score_band: developing
+  score_composite: 52.5
   shared: 1
 - slug: vlex
   name: vLex

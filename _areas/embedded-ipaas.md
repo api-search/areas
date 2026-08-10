@@ -6,7 +6,7 @@ description: This is the index of embedded iPaaS service and tooling repos being
 area_url: https://embedded-ipaas.apievangelist.com
 area_host: embedded-ipaas.apievangelist.com
 icon: https://embedded-ipaas.apievangelist.com/icon-thumb.png
-provider_count: 97
+provider_count: 98
 providers:
 - slug: workato
   name: Workato
@@ -35,6 +35,13 @@ providers:
   api_count: 10
   score_band: exemplar
   score_composite: 71.2
+  shared: 1
+- slug: cobalt
+  name: Cobalt
+  description: Traditional integrations are slow, fragmented, and hinder growth. Cobalt is changing that. A next-gen integration platform with 1,000+ connectors and AI-driven automation redefining how businesses integrate, operate, and scale.
+  api_count: 10
+  score_band: exemplar
+  score_composite: 67.4
   shared: 1
 - slug: tray-ai
   name: Tray.ai
@@ -70,13 +77,6 @@ providers:
   api_count: 12
   score_band: strong
   score_composite: 64.1
-  shared: 1
-- slug: cobalt
-  name: Cobalt
-  description: Traditional integrations are slow, fragmented, and hinder growth. Cobalt is changing that. A next-gen integration platform with 1,000+ connectors and AI-driven automation redefining how businesses integrate, operate, and scale.
-  api_count: 10
-  score_band: strong
-  score_composite: 63.7
   shared: 1
 - slug: aws-step-functions
   name: AWS Step Functions
@@ -123,6 +123,13 @@ providers:
 - slug: oracle-integration
   name: Oracle Integration
   description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
+  api_count: 25
+  score_band: strong
+  score_composite: 60.2
+  shared: 1
+- slug: particle
+  name: Particle
+  description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud exposes a REST API that enables developers to call device functi…
   api_count: 25
   score_band: strong
   score_composite: 60.2
@@ -175,13 +182,6 @@ providers:
   api_count: 7
   score_band: developing
   score_composite: 54.9
-  shared: 1
-- slug: particle
-  name: Particle
-  description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud exposes a REST API that enables developers to call device functi…
-  api_count: 25
-  score_band: developing
-  score_composite: 53.4
   shared: 1
 - slug: rewst
   name: Rewst
@@ -240,7 +240,7 @@ related:
 overview: 'Embedded iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [embedded-ipaas.apievangelist.com](https://embedded-ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Workato, Alloy Automation, Zapier, Paragon, Tray.ai, Prismatic, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Workato, Alloy Automation, Zapier, Paragon, Cobalt, Tray.ai, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: iPaaS, Integrations, AI Automation, and Workflow Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

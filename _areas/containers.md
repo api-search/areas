@@ -20,7 +20,7 @@ providers:
   description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
   api_count: 75
   score_band: exemplar
-  score_composite: 70.4
+  score_composite: 73.8
   shared: 1
 - slug: cloudflare
   name: Cloudflare
@@ -120,13 +120,6 @@ providers:
   score_band: strong
   score_composite: 63.2
   shared: 1
-- slug: tensordock
-  name: TensorDock
-  description: TensorDock operates a global GPU cloud marketplace that connects independent hardware hosts with customers needing affordable on-demand and spot GPU compute. The platform exposes two REST APIs — the original Marketplace API (v0) at marketplace.tensordock.com and the newer Instances API (v2) at dash…
-  api_count: 3
-  score_band: strong
-  score_composite: 62.7
-  shared: 1
 - slug: google-cloud-run
   name: Google Cloud Run
   description: Google Cloud Run is a fully managed serverless platform that enables you to run stateless containers that are invocable via HTTP requests. It abstracts away infrastructure management so you can focus on building applications.
@@ -147,6 +140,13 @@ providers:
   api_count: 50
   score_band: strong
   score_composite: 62.1
+  shared: 1
+- slug: tensordock
+  name: TensorDock
+  description: TensorDock operates a global GPU cloud marketplace that connects independent hardware hosts with customers needing affordable on-demand and spot GPU compute. The platform exposes two REST APIs — the original Marketplace API (v0) at marketplace.tensordock.com and the newer Instances API (v2) at dash…
+  api_count: 9
+  score_band: strong
+  score_composite: 61.5
   shared: 1
 - slug: google-cloud-container-registry
   name: Google Cloud Container Registry

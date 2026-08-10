@@ -197,13 +197,6 @@ providers:
   score_band: developing
   score_composite: 48.8
   shared: 1
-- slug: runai
-  name: NVIDIA Run:ai
-  description: NVIDIA Run:ai (formerly run.ai) is an AI operations and GPU orchestration platform for Kubernetes that pools, schedules, and governs GPU compute across clusters for training, fine-tuning, and inference workloads. It provides fractional GPU sharing, dynamic scheduling, quota and policy management, m…
-  api_count: 62
-  score_band: developing
-  score_composite: 48.3
-  shared: 1
 - slug: restate
   name: Restate
   description: Restate is a low-latency durable execution engine for building resilient applications that tolerate all infrastructure faults. It provides durable execution for workflows, event-driven handlers, and stateful orchestration of microservices with exactly-once semantics, automatic retries, and built-in…
@@ -215,6 +208,13 @@ providers:
   name: Conductor
   description: Conductor allows you to build a complex application using simple and granular tasks that do not need to be aware of or keep track of the state of your application's execution flow. Conductor keeps track of the state, calls tasks in the right order (sequentially or in parallel, as defined by you), r…
   api_count: 6
+  score_band: developing
+  score_composite: 48.2
+  shared: 1
+- slug: shuffle
+  name: Shuffle
+  description: Shuffle is an open source security automation platform (SOAR) built for and by security professionals. The platform enables security teams to orchestrate workflows across their entire security tool stack using a no-code/low-code interface powered by OpenAPI integrations. Shuffle provides workflow a…
+  api_count: 9
   score_band: developing
   score_composite: 48.2
   shared: 1

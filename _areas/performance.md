@@ -6,7 +6,7 @@ description: An index and topic collection covering API and web performance, inc
 area_url: https://performance.apievangelist.com
 area_host: performance.apievangelist.com
 icon: https://performance.apievangelist.com/icon-thumb.png
-provider_count: 34
+provider_count: 35
 providers:
 - slug: new-relic
   name: New Relic
@@ -14,6 +14,13 @@ providers:
   api_count: 41
   score_band: exemplar
   score_composite: 80.0
+  shared: 1
+- slug: factorial-hr
+  name: Factorial
+  description: Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 "Legendre") covering employees, contracts, attendance, ti…
+  api_count: 22
+  score_band: exemplar
+  score_composite: 68.6
   shared: 1
 - slug: amazon-global-accelerator
   name: Amazon Global Accelerator
@@ -211,13 +218,6 @@ providers:
   score_band: minimal
   score_composite: 7.5
   shared: 1
-- slug: http-2
-  name: HTTP/2
-  description: HTTP/2 is the second major version of the Hypertext Transfer Protocol, defined by the IETF in RFC 7540 and standardized in 2015. It optimizes use of network resources and reduces perceived latency by introducing a binary framing layer over a single TCP connection, with full request and response mul…
-  api_count: 0
-  score_band: minimal
-  score_composite: 7.0
-  shared: 1
 related:
 - slug: analysis
   name: Analysis
@@ -240,7 +240,7 @@ related:
 overview: 'Performance is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [performance.apievangelist.com](https://performance.apievangelist.com).
 
 
-  30 providers on the network work in this area, including New Relic, Amazon Global Accelerator, Google Cloud Trace, Google Cloud Profiler, Lunar.dev, Virtana (Virtual Instruments), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including New Relic, Factorial, Amazon Global Accelerator, Google Cloud Trace, Google Cloud Profiler, Lunar.dev, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Analysis, Caching, AIOps, and Deployment. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -22,6 +22,13 @@ providers:
   score_band: strong
   score_composite: 65.4
   shared: 1
+- slug: martian-ai
+  name: Martian
+  description: Martian operates an LLM model router and gateway that dynamically routes each request to the best underlying model across providers for the optimal balance of quality, latency, and cost. The Martian Gateway exposes a drop-in, OpenAI-compatible REST API (and an Anthropic Messages-compatible surface)…
+  api_count: 3
+  score_band: strong
+  score_composite: 62.3
+  shared: 1
 - slug: dedaluslabs
   name: Dedalus Labs
   description: 'Dedalus Labs builds infrastructure for AI agents. It runs two production APIs: the Dedalus Agents API, an OpenAI-compatible MCP gateway that lets you mix and match any model from any provider with tools drawn from the Dedalus MCP marketplace (chat completions, embeddings, audio, images, and OCR thr…'
@@ -71,13 +78,6 @@ providers:
   score_band: developing
   score_composite: 47.8
   shared: 1
-- slug: martian-ai
-  name: Martian
-  description: Martian operates an LLM model router and gateway that dynamically routes each request to the best underlying model across providers for the optimal balance of quality, latency, and cost. The Martian Gateway exposes a drop-in, OpenAI-compatible REST API (and an Anthropic Messages-compatible surface)…
-  api_count: 3
-  score_band: developing
-  score_composite: 45.2
-  shared: 1
 - slug: mastercard-gateway-api
   name: Mastercard Gateway API
   description: The Mastercard Payment Gateway provides a robust, developer-friendly REST API for integrating payment processing into applications. It supports a wide range of payment methods, currencies, and transaction types for merchants and payment service providers.
@@ -110,5 +110,5 @@ related: []
 overview: 'Gateway is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [gateway.apievangelist.com](https://gateway.apievangelist.com).
 
 
-  14 providers on the network work in this area, including Amazon Storage Gateway, OpenRouter, Dedalus Labs, Amazon API Gateway, Couchbase, osmAPI, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  14 providers on the network work in this area, including Amazon Storage Gateway, OpenRouter, Martian, Dedalus Labs, Amazon API Gateway, Couchbase, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

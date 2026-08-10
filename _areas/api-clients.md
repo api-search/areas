@@ -6,7 +6,7 @@ description: An index and topic collection covering API clients, the developer t
 area_url: https://api-clients.apievangelist.com
 area_host: api-clients.apievangelist.com
 icon: https://api-clients.apievangelist.com/icon-thumb.png
-provider_count: 18
+provider_count: 19
 providers:
 - slug: apollo-graphql
   name: Apollo GraphQL
@@ -35,6 +35,13 @@ providers:
   api_count: 23
   score_band: developing
   score_composite: 47.9
+  shared: 1
+- slug: kiota
+  name: Kiota
+  description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the need to take a dependency on a different hand-written SDK f…'
+  api_count: 1
+  score_band: developing
+  score_composite: 46.2
   shared: 1
 - slug: wget
   name: Wget
@@ -140,14 +147,14 @@ related:
   shared: 17
 - slug: cli
   name: Command Line Interface
-  shared: 2
+  shared: 3
 - slug: testing
   name: Testing
   shared: 1
 overview: 'API Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-clients.apievangelist.com](https://api-clients.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Apollo GraphQL, Insomnia, Hoppscotch, Ruby Programming Language and Popular API Gems, Wget, REST Client, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  19 providers on the network work in this area, including Apollo GraphQL, Insomnia, Hoppscotch, Ruby Programming Language and Popular API Gems, Kiota, Wget, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Clients, Command Line Interface, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -34,7 +34,7 @@ providers:
   description: Spider is a Rust-based, AI-friendly web scraping and crawling cloud. Point it at a URL and get back clean markdown, structured JSON, screenshots, or links — at up to 100K pages per second — with anti-bot bypass, residential proxies, headless browsers, and native MCP, LangChain, LlamaIndex, CrewAI,…
   api_count: 10
   score_band: developing
-  score_composite: 49.7
+  score_composite: 51.4
   shared: 1
 - slug: octoparse
   name: Octoparse

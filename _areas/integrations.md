@@ -6,7 +6,7 @@ description: An index and topic collection covering the broad integration toolin
 area_url: https://integrations.apievangelist.com
 area_host: integrations.apievangelist.com
 icon: https://integrations.apievangelist.com/icon-thumb.png
-provider_count: 71
+provider_count: 72
 providers:
 - slug: zapier
   name: Zapier
@@ -29,6 +29,13 @@ providers:
   score_band: exemplar
   score_composite: 73.4
   shared: 1
+- slug: unified-to
+  name: Unified.to
+  description: Unified is a real-time unified API platform that provides access to over 360 integrations across 22 categories for B2B SaaS and AI-native products. Unlike traditional integration platforms that cache or sync data periodically, Unified operates with a pass-through architecture where every request hi…
+  api_count: 140
+  score_band: exemplar
+  score_composite: 72.9
+  shared: 1
 - slug: boomi
   name: Boomi
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
@@ -50,12 +57,12 @@ providers:
   score_band: exemplar
   score_composite: 71.2
   shared: 1
-- slug: unified-to
-  name: Unified.to
-  description: Unified is a real-time unified API platform that provides access to over 360 integrations across 22 categories for B2B SaaS and AI-native products. Unlike traditional integration platforms that cache or sync data periodically, Unified operates with a pass-through architecture where every request hi…
-  api_count: 140
+- slug: cobalt
+  name: Cobalt
+  description: Traditional integrations are slow, fragmented, and hinder growth. Cobalt is changing that. A next-gen integration platform with 1,000+ connectors and AI-driven automation redefining how businesses integrate, operate, and scale.
+  api_count: 10
   score_band: exemplar
-  score_composite: 71.2
+  score_composite: 67.4
   shared: 1
 - slug: apideck
   name: Apideck
@@ -84,13 +91,6 @@ providers:
   api_count: 12
   score_band: strong
   score_composite: 64.1
-  shared: 1
-- slug: cobalt
-  name: Cobalt
-  description: Traditional integrations are slow, fragmented, and hinder growth. Cobalt is changing that. A next-gen integration platform with 1,000+ connectors and AI-driven automation redefining how businesses integrate, operate, and scale.
-  api_count: 10
-  score_band: strong
-  score_composite: 63.7
   shared: 1
 - slug: pandium
   name: Pandium
@@ -169,6 +169,13 @@ providers:
   score_band: strong
   score_composite: 56.1
   shared: 1
+- slug: spot
+  name: Spot
+  description: Spot AI is a physical-security video-AI platform that turns surveillance cameras into AI agents which monitor spaces 24/7, detect suspicious activity, and trigger automated responses across retail, manufacturing, construction, healthcare, and education. The Spot AI Developer API is a JSON REST API…
+  api_count: 15
+  score_band: strong
+  score_composite: 56.0
+  shared: 1
 - slug: superblocks
   name: Superblocks
   description: Superblocks is a programmable internal tools platform that enables engineering and IT teams to build, govern, and deploy enterprise-grade internal applications, workflows, and scheduled jobs on top of databases, REST APIs, GraphQL APIs, and 50+ SaaS integrations. The platform exposes a REST managem…
@@ -211,13 +218,6 @@ providers:
   score_band: developing
   score_composite: 51.1
   shared: 1
-- slug: nango
-  name: Nango
-  description: Nango.dev is a developer infrastructure platform that simplifies building product integrations with external APIs. It provides the infrastructure to build reliable, scalable integrations fast, including API authentication, a syncing framework, webhook handling, and observability, supporting over 40…
-  api_count: 6
-  score_band: developing
-  score_composite: 50.8
-  shared: 1
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
@@ -240,7 +240,7 @@ related:
 overview: 'Integrations is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [integrations.apievangelist.com](https://integrations.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Zapier, Apigee, Merge, Boomi, Composio, Paragon, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Zapier, Apigee, Merge, Unified.to, Boomi, Composio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS, iPaaS, Management, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

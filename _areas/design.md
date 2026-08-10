@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://design.apievangelist.com
 area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
-provider_count: 90
+provider_count: 91
 providers:
 - slug: figma
   name: Figma
@@ -63,6 +63,13 @@ providers:
   api_count: 42
   score_band: strong
   score_composite: 56.2
+  shared: 1
+- slug: ceros
+  name: Ceros
+  description: Ceros is an experiential content platform used by marketing, design and agency teams to build interactive, no-code web content — microsites, landing pages, interactive reports, infographics, pitch decks and embeddable experiences — in a browser design studio and publish them to a CDN. Its developer…
+  api_count: 6
+  score_band: developing
+  score_composite: 54.1
   shared: 1
 - slug: zeplin
   name: Zeplin
@@ -211,13 +218,6 @@ providers:
   score_band: emerging
   score_composite: 26.4
   shared: 1
-- slug: paper
-  name: Paper
-  description: Paper (paper.design) is a modern, agent-native design tool built on HTML and CSS web standards — a connected canvas where teams design, share, and ship with AI agents. Instead of drawing abstract vector representations of interfaces, Paper renders real HTML/CSS, so what you design is production cod…
-  api_count: 0
-  score_band: emerging
-  score_composite: 26.2
-  shared: 1
 related:
 - slug: visualization
   name: Visualization
@@ -228,6 +228,9 @@ related:
 - slug: developer-experience
   name: Developer Experience
   shared: 1
+- slug: sdk
+  name: SDKs
+  shared: 1
 - slug: saas-management
   name: SaaS Management
   shared: 1
@@ -237,5 +240,5 @@ overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://ap
   30 providers on the network work in this area, including Figma, Autodesk, Adobe Creative Cloud, Canva, Adobe Creative Suite, Adobe Illustrator, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Visualization, AI Automation, Developer Experience, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Visualization, AI Automation, Developer Experience, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

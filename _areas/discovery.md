@@ -11,9 +11,9 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 24
+  api_count: 39
   score_band: exemplar
-  score_composite: 76.8
+  score_composite: 75.8
   shared: 1
 - slug: google-cloud-migration-center
   name: Google Cloud Migration Center

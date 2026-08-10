@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 105
+provider_count: 109
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -99,6 +99,13 @@ providers:
   score_band: developing
   score_composite: 46.6
   shared: 1
+- slug: kiota
+  name: Kiota
+  description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the need to take a dependency on a different hand-written SDK f…'
+  api_count: 1
+  score_band: developing
+  score_composite: 46.2
+  shared: 1
 - slug: formspree
   name: Formspree
   description: 'Formspree is a form backend for static and Jamstack sites. Two API surfaces matter: (1) the public form-submission endpoint (formspree.io/f/{hashid}) that accepts POST submissions and returns JSON when the Accept header is set, and (2) the Forms API (formspree.io/api/0/...) for programmatic submiss…'
@@ -155,6 +162,13 @@ providers:
   score_band: thin
   score_composite: 39.4
   shared: 1
+- slug: orval
+  name: Orval
+  description: Orval is an MIT-licensed open source code generator that turns any valid OpenAPI v3 or Swagger v2 specification into type-safe TypeScript. From one spec it emits HTTP request functions (Fetch by default, Axios optional), TanStack Query hooks for React, Vue, Svelte, Solid and Angular, SWR hooks, Ang…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.2
+  shared: 1
 - slug: thunder-client
   name: Thunder Client
   description: Thunder Client is a lightweight REST API client extension for Visual Studio Code created by Ranga Vadhineni, providing a clean interface for sending HTTP requests, managing collections, and testing APIs without leaving the editor. With nearly 7 million installs, it pioneered GUI-based API testing i…
@@ -173,6 +187,13 @@ providers:
   name: Cycode
   description: Cycode is a complete Application Security Posture Management (ASPM) and software supply chain security platform that delivers visibility, security, and integrity across the entire software development lifecycle. Its Risk Intelligence Graph (RIG) correlates findings from SAST, SCA, secrets, IaC, and…
   api_count: 1
+  score_band: thin
+  score_composite: 36.8
+  shared: 1
+- slug: serverless
+  name: Serverless
+  description: Serverless, Inc. builds the Serverless Framework, the original and most widely adopted open-source tool for building, deploying and operating serverless applications on AWS Lambda and other managed cloud services. It pairs a YAML-configured, multi-language command-line interface with a Dashboard fo…
+  api_count: 0
   score_band: thin
   score_composite: 36.8
   shared: 1
@@ -197,33 +218,12 @@ providers:
   score_band: thin
   score_composite: 36.6
   shared: 1
-- slug: hashboard
-  name: Hashboard
-  description: 'Hashboard is a business intelligence (BI) platform built around a BI-as-code workflow: data teams define their semantic layer, metrics, explorations, and dashboards as version-controlled configuration files and manage them with the Hashboard CLI (hb) and the hashquery Python framework. Changes are…'
-  api_count: 0
-  score_band: thin
-  score_composite: 35.6
-  shared: 1
-- slug: mockoon
-  name: Mockoon
-  description: Mockoon is the easiest and quickest way to design and run mock REST APIs. Available as a free, open-source desktop application and CLI, it lets developers build, share, and serve realistic mock endpoints locally, in CI, or in containers. No remote deployment, no account required.
-  api_count: 2
-  score_band: thin
-  score_composite: 35.5
-  shared: 1
-- slug: bruin
-  name: Bruin
-  description: Bruin is an end-to-end, open-source AI data platform that consolidates data ingestion, SQL and Python transformation, orchestration, quality checks, column-level lineage, and natural-language analytics into a single Git-native tool - positioned as a replacement for a fragmented Fivetran + dbt + Air…
-  api_count: 0
-  score_band: thin
-  score_composite: 35.3
-  shared: 1
 related:
-- slug: clients
-  name: Clients
-  shared: 2
 - slug: api-clients
   name: API Clients
+  shared: 3
+- slug: clients
+  name: Clients
   shared: 2
 - slug: plans
   name: Plans
@@ -243,5 +243,5 @@ overview: 'Command Line Interface is one of the API Evangelist areas on the [API
   30 providers on the network work in this area, including AWS CLI, Svix, Plandex, Continue, Sideko, APIToolkit (Monoscope), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Clients, API Clients, Plans, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Clients, Clients, Plans, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

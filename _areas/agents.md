@@ -6,7 +6,7 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 295
+provider_count: 307
 providers:
 - slug: vapi-ai
   name: Vapi
@@ -77,6 +77,13 @@ providers:
   api_count: 6
   score_band: exemplar
   score_composite: 69.2
+  shared: 1
+- slug: vendia
+  name: Vendia
+  description: Vendia is an enterprise data platform company founded by Tim Wagner (creator of AWS Lambda) and Shruthi Rao (founder of the AWS blockchain practice). Its flagship product is the Vendia MCP Gateway — a managed, multi-tenant Model Context Protocol server that gives AI agents governed, audited access…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.3
   shared: 1
 - slug: microsoft-copilot
   name: Microsoft Copilot
@@ -204,19 +211,12 @@ providers:
   score_band: strong
   score_composite: 60.4
   shared: 1
-- slug: nextroll
-  name: NextRoll
-  description: 'NextRoll, Inc. is a San Francisco-based marketing technology company that operates two brands on a shared machine-learning and identity platform: AdRoll, a cross-channel digital advertising and retargeting platform for ecommerce and D2C marketers, and AdRoll ABM (formerly RollWorks), an account-bas…'
-  api_count: 9
+- slug: chili-piper
+  name: Chili Piper
+  description: Chili Piper is a demand conversion platform for B2B go-to-market teams, founded in 2016 by Alina and Nicolas Vandenberghe and headquartered in New York. Its products - Concierge, Distro, Handoff, Chat AI, Web Experiences, Re-engagement and ChiliCal - turn inbound website visitors and form submissio…
+  api_count: 16
   score_band: strong
-  score_composite: 59.9
-  shared: 1
-- slug: prime-intellect
-  name: Prime Intellect
-  description: Prime Intellect is a San Francisco–based startup building an open and decentralized stack for developing and improving AI agents through reinforcement learning. The company combines a 50+ provider GPU compute marketplace (single-node and 1–256 GPU multi-node clusters across H100, H200, B200, and B3…
-  api_count: 20
-  score_band: strong
-  score_composite: 59.9
+  score_composite: 60.0
   shared: 1
 related:
 - slug: machine-learning
@@ -228,14 +228,14 @@ related:
 - slug: saas-management
   name: SaaS Management
   shared: 2
-- slug: webhooks
-  name: Webhooks
-  shared: 2
 - slug: plans
   name: Plans
   shared: 1
 - slug: ide
   name: IDE
+  shared: 1
+- slug: ai-automation
+  name: AI Automation
   shared: 1
 overview: 'Agents is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents.apievangelist.com](https://agents.apievangelist.com).
 
@@ -243,5 +243,5 @@ overview: 'Agents is one of the API Evangelist areas on the [APIs.io](https://ap
   30 providers on the network work in this area, including Vapi, ChatGPT, Anthropic, GitHub Copilot, Exa, Dust, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Machine Learning, API Evangelist Search, SaaS Management, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Machine Learning, API Evangelist Search, SaaS Management, and Plans. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

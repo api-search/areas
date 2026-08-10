@@ -224,7 +224,7 @@ related:
   shared: 5
 - slug: sdk
   name: SDKs
-  shared: 5
+  shared: 4
 - slug: support
   name: Support
   shared: 2

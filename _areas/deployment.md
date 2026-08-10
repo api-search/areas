@@ -6,7 +6,7 @@ description: An index and topic collection covering application deployment platf
 area_url: https://deployment.apievangelist.com
 area_host: deployment.apievangelist.com
 icon: https://deployment.apievangelist.com/icon-thumb.png
-provider_count: 61
+provider_count: 64
 providers:
 - slug: amazon-elastic-beanstalk
   name: Amazon Elastic Beanstalk
@@ -50,19 +50,19 @@ providers:
   score_band: strong
   score_composite: 64.1
   shared: 1
-- slug: outsystems
-  name: OutSystems
-  description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11), the self-managed/PaaS platform, and OutSystems Developer Clo…
-  api_count: 14
-  score_band: strong
-  score_composite: 62.1
-  shared: 1
 - slug: upsun
   name: Upsun
   description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
   api_count: 50
   score_band: strong
   score_composite: 62.1
+  shared: 1
+- slug: outsystems
+  name: OutSystems
+  description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11), the self-managed/PaaS platform, and OutSystems Developer Clo…
+  api_count: 37
+  score_band: strong
+  score_composite: 61.9
   shared: 1
 - slug: amazon-codedeploy
   name: Amazon CodeDeploy
@@ -90,7 +90,7 @@ providers:
   description: Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into their customers' own AWS, Azure, or GCP accounts while keeping a…
   api_count: 18
   score_band: strong
-  score_composite: 58.8
+  score_composite: 59.7
   shared: 1
 - slug: render
   name: Render
@@ -98,6 +98,13 @@ providers:
   api_count: 26
   score_band: strong
   score_composite: 57.9
+  shared: 1
+- slug: aptible
+  name: Aptible
+  description: Aptible is a Platform as a Service (PaaS) built for teams that have to prove security and compliance, not just ship. It deploys web apps, managed databases (PostgreSQL, MySQL, Redis, Elasticsearch, InfluxDB, RabbitMQ, SFTP) and AI workloads onto isolated, dedicated AWS infrastructure with encryptio…
+  api_count: 51
+  score_band: strong
+  score_composite: 57.4
   shared: 1
 - slug: databricks-asset-bundles
   name: Databricks Asset Bundles
@@ -197,26 +204,19 @@ providers:
   score_band: developing
   score_composite: 46.1
   shared: 1
+- slug: dokploy
+  name: Dokploy
+  description: Dokploy is an open-source, self-hostable Platform-as-a-Service (PaaS) — an alternative to Heroku, Vercel, and Netlify — that deploys applications, Docker Compose stacks, and managed databases across one or many servers using Docker and Docker Swarm, with Traefik handling routing and TLS.
+  api_count: 48
+  score_band: developing
+  score_composite: 45.6
+  shared: 1
 - slug: coolify
   name: Coolify
   description: Coolify is an open-source, self-hostable Platform-as-a-Service alternative to Vercel, Heroku, Netlify, and Railway. It lets you deploy static sites, APIs, full-stack applications, databases, and 280+ one-click services to any SSH-accessible server (VPS, bare-metal, Raspberry Pi, EC2, Hetzner, Digit…
   api_count: 19
   score_band: developing
   score_composite: 44.5
-  shared: 1
-- slug: argo-cd
-  name: Argo CD
-  description: Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes that automates the deployment of applications by using Git repositories as the source of truth for defining the desired application state. It supports multiple config management tools (Helm, Kustomize, Jsonnet, plain YAML), mu…
-  api_count: 13
-  score_band: developing
-  score_composite: 44.4
-  shared: 1
-- slug: render-com
-  name: Render
-  description: Render is a unified cloud application platform (PaaS) for building, deploying, and scaling web services, static sites, background workers, cron jobs, and one-off jobs alongside managed Postgres and Key Value (Redis-compatible) datastores. The Render REST API (https://api.render.com/v1) exposes almo…
-  api_count: 17
-  score_band: developing
-  score_composite: 44.3
   shared: 1
 related:
 - slug: containers

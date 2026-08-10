@@ -6,14 +6,14 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 102
+provider_count: 104
 providers:
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
   api_count: 115
   score_band: exemplar
-  score_composite: 74.2
+  score_composite: 73.8
   shared: 1
 - slug: cisco-webex
   name: Cisco Webex
@@ -141,6 +141,13 @@ providers:
   score_band: developing
   score_composite: 53.2
   shared: 1
+- slug: neutrino-api
+  name: Neutrino API
+  description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP API of 28 published operations — one verb path each, no reso…'
+  api_count: 7
+  score_band: developing
+  score_composite: 52.9
+  shared: 1
 - slug: cloudtalk
   name: CloudTalk
   description: CloudTalk is an AI-powered cloud call center and business phone system (CCaaS) for sales and customer support teams, backed by Point Nine. Its public REST API (served at https://my.cloudtalk.io/api, published as OpenAPI 3.0.1 version 1.7) lets developers automate calls, contacts, agents, groups, ph…
@@ -210,13 +217,6 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 47.4
-  shared: 1
-- slug: sedna
-  name: SEDNA
-  description: SEDNA is the operating system for shipping — a communications and workflow platform that unifies email, voyage and trade operations, and document handling for maritime, commodity trading and logistics teams. Its API (version 2019-01-01) exposes messages, contacts, teams, users, job references, cate…
-  api_count: 17
-  score_band: developing
-  score_composite: 46.5
   shared: 1
 related:
 - slug: authentication

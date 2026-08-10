@@ -6,7 +6,7 @@ description: An index and topic collection covering reverse-proxy and edge-proxy
 area_url: https://api-proxies.apievangelist.com
 area_host: api-proxies.apievangelist.com
 icon: https://api-proxies.apievangelist.com/icon-thumb.png
-provider_count: 12
+provider_count: 13
 providers:
 - slug: ngrok
   name: ngrok
@@ -14,6 +14,13 @@ providers:
   api_count: 24
   score_band: strong
   score_composite: 65.9
+  shared: 1
+- slug: webscraping-ai
+  name: WebScraping.AI
+  description: WebScraping.AI is a web scraping API that returns the rendered HTML, visible text, CSS-selected fragments, or LLM-extracted structured data of any URL, so callers do not have to operate their own scraping infrastructure. The service handles headless Chromium JavaScript rendering, rotating datacente…
+  api_count: 6
+  score_band: strong
+  score_composite: 64.5
   shared: 1
 - slug: oxylabs
   name: Oxylabs
@@ -43,19 +50,19 @@ providers:
   score_band: strong
   score_composite: 57.5
   shared: 1
+- slug: spider-cloud
+  name: Spider
+  description: Spider is a Rust-based, AI-friendly web scraping and crawling cloud. Point it at a URL and get back clean markdown, structured JSON, screenshots, or links — at up to 100K pages per second — with anti-bot bypass, residential proxies, headless browsers, and native MCP, LangChain, LlamaIndex, CrewAI,…
+  api_count: 10
+  score_band: developing
+  score_composite: 51.4
+  shared: 1
 - slug: smartproxy
   name: Smartproxy
   description: Smartproxy (now also known as Decodo) is a proxy network and web scraping infrastructure platform providing residential, datacenter, mobile, and ISP proxies for web data collection at scale. The Smartproxy API enables programmatic management of proxy accounts, sub-users, traffic allocation, IP whit…
   api_count: 6
   score_band: developing
   score_composite: 50.9
-  shared: 1
-- slug: spider-cloud
-  name: Spider
-  description: Spider is a Rust-based, AI-friendly web scraping and crawling cloud. Point it at a URL and get back clean markdown, structured JSON, screenshots, or links — at up to 100K pages per second — with anti-bot bypass, residential proxies, headless browsers, and native MCP, LangChain, LlamaIndex, CrewAI,…
-  api_count: 10
-  score_band: developing
-  score_composite: 49.7
   shared: 1
 - slug: scrapfly
   name: Scrapfly
@@ -99,7 +106,7 @@ related:
 overview: 'API Proxies is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-proxies.apievangelist.com](https://api-proxies.apievangelist.com).
 
 
-  12 providers on the network work in this area, including ngrok, Oxylabs, Hyperbrowser, Nimbleway, ZenRows, Smartproxy, and 6 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  13 providers on the network work in this area, including ngrok, WebScraping.AI, Oxylabs, Hyperbrowser, Nimbleway, ZenRows, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'

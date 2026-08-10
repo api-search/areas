@@ -41,7 +41,7 @@ providers:
   description: Full Lifecycle API Management for (Federated) GraphQL. Schema Registry, composition checks, analytics, metrics, tracing and routing. Deploy 100% on-prem or use our Managed Service. Apache 2.0 licensed, no vendor-lock.
   api_count: 11
   score_band: developing
-  score_composite: 53.1
+  score_composite: 52.8
   shared: 1
 - slug: broadcom
   name: Broadcom

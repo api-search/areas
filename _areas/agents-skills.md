@@ -6,14 +6,14 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 41
+provider_count: 43
 providers:
-- slug: visier
-  name: Visier
-  description: Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering. Visier publishes a broad suite of public REST APIs — Data…
-  api_count: 10
-  score_band: strong
-  score_composite: 60.6
+- slug: apis-io
+  name: APIs.io
+  description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Post…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 81.8
   shared: 1
 - slug: lightrun
   name: Lightrun
@@ -35,6 +35,13 @@ providers:
   api_count: 17
   score_band: strong
   score_composite: 57.7
+  shared: 1
+- slug: visier
+  name: Visier
+  description: Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering. Visier publishes a broad suite of public REST APIs — Data…
+  api_count: 51
+  score_band: strong
+  score_composite: 57.6
   shared: 1
 - slug: bitpanda
   name: Bitpanda
@@ -62,7 +69,7 @@ providers:
   description: Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines.…
   api_count: 3
   score_band: developing
-  score_composite: 52.2
+  score_composite: 53.2
   shared: 1
 - slug: phenom
   name: Phenom
@@ -91,6 +98,13 @@ providers:
   api_count: 10
   score_band: thin
   score_composite: 41.8
+  shared: 1
+- slug: mydentify-public-api
+  name: Mydentify Public API
+  description: Public, keyless REST API for Mydentify — a permanent product directory with weekly community-signaled product leaderboards. The OpenAPI 3.1 contract covers intent-based product discovery, the curated startup/SaaS/AI directory catalog with Directory Score and link-type metadata, a portable product-c…
+  api_count: 6
+  score_band: thin
+  score_composite: 41.6
   shared: 1
 - slug: windsurf
   name: Windsurf
@@ -204,20 +218,6 @@ providers:
   score_band: emerging
   score_composite: 20.7
   shared: 1
-- slug: cline
-  name: Cline
-  description: Cline (formerly Claude Dev) is an open-source autonomous coding agent. The Cline VS Code extension has 5M+ installs; JetBrains is in early access; the Cline CLI is also available. Edits files, runs commands, uses the browser, and federates to multiple LLM providers. An MCP Marketplace extends Cline…
-  api_count: 5
-  score_band: emerging
-  score_composite: 18.3
-  shared: 1
-- slug: dia-browser
-  name: Dia (The Browser Company)
-  description: Dia is The Browser Company's successor browser to Arc, positioned as an AI-native browser that integrates a chat assistant, contextual search across open tabs and connected apps (GSuite, Slack, Notion, GitHub), Morning Brief summaries, automatic Reports, Better Meetings, and Live Work integrations…
-  api_count: 3
-  score_band: emerging
-  score_composite: 17.5
-  shared: 1
 related:
 - slug: ide
   name: IDE
@@ -237,7 +237,7 @@ related:
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Visier, Lightrun, Smithery, 360Learning, Bitpanda, Nord Security, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including APIs.io, Lightrun, Smithery, 360Learning, Visier, Bitpanda, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: IDE, API Evangelist Discovery, Logging, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'

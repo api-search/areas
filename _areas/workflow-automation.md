@@ -6,14 +6,14 @@ description: This is the index of workflow automation service and tooling repos 
 area_url: https://workflow-automation.apievangelist.com
 area_host: workflow-automation.apievangelist.com
 icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-provider_count: 655
+provider_count: 667
 providers:
 - slug: servicenow
   name: ServiceNow
   description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
   api_count: 63
   score_band: exemplar
-  score_composite: 75.0
+  score_composite: 74.2
   shared: 2
 - slug: appian
   name: Appian
@@ -165,9 +165,9 @@ providers:
 - slug: rundeck
   name: Rundeck
   description: Rundeck is an open source runbook automation service with a web console, command line tools, and a REST WebAPI. It enables IT teams to easily run automation tasks across a set of nodes, providing self-service operations, job scheduling, and execution history. Rundeck is developed by PagerDuty and s…
-  api_count: 1
+  api_count: 8
   score_band: developing
-  score_composite: 47.6
+  score_composite: 47.2
   shared: 2
 - slug: elementum
   name: Elementum

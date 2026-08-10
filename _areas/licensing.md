@@ -13,14 +13,14 @@ providers:
   description: Replicated is a commercial software distribution platform that lets independent software vendors (ISVs) deliver and manage modern applications into complex, customer-controlled environments — including on-prem, self-hosted, and air-gapped networks with little or no outbound internet access. The pla…
   api_count: 22
   score_band: strong
-  score_composite: 63.4
+  score_composite: 64.4
   shared: 1
 - slug: opengov
   name: OpenGov
   description: OpenGov builds cloud enterprise resource planning and public service software for state and local government, serving more than 2,000 communities across budgeting and performance, financial management, procurement and contract management, vendor management, permitting and licensing, enterprise asse…
-  api_count: 10
+  api_count: 102
   score_band: strong
-  score_composite: 63.0
+  score_composite: 61.2
   shared: 1
 - slug: acma
   name: ACMA
@@ -35,6 +35,13 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 52.3
+  shared: 1
+- slug: certifyos
+  name: Certifyos
+  description: 'Certify (operating as CertifyOS, certifyos.com) is a New York-based healthcare provider data platform that automates the end-to-end provider network management lifecycle: credentialing, licensing, payer enrollment, compliance monitoring, and roster management. Founded in 2020 by CEO Anshul Rathi, t…'
+  api_count: 59
+  score_band: developing
+  score_composite: 50.1
   shared: 1
 - slug: shutterstock
   name: Shutterstock
@@ -85,19 +92,12 @@ providers:
   score_band: thin
   score_composite: 34.9
   shared: 1
-- slug: certifyos
-  name: Certifyos
-  description: CertifyOS is a healthcare provider data platform that delivers a single, AI-enabled source of truth for provider information. Founded in 2021 by former Oscar Health employees and led by CEO Anshul Rathi, the New York-based company offers an API-first platform that automates every stage of provider…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.6
-  shared: 1
 - slug: fcc
   name: FCC (Federal Communications Commission)
   description: The Federal Communications Commission provides free public REST APIs for radio station license lookup, broadband coverage maps, spectrum auction data, broadcast contours, census block conversions, consumer complaint databases, electronic comment filings, and regulatory data. All APIs are free with…
-  api_count: 9
+  api_count: 19
   score_band: thin
-  score_composite: 32.8
+  score_composite: 32.3
   shared: 1
 - slug: occ
   name: Office of the Comptroller of the Currency (OCC)
@@ -225,7 +225,7 @@ related:
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Replicated, OpenGov, ACMA, Warner Music Group, Shutterstock, 7digital, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Replicated, OpenGov, ACMA, Warner Music Group, Certifyos, Shutterstock, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Regulation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

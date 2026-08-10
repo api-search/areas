@@ -85,6 +85,13 @@ providers:
   score_band: strong
   score_composite: 57.0
   shared: 1
+- slug: signadot
+  name: Signadot
+  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
+  api_count: 5
+  score_band: strong
+  score_composite: 56.7
+  shared: 1
 - slug: amazon-sqs
   name: Amazon SQS
   description: Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
@@ -98,13 +105,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 55.9
-  shared: 1
-- slug: signadot
-  name: Signadot
-  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
-  api_count: 5
-  score_band: developing
-  score_composite: 55.7
   shared: 1
 - slug: spring-cloud-config
   name: Spring Cloud Config
@@ -123,9 +123,9 @@ providers:
 - slug: datadog-apm
   name: Datadog APM
   description: Datadog APM provides end-to-end distributed tracing, continuous profiling, and real-time performance monitoring for applications and microservices. It automatically instruments applications to provide deep visibility into request traces, latency, and error rates across distributed systems.
-  api_count: 1
+  api_count: 5
   score_band: developing
-  score_composite: 53.3
+  score_composite: 52.9
   shared: 1
 - slug: amazon-fargate
   name: Amazon Fargate

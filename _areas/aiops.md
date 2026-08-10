@@ -6,14 +6,21 @@ description: AIOps applies artificial intelligence and machine learning to IT op
 area_url: https://aiops.apievangelist.com
 area_host: aiops.apievangelist.com
 icon: https://aiops.apievangelist.com/icon-thumb.png
-provider_count: 46
+provider_count: 48
 providers:
 - slug: logz-io
   name: Logz.io
   description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
   api_count: 19
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 71.1
+  shared: 1
+- slug: akuity
+  name: Akuity
+  description: 'Akuity is the enterprise software delivery company founded by the creators of Argo CD and Kargo. The Akuity Platform is its commercial, fully-managed offering: hosted, enterprise-grade Argo CD control planes for GitOps continuous delivery, managed Kargo for multi-stage progressive promotion, the Ak…'
+  api_count: 8
+  score_band: exemplar
+  score_composite: 66.8
   shared: 1
 - slug: honeycomb-io
   name: Honeycomb
@@ -176,6 +183,13 @@ providers:
   score_band: emerging
   score_composite: 27.4
   shared: 1
+- slug: striveworks
+  name: Striveworks
+  description: Striveworks is an Austin, Texas enterprise AI operations (AIOps) company whose platform, Chariot, lets organizations build, deploy, monitor and continuously retrain machine-learning models — in hours rather than months — across cloud, on-premises, disconnected and edge environments. Chariot covers…
+  api_count: 1
+  score_band: emerging
+  score_composite: 26.1
+  shared: 1
 - slug: keep
   name: Keep
   description: Keep is an open-source AIOps and alert management platform that unifies alerts from any monitoring tool, providing deduplication, correlation, enrichment, and workflow automation across observability, incident response, ticketing, and CMDB systems. The Keep REST API enables programmatic access to a…
@@ -204,20 +218,6 @@ providers:
   score_band: emerging
   score_composite: 20.5
   shared: 1
-- slug: monte-carlo-data
-  name: Monte Carlo
-  description: Monte Carlo is a data observability platform that uses ML to detect, resolve, and prevent data quality issues.
-  api_count: 1
-  score_band: emerging
-  score_composite: 20.5
-  shared: 1
-- slug: moogsoft
-  name: Moogsoft
-  description: Moogsoft is an AIOps platform that uses AI to reduce alert noise, correlate incidents, and automate root cause analysis.
-  api_count: 1
-  score_band: emerging
-  score_composite: 20.5
-  shared: 1
 related:
 - slug: logging
   name: Logging
@@ -231,7 +231,7 @@ related:
 overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aiops.apievangelist.com](https://aiops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Logz.io, Honeycomb, Kentik, Virtana (Virtual Instruments), OpsMill, IncidentFox (Brownie), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Logz.io, Akuity, Honeycomb, Kentik, Virtana (Virtual Instruments), OpsMill, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Logging, Observability, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'

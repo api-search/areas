@@ -6,8 +6,15 @@ description: An index and topic collection covering webhook delivery, ingestion,
 area_url: https://webhooks.apievangelist.com
 area_host: webhooks.apievangelist.com
 icon: https://webhooks.apievangelist.com/icon-thumb.png
-provider_count: 454
+provider_count: 473
 providers:
+- slug: xquik-api
+  name: Xquik
+  description: Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.
+  api_count: 3
+  score_band: exemplar
+  score_composite: 90.5
+  shared: 1
 - slug: inngest
   name: Inngest
   description: Inngest is an event-driven durable execution platform for background jobs, step functions, scheduled workflows, and AI agent orchestration. It exposes a v1 event ingestion and run inspection API, a v2 management API (accounts, environments, apps, webhooks, keys, function invocation, runs, traces),…
@@ -99,6 +106,13 @@ providers:
   score_band: exemplar
   score_composite: 68.3
   shared: 1
+- slug: tvarka-atk-api
+  name: Tvarka ATK API
+  description: A single REST API for Lithuanian eID authentication and qualified electronic signing (QES), plus validation, timestamping and long-term-validation (LTV)/archive trust services. The primary ceremonies read the Lithuanian identity card (ATK) through a physical smart-card reader or an NFC phone tap, w…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 66.7
+  shared: 1
 - slug: allegion
   name: Allegion
   description: Allegion plc is a global security products company with $3.8B in 2024 revenue, 13,000+ employees, and 30+ brands across 120 countries (Schlage, Von Duprin, LCN, CISA, Steelcraft, Interflex, SimonsVoss, Yonomi). The Allegion Developer Portal exposes two documented integration surfaces - the Schlage…
@@ -110,6 +124,13 @@ providers:
   name: Convoy
   description: Convoy is an open-source, cloud-native webhooks gateway used to securely ingest, persist, debug, deliver, and manage events. It positions itself as "the complete solution for secure, scalable, and reliable webhook delivery," covering both outbound (sending) and inbound (receiving) webhooks with ret…
   api_count: 11
+  score_band: exemplar
+  score_composite: 66.3
+  shared: 1
+- slug: uphold
+  name: Uphold
+  description: Uphold is a multi-asset digital money platform and regulated crypto exchange that lets consumers and businesses hold, trade, send and spend more than 300 cryptocurrencies, national currencies and precious metals from a single account. Its Enterprise API Suite ("Move on chain") is a modular set of O…
+  api_count: 25
   score_band: exemplar
   score_composite: 66.3
   shared: 1
@@ -141,13 +162,6 @@ providers:
   score_band: strong
   score_composite: 64.1
   shared: 1
-- slug: gofundme
-  name: GoFundMe
-  description: GoFundMe is the world's largest social fundraising platform, operating both the consumer crowdfunding site at gofundme.com and GoFundMe Pro (formerly Classy, acquired in 2022) — the enterprise fundraising suite nonprofits use for donation pages, peer-to-peer campaigns, recurring giving, ticketed ev…
-  api_count: 3
-  score_band: strong
-  score_composite: 64.0
-  shared: 1
 - slug: attentive
   name: Attentive
   description: Attentive is a martech SMS and email marketing platform for e-commerce and retail brands. Its developer platform exposes REST APIs (v1 and v2) plus a GraphQL API for managing subscribers and subscriptions, sending SMS/email and ecommerce events (product view, add-to-cart, purchase), setting custom…
@@ -161,6 +175,13 @@ providers:
   api_count: 37
   score_band: strong
   score_composite: 63.5
+  shared: 1
+- slug: gofundme
+  name: GoFundMe
+  description: GoFundMe is the world's largest social fundraising platform, operating both the consumer crowdfunding site at gofundme.com and GoFundMe Pro (formerly Classy, acquired in 2022) — the enterprise fundraising suite nonprofits use for donation pages, peer-to-peer campaigns, recurring giving, ticketed ev…
+  api_count: 72
+  score_band: strong
+  score_composite: 63.4
   shared: 1
 - slug: filevine
   name: Filevine
@@ -197,36 +218,18 @@ providers:
   score_band: strong
   score_composite: 62.4
   shared: 1
-- slug: payabli
-  name: Payabli
-  description: Payabli is an embedded payments platform and fintech operating system that lets software companies integrate and monetize financial services directly inside their products through a single API. Its "three Ps" cover Pay In (payment acceptance and receivables), Pay Out (payables and disbursements), a…
-  api_count: 33
-  score_band: strong
-  score_composite: 62.3
-  shared: 1
-- slug: wufoo
-  name: Wufoo
-  description: Wufoo is an online form-builder owned by SurveyMonkey Inc. It lets non-developers build registration forms, surveys, contact forms, application forms, and payment forms through a drag-and-drop interface, then collect and report on submissions. Wufoo exposes a v3 REST API (Basic Auth, JSON/XML) over…
-  api_count: 10
-  score_band: strong
-  score_composite: 61.6
-  shared: 1
-- slug: read-ai
-  name: Read AI
-  description: Read AI is an AI-powered meeting intelligence platform that joins Zoom, Microsoft Teams and Google Meet calls as an authorized notetaker and turns them into structured meeting reports — summaries, chapter summaries, action items, key questions, topics, full speaker-attributed transcripts and engage…
-  api_count: 2
-  score_band: strong
-  score_composite: 61.5
-  shared: 1
 related:
 - slug: observability
   name: Observability
   shared: 3
+- slug: ai-automation
+  name: AI Automation
+  shared: 2
+- slug: authentication
+  name: Authentication
+  shared: 2
 - slug: saas-management
   name: SaaS Management
-  shared: 3
-- slug: agents
-  name: Agents
   shared: 2
 - slug: security
   name: Security
@@ -234,14 +237,11 @@ related:
 - slug: reliability
   name: Reliability
   shared: 1
-- slug: ai-automation
-  name: AI Automation
-  shared: 1
 overview: 'Webhooks is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [webhooks.apievangelist.com](https://webhooks.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Inngest, Svix, Fastly, Square, Knock, Buildkite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Xquik, Inngest, Svix, Fastly, Square, Knock, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability, SaaS Management, Agents, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, AI Automation, Authentication, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

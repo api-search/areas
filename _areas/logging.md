@@ -27,7 +27,7 @@ providers:
   description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
   api_count: 19
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 71.1
   shared: 1
 - slug: highlight-io
   name: Highlight (highlight.io)
@@ -69,14 +69,14 @@ providers:
   description: Sumo Logic is a cloud-native, machine data analytics platform delivering real-time, continuous intelligence for operations, security, and business insights. It provides a comprehensive REST API with 289 endpoints spanning log analytics, dashboards, monitors, roles, users, metrics, traces, and more.
   api_count: 54
   score_band: strong
-  score_composite: 56.2
+  score_composite: 57.0
   shared: 1
 - slug: edge-delta
   name: Edge Delta
   description: Edge Delta is an AI-powered observability platform that pairs enterprise-grade telemetry pipelines with agentic AI Teammates for SRE, security, and DevOps teams. Its intelligent pipelines control and route logs, metrics, traces, and events from any source to any destination with in-stream reduction…
   api_count: 19
   score_band: developing
-  score_composite: 54.9
+  score_composite: 55.9
   shared: 1
 - slug: opentelemetry
   name: OpenTelemetry
@@ -221,7 +221,7 @@ providers:
 related:
 - slug: monitoring
   name: Monitoring
-  shared: 5
+  shared: 4
 - slug: observability
   name: Observability
   shared: 4
@@ -234,8 +234,8 @@ related:
 - slug: reliability
   name: Reliability
   shared: 1
-- slug: visualization
-  name: Visualization
+- slug: aiops
+  name: AIOps
   shared: 1
 overview: 'Logging is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [logging.apievangelist.com](https://logging.apievangelist.com).
 

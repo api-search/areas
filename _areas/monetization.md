@@ -216,7 +216,7 @@ providers:
   description: App Samurai is an AI-powered mobile app growth and user-acquisition platform that helps app and game publishers acquire, re-engage, and monetize users at scale. Its products span rewarded user-acquisition campaigns, a programmatic demand-side platform (DSP) for UA and retargeting across premium mob…
   api_count: 1
   score_band: emerging
-  score_composite: 26.5
+  score_composite: 25.4
   shared: 1
 related:
 - slug: finops

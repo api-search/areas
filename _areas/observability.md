@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://observability.apievangelist.com
 area_host: observability.apievangelist.com
 icon: https://observability.apievangelist.com/icon-thumb.png
-provider_count: 305
+provider_count: 310
 providers:
 - slug: new-relic
   name: New Relic
@@ -57,6 +57,13 @@ providers:
   score_band: exemplar
   score_composite: 71.5
   shared: 1
+- slug: logz-io
+  name: Logz.io
+  description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
+  api_count: 19
+  score_band: exemplar
+  score_composite: 71.1
+  shared: 1
 - slug: vercel
   name: Vercel
   description: Vercel is a cloud platform that helps developers build, deploy, and scale modern web applications quickly and efficiently. It provides an optimized hosting environment for frontend frameworks like Next.js (which it created), as well as other React, Vue, Angular, and static site projects. Vercel aut…
@@ -77,13 +84,6 @@ providers:
   api_count: 8
   score_band: exemplar
   score_composite: 70.4
-  shared: 1
-- slug: logz-io
-  name: Logz.io
-  description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
-  api_count: 19
-  score_band: exemplar
-  score_composite: 70.3
   shared: 1
 - slug: highlight-io
   name: Highlight (highlight.io)
@@ -113,13 +113,6 @@ providers:
   score_band: exemplar
   score_composite: 68.3
   shared: 1
-- slug: controlup
-  name: ControlUp
-  description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Paral…
-  api_count: 11
-  score_band: exemplar
-  score_composite: 68.2
-  shared: 1
 - slug: amazon-xray
   name: Amazon X-Ray
   description: AWS X-Ray is a distributed tracing service that helps developers analyze and debug production applications, providing end-to-end visibility into requests as they travel through the application. X-Ray provides service maps, trace analysis, sampling rules, group filtering, and AI-powered insights for…
@@ -147,6 +140,13 @@ providers:
   api_count: 13
   score_band: exemplar
   score_composite: 66.1
+  shared: 1
+- slug: controlup
+  name: ControlUp
+  description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Paral…
+  api_count: 61
+  score_band: strong
+  score_composite: 65.4
   shared: 1
 - slug: cloudwatch
   name: AWS CloudWatch
@@ -234,8 +234,8 @@ related:
 - slug: webhooks
   name: Webhooks
   shared: 3
-- slug: visualization
-  name: Visualization
+- slug: finops
+  name: FinOps
   shared: 2
 overview: 'Observability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [observability.apievangelist.com](https://observability.apievangelist.com).
 

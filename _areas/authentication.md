@@ -6,14 +6,14 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 177
+provider_count: 182
 providers:
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
   api_count: 115
   score_band: exemplar
-  score_composite: 74.2
+  score_composite: 73.8
   shared: 1
 - slug: active-directory
   name: Microsoft Active Directory
@@ -70,6 +70,13 @@ providers:
   api_count: 47
   score_band: exemplar
   score_composite: 67.8
+  shared: 1
+- slug: tvarka-atk-api
+  name: Tvarka ATK API
+  description: A single REST API for Lithuanian eID authentication and qualified electronic signing (QES), plus validation, timestamping and long-term-validation (LTV)/archive trust services. The primary ceremonies read the Lithuanian identity card (ATK) through a physical smart-card reader or an NFC phone tap, w…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 66.7
   shared: 1
 - slug: amazon-iam
   name: Amazon IAM
@@ -211,17 +218,13 @@ providers:
   score_band: strong
   score_composite: 57.6
   shared: 1
-- slug: google-firebase
-  name: Google Firebase
-  description: Google Firebase is a comprehensive app development platform that provides backend services, SDKs, and APIs for building and scaling mobile and web applications, including authentication, real-time databases, cloud messaging, hosting, and analytics.
-  api_count: 5
-  score_band: strong
-  score_composite: 57.5
-  shared: 1
 related:
 - slug: security
   name: Security
   shared: 4
+- slug: webhooks
+  name: Webhooks
+  shared: 2
 - slug: agents
   name: Agents
   shared: 1
@@ -234,14 +237,11 @@ related:
 - slug: monitoring
   name: Monitoring
   shared: 1
-- slug: orchestration
-  name: Orchestration
-  shared: 1
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
   30 providers on the network work in this area, including Twilio, Microsoft Active Directory, Okta, Composio, Kinde, TikTok for Developers, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Security, Agents, Communications, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Security, Webhooks, Agents, and Communications. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

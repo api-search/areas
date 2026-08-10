@@ -71,19 +71,19 @@ providers:
   score_band: strong
   score_composite: 57.8
   shared: 1
-- slug: schematic
-  name: Schematic
-  description: 'Schematic is a monetization platform that lets developers implement pricing once so that go-to-market teams can control pricing, packaging and entitlements without code changes. It decouples pricing from code: engineering integrates the entitlement and metering layer, and product, sales and finance…'
-  api_count: 20
-  score_band: strong
-  score_composite: 56.8
-  shared: 1
 - slug: stigg
   name: Stigg
   description: Stigg is a product-led growth monetization platform providing REST and GraphQL APIs for managing pricing plans, entitlements, usage-based billing, feature flags, and subscription lifecycle. It serves as a monetization control layer for SaaS and AI products, enabling engineering teams to implement f…
   api_count: 9
   score_band: strong
   score_composite: 56.3
+  shared: 1
+- slug: schematic
+  name: Schematic
+  description: 'Schematic is a monetization platform that lets developers implement pricing once so that go-to-market teams can control pricing, packaging and entitlements without code changes. It decouples pricing from code: engineering integrates the entitlement and metering layer, and product, sales and finance…'
+  api_count: 20
+  score_band: strong
+  score_composite: 56.2
   shared: 1
 - slug: langwatch
   name: LangWatch
@@ -183,6 +183,13 @@ providers:
   score_band: developing
   score_composite: 45.5
   shared: 1
+- slug: alphaus
+  name: Alphaus
+  description: Alphaus is a Tokyo-based cloud FinOps company (No. 1 in Japan) whose platform helps enterprises, managed service providers, and cloud resellers manage and optimize multi-cloud spend across AWS, Azure, and GCP. Its products include Octo (cost visibility and optimization), Ripple and WavePro (reselle…
+  api_count: 15
+  score_band: developing
+  score_composite: 45.1
+  shared: 1
 - slug: devtron
   name: Devtron
   description: Devtron is an open-source, AI-native Kubernetes management and software delivery platform that unifies application, infrastructure, and cost management for engineering, DevOps, and SRE teams. It provides Kubernetes-native CI/CD, GitOps (ArgoCD/FluxCD), multi-cluster operations, security and complia…
@@ -196,13 +203,6 @@ providers:
   api_count: 7
   score_band: developing
   score_composite: 44.6
-  shared: 1
-- slug: alphaus
-  name: Alphaus
-  description: Alphaus is a Tokyo-based cloud FinOps company (No. 1 in Japan) whose platform helps enterprises, managed service providers, and cloud resellers manage and optimize multi-cloud spend across AWS, Azure, and GCP. Its products include Octo (cost visibility and optimization), Ripple and WavePro (reselle…
-  api_count: 15
-  score_band: developing
-  score_composite: 44.1
   shared: 1
 - slug: opencost
   name: OpenCost

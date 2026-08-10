@@ -6,7 +6,7 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 81
+provider_count: 87
 providers:
 - slug: shodan
   name: Shodan
@@ -57,6 +57,13 @@ providers:
   score_band: strong
   score_composite: 62.3
   shared: 1
+- slug: particle
+  name: Particle
+  description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud exposes a REST API that enables developers to call device functi…
+  api_count: 25
+  score_band: strong
+  score_composite: 60.2
+  shared: 1
 - slug: thingsboard
   name: ThingsBoard
   description: ThingsBoard is an open-source IoT platform for device connectivity, data collection, processing, and visualization. Licensed under Apache 2.0 and developed by ThingsBoard Inc., it supports multi-tenant device management, telemetry over MQTT/HTTP/CoAP/LwM2M/SNMP, a drag-and-drop rule engine, calcula…
@@ -69,14 +76,7 @@ providers:
   description: The Things Network (TTN) is a free, community-operated global LoRaWAN network with over 280,000 members and 21,000 gateways across 153 countries. It runs on The Things Stack, the open-source (Apache-2.0) LoRaWAN Network Server developed and maintained by The Things Industries. The Things Stack v3 i…
   api_count: 58
   score_band: strong
-  score_composite: 56.4
-  shared: 1
-- slug: particle
-  name: Particle
-  description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud exposes a REST API that enables developers to call device functi…
-  api_count: 25
-  score_band: developing
-  score_composite: 53.4
+  score_composite: 57.4
   shared: 1
 - slug: weavix
   name: Weavix
@@ -88,16 +88,23 @@ providers:
 - slug: afero
   name: Afero
   description: 'Afero, Inc. is a Los Altos, California IoT platform company founded in 2014 by Joe Britt and Shin Matsumura. Afero ships an end-to-end connected-product stack: ASR secure radio modules with a hardware root of trust and an embedded Hardware Security Module, the afLib MCU libraries and Secure Linux D…'
-  api_count: 5
+  api_count: 4
   score_band: developing
-  score_composite: 51.1
+  score_composite: 50.5
   shared: 1
 - slug: esper
   name: Esper
   description: Esper is the DevOps platform for connected devices, providing cloud-based Android (and edge) device management, application deployment, and remote orchestration for dedicated-device fleets. The Esper Manage REST API lets developers programmatically provision, monitor, and control Android-based dedi…
   api_count: 13
   score_band: developing
-  score_composite: 49.3
+  score_composite: 50.2
+  shared: 1
+- slug: bear-robotics
+  name: Bear Robotics
+  description: Bear Robotics builds AI-driven autonomous mobile robots for hospitality and service environments — the Servi family (Servi, Servi Plus, Servi Q, Servi Clean) for restaurants, senior living, hotels and hospitals, the Carti cargo line for warehouses and factories, and Kinisi — all managed through the…
+  api_count: 9
+  score_band: developing
+  score_composite: 50.0
   shared: 1
 - slug: itron
   name: Itron
@@ -162,6 +169,13 @@ providers:
   score_band: thin
   score_composite: 37.3
   shared: 1
+- slug: clockworks-analytics
+  name: Clockworks Analytics
+  description: Clockworks Analytics is a Boston-area building-analytics company whose cloud platform performs automated fault detection and diagnostics (FDD) on HVAC and building systems. It ingests interval data from Building Management Systems through the Clockworks Connect gateway, runs a curated library of ro…
+  api_count: 4
+  score_band: thin
+  score_composite: 35.0
+  shared: 1
 - slug: fiware
   name: FIWARE
   description: FIWARE is an open-source framework that provides a curated set of standards and components for context information management. The cornerstone is the NGSI-LD API standardized by ETSI ISG CIM, which allows applications to provide, consume, and subscribe to context information in smart cities, smart…
@@ -203,20 +217,6 @@ providers:
   api_count: 2
   score_band: emerging
   score_composite: 27.8
-  shared: 1
-- slug: wiliot
-  name: Wiliot
-  description: 'Wiliot operates an ambient IoT platform built on battery-free "IoT Pixels" - postage-stamp-sized Bluetooth sensor tags - and a cloud that turns everyday physical items into a continuous, real-time data source for supply-chain visibility ("Physical AI"). Wiliot''s Cloud APIs expose three surfaces: a…'
-  api_count: 3
-  score_band: emerging
-  score_composite: 26.8
-  shared: 1
-- slug: landis-gyr
-  name: Landis+Gyr
-  description: Landis+Gyr Group AG is a 130-year-old energy technology company that builds the smart electricity, gas and water meters, the RF-mesh and cellular networks, and the head-end, meter-data-management and grid-analytics software that utilities run advanced metering infrastructure on. It is incorporated…
-  api_count: 0
-  score_band: emerging
-  score_composite: 25.6
   shared: 1
 related:
 - slug: network
