@@ -13,84 +13,77 @@ providers:
   description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
   api_count: 19
   score_band: exemplar
-  score_composite: 71.1
+  score_composite: 70.6
   shared: 1
 - slug: akuity
   name: Akuity
   description: 'Akuity is the enterprise software delivery company founded by the creators of Argo CD and Kargo. The Akuity Platform is its commercial, fully-managed offering: hosted, enterprise-grade Argo CD control planes for GitOps continuous delivery, managed Kargo for multi-stage progressive promotion, the Ak…'
   api_count: 8
   score_band: exemplar
-  score_composite: 66.8
+  score_composite: 66.5
   shared: 1
 - slug: honeycomb-io
   name: Honeycomb
   description: ''
   api_count: 21
   score_band: strong
-  score_composite: 60.9
+  score_composite: 60.2
   shared: 1
 - slug: kentik
   name: Kentik
   description: Kentik is a network observability company whose SaaS platform (the Kentik Portal) unifies network flow records, BGP routing, SNMP and streaming telemetry, synthetic tests, and cloud VPC/flow logs into one analytics engine for network performance monitoring, capacity planning, DDoS detection and mit…
   api_count: 24
   score_band: strong
-  score_composite: 58.4
+  score_composite: 56.7
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
   description: Virtana (formerly Virtual Instruments) is an AI-powered hybrid infrastructure observability company whose platform monitors and optimizes performance, cost, and risk across on-premises, colocation, and cloud environments. The platform spans Infrastructure Observability, Container Observability, App…
   api_count: 3
   score_band: developing
-  score_composite: 53.0
+  score_composite: 51.8
   shared: 1
 - slug: opsmill
   name: OpsMill
   description: OpsMill is the company behind Infrahub, an open-source, graph-based infrastructure data management platform that unifies a source of truth for network, data center, and cloud automation. Infrahub combines a flexible, extensible schema, native version control with branching and merging, and unified…
   api_count: 16
   score_band: developing
-  score_composite: 51.3
+  score_composite: 50.8
   shared: 1
 - slug: brownie
   name: IncidentFox (Brownie)
   description: IncidentFox (the company was surfaced in the API Evangelist network under its Y Combinator portfolio codename "Brownie") is an open-source, AI-powered SRE platform that automates production incident investigation and response. Its multi-agent system triages alerts, queries logs, metrics, traces and…
   api_count: 1
   score_band: developing
-  score_composite: 51.0
+  score_composite: 49.9
   shared: 1
 - slug: deeptrace
   name: Deeptrace
   description: Deeptrace is an AI SRE (site reliability engineering) agent that automatically investigates and root-causes production alerts by reasoning across logs, traces, metrics, and code. It triages and prioritizes alerts, produces evidence-backed root cause analyses in a couple of minutes, answers natural-…
   api_count: 2
   score_band: developing
-  score_composite: 48.6
+  score_composite: 46.9
   shared: 1
 - slug: chamber
   name: Chamber
   description: Chamber is an AIOps control plane for enterprise AI infrastructure (Y Combinator W26, Seattle). Its always-on agent — Chambie — monitors, diagnoses, and automatically resolves GPU workload failures across AWS, GCP, Azure, and on-premise Kubernetes clusters, and optimizes utilization so ML teams can…
   api_count: 4
   score_band: developing
-  score_composite: 48.2
+  score_composite: 46.5
   shared: 1
 - slug: runwhen
   name: RunWhen
   description: RunWhen is an AI platform for building safe-for-production agents that triage alerts, remediate infrastructure, analyze cost, and answer questions about production systems. Engineering teams compose reusable "Skills" (CodeBundles) into agents that run standalone or from Claude, Cursor, and VS Code…
   api_count: 51
   score_band: developing
-  score_composite: 46.6
-  shared: 1
-- slug: incident-io
-  name: Incident.io
-  description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
-  api_count: 25
-  score_band: developing
-  score_composite: 45.2
+  score_composite: 44.9
   shared: 1
 - slug: mist-ai
   name: Juniper Mist AI
   description: Juniper Mist AI is the AI-driven enterprise networking platform that powers Juniper Networks' AI-Native Networking portfolio. Acquired by Juniper Networks in 2019, Mist pioneered cloud-native, microservices Wi-Fi and extended its AIOps approach across Wired Assurance (EX/QFX switches), WAN Assuranc…
   api_count: 211
   score_band: developing
-  score_composite: 43.6
+  score_composite: 42.9
   shared: 1
 - slug: doctor-droid
   name: Doctor Droid
@@ -104,77 +97,70 @@ providers:
   description: NeuBird AI is "The Production Operations Agent" — an autonomous AI SRE platform that investigates, triages, and resolves production incidents. It connects to an organization's existing observability and operations stack (Datadog, Splunk, CloudWatch, PagerDuty, ServiceNow, Slack, Kubernetes, AWS, Az…
   api_count: 1
   score_band: thin
-  score_composite: 39.1
+  score_composite: 38.0
+  shared: 1
+- slug: incident-io
+  name: Incident.io
+  description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
+  api_count: 25
+  score_band: thin
+  score_composite: 37.7
   shared: 1
 - slug: firehydrant
   name: FireHydrant
   description: FireHydrant is an incident management platform providing automated runbooks, status pages, and retrospective workflows.
   api_count: 16
   score_band: thin
-  score_composite: 38.9
-  shared: 1
-- slug: coralogix
-  name: Coralogix
-  description: Coralogix is an observability platform providing log analytics, metrics, tracing, and AI-powered insights.
-  api_count: 1
-  score_band: thin
-  score_composite: 37.8
+  score_composite: 30.6
   shared: 1
 - slug: soda-data
   name: Soda
   description: Soda is a data quality platform that enables data testing, monitoring, and anomaly detection across data pipelines.
   api_count: 6
   score_band: thin
-  score_composite: 37.7
+  score_composite: 30.1
+  shared: 1
+- slug: coralogix
+  name: Coralogix
+  description: Coralogix is an observability platform providing log analytics, metrics, tracing, and AI-powered insights.
+  api_count: 1
+  score_band: thin
+  score_composite: 30.0
   shared: 1
 - slug: rootly
   name: Rootly
   description: Rootly is an incident management platform that automates incident response workflows and integrates with existing tools.
   api_count: 7
   score_band: thin
-  score_composite: 37.6
+  score_composite: 29.3
   shared: 1
 - slug: metaplane
   name: Metaplane
   description: Metaplane is a data observability platform providing automated anomaly detection and data quality monitoring.
   api_count: 5
   score_band: thin
-  score_composite: 36.8
+  score_composite: 29.2
   shared: 1
-- slug: elastic-observability
-  name: Elastic Observability
-  description: Elastic Observability provides unified logs, metrics, traces, and AI-driven anomaly detection built on the Elastic Stack.
-  api_count: 5
+- slug: keep
+  name: Keep
+  description: Keep is an open-source AIOps and alert management platform that unifies alerts from any monitoring tool, providing deduplication, correlation, enrichment, and workflow automation across observability, incident response, ticketing, and CMDB systems. The Keep REST API enables programmatic access to a…
+  api_count: 27
   score_band: thin
-  score_composite: 36.0
-  shared: 1
-- slug: opsramp
-  name: OpsRamp
-  description: OpsRamp is an AIOps and IT operations management platform for hybrid infrastructure monitoring and management.
-  api_count: 10
-  score_band: thin
-  score_composite: 31.7
-  shared: 1
-- slug: chronosphere
-  name: Chronosphere
-  description: Chronosphere is a cloud-native observability platform for managing and controlling observability data at scale.
-  api_count: 33
-  score_band: thin
-  score_composite: 31.5
-  shared: 1
-- slug: blameless
-  name: Blameless
-  description: Blameless is an SRE and incident management platform for reliability, incident resolution, and blameless retrospectives.
-  api_count: 1
-  score_band: thin
-  score_composite: 29.3
+  score_composite: 29.1
   shared: 1
 - slug: kosmoslabs
   name: Kosmos AI Labs
   description: Kosmos AI Labs builds an operational intelligence platform that correlates signals across fragmented enterprise systems — Jira, Salesforce Service Cloud, GitHub, ServiceNow, Zendesk, Linear, Bitbucket, Azure DevOps, Pylon and OpenTelemetry — to surface Risk Events with ranked causes and supporting…
   api_count: 1
-  score_band: thin
-  score_composite: 29.0
+  score_band: emerging
+  score_composite: 27.9
+  shared: 1
+- slug: elastic-observability
+  name: Elastic Observability
+  description: Elastic Observability provides unified logs, metrics, traces, and AI-driven anomaly detection built on the Elastic Stack.
+  api_count: 5
+  score_band: emerging
+  score_composite: 27.7
   shared: 1
 - slug: carrot-labs
   name: Carrot Labs
@@ -188,14 +174,28 @@ providers:
   description: Striveworks is an Austin, Texas enterprise AI operations (AIOps) company whose platform, Chariot, lets organizations build, deploy, monitor and continuously retrain machine-learning models — in hours rather than months — across cloud, on-premises, disconnected and edge environments. Chariot covers…
   api_count: 1
   score_band: emerging
-  score_composite: 26.1
+  score_composite: 25.1
   shared: 1
-- slug: keep
-  name: Keep
-  description: Keep is an open-source AIOps and alert management platform that unifies alerts from any monitoring tool, providing deduplication, correlation, enrichment, and workflow automation across observability, incident response, ticketing, and CMDB systems. The Keep REST API enables programmatic access to a…
-  api_count: 27
+- slug: chronosphere
+  name: Chronosphere
+  description: Chronosphere is a cloud-native observability platform for managing and controlling observability data at scale.
+  api_count: 33
   score_band: emerging
   score_composite: 24.1
+  shared: 1
+- slug: opsramp
+  name: OpsRamp
+  description: OpsRamp is an AIOps and IT operations management platform for hybrid infrastructure monitoring and management.
+  api_count: 10
+  score_band: emerging
+  score_composite: 23.4
+  shared: 1
+- slug: blameless
+  name: Blameless
+  description: Blameless is an SRE and incident management platform for reliability, incident resolution, and blameless retrospectives.
+  api_count: 1
+  score_band: emerging
+  score_composite: 21.5
   shared: 1
 - slug: aruba-hpe
   name: HPE Aruba Networking
@@ -211,19 +211,19 @@ providers:
   score_band: emerging
   score_composite: 20.7
   shared: 1
-- slug: groundcover
-  name: Groundcover
-  description: Groundcover is a cloud-native observability platform using eBPF for zero-instrumentation monitoring of Kubernetes workloads.
-  api_count: 1
+- slug: hyground
+  name: Hyground
+  description: Hyground GmbH (Hamburg, Germany) builds a sovereign, self-hosted AI SRE (Site Reliability Engineering) agent for European enterprises. The multi-agent platform deploys as a Kubernetes-native Helm chart inside the customer's own perimeter and correlates Kubernetes, observability (Prometheus, Loki, E…
+  api_count: 0
   score_band: emerging
-  score_composite: 20.5
+  score_composite: 19.5
   shared: 1
 related:
-- slug: logging
-  name: Logging
-  shared: 1
 - slug: observability
   name: Observability
+  shared: 2
+- slug: logging
+  name: Logging
   shared: 1
 - slug: performance
   name: Performance
@@ -234,5 +234,5 @@ overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://api
   30 providers on the network work in this area, including Logz.io, Akuity, Honeycomb, Kentik, Virtana (Virtual Instruments), OpsMill, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Logging, Observability, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Logging, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

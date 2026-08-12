@@ -6,154 +6,154 @@ description: 'An index and topic collection covering API and SaaS monetization p
 area_url: https://monetization.apievangelist.com
 area_host: monetization.apievangelist.com
 icon: https://monetization.apievangelist.com/icon-thumb.png
-provider_count: 62
+provider_count: 61
 providers:
 - slug: apigee
   name: Apigee
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 40
   score_band: exemplar
-  score_composite: 74.0
+  score_composite: 67.9
   shared: 1
 - slug: appcharge
   name: Appcharge
   description: Appcharge is a monetization and payments platform (merchant of record) for mobile game publishers. It lets studios sell in-game offers direct-to-consumer outside the app stores through a hosted web store, a mobile Checkout SDK, and Payment Links — covering checkout sessions, price localization, cou…
   api_count: 17
   score_band: strong
-  score_composite: 65.6
-  shared: 1
-- slug: amberflo
-  name: Amberflo
-  description: Amberflo is a cloud metering, usage-based billing, and AI cost management platform. It provides real-time event ingestion, customer billing automation, AI gateway capabilities, and FinOps visibility for API-driven and AI-powered businesses. The platform supports usage-based, token-based, seat-based…
-  api_count: 10
-  score_band: strong
-  score_composite: 60.2
+  score_composite: 65.1
   shared: 1
 - slug: drippay
   name: Drippay
   description: Drippay, Inc. ("drip") is a Y Combinator company (YC P26) building two connected products. drip is a local-first Mac app that turns LinkedIn, iMessage, and email conversations into a self-filling CRM with AI drafting, follow-up, and meeting booking. The Drip API is a usage-based billing and executi…
   api_count: 23
-  score_band: strong
-  score_composite: 56.2
+  score_band: developing
+  score_composite: 55.7
   shared: 1
 - slug: coda-payments
   name: Coda Payments
   description: Coda Payments (trading as Coda, coda.co) is a Singapore-headquartered global Merchant of Record and monetization platform for digital content publishers, game studios and app developers. Its Codapay API lets partners accept 300+ local and global payment methods — cards, e-wallets, direct carrier bi…
   api_count: 4
   score_band: developing
-  score_composite: 54.7
+  score_composite: 53.3
+  shared: 1
+- slug: amberflo
+  name: Amberflo
+  description: Amberflo is a cloud metering, usage-based billing, and AI cost management platform. It provides real-time event ingestion, customer billing automation, AI gateway capabilities, and FinOps visibility for API-driven and AI-powered businesses. The platform supports usage-based, token-based, seat-based…
+  api_count: 10
+  score_band: developing
+  score_composite: 52.9
   shared: 1
 - slug: streamelements
   name: StreamElements
   description: StreamElements is a cloud-based platform for live streamers and content creators on Twitch, YouTube, Kick and Facebook, offering 100% free customizable overlays and alerts, a chatbot, tipping and donations, loyalty points, giveaways and contests, song requests, a media/merch store, brand sponsorshi…
   api_count: 24
   score_band: developing
-  score_composite: 53.2
+  score_composite: 51.4
   shared: 1
 - slug: solvimon
   name: Solvimon
   description: Solvimon is an IPO-ready billing and monetization platform for usage-based and hybrid pricing that unifies metering, CPQ (quote-to-cash), subscriptions, invoicing, payments and revenue recognition in a single system. It is PSP-agnostic (Stripe, Adyen, Checkout.com) with multi-currency support, and…
   api_count: 64
   score_band: developing
-  score_composite: 52.6
-  shared: 1
-- slug: paid
-  name: Paid
-  description: Paid (paid.ai) is the monetization platform for AI agents. It gives teams that build and sell AI agents the pricing, billing, and margin infrastructure to charge with flexible models — credits, usage-based, seat-based, and outcome-based pricing — while tracking the AI costs and delivered value behi…
-  api_count: 22
-  score_band: developing
-  score_composite: 52.3
-  shared: 1
-- slug: netcracker
-  name: Netcracker
-  description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
-  api_count: 4
-  score_band: developing
-  score_composite: 52.2
+  score_composite: 51.2
   shared: 1
 - slug: viglink
   name: VigLink (Sovrn Commerce)
   description: VigLink pioneered automatic affiliate link monetization for publishers, turning ordinary product links into revenue-generating affiliate links across a network of tens of thousands of merchants. Founded in 2009 and backed by investors including Uncork Capital, VigLink was acquired by Sovrn in early…
   api_count: 8
   score_band: developing
-  score_composite: 51.5
+  score_composite: 50.9
   shared: 1
-- slug: google-adsense
-  name: Google AdSense Management
-  description: The Google AdSense Management API allows publishers to access their inventory and run earnings and performance reports. Publishers can manage ad clients, ad units, custom channels, URL channels, and access payment and policy information programmatically.
-  api_count: 5
+- slug: paid
+  name: Paid
+  description: Paid (paid.ai) is the monetization platform for AI agents. It gives teams that build and sell AI agents the pricing, billing, and margin infrastructure to charge with flexible models — credits, usage-based, seat-based, and outcome-based pricing — while tracking the AI costs and delivered value behi…
+  api_count: 22
   score_band: developing
-  score_composite: 50.2
+  score_composite: 50.8
+  shared: 1
+- slug: netcracker
+  name: Netcracker
+  description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
+  api_count: 4
+  score_band: developing
+  score_composite: 49.6
   shared: 1
 - slug: news-break
   name: News Break
   description: NewsBreak is the leading local news and information platform in the United States, operated by Particle Media, Inc., a Delaware corporation founded in Silicon Valley in 2015 and launched as a mobile app in 2016. Its AI-powered platform serves more than 40 million Americans a month with local news,…
   api_count: 2
   score_band: developing
-  score_composite: 50.2
-  shared: 1
-- slug: kevel
-  name: Kevel
-  description: Kevel is an API-first ad serving platform that lets brands and publishers build unified, fully customized ad systems supporting any ad format, any creative, and multiple demand sources. Kevel exposes a Decision API for ad requests, a Management API for campaign and creative operations, a Reporting…
-  api_count: 14
-  score_band: developing
-  score_composite: 47.4
+  score_composite: 49.6
   shared: 1
 - slug: opera
   name: Opera
   description: Opera is the Norway-based maker of the Opera, Opera GX, and Opera Mini web browsers and operator of the Opera Ads advertising and monetization platform. Opera Ads exposes a public Open API for advertisers (daily campaign reporting and server-to-server conversion events) and for publishers (app and…
   api_count: 3
   score_band: developing
-  score_composite: 46.9
-  shared: 1
-- slug: moesif
-  name: Moesif
-  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
-  api_count: 16
-  score_band: developing
-  score_composite: 46.0
+  score_composite: 46.3
   shared: 1
 - slug: podbean
   name: Podbean
   description: Podbean is a podcast hosting, distribution, and monetization platform for creators, businesses, and networks. Its public REST API (base https://api.podbean.com/v1) uses OAuth 2.0 and lets third-party apps and integrations manage a user's podcast programmatically - read podcast profiles, list and pu…
   api_count: 6
   score_band: developing
-  score_composite: 42.5
+  score_composite: 42.0
   shared: 1
-- slug: vungle
-  name: Vungle
-  description: Vungle is a mobile app monetization and user-acquisition platform, now operated as part of Liftoff (the merged Liftoff + Vungle mobile growth company). Vungle's in-app advertising SDKs help mobile publishers monetize with performance-focused ad formats (video, interactive, and playable ads), while…
-  api_count: 4
-  score_band: developing
-  score_composite: 42.5
+- slug: google-adsense
+  name: Google AdSense Management
+  description: The Google AdSense Management API allows publishers to access their inventory and run earnings and performance reports. Publishers can manage ad clients, ad units, custom channels, URL channels, and access payment and policy information programmatically.
+  api_count: 5
+  score_band: thin
+  score_composite: 41.8
   shared: 1
 - slug: pollfish
   name: Pollfish
   description: Pollfish is a mobile-first survey and market research platform, owned by Prodege LLC. It lets researchers reach real respondents inside mobile apps and websites and lets app publishers monetize their audience by serving Pollfish (and mediated third-party) surveys as rewarded ads or an offerwall. Po…
   api_count: 6
-  score_band: developing
-  score_composite: 42.3
+  score_band: thin
+  score_composite: 41.7
+  shared: 1
+- slug: vungle
+  name: Vungle
+  description: Vungle is a mobile app monetization and user-acquisition platform, now operated as part of Liftoff (the merged Liftoff + Vungle mobile growth company). Vungle's in-app advertising SDKs help mobile publishers monetize with performance-focused ad formats (video, interactive, and playable ads), while…
+  api_count: 4
+  score_band: thin
+  score_composite: 41.4
   shared: 1
 - slug: gameanalytics
   name: GameAnalytics
   description: GameAnalytics is a free analytics platform purpose-built for games, used to track player behavior, retention and cohorts, progression funnels, in-game economy and resource flows, and monetization and ads analytics. Data is collected through the HMAC-signed Collection (Collector) REST API or platfor…
   api_count: 4
   score_band: thin
-  score_composite: 41.3
+  score_composite: 40.7
+  shared: 1
+- slug: moesif
+  name: Moesif
+  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
+  api_count: 16
+  score_band: thin
+  score_composite: 40.4
+  shared: 1
+- slug: kevel
+  name: Kevel
+  description: Kevel is an API-first ad serving platform that lets brands and publishers build unified, fully customized ad systems supporting any ad format, any creative, and multiple demand sources. Kevel exposes a Decision API for ad requests, a Management API for campaign and creative operations, a Reporting…
+  api_count: 14
+  score_band: thin
+  score_composite: 39.7
   shared: 1
 - slug: acast
   name: Acast
   description: Acast is a podcast hosting, distribution, and advertising marketplace that helps creators publish shows, distribute to every major listening platform, and monetize through dynamic ad insertion and sponsorships. Acast exposes a documented public Publishing API for programmatically managing shows and…
   api_count: 4
   score_band: thin
-  score_composite: 39.2
+  score_composite: 38.6
   shared: 1
 - slug: spreaker
   name: Spreaker
   description: Spreaker is a podcast hosting, distribution, and monetization platform owned by iHeartMedia (acquired via parent company Voxnest in 2020). It lets creators record, host, and publish podcasts, auto-distribute to Apple Podcasts, Spotify, and iHeartRadio, and monetize through programmatic ads, listene…
   api_count: 6
   score_band: thin
-  score_composite: 37.9
+  score_composite: 37.4
   shared: 1
 - slug: monetizenow
   name: MonetizeNow
@@ -174,13 +174,6 @@ providers:
   description: Polar is an open-source, developer-first monetization platform that acts as a Merchant of Record (MoR), handling billing, payments, and global sales tax so software teams can sell digital products, subscriptions, usage-based billing, and license keys. The Polar API (https://api.polar.sh/v1) exposes…
   api_count: 11
   score_band: thin
-  score_composite: 35.5
-  shared: 1
-- slug: koah-labs
-  name: Koah Labs
-  description: 'Koah Labs operates Koah, an advertising network purpose-built for AI applications. It ships two products: an Ad SDK that lets publishers monetize chat and agent experiences with native, intent-matched ad formats (action card, image card, poll, expandable, catalog, side rail) across JavaScript, Reac…'
-  api_count: 1
-  score_band: thin
   score_composite: 35.1
   shared: 1
 - slug: rad
@@ -190,12 +183,12 @@ providers:
   score_band: thin
   score_composite: 35.1
   shared: 1
-- slug: inmobi
-  name: InMobi
-  description: InMobi is a global advertising technology and mobile marketing platform headquartered in Bengaluru, India, and backed by SoftBank Vision Fund. It positions itself as the intelligence layer of the consumer internet, connecting brands and consumers across mobile apps and the open web. InMobi's enterp…
-  api_count: 0
+- slug: koah-labs
+  name: Koah Labs
+  description: 'Koah Labs operates Koah, an advertising network purpose-built for AI applications. It ships two products: an Ad SDK that lets publishers monetize chat and agent experiences with native, intent-matched ad formats (action card, image card, poll, expandable, catalog, side rail) across JavaScript, Reac…'
+  api_count: 1
   score_band: thin
-  score_composite: 29.5
+  score_composite: 34.5
   shared: 1
 - slug: frvr
   name: FRVR
@@ -204,6 +197,13 @@ providers:
   score_band: thin
   score_composite: 28.5
   shared: 1
+- slug: inmobi
+  name: InMobi
+  description: InMobi is a global advertising technology and mobile marketing platform headquartered in Bengaluru, India, and backed by SoftBank Vision Fund. It positions itself as the intelligence layer of the consumer internet, connecting brands and consumers across mobile apps and the open web. InMobi's enterp…
+  api_count: 0
+  score_band: thin
+  score_composite: 28.4
+  shared: 1
 - slug: priceops
   name: PriceOps
   description: PriceOps is a pricing and packaging infrastructure platform for SaaS companies that enables simulation of pricing strategies, design of packaging tiers, and launch of pricing pages within minutes. The platform provides REST APIs for managing customer information, usage records, pricing plans, entit…
@@ -211,12 +211,12 @@ providers:
   score_band: emerging
   score_composite: 27.7
   shared: 1
-- slug: app-samurai
-  name: App Samurai
-  description: App Samurai is an AI-powered mobile app growth and user-acquisition platform that helps app and game publishers acquire, re-engage, and monetize users at scale. Its products span rewarded user-acquisition campaigns, a programmatic demand-side platform (DSP) for UA and retargeting across premium mob…
-  api_count: 1
+- slug: gleefulai
+  name: Gleeful AI
+  description: 'Gleeful AI publishes Visibility, an AI-visibility and answer-engine-optimization audit API: it scores how visible and understandable a website is to AI assistants and agents, audits AI crawler access (GPTBot, ClaudeBot and others), generates a production-ready llms.txt and schema.org markup, checks…'
+  api_count: 17
   score_band: emerging
-  score_composite: 25.4
+  score_composite: 26.0
   shared: 1
 related:
 - slug: finops
@@ -237,7 +237,7 @@ related:
 overview: 'Monetization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monetization.apievangelist.com](https://monetization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Apigee, Appcharge, Amberflo, Drippay, Coda Payments, StreamElements, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Apigee, Appcharge, Drippay, Coda Payments, Amberflo, StreamElements, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: FinOps, Plans, Integrations, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -12,8 +12,8 @@ providers:
   name: Godot Engine
   description: 'Godot Engine is a free and open-source community-driven 2D and 3D game engine released under the MIT License and stewarded by the Godot Foundation. Godot ships an integrated editor plus a deep scripting and extension surface across three primary languages: GDScript (Godot''s own typed scripting lang…'
   api_count: 5
-  score_band: emerging
-  score_composite: 26.0
+  score_band: thin
+  score_composite: 28.0
   shared: 1
 - slug: wpgraphql
   name: WPGraphQL

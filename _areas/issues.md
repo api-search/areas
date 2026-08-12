@@ -13,7 +13,7 @@ providers:
   description: Forgejo is a self-hosted lightweight software forge and open-source Git service (a Gitea fork) managed by the non-profit Codeberg e.V. It provides a comprehensive REST API for managing repositories, users, organizations, issues, pull requests, CI/CD workflows via Actions, and package registries. Fo…
   api_count: 10
   score_band: thin
-  score_composite: 40.4
+  score_composite: 40.0
   shared: 1
 - slug: plane
   name: Plane
