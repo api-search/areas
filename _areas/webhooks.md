@@ -6,7 +6,7 @@ description: An index and topic collection covering webhook delivery, ingestion,
 area_url: https://webhooks.apievangelist.com
 area_host: webhooks.apievangelist.com
 icon: https://webhooks.apievangelist.com/icon-thumb.png
-provider_count: 468
+provider_count: 495
 providers:
 - slug: xquik-api
   name: Xquik
@@ -78,6 +78,20 @@ providers:
   score_band: exemplar
   score_composite: 67.8
   shared: 1
+- slug: playable
+  name: Playable
+  description: Playable (formerly Leadfamly, Playable ApS, Aarhus Denmark and London UK) is a self-service marketing gamification platform used by brands to build, publish and measure interactive campaigns — spin-the-wheel, advent calendars, quizzes, scratch cards, memory and skill games — across web, email, in-a…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 67.5
+  shared: 1
+- slug: feedly
+  name: Feedly
+  description: Feedly is a content aggregation and threat intelligence platform that reads millions of open sources and turns them into structured, machine-readable intelligence. Its consumer product is a feed reader built on RSS/Atom; its commercial product, Feedly Threat Intelligence, applies a family of AI mod…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 67.2
+  shared: 1
 - slug: 8x8
   name: 8x8
   description: 8x8, Inc. is a San Jose, California headquartered cloud communications provider that sells an integrated UCaaS, CCaaS and CPaaS platform (marketed as XCaaS) to business buyers in its home market of the United States and internationally. In the telecom value chain 8x8 sits in the aggregator half of…
@@ -148,6 +162,27 @@ providers:
   score_band: strong
   score_composite: 63.7
   shared: 1
+- slug: ploy
+  name: Ploy
+  description: Ploy is an AI-powered web marketing automation platform that turns a company's marketing website into a growth channel. Founded in 2025 by former Webflow CTO Bryant Chou, backed by Y Combinator and First Round Capital ($27M), Ploy runs AI agents that build and optimize Astro/Tailwind marketing site…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.4
+  shared: 1
+- slug: thrivecart
+  name: ThriveCart
+  description: ThriveCart is a hosted shopping cart, checkout and course platform for creators, coaches and digital-product sellers, operated by ThriveCart LLC. It sells one-time and recurring digital and physical products through customisable checkout pages with order bumps, one-click upsells and downsells, A/B…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.1
+  shared: 1
+- slug: creatoriq
+  name: CreatorIQ
+  description: CreatorIQ is an enterprise creator- and influencer-marketing platform used by brands and agencies to discover creators, build and manage a private creator network, run and measure campaigns, handle creator payouts, and report on performance across Instagram, TikTok, YouTube and other social network…
+  api_count: 17
+  score_band: strong
+  score_composite: 62.5
+  shared: 1
 - slug: filevine
   name: Filevine
   description: Filevine is the leading legal case management and operating intelligence platform for plaintiff, personal-injury, mass-tort, family, immigration, criminal-defense, estate-planning, and government legal teams. The platform combines a customizable matter / project system with intake (Lead Docket), do…
@@ -183,41 +218,6 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
-- slug: zero-hash
-  name: Zero Hash
-  description: Zero Hash is a regulated digital-asset infrastructure provider that lets banks, brokerages, fintechs, payroll platforms and payment service providers embed crypto, stablecoin and tokenized-asset capability without holding licenses or running blockchain infrastructure themselves. The platform covers…
-  api_count: 31
-  score_band: strong
-  score_composite: 61.4
-  shared: 1
-- slug: wufoo
-  name: Wufoo
-  description: Wufoo is an online form-builder owned by SurveyMonkey Inc. It lets non-developers build registration forms, surveys, contact forms, application forms, and payment forms through a drag-and-drop interface, then collect and report on submissions. Wufoo exposes a v3 REST API (Basic Auth, JSON/XML) over…
-  api_count: 10
-  score_band: strong
-  score_composite: 61.1
-  shared: 1
-- slug: kudosity
-  name: Kudosity
-  description: Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, l…
-  api_count: 2
-  score_band: strong
-  score_composite: 61.0
-  shared: 1
-- slug: companycam
-  name: CompanyCam
-  description: CompanyCam is a photo-based job-site documentation platform for contractors and the trades — roofing, restoration, solar, home services and construction. Its mobile apps capture location- and time-stamped photos and videos that sync to a shared, project-organized workspace so crews, offices and cli…
-  api_count: 10
-  score_band: strong
-  score_composite: 60.8
-  shared: 1
-- slug: deel-com
-  name: Deel
-  description: Deel is a global workforce platform combining payroll, Employer of Record (EOR), independent contractor management, HRIS, ATS, IT/device management, immigration, and background screenings across 150+ countries. The Deel Public API and SCIM API expose the full worker lifecycle — hire, onboard, pay,…
-  api_count: 39
-  score_band: strong
-  score_composite: 60.7
-  shared: 1
 related:
 - slug: observability
   name: Observability
@@ -231,12 +231,12 @@ related:
 - slug: authentication
   name: Authentication
   shared: 2
+- slug: cli
+  name: Command Line Interface
+  shared: 2
 - slug: security
   name: Security
   shared: 2
-- slug: reliability
-  name: Reliability
-  shared: 1
 overview: 'Webhooks is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [webhooks.apievangelist.com](https://webhooks.apievangelist.com).
 
 

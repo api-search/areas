@@ -6,7 +6,7 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 104
+provider_count: 105
 providers:
 - slug: twilio
   name: Twilio
@@ -70,6 +70,13 @@ providers:
   api_count: 47
   score_band: strong
   score_composite: 59.4
+  shared: 1
+- slug: kixie
+  name: Kixie
+  description: Kixie is a Los Angeles based sales-engagement and revenue-communications platform built around PowerCall, a multi-line power dialer, business phone service and SMS/MMS product that plugs bi-directionally into HubSpot, Salesforce, Pipedrive, Zoho and GoHighLevel. Its public developer surface is a sm…
+  api_count: 3
+  score_band: strong
+  score_composite: 59.0
   shared: 1
 - slug: gotowebinar
   name: GoToWebinar
@@ -211,13 +218,6 @@ providers:
   score_band: developing
   score_composite: 45.9
   shared: 1
-- slug: sendhub
-  name: SendHub
-  description: SendHub is a business text messaging platform for SMS/MMS marketing campaigns, two-way texting, appointment reminders, bulk messaging, SMS surveys, group messaging, and VoIP calling, used by more than 10,000 businesses. It exposes a REST-like v1 API at api.sendhub.com for programmatically managing…
-  api_count: 6
-  score_band: developing
-  score_composite: 45.9
-  shared: 1
 related:
 - slug: authentication
   name: Authentication
@@ -225,14 +225,11 @@ related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 1
-- slug: webhooks
-  name: Webhooks
-  shared: 1
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
   30 providers on the network work in this area, including Twilio, parcelLab, Zoom Phone, Cisco Webex, Kudosity, Amazon Pinpoint, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication, Embedded iPaaS, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Authentication and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

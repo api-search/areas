@@ -36,14 +36,11 @@ related:
 - slug: cli
   name: Command Line Interface
   shared: 1
-- slug: monetization
-  name: Monetization
-  shared: 1
 overview: 'Plans is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [plans.apievangelist.com](https://plans.apievangelist.com).
 
 
   Providers on the network working in this area include Plandex, Fieldwire, and PriceOps — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Agents, Command Line Interface, and Monetization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agents and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

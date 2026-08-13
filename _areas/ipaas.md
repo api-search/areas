@@ -6,7 +6,7 @@ description: This is the index of iPaaS (integration platform as a service) repo
 area_url: https://ipaas.apievangelist.com
 area_host: ipaas.apievangelist.com
 icon: https://ipaas.apievangelist.com/icon-thumb.png
-provider_count: 44
+provider_count: 45
 providers:
 - slug: zapier
   name: Zapier
@@ -35,6 +35,13 @@ providers:
   api_count: 12
   score_band: strong
   score_composite: 57.6
+  shared: 1
+- slug: skyvia
+  name: Skyvia
+  description: 'Skyvia is a no-code cloud data platform from Devart covering five products on one account: Data Integration (import, export, replication, synchronization, data flow and control flow across 200+ cloud apps and databases), Automation (trigger-driven business process automation with schedule, polling-…'
+  api_count: 4
+  score_band: developing
+  score_composite: 55.9
   shared: 1
 - slug: sap-integration-suite
   name: SAP Integration Suite
@@ -211,17 +218,10 @@ providers:
   score_band: thin
   score_composite: 32.7
   shared: 1
-- slug: ifttt
-  name: IFTTT
-  description: IFTTT (If This Then That) is a consumer and prosumer automation platform that connects more than 750 apps, devices, and services through conditional Applets that chain triggers to actions. The IFTTT Maker Webhooks service exposes a public HTTP API that lets developers fire triggers and execute Appl…
-  api_count: 2
-  score_band: emerging
-  score_composite: 26.5
-  shared: 1
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 15
+  shared: 16
 - slug: integrations
   name: Integrations
   shared: 5
@@ -240,7 +240,7 @@ related:
 overview: 'iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ipaas.apievangelist.com](https://ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Zapier, Paragon, Workato, Tray.ai, SAP Integration Suite, SnapLogic, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Zapier, Paragon, Workato, Tray.ai, Skyvia, SAP Integration Suite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS, Integrations, Workflow Automation, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

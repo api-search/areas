@@ -22,6 +22,13 @@ providers:
   score_band: exemplar
   score_composite: 68.0
   shared: 1
+- slug: thebrief
+  name: TheBrief
+  description: The Brief (formerly Creatopy) is an AI-powered advertising creation platform that helps brands and agencies discover, create, launch, and optimize ads at scale. Its Ad Studio, AI agents (Discover, Create, Optimize), and native ad server generate on-brand creatives, resize a single design into 50+ a…
+  api_count: 2
+  score_band: strong
+  score_composite: 61.3
+  shared: 1
 - slug: adobe-creative-suite
   name: Adobe Creative Suite
   description: Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography.
@@ -211,13 +218,6 @@ providers:
   score_band: emerging
   score_composite: 26.2
   shared: 1
-- slug: avocode
-  name: Avocode
-  description: Avocode was a design handoff platform with a REST API for managing projects, design files, shared screens, annotations, and design spec exports for developer-designer collaboration. Acquired by Ceros in October 2021 and sunset on October 1, 2023, Avocode supported design files from Sketch, Figma, A…
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.8
-  shared: 1
 related:
 - slug: visualization
   name: Visualization
@@ -228,11 +228,14 @@ related:
 - slug: sdk
   name: SDKs
   shared: 1
+- slug: saas-management
+  name: SaaS Management
+  shared: 1
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Figma, Autodesk, Adobe Creative Suite, Canva, Onshape, Adobe Creative Cloud, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Figma, Autodesk, TheBrief, Adobe Creative Suite, Canva, Onshape, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Visualization, AI Automation, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Visualization, AI Automation, SDKs, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

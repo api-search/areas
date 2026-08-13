@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://sdk.apievangelist.com
 area_host: sdk.apievangelist.com
 icon: https://sdk.apievangelist.com/icon-thumb.png
-provider_count: 348
+provider_count: 349
 providers:
 - slug: swagger-codegen
   name: Swagger Codegen
@@ -183,6 +183,20 @@ providers:
   score_band: developing
   score_composite: 49.4
   shared: 1
+- slug: truex-media
+  name: Truex Media
+  description: TrueX (stylized true[X]) is an interactive, opt-in video advertising company now operating as part of Infillion. Its technology delivers "attention-based" ad experiences — Choice Cards and interactive engagement units that let viewers opt in to a single, longer branded interaction in exchange for a…
+  api_count: 3
+  score_band: developing
+  score_composite: 49.0
+  shared: 1
+- slug: domob
+  name: domob
+  description: Domob (多盟) is a Beijing-based mobile intelligent marketing and advertising technology company founded in September 2010, positioned as one of China's early smartphone advertising DSP and mobile ad-network platforms. It provides data-technology and content services spanning programmatic buying (DSP)…
+  api_count: 2
+  score_band: developing
+  score_composite: 49.0
+  shared: 1
 - slug: fidel
   name: Fidel
   description: Fidel (Enigmatic Smile Ltd, trading as Fidel API) is a card-linking and payments-data platform that lets developers connect Visa, Mastercard and Amex cards to web and mobile applications through a single API. PCI-compliant card-capture SDKs (Web, iOS, Android, React Native) securely tokenize card d…
@@ -204,20 +218,6 @@ providers:
   score_band: developing
   score_composite: 48.0
   shared: 1
-- slug: hansoft
-  name: Hansoft
-  description: Hansoft, now branded P4 Plan by Perforce, is a real-time agile project planning and portfolio management tool for software, game, and hardware teams. It lets multiple teams work in their preferred methodology simultaneously (Scrum, Kanban, and Gantt) within a single backlog, with field-level permis…
-  api_count: 3
-  score_band: developing
-  score_composite: 47.7
-  shared: 1
-- slug: hey-api
-  name: Hey API
-  description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR hooks, MSW and Playwright test doubles, and Fastify/NestJS/Hon…
-  api_count: 7
-  score_band: developing
-  score_composite: 47.7
-  shared: 1
 related:
 - slug: documentation
   name: Documentation
@@ -234,8 +234,8 @@ related:
 - slug: logging
   name: Logging
   shared: 1
-- slug: privacy
-  name: Privacy
+- slug: monetization
+  name: Monetization
   shared: 1
 overview: 'SDKs is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [sdk.apievangelist.com](https://sdk.apievangelist.com).
 

@@ -6,7 +6,7 @@ description: AI automation combines artificial intelligence with workflow and pr
 area_url: https://ai-automation.apievangelist.com
 area_host: ai-automation.apievangelist.com
 icon: https://ai-automation.apievangelist.com/icon-thumb.png
-provider_count: 488
+provider_count: 493
 providers:
 - slug: xquik-api
   name: Xquik
@@ -105,6 +105,13 @@ providers:
   api_count: 3
   score_band: strong
   score_composite: 62.7
+  shared: 1
+- slug: bluma
+  name: Bluma
+  description: Bluma is a San Francisco-based AI company (Y Combinator Fall 2025) building a short-form AI content engine that lets creators, agencies, and brands produce social media video ads at scale. The platform "de-edits" existing reference videos into their individual scenes, captions, and overlays, then u…
+  api_count: 2
+  score_band: strong
+  score_composite: 60.1
   shared: 1
 - slug: cobalt
   name: Cobalt
@@ -211,29 +218,22 @@ providers:
   score_band: strong
   score_composite: 56.4
   shared: 1
-- slug: appmixer
-  name: Appmixer
-  description: Let your users build powerful agentic workflowsno code, fully white-labeled, and embedded right in your web app.
-  api_count: 12
-  score_band: strong
-  score_composite: 56.3
-  shared: 1
 related:
-- slug: embedded-ipaas
-  name: Embedded iPaaS
-  shared: 4
 - slug: orchestration
   name: Orchestration
   shared: 4
 - slug: workflow-automation
   name: Workflow Automation
   shared: 4
-- slug: integrations
-  name: Integrations
+- slug: embedded-ipaas
+  name: Embedded iPaaS
   shared: 3
 - slug: testing
   name: Testing
   shared: 3
+- slug: integrations
+  name: Integrations
+  shared: 2
 - slug: ipaas
   name: iPaaS
   shared: 2
@@ -243,5 +243,5 @@ overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](htt
   30 providers on the network work in this area, including Xquik, Dynatrace, UiPath, ServiceNow, Postman, AWS CloudFormation, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Embedded iPaaS, Orchestration, Workflow Automation, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Orchestration, Workflow Automation, Embedded iPaaS, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

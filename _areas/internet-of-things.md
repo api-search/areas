@@ -6,7 +6,7 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 87
+provider_count: 91
 providers:
 - slug: shodan
   name: Shodan
@@ -113,6 +113,13 @@ providers:
   score_band: developing
   score_composite: 49.0
   shared: 1
+- slug: ev-energy
+  name: ev.energy
+  description: ev.energy is a London- and Palo-Alto-based smart electric-vehicle charging platform. Its cloud software connects EV drivers, vehicles, EVSEs (chargers), home batteries, solar inverters and utility programs so charging can be shifted to cheaper, greener periods and aggregated as grid flexibility. Th…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.8
+  shared: 1
 - slug: liesheng
   name: Liesheng Group
   description: Liesheng Group (猎声集团 / Liesheng Technology) is a Dongguan, Guangdong based consumer-electronics company founded on 25 May 2015 as one of Xiaomi's first ecosystem-chain suppliers. It operates as a global ODM/OEM solution provider — it engineered the Redmi AirDots true-wireless earbuds — while buildi…
@@ -133,6 +140,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 44.6
+  shared: 1
+- slug: cosmoplat
+  name: Cosmoplat
+  description: COSMOPlat (卡奥斯 COSMOPlat) is the industrial internet platform incubated by Haier Group and operated by COSMOPlat Digital Technology (Qingdao) Co., Ltd. Launched in 2017, it was China's first self-developed industrial internet platform built around mass customization, digitally integrating user inte…
+  api_count: 2
+  score_band: developing
+  score_composite: 44.0
   shared: 1
 - slug: quanergy
   name: Quanergy
@@ -176,6 +190,13 @@ providers:
   score_band: thin
   score_composite: 35.8
   shared: 1
+- slug: deep-sentinel
+  name: Deep Sentinel
+  description: Deep Sentinel is a US security company that pairs on-camera AI with live human guards. Its computer-vision models flag activity at the edge and hand the clip to a remote "LiveSentinel" operator who reviews it in seconds and intervenes over the camera's two-way speaker to deter a crime before it hap…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.4
+  shared: 1
 - slug: ubidots
   name: Ubidots
   description: Ubidots is an Industrial AIoT platform designed for OEMs, system integrators, and engineering firms that need to ingest, visualize, and act on device telemetry at scale. The platform exposes a REST API (v1.6 and v2) and an MQTT API for sending and retrieving time-series data from IoT sensors and de…
@@ -196,27 +217,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 31.0
-  shared: 1
-- slug: internet-engineering-task-force
-  name: Internet Engineering Task Force
-  description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of the internet. The IETF publishes freely accessible RFCs (Reque…
-  api_count: 6
-  score_band: thin
-  score_composite: 29.0
-  shared: 1
-- slug: r-zero
-  name: R-Zero
-  description: R-Zero Systems is a San Francisco based building-intelligence company founded in 2020 that combines privacy-first occupancy sensors, indoor-air-quality monitoring and AI to autonomously optimize HVAC ventilation in commercial real estate, healthcare and higher-education buildings, claiming 20-40% H…
-  api_count: 2
-  score_band: thin
-  score_composite: 28.5
-  shared: 1
-- slug: wiliot
-  name: Wiliot
-  description: 'Wiliot operates an ambient IoT platform built on battery-free "IoT Pixels" - postage-stamp-sized Bluetooth sensor tags - and a cloud that turns everyday physical items into a continuous, real-time data source for supply-chain visibility ("Physical AI"). Wiliot''s Cloud APIs expose three surfaces: a…'
-  api_count: 3
-  score_band: emerging
-  score_composite: 26.8
   shared: 1
 related:
 - slug: network

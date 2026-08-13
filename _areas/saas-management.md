@@ -6,7 +6,7 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 976
+provider_count: 992
 providers:
 - slug: svix
   name: Svix
@@ -64,6 +64,13 @@ providers:
   score_band: strong
   score_composite: 65.5
   shared: 1
+- slug: demio
+  name: Demio
+  description: 'Demio is a browser-based webinar and virtual-event platform built for B2B marketing and sales teams, operated by Banzai International, Inc. (NASDAQ: BNZI). It runs live, automated/evergreen, on-demand and series webinars with no attendee download, and pairs them with customizable registration pages…'
+  api_count: 3
+  score_band: strong
+  score_composite: 63.9
+  shared: 1
 - slug: asknicely
   name: AskNicely
   description: AskNicely is a customer-experience (CX) platform for service businesses, built around Net Promoter Score, CSAT and 5-Star surveys delivered by email, SMS, web badge and in-app. It collects frontline feedback, routes it to managers and staff through leaderboards, coaching and case management, and sy…
@@ -120,6 +127,13 @@ providers:
   score_band: strong
   score_composite: 61.4
   shared: 1
+- slug: thebrief
+  name: TheBrief
+  description: The Brief (formerly Creatopy) is an AI-powered advertising creation platform that helps brands and agencies discover, create, launch, and optimize ads at scale. Its Ad Studio, AI agents (Discover, Create, Optimize), and native ad server generate on-brand creatives, resize a single design into 50+ a…
+  api_count: 2
+  score_band: strong
+  score_composite: 61.3
+  shared: 1
 - slug: leankit
   name: LeanKit
   description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hierarchies. LeanKit exposes a documented RESTful v2 API at http…
@@ -147,6 +161,13 @@ providers:
   api_count: 11
   score_band: strong
   score_composite: 60.7
+  shared: 1
+- slug: kartra
+  name: Kartra
+  description: Kartra is an all-in-one online business platform operated by Kartra, Inc. of Las Vegas, Nevada, that bundles landing pages and funnels, email marketing with automation sequences, checkouts and recurring billing, membership sites and courses, video hosting, calendars and booking, helpdesks, affiliat…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.2
   shared: 1
 - slug: rocketlane
   name: Rocketlane
@@ -196,27 +217,6 @@ providers:
   api_count: 11
   score_band: strong
   score_composite: 58.1
-  shared: 1
-- slug: cobot
-  name: Cobot
-  description: 'Cobot is coworking and flexible-workspace management software, built and operated by Upstream - Agile GmbH in Berlin, Germany. It runs the day-to-day of a coworking space or space network from one platform: memberships and plans, resource and meeting-room bookings, drop-in passes, events and ticket…'
-  api_count: 44
-  score_band: strong
-  score_composite: 57.8
-  shared: 1
-- slug: jobber
-  name: Jobber
-  description: Jobber is field service management software for home and commercial service businesses, serving 100,000+ businesses across more than 50 trade verticals (cleaning, HVAC, plumbing, electrical, landscaping, roofing, painting, handyman, and more). The platform covers the full service-delivery lifecycle…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.8
-  shared: 1
-- slug: microsoft-power-apps
-  name: Microsoft Power Apps
-  description: Collection of APIs for Microsoft Power Apps platform enabling low-code application development, automation, and data connectivity.
-  api_count: 12
-  score_band: strong
-  score_composite: 57.8
   shared: 1
 related:
 - slug: webhooks

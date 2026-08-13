@@ -230,7 +230,7 @@ related:
   shared: 2
 - slug: ai-automation
   name: AI Automation
-  shared: 3
+  shared: 2
 - slug: microservices
   name: Microservices
   shared: 2

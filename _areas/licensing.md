@@ -6,7 +6,7 @@ description: 'An index and topic collection covering software licensing APIs acr
 area_url: https://licensing.apievangelist.com
 area_host: licensing.apievangelist.com
 icon: https://licensing.apievangelist.com/icon-thumb.png
-provider_count: 33
+provider_count: 34
 providers:
 - slug: replicated
   name: Replicated
@@ -28,6 +28,13 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 56.1
+  shared: 1
+- slug: sendowl
+  name: SendOwl
+  description: SendOwl is a UK-based digital commerce platform that lets creators and small businesses sell digital products, subscriptions, memberships, license keys, drip-delivered courses and physical goods, with hosted checkout, automated file delivery, PDF stamping, affiliate programs, discount codes and EU…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.0
   shared: 1
 - slug: certifyos
   name: Certifyos
@@ -211,13 +218,6 @@ providers:
   score_band: minimal
   score_composite: 5.4
   shared: 1
-- slug: eql-games
-  name: EQL Games
-  description: EQL Games is a Louisville, Kentucky based lottery-industry technology company that operates as an original game studio, third-party content aggregator, and boutique licensor for the global iLottery market. Its iLottery Marketplace aggregates a catalog of 300+ games from 24 partner studios behind a…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.0
-  shared: 1
 related:
 - slug: regulation
   name: Regulation
@@ -225,7 +225,7 @@ related:
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Replicated, OpenGov, ACMA, Certifyos, 7digital, Warner Music Group, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Replicated, OpenGov, ACMA, SendOwl, Certifyos, 7digital, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Regulation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

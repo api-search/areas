@@ -6,8 +6,22 @@ description: FinOps is a cloud financial management discipline combining technol
 area_url: https://finops.apievangelist.com
 area_host: finops.apievangelist.com
 icon: https://finops.apievangelist.com/icon-thumb.png
-provider_count: 76
+provider_count: 77
 providers:
+- slug: doit
+  name: DoiT
+  description: DoiT International is a cloud and FinOps technology company behind DoiT Cloud Intelligence, an intent-aware FinOps platform that unifies cost, usage and savings data across AWS, Google Cloud, Azure, Kubernetes and 40+ other clouds and SaaS providers. The DoiT Platform API at api.doit.com gives prog…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 72.6
+  shared: 1
+- slug: corestack
+  name: CoreStack
+  description: CoreStack is a multi-cloud governance and security platform that unifies FinOps (cost visibility, budgets, anomaly detection, rightsizing and commitment optimization), CloudOps (workload lifecycle, tagging, automation and self-service), SecOps/compliance (policy guardrails, posture management and c…
+  api_count: 2
+  score_band: strong
+  score_composite: 61.9
+  shared: 1
 - slug: vantage
   name: Vantage
   description: Vantage is a cloud cost management platform designed for modern engineering teams to monitor, optimize, and control their cloud infrastructure spending across multiple providers. The platform helps companies identify immediate cost savings through features like automated purchasing of savings plans…
@@ -77,13 +91,6 @@ providers:
   api_count: 10
   score_band: developing
   score_composite: 51.9
-  shared: 1
-- slug: corestack
-  name: CoreStack
-  description: CoreStack is a multi-cloud governance and security platform that unifies FinOps (cost visibility, budgets, anomaly detection, rightsizing and commitment optimization), CloudOps (workload lifecycle, tagging, automation and self-service), SecOps/compliance (policy guardrails, posture management and c…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.8
   shared: 1
 - slug: cycloid
   name: Cycloid
@@ -211,13 +218,6 @@ providers:
   score_band: thin
   score_composite: 40.4
   shared: 1
-- slug: vantage-sh
-  name: Vantage
-  description: Vantage is a cloud cost management and FinOps platform that gives engineering and finance teams visibility into and control over cloud spend across AWS, Azure, GCP, Kubernetes, Datadog, Snowflake, MongoDB, and other providers. Its public REST API (base https://api.vantage.sh/v2) exposes Costs and C…
-  api_count: 44
-  score_band: thin
-  score_composite: 40.1
-  shared: 1
 related:
 - slug: monetization
   name: Monetization
@@ -240,7 +240,7 @@ related:
 overview: 'FinOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [finops.apievangelist.com](https://finops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Vantage, CAST AI, LangWatch, Choreo, CloudZero, Amazon Compute Optimizer, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including DoiT, CoreStack, Vantage, CAST AI, LangWatch, Choreo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monetization, Unified APIs, IDE, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'

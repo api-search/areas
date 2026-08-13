@@ -6,7 +6,7 @@ description: This is the index of embedded iPaaS service and tooling repos being
 area_url: https://embedded-ipaas.apievangelist.com
 area_host: embedded-ipaas.apievangelist.com
 icon: https://embedded-ipaas.apievangelist.com/icon-thumb.png
-provider_count: 96
+provider_count: 97
 providers:
 - slug: workato
   name: Workato
@@ -91,6 +91,13 @@ providers:
   api_count: 12
   score_band: strong
   score_composite: 56.3
+  shared: 1
+- slug: skyvia
+  name: Skyvia
+  description: 'Skyvia is a no-code cloud data platform from Devart covering five products on one account: Data Integration (import, export, replication, synchronization, data flow and control flow across 200+ cloud apps and databases), Automation (trigger-driven business process automation with schedule, polling-…'
+  api_count: 4
+  score_band: developing
+  score_composite: 55.9
   shared: 1
 - slug: sap-integration-suite
   name: SAP Integration Suite
@@ -211,23 +218,16 @@ providers:
   score_band: developing
   score_composite: 47.6
   shared: 1
-- slug: renesas
-  name: Renesas
-  description: 'Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products for automotive, industrial, infrastructure, and consumer el…'
-  api_count: 6
-  score_band: developing
-  score_composite: 47.4
-  shared: 1
 related:
 - slug: ipaas
   name: iPaaS
-  shared: 15
+  shared: 16
 - slug: integrations
   name: Integrations
   shared: 11
 - slug: ai-automation
   name: AI Automation
-  shared: 4
+  shared: 3
 - slug: workflow-automation
   name: Workflow Automation
   shared: 3

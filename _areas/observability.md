@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://observability.apievangelist.com
 area_host: observability.apievangelist.com
 icon: https://observability.apievangelist.com/icon-thumb.png
-provider_count: 309
+provider_count: 310
 providers:
 - slug: dynatrace
   name: Dynatrace
@@ -75,6 +75,13 @@ providers:
   name: CrewAI Cloud
   description: CrewAI Cloud (CrewAI AMP) is the managed Agent Management Platform for deploying, monitoring, scaling, and governing CrewAI multi-agent workflows in production. AMP exposes a per-crew REST API for kickoff, status, inputs, and human-in-the-loop resume operations, plus webhook streaming for task, ste…
   api_count: 6
+  score_band: exemplar
+  score_composite: 66.5
+  shared: 1
+- slug: embrace
+  name: Embrace
+  description: Embrace is a user-focused observability platform for mobile and web applications, built on OpenTelemetry. Its SDKs for iOS, Android, React Native, Flutter, Unity and the browser capture full-fidelity session, crash, exception, log, trace and network telemetry from real users, and the platform turns…
+  api_count: 3
   score_band: exemplar
   score_composite: 66.5
   shared: 1
@@ -211,20 +218,13 @@ providers:
   score_band: strong
   score_composite: 59.5
   shared: 1
-- slug: lightrun
-  name: Lightrun
-  description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
-  api_count: 20
-  score_band: strong
-  score_composite: 59.2
-  shared: 1
 related:
 - slug: monitoring
   name: Monitoring
   shared: 12
 - slug: logging
   name: Logging
-  shared: 5
+  shared: 4
 - slug: security
   name: Security
   shared: 4

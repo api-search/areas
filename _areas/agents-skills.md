@@ -6,7 +6,7 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 45
+provider_count: 47
 providers:
 - slug: apis-io
   name: APIs.io
@@ -14,6 +14,13 @@ providers:
   api_count: 11
   score_band: exemplar
   score_composite: 71.1
+  shared: 1
+- slug: ploy
+  name: Ploy
+  description: Ploy is an AI-powered web marketing automation platform that turns a company's marketing website into a growth channel. Founded in 2025 by former Webflow CTO Bryant Chou, backed by Y Combinator and First Round Capital ($27M), Ploy runs AI agents that build and optimize Astro/Tailwind marketing site…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.4
   shared: 1
 - slug: lightrun
   name: Lightrun
@@ -84,6 +91,13 @@ providers:
   api_count: 9
   score_band: developing
   score_composite: 48.2
+  shared: 1
+- slug: superscale
+  name: Superscale
+  description: Superscale is an autonomous AI marketing agent for performance advertising. A user gives it a product URL (App Store, Shopify, website, or Lovable project) and a brief; the agent then researches competitor ads in the niche, writes copy and scripts, produces AI UGC videos and static image ads, adds…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.8
   shared: 1
 - slug: gloat
   name: Gloat
@@ -204,20 +218,6 @@ providers:
   score_band: emerging
   score_composite: 24.5
   shared: 1
-- slug: legal-and-general
-  name: Legal & General
-  description: Legal & General Group plc is a FTSE 100 United Kingdom life insurer, retirement and institutional asset manager headquartered in London and regulated by the FCA and PRA. Its lines of business are life and protection insurance (term life, critical illness, income protection), workplace and individua…
-  api_count: 0
-  score_band: emerging
-  score_composite: 24.2
-  shared: 1
-- slug: perseus
-  name: Perseus
-  description: 'Perseus (legal name Efficient Systems Inc.) is an applied AI lab focused on semantic search in latent spaces, founded by Samrath Chadha and backed by Y Combinator (Fall 2025 batch). Its first product is a retrieval engine that grounds coding agents in real code: developers and agents describe the c…'
-  api_count: 0
-  score_band: emerging
-  score_composite: 22.2
-  shared: 1
 related:
 - slug: ide
   name: IDE
@@ -234,13 +234,13 @@ related:
 - slug: monitoring
   name: Monitoring
   shared: 1
-- slug: observability
-  name: Observability
+- slug: privacy
+  name: Privacy
   shared: 1
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
-  30 providers on the network work in this area, including APIs.io, Lightrun, Smithery, 360Learning, Nord Security, Visier, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including APIs.io, Ploy, Lightrun, Smithery, 360Learning, Nord Security, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: IDE, API Evangelist Discovery, Command Line Interface, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'

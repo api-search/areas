@@ -6,7 +6,7 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 154
+provider_count: 155
 providers:
 - slug: eaton
   name: Eaton
@@ -222,14 +222,11 @@ related:
 - slug: internet-of-things
   name: Internet of Things
   shared: 2
-- slug: embedded-ipaas
-  name: Embedded iPaaS
-  shared: 1
 overview: 'Industrial is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [industrial.apievangelist.com](https://industrial.apievangelist.com).
 
 
   30 providers on the network work in this area, including Eaton, Weavix, Remberg, Renesas, 3M, Siemens MindSphere, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Internet of Things and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

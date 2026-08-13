@@ -6,7 +6,7 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 171
+provider_count: 173
 providers:
 - slug: exa-ai
   name: Exa
@@ -77,6 +77,13 @@ providers:
   api_count: 5
   score_band: strong
   score_composite: 58.8
+  shared: 1
+- slug: ahrefs
+  name: Ahrefs
+  description: Ahrefs is a Singapore-based SEO and marketing intelligence platform built on its own web crawler and index, offering Site Explorer, Keywords Explorer, Site Audit, Rank Tracker, SERP Overview, Brand Radar, Web Analytics and Social Media Management. The Ahrefs API v3 exposes that data set as a REST A…
+  api_count: 2
+  score_band: strong
+  score_composite: 58.5
   shared: 1
 - slug: alphasense
   name: AlphaSense
@@ -210,13 +217,6 @@ providers:
   api_count: 5
   score_band: developing
   score_composite: 52.6
-  shared: 1
-- slug: google-indexing
-  name: Google Indexing
-  description: The Google Indexing API allows site owners to directly notify Google when pages are added or removed. It enables requesting crawling for updated content and notifying of page removals, leading to fresher content in search results. Primarily intended for sites with job postings or livestream structu…
-  api_count: 2
-  score_band: developing
-  score_composite: 52.1
   shared: 1
 related:
 - slug: agents

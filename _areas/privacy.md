@@ -6,7 +6,7 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 139
+provider_count: 141
 providers:
 - slug: didomi
   name: Didomi
@@ -14,6 +14,20 @@ providers:
   api_count: 37
   score_band: exemplar
   score_composite: 68.6
+  shared: 1
+- slug: singular
+  name: Singular
+  description: Singular (Singular Labs, Inc.) is a mobile measurement partner (MMP) and marketing analytics platform that unifies attribution, cost aggregation, fraud prevention, ad monetization, and cross-platform analytics into a single source of truth. It aggregates campaign, cost, ad-revenue, and creative dat…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 66.8
+  shared: 1
+- slug: sourcepoint
+  name: Sourcepoint
+  description: Sourcepoint is a New York City-headquartered enterprise privacy and consent management technology company founded in 2015 by Ben Barokas and Brian Kane. The platform began as an ad-block recovery solution for publishers and evolved into a Consent Management Platform (CMP) used by leading global pub…
+  api_count: 6
+  score_band: strong
+  score_composite: 61.0
   shared: 1
 - slug: millimetric
   name: Millimetric
@@ -28,6 +42,13 @@ providers:
   api_count: 10
   score_band: strong
   score_composite: 60.6
+  shared: 1
+- slug: habu
+  name: Habu
+  description: Habu was a data clean room and data collaboration company, founded in 2017 and headquartered in San Francisco, that let brands, publishers, and media platforms run privacy-safe joins and analytics on each other's first-party data without moving or exposing raw records. In January 2024 Habu was acqu…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.2
   shared: 1
 - slug: fathom
   name: Fathom Analytics
@@ -197,27 +218,6 @@ providers:
   score_band: developing
   score_composite: 45.1
   shared: 1
-- slug: plausible
-  name: Plausible
-  description: Plausible is an open source, privacy-friendly web analytics platform designed as a lightweight alternative to Google Analytics. It provides essential website traffic metrics without using cookies or collecting personal data, making it compliant with GDPR, CCPA, and other privacy regulations out of…
-  api_count: 8
-  score_band: developing
-  score_composite: 44.6
-  shared: 1
-- slug: screenpipe
-  name: Screenpipe
-  description: Screenpipe is a local-first, source-available desktop application (by Mediar AI, Y Combinator S26) that continuously captures everything you see, say, and hear on your computer, reads on-screen text through OS accessibility APIs with an OCR fallback, transcribes system and microphone audio locally…
-  api_count: 18
-  score_band: developing
-  score_composite: 44.3
-  shared: 1
-- slug: diaspora
-  name: Diaspora
-  description: diaspora* is a privacy-aware, decentralized, open source social network, launched in 2010 and released under the AGPL. Rather than running on servers owned by a single company, diaspora* runs as a federated network of independently operated servers called "pods" — anyone can join an existing pod or…
-  api_count: 14
-  score_band: developing
-  score_composite: 43.3
-  shared: 1
 related:
 - slug: agents-skills
   name: Agent Skills
@@ -234,7 +234,7 @@ related:
 overview: 'Privacy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [privacy.apievangelist.com](https://privacy.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Didomi, Millimetric, AppsFlyer, Fathom Analytics, BigID, Workday Security, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Didomi, Singular, Sourcepoint, Millimetric, AppsFlyer, Habu, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agent Skills, Authentication, Encryption, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'

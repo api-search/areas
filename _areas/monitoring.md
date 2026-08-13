@@ -6,7 +6,7 @@ description: An index and topic collection covering API monitoring, application 
 area_url: https://monitoring.apievangelist.com
 area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
-provider_count: 184
+provider_count: 186
 providers:
 - slug: new-relic
   name: New Relic
@@ -28,6 +28,13 @@ providers:
   api_count: 14
   score_band: exemplar
   score_composite: 66.7
+  shared: 1
+- slug: embrace
+  name: Embrace
+  description: Embrace is a user-focused observability platform for mobile and web applications, built on OpenTelemetry. Its SDKs for iOS, Android, React Native, Flutter, Unity and the browser capture full-fidelity session, crash, exception, log, trace and network telemetry from real users, and the platform turns…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 66.5
   shared: 1
 - slug: controlup
   name: ControlUp
@@ -211,13 +218,6 @@ providers:
   score_band: developing
   score_composite: 55.2
   shared: 1
-- slug: site24x7
-  name: Site24x7
-  description: Site24x7 is a full-stack cloud monitoring platform with a REST API for managing monitors, on-call schedules, alerts, SLAs, and accessing availability and performance metrics. The platform covers website uptime, server infrastructure, cloud services (AWS, Azure, GCP), application performance (APM),…
-  api_count: 11
-  score_band: developing
-  score_composite: 54.5
-  shared: 1
 related:
 - slug: observability
   name: Observability
@@ -240,7 +240,7 @@ related:
 overview: 'Monitoring is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monitoring.apievangelist.com](https://monitoring.apievangelist.com).
 
 
-  30 providers on the network work in this area, including New Relic, Raygun, Splunk, ControlUp, Laravel, Grafana, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including New Relic, Raygun, Splunk, Embrace, ControlUp, Laravel, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, Security, Containers, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'

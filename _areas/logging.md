@@ -221,7 +221,7 @@ providers:
 related:
 - slug: observability
   name: Observability
-  shared: 5
+  shared: 4
 - slug: monitoring
   name: Monitoring
   shared: 2

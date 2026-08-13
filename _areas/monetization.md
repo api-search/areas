@@ -22,6 +22,13 @@ providers:
   score_band: strong
   score_composite: 65.1
   shared: 1
+- slug: admob
+  name: AdMob
+  description: AdMob is Google's mobile app advertising and monetization platform, letting app publishers earn revenue through in-app ads (banner, interstitial, rewarded, rewarded interstitial, native, and app open formats), maximize fill rate and eCPM with AdMob Mediation and open bidding across many ad networks…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.8
+  shared: 1
 - slug: drippay
   name: Drippay
   description: Drippay, Inc. ("drip") is a Y Combinator company (YC P26) building two connected products. drip is a local-first Mac app that turns LinkedIn, iMessage, and email conversations into a self-filling CRM with AI drafting, follow-up, and meeting booking. The Drip API is a usage-based billing and executi…
@@ -33,6 +40,13 @@ providers:
   name: Coda Payments
   description: Coda Payments (trading as Coda, coda.co) is a Singapore-headquartered global Merchant of Record and monetization platform for digital content publishers, game studios and app developers. Its Codapay API lets partners accept 300+ local and global payment methods — cards, e-wallets, direct carrier bi…
   api_count: 4
+  score_band: developing
+  score_composite: 53.3
+  shared: 1
+- slug: sovrn
+  name: Sovrn
+  description: Sovrn is an advertising technology and content monetization company that helps online publishers, advertisers, and creators earn revenue from their websites and audiences. Its platform spans Ad Exchange (an omnichannel programmatic demand pipeline connecting publisher inventory to buyers and DSPs),…
+  api_count: 10
   score_band: developing
   score_composite: 53.3
   shared: 1
@@ -85,12 +99,33 @@ providers:
   score_band: developing
   score_composite: 49.6
   shared: 1
+- slug: domob
+  name: domob
+  description: Domob (多盟) is a Beijing-based mobile intelligent marketing and advertising technology company founded in September 2010, positioned as one of China's early smartphone advertising DSP and mobile ad-network platforms. It provides data-technology and content services spanning programmatic buying (DSP)…
+  api_count: 2
+  score_band: developing
+  score_composite: 49.0
+  shared: 1
 - slug: opera
   name: Opera
   description: Opera is the Norway-based maker of the Opera, Opera GX, and Opera Mini web browsers and operator of the Opera Ads advertising and monetization platform. Opera Ads exposes a public Open API for advertisers (daily campaign reporting and server-to-server conversion events) and for publishers (app and…
   api_count: 3
   score_band: developing
   score_composite: 46.3
+  shared: 1
+- slug: inmobi
+  name: InMobi
+  description: InMobi is a global advertising technology and mobile marketing platform headquartered in Bengaluru, India, and backed by SoftBank Vision Fund. It positions itself as the intelligence layer of the consumer internet, connecting brands and consumers across mobile apps and the open web. InMobi's enterp…
+  api_count: 5
+  score_band: developing
+  score_composite: 45.0
+  shared: 1
+- slug: jeeng
+  name: Jeeng
+  description: Jeeng (formerly PowerInbox, acquired by OpenWeb in 2022 and now marketed as OpenWeb Email Monetization) is a multichannel monetization and audience-engagement platform for digital publishers. It helps publishers grow first-party, opt-in audiences and generate advertising revenue across email newsle…
+  api_count: 3
+  score_band: developing
+  score_composite: 44.6
   shared: 1
 - slug: podbean
   name: Podbean
@@ -141,6 +176,13 @@ providers:
   score_band: thin
   score_composite: 39.7
   shared: 1
+- slug: pokkt
+  name: Pokkt
+  description: Pokkt is a mobile-first advertising and app monetization platform, part of AnyMind Group, serving app publishers and game developers with SDK-based ad monetization (rewarded video, interstitial, and video advertising) and serving advertisers with performance campaigns, remarketing, and connected-TV…
+  api_count: 6
+  score_band: thin
+  score_composite: 39.4
+  shared: 1
 - slug: acast
   name: Acast
   description: Acast is a podcast hosting, distribution, and advertising marketplace that helps creators publish shows, distribute to every major listening platform, and monetize through dynamic ad insertion and sponsorships. Acast exposes a documented public Publishing API for programmatically managing shows and…
@@ -162,12 +204,12 @@ providers:
   score_band: thin
   score_composite: 36.1
   shared: 1
-- slug: admob
-  name: AdMob
-  description: AdMob is Google's mobile app advertising and monetization platform, letting app publishers earn revenue through in-app ads (banner, interstitial, rewarded, rewarded interstitial, native, and app open formats), maximize fill rate and eCPM with AdMob Mediation and open bidding across many ad networks…
-  api_count: 1
+- slug: madvertise
+  name: Madvertise
+  description: Madvertise is a mobile advertising and monetization brand now operating within Azerion as the "BlueStack" (Improve Digital InApp) mobile SDK suite and the mng-ads.com ad-serving platform. It lets mobile publishers monetize in-app inventory with banner, interstitial, native, rewarded-video and App O…
+  api_count: 3
   score_band: thin
-  score_composite: 35.6
+  score_composite: 35.2
   shared: 1
 - slug: polar-sh
   name: Polar
@@ -176,55 +218,10 @@ providers:
   score_band: thin
   score_composite: 35.1
   shared: 1
-- slug: rad
-  name: Rad.
-  description: Rad TV (Rad.) is a two-sided subscription video platform connecting content creators with consumers. For creators it offers AI-powered content enhancement tools — video upscaling to 4K/8K (Real-ESRGAN/ESPCN), stereo-to-surround audio upmixing, multilingual AI subtitling in 40+ languages, and viral…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.1
-  shared: 1
-- slug: koah-labs
-  name: Koah Labs
-  description: 'Koah Labs operates Koah, an advertising network purpose-built for AI applications. It ships two products: an Ad SDK that lets publishers monetize chat and agent experiences with native, intent-matched ad formats (action card, image card, poll, expandable, catalog, side rail) across JavaScript, Reac…'
-  api_count: 1
-  score_band: thin
-  score_composite: 34.5
-  shared: 1
-- slug: frvr
-  name: FRVR
-  description: 'FRVR is a gaming company that builds and distributes instant, no-download HTML5 games across channels beyond the app stores — Facebook Instant, Google Play, iOS WebView, Samsung, Xiaomi, and web portals. Its developer surface is the FRVR SDK: a single JavaScript SDK (with thin wrappers for Unity We…'
-  api_count: 1
-  score_band: thin
-  score_composite: 28.5
-  shared: 1
-- slug: inmobi
-  name: InMobi
-  description: InMobi is a global advertising technology and mobile marketing platform headquartered in Bengaluru, India, and backed by SoftBank Vision Fund. It positions itself as the intelligence layer of the consumer internet, connecting brands and consumers across mobile apps and the open web. InMobi's enterp…
-  api_count: 0
-  score_band: thin
-  score_composite: 28.4
-  shared: 1
-- slug: priceops
-  name: PriceOps
-  description: PriceOps is a pricing and packaging infrastructure platform for SaaS companies that enables simulation of pricing strategies, design of packaging tiers, and launch of pricing pages within minutes. The platform provides REST APIs for managing customer information, usage records, pricing plans, entit…
-  api_count: 1
-  score_band: emerging
-  score_composite: 27.7
-  shared: 1
-- slug: gleefulai
-  name: Gleeful AI
-  description: 'Gleeful AI publishes Visibility, an AI-visibility and answer-engine-optimization audit API: it scores how visible and understandable a website is to AI assistants and agents, audits AI crawler access (GPTBot, ClaudeBot and others), generates a production-ready llms.txt and schema.org markup, checks…'
-  api_count: 17
-  score_band: emerging
-  score_composite: 26.0
-  shared: 1
 related:
 - slug: finops
   name: FinOps
   shared: 2
-- slug: plans
-  name: Plans
-  shared: 1
 - slug: integrations
   name: Integrations
   shared: 1
@@ -234,11 +231,14 @@ related:
 - slug: orchestration
   name: Orchestration
   shared: 1
+- slug: sdk
+  name: SDKs
+  shared: 1
 overview: 'Monetization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monetization.apievangelist.com](https://monetization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Apigee, Appcharge, Drippay, Coda Payments, Amberflo, StreamElements, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Apigee, Appcharge, AdMob, Drippay, Coda Payments, Sovrn, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: FinOps, Plans, Integrations, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: FinOps, Integrations, Microservices, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

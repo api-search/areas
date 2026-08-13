@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 109
+provider_count: 110
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -28,6 +28,13 @@ providers:
   api_count: 15
   score_band: strong
   score_composite: 64.0
+  shared: 1
+- slug: ploy
+  name: Ploy
+  description: Ploy is an AI-powered web marketing automation platform that turns a company's marketing website into a growth channel. Founded in 2025 by former Webflow CTO Bryant Chou, backed by Y Combinator and First Round Capital ($27M), Ploy runs AI agents that build and optimize Astro/Tailwind marketing site…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.4
   shared: 1
 - slug: continue-dev
   name: Continue
@@ -211,16 +218,12 @@ providers:
   score_band: thin
   score_composite: 35.3
   shared: 1
-- slug: tessl
-  name: Tessl
-  description: 'Tessl is an agent-enablement platform that gives engineering teams a management layer for AI agent skills and plugins: continuously build, test, distribute, and optimize the context that coding agents rely on, with the security and governance of enterprise software. It centers on the Tessl Registry…'
-  api_count: 0
-  score_band: thin
-  score_composite: 33.0
-  shared: 1
 related:
 - slug: api-clients
   name: API Clients
+  shared: 2
+- slug: webhooks
+  name: Webhooks
   shared: 2
 - slug: plans
   name: Plans
@@ -234,14 +237,11 @@ related:
 - slug: caching
   name: Caching
   shared: 1
-- slug: agents-skills
-  name: Agent Skills
-  shared: 1
 overview: 'Command Line Interface is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [cli.apievangelist.com](https://cli.apievangelist.com).
 
 
-  30 providers on the network work in this area, including AWS CLI, Svix, Plandex, Continue, Qfex, Sideko, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including AWS CLI, Svix, Plandex, Ploy, Continue, Qfex, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Clients, Plans, Reliability, and Clients. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Clients, Webhooks, Plans, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---
