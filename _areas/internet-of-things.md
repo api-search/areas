@@ -6,7 +6,7 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 91
+provider_count: 93
 providers:
 - slug: shodan
   name: Shodan
@@ -148,6 +148,13 @@ providers:
   score_band: developing
   score_composite: 44.0
   shared: 1
+- slug: franklin-whole-home
+  name: Franklin Whole Home
+  description: 'Franklin Whole Home (FranklinWH Energy Storage Inc.) builds whole-home energy management and storage hardware for residential solar: the aPower lithium iron phosphate AC battery, the aGate energy management and controller unit, and the FranklinWH mobile app, together forming an ecosystem that coord…'
+  api_count: 1
+  score_band: developing
+  score_composite: 42.7
+  shared: 1
 - slug: quanergy
   name: Quanergy
   description: Quanergy Solutions, Inc. is a San Jose, California company that builds 3D LiDAR sensors and perception software for physical security, crowd management and industrial automation. Its Q-Track, Q-Shield, Q-Vision F540 and M-Series sensors feed QORTEX DTC, an on-premises detect-track-classify server t…
@@ -210,13 +217,6 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 31.5
-  shared: 1
-- slug: univers
-  name: Univers
-  description: Univers (formerly Envision Digital) is a Singapore-headquartered company building "The Platform for Physical AI" — its EnOS platform runs real-time, autonomous operations across energy grids, buildings, transportation, and industrial manufacturing, managing over 1,000 GW of energy assets and 400M+…
-  api_count: 1
-  score_band: thin
-  score_composite: 31.0
   shared: 1
 related:
 - slug: network

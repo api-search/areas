@@ -6,8 +6,15 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://design.apievangelist.com
 area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
-provider_count: 90
+provider_count: 91
 providers:
+- slug: canva
+  name: Canva
+  description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run…'
+  api_count: 15
+  score_band: exemplar
+  score_composite: 75.2
+  shared: 1
 - slug: figma
   name: Figma
   description: Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.
@@ -21,6 +28,13 @@ providers:
   api_count: 69
   score_band: exemplar
   score_composite: 68.0
+  shared: 1
+- slug: adobe-suite
+  name: Adobe Suite
+  description: 'Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation…'
+  api_count: 32
+  score_band: exemplar
+  score_composite: 67.5
   shared: 1
 - slug: thebrief
   name: TheBrief
@@ -36,19 +50,19 @@ providers:
   score_band: strong
   score_composite: 58.9
   shared: 1
-- slug: canva
-  name: Canva
-  description: APIs for the Canva design platform, enabling developers to integrate Canva's design tools and functionality into their applications.
-  api_count: 12
-  score_band: strong
-  score_composite: 58.4
-  shared: 1
 - slug: onshape
   name: Onshape
   description: Onshape is a cloud-native computer-aided design (CAD) and product data management (PDM) platform, part of PTC, that runs entirely in a web browser with real-time collaboration, versioning, and configurations. Its public REST API (OpenAPI 3.0.1, base https://cad.onshape.com/api/v16) exposes document…
   api_count: 42
   score_band: developing
   score_composite: 55.6
+  shared: 1
+- slug: blng
+  name: Blng
+  description: BLNG is an AI-driven creative suite for the jewelry industry, giving jewelers, designers, brands, and retailers tools to explore, refine, and present designs fast and without compromise. Its Design product turns sketches, doodles, photos, illustrations, or text prompts into photorealistic rendering…
+  api_count: 3
+  score_band: developing
+  score_composite: 55.3
   shared: 1
 - slug: adobe-creative-cloud
   name: Adobe Creative Cloud
@@ -78,6 +92,13 @@ providers:
   score_band: developing
   score_composite: 51.2
   shared: 1
+- slug: 99designs
+  name: 99designs
+  description: 99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.…
+  api_count: 5
+  score_band: developing
+  score_composite: 50.9
+  shared: 1
 - slug: google-fonts
   name: Google Fonts Developer
   description: The Google Fonts Developer API provides programmatic access to the metadata for all font families served by Google Fonts. Developers can query for available font families, retrieve details about variants, subsets, and categories, access font file URLs, and work with variable font axis metadata. The…
@@ -98,13 +119,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 48.9
-  shared: 1
-- slug: 99designs
-  name: 99designs
-  description: 99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.…
-  api_count: 4
-  score_band: developing
-  score_composite: 46.0
   shared: 1
 - slug: autocad
   name: AutoCAD
@@ -148,6 +162,13 @@ providers:
   score_band: thin
   score_composite: 35.6
   shared: 1
+- slug: tdaycom
+  name: Tdaycom
+  description: tday (tday.com) is a Y Combinator-backed (Spring 2026) AI platform, operated by Altacomm Technologies Pty. Ltd. of Adelaide, South Australia, that turns what a software team ships into on-brand creative. It connects to a company's GitHub repository or drives a live site through the browser like a u…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.5
+  shared: 1
 - slug: abstract
   name: Abstract
   description: Abstract is a design version control and collaboration platform that brings git-inspired branching, merging, and change history to design teams. It provides a REST API and JavaScript SDK for managing projects, branches, commits, files, collections, and design component libraries across teams, integ…
@@ -155,19 +176,19 @@ providers:
   score_band: thin
   score_composite: 34.7
   shared: 1
-- slug: adobe-suite
-  name: Adobe Suite
-  description: Collection of Adobe Creative Cloud and Experience Cloud APIs.
-  api_count: 23
-  score_band: thin
-  score_composite: 34.4
-  shared: 1
 - slug: gamma
   name: Gamma
   description: 'Gamma (Gamma Tech, Inc.) is an AI-native productivity platform for creating presentations, documents, websites, and social posts from a prompt or from existing content. Its public Generate API lets developers programmatically produce and manage gammas: generate from scratch or from a template, poll…'
   api_count: 1
   score_band: thin
   score_composite: 33.5
+  shared: 1
+- slug: superside
+  name: Superside
+  description: Superside is an always-on, AI-powered creative-as-a-service (CaaS) company that helps enterprises and high-growth brands scale their in-house creative teams with top global talent and industry-leading AI workflows. It delivers graphic and brand design, ad creative and digital campaigns, social medi…
+  api_count: 0
+  score_band: thin
+  score_composite: 33.1
   shared: 1
 - slug: uxpin
   name: UXPin
@@ -197,45 +218,24 @@ providers:
   score_band: thin
   score_composite: 31.0
   shared: 1
-- slug: recraft
-  name: Recraft
-  description: Recraft is an AI design platform offering raster and vector image generation, image editing, inpainting, background removal/generation, vectorization, upscaling, and style creation. The Recraft API is REST-based at https://external.api.recraft.ai/v1, compatible with the OpenAI Python client, and us…
-  api_count: 5
-  score_band: thin
-  score_composite: 29.2
-  shared: 1
-- slug: snaptrude
-  name: Snaptrude
-  description: Snaptrude is a cloud-native design platform for architecture and interior design that unifies sketching, real-time collaboration, AI-assisted programming, and BIM into a single browser-based tool. Snaptrude 3.0 offers four integrated modes — Program, Design Canvas, Present, and BIM — that turn conc…
-  api_count: 1
-  score_band: thin
-  score_composite: 28.0
-  shared: 1
-- slug: paper
-  name: Paper
-  description: Paper (paper.design) is a modern, agent-native design tool built on HTML and CSS web standards — a connected canvas where teams design, share, and ship with AI agents. Instead of drawing abstract vector representations of interfaces, Paper renders real HTML/CSS, so what you design is production cod…
-  api_count: 0
-  score_band: emerging
-  score_composite: 26.2
-  shared: 1
 related:
+- slug: ai-automation
+  name: AI Automation
+  shared: 2
 - slug: visualization
   name: Visualization
   shared: 2
-- slug: ai-automation
-  name: AI Automation
+- slug: developer-experience
+  name: Developer Experience
   shared: 1
 - slug: sdk
   name: SDKs
   shared: 1
-- slug: saas-management
-  name: SaaS Management
-  shared: 1
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Figma, Autodesk, TheBrief, Adobe Creative Suite, Canva, Onshape, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Canva, Figma, Autodesk, Adobe Suite, TheBrief, Adobe Creative Suite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Visualization, AI Automation, SDKs, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: AI Automation, Visualization, Developer Experience, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

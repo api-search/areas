@@ -6,7 +6,7 @@ description: An index and topic collection covering API-accessible caching servi
 area_url: https://caching.apievangelist.com
 area_host: caching.apievangelist.com
 icon: https://caching.apievangelist.com/icon-thumb.png
-provider_count: 20
+provider_count: 21
 providers:
 - slug: amazon-elasticache
   name: Amazon ElastiCache
@@ -14,6 +14,13 @@ providers:
   api_count: 4
   score_band: strong
   score_composite: 62.3
+  shared: 1
+- slug: ezoic
+  name: ezoic
+  description: Ezoic is a website monetization and audience-growth platform for publishers, and a performance advertising marketplace for brands. Publishers integrate EzoicAds (via JavaScript, mobile SDKs for Android/iOS/Flutter/React Native/Unity, or framework SDKs for Angular/React/Vue) to run native, sticky, v…
+  api_count: 5
+  score_band: strong
+  score_composite: 61.4
   shared: 1
 - slug: cloudflare-ai-gateway
   name: Cloudflare AI Gateway
@@ -167,7 +174,7 @@ related:
 overview: 'Caching is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [caching.apievangelist.com](https://caching.apievangelist.com).
 
 
-  20 providers on the network work in this area, including Amazon ElastiCache, Cloudflare AI Gateway, Google Cloud CDN, Momento, Apache Ignite, Nx, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  21 providers on the network work in this area, including Amazon ElastiCache, ezoic, Cloudflare AI Gateway, Google Cloud CDN, Momento, Apache Ignite, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Network, Proxy, Command Line Interface, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'

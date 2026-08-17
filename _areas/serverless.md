@@ -6,7 +6,7 @@ description: An index and topic collection covering serverless compute, function
 area_url: https://serverless.apievangelist.com
 area_host: serverless.apievangelist.com
 icon: https://serverless.apievangelist.com/icon-thumb.png
-provider_count: 140
+provider_count: 141
 providers:
 - slug: fal-ai
   name: fal

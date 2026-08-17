@@ -6,14 +6,70 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 141
+provider_count: 144
 providers:
 - slug: didomi
   name: Didomi
   description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
   api_count: 37
   score_band: exemplar
-  score_composite: 68.6
+  score_composite: 85.4
+  shared: 1
+- slug: listrak
+  name: Listrak
+  description: 'Listrak is a retail customer-engagement platform whose public API surface is eight separate REST APIs served from api.listrak.com: Email (83 operations), SMS (20), Data Import (5), Media (9), Mobile App Push (5), Two-Way SMS (4), Cross Channel custom events (3) and Privacy (2). Together they cover…'
+  api_count: 56
+  score_band: exemplar
+  score_composite: 78.3
+  shared: 1
+- slug: swetrix
+  name: Swetrix
+  description: Swetrix is an open source, privacy-focused web analytics platform that provides cookieless tracking, real-time dashboards, and GDPR-compliant analytics without collecting personal data. It offers a fully-featured REST API for tracking events, querying statistics, managing projects, and integrating…
+  api_count: 13
+  score_band: exemplar
+  score_composite: 78.0
+  shared: 1
+- slug: blueconic
+  name: BlueConic
+  description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
+  api_count: 28
+  score_band: exemplar
+  score_composite: 76.7
+  shared: 1
+- slug: pirsch
+  name: Pirsch
+  description: Pirsch is a privacy-first website analytics platform built and hosted in Germany. GDPR, CCPA, PECR, and Schrems II compliant, it tracks page views, sessions, custom events, conversion goals, funnels, and traffic sources without cookies or personal data storage. Developers access all data via a REST…
+  api_count: 15
+  score_band: exemplar
+  score_composite: 76.0
+  shared: 1
+- slug: adobe-campaign
+  name: Adobe Campaign
+  description: 'Adobe Campaign is Adobe''s enterprise cross-channel campaign management and marketing automation platform, orchestrating email, SMS, push, direct mail and web messaging against a customer-owned marketing database. It ships two distinct programmable surfaces: a JSON REST API on https://mc.adobe.io/{O…'
+  api_count: 20
+  score_band: exemplar
+  score_composite: 74.7
+  shared: 1
+- slug: appsflyer
+  name: AppsFlyer
+  description: AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers to measure, attribute and optimize user acquisition across mobile, web, CTV, console and PC. Its developer surface spans mobile and platform SDKs (iOS, Android, Unity, React Native, Flutter, Cordova, Unreal, Ro…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 71.0
+  shared: 1
+- slug: rybbit
+  name: Rybbit
+  description: Rybbit is an open-source, privacy-friendly web and product analytics platform positioned as a cookieless alternative to Google Analytics and Plausible. It ingests pageviews, custom events, autocaptured interactions, performance samples and JavaScript errors through a lightweight tracking script and…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 70.7
+  shared: 1
+- slug: amazon-clean-rooms
+  name: Amazon Clean Rooms
+  description: Amazon Clean Rooms enables organizations to collaborate and analyze shared datasets without exposing underlying raw data to partners. Create secure data clean rooms in minutes and collaborate with any company while maintaining data privacy through differential privacy, cryptographic computing, and…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 70.5
   shared: 1
 - slug: singular
   name: Singular
@@ -22,6 +78,34 @@ providers:
   score_band: exemplar
   score_composite: 66.8
   shared: 1
+- slug: simpleanalytics
+  name: Simple Analytics
+  description: Simple Analytics is a privacy-first, cookieless web analytics platform built and hosted in the European Union by Simple Analytics B.V. in the Netherlands. It collects no personal data, sets no cookies, stores no IP addresses and needs no consent banner, while exposing a REST API surface to pull agg…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 66.7
+  shared: 1
+- slug: liveramp
+  name: LiveRamp
+  description: LiveRamp is a data collaboration platform that lets enterprises connect, control, and activate first-party customer data across the digital ecosystem without moving raw PII between parties. Its developer surface spans identity resolution (AbiliTec links and RampID), programmatic activation to more…
+  api_count: 11
+  score_band: strong
+  score_composite: 64.4
+  shared: 1
+- slug: matomo
+  name: Matomo
+  description: Matomo is an open source web analytics platform — self-hosted (Matomo On-Premise) or vendor-hosted (Matomo Cloud) — that gives an organisation complete ownership of its analytics data. Formerly Piwik, it is the leading privacy-first alternative to Google Analytics, with GDPR tooling, data residency…
+  api_count: 61
+  score_band: strong
+  score_composite: 62.6
+  shared: 1
+- slug: umami
+  name: Umami
+  description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full programmatic access to analytics data, website management, sess…
+  api_count: 7
+  score_band: strong
+  score_composite: 61.2
+  shared: 1
 - slug: sourcepoint
   name: Sourcepoint
   description: Sourcepoint is a New York City-headquartered enterprise privacy and consent management technology company founded in 2015 by Ben Barokas and Brian Kane. The platform began as an ad-block recovery solution for publishers and evolved into a Consent Management Platform (CMP) used by leading global pub…
@@ -29,19 +113,12 @@ providers:
   score_band: strong
   score_composite: 61.0
   shared: 1
-- slug: millimetric
-  name: Millimetric
-  description: Millimetric is API-first, privacy-respecting web and product analytics for developers, indie startups ("vibe coders"), and AI agents. It captures events over a simple REST API (/v1/track, /v1/batch, /v1/identify, /v1/query, /v1/stats, /v1/sources), a ~1.8 KB browser SDK, and a zero-dependency Node…
-  api_count: 3
+- slug: plausible
+  name: Plausible
+  description: Plausible is an open source, privacy-friendly web analytics platform designed as a lightweight alternative to Google Analytics. It provides essential website traffic metrics without using cookies or collecting personal data, making it compliant with GDPR, CCPA, and other privacy regulations out of…
+  api_count: 8
   score_band: strong
-  score_composite: 60.8
-  shared: 1
-- slug: appsflyer
-  name: AppsFlyer
-  description: AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers to measure, attribute and optimize user acquisition across mobile, web, CTV, console and PC. Its developer surface spans mobile and platform SDKs (iOS, Android, Unity, React Native, Flutter, Cordova, Unreal, Ro…
-  api_count: 10
-  score_band: strong
-  score_composite: 60.6
+  score_composite: 60.9
   shared: 1
 - slug: habu
   name: Habu
@@ -64,6 +141,27 @@ providers:
   score_band: strong
   score_composite: 59.9
   shared: 1
+- slug: datavant
+  name: Datavant
+  description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US…
+  api_count: 1
+  score_band: strong
+  score_composite: 59.0
+  shared: 1
+- slug: millimetric
+  name: Millimetric
+  description: Millimetric is API-first, privacy-respecting web and product analytics for developers, indie startups ("vibe coders"), and AI agents. It captures events over a simple REST API (/v1/track, /v1/batch, /v1/identify, /v1/query, /v1/stats, /v1/sources), a ~1.8 KB browser SDK, and a zero-dependency Node…
+  api_count: 3
+  score_band: strong
+  score_composite: 58.8
+  shared: 1
+- slug: apstal
+  name: Apstal
+  description: AI-first website analytics and visitor tracking platform that replaces traditional dashboards with a natural-language chatbot interface, offering conversational analytics, cookieless tracking, session replays, heatmaps, funnels, error tracking, Core Web Vitals and AI-agent traffic detection. Apstal…
+  api_count: 2
+  score_band: strong
+  score_composite: 58.2
+  shared: 1
 - slug: workday-security
   name: Workday Security
   description: Collection of Workday Security APIs for managing authentication, authorization, and security configurations including identity management, security groups, audit logging, privacy, and user activity monitoring.
@@ -78,12 +176,12 @@ providers:
   score_band: strong
   score_composite: 57.8
   shared: 1
-- slug: swetrix
-  name: Swetrix
-  description: Swetrix is an open source, privacy-focused web analytics platform that provides cookieless tracking, real-time dashboards, and GDPR-compliant analytics without collecting personal data. It offers a fully-featured REST API for tracking events, querying statistics, managing projects, and integrating…
-  api_count: 13
+- slug: freshpaint
+  name: Freshpaint
+  description: Freshpaint is a healthcare privacy platform and customer-data platform that collects first-party event data and governs it for HIPAA compliance before fanning it out to 100+ marketing, analytics, and data destinations. Its server-side HTTP API ingests track, identify, page, and screen events at htt…
+  api_count: 2
   score_band: strong
-  score_composite: 57.1
+  score_composite: 57.4
   shared: 1
 - slug: nord-security
   name: Nord Security
@@ -99,6 +197,13 @@ providers:
   score_band: strong
   score_composite: 56.2
   shared: 1
+- slug: goatcounter
+  name: GoatCounter
+  description: GoatCounter is open-source, privacy-friendly web analytics from Martin Tournoij, offered both as a free donation-supported hosted service at goatcounter.com and as a self-hostable Go binary backed by SQLite or PostgreSQL. It tracks pageviews without cookies or persistent personal identifiers. The u…
+  api_count: 6
+  score_band: developing
+  score_composite: 55.2
+  shared: 1
 - slug: certifaction
   name: Certifaction
   description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electroni…'
@@ -113,111 +218,6 @@ providers:
   score_band: developing
   score_composite: 53.9
   shared: 1
-- slug: inth
-  name: Inth
-  description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-source, developer-first consent management platform with 3M+ npm…
-  api_count: 5
-  score_band: developing
-  score_composite: 53.3
-  shared: 1
-- slug: duckduckgo
-  name: DuckDuckGo
-  description: DuckDuckGo is an independent online-privacy company best known for its tracker-free search engine and the DuckDuckGo Browser (iOS, Android, macOS, Windows). It operates the public Instant Answer API at api.duckduckgo.com (free, JSON/XML), the Duck.ai anonymous AI-chat proxy at duck.ai (routes to An…
-  api_count: 5
-  score_band: developing
-  score_composite: 52.0
-  shared: 1
-- slug: nym-technologies
-  name: Nym Technologies
-  description: Nym Technologies SA builds Nym, an open-source decentralized privacy infrastructure. Its flagship product NymVPN is a decentralized VPN built on the Nym mixnet, a multi-layer network of mix nodes that shuffles and delays packets to protect metadata (who talks to whom, when, and from where), not jus…
-  api_count: 23
-  score_band: developing
-  score_composite: 51.3
-  shared: 1
-- slug: brave
-  name: Brave
-  description: Brave is a privacy-first browser company offering developer APIs for anonymous web search and privacy-preserving advertising. The Brave Search API provides real-time search results from an independent index of over 30 billion pages, designed for AI and LLM applications with schema-enriched results…
-  api_count: 10
-  score_band: developing
-  score_composite: 50.5
-  shared: 1
-- slug: k-id
-  name: k-ID
-  description: k-ID is a compliance platform that lets games, social apps, AI products, and commerce deliver age-appropriate experiences across 200+ jurisdictions. Its Compliance Development Kit (CDK) encodes auto-updating regulatory logic for regimes like COPPA, GDPR-Kids, the UK Age Appropriate Design Code and…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.6
-  shared: 1
-- slug: pirsch
-  name: Pirsch
-  description: Pirsch is a privacy-first website analytics platform built and hosted in Germany. GDPR, CCPA, PECR, and Schrems II compliant, it tracks page views, sessions, custom events, conversion goals, funnels, and traffic sources without cookies or personal data storage. Developers access all data via a REST…
-  api_count: 15
-  score_band: developing
-  score_composite: 49.3
-  shared: 1
-- slug: amazon-clean-rooms
-  name: Amazon Clean Rooms
-  description: Amazon Clean Rooms enables organizations to collaborate and analyze shared datasets without exposing underlying raw data to partners. Create secure data clean rooms in minutes and collaborate with any company while maintaining data privacy through differential privacy, cryptographic computing, and…
-  api_count: 4
-  score_band: developing
-  score_composite: 49.2
-  shared: 1
-- slug: listrak
-  name: Listrak
-  description: Retail digital marketing platform with a REST API for managing email and SMS campaigns, subscriber data, behavioral triggers, and cross-channel marketing automation
-  api_count: 53
-  score_band: developing
-  score_composite: 47.7
-  shared: 1
-- slug: matomo
-  name: Matomo
-  description: Matomo is an open source web analytics platform that provides comprehensive website and application usage analytics with full data ownership. Formerly known as Piwik, it offers an alternative to Google Analytics with on-premise or cloud hosting options, ensuring complete control over analytics data…
-  api_count: 5
-  score_band: developing
-  score_composite: 47.0
-  shared: 1
-- slug: usercentrics
-  name: Usercentrics
-  description: Usercentrics is a Munich-based consent management platform (CMP) and privacy compliance provider. Founded in 2017 and led by CEO Donna Dror, Usercentrics acquired Danish CMP Cookiebot (Cybot) in September 2021 and acquired MCP Manager in January 2026. The platform serves 2.4M+ websites and apps acr…
-  api_count: 11
-  score_band: developing
-  score_composite: 46.5
-  shared: 1
-- slug: signal
-  name: Signal
-  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
-  api_count: 14
-  score_band: developing
-  score_composite: 46.2
-  shared: 1
-- slug: aleo
-  name: Aleo
-  description: Aleo is a privacy-first, zero-knowledge Layer-1 blockchain for building fully private applications. Developers write smart contracts in Leo — a purpose-built language for zero-knowledge applications — compile them with snarkVM, and run them on the decentralized snarkOS network, keeping inputs, outp…
-  api_count: 5
-  score_band: developing
-  score_composite: 45.3
-  shared: 1
-- slug: vlex
-  name: vLex
-  description: vLex (part of Clio) is a global legal intelligence platform that applies AI to ingest, enrich, classify, and deliver insights from over 100 million legal documents across 2,000+ multilingual sources. The vLex Iceberg platform provides REST APIs for legal document anonymization, classification, key…
-  api_count: 6
-  score_band: developing
-  score_composite: 45.3
-  shared: 1
-- slug: blueconic
-  name: BlueConic
-  description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
-  api_count: 28
-  score_band: developing
-  score_composite: 45.1
-  shared: 1
-- slug: kagi
-  name: Kagi
-  description: Kagi is a privacy-focused premium search engine that also operates a commercial APIs portfolio for developers. The Kagi APIs Portal exposes Search, Enrichment, Universal Summarizer, and FastGPT endpoints, plus a free Small Web RSS feed for non-commercial use. The portal includes an API Playground,…
-  api_count: 6
-  score_band: developing
-  score_composite: 45.1
-  shared: 1
 related:
 - slug: agents-skills
   name: Agent Skills
@@ -225,17 +225,14 @@ related:
 - slug: authentication
   name: Authentication
   shared: 1
-- slug: encryption
-  name: Encryption
-  shared: 1
 - slug: sdk
   name: SDKs
   shared: 1
 overview: 'Privacy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [privacy.apievangelist.com](https://privacy.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Didomi, Singular, Sourcepoint, Millimetric, AppsFlyer, Habu, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Didomi, Listrak, Swetrix, BlueConic, Pirsch, Adobe Campaign, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Agent Skills, Authentication, Encryption, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agent Skills, Authentication, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

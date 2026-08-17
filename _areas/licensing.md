@@ -113,6 +113,13 @@ providers:
   score_band: emerging
   score_composite: 22.0
   shared: 1
+- slug: centric-brands
+  name: Centric Brands
+  description: 'Centric Brands LLC is a New York-headquartered global lifestyle brand management and product-development platform formed in October 2018 when Differential Brands Group (NASDAQ: DFBG) acquired Global Brands Group''s $1.2B North American licensing business. The company designs, sources, markets, and d…'
+  api_count: 1
+  score_band: emerging
+  score_composite: 21.9
+  shared: 1
 - slug: medallion
   name: Medallion
   description: Medallion is an AI-powered healthcare operations platform for provider credentialing, enrollment, and licensing, operated by FirstLayerAI, Inc. It positions itself as the AI operations partner powering healthcare's first real-time CVO (Credentialing Verification Organization), NCQA-certified, and s…
@@ -189,13 +196,6 @@ providers:
   api_count: 0
   score_band: minimal
   score_composite: 8.9
-  shared: 1
-- slug: centric-brands
-  name: Centric Brands
-  description: 'Centric Brands LLC is a New York-headquartered global lifestyle brand management and product-development platform formed in October 2018 when Differential Brands Group (NASDAQ: DFBG) acquired Global Brands Group''s $1.2B North American licensing business. The company designs, sources, markets, and d…'
-  api_count: 0
-  score_band: minimal
-  score_composite: 8.6
   shared: 1
 - slug: filmtrack
   name: FilmTrack

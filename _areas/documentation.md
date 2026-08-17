@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://documentation.apievangelist.com
 area_host: documentation.apievangelist.com
 icon: https://documentation.apievangelist.com/icon-thumb.png
-provider_count: 87
+provider_count: 88
 providers:
 - slug: confluence
   name: Confluence
@@ -57,6 +57,13 @@ providers:
   score_band: strong
   score_composite: 57.9
   shared: 1
+- slug: hashnode
+  name: Hashnode
+  description: Hashnode is a blogging platform for developers and engineering teams, offering publications on a custom domain, a headless CMS mode, and a public GraphQL API covering posts, drafts, publications, users, tags, series, comments and documentation projects. The API is a single GraphQL endpoint with ano…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.6
+  shared: 1
 - slug: mintlify
   name: Mintlify
   description: Mintlify is an AI-native intelligent documentation platform designed for the next generation of technical documentation, combining beautiful out-of-the-box design with advanced collaboration and AI capabilities.
@@ -70,6 +77,13 @@ providers:
   api_count: 20
   score_band: strong
   score_composite: 56.0
+  shared: 1
+- slug: sweep
+  name: Sweep
+  description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes safely across complex systems. It unifies discovery, design,…
+  api_count: 2
+  score_band: developing
+  score_composite: 54.2
   shared: 1
 - slug: sideko
   name: Sideko
@@ -204,24 +218,10 @@ providers:
   score_band: thin
   score_composite: 40.9
   shared: 1
-- slug: stainless-api
-  name: Stainless
-  description: Stainless is a New York-based developer-tools company that turns an OpenAPI specification into a portfolio of high-quality, idiomatic SDKs, reference documentation, MCP servers, CLIs, and Terraform providers. The platform was founded by veterans of Stripe, Heroku, and Twilio with the explicit goal…
-  api_count: 6
-  score_band: thin
-  score_composite: 40.8
-  shared: 1
-- slug: elements
-  name: Stoplight Elements
-  description: Stoplight Elements is an open-source API documentation component library for rendering OpenAPI specifications interactively. It provides embeddable React and Web Components that produce beautiful, interactive API reference documentation from any OpenAPI 2.0, 3.0, or 3.1 document, with support for a…
-  api_count: 2
-  score_band: thin
-  score_composite: 40.7
-  shared: 1
 related:
 - slug: developer-experience
   name: Developer Experience
-  shared: 6
+  shared: 5
 - slug: support
   name: Support
   shared: 2
@@ -231,8 +231,8 @@ related:
 - slug: testing
   name: Testing
   shared: 2
-- slug: search
-  name: API Evangelist Search
+- slug: agents-skills
+  name: Agent Skills
   shared: 1
 - slug: cli
   name: Command Line Interface

@@ -6,7 +6,7 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 155
+provider_count: 156
 providers:
 - slug: eaton
   name: Eaton

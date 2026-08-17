@@ -6,7 +6,7 @@ description: An index and topic collection covering data visualization, charts, 
 area_url: https://visualization.apievangelist.com
 area_host: visualization.apievangelist.com
 icon: https://visualization.apievangelist.com/icon-thumb.png
-provider_count: 30
+provider_count: 31
 providers:
 - slug: power-bi
   name: Power BI
@@ -21,6 +21,13 @@ providers:
   api_count: 138
   score_band: strong
   score_composite: 64.0
+  shared: 1
+- slug: foxglove-technologies
+  name: Foxglove Technologies
+  description: Foxglove Technologies, Inc. (foxglove.dev) builds a multimodal data platform for robotics, autonomy and physical AI. Its products cover visualization and debugging of robot data (3D scenes, images, plots, logs, maps), cloud and self-hosted data infrastructure for recording ingest and retention, fle…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.3
   shared: 1
 - slug: amazon-quicksight
   name: Amazon QuickSight
@@ -211,13 +218,6 @@ providers:
   score_band: minimal
   score_composite: 5.0
   shared: 1
-- slug: gantt-charts
-  name: Gantt Charts
-  description: Gantt charts are a project-management visualization that depicts tasks, timelines, dependencies, and progress against a calendar. This repository tracks APIs, libraries, and SaaS providers that produce, render, or expose Gantt-chart data for project planning and scheduling use cases.
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.1
-  shared: 1
 related:
 - slug: design
   name: Design
@@ -225,20 +225,20 @@ related:
 - slug: monitoring
   name: Monitoring
   shared: 2
+- slug: observability
+  name: Observability
+  shared: 2
 - slug: logging
   name: Logging
   shared: 1
 - slug: machine-learning
   name: Machine Learning
   shared: 1
-- slug: observability
-  name: Observability
-  shared: 1
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Power BI, Grafana, Amazon QuickSight, Qlik Sense, Google Data Studio, Amazon Managed Grafana, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Power BI, Grafana, Foxglove Technologies, Amazon QuickSight, Qlik Sense, Google Data Studio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Design, Monitoring, Logging, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Design, Monitoring, Observability, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

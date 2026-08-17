@@ -6,7 +6,7 @@ description: This is the index of embedded iPaaS service and tooling repos being
 area_url: https://embedded-ipaas.apievangelist.com
 area_host: embedded-ipaas.apievangelist.com
 icon: https://embedded-ipaas.apievangelist.com/icon-thumb.png
-provider_count: 97
+provider_count: 98
 providers:
 - slug: workato
   name: Workato
@@ -56,6 +56,20 @@ providers:
   api_count: 25
   score_band: strong
   score_composite: 60.4
+  shared: 1
+- slug: vessel
+  name: Vessel
+  description: Vessel (Kinit Inc.) is a developer-first embedded integrations platform for go-to-market software. It gives a product team one contract to read and write an end customer's CRM, sales engagement, chat, dialer and marketing automation tools, plus a drop-in browser component — Vessel Link — that handl…
+  api_count: 20
+  score_band: strong
+  score_composite: 59.6
+  shared: 1
+- slug: hull
+  name: Hull
+  description: Hull is a real-time Customer Data Platform (CDP) that unifies customer data from every source — web, product, CRM, marketing and support tools, databases and files — into a single User and Account profile using claim-based identity resolution. It ingests, computes and enriches data through a data-l…
+  api_count: 1
+  score_band: strong
+  score_composite: 59.0
   shared: 1
 - slug: cobalt
   name: Cobalt
@@ -204,30 +218,13 @@ providers:
   score_band: developing
   score_composite: 48.2
   shared: 1
-- slug: golioth
-  name: Golioth
-  description: Golioth is an IoT device management cloud and firmware SDK for connected hardware. The platform pairs an open-source Firmware SDK (Zephyr RTOS, nRF Connect SDK, ESP-IDF, ModusToolbox, Linux) with a REST Management API at api.golioth.io, a web console, and services for OTA firmware updates, device s…
-  api_count: 45
-  score_band: developing
-  score_composite: 48.0
-  shared: 1
-- slug: software-ag
-  name: Software AG
-  description: Software AG provides enterprise integration and API management through webMethods, a platform for connecting applications, processes, and people across hybrid cloud and on-premises environments. The webMethods platform includes API Gateway, Developer Portal, Integration Server, and cloud-native int…
-  api_count: 6
-  score_band: developing
-  score_composite: 47.6
-  shared: 1
 related:
 - slug: ipaas
   name: iPaaS
-  shared: 16
+  shared: 17
 - slug: integrations
   name: Integrations
-  shared: 11
-- slug: ai-automation
-  name: AI Automation
-  shared: 3
+  shared: 12
 - slug: workflow-automation
   name: Workflow Automation
   shared: 3
@@ -237,11 +234,14 @@ related:
 - slug: orchestration
   name: Orchestration
   shared: 2
+- slug: management
+  name: Management
+  shared: 1
 overview: 'Embedded iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [embedded-ipaas.apievangelist.com](https://embedded-ipaas.apievangelist.com).
 
 
   30 providers on the network work in this area, including Workato, Alloy Automation, Zapier, Viam, Paragon, Losant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: iPaaS, Integrations, AI Automation, and Workflow Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: iPaaS, Integrations, Workflow Automation, and Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -6,7 +6,7 @@ description: This is the index of iPaaS (integration platform as a service) repo
 area_url: https://ipaas.apievangelist.com
 area_host: ipaas.apievangelist.com
 icon: https://ipaas.apievangelist.com/icon-thumb.png
-provider_count: 45
+provider_count: 46
 providers:
 - slug: zapier
   name: Zapier
@@ -28,6 +28,20 @@ providers:
   api_count: 11
   score_band: strong
   score_composite: 64.0
+  shared: 1
+- slug: vessel
+  name: Vessel
+  description: Vessel (Kinit Inc.) is a developer-first embedded integrations platform for go-to-market software. It gives a product team one contract to read and write an end customer's CRM, sales engagement, chat, dialer and marketing automation tools, plus a drop-in browser component — Vessel Link — that handl…
+  api_count: 20
+  score_band: strong
+  score_composite: 59.6
+  shared: 1
+- slug: hull
+  name: Hull
+  description: Hull is a real-time Customer Data Platform (CDP) that unifies customer data from every source — web, product, CRM, marketing and support tools, databases and files — into a single User and Account profile using claim-based identity resolution. It ingests, computes and enriches data through a data-l…
+  api_count: 1
+  score_band: strong
+  score_composite: 59.0
   shared: 1
 - slug: tray-ai
   name: Tray.ai
@@ -113,6 +127,13 @@ providers:
   score_band: developing
   score_composite: 47.6
   shared: 1
+- slug: flume-health
+  name: Flume Health
+  description: Flume Health is a New York based healthcare data platform for the payer ecosystem. Its Relay product is an integration platform (iPaaS) that maps eligibility, claims, and other health plan data between source and destination Endpoints — SFTP, cloud storage, databases, Snowflake, and APIs — through…
+  api_count: 2
+  score_band: developing
+  score_composite: 47.1
+  shared: 1
 - slug: celigo
   name: Celigo
   description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
@@ -141,13 +162,6 @@ providers:
   score_band: developing
   score_composite: 44.4
   shared: 1
-- slug: vessel
-  name: Vessel
-  description: Vessel is a developer-first embedded integrations platform that enables product teams to add native integrations to their applications. It provides unified API abstractions, actions APIs, and passthrough APIs to connect with CRM, sales engagement, marketing automation, chat, and dialer tools while…
-  api_count: 15
-  score_band: developing
-  score_composite: 44.1
-  shared: 1
 - slug: automat
   name: Automat
   description: Automat builds AI agents that operate computers the way people do, replacing legacy RPA tools like UiPath, Automation Anywhere, and Blue Prism with intelligent, self-healing managed automations. Founded in 2022 by ex-Google engineers, the platform combines UI-based AI agents (RPA using Computer Use…
@@ -161,13 +175,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 42.0
-  shared: 1
-- slug: hull
-  name: Hull
-  description: Hull is a real-time Customer Data Platform (CDP) that unifies customer data from every source — web, product, CRM, marketing and support tools, databases and files — into a single User and Account profile using claim-based identity resolution. It ingests, computes and enriches data through a data-l…
-  api_count: 1
-  score_band: thin
-  score_composite: 40.1
   shared: 1
 - slug: useparagon
   name: Paragon
@@ -211,37 +218,30 @@ providers:
   score_band: thin
   score_composite: 37.0
   shared: 1
-- slug: logic-apps
-  name: Azure Logic Apps
-  description: Azure Logic Apps is a cloud-based workflow automation service for integrating apps, data, and services across organizations. It provides a managed iPaaS platform with hundreds of connectors, a visual workflow designer, and a fully documented Azure Resource Manager REST API for managing workflows, r…
-  api_count: 4
-  score_band: thin
-  score_composite: 32.7
-  shared: 1
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 16
+  shared: 17
 - slug: integrations
   name: Integrations
-  shared: 5
+  shared: 6
 - slug: workflow-automation
   name: Workflow Automation
   shared: 5
-- slug: ai-automation
-  name: AI Automation
-  shared: 2
 - slug: orchestration
   name: Orchestration
   shared: 2
 - slug: management
   name: Management
   shared: 1
+- slug: ai-automation
+  name: AI Automation
+  shared: 1
 overview: 'iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ipaas.apievangelist.com](https://ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Zapier, Paragon, Workato, Tray.ai, Skyvia, SAP Integration Suite, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Zapier, Paragon, Workato, Vessel, Hull, Tray.ai, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Embedded iPaaS, Integrations, Workflow Automation, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Embedded iPaaS, Integrations, Workflow Automation, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

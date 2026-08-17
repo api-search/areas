@@ -225,14 +225,11 @@ related:
 - slug: bots
   name: Bots
   shared: 1
-- slug: privacy
-  name: Privacy
-  shared: 1
 overview: 'Encryption is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [encryption.apievangelist.com](https://encryption.apievangelist.com).
 
 
   30 providers on the network work in this area, including Amazon KMS, Evervault, Amazon Certificate Manager, Fortanix, IronCore Labs, Google Cloud KMS, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Security, Bots, and Privacy. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Security and Bots. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

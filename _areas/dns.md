@@ -6,7 +6,7 @@ description: DNS (Domain Name System) is the distributed naming system that tran
 area_url: https://dns.apievangelist.com
 area_host: dns.apievangelist.com
 icon: https://dns.apievangelist.com/icon-thumb.png
-provider_count: 45
+provider_count: 46
 providers:
 - slug: shodan
   name: Shodan
@@ -43,6 +43,13 @@ providers:
   score_band: strong
   score_composite: 58.2
   shared: 1
+- slug: mcp360
+  name: MCP360
+  description: MCP360 is a hosted unified Model Context Protocol gateway operated by Delta4 Infotech Pvt. Ltd. that gives AI agents access to 38 tool services — 106 individual tools — through a single credentialed endpoint, plus a no-code Custom MCP Builder that wraps any REST API as an MCP server. Every service…
+  api_count: 38
+  score_band: strong
+  score_composite: 56.5
+  shared: 1
 - slug: infoblox
   name: Infoblox
   description: Infoblox is a networking and cybersecurity company providing DDI (DNS, DHCP, and IPAM) solutions and protective DNS-layer security services. Its product portfolio spans the Universal DDI suite for unified hybrid and multi-cloud network services, NIOS DDI for on-premises deployments, NIOS-X as a Ser…
@@ -50,19 +57,19 @@ providers:
   score_band: developing
   score_composite: 55.6
   shared: 1
-- slug: mcp360
-  name: MCP360
-  description: MCP360 is a hosted unified Model Context Protocol gateway operated by Delta4 Infotech Pvt. Ltd. that gives AI agents access to 38 tool services — 106 individual tools — through a single credentialed endpoint, plus a no-code Custom MCP Builder that wraps any REST API as an MCP server. Every service…
-  api_count: 38
-  score_band: developing
-  score_composite: 55.2
-  shared: 1
 - slug: google-cloud-dns
   name: Google Cloud DNS
   description: Google Cloud DNS is a scalable, reliable, and managed authoritative Domain Name System (DNS) service running on the same infrastructure as Google. It provides low-latency, high-availability DNS serving with 100% uptime SLA, supporting both public and private DNS zones for domain name resolution.
   api_count: 4
   score_band: developing
   score_composite: 54.7
+  shared: 1
+- slug: uchecker
+  name: uChecker
+  description: Russian-language email-validation platform offering bulk and single email verification (SMTP mailbox existence, MX/DNS, catch-all, disposable, role-based, spam-trap/blacklist checks) plus free DNS/email tools. Access via REST API, a hosted MCP server, web dashboard, and Telegram bot.
+  api_count: 3
+  score_band: developing
+  score_composite: 53.2
   shared: 1
 - slug: amazon-route53-resolver
   name: Amazon Route 53 Resolver
@@ -211,13 +218,6 @@ providers:
   score_band: thin
   score_composite: 31.0
   shared: 1
-- slug: godaddy
-  name: GoDaddy
-  description: GoDaddy is a domain registrar and web hosting company offering REST APIs for domain registration, DNS management, certificates, shopper accounts, subscriptions, aftermarket auctions, and abuse reporting.
-  api_count: 7
-  score_band: thin
-  score_composite: 30.9
-  shared: 1
 related:
 - slug: search
   name: API Evangelist Search
@@ -240,7 +240,7 @@ related:
 overview: 'DNS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [dns.apievangelist.com](https://dns.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Shodan, APIFreaks - API Hub for Developers, WhoisFreaks, Cloudflare, Amazon Route 53, Infoblox, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Shodan, APIFreaks - API Hub for Developers, WhoisFreaks, Cloudflare, Amazon Route 53, MCP360, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Evangelist Search, Security, Network, and Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'

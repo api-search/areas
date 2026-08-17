@@ -6,7 +6,7 @@ description: An index and topic collection covering managed databases and databa
 area_url: https://database.apievangelist.com
 area_host: database.apievangelist.com
 icon: https://database.apievangelist.com/icon-thumb.png
-provider_count: 178
+provider_count: 179
 providers:
 - slug: bubble
   name: Bubble
@@ -113,6 +113,13 @@ providers:
   score_band: strong
   score_composite: 59.4
   shared: 1
+- slug: nutanix
+  name: Nutanix
+  description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
+  api_count: 21
+  score_band: strong
+  score_composite: 59.0
+  shared: 1
 - slug: oracle-database
   name: Oracle Database
   description: APIs and interfaces for Oracle Database management, querying, and administration.
@@ -140,13 +147,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 57.4
-  shared: 1
-- slug: nutanix
-  name: Nutanix
-  description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
-  api_count: 21
-  score_band: strong
-  score_composite: 57.2
   shared: 1
 - slug: nocodb
   name: NocoDB
@@ -228,12 +228,6 @@ related:
 - slug: monitoring
   name: Monitoring
   shared: 1
-- slug: observability
-  name: Observability
-  shared: 1
-- slug: saas-management
-  name: SaaS Management
-  shared: 1
 - slug: virtualization
   name: Virtualization
   shared: 1
@@ -243,5 +237,5 @@ overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://
   30 providers on the network work in this area, including Bubble, Notion, Amazon Keyspaces, Amazon Neptune, Amazon DynamoDB, Amazon ElastiCache, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Serverless, Caching, Monitoring, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Serverless, Caching, Monitoring, and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

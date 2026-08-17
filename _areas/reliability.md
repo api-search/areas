@@ -13,7 +13,7 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 21
   score_band: exemplar
-  score_composite: 75.7
+  score_composite: 84.1
   shared: 1
 - slug: google-cloud-error-reporting
   name: Google Cloud Error Reporting

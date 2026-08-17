@@ -8,6 +8,13 @@ area_host: monetization.apievangelist.com
 icon: https://monetization.apievangelist.com/icon-thumb.png
 provider_count: 61
 providers:
+- slug: drippay
+  name: Drippay
+  description: 'Drippay, Inc. is a Y Combinator company (YC P26) that operates two connected products. dreach — renamed from drip in 2026, with usedrip.ai now redirecting to dreach.ai — is a local-first Mac app for staffing, recruiting and executive search firms: an Opportunity Radar that watches hiring demand and…'
+  api_count: 23
+  score_band: exemplar
+  score_composite: 69.8
+  shared: 1
 - slug: apigee
   name: Apigee
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
@@ -29,12 +36,26 @@ providers:
   score_band: strong
   score_composite: 60.8
   shared: 1
-- slug: drippay
-  name: Drippay
-  description: Drippay, Inc. ("drip") is a Y Combinator company (YC P26) building two connected products. drip is a local-first Mac app that turns LinkedIn, iMessage, and email conversations into a self-filling CRM with AI drafting, follow-up, and meeting booking. The Drip API is a usage-based billing and executi…
-  api_count: 23
+- slug: viglink
+  name: VigLink (Sovrn Commerce)
+  description: VigLink pioneered automatic affiliate link monetization for publishers, turning ordinary product links into revenue-generating affiliate links across a network of tens of thousands of merchants. Founded in 2009 and backed by investors including Uncork Capital, VigLink was acquired by Sovrn in early…
+  api_count: 8
+  score_band: strong
+  score_composite: 60.6
+  shared: 1
+- slug: monetizenow
+  name: MonetizeNow
+  description: MonetizeNow is an enterprise monetization platform that unifies quoting, billing, and usage metering into a single quote-to-cash system for B2B SaaS companies. It combines a CPQ/quote builder with guided selling, a billing engine supporting subscriptions, credits, and usage-based pricing, multi-cur…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.0
+  shared: 1
+- slug: opera
+  name: Opera
+  description: 'Opera is the Norway-based, Nasdaq-listed (OPRA) maker of the Opera, Opera GX, Opera Air, Opera Mini and Opera Neon web browsers, and the operator of the Opera Ads advertising and monetization platform. Opera Ads exposes six documented HTTP APIs: an advertiser Report API for daily campaign performan…'
+  api_count: 6
   score_band: developing
-  score_composite: 55.7
+  score_composite: 55.1
   shared: 1
 - slug: coda-payments
   name: Coda Payments
@@ -71,13 +92,6 @@ providers:
   score_band: developing
   score_composite: 51.2
   shared: 1
-- slug: viglink
-  name: VigLink (Sovrn Commerce)
-  description: VigLink pioneered automatic affiliate link monetization for publishers, turning ordinary product links into revenue-generating affiliate links across a network of tens of thousands of merchants. Founded in 2009 and backed by investors including Uncork Capital, VigLink was acquired by Sovrn in early…
-  api_count: 8
-  score_band: developing
-  score_composite: 50.9
-  shared: 1
 - slug: paid
   name: Paid
   description: Paid (paid.ai) is the monetization platform for AI agents. It gives teams that build and sell AI agents the pricing, billing, and margin infrastructure to charge with flexible models — credits, usage-based, seat-based, and outcome-based pricing — while tracking the AI costs and delivered value behi…
@@ -105,13 +119,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 49.0
-  shared: 1
-- slug: opera
-  name: Opera
-  description: Opera is the Norway-based maker of the Opera, Opera GX, and Opera Mini web browsers and operator of the Opera Ads advertising and monetization platform. Opera Ads exposes a public Open API for advertisers (daily campaign reporting and server-to-server conversion events) and for publishers (app and…
-  api_count: 3
-  score_band: developing
-  score_composite: 46.3
   shared: 1
 - slug: inmobi
   name: InMobi
@@ -197,13 +204,6 @@ providers:
   score_band: thin
   score_composite: 37.4
   shared: 1
-- slug: monetizenow
-  name: MonetizeNow
-  description: MonetizeNow is an enterprise monetization platform that unifies quoting, billing, and usage metering into a single quote-to-cash system for B2B SaaS companies. It combines a CPQ/quote builder with guided selling, a billing engine supporting subscriptions, credits, and usage-based pricing, multi-cur…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.1
-  shared: 1
 - slug: madvertise
   name: Madvertise
   description: Madvertise is a mobile advertising and monetization brand now operating within Azerion as the "BlueStack" (Improve Digital InApp) mobile SDK suite and the mng-ads.com ad-serving platform. It lets mobile publishers monetize in-app inventory with banner, interstitial, native, rewarded-video and App O…
@@ -231,13 +231,10 @@ related:
 - slug: orchestration
   name: Orchestration
   shared: 1
-- slug: sdk
-  name: SDKs
-  shared: 1
 overview: 'Monetization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monetization.apievangelist.com](https://monetization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Apigee, Appcharge, AdMob, Drippay, Coda Payments, Sovrn, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Drippay, Apigee, Appcharge, AdMob, VigLink (Sovrn Commerce), MonetizeNow, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: FinOps, Integrations, Microservices, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'

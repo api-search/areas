@@ -8,6 +8,13 @@ area_host: developer-experience.apievangelist.com
 icon: https://developer-experience.apievangelist.com/icon-thumb.png
 provider_count: 50
 providers:
+- slug: adobe-suite
+  name: Adobe Suite
+  description: 'Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation…'
+  api_count: 32
+  score_band: exemplar
+  score_composite: 67.5
+  shared: 1
 - slug: apimatic
   name: APIMatic
   description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languag…
@@ -211,37 +218,30 @@ providers:
   score_band: thin
   score_composite: 36.2
   shared: 1
-- slug: cortex-app
-  name: Cortex
-  description: Cortex is an Internal Developer Portal and service catalog used by platform and engineering teams to inventory services, libraries, domains, teams, on-call rotations, and resources; measure them against Scorecards (production readiness, security, SLO compliance, cost, AI usage); and drive developer…
-  api_count: 9
-  score_band: thin
-  score_composite: 35.5
-  shared: 1
 related:
 - slug: documentation
   name: Documentation
-  shared: 6
+  shared: 5
 - slug: microservices
   name: Microservices
   shared: 2
 - slug: testing
   name: Testing
   shared: 2
+- slug: ai-automation
+  name: AI Automation
+  shared: 1
 - slug: search
   name: API Evangelist Search
   shared: 1
 - slug: cli
   name: Command Line Interface
   shared: 1
-- slug: finops
-  name: FinOps
-  shared: 1
 overview: 'Developer Experience is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [developer-experience.apievangelist.com](https://developer-experience.apievangelist.com).
 
 
-  30 providers on the network work in this area, including APIMatic, Treblle, Apple, Unblocked, Signadot, Bettermode, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Adobe Suite, APIMatic, Treblle, Apple, Unblocked, Signadot, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Documentation, Microservices, Testing, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Documentation, Microservices, Testing, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

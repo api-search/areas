@@ -113,14 +113,11 @@ related:
 - slug: virtualization
   name: Virtualization
   shared: 2
-- slug: ai-automation
-  name: AI Automation
-  shared: 1
 overview: 'Migration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [migration.apievangelist.com](https://migration.apievangelist.com).
 
 
   14 providers on the network work in this area, including Amazon Mainframe Modernization, Amazon DataSync, Google Cloud Migration Center, Amazon DMS, Import2, Azure Migrate, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Evangelist Discovery, Virtualization, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Discovery and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

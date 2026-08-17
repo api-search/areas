@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://sdk.apievangelist.com
 area_host: sdk.apievangelist.com
 icon: https://sdk.apievangelist.com/icon-thumb.png
-provider_count: 349
+provider_count: 350
 providers:
 - slug: swagger-codegen
   name: Swagger Codegen
@@ -15,12 +15,26 @@ providers:
   score_band: strong
   score_composite: 65.8
   shared: 1
+- slug: cvent-event-cloud
+  name: Cvent Event Cloud
+  description: 'Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hybrid event delivery via the Attendee Hub, surveys, and analyt…'
+  api_count: 42
+  score_band: strong
+  score_composite: 65.6
+  shared: 1
 - slug: general-translation
   name: General Translation
   description: General Translation is an end-to-end internationalization (i18n) and localization platform for developers, backed by a16z. It combines open-source i18n libraries for React, Next.js, React Native, Node.js, and Python with an AI-powered translation API, a context platform (glossaries and translation…
   api_count: 7
   score_band: strong
   score_composite: 64.3
+  shared: 1
+- slug: appsamurai
+  name: Appsamurai
+  description: AppSamurai (legally Apps Medya Teknoloji A.S., engineering org Netvent) is a global, AI-powered mobile app growth platform founded in 2016. It offers user acquisition, retargeting, OEM / on-device app discovery, rewarded user acquisition and monetization across one platform, plus Storyly, its AI-po…
+  api_count: 2
+  score_band: strong
+  score_composite: 61.4
   shared: 1
 - slug: dwolla
   name: Dwolla
@@ -70,6 +84,13 @@ providers:
   api_count: 10
   score_band: developing
   score_composite: 54.8
+  shared: 1
+- slug: snap
+  name: Snap
+  description: 'Snap Inc. is the technology company behind Snapchat, Bitmoji, Spectacles, and Lens Studio. Its Snap for Developers program exposes several public APIs and SDKs: the Snapchat Marketing API (Ads API, Ads Gallery API, Conversions API, and Public Profile API) for programmatically managing organizations…'
+  api_count: 5
+  score_band: developing
+  score_composite: 53.9
   shared: 1
 - slug: sideko
   name: Sideko
@@ -134,6 +155,13 @@ providers:
   score_band: developing
   score_composite: 50.7
   shared: 1
+- slug: loopme
+  name: LoopMe
+  description: LoopMe is a global brand-performance advertising platform that uses AI to bring brands into mobile and CTV apps. Its products span an AI-powered intelligent marketplace, PurchaseLoop outcome-based brand advertising, the Chartboost in-app monetization platform, and an Audience & Measurement Platform…
+  api_count: 3
+  score_band: developing
+  score_composite: 50.6
+  shared: 1
 - slug: ostium-labs
   name: Ostium Labs
   description: Ostium is a decentralized perpetual-futures exchange that lets traders access global real-world-asset markets — stocks, ETFs, commodities, indices, forex and crypto — directly from a self-custodial crypto wallet, with leverage and no broker or intermediary. Built on Arbitrum, the protocol pairs an…
@@ -190,34 +218,6 @@ providers:
   score_band: developing
   score_composite: 49.0
   shared: 1
-- slug: domob
-  name: domob
-  description: Domob (多盟) is a Beijing-based mobile intelligent marketing and advertising technology company founded in September 2010, positioned as one of China's early smartphone advertising DSP and mobile ad-network platforms. It provides data-technology and content services spanning programmatic buying (DSP)…
-  api_count: 2
-  score_band: developing
-  score_composite: 49.0
-  shared: 1
-- slug: fidel
-  name: Fidel
-  description: Fidel (Enigmatic Smile Ltd, trading as Fidel API) is a card-linking and payments-data platform that lets developers connect Visa, Mastercard and Amex cards to web and mobile applications through a single API. PCI-compliant card-capture SDKs (Web, iOS, Android, React Native) securely tokenize card d…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.9
-  shared: 1
-- slug: firework
-  name: Firework
-  description: Firework is a video commerce platform that helps brands and retailers bring the in-store experience and human connection online through shoppable short-form video, livestream shopping, 1:1 video chat, digital showrooms, and an AI shopping agent. Operated by Loop Now Technologies and backed by SoftB…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.5
-  shared: 1
-- slug: reactor
-  name: Reactor
-  description: Reactor is a real-time video AI platform that streams generative video from GPU-hosted models to web and mobile applications over WebRTC, with sub-second round-trip latency and no infrastructure to manage. Developers connect through a JavaScript/React SDK or an async Python SDK, mint short-lived se…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.0
-  shared: 1
 related:
 - slug: documentation
   name: Documentation
@@ -234,13 +234,13 @@ related:
 - slug: logging
   name: Logging
   shared: 1
-- slug: monetization
-  name: Monetization
+- slug: privacy
+  name: Privacy
   shared: 1
 overview: 'SDKs is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [sdk.apievangelist.com](https://sdk.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Swagger Codegen, General Translation, Dwolla, Krisp, Chroma, Transcend, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Swagger Codegen, Cvent Event Cloud, General Translation, Appsamurai, Dwolla, Krisp, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation, API Evangelist Search, Command Line Interface, and Design. Browse every area at [areas.apis.io](https://apis.io/areas/).'

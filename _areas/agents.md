@@ -6,8 +6,15 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 306
+provider_count: 353
 providers:
+- slug: convertkit
+  name: Kit
+  description: Kit (formerly ConvertKit) is a creator email marketing platform whose REST API v4 covers subscribers, tags, custom fields, forms and landing pages, sequences, broadcasts, snippets, posts, purchases, segments and webhooks across 72 operations on https://api.kit.com/v4. It authenticates with an X-Kit…
+  api_count: 14
+  score_band: exemplar
+  score_composite: 82.6
+  shared: 1
 - slug: vapi-ai
   name: Vapi
   description: Vapi is a San Francisco-based voice AI platform that lets developers build real-time, low-latency voice agents over phone, web, and SIP. It orchestrates three modular components — a transcriber (STT), an LLM, and a voice (TTS) — into a sub-700ms voice-to-voice pipeline, with first-class support for…
@@ -22,12 +29,61 @@ providers:
   score_band: exemplar
   score_composite: 76.9
   shared: 1
+- slug: gong
+  name: Gong
+  description: Gong is the revenue intelligence platform that captures and analyzes customer interactions across calls, emails, meetings and web conferencing, then applies AI to surface deal risk, coaching signal and forecast correction for B2B go-to-market teams. Its public REST v2 API at api.gong.io exposes 57…
+  api_count: 26
+  score_band: exemplar
+  score_composite: 76.8
+  shared: 1
+- slug: facebook-business-manager
+  name: Facebook Business Manager
+  description: APIs for managing Facebook Business accounts, advertising, pages, and assets across the Meta platform family. Facebook Business Manager exposes a deep catalog of Graph API surfaces for marketing, pages, conversions, business asset management, Instagram, insights, Messenger, catalogs, live video, Th…
+  api_count: 23
+  score_band: exemplar
+  score_composite: 74.9
+  shared: 1
 - slug: dust-tt
   name: Dust
   description: Dust is a Paris-based enterprise AI platform for building, deploying, and operating teams of AI agents that have shared context across a company's knowledge and tools. Dust positions itself as the platform for "AI Operators" — the people who design, govern, and continuously improve agentic workflow…
   api_count: 14
   score_band: exemplar
   score_composite: 74.8
+  shared: 1
+- slug: postiz
+  name: Postiz
+  description: Postiz is an open-source social media scheduling and management platform for posting across 30+ social, video, community, and blogging channels from a single calendar. It ships as a free AGPL-licensed self-hosted app and as a paid managed Cloud. The Postiz Public API uses simple API-key auth to lis…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 74.2
+  shared: 1
+- slug: serper
+  name: Serper
+  description: Serper is the world's fastest and most affordable Google Search API, delivering real-time SERP data in 1-2 seconds via a simple REST interface. It supports web search, images, news, maps, places, videos, shopping, scholar, patents, and autocomplete — all returned as structured JSON. Widely used in…
+  api_count: 14
+  score_band: exemplar
+  score_composite: 74.0
+  shared: 1
+- slug: parallel
+  name: Parallel
+  description: 'Parallel Web Systems builds web APIs purpose-built for AI agents: a high-accuracy Search API, an Extract API that turns URLs into clean LLM-ready markdown, a Task/Deep Research API with tiered processors (lite through ultra), FindAll for natural-language entity discovery and enrichment, a Monitor A…'
+  api_count: 8
+  score_band: exemplar
+  score_composite: 73.9
+  shared: 1
+- slug: konbiniapi
+  name: KonbiniAPI
+  description: KonbiniAPI is the social data layer for Instagram, TikTok, X, Reddit and LinkedIn, normalizing real-time public profile, post, video, comment, audio, community, subreddit, location and search data into a single consistent ActivityStreams 2.0 (W3C) shape. Sixty-seven endpoints are exposed through on…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 72.8
+  shared: 1
+- slug: bitly
+  name: Bitly
+  description: Bitly is a link management platform for creating, branding, routing and measuring short links, QR Codes and link-in-bio pages at scale. The Bitly v4 REST API is a 94-operation, bearer-authenticated JSON API at https://api-ssl.bitly.com/v4 covering Bitlink creation and expansion, custom back-halves,…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 72.7
   shared: 1
 - slug: buildkite-com
   name: Buildkite
@@ -36,12 +92,40 @@ providers:
   score_band: exemplar
   score_composite: 72.7
   shared: 1
+- slug: lightfield
+  name: Lightfield
+  description: Lightfield is an agent-native customer relationship management (CRM) platform for high-growth and AI-native go-to-market teams. Rather than depending on manual data entry, Lightfield captures customer interactions — calls, emails, meetings and external signals — as unstructured data, organizes them…
+  api_count: 13
+  score_band: exemplar
+  score_composite: 72.6
+  shared: 1
+- slug: clari
+  name: Clari
+  description: Clari is an enterprise revenue orchestration platform that publishes three machine surfaces. The Clari Revenue API v5 (api.clari.com/v4) is an asynchronous, job-based export and ingest surface — queue a forecast, activity or audit export, poll until the job reads DONE, then download the results — p…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 71.0
+  shared: 1
 - slug: github-copilot
   name: GitHub Copilot
   description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
   api_count: 12
   score_band: exemplar
   score_composite: 70.5
+  shared: 1
+- slug: cogny
+  name: Cogny
+  description: Cogny is a Stockholm-based AI marketing platform (Cogny AB) that runs marketing analytics and automation on autopilot for marketers and data teams. It connects ad accounts and data warehouses (Google BigQuery, Google Ads, Meta Ads, LinkedIn, GA4, Search Console, TikTok, X, Mailchimp and more) to an…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 70.4
+  shared: 1
+- slug: salesloft
+  name: Salesloft
+  description: Salesloft is a sales engagement and revenue orchestration platform, now combined with Clari, Drift and Groove, used by more than 4,000 sales teams to run cadences, dial and email prospects, capture and analyse conversations, and forecast pipeline. The Salesloft Platform API v2 at https://api.salesl…
+  api_count: 85
+  score_band: exemplar
+  score_composite: 69.9
   shared: 1
 - slug: landingai
   name: Landing.ai
@@ -71,6 +155,27 @@ providers:
   score_band: exemplar
   score_composite: 69.1
   shared: 1
+- slug: impact
+  name: Impact
+  description: impact.com is a partnership management platform for affiliate, creator, influencer and customer-referral programs. It publishes four REST API personas - Brand v14, Partner v16, Agency v3 and Advocate v13 - across 69 OpenAPI 3.1 documents and 245 operations, a remote OAuth 2.1 MCP server at mcp.impa…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 69.0
+  shared: 1
+- slug: boom-ai
+  name: Boom Ai
+  description: Boom AI (useboom.ai) is a Y Combinator-backed (Fall 2025) San Francisco company building "an AI workforce for your customers" — autonomous agents that hold real, multi-turn conversations over SMS, email, WhatsApp, and phone in 50+ languages to run collections and payment recovery, churn recovery, r…
+  api_count: 10
+  score_band: exemplar
+  score_composite: 68.1
+  shared: 1
+- slug: seamless-ai
+  name: Seamless.AI
+  description: Seamless.AI is a B2B sales intelligence platform that provides real-time contact and company data to help sales teams find and connect with their ideal customers. The platform uses artificial intelligence to continuously verify and update contact information including emails, direct dials and mobil…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 68.0
+  shared: 1
 - slug: chatgpt
   name: ChatGPT
   description: OpenAI's ChatGPT API for conversational AI and language model interactions.
@@ -78,12 +183,12 @@ providers:
   score_band: exemplar
   score_composite: 67.8
   shared: 1
-- slug: parallel
-  name: Parallel
-  description: 'Parallel Web Systems builds web APIs purpose-built for AI agents: a high-accuracy Search API, an Extract API that turns URLs into clean LLM-ready markdown, a Task/Deep Research API with tiered processors (lite through ultra), FindAll for natural-language entity discovery and enrichment, a Monitor A…'
-  api_count: 6
+- slug: veeva
+  name: veeva
+  description: Veeva Systems is the leading cloud software provider for the global life sciences industry, serving pharmaceutical, biotechnology, medical device and CRO customers across commercial, clinical, quality, regulatory, medical and safety operations. Its Vault platform is a single content-and-data cloud…
+  api_count: 9
   score_band: exemplar
-  score_composite: 67.4
+  score_composite: 67.8
   shared: 1
 - slug: vendia
   name: Vendia
@@ -92,156 +197,51 @@ providers:
   score_band: exemplar
   score_composite: 67.3
   shared: 1
-- slug: freestyle-sh
-  name: Freestyle
-  description: Freestyle is the infrastructure for code you didn't write — VMs and Git for AI agents. The platform provides Linux microVMs that boot in under 600ms with live-fork, pause-resume, and persistent snapshots; a multi-tenant Git service with branchable filesystems, GitHub Sync, full-text search, and web…
-  api_count: 11
-  score_band: strong
-  score_composite: 65.9
-  shared: 1
-- slug: api-evangelist
-  name: API Evangelist
-  description: The index of everything available via the API Evangelist developer portal at developer.apievangelist.com — sixteen years of API research served as one REST API, an MCP server for agents, and the static JSON feeds behind each network collection.
-  api_count: 20
-  score_band: strong
-  score_composite: 64.1
-  shared: 1
-- slug: plandex
-  name: Plandex
-  description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
-  api_count: 15
-  score_band: strong
-  score_composite: 64.0
-  shared: 1
-- slug: vectara
-  name: Vectara
-  description: Vectara is a Retrieval Augmented Generation (RAG) as a service platform that provides grounded generative AI for enterprises. The API-first platform exposes a unified REST API v2 for managing corpora, ingesting documents, performing semantic and hybrid search, generating answers with hallucination…
-  api_count: 9
-  score_band: strong
-  score_composite: 63.3
-  shared: 1
-- slug: anecdotes
-  name: anecdotes
-  description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed compliance. Its Compliance OS collects evidence automatically…
-  api_count: 3
-  score_band: strong
-  score_composite: 63.3
-  shared: 1
-- slug: natural-ai
-  name: Natural AI
-  description: 'Natural (natural.com) is the agentic payments platform: one API for AI agents, apps, and businesses to send, receive, and manage money. Agents get FDIC-insured wallets, credit lines, and the ability to pay or request funds by email, phone, @handle, party, or agent ID, plus card issuing, merchant ac…'
-  api_count: 15
-  score_band: strong
-  score_composite: 63.0
-  shared: 1
-- slug: lilt
-  name: Lilt
-  description: 'LILT is an AI translation and localization platform that pairs contextual, adaptive machine translation with human linguist verification. The LILT REST API (https://api.lilt.com) exposes the platform programmatically: adaptive machine translation, large-scale translation memory and the Lexicon term…'
-  api_count: 13
-  score_band: strong
-  score_composite: 62.8
-  shared: 1
-- slug: amazon-bedrock
-  name: Amazon Bedrock
-  description: Amazon Bedrock is a fully managed AWS service that makes high-performing foundation models from leading AI companies available through a unified API for building generative AI applications. It supports text and image generation, conversational AI, model customization and fine-tuning, retrieval-augm…
-  api_count: 8
-  score_band: strong
-  score_composite: 62.7
-  shared: 1
-- slug: fundamental-research-labs
-  name: Fundamental Research Labs
-  description: Fundamental Research Labs (formerly Altera) is an applied AI research company building autonomous, collaborative AI agents, founded by researchers from MIT EECS, the Stanford NLP Group, Google X, and Citadel and backed by Andreessen Horowitz and Prosus. Its flagship product, Shortcut, is an AI anal…
-  api_count: 3
-  score_band: strong
-  score_composite: 62.7
-  shared: 1
-- slug: langdock
-  name: Langdock
-  description: Langdock is an enterprise AI platform — "The Platform for AI Adoption" — that lets organizations deploy model-agnostic AI across their workforce through Chat, Workflows, Agents, Skills, Integrations, and a public API. The platform is EU-hosted on Microsoft Azure with ISO 27001 and SOC 2 Type II cer…
-  api_count: 15
-  score_band: strong
-  score_composite: 62.4
-  shared: 1
-- slug: lightfield
-  name: Lightfield
-  description: Lightfield is an agent-native customer relationship management (CRM) platform for high-growth and AI-native go-to-market teams. Rather than depending on manual data entry, Lightfield captures customer interactions — calls, emails, meetings and external signals — as unstructured data, organizes them…
-  api_count: 13
-  score_band: strong
-  score_composite: 62.2
-  shared: 1
-- slug: read-ai
-  name: Read AI
-  description: Read AI is an AI-powered meeting intelligence platform that joins Zoom, Microsoft Teams and Google Meet calls as an authorized notetaker and turns them into structured meeting reports — summaries, chapter summaries, action items, key questions, topics, full speaker-attributed transcripts and engage…
-  api_count: 2
-  score_band: strong
-  score_composite: 61.5
-  shared: 1
-- slug: compresr
-  name: Compresr
-  description: Compresr is an LLM context-compression API. You send the long context you would otherwise pass to a model plus the query you want answered, and Compresr returns a shorter context that keeps the answer-bearing spans and drops the rest — fewer input tokens, lower cost, a longer effective context wind…
-  api_count: 27
-  score_band: strong
-  score_composite: 60.8
+- slug: northbeam
+  name: Northbeam
+  description: Northbeam is a multi-touch marketing attribution platform for e-commerce brands. It joins first-party click and view data collected by its own browser pixel to order-level revenue and to ad spend across every channel, then reports channel, campaign, adset and ad level ROAS, CAC, AOV and creative pe…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 67.0
   shared: 1
 - slug: chili-piper
   name: Chili Piper
   description: Chili Piper is a demand conversion platform for B2B go-to-market teams, founded in 2016 by Alina and Nicolas Vandenberghe and headquartered in New York. Its products - Concierge, Distro, Handoff, Chat AI, Web Experiences, Re-engagement and ChiliCal - turn inbound website visitors and form submissio…
   api_count: 16
-  score_band: strong
-  score_composite: 60.2
+  score_band: exemplar
+  score_composite: 66.5
   shared: 1
-- slug: fastino-labs
-  name: Fastino Labs
-  description: Fastino Labs is an applied research lab building production-ready small language models (SLMs) for agentic AI — structured data extraction, classification, PII detection, and safety moderation. Its Pioneer platform is an agentic fine-tuning and inference API that lets teams generate synthetic train…
-  api_count: 4
-  score_band: strong
-  score_composite: 60.1
-  shared: 1
-- slug: prime-intellect
-  name: Prime Intellect
-  description: Prime Intellect is a San Francisco–based startup building an open and decentralized stack for developing and improving AI agents through reinforcement learning. The company combines a 50+ provider GPU compute marketplace (single-node and 1–256 GPU multi-node clusters across H100, H200, B200, and B3…
-  api_count: 20
-  score_band: strong
-  score_composite: 60.1
-  shared: 1
-- slug: nextroll
-  name: NextRoll
-  description: 'NextRoll, Inc. is a San Francisco-based marketing technology company that operates two brands on a shared machine-learning and identity platform: AdRoll, a cross-channel digital advertising and retargeting platform for ecommerce and D2C marketers, and AdRoll ABM (formerly RollWorks), an account-bas…'
-  api_count: 9
-  score_band: strong
-  score_composite: 59.9
-  shared: 1
-- slug: beyond-presence
-  name: Beyond Presence
-  description: Beyond Presence (brand "bey") is a Europe-based AI company building real-time conversational AI video agents and speech-to-video (S2V) technology. Its platform lets developers deploy hyper-realistic AI video avatars that respond in real time (sub-1.2s latency at up to 1080p) across HR, sales, suppo…
-  api_count: 7
-  score_band: strong
-  score_composite: 59.8
+- slug: flint
+  name: Flint
+  description: Flint (Flint Technologies Inc., tryflint.com / flint.com) is an AI web platform for marketing teams that programmatically generates on-brand, high-converting landing pages and runs autonomous agents — including a Google Ad agent — to keep ad accounts optimized. Its products are Pages (AI-generated…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 66.1
   shared: 1
 related:
+- slug: webhooks
+  name: Webhooks
+  shared: 4
 - slug: machine-learning
   name: Machine Learning
-  shared: 5
+  shared: 3
+- slug: saas-management
+  name: SaaS Management
+  shared: 3
+- slug: scraping
+  name: Scraping
+  shared: 2
+- slug: ai-automation
+  name: AI Automation
+  shared: 2
 - slug: search
   name: API Evangelist Search
   shared: 2
-- slug: saas-management
-  name: SaaS Management
-  shared: 2
-- slug: webhooks
-  name: Webhooks
-  shared: 2
-- slug: plans
-  name: Plans
-  shared: 1
-- slug: ide
-  name: IDE
-  shared: 1
 overview: 'Agents is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents.apievangelist.com](https://agents.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Vapi, Exa, Dust, Buildkite, GitHub Copilot, Landing.ai, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Kit, Vapi, Exa, Gong, Facebook Business Manager, Dust, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Machine Learning, API Evangelist Search, SaaS Management, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Webhooks, Machine Learning, SaaS Management, and Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

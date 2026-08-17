@@ -8,10 +8,24 @@ area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
 provider_count: 1099
 providers:
+- slug: lalal-ai
+  name: LALAL.AI
+  description: LALAL.AI is an AI-powered audio separation and voice technology platform operated by OmniSale GmbH. It uses proprietary neural networks (Andromeda, Perseus, Orion, Phoenix, Lyra, Lynx) to isolate vocals, instruments, drums, bass, guitars, piano, synth, strings, and wind from mixed audio, clean voic…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 70.6
+  shared: 1
 - slug: github-copilot
   name: GitHub Copilot
   description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
   api_count: 12
+  score_band: exemplar
+  score_composite: 70.5
+  shared: 1
+- slug: google-analytics
+  name: Google Analytics
+  description: Google Analytics provides data and insights about website and app usage, enabling businesses to understand their audience and optimize their digital properties through customer-centric measurement, machine learning insights, and cross-platform attribution.
+  api_count: 13
   score_band: exemplar
   score_composite: 70.5
   shared: 1
@@ -50,6 +64,13 @@ providers:
   score_band: exemplar
   score_composite: 68.7
   shared: 1
+- slug: refuel-ai
+  name: Refuel
+  description: Refuel is an AI data-labeling and data-enrichment platform that uses large language models to label, clean, structure and enrich enterprise datasets. Refuel Cloud exposes a REST API at cloud-api.refuel.ai covering projects, datasets, tasks and task runs, taxonomies, seedsets and evalsets, confidenc…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 67.3
+  shared: 1
 - slug: viam
   name: Viam
   description: Viam is a robotics and edge AI platform founded in 2020 by Eliot Horowitz (MongoDB co-founder and former CTO). It pairs viam-server — a gRPC-based runtime that runs on Linux single-board computers (RDK) and ESP32-class microcontrollers (micro-rdk) — with viam.app, a multi-tenant cloud for fleet man…
@@ -70,6 +91,13 @@ providers:
   api_count: 17
   score_band: strong
   score_composite: 65.4
+  shared: 1
+- slug: exec
+  name: Exec
+  description: Exec is an AI-powered roleplay and sales-training platform (exec.com) for practicing high-stakes conversations. Teams run voice-based AI roleplays, automatically score real calls, build structured programs and certifications, coach one-on-one, and manage training content in a Knowledge Hub. The Exe…
+  api_count: 9
+  score_band: strong
+  score_composite: 65.0
   shared: 1
 - slug: tensordock
   name: TensorDock
@@ -183,20 +211,6 @@ providers:
   score_band: strong
   score_composite: 61.0
   shared: 1
-- slug: lalal-ai
-  name: LALAL.AI
-  description: LALAL.AI is an AI-powered audio separation and voice technology platform operated by OmniSale GmbH. It uses proprietary neural networks (Andromeda, Perseus, Orion, Phoenix, Lyra, Lynx) to isolate vocals, instruments, drums, bass, guitars, piano, synth, strings, and wind from mixed audio, clean voic…
-  api_count: 4
-  score_band: strong
-  score_composite: 60.7
-  shared: 1
-- slug: google-analytics
-  name: Google Analytics
-  description: Google Analytics provides data and insights about website and app usage, enabling businesses to understand their audience and optimize their digital properties through customer-centric measurement, machine learning insights, and cross-platform attribution.
-  api_count: 13
-  score_band: strong
-  score_composite: 60.5
-  shared: 1
 - slug: fastino-labs
   name: Fastino Labs
   description: Fastino Labs is an applied research lab building production-ready small language models (SLMs) for agentic AI — structured data extraction, classification, PII detection, and safety moderation. Its Pioneer platform is an agentic fine-tuning and inference API that lets teams generate synthetic train…
@@ -204,30 +218,16 @@ providers:
   score_band: strong
   score_composite: 60.1
   shared: 1
-- slug: amazon-forecast
-  name: Amazon Forecast
-  description: Amazon Forecast is a fully managed service that uses machine learning to deliver highly accurate forecasts. It analyzes your historical time-series data and automatically selects the right machine learning algorithms to generate accurate forecasts with no machine learning expertise required.
-  api_count: 6
-  score_band: strong
-  score_composite: 59.5
-  shared: 1
-- slug: lightricks
-  name: Lightricks
-  description: Lightricks is a Jerusalem-based creative-technology company behind the Facetune, Photoleap and Videoleap consumer apps and the LTX generative video platform. Its developer-facing product is the LTX API at api.ltx.video, a video-generation API covering text-to-video, image-to-video, audio-to-video,…
-  api_count: 3
-  score_band: strong
-  score_composite: 59.5
-  shared: 1
 related:
-- slug: agents
-  name: Agents
-  shared: 5
 - slug: containers
   name: Containers
   shared: 4
 - slug: security
   name: Security
   shared: 4
+- slug: agents
+  name: Agents
+  shared: 3
 - slug: serverless
   name: Serverless
   shared: 2
@@ -240,8 +240,8 @@ related:
 overview: 'Machine Learning is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [machine-learning.apievangelist.com](https://machine-learning.apievangelist.com).
 
 
-  30 providers on the network work in this area, including GitHub Copilot, Amazon SageMaker, IBM, Landing.ai, Anthropic, Amazon Kendra, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including LALAL.AI, GitHub Copilot, Google Analytics, Amazon SageMaker, IBM, Landing.ai, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Agents, Containers, Security, and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, Security, Agents, and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

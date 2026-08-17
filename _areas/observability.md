@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://observability.apievangelist.com
 area_host: observability.apievangelist.com
 icon: https://observability.apievangelist.com/icon-thumb.png
-provider_count: 310
+provider_count: 311
 providers:
 - slug: dynatrace
   name: Dynatrace
@@ -106,6 +106,13 @@ providers:
   score_band: strong
   score_composite: 64.0
   shared: 1
+- slug: foxglove-technologies
+  name: Foxglove Technologies
+  description: Foxglove Technologies, Inc. (foxglove.dev) builds a multimodal data platform for robotics, autonomy and physical AI. Its products cover visualization and debugging of robot data (3D scenes, images, plots, logs, maps), cloud and self-hosted data infrastructure for recording ingest and retention, fle…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.3
+  shared: 1
 - slug: sentry
   name: Sentry
   description: Sentry is a developer-first application monitoring platform that helps software teams discover, triage, and prioritize errors and performance issues in production. Sentry provides real-time error monitoring, performance tracing, session replay, profiling, and release tracking for web, mobile, and b…
@@ -138,6 +145,13 @@ providers:
   name: S2 Dev
   description: S2 ("Stream Store") is the API for unlimited, durable, real-time streams. Where object storage deals with blobs, S2 provides append-able, ordered record streams that can be tailed in real time and replayed from any retained point. Core data-plane operations are append, read, and check-tail; the con…
   api_count: 6
+  score_band: strong
+  score_composite: 61.9
+  shared: 1
+- slug: stack-moxie
+  name: Stack Moxie
+  description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
+  api_count: 1
   score_band: strong
   score_composite: 61.9
   shared: 1
@@ -204,24 +218,10 @@ providers:
   score_band: strong
   score_composite: 59.5
   shared: 1
-- slug: vividcortex
-  name: VividCortex
-  description: VividCortex is a SaaS database performance monitoring platform, now part of SolarWinds and marketed as SolarWinds Database Performance Monitor (DPM). It uses lightweight per-host agents to capture and analyze every query executed against MySQL, PostgreSQL, MongoDB, Redis, Amazon Aurora, and SQL Ser…
-  api_count: 5
-  score_band: strong
-  score_composite: 59.5
-  shared: 1
-- slug: rtcstats
-  name: rtcStats
-  description: SaaS for developers to troubleshoot and monitor WebRTC applications. Users upload webrtc-internals/rtcstats dumps or stream stats to receive metrics, Observations, Deductions, an Experience Score, and an AI root-cause summary. Offers a REST API, a hosted MCP server, and an open-source collection SD…
-  api_count: 1
-  score_band: strong
-  score_composite: 59.5
-  shared: 1
 related:
 - slug: monitoring
   name: Monitoring
-  shared: 12
+  shared: 11
 - slug: logging
   name: Logging
   shared: 4
@@ -231,8 +231,8 @@ related:
 - slug: containers
   name: Containers
   shared: 3
-- slug: webhooks
-  name: Webhooks
+- slug: testing
+  name: Testing
   shared: 3
 - slug: aiops
   name: AIOps

@@ -6,21 +6,28 @@ description: An index and topic collection covering web scraping platforms, prox
 area_url: https://scraping.apievangelist.com
 area_host: scraping.apievangelist.com
 icon: https://scraping.apievangelist.com/icon-thumb.png
-provider_count: 19
+provider_count: 20
 providers:
+- slug: serper
+  name: Serper
+  description: Serper is the world's fastest and most affordable Google Search API, delivering real-time SERP data in 1-2 seconds via a simple REST interface. It supports web search, images, news, maps, places, videos, shopping, scholar, patents, and autocomplete — all returned as structured JSON. Widely used in…
+  api_count: 14
+  score_band: exemplar
+  score_composite: 74.0
+  shared: 1
+- slug: konbiniapi
+  name: KonbiniAPI
+  description: KonbiniAPI is the social data layer for Instagram, TikTok, X, Reddit and LinkedIn, normalizing real-time public profile, post, video, comment, audio, community, subreddit, location and search data into a single consistent ActivityStreams 2.0 (W3C) shape. Sixty-seven endpoints are exposed through on…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 72.8
+  shared: 1
 - slug: oxylabs
   name: Oxylabs
   description: Oxylabs is a Lithuanian (Vilnius-based) web intelligence platform providing premium proxy networks (Residential, Datacenter, Mobile, ISP, Dedicated), web data acquisition APIs (Web Scraper API, SERP Scraper API, E-Commerce Scraper API, Real Estate Scraper API, Web Unblocker, Headless Browser), AI-n…
   api_count: 15
   score_band: strong
   score_composite: 57.9
-  shared: 1
-- slug: konbiniapi
-  name: KonbiniAPI
-  description: KonbiniAPI is the social data layer for Instagram and TikTok, normalizing real-time public profile, post, video, comment, audio, location, and search data into a consistent ActivityStreams 2.0 (W3C) format. The service exposes one Bearer-authenticated REST API and an MCP (Model Context Protocol) in…
-  api_count: 2
-  score_band: strong
-  score_composite: 57.1
   shared: 1
 - slug: spider-cloud
   name: Spider
@@ -145,14 +152,23 @@ related:
 - slug: api-proxies
   name: API Proxies
   shared: 4
+- slug: agents
+  name: Agents
+  shared: 2
+- slug: search
+  name: API Evangelist Search
+  shared: 1
+- slug: agents-skills
+  name: Agent Skills
+  shared: 1
 - slug: dns
   name: DNS
   shared: 1
 overview: 'Scraping is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [scraping.apievangelist.com](https://scraping.apievangelist.com).
 
 
-  19 providers on the network work in this area, including Oxylabs, KonbiniAPI, Spider, Firecrawl, Frostbyte, Notte, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  20 providers on the network work in this area, including Serper, KonbiniAPI, Oxylabs, Spider, Firecrawl, Frostbyte, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Proxies and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Proxies, Agents, API Evangelist Search, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -6,8 +6,15 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 173
+provider_count: 175
 providers:
+- slug: bloomreach
+  name: Bloomreach
+  description: Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs f…
+  api_count: 24
+  score_band: exemplar
+  score_composite: 87.4
+  shared: 1
 - slug: exa-ai
   name: Exa
   description: Exa is a web search API and AI research platform built specifically for LLMs and agents — semantic and keyword search across the open web with token-efficient highlights, structured outputs, sub-200ms latency tiers, and verticals for code, companies, news, people, research, and financials. The plat…
@@ -15,12 +22,40 @@ providers:
   score_band: exemplar
   score_composite: 76.9
   shared: 1
+- slug: serper
+  name: Serper
+  description: Serper is the world's fastest and most affordable Google Search API, delivering real-time SERP data in 1-2 seconds via a simple REST interface. It supports web search, images, news, maps, places, videos, shopping, scholar, patents, and autocomplete — all returned as structured JSON. Widely used in…
+  api_count: 14
+  score_band: exemplar
+  score_composite: 74.0
+  shared: 1
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 15
   score_band: exemplar
   score_composite: 72.5
+  shared: 1
+- slug: google-search-console
+  name: Google Search Console
+  description: 'Google Search Console gives site owners programmatic access to how their site appears in Google Search. Three separately versioned Google APIs make up the surface: the Search Console API for search analytics, sitemaps, site management and URL inspection; the URL Testing Tools API for the mobile-fri…'
+  api_count: 6
+  score_band: exemplar
+  score_composite: 72.2
+  shared: 1
+- slug: google-indexing
+  name: Google Indexing
+  description: The Google Indexing API lets a site owner tell Google directly when a page has been added, updated, or removed, instead of waiting for a crawl. It is a two-operation API — publish a URL notification, and read back the latest notification metadata for a URL. Google restricts its use to pages carryin…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 69.4
+  shared: 1
+- slug: insider
+  name: Insider
+  description: Insider (rebranded Insider One; useinsider.com now redirects to insiderone.com) is an AI-native customer engagement and personalization platform used by 2,000+ global brands. It unifies a Customer Data Platform, cross-channel journey orchestration (Architect), personalization, predictive segmentati…
+  api_count: 19
+  score_band: strong
+  score_composite: 64.1
   shared: 1
 - slug: vectara
   name: Vectara
@@ -35,6 +70,13 @@ providers:
   api_count: 9
   score_band: strong
   score_composite: 61.7
+  shared: 1
+- slug: clerk-io
+  name: Clerk.io
+  description: Clerk.io is an e-commerce personalization platform that uses artificial intelligence and machine learning to deliver tailored product recommendations, on-site search results, audience-segmented email campaigns, and merchandising controls for online retailers. The platform exposes a REST API for pro…
+  api_count: 2
+  score_band: strong
+  score_composite: 61.1
   shared: 1
 - slug: amazon-opensearch-service
   name: Amazon OpenSearch Service
@@ -120,19 +162,19 @@ providers:
   score_band: strong
   score_composite: 56.5
   shared: 1
+- slug: mcp360
+  name: MCP360
+  description: MCP360 is a hosted unified Model Context Protocol gateway operated by Delta4 Infotech Pvt. Ltd. that gives AI agents access to 38 tool services — 106 individual tools — through a single credentialed endpoint, plus a no-code Custom MCP Builder that wraps any REST API as an MCP server. Every service…
+  api_count: 38
+  score_band: strong
+  score_composite: 56.5
+  shared: 1
 - slug: amazon-cloudsearch
   name: Amazon CloudSearch
   description: Amazon CloudSearch is a managed search service that makes it easy to set up, manage, and scale a search solution for your website or application. Supports full-text search, Boolean search, faceted search, autocomplete, geospatial search, and 34 languages.
   api_count: 2
   score_band: developing
   score_composite: 55.7
-  shared: 1
-- slug: mcp360
-  name: MCP360
-  description: MCP360 is a hosted unified Model Context Protocol gateway operated by Delta4 Infotech Pvt. Ltd. that gives AI agents access to 38 tool services — 106 individual tools — through a single credentialed endpoint, plus a no-code Custom MCP Builder that wraps any REST API as an MCP server. Every service…
-  api_count: 38
-  score_band: developing
-  score_composite: 55.2
   shared: 1
 - slug: newscatcher
   name: Newscatcher
@@ -176,48 +218,6 @@ providers:
   score_band: developing
   score_composite: 54.3
   shared: 1
-- slug: aito-technologies
-  name: Aito Technologies
-  description: Aito Technologies (Aito.ai, legal entity Episto Oy of Vantaa, Finland) builds a predictive database that delivers instant, calibrated machine-learning predictions from live business data with no model training. Its REST Query API exposes a SQL-like JSON interface for prediction, recommendation, sim…
-  api_count: 3
-  score_band: developing
-  score_composite: 53.7
-  shared: 1
-- slug: tako
-  name: Tako
-  description: Tako is an AI answer-engine API for authoritative, source-grounded data. It serves live financial, macroeconomic, and company data as cited answers, structured knowledge cards (charts, tables, maps), and embeddable visualizations for agents and applications. Developers build with four core APIs — S…
-  api_count: 2
-  score_band: developing
-  score_composite: 53.4
-  shared: 1
-- slug: wikimedia
-  name: Wikimedia
-  description: Wikimedia provides REST APIs for accessing Wikipedia, Wikidata, Commons, and other Wikimedia project content including page summaries, search, media files, page revision history, and usage metrics. The suite includes the MediaWiki Action API for bot and edit operations, the MediaWiki REST API for m…
-  api_count: 20
-  score_band: developing
-  score_composite: 53.4
-  shared: 1
-- slug: google-custom-search
-  name: Google Custom Search
-  description: The Google Custom Search JSON API allows programmatic searches over a website or collection of websites. It returns metadata about the search performed, metadata about the search engine used, and the search results including web pages and images.
-  api_count: 1
-  score_band: developing
-  score_composite: 52.9
-  shared: 1
-- slug: scribe
-  name: Scribe
-  description: Scribe (scribehow) is an AI workflow-documentation platform founded in 2019 that automatically turns any process or software walkthrough into a step-by-step guide. Its products — Scribe Capture, the knowledge base, and the newer Scribe Optimize workflow-mapping platform — are used by more than five…
-  api_count: 3
-  score_band: developing
-  score_composite: 52.7
-  shared: 1
-- slug: artlist
-  name: Artlist
-  description: Artlist is a creative-assets platform for video creators, marketers and brands, licensing royalty-free music, sound effects, stock footage, video templates, LUTs and editing plugins alongside a generative AI toolkit. The Artlist Enterprise API, published at developer.artlist.io, opens the company's…
-  api_count: 5
-  score_band: developing
-  score_composite: 52.6
-  shared: 1
 related:
 - slug: agents
   name: Agents
@@ -228,20 +228,20 @@ related:
 - slug: network
   name: Network
   shared: 1
+- slug: scraping
+  name: Scraping
+  shared: 1
 - slug: discovery
   name: API Evangelist Discovery
   shared: 1
 - slug: developer-experience
   name: Developer Experience
   shared: 1
-- slug: documentation
-  name: Documentation
-  shared: 1
 overview: 'API Evangelist Search is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [search.apievangelist.com](https://search.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Exa, Shodan, Vectara, Vespa, Amazon OpenSearch Service, Mixedbread, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Bloomreach, Exa, Serper, Shodan, Google Search Console, Google Indexing, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Agents, DNS, Network, and API Evangelist Discovery. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agents, DNS, Network, and Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

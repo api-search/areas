@@ -6,7 +6,7 @@ description: AI automation combines artificial intelligence with workflow and pr
 area_url: https://ai-automation.apievangelist.com
 area_host: ai-automation.apievangelist.com
 icon: https://ai-automation.apievangelist.com/icon-thumb.png
-provider_count: 493
+provider_count: 496
 providers:
 - slug: xquik-api
   name: Xquik
@@ -15,6 +15,48 @@ providers:
   score_band: exemplar
   score_composite: 89.7
   shared: 1
+- slug: convertkit
+  name: Kit
+  description: Kit (formerly ConvertKit) is a creator email marketing platform whose REST API v4 covers subscribers, tags, custom fields, forms and landing pages, sequences, broadcasts, snippets, posts, purchases, segments and webhooks across 72 operations on https://api.kit.com/v4. It authenticates with an X-Kit…
+  api_count: 14
+  score_band: exemplar
+  score_composite: 82.6
+  shared: 1
+- slug: ada
+  name: Ada
+  description: Ada is an AI-powered customer service automation platform that enables enterprises to deploy AI agents capable of resolving customer inquiries across digital channels without human intervention. The platform exposes a suite of REST APIs for managing knowledge bases, end-user profiles, conversation…
+  api_count: 14
+  score_band: exemplar
+  score_composite: 82.3
+  shared: 1
+- slug: brevo
+  name: Brevo
+  description: Brevo (formerly Sendinblue) is a French customer-relationship platform that combines email marketing, transactional email and SMTP relay, transactional and campaign SMS, WhatsApp messaging, web and mobile push, live chat, a sales CRM, an ecommerce attribution layer and a loyalty and rewards engine…
+  api_count: 29
+  score_band: exemplar
+  score_composite: 80.2
+  shared: 1
+- slug: salesforce-marketing-cloud
+  name: Salesforce Marketing Cloud
+  description: 'Salesforce Marketing Cloud Engagement is an enterprise digital marketing platform for customer journeys, email marketing, mobile messaging (SMS/MMS and push), advertising, content management and marketing data. Its API surface is tenant-scoped: every REST call goes to https://{subdomain}.rest.marke…'
+  api_count: 17
+  score_band: exemplar
+  score_composite: 77.5
+  shared: 1
+- slug: klaviyo
+  name: Klaviyo
+  description: Klaviyo is a marketing automation and customer data platform built for ecommerce. Build custom integrations to bring data into Klaviyo to create personalized experiences across email, SMS, mobile push, and more. The Klaviyo API exposes profiles, events, lists, segments, campaigns, flows, catalogs,…
+  api_count: 23
+  score_band: exemplar
+  score_composite: 75.8
+  shared: 1
+- slug: canva
+  name: Canva
+  description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run…'
+  api_count: 15
+  score_band: exemplar
+  score_composite: 75.2
+  shared: 1
 - slug: dynatrace
   name: Dynatrace
   description: Dynatrace is a software intelligence platform that provides application performance monitoring, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management.
@@ -22,12 +64,33 @@ providers:
   score_band: exemplar
   score_composite: 74.6
   shared: 1
+- slug: postiz
+  name: Postiz
+  description: Postiz is an open-source social media scheduling and management platform for posting across 30+ social, video, community, and blogging channels from a single calendar. It ships as a free AGPL-licensed self-hosted app and as a paid managed Cloud. The Postiz Public API uses simple API-key auth to lis…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 74.2
+  shared: 1
+- slug: benchmark-email
+  name: Benchmark Email
+  description: Benchmark Email is an email marketing platform for small businesses, run by Benchmark Internet Group, with two live REST API generations. The current Benchmark Email API on the benchmarkemail.io platform covers contacts, contact structures and custom fields, lists, campaigns, templates, sending dom…
+  api_count: 30
+  score_band: exemplar
+  score_composite: 72.0
+  shared: 1
 - slug: uipath
   name: UiPath
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
   api_count: 32
   score_band: exemplar
   score_composite: 71.2
+  shared: 1
+- slug: plunk
+  name: Plunk
+  description: Plunk is an open-source (AGPL-3.0) email platform for developers that unifies transactional email, marketing campaigns, contact segmentation and event-driven workflow automation behind a single REST API. It publishes its own OpenAPI 3.1.0 at docs.useplunk.com/openapi.json, declaring next-api.useplu…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 70.7
   shared: 1
 - slug: servicenow
   name: ServiceNow
@@ -43,10 +106,45 @@ providers:
   score_band: exemplar
   score_composite: 69.4
   shared: 1
+- slug: campaignmonitor
+  name: Campaign Monitor
+  description: Campaign Monitor, a Marigold brand, is an email marketing platform for marketers and agencies. Its REST API — served under the original createsend name at api.createsend.com/api/v3.3 — manages clients, subscriber lists, subscribers and custom fields, segments, campaigns, HTML templates, automated j…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 69.2
+  shared: 1
+- slug: smartlead-ai
+  name: Smartlead
+  description: Smartlead is cold email infrastructure for outbound sales and lead generation, focused on inbox deliverability through unlimited mailbox rotation, automated warmup, and a unified master inbox. Smartlead publishes an OpenAPI 3.1.1 contract with 98 operations at server.smartlead.ai/api/v1 covering ca…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 68.0
+  shared: 1
+- slug: adobe-suite
+  name: Adobe Suite
+  description: 'Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation…'
+  api_count: 32
+  score_band: exemplar
+  score_composite: 67.5
+  shared: 1
+- slug: mailerlite
+  name: MailerLite
+  description: MailerLite is an email marketing and automation platform used by creators, e-commerce sellers and small businesses to build lists, send campaigns and run behavioural automations. The current REST API at connect.mailerlite.com exposes subscribers, groups, segments, custom fields, campaigns, automati…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 67.0
+  shared: 1
 - slug: cloudformation
   name: AWS CloudFormation
   description: A collection of APIs provided by AWS for infrastructure as code provisioning and management of AWS and third-party resources using CloudFormation templates and the Cloud Control API.
   api_count: 13
+  score_band: exemplar
+  score_composite: 66.8
+  shared: 1
+- slug: salesflare
+  name: Salesflare
+  description: Salesflare is an intelligent CRM built for B2B startups and small businesses that automates data input by pulling contact and company information from emails, calendars, phone logs, and social profiles. The platform provides a REST API for programmatically managing accounts, contacts, opportunities…
+  api_count: 20
   score_band: exemplar
   score_composite: 66.8
   shared: 1
@@ -56,6 +154,13 @@ providers:
   api_count: 20
   score_band: exemplar
   score_composite: 66.7
+  shared: 1
+- slug: clay-com
+  name: Clay
+  description: Clay is an AI-native sales prospecting and GTM data orchestration platform built around Clay Tables — spreadsheet-like workspaces that combine 150+ data providers, AI research agents, and outbound automations. Clay's developer surface is integration-oriented rather than a traditional public REST AP…
+  api_count: 8
+  score_band: exemplar
+  score_composite: 66.5
   shared: 1
 - slug: coasty
   name: Coasty
@@ -106,142 +211,37 @@ providers:
   score_band: strong
   score_composite: 62.7
   shared: 1
-- slug: bluma
-  name: Bluma
-  description: Bluma is a San Francisco-based AI company (Y Combinator Fall 2025) building a short-form AI content engine that lets creators, agencies, and brands produce social media video ads at scale. The platform "de-edits" existing reference videos into their individual scenes, captions, and overlays, then u…
-  api_count: 2
-  score_band: strong
-  score_composite: 60.1
-  shared: 1
-- slug: cobalt
-  name: Cobalt
-  description: Traditional integrations are slow, fragmented, and hinder growth. Cobalt is changing that. A next-gen integration platform with 1,000+ connectors and AI-driven automation redefining how businesses integrate, operate, and scale.
-  api_count: 10
-  score_band: strong
-  score_composite: 58.9
-  shared: 1
-- slug: amazon-data-pipeline
-  name: Amazon Data Pipeline
-  description: AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it is stored, transform and process it a…
+- slug: dotdigital
+  name: Dotdigital
+  description: 'Dotdigital is a UK-headquartered customer engagement platform (LSE: DOTD) whose Marketing product combines email, SMS, MMS, WhatsApp, push, app messaging, chat and web personalization behind one contact database. Its API estate is unusually large and unusually well published: 42 OpenAPI description…'
   api_count: 4
   score_band: strong
-  score_composite: 58.7
-  shared: 1
-- slug: amazon-data-lifecycle-manager
-  name: Amazon Data Lifecycle Manager
-  description: Amazon Data Lifecycle Manager provides an automated way to manage the lifecycle of your AWS resources. Using lifecycle policies, you can automate the creation, retention, and deletion of Amazon EBS snapshots and EBS-backed AMIs, reducing storage costs and simplifying backup management. Policies tar…
-  api_count: 2
-  score_band: strong
-  score_composite: 58.5
-  shared: 1
-- slug: canva
-  name: Canva
-  description: APIs for the Canva design platform, enabling developers to integrate Canva's design tools and functionality into their applications.
-  api_count: 12
-  score_band: strong
-  score_composite: 58.4
-  shared: 1
-- slug: kubernetes
-  name: Kubernetes
-  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
-  api_count: 7
-  score_band: strong
-  score_composite: 58.3
-  shared: 1
-- slug: amazon-datasync
-  name: Amazon DataSync
-  description: AWS DataSync is an online data transfer service that simplifies, automates, and accelerates moving data between on-premises storage systems, AWS storage services, and other cloud storage. DataSync can transfer data at speeds up to 10 times faster than open-source tools by using purpose-built networ…
-  api_count: 6
-  score_band: strong
-  score_composite: 57.9
-  shared: 1
-- slug: sauce-labs
-  name: Sauce Labs
-  description: Sauce Labs is a cloud-based cross-browser and mobile app testing platform trusted by over 100,000 customers worldwide. It provides a comprehensive set of REST APIs for managing test jobs, devices, builds, insights, and results across virtual and real device clouds. The platform supports automated t…
-  api_count: 9
-  score_band: strong
-  score_composite: 57.8
-  shared: 1
-- slug: tray-ai
-  name: Tray.ai
-  description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
-  api_count: 12
-  score_band: strong
-  score_composite: 57.6
-  shared: 1
-- slug: gumloop
-  name: Gumloop
-  description: Gumloop is an AI-agent automation platform for building, deploying, and governing agents that automate real work — data analysis, customer support, CRM management, and back-office tasks — across tools like Slack, Microsoft Teams, and Gmail. Its public REST API (https://api.gumloop.com/api/v1) expos…
-  api_count: 14
-  score_band: strong
-  score_composite: 57.5
-  shared: 1
-- slug: salesforce-automation
-  name: Salesforce Automation
-  description: A collection of Salesforce APIs for automating business processes, sales operations, and customer relationship management.
-  api_count: 42
-  score_band: strong
-  score_composite: 57.0
-  shared: 1
-- slug: f5-networks
-  name: F5 Networks
-  description: F5 Networks is a leader in application delivery networking technology that specializes in application availability, acceleration, and security solutions.
-  api_count: 14
-  score_band: strong
-  score_composite: 56.9
-  shared: 1
-- slug: klaviyo
-  name: Klaviyo
-  description: Klaviyo is a marketing automation and customer data platform built for ecommerce. Build custom integrations to bring data into Klaviyo to create personalized experiences across email, SMS, mobile push, and more. The Klaviyo API exposes profiles, events, lists, segments, campaigns, flows, catalogs,…
-  api_count: 23
-  score_band: strong
-  score_composite: 56.9
-  shared: 1
-- slug: amazon-incident-manager
-  name: Amazon Incident Manager
-  description: AWS Systems Manager Incident Manager is an incident management console designed to help users mitigate and recover from incidents affecting their AWS-hosted applications. It enables faster incident resolution by automating response plans and engaging responders across notification channels.
-  api_count: 27
-  score_band: strong
-  score_composite: 56.6
-  shared: 1
-- slug: amazon-iot-events
-  name: Amazon IoT Events
-  description: AWS IoT Events is a managed service that makes it easy to detect and respond to events from IoT sensors and applications. You can use it to build complex event detection logic, create state machines for IoT workflows, and trigger alerts or actions when specific conditions are met.
-  api_count: 8
-  score_band: strong
-  score_composite: 56.6
-  shared: 1
-- slug: adobe-premiere
-  name: Adobe Premiere Pro
-  description: APIs for Adobe Premiere Pro, a professional video editing software that enables programmatic access to video editing, project management, and content creation workflows.
-  api_count: 4
-  score_band: strong
-  score_composite: 56.4
+  score_composite: 62.2
   shared: 1
 related:
-- slug: orchestration
-  name: Orchestration
-  shared: 4
+- slug: webhooks
+  name: Webhooks
+  shared: 5
 - slug: workflow-automation
   name: Workflow Automation
   shared: 4
-- slug: embedded-ipaas
-  name: Embedded iPaaS
+- slug: orchestration
+  name: Orchestration
   shared: 3
-- slug: testing
-  name: Testing
+- slug: saas-management
+  name: SaaS Management
   shared: 3
-- slug: integrations
-  name: Integrations
+- slug: agents
+  name: Agents
   shared: 2
-- slug: ipaas
-  name: iPaaS
+- slug: design
+  name: Design
   shared: 2
 overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ai-automation.apievangelist.com](https://ai-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Xquik, Dynatrace, UiPath, ServiceNow, Postman, AWS CloudFormation, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Xquik, Kit, Ada, Brevo, Salesforce Marketing Cloud, Klaviyo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Orchestration, Workflow Automation, Embedded iPaaS, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Webhooks, Workflow Automation, Orchestration, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

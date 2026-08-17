@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 110
+provider_count: 111
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -20,7 +20,14 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 21
   score_band: exemplar
-  score_composite: 75.7
+  score_composite: 84.1
+  shared: 1
+- slug: common-room
+  name: Common Room
+  description: Common Room is an AI-native go-to-market and buyer-intelligence platform that unifies first-party product, community, social, web and CRM signals into a single identity-resolved view of contacts and organizations. It exposes a v1 Core REST API for ingesting contacts and activity from your own sourc…
+  api_count: 23
+  score_band: exemplar
+  score_composite: 75.2
   shared: 1
 - slug: plandex
   name: Plandex
@@ -211,13 +218,6 @@ providers:
   score_band: thin
   score_composite: 35.6
   shared: 1
-- slug: bruin
-  name: Bruin
-  description: Bruin is an end-to-end, open-source AI data platform that consolidates data ingestion, SQL and Python transformation, orchestration, quality checks, column-level lineage, and natural-language analytics into a single Git-native tool - positioned as a replacement for a fragmented Fivetran + dbt + Air…
-  api_count: 0
-  score_band: thin
-  score_composite: 35.3
-  shared: 1
 related:
 - slug: api-clients
   name: API Clients
@@ -240,7 +240,7 @@ related:
 overview: 'Command Line Interface is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [cli.apievangelist.com](https://cli.apievangelist.com).
 
 
-  30 providers on the network work in this area, including AWS CLI, Svix, Plandex, Ploy, Continue, Qfex, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including AWS CLI, Svix, Common Room, Plandex, Ploy, Continue, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Clients, Webhooks, Plans, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'

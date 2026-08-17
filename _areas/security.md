@@ -148,6 +148,13 @@ providers:
   score_band: strong
   score_composite: 62.4
   shared: 1
+- slug: emailrep
+  name: EmailRep
+  description: EmailRep is an email address reputation and threat-intelligence API operated by Sublime Security, Inc. It crawls and enriches data across social media profiles, professional networking sites, dark-web credential leaks, data breaches, phishing kits, phishing emails, spam lists, open mail relays, spa…
+  api_count: 2
+  score_band: strong
+  score_composite: 62.3
+  shared: 1
 - slug: amazon-vpc
   name: Amazon VPC
   description: Amazon Virtual Private Cloud (VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define, with complete control over IP addressing, subnets, routing, and network gateways.
@@ -210,13 +217,6 @@ providers:
   api_count: 13
   score_band: strong
   score_composite: 60.4
-  shared: 1
-- slug: axway
-  name: Axway
-  description: Axway provides API management, integration, and security solutions enabling organizations to connect, secure, and manage APIs across hybrid IT environments. Axway offers the Amplify platform for API management and a range of integration and security products for enterprises.
-  api_count: 33
-  score_band: strong
-  score_composite: 60.1
   shared: 1
 related:
 - slug: containers

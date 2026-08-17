@@ -30,9 +30,6 @@ providers:
   score_composite: 27.7
   shared: 1
 related:
-- slug: agents
-  name: Agents
-  shared: 1
 - slug: cli
   name: Command Line Interface
   shared: 1
@@ -42,5 +39,5 @@ overview: 'Plans is one of the API Evangelist areas on the [APIs.io](https://api
   Providers on the network working in this area include Plandex, Fieldwire, and PriceOps — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Agents and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

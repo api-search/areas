@@ -219,12 +219,12 @@ providers:
   score_composite: 43.7
   shared: 1
 related:
-- slug: ai-automation
-  name: AI Automation
-  shared: 4
 - slug: containers
   name: Containers
   shared: 4
+- slug: ai-automation
+  name: AI Automation
+  shared: 3
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 2
@@ -243,5 +243,5 @@ overview: 'Orchestration is one of the API Evangelist areas on the [APIs.io](htt
   30 providers on the network work in this area, including UiPath, Inngest, Workato, Workday Extend, Azure Kubernetes Service, Amazon ECS, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: AI Automation, Containers, Embedded iPaaS, and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, AI Automation, Embedded iPaaS, and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

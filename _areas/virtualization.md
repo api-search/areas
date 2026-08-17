@@ -13,7 +13,7 @@ providers:
   description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
   api_count: 21
   score_band: strong
-  score_composite: 57.2
+  score_composite: 59.0
   shared: 1
 - slug: vmware
   name: VMware

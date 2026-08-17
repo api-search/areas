@@ -22,6 +22,13 @@ providers:
   score_band: exemplar
   score_composite: 67.9
   shared: 1
+- slug: whoop
+  name: WHOOP
+  description: WHOOP is a fitness and recovery wearable platform providing a REST API for accessing sleep, recovery, strain, and workout metrics from the WHOOP band. The API uses OAuth 2.0 authorization code flow with Bearer tokens to allow developers to build applications that access member health and performanc…
+  api_count: 7
+  score_band: strong
+  score_composite: 59.5
+  shared: 1
 - slug: amazon-global-accelerator
   name: Amazon Global Accelerator
   description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the AWS global network to optimize the path from users to applic…
@@ -56,13 +63,6 @@ providers:
   api_count: 14
   score_band: developing
   score_composite: 48.3
-  shared: 1
-- slug: whoop
-  name: WHOOP
-  description: WHOOP is a fitness and recovery wearable platform providing a REST API for accessing sleep, recovery, strain, and workout metrics from the WHOOP band. The API uses OAuth 2.0 authorization code flow with Bearer tokens to allow developers to build applications that access member health and performanc…
-  api_count: 7
-  score_band: developing
-  score_composite: 47.7
   shared: 1
 - slug: unravel-data-systems
   name: Unravel Data Systems
@@ -240,7 +240,7 @@ related:
 overview: 'Performance is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [performance.apievangelist.com](https://performance.apievangelist.com).
 
 
-  30 providers on the network work in this area, including New Relic, Factorial, Amazon Global Accelerator, Google Cloud Trace, Virtana (Virtual Instruments), Google Cloud Profiler, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including New Relic, Factorial, WHOOP, Amazon Global Accelerator, Google Cloud Trace, Virtana (Virtual Instruments), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Analysis, Caching, AIOps, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'

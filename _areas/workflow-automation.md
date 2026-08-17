@@ -6,8 +6,15 @@ description: This is the index of workflow automation service and tooling repos 
 area_url: https://workflow-automation.apievangelist.com
 area_host: workflow-automation.apievangelist.com
 icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-provider_count: 672
+provider_count: 678
 providers:
+- slug: plunk
+  name: Plunk
+  description: Plunk is an open-source (AGPL-3.0) email platform for developers that unifies transactional email, marketing campaigns, contact segmentation and event-driven workflow automation behind a single REST API. It publishes its own OpenAPI 3.1.0 at docs.useplunk.com/openapi.json, declaring next-api.useplu…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 70.7
+  shared: 2
 - slug: servicenow
   name: ServiceNow
   description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
@@ -211,13 +218,6 @@ providers:
   score_band: emerging
   score_composite: 26.6
   shared: 2
-- slug: integrately
-  name: Integrately
-  description: Integrately is a one-click workflow automation platform offering 20 million+ ready-to-use automations across 1500+ applications. It positions itself as a no-code, lower-cost alternative to other iPaaS and workflow tools, using SmartConnect technology to auto-detect connections between apps and bund…
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.1
-  shared: 2
 related:
 - slug: ipaas
   name: iPaaS
@@ -231,10 +231,16 @@ related:
 - slug: orchestration
   name: Orchestration
   shared: 2
+- slug: saas-management
+  name: SaaS Management
+  shared: 1
+- slug: webhooks
+  name: Webhooks
+  shared: 1
 overview: 'Workflow Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [workflow-automation.apievangelist.com](https://workflow-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including ServiceNow, Appian, Workato, Gumloop, Amazon Simple Workflow Service, Microsoft Power Automate, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Plunk, ServiceNow, Appian, Workato, Gumloop, Amazon Simple Workflow Service, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: iPaaS, AI Automation, Embedded iPaaS, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'

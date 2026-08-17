@@ -8,19 +8,19 @@ area_host: discovery.apievangelist.com
 icon: https://discovery.apievangelist.com/icon-thumb.png
 provider_count: 39
 providers:
+- slug: taboola
+  name: Taboola
+  description: 'Taboola (NASDAQ: TBLA) is a New-York-headquartered native and discovery advertising company founded in 2007 by Adam Singolda. Its Realize performance marketing platform serves recommendation widgets across major publishers (a 30-year exclusive partnership with Yahoo since 2022) and offers advertise…'
+  api_count: 16
+  score_band: exemplar
+  score_composite: 78.3
+  shared: 1
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 39
   score_band: exemplar
   score_composite: 69.4
-  shared: 1
-- slug: taboola
-  name: Taboola
-  description: 'Taboola (NASDAQ: TBLA) is a New-York-headquartered native and discovery advertising company founded in 2007 by Adam Singolda. Its Realize performance marketing platform serves recommendation widgets across major publishers (a 30-year exclusive partnership with Yahoo since 2022) and offers advertise…'
-  api_count: 16
-  score_band: strong
-  score_composite: 59.4
   shared: 1
 - slug: tmdb
   name: The Movie Database
@@ -228,20 +228,14 @@ related:
 - slug: search
   name: API Evangelist Search
   shared: 1
-- slug: agents-skills
-  name: Agent Skills
-  shared: 1
-- slug: integrations
-  name: Integrations
-  shared: 1
 - slug: testing
   name: Testing
   shared: 1
 overview: 'API Evangelist Discovery is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [discovery.apievangelist.com](https://discovery.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, Taboola, The Movie Database, Google Cloud Migration Center, Amazon Resource Explorer, WorldCat, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Taboola, Postman, The Movie Database, Google Cloud Migration Center, Amazon Resource Explorer, WorldCat, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, AI Automation, API Evangelist Search, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, AI Automation, API Evangelist Search, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -187,9 +187,6 @@ related:
 - slug: unified-apis
   name: Unified APIs
   shared: 1
-- slug: agents-skills
-  name: Agent Skills
-  shared: 2
 - slug: agents
   name: Agents
   shared: 1
@@ -208,5 +205,5 @@ overview: 'IDE is one of the API Evangelist areas on the [APIs.io](https://apis.
   25 providers on the network work in this area, including GitHub Copilot, Anysphere, Choreo, Workday Studio, VS Code Marketplace, Amazon Cloud9, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Unified APIs, Agent Skills, Agents, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Unified APIs, Agents, FinOps, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

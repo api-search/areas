@@ -8,6 +8,13 @@ area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
 provider_count: 186
 providers:
+- slug: dun-and-bradstreet
+  name: Dun & Bradstreet
+  description: Dun & Bradstreet is a leading global provider of business decisioning data and analytics, anchored by the D-U-N-S Number — a unique nine-digit identifier assigned to more than 500 million businesses worldwide. Founded in 1841 as The Mercantile Agency in New York City and now headquartered in Jackso…
+  api_count: 16
+  score_band: exemplar
+  score_composite: 75.2
+  shared: 1
 - slug: new-relic
   name: New Relic
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
@@ -78,6 +85,13 @@ providers:
   score_band: strong
   score_composite: 62.1
   shared: 1
+- slug: stack-moxie
+  name: Stack Moxie
+  description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.9
+  shared: 1
 - slug: oracle-enterprise-manager
   name: Oracle Enterprise Manager
   description: Oracle Enterprise Manager (OEM) provides a comprehensive management platform for managing Oracle IT infrastructure and applications. The APIs enable programmatic access to monitoring, administration, and automation capabilities.
@@ -105,13 +119,6 @@ providers:
   api_count: 13
   score_band: strong
   score_composite: 60.4
-  shared: 1
-- slug: dun-and-bradstreet
-  name: Dun & Bradstreet
-  description: Dun & Bradstreet is a leading global provider of business decisioning data and analytics, anchored by the D-U-N-S Number — a unique nine-digit identifier assigned to more than 500 million businesses worldwide. Founded in 1841 as The Mercantile Agency in New York City and now headquartered in Jackso…
-  api_count: 15
-  score_band: strong
-  score_composite: 59.6
   shared: 1
 - slug: vividcortex
   name: VividCortex
@@ -211,17 +218,10 @@ providers:
   score_band: developing
   score_composite: 55.8
   shared: 1
-- slug: opsgenie
-  name: OpsGenie
-  description: OpsGenie is an incident management and alerting platform, now part of Atlassian, that helps operations teams manage on-call schedules, route alerts, and coordinate incident response. The OpsGenie developer platform provides a comprehensive set of REST APIs for programmatically managing alerts, inci…
-  api_count: 15
-  score_band: developing
-  score_composite: 55.2
-  shared: 1
 related:
 - slug: observability
   name: Observability
-  shared: 12
+  shared: 11
 - slug: security
   name: Security
   shared: 3
@@ -240,7 +240,7 @@ related:
 overview: 'Monitoring is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monitoring.apievangelist.com](https://monitoring.apievangelist.com).
 
 
-  30 providers on the network work in this area, including New Relic, Raygun, Splunk, Embrace, ControlUp, Laravel, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Dun & Bradstreet, New Relic, Raygun, Splunk, Embrace, ControlUp, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, Security, Containers, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'

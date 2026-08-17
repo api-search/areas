@@ -22,6 +22,13 @@ providers:
   score_band: exemplar
   score_composite: 69.4
   shared: 1
+- slug: stack-moxie
+  name: Stack Moxie
+  description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.9
+  shared: 1
 - slug: tricentis
   name: Tricentis
   description: Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, Tosca Cloud), AI-driven test management (qTest), performance t…
@@ -211,25 +218,18 @@ providers:
   score_band: developing
   score_composite: 46.6
   shared: 1
-- slug: limrun
-  name: Limrun
-  description: Limrun (Limrun, Inc.) is a Y Combinator-backed cloud infrastructure company for mobile development, built so cloud coding agents and Linux CI runners can build, run, and test iOS and Android apps without a Mac. Limrun exposes three composable cloud services behind one REST control plane at api.limr…
-  api_count: 7
-  score_band: developing
-  score_composite: 46.5
-  shared: 1
 related:
+- slug: observability
+  name: Observability
+  shared: 3
 - slug: ai-automation
   name: AI Automation
-  shared: 3
+  shared: 2
 - slug: developer-experience
   name: Developer Experience
   shared: 2
 - slug: documentation
   name: Documentation
-  shared: 2
-- slug: observability
-  name: Observability
   shared: 2
 - slug: proxy
   name: Proxy
@@ -240,8 +240,8 @@ related:
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including UiPath, Postman, Tricentis, Coval, Treblle, Amazon CodeBuild, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including UiPath, Postman, Stack Moxie, Tricentis, Coval, Treblle, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: AI Automation, Developer Experience, Documentation, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, AI Automation, Developer Experience, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

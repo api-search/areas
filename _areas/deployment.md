@@ -222,9 +222,6 @@ related:
 - slug: containers
   name: Containers
   shared: 4
-- slug: ai-automation
-  name: AI Automation
-  shared: 1
 - slug: dns
   name: DNS
   shared: 1
@@ -237,11 +234,14 @@ related:
 - slug: monitoring
   name: Monitoring
   shared: 1
+- slug: observability
+  name: Observability
+  shared: 1
 overview: 'Deployment is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deployment.apievangelist.com](https://deployment.apievangelist.com).
 
 
   30 providers on the network work in this area, including Laravel, Amazon Elastic Beanstalk, Amazon CodeDeploy, Upsun, OutSystems, Kubernetes, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, AI Automation, DNS, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, DNS, Documentation, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

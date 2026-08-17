@@ -6,14 +6,84 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 47
+provider_count: 64
 providers:
+- slug: smtp2go
+  name: SMTP2GO
+  description: SMTP2GO is a New Zealand-founded email and SMS delivery platform, running since 2006, that sends and tracks transactional and marketing messages over SMTP relay or a JSON REST API from data centres in the United States, the European Union and Australia. The v3 API covers sending standard, MIME, bat…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 75.6
+  shared: 1
+- slug: se-ranking
+  name: SE Ranking
+  description: SE Ranking is an SEO platform providing a REST API for keyword rank tracking, competitor analysis, backlink monitoring, on-page auditing, AI search visibility, and generating white-label SEO reports. The platform offers two API layers — a Data API with pay-as-you-go credits for SEO data retrieval a…
+  api_count: 10
+  score_band: exemplar
+  score_composite: 74.0
+  shared: 1
+- slug: konbiniapi
+  name: KonbiniAPI
+  description: KonbiniAPI is the social data layer for Instagram, TikTok, X, Reddit and LinkedIn, normalizing real-time public profile, post, video, comment, audio, community, subreddit, location and search data into a single consistent ActivityStreams 2.0 (W3C) shape. Sixty-seven endpoints are exposed through on…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 72.8
+  shared: 1
+- slug: planable
+  name: Planable
+  description: Planable is a collaboration-first social media management platform used by agencies, multi-location brands, multi-brand companies and in-house marketing teams to create, plan, collaborate on, approve, schedule, publish and analyze content across Facebook, Instagram, X (Twitter), LinkedIn, TikTok, Y…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 72.0
+  shared: 1
 - slug: apis-io
   name: APIs.io
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Post…
   api_count: 11
   score_band: exemplar
   score_composite: 71.1
+  shared: 1
+- slug: parallel-web-systems
+  name: Parallel Web Systems
+  description: Parallel Web Systems builds infrastructure for intelligence on the web, giving AI agents and developers high-quality, low-latency access to the internet. Its API suite spans a Search API (high-accuracy, cross-referenced web search with turbo/basic/advanced modes), an Extract API for token-efficient…
+  api_count: 8
+  score_band: exemplar
+  score_composite: 69.4
+  shared: 1
+- slug: synthflow
+  name: Synthflow
+  description: Synthflow is an enterprise-ready no-code Voice AI platform for automating phone conversations at scale. The product combines a visual agent designer with in-house telephony, sub-100ms latency, and a 99.99% uptime guarantee, so businesses can build, deploy, and operate voice agents without third-par…
+  api_count: 8
+  score_band: exemplar
+  score_composite: 68.5
+  shared: 1
+- slug: unify
+  name: Unify
+  description: Unify is a B2B outbound and go-to-market platform that pairs AI agents with reps to find buyers already in market and reach them with the right message, combining 40+ data sources, 1.1B+ contacts and 65M+ companies with intent signals, automated Plays and multi-channel sequences. Founded in 2023 an…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 67.4
+  shared: 1
+- slug: erxes
+  name: Erxes
+  description: Open-source Experience Operating System (XOS) that unifies marketing, sales, operations and support in one self-hostable platform, positioned as a replacement for HubSpot, Zendesk, Linear and Wix. The machine surface is a GraphQL Federation API served by an Apollo Router gateway — there is no REST…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.5
+  shared: 1
+- slug: airops
+  name: AirOps
+  description: AirOps is a growth platform for AI search and answer engine optimization (AEO) that helps brands measure and improve their visibility across AI assistants and search engines including ChatGPT, Perplexity, Gemini, Claude, and Google. The platform pairs Insights (citation tracking, share-of-voice, se…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.1
+  shared: 1
+- slug: clickfunnels
+  name: ClickFunnels
+  description: ClickFunnels is a sales funnel and online business platform that lets entrepreneurs build landing pages, sales funnels, checkout flows, courses, membership sites, communities, blogs and email marketing campaigns without code. The ClickFunnels 2.0 REST API is a 418-operation OpenAPI 3.1 contract cov…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.9
   shared: 1
 - slug: ploy
   name: Ploy
@@ -22,12 +92,33 @@ providers:
   score_band: strong
   score_composite: 63.4
   shared: 1
+- slug: criteo
+  name: Criteo
+  description: Criteo is a global commerce media company whose Retail Media, Marketing Solutions and Commerce Grid platforms let retailers, brands, agencies and partners create, launch and measure onsite and offsite commerce advertising. Criteo publishes three live OpenAPI 3.0.1 documents at api.criteo.com coveri…
+  api_count: 4
+  score_band: strong
+  score_composite: 59.4
+  shared: 1
 - slug: lightrun
   name: Lightrun
   description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
   api_count: 20
   score_band: strong
   score_composite: 59.2
+  shared: 1
+- slug: sitefire
+  name: Sitefire
+  description: Sitefire is a Generative Engine Optimization (GEO) platform — the marketing suite for the agentic web and a self-described System of Record for AI visibility. It monitors how AI models (ChatGPT, Gemini, Perplexity, DeepSeek, Google AI Mode and AI Overviews) mention and cite a brand across tracked t…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.2
+  shared: 1
+- slug: hashnode
+  name: Hashnode
+  description: Hashnode is a blogging platform for developers and engineering teams, offering publications on a custom domain, a headless CMS mode, and a public GraphQL API covering posts, drafts, publications, users, tags, series, comments and documentation projects. The API is a single GraphQL endpoint with ano…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.6
   shared: 1
 - slug: smithery-ai
   name: Smithery
@@ -64,12 +155,33 @@ providers:
   score_band: developing
   score_composite: 55.9
   shared: 1
+- slug: voygr
+  name: VOYGR
+  description: VOYGR provides real-world place intelligence for AI apps and agents, delivering continuous location and point-of-interest (POI) data validation and enrichment. Its Location Freshness Validation confirms historical existence and current operating status, detecting relocations, rebrands, and closures…
+  api_count: 2
+  score_band: developing
+  score_composite: 55.2
+  shared: 1
 - slug: cloud-academy
   name: Cloud Academy
   description: Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines.…
   api_count: 3
   score_band: developing
   score_composite: 51.5
+  shared: 1
+- slug: enigma-analytics
+  name: Enigma Analytics
+  description: Enigma Analytics (Enigma Technologies) operates a knowledge graph of every U.S. business — 100M+ business registrations and 2B+ relationships spanning brands, legal entities, operating locations, addresses, and the people behind them, enriched with 750M+ anonymized cards and 30B+ annual card transa…
+  api_count: 4
+  score_band: developing
+  score_composite: 51.2
+  shared: 1
+- slug: enigma
+  name: Enigma
+  description: Enigma provides business identity infrastructure for the United States, built on entity-resolution technology that links brands, DBAs, operating locations, legal entities, and ownership into unified business records. Its Identity Graph aggregates hundreds of public and third-party sources plus 750M…
+  api_count: 3
+  score_band: developing
+  score_composite: 51.1
   shared: 1
 - slug: infer-by-flow7
   name: Infer by Flow7
@@ -106,142 +218,30 @@ providers:
   score_band: developing
   score_composite: 44.1
   shared: 1
-- slug: sitefire
-  name: Sitefire
-  description: Sitefire is a Generative Engine Optimization (GEO) platform — the marketing suite for the agentic web and a self-described System of Record for AI visibility. It monitors how AI models (ChatGPT, Gemini, Perplexity, DeepSeek, Google AI Mode and AI Overviews) mention and cite a brand across tracked t…
-  api_count: 1
-  score_band: thin
-  score_composite: 41.5
-  shared: 1
-- slug: mydentify-public-api
-  name: Mydentify Public API
-  description: Public, keyless REST API for Mydentify — a permanent product directory with weekly community-signaled product leaderboards. The OpenAPI 3.1 contract covers intent-based product discovery, the curated startup/SaaS/AI directory catalog with Directory Score and link-type metadata, a portable product-c…
-  api_count: 6
-  score_band: thin
-  score_composite: 41.3
-  shared: 1
-- slug: admakeai
-  name: AdMakeAI
-  description: AI ad-creative platform for Meta, Instagram, and TikTok that turns product photos or prompts into finished ad images and UGC-style video ads, batch-generates ad-set variations, generates ad copy, researches competitor ads from the Meta Ad Library, reads Meta campaign analytics, and drafts and publi…
-  api_count: 3
-  score_band: thin
-  score_composite: 39.4
-  shared: 1
-- slug: cursor
-  name: Cursor
-  description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
-  api_count: 10
-  score_band: thin
-  score_composite: 36.8
-  shared: 1
-- slug: windsurf
-  name: Windsurf
-  description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
-  api_count: 8
-  score_band: thin
-  score_composite: 34.4
-  shared: 1
-- slug: wato
-  name: Wato
-  description: Wato is the control point for AI agents at work — a governed, shared AI workspace that gives teams reviewed memory, approved MCP connectors and tools, versioned skills, cloud agent sessions, triggered automations, live artifacts and dashboards, and full tool-call tracing, all exposed to Claude Code…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.9
-  shared: 1
-- slug: nexad
-  name: Nexad
-  description: Nexad (About Intelligence, Inc.) is an AI-native advertising company backed by Prosus Ventures. It ships the Nexad Android Ads SDK — a Java/Kotlin library for embedding contextual, native, WebView, chat-message, and modal-overlay ads directly into mobile and AI-chat applications — and operates Soku…
-  api_count: 2
-  score_band: thin
-  score_composite: 33.7
-  shared: 1
-- slug: tessl
-  name: Tessl
-  description: 'Tessl is an agent-enablement platform that gives engineering teams a management layer for AI agent skills and plugins: continuously build, test, distribute, and optimize the context that coding agents rely on, with the security and governance of enterprise software. It centers on the Tessl Registry…'
-  api_count: 0
-  score_band: thin
-  score_composite: 33.0
-  shared: 1
-- slug: macroscope
-  name: Macroscope
-  description: Macroscope is an AI code-intelligence platform (GitHub org prassoai) that connects to a team's codebase and workflow tools to review pull requests, answer questions, and take action. Its three surfaces are an Agent (query the codebase and trigger actions via Slack, GitHub, or an HTTP API), Code Rev…
-  api_count: 1
-  score_band: thin
-  score_composite: 32.5
-  shared: 1
-- slug: limit-break
-  name: Limit Break
-  description: Limit Break Inc. is a gaming and onchain-economy company that builds the Apptoken protocol suite — a family of permissionlessly deployable EVM smart contract protocols for programmable digital economies. Its Creator Token Standards (ERC-20C, ERC-721C, ERC-1155C) route every transfer through an on-c…
-  api_count: 0
-  score_band: thin
-  score_composite: 29.4
-  shared: 1
-- slug: instawork
-  name: Instawork
-  description: Instawork is a flexible-staffing marketplace that connects businesses in hospitality, warehouse, events, retail, and food service with vetted hourly workers ("Pros") for short-term shifts across the USA and Canada. Businesses post or rebook shifts and Instawork's ML-driven "Smart assign" matching f…
-  api_count: 1
-  score_band: emerging
-  score_composite: 27.3
-  shared: 1
-- slug: numeric
-  name: Numeric
-  description: Numeric is an AI close-automation platform that unifies close management, financial reporting, and cash operations for complex, high-volume accounting teams (customers include Brex, Plaid, and Stash). Its products span close checklists and account reconciliation, cash matching and journal-entry aut…
-  api_count: 1
-  score_band: emerging
-  score_composite: 27.2
-  shared: 1
-- slug: agent-skills
-  name: Agent Skills
-  description: A collection of resources, APIs, and standards related to AI agent skills and capabilities. Agent skills represent the tools, functions, and capabilities that AI agents can invoke to accomplish tasks — spanning web search, code execution, file management, memory, and external API integrations. This…
-  api_count: 3
-  score_band: emerging
-  score_composite: 27.0
-  shared: 1
-- slug: heeler
-  name: Heeler
-  description: Heeler is the Agentic Development Security Platform — machine-speed security for AI-written code. As coding agents (Claude Code, Cursor, GitHub Copilot) and AI attackers reshape the software development lifecycle, Heeler prevents vulnerabilities during code generation, autonomously fixes dependency…
-  api_count: 0
-  score_band: emerging
-  score_composite: 26.0
-  shared: 1
-- slug: agentic-resource-discovery
-  name: Agentic Resource Discovery (ARD)
-  description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked set of MCP servers, agent cards, skills, workflows and APIs i…
-  api_count: 2
-  score_band: emerging
-  score_composite: 24.7
-  shared: 1
-- slug: fibe
-  name: Fibe
-  description: Fibe (formerly EarlySalary) is a digital consumer lending platform in India, founded in 2015 and headquartered in Pune. It offers instant personal loans up to Rs 10 lakh, loans against mutual funds, fixed deposits, a co-branded Fibe Axis Bank credit card, insurance, and purpose-driven (BNPL) financ…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.5
-  shared: 1
 related:
-- slug: ide
-  name: IDE
-  shared: 2
-- slug: discovery
-  name: API Evangelist Discovery
+- slug: scraping
+  name: Scraping
+  shared: 1
+- slug: agents
+  name: Agents
   shared: 1
 - slug: cli
   name: Command Line Interface
   shared: 1
+- slug: communications
+  name: Communications
+  shared: 1
+- slug: documentation
+  name: Documentation
+  shared: 1
 - slug: logging
   name: Logging
-  shared: 1
-- slug: monitoring
-  name: Monitoring
-  shared: 1
-- slug: privacy
-  name: Privacy
   shared: 1
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
-  30 providers on the network work in this area, including APIs.io, Ploy, Lightrun, Smithery, 360Learning, Nord Security, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including SMTP2GO, SE Ranking, KonbiniAPI, Planable, APIs.io, Parallel Web Systems, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: IDE, API Evangelist Discovery, Command Line Interface, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Scraping, Agents, Command Line Interface, and Communications. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

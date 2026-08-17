@@ -8,6 +8,13 @@ area_host: integrations.apievangelist.com
 icon: https://integrations.apievangelist.com/icon-thumb.png
 provider_count: 70
 providers:
+- slug: ada
+  name: Ada
+  description: Ada is an AI-powered customer service automation platform that enables enterprises to deploy AI agents capable of resolving customer inquiries across digital channels without human intervention. The platform exposes a suite of REST APIs for managing knowledge bases, end-user profiles, conversation…
+  api_count: 14
+  score_band: exemplar
+  score_composite: 82.3
+  shared: 1
 - slug: zapier
   name: Zapier
   description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
@@ -63,6 +70,20 @@ providers:
   api_count: 54
   score_band: strong
   score_composite: 59.8
+  shared: 1
+- slug: supaglue
+  name: Supaglue
+  description: 'Supaglue was an open-source unified API platform for B2B SaaS product integrations: a single contract for CRM, engagement, ticketing, enrichment and marketing-automation objects projected across 30+ third-party providers (Salesforce, HubSpot, Pipedrive, Outreach, Salesloft, Zendesk, Apollo and more…'
+  api_count: 40
+  score_band: strong
+  score_composite: 59.8
+  shared: 1
+- slug: vessel
+  name: Vessel
+  description: Vessel (Kinit Inc.) is a developer-first embedded integrations platform for go-to-market software. It gives a product team one contract to read and write an end customer's CRM, sales engagement, chat, dialer and marketing automation tools, plus a drop-in browser component — Vessel Link — that handl…
+  api_count: 20
+  score_band: strong
+  score_composite: 59.6
   shared: 1
 - slug: cobalt
   name: Cobalt
@@ -169,6 +190,13 @@ providers:
   score_band: developing
   score_composite: 51.5
   shared: 1
+- slug: reform
+  name: Reform
+  description: Reform is a conversion-focused, no-code form builder for B2B and SaaS teams, acquired by conversion-rate-optimization agency FunnelEnvy. It builds multi-step forms with conditional logic, lead qualification and enrichment, and syncs submissions to CRMs and marketing platforms. Reform publishes no R…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.5
+  shared: 1
 - slug: n8n
   name: N8n
   description: Build with the precision of code or the speed of drag-n-drop. Host with on-prem control or in-the-cloud convenience. n8n gives you more freedom to implement multi-step AI agents and integrate apps than any other tool.
@@ -176,12 +204,12 @@ providers:
   score_band: developing
   score_composite: 50.2
   shared: 1
-- slug: ada
-  name: Ada
-  description: Ada is an AI-powered customer service automation platform that enables enterprises to deploy AI agents capable of resolving customer inquiries across digital channels without human intervention. The platform exposes a suite of REST APIs for managing knowledge bases, end-user profiles, conversation…
-  api_count: 13
+- slug: siro
+  name: Siro
+  description: Siro is an AI sales coaching platform for in-person and field sales teams. Reps record their live sales conversations from the Siro mobile app, and Siro transcribes each conversation, surfaces coaching insights, generates scorecards and summaries, and extracts structured fields (budget, objections,…
+  api_count: 5
   score_band: developing
-  score_composite: 49.1
+  score_composite: 49.7
   shared: 1
 - slug: cyclr
   name: Cyclr
@@ -190,41 +218,13 @@ providers:
   score_band: developing
   score_composite: 48.2
   shared: 1
-- slug: nex
-  name: Nex
-  description: Nex is the workflow execution and context layer for AI-native business operations — where AI workflows become reliable business software. It builds a unified context graph from a company's connected tools (email, calendar, Slack, and CRMs like HubSpot, Salesforce, and Attio) plus ingested unstructu…
-  api_count: 16
-  score_band: developing
-  score_composite: 47.5
-  shared: 1
-- slug: ampersand
-  name: Ampersand
-  description: Ampersand is a developer-first platform for building native SaaS integrations. It provides an embeddable UI component and managed infrastructure that lets developers add product integrations quickly, handling OAuth, data sync, webhooks, and field mapping out of the box. The platform supports hundre…
-  api_count: 18
-  score_band: developing
-  score_composite: 47.3
-  shared: 1
-- slug: productplan
-  name: ProductPlan
-  description: ProductPlan is a road mapping software platform providing a REST API for creating and managing roadmaps, features, goals, OKRs, launches, and discovery. It integrates with tools like Jira, GitHub, Slack, and Trello, enabling teams to plan, align, and share product strategies with stakeholders.
-  api_count: 8
-  score_band: developing
-  score_composite: 47.1
-  shared: 1
-- slug: revert
-  name: Revert
-  description: Revert is an open-source unified API platform that makes it easy to build product integrations 10x faster. It provides a single standardized API to integrate with CRMs (Salesforce, HubSpot, Zoho CRM, Pipedrive, Close CRM), ticketing systems (Jira, Asana), accounting (Xero, QuickBooks), chat (Slack,…
-  api_count: 13
-  score_band: developing
-  score_composite: 46.9
-  shared: 1
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 11
+  shared: 12
 - slug: ipaas
   name: iPaaS
-  shared: 5
+  shared: 6
 - slug: management
   name: Management
   shared: 2
@@ -234,13 +234,13 @@ related:
 - slug: microservices
   name: Microservices
   shared: 2
-- slug: discovery
-  name: API Evangelist Discovery
+- slug: authentication
+  name: Authentication
   shared: 1
 overview: 'Integrations is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [integrations.apievangelist.com](https://integrations.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Zapier, Apigee, Boomi, Composio, Merge, Unified.to, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Ada, Zapier, Apigee, Boomi, Composio, Merge, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS, iPaaS, Management, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
