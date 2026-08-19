@@ -13,21 +13,21 @@ providers:
   description: SilverStripe is an open-source PHP content management system and framework with a GraphQL and REST API for managing pages, assets, versioning, and custom data objects. It powers 50,000+ live sites and provides a flexible, extensible platform for developers to build content-driven web applications w…
   api_count: 2
   score_band: thin
-  score_composite: 39.1
+  score_composite: 35.7
   shared: 1
 - slug: dvc
   name: DVC
   description: DVC (Data Version Control) is an Apache 2.0 open-source CLI and Python library for versioning datasets, models, pipelines, and ML experiments on top of Git. It is not a network service — there is no DVC REST API.
   api_count: 1
   score_band: emerging
-  score_composite: 14.4
+  score_composite: 14.6
   shared: 1
 - slug: changelog-md
   name: CHANGELOG.md (Keep a Changelog)
   description: CHANGELOG.md is a community convention for a human-readable, Markdown- formatted file at the root of a project that records notable changes between versions. The leading specification is "Keep a Changelog" by Olivier Lacan, which defines a stable, opinionated set of section headings (Added, Changed…
   api_count: 0
-  score_band: minimal
-  score_composite: 10.9
+  score_band: emerging
+  score_composite: 11.1
   shared: 1
 related:
 - slug: change-log
