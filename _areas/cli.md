@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 111
+provider_count: 110
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -34,7 +34,7 @@ providers:
   description: Ploy is an AI-powered web marketing automation platform that turns a company's marketing website into a growth channel. Founded in 2025 by former Webflow CTO Bryant Chou, backed by Y Combinator and First Round Capital ($27M), Ploy runs AI agents that build and optimize Astro/Tailwind marketing site…
   api_count: 1
   score_band: strong
-  score_composite: 60.7
+  score_composite: 61.8
   shared: 1
 - slug: qfex
   name: Qfex
@@ -69,7 +69,7 @@ providers:
   description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing, and publishing skills and plugins, server-side quality revi…
   api_count: 35
   score_band: developing
-  score_composite: 46.5
+  score_composite: 47.6
   shared: 1
 - slug: jetify
   name: Jetify
@@ -221,15 +221,15 @@ providers:
 related:
 - slug: api-clients
   name: API Clients
+  shared: 3
+- slug: clients
+  name: Clients
   shared: 2
 - slug: plans
   name: Plans
   shared: 1
 - slug: reliability
   name: Reliability
-  shared: 1
-- slug: clients
-  name: Clients
   shared: 1
 - slug: caching
   name: Caching
@@ -243,5 +243,5 @@ overview: 'Command Line Interface is one of the API Evangelist areas on the [API
   30 providers on the network work in this area, including AWS CLI, Svix, Common Room, Ploy, Qfex, Plandex, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Clients, Plans, Reliability, and Clients. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Clients, Clients, Plans, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

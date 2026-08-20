@@ -29,13 +29,6 @@ providers:
   score_band: exemplar
   score_composite: 68.5
   shared: 1
-- slug: splunk-observability
-  name: Splunk Observability Cloud
-  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
-  api_count: 49
-  score_band: strong
-  score_composite: 63.2
-  shared: 1
 - slug: raygun
   name: Raygun
   description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.ra…
@@ -71,6 +64,13 @@ providers:
   score_band: strong
   score_composite: 61.9
   shared: 1
+- slug: splunk-observability
+  name: Splunk Observability Cloud
+  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
+  api_count: 49
+  score_band: strong
+  score_composite: 61.8
+  shared: 1
 - slug: dash0
   name: Dash0
   description: Dash0 is an OpenTelemetry-native observability platform for engineering teams who want full visibility into logs, metrics, traces, profiles and events without operating complex pipelines or proprietary agents. Founded in 2023 (Series B, $110M, 2026), Dash0 ingests OTLP natively, correlates signals…
@@ -99,13 +99,6 @@ providers:
   score_band: strong
   score_composite: 58.1
   shared: 1
-- slug: grafana
-  name: Grafana
-  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
-  api_count: 138
-  score_band: strong
-  score_composite: 57.8
-  shared: 1
 - slug: conviva
   name: Conviva
   description: Conviva is the streaming-media and digital-experience analytics company behind Experience-Centric Operations (ECO) — a real-time, full-census operational data platform that stitches client-side telemetry from its Sensor SDKs into stateful, per-viewer experience analytics for video streamers, broadc…
@@ -119,6 +112,13 @@ providers:
   api_count: 20
   score_band: strong
   score_composite: 57.6
+  shared: 1
+- slug: datadog
+  name: Datadog
+  description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
+  api_count: 290
+  score_band: strong
+  score_composite: 57.1
   shared: 1
 - slug: verifiable
   name: Verifiable
@@ -134,12 +134,12 @@ providers:
   score_band: strong
   score_composite: 56.5
   shared: 1
-- slug: datadog
-  name: Datadog
-  description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
-  api_count: 290
+- slug: grafana
+  name: Grafana
+  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
+  api_count: 138
   score_band: strong
-  score_composite: 55.3
+  score_composite: 55.9
   shared: 1
 - slug: amazon-cloudwatch
   name: Amazon CloudWatch
@@ -221,12 +221,15 @@ providers:
 related:
 - slug: observability
   name: Observability
-  shared: 14
+  shared: 13
 - slug: logging
   name: Logging
   shared: 3
 - slug: database
   name: Database
+  shared: 2
+- slug: deployment
+  name: Deployment
   shared: 2
 - slug: visualization
   name: Visualization
@@ -234,14 +237,11 @@ related:
 - slug: analysis
   name: Analysis
   shared: 1
-- slug: agents-skills
-  name: Agent Skills
-  shared: 1
 overview: 'Monitoring is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monitoring.apievangelist.com](https://monitoring.apievangelist.com).
 
 
-  30 providers on the network work in this area, including ThousandEyes, New Relic, Dun & Bradstreet, Splunk Observability Cloud, Raygun, Laravel, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including ThousandEyes, New Relic, Dun & Bradstreet, Raygun, Laravel, Embrace, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability, Logging, Database, and Visualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Logging, Database, and Deployment. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -111,7 +111,7 @@ providers:
   description: Distributional is an a16z-backed company (security contact Scott Clark) tracked in the API Evangelist network. As of July 2026 distributional.com serves a pre-launch holding page ("Something new is coming") with no public API, backend, or authentication surface. The site does publish machine-readab…
   api_count: 0
   score_band: minimal
-  score_composite: 7.1
+  score_composite: 8.2
   shared: 1
 - slug: omen
   name: Omen
@@ -127,17 +127,11 @@ related:
 - slug: logging
   name: Logging
   shared: 1
-- slug: saas-management
-  name: SaaS Management
-  shared: 1
-- slug: webhooks
-  name: Webhooks
-  shared: 1
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
   16 providers on the network work in this area, including Svix, Gremlin, Memfault, Google Cloud Error Reporting, Chaos Mesh, Sonarly, and 10 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Command Line Interface, Logging, SaaS Management, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Command Line Interface and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

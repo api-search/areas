@@ -6,7 +6,7 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 108
+provider_count: 154
 providers:
 - slug: amazon-pinpoint
   name: Amazon Pinpoint
@@ -57,6 +57,20 @@ providers:
   score_band: exemplar
   score_composite: 72.0
   shared: 1
+- slug: weave
+  name: Weave
+  description: 'Weave (Weave Communications, Inc., NYSE: WEAV) is an all-in-one customer communication and payments platform built for small and medium healthcare and services businesses — dental, optometry, veterinary, medical, and beyond. Weave brings together a cloud phone system (VoIP), two-way text messaging,…'
+  api_count: 9
+  score_band: strong
+  score_composite: 65.9
+  shared: 1
+- slug: spruce-health
+  name: Spruce Health
+  description: Spruce Health is a HIPAA-compliant healthcare communication platform that unifies phone, SMS, secure messaging, video, e-fax, team chat, mobile payments and VoIP phone lines into one system for medical practices, with AI-enabled voicemail transcription, summarization and call routing. Every eligibl…
+  api_count: 15
+  score_band: strong
+  score_composite: 65.3
+  shared: 1
 - slug: mailersend
   name: MailerSend
   description: MailerSend is a transactional email and SMS platform built for developers. Its v1 REST API covers email sending (single, bulk to 500 objects per request, and scheduled up to 72 hours out), SMTP relay, templates, sending domains and DNS verification, sender identities, recipients and five suppressio…
@@ -98,6 +112,13 @@ providers:
   api_count: 8
   score_band: strong
   score_composite: 60.9
+  shared: 1
+- slug: the-mobile-first-company
+  name: The Mobile First Company
+  description: The Mobile-First Company is a French / US (Miami HQ) startup building a suite of mobile-first, AI-powered business apps for small teams under a "one problem, one app" philosophy. Its flagship product, Allo, is an AI phone system used by 5,000+ businesses — an AI receptionist that answers 24/7, call…
+  api_count: 13
+  score_band: strong
+  score_composite: 59.6
   shared: 1
 - slug: cloudtalk
   name: CloudTalk
@@ -169,6 +190,20 @@ providers:
   score_band: strong
   score_composite: 54.6
   shared: 1
+- slug: vonage
+  name: Vonage
+  description: Vonage (part of Ericsson) provides cloud communications APIs for voice, SMS, messaging, video, and verification. The Vonage API platform enables businesses to embed communication capabilities into applications including voice calls, SMS, multi-channel messaging (WhatsApp, Messenger, Viber, RCS), vi…
+  api_count: 9
+  score_band: developing
+  score_composite: 53.6
+  shared: 1
+- slug: microsoft-teams
+  name: Microsoft Teams
+  description: Microsoft Teams is a collaboration platform that combines workplace chat, meetings, file storage, and application integration. It provides APIs for building custom integrations, managing teams and channels, sending messages, scheduling meetings, and initiating calls through Microsoft Graph.
+  api_count: 11
+  score_band: developing
+  score_composite: 53.1
+  shared: 1
 - slug: nextiva
   name: Nextiva
   description: Nextiva is a Scottsdale, Arizona based cloud communications and customer experience company whose NextOS / NEXT platform combines UCaaS business phone service, contact center (NCX), SMS and team messaging, voice AI agents, and conversation analytics for small business through enterprise. Its develo…
@@ -176,54 +211,16 @@ providers:
   score_band: developing
   score_composite: 53.1
   shared: 1
-- slug: gotowebinar
-  name: GoToWebinar
-  description: GoToWebinar is GoTo's (formerly LogMeIn) webinar and virtual event platform. The GoToWebinar REST API lets developers create and manage webinars, organizers, registrants, attendees, sessions, panelists, co-organizers, polls, surveys, and recordings, and subscribe to real-time webhook events for reg…
-  api_count: 12
-  score_band: developing
-  score_composite: 51.7
-  shared: 1
-- slug: phone-com
-  name: Phone Com
-  description: Phone.com is a cloud business phone and unified communications provider for small and mid-sized businesses, offering VoIP calling, SMS/MMS, video conferencing, fax, and virtual phone numbers. Its developer platform is the JSON REST v4 API (codenamed "Phoenix") at api.phone.com, which gives programm…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.3
-  shared: 1
 - slug: nfon
   name: Nfon
   description: NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication.…
   api_count: 52
   score_band: developing
-  score_composite: 50.8
-  shared: 1
-- slug: zoom
-  name: Zoom
-  description: Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.
-  api_count: 47
-  score_band: developing
-  score_composite: 50.5
-  shared: 1
-- slug: truecaller
-  name: Truecaller
-  description: Truecaller is the Stockholm-based caller identification and spam-blocking platform (atomico and balderton-capital portfolio) used by hundreds of millions of people to know who is calling. For developers it publishes the Truecaller SDK for Android, iOS, mobile web, Flutter, React Native and Shopify…
-  api_count: 4
-  score_band: developing
-  score_composite: 48.6
-  shared: 1
-- slug: aptly
-  name: Aptly
-  description: Aptly is the AI operations layer for property management, built by Invisible Apps, Inc. It unifies resident and owner communication (calls, texts, emails, and chat) with board-based workflows, automation, and AI agents that handle leasing inquiries, maintenance requests, and around-the-clock reside…
-  api_count: 15
-  score_band: developing
-  score_composite: 47.4
+  score_composite: 52.6
   shared: 1
 related:
-- slug: webhooks
-  name: Webhooks
-  shared: 3
-- slug: security
-  name: Security
+- slug: authentication
+  name: Authentication
   shared: 2
 - slug: agents-skills
   name: Agent Skills
@@ -231,11 +228,11 @@ related:
 - slug: agents
   name: Agents
   shared: 1
-- slug: authentication
-  name: Authentication
-  shared: 1
 - slug: embedded-ipaas
   name: Embedded iPaaS
+  shared: 1
+- slug: security
+  name: Security
   shared: 1
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
@@ -243,5 +240,5 @@ overview: 'Communications is one of the API Evangelist areas on the [APIs.io](ht
   30 providers on the network work in this area, including Amazon Pinpoint, Mailboxlayer, SMTP2GO, Twilio, Leadping, Zoom Phone, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Webhooks, Security, Agent Skills, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Authentication, Agent Skills, Agents, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

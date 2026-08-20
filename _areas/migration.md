@@ -41,7 +41,7 @@ providers:
   description: AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. AWS DMS can migrate your data to and from the most widely used commerc…
   api_count: 72
   score_band: developing
-  score_composite: 45.9
+  score_composite: 47.7
   shared: 1
 - slug: google-cloud-migration-center
   name: Google Cloud Migration Center

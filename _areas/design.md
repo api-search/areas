@@ -34,7 +34,7 @@ providers:
   description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction pr…
   api_count: 69
   score_band: strong
-  score_composite: 59.6
+  score_composite: 60.7
   shared: 1
 - slug: thebrief
   name: TheBrief
@@ -57,19 +57,19 @@ providers:
   score_band: developing
   score_composite: 52.8
   shared: 1
-- slug: adobe-creative-cloud
-  name: Adobe Creative Cloud
-  description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
-  api_count: 24
-  score_band: developing
-  score_composite: 50.8
-  shared: 1
 - slug: 99designs
   name: 99designs
   description: 99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.…
   api_count: 5
   score_band: developing
   score_composite: 50.2
+  shared: 1
+- slug: adobe-creative-cloud
+  name: Adobe Creative Cloud
+  description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
+  api_count: 24
+  score_band: developing
+  score_composite: 49.9
   shared: 1
 - slug: blng
   name: Blng
@@ -92,6 +92,13 @@ providers:
   score_band: developing
   score_composite: 47.1
   shared: 1
+- slug: napkin
+  name: Napkin
+  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
+  api_count: 1
+  score_band: developing
+  score_composite: 46.7
+  shared: 1
 - slug: adobe-illustrator
   name: Adobe Illustrator
   description: Adobe Illustrator is the industry-standard vector graphics application. Its developer platform offers scripting APIs, UXP plugins, CEP extensions, and a C++ SDK for building custom integrations and automating workflows.
@@ -105,13 +112,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 45.7
-  shared: 1
-- slug: napkin
-  name: Napkin
-  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
-  api_count: 1
-  score_band: developing
-  score_composite: 45.6
   shared: 1
 - slug: zeplin
   name: Zeplin
@@ -134,19 +134,19 @@ providers:
   score_band: thin
   score_composite: 37.2
   shared: 1
+- slug: tdaycom
+  name: Tdaycom
+  description: tday (tday.com) is a Y Combinator-backed (Spring 2026) AI platform, operated by Altacomm Technologies Pty. Ltd. of Adelaide, South Australia, that turns what a software team ships into on-brand creative. It connects to a company's GitHub repository or drives a live site through the browser like a u…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.3
+  shared: 1
 - slug: kittl
   name: Kittl
   description: Kittl is a Berlin-based, browser-based graphic design platform positioned for commerce-driven creative workflows — "Canva is for content, Kittl is for commerce." It serves small business owners, Shopify and Etsy sellers, print-on-demand businesses, DTC brands, freelancers, agencies and small creati…
   api_count: 1
   score_band: thin
   score_composite: 35.3
-  shared: 1
-- slug: tdaycom
-  name: Tdaycom
-  description: tday (tday.com) is a Y Combinator-backed (Spring 2026) AI platform, operated by Altacomm Technologies Pty. Ltd. of Adelaide, South Australia, that turns what a software team ships into on-brand creative. It connects to a company's GitHub repository or drives a live site through the browser like a u…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.2
   shared: 1
 - slug: uxpin
   name: UXPin
@@ -155,19 +155,19 @@ providers:
   score_band: thin
   score_composite: 34.2
   shared: 1
-- slug: penpot
-  name: Penpot
-  description: Penpot is an open-source design and prototyping platform built for design and code collaboration, offering a self-hostable alternative to Figma. It provides a REST RPC API that enables developers to programmatically access and manage projects, files, pages, components, and design assets. Authentica…
-  api_count: 139
-  score_band: thin
-  score_composite: 33.8
-  shared: 1
 - slug: superside
   name: Superside
   description: Superside is an always-on, AI-powered creative-as-a-service (CaaS) company that helps enterprises and high-growth brands scale their in-house creative teams with top global talent and industry-leading AI workflows. It delivers graphic and brand design, ad creative and digital campaigns, social medi…
   api_count: 0
   score_band: thin
   score_composite: 32.3
+  shared: 1
+- slug: penpot
+  name: Penpot
+  description: Penpot is an open-source design and prototyping platform built for design and code collaboration, offering a self-hostable alternative to Figma. It provides a REST RPC API that enables developers to programmatically access and manage projects, files, pages, components, and design assets. Authentica…
+  api_count: 139
+  score_band: thin
+  score_composite: 32.0
   shared: 1
 - slug: uml
   name: UML

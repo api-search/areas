@@ -13,7 +13,7 @@ providers:
   description: ''
   api_count: 29
   score_band: strong
-  score_composite: 58.6
+  score_composite: 59.6
   shared: 1
 - slug: plandex
   name: Plandex

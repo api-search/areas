@@ -36,9 +36,15 @@ providers:
   score_band: minimal
   score_composite: 9.3
   shared: 1
-related: []
+related:
+- slug: change-log
+  name: Change Log
+  shared: 2
 overview: 'Deprecation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deprecation.apievangelist.com](https://deprecation.apievangelist.com).
 
 
-  Providers on the network working in this area include Versioning Protocols, Beamer, LaunchNotes, and Oasdiff — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  Providers on the network working in this area include Versioning Protocols, Beamer, LaunchNotes, and Oasdiff — each links out to that provider''s APIs, schemas, and governance artifacts.
+
+
+  Related areas: Change Log. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

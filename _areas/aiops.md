@@ -64,19 +64,19 @@ providers:
   score_band: developing
   score_composite: 46.6
   shared: 1
+- slug: runwhen
+  name: RunWhen
+  description: RunWhen is an AI platform for building safe-for-production agents that triage alerts, remediate infrastructure, analyze cost, and answer questions about production systems. Engineering teams compose reusable "Skills" (CodeBundles) into agents that run standalone or from Claude, Cursor, and VS Code…
+  api_count: 51
+  score_band: developing
+  score_composite: 46.2
+  shared: 1
 - slug: deeptrace
   name: Deeptrace
   description: Deeptrace is an AI SRE (site reliability engineering) agent that automatically investigates and root-causes production alerts by reasoning across logs, traces, metrics, and code. It triages and prioritizes alerts, produces evidence-backed root cause analyses in a couple of minutes, answers natural-…
   api_count: 2
   score_band: developing
   score_composite: 45.5
-  shared: 1
-- slug: runwhen
-  name: RunWhen
-  description: RunWhen is an AI platform for building safe-for-production agents that triage alerts, remediate infrastructure, analyze cost, and answer questions about production systems. Engineering teams compose reusable "Skills" (CodeBundles) into agents that run standalone or from Claude, Cursor, and VS Code…
-  api_count: 51
-  score_band: developing
-  score_composite: 45.1
   shared: 1
 - slug: mist-ai
   name: Juniper Mist AI

@@ -43,19 +43,19 @@ providers:
   score_band: strong
   score_composite: 60.8
   shared: 1
+- slug: paperspace
+  name: Paperspace
+  description: Paperspace is a GPU cloud platform for AI, ML, and 3D rendering workloads, acquired by DigitalOcean in 2023. The platform combines on-demand GPU/CPU machines (Core), the Gradient ML workflow stack (Notebooks, Datasets, Models, Workflows), and container-as-a-service Deployments under a single team-s…
+  api_count: 25
+  score_band: strong
+  score_composite: 59.6
+  shared: 1
 - slug: red-hat
   name: Red Hat
   description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
   api_count: 75
   score_band: strong
   score_composite: 59.3
-  shared: 1
-- slug: paperspace
-  name: Paperspace
-  description: Paperspace is a GPU cloud platform for AI, ML, and 3D rendering workloads, acquired by DigitalOcean in 2023. The platform combines on-demand GPU/CPU machines (Core), the Gradient ML workflow stack (Notebooks, Datasets, Models, Workflows), and container-as-a-service Deployments under a single team-s…
-  api_count: 25
-  score_band: strong
-  score_composite: 58.6
   shared: 1
 - slug: tensordock
   name: TensorDock
@@ -69,7 +69,7 @@ providers:
   description: Seqera (Seqera Labs) builds open, cloud-based software for scientific data analysis at scale. It is the company behind Nextflow, the widely adopted open-source workflow orchestration engine, and the Seqera Platform (formerly Nextflow Tower) for launching, monitoring, and governing data pipelines ac…
   api_count: 28
   score_band: strong
-  score_composite: 56.9
+  score_composite: 58.0
   shared: 1
 - slug: azure-container-apps
   name: Azure Container Apps
@@ -106,6 +106,13 @@ providers:
   score_band: developing
   score_composite: 53.5
   shared: 1
+- slug: gameye
+  name: Gameye
+  description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single REST API — the Session API. Studios call POST /session with a r…
+  api_count: 5
+  score_band: developing
+  score_composite: 53.1
+  shared: 1
 - slug: snyk-container
   name: Snyk Container
   description: Snyk Container helps developers find and fix vulnerabilities in container images and Kubernetes workloads. It integrates into existing development workflows to provide continuous security monitoring throughout the container lifecycle, scanning Docker images, Kubernetes manifests, and Helm charts fo…
@@ -119,13 +126,6 @@ providers:
   api_count: 13
   score_band: developing
   score_composite: 52.9
-  shared: 1
-- slug: gameye
-  name: Gameye
-  description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single REST API — the Session API. Studios call POST /session with a r…
-  api_count: 5
-  score_band: developing
-  score_composite: 52.0
   shared: 1
 - slug: balena
   name: Balena
@@ -240,7 +240,7 @@ related:
 overview: 'Containers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [containers.apievangelist.com](https://containers.apievangelist.com).
 
 
-  30 providers on the network work in this area, including IBM, Koyeb, Cloudflare, Amazon Web Services (AWS), Azure Kubernetes Service, Red Hat, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including IBM, Koyeb, Cloudflare, Amazon Web Services (AWS), Azure Kubernetes Service, Paperspace, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Serverless, Deployment, Machine Learning, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'

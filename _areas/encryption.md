@@ -27,7 +27,7 @@ providers:
   description: IronCore Labs builds application-layer encryption tools that keep sensitive data private while it stays usable. Its products include SaaS Shield (tenant-controlled envelope encryption with customer-managed keys / BYOK for multi-tenant SaaS), Cloaked Search (a transparent encrypting proxy for Elasti…
   api_count: 5
   score_band: strong
-  score_composite: 55.7
+  score_composite: 56.8
   shared: 1
 - slug: amazon-certificate-manager
   name: Amazon Certificate Manager
@@ -85,19 +85,19 @@ providers:
   score_band: developing
   score_composite: 41.2
   shared: 1
-- slug: infisical
-  name: Infisical
-  description: Infisical is an open-source secrets management platform that provides developers with a centralized, end-to-end encrypted vault for storing, syncing, and rotating secrets across teams, environments, and cloud infrastructure. The platform offers a REST API enabling programmatic management of secrets…
-  api_count: 73
-  score_band: developing
-  score_composite: 41.0
-  shared: 1
 - slug: akeyless
   name: Akeyless
   description: Akeyless is a cloud-native identity security platform that unifies secrets management, machine identity, and privileged access for AI agents, machines, and humans at scale. The platform provides a REST API with 200+ endpoints covering secrets vaulting, dynamic secrets generation, certificate lifecy…
   api_count: 1
   score_band: developing
   score_composite: 40.3
+  shared: 1
+- slug: infisical
+  name: Infisical
+  description: Infisical is an open-source secrets management platform that provides developers with a centralized, end-to-end encrypted vault for storing, syncing, and rotating secrets across teams, environments, and cloud infrastructure. The platform offers a REST API enabling programmatic management of secrets…
+  api_count: 73
+  score_band: developing
+  score_composite: 40.1
   shared: 1
 - slug: incountry
   name: InCountry
@@ -188,7 +188,7 @@ providers:
   description: CipherTrust Manager is Thales's centralized key- and data-security management platform and the control plane of the CipherTrust Data Security Platform (CDSP). It provides a unified plane for encryption key lifecycle management, secrets management, certificates, tokenization, data discovery, and pol…
   api_count: 1
   score_band: emerging
-  score_composite: 22.2
+  score_composite: 23.3
   shared: 1
 - slug: sops
   name: SOPS

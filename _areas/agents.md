@@ -6,7 +6,7 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 357
+provider_count: 373
 providers:
 - slug: convertkit
   name: Kit
@@ -113,6 +113,20 @@ providers:
   score_band: exemplar
   score_composite: 69.1
   shared: 1
+- slug: facebook-business-manager
+  name: Facebook Business Manager
+  description: APIs for managing Facebook Business accounts, advertising, pages, and assets across the Meta platform family. Facebook Business Manager exposes a deep catalog of Graph API surfaces for marketing, pages, conversions, business asset management, Instagram, insights, Messenger, catalogs, live video, Th…
+  api_count: 23
+  score_band: exemplar
+  score_composite: 69.0
+  shared: 1
+- slug: anthropic
+  name: Anthropic
+  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
+  api_count: 24
+  score_band: exemplar
+  score_composite: 68.9
+  shared: 1
 - slug: impact
   name: Impact
   description: impact.com is a partnership management platform for affiliate, creator, influencer and customer-referral programs. It publishes four REST API personas - Brand v14, Partner v16, Agency v3 and Advocate v13 - across 69 OpenAPI 3.1 documents and 245 operations, a remote OAuth 2.1 MCP server at mcp.impa…
@@ -127,26 +141,12 @@ providers:
   score_band: exemplar
   score_composite: 68.1
   shared: 1
-- slug: facebook-business-manager
-  name: Facebook Business Manager
-  description: APIs for managing Facebook Business accounts, advertising, pages, and assets across the Meta platform family. Facebook Business Manager exposes a deep catalog of Graph API surfaces for marketing, pages, conversions, business asset management, Instagram, insights, Messenger, catalogs, live video, Th…
-  api_count: 23
-  score_band: exemplar
-  score_composite: 67.9
-  shared: 1
 - slug: gong
   name: Gong
   description: Gong is the revenue intelligence platform that captures and analyzes customer interactions across calls, emails, meetings and web conferencing, then applies AI to surface deal risk, coaching signal and forecast correction for B2B go-to-market teams. Its public REST v2 API at api.gong.io exposes 57…
   api_count: 26
   score_band: exemplar
   score_composite: 66.9
-  shared: 1
-- slug: anthropic
-  name: Anthropic
-  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
-  api_count: 24
-  score_band: exemplar
-  score_composite: 66.5
   shared: 1
 - slug: buildkite-com
   name: Buildkite
@@ -219,14 +219,8 @@ providers:
   score_composite: 64.8
   shared: 1
 related:
-- slug: saas-management
-  name: SaaS Management
-  shared: 4
 - slug: ai-automation
   name: AI Automation
-  shared: 2
-- slug: webhooks
-  name: Webhooks
   shared: 2
 - slug: scraping
   name: Scraping
@@ -237,11 +231,17 @@ related:
 - slug: agents-skills
   name: Agent Skills
   shared: 1
+- slug: authentication
+  name: Authentication
+  shared: 1
+- slug: communications
+  name: Communications
+  shared: 1
 overview: 'Agents is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents.apievangelist.com](https://agents.apievangelist.com).
 
 
   30 providers on the network work in this area, including Kit, veeva, Vapi, KonbiniAPI, Boom Ai, Lightfield, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: SaaS Management, AI Automation, Webhooks, and Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: AI Automation, Scraping, API Evangelist Search, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -6,7 +6,7 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 67
+provider_count: 56
 providers:
 - slug: smtp2go
   name: SMTP2GO
@@ -29,26 +29,26 @@ providers:
   score_band: exemplar
   score_composite: 67.5
   shared: 1
-- slug: clickfunnels
-  name: ClickFunnels
-  description: ClickFunnels is a sales funnel and online business platform that lets entrepreneurs build landing pages, sales funnels, checkout flows, courses, membership sites, communities, blogs and email marketing campaigns without code. The ClickFunnels 2.0 REST API is a 418-operation OpenAPI 3.1 contract cov…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.7
-  shared: 1
 - slug: parallel-web-systems
   name: Parallel Web Systems
   description: Parallel Web Systems builds infrastructure for intelligence on the web, giving AI agents and developers high-quality, low-latency access to the internet. Its API suite spans a Search API (high-accuracy, cross-referenced web search with turbo/basic/advanced modes), an Extract API for token-efficient…
   api_count: 8
   score_band: strong
-  score_composite: 64.2
+  score_composite: 65.3
   shared: 1
 - slug: apis-io
   name: APIs.io
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Post…
   api_count: 11
   score_band: strong
-  score_composite: 63.9
+  score_composite: 65.1
+  shared: 1
+- slug: clickfunnels
+  name: ClickFunnels
+  description: ClickFunnels is a sales funnel and online business platform that lets entrepreneurs build landing pages, sales funnels, checkout flows, courses, membership sites, communities, blogs and email marketing campaigns without code. The ClickFunnels 2.0 REST API is a 418-operation OpenAPI 3.1 contract cov…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.7
   shared: 1
 - slug: erxes
   name: Erxes
@@ -78,19 +78,19 @@ providers:
   score_band: strong
   score_composite: 62.2
   shared: 1
+- slug: ploy
+  name: Ploy
+  description: Ploy is an AI-powered web marketing automation platform that turns a company's marketing website into a growth channel. Founded in 2025 by former Webflow CTO Bryant Chou, backed by Y Combinator and First Round Capital ($27M), Ploy runs AI agents that build and optimize Astro/Tailwind marketing site…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.8
+  shared: 1
 - slug: airops
   name: AirOps
   description: AirOps is a growth platform for AI search and answer engine optimization (AEO) that helps brands measure and improve their visibility across AI assistants and search engines including ChatGPT, Perplexity, Gemini, Claude, and Google. The platform pairs Insights (citation tracking, share-of-voice, se…
   api_count: 1
   score_band: strong
   score_composite: 61.4
-  shared: 1
-- slug: ploy
-  name: Ploy
-  description: Ploy is an AI-powered web marketing automation platform that turns a company's marketing website into a growth channel. Founded in 2025 by former Webflow CTO Bryant Chou, backed by Y Combinator and First Round Capital ($27M), Ploy runs AI agents that build and optimize Astro/Tailwind marketing site…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.7
   shared: 1
 - slug: criteo
   name: Criteo
@@ -127,6 +127,13 @@ providers:
   score_band: strong
   score_composite: 56.1
   shared: 1
+- slug: cloud-academy
+  name: Cloud Academy
+  description: Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines.…
+  api_count: 3
+  score_band: strong
+  score_composite: 55.7
+  shared: 1
 - slug: 360learning
   name: 360Learning
   description: '360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automate the platform: provision and activate users, organize them…'
@@ -134,19 +141,12 @@ providers:
   score_band: strong
   score_composite: 55.2
   shared: 1
-- slug: cloud-academy
-  name: Cloud Academy
-  description: Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines.…
-  api_count: 3
-  score_band: strong
-  score_composite: 54.6
-  shared: 1
-- slug: sitefire
-  name: Sitefire
-  description: Sitefire is a Generative Engine Optimization (GEO) platform — the marketing suite for the agentic web and a self-described System of Record for AI visibility. It monitors how AI models (ChatGPT, Gemini, Perplexity, DeepSeek, Google AI Mode and AI Overviews) mention and cite a brand across tracked t…
-  api_count: 1
+- slug: apstal
+  name: Apstal
+  description: AI-first website analytics and visitor tracking platform that replaces traditional dashboards with a natural-language chatbot interface, offering conversational analytics, cookieless tracking, session replays, heatmaps, funnels, error tracking, Core Web Vitals and AI-agent traffic detection. Apstal…
+  api_count: 2
   score_band: developing
-  score_composite: 54.2
+  score_composite: 53.4
   shared: 1
 - slug: smithery-ai
   name: Smithery
@@ -204,6 +204,13 @@ providers:
   score_band: developing
   score_composite: 48.6
   shared: 1
+- slug: daloopa
+  name: Daloopa
+  description: Daloopa is an AI-powered fundamental financial data platform for institutional investors, providing analyst-verified, source-linked financial data extracted from SEC filings, earnings transcripts, investor presentations and press releases. Coverage spans 6,000+ global public companies with roughly…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.9
+  shared: 1
 - slug: coorpacademy
   name: Coorpacademy
   description: 'Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as "Coorpacademy by Go1". It sells a B2B SaaS learning experience platform built on inverted-pedagogy, gamified micro-learning: brand-scoped learning…'
@@ -211,14 +218,10 @@ providers:
   score_band: developing
   score_composite: 46.6
   shared: 1
-- slug: nexad
-  name: Nexad
-  description: Nexad (About Intelligence, Inc.) is an AI-native advertising company backed by Andreessen Horowitz, Point72 and Prosus. It ships the Nexad Android Ads SDK — a Java/Kotlin library for embedding contextual, native, WebView, chat-message, and modal-overlay ads directly into mobile and AI-chat applicat…
-  api_count: 2
-  score_band: developing
-  score_composite: 43.6
-  shared: 1
 related:
+- slug: privacy
+  name: Privacy
+  shared: 2
 - slug: scraping
   name: Scraping
   shared: 1
@@ -234,14 +237,11 @@ related:
 - slug: documentation
   name: Documentation
   shared: 1
-- slug: logging
-  name: Logging
-  shared: 1
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
-  30 providers on the network work in this area, including SMTP2GO, KonbiniAPI, Unify, ClickFunnels, Parallel Web Systems, APIs.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including SMTP2GO, KonbiniAPI, Unify, Parallel Web Systems, APIs.io, ClickFunnels, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Scraping, Agents, Command Line Interface, and Communications. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Privacy, Scraping, Agents, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

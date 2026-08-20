@@ -6,7 +6,7 @@ description: 'An index and topic collection covering API and SaaS monetization p
 area_url: https://monetization.apievangelist.com
 area_host: monetization.apievangelist.com
 icon: https://monetization.apievangelist.com/icon-thumb.png
-provider_count: 61
+provider_count: 62
 providers:
 - slug: drippay
   name: Drippay
@@ -64,6 +64,13 @@ providers:
   score_band: strong
   score_composite: 56.4
   shared: 1
+- slug: solvimon
+  name: Solvimon
+  description: Solvimon is an IPO-ready billing and monetization platform for usage-based and hybrid pricing that unifies metering, CPQ (quote-to-cash), subscriptions, invoicing, payments and revenue recognition in a single system. It is PSP-agnostic (Stripe, Adyen, Checkout.com) with multi-currency support, and…
+  api_count: 64
+  score_band: strong
+  score_composite: 54.7
+  shared: 1
 - slug: netcracker
   name: Netcracker
   description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
@@ -71,19 +78,12 @@ providers:
   score_band: developing
   score_composite: 53.9
   shared: 1
-- slug: solvimon
-  name: Solvimon
-  description: Solvimon is an IPO-ready billing and monetization platform for usage-based and hybrid pricing that unifies metering, CPQ (quote-to-cash), subscriptions, invoicing, payments and revenue recognition in a single system. It is PSP-agnostic (Stripe, Adyen, Checkout.com) with multi-currency support, and…
-  api_count: 64
-  score_band: developing
-  score_composite: 53.6
-  shared: 1
 - slug: paid
   name: Paid
   description: Paid (paid.ai) is the monetization platform for AI agents. It gives teams that build and sell AI agents the pricing, billing, and margin infrastructure to charge with flexible models — credits, usage-based, seat-based, and outcome-based pricing — while tracking the AI costs and delivered value behi…
   api_count: 22
   score_band: developing
-  score_composite: 52.7
+  score_composite: 53.9
   shared: 1
 - slug: news-break
   name: News Break
@@ -222,9 +222,6 @@ related:
 - slug: finops
   name: FinOps
   shared: 2
-- slug: integrations
-  name: Integrations
-  shared: 1
 - slug: microservices
   name: Microservices
   shared: 1
@@ -234,14 +231,11 @@ related:
 - slug: sdk
   name: SDKs
   shared: 1
-- slug: webhooks
-  name: Webhooks
-  shared: 1
 overview: 'Monetization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monetization.apievangelist.com](https://monetization.apievangelist.com).
 
 
   30 providers on the network work in this area, including Drippay, Appcharge, Apigee, AdMob, MonetizeNow, Coda Payments, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: FinOps, Integrations, Microservices, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: FinOps, Microservices, Orchestration, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

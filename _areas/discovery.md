@@ -62,7 +62,7 @@ providers:
   description: Voidpet is a creative games studio behind emotion-inspired games, stories, characters, and community — including Voidpet Dungeon, a turn-based roguelite RPG about befriending and battling emotion-inspired creatures, and Voidpet Garden, a mental-health companion game for collecting emotions and prac…
   api_count: 2
   score_band: developing
-  score_composite: 41.5
+  score_composite: 42.7
   shared: 1
 - slug: productplan
   name: ProductPlan
@@ -148,6 +148,13 @@ providers:
   score_band: emerging
   score_composite: 13.0
   shared: 1
+- slug: dice
+  name: DICE
+  description: DICE is a mobile-first live events discovery and ticketing platform founded in London in 2014 by Phil Hutcheon. Through the DICE app (iOS and Android) and dice.fm, fans discover concerts, club nights, festivals, tours and livestreams, buy fee-transparent tickets that live securely in-app, join wait…
+  api_count: 0
+  score_band: emerging
+  score_composite: 12.8
+  shared: 1
 - slug: api-stack
   name: API Stack
   description: API Stack is a free directory and discovery platform powered by Apideck that catalogs 213+ third-party API tools and services across 50+ categories including API gateways, management, design, authentication, developer portals, specifications, testing, security, monitoring, and marketplaces, helping…
@@ -196,13 +203,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 11.8
-  shared: 1
-- slug: dice
-  name: DICE
-  description: DICE is a mobile-first live events discovery and ticketing platform founded in London in 2014 by Phil Hutcheon. Through the DICE app (iOS and Android) and dice.fm, fans discover concerts, club nights, festivals, tours and livestreams, buy fee-transparent tickets that live securely in-app, join wait…
-  api_count: 0
-  score_band: emerging
-  score_composite: 11.7
   shared: 1
 - slug: qraved
   name: Qraved

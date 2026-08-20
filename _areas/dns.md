@@ -134,6 +134,13 @@ providers:
   score_band: developing
   score_composite: 40.8
   shared: 1
+- slug: done
+  name: _done
+  description: _done is an agent-native catalog of 26 single-purpose utility REST APIs — network and DNS lookups, domain intelligence, email-authentication checks, HTTP and SEO inspection, OCR, screenshots, hashing, JSON tooling, web3 resolution and finance calculators. There are no accounts, no signups and no AP…
+  api_count: 27
+  score_band: developing
+  score_composite: 40.7
+  shared: 1
 - slug: stack-machine
   name: Stack Machine
   description: StackMachine is elastic, headless infrastructure for AI applications and agents. It runs existing Node.js, Python, and PHP codebases as WebAssembly with sub-5ms cold starts and sandboxed execution for untrusted or AI-generated code, packing thousands of apps per server. The platform is driven by a…
@@ -161,13 +168,6 @@ providers:
   api_count: 32
   score_band: thin
   score_composite: 39.2
-  shared: 1
-- slug: done
-  name: _done
-  description: _done is an agent-native catalog of 26 single-purpose utility REST APIs — network and DNS lookups, domain intelligence, email-authentication checks, HTTP and SEO inspection, OCR, screenshots, hashing, JSON tooling, web3 resolution and finance calculators. There are no accounts, no signups and no AP…
-  api_count: 27
-  score_band: thin
-  score_composite: 38.8
   shared: 1
 - slug: completedns
   name: CompleteDNS
@@ -209,7 +209,7 @@ providers:
   description: Datum is an open source network cloud built for AI, founded in 2024 and backed by $13.6M from Amplify Partners, CRV, Encoded Ventures, Cervin Ventures, Ex/Ante, Step Function, and Vine Ventures, and founded by Zac Smith and Jacob Smith (ex-Equinix, Packet). Datum gives AI-native developers and alte…
   api_count: 1
   score_band: thin
-  score_composite: 31.9
+  score_composite: 33.0
   shared: 1
 - slug: openprovider
   name: Openprovider

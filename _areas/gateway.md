@@ -36,13 +36,6 @@ providers:
   score_band: developing
   score_composite: 50.9
   shared: 1
-- slug: couchbase
-  name: Couchbase
-  description: Couchbase is a distributed, document-oriented NoSQL cloud database platform that combines the flexibility of JSON, the power of SQL++ querying, and the performance of an in-memory key-value store. The Couchbase product line includes Couchbase Server (self-managed), Couchbase Capella (fully managed…
-  api_count: 54
-  score_band: developing
-  score_composite: 50.9
-  shared: 1
 - slug: onecli
   name: Onecli
   description: OneCLI is an open-source credential gateway and identity layer for AI agents. Agents connect to Gmail, GitHub, Slack, AWS, Jira and 50+ other services through a network-layer proxy that injects real API keys and OAuth tokens at request time, so the agent only ever sees placeholder credential stubs…
@@ -56,6 +49,13 @@ providers:
   api_count: 7
   score_band: developing
   score_composite: 50.8
+  shared: 1
+- slug: couchbase
+  name: Couchbase
+  description: Couchbase is a distributed, document-oriented NoSQL cloud database platform that combines the flexibility of JSON, the power of SQL++ querying, and the performance of an in-memory key-value store. The Couchbase product line includes Couchbase Server (self-managed), Couchbase Capella (fully managed…
+  api_count: 54
+  score_band: developing
+  score_composite: 50.0
   shared: 1
 - slug: requesty
   name: Requesty
@@ -116,7 +116,7 @@ related:
 overview: 'Gateway is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [gateway.apievangelist.com](https://gateway.apievangelist.com).
 
 
-  14 providers on the network work in this area, including Dedalus Labs, Martian, Amazon API Gateway, Amazon Storage Gateway, Couchbase, Onecli, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  14 providers on the network work in this area, including Dedalus Labs, Martian, Amazon API Gateway, Amazon Storage Gateway, Onecli, OpenRouter, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Database and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'

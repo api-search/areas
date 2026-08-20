@@ -27,7 +27,7 @@ providers:
   description: Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agen…
   api_count: 139
   score_band: developing
-  score_composite: 50.2
+  score_composite: 51.2
   shared: 1
 - slug: amazon-app-mesh
   name: Amazon App Mesh

@@ -228,14 +228,14 @@ related:
 - slug: developer-experience
   name: Developer Experience
   shared: 2
-- slug: integrations
-  name: Integrations
-  shared: 2
 - slug: aiops
   name: AIOps
   shared: 1
 - slug: dns
   name: DNS
+  shared: 1
+- slug: deployment
+  name: Deployment
   shared: 1
 overview: 'Microservices is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [microservices.apievangelist.com](https://microservices.apievangelist.com).
 
@@ -243,5 +243,5 @@ overview: 'Microservices is one of the API Evangelist areas on the [APIs.io](htt
   30 providers on the network work in this area, including NVIDIA NIM, Apigee, Azure Container Apps, Encore, Signadot, IBM WebSphere, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Service Mesh, Containers, Developer Experience, and Integrations. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Service Mesh, Containers, Developer Experience, and AIOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

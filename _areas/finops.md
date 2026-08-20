@@ -34,7 +34,7 @@ providers:
   description: Paid (paid.ai) is the monetization platform for AI agents. It gives teams that build and sell AI agents the pricing, billing, and margin infrastructure to charge with flexible models — credits, usage-based, seat-based, and outcome-based pricing — while tracking the AI costs and delivered value behi…
   api_count: 22
   score_band: developing
-  score_composite: 52.7
+  score_composite: 53.9
   shared: 1
 - slug: vantage
   name: Vantage
@@ -43,19 +43,19 @@ providers:
   score_band: developing
   score_composite: 51.8
   shared: 1
+- slug: amazon-compute-optimizer
+  name: Amazon Compute Optimizer
+  description: Amazon Compute Optimizer analyzes the configuration and utilization metrics of your AWS resources and provides recommendations to help you identify optimal AWS resource configurations. It uses machine learning to analyze historical utilization metrics and generates rightsizing recommendations for E…
+  api_count: 21
+  score_band: developing
+  score_composite: 51.2
+  shared: 1
 - slug: choreo
   name: Choreo
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
   api_count: 16
   score_band: developing
   score_composite: 49.6
-  shared: 1
-- slug: amazon-compute-optimizer
-  name: Amazon Compute Optimizer
-  description: Amazon Compute Optimizer analyzes the configuration and utilization metrics of your AWS resources and provides recommendations to help you identify optimal AWS resource configurations. It uses machine learning to analyze historical utilization metrics and generates rightsizing recommendations for E…
-  api_count: 21
-  score_band: developing
-  score_composite: 48.3
   shared: 1
 - slug: langwatch
   name: LangWatch
@@ -240,7 +240,7 @@ related:
 overview: 'FinOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [finops.apievangelist.com](https://finops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including DoiT, Edgee, CoreStack, Paid, Vantage, Choreo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including DoiT, Edgee, CoreStack, Paid, Vantage, Amazon Compute Optimizer, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monetization, Unified APIs, IDE, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'

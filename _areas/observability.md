@@ -29,19 +29,19 @@ providers:
   score_band: exemplar
   score_composite: 68.7
   shared: 1
-- slug: cisco-catalyst-center
-  name: Cisco Catalyst Center
-  description: Cisco Catalyst Center, formerly DNA Center, is Cisco's intent-based networking controller for enterprise campus, branch and wireless networks. It covers network design and hierarchy, device discovery and provisioning, software image management, SD-Access fabric, policy, telemetry and Assurance anal…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 67.6
-  shared: 1
 - slug: cisco-catalyst-sdwan
   name: Cisco Catalyst SD-WAN
   description: 'Cisco Catalyst SD-WAN, built on the Viptela platform Cisco acquired in 2017, is Cisco''s wide-area network overlay: centralized policy, application-aware routing, and secure transport across MPLS, broadband and LTE. Its controller — SD-WAN Manager, formerly vManage — exposes a REST API of 4,138 publ…'
   api_count: 13
   score_band: exemplar
   score_composite: 66.8
+  shared: 1
+- slug: cisco-catalyst-center
+  name: Cisco Catalyst Center
+  description: Cisco Catalyst Center, formerly DNA Center, is Cisco's intent-based networking controller for enterprise campus, branch and wireless networks. It covers network design and hierarchy, device discovery and provisioning, software image management, SD-Access fabric, policy, telemetry and Assurance anal…
+  api_count: 30
+  score_band: exemplar
+  score_composite: 66.7
   shared: 1
 - slug: highlight-io
   name: Highlight (highlight.io)
@@ -71,13 +71,6 @@ providers:
   score_band: strong
   score_composite: 63.6
   shared: 1
-- slug: splunk-observability
-  name: Splunk Observability Cloud
-  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
-  api_count: 49
-  score_band: strong
-  score_composite: 63.2
-  shared: 1
 - slug: raygun
   name: Raygun
   description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.ra…
@@ -106,6 +99,20 @@ providers:
   score_band: strong
   score_composite: 61.9
   shared: 1
+- slug: splunk-observability
+  name: Splunk Observability Cloud
+  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
+  api_count: 49
+  score_band: strong
+  score_composite: 61.8
+  shared: 1
+- slug: sentry-system
+  name: Sentry
+  description: Sentry is an open-source error tracking and performance monitoring platform that helps developers identify, triage, and resolve issues in their applications in real-time.
+  api_count: 44
+  score_band: strong
+  score_composite: 61.7
+  shared: 1
 - slug: seekr
   name: Seekr
   description: Seekr Technologies builds explainable, auditable, sovereign AI for regulated industries and high-stakes government missions. Its platform, SeekrFlow, is an end-to-end AI operating system that covers document ingestion and AI-ready data preparation, vector databases and retrieval, instruction / LoRA…
@@ -119,13 +126,6 @@ providers:
   api_count: 18
   score_band: strong
   score_composite: 61.0
-  shared: 1
-- slug: sentry-system
-  name: Sentry
-  description: Sentry is an open-source error tracking and performance monitoring platform that helps developers identify, triage, and resolve issues in their applications in real-time.
-  api_count: 44
-  score_band: strong
-  score_composite: 60.6
   shared: 1
 - slug: fastly
   name: Fastly
@@ -166,13 +166,6 @@ providers:
   name: Foxglove Technologies
   description: Foxglove Technologies, Inc. (foxglove.dev) builds a multimodal data platform for robotics, autonomy and physical AI. Its products cover visualization and debugging of robot data (3D scenes, images, plots, logs, maps), cloud and self-hosted data infrastructure for recording ingest and retention, fle…
   api_count: 1
-  score_band: strong
-  score_composite: 57.8
-  shared: 1
-- slug: grafana
-  name: Grafana
-  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
-  api_count: 138
   score_band: strong
   score_composite: 57.8
   shared: 1
@@ -218,10 +211,17 @@ providers:
   score_band: strong
   score_composite: 56.3
   shared: 1
+- slug: scale3
+  name: Scale3
+  description: Scale3 Labs is a modern observability and infrastructure platform for Web3 and generative AI. Its Web3 products (Autopilot, Nodepilot and Blockchain Intelligence) let node operators and validators deploy, monitor, log and alert on blockchain nodes across 40+ chains including Ethereum, Sui, Solana,…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.1
+  shared: 1
 related:
 - slug: monitoring
   name: Monitoring
-  shared: 14
+  shared: 13
 - slug: logging
   name: Logging
   shared: 5
@@ -231,16 +231,16 @@ related:
 - slug: security
   name: Security
   shared: 2
-- slug: visualization
-  name: Visualization
-  shared: 2
 - slug: analysis
   name: Analysis
+  shared: 1
+- slug: aiops
+  name: AIOps
   shared: 1
 overview: 'Observability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [observability.apievangelist.com](https://observability.apievangelist.com).
 
 
-  30 providers on the network work in this area, including ThousandEyes, Dynatrace, New Relic, Cisco Catalyst Center, Cisco Catalyst SD-WAN, Highlight (highlight.io), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including ThousandEyes, Dynatrace, New Relic, Cisco Catalyst SD-WAN, Cisco Catalyst Center, Highlight (highlight.io), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monitoring, Logging, AI Automation, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

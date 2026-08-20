@@ -71,6 +71,13 @@ providers:
   score_band: developing
   score_composite: 53.9
   shared: 1
+- slug: cisco-crosswork
+  name: Cisco Crosswork
+  description: 'Cisco Crosswork is Cisco''s service-provider network automation portfolio — Crosswork Network Controller, Data Gateway, Zero Touch Provisioning, Optimization Engine, Network Change Automation and Crosswork Workflow Manager. Unusually for Cisco, the specifications are published openly: the CiscoDevNe…'
+  api_count: 99
+  score_band: developing
+  score_composite: 53.6
+  shared: 1
 - slug: amazon-ecs
   name: Amazon ECS
   description: Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications.
@@ -84,13 +91,6 @@ providers:
   api_count: 9
   score_band: developing
   score_composite: 52.9
-  shared: 1
-- slug: cisco-crosswork
-  name: Cisco Crosswork
-  description: 'Cisco Crosswork is Cisco''s service-provider network automation portfolio — Crosswork Network Controller, Data Gateway, Zero Touch Provisioning, Optimization Engine, Network Change Automation and Crosswork Workflow Manager. Unusually for Cisco, the specifications are published openly: the CiscoDevNe…'
-  api_count: 99
-  score_band: developing
-  score_composite: 52.7
   shared: 1
 - slug: fyno
   name: Fyno
@@ -231,12 +231,12 @@ related:
 - slug: virtualization
   name: Virtualization
   shared: 2
-- slug: workflow-automation
-  name: Workflow Automation
-  shared: 2
 - slug: ipaas
   name: iPaaS
   shared: 2
+- slug: unified-apis
+  name: Unified APIs
+  shared: 1
 overview: 'Orchestration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [orchestration.apievangelist.com](https://orchestration.apievangelist.com).
 
 

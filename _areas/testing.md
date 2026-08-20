@@ -15,13 +15,6 @@ providers:
   score_band: strong
   score_composite: 64.9
   shared: 1
-- slug: tricentis
-  name: Tricentis
-  description: Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, Tosca Cloud), AI-driven test management (qTest), performance t…
-  api_count: 102
-  score_band: strong
-  score_composite: 62.4
-  shared: 1
 - slug: uipath
   name: UiPath
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
@@ -35,6 +28,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 61.9
+  shared: 1
+- slug: tricentis
+  name: Tricentis
+  description: Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, Tosca Cloud), AI-driven test management (qTest), performance t…
+  api_count: 102
+  score_band: strong
+  score_composite: 61.5
   shared: 1
 - slug: gradle
   name: Gradle
@@ -240,7 +240,7 @@ related:
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, Tricentis, UiPath, Stack Moxie, Gradle, Coval, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, UiPath, Stack Moxie, Tricentis, Gradle, Coval, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Developer Experience, Documentation, and API Evangelist Discovery. Browse every area at [areas.apis.io](https://apis.io/areas/).'

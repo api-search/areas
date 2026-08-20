@@ -6,8 +6,22 @@ description: An index and topic collection covering machine learning APIs, MLOps
 area_url: https://machine-learning.apievangelist.com
 area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
-provider_count: 1107
+provider_count: 1121
 providers:
+- slug: anthropic
+  name: Anthropic
+  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
+  api_count: 24
+  score_band: exemplar
+  score_composite: 68.9
+  shared: 1
+- slug: google-analytics
+  name: Google Analytics
+  description: Google Analytics provides data and insights about website and app usage, enabling businesses to understand their audience and optimize their digital properties through customer-centric measurement, machine learning insights, and cross-platform attribution.
+  api_count: 13
+  score_band: exemplar
+  score_composite: 68.4
+  shared: 1
 - slug: exec
   name: Exec
   description: Exec is an AI-powered roleplay and sales-training platform (exec.com) for practicing high-stakes conversations. Teams run voice-based AI roleplays, automatically score real calls, build structured programs and certifications, coach one-on-one, and manage training content in a Knowledge Hub. The Exe…
@@ -15,26 +29,12 @@ providers:
   score_band: exemplar
   score_composite: 68.2
   shared: 1
-- slug: google-analytics
-  name: Google Analytics
-  description: Google Analytics provides data and insights about website and app usage, enabling businesses to understand their audience and optimize their digital properties through customer-centric measurement, machine learning insights, and cross-platform attribution.
-  api_count: 13
-  score_band: exemplar
-  score_composite: 67.3
-  shared: 1
 - slug: celonis
   name: Celonis
   description: Celonis is the process intelligence and process mining company. Its cloud platform ingests event data from enterprise systems, builds Knowledge Models of how business processes actually run, and surfaces KPIs, bottlenecks and automation opportunities. For developers Celonis publishes a Developer Ce…
   api_count: 17
   score_band: exemplar
   score_composite: 66.7
-  shared: 1
-- slug: anthropic
-  name: Anthropic
-  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
-  api_count: 24
-  score_band: exemplar
-  score_composite: 66.5
   shared: 1
 - slug: refuel-ai
   name: Refuel
@@ -120,6 +120,13 @@ providers:
   score_band: strong
   score_composite: 61.0
   shared: 1
+- slug: crusoe
+  name: Crusoe
+  description: Crusoe is a vertically integrated "AI factory" company that designs, builds, and operates energy-first AI infrastructure, and sells it as Crusoe Cloud — a GPU cloud for training, fine-tuning, and inference. The public developer surface is the Crusoe Cloud API Gateway, a REST API at api.cloud.crusoe…
+  api_count: 63
+  score_band: strong
+  score_composite: 61.0
+  shared: 1
 - slug: viam
   name: Viam
   description: Viam is a robotics and edge AI platform founded in 2020 by Eliot Horowitz (MongoDB co-founder and former CTO). It pairs viam-server — a gRPC-based runtime that runs on Linux single-board computers (RDK) and ESP32-class microcontrollers (micro-rdk) — with viam.app, a multi-tenant cloud for fleet man…
@@ -134,10 +141,24 @@ providers:
   score_band: strong
   score_composite: 60.5
   shared: 1
+- slug: paperspace
+  name: Paperspace
+  description: Paperspace is a GPU cloud platform for AI, ML, and 3D rendering workloads, acquired by DigitalOcean in 2023. The platform combines on-demand GPU/CPU machines (Core), the Gradient ML workflow stack (Notebooks, Datasets, Models, Workflows), and container-as-a-service Deployments under a single team-s…
+  api_count: 25
+  score_band: strong
+  score_composite: 59.6
+  shared: 1
 - slug: databricks
   name: Databricks
   description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
   api_count: 57
+  score_band: strong
+  score_composite: 59.1
+  shared: 1
+- slug: moloco
+  name: MOLOCO
+  description: 'Moloco is a machine-learning advertising company that operates three developer-facing platforms: Moloco Ads (a performance demand-side platform for app marketers), Moloco Commerce Media / MCM (a retail-media platform that lets marketplaces and retailers run sponsored product, brand, display and res…'
+  api_count: 6
   score_band: strong
   score_composite: 59.1
   shared: 1
@@ -154,13 +175,6 @@ providers:
   api_count: 6
   score_band: strong
   score_composite: 58.7
-  shared: 1
-- slug: paperspace
-  name: Paperspace
-  description: Paperspace is a GPU cloud platform for AI, ML, and 3D rendering workloads, acquired by DigitalOcean in 2023. The platform combines on-demand GPU/CPU machines (Core), the Gradient ML workflow stack (Notebooks, Datasets, Models, Workflows), and container-as-a-service Deployments under a single team-s…
-  api_count: 25
-  score_band: strong
-  score_composite: 58.6
   shared: 1
 - slug: tensordock
   name: TensorDock
@@ -204,20 +218,6 @@ providers:
   score_band: strong
   score_composite: 57.7
   shared: 1
-- slug: amazon-healthimaging
-  name: Amazon HealthImaging
-  description: AWS HealthImaging is a HIPAA-eligible service that helps healthcare providers and their software partners store, transform, and apply machine learning to medical images. It provides sub-second image retrieval and enables scaling from hundreds to millions of medical images.
-  api_count: 5
-  score_band: strong
-  score_composite: 57.6
-  shared: 1
-- slug: decart
-  name: Decart
-  description: Decart is an AI research lab and API platform building real-time world models — foundation models that generate and transform video frame-by-frame as they are watched. Its Decart API Platform (platform.decart.ai) exposes the Lucy family of realtime and batch video/image models plus the Oasis prompt…
-  api_count: 4
-  score_band: strong
-  score_composite: 57.3
-  shared: 1
 related:
 - slug: containers
   name: Containers
@@ -240,7 +240,7 @@ related:
 overview: 'Machine Learning is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [machine-learning.apievangelist.com](https://machine-learning.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Exec, Google Analytics, Celonis, Anthropic, Refuel, Landing.ai, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Anthropic, Google Analytics, Exec, Celonis, Refuel, Landing.ai, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, Security, Serverless, and IDE. Browse every area at [areas.apis.io](https://apis.io/areas/).'

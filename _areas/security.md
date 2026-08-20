@@ -6,7 +6,7 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 795
+provider_count: 796
 providers:
 - slug: mailboxlayer
   name: Mailboxlayer
@@ -18,9 +18,16 @@ providers:
 - slug: cisco-ise
   name: Cisco Identity Services Engine
   description: 'Cisco Identity Services Engine (ISE) is Cisco''s network access control and zero-trust policy platform: 802.1X and RADIUS authentication, TACACS+ device administration, guest and BYOD onboarding, endpoint profiling, posture assessment, and TrustSec security-group segmentation, all driven from a cent…'
-  api_count: 34
+  api_count: 197
   score_band: exemplar
-  score_composite: 68.6
+  score_composite: 68.5
+  shared: 1
+- slug: shieldlabs
+  name: ShieldLabs
+  description: Anonymous visitor identification and fraud-prevention platform. A browser ES-module snippet loaded from cdn.shieldlabs.ai collects 100+ device and network signals and returns six persistent identifiers (DeviceID, VisitorID, CookieID, SessionID, RequestID and a caller-supplied hashed UserHID) plus a…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.5
   shared: 1
 - slug: very-good-security
   name: Very Good Security
@@ -162,10 +169,10 @@ providers:
   score_band: strong
   score_composite: 59.0
   shared: 1
-- slug: clerk-com
-  name: Clerk
-  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
-  api_count: 77
+- slug: method-security
+  name: Method Security
+  description: Method Security is a cybersecurity company delivering cyber resilience to the U.S. Government and critical enterprises through an AI-native, full-spectrum security platform. The Method Platform blends offensive and defensive operations across cloud, on-premise, and internet-denied environments, and…
+  api_count: 10
   score_band: strong
   score_composite: 58.9
   shared: 1
@@ -183,19 +190,19 @@ providers:
   score_band: strong
   score_composite: 58.4
   shared: 1
+- slug: yubico
+  name: Yubico
+  description: Yubico is the security company behind the YubiKey hardware authentication device and the inventor of the Yubico One-Time Password (OTP). Its public developer surface centers on YubiCloud, a hosted REST service that verifies Yubico OTPs via a signed HTTPS request to api.yubico.com, alongside a broad…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.0
+  shared: 1
 - slug: chef-software
   name: Chef Software
   description: Chef Software is the DevOps automation company behind Chef Infra, Chef InSpec, Chef Habitat, and Chef Automate, now part of Progress Software. Chef pioneered infrastructure-as-code, letting teams define, deploy, and continuously enforce the configuration, compliance, and security posture of servers…
   api_count: 30
   score_band: strong
   score_composite: 57.9
-  shared: 1
-- slug: method-security
-  name: Method Security
-  description: Method Security is a cybersecurity company delivering cyber resilience to the U.S. Government and critical enterprises through an AI-native, full-spectrum security platform. The Method Platform blends offensive and defensive operations across cloud, on-premise, and internet-denied environments, and…
-  api_count: 10
-  score_band: strong
-  score_composite: 57.8
   shared: 1
 - slug: kolide
   name: Kolide
@@ -210,13 +217,6 @@ providers:
   api_count: 12
   score_band: strong
   score_composite: 57.5
-  shared: 1
-- slug: neutrino-api
-  name: Neutrino API
-  description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP API of 28 published operations — one verb path each, no reso…'
-  api_count: 7
-  score_band: strong
-  score_composite: 57.4
   shared: 1
 related:
 - slug: containers
@@ -234,13 +234,13 @@ related:
 - slug: ai-automation
   name: AI Automation
   shared: 2
-- slug: communications
-  name: Communications
+- slug: authentication
+  name: Authentication
   shared: 2
 overview: 'Security is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [security.apievangelist.com](https://security.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Mailboxlayer, Cisco Identity Services Engine, Very Good Security, Evervault, imgauth — API di attestazione opere digitali, Amazon Secrets Manager, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Mailboxlayer, Cisco Identity Services Engine, ShieldLabs, Very Good Security, Evervault, imgauth — API di attestazione opere digitali, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, DNS, Machine Learning, and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -119,9 +119,6 @@ related:
 - slug: dns
   name: DNS
   shared: 1
-- slug: logging
-  name: Logging
-  shared: 1
 - slug: security
   name: Security
   shared: 1

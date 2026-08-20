@@ -78,6 +78,13 @@ providers:
   score_band: strong
   score_composite: 58.3
   shared: 1
+- slug: sylvia-api
+  name: Sylvia API
+  description: Sylvia API is a third-party Reddit data API that serves Reddit content as JSON — posts, comments with full recursive threads, subreddit and user surfaces, global search, and a live comment stream. Thirty-six operations across twelve tags cover the read surface (posts, comments, subreddits, users, s…
+  api_count: 12
+  score_band: strong
+  score_composite: 57.9
+  shared: 1
 - slug: mixedbread-ai
   name: Mixedbread
   description: Mixedbread is a Berlin-based AI search and retrieval platform. It provides embeddings (mxbai-embed, Wholembed v3), rerankers (mxbai-rerank v1/v2/v3-listwise), multimodal stores, document parsing, structured extraction, and connector-based ingestion. Models are published as open weights on Hugging F…
@@ -113,17 +120,17 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
-- slug: dexcare
-  name: DexCare
-  description: DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand,…
-  api_count: 7
-  score_band: developing
-  score_composite: 52.5
-  shared: 1
 - slug: tako
   name: Tako
   description: Tako is an AI answer-engine API for authoritative, source-grounded data. It serves live financial, macroeconomic, and company data as cited answers, structured knowledge cards (charts, tables, maps), and embeddable visualizations for agents and applications. Developers build with four core APIs — S…
   api_count: 2
+  score_band: developing
+  score_composite: 53.6
+  shared: 1
+- slug: dexcare
+  name: DexCare
+  description: DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand,…
+  api_count: 7
   score_band: developing
   score_composite: 52.5
   shared: 1
@@ -197,26 +204,19 @@ providers:
   score_band: developing
   score_composite: 50.6
   shared: 1
+- slug: brightedge
+  name: BrightEdge
+  description: BrightEdge is an enterprise SEO and content performance platform, founded in 2007 and headquartered in Silicon Valley, used by thousands of brands and a majority of the Fortune 100. Its products include the DataCube keyword and content data repository, ContentIQ site auditing, Autopilot, Copilot, a…
+  api_count: 45
+  score_band: developing
+  score_composite: 50.6
+  shared: 1
 - slug: amazon-cloudsearch
   name: Amazon CloudSearch
   description: Amazon CloudSearch is a managed search service that makes it easy to set up, manage, and scale a search solution for your website or application. Supports full-text search, Boolean search, faceted search, autocomplete, geospatial search, and 34 languages.
   api_count: 2
   score_band: developing
   score_composite: 50.2
-  shared: 1
-- slug: newscatcher
-  name: Newscatcher
-  description: Newscatcher is a news search and aggregation API platform that provides access to over 120,000 news sources worldwide with full-text search, NLP enrichment, entity extraction, sentiment analysis, and automated clustering. The platform offers three core products — a News API for structured article r…
-  api_count: 16
-  score_band: developing
-  score_composite: 50.2
-  shared: 1
-- slug: amazon-opensearch
-  name: Amazon OpenSearch Service API
-  description: Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters in the AWS Cloud. It offers visualization capabilities powered by OpenSearch Dashboards and Kibana, and provides direct access to the OpenSearch API so that existing code and applicat…
-  api_count: 5
-  score_band: developing
-  score_composite: 49.1
   shared: 1
 related:
 - slug: dns

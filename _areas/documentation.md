@@ -13,7 +13,7 @@ providers:
   description: APIs for Atlassian Confluence - team collaboration and knowledge management software.
   api_count: 66
   score_band: strong
-  score_composite: 65.4
+  score_composite: 63.5
   shared: 1
 - slug: hashnode
   name: Hashnode
@@ -50,6 +50,13 @@ providers:
   score_band: developing
   score_composite: 53.3
   shared: 1
+- slug: hackmd
+  name: HackMD
+  description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide decks or books. HackMD exposes a v1 REST API at api.hackmd.io…
+  api_count: 8
+  score_band: developing
+  score_composite: 53.2
+  shared: 1
 - slug: sweep
   name: Sweep
   description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes safely across complex systems. It unifies discovery, design,…
@@ -63,13 +70,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 52.8
-  shared: 1
-- slug: hackmd
-  name: HackMD
-  description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide decks or books. HackMD exposes a v1 REST API at api.hackmd.io…
-  api_count: 8
-  score_band: developing
-  score_composite: 52.1
   shared: 1
 - slug: apimatic
   name: APIMatic
@@ -228,14 +228,14 @@ related:
 - slug: testing
   name: Testing
   shared: 2
+- slug: portal
+  name: Portal
+  shared: 1
 - slug: search
   name: API Evangelist Search
   shared: 1
 - slug: agents-skills
   name: Agent Skills
-  shared: 1
-- slug: cli
-  name: Command Line Interface
   shared: 1
 overview: 'Documentation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [documentation.apievangelist.com](https://documentation.apievangelist.com).
 
@@ -243,5 +243,5 @@ overview: 'Documentation is one of the API Evangelist areas on the [APIs.io](htt
   30 providers on the network work in this area, including Confluence, Hashnode, CompanyCam, Treblle, Scribe, ReadMe, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Developer Experience, Support, Testing, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Developer Experience, Support, Testing, and Portal. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

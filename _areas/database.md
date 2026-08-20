@@ -29,19 +29,19 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
+- slug: pingcap
+  name: PingCAP
+  description: PingCAP is the company behind TiDB, an open-source, MySQL-compatible distributed SQL database built for hybrid transactional and analytical processing (HTAP), horizontal scale-out, Raft-based strong consistency, and vector search for AI workloads. PingCAP operates TiDB Cloud, the fully managed DBaa…
+  api_count: 32
+  score_band: strong
+  score_composite: 61.7
+  shared: 1
 - slug: amazon-keyspaces
   name: Amazon Keyspaces
   description: Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra-compatible database service that lets you run Cassandra workloads on AWS without managing servers or software.
   api_count: 2
   score_band: strong
   score_composite: 61.3
-  shared: 1
-- slug: pingcap
-  name: PingCAP
-  description: PingCAP is the company behind TiDB, an open-source, MySQL-compatible distributed SQL database built for hybrid transactional and analytical processing (HTAP), horizontal scale-out, Raft-based strong consistency, and vector search for AI workloads. PingCAP operates TiDB Cloud, the fully managed DBaa…
-  api_count: 32
-  score_band: strong
-  score_composite: 60.8
   shared: 1
 - slug: amazon-neptune
   name: Amazon Neptune
@@ -120,13 +120,6 @@ providers:
   score_band: strong
   score_composite: 54.5
   shared: 1
-- slug: oracle
-  name: Oracle
-  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
-  api_count: 378
-  score_band: developing
-  score_composite: 53.8
-  shared: 1
 - slug: influxdata
   name: InfluxData
   description: InfluxData is the company behind InfluxDB, the leading open source time series database purpose-built for real-time analytics, monitoring, IoT and sensor data, application metrics, and observability workloads. InfluxDB ingests millions of data points per second and ships as open source (InfluxDB OS…
@@ -141,6 +134,13 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
+- slug: oracle
+  name: Oracle
+  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
+  api_count: 378
+  score_band: developing
+  score_composite: 52.9
+  shared: 1
 - slug: nocodb
   name: NocoDB
   description: NocoDB is an open-source, self-hostable alternative to Airtable that turns any relational database — MySQL, PostgreSQL, Microsoft SQL Server, or SQLite — into a collaborative smart spreadsheet. It exposes a versioned REST API (v2 and v3) with separate Data APIs for record CRUD operations and Meta A…
@@ -154,13 +154,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.1
-  shared: 1
-- slug: couchbase
-  name: Couchbase
-  description: Couchbase is a distributed, document-oriented NoSQL cloud database platform that combines the flexibility of JSON, the power of SQL++ querying, and the performance of an in-memory key-value store. The Couchbase product line includes Couchbase Server (self-managed), Couchbase Capella (fully managed…
-  api_count: 54
-  score_band: developing
-  score_composite: 50.9
   shared: 1
 - slug: oracle-goldengate
   name: Oracle GoldenGate
@@ -189,6 +182,13 @@ providers:
   api_count: 26
   score_band: developing
   score_composite: 50.1
+  shared: 1
+- slug: couchbase
+  name: Couchbase
+  description: Couchbase is a distributed, document-oriented NoSQL cloud database platform that combines the flexibility of JSON, the power of SQL++ querying, and the performance of an in-memory key-value store. The Couchbase product line includes Couchbase Server (self-managed), Couchbase Capella (fully managed…
+  api_count: 54
+  score_band: developing
+  score_composite: 50.0
   shared: 1
 - slug: yugabytedb
   name: YugabyteDB
@@ -231,16 +231,13 @@ related:
 - slug: caching
   name: Caching
   shared: 1
-- slug: authentication
-  name: Authentication
-  shared: 1
 - slug: observability
   name: Observability
   shared: 1
 overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [database.apievangelist.com](https://database.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Notion, Ablo, Bubble, Amazon Keyspaces, PingCAP, Amazon Neptune, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Notion, Ablo, Bubble, PingCAP, Amazon Keyspaces, Amazon Neptune, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monitoring, Serverless, Gateway, and Caching. Browse every area at [areas.apis.io](https://apis.io/areas/).'

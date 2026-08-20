@@ -6,7 +6,7 @@ description: An index and topic collection covering API clients, the developer t
 area_url: https://api-clients.apievangelist.com
 area_host: api-clients.apievangelist.com
 icon: https://api-clients.apievangelist.com/icon-thumb.png
-provider_count: 19
+provider_count: 20
 providers:
 - slug: apollo-graphql
   name: Apollo GraphQL
@@ -42,6 +42,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 39.2
+  shared: 1
+- slug: httpie
+  name: HTTPie
+  description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submission…
+  api_count: 2
+  score_band: thin
+  score_composite: 31.8
   shared: 1
 - slug: wget
   name: Wget
@@ -144,14 +151,14 @@ providers:
 related:
 - slug: clients
   name: Clients
-  shared: 17
+  shared: 18
 - slug: cli
   name: Command Line Interface
-  shared: 2
+  shared: 3
 overview: 'API Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-clients.apievangelist.com](https://api-clients.apievangelist.com).
 
 
-  19 providers on the network work in this area, including Apollo GraphQL, Hoppscotch, Ruby Programming Language and Popular API Gems, Insomnia, Kiota, Wget, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  20 providers on the network work in this area, including Apollo GraphQL, Hoppscotch, Ruby Programming Language and Popular API Gems, Insomnia, Kiota, HTTPie, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Clients and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

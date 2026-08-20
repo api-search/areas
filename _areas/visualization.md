@@ -22,17 +22,17 @@ providers:
   score_band: strong
   score_composite: 57.8
   shared: 1
-- slug: grafana
-  name: Grafana
-  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
-  api_count: 138
-  score_band: strong
-  score_composite: 57.8
-  shared: 1
 - slug: amazon-quicksight
   name: Amazon QuickSight
   description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
   api_count: 2
+  score_band: strong
+  score_composite: 55.9
+  shared: 1
+- slug: grafana
+  name: Grafana
+  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
+  api_count: 138
   score_band: strong
   score_composite: 55.9
   shared: 1
@@ -57,19 +57,19 @@ providers:
   score_band: developing
   score_composite: 46.9
   shared: 1
+- slug: napkin
+  name: Napkin
+  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
+  api_count: 1
+  score_band: developing
+  score_composite: 46.7
+  shared: 1
 - slug: napkinai
   name: Napkin.AI
   description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, mind maps, icons, and infographics — and into full presentations, with no prompting or design skill required. Two products share the same text-to-visual engine: Napkin Visuals (standalone diagrams and graphics, exportabl…'
   api_count: 1
   score_band: developing
   score_composite: 45.7
-  shared: 1
-- slug: napkin
-  name: Napkin
-  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
-  api_count: 1
-  score_band: developing
-  score_composite: 45.6
   shared: 1
 - slug: visio
   name: Microsoft Visio API
@@ -92,19 +92,19 @@ providers:
   score_band: thin
   score_composite: 37.6
   shared: 1
+- slug: kibana
+  name: Kibana
+  description: Kibana is an open-source data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence. Kibana provides histograms, line graphs, pie charts, heat maps, geospatial visualizations, dashboards, alerting, and management of saved obj…
+  api_count: 60
+  score_band: thin
+  score_composite: 35.3
+  shared: 1
 - slug: microsoft-visio
   name: Microsoft Visio
   description: APIs and resources for Microsoft Visio, a diagramming and vector graphics application that helps visualize data-connected business process flows. Provides programmatic access to diagrams, pages, shapes, data items, comments, and hyperlinks through Microsoft Graph and JavaScript APIs.
   api_count: 7
   score_band: thin
   score_composite: 34.5
-  shared: 1
-- slug: kibana
-  name: Kibana
-  description: Kibana is an open-source data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence. Kibana provides histograms, line graphs, pie charts, heat maps, geospatial visualizations, dashboards, alerting, and management of saved obj…
-  api_count: 60
-  score_band: thin
-  score_composite: 34.4
   shared: 1
 - slug: lucidchart
   name: Lucidchart
@@ -183,19 +183,19 @@ providers:
   score_band: minimal
   score_composite: 10.9
   shared: 1
+- slug: all3d
+  name: All3D
+  description: ALL3D, Inc. is a San Francisco AI-powered visual content platform that replaces traditional product photography for ecommerce brands and agencies. Users upload a product photo and its real-world dimensions, build a scene from inspiration images and props, and generate 4K studio and lifestyle images…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.9
+  shared: 1
 - slug: flowcharts
   name: Flowcharts
   description: Flowcharts are a visual modeling technique used across software engineering, systems analysis, business process design, and education to depict the steps, decisions, and flow of a process or algorithm. Within an API context, flowcharts are used to model workflows, integration patterns, retry logic,…
   api_count: 0
   score_band: minimal
   score_composite: 6.9
-  shared: 1
-- slug: all3d
-  name: All3D
-  description: ALL3D, Inc. is a San Francisco AI-powered visual content platform that replaces traditional product photography for ecommerce brands and agencies. Users upload a product photo and its real-world dimensions, build a scene from inspiration images and props, and generate 4K studio and lifestyle images…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.7
   shared: 1
 - slug: noteable
   name: Noteable
@@ -225,17 +225,17 @@ related:
 - slug: monitoring
   name: Monitoring
   shared: 2
-- slug: observability
-  name: Observability
-  shared: 2
 - slug: logging
   name: Logging
+  shared: 1
+- slug: observability
+  name: Observability
   shared: 1
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Power BI, Foxglove Technologies, Grafana, Amazon QuickSight, Amazon Managed Grafana, Google Data Studio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Power BI, Foxglove Technologies, Amazon QuickSight, Grafana, Amazon Managed Grafana, Google Data Studio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Design, Monitoring, Observability, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Design, Monitoring, Logging, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

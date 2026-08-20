@@ -6,8 +6,15 @@ description: An index and topic collection covering application deployment platf
 area_url: https://deployment.apievangelist.com
 area_host: deployment.apievangelist.com
 icon: https://deployment.apievangelist.com/icon-thumb.png
-provider_count: 62
+provider_count: 69
 providers:
+- slug: raygun
+  name: Raygun
+  description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.ra…
+  api_count: 15
+  score_band: strong
+  score_composite: 63.0
+  shared: 1
 - slug: laravel
   name: Laravel
   description: 'Laravel is the company behind the Laravel PHP framework and a suite of commercial developer infrastructure products: Laravel Cloud (a fully managed PaaS for deploying and scaling Laravel and Symfony applications), Laravel Forge (server provisioning and application deployment across DigitalOcean, AW…'
@@ -28,13 +35,6 @@ providers:
   api_count: 37
   score_band: strong
   score_composite: 61.6
-  shared: 1
-- slug: amazon-codedeploy
-  name: Amazon CodeDeploy
-  description: AWS CodeDeploy is a fully managed deployment service that automates software deployments to various compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and on-premises servers. CodeDeploy makes it easier to rapidly release new features, helps avoid downtime during application deployment,…
-  api_count: 49
-  score_band: strong
-  score_composite: 56.4
   shared: 1
 - slug: kubernetes
   name: Kubernetes
@@ -57,6 +57,20 @@ providers:
   score_band: strong
   score_composite: 54.7
   shared: 1
+- slug: amazon-codedeploy
+  name: Amazon CodeDeploy
+  description: AWS CodeDeploy is a fully managed deployment service that automates software deployments to various compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and on-premises servers. CodeDeploy makes it easier to rapidly release new features, helps avoid downtime during application deployment,…
+  api_count: 49
+  score_band: strong
+  score_composite: 54.5
+  shared: 1
+- slug: aptible
+  name: Aptible
+  description: Aptible is a Platform as a Service (PaaS) built for teams that have to prove security and compliance, not just ship. It deploys web apps, managed databases (PostgreSQL, MySQL, Redis, Elasticsearch, InfluxDB, RabbitMQ, SFTP) and AI workloads onto isolated, dedicated AWS infrastructure with encryptio…
+  api_count: 51
+  score_band: developing
+  score_composite: 54.2
+  shared: 1
 - slug: nuon
   name: Nuon
   description: Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into their customers' own AWS, Azure, or GCP accounts while keeping a…
@@ -70,13 +84,6 @@ providers:
   api_count: 11
   score_band: developing
   score_composite: 52.6
-  shared: 1
-- slug: aptible
-  name: Aptible
-  description: Aptible is a Platform as a Service (PaaS) built for teams that have to prove security and compliance, not just ship. It deploys web apps, managed databases (PostgreSQL, MySQL, Redis, Elasticsearch, InfluxDB, RabbitMQ, SFTP) and AI workloads onto isolated, dedicated AWS infrastructure with encryptio…
-  api_count: 51
-  score_band: developing
-  score_composite: 52.4
   shared: 1
 - slug: codesphere
   name: Codesphere
@@ -120,6 +127,13 @@ providers:
   score_band: developing
   score_composite: 49.1
   shared: 1
+- slug: alpic
+  name: Alpic
+  description: Alpic is the MCP-native cloud platform for building, deploying, monitoring, and distributing Model Context Protocol (MCP) servers and ChatGPT Apps. Its stack spans the open-source Skybridge TypeScript framework, the `alpic` CLI, Alpic Cloud (one-click deploy, multi-environment support, runtime and…
+  api_count: 8
+  score_band: developing
+  score_composite: 48.6
+  shared: 1
 - slug: dokploy
   name: Dokploy
   description: Dokploy is an open-source, self-hostable Platform-as-a-Service (PaaS) — an alternative to Heroku, Vercel, and Netlify — that deploys applications, Docker Compose stacks, and managed databases across one or many servers using Docker and Docker Swarm, with Traefik handling routing and TLS.
@@ -133,13 +147,6 @@ providers:
   api_count: 26
   score_band: developing
   score_composite: 48.1
-  shared: 1
-- slug: alpic
-  name: Alpic
-  description: Alpic is the MCP-native cloud platform for building, deploying, monitoring, and distributing Model Context Protocol (MCP) servers and ChatGPT Apps. Its stack spans the open-source Skybridge TypeScript framework, the `alpic` CLI, Alpic Cloud (one-click deploy, multi-environment support, runtime and…
-  api_count: 8
-  score_band: developing
-  score_composite: 47.5
   shared: 1
 - slug: semaphore
   name: Semaphore
@@ -190,6 +197,13 @@ providers:
   score_band: developing
   score_composite: 43.0
   shared: 1
+- slug: pulumi
+  name: Pulumi
+  description: Pulumi is a modern infrastructure as code platform that allows you to use familiar programming languages to build, deploy, and manage cloud infrastructure. The Pulumi Cloud REST API enables programmatic access to manage organizations, stacks, deployments, environments, policy packs, webhooks, and o…
+  api_count: 35
+  score_band: developing
+  score_composite: 41.6
+  shared: 1
 - slug: deno
   name: Deno
   description: Deno is a modern JavaScript and TypeScript runtime built on V8 that emphasizes security, simplicity, and developer productivity. It provides a comprehensive developer platform including the Deno Deploy serverless edge network, a built-in key-value store, and a standard library of audited modules, a…
@@ -204,27 +218,13 @@ providers:
   score_band: developing
   score_composite: 40.2
   shared: 1
-- slug: terminal-use
-  name: Terminal Use
-  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
-  api_count: 28
-  score_band: developing
-  score_composite: 39.3
-  shared: 1
-- slug: railway-app
-  name: Railway
-  description: Railway is a cloud application deployment platform (PaaS) that builds, deploys, and scales services, databases, and cron jobs from a Git repository or Docker image. Its programmatic surface is a GraphQL-first Public API served at https://backboard.railway.com/graphql/v2 - the same API that powers t…
-  api_count: 13
-  score_band: thin
-  score_composite: 38.6
-  shared: 1
 related:
 - slug: containers
   name: Containers
   shared: 5
-- slug: cli
-  name: Command Line Interface
-  shared: 1
+- slug: monitoring
+  name: Monitoring
+  shared: 2
 - slug: dns
   name: DNS
   shared: 1
@@ -234,14 +234,14 @@ related:
 - slug: microservices
   name: Microservices
   shared: 1
-- slug: monitoring
-  name: Monitoring
+- slug: observability
+  name: Observability
   shared: 1
 overview: 'Deployment is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deployment.apievangelist.com](https://deployment.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Laravel, Koyeb, OutSystems, Amazon CodeDeploy, Kubernetes, Amazon Elastic Beanstalk, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Raygun, Laravel, Koyeb, OutSystems, Kubernetes, Amazon Elastic Beanstalk, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, Command Line Interface, DNS, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, Monitoring, DNS, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

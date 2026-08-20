@@ -20,7 +20,7 @@ providers:
   description: The MX Platform API is a powerful, fully-featured API designed to make aggregating and enhancing financial data easy and reliable. It can seamlessly connect your app or website to tens of thousands of financial institutions.
   api_count: 55
   score_band: developing
-  score_composite: 42.1
+  score_composite: 40.2
   shared: 1
 - slug: google-news
   name: Google News RSS

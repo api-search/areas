@@ -34,7 +34,7 @@ providers:
   description: 'Certify (operating as CertifyOS, certifyos.com) is a New York-based healthcare provider data platform that automates the end-to-end provider network management lifecycle: credentialing, licensing, payer enrollment, compliance monitoring, and roster management. Founded in 2020 by CEO Anshul Rathi, t…'
   api_count: 59
   score_band: developing
-  score_composite: 51.4
+  score_composite: 51.6
   shared: 1
 - slug: opengov
   name: OpenGov
@@ -218,15 +218,9 @@ providers:
   score_band: minimal
   score_composite: 5.5
   shared: 1
-related:
-- slug: regulation
-  name: Regulation
-  shared: 1
+related: []
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Replicated, SendOwl, ACMA, Certifyos, OpenGov, Soundstripe, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
-
-
-  Related areas: Regulation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  30 providers on the network work in this area, including Replicated, SendOwl, ACMA, Certifyos, OpenGov, Soundstripe, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

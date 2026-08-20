@@ -13,7 +13,7 @@ providers:
   description: 'Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hybrid event delivery via the Attendee Hub, surveys, and analyt…'
   api_count: 42
   score_band: exemplar
-  score_composite: 71.9
+  score_composite: 70.1
   shared: 1
 - slug: general-translation
   name: General Translation
@@ -120,6 +120,13 @@ providers:
   score_band: developing
   score_composite: 49.8
   shared: 1
+- slug: firework
+  name: Firework
+  description: Firework is a video commerce platform that helps brands and retailers bring the in-store experience and human connection online through shoppable short-form video, livestream shopping, 1:1 video chat, digital showrooms, and an AI shopping agent. Operated by Loop Now Technologies and backed by SoftB…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.4
+  shared: 1
 - slug: android
   name: Android
   description: Collection of APIs and services available in the Android ecosystem.
@@ -147,13 +154,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 48.5
-  shared: 1
-- slug: firework
-  name: Firework
-  description: Firework is a video commerce platform that helps brands and retailers bring the in-store experience and human connection online through shoppable short-form video, livestream shopping, 1:1 video chat, digital showrooms, and an AI shopping agent. Operated by Loop Now Technologies and backed by SoftB…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.3
   shared: 1
 - slug: sanas
   name: Sanas

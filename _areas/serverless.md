@@ -22,6 +22,13 @@ providers:
   score_band: strong
   score_composite: 66.3
   shared: 1
+- slug: modal-com
+  name: Modal
+  description: Modal is a serverless cloud platform for AI and data workloads. Modal lets developers write ordinary Python and run it on remote GPUs and CPUs with sub-second cold starts, instant autoscaling, and declarative container images. The platform's primitives — Functions, Sandboxes, Volumes, Images, Secre…
+  api_count: 17
+  score_band: strong
+  score_composite: 64.4
+  shared: 1
 - slug: ibm
   name: IBM
   description: A collection of IBM's public APIs and developer resources.
@@ -42,13 +49,6 @@ providers:
   api_count: 87
   score_band: strong
   score_composite: 62.5
-  shared: 1
-- slug: modal-com
-  name: Modal
-  description: Modal is a serverless cloud platform for AI and data workloads. Modal lets developers write ordinary Python and run it on remote GPUs and CPUs with sub-second cold starts, instant autoscaling, and declarative container images. The platform's primitives — Functions, Sandboxes, Volumes, Images, Secre…
-  api_count: 17
-  score_band: strong
-  score_composite: 61.7
   shared: 1
 - slug: freestyle-sh
   name: Freestyle
@@ -148,19 +148,26 @@ providers:
   score_band: strong
   score_composite: 54.4
   shared: 1
-- slug: amazon-efs
-  name: Amazon EFS
-  description: Amazon Elastic File System (EFS) provides a simple, serverless, set-and-forget elastic file system for use with AWS cloud services and on-premises resources. EFS is built to scale on demand to petabytes without disrupting applications, growing and shrinking automatically as you add and remove files.
-  api_count: 1
-  score_band: developing
-  score_composite: 53.0
+- slug: netlify
+  name: Netlify
+  description: Netlify is a cloud platform for building, deploying, and scaling modern web applications with continuous deployment, serverless functions, and edge computing capabilities.
+  api_count: 35
+  score_band: strong
+  score_composite: 54.4
   shared: 1
 - slug: rightnow
   name: RightNow AI
   description: RightNow AI (RunInfra) turns plain-English descriptions of an inference workload into production, OpenAI-compatible AI endpoints. The platform selects open-source models from Hugging Face, benchmarks GPU options, applies kernel optimizations (quantization, speculative decoding, KV-cache tuning, For…
   api_count: 7
   score_band: developing
-  score_composite: 52.8
+  score_composite: 53.9
+  shared: 1
+- slug: amazon-efs
+  name: Amazon EFS
+  description: Amazon Elastic File System (EFS) provides a simple, serverless, set-and-forget elastic file system for use with AWS cloud services and on-premises resources. EFS is built to scale on demand to petabytes without disrupting applications, growing and shrinking automatically as you add and remove files.
+  api_count: 1
+  score_band: developing
+  score_composite: 53.0
   shared: 1
 - slug: cloudflare-queues
   name: Cloudflare Queues
@@ -180,13 +187,6 @@ providers:
   name: Azure Web PubSub
   description: Azure Web PubSub is a fully-managed service that enables building real-time, two-way messaging applications using publish-subscribe patterns over WebSockets. It supports broadcasting messages to clients in groups, sending messages to specific connections or users, and integrating with serverless ev…
   api_count: 8
-  score_band: developing
-  score_composite: 52.5
-  shared: 1
-- slug: netlify
-  name: Netlify
-  description: Netlify is a cloud platform for building, deploying, and scaling modern web applications with continuous deployment, serverless functions, and edge computing capabilities.
-  api_count: 35
   score_band: developing
   score_composite: 52.5
   shared: 1
@@ -234,13 +234,13 @@ related:
 - slug: gateway
   name: Gateway
   shared: 1
-- slug: authentication
-  name: Authentication
+- slug: dns
+  name: DNS
   shared: 1
 overview: 'Serverless is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [serverless.apievangelist.com](https://serverless.apievangelist.com).
 
 
-  30 providers on the network work in this area, including fal, Amazon API Gateway, IBM, Koyeb, Cloudflare, Modal, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including fal, Amazon API Gateway, Modal, IBM, Koyeb, Cloudflare, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, Security, Database, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'

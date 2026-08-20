@@ -6,7 +6,7 @@ description: This is the index of developer experience service and tooling repos
 area_url: https://developer-experience.apievangelist.com
 area_host: developer-experience.apievangelist.com
 icon: https://developer-experience.apievangelist.com/icon-thumb.png
-provider_count: 50
+provider_count: 62
 providers:
 - slug: adobe-suite
   name: Adobe Suite
@@ -29,26 +29,12 @@ providers:
   score_band: strong
   score_composite: 55.1
   shared: 1
-- slug: bettermode
-  name: Bettermode
-  description: Bettermode is an all-in-one customer community platform (formerly Tribe) that lets organizations launch branded, no-code communities to turn engagement into measurable retention and growth. It combines discussion forums, Q&A, knowledge base, member directories, events, wishlists, changelogs, and ro…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.0
-  shared: 1
 - slug: signadot
   name: Signadot
   description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
   api_count: 5
   score_band: strong
   score_composite: 55.0
-  shared: 1
-- slug: apple
-  name: Apple
-  description: Collection of Apple's public APIs and developer resources.
-  api_count: 21
-  score_band: developing
-  score_composite: 52.2
   shared: 1
 - slug: apimatic
   name: APIMatic
@@ -57,12 +43,26 @@ providers:
   score_band: developing
   score_composite: 52.0
   shared: 1
-- slug: google
-  name: Google
-  description: Google's public APIs and services.
-  api_count: 125
+- slug: viator
+  name: Viator
+  description: Viator is a Tripadvisor company and the largest online marketplace for tours, activities and travel experiences, headquartered in the United States and listing more than 300,000 bookable products across roughly 2,500 destinations. It sits on the demand side of the travel distribution chain as an ag…
+  api_count: 9
   score_band: developing
-  score_composite: 46.5
+  score_composite: 51.3
+  shared: 1
+- slug: coveo
+  name: Coveo
+  description: Coveo is a cloud-based AI-relevance platform that delivers personalized search, recommendations, and discovery experiences across digital workplaces, customer service portals, websites, and commerce storefronts. The Coveo platform exposes a family of REST APIs covering search, content indexing (Pus…
+  api_count: 152
+  score_band: developing
+  score_composite: 45.8
+  shared: 1
+- slug: klook
+  name: Klook
+  description: Klook is a Hong Kong-headquartered travel and experiences booking platform for the "things to do" sector — attractions, tours and activities, theme parks, food and beverage, WiFi and SIM cards, and transportation passes. Klook publishes an Open API specification for merchants, suppliers, reservatio…
+  api_count: 4
+  score_band: developing
+  score_composite: 45.7
   shared: 1
 - slug: atlassian-compass
   name: Atlassian Compass
@@ -84,6 +84,13 @@ providers:
   api_count: 21
   score_band: developing
   score_composite: 43.9
+  shared: 1
+- slug: getyourguide
+  name: GetYourGuide
+  description: GetYourGuide is a Berlin-based online travel marketplace for booking tours, activities, attraction tickets, and experiences in destinations around the world. Founded in 2009, the company connects travelers with local activity suppliers and operators, and exposes a public Partner API that gives affi…
+  api_count: 8
+  score_band: developing
+  score_composite: 43.8
   shared: 1
 - slug: opslevel
   name: OpsLevel
@@ -134,19 +141,19 @@ providers:
   score_band: thin
   score_composite: 37.2
   shared: 1
+- slug: fabric-com
+  name: fabric
+  description: ''
+  api_count: 61
+  score_band: thin
+  score_composite: 37.2
+  shared: 1
 - slug: gitbook
   name: GitBook
   description: GitBook is a platform that allows users to create, publish, and share online books and documentation. It provides a simple and user-friendly interface for writing and organizing content, as well as tools for collaborating with other authors or team members. With GitBook, users can easily create a p…
   api_count: 19
   score_band: thin
   score_composite: 37.0
-  shared: 1
-- slug: terminal-shop
-  name: Terminal
-  description: Terminal is a developer-focused coffee company with an API-first, SSH-first ordering experience. The Terminal Shop API is a public REST API (Bearer token) for browsing coffee products, managing carts, placing orders, running subscriptions, and handling addresses, cards, and profiles - the same surf…
-  api_count: 11
-  score_band: thin
-  score_composite: 36.7
   shared: 1
 - slug: software
   name: Software
@@ -183,6 +190,13 @@ providers:
   score_band: thin
   score_composite: 36.1
   shared: 1
+- slug: konfetti
+  name: konfetti
+  description: konfetti (Konfetti GmbH, Berlin) operates a marketplace for bookable experiences — cooking classes, pottery and ceramics workshops, cocktail courses, tastings, boat tours, creative and craft workshops, DIY kits and team events — across Germany and Austria, with more than 7,600 bookable experience l…
+  api_count: 5
+  score_band: thin
+  score_composite: 35.7
+  shared: 1
 - slug: readme-metrics
   name: ReadMe Metrics
   description: ReadMe is an API documentation and developer hub platform that helps companies build interactive API documentation, track API usage analytics, and improve developer experience. ReadMe Metrics captures and analyzes API request logs to provide insights into how developers are using your APIs.
@@ -197,26 +211,12 @@ providers:
   score_band: thin
   score_composite: 35.4
   shared: 1
-- slug: cortex-app
-  name: Cortex
-  description: Cortex is an Internal Developer Portal and service catalog used by platform and engineering teams to inventory services, libraries, domains, teams, on-call rotations, and resources; measure them against Scorecards (production readiness, security, SLO compliance, cost, AI usage); and drive developer…
-  api_count: 9
+- slug: tock
+  name: Tock
+  description: Tock is a Chicago-founded reservation, ticketed events, takeout, and delivery management platform for restaurants, wineries, and hospitality venues. Founded in 2014 by Nick Kokonas, Brian Fitzpatrick, and Grant Achatz to support prepaid and ticketed dining (originated at Alinea Group), Tock pioneer…
+  api_count: 2
   score_band: thin
-  score_composite: 35.0
-  shared: 1
-- slug: stainless-api
-  name: Stainless
-  description: Stainless is a New York-based developer-tools company that turns an OpenAPI specification into a portfolio of high-quality, idiomatic SDKs, reference documentation, MCP servers, CLIs, and Terraform providers. The platform was founded by veterans of Stripe, Heroku, and Twilio with the explicit goal…
-  api_count: 6
-  score_band: thin
-  score_composite: 32.8
-  shared: 1
-- slug: configure8
-  name: Configure8
-  description: Configure8 is a commercial Internal Developer Portal (IDP) that gives engineering organizations a unified catalog of services, environments, and resources, with dependency mapping across cloud and on-premises infrastructure. It pairs that catalog with scorecards for software health and golden-path…
-  api_count: 6
-  score_band: thin
-  score_composite: 32.4
+  score_composite: 35.1
   shared: 1
 related:
 - slug: documentation
@@ -240,7 +240,7 @@ related:
 overview: 'Developer Experience is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [developer-experience.apievangelist.com](https://developer-experience.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Adobe Suite, Unblocked, Treblle, Bettermode, Signadot, Apple, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Adobe Suite, Unblocked, Treblle, Signadot, APIMatic, Viator, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation, Microservices, Testing, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

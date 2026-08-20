@@ -231,6 +231,9 @@ related:
 - slug: containers
   name: Containers
   shared: 1
+- slug: saas-management
+  name: SaaS Management
+  shared: 1
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 

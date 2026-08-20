@@ -8,12 +8,12 @@ area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
 provider_count: 145
 providers:
-- slug: didomi
-  name: Didomi
-  description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
-  api_count: 37
+- slug: listrak
+  name: Listrak
+  description: 'Listrak is a retail customer-engagement platform whose public API surface is eight separate REST APIs served from api.listrak.com: Email (83 operations), SMS (20), Data Import (5), Media (9), Mobile App Push (5), Two-Way SMS (4), Cross Channel custom events (3) and Privacy (2). Together they cover…'
+  api_count: 56
   score_band: exemplar
-  score_composite: 78.2
+  score_composite: 78.7
   shared: 1
 - slug: swetrix
   name: Swetrix
@@ -29,19 +29,12 @@ providers:
   score_band: exemplar
   score_composite: 77.8
   shared: 1
-- slug: listrak
-  name: Listrak
-  description: 'Listrak is a retail customer-engagement platform whose public API surface is eight separate REST APIs served from api.listrak.com: Email (83 operations), SMS (20), Data Import (5), Media (9), Mobile App Push (5), Two-Way SMS (4), Cross Channel custom events (3) and Privacy (2). Together they cover…'
-  api_count: 56
+- slug: didomi
+  name: Didomi
+  description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
+  api_count: 37
   score_band: exemplar
-  score_composite: 77.7
-  shared: 1
-- slug: blueconic
-  name: BlueConic
-  description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
-  api_count: 28
-  score_band: exemplar
-  score_composite: 70.4
+  score_composite: 76.5
   shared: 1
 - slug: pirsch
   name: Pirsch
@@ -57,12 +50,19 @@ providers:
   score_band: exemplar
   score_composite: 69.2
   shared: 1
+- slug: blueconic
+  name: BlueConic
+  description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
+  api_count: 28
+  score_band: exemplar
+  score_composite: 68.6
+  shared: 1
 - slug: matomo
   name: Matomo
   description: Matomo is an open source web analytics platform — self-hosted (Matomo On-Premise) or vendor-hosted (Matomo Cloud) — that gives an organisation complete ownership of its analytics data. Formerly Piwik, it is the leading privacy-first alternative to Google Analytics, with GDPR tooling, data residency…
   api_count: 61
   score_band: exemplar
-  score_composite: 67.4
+  score_composite: 67.6
   shared: 1
 - slug: appsflyer
   name: AppsFlyer
@@ -221,12 +221,15 @@ providers:
 related:
 - slug: agents-skills
   name: Agent Skills
+  shared: 2
+- slug: authentication
+  name: Authentication
   shared: 1
 overview: 'Privacy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [privacy.apievangelist.com](https://privacy.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Didomi, Swetrix, Adobe Campaign, Listrak, BlueConic, Pirsch, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Listrak, Swetrix, Adobe Campaign, Didomi, Pirsch, Rybbit, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agent Skills and Authentication. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

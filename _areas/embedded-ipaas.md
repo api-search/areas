@@ -222,12 +222,6 @@ related:
 - slug: ipaas
   name: iPaaS
   shared: 18
-- slug: integrations
-  name: Integrations
-  shared: 12
-- slug: workflow-automation
-  name: Workflow Automation
-  shared: 3
 - slug: internet-of-things
   name: Internet of Things
   shared: 2
@@ -237,11 +231,17 @@ related:
 - slug: management
   name: Management
   shared: 1
+- slug: ai-automation
+  name: AI Automation
+  shared: 1
+- slug: communications
+  name: Communications
+  shared: 1
 overview: 'Embedded iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [embedded-ipaas.apievangelist.com](https://embedded-ipaas.apievangelist.com).
 
 
   30 providers on the network work in this area, including Workato, Alloy Automation, Vessel, Zapier, Particle, Prismatic, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: iPaaS, Integrations, Workflow Automation, and Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: iPaaS, Internet of Things, Orchestration, and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

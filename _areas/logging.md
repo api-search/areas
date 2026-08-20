@@ -27,7 +27,7 @@ providers:
   description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
   api_count: 49
   score_band: strong
-  score_composite: 63.2
+  score_composite: 61.8
   shared: 1
 - slug: fastly
   name: Fastly
@@ -78,6 +78,13 @@ providers:
   score_band: developing
   score_composite: 46.5
   shared: 1
+- slug: superlog
+  name: Superlog
+  description: Superlog is an AI-native, open-core observability platform (Y Combinator, Spring 2026) that ingests OpenTelemetry traces, logs, and metrics over OTLP, groups noisy signals into incidents, and dispatches AI agents to investigate root causes and open fix pull requests automatically. It offers a Manag…
+  api_count: 4
+  score_band: developing
+  score_composite: 46.5
+  shared: 1
 - slug: splunk
   name: Splunk
   description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.
@@ -92,26 +99,19 @@ providers:
   score_band: developing
   score_composite: 45.9
   shared: 1
-- slug: sumo-logic
-  name: Sumo Logic
-  description: Sumo Logic is a cloud-native, machine data analytics platform delivering real-time, continuous intelligence for operations, security, and business insights. It provides a comprehensive REST API with 289 endpoints spanning log analytics, dashboards, monitors, roles, users, metrics, traces, and more.
-  api_count: 54
-  score_band: developing
-  score_composite: 45.8
-  shared: 1
-- slug: superlog
-  name: Superlog
-  description: Superlog is an AI-native, open-core observability platform (Y Combinator, Spring 2026) that ingests OpenTelemetry traces, logs, and metrics over OTLP, groups noisy signals into incidents, and dispatches AI agents to investigate root causes and open fix pull requests automatically. It offers a Manag…
-  api_count: 4
-  score_band: developing
-  score_composite: 45.4
-  shared: 1
 - slug: glitchtip
   name: GlitchTip
   description: GlitchTip is an open-source error tracking and performance monitoring platform compatible with Sentry SDKs. It provides a REST API for managing errors, issues, projects, organizations, and teams, along with uptime monitoring and application performance insights. Available as a hosted SaaS service o…
   api_count: 20
   score_band: developing
   score_composite: 44.7
+  shared: 1
+- slug: sumo-logic
+  name: Sumo Logic
+  description: Sumo Logic is a cloud-native, machine data analytics platform delivering real-time, continuous intelligence for operations, security, and business insights. It provides a comprehensive REST API with 289 endpoints spanning log analytics, dashboards, monitors, roles, users, metrics, traces, and more.
+  api_count: 54
+  score_band: developing
+  score_composite: 44.0
   shared: 1
 - slug: axiom
   name: Axiom
@@ -155,6 +155,13 @@ providers:
   score_band: thin
   score_composite: 38.2
   shared: 1
+- slug: kibana
+  name: Kibana
+  description: Kibana is an open-source data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence. Kibana provides histograms, line graphs, pie charts, heat maps, geospatial visualizations, dashboards, alerting, and management of saved obj…
+  api_count: 60
+  score_band: thin
+  score_composite: 35.3
+  shared: 1
 - slug: elk-stack
   name: Elastic Stack (ELK Stack)
   description: The Elastic Stack (formerly known as the ELK Stack) is a collection of open-source products from Elastic - Elasticsearch, Logstash, Kibana, and Beats - designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. Widely used for log management,…
@@ -168,13 +175,6 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 35.1
-  shared: 1
-- slug: kibana
-  name: Kibana
-  description: Kibana is an open-source data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence. Kibana provides histograms, line graphs, pie charts, heat maps, geospatial visualizations, dashboards, alerting, and management of saved obj…
-  api_count: 60
-  score_band: thin
-  score_composite: 34.4
   shared: 1
 - slug: logrocket
   name: LogRocket
@@ -204,19 +204,19 @@ providers:
   score_band: thin
   score_composite: 32.8
   shared: 1
+- slug: stackdriver-google
+  name: Stackdriver (Google)
+  description: Stackdriver is the former name of the Google Cloud Operations suite, Google's integrated observability platform for applications and infrastructure running on Google Cloud, hybrid, and multi-cloud environments. Rebranded to Google Cloud Operations in 2020, the suite bundles Cloud Monitoring (metric…
+  api_count: 3
+  score_band: thin
+  score_composite: 30.1
+  shared: 1
 - slug: airbrake
   name: Airbrake
   description: Airbrake is an error monitoring and application performance management platform that captures exceptions, deployments, and performance traces across web, mobile, and backend applications using language-specific notifier libraries. The platform aggregates errors with smart grouping, routing alerts t…
   api_count: 10
   score_band: thin
   score_composite: 29.2
-  shared: 1
-- slug: systemd
-  name: systemd
-  description: systemd is a suite of basic building blocks for a Linux system. It runs as PID 1 and is the system and service manager that bootstraps the rest of the userspace, supervises long-running services, and exposes a coordinated set of D-Bus and Varlink IPC interfaces for managing services (systemd1), use…
-  api_count: 34
-  score_band: thin
-  score_composite: 29.1
   shared: 1
 related:
 - slug: observability
@@ -225,9 +225,6 @@ related:
 - slug: monitoring
   name: Monitoring
   shared: 3
-- slug: network
-  name: Network
-  shared: 1
 - slug: reliability
   name: Reliability
   shared: 1
@@ -237,11 +234,14 @@ related:
 - slug: agents-skills
   name: Agent Skills
   shared: 1
+- slug: sdk
+  name: SDKs
+  shared: 1
 overview: 'Logging is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [logging.apievangelist.com](https://logging.apievangelist.com).
 
 
   30 providers on the network work in this area, including Highlight (highlight.io), Logz.io, Splunk Observability Cloud, Fastly, Lightrun, Edge Delta, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability, Monitoring, Network, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Monitoring, Reliability, and AIOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

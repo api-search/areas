@@ -85,19 +85,19 @@ providers:
   score_band: developing
   score_composite: 52.4
   shared: 1
+- slug: ev-energy
+  name: ev.energy
+  description: ev.energy is a London- and Palo-Alto-based smart electric-vehicle charging platform. Its cloud software connects EV drivers, vehicles, EVSEs (chargers), home batteries, solar inverters and utility programs so charging can be shifted to cheaper, greener periods and aggregated as grid flexibility. Th…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.4
+  shared: 1
 - slug: weavix
   name: Weavix
   description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
   api_count: 8
   score_band: developing
   score_composite: 51.8
-  shared: 1
-- slug: ev-energy
-  name: ev.energy
-  description: ev.energy is a London- and Palo-Alto-based smart electric-vehicle charging platform. Its cloud software connects EV drivers, vehicles, EVSEs (chargers), home batteries, solar inverters and utility programs so charging can be shifted to cheaper, greener periods and aggregated as grid flexibility. Th…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.3
   shared: 1
 - slug: itron
   name: Itron

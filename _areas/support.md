@@ -13,7 +13,7 @@ providers:
   description: Zendesk provides customer service and engagement software that helps businesses manage support tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and phonethrough a unified platform.
   api_count: 150
   score_band: strong
-  score_composite: 57.0
+  score_composite: 58.9
   shared: 1
 - slug: plain
   name: Plain

@@ -99,13 +99,6 @@ providers:
   score_band: exemplar
   score_composite: 69.1
   shared: 1
-- slug: servicenow
-  name: ServiceNow
-  description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
-  api_count: 63
-  score_band: exemplar
-  score_composite: 66.9
-  shared: 1
 - slug: cisco-catalyst-sdwan
   name: Cisco Catalyst SD-WAN
   description: 'Cisco Catalyst SD-WAN, built on the Viptela platform Cisco acquired in 2017, is Cisco''s wide-area network overlay: centralized policy, application-aware routing, and secure transport across MPLS, broadband and LTE. Its controller — SD-WAN Manager, formerly vManage — exposes a REST API of 4,138 publ…'
@@ -133,6 +126,13 @@ providers:
   api_count: 30
   score_band: strong
   score_composite: 65.1
+  shared: 1
+- slug: servicenow
+  name: ServiceNow
+  description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
+  api_count: 63
+  score_band: strong
+  score_composite: 65.0
   shared: 1
 - slug: postman
   name: Postman
@@ -169,6 +169,13 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
+- slug: coasty
+  name: Coasty
+  description: Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work across sandboxed virtual machines. It exposes a public REST…
+  api_count: 8
+  score_band: strong
+  score_composite: 62.6
+  shared: 1
 - slug: uipath
   name: UiPath
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
@@ -204,13 +211,6 @@ providers:
   score_band: strong
   score_composite: 61.6
   shared: 1
-- slug: coasty
-  name: Coasty
-  description: Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work across sandboxed virtual machines. It exposes a public REST…
-  api_count: 8
-  score_band: strong
-  score_composite: 61.5
-  shared: 1
 - slug: cloudformation
   name: AWS CloudFormation
   description: A collection of APIs provided by AWS for infrastructure as code provisioning and management of AWS and third-party resources using CloudFormation templates and the Cloud Control API.
@@ -219,23 +219,23 @@ providers:
   score_composite: 60.0
   shared: 1
 related:
-- slug: webhooks
-  name: Webhooks
-  shared: 6
-- slug: saas-management
-  name: SaaS Management
-  shared: 3
 - slug: workflow-automation
   name: Workflow Automation
-  shared: 3
+  shared: 6
 - slug: agents
   name: Agents
+  shared: 2
+- slug: authentication
+  name: Authentication
   shared: 2
 - slug: design
   name: Design
   shared: 2
-- slug: integrations
-  name: Integrations
+- slug: observability
+  name: Observability
+  shared: 2
+- slug: orchestration
+  name: Orchestration
   shared: 2
 overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ai-automation.apievangelist.com](https://ai-automation.apievangelist.com).
 
@@ -243,5 +243,5 @@ overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](htt
   30 providers on the network work in this area, including Xquik, Brevo, Kit, Salesforce Marketing Cloud, MailerLite, Klaviyo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Webhooks, SaaS Management, Workflow Automation, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Workflow Automation, Agents, Authentication, and Design. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -222,12 +222,6 @@ related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 18
-- slug: integrations
-  name: Integrations
-  shared: 6
-- slug: workflow-automation
-  name: Workflow Automation
-  shared: 5
 - slug: orchestration
   name: Orchestration
   shared: 2
@@ -237,11 +231,17 @@ related:
 - slug: ai-automation
   name: AI Automation
   shared: 1
+- slug: saas-management
+  name: SaaS Management
+  shared: 1
+- slug: workflow-automation
+  name: Workflow Automation
+  shared: 1
 overview: 'iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ipaas.apievangelist.com](https://ipaas.apievangelist.com).
 
 
   30 providers on the network work in this area, including Vessel, Zapier, Workato, Paragon, Skyvia, Tray.ai, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Embedded iPaaS, Integrations, Workflow Automation, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Embedded iPaaS, Orchestration, Management, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---
