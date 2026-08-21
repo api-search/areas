@@ -6,7 +6,7 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 176
+provider_count: 177
 providers:
 - slug: bloomreach
   name: Bloomreach
@@ -20,7 +20,14 @@ providers:
   description: 'Google Search Console gives site owners programmatic access to how their site appears in Google Search. Three separately versioned Google APIs make up the surface: the Search Console API for search analytics, sitemaps, site management and URL inspection; the URL Testing Tools API for the mobile-fri…'
   api_count: 6
   score_band: exemplar
-  score_composite: 67.9
+  score_composite: 68.3
+  shared: 1
+- slug: google-indexing
+  name: Google Indexing
+  description: The Google Indexing API lets a site owner tell Google directly when a page has been added, updated, or removed, instead of waiting for a crawl. It is a two-operation API — publish a URL notification, and read back the latest notification metadata for a URL. Google restricts its use to pages carryin…
+  api_count: 2
+  score_band: strong
+  score_composite: 66.3
   shared: 1
 - slug: insider
   name: Insider
@@ -29,19 +36,12 @@ providers:
   score_band: strong
   score_composite: 66.0
   shared: 1
-- slug: google-indexing
-  name: Google Indexing
-  description: The Google Indexing API lets a site owner tell Google directly when a page has been added, updated, or removed, instead of waiting for a crawl. It is a two-operation API — publish a URL notification, and read back the latest notification metadata for a URL. Google restricts its use to pages carryin…
-  api_count: 2
-  score_band: strong
-  score_composite: 65.9
-  shared: 1
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 15
   score_band: strong
-  score_composite: 63.9
+  score_composite: 64.2
   shared: 1
 - slug: serper
   name: Serper
@@ -90,21 +90,21 @@ providers:
   description: Mixedbread is a Berlin-based AI search and retrieval platform. It provides embeddings (mxbai-embed, Wholembed v3), rerankers (mxbai-rerank v1/v2/v3-listwise), multimodal stores, document parsing, structured extraction, and connector-based ingestion. Models are published as open weights on Hugging F…
   api_count: 14
   score_band: strong
-  score_composite: 55.6
+  score_composite: 56.0
   shared: 1
 - slug: vectara
   name: Vectara
   description: Vectara is a Retrieval Augmented Generation (RAG) as a service platform that provides grounded generative AI for enterprises. The API-first platform exposes a unified REST API v2 for managing corpora, ingesting documents, performing semantic and hybrid search, generating answers with hallucination…
   api_count: 9
   score_band: strong
-  score_composite: 55.5
+  score_composite: 56.0
   shared: 1
 - slug: amazon-opensearch-service
   name: Amazon OpenSearch Service
   description: Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters for log analytics, full-text search, application monitoring, and more.
   api_count: 1
   score_band: strong
-  score_composite: 54.9
+  score_composite: 55.4
   shared: 1
 - slug: airweave
   name: Airweave
@@ -127,17 +127,24 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
-- slug: dexcare
-  name: DexCare
-  description: DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand,…
-  api_count: 7
-  score_band: developing
-  score_composite: 52.5
-  shared: 1
 - slug: vespa-ai
   name: Vespa
   description: Vespa is an open-source AI search engine, big-data serving engine, and vector database originally developed inside Yahoo and spun out as Vespa.ai AS. Vespa combines vector search, text search (BM25), structured filtering, and machine-learned ranking — including native tensor inference — into a sing…
   api_count: 9
+  score_band: developing
+  score_composite: 53.0
+  shared: 1
+- slug: tmdb
+  name: The Movie Database
+  description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.7
+  shared: 1
+- slug: dexcare
+  name: DexCare
+  description: DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand,…
+  api_count: 7
   score_band: developing
   score_composite: 52.5
   shared: 1
@@ -152,13 +159,6 @@ providers:
   name: MCP360
   description: MCP360 is a hosted unified Model Context Protocol gateway operated by Delta4 Infotech Pvt. Ltd. that gives AI agents access to 38 tool services — 106 individual tools — through a single credentialed endpoint, plus a no-code Custom MCP Builder that wraps any REST API as an MCP server. Every service…
   api_count: 38
-  score_band: developing
-  score_composite: 52.2
-  shared: 1
-- slug: tmdb
-  name: The Movie Database
-  description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
-  api_count: 1
   score_band: developing
   score_composite: 52.2
   shared: 1
@@ -197,6 +197,13 @@ providers:
   score_band: developing
   score_composite: 50.9
   shared: 1
+- slug: amazon-cloudsearch
+  name: Amazon CloudSearch
+  description: Amazon CloudSearch is a managed search service that makes it easy to set up, manage, and scale a search solution for your website or application. Supports full-text search, Boolean search, faceted search, autocomplete, geospatial search, and 34 languages.
+  api_count: 2
+  score_band: developing
+  score_composite: 50.7
+  shared: 1
 - slug: aito-technologies
   name: Aito Technologies
   description: Aito Technologies (Aito.ai, legal entity Episto Oy of Vantaa, Finland) builds a predictive database that delivers instant, calibrated machine-learning predictions from live business data with no model training. Its REST Query API exposes a SQL-like JSON interface for prediction, recommendation, sim…
@@ -210,13 +217,6 @@ providers:
   api_count: 45
   score_band: developing
   score_composite: 50.6
-  shared: 1
-- slug: amazon-cloudsearch
-  name: Amazon CloudSearch
-  description: Amazon CloudSearch is a managed search service that makes it easy to set up, manage, and scale a search solution for your website or application. Supports full-text search, Boolean search, faceted search, autocomplete, geospatial search, and 34 languages.
-  api_count: 2
-  score_band: developing
-  score_composite: 50.2
   shared: 1
 related:
 - slug: dns
@@ -240,7 +240,7 @@ related:
 overview: 'API Evangelist Search is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [search.apievangelist.com](https://search.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Bloomreach, Google Search Console, Insider, Google Indexing, Shodan, Serper, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Bloomreach, Google Search Console, Google Indexing, Insider, Shodan, Serper, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: DNS, Network, Scraping, and API Evangelist Discovery. Browse every area at [areas.apis.io](https://apis.io/areas/).'

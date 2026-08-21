@@ -13,14 +13,14 @@ providers:
   description: AWS Mainframe Modernization provides tools and resources to help you plan and implement migration and modernization of your mainframe applications to AWS. It supports automated refactoring and replatforming of COBOL applications to run natively on AWS with managed runtime environments, deployment p…
   api_count: 5
   score_band: developing
-  score_composite: 52.8
+  score_composite: 53.2
   shared: 1
 - slug: amazon-datasync
   name: Amazon DataSync
   description: AWS DataSync is an online data transfer service that simplifies, automates, and accelerates moving data between on-premises storage systems, AWS storage services, and other cloud storage. DataSync can transfer data at speeds up to 10 times faster than open-source tools by using purpose-built networ…
   api_count: 6
   score_band: developing
-  score_composite: 50.8
+  score_composite: 51.2
   shared: 1
 - slug: import2
   name: Import2
@@ -41,7 +41,7 @@ providers:
   description: AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. AWS DMS can migrate your data to and from the most widely used commerc…
   api_count: 72
   score_band: developing
-  score_composite: 47.7
+  score_composite: 48.2
   shared: 1
 - slug: google-cloud-migration-center
   name: Google Cloud Migration Center
@@ -76,14 +76,14 @@ providers:
   description: AWS Application Migration Service (MGN) is the primary migration service recommended for lift-and-shift migrations to AWS. It allows organizations to quickly realize the benefits of migrating applications to the cloud without changes and with minimal downtime.
   api_count: 10
   score_band: thin
-  score_composite: 31.6
+  score_composite: 32.0
   shared: 1
 - slug: amazon-application-discovery-service
   name: Amazon Application Discovery Service
   description: Amazon Application Discovery Service helps enterprise customers plan application migration projects by automatically identifying servers, virtual machines, software, and software dependencies running in their on-premises data centers.
   api_count: 6
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 22.0
   shared: 1
 - slug: calypso-migration
   name: Calypso Migration

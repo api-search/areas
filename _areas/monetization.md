@@ -27,7 +27,7 @@ providers:
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 40
   score_band: strong
-  score_composite: 59.5
+  score_composite: 60.0
   shared: 1
 - slug: admob
   name: AdMob
@@ -125,7 +125,7 @@ providers:
   description: Amberflo is a cloud metering, usage-based billing, and AI cost management platform. It provides real-time event ingestion, customer billing automation, AI gateway capabilities, and FinOps visibility for API-driven and AI-powered businesses. The platform supports usage-based, token-based, seat-based…
   api_count: 10
   score_band: developing
-  score_composite: 44.5
+  score_composite: 45.0
   shared: 1
 - slug: moesif
   name: Moesif

@@ -13,7 +13,7 @@ providers:
   description: Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.
   api_count: 115
   score_band: strong
-  score_composite: 61.8
+  score_composite: 62.1
   shared: 1
 - slug: lichess
   name: Lichess

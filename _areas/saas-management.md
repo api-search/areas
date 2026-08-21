@@ -27,21 +27,28 @@ providers:
   description: APIs for managing and monitoring Dell PowerEdge servers and infrastructure, including the iDRAC Redfish out-of-band management interface, OpenManage Enterprise centralized console and its modular, power, support, and VMware integrations, telemetry streaming, the Lifecycle Controller, RACADM, and th…
   api_count: 27
   score_band: developing
-  score_composite: 49.8
-  shared: 1
-- slug: torii
-  name: Torii
-  description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide license and usage data, automate user onboarding and offboar…
-  api_count: 10
-  score_band: developing
-  score_composite: 49.1
+  score_composite: 50.9
   shared: 1
 - slug: snaplogic
   name: SnapLogic
   description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
   api_count: 7
   score_band: developing
-  score_composite: 49.0
+  score_composite: 49.5
+  shared: 1
+- slug: torii
+  name: Torii
+  description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide license and usage data, automate user onboarding and offboar…
+  api_count: 10
+  score_band: developing
+  score_composite: 49.5
+  shared: 1
+- slug: zluri
+  name: Zluri
+  description: Zluri is a SaaS management and operations platform that helps organizations discover, govern, and optimize all their cloud applications. By connecting to SSO, finance, HR systems, and app APIs, it builds a unified system of record for SaaS usage, users, licenses, and spend. IT, finance, and procure…
+  api_count: 4
+  score_band: developing
+  score_composite: 44.9
   shared: 1
 - slug: zylo
   name: Zylo
@@ -50,33 +57,26 @@ providers:
   score_band: developing
   score_composite: 44.9
   shared: 1
-- slug: zluri
-  name: Zluri
-  description: Zluri is a SaaS management and operations platform that helps organizations discover, govern, and optimize all their cloud applications. By connecting to SSO, finance, HR systems, and app APIs, it builds a unified system of record for SaaS usage, users, licenses, and spend. IT, finance, and procure…
-  api_count: 4
-  score_band: developing
-  score_composite: 44.5
-  shared: 1
 - slug: amazon-systems-manager
   name: Amazon Systems Manager
   description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
   api_count: 5
   score_band: developing
-  score_composite: 44.3
+  score_composite: 44.8
   shared: 1
 - slug: tropic
   name: Tropic
   description: Tropic is an intelligent procurement platform that combines AI-powered spend management, supplier management, and benchmark data to help organizations find and capture savings opportunities. Tropic's AI agents track renewals, spot shadow spend, flag compliance issues, and automate manual procuremen…
   api_count: 5
   score_band: developing
-  score_composite: 41.6
+  score_composite: 42.1
   shared: 1
 - slug: productiv
   name: Productiv
   description: The SaaS Management Platform that delivers the industrys most comprehensive view of your SaaS portfolio with deep usage analytics, spend data, and feature-level insights to power the technology decisions that support your business.
   api_count: 11
   score_band: developing
-  score_composite: 40.5
+  score_composite: 41.0
   shared: 1
 - slug: cakewalk
   name: Cakewalk
@@ -89,8 +89,15 @@ providers:
   name: Trelica
   description: Trelica is a SaaS management platform (now part of 1Password SaaS Manager) providing application discovery, license optimization, contract management, and workflow automation for IT teams. The platform offers a REST API covering applications, users, people, contracts, workflows, assets, and audit l…
   api_count: 8
+  score_band: developing
+  score_composite: 39.6
+  shared: 1
+- slug: snow-software
+  name: Snow Software
+  description: Snow Software (now Flexera Snow) is an IT asset and SaaS management platform providing visibility into software licenses, cloud spend, SaaS usage, and hardware assets across the enterprise. Snow Atlas is the cloud-native platform offering SAM (Software Asset Management), SaaS Management, Cloud Lice…
+  api_count: 31
   score_band: thin
-  score_composite: 39.2
+  score_composite: 37.4
   shared: 1
 - slug: nudge-security
   name: Nudge Security
@@ -98,13 +105,6 @@ providers:
   api_count: 11
   score_band: thin
   score_composite: 37.1
-  shared: 1
-- slug: snow-software
-  name: Snow Software
-  description: Snow Software (now Flexera Snow) is an IT asset and SaaS management platform providing visibility into software licenses, cloud spend, SaaS usage, and hardware assets across the enterprise. Snow Atlas is the cloud-native platform offering SAM (Software Asset Management), SaaS Management, Cloud Lice…
-  api_count: 31
-  score_band: thin
-  score_composite: 37.0
   shared: 1
 - slug: lumos
   name: Lumos
@@ -132,7 +132,14 @@ providers:
   description: BetterCloud is the end-to-end SaaS management platform that enables IT teams to discover, manage, and secure the growing SaaS environment. The platform provides automated workflows, security policies, and management capabilities for SaaS applications in enterprise environments, handling billions of…
   api_count: 5
   score_band: thin
-  score_composite: 30.6
+  score_composite: 31.0
+  shared: 1
+- slug: blissfully
+  name: Blissfully
+  description: Blissfully was a SaaS management platform providing SaaS discovery, spend optimization, and workflow automation for IT and finance teams. Blissfully was acquired by Vendr in 2022 and integrated into the Vendr platform. Vendr is now a leading SaaS buying and management platform that helps companies…
+  api_count: 7
+  score_band: thin
+  score_composite: 28.5
   shared: 1
 - slug: zenadmin
   name: ZenAdmin
@@ -141,12 +148,12 @@ providers:
   score_band: thin
   score_composite: 28.2
   shared: 1
-- slug: blissfully
-  name: Blissfully
-  description: Blissfully was a SaaS management platform providing SaaS discovery, spend optimization, and workflow automation for IT and finance teams. Blissfully was acquired by Vendr in 2022 and integrated into the Vendr platform. Vendr is now a leading SaaS buying and management platform that helps companies…
-  api_count: 7
-  score_band: thin
-  score_composite: 28.1
+- slug: spendflo
+  name: Spendflo
+  description: Spendflo is an AI-native procurement platform that centralizes intake-to-pay, enforces procurement policy, and reduces SaaS and vendor spend by combining AI-powered automation with expert-led negotiation. The Flash AI suite includes a Contract Analyst, Payables Agent, Procurement Analyst, and AI Wo…
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.1
   shared: 1
 - slug: sastrify
   name: Sastrify
@@ -154,13 +161,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 24.9
-  shared: 1
-- slug: spendflo
-  name: Spendflo
-  description: Spendflo is an AI-native procurement platform that centralizes intake-to-pay, enforces procurement policy, and reduces SaaS and vendor spend by combining AI-powered automation with expert-led negotiation. The Flash AI suite includes a Contract Analyst, Payables Agent, Procurement Analyst, and AI Wo…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.6
   shared: 1
 - slug: leanix
   name: LeanIX
@@ -228,6 +228,9 @@ related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 1
+- slug: finops
+  name: FinOps
+  shared: 1
 - slug: virtualization
   name: Virtualization
   shared: 1
@@ -237,8 +240,8 @@ related:
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Boomi, WunderGraph, Dell Servers, Torii, SnapLogic, Zylo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Boomi, WunderGraph, Dell Servers, SnapLogic, Torii, Zluri, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, AI Automation, Embedded iPaaS, and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, AI Automation, Embedded iPaaS, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

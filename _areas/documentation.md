@@ -34,7 +34,7 @@ providers:
   description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
   api_count: 15
   score_band: strong
-  score_composite: 55.1
+  score_composite: 55.6
   shared: 1
 - slug: scribe
   name: Scribe
@@ -83,7 +83,7 @@ providers:
   description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborativ…'
   api_count: 1
   score_band: developing
-  score_composite: 51.5
+  score_composite: 52.0
   shared: 1
 - slug: mintlify
   name: Mintlify
@@ -97,14 +97,14 @@ providers:
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
   api_count: 20
   score_band: developing
-  score_composite: 50.9
+  score_composite: 51.4
   shared: 1
 - slug: swaggerhub
   name: SwaggerHub
   description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.0, OpenAPI 3.0, OpenAPI 3.1, and AsyncAPI specifications. Th…
   api_count: 9
   score_band: developing
-  score_composite: 48.4
+  score_composite: 48.8
   shared: 1
 - slug: atlassian-confluence
   name: Atlassian Confluence
@@ -146,7 +146,7 @@ providers:
   description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
   api_count: 16
   score_band: developing
-  score_composite: 43.0
+  score_composite: 43.3
   shared: 1
 - slug: eraser
   name: Eraser
@@ -160,7 +160,7 @@ providers:
   description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
   api_count: 18
   score_band: developing
-  score_composite: 41.9
+  score_composite: 42.3
   shared: 1
 - slug: document360
   name: Document360
@@ -197,19 +197,19 @@ providers:
   score_band: thin
   score_composite: 39.2
   shared: 1
+- slug: apigen
+  name: APIGen
+  description: ApiGen is an open source PHP API documentation generator that automatically produces smart and simple documentation from PHP source code. It supports PHP 7.1+ including all PHP 8.3 features like enums, union types, readonly classes, and intersection types. ApiGen is maintained by the ApiGen GitHub…
+  api_count: 8
+  score_band: thin
+  score_composite: 39.1
+  shared: 1
 - slug: kapa-ai
   name: kapa.ai
   description: kapa.ai is an AI assistant and answer platform that turns technical documentation, GitHub content, forums, and developer products into a retrieval-augmented chat experience. The kapa.ai Query API lets teams ask questions, run threaded conversations with streaming answers, perform semantic retrieval…
   api_count: 6
   score_band: thin
   score_composite: 39.0
-  shared: 1
-- slug: apigen
-  name: APIGen
-  description: ApiGen is an open source PHP API documentation generator that automatically produces smart and simple documentation from PHP source code. It supports PHP 7.1+ including all PHP 8.3 features like enums, union types, readonly classes, and intersection types. ApiGen is maintained by the ApiGen GitHub…
-  api_count: 8
-  score_band: thin
-  score_composite: 38.7
   shared: 1
 - slug: slab
   name: Slab

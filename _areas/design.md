@@ -20,14 +20,14 @@ providers:
   description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run…'
   api_count: 15
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 69.6
   shared: 1
 - slug: figma
   name: Figma
   description: Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.
   api_count: 16
   score_band: strong
-  score_composite: 64.0
+  score_composite: 64.3
   shared: 1
 - slug: autodesk
   name: Autodesk
@@ -69,7 +69,7 @@ providers:
   description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
   api_count: 24
   score_band: developing
-  score_composite: 49.9
+  score_composite: 50.1
   shared: 1
 - slug: blng
   name: Blng
@@ -83,7 +83,7 @@ providers:
   description: Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography.
   api_count: 38
   score_band: developing
-  score_composite: 48.7
+  score_composite: 49.2
   shared: 1
 - slug: google-fonts
   name: Google Fonts Developer
@@ -92,19 +92,19 @@ providers:
   score_band: developing
   score_composite: 47.1
   shared: 1
+- slug: adobe-illustrator
+  name: Adobe Illustrator
+  description: Adobe Illustrator is the industry-standard vector graphics application. Its developer platform offers scripting APIs, UXP plugins, CEP extensions, and a C++ SDK for building custom integrations and automating workflows.
+  api_count: 11
+  score_band: developing
+  score_composite: 46.7
+  shared: 1
 - slug: napkin
   name: Napkin
   description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
   api_count: 1
   score_band: developing
   score_composite: 46.7
-  shared: 1
-- slug: adobe-illustrator
-  name: Adobe Illustrator
-  description: Adobe Illustrator is the industry-standard vector graphics application. Its developer platform offers scripting APIs, UXP plugins, CEP extensions, and a C++ SDK for building custom integrations and automating workflows.
-  api_count: 11
-  score_band: developing
-  score_composite: 46.2
   shared: 1
 - slug: napkinai
   name: Napkin.AI
@@ -162,6 +162,13 @@ providers:
   score_band: thin
   score_composite: 32.3
   shared: 1
+- slug: uml
+  name: UML
+  description: UML (Unified Modeling Language) is the standard modeling language for software architecture, system design, and technical documentation. Governed by the Object Management Group (OMG), UML defines a set of notation conventions and diagram types — class, sequence, activity, use case, state, component…
+  api_count: 3
+  score_band: thin
+  score_composite: 32.2
+  shared: 1
 - slug: penpot
   name: Penpot
   description: Penpot is an open-source design and prototyping platform built for design and code collaboration, offering a self-hostable alternative to Figma. It provides a REST RPC API that enables developers to programmatically access and manage projects, files, pages, components, and design assets. Authentica…
@@ -169,19 +176,12 @@ providers:
   score_band: thin
   score_composite: 32.0
   shared: 1
-- slug: uml
-  name: UML
-  description: UML (Unified Modeling Language) is the standard modeling language for software architecture, system design, and technical documentation. Governed by the Object Management Group (OMG), UML defines a set of notation conventions and diagram types — class, sequence, activity, use case, state, component…
-  api_count: 3
-  score_band: thin
-  score_composite: 31.8
-  shared: 1
 - slug: apple-keynote
   name: Apple Keynote
   description: Apple Keynote is a presentation software application developed by Apple Inc. as part of the iWork productivity suite, available on macOS, iOS, iPadOS, and the web via iCloud. It enables creating visually rich presentations with animations, transitions, charts, and real-time collaboration. Keynote s…
   api_count: 7
   score_band: thin
-  score_composite: 31.2
+  score_composite: 31.6
   shared: 1
 - slug: gamma
   name: Gamma

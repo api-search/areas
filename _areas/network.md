@@ -6,28 +6,21 @@ description: ''
 area_url: https://network.apievangelist.com
 area_host: network.apievangelist.com
 icon: https://network.apievangelist.com/icon-thumb.png
-provider_count: 14
+provider_count: 13
 providers:
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 15
   score_band: strong
-  score_composite: 63.9
-  shared: 1
-- slug: atandt
-  name: AT&T
-  description: AT&T Inc. is a multinational telecommunications conglomerate providing wireless and wireline communications, broadband internet, digital TV, and business services. As a Fortune 100 company, AT&T operates one of the largest telecommunications networks in the United States and globally. This profile…
-  api_count: 12
-  score_band: strong
-  score_composite: 56.5
+  score_composite: 64.2
   shared: 1
 - slug: att
   name: AT&T
   description: 'AT&T Inc. is a multinational telecommunications holding company providing wireless and wireline communications, broadband, and business networking to consumers and enterprises. Its developer surface spans four programs: the legacy AT&T Developer Program (SMS, MMS, in-app messaging, speech and OAuth…'
   api_count: 28
   score_band: developing
-  score_composite: 49.2
+  score_composite: 51.1
   shared: 1
 - slug: microsoft-azure-load-balancer
   name: Azure Load Balancer
@@ -62,7 +55,7 @@ providers:
   description: systemd is a suite of basic building blocks for a Linux system. It runs as PID 1 and is the system and service manager that bootstraps the rest of the userspace, supervises long-running services, and exposes a coordinated set of D-Bus and Varlink IPC interfaces for managing services (systemd1), use…
   api_count: 34
   score_band: thin
-  score_composite: 29.1
+  score_composite: 29.6
   shared: 1
 - slug: zayo-group
   name: Zayo Group Holdings
@@ -119,13 +112,16 @@ related:
 - slug: dns
   name: DNS
   shared: 1
+- slug: logging
+  name: Logging
+  shared: 1
 - slug: security
   name: Security
   shared: 1
 overview: 'Network is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [network.apievangelist.com](https://network.apievangelist.com).
 
 
-  14 providers on the network work in this area, including Shodan, AT&T, AT&T, Azure Load Balancer, Lumen Technologies, Orange, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  13 providers on the network work in this area, including Shodan, AT&T, Azure Load Balancer, Lumen Technologies, Orange, CloudFront, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Internet of Things, Caching, API Evangelist Search, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

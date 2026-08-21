@@ -34,7 +34,7 @@ providers:
   description: 'Salesforce Marketing Cloud Engagement is an enterprise digital marketing platform for customer journeys, email marketing, mobile messaging (SMS/MMS and push), advertising, content management and marketing data. Its API surface is tenant-scoped: every REST call goes to https://{subdomain}.rest.marke…'
   api_count: 17
   score_band: exemplar
-  score_composite: 84.2
+  score_composite: 84.7
   shared: 1
 - slug: mailerlite
   name: MailerLite
@@ -48,7 +48,7 @@ providers:
   description: Klaviyo is a marketing automation and customer data platform built for ecommerce. Build custom integrations to bring data into Klaviyo to create personalized experiences across email, SMS, mobile push, and more. The Klaviyo API exposes profiles, events, lists, segments, campaigns, flows, catalogs,…
   api_count: 23
   score_band: exemplar
-  score_composite: 77.1
+  score_composite: 77.3
   shared: 1
 - slug: ada
   name: Ada
@@ -97,7 +97,7 @@ providers:
   description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run…'
   api_count: 15
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 69.6
   shared: 1
 - slug: cisco-catalyst-sdwan
   name: Cisco Catalyst SD-WAN
@@ -120,19 +120,19 @@ providers:
   score_band: strong
   score_composite: 65.6
   shared: 1
+- slug: servicenow
+  name: ServiceNow
+  description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
+  api_count: 63
+  score_band: strong
+  score_composite: 65.3
+  shared: 1
 - slug: benchmark-email
   name: Benchmark Email
   description: Benchmark Email is an email marketing platform for small businesses, run by Benchmark Internet Group, with two live REST API generations. The current Benchmark Email API on the benchmarkemail.io platform covers contacts, contact structures and custom fields, lists, campaigns, templates, sending dom…
   api_count: 30
   score_band: strong
   score_composite: 65.1
-  shared: 1
-- slug: servicenow
-  name: ServiceNow
-  description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
-  api_count: 63
-  score_band: strong
-  score_composite: 65.0
   shared: 1
 - slug: postman
   name: Postman
@@ -181,7 +181,7 @@ providers:
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
   api_count: 32
   score_band: strong
-  score_composite: 62.0
+  score_composite: 62.3
   shared: 1
 - slug: cisco-secure-firewall
   name: Cisco Secure Firewall
@@ -197,6 +197,13 @@ providers:
   score_band: strong
   score_composite: 61.9
   shared: 1
+- slug: workato
+  name: Workato
+  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
+  api_count: 11
+  score_band: strong
+  score_composite: 61.9
+  shared: 1
 - slug: emailoctopus
   name: EmailOctopus
   description: EmailOctopus is an affordable email-marketing platform for newsletters, campaigns, automations and audience management, built on a low-cost sending model that undercuts the incumbent ESPs. Its v2 REST API is served from a single host, https://api.emailoctopus.com, with no version segment in the pat…
@@ -204,19 +211,12 @@ providers:
   score_band: strong
   score_composite: 61.7
   shared: 1
-- slug: workato
-  name: Workato
-  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
-  api_count: 11
-  score_band: strong
-  score_composite: 61.6
-  shared: 1
 - slug: cloudformation
   name: AWS CloudFormation
   description: A collection of APIs provided by AWS for infrastructure as code provisioning and management of AWS and third-party resources using CloudFormation templates and the Cloud Control API.
   api_count: 13
   score_band: strong
-  score_composite: 60.0
+  score_composite: 60.4
   shared: 1
 related:
 - slug: workflow-automation

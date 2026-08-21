@@ -50,19 +50,19 @@ providers:
   score_band: exemplar
   score_composite: 72.3
   shared: 1
-- slug: kraken
-  name: Kraken
-  description: Kraken is one of the world's largest and longest-running cryptocurrency exchanges, founded in 2011 and headquartered in San Francisco. Kraken offers Spot and Futures trading, staking and yield through Kraken Earn, NFT marketplace access, OTC services, custody, prime brokerage, and a B2B Embed surfa…
-  api_count: 24
-  score_band: exemplar
-  score_composite: 71.2
-  shared: 1
 - slug: jefferson-health
   name: Jefferson Health
   description: Jefferson Health is a multi-state nonprofit academic health system based in Philadelphia, Pennsylvania, operating more than 30 hospitals and over 700 care sites across eastern Pennsylvania and southern New Jersey as the clinical arm of the broader Jefferson enterprise that also includes Thomas Jeff…
   api_count: 19
   score_band: exemplar
-  score_composite: 70.4
+  score_composite: 71.5
+  shared: 1
+- slug: kraken
+  name: Kraken
+  description: Kraken is one of the world's largest and longest-running cryptocurrency exchanges, founded in 2011 and headquartered in San Francisco. Kraken offers Spot and Futures trading, staking and yield through Kraken Earn, NFT marketplace access, OTC services, custody, prime brokerage, and a B2B Embed surfa…
+  api_count: 24
+  score_band: exemplar
+  score_composite: 71.5
   shared: 1
 - slug: cvent-event-cloud
   name: Cvent Event Cloud
@@ -90,7 +90,7 @@ providers:
   description: Tibber is a fully-digital Nordic and European retail electricity provider operating in Norway, Sweden, Germany, and the Netherlands. Founded in 2016 by Daniel Lindén and Edgeir Vårdal Aksnes, the company passes Nord Pool / EPEX hourly spot prices through to customers at cost and overlays software-d…
   api_count: 4
   score_band: exemplar
-  score_composite: 67.0
+  score_composite: 67.5
   shared: 1
 - slug: tvarka-atk-api
   name: Tvarka ATK API
@@ -106,6 +106,13 @@ providers:
   score_band: strong
   score_composite: 65.9
   shared: 1
+- slug: propelauth
+  name: PropelAuth
+  description: PropelAuth is a B2B SaaS authentication and multi-tenant user management platform purpose-built for organizations that sell to other organizations. It provides hosted login UIs, first-class organizations / tenants with custom roles and permissions, enterprise SSO via SAML and OIDC, SCIM directory s…
+  api_count: 18
+  score_band: strong
+  score_composite: 65.7
+  shared: 1
 - slug: cisco-xdr
   name: Cisco XDR
   description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
@@ -113,19 +120,19 @@ providers:
   score_band: strong
   score_composite: 65.6
   shared: 1
-- slug: propelauth
-  name: PropelAuth
-  description: PropelAuth is a B2B SaaS authentication and multi-tenant user management platform purpose-built for organizations that sell to other organizations. It provides hosted login UIs, first-class organizations / tenants with custom roles and permissions, enterprise SSO via SAML and OIDC, SCIM directory s…
-  api_count: 18
-  score_band: strong
-  score_composite: 65.2
-  shared: 1
 - slug: barndoor
   name: Barndoor
   description: Barndoor AI is the control plane for agentic AI, providing secure access and governance for AI agents and Model Context Protocol (MCP) servers. Founded in 2024 by Oren Michels (founder of Mashery), Barndoor enables enterprise IT, security, and developer teams to register agents, govern MCP server a…
   api_count: 13
   score_band: strong
-  score_composite: 64.7
+  score_composite: 65.2
+  shared: 1
+- slug: etsy
+  name: Etsy
+  description: Etsy is a global marketplace for unique and creative handmade, vintage, and craft-supply goods. The Etsy Open API v3 is a REST + OAuth 2.0 surface that third-party developers, sellers, and integration partners use to manage shops, listings, inventory, receipts, transactions, payments, ledger entrie…
+  api_count: 28
+  score_band: strong
+  score_composite: 64.6
   shared: 1
 - slug: infusionsoft
   name: Infusionsoft (Keap)
@@ -148,13 +155,6 @@ providers:
   score_band: strong
   score_composite: 64.4
   shared: 1
-- slug: etsy
-  name: Etsy
-  description: Etsy is a global marketplace for unique and creative handmade, vintage, and craft-supply goods. The Etsy Open API v3 is a REST + OAuth 2.0 surface that third-party developers, sellers, and integration partners use to manage shops, listings, inventory, receipts, transactions, payments, ledger entrie…
-  api_count: 28
-  score_band: strong
-  score_composite: 64.3
-  shared: 1
 - slug: lawmatics
   name: Lawmatics
   description: Lawmatics is a legal CRM, client-intake and marketing-automation platform for law firms, from solo practices to multi-office firms. Its public developer surface is the Lawmatics OAuth API — a REST API of 177 operations across matters (called prospects in the API), contacts, companies, custom intake…
@@ -176,19 +176,19 @@ providers:
   score_band: strong
   score_composite: 63.6
   shared: 1
+- slug: kinde
+  name: Kinde
+  description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
+  api_count: 31
+  score_band: strong
+  score_composite: 63.4
+  shared: 1
 - slug: airtm
   name: Airtm
   description: 'Airtm is a US-registered (Airtm Inc., Delaware; FinCEN MSB #31000329787639) digital dollar wallet and cross-border payments network operating since 2015, built for freelancers, remote workers, contractors and businesses in emerging markets. Balances are held as USDC on Stellar and can be moved in a…'
   api_count: 24
   score_band: strong
   score_composite: 63.1
-  shared: 1
-- slug: kinde
-  name: Kinde
-  description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
-  api_count: 31
-  score_band: strong
-  score_composite: 62.9
   shared: 1
 - slug: mixmax
   name: Mixmax

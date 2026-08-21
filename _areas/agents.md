@@ -6,7 +6,7 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 373
+provider_count: 375
 providers:
 - slug: convertkit
   name: Kit
@@ -20,7 +20,7 @@ providers:
   description: Veeva Systems is the leading cloud software provider for the global life sciences industry, serving pharmaceutical, biotechnology, medical device and CRO customers across commercial, clinical, quality, regulatory, medical and safety operations. Its Vault platform is a single content-and-data cloud…
   api_count: 9
   score_band: exemplar
-  score_composite: 75.0
+  score_composite: 75.5
   shared: 1
 - slug: vapi-ai
   name: Vapi
@@ -34,7 +34,7 @@ providers:
   description: KonbiniAPI is the social data layer for Instagram, TikTok, X, Reddit and LinkedIn, normalizing real-time public profile, post, video, comment, audio, community, subreddit, location and search data into a single consistent ActivityStreams 2.0 (W3C) shape. Sixty-seven endpoints are exposed through on…
   api_count: 6
   score_band: exemplar
-  score_composite: 73.7
+  score_composite: 74.2
   shared: 1
 - slug: boom-ai
   name: Boom Ai
@@ -92,6 +92,13 @@ providers:
   score_band: exemplar
   score_composite: 69.9
   shared: 1
+- slug: seamless-ai
+  name: Seamless.AI
+  description: Seamless.AI is a B2B sales intelligence platform that provides real-time contact and company data to help sales teams find and connect with their ideal customers. The platform uses artificial intelligence to continuously verify and update contact information including emails, direct dials and mobil…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 69.5
+  shared: 1
 - slug: parallel
   name: Parallel
   description: 'Parallel Web Systems builds web APIs purpose-built for AI agents: a high-accuracy Search API, an Extract API that turns URLs into clean LLM-ready markdown, a Task/Deep Research API with tiered processors (lite through ultra), FindAll for natural-language entity discovery and enrichment, a Monitor A…'
@@ -106,6 +113,13 @@ providers:
   score_band: exemplar
   score_composite: 69.3
   shared: 1
+- slug: anthropic
+  name: Anthropic
+  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
+  api_count: 24
+  score_band: exemplar
+  score_composite: 69.2
+  shared: 1
 - slug: natural-ai
   name: Natural AI
   description: 'Natural (natural.com) is the agentic payments platform: one API for AI agents, apps, and businesses to send, receive, and manage money. Agents get FDIC-insured wallets, credit lines, and the ability to pay or request funds by email, phone, @handle, party, or agent ID, plus card issuing, merchant ac…'
@@ -113,26 +127,12 @@ providers:
   score_band: exemplar
   score_composite: 69.2
   shared: 1
-- slug: seamless-ai
-  name: Seamless.AI
-  description: Seamless.AI is a B2B sales intelligence platform that provides real-time contact and company data to help sales teams find and connect with their ideal customers. The platform uses artificial intelligence to continuously verify and update contact information including emails, direct dials and mobil…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 69.1
-  shared: 1
 - slug: facebook-business-manager
   name: Facebook Business Manager
   description: APIs for managing Facebook Business accounts, advertising, pages, and assets across the Meta platform family. Facebook Business Manager exposes a deep catalog of Graph API surfaces for marketing, pages, conversions, business asset management, Instagram, insights, Messenger, catalogs, live video, Th…
   api_count: 23
   score_band: exemplar
   score_composite: 69.0
-  shared: 1
-- slug: anthropic
-  name: Anthropic
-  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
-  api_count: 24
-  score_band: exemplar
-  score_composite: 68.9
   shared: 1
 - slug: impact
   name: Impact
@@ -148,19 +148,19 @@ providers:
   score_band: exemplar
   score_composite: 68.1
   shared: 1
+- slug: buildkite-com
+  name: Buildkite
+  description: Buildkite is a hybrid CI/CD platform that combines a hosted control plane (pipelines.buildkite.com) with self-hosted or Buildkite-Hosted agents that run jobs on customer-controlled infrastructure. The platform spans three core products — Pipelines, Test Engine, and Package Registries — and exposes…
+  api_count: 23
+  score_band: exemplar
+  score_composite: 66.9
+  shared: 1
 - slug: gong
   name: Gong
   description: Gong is the revenue intelligence platform that captures and analyzes customer interactions across calls, emails, meetings and web conferencing, then applies AI to surface deal risk, coaching signal and forecast correction for B2B go-to-market teams. Its public REST v2 API at api.gong.io exposes 57…
   api_count: 26
   score_band: exemplar
   score_composite: 66.9
-  shared: 1
-- slug: buildkite-com
-  name: Buildkite
-  description: Buildkite is a hybrid CI/CD platform that combines a hosted control plane (pipelines.buildkite.com) with self-hosted or Buildkite-Hosted agents that run jobs on customer-controlled infrastructure. The platform spans three core products — Pipelines, Test Engine, and Package Registries — and exposes…
-  api_count: 23
-  score_band: exemplar
-  score_composite: 66.5
   shared: 1
 - slug: chili-piper
   name: Chili Piper
@@ -190,6 +190,13 @@ providers:
   score_band: strong
   score_composite: 65.9
   shared: 1
+- slug: daytona-io
+  name: Daytona
+  description: Daytona is open-source, secure, and elastic infrastructure for running AI-generated code. Daytona sandboxes spin up in under 90 milliseconds and provide isolated Linux, Windows, and macOS environments where autonomous agents and developer workflows can execute untrusted code, perform file system an…
+  api_count: 28
+  score_band: strong
+  score_composite: 65.6
+  shared: 1
 - slug: e2b-dev
   name: E2B
   description: E2B (e2b-dev) provides secure, isolated cloud sandboxes for AI agents and AI-generated code, built on a forked Firecracker microVM runtime. The platform ships a REST Sandbox API, JavaScript and Python SDKs, a Code Interpreter SDK, a Desktop Sandbox for computer-use agents, persistent volumes, a cus…
@@ -203,13 +210,6 @@ providers:
   api_count: 4
   score_band: strong
   score_composite: 65.3
-  shared: 1
-- slug: daytona-io
-  name: Daytona
-  description: Daytona is open-source, secure, and elastic infrastructure for running AI-generated code. Daytona sandboxes spin up in under 90 milliseconds and provide isolated Linux, Windows, and macOS environments where autonomous agents and developer workflows can execute untrusted code, perform file system an…
-  api_count: 28
-  score_band: strong
-  score_composite: 65.2
   shared: 1
 - slug: anecdotes
   name: anecdotes

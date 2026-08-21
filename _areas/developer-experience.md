@@ -27,7 +27,7 @@ providers:
   description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
   api_count: 15
   score_band: strong
-  score_composite: 55.1
+  score_composite: 55.6
   shared: 1
 - slug: signadot
   name: Signadot
@@ -55,7 +55,7 @@ providers:
   description: Coveo is a cloud-based AI-relevance platform that delivers personalized search, recommendations, and discovery experiences across digital workplaces, customer service portals, websites, and commerce storefronts. The Coveo platform exposes a family of REST APIs covering search, content indexing (Pus…
   api_count: 152
   score_band: developing
-  score_composite: 45.8
+  score_composite: 46.2
   shared: 1
 - slug: klook
   name: Klook
@@ -64,6 +64,13 @@ providers:
   score_band: developing
   score_composite: 45.7
   shared: 1
+- slug: cycloid
+  name: Cycloid
+  description: Cycloid is a unified Internal Developer Portal & Platform combining self-service Service Catalogs (Stacks and StackForms), Infrastructure as Code orchestration, multi-cloud asset inventory (Asset Inventory and InfraView), CI/CD pipeline centralization, FinOps and GreenOps cost / carbon dashboards,…
+  api_count: 8
+  score_band: developing
+  score_composite: 45.4
+  shared: 1
 - slug: atlassian-compass
   name: Atlassian Compass
   description: Atlassian Compass is a developer experience platform that helps engineering teams understand, manage, and improve the health of their software components and services. It provides a centralized catalog of software components with scorecards, metrics, dependency tracking, and event ingestion to impr…
@@ -71,19 +78,12 @@ providers:
   score_band: developing
   score_composite: 44.7
   shared: 1
-- slug: cycloid
-  name: Cycloid
-  description: Cycloid is a unified Internal Developer Portal & Platform combining self-service Service Catalogs (Stacks and StackForms), Infrastructure as Code orchestration, multi-cloud asset inventory (Asset Inventory and InfraView), CI/CD pipeline centralization, FinOps and GreenOps cost / carbon dashboards,…
-  api_count: 8
-  score_band: developing
-  score_composite: 44.3
-  shared: 1
 - slug: acquia
   name: Acquia
   description: Acquia is a leading provider of digital experience management solutions for organizations looking to enhance their online presence. They offer a range of services, including cloud hosting, digital asset management, and content management, to help businesses create, manage, and optimize their websit…
   api_count: 21
   score_band: developing
-  score_composite: 43.9
+  score_composite: 44.4
   shared: 1
 - slug: getyourguide
   name: GetYourGuide
@@ -132,7 +132,7 @@ providers:
   description: Upbound is a universal cloud platform built on Crossplane, providing managed control planes and a marketplace for cloud infrastructure APIs. The Upbound API enables programmatic management of organizations, spaces, control planes, package repositories, teams, and robot accounts.
   api_count: 5
   score_band: thin
-  score_composite: 37.4
+  score_composite: 37.9
   shared: 1
 - slug: readmeio
   name: ReadMe.io

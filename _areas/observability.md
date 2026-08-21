@@ -29,6 +29,13 @@ providers:
   score_band: exemplar
   score_composite: 68.7
   shared: 1
+- slug: highlight-io
+  name: Highlight (highlight.io)
+  description: Highlight (highlight.io) is the open-source, full-stack monitoring platform — session replay, error monitoring, logging, distributed tracing, and metrics in a single tool. Built on OpenTelemetry, rrweb, and ClickHouse, Highlight correlates server-side spans and logs back to the originating browser…
+  api_count: 8
+  score_band: exemplar
+  score_composite: 67.1
+  shared: 1
 - slug: cisco-catalyst-sdwan
   name: Cisco Catalyst SD-WAN
   description: 'Cisco Catalyst SD-WAN, built on the Viptela platform Cisco acquired in 2017, is Cisco''s wide-area network overlay: centralized policy, application-aware routing, and secure transport across MPLS, broadband and LTE. Its controller — SD-WAN Manager, formerly vManage — exposes a REST API of 4,138 publ…'
@@ -42,13 +49,6 @@ providers:
   api_count: 30
   score_band: exemplar
   score_composite: 66.7
-  shared: 1
-- slug: highlight-io
-  name: Highlight (highlight.io)
-  description: Highlight (highlight.io) is the open-source, full-stack monitoring platform — session replay, error monitoring, logging, distributed tracing, and metrics in a single tool. Built on OpenTelemetry, rrweb, and ClickHouse, Highlight correlates server-side spans and logs back to the originating browser…
-  api_count: 8
-  score_band: exemplar
-  score_composite: 66.6
   shared: 1
 - slug: logz-io
   name: Logz.io
@@ -76,7 +76,7 @@ providers:
   description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.ra…
   api_count: 15
   score_band: strong
-  score_composite: 63.0
+  score_composite: 63.5
   shared: 1
 - slug: embrace
   name: Embrace
@@ -132,14 +132,14 @@ providers:
   description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
   api_count: 80
   score_band: strong
-  score_composite: 60.4
+  score_composite: 60.7
   shared: 1
 - slug: waxell
   name: Waxell
   description: Waxell is an AI agent governance and observability platform that provides runtime policy enforcement, auto-instrumented LLM telemetry, MCP governance, cost management, and durable workflow execution for agents built in any Python framework or third-party agentic tool (Claude Code, Cursor, LangChain…
   api_count: 6
   score_band: strong
-  score_composite: 60.0
+  score_composite: 60.5
   shared: 1
 - slug: edgee
   name: Edgee
@@ -211,12 +211,12 @@ providers:
   score_band: strong
   score_composite: 56.3
   shared: 1
-- slug: scale3
-  name: Scale3
-  description: Scale3 Labs is a modern observability and infrastructure platform for Web3 and generative AI. Its Web3 products (Autopilot, Nodepilot and Blockchain Intelligence) let node operators and validators deploy, monitor, log and alert on blockchain nodes across 40+ chains including Ethereum, Sui, Solana,…
-  api_count: 1
+- slug: encore-dev
+  name: Encore
+  description: Encore is a backend application framework and developer cloud that lets engineering teams build type-safe distributed systems in TypeScript (Encore.ts) and Go (Encore.go) using declarative Infrastructure from Code. Developers describe APIs, databases, Pub/Sub, object storage, caches, cron jobs, and…
+  api_count: 6
   score_band: strong
-  score_composite: 56.1
+  score_composite: 56.2
   shared: 1
 related:
 - slug: monitoring
@@ -240,7 +240,7 @@ related:
 overview: 'Observability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [observability.apievangelist.com](https://observability.apievangelist.com).
 
 
-  30 providers on the network work in this area, including ThousandEyes, Dynatrace, New Relic, Cisco Catalyst SD-WAN, Cisco Catalyst Center, Highlight (highlight.io), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including ThousandEyes, Dynatrace, New Relic, Highlight (highlight.io), Cisco Catalyst SD-WAN, Cisco Catalyst Center, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monitoring, Logging, AI Automation, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

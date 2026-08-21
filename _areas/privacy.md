@@ -20,7 +20,7 @@ providers:
   description: Swetrix is an open source, privacy-focused web analytics platform that provides cookieless tracking, real-time dashboards, and GDPR-compliant analytics without collecting personal data. It offers a fully-featured REST API for tracking events, querying statistics, managing projects, and integrating…
   api_count: 13
   score_band: exemplar
-  score_composite: 77.9
+  score_composite: 78.4
   shared: 1
 - slug: adobe-campaign
   name: Adobe Campaign
@@ -34,7 +34,7 @@ providers:
   description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
   api_count: 37
   score_band: exemplar
-  score_composite: 76.5
+  score_composite: 76.9
   shared: 1
 - slug: pirsch
   name: Pirsch
@@ -75,8 +75,8 @@ providers:
   name: Amazon Clean Rooms
   description: Amazon Clean Rooms enables organizations to collaborate and analyze shared datasets without exposing underlying raw data to partners. Create secure data clean rooms in minutes and collaborate with any company while maintaining data privacy through differential privacy, cryptographic computing, and…
   api_count: 4
-  score_band: strong
-  score_composite: 66.2
+  score_band: exemplar
+  score_composite: 66.6
   shared: 1
 - slug: simpleanalytics
   name: Simple Analytics
@@ -92,19 +92,19 @@ providers:
   score_band: strong
   score_composite: 65.0
   shared: 1
+- slug: umami
+  name: Umami
+  description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full programmatic access to analytics data, website management, sess…
+  api_count: 7
+  score_band: strong
+  score_composite: 64.2
+  shared: 1
 - slug: plausible
   name: Plausible
   description: Plausible is an open source, privacy-friendly web analytics platform designed as a lightweight alternative to Google Analytics. It provides essential website traffic metrics without using cookies or collecting personal data, making it compliant with GDPR, CCPA, and other privacy regulations out of…
   api_count: 8
   score_band: strong
   score_composite: 64.0
-  shared: 1
-- slug: umami
-  name: Umami
-  description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full programmatic access to analytics data, website management, sess…
-  api_count: 7
-  score_band: strong
-  score_composite: 63.7
   shared: 1
 - slug: datavant
   name: Datavant
@@ -148,19 +148,19 @@ providers:
   score_band: strong
   score_composite: 56.6
   shared: 1
+- slug: bigid
+  name: BigID
+  description: BigID is a New York City-headquartered data security platform that combines Data Security Posture Management (DSPM), Data Loss Prevention (DLP), access governance, AI security & governance (AISPM), privacy automation, and a unified Data & AI Catalog. Founded in 2016 by Dimitri Sirota and Nimrod Vax…
+  api_count: 10
+  score_band: strong
+  score_composite: 55.2
+  shared: 1
 - slug: fathom
   name: Fathom Analytics
   description: Fathom Analytics is a privacy-first website analytics platform that provides GDPR-compliant, cookie-free analytics as an alternative to Google Analytics. The platform serves thousands of companies, including Fortune 100 enterprises and government agencies, offering simple and accurate traffic metri…
   api_count: 5
   score_band: strong
   score_composite: 55.1
-  shared: 1
-- slug: bigid
-  name: BigID
-  description: BigID is a New York City-headquartered data security platform that combines Data Security Posture Management (DSPM), Data Loss Prevention (DLP), access governance, AI security & governance (AISPM), privacy automation, and a unified Data & AI Catalog. Founded in 2016 by Dimitri Sirota and Nimrod Vax…
-  api_count: 10
-  score_band: strong
-  score_composite: 54.8
   shared: 1
 - slug: inth
   name: Inth
@@ -195,7 +195,7 @@ providers:
   description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the discovery of sensitive data, such as personally identifiable…
   api_count: 24
   score_band: developing
-  score_composite: 51.5
+  score_composite: 51.9
   shared: 1
 - slug: nym-technologies
   name: Nym Technologies

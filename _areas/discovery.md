@@ -27,7 +27,7 @@ providers:
   description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
   api_count: 1
   score_band: developing
-  score_composite: 52.2
+  score_composite: 52.7
   shared: 1
 - slug: microsoft-azure-migrate
   name: Azure Migrate
@@ -41,7 +41,7 @@ providers:
   description: AWS Resource Explorer is a resource search and discovery service. With Resource Explorer, you can explore your resources across AWS Regions using an internet search-like experience. It provides a unified view of your AWS resources and helps you understand your resource inventory.
   api_count: 5
   score_band: developing
-  score_composite: 45.9
+  score_composite: 46.4
   shared: 1
 - slug: google-cloud-migration-center
   name: Google Cloud Migration Center
@@ -97,7 +97,7 @@ providers:
   description: The Bored API is a free, open-source, no-authentication public API that serves suggestions for things to do when you are bored. The canonical reference implementation is an MEVN (MongoDB / Express / Vue / Node) project maintained by Drew Thoennes at github.com/drewthoennes/Bored-API (MIT licensed).…
   api_count: 5
   score_band: thin
-  score_composite: 32.5
+  score_composite: 32.9
   shared: 1
 - slug: agentic-resource-discovery
   name: Agentic Resource Discovery (ARD)
@@ -111,7 +111,7 @@ providers:
   description: Amazon Application Discovery Service helps enterprise customers plan application migration projects by automatically identifying servers, virtual machines, software, and software dependencies running in their on-premises data centers.
   api_count: 6
   score_band: emerging
-  score_composite: 21.5
+  score_composite: 22.0
   shared: 1
 - slug: algolia
   name: Algolia

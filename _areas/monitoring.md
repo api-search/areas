@@ -6,7 +6,7 @@ description: An index and topic collection covering API monitoring, application 
 area_url: https://monitoring.apievangelist.com
 area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
-provider_count: 189
+provider_count: 190
 providers:
 - slug: thousandeyes
   name: ThousandEyes
@@ -34,7 +34,7 @@ providers:
   description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.ra…
   api_count: 15
   score_band: strong
-  score_composite: 63.0
+  score_composite: 63.5
   shared: 1
 - slug: laravel
   name: Laravel
@@ -106,19 +106,19 @@ providers:
   score_band: strong
   score_composite: 57.6
   shared: 1
+- slug: datadog
+  name: Datadog
+  description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
+  api_count: 290
+  score_band: strong
+  score_composite: 57.6
+  shared: 1
 - slug: lightrun
   name: Lightrun
   description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
   api_count: 20
   score_band: strong
   score_composite: 57.6
-  shared: 1
-- slug: datadog
-  name: Datadog
-  description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
-  api_count: 290
-  score_band: strong
-  score_composite: 57.1
   shared: 1
 - slug: verifiable
   name: Verifiable
@@ -146,21 +146,21 @@ providers:
   description: Amazon CloudWatch is an intelligent observability platform providing complete visibility into performance, availability, and security across your entire technology stack. Monitor applications, infrastructure, and workloads with unified metrics, logs, and traces plus AI-powered insights.
   api_count: 3
   score_band: strong
-  score_composite: 55.0
+  score_composite: 55.5
   shared: 1
 - slug: oracle-enterprise-manager
   name: Oracle Enterprise Manager
   description: Oracle Enterprise Manager (OEM) provides a comprehensive management platform for managing Oracle IT infrastructure and applications. The APIs enable programmatic access to monitoring, administration, and automation capabilities.
   api_count: 22
   score_band: strong
-  score_composite: 54.6
+  score_composite: 55.1
   shared: 1
 - slug: amazon-security-hub
   name: Amazon Security Hub
   description: AWS Security Hub is a cloud security posture management service that provides a comprehensive view of your security state across AWS accounts. It aggregates, organizes, and prioritizes security findings from multiple AWS services and third-party tools, enabling centralized security monitoring, comp…
   api_count: 5
   score_band: strong
-  score_composite: 54.3
+  score_composite: 54.8
   shared: 1
 - slug: edge-delta
   name: Edge Delta
@@ -181,7 +181,7 @@ providers:
   description: Amazon GuardDuty is an intelligent threat detection service that continuously monitors your AWS accounts, workloads, and data for malicious activity. It uses machine learning, anomaly detection, and integrated threat intelligence to identify and prioritize potential threats to your AWS environment.
   api_count: 4
   score_band: developing
-  score_composite: 53.1
+  score_composite: 53.5
   shared: 1
 - slug: catchpoint
   name: Catchpoint
@@ -197,6 +197,13 @@ providers:
   score_band: developing
   score_composite: 52.7
   shared: 1
+- slug: amazon-xray
+  name: Amazon X-Ray
+  description: AWS X-Ray is a distributed tracing service that helps developers analyze and debug production applications, providing end-to-end visibility into requests as they travel through the application. X-Ray provides service maps, trace analysis, sampling rules, group filtering, and AI-powered insights for…
+  api_count: 32
+  score_band: developing
+  score_composite: 52.6
+  shared: 1
 - slug: agnost-ai
   name: Agnost AI
   description: Agnost AI is a production monitoring and product-analytics platform for teams building chat and voice AI agents. It continuously reads production agent conversations, MCP tool calls, and OpenTelemetry traces, clusters recurring intents, feature requests, frustration, and failure patterns, and catch…
@@ -204,19 +211,12 @@ providers:
   score_band: developing
   score_composite: 52.5
   shared: 1
-- slug: amazon-xray
-  name: Amazon X-Ray
-  description: AWS X-Ray is a distributed tracing service that helps developers analyze and debug production applications, providing end-to-end visibility into requests as they travel through the application. X-Ray provides service maps, trace analysis, sampling rules, group filtering, and AI-powered insights for…
-  api_count: 32
-  score_band: developing
-  score_composite: 52.2
-  shared: 1
 - slug: amazon-managed-grafana
   name: Amazon Managed Grafana
   description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
   api_count: 3
   score_band: developing
-  score_composite: 51.9
+  score_composite: 52.3
   shared: 1
 related:
 - slug: observability

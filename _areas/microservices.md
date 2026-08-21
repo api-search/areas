@@ -20,21 +20,21 @@ providers:
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 40
   score_band: strong
-  score_composite: 59.5
+  score_composite: 60.0
   shared: 1
 - slug: azure-container-apps
   name: Azure Container Apps
   description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
   api_count: 5
   score_band: strong
-  score_composite: 56.8
+  score_composite: 57.2
   shared: 1
 - slug: encore-dev
   name: Encore
   description: Encore is a backend application framework and developer cloud that lets engineering teams build type-safe distributed systems in TypeScript (Encore.ts) and Go (Encore.go) using declarative Infrastructure from Code. Developers describe APIs, databases, Pub/Sub, object storage, caches, cron jobs, and…
   api_count: 6
   score_band: strong
-  score_composite: 55.7
+  score_composite: 56.2
   shared: 1
 - slug: signadot
   name: Signadot
@@ -47,15 +47,15 @@ providers:
   name: IBM WebSphere
   description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
   api_count: 35
-  score_band: developing
-  score_composite: 54.2
+  score_band: strong
+  score_composite: 54.7
   shared: 1
 - slug: aws-app-mesh
   name: AWS App Mesh
   description: AWS App Mesh is a service mesh based on the Envoy proxy that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure including Amazon ECS, EKS, EC2, and Fargate. App Mesh standardizes service communication, gi…
   api_count: 4
   score_band: developing
-  score_composite: 52.0
+  score_composite: 52.5
   shared: 1
 - slug: polyapi
   name: PolyAPI
@@ -69,14 +69,14 @@ providers:
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
   api_count: 13
   score_band: developing
-  score_composite: 49.4
+  score_composite: 49.8
   shared: 1
 - slug: aws-x-ray
   name: AWS X-Ray
   description: AWS X-Ray is a service that helps developers analyze and debug distributed applications by providing end-to-end tracing of requests as they travel through the application, identifying performance bottlenecks and errors. It is now part of Amazon CloudWatch Application Signals for unified observabili…
   api_count: 9
   score_band: developing
-  score_composite: 48.8
+  score_composite: 49.2
   shared: 1
 - slug: zeebe
   name: Zeebe
@@ -97,7 +97,7 @@ providers:
   description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
   api_count: 4
   score_band: developing
-  score_composite: 46.2
+  score_composite: 46.6
   shared: 1
 - slug: beamable
   name: Beamable
@@ -132,14 +132,21 @@ providers:
   description: Datadog APM provides end-to-end distributed tracing, continuous profiling, and real-time performance monitoring for applications and microservices. It automatically instruments applications to provide deep visibility into request traces, latency, and error rates across distributed systems.
   api_count: 5
   score_band: developing
-  score_composite: 43.7
+  score_composite: 44.1
+  shared: 1
+- slug: spring
+  name: Spring Framework
+  description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, messaging, cloud-native patterns, and AI integrations. Spring B…
+  api_count: 14
+  score_band: developing
+  score_composite: 43.0
   shared: 1
 - slug: amazon-fargate
   name: Amazon Fargate
   description: Amazon Fargate is a serverless compute engine for containers that works with both Amazon ECS and Amazon EKS. Fargate removes the need to provision and manage servers, letting you specify and pay for resources per application, and improves security through application isolation by design.
   api_count: 6
   score_band: developing
-  score_composite: 42.2
+  score_composite: 42.7
   shared: 1
 - slug: opslevel
   name: OpsLevel
@@ -148,12 +155,12 @@ providers:
   score_band: developing
   score_composite: 42.1
   shared: 1
-- slug: spring
-  name: Spring Framework
-  description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, messaging, cloud-native patterns, and AI integrations. Spring B…
-  api_count: 14
+- slug: nats
+  name: NATS
+  description: A high-performance, cloud-native messaging system for microservices, IoT, and edge computing. Provides pub-sub, request-reply, and queue-based messaging patterns with at-most-once and at-least-once delivery guarantees.
+  api_count: 15
   score_band: developing
-  score_composite: 41.9
+  score_composite: 41.5
   shared: 1
 - slug: dapr
   name: Dapr
@@ -162,12 +169,12 @@ providers:
   score_band: developing
   score_composite: 41.3
   shared: 1
-- slug: nats
-  name: NATS
-  description: A high-performance, cloud-native messaging system for microservices, IoT, and edge computing. Provides pub-sub, request-reply, and queue-based messaging patterns with at-most-once and at-least-once delivery guarantees.
-  api_count: 15
+- slug: amazon-cloud-map
+  name: Amazon Cloud Map
+  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
+  api_count: 3
   score_band: developing
-  score_composite: 41.3
+  score_composite: 41.2
   shared: 1
 - slug: docker
   name: Docker
@@ -190,19 +197,12 @@ providers:
   score_band: developing
   score_composite: 40.9
   shared: 1
-- slug: amazon-cloud-map
-  name: Amazon Cloud Map
-  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
-  api_count: 3
-  score_band: developing
-  score_composite: 40.8
-  shared: 1
 - slug: spring-cloud-config
   name: Spring Cloud Config
   description: Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system. It offers a central place to manage external properties for applications across all environments, backed by Git, SVN, or filesystem repositories with support for encryption, decr…
   api_count: 4
   score_band: developing
-  score_composite: 40.0
+  score_composite: 40.5
   shared: 1
 - slug: google-cloud-service-mesh
   name: Google Cloud Service Mesh

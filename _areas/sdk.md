@@ -34,7 +34,7 @@ providers:
   description: Swagger Codegen is an open-source template-driven code generation tool that automatically generates client libraries, server stubs, and API documentation from OpenAPI Specification definitions. It supports 40+ client languages and 20+ server frameworks. Available as a CLI, Docker image, Maven/Gradl…
   api_count: 5
   score_band: strong
-  score_composite: 58.7
+  score_composite: 59.2
   shared: 1
 - slug: appsamurai
   name: Appsamurai
@@ -90,7 +90,7 @@ providers:
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
   api_count: 20
   score_band: developing
-  score_composite: 50.9
+  score_composite: 51.4
   shared: 1
 - slug: bitdrift
   name: bitdrift
@@ -99,6 +99,13 @@ providers:
   score_band: developing
   score_composite: 50.4
   shared: 1
+- slug: transcend-io
+  name: Transcend
+  description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, consent and preference management, privacy assessments, and an A…
+  api_count: 11
+  score_band: developing
+  score_composite: 50.2
+  shared: 1
 - slug: netomi
   name: Netomi
   description: Netomi (founded 2016 as msg.ai) is an enterprise agentic AI platform for customer experience. Its "Agentic OS for CX" orchestrates a network of AI agents across chat, email, telephony, social, search, MCP and API channels, layering a governance tier (topic and policy guardrails, prompt security, re…
@@ -106,17 +113,17 @@ providers:
   score_band: developing
   score_composite: 50.0
   shared: 1
+- slug: android
+  name: Android
+  description: Collection of APIs and services available in the Android ecosystem.
+  api_count: 24
+  score_band: developing
+  score_composite: 49.8
+  shared: 1
 - slug: loopme
   name: LoopMe
   description: LoopMe is a global brand-performance advertising platform that uses AI to bring brands into mobile and CTV apps. Its products span an AI-powered intelligent marketplace, PurchaseLoop outcome-based brand advertising, the Chartboost in-app monetization platform, and an Audience & Measurement Platform…
   api_count: 3
-  score_band: developing
-  score_composite: 49.8
-  shared: 1
-- slug: transcend-io
-  name: Transcend
-  description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, consent and preference management, privacy assessments, and an A…
-  api_count: 11
   score_band: developing
   score_composite: 49.8
   shared: 1
@@ -126,13 +133,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 49.4
-  shared: 1
-- slug: android
-  name: Android
-  description: Collection of APIs and services available in the Android ecosystem.
-  api_count: 24
-  score_band: developing
-  score_composite: 49.3
   shared: 1
 - slug: graphy
   name: Graphy
@@ -188,7 +188,7 @@ providers:
   description: Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Founded in 2003, it processes a substantial share of LatAm digital payments across Brazil (PIX, Boleto, cards), Argentina, Mexico (SPEI, OXXO), Chile, Colombia, Peru, a…
   api_count: 44
   score_band: developing
-  score_composite: 47.6
+  score_composite: 47.9
   shared: 1
 - slug: hansoft
   name: Hansoft

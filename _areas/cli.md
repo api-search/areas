@@ -20,7 +20,7 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 21
   score_band: exemplar
-  score_composite: 79.3
+  score_composite: 79.7
   shared: 1
 - slug: common-room
   name: Common Room
@@ -48,14 +48,14 @@ providers:
   description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
   api_count: 15
   score_band: developing
-  score_composite: 50.0
+  score_composite: 50.5
   shared: 1
 - slug: continue-dev
   name: Continue
   description: Continue is the open-source AI code assistant for VS Code and JetBrains, distributed under Apache 2.0. The Continue IDE extensions and the Continue CLI federate to any LLM provider — Anthropic, OpenAI, Mistral, OpenRouter, Ollama, and a Continue-managed proxy — and load their configuration from Con…
   api_count: 5
   score_band: developing
-  score_composite: 48.6
+  score_composite: 49.1
   shared: 1
 - slug: mammoth-media
   name: Mammoth Media
@@ -97,14 +97,14 @@ providers:
   description: APIToolkit (now Monoscope) is an open-source-friendly API observability and monitoring platform that helps teams find and fix production issues before customers notice. It unifies logs, traces, metrics, errors, monitors, and session replay across 17+ framework SDKs and 780+ OpenTelemetry integratio…
   api_count: 7
   score_band: developing
-  score_composite: 42.9
+  score_composite: 43.3
   shared: 1
 - slug: sideko
   name: Sideko
   description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
   api_count: 18
   score_band: developing
-  score_composite: 41.9
+  score_composite: 42.3
   shared: 1
 - slug: insomnia
   name: Insomnia

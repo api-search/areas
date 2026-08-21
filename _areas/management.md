@@ -27,21 +27,21 @@ providers:
   description: APIs for managing and monitoring Dell PowerEdge servers and infrastructure, including the iDRAC Redfish out-of-band management interface, OpenManage Enterprise centralized console and its modular, power, support, and VMware integrations, telemetry streaming, the Lifecycle Controller, RACADM, and th…
   api_count: 27
   score_band: developing
-  score_composite: 49.8
+  score_composite: 50.9
   shared: 1
 - slug: snaplogic
   name: SnapLogic
   description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
   api_count: 7
   score_band: developing
-  score_composite: 49.0
+  score_composite: 49.5
   shared: 1
 - slug: amazon-systems-manager
   name: Amazon Systems Manager
   description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
   api_count: 5
   score_band: developing
-  score_composite: 44.3
+  score_composite: 44.8
   shared: 1
 - slug: broadcom
   name: Broadcom

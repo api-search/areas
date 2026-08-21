@@ -13,7 +13,7 @@ providers:
   description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
   api_count: 12
   score_band: strong
-  score_composite: 63.8
+  score_composite: 64.2
   shared: 1
 - slug: choreo
   name: Choreo
@@ -27,7 +27,7 @@ providers:
   description: Workday Studio is an integrated development environment (IDE) for building custom integrations and applications on the Workday platform. It provides tools for creating web services, custom reports, and integration solutions.
   api_count: 18
   score_band: developing
-  score_composite: 46.2
+  score_composite: 46.7
   shared: 1
 - slug: windsurfrules
   name: Windsurf
@@ -55,14 +55,14 @@ providers:
   description: AWS Cloud9 is a browser-based integrated development environment (IDE) that enables developers to write, run, and debug code without installing local software. Supports 40+ programming languages with real-time collaboration, integrated terminal, and pre-authenticated AWS CLI.
   api_count: 2
   score_band: developing
-  score_composite: 40.1
+  score_composite: 40.5
   shared: 1
 - slug: vs-code-marketplace
   name: VS Code Marketplace
   description: VS Code Marketplace is Microsoft's official extension marketplace for Visual Studio Code, offering thousands of extensions for languages, debuggers, themes, and developer tools. It provides a Gallery API for programmatically searching, discovering, and retrieving extension metadata, enabling integr…
   api_count: 3
   score_band: developing
-  score_composite: 39.8
+  score_composite: 40.2
   shared: 1
 - slug: jupyterlab
   name: JupyterLab
@@ -76,7 +76,7 @@ providers:
   description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
   api_count: 10
   score_band: thin
-  score_composite: 35.2
+  score_composite: 36.3
   shared: 1
 - slug: jetbrains
   name: JetBrains

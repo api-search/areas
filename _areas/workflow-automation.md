@@ -6,7 +6,7 @@ description: This is the index of workflow automation service and tooling repos 
 area_url: https://workflow-automation.apievangelist.com
 area_host: workflow-automation.apievangelist.com
 icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-provider_count: 648
+provider_count: 649
 providers:
 - slug: plunk
   name: Plunk
@@ -20,7 +20,7 @@ providers:
   description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
   api_count: 63
   score_band: strong
-  score_composite: 65.0
+  score_composite: 65.3
   shared: 2
 - slug: gumloop
   name: Gumloop
@@ -216,7 +216,7 @@ providers:
   description: 'Salesforce Marketing Cloud Engagement is an enterprise digital marketing platform for customer journeys, email marketing, mobile messaging (SMS/MMS and push), advertising, content management and marketing data. Its API surface is tenant-scoped: every REST call goes to https://{subdomain}.rest.marke…'
   api_count: 17
   score_band: exemplar
-  score_composite: 84.2
+  score_composite: 84.7
   shared: 1
 related:
 - slug: ai-automation

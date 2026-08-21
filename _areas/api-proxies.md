@@ -27,7 +27,7 @@ providers:
   description: Hyperbrowser provides cloud browser infrastructure tailored for AI agents, bundling managed Chromium sessions with web scraping, crawling, and data-extraction APIs. The platform ships the open-source HyperAgent framework and first-class integrations for Browser-Use, Claude Computer Use, Gemini Comp…
   api_count: 12
   score_band: strong
-  score_composite: 55.7
+  score_composite: 56.2
   shared: 1
 - slug: oxylabs
   name: Oxylabs
@@ -48,7 +48,7 @@ providers:
   description: 'ZenRows is a Spanish web scraping platform headquartered in Madrid that lets developers collect public web data at scale without managing proxies, browsers, or CAPTCHAs. A single API key unlocks four products against a shared 55M+ residential IP pool across 190+ countries: the Universal Scraper API…'
   api_count: 6
   score_band: developing
-  score_composite: 50.3
+  score_composite: 50.8
   shared: 1
 - slug: spider-cloud
   name: Spider
@@ -62,7 +62,7 @@ providers:
   description: Smartproxy (now also known as Decodo) is a proxy network and web scraping infrastructure platform providing residential, datacenter, mobile, and ISP proxies for web data collection at scale. The Smartproxy API enables programmatic management of proxy accounts, sub-users, traffic allocation, IP whit…
   api_count: 6
   score_band: thin
-  score_composite: 36.2
+  score_composite: 36.7
   shared: 1
 - slug: snapapi-pics
   name: SnapAPI
@@ -83,7 +83,7 @@ providers:
   description: Scrapfly is a web scraping API platform that enables effortless collection of web data with battle-tested APIs that scale. It provides capabilities for scraping web pages, capturing screenshots, and extracting structured data with AI assistance to handle anti-bot measures and JavaScript rendering.…
   api_count: 7
   score_band: thin
-  score_composite: 33.3
+  score_composite: 33.7
   shared: 1
 - slug: scraper-api
   name: ScraperAPI

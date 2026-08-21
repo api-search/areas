@@ -13,14 +13,21 @@ providers:
   description: Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communications service that enables you to engage with customers across multiple messaging channels including email, SMS, push notifications, and voice messages. Note - AWS will end support for Amazon Pinpoint on October 30,…
   api_count: 6
   score_band: exemplar
-  score_composite: 82.5
+  score_composite: 83.0
+  shared: 1
+- slug: nylas
+  name: Nylas
+  description: Nylas connects your application to every email inbox and calendar in the world. The Nylas v3 platform provides REST APIs for email, calendar, contacts, scheduling, meeting notetaking, authentication, and administration across Google, Microsoft, Exchange, iCloud, Yahoo and any IMAP provider. Officia…
+  api_count: 14
+  score_band: exemplar
+  score_composite: 76.6
   shared: 1
 - slug: mailboxlayer
   name: Mailboxlayer
   description: Real-time email validation and verification REST/JSON API operated by APILayer. Provides syntax checks, typo suggestions, MX-record lookup, SMTP verification, catch-all/role/disposable/free-provider detection, and a deliverability quality score.
   api_count: 2
   score_band: exemplar
-  score_composite: 74.5
+  score_composite: 75.0
   shared: 1
 - slug: smtp2go
   name: SMTP2GO
@@ -92,6 +99,13 @@ providers:
   score_band: strong
   score_composite: 61.9
   shared: 1
+- slug: parcellab
+  name: parcelLab
+  description: parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the customer journey. The platform spans four modules — Convert (pr…
+  api_count: 8
+  score_band: strong
+  score_composite: 61.4
+  shared: 1
 - slug: simpletexting
   name: SimpleTexting
   description: SimpleTexting is a business SMS and MMS marketing platform. Its v2 REST API lets developers send single text messages, run bulk campaigns to lists and segments, manage contacts and contact lists, upload MMS media, provision sending numbers, and subscribe to delivery and incoming-message webhooks, a…
@@ -103,13 +117,6 @@ providers:
   name: Hustle
   description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and a…
   api_count: 10
-  score_band: strong
-  score_composite: 60.9
-  shared: 1
-- slug: parcellab
-  name: parcelLab
-  description: parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the customer journey. The platform spans four modules — Convert (pr…
-  api_count: 8
   score_band: strong
   score_composite: 60.9
   shared: 1
@@ -211,13 +218,6 @@ providers:
   score_band: developing
   score_composite: 53.1
   shared: 1
-- slug: nfon
-  name: Nfon
-  description: NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication.…
-  api_count: 52
-  score_band: developing
-  score_composite: 52.6
-  shared: 1
 related:
 - slug: authentication
   name: Authentication
@@ -237,7 +237,7 @@ related:
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Pinpoint, Mailboxlayer, SMTP2GO, Twilio, Leadping, Zoom Phone, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Pinpoint, Nylas, Mailboxlayer, SMTP2GO, Twilio, Leadping, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Authentication, Agent Skills, Agents, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

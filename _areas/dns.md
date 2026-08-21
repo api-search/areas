@@ -27,7 +27,7 @@ providers:
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 15
   score_band: strong
-  score_composite: 63.9
+  score_composite: 64.2
   shared: 1
 - slug: cisco-umbrella
   name: Cisco Umbrella
@@ -48,7 +48,7 @@ providers:
   description: Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service that provides DNS routing, domain name registration, and health checking capabilities. Route 53 connects user requests to internet applications running on AWS or on-premises infrastructure, and can be used to ro…
   api_count: 3
   score_band: strong
-  score_composite: 58.2
+  score_composite: 58.7
   shared: 1
 - slug: mcp360
   name: MCP360
@@ -90,7 +90,7 @@ providers:
   description: Amazon Route 53 Resolver provides DNS resolution for hybrid cloud environments, enabling DNS queries between your VPCs and on-premises networks. It allows you to configure DNS forwarding rules, manage resolver endpoints, and set up conditional forwarding to resolve domain names across your hybrid i…
   api_count: 63
   score_band: developing
-  score_composite: 44.7
+  score_composite: 45.2
   shared: 1
 - slug: dnsfilter
   name: DNSFilter
@@ -113,19 +113,19 @@ providers:
   score_band: developing
   score_composite: 42.8
   shared: 1
+- slug: amazon-cloud-map
+  name: Amazon Cloud Map
+  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
+  api_count: 3
+  score_band: developing
+  score_composite: 41.2
+  shared: 1
 - slug: bunny-net
   name: Bunny.net
   description: Bunny.net is a content-delivery and edge platform offering a global CDN, edge storage, video streaming, DNS, image optimisation, edge scripting, and WAF / security shielding. The Bunny.net Core Platform REST API at api.bunny.net manages account-level resources - Pull Zones, Storage Zones, DNS Zones…
   api_count: 26
   score_band: developing
   score_composite: 41.2
-  shared: 1
-- slug: amazon-cloud-map
-  name: Amazon Cloud Map
-  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
-  api_count: 3
-  score_band: developing
-  score_composite: 40.8
   shared: 1
 - slug: spaceship
   name: Spaceship
@@ -169,26 +169,26 @@ providers:
   score_band: thin
   score_composite: 39.2
   shared: 1
-- slug: completedns
-  name: CompleteDNS
-  description: CompleteDNS is a DNS research platform that tracks nameserver modifications and domain drops, with over twenty years of history and billions of recorded changes. The CompleteDNS API exposes domain-scoped lookups that return the chronological history of nameserver changes, drop events, and parking s…
-  api_count: 2
-  score_band: thin
-  score_composite: 37.8
-  shared: 1
 - slug: coredns
   name: CoreDNS
   description: CoreDNS is a CNCF graduated DNS server written in Go that serves as the default DNS service for Kubernetes clusters. It is flexible and extensible through a plugin architecture, supporting DNS-based service discovery, forwarding, caching, and integration with etcd, Kubernetes, and other backends. C…
   api_count: 5
   score_band: thin
-  score_composite: 37.4
+  score_composite: 38.5
+  shared: 1
+- slug: completedns
+  name: CompleteDNS
+  description: CompleteDNS is a DNS research platform that tracks nameserver modifications and domain drops, with over twenty years of history and billions of recorded changes. The CompleteDNS API exposes domain-scoped lookups that return the chronological history of nameserver changes, drop events, and parking s…
+  api_count: 2
+  score_band: thin
+  score_composite: 38.3
   shared: 1
 - slug: frostbyte
   name: Frostbyte
   description: Free API platform for developers and AI agents — 40+ services including IP Geolocation, Crypto Prices, Screenshots, DNS, Scraping, Code Execution. Free tier of 200 credits with no signup; USDC on Base top-ups via x402 for higher volume.
   api_count: 10
   score_band: thin
-  score_composite: 37.1
+  score_composite: 37.5
   shared: 1
 - slug: cpanel
   name: cPanel

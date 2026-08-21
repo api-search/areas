@@ -13,26 +13,26 @@ providers:
   description: Bright Data is an Israeli web data platform and operator of the world's largest legitimate residential proxy network (400M+ IPs across 195 countries). The platform combines proxy infrastructure (residential, ISP, datacenter, mobile) with higher-level web-access APIs — Web Unlocker, SERP API, Web Sc…
   api_count: 17
   score_band: developing
-  score_composite: 53.0
+  score_composite: 53.4
+  shared: 1
+- slug: contour
+  name: Contour
+  description: A Kubernetes ingress controller using Envoy proxy that provides dynamic configuration updates and advanced routing capabilities for managing external access to services in a cluster.
+  api_count: 9
+  score_band: developing
+  score_composite: 43.5
   shared: 1
 - slug: soax
   name: SOAX
   description: SOAX provides enterprise-grade proxy infrastructure and web data extraction APIs for developers and data teams. With 155M+ residential IPs, 33M+ mobile IPs, and 300K+ datacenter IPs across 195+ countries, SOAX enables web scraping, CAPTCHA bypass, geo-targeted data collection, and anti-bot circumve…
   api_count: 5
   score_band: developing
-  score_composite: 42.8
+  score_composite: 43.2
   shared: 1
 - slug: brightdata
   name: Bright Data
   description: Bright Data is a web data platform providing a global proxy network (residential, datacenter, ISP, mobile), pre-built Web Scraper APIs for 100+ sites, a SERP API, the Web Unlocker, ready-made Datasets, and a Scraping Browser (Browser API) that exposes a real Chrome DevTools Protocol endpoint over W…
   api_count: 5
-  score_band: developing
-  score_composite: 42.5
-  shared: 1
-- slug: contour
-  name: Contour
-  description: A Kubernetes ingress controller using Envoy proxy that provides dynamic configuration updates and advanced routing capabilities for managing external access to services in a cluster.
-  api_count: 9
   score_band: developing
   score_composite: 42.5
   shared: 1
@@ -69,21 +69,21 @@ providers:
   description: Squid is a high-performance caching and forwarding HTTP web proxy used for content caching, access control, and bandwidth management. It supports HTTP, HTTPS, FTP, and other protocols, providing caching proxy features, access control lists, SSL/TLS inspection, and web content filtering for enterpri…
   api_count: 6
   score_band: thin
-  score_composite: 35.4
+  score_composite: 35.8
   shared: 1
 - slug: safeline
   name: SafeLine
   description: SafeLine is an open-source self-hosted Web Application Firewall (WAF) and reverse proxy developed by Chaitin Technology that protects web applications and APIs from attacks including SQL injection, XSS, code injection, OS command injection, SSRF, path traversal, and RCE. With over 180,000 installat…
   api_count: 9
   score_band: thin
-  score_composite: 33.9
+  score_composite: 34.4
   shared: 1
 - slug: apache-httpd
   name: Apache HTTP Server
   description: Apache HTTP Server (httpd) is the world's most widely used web server software. It serves static and dynamic content, acts as a reverse proxy and load balancer, and exposes a mod_status monitoring API and balancer-manager management interface for operational visibility.
   api_count: 3
   score_band: thin
-  score_composite: 33.1
+  score_composite: 33.6
   shared: 1
 - slug: verdaccio
   name: Verdaccio
@@ -186,7 +186,7 @@ related:
 overview: 'Proxy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [proxy.apievangelist.com](https://proxy.apievangelist.com).
 
 
-  24 providers on the network work in this area, including Bright Data, SOAX, Bright Data, Contour, HTTP Toolkit, Crawlbase, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  24 providers on the network work in this area, including Bright Data, Contour, SOAX, Bright Data, HTTP Toolkit, Crawlbase, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Caching and Service Mesh. Browse every area at [areas.apis.io](https://apis.io/areas/).'

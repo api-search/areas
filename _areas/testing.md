@@ -20,7 +20,7 @@ providers:
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
   api_count: 32
   score_band: strong
-  score_composite: 62.0
+  score_composite: 62.3
   shared: 1
 - slug: stack-moxie
   name: Stack Moxie
@@ -50,19 +50,19 @@ providers:
   score_band: strong
   score_composite: 55.8
   shared: 1
+- slug: treblle
+  name: Treblle
+  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
+  api_count: 15
+  score_band: strong
+  score_composite: 55.6
+  shared: 1
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypress, Playwright, k6, JMeter, pytest and others — then aggreg…
   api_count: 30
   score_band: strong
   score_composite: 55.5
-  shared: 1
-- slug: treblle
-  name: Treblle
-  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
-  api_count: 15
-  score_band: strong
-  score_composite: 55.1
   shared: 1
 - slug: signadot
   name: Signadot
@@ -76,7 +76,7 @@ providers:
   description: AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages. CodeBuild scales continuously and processes multiple builds concurrently so your builds are not left waiting in a queue. It supports popular build e…
   api_count: 47
   score_band: developing
-  score_composite: 53.5
+  score_composite: 54.0
   shared: 1
 - slug: testfairy
   name: TestFairy
@@ -104,7 +104,7 @@ providers:
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
   api_count: 20
   score_band: developing
-  score_composite: 50.9
+  score_composite: 51.4
   shared: 1
 - slug: opkey
   name: Opkey
@@ -155,19 +155,19 @@ providers:
   score_band: developing
   score_composite: 47.3
   shared: 1
+- slug: azure-test-labs
+  name: Azure DevTest Labs
+  description: Azure DevTest Labs enables developers to efficiently self-manage virtual machines and PaaS resources without waiting for approvals. DevTest Labs creates labs consisting of pre-configured bases or Azure Resource Manager templates for development and testing purposes.
+  api_count: 25
+  score_band: developing
+  score_composite: 47.1
+  shared: 1
 - slug: accessibe
   name: accessiBe
   description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility Act. Its portfolio spans accessWidget (an AI-driven remediat…
   api_count: 2
   score_band: developing
   score_composite: 46.7
-  shared: 1
-- slug: azure-test-labs
-  name: Azure DevTest Labs
-  description: Azure DevTest Labs enables developers to efficiently self-manage virtual machines and PaaS resources without waiting for approvals. DevTest Labs creates labs consisting of pre-configured bases or Azure Resource Manager templates for development and testing purposes.
-  api_count: 25
-  score_band: developing
-  score_composite: 46.6
   shared: 1
 - slug: ardent
   name: Ardent

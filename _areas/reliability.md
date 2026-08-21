@@ -13,7 +13,7 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 21
   score_band: exemplar
-  score_composite: 79.3
+  score_composite: 79.7
   shared: 1
 - slug: gremlin
   name: Gremlin

@@ -13,7 +13,7 @@ providers:
   description: At AB Tasty, we are your partner for pushing great ideas even further through optimization. We achieve this by empowering brands to build better experiences using personalization, experimentation, recommendations, merchandising, and the market's only emotions-based segmentation solution.
   api_count: 7
   score_band: developing
-  score_composite: 48.4
+  score_composite: 48.9
   shared: 1
 - slug: mx-platform
   name: MX Platform
@@ -27,7 +27,7 @@ providers:
   description: Google News provides RSS feeds that deliver news headlines organized by topic, location, and search query. The feeds expose structured XML data that can be consumed programmatically to retrieve top stories, topic-based headlines (World, Business, Technology, Sports, etc.), location-specific news, a…
   api_count: 3
   score_band: thin
-  score_composite: 38.1
+  score_composite: 38.5
   shared: 1
 - slug: quiltt
   name: Quiltt

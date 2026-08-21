@@ -27,7 +27,7 @@ providers:
   description: Amazon ElastiCache is a fully managed in-memory caching service supporting Redis and Memcached. ElastiCache makes it easy to deploy, operate, and scale popular open-source compatible in-memory data stores, improving the performance of web applications.
   api_count: 4
   score_band: strong
-  score_composite: 55.1
+  score_composite: 55.5
   shared: 1
 - slug: google-cloud-cdn
   name: Google Cloud CDN
@@ -41,7 +41,7 @@ providers:
   description: Apache Ignite is a distributed database for mission-critical high-velocity applications requiring in-memory performance. It provides ACID transactions, SQL queries, key-value storage, compute grid, and backpressured streaming across distributed clusters. Governed by the Apache Software Foundation u…
   api_count: 15
   score_band: developing
-  score_composite: 42.1
+  score_composite: 42.6
   shared: 1
 - slug: momento
   name: Momento
@@ -76,7 +76,7 @@ providers:
   description: Apache Geode is an in-memory data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures. It pools memory, CPU, network resources, and local disk storage across multiple processes, offering a REST API for data…
   api_count: 5
   score_band: thin
-  score_composite: 34.9
+  score_composite: 35.3
   shared: 1
 - slug: blacksmith-sh
   name: Blacksmith
@@ -99,19 +99,19 @@ providers:
   score_band: thin
   score_composite: 31.3
   shared: 1
+- slug: nginx
+  name: NGINX
+  description: NGINX is a high-performance open-source web server, reverse proxy, and API gateway widely used for load balancing, SSL termination, caching, and traffic management for APIs and microservices. Originally written by Igor Sysoev and released under the 2-clause BSD license, NGINX powers a significant p…
+  api_count: 32
+  score_band: thin
+  score_composite: 31.1
+  shared: 1
 - slug: avrea
   name: Avrea
   description: 'Avrea is CI/CD infrastructure for GitHub Actions: high-performance managed runners (AMD EPYC and Apple M-series), smart multi-system caching, and full build observability with flaky-test detection and live SSH debugging into running jobs. A one-line change to a GitHub Actions workflow migrates jobs…'
   api_count: 0
   score_band: thin
   score_composite: 30.9
-  shared: 1
-- slug: nginx
-  name: NGINX
-  description: NGINX is a high-performance open-source web server, reverse proxy, and API gateway widely used for load balancing, SSL termination, caching, and traffic management for APIs and microservices. Originally written by Igor Sysoev and released under the 2-clause BSD license, NGINX powers a significant p…
-  api_count: 32
-  score_band: thin
-  score_composite: 30.7
   shared: 1
 - slug: cloudfront
   name: CloudFront

@@ -13,7 +13,7 @@ providers:
   description: KonbiniAPI is the social data layer for Instagram, TikTok, X, Reddit and LinkedIn, normalizing real-time public profile, post, video, comment, audio, community, subreddit, location and search data into a single consistent ActivityStreams 2.0 (W3C) shape. Sixty-seven endpoints are exposed through on…
   api_count: 6
   score_band: exemplar
-  score_composite: 73.7
+  score_composite: 74.2
   shared: 1
 - slug: serper
   name: Serper
@@ -55,7 +55,7 @@ providers:
   description: Free API platform for developers and AI agents — 40+ services including IP Geolocation, Crypto Prices, Screenshots, DNS, Scraping, Code Execution. Free tier of 200 credits with no signup; USDC on Base top-ups via x402 for higher volume.
   api_count: 10
   score_band: thin
-  score_composite: 37.1
+  score_composite: 37.5
   shared: 1
 - slug: steel-dev
   name: Steel

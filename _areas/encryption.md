@@ -20,7 +20,7 @@ providers:
   description: AWS Key Management Service (KMS) is a managed service that makes it easy to create and control the cryptographic keys used to protect your data, integrated with other AWS services to simplify encryption of data stored and managed in those services.
   api_count: 2
   score_band: strong
-  score_composite: 61.1
+  score_composite: 61.6
   shared: 1
 - slug: ironcore-labs
   name: IronCore Labs
@@ -34,7 +34,7 @@ providers:
   description: AWS Certificate Manager (ACM) handles the complexity of creating, storing, and renewing public and private SSL/TLS X.509 certificates and keys that protect your AWS websites and applications, enabling you to manage certificate lifecycles centrally.
   api_count: 1
   score_band: developing
-  score_composite: 51.4
+  score_composite: 51.9
   shared: 1
 - slug: virtru
   name: Virtru
@@ -139,7 +139,7 @@ providers:
   description: HashiCorp Vault is an open source tool for securely storing and accessing secrets. A secret is anything you want to tightly control access to, such as API keys, passwords, certificates, and more. Vault provides a unified interface to any secret while providing tight access control via policies and…
   api_count: 9
   score_band: thin
-  score_composite: 30.9
+  score_composite: 31.4
   shared: 1
 - slug: hvault
   name: HashiCorp Vault

@@ -15,19 +15,19 @@ providers:
   score_band: developing
   score_composite: 50.0
   shared: 1
+- slug: ruby
+  name: Ruby Programming Language and Popular API Gems
+  description: 'A profile of the Ruby programming language ecosystem from an API perspective: the language and its standard library HTTP surface (Net::HTTP), the rubygems.org package registry and its public v1/v2 REST API, Bundler, RBS type signatures, popular HTTP/REST client gems (Faraday, http.rb, HTTParty, Exc…'
+  api_count: 23
+  score_band: developing
+  score_composite: 41.1
+  shared: 1
 - slug: hoppscotch
   name: Hoppscotch
   description: Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT.
   api_count: 1
   score_band: developing
   score_composite: 40.9
-  shared: 1
-- slug: ruby
-  name: Ruby Programming Language and Popular API Gems
-  description: 'A profile of the Ruby programming language ecosystem from an API perspective: the language and its standard library HTTP surface (Net::HTTP), the rubygems.org package registry and its public v1/v2 REST API, Bundler, RBS type signatures, popular HTTP/REST client gems (Faraday, http.rb, HTTParty, Exc…'
-  api_count: 23
-  score_band: developing
-  score_composite: 40.6
   shared: 1
 - slug: insomnia
   name: Insomnia
@@ -158,7 +158,7 @@ related:
 overview: 'API Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-clients.apievangelist.com](https://api-clients.apievangelist.com).
 
 
-  20 providers on the network work in this area, including Apollo GraphQL, Hoppscotch, Ruby Programming Language and Popular API Gems, Insomnia, Kiota, HTTPie, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  20 providers on the network work in this area, including Apollo GraphQL, Ruby Programming Language and Popular API Gems, Hoppscotch, Insomnia, Kiota, HTTPie, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Clients and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

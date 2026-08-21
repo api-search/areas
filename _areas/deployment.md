@@ -13,7 +13,7 @@ providers:
   description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.ra…
   api_count: 15
   score_band: strong
-  score_composite: 63.0
+  score_composite: 63.5
   shared: 1
 - slug: laravel
   name: Laravel
@@ -41,14 +41,21 @@ providers:
   description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
   api_count: 7
   score_band: strong
-  score_composite: 56.0
+  score_composite: 56.3
   shared: 1
 - slug: amazon-elastic-beanstalk
   name: Amazon Elastic Beanstalk
   description: AWS Elastic Beanstalk is a platform-as-a-service (PaaS) that makes it easy to deploy, manage, and scale web applications and services. You simply upload your code and Elastic Beanstalk automatically handles the deployment, capacity provisioning, load balancing, auto-scaling, and application health…
   api_count: 4
   score_band: strong
-  score_composite: 55.1
+  score_composite: 55.5
+  shared: 1
+- slug: amazon-codedeploy
+  name: Amazon CodeDeploy
+  description: AWS CodeDeploy is a fully managed deployment service that automates software deployments to various compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and on-premises servers. CodeDeploy makes it easier to rapidly release new features, helps avoid downtime during application deployment,…
+  api_count: 49
+  score_band: strong
+  score_composite: 55.0
   shared: 1
 - slug: upsun
   name: Upsun
@@ -56,13 +63,6 @@ providers:
   api_count: 50
   score_band: strong
   score_composite: 54.7
-  shared: 1
-- slug: amazon-codedeploy
-  name: Amazon CodeDeploy
-  description: AWS CodeDeploy is a fully managed deployment service that automates software deployments to various compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and on-premises servers. CodeDeploy makes it easier to rapidly release new features, helps avoid downtime during application deployment,…
-  api_count: 49
-  score_band: strong
-  score_composite: 54.5
   shared: 1
 - slug: aptible
   name: Aptible
@@ -104,21 +104,21 @@ providers:
   description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
   api_count: 36
   score_band: developing
-  score_composite: 49.7
+  score_composite: 50.2
   shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
   api_count: 13
   score_band: developing
-  score_composite: 49.4
+  score_composite: 49.8
   shared: 1
 - slug: amazon-launch-wizard
   name: Amazon Launch Wizard
   description: AWS Launch Wizard is a service that guides you through the sizing, configuration, and deployment of enterprise applications on AWS, such as Microsoft SQL Server Always On and HANA-based SAP systems, without the need to manually identify and provision individual AWS resources.
   api_count: 1
   score_band: developing
-  score_composite: 49.2
+  score_composite: 49.7
   shared: 1
 - slug: agentuity
   name: Agentuity
@@ -134,19 +134,19 @@ providers:
   score_band: developing
   score_composite: 48.6
   shared: 1
+- slug: render
+  name: Render
+  description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, PostgreSQL databases, Redis/Key-Value stores, and persistent disks.…
+  api_count: 26
+  score_band: developing
+  score_composite: 48.4
+  shared: 1
 - slug: dokploy
   name: Dokploy
   description: Dokploy is an open-source, self-hostable Platform-as-a-Service (PaaS) — an alternative to Heroku, Vercel, and Netlify — that deploys applications, Docker Compose stacks, and managed databases across one or many servers using Docker and Docker Swarm, with Traefik handling routing and TLS.
   api_count: 48
   score_band: developing
   score_composite: 48.3
-  shared: 1
-- slug: render
-  name: Render
-  description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, PostgreSQL databases, Redis/Key-Value stores, and persistent disks.…
-  api_count: 26
-  score_band: developing
-  score_composite: 48.1
   shared: 1
 - slug: semaphore
   name: Semaphore
@@ -176,6 +176,13 @@ providers:
   score_band: developing
   score_composite: 44.7
   shared: 1
+- slug: databricks-asset-bundles
+  name: Databricks Asset Bundles
+  description: Databricks Asset Bundles (DABs) provide an infrastructure-as-code approach to managing Databricks data and AI projects. Bundles enable version control, CI/CD, deployment, and management of Databricks resources such as jobs, pipelines, apps, schemas, experiments, and model serving endpoints across w…
+  api_count: 1
+  score_band: developing
+  score_composite: 44.0
+  shared: 1
 - slug: bentoml
   name: BentoML
   description: BentoML is an open-source unified inference platform for building, packaging, and deploying machine learning models as scalable REST API services. Developers define services using Python class decorators that automatically expose model inference logic as HTTP endpoints. BentoCloud, the managed clou…
@@ -183,19 +190,19 @@ providers:
   score_band: developing
   score_composite: 43.8
   shared: 1
-- slug: databricks-asset-bundles
-  name: Databricks Asset Bundles
-  description: Databricks Asset Bundles (DABs) provide an infrastructure-as-code approach to managing Databricks data and AI projects. Bundles enable version control, CI/CD, deployment, and management of Databricks resources such as jobs, pipelines, apps, schemas, experiments, and model serving endpoints across w…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.5
-  shared: 1
 - slug: dreamfactory
   name: DreamFactory
   description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
   api_count: 16
   score_band: developing
-  score_composite: 43.0
+  score_composite: 43.3
+  shared: 1
+- slug: deno
+  name: Deno
+  description: Deno is a modern JavaScript and TypeScript runtime built on V8 that emphasizes security, simplicity, and developer productivity. It provides a comprehensive developer platform including the Deno Deploy serverless edge network, a built-in key-value store, and a standard library of audited modules, a…
+  api_count: 11
+  score_band: developing
+  score_composite: 42.0
   shared: 1
 - slug: pulumi
   name: Pulumi
@@ -203,13 +210,6 @@ providers:
   api_count: 35
   score_band: developing
   score_composite: 41.6
-  shared: 1
-- slug: deno
-  name: Deno
-  description: Deno is a modern JavaScript and TypeScript runtime built on V8 that emphasizes security, simplicity, and developer productivity. It provides a comprehensive developer platform including the Deno Deploy serverless edge network, a built-in key-value store, and a standard library of audited modules, a…
-  api_count: 11
-  score_band: developing
-  score_composite: 41.5
   shared: 1
 - slug: stack-machine
   name: Stack Machine

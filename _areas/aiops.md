@@ -33,8 +33,8 @@ providers:
   name: Honeycomb
   description: ''
   api_count: 21
-  score_band: developing
-  score_composite: 53.8
+  score_band: strong
+  score_composite: 54.3
   shared: 1
 - slug: opsmill
   name: OpsMill

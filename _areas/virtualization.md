@@ -41,14 +41,14 @@ providers:
   description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
   api_count: 59
   score_band: developing
-  score_composite: 45.5
+  score_composite: 46.0
   shared: 1
 - slug: vagrant
   name: Vagrant
   description: Vagrant, by HashiCorp, is a tool for building and managing virtualized development environments. Their developer platform provides APIs and SDKs for interacting with Vagrant Cloud and the HCP Vagrant Box Registry, enabling automation of box lifecycle management, plugin development, and integration…
   api_count: 7
   score_band: developing
-  score_composite: 41.5
+  score_composite: 42.0
   shared: 1
 - slug: vers
   name: Vers
@@ -57,6 +57,13 @@ providers:
   score_band: developing
   score_composite: 41.5
   shared: 1
+- slug: veritas-infoscale
+  name: Veritas InfoScale
+  description: APIs for Veritas InfoScale, an enterprise storage and availability management solution that provides high availability, disaster recovery, and storage management capabilities across physical, virtual, and cloud environments.
+  api_count: 13
+  score_band: developing
+  score_composite: 40.6
+  shared: 1
 - slug: openstack
   name: OpenStack
   description: Open source cloud computing platform for building and managing public and private clouds, providing infrastructure as a service (IaaS) through a set of interrelated services including Compute (Nova), Object Storage (Swift), Block Storage (Cinder), Networking (Neutron), Identity (Keystone), Image (G…
@@ -64,26 +71,19 @@ providers:
   score_band: developing
   score_composite: 40.1
   shared: 1
-- slug: veritas-infoscale
-  name: Veritas InfoScale
-  description: APIs for Veritas InfoScale, an enterprise storage and availability management solution that provides high availability, disaster recovery, and storage management capabilities across physical, virtual, and cloud environments.
-  api_count: 13
-  score_band: developing
-  score_composite: 40.1
-  shared: 1
 - slug: solaris-zones
   name: Solaris Zones
   description: API for managing Solaris Zones (containers) and virtualization on Oracle Solaris systems.
   api_count: 26
-  score_band: thin
-  score_composite: 39.2
+  score_band: developing
+  score_composite: 39.6
   shared: 1
 - slug: citrix
   name: Citrix
   description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
   api_count: 27
-  score_band: thin
-  score_composite: 38.8
+  score_band: developing
+  score_composite: 39.3
   shared: 1
 - slug: platform9
   name: Platform9
@@ -106,19 +106,19 @@ providers:
   score_band: thin
   score_composite: 34.3
   shared: 1
+- slug: apache-cloudstack
+  name: Apache CloudStack
+  description: Apache CloudStack is an open-source cloud computing platform developed by the Apache Software Foundation for creating, managing, and deploying infrastructure cloud services. It provides a comprehensive IaaS platform supporting multiple hypervisors (KVM, VMware vSphere, XenServer) and a rich API for…
+  api_count: 4
+  score_band: thin
+  score_composite: 32.8
+  shared: 1
 - slug: incus
   name: Incus
   description: Incus is a modern open source system container and virtual machine manager maintained by LinuxContainers.org as a community-led fork of Canonical's LXD. It provides a unified experience for running and managing system containers and VMs across single hosts and clusters, with image-based deployment,…
   api_count: 22
   score_band: thin
   score_composite: 32.6
-  shared: 1
-- slug: apache-cloudstack
-  name: Apache CloudStack
-  description: Apache CloudStack is an open-source cloud computing platform developed by the Apache Software Foundation for creating, managing, and deploying infrastructure cloud services. It provides a comprehensive IaaS platform supporting multiple hypervisors (KVM, VMware vSphere, XenServer) and a rich API for…
-  api_count: 4
-  score_band: thin
-  score_composite: 32.3
   shared: 1
 - slug: broadcom
   name: Broadcom
@@ -222,14 +222,14 @@ related:
 - slug: migration
   name: Migration
   shared: 2
-- slug: orchestration
-  name: Orchestration
-  shared: 2
 - slug: management
   name: Management
   shared: 1
 - slug: containers
   name: Containers
+  shared: 1
+- slug: orchestration
+  name: Orchestration
   shared: 1
 - slug: saas-management
   name: SaaS Management
@@ -240,5 +240,5 @@ overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](ht
   30 providers on the network work in this area, including Cisco Intersight, Slide, Smol Machines, Nutanix, VMware, Vagrant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, Orchestration, Management, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, Management, Containers, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

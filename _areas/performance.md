@@ -20,21 +20,21 @@ providers:
   description: WHOOP is a fitness and recovery wearable platform providing a REST API for accessing sleep, recovery, strain, and workout metrics from the WHOOP band. The API uses OAuth 2.0 authorization code flow with Bearer tokens to allow developers to build applications that access member health and performanc…
   api_count: 7
   score_band: strong
-  score_composite: 60.3
+  score_composite: 60.8
   shared: 1
 - slug: factorial-hr
   name: Factorial
   description: Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 "Legendre") covering employees, contracts, attendance, ti…
   api_count: 22
   score_band: developing
-  score_composite: 52.8
+  score_composite: 53.2
   shared: 1
 - slug: amazon-global-accelerator
   name: Amazon Global Accelerator
   description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the AWS global network to optimize the path from users to applic…
   api_count: 49
   score_band: developing
-  score_composite: 50.7
+  score_composite: 51.2
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)

@@ -8,19 +8,26 @@ area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
 provider_count: 56
 providers:
-- slug: smtp2go
-  name: SMTP2GO
-  description: SMTP2GO is a New Zealand-founded email and SMS delivery platform, running since 2006, that sends and tracks transactional and marketing messages over SMTP relay or a JSON REST API from data centres in the United States, the European Union and Australia. The v3 API covers sending standard, MIME, bat…
+- slug: apis-io
+  name: APIs.io
+  description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Post…
   api_count: 11
   score_band: exemplar
-  score_composite: 74.1
+  score_composite: 76.7
   shared: 1
 - slug: konbiniapi
   name: KonbiniAPI
   description: KonbiniAPI is the social data layer for Instagram, TikTok, X, Reddit and LinkedIn, normalizing real-time public profile, post, video, comment, audio, community, subreddit, location and search data into a single consistent ActivityStreams 2.0 (W3C) shape. Sixty-seven endpoints are exposed through on…
   api_count: 6
   score_band: exemplar
-  score_composite: 73.7
+  score_composite: 74.2
+  shared: 1
+- slug: smtp2go
+  name: SMTP2GO
+  description: SMTP2GO is a New Zealand-founded email and SMS delivery platform, running since 2006, that sends and tracks transactional and marketing messages over SMTP relay or a JSON REST API from data centres in the United States, the European Union and Australia. The v3 API covers sending standard, MIME, bat…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 74.1
   shared: 1
 - slug: unify
   name: Unify
@@ -35,13 +42,6 @@ providers:
   api_count: 8
   score_band: strong
   score_composite: 65.3
-  shared: 1
-- slug: apis-io
-  name: APIs.io
-  description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Post…
-  api_count: 11
-  score_band: strong
-  score_composite: 65.1
   shared: 1
 - slug: clickfunnels
   name: ClickFunnels
@@ -240,7 +240,7 @@ related:
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
-  30 providers on the network work in this area, including SMTP2GO, KonbiniAPI, Unify, Parallel Web Systems, APIs.io, ClickFunnels, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including APIs.io, KonbiniAPI, SMTP2GO, Unify, Parallel Web Systems, ClickFunnels, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Privacy, Scraping, Agents, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

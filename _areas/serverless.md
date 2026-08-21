@@ -13,7 +13,7 @@ providers:
   description: fal (Features and Labels, Inc.) is a generative media platform providing the world's fastest API for running image, video, audio, and multimodal generative AI models. Through a unified queue-based REST API at https://queue.fal.run, plus realtime WebSocket and SSE streaming surfaces, fal serves 1,00…
   api_count: 12
   score_band: exemplar
-  score_composite: 69.3
+  score_composite: 69.6
   shared: 1
 - slug: aws-api-gateway
   name: Amazon API Gateway
@@ -27,7 +27,7 @@ providers:
   description: Modal is a serverless cloud platform for AI and data workloads. Modal lets developers write ordinary Python and run it on remote GPUs and CPUs with sub-second cold starts, instant autoscaling, and declarative container images. The platform's primitives — Functions, Sandboxes, Volumes, Images, Secre…
   api_count: 17
   score_band: strong
-  score_composite: 64.4
+  score_composite: 64.9
   shared: 1
 - slug: ibm
   name: IBM
@@ -71,6 +71,13 @@ providers:
   score_band: strong
   score_composite: 60.1
   shared: 1
+- slug: microsoft-azure-functions
+  name: Microsoft Azure Functions
+  description: Azure Functions is a serverless compute platform from Microsoft Azure enabling event-driven code execution triggered by HTTP requests, timers, queues, blobs, and other Azure services. The Azure Functions management API provides programmatic access to function app lifecycle management, deployment, c…
+  api_count: 23
+  score_band: strong
+  score_composite: 59.9
+  shared: 1
 - slug: amazon-eventbridge
   name: Amazon EventBridge
   description: Amazon EventBridge is a serverless event bus service that makes it easy to connect your applications with data from a variety of sources. EventBridge delivers a stream of real-time data from your own applications, SaaS applications, and AWS services and routes that data to targets such as Lambda, S…
@@ -85,26 +92,33 @@ providers:
   score_band: strong
   score_composite: 58.4
   shared: 1
-- slug: microsoft-azure-functions
-  name: Microsoft Azure Functions
-  description: Azure Functions is a serverless compute platform from Microsoft Azure enabling event-driven code execution triggered by HTTP requests, timers, queues, blobs, and other Azure services. The Azure Functions management API provides programmatic access to function app lifecycle management, deployment, c…
-  api_count: 23
-  score_band: strong
-  score_composite: 58.1
-  shared: 1
 - slug: amazon-eventbridge-scheduler
   name: Amazon EventBridge Scheduler
   description: Amazon EventBridge Scheduler is a fully managed, serverless scheduler that enables you to create, run, and manage tasks from one central, managed service. With EventBridge Scheduler, you can create millions of schedules using cron and rate expressions.
   api_count: 3
   score_band: strong
-  score_composite: 57.0
+  score_composite: 57.5
   shared: 1
 - slug: azure-container-apps
   name: Azure Container Apps
   description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
   api_count: 5
   score_band: strong
-  score_composite: 56.8
+  score_composite: 57.2
+  shared: 1
+- slug: amazon-dynamodb
+  name: Amazon DynamoDB
+  description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-value and document data models.
+  api_count: 5
+  score_band: strong
+  score_composite: 57.1
+  shared: 1
+- slug: amazon-eventbridge-pipes
+  name: Amazon EventBridge Pipes
+  description: Amazon EventBridge Pipes helps you create point-to-point integrations between event producers and consumers with optional transform, filter, and enrich steps. It reduces the amount of integration code you need to write and maintain when building event-driven applications.
+  api_count: 2
+  score_band: strong
+  score_composite: 56.9
   shared: 1
 - slug: insforge
   name: Insforge
@@ -113,24 +127,10 @@ providers:
   score_band: strong
   score_composite: 56.8
   shared: 1
-- slug: amazon-dynamodb
-  name: Amazon DynamoDB
-  description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-value and document data models.
-  api_count: 5
-  score_band: strong
-  score_composite: 56.6
-  shared: 1
 - slug: fargate
   name: AWS Fargate
   description: AWS Fargate is a serverless, pay-as-you-go compute engine for containers that works with Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS). It removes the need to provision and manage servers, letting you focus on building and running applications without managing i…
   api_count: 8
-  score_band: strong
-  score_composite: 56.4
-  shared: 1
-- slug: amazon-eventbridge-pipes
-  name: Amazon EventBridge Pipes
-  description: Amazon EventBridge Pipes helps you create point-to-point integrations between event producers and consumers with optional transform, filter, and enrich steps. It reduces the amount of integration code you need to write and maintain when building event-driven applications.
-  api_count: 2
   score_band: strong
   score_composite: 56.4
   shared: 1
@@ -139,19 +139,19 @@ providers:
   description: AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers, automatically scaling and executing your code in response to events from over 200 AWS services and SaaS applications while you pay only for the compute time you consume.
   api_count: 2
   score_band: strong
-  score_composite: 54.5
-  shared: 1
-- slug: amazon-api-gateway
-  name: Amazon API Gateway
-  description: Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
-  api_count: 18
-  score_band: strong
-  score_composite: 54.4
+  score_composite: 55.0
   shared: 1
 - slug: netlify
   name: Netlify
   description: Netlify is a cloud platform for building, deploying, and scaling modern web applications with continuous deployment, serverless functions, and edge computing capabilities.
   api_count: 35
+  score_band: strong
+  score_composite: 54.7
+  shared: 1
+- slug: amazon-api-gateway
+  name: Amazon API Gateway
+  description: Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
+  api_count: 18
   score_band: strong
   score_composite: 54.4
   shared: 1
@@ -167,7 +167,14 @@ providers:
   description: Amazon Elastic File System (EFS) provides a simple, serverless, set-and-forget elastic file system for use with AWS cloud services and on-premises resources. EFS is built to scale on demand to petabytes without disrupting applications, growing and shrinking automatically as you add and remove files.
   api_count: 1
   score_band: developing
-  score_composite: 53.0
+  score_composite: 53.5
+  shared: 1
+- slug: amazon-glue
+  name: Amazon Glue
+  description: Amazon Glue is a serverless data integration service that makes it simple to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning, and application development. It provides both visual and code-based interfaces for ETL operations and includes a Data Catal…
+  api_count: 202
+  score_band: developing
+  score_composite: 52.8
   shared: 1
 - slug: cloudflare-queues
   name: Cloudflare Queues
@@ -189,13 +196,6 @@ providers:
   api_count: 8
   score_band: developing
   score_composite: 52.5
-  shared: 1
-- slug: amazon-glue
-  name: Amazon Glue
-  description: Amazon Glue is a serverless data integration service that makes it simple to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning, and application development. It provides both visual and code-based interfaces for ETL operations and includes a Data Catal…
-  api_count: 202
-  score_band: developing
-  score_composite: 52.3
   shared: 1
 - slug: vast-ai
   name: Vast.ai

@@ -13,7 +13,7 @@ providers:
   description: Zendesk provides customer service and engagement software that helps businesses manage support tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and phonethrough a unified platform.
   api_count: 150
   score_band: strong
-  score_composite: 58.9
+  score_composite: 59.2
   shared: 1
 - slug: plain
   name: Plain
@@ -27,7 +27,7 @@ providers:
   description: Salesforce Service Cloud is a customer service and support platform that helps businesses deliver smarter, faster, and more personalized customer service across all channels.
   api_count: 18
   score_band: developing
-  score_composite: 47.7
+  score_composite: 48.0
   shared: 1
 - slug: inkeep
   name: Inkeep

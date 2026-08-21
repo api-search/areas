@@ -13,7 +13,7 @@ providers:
   description: Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. It provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards.
   api_count: 11
   score_band: strong
-  score_composite: 63.0
+  score_composite: 63.4
   shared: 1
 - slug: foxglove-technologies
   name: Foxglove Technologies
@@ -27,7 +27,7 @@ providers:
   description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
   api_count: 2
   score_band: strong
-  score_composite: 55.9
+  score_composite: 56.4
   shared: 1
 - slug: grafana
   name: Grafana
@@ -41,7 +41,7 @@ providers:
   description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
   api_count: 3
   score_band: developing
-  score_composite: 51.9
+  score_composite: 52.3
   shared: 1
 - slug: google-data-studio
   name: Google Data Studio
@@ -76,7 +76,7 @@ providers:
   description: Microsoft Visio provides APIs for creating, editing, and managing Visio diagrams and drawings. The Visio JavaScript API enables developers to build Office Add-ins that interact with Visio diagrams embedded in SharePoint Online pages, accessing document elements such as pages, shapes, hyperlinks, co…
   api_count: 8
   score_band: developing
-  score_composite: 42.9
+  score_composite: 43.3
   shared: 1
 - slug: elastic
   name: Elastic
@@ -104,7 +104,7 @@ providers:
   description: APIs and resources for Microsoft Visio, a diagramming and vector graphics application that helps visualize data-connected business process flows. Provides programmatic access to diagrams, pages, shapes, data items, comments, and hyperlinks through Microsoft Graph and JavaScript APIs.
   api_count: 7
   score_band: thin
-  score_composite: 34.5
+  score_composite: 34.9
   shared: 1
 - slug: lucidchart
   name: Lucidchart

@@ -41,14 +41,14 @@ providers:
   description: Vantage is a cloud cost management platform designed for modern engineering teams to monitor, optimize, and control their cloud infrastructure spending across multiple providers. The platform helps companies identify immediate cost savings through features like automated purchasing of savings plans…
   api_count: 25
   score_band: developing
-  score_composite: 51.8
+  score_composite: 52.2
   shared: 1
 - slug: amazon-compute-optimizer
   name: Amazon Compute Optimizer
   description: Amazon Compute Optimizer analyzes the configuration and utilization metrics of your AWS resources and provides recommendations to help you identify optimal AWS resource configurations. It uses machine learning to analyze historical utilization metrics and generates rightsizing recommendations for E…
   api_count: 21
   score_band: developing
-  score_composite: 51.2
+  score_composite: 51.6
   shared: 1
 - slug: choreo
   name: Choreo
@@ -78,12 +78,26 @@ providers:
   score_band: developing
   score_composite: 45.8
   shared: 1
+- slug: cycloid
+  name: Cycloid
+  description: Cycloid is a unified Internal Developer Portal & Platform combining self-service Service Catalogs (Stacks and StackForms), Infrastructure as Code orchestration, multi-cloud asset inventory (Asset Inventory and InfraView), CI/CD pipeline centralization, FinOps and GreenOps cost / carbon dashboards,…
+  api_count: 8
+  score_band: developing
+  score_composite: 45.4
+  shared: 1
 - slug: archera
   name: Archera
   description: Archera is a cloud financial operations (FinOps) platform that helps organizations reduce cloud spend by 20-30% through intelligent commitment management and insured, short-term cloud commitments across AWS, Azure, and Google Cloud. Its Guaranteed Commitments (Guaranteed Savings Plans, Guaranteed R…
   api_count: 10
   score_band: developing
   score_composite: 45.1
+  shared: 1
+- slug: amberflo
+  name: Amberflo
+  description: Amberflo is a cloud metering, usage-based billing, and AI cost management platform. It provides real-time event ingestion, customer billing automation, AI gateway capabilities, and FinOps visibility for API-driven and AI-powered businesses. The platform supports usage-based, token-based, seat-based…
+  api_count: 10
+  score_band: developing
+  score_composite: 45.0
   shared: 1
 - slug: amazon-billing-and-cost-management
   name: Amazon Billing And Cost Management
@@ -92,19 +106,19 @@ providers:
   score_band: developing
   score_composite: 44.9
   shared: 1
-- slug: amberflo
-  name: Amberflo
-  description: Amberflo is a cloud metering, usage-based billing, and AI cost management platform. It provides real-time event ingestion, customer billing automation, AI gateway capabilities, and FinOps visibility for API-driven and AI-powered businesses. The platform supports usage-based, token-based, seat-based…
-  api_count: 10
-  score_band: developing
-  score_composite: 44.5
-  shared: 1
 - slug: cloudzero
   name: CloudZero
   description: CloudZero is a cloud cost intelligence and FinOps platform that automates the collection, allocation, and analysis of infrastructure spend to uncover waste and improve unit economics. The CloudZero API V2 is REST-oriented, uses API key authentication, and exposes endpoints for querying billing cost…
   api_count: 12
   score_band: developing
-  score_composite: 44.5
+  score_composite: 44.9
+  shared: 1
+- slug: stigg
+  name: Stigg
+  description: Stigg is a product-led growth monetization platform providing REST and GraphQL APIs for managing pricing plans, entitlements, usage-based billing, feature flags, and subscription lifecycle. It serves as a monetization control layer for SaaS and AI products, enabling engineering teams to implement f…
+  api_count: 9
+  score_band: developing
+  score_composite: 44.8
   shared: 1
 - slug: densify
   name: Densify
@@ -112,20 +126,6 @@ providers:
   api_count: 7
   score_band: developing
   score_composite: 44.4
-  shared: 1
-- slug: stigg
-  name: Stigg
-  description: Stigg is a product-led growth monetization platform providing REST and GraphQL APIs for managing pricing plans, entitlements, usage-based billing, feature flags, and subscription lifecycle. It serves as a monetization control layer for SaaS and AI products, enabling engineering teams to implement f…
-  api_count: 9
-  score_band: developing
-  score_composite: 44.4
-  shared: 1
-- slug: cycloid
-  name: Cycloid
-  description: Cycloid is a unified Internal Developer Portal & Platform combining self-service Service Catalogs (Stacks and StackForms), Infrastructure as Code orchestration, multi-cloud asset inventory (Asset Inventory and InfraView), CI/CD pipeline centralization, FinOps and GreenOps cost / carbon dashboards,…
-  api_count: 8
-  score_band: developing
-  score_composite: 44.3
   shared: 1
 - slug: devtron
   name: Devtron
@@ -146,7 +146,7 @@ providers:
   description: Spot by NetApp (formerly Spot by Flexera, originally Spotinst) is a cloud infrastructure optimization platform providing automated cost optimization, scaling, and intelligent management for cloud workloads across AWS, Azure, and GCP. The Spot platform includes Elastigroup for intelligent auto-scali…
   api_count: 10
   score_band: developing
-  score_composite: 43.2
+  score_composite: 43.6
   shared: 1
 - slug: finout
   name: Finout
@@ -169,19 +169,19 @@ providers:
   score_band: developing
   score_composite: 41.4
   shared: 1
+- slug: schematic
+  name: Schematic
+  description: 'Schematic is a monetization platform that lets developers implement pricing once so that go-to-market teams can control pricing, packaging and entitlements without code changes. It decouples pricing from code: engineering integrates the entitlement and metering layer, and product, sales and finance…'
+  api_count: 20
+  score_band: developing
+  score_composite: 40.8
+  shared: 1
 - slug: vantage-sh
   name: Vantage
   description: Vantage is a cloud cost management and FinOps platform that gives engineering and finance teams visibility into and control over cloud spend across AWS, Azure, GCP, Kubernetes, Datadog, Snowflake, MongoDB, and other providers. Its public REST API (base https://api.vantage.sh/v2) exposes Costs and C…
   api_count: 44
   score_band: developing
   score_composite: 40.4
-  shared: 1
-- slug: schematic
-  name: Schematic
-  description: 'Schematic is a monetization platform that lets developers implement pricing once so that go-to-market teams can control pricing, packaging and entitlements without code changes. It decouples pricing from code: engineering integrates the entitlement and metering layer, and product, sales and finance…'
-  api_count: 20
-  score_band: developing
-  score_composite: 40.3
   shared: 1
 - slug: cloudhealth
   name: CloudHealth
@@ -211,12 +211,12 @@ providers:
   score_band: thin
   score_composite: 37.5
   shared: 1
-- slug: orb-billing
-  name: Orb
-  description: Orb is a usage-based billing and metering platform that turns product usage events into subscriptions, prices, invoices, and credits. The Orb REST API ingests metered events, models customers, plans, prices, and items, runs subscriptions, and automates invoicing, credit ledgers, alerts, and webhook…
-  api_count: 11
+- slug: snow-software
+  name: Snow Software
+  description: Snow Software (now Flexera Snow) is an IT asset and SaaS management platform providing visibility into software licenses, cloud spend, SaaS usage, and hardware assets across the enterprise. Snow Atlas is the cloud-native platform offering SAM (Software Asset Management), SaaS Management, Cloud Lice…
+  api_count: 31
   score_band: thin
-  score_composite: 37.3
+  score_composite: 37.4
   shared: 1
 related:
 - slug: monetization
