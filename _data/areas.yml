@@ -630,7 +630,7 @@
     retry, and inspection APIs. Webhooks are the dominant HTTP pattern for asyn…
   area_url: https://webhooks.apievangelist.com
   icon: https://webhooks.apievangelist.com/icon-thumb.png
-  provider_count: 1
+  provider_count: 0
   url: https://apis.io/areas/webhooks/
 - slug: workflow-automation
   name: Workflow Automation

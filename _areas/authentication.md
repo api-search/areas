@@ -190,17 +190,17 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
-- slug: taskfolk
-  name: Taskfolk
-  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backlog, list, calendar and timeline views, with sprints, milesto…
-  api_count: 2
-  score_band: strong
-  score_composite: 62.9
-  shared: 1
 - slug: mixmax
   name: Mixmax
   description: Mixmax is an AI-native sales engagement and execution platform that lives inside Gmail and Outlook, helping sales, customer success, recruiting, and other relationship-driven teams run their entire customer journey without context-switching. It combines email tracking and templates, multi-channel s…
   api_count: 6
+  score_band: strong
+  score_composite: 62.7
+  shared: 1
+- slug: taskfolk
+  name: Taskfolk
+  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backlog, list, calendar and timeline views, with sprints, milesto…
+  api_count: 2
   score_band: strong
   score_composite: 62.7
   shared: 1

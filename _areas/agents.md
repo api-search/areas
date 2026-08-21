@@ -78,6 +78,13 @@ providers:
   score_band: exemplar
   score_composite: 70.9
   shared: 1
+- slug: api-evangelist
+  name: API Evangelist
+  description: The index of everything available via the API Evangelist developer portal at developer.apievangelist.com — sixteen years of API research served as one REST API, an MCP server for agents, and the static JSON feeds behind each network collection.
+  api_count: 17
+  score_band: exemplar
+  score_composite: 70.2
+  shared: 1
 - slug: postiz
   name: Postiz
   description: Postiz is an open-source social media scheduling and management platform for posting across 30+ social, video, community, and blogging channels from a single calendar. It ships as a free AGPL-licensed self-hosted app and as a paid managed Cloud. The Postiz Public API uses simple API-key auth to lis…
@@ -210,13 +217,6 @@ providers:
   api_count: 3
   score_band: strong
   score_composite: 65.2
-  shared: 1
-- slug: buffer
-  name: Buffer
-  description: Buffer is a social media scheduling, publishing and analytics platform with a GraphQL API for scheduling posts, managing content queues and ideas, working with post templates, accessing normalized engagement metrics, and publishing across eleven social channels including Instagram, LinkedIn, X, Tik…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.8
   shared: 1
 related:
 - slug: ai-automation
