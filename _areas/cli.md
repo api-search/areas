@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 110
+provider_count: 111
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -70,6 +70,13 @@ providers:
   api_count: 35
   score_band: developing
   score_composite: 47.6
+  shared: 1
+- slug: landbase
+  name: Landbase
+  description: Landbase is a Palo Alto, California go-to-market (GTM) data and agentic-AI company whose platform builds, qualifies, enriches and activates B2B audiences from natural-language requests. Its GTM-1/GTM-2 Omni models sit behind a B2B database of 300M+ contacts with 1,500+ enrichment fields, an agentic…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.7
   shared: 1
 - slug: jetify
   name: Jetify
@@ -210,13 +217,6 @@ providers:
   api_count: 0
   score_band: thin
   score_composite: 31.6
-  shared: 1
-- slug: minimus
-  name: Minimus
-  description: Minimus provides hardened, minimal container images designed for security-conscious teams. Its images are built from source with near-zero CVEs, rebuilt daily, and typically around 95% smaller than standard alternatives, with drop-in compatibility for existing workflows. Images ship audit-ready for…
-  api_count: 0
-  score_band: thin
-  score_composite: 31.4
   shared: 1
 related:
 - slug: api-clients

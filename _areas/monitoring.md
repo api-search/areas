@@ -6,14 +6,14 @@ description: An index and topic collection covering API monitoring, application 
 area_url: https://monitoring.apievangelist.com
 area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
-provider_count: 190
+provider_count: 192
 providers:
 - slug: thousandeyes
   name: ThousandEyes
   description: ThousandEyes is Cisco's digital experience monitoring platform, acquired in 2020 and operated as part of Cisco Networking. It runs a global fleet of Cloud, Enterprise, Endpoint and Connected Device agents that measure network paths, BGP routing, DNS, application response and internet outages end to…
   api_count: 26
   score_band: exemplar
-  score_composite: 73.3
+  score_composite: 70.6
   shared: 1
 - slug: new-relic
   name: New Relic
@@ -69,7 +69,7 @@ providers:
   description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
   api_count: 49
   score_band: strong
-  score_composite: 61.8
+  score_composite: 61.5
   shared: 1
 - slug: dash0
   name: Dash0
@@ -98,6 +98,13 @@ providers:
   api_count: 5
   score_band: strong
   score_composite: 58.1
+  shared: 1
+- slug: hacknotice
+  name: HackNotice
+  description: HackNotice is an external threat-intelligence and cyber-risk platform founded in 2018 and headquartered in Austin, Texas. It continuously collects intelligence from ransomware groups, infostealer malware logs, data breaches, dark-web marketplaces, hacker forums and public disclosures, then matches…
+  api_count: 2
+  score_band: strong
+  score_composite: 57.7
   shared: 1
 - slug: conviva
   name: Conviva
@@ -211,13 +218,6 @@ providers:
   score_band: developing
   score_composite: 52.5
   shared: 1
-- slug: amazon-managed-grafana
-  name: Amazon Managed Grafana
-  description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
-  api_count: 3
-  score_band: developing
-  score_composite: 52.3
-  shared: 1
 related:
 - slug: observability
   name: Observability
@@ -231,11 +231,11 @@ related:
 - slug: deployment
   name: Deployment
   shared: 2
-- slug: visualization
-  name: Visualization
-  shared: 2
 - slug: analysis
   name: Analysis
+  shared: 1
+- slug: agents-skills
+  name: Agent Skills
   shared: 1
 overview: 'Monitoring is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monitoring.apievangelist.com](https://monitoring.apievangelist.com).
 

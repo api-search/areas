@@ -6,7 +6,7 @@ description: DNS (Domain Name System) is the distributed naming system that tran
 area_url: https://dns.apievangelist.com
 area_host: dns.apievangelist.com
 icon: https://dns.apievangelist.com/icon-thumb.png
-provider_count: 47
+provider_count: 48
 providers:
 - slug: whoisfreaks
   name: WhoisFreaks
@@ -29,19 +29,19 @@ providers:
   score_band: strong
   score_composite: 64.2
   shared: 1
-- slug: cisco-umbrella
-  name: Cisco Umbrella
-  description: 'Cisco Umbrella, built on the OpenDNS platform Cisco acquired in 2015 and now sold within Cisco Secure Access, is Cisco''s cloud-delivered security service: DNS-layer security, secure web gateway, cloud-delivered firewall, CASB (Cisco Cloudlock) and remote browser isolation. Cisco publishes a full OA…'
-  api_count: 26
-  score_band: strong
-  score_composite: 62.6
-  shared: 1
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 87
   score_band: strong
   score_composite: 62.5
+  shared: 1
+- slug: cisco-umbrella
+  name: Cisco Umbrella
+  description: 'Cisco Umbrella, built on the OpenDNS platform Cisco acquired in 2015 and now sold within Cisco Secure Access, is Cisco''s cloud-delivered security service: DNS-layer security, secure web gateway, cloud-delivered firewall, CASB (Cisco Cloudlock) and remote browser isolation. Cisco publishes a full OA…'
+  api_count: 26
+  score_band: strong
+  score_composite: 62.3
   shared: 1
 - slug: amazon-route-53
   name: Amazon Route 53
@@ -105,13 +105,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 43.2
-  shared: 1
-- slug: linkpeek
-  name: LinkPeek
-  description: A developer utility REST API bundling ~92 JSON endpoints for URL intelligence (link preview, metadata, OpenGraph), QR generation, DNS/WHOIS/SSL security checks, and data-conversion dev tools. Includes an OpenAI-compatible chat/completions surface. Hobby-grade service hosted on Oracle Cloud Free Tie…
-  api_count: 6
-  score_band: developing
-  score_composite: 42.8
   shared: 1
 - slug: amazon-cloud-map
   name: Amazon Cloud Map
@@ -218,6 +211,13 @@ providers:
   score_band: thin
   score_composite: 31.7
   shared: 1
+- slug: gandi
+  name: Gandi
+  description: Gandi is a domain name registrar and web hosting provider. The Gandi v5 Public API exposes domain management, LiveDNS, certificates, email, organization, billing, and hosting capabilities for programmatic use.
+  api_count: 17
+  score_band: thin
+  score_composite: 31.0
+  shared: 1
 related:
 - slug: security
   name: Security
@@ -240,7 +240,7 @@ related:
 overview: 'DNS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [dns.apievangelist.com](https://dns.apievangelist.com).
 
 
-  30 providers on the network work in this area, including WhoisFreaks, APIFreaks - API Hub for Developers, Shodan, Cisco Umbrella, Cloudflare, Amazon Route 53, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including WhoisFreaks, APIFreaks - API Hub for Developers, Shodan, Cloudflare, Cisco Umbrella, Amazon Route 53, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Security, API Evangelist Search, Network, and Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'

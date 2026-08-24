@@ -6,7 +6,7 @@ description: This is the index of workflow automation service and tooling repos 
 area_url: https://workflow-automation.apievangelist.com
 area_host: workflow-automation.apievangelist.com
 icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-provider_count: 649
+provider_count: 653
 providers:
 - slug: plunk
   name: Plunk

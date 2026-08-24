@@ -6,21 +6,21 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://observability.apievangelist.com
 area_host: observability.apievangelist.com
 icon: https://observability.apievangelist.com/icon-thumb.png
-provider_count: 318
+provider_count: 317
 providers:
-- slug: thousandeyes
-  name: ThousandEyes
-  description: ThousandEyes is Cisco's digital experience monitoring platform, acquired in 2020 and operated as part of Cisco Networking. It runs a global fleet of Cloud, Enterprise, Endpoint and Connected Device agents that measure network paths, BGP routing, DNS, application response and internet outages end to…
-  api_count: 26
-  score_band: exemplar
-  score_composite: 73.3
-  shared: 1
 - slug: dynatrace
   name: Dynatrace
   description: Dynatrace is a software intelligence platform that provides application performance monitoring, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management.
   api_count: 34
   score_band: exemplar
   score_composite: 71.7
+  shared: 1
+- slug: thousandeyes
+  name: ThousandEyes
+  description: ThousandEyes is Cisco's digital experience monitoring platform, acquired in 2020 and operated as part of Cisco Networking. It runs a global fleet of Cloud, Enterprise, Endpoint and Connected Device agents that measure network paths, BGP routing, DNS, application response and internet outages end to…
+  api_count: 26
+  score_band: exemplar
+  score_composite: 70.6
   shared: 1
 - slug: new-relic
   name: New Relic
@@ -36,19 +36,12 @@ providers:
   score_band: exemplar
   score_composite: 67.1
   shared: 1
-- slug: cisco-catalyst-sdwan
-  name: Cisco Catalyst SD-WAN
-  description: 'Cisco Catalyst SD-WAN, built on the Viptela platform Cisco acquired in 2017, is Cisco''s wide-area network overlay: centralized policy, application-aware routing, and secure transport across MPLS, broadband and LTE. Its controller — SD-WAN Manager, formerly vManage — exposes a REST API of 4,138 publ…'
-  api_count: 13
-  score_band: exemplar
-  score_composite: 66.8
-  shared: 1
 - slug: cisco-catalyst-center
   name: Cisco Catalyst Center
   description: Cisco Catalyst Center, formerly DNA Center, is Cisco's intent-based networking controller for enterprise campus, branch and wireless networks. It covers network design and hierarchy, device discovery and provisioning, software image management, SD-Access fabric, policy, telemetry and Assurance anal…
   api_count: 30
-  score_band: exemplar
-  score_composite: 66.7
+  score_band: strong
+  score_composite: 66.3
   shared: 1
 - slug: logz-io
   name: Logz.io
@@ -56,6 +49,13 @@ providers:
   api_count: 19
   score_band: strong
   score_composite: 65.6
+  shared: 1
+- slug: cisco-catalyst-sdwan
+  name: Cisco Catalyst SD-WAN
+  description: 'Cisco Catalyst SD-WAN, built on the Viptela platform Cisco acquired in 2017, is Cisco''s wide-area network overlay: centralized policy, application-aware routing, and secure transport across MPLS, broadband and LTE. Its controller — SD-WAN Manager, formerly vManage — exposes a REST API of 4,138 publ…'
+  api_count: 13
+  score_band: strong
+  score_composite: 65.0
   shared: 1
 - slug: ibm
   name: IBM
@@ -99,13 +99,6 @@ providers:
   score_band: strong
   score_composite: 61.9
   shared: 1
-- slug: splunk-observability
-  name: Splunk Observability Cloud
-  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
-  api_count: 49
-  score_band: strong
-  score_composite: 61.8
-  shared: 1
 - slug: sentry-system
   name: Sentry
   description: Sentry is an open-source error tracking and performance monitoring platform that helps developers identify, triage, and resolve issues in their applications in real-time.
@@ -119,6 +112,13 @@ providers:
   api_count: 35
   score_band: strong
   score_composite: 61.6
+  shared: 1
+- slug: splunk-observability
+  name: Splunk Observability Cloud
+  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
+  api_count: 49
+  score_band: strong
+  score_composite: 61.5
   shared: 1
 - slug: dash0
   name: Dash0
@@ -240,7 +240,7 @@ related:
 overview: 'Observability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [observability.apievangelist.com](https://observability.apievangelist.com).
 
 
-  30 providers on the network work in this area, including ThousandEyes, Dynatrace, New Relic, Highlight (highlight.io), Cisco Catalyst SD-WAN, Cisco Catalyst Center, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Dynatrace, ThousandEyes, New Relic, Highlight (highlight.io), Cisco Catalyst Center, Logz.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monitoring, Logging, AI Automation, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

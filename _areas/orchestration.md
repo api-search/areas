@@ -36,19 +36,19 @@ providers:
   score_band: strong
   score_composite: 61.9
   shared: 1
-- slug: intersight
-  name: Cisco Intersight
-  description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
-  api_count: 11
-  score_band: strong
-  score_composite: 60.1
-  shared: 1
 - slug: inngest
   name: Inngest
   description: Inngest is an event-driven durable execution platform for background jobs, step functions, scheduled workflows, and AI agent orchestration. It exposes a v1 event ingestion and run inspection API, a v2 management API (accounts, environments, apps, webhooks, keys, function invocation, runs, traces),…
   api_count: 8
   score_band: strong
   score_composite: 60.1
+  shared: 1
+- slug: intersight
+  name: Cisco Intersight
+  description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
+  api_count: 11
+  score_band: strong
+  score_composite: 59.8
   shared: 1
 - slug: kubernetes
   name: Kubernetes
@@ -71,19 +71,19 @@ providers:
   score_band: developing
   score_composite: 53.9
   shared: 1
-- slug: cisco-crosswork
-  name: Cisco Crosswork
-  description: 'Cisco Crosswork is Cisco''s service-provider network automation portfolio — Crosswork Network Controller, Data Gateway, Zero Touch Provisioning, Optimization Engine, Network Change Automation and Crosswork Workflow Manager. Unusually for Cisco, the specifications are published openly: the CiscoDevNe…'
-  api_count: 99
-  score_band: developing
-  score_composite: 53.6
-  shared: 1
 - slug: amazon-ecs
   name: Amazon ECS
   description: Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications.
   api_count: 13
   score_band: developing
   score_composite: 53.4
+  shared: 1
+- slug: cisco-crosswork
+  name: Cisco Crosswork
+  description: 'Cisco Crosswork is Cisco''s service-provider network automation portfolio — Crosswork Network Controller, Data Gateway, Zero Touch Provisioning, Optimization Engine, Network Change Automation and Crosswork Workflow Manager. Unusually for Cisco, the specifications are published openly: the CiscoDevNe…'
+  api_count: 99
+  score_band: developing
+  score_composite: 53.3
   shared: 1
 - slug: transmit-security
   name: Transmit Security
@@ -190,13 +190,6 @@ providers:
   score_band: developing
   score_composite: 44.8
   shared: 1
-- slug: splunk-soar
-  name: Splunk SOAR
-  description: Splunk SOAR, built on the Phantom platform Splunk acquired in 2018 and now part of Cisco through the 2024 Splunk acquisition, is a security orchestration, automation and response platform. It runs playbooks across hundreds of connected security tools, and exposes a REST API for containers, artifact…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.5
-  shared: 1
 - slug: talend
   name: Talend
   description: Talend (now part of Qlik) provides data integration, quality, and API management capabilities through cloud-native APIs for ETL, data pipelines, and application integration. The Qlik Talend Cloud platform exposes REST APIs for orchestrating tasks and plans, executing data integration jobs, managing…
@@ -217,6 +210,13 @@ providers:
   api_count: 18
   score_band: developing
   score_composite: 42.1
+  shared: 1
+- slug: splunk-soar
+  name: Splunk SOAR
+  description: Splunk SOAR, built on the Phantom platform Splunk acquired in 2018 and now part of Cisco through the 2024 Splunk acquisition, is a security orchestration, automation and response platform. It runs playbooks across hundreds of connected security tools, and exposes a REST API for containers, artifact…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.0
   shared: 1
 related:
 - slug: containers
@@ -240,7 +240,7 @@ related:
 overview: 'Orchestration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [orchestration.apievangelist.com](https://orchestration.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Bonitasoft, Azure Kubernetes Service, UiPath, Workato, Cisco Intersight, Inngest, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Bonitasoft, Azure Kubernetes Service, UiPath, Workato, Inngest, Cisco Intersight, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, Embedded iPaaS, iPaaS, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

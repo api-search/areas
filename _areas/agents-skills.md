@@ -6,7 +6,7 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 56
+provider_count: 58
 providers:
 - slug: apis-io
   name: APIs.io

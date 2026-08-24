@@ -6,7 +6,7 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 797
+provider_count: 804
 providers:
 - slug: mailboxlayer
   name: Mailboxlayer
@@ -20,14 +20,7 @@ providers:
   description: 'Cisco Identity Services Engine (ISE) is Cisco''s network access control and zero-trust policy platform: 802.1X and RADIUS authentication, TACACS+ device administration, guest and BYOD onboarding, endpoint profiling, posture assessment, and TrustSec security-group segmentation, all driven from a cent…'
   api_count: 197
   score_band: exemplar
-  score_composite: 68.5
-  shared: 1
-- slug: shieldlabs
-  name: ShieldLabs
-  description: Anonymous visitor identification and fraud-prevention platform. A browser ES-module snippet loaded from cdn.shieldlabs.ai collects 100+ device and network signals and returns six persistent identifiers (DeviceID, VisitorID, CookieID, SessionID, RequestID and a caller-supplied hashed UserHID) plus a…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 68.5
+  score_composite: 68.1
   shared: 1
 - slug: very-good-security
   name: Very Good Security
@@ -50,19 +43,19 @@ providers:
   score_band: exemplar
   score_composite: 67.1
   shared: 1
+- slug: shieldlabs
+  name: ShieldLabs
+  description: Anonymous visitor identification and fraud-prevention platform. A browser ES-module snippet loaded from cdn.shieldlabs.ai collects 100+ device and network signals and returns six persistent identifiers (DeviceID, VisitorID, CookieID, SessionID, RequestID and a caller-supplied hashed UserHID) plus a…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 66.8
+  shared: 1
 - slug: imgauth-api-di-attestazione-opere-digitali
   name: imgauth — API di attestazione opere digitali
   description: Digital-work attestation and proof-of-existence service operated by Spazio Genesi ETS, an Italian non-profit (third-sector entity). The client computes a SHA-256 fingerprint locally and sends only the 64-hex hash — file bytes never leave the device. The service binds that fingerprint to a signed se…
   api_count: 2
   score_band: exemplar
   score_composite: 66.8
-  shared: 1
-- slug: cisco-xdr
-  name: Cisco XDR
-  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
-  api_count: 50
-  score_band: strong
-  score_composite: 65.6
   shared: 1
 - slug: barndoor
   name: Barndoor
@@ -99,13 +92,6 @@ providers:
   score_band: strong
   score_composite: 63.0
   shared: 1
-- slug: cisco-umbrella
-  name: Cisco Umbrella
-  description: 'Cisco Umbrella, built on the OpenDNS platform Cisco acquired in 2015 and now sold within Cisco Secure Access, is Cisco''s cloud-delivered security service: DNS-layer security, secure web gateway, cloud-delivered firewall, CASB (Cisco Cloudlock) and remote browser isolation. Cisco publishes a full OA…'
-  api_count: 26
-  score_band: strong
-  score_composite: 62.6
-  shared: 1
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
@@ -113,10 +99,17 @@ providers:
   score_band: strong
   score_composite: 62.5
   shared: 1
-- slug: cisco-secure-firewall
-  name: Cisco Secure Firewall
-  description: Cisco Secure Firewall is the product line built on the Sourcefire technology Cisco acquired in 2013 — the Firepower/Secure Firewall appliances and Threat Defense (FTD) software, the Secure Firewall Management Center (FMC), the on-box device manager (FDM), and the cloud-delivered Firewall Management…
-  api_count: 108
+- slug: cisco-umbrella
+  name: Cisco Umbrella
+  description: 'Cisco Umbrella, built on the OpenDNS platform Cisco acquired in 2015 and now sold within Cisco Secure Access, is Cisco''s cloud-delivered security service: DNS-layer security, secure web gateway, cloud-delivered firewall, CASB (Cisco Cloudlock) and remote browser isolation. Cisco publishes a full OA…'
+  api_count: 26
+  score_band: strong
+  score_composite: 62.3
+  shared: 1
+- slug: cisco-xdr
+  name: Cisco XDR
+  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
+  api_count: 50
   score_band: strong
   score_composite: 61.9
   shared: 1
@@ -169,6 +162,13 @@ providers:
   score_band: strong
   score_composite: 59.0
   shared: 1
+- slug: cisco-secure-firewall
+  name: Cisco Secure Firewall
+  description: Cisco Secure Firewall is the product line built on the Sourcefire technology Cisco acquired in 2013 — the Firepower/Secure Firewall appliances and Threat Defense (FTD) software, the Secure Firewall Management Center (FMC), the on-box device manager (FDM), and the cloud-delivered Firewall Management…
+  api_count: 108
+  score_band: strong
+  score_composite: 58.9
+  shared: 1
 - slug: greynoise
   name: GreyNoise Intelligence
   description: GreyNoise Intelligence collects and analyzes Internet-wide scan and attack traffic from a global network of sensors. Use GreyNoise to contextualize alerts, filter false positives, identify compromised devices, prioritize vulnerabilities by in-the-wild exploitation, and track emerging threats. The p…
@@ -204,17 +204,17 @@ providers:
   score_band: strong
   score_composite: 57.9
   shared: 1
+- slug: hacknotice
+  name: HackNotice
+  description: HackNotice is an external threat-intelligence and cyber-risk platform founded in 2018 and headquartered in Austin, Texas. It continuously collects intelligence from ransomware groups, infostealer malware logs, data breaches, dark-web marketplaces, hacker forums and public disclosures, then matches…
+  api_count: 2
+  score_band: strong
+  score_composite: 57.7
+  shared: 1
 - slug: clerk-com
   name: Clerk
   description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
   api_count: 77
-  score_band: strong
-  score_composite: 57.5
-  shared: 1
-- slug: kolide
-  name: Kolide
-  description: Kolide is a device trust and endpoint security platform, now part of 1Password Extended Access Management. It enforces Zero Trust access by blocking non-compliant devices from authenticating into corporate applications through Okta, Google Workspace or Microsoft Entra, runs continuous security and…
-  api_count: 17
   score_band: strong
   score_composite: 57.5
   shared: 1
@@ -231,16 +231,16 @@ related:
 - slug: serverless
   name: Serverless
   shared: 3
-- slug: ai-automation
-  name: AI Automation
-  shared: 2
 - slug: authentication
   name: Authentication
+  shared: 2
+- slug: encryption
+  name: Encryption
   shared: 2
 overview: 'Security is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [security.apievangelist.com](https://security.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Mailboxlayer, Cisco Identity Services Engine, ShieldLabs, Very Good Security, Amazon Secrets Manager, Evervault, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Mailboxlayer, Cisco Identity Services Engine, Very Good Security, Amazon Secrets Manager, Evervault, ShieldLabs, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, DNS, Machine Learning, and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'

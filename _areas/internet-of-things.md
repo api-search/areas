@@ -6,7 +6,7 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 94
+provider_count: 99
 providers:
 - slug: shodan
   name: Shodan
@@ -169,6 +169,13 @@ providers:
   score_band: thin
   score_composite: 36.6
   shared: 1
+- slug: hello-therma
+  name: Hello Therma
+  description: Hello Therma is the original brand of Therma, Inc., the San Francisco cold-chain and cooling intelligence company founded in 2014 by Manik Suri, which rebranded as GlacierGrid in February 2024 and now operates as GlacierGrid, Inc. out of Richmond, Virginia. The platform pairs LoRaWAN temperature an…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.2
+  shared: 1
 - slug: wyze
   name: Wyze
   description: 'Wyze Labs, Inc. is a Kirkland, Washington consumer smart-home company founded in 2017 by former Amazon employees, known for value-priced connected hardware: indoor and outdoor security cameras, video doorbells, smart locks, contact and motion sensors, plugs, bulbs and light strips, robot vacuums, t…'
@@ -190,6 +197,13 @@ providers:
   score_band: thin
   score_composite: 33.4
   shared: 1
+- slug: inspur-cloud
+  name: Inspur Cloud
+  description: Inspur Cloud (浪潮云) is the public-cloud arm of the Chinese IT conglomerate Inspur Group, operating from cloud.inspur.com across the cn-north-3 (华北三), cn-south-1 (华南一) and cn-east-1 (华东一) regions. It publishes a broad IaaS/PaaS catalog — 94 products documented in its GitBook help centre — of which at…
+  api_count: 18
+  score_band: thin
+  score_composite: 32.8
+  shared: 1
 - slug: flashparking
   name: Flashparking
   description: 'Flash (formerly FlashParking) is an Austin, Texas parking technology company that sells an end-to-end mobility platform to parking asset owners and operators: cloud software (FlashOS), purpose-built PARCS gate and kiosk hardware, Flash Vision LPR/computer-vision cameras, valet and enforcement appli…'
@@ -203,20 +217,6 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 31.1
-  shared: 1
-- slug: cosmoplat
-  name: Cosmoplat
-  description: COSMOPlat (卡奥斯 COSMOPlat) is the industrial internet platform incubated by Haier Group and operated by COSMOPlat Digital Technology (Qingdao) Co., Ltd. Launched in 2017, it was China's first self-developed industrial internet platform built around mass customization, digitally integrating user inte…
-  api_count: 2
-  score_band: thin
-  score_composite: 31.0
-  shared: 1
-- slug: franklin-whole-home
-  name: Franklin Whole Home
-  description: 'Franklin Whole Home (FranklinWH Energy Storage Inc.) builds whole-home energy management and storage hardware for residential solar: the aPower lithium iron phosphate AC battery, the aGate energy management and controller unit, and the FranklinWH mobile app, together forming an ecosystem that coord…'
-  api_count: 1
-  score_band: thin
-  score_composite: 29.8
   shared: 1
 related:
 - slug: network

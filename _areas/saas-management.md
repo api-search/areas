@@ -6,7 +6,7 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 44
+provider_count: 51
 providers:
 - slug: boomi
   name: Boomi
@@ -14,6 +14,13 @@ providers:
   api_count: 20
   score_band: strong
   score_composite: 62.9
+  shared: 1
+- slug: hiver
+  name: Hiver
+  description: 'Hiver (Hiver Inc., originally GrexIt) builds an AI-powered customer service platform for teams that run support out of shared email addresses. It ships in two forms: Hiver in Gmail, a Chrome-extension helpdesk that turns shared inboxes like support@ and billing@ into assignable, SLA-tracked queues…'
+  api_count: 1
+  score_band: strong
+  score_composite: 54.7
   shared: 1
 - slug: wundergraph
   name: WunderGraph
@@ -70,6 +77,13 @@ providers:
   api_count: 5
   score_band: developing
   score_composite: 42.1
+  shared: 1
+- slug: layerx
+  name: LayerX
+  description: 'LayerX Inc. (株式会社LayerX) is a Tokyo-based enterprise software company founded 1 August 2018, operating as a compound startup across four business lines: Bakuraku (バクラク), an AI back-office suite covering expense reimbursement, invoice receipt and issuance, workflow and approvals, electronic bookkeep…'
+  api_count: 1
+  score_band: developing
+  score_composite: 41.8
   shared: 1
 - slug: productiv
   name: Productiv
@@ -134,6 +148,13 @@ providers:
   score_band: thin
   score_composite: 31.0
   shared: 1
+- slug: hypori
+  name: Hypori
+  description: Hypori, Inc. is a Reston, Virginia headquartered, service-disabled veteran-owned software company that builds Virtual Mobile Infrastructure (VMI) for zero-trust mobile access. Its products — Hypori Mobile, Hypori Lyte and Hypori Secure Messaging — run a fully isolated virtual Android workspace in H…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.8
+  shared: 1
 - slug: blissfully
   name: Blissfully
   description: Blissfully was a SaaS management platform providing SaaS discovery, spend optimization, and workflow automation for IT and finance teams. Blissfully was acquired by Vendr in 2022 and integrated into the Vendr platform. Vendr is now a leading SaaS buying and management platform that helps companies…
@@ -162,6 +183,13 @@ providers:
   score_band: emerging
   score_composite: 24.9
   shared: 1
+- slug: jirav
+  name: Jirav
+  description: Jirav is a financial planning and analysis (FP&A) platform for growth companies and for accounting and CFO advisory firms, combining reporting, dashboards, budgeting, forecasting, scenario modeling and workforce planning in a single hosted web application. It imports actuals from accounting systems…
+  api_count: 0
+  score_band: emerging
+  score_composite: 24.5
+  shared: 1
 - slug: leanix
   name: LeanIX
   description: LeanIX (now SAP LeanIX) is an enterprise architecture and SaaS management platform providing IT portfolio management, application portfolio rationalization, SaaS discovery, and technology risk management. The platform exposes REST APIs for integrating with the fact sheet inventory, running inbound…
@@ -176,6 +204,13 @@ providers:
   score_band: emerging
   score_composite: 24.0
   shared: 1
+- slug: kangarootime
+  name: Kangarootime
+  description: Kangarootime is a cloud-based childcare and early-education management platform for single-site and multi-location centers, franchises and after-school programs. The product covers enrollment and lead management, family and staff records, classroom and rooming, attendance and check-in/out kiosks, c…
+  api_count: 0
+  score_band: emerging
+  score_composite: 23.6
+  shared: 1
 - slug: augmentt
   name: Augmentt
   description: Augmentt is a multi-tenant SaaS management platform built for managed service providers (MSPs). It provides SaaS discovery (Shadow IT), license optimization, usage tracking, spend management, and SaaS security policy enforcement across Microsoft 365 and cloud applications. Augmentt integrates with…
@@ -183,45 +218,13 @@ providers:
   score_band: emerging
   score_composite: 21.9
   shared: 1
-- slug: salto
-  name: Salto
-  description: Salto is an AI-powered configuration-management platform for enterprise business and IT applications. It lets teams search, analyze, compare, document, and deploy configuration changes across systems such as Salesforce, Salesforce CPQ, NetSuite, Zendesk, Jira, Confluence, Google Workspace, Okta, Mi…
-  api_count: 0
-  score_band: emerging
-  score_composite: 21.6
-  shared: 1
-- slug: electricai
-  name: Electric.ai
-  description: Electric (electric.ai) is an all-in-one IT and security management platform built for small and mid-sized businesses that lack an in-house IT team. From a single IT Hub it automates employee onboarding and offboarding, device (MDM) management, application provisioning and access, credential/passwor…
-  api_count: 0
-  score_band: emerging
-  score_composite: 20.1
-  shared: 1
-- slug: substly
-  name: Substly
-  description: Substly is a SaaS management platform designed for small and medium-sized businesses to track software subscriptions, optimize spend, manage user access, and detect shadow IT across cloud applications. It provides centralized oversight, automated renewal tracking, and integrations with Google Works…
-  api_count: 1
-  score_band: emerging
-  score_composite: 18.7
-  shared: 1
-- slug: cledara
-  name: Cledara
-  description: Cledara is a SaaS management platform that helps companies manage, control, and optimize software spending. The platform provides visibility into all software subscriptions, virtual payment cards with per-vendor spending limits, approval workflows, vendor renewal tracking, usage analytics, and acco…
-  api_count: 1
-  score_band: emerging
-  score_composite: 17.3
-  shared: 1
-- slug: axonius
-  name: Axonius
-  description: Axonius is a cybersecurity asset management platform providing SaaS management, device discovery, and security policy enforcement across IT environments.
-  api_count: 1
-  score_band: emerging
-  score_composite: 16.5
-  shared: 1
 related:
 - slug: management
   name: Management
   shared: 6
+- slug: virtualization
+  name: Virtualization
+  shared: 2
 - slug: ai-automation
   name: AI Automation
   shared: 1
@@ -231,17 +234,14 @@ related:
 - slug: finops
   name: FinOps
   shared: 1
-- slug: virtualization
-  name: Virtualization
-  shared: 1
 - slug: ipaas
   name: iPaaS
   shared: 1
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Boomi, WunderGraph, Dell Servers, SnapLogic, Torii, Zluri, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Boomi, Hiver, WunderGraph, Dell Servers, SnapLogic, Torii, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, AI Automation, Embedded iPaaS, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, Virtualization, AI Automation, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

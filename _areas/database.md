@@ -6,7 +6,7 @@ description: An index and topic collection covering managed databases and databa
 area_url: https://database.apievangelist.com
 area_host: database.apievangelist.com
 icon: https://database.apievangelist.com/icon-thumb.png
-provider_count: 180
+provider_count: 181
 providers:
 - slug: notion
   name: Notion
@@ -14,13 +14,6 @@ providers:
   api_count: 6
   score_band: exemplar
   score_composite: 66.8
-  shared: 1
-- slug: abloatai
-  name: Ablo
-  description: 'Ablo is collaboration infrastructure for AI agents: one API that lets agents, apps and people claim, change and confirm the same database rows without clobbering each other. Rows stay in the customer''s own Postgres — Ablo holds only an ordered transaction log and the coordination state — while dura…'
-  api_count: 8
-  score_band: strong
-  score_composite: 66.4
   shared: 1
 - slug: bubble
   name: Bubble
@@ -42,6 +35,13 @@ providers:
   api_count: 32
   score_band: strong
   score_composite: 61.7
+  shared: 1
+- slug: abloatai
+  name: Ablo
+  description: 'Ablo is collaboration infrastructure for AI agents: one API that lets agents, apps and people claim, change and confirm the same database rows without clobbering each other. Rows stay in the customer''s own Postgres — Ablo holds only an ordered transaction log and the coordination state — while dura…'
+  api_count: 8
+  score_band: strong
+  score_composite: 60.5
   shared: 1
 - slug: amazon-neptune
   name: Amazon Neptune
@@ -237,7 +237,7 @@ related:
 overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [database.apievangelist.com](https://database.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Notion, Ablo, Bubble, Amazon Keyspaces, PingCAP, Amazon Neptune, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Notion, Bubble, Amazon Keyspaces, PingCAP, Ablo, Amazon Neptune, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monitoring, Serverless, Gateway, and Caching. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,7 +6,7 @@ description: FinOps is a cloud financial management discipline combining technol
 area_url: https://finops.apievangelist.com
 area_host: finops.apievangelist.com
 icon: https://finops.apievangelist.com/icon-thumb.png
-provider_count: 79
+provider_count: 78
 providers:
 - slug: doit
   name: DoiT
@@ -186,7 +186,7 @@ providers:
 - slug: cloudhealth
   name: CloudHealth
   description: CloudHealth (now VMware Tanzu CloudHealth, owned by Broadcom) is a multi-cloud financial and operational management platform. It provides cost visibility, optimization recommendations, asset inventory, custom perspectives (groupings), policies, governance, and partner/MSP billing workflows across A…
-  api_count: 7
+  api_count: 8
   score_band: thin
   score_composite: 39.1
   shared: 1

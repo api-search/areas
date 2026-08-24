@@ -62,7 +62,7 @@ providers:
   description: 'The Cisco Support APIs are the machine-readable side of Cisco''s TAC and lifecycle operations: EoX for end-of-life milestones, Serial Number to Information for entitlement and coverage, Product Information, Software Suggestion, Bug, Case, Automated Software Distribution, and Service Order Return. Th…'
   api_count: 8
   score_band: thin
-  score_composite: 36.3
+  score_composite: 33.9
   shared: 1
 - slug: service-cloud
   name: Salesforce Service Cloud APIs

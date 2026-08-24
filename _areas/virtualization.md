@@ -6,14 +6,14 @@ description: 'An index and topic collection covering virtualization across two i
 area_url: https://virtualization.apievangelist.com
 area_host: virtualization.apievangelist.com
 icon: https://virtualization.apievangelist.com/icon-thumb.png
-provider_count: 35
+provider_count: 37
 providers:
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
   api_count: 11
   score_band: strong
-  score_composite: 60.1
+  score_composite: 59.8
   shared: 1
 - slug: slide
   name: Slide
@@ -29,19 +29,19 @@ providers:
   score_band: developing
   score_composite: 49.0
   shared: 1
+- slug: vmware
+  name: VMware
+  description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
+  api_count: 59
+  score_band: developing
+  score_composite: 47.4
+  shared: 1
 - slug: nutanix
   name: Nutanix
   description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
   api_count: 21
   score_band: developing
   score_composite: 46.5
-  shared: 1
-- slug: vmware
-  name: VMware
-  description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
-  api_count: 59
-  score_band: developing
-  score_composite: 46.0
   shared: 1
 - slug: vagrant
   name: Vagrant
@@ -134,6 +134,13 @@ providers:
   score_band: thin
   score_composite: 30.9
   shared: 1
+- slug: hypori
+  name: Hypori
+  description: Hypori, Inc. is a Reston, Virginia headquartered, service-disabled veteran-owned software company that builds Virtual Mobile Infrastructure (VMI) for zero-trust mobile access. Its products — Hypori Mobile, Hypori Lyte and Hypori Secure Messaging — run a fully isolated virtual Android workspace in H…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.8
+  shared: 1
 - slug: parallels-swsoft
   name: Parallels (SWSoft)
   description: Parallels is a virtualization and remote-access software company, originally founded as SWSoft in 1999 and renamed Parallels in 2008 (now part of Alludo/Corel). Its flagship enterprise product, Parallels Remote Application Server (RAS), delivers virtual apps and desktops and exposes a public REST A…
@@ -176,6 +183,13 @@ providers:
   score_band: emerging
   score_composite: 20.0
   shared: 1
+- slug: green-hills-software
+  name: Green Hills Software
+  description: Green Hills Software is a privately held embedded software company founded in 1982 by Dan O'Dowd and Carl Rosenberg and headquartered in Santa Barbara, California. It builds safety- and security-certified real-time operating systems (INTEGRITY, INTEGRITY-178 tuMP, u-velOSity), embedded hypervisors…
+  api_count: 0
+  score_band: emerging
+  score_composite: 13.0
+  shared: 1
 - slug: kerys
   name: Kerys
   description: Kerys Software is a European (Palaiseau, France) cybersecurity company behind YS::Desktop, a Type 1 hypervisor that runs multiple fully isolated environments on a single workstation. By preallocating dedicated CPU cores to the hypervisor versus VM workloads and adding hypervisor-level encryption, Y…
@@ -204,23 +218,12 @@ providers:
   score_band: minimal
   score_composite: 5.7
   shared: 1
-- slug: calista-technologies
-  name: Calista Technologies
-  description: Calista Technologies was a desktop and GPU virtualization startup founded in 2006 in San Jose, California by Neal Margulis, backed by Lightspeed Venture Partners, Greylock, and Western Technology Investment. Its software improved the user experience of 3-D and multimedia delivery for virtualized de…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.0
-  shared: 1
-- slug: cloudphysics
-  name: CloudPhysics
-  description: CloudPhysics is a SaaS-based big-data analytics platform for virtualized IT infrastructure, founded in 2011 and acquired by Hewlett Packard Enterprise in 2021. Deployed as the CloudPhysics Observer virtual appliance against VMware vSphere / vCenter, it collects IT metadata and delivers data-driven…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.0
-  shared: 1
 related:
 - slug: migration
   name: Migration
+  shared: 2
+- slug: saas-management
+  name: SaaS Management
   shared: 2
 - slug: management
   name: Management
@@ -231,14 +234,11 @@ related:
 - slug: orchestration
   name: Orchestration
   shared: 1
-- slug: saas-management
-  name: SaaS Management
-  shared: 1
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cisco Intersight, Slide, Smol Machines, Nutanix, VMware, Vagrant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Cisco Intersight, Slide, Smol Machines, VMware, Nutanix, Vagrant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, Management, Containers, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, SaaS Management, Management, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

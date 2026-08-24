@@ -27,7 +27,7 @@ providers:
   description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
   api_count: 49
   score_band: strong
-  score_composite: 61.8
+  score_composite: 61.5
   shared: 1
 - slug: fastly
   name: Fastly

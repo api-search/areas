@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 370
+provider_count: 371
 providers:
 - slug: convertkit
   name: Kit
@@ -42,6 +42,13 @@ providers:
   api_count: 12
   score_band: exemplar
   score_composite: 73.3
+  shared: 1
+- slug: immutable
+  name: Immutable
+  description: 'Immutable is a games growth and blockchain infrastructure company whose platform spans two connected halves: Immutable Audience, a games-focused CDP, attribution and player-activation stack (ingestion, analytics, engage, conversion funnel, ad-network postbacks), and Immutable Chain, a gaming-optimi…'
+  api_count: 3
+  score_band: exemplar
+  score_composite: 72.7
   shared: 1
 - slug: commerce-layer
   name: Commerce Layer
@@ -112,13 +119,6 @@ providers:
   api_count: 18
   score_band: strong
   score_composite: 65.7
-  shared: 1
-- slug: cisco-xdr
-  name: Cisco XDR
-  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
-  api_count: 50
-  score_band: strong
-  score_composite: 65.6
   shared: 1
 - slug: barndoor
   name: Barndoor
@@ -197,13 +197,6 @@ providers:
   score_band: strong
   score_composite: 62.7
   shared: 1
-- slug: taskfolk
-  name: Taskfolk
-  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backlog, list, calendar and timeline views, with sprints, milesto…
-  api_count: 2
-  score_band: strong
-  score_composite: 62.7
-  shared: 1
 - slug: datavant
   name: Datavant
   description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US…
@@ -211,12 +204,19 @@ providers:
   score_band: strong
   score_composite: 62.5
   shared: 1
-- slug: cerner
-  name: Oracle Health (Cerner)
-  description: Oracle Health, formerly Cerner, builds and operates Millennium — one of the two dominant electronic health record platforms in United States hospitals and health systems. Cerner was acquired by Oracle in June 2022 and its developer program now runs as the Oracle Health Developer Program. The public…
-  api_count: 13
+- slug: taskfolk
+  name: Taskfolk
+  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backlog, list, calendar and timeline views, with sprints, milesto…
+  api_count: 2
   score_band: strong
-  score_composite: 61.8
+  score_composite: 62.3
+  shared: 1
+- slug: cisco-xdr
+  name: Cisco XDR
+  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
+  api_count: 50
+  score_band: strong
+  score_composite: 61.9
   shared: 1
 related:
 - slug: ai-automation
@@ -240,7 +240,7 @@ related:
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Kit, drchrono, Zoho CRM, Twilio, AWeber, Commerce Layer, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Kit, drchrono, Zoho CRM, Twilio, AWeber, Immutable, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Communications, Security, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'

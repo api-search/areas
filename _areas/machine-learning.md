@@ -6,7 +6,7 @@ description: An index and topic collection covering machine learning APIs, MLOps
 area_url: https://machine-learning.apievangelist.com
 area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
-provider_count: 1121
+provider_count: 1129
 providers:
 - slug: anthropic
   name: Anthropic

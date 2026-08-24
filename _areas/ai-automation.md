@@ -6,7 +6,7 @@ description: AI automation combines artificial intelligence with workflow and pr
 area_url: https://ai-automation.apievangelist.com
 area_host: ai-automation.apievangelist.com
 icon: https://ai-automation.apievangelist.com/icon-thumb.png
-provider_count: 501
+provider_count: 503
 providers:
 - slug: xquik-api
   name: Xquik
@@ -99,26 +99,12 @@ providers:
   score_band: exemplar
   score_composite: 69.6
   shared: 1
-- slug: cisco-catalyst-sdwan
-  name: Cisco Catalyst SD-WAN
-  description: 'Cisco Catalyst SD-WAN, built on the Viptela platform Cisco acquired in 2017, is Cisco''s wide-area network overlay: centralized policy, application-aware routing, and secure transport across MPLS, broadband and LTE. Its controller — SD-WAN Manager, formerly vManage — exposes a REST API of 4,138 publ…'
-  api_count: 13
-  score_band: exemplar
-  score_composite: 66.8
-  shared: 1
 - slug: celonis
   name: Celonis
   description: Celonis is the process intelligence and process mining company. Its cloud platform ingests event data from enterprise systems, builds Knowledge Models of how business processes actually run, and surfaces KPIs, bottlenecks and automation opportunities. For developers Celonis publishes a Developer Ce…
   api_count: 17
   score_band: exemplar
   score_composite: 66.7
-  shared: 1
-- slug: cisco-xdr
-  name: Cisco XDR
-  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
-  api_count: 50
-  score_band: strong
-  score_composite: 65.6
   shared: 1
 - slug: servicenow
   name: ServiceNow
@@ -133,6 +119,13 @@ providers:
   api_count: 30
   score_band: strong
   score_composite: 65.1
+  shared: 1
+- slug: cisco-catalyst-sdwan
+  name: Cisco Catalyst SD-WAN
+  description: 'Cisco Catalyst SD-WAN, built on the Viptela platform Cisco acquired in 2017, is Cisco''s wide-area network overlay: centralized policy, application-aware routing, and secure transport across MPLS, broadband and LTE. Its controller — SD-WAN Manager, formerly vManage — exposes a REST API of 4,138 publ…'
+  api_count: 13
+  score_band: strong
+  score_composite: 65.0
   shared: 1
 - slug: postman
   name: Postman
@@ -183,10 +176,10 @@ providers:
   score_band: strong
   score_composite: 62.3
   shared: 1
-- slug: cisco-secure-firewall
-  name: Cisco Secure Firewall
-  description: Cisco Secure Firewall is the product line built on the Sourcefire technology Cisco acquired in 2013 — the Firepower/Secure Firewall appliances and Threat Defense (FTD) software, the Secure Firewall Management Center (FMC), the on-box device manager (FDM), and the cloud-delivered Firewall Management…
-  api_count: 108
+- slug: cisco-xdr
+  name: Cisco XDR
+  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
+  api_count: 50
   score_band: strong
   score_composite: 61.9
   shared: 1
@@ -217,6 +210,13 @@ providers:
   api_count: 13
   score_band: strong
   score_composite: 60.4
+  shared: 1
+- slug: appian
+  name: Appian
+  description: Appian is a low-code automation platform that accelerates the creation of high-impact business applications. The platform combines intelligent automation and enterprise low-code development to help organizations build apps and workflows rapidly.
+  api_count: 12
+  score_band: strong
+  score_composite: 60.0
   shared: 1
 related:
 - slug: workflow-automation
