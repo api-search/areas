@@ -13,21 +13,21 @@ providers:
   description: ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive API explorer, Try-It console, Developer Dashboard with real-t…
   api_count: 14
   score_band: developing
-  score_composite: 53.3
+  score_composite: 52.9
   shared: 1
 - slug: stacker
   name: Stacker
   description: Stacker is a no-code platform that enables organizations to build custom business applications, internal tools, and customer portals on top of their existing data sources — including Airtable, Google Sheets, SQL databases, and Salesforce — without writing code. Its drag-and-drop interface, role-bas…
   api_count: 4
   score_band: thin
-  score_composite: 38.7
+  score_composite: 38.3
   shared: 1
 - slug: doctave
   name: Doctave
   description: Doctave is a platform for building modern technical documentation sites. Bring your guides, your API references and SDK documentation, and build developer portals that make your product stand out. It supports a docs-as-code workflow powered by Markdown and OpenAPI, with Git-friendly version control…
   api_count: 4
   score_band: thin
-  score_composite: 35.1
+  score_composite: 34.6
   shared: 1
 - slug: homes-com
   name: Homes.com

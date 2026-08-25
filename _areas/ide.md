@@ -13,105 +13,105 @@ providers:
   description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
   api_count: 12
   score_band: strong
-  score_composite: 64.2
+  score_composite: 63.7
   shared: 1
 - slug: choreo
   name: Choreo
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
   api_count: 16
   score_band: developing
-  score_composite: 49.6
+  score_composite: 49.1
   shared: 1
 - slug: workday-studio
   name: Workday Studio
   description: Workday Studio is an integrated development environment (IDE) for building custom integrations and applications on the Workday platform. It provides tools for creating web services, custom reports, and integration solutions.
   api_count: 18
   score_band: developing
-  score_composite: 46.7
+  score_composite: 46.3
   shared: 1
 - slug: windsurfrules
   name: Windsurf
   description: Windsurf (formerly Codeium) is an AI-native code editor featuring Cascade, an autonomous AI agent that can plan multi-step code changes, execute terminal commands, read linter output, and modify files across entire projects. The .windsurfrules file format provides project-specific configuration for…
   api_count: 3
   score_band: developing
-  score_composite: 42.8
+  score_composite: 42.4
   shared: 1
 - slug: anysphere
   name: Anysphere
   description: Anysphere is the applied-research company behind Cursor, the AI-native code editor and agent platform. Beyond the desktop app, Cursor ships a public Cloud Agents REST API (https://api.cursor.com) that lets developers programmatically create autonomous coding agents, submit prompt runs, stream run e…
   api_count: 5
   score_band: developing
-  score_composite: 42.2
+  score_composite: 41.8
   shared: 1
 - slug: cognition
   name: Cognition AI
   description: Cognition AI is an applied AI lab building Devin, an autonomous AI software engineer that plans, writes, tests, and ships production code. The company also operates the Windsurf agentic IDE following its 2025 acquisition of the Windsurf team and product. Devin is sold to individual developers, engi…
   api_count: 8
   score_band: developing
-  score_composite: 41.4
+  score_composite: 41.0
   shared: 1
 - slug: amazon-cloud9
   name: Amazon Cloud9
   description: AWS Cloud9 is a browser-based integrated development environment (IDE) that enables developers to write, run, and debug code without installing local software. Supports 40+ programming languages with real-time collaboration, integrated terminal, and pre-authenticated AWS CLI.
   api_count: 2
   score_band: developing
-  score_composite: 40.5
+  score_composite: 40.4
   shared: 1
 - slug: vs-code-marketplace
   name: VS Code Marketplace
   description: VS Code Marketplace is Microsoft's official extension marketplace for Visual Studio Code, offering thousands of extensions for languages, debuggers, themes, and developer tools. It provides a Gallery API for programmatically searching, discovering, and retrieving extension metadata, enabling integr…
   api_count: 3
   score_band: developing
-  score_composite: 40.2
+  score_composite: 39.8
   shared: 1
 - slug: jupyterlab
   name: JupyterLab
   description: JupyterLab is the next-generation web-based interactive development environment for notebooks, code, and data. It is served by Jupyter Server and ships with JupyterLab Server, which provides REST APIs for user-defined settings, workspaces, themes, translations, and license reports, alongside the Ja…
   api_count: 7
   score_band: thin
-  score_composite: 37.6
+  score_composite: 37.2
   shared: 1
 - slug: cursor
   name: Cursor
   description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
   api_count: 10
   score_band: thin
-  score_composite: 36.3
+  score_composite: 35.9
   shared: 1
 - slug: jetbrains
   name: JetBrains
   description: JetBrains is a software development company that provides integrated development environments, CI/CD tools, issue tracking, and team collaboration platforms for software developers. Their product suite includes IntelliJ IDEA, TeamCity, YouTrack, Space, Hub, and the JetBrains Marketplace, all of whi…
   api_count: 33
   score_band: thin
-  score_composite: 33.7
+  score_composite: 33.2
   shared: 1
 - slug: windsurf
   name: Windsurf
   description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
   api_count: 8
   score_band: thin
-  score_composite: 32.8
+  score_composite: 32.5
   shared: 1
 - slug: jetbrains-plugin
   name: JetBrains Marketplace
   description: JetBrains Marketplace is the official plugin and theme distribution platform for JetBrains IDEs including IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, Rider, and other IntelliJ Platform products. The marketplace hosts thousands of free and paid plugins that extend IDE functionality with new…
   api_count: 3
   score_band: thin
-  score_composite: 32.4
+  score_composite: 32.1
   shared: 1
 - slug: stackblitz
   name: StackBlitz
   description: StackBlitz is an online development environment that runs Node.js applications entirely in the browser using WebContainers, a WebAssembly-based operating system that boots Node.js in milliseconds without a remote server. It serves developers, technical writers, and platform teams who need interacti…
   api_count: 2
-  score_band: thin
-  score_composite: 26.3
+  score_band: emerging
+  score_composite: 26.1
   shared: 1
 - slug: nx-dev
   name: Nx
   description: Nx is a smart, fast, extensible monorepo build system and integrated CI platform created and maintained by Nrwl. The Nx CLI (Rust core, TypeScript plugins) provides task orchestration, dependency-graph analysis, affected-only execution, local caching, and code generation across Angular, React, Next…
   api_count: 10
   score_band: emerging
-  score_composite: 24.0
+  score_composite: 25.3
   shared: 1
 - slug: microsoft-visual-studio
   name: Microsoft Visual Studio

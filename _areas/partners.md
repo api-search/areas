@@ -12,8 +12,8 @@ providers:
   name: NIFT
   description: 'Nift is a customer-gifting and acquisition platform: businesses send "thank-you" gifts that let their own customers discover and try new brands, restaurants, and services, while the partnering brands gain new customers at the moment of gift selection. Proprietary AI matches each recipient to releva…'
   api_count: 1
-  score_band: developing
-  score_composite: 48.5
+  score_band: thin
+  score_composite: 36.9
   shared: 1
 - slug: opendoor
   name: Opendoor
@@ -22,15 +22,9 @@ providers:
   score_band: emerging
   score_composite: 22.4
   shared: 1
-related:
-- slug: sdk
-  name: SDKs
-  shared: 1
+related: []
 overview: 'API Evangelist Partners is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [partners.apievangelist.com](https://partners.apievangelist.com).
 
 
-  Providers on the network working in this area include NIFT and Opendoor — each links out to that provider''s APIs, schemas, and governance artifacts.
-
-
-  Related areas: SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Providers on the network working in this area include NIFT and Opendoor — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

@@ -27,7 +27,7 @@ providers:
   description: Open-source WordPress plugin that exposes a full-featured extendable GraphQL API for WordPress data including posts, pages, users, menus, taxonomies, media, and plugins. Created by Jason Bahl and now supported by Automattic as a Canonical Plugin, WPGraphQL enables headless WordPress development wit…
   api_count: 1
   score_band: emerging
-  score_composite: 22.5
+  score_composite: 22.0
   shared: 1
 related: []
 overview: 'Plugin is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [plugin.apievangelist.com](https://plugin.apievangelist.com).

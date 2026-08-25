@@ -13,77 +13,70 @@ providers:
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
   api_count: 41
   score_band: exemplar
-  score_composite: 68.7
+  score_composite: 68.8
   shared: 1
 - slug: whoop
   name: WHOOP
   description: WHOOP is a fitness and recovery wearable platform providing a REST API for accessing sleep, recovery, strain, and workout metrics from the WHOOP band. The API uses OAuth 2.0 authorization code flow with Bearer tokens to allow developers to build applications that access member health and performanc…
   api_count: 7
   score_band: strong
-  score_composite: 60.8
+  score_composite: 60.4
   shared: 1
 - slug: factorial-hr
   name: Factorial
   description: Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 "Legendre") covering employees, contracts, attendance, ti…
   api_count: 22
   score_band: developing
-  score_composite: 53.2
+  score_composite: 52.8
   shared: 1
 - slug: amazon-global-accelerator
   name: Amazon Global Accelerator
   description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the AWS global network to optimize the path from users to applic…
   api_count: 49
   score_band: developing
-  score_composite: 51.2
+  score_composite: 50.7
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
   description: Virtana (formerly Virtual Instruments) is an AI-powered hybrid infrastructure observability company whose platform monitors and optimizes performance, cost, and risk across on-premises, colocation, and cloud environments. The platform spans Infrastructure Observability, Container Observability, App…
   api_count: 3
   score_band: developing
-  score_composite: 48.6
+  score_composite: 48.0
   shared: 1
 - slug: google-cloud-trace
   name: Google Cloud Trace
   description: Google Cloud Trace is a distributed tracing system that collects latency data from applications and displays it in near real-time. It helps developers understand how requests propagate through their application, identify performance bottlenecks, and analyze latency across microservices and distribu…
   api_count: 1
   score_band: developing
-  score_composite: 44.1
+  score_composite: 43.7
   shared: 1
 - slug: google-cloud-profiler
   name: Google Cloud Profiler
   description: Google Cloud Profiler is a statistical, low-overhead profiling service that continuously monitors CPU usage and memory allocation in production applications. It attributes resource consumption to specific source code sections, supports Go, Java, Node.js, and Python, and provides flame graph visuali…
   api_count: 1
   score_band: developing
-  score_composite: 43.1
+  score_composite: 42.7
   shared: 1
 - slug: polar-signals
   name: Polar Signals
   description: Polar Signals is a continuous profiling company built by the team behind the open-source Parca project. Its Polar Signals Cloud product uses eBPF to continuously profile CPU, memory, and NVIDIA GPU workloads across Kubernetes, Docker, ECS, and bare metal with under 1% overhead and no code changes,…
   api_count: 1
   score_band: developing
-  score_composite: 42.9
+  score_composite: 42.5
   shared: 1
 - slug: sage-hr
   name: Sage HR
   description: Sage HR (formerly CakeHR) is a cloud HRIS for small and mid-sized businesses, owned by Sage Group plc. It bundles core HR records, leave management, performance, recruitment (ATS), timesheets, shift scheduling, expenses, and onboarding/offboarding into a modular per-employee SaaS. The Sage HR REST…
   api_count: 14
   score_band: developing
-  score_composite: 42.5
+  score_composite: 42.1
   shared: 1
 - slug: unravel-data-systems
   name: Unravel Data Systems
   description: Unravel Data Systems is an AI-powered data observability and FinOps platform that helps data teams optimize performance, cost, and reliability across modern data stacks including Databricks, Snowflake, BigQuery, Amazon EMR, and Cloudera. The self-hosted and SaaS platform exposes a REST API (JSON ov…
   api_count: 1
   score_band: developing
-  score_composite: 42.4
-  shared: 1
-- slug: kotzilla
-  name: Kotzilla
-  description: Kotzilla is a French developer-observability company based in Toulouse, founded by the creators of Koin — the open-source dependency-injection framework for Kotlin, which Kotzilla still maintains. The Kotzilla Platform monitors Android and Kotlin Multiplatform applications by using Koin's container…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.6
+  score_composite: 41.8
   shared: 1
 - slug: codspeed
   name: CodSpeed
@@ -97,42 +90,49 @@ providers:
   description: QuestDB is a high-performance open-source time-series database. It exposes three programmatic surfaces — an HTTP REST API for SQL queries and CSV import/export, the InfluxDB Line Protocol (ILP) over TCP and HTTP for high-throughput ingestion, and the PostgreSQL wire protocol for compatibility with…
   api_count: 10
   score_band: thin
-  score_composite: 33.5
+  score_composite: 33.1
+  shared: 1
+- slug: kotzilla
+  name: Kotzilla
+  description: Kotzilla is a French developer-observability company based in Toulouse, founded by the creators of Koin — the open-source dependency-injection framework for Kotlin, which Kotzilla still maintains. The Kotzilla Platform monitors Android and Kotlin Multiplatform applications by using Koin's container…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.9
   shared: 1
 - slug: apicontext
   name: APIContext
   description: APIContext (formerly APImetrics) is an advanced synthetic API testing and monitoring platform that measures API performance, enforces SLOs, and validates API conformance for critical APIs. It provides an API directory with performance data on 300+ top API providers and offers solutions for develope…
   api_count: 13
   score_band: thin
-  score_composite: 29.5
+  score_composite: 29.1
   shared: 1
 - slug: grafast
   name: Grafast
   description: Next-generation PostgreSQL-backed GraphQL planning and execution engine from the Graphile project, replacing graphql-js execution with a plan-based approach to eliminate N+1 queries.
   api_count: 1
   score_band: thin
-  score_composite: 26.7
+  score_composite: 26.3
   shared: 1
 - slug: oracle-partitioning
   name: Oracle Partitioning
   description: Oracle Partitioning enables tables and indexes to be partitioned into smaller, more manageable pieces, improving performance, availability, and manageability of large database objects.
   api_count: 3
   score_band: thin
-  score_composite: 26.6
+  score_composite: 26.2
   shared: 1
 - slug: scalability
   name: Scalability
   description: A subject-matter collection covering APIs, tools, frameworks, and data sources related to application scalability, infrastructure scaling, performance optimization, and elastic resource management. This topic spans cloud provider auto-scaling, event-driven autoscaling (KEDA), load balancing, databa…
   api_count: 7
   score_band: emerging
-  score_composite: 23.4
+  score_composite: 22.9
   shared: 1
 - slug: scalable-architecture
   name: Scalable Architecture
   description: A subject-matter collection covering APIs, patterns, tools, and frameworks for building scalable system architecture. This topic encompasses microservices design, service mesh, event-driven architecture, CQRS, saga patterns, container orchestration, caching, message queuing, and observability patte…
   api_count: 8
   score_band: emerging
-  score_composite: 23.4
+  score_composite: 22.9
   shared: 1
 - slug: readyset
   name: ReadySet
@@ -153,7 +153,7 @@ providers:
   description: Vegeta is an open source HTTP load testing tool and library written in Go for generating constant request rates to measure API performance and reliability under sustained load. Supports CLI and library usage with attack plans, rate limiting, duration control, and detailed result metrics including l…
   api_count: 1
   score_band: emerging
-  score_composite: 18.9
+  score_composite: 18.7
   shared: 1
 - slug: merbridge
   name: Merbridge
@@ -211,12 +211,12 @@ providers:
   score_band: minimal
   score_composite: 8.2
   shared: 1
-- slug: nazar
-  name: Nazar
-  description: Nazar (nazar.ai) is an AI-powered database performance and cost optimization platform that helps engineering and DBA teams monitor, analyze, and tune their databases. It supports Postgres, MySQL, SQL Server, MariaDB, Amazon Aurora, Oracle, and SAP HANA across cloud, on-premises, and hybrid environm…
+- slug: http-2
+  name: HTTP/2
+  description: HTTP/2 is the second major version of the Hypertext Transfer Protocol, defined by the IETF in RFC 7540 and standardized in 2015. It optimizes use of network resources and reduces perceived latency by introducing a binary framing layer over a single TCP connection, with full request and response mul…
   api_count: 0
   score_band: minimal
-  score_composite: 7.1
+  score_composite: 6.8
   shared: 1
 related:
 - slug: analysis

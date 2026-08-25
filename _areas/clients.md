@@ -13,49 +13,49 @@ providers:
   description: 'Apollo Graph, Inc. — trading publicly as Apollo and Apollo GraphQL — is the San Francisco company behind the Apollo GraphQL platform: Apollo GraphOS (a hosted supergraph platform with a schema registry, schema checks, proposals, launches, and operation/field insights), the Apollo Router and Apollo…'
   api_count: 11
   score_band: developing
-  score_composite: 50.0
+  score_composite: 49.4
   shared: 1
 - slug: hoppscotch
   name: Hoppscotch
   description: Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT.
   api_count: 1
   score_band: developing
-  score_composite: 40.9
+  score_composite: 40.5
   shared: 1
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 4
   score_band: developing
-  score_composite: 39.8
+  score_composite: 40.0
   shared: 1
 - slug: httpie
   name: HTTPie
   description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submission…
   api_count: 2
   score_band: thin
-  score_composite: 31.8
+  score_composite: 31.4
   shared: 1
 - slug: wget
   name: Wget
   description: GNU Wget is a free, open-source command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS protocols. It supports recursive downloading, resuming aborted downloads, mirroring websites, proxy support, and can be run from scripts and cron jobs. Wget2 i…
   api_count: 2
   score_band: emerging
-  score_composite: 22.6
-  shared: 1
-- slug: rest-client
-  name: REST Client
-  description: REST Client is a Visual Studio Code extension developed by Huachao Mao that enables developers to send HTTP requests and view responses directly within the VS Code editor. It supports RFC 2616 HTTP request format using .http and .rest files, GraphQL queries, cURL commands, multiple authentication s…
-  api_count: 1
-  score_band: emerging
-  score_composite: 21.3
+  score_composite: 22.3
   shared: 1
 - slug: requests
   name: Requests
   description: Requests is a simple and elegant HTTP library for Python, designed for human beings. Published under the Apache2 license by the Python Software Foundation (PSF), it is one of the most downloaded Python packages with approximately 300 million weekly downloads and over 4 million dependent repositorie…
   api_count: 1
   score_band: emerging
-  score_composite: 20.6
+  score_composite: 21.7
+  shared: 1
+- slug: rest-client
+  name: REST Client
+  description: REST Client is a Visual Studio Code extension developed by Huachao Mao that enables developers to send HTTP requests and view responses directly within the VS Code editor. It supports RFC 2616 HTTP request format using .http and .rest files, GraphQL queries, cURL commands, multiple authentication s…
+  api_count: 1
+  score_band: emerging
+  score_composite: 21.0
   shared: 1
 - slug: firecamp
   name: Firecamp
@@ -144,7 +144,7 @@ related:
 overview: 'Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [clients.apievangelist.com](https://clients.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Apollo GraphQL, Hoppscotch, Insomnia, HTTPie, Wget, REST Client, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Apollo GraphQL, Hoppscotch, Insomnia, HTTPie, Wget, Requests, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Clients and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

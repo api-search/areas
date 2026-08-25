@@ -13,21 +13,21 @@ providers:
   description: Cast Corporation (Cast.app) is an AI-agent platform that automates customer success and post-sales revenue operations for B2B SaaS and technology companies. Its autonomous "digital CSM" agents deliver personalized business reviews, grounded answers, onboarding, usage adoption, churn reduction, rene…
   api_count: 2
   score_band: developing
-  score_composite: 49.0
-  shared: 1
-- slug: screenleap
-  name: Screenleap
-  description: Screenleap is a screen sharing and online meeting service that lets anyone share their screen instantly from a browser with no software install required for viewers. Beyond the consumer product, Screenleap offers a REST-style developer API (api.screenleap.com/v2) that lets businesses embed live int…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.9
+  score_composite: 48.4
   shared: 1
 - slug: confrere
   name: Confrere
   description: Confrere is a privacy-first, embeddable video-consultation platform (now a Compodium product) built in the Nordics for healthcare providers, therapists, consultants, tutors, and sales teams who need secure, encrypted video meetings that clients join from any modern browser with no download. Its ser…
   api_count: 2
   score_band: developing
-  score_composite: 39.6
+  score_composite: 39.3
+  shared: 1
+- slug: screenleap
+  name: Screenleap
+  description: Screenleap is a screen sharing and online meeting service that lets anyone share their screen instantly from a browser with no software install required for viewers. Beyond the consumer product, Screenleap offers a REST-style developer API (api.screenleap.com/v2) that lets businesses embed live int…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.9
   shared: 1
 - slug: desmos
   name: Desmos
@@ -40,5 +40,5 @@ related: []
 overview: 'Embeddable is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [embeddable.apievangelist.com](https://embeddable.apievangelist.com).
 
 
-  Providers on the network working in this area include Cast Corporation, Screenleap, Confrere, and Desmos — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  Providers on the network working in this area include Cast Corporation, Confrere, Screenleap, and Desmos — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

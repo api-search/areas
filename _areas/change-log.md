@@ -13,14 +13,14 @@ providers:
   description: Canny is a customer feedback and product management platform that collects, organizes, and prioritizes feature requests from users and internal teams, ties them to roadmaps and changelogs, and surfaces product analytics. The Canny REST API exposes boards, posts, comments, votes, users, companies, c…
   api_count: 16
   score_band: thin
-  score_composite: 32.6
+  score_composite: 32.2
   shared: 1
 - slug: announcekit
   name: AnnounceKit
   description: AnnounceKit is a product communication platform providing changelog management, in-app notification widgets, feature request boards, roadmaps, and NPS surveys. It enables product teams to communicate updates to users via 10+ widget display modes, email digests, Slack, webhooks, and RSS, with GraphQ…
   api_count: 1
   score_band: emerging
-  score_composite: 24.4
+  score_composite: 25.7
   shared: 1
 - slug: beamer
   name: Beamer
@@ -41,7 +41,7 @@ providers:
   description: CHANGELOG.md is a community convention for a human-readable, Markdown- formatted file at the root of a project that records notable changes between versions. The leading specification is "Keep a Changelog" by Olivier Lacan, which defines a stable, opinionated set of section headings (Added, Changed…
   api_count: 0
   score_band: emerging
-  score_composite: 11.1
+  score_composite: 11.7
   shared: 1
 - slug: makelog
   name: Makelog

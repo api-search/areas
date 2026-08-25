@@ -13,7 +13,7 @@ providers:
   description: Standards and methodologies for managing changes and updates to APIs, software interfaces, and data formats while maintaining backward compatibility and clear communication of breaking changes. Covers Semantic Versioning (SemVer), Calendar Versioning (CalVer), URI path versioning, header-based vers…
   api_count: 5
   score_band: emerging
-  score_composite: 20.5
+  score_composite: 20.2
   shared: 1
 - slug: beamer
   name: Beamer

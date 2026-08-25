@@ -13,49 +13,49 @@ providers:
   description: Replicated is a commercial software distribution platform that lets independent software vendors (ISVs) deliver and manage modern applications into complex, customer-controlled environments — including on-prem, self-hosted, and air-gapped networks with little or no outbound internet access. The pla…
   api_count: 22
   score_band: strong
-  score_composite: 62.4
+  score_composite: 62.0
   shared: 1
 - slug: sendowl
   name: SendOwl
   description: SendOwl is a UK-based digital commerce platform that lets creators and small businesses sell digital products, subscriptions, memberships, license keys, drip-delivered courses and physical goods, with hosted checkout, automated file delivery, PDF stamping, affiliate programs, discount codes and EU…
   api_count: 1
   score_band: strong
-  score_composite: 56.3
+  score_composite: 55.0
   shared: 1
 - slug: acma
   name: ACMA
   description: The Australian Communications and Media Authority (ACMA) is the Commonwealth regulator for telecommunications, radiocommunications, broadcasting and online content in Australia. It issues carrier licences and apparatus and spectrum licences, maintains the Register of Radiocommunications Licences, a…
   api_count: 2
-  score_band: strong
-  score_composite: 54.9
+  score_band: developing
+  score_composite: 52.7
   shared: 1
 - slug: certifyos
   name: Certifyos
   description: 'Certify (operating as CertifyOS, certifyos.com) is a New York-based healthcare provider data platform that automates the end-to-end provider network management lifecycle: credentialing, licensing, payer enrollment, compliance monitoring, and roster management. Founded in 2020 by CEO Anshul Rathi, t…'
   api_count: 59
   score_band: developing
-  score_composite: 51.6
+  score_composite: 51.1
   shared: 1
 - slug: opengov
   name: OpenGov
   description: OpenGov builds cloud enterprise resource planning and public service software for state and local government, serving more than 2,000 communities across budgeting and performance, financial management, procurement and contract management, vendor management, permitting and licensing, enterprise asse…
   api_count: 102
   score_band: developing
-  score_composite: 50.9
+  score_composite: 49.7
   shared: 1
 - slug: soundstripe
   name: Soundstripe
   description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
   api_count: 7
   score_band: thin
-  score_composite: 39.2
+  score_composite: 38.9
   shared: 1
 - slug: warner-music-group
   name: Warner Music Group
   description: Warner Music Group is one of the major record labels in the music industry, with recorded music and music publishing operations spanning a roster of artists, songwriters, and labels around the world. WMG includes Warner Records, Atlantic Records, Elektra Records, and Warner Chappell Music (one of t…
   api_count: 4
   score_band: thin
-  score_composite: 37.9
+  score_composite: 37.4
   shared: 1
 - slug: agentsync
   name: Agentsync
@@ -69,42 +69,42 @@ providers:
   description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
   api_count: 23
   score_band: thin
-  score_composite: 36.2
+  score_composite: 36.0
   shared: 1
 - slug: shutterstock
   name: Shutterstock
   description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
   api_count: 10
   score_band: thin
-  score_composite: 35.0
+  score_composite: 34.5
   shared: 1
 - slug: fossology
   name: FOSSology
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations through automated scanning, human clearing workflows, and SP…
   api_count: 15
   score_band: thin
-  score_composite: 34.8
+  score_composite: 34.4
   shared: 1
 - slug: fcc
   name: FCC (Federal Communications Commission)
   description: The Federal Communications Commission provides free public REST APIs for radio station license lookup, broadband coverage maps, spectrum auction data, broadcast contours, census block conversions, consumer complaint databases, electronic comment filings, and regulatory data. All APIs are free with…
   api_count: 19
   score_band: thin
-  score_composite: 32.6
+  score_composite: 32.3
   shared: 1
 - slug: story-protocol
   name: Story Protocol
   description: Story Protocol is a purpose-built EVM Layer 1 blockchain for onchain intellectual property (the "IP blockchain"), powered by Proof of Creativity, built by Pip Labs and backed by a16z. Its public REST API (api.storyapis.com) is a read-only indexer that exposes IP assets, collections, license terms,…
   api_count: 13
   score_band: thin
-  score_composite: 31.2
+  score_composite: 30.9
   shared: 1
 - slug: getty
   name: Getty Images
   description: Getty Images is a premium stock media licensor of editorial and creative photography, illustrations, video, and music. The Getty Images API exposes search, asset metadata, and download endpoints for licensing partners and enterprise customers. Authentication is via API key + OAuth 2.0 client creden…
   api_count: 5
   score_band: emerging
-  score_composite: 25.9
+  score_composite: 25.6
   shared: 1
 - slug: medallion
   name: Medallion
@@ -125,7 +125,7 @@ providers:
   description: The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks. The OCC provides REST APIs and data tools for national bank and federal savings association data, C…
   api_count: 3
   score_band: emerging
-  score_composite: 20.2
+  score_composite: 20.0
   shared: 1
 - slug: govwell
   name: GovWell
@@ -139,7 +139,7 @@ providers:
   description: 'Aceable (Aceable Brands) is an Austin, Texas mobile-first online education company founded in 2013 that builds state-accredited licensing and continuing-education courses across four brands: Aceable (drivers ed, defensive driving and traffic school in 40+ US states), Aceable Agent (real estate pre-…'
   api_count: 0
   score_band: emerging
-  score_composite: 17.5
+  score_composite: 16.3
   shared: 1
 - slug: tradespace
   name: Tradespace
@@ -197,19 +197,19 @@ providers:
   score_band: minimal
   score_composite: 7.3
   shared: 1
-- slug: lexyom
-  name: Lexyom
-  description: 'Lexyom (Lexyom LLP) is a law firm operating at lexyom.com, which redirects to lexyomlaw.com. The firm markets legal services to financial-services companies: financial institution setup, company registration, broker licensing, proprietary-trading ("prop firm") licensing, trademark registration and…'
-  api_count: 0
-  score_band: minimal
-  score_composite: 7.1
-  shared: 1
 - slug: license-md
   name: LICENSE.md
   description: File specifying the legal license under which a project is distributed, defining permissions, conditions, and limitations for use and redistribution. Standard reference for SPDX-identified open source licenses including MIT, Apache-2.0, GPL-3.0, BSD, and Creative Commons variants.
   api_count: 0
   score_band: minimal
   score_composite: 6.4
+  shared: 1
+- slug: lexyom
+  name: Lexyom
+  description: 'Lexyom (Lexyom LLP) is a law firm operating at lexyom.com, which redirects to lexyomlaw.com. The firm markets legal services to financial-services companies: financial institution setup, company registration, broker licensing, proprietary-trading ("prop firm") licensing, trademark registration and…'
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.3
   shared: 1
 - slug: nuro
   name: Nuro
