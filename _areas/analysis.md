@@ -13,14 +13,21 @@ providers:
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
   api_count: 41
   score_band: exemplar
-  score_composite: 68.8
+  score_composite: 69.4
   shared: 1
 - slug: tago-io
   name: TagoIO
   description: TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO…
   api_count: 22
   score_band: developing
-  score_composite: 52.3
+  score_composite: 53.0
+  shared: 1
+- slug: dsg-sports-analytics
+  name: DSG Sports Analytics
+  description: DSG Sports Analytics, operated by Data Sports Group, is a sports data provider offering live scores, statistics, historical data, fixtures, player and team information, and odds across more than 80 sports including soccer, basketball, American football, cricket, tennis, ice hockey, e-sports, and Ol…
+  api_count: 1
+  score_band: emerging
+  score_composite: 16.8
   shared: 1
 - slug: lumafield
   name: Lumafield
@@ -29,19 +36,19 @@ providers:
   score_band: emerging
   score_composite: 15.4
   shared: 1
-- slug: dsg-sports-analytics
-  name: DSG Sports Analytics
-  description: DSG Sports Analytics, operated by Data Sports Group, is a sports data provider offering live scores, statistics, historical data, fixtures, player and team information, and odds across more than 80 sports including soccer, basketball, American football, cricket, tennis, ice hockey, e-sports, and Ol…
-  api_count: 1
-  score_band: emerging
-  score_composite: 13.6
-  shared: 1
 - slug: domo
   name: Domo
   description: Domo is a cloud-based software company that specializes in providing business intelligence tools for organizations. Their platform allows businesses to gather, analyze, and visualize data from various sources in order to make more informed decisions. Domo helps companies streamline their data manag…
   api_count: 1
   score_band: emerging
-  score_composite: 12.3
+  score_composite: 14.5
+  shared: 1
+- slug: api-insights
+  name: API Insights
+  description: API Insights is a free online tool powered by Treblle that provides advanced API analysis and monitoring by evaluating OpenAPI specifications across multiple dimensions including AI readiness, design quality, performance, and security. It scores APIs against industry benchmarks and provides actiona…
+  api_count: 1
+  score_band: emerging
+  score_composite: 13.0
   shared: 1
 - slug: lf-research
   name: LF Research
@@ -49,13 +56,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 12.3
-  shared: 1
-- slug: api-insights
-  name: API Insights
-  description: API Insights is a free online tool powered by Treblle that provides advanced API analysis and monitoring by evaluating OpenAPI specifications across multiple dimensions including AI readiness, design quality, performance, and security. It scores APIs against industry benchmarks and provides actiona…
-  api_count: 1
-  score_band: emerging
-  score_composite: 11.1
   shared: 1
 related:
 - slug: internet-of-things
@@ -73,7 +73,7 @@ related:
 overview: 'Analysis is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [analysis.apievangelist.com](https://analysis.apievangelist.com).
 
 
-  7 providers on the network work in this area, including New Relic, TagoIO, Lumafield, DSG Sports Analytics, Domo, LF Research, and 1 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  7 providers on the network work in this area, including New Relic, TagoIO, DSG Sports Analytics, Lumafield, Domo, API Insights, and 1 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Internet of Things, Monitoring, Observability, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -13,7 +13,7 @@ providers:
   description: The AWS Command Line Interface (AWS CLI) is a unified tool to manage AWS services from the command line. With just one tool to download and configure, you can control multiple AWS services and automate them through scripts. AWS CLI v2 supports all AWS services with auto-completion, AWS SSO, and imp…
   api_count: 1
   score_band: emerging
-  score_composite: 23.5
+  score_composite: 24.9
   shared: 2
 - slug: svix
   name: Svix
@@ -41,7 +41,14 @@ providers:
   description: QFEX is the first 24/7 exchange built exclusively for US equities, commodities, and FX, offering high-leverage perpetual futures on traditional assets without a broker. Founded by former Tower Research and Citadel engineers who met studying mathematics at Cambridge, QFEX gives retail and institutio…
   api_count: 5
   score_band: strong
-  score_composite: 54.8
+  score_composite: 55.8
+  shared: 1
+- slug: continue-dev
+  name: Continue
+  description: Continue is the open-source AI code assistant for VS Code and JetBrains, distributed under Apache 2.0. The Continue IDE extensions and the Continue CLI federate to any LLM provider — Anthropic, OpenAI, Mistral, OpenRouter, Ollama, and a Continue-managed proxy — and load their configuration from Con…
+  api_count: 5
+  score_band: developing
+  score_composite: 51.3
   shared: 1
 - slug: plandex
   name: Plandex
@@ -49,13 +56,6 @@ providers:
   api_count: 15
   score_band: developing
   score_composite: 50.0
-  shared: 1
-- slug: continue-dev
-  name: Continue
-  description: Continue is the open-source AI code assistant for VS Code and JetBrains, distributed under Apache 2.0. The Continue IDE extensions and the Continue CLI federate to any LLM provider — Anthropic, OpenAI, Mistral, OpenRouter, Ollama, and a Continue-managed proxy — and load their configuration from Con…
-  api_count: 5
-  score_band: developing
-  score_composite: 49.4
   shared: 1
 - slug: tesslio
   name: tessl.io
@@ -71,12 +71,33 @@ providers:
   score_band: developing
   score_composite: 47.1
   shared: 1
+- slug: sideko
+  name: Sideko
+  description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
+  api_count: 18
+  score_band: developing
+  score_composite: 45.9
+  shared: 1
 - slug: landbase
   name: Landbase
   description: Landbase is a Palo Alto, California go-to-market (GTM) data and agentic-AI company whose platform builds, qualifies, enriches and activates B2B audiences from natural-language requests. Its GTM-1/GTM-2 Omni models sit behind a B2B database of 300M+ contacts with 1,500+ enrichment fields, an agentic…
   api_count: 1
   score_band: developing
-  score_composite: 46.7
+  score_composite: 45.4
+  shared: 1
+- slug: vlt
+  name: vlt
+  description: vlt (pronounced "volt") is a JavaScript package management company started by the creator of npm and former members of the npm core team, and backed by Accel. It ships the open source vlt package manager CLI, the npm-compatible vlt serverless registry (vsr) that runs on Cloudflare's edge network, a…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.2
+  shared: 1
+- slug: apitoolkit
+  name: APIToolkit (Monoscope)
+  description: APIToolkit (now Monoscope) is an open-source-friendly API observability and monitoring platform that helps teams find and fix production issues before customers notice. It unifies logs, traces, metrics, errors, monitors, and session replay across 17+ framework SDKs and 780+ OpenTelemetry integratio…
+  api_count: 7
+  score_band: developing
+  score_composite: 44.7
   shared: 1
 - slug: jetify
   name: Jetify
@@ -92,26 +113,12 @@ providers:
   score_band: developing
   score_composite: 44.2
   shared: 1
-- slug: vlt
-  name: vlt
-  description: vlt (pronounced "volt") is a JavaScript package management company started by the creator of npm and former members of the npm core team, and backed by Accel. It ships the open source vlt package manager CLI, the npm-compatible vlt serverless registry (vsr) that runs on Cloudflare's edge network, a…
-  api_count: 1
+- slug: terminal-use
+  name: Terminal Use
+  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
+  api_count: 28
   score_band: developing
-  score_composite: 43.3
-  shared: 1
-- slug: apitoolkit
-  name: APIToolkit (Monoscope)
-  description: APIToolkit (now Monoscope) is an open-source-friendly API observability and monitoring platform that helps teams find and fix production issues before customers notice. It unifies logs, traces, metrics, errors, monitors, and session replay across 17+ framework SDKs and 780+ OpenTelemetry integratio…
-  api_count: 7
-  score_band: developing
-  score_composite: 42.9
-  shared: 1
-- slug: sideko
-  name: Sideko
-  description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
-  api_count: 18
-  score_band: developing
-  score_composite: 41.8
+  score_composite: 40.3
   shared: 1
 - slug: insomnia
   name: Insomnia
@@ -119,13 +126,6 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 40.0
-  shared: 1
-- slug: terminal-use
-  name: Terminal Use
-  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
-  api_count: 28
-  score_band: thin
-  score_composite: 38.9
   shared: 1
 - slug: nx
   name: Nx
@@ -155,6 +155,13 @@ providers:
   score_band: thin
   score_composite: 37.8
   shared: 1
+- slug: amazon-cloudshell
+  name: Amazon CloudShell
+  description: AWS CloudShell is a browser-based terminal that enables users to manage and explore AWS resources directly from the AWS Management Console. Pre-authenticated, pre-installed with AWS CLI and dev tools, with 1 GB of persistent storage per region.
+  api_count: 1
+  score_band: thin
+  score_composite: 37.5
+  shared: 1
 - slug: formspree
   name: Formspree
   description: 'Formspree is a form backend for static and Jamstack sites. Two API surfaces matter: (1) the public form-submission endpoint (formspree.io/f/{hashid}) that accepts POST submissions and returns JSON when the Accept header is set, and (2) the Forms API (formspree.io/api/0/...) for programmatic submiss…'
@@ -183,12 +190,12 @@ providers:
   score_band: thin
   score_composite: 34.1
   shared: 1
-- slug: amazon-cloudshell
-  name: Amazon CloudShell
-  description: AWS CloudShell is a browser-based terminal that enables users to manage and explore AWS resources directly from the AWS Management Console. Pre-authenticated, pre-installed with AWS CLI and dev tools, with 1 GB of persistent storage per region.
-  api_count: 1
+- slug: httpie
+  name: HTTPie
+  description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submission…
+  api_count: 2
   score_band: thin
-  score_composite: 33.9
+  score_composite: 33.8
   shared: 1
 - slug: bruin
   name: Bruin
@@ -210,13 +217,6 @@ providers:
   api_count: 0
   score_band: thin
   score_composite: 31.6
-  shared: 1
-- slug: httpie
-  name: HTTPie
-  description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submission…
-  api_count: 2
-  score_band: thin
-  score_composite: 31.4
   shared: 1
 related:
 - slug: api-clients
@@ -240,7 +240,7 @@ related:
 overview: 'Command Line Interface is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [cli.apievangelist.com](https://cli.apievangelist.com).
 
 
-  30 providers on the network work in this area, including AWS CLI, Svix, Common Room, Ploy, Qfex, Plandex, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including AWS CLI, Svix, Common Room, Ploy, Qfex, Continue, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Clients, Clients, Plans, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'

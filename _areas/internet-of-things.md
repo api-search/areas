@@ -6,14 +6,21 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 99
+provider_count: 105
 providers:
+- slug: losant
+  name: Losant
+  description: Losant is an Enterprise IoT Platform that lets product teams build connected experiences, manage fleets of devices, orchestrate edge and embedded compute, and visualize and act on IoT data. The platform exposes a comprehensive REST API (the Platform API) covering applications, devices, data tables,…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 85.2
+  shared: 1
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 15
   score_band: strong
-  score_composite: 63.6
+  score_composite: 64.5
   shared: 1
 - slug: adafruit-io
   name: Adafruit IO
@@ -29,6 +36,13 @@ providers:
   score_band: strong
   score_composite: 63.2
   shared: 1
+- slug: particle
+  name: Particle
+  description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud exposes a REST API that enables developers to call device functi…
+  api_count: 25
+  score_band: strong
+  score_composite: 63.2
+  shared: 1
 - slug: thingspeak
   name: ThingSpeak
   description: ThingSpeak is an IoT analytics platform from MathWorks that lets devices aggregate, visualize, and analyze live data streams in the cloud. Devices push telemetry to channels via a REST update endpoint or the `mqtt3.thingspeak.com` MQTT broker, and the platform layers in MATLAB Analysis for compute,…
@@ -36,24 +50,17 @@ providers:
   score_band: strong
   score_composite: 62.7
   shared: 1
-- slug: particle
-  name: Particle
-  description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud exposes a REST API that enables developers to call device functi…
-  api_count: 25
-  score_band: strong
-  score_composite: 60.8
-  shared: 1
-- slug: losant
-  name: Losant
-  description: Losant is an Enterprise IoT Platform that lets product teams build connected experiences, manage fleets of devices, orchestrate edge and embedded compute, and visualize and act on IoT data. The platform exposes a comprehensive REST API (the Platform API) covering applications, devices, data tables,…
-  api_count: 9
-  score_band: strong
-  score_composite: 60.6
-  shared: 1
 - slug: emnify
   name: emnify
   description: emnify is a cloud-native global IoT cellular connectivity provider operating its own mobile core and SuperNetwork across 540+ MNOs in 190+ countries. emnify supplies SIMs, eUICC-enabled multi-form-factor cards, and Consumer/Advanced eSIM (SGP.32) profiles to enterprise IoT deployments — fleet track…
   api_count: 29
+  score_band: strong
+  score_composite: 61.3
+  shared: 1
+- slug: the-things-network
+  name: The Things Network / The Things Stack
+  description: The Things Network (TTN) is a free, community-operated global LoRaWAN network with over 280,000 members and 21,000 gateways across 153 countries. It runs on The Things Stack, the open-source (Apache-2.0) LoRaWAN Network Server developed and maintained by The Things Industries. The Things Stack v3 i…
+  api_count: 58
   score_band: strong
   score_composite: 58.7
   shared: 1
@@ -68,29 +75,29 @@ providers:
   name: ev.energy
   description: ev.energy is a London- and Palo-Alto-based smart electric-vehicle charging platform. Its cloud software connects EV drivers, vehicles, EVSEs (chargers), home batteries, solar inverters and utility programs so charging can be shifted to cheaper, greener periods and aggregated as grid flexibility. Th…
   api_count: 1
-  score_band: developing
-  score_composite: 53.2
-  shared: 1
-- slug: the-things-network
-  name: The Things Network / The Things Stack
-  description: The Things Network (TTN) is a free, community-operated global LoRaWAN network with over 280,000 members and 21,000 gateways across 153 countries. It runs on The Things Stack, the open-source (Apache-2.0) LoRaWAN Network Server developed and maintained by The Things Industries. The Things Stack v3 i…
-  api_count: 58
-  score_band: developing
-  score_composite: 53.1
-  shared: 1
-- slug: tago-io
-  name: TagoIO
-  description: TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO…
-  api_count: 22
-  score_band: developing
-  score_composite: 52.3
+  score_band: strong
+  score_composite: 55.7
   shared: 1
 - slug: itron
   name: Itron
   description: 'Itron, Inc. (NASDAQ: ITRI) is a Liberty Lake, Washington–based industrial technology company providing smart-meter, grid-edge, and IoT infrastructure to electric, gas, and water utilities and cities. Itron''s self-described mission is "Creating a more resourceful world" and the company reports 7,700…'
   api_count: 11
   score_band: developing
-  score_composite: 50.4
+  score_composite: 53.2
+  shared: 1
+- slug: tago-io
+  name: TagoIO
+  description: TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO…
+  api_count: 22
+  score_band: developing
+  score_composite: 53.0
+  shared: 1
+- slug: esper
+  name: Esper
+  description: Esper is the DevOps platform for connected devices, providing cloud-based Android (and edge) device management, application deployment, and remote orchestration for dedicated-device fleets. The Esper Manage REST API lets developers programmatically provision, monitor, and control Android-based dedi…
+  api_count: 13
+  score_band: developing
+  score_composite: 49.9
   shared: 1
 - slug: spectrumoutage-api
   name: SpectrumOutage API
@@ -98,13 +105,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 47.7
-  shared: 1
-- slug: esper
-  name: Esper
-  description: Esper is the DevOps platform for connected devices, providing cloud-based Android (and edge) device management, application deployment, and remote orchestration for dedicated-device fleets. The Esper Manage REST API lets developers programmatically provision, monitor, and control Android-based dedi…
-  api_count: 13
-  score_band: developing
-  score_composite: 47.4
   shared: 1
 - slug: bear-robotics
   name: Bear Robotics
@@ -120,6 +120,13 @@ providers:
   score_band: developing
   score_composite: 46.9
   shared: 1
+- slug: weavix
+  name: Weavix
+  description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
+  api_count: 8
+  score_band: developing
+  score_composite: 42.6
+  shared: 1
 - slug: bitfinder
   name: Bitfinder
   description: Bitfinder, Inc., doing business as Awair, builds indoor air quality (IAQ) monitors and a cloud platform used across homes, offices, schools, and commercial spaces. Its devices (Awair Element, Awair Omni, and 2nd Edition) measure the Awair Score along with temperature, humidity, CO2, chemicals (VOC)…
@@ -131,13 +138,6 @@ providers:
   name: Afero
   description: 'Afero, Inc. is a Los Altos, California IoT platform company founded in 2014 by Joe Britt and Shin Matsumura. Afero ships an end-to-end connected-product stack: ASR secure radio modules with a hardware root of trust and an embedded Hardware Security Module, the afLib MCU libraries and Secure Linux D…'
   api_count: 4
-  score_band: developing
-  score_composite: 41.1
-  shared: 1
-- slug: weavix
-  name: Weavix
-  description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
-  api_count: 8
   score_band: developing
   score_composite: 41.1
   shared: 1
@@ -197,6 +197,13 @@ providers:
   score_band: thin
   score_composite: 31.9
   shared: 1
+- slug: internet-engineering-task-force
+  name: Internet Engineering Task Force
+  description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of the internet. The IETF publishes freely accessible RFCs (Reque…
+  api_count: 6
+  score_band: thin
+  score_composite: 31.1
+  shared: 1
 - slug: telemetron-ai
   name: Telemetron
   description: Telemetron is an AI-powered customer support platform for hardware companies, backed by Y Combinator. It connects to IoT devices in real time, correlates device telemetry with customer records, diagnoses issues with AI, and resolves support tickets automatically. Its External API (ext-v1) lets hard…
@@ -210,13 +217,6 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 31.0
-  shared: 1
-- slug: cosmoplat
-  name: Cosmoplat
-  description: COSMOPlat (卡奥斯 COSMOPlat) is the industrial internet platform incubated by Haier Group and operated by COSMOPlat Digital Technology (Qingdao) Co., Ltd. Launched in 2017, it was China's first self-developed industrial internet platform built around mass customization, digitally integrating user inte…
-  api_count: 2
-  score_band: thin
-  score_composite: 30.1
   shared: 1
 related:
 - slug: network
@@ -240,7 +240,7 @@ related:
 overview: 'Internet of Things is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [internet-of-things.apievangelist.com](https://internet-of-things.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Shodan, Adafruit IO, Cumulocity, ThingSpeak, Particle, Losant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Losant, Shodan, Adafruit IO, Cumulocity, Particle, ThingSpeak, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Network, Embedded iPaaS, Analysis, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'

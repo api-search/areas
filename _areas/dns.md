@@ -20,7 +20,14 @@ providers:
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 15
   score_band: strong
-  score_composite: 63.6
+  score_composite: 64.5
+  shared: 1
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 87
+  score_band: strong
+  score_composite: 63.4
   shared: 1
 - slug: apifreaks-api-hub-for-developers
   name: APIFreaks - API Hub for Developers
@@ -29,19 +36,12 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 87
-  score_band: strong
-  score_composite: 62.0
-  shared: 1
 - slug: cisco-umbrella
   name: Cisco Umbrella
   description: 'Cisco Umbrella, built on the OpenDNS platform Cisco acquired in 2015 and now sold within Cisco Secure Access, is Cisco''s cloud-delivered security service: DNS-layer security, secure web gateway, cloud-delivered firewall, CASB (Cisco Cloudlock) and remote browser isolation. Cisco publishes a full OA…'
   api_count: 26
   score_band: strong
-  score_composite: 61.1
+  score_composite: 61.0
   shared: 1
 - slug: amazon-route-53
   name: Amazon Route 53
@@ -57,6 +57,13 @@ providers:
   score_band: developing
   score_composite: 51.9
   shared: 1
+- slug: infoblox
+  name: Infoblox
+  description: Infoblox is a networking and cybersecurity company providing DDI (DNS, DHCP, and IPAM) solutions and protective DNS-layer security services. Its product portfolio spans the Universal DDI suite for unified hybrid and multi-cloud network services, NIOS DDI for on-premises deployments, NIOS-X as a Ser…
+  api_count: 21
+  score_band: developing
+  score_composite: 51.1
+  shared: 1
 - slug: domaintools
   name: DomainTools
   description: DomainTools is a domain and DNS intelligence company whose APIs power threat investigation, hunting, and monitoring for security teams. Its product surface spans Iris Investigate (pivot-based domain investigation), Iris Enrich (bulk domain enrichment), and Iris Detect (brand-infringement monitoring…
@@ -64,12 +71,12 @@ providers:
   score_band: developing
   score_composite: 50.5
   shared: 1
-- slug: infoblox
-  name: Infoblox
-  description: Infoblox is a networking and cybersecurity company providing DDI (DNS, DHCP, and IPAM) solutions and protective DNS-layer security services. Its product portfolio spans the Universal DDI suite for unified hybrid and multi-cloud network services, NIOS DDI for on-premises deployments, NIOS-X as a Ser…
-  api_count: 21
+- slug: amazon-route53-resolver
+  name: Amazon Route 53 Resolver
+  description: Amazon Route 53 Resolver provides DNS resolution for hybrid cloud environments, enabling DNS queries between your VPCs and on-premises networks. It allows you to configure DNS forwarding rules, manage resolver endpoints, and set up conditional forwarding to resolve domain names across your hybrid i…
+  api_count: 63
   score_band: developing
-  score_composite: 49.6
+  score_composite: 49.9
   shared: 1
 - slug: uchecker
   name: uChecker
@@ -85,12 +92,12 @@ providers:
   score_band: developing
   score_composite: 47.9
   shared: 1
-- slug: amazon-route53-resolver
-  name: Amazon Route 53 Resolver
-  description: Amazon Route 53 Resolver provides DNS resolution for hybrid cloud environments, enabling DNS queries between your VPCs and on-premises networks. It allows you to configure DNS forwarding rules, manage resolver endpoints, and set up conditional forwarding to resolve domain names across your hybrid i…
-  api_count: 63
+- slug: amazon-cloud-map
+  name: Amazon Cloud Map
+  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
+  api_count: 3
   score_band: developing
-  score_composite: 45.5
+  score_composite: 44.6
   shared: 1
 - slug: dnsfilter
   name: DNSFilter
@@ -106,12 +113,12 @@ providers:
   score_band: developing
   score_composite: 42.9
   shared: 1
-- slug: amazon-cloud-map
-  name: Amazon Cloud Map
-  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
-  api_count: 3
+- slug: hetzner
+  name: Hetzner
+  description: Hetzner Online is a German hosting provider offering cloud servers, dedicated servers, and domain services. Hetzner provides a Cloud API for programmatic management of cloud resources, as well as a DNS API for managing DNS zones and records.
+  api_count: 32
   score_band: developing
-  score_composite: 41.0
+  score_composite: 41.2
   shared: 1
 - slug: done
   name: _done
@@ -141,6 +148,13 @@ providers:
   score_band: developing
   score_composite: 39.8
   shared: 1
+- slug: coredns
+  name: CoreDNS
+  description: CoreDNS is a CNCF graduated DNS server written in Go that serves as the default DNS service for Kubernetes clusters. It is flexible and extensible through a plugin architecture, supporting DNS-based service discovery, forwarding, caching, and integration with etcd, Kubernetes, and other backends. C…
+  api_count: 5
+  score_band: developing
+  score_composite: 39.6
+  shared: 1
 - slug: tucows
   name: Tucows
   description: Tucows is one of the world's largest internet-services and domain companies. Its OpenSRS division runs a wholesale reseller platform for domain-name registration, DNS, TLS/SSL certificates and hosted email, exposed through the OpenSRS API (an XML-over-HTTPS reseller protocol) and the OpenSRS Mail A…
@@ -154,20 +168,6 @@ providers:
   api_count: 33
   score_band: developing
   score_composite: 39.5
-  shared: 1
-- slug: hetzner
-  name: Hetzner
-  description: Hetzner Online is a German hosting provider offering cloud servers, dedicated servers, and domain services. Hetzner provides a Cloud API for programmatic management of cloud resources, as well as a DNS API for managing DNS zones and records.
-  api_count: 32
-  score_band: thin
-  score_composite: 38.8
-  shared: 1
-- slug: coredns
-  name: CoreDNS
-  description: CoreDNS is a CNCF graduated DNS server written in Go that serves as the default DNS service for Kubernetes clusters. It is flexible and extensible through a plugin architecture, supporting DNS-based service discovery, forwarding, caching, and integration with etcd, Kubernetes, and other backends. C…
-  api_count: 5
-  score_band: thin
-  score_composite: 38.2
   shared: 1
 - slug: completedns
   name: CompleteDNS
@@ -183,12 +183,26 @@ providers:
   score_band: thin
   score_composite: 37.1
   shared: 1
+- slug: quantcdn
+  name: QuantCDN
+  description: QuantCDN is an edge delivery, static site hosting, and cloud applications platform that lets teams generate, host, and maintain static and dynamic versions of their websites with a global CDN, WAF, edge functions, key-value storage, AI inference, and DNS management.
+  api_count: 38
+  score_band: thin
+  score_composite: 36.4
+  shared: 1
 - slug: cpanel
   name: cPanel
   description: cPanel is a web-based control panel that provides a graphical interface and automation tools to simplify the management of web hosting services. cPanel exposes a family of HTTP APIs (UAPI, WHM API 1, and the legacy cPanel API 2) for automating account, domain, email, database, DNS, and server-wide…
   api_count: 7
   score_band: thin
   score_composite: 34.9
+  shared: 1
+- slug: openprovider
+  name: Openprovider
+  description: 'Openprovider is a wholesaler of Internet services and products with a unique platform from which you can find and manage all the products you need: domains, new gTLDs, SSL certificates, licenses for Plesk and Virtuozzo, spam filters, and more.'
+  api_count: 35
+  score_band: thin
+  score_composite: 33.3
   shared: 1
 - slug: nacos
   name: Nacos
@@ -203,20 +217,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 33.0
-  shared: 1
-- slug: openprovider
-  name: Openprovider
-  description: 'Openprovider is a wholesaler of Internet services and products with a unique platform from which you can find and manage all the products you need: domains, new gTLDs, SSL certificates, licenses for Plesk and Virtuozzo, spam filters, and more.'
-  api_count: 35
-  score_band: thin
-  score_composite: 31.4
-  shared: 1
-- slug: gandi
-  name: Gandi
-  description: Gandi is a domain name registrar and web hosting provider. The Gandi v5 Public API exposes domain management, LiveDNS, certificates, email, organization, billing, and hosting capabilities for programmatic use.
-  api_count: 17
-  score_band: thin
-  score_composite: 30.6
   shared: 1
 related:
 - slug: security
@@ -234,13 +234,13 @@ related:
 - slug: containers
   name: Containers
   shared: 1
-- slug: deployment
-  name: Deployment
+- slug: internet-of-things
+  name: Internet of Things
   shared: 1
 overview: 'DNS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [dns.apievangelist.com](https://dns.apievangelist.com).
 
 
-  30 providers on the network work in this area, including WhoisFreaks, Shodan, APIFreaks - API Hub for Developers, Cloudflare, Cisco Umbrella, Amazon Route 53, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including WhoisFreaks, Shodan, Cloudflare, APIFreaks - API Hub for Developers, Cisco Umbrella, Amazon Route 53, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Security, API Evangelist Search, Network, and Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'

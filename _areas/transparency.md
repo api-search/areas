@@ -20,14 +20,14 @@ providers:
   description: CMS Open Payments is the U.S. federal transparency program (run by the Centers for Medicare and Medicaid Services) that publishes payments and transfers of value made by drug and medical device manufacturers and group purchasing organizations to physicians, non-physician practitioners, and teaching…
   api_count: 5
   score_band: thin
-  score_composite: 36.6
+  score_composite: 39.0
   shared: 1
 - slug: freedom-of-information-act
   name: Freedom of Information Act
   description: The Freedom of Information Act (FOIA) API provides access to FOIA request data and related information from federal agencies.
   api_count: 3
   score_band: thin
-  score_composite: 27.6
+  score_composite: 29.5
   shared: 1
 - slug: free-law-project
   name: Free Law Project
@@ -40,8 +40,8 @@ providers:
   name: USAspending.gov
   description: USAspending.gov is the official open data source of federal spending information operated by the U.S. Department of the Treasury's Bureau of the Fiscal Service, implementing the DATA Act's transparency mandate. The underlying USAspending API (api.usaspending.gov) is a free, public, unauthenticated…
   api_count: 9
-  score_band: emerging
-  score_composite: 24.8
+  score_band: thin
+  score_composite: 26.2
   shared: 1
 related: []
 overview: 'Transparency is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [transparency.apievangelist.com](https://transparency.apievangelist.com).

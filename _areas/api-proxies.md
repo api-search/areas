@@ -64,6 +64,13 @@ providers:
   score_band: thin
   score_composite: 36.3
   shared: 1
+- slug: scrapfly
+  name: Scrapfly
+  description: Scrapfly is a web scraping API platform that enables effortless collection of web data with battle-tested APIs that scale. It provides capabilities for scraping web pages, capturing screenshots, and extracting structured data with AI assistance to handle anti-bot measures and JavaScript rendering.…
+  api_count: 7
+  score_band: thin
+  score_composite: 35.9
+  shared: 1
 - slug: snapapi-pics
   name: SnapAPI
   description: SnapAPI is a REST API for turning any URL into visual captures or structured data with a single call - screenshots (PNG, JPEG, WebP, AVIF), full-page PDFs, scroll videos (MP4, WebM, GIF), markdown/text/metadata extraction tuned for AI pipelines, and multi-page scraping with anti-bot stealth and pro…
@@ -78,26 +85,19 @@ providers:
   score_band: thin
   score_composite: 33.7
   shared: 1
-- slug: scrapfly
-  name: Scrapfly
-  description: Scrapfly is a web scraping API platform that enables effortless collection of web data with battle-tested APIs that scale. It provides capabilities for scraping web pages, capturing screenshots, and extracting structured data with AI assistance to handle anti-bot measures and JavaScript rendering.…
-  api_count: 7
-  score_band: thin
-  score_composite: 33.3
-  shared: 1
 - slug: scraper-api
   name: ScraperAPI
   description: ScraperAPI is a web scraping API that manages proxies, browsers, and CAPTCHAs to extract HTML from any web page with a simple API call.
   api_count: 3
-  score_band: emerging
-  score_composite: 26.1
+  score_band: thin
+  score_composite: 28.4
   shared: 1
 - slug: scrapingant
   name: ScrapingAnt
   description: ScrapingAnt is a web scraping API service that handles proxy rotation, headless browsers, and CAPTCHA solving for reliable web data extraction.
   api_count: 2
-  score_band: emerging
-  score_composite: 25.4
+  score_band: thin
+  score_composite: 27.8
   shared: 1
 related:
 - slug: scraping

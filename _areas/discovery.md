@@ -19,29 +19,36 @@ providers:
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 39
+  score_band: exemplar
+  score_composite: 67.1
+  shared: 1
+- slug: algolia
+  name: Algolia
+  description: Algolia is a hosted search and discovery platform that delivers fast, typo-tolerant search, browse, recommendations and personalization through a suite of REST APIs and edge-distributed infrastructure. It powers search experiences for ecommerce, media, SaaS and content sites, pairing a synchronous…
+  api_count: 15
   score_band: strong
-  score_composite: 64.5
+  score_composite: 63.6
   shared: 1
 - slug: tmdb
   name: The Movie Database
   description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
   api_count: 1
-  score_band: developing
-  score_composite: 52.2
+  score_band: strong
+  score_composite: 54.3
   shared: 1
 - slug: microsoft-azure-migrate
   name: Azure Migrate
   description: Azure Migrate provides a unified platform for discovering, assessing, and migrating on-premises servers, infrastructure, applications, databases, and data to Azure. Its REST APIs enable programmatic management of migration projects, discovery, assessment, and replication workflows for VMs, database…
   api_count: 9
   score_band: developing
-  score_composite: 48.9
+  score_composite: 50.4
   shared: 1
 - slug: amazon-resource-explorer
   name: Amazon Resource Explorer
   description: AWS Resource Explorer is a resource search and discovery service. With Resource Explorer, you can explore your resources across AWS Regions using an internet search-like experience. It provides a unified view of your AWS resources and helps you understand your resource inventory.
   api_count: 5
   score_band: developing
-  score_composite: 46.7
+  score_composite: 48.8
   shared: 1
 - slug: google-cloud-migration-center
   name: Google Cloud Migration Center
@@ -104,35 +111,35 @@ providers:
   description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked set of MCP servers, agent cards, skills, workflows and APIs i…
   api_count: 2
   score_band: emerging
-  score_composite: 24.0
+  score_composite: 25.9
   shared: 1
 - slug: amazon-application-discovery-service
   name: Amazon Application Discovery Service
   description: Amazon Application Discovery Service helps enterprise customers plan application migration projects by automatically identifying servers, virtual machines, software, and software dependencies running in their on-premises data centers.
   api_count: 6
   score_band: emerging
-  score_composite: 21.8
-  shared: 1
-- slug: algolia
-  name: Algolia
-  description: Algolia is a hosted search and discovery platform that delivers fast, typo-tolerant search, browse, recommendations, and personalization through a suite of REST APIs and edge-distributed infrastructure. It powers search experiences for ecommerce, media, SaaS, and content sites, pairing a synchronou…
-  api_count: 11
-  score_band: emerging
-  score_composite: 20.0
+  score_composite: 24.3
   shared: 1
 - slug: tel-aviv-university
   name: Tel Aviv University
   description: 'Tel Aviv University (TAU) is Israel''s largest public research university, located in Tel Aviv, and is ranked #209 in the QS World University Rankings 2025. TAU does not publish a centralized, public developer portal or open-data API program. Its confirmed machine-accessible surface is limited to st…'
   api_count: 3
   score_band: emerging
-  score_composite: 17.3
+  score_composite: 19.2
   shared: 1
 - slug: apinity-io
   name: Apinity.io
   description: Apinity empowers organisations to run their compliant API marketplace that simplifies integration, drives adoption, and secures governance. The platform provides tools for managing API lifecycle, enabling API discovery, enforcing compliance policies, and facilitating secure API-driven integrations…
   api_count: 1
   score_band: emerging
-  score_composite: 17.2
+  score_composite: 19.1
+  shared: 1
+- slug: launching-next
+  name: Launching Next
+  description: Launching Next is a startup discovery and submission platform that publishes daily listings of new and trending tech startups and side projects worldwide. Founded as a long-running startup directory, the platform has featured over 45,000 startups and side projects, making it a go-to resource for fo…
+  api_count: 1
+  score_band: emerging
+  score_composite: 13.9
   shared: 1
 - slug: qidz-holding
   name: QiDZ Holding
@@ -168,13 +175,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 12.3
-  shared: 1
-- slug: launching-next
-  name: Launching Next
-  description: Launching Next is a startup discovery and submission platform that publishes daily listings of new and trending tech startups and side projects worldwide. Founded as a long-running startup directory, the platform has featured over 45,000 startups and side projects, making it a go-to resource for fo…
-  api_count: 1
-  score_band: emerging
-  score_composite: 12.0
   shared: 1
 - slug: podchaser
   name: Podchaser
@@ -222,11 +222,11 @@ related:
 - slug: migration
   name: Migration
   shared: 3
-- slug: ai-automation
-  name: AI Automation
-  shared: 1
 - slug: search
   name: API Evangelist Search
+  shared: 2
+- slug: ai-automation
+  name: AI Automation
   shared: 1
 - slug: testing
   name: Testing
@@ -234,8 +234,8 @@ related:
 overview: 'API Evangelist Discovery is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [discovery.apievangelist.com](https://discovery.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Taboola, Postman, The Movie Database, Azure Migrate, Amazon Resource Explorer, Google Cloud Migration Center, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Taboola, Postman, Algolia, The Movie Database, Azure Migrate, Amazon Resource Explorer, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, AI Automation, API Evangelist Search, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, API Evangelist Search, AI Automation, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

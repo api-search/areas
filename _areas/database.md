@@ -6,7 +6,7 @@ description: An index and topic collection covering managed databases and databa
 area_url: https://database.apievangelist.com
 area_host: database.apievangelist.com
 icon: https://database.apievangelist.com/icon-thumb.png
-provider_count: 181
+provider_count: 182
 providers:
 - slug: notion
   name: Notion
@@ -22,6 +22,27 @@ providers:
   score_band: strong
   score_composite: 63.6
   shared: 1
+- slug: amazon-dynamodb
+  name: Amazon DynamoDB
+  description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-value and document data models.
+  api_count: 5
+  score_band: strong
+  score_composite: 63.2
+  shared: 1
+- slug: amazon-keyspaces
+  name: Amazon Keyspaces
+  description: Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra-compatible database service that lets you run Cassandra workloads on AWS without managing servers or software.
+  api_count: 2
+  score_band: strong
+  score_composite: 62.7
+  shared: 1
+- slug: amazon-neptune
+  name: Amazon Neptune
+  description: Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. It supports property graph and RDF models, with multiple query languages including Gremlin, SPARQL, and openCypher.
+  api_count: 29
+  score_band: strong
+  score_composite: 62.7
+  shared: 1
 - slug: pingcap
   name: PingCAP
   description: PingCAP is the company behind TiDB, an open-source, MySQL-compatible distributed SQL database built for hybrid transactional and analytical processing (HTAP), horizontal scale-out, Raft-based strong consistency, and vector search for AI workloads. PingCAP operates TiDB Cloud, the fully managed DBaa…
@@ -29,19 +50,19 @@ providers:
   score_band: strong
   score_composite: 61.4
   shared: 1
-- slug: amazon-keyspaces
-  name: Amazon Keyspaces
-  description: Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra-compatible database service that lets you run Cassandra workloads on AWS without managing servers or software.
-  api_count: 2
+- slug: amazon-documentdb
+  name: Amazon DocumentDB
+  description: Amazon DocumentDB is a fully managed, MongoDB-compatible document database service that makes it easy to set up, operate, and scale MongoDB-compatible databases in the cloud. DocumentDB is designed from the ground up to give you the performance, scalability, and availability you need when operating…
+  api_count: 4
   score_band: strong
-  score_composite: 61.3
+  score_composite: 61.1
   shared: 1
-- slug: amazon-neptune
-  name: Amazon Neptune
-  description: Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. It supports property graph and RDF models, with multiple query languages including Gremlin, SPARQL, and openCypher.
-  api_count: 29
+- slug: amazon-elasticache
+  name: Amazon ElastiCache
+  description: Amazon ElastiCache is a fully managed in-memory caching service supporting Redis and Memcached. ElastiCache makes it easy to deploy, operate, and scale popular open-source compatible in-memory data stores, improving the performance of web applications.
+  api_count: 4
   score_band: strong
-  score_composite: 59.4
+  score_composite: 60.1
   shared: 1
 - slug: abloatai
   name: Ablo
@@ -49,6 +70,13 @@ providers:
   api_count: 8
   score_band: strong
   score_composite: 59.0
+  shared: 1
+- slug: insforge
+  name: Insforge
+  description: InsForge is an open-source (Apache-2.0), agent-native cloud infrastructure platform built so that AI coding agents can provision and operate an entire backend end to end through a CLI and packaged agent skills instead of a human clicking through a dashboard. A single project bundles a Postgres data…
+  api_count: 11
+  score_band: strong
+  score_composite: 57.8
   shared: 1
 - slug: vividcortex
   name: VividCortex
@@ -64,10 +92,10 @@ providers:
   score_band: strong
   score_composite: 57.2
   shared: 1
-- slug: amazon-dynamodb
+- slug: dynamodb
   name: Amazon DynamoDB
-  description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-value and document data models.
-  api_count: 5
+  description: A fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
+  api_count: 14
   score_band: strong
   score_composite: 56.6
   shared: 1
@@ -78,19 +106,26 @@ providers:
   score_band: strong
   score_composite: 56.5
   shared: 1
-- slug: insforge
-  name: Insforge
-  description: InsForge is an open-source (Apache-2.0), agent-native cloud infrastructure platform built so that AI coding agents can provision and operate an entire backend end to end through a CLI and packaged agent skills instead of a human clicking through a dashboard. A single project bundles a Postgres data…
-  api_count: 11
+- slug: oracle
+  name: Oracle
+  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
+  api_count: 378
   score_band: strong
-  score_composite: 56.4
+  score_composite: 56.3
   shared: 1
-- slug: amazon-elasticache
-  name: Amazon ElastiCache
-  description: Amazon ElastiCache is a fully managed in-memory caching service supporting Redis and Memcached. ElastiCache makes it easy to deploy, operate, and scale popular open-source compatible in-memory data stores, improving the performance of web applications.
-  api_count: 4
+- slug: aifordatabase
+  name: AI for Database
+  description: AI for Database is a natural-language data layer for operational databases, built by Wavicle.tech. It connects read-only to PostgreSQL, MySQL, MariaDB, SQL Server, MongoDB, SQLite and Google Sheets, translates plain-English questions into SQL, returns the SQL alongside the answer, pins results as s…
+  api_count: 1
   score_band: strong
-  score_composite: 55.1
+  score_composite: 55.8
+  shared: 1
+- slug: oracle-goldengate
+  name: Oracle GoldenGate
+  description: Oracle GoldenGate enables real-time data integration and replication in heterogeneous IT environments. These APIs provide programmatic access to manage and monitor GoldenGate deployments, processes, and configurations.
+  api_count: 37
+  score_band: strong
+  score_composite: 55.2
   shared: 1
 - slug: yugabyte
   name: Yugabyte
@@ -106,12 +141,12 @@ providers:
   score_band: strong
   score_composite: 54.6
   shared: 1
-- slug: amazon-documentdb
-  name: Amazon DocumentDB
-  description: Amazon DocumentDB is a fully managed, MongoDB-compatible document database service that makes it easy to set up, operate, and scale MongoDB-compatible databases in the cloud. DocumentDB is designed from the ground up to give you the performance, scalability, and availability you need when operating…
-  api_count: 4
-  score_band: strong
-  score_composite: 54.5
+- slug: scylladb
+  name: ScyllaDB
+  description: ScyllaDB is a high-performance distributed NoSQL database engineered for real-time, data-intensive applications, offering close-to-the-metal architecture with predictable single-digit millisecond latencies and millions of operations per second. It is fully compatible with Apache Cassandra's CQL int…
+  api_count: 9
+  score_band: developing
+  score_composite: 53.9
   shared: 1
 - slug: influxdata
   name: InfluxData
@@ -120,19 +155,19 @@ providers:
   score_band: developing
   score_composite: 53.2
   shared: 1
-- slug: scylladb
-  name: ScyllaDB
-  description: ScyllaDB is a high-performance distributed NoSQL database engineered for real-time, data-intensive applications, offering close-to-the-metal architecture with predictable single-digit millisecond latencies and millions of operations per second. It is fully compatible with Apache Cassandra's CQL int…
-  api_count: 9
+- slug: amazon-simpledb
+  name: Amazon SimpleDB
+  description: Amazon SimpleDB is a highly available NoSQL data store that offloads the work of database administration. It provides simple and powerful data storage and querying capabilities to enable you to build web applications with structured data storage without the overhead of database administration.
+  api_count: 10
   score_band: developing
-  score_composite: 53.2
+  score_composite: 52.9
   shared: 1
-- slug: oracle
-  name: Oracle
-  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
-  api_count: 378
+- slug: cockroach-labs
+  name: Cockroach Labs
+  description: Cockroach Labs is the New York-based software company that builds CockroachDB, a cloud-native, distributed, PostgreSQL-compatible SQL database. CockroachDB is offered as Cockroach Labs' fully managed cloud service (Basic, Standard, and Advanced plans) and as self-hosted software. The company provid…
+  api_count: 26
   score_band: developing
-  score_composite: 53.0
+  score_composite: 51.5
   shared: 1
 - slug: nocodb
   name: NocoDB
@@ -145,13 +180,6 @@ providers:
   name: YugabyteDB
   description: YugabyteDB is a distributed PostgreSQL-compatible SQL database for cloud-native and mission-critical applications. It is delivered as open-source YugabyteDB Core, the fully managed YugabyteDB Aeon DBaaS, and the self-managed YugabyteDB Anywhere control plane, with REST APIs for programmatic managem…
   api_count: 73
-  score_band: developing
-  score_composite: 51.0
-  shared: 1
-- slug: oracle-goldengate
-  name: Oracle GoldenGate
-  description: Oracle GoldenGate enables real-time data integration and replication in heterogeneous IT environments. These APIs provide programmatic access to manage and monitor GoldenGate deployments, processes, and configurations.
-  api_count: 37
   score_band: developing
   score_composite: 50.9
   shared: 1
@@ -169,6 +197,20 @@ providers:
   score_band: developing
   score_composite: 50.6
   shared: 1
+- slug: oracle-database
+  name: Oracle Database
+  description: APIs and interfaces for Oracle Database management, querying, and administration.
+  api_count: 29
+  score_band: developing
+  score_composite: 50.6
+  shared: 1
+- slug: microsoft-azure-mysql
+  name: Azure Database for MySQL
+  description: Azure Database for MySQL is a fully managed relational database service based on the open-source MySQL community edition. Its REST APIs enable management of flexible servers, single servers, databases, firewall and network rules, configurations, replicas, and backups with built-in high availability…
+  api_count: 10
+  score_band: developing
+  score_composite: 50.4
+  shared: 1
 - slug: ocient
   name: Ocient
   description: Ocient is a Chicago-based data platform company founded in 2016 that builds OcientAIQ, a unified data platform for petabyte-scale analytics and production AI. Its Compute-Adjacent Storage Architecture (CASA) colocates NVMe storage with compute so that ingest, query optimization, machine learning, g…
@@ -176,60 +218,21 @@ providers:
   score_band: developing
   score_composite: 50.4
   shared: 1
-- slug: cockroach-labs
-  name: Cockroach Labs
-  description: Cockroach Labs is the New York-based software company that builds CockroachDB, a cloud-native, distributed, PostgreSQL-compatible SQL database. CockroachDB is offered as Cockroach Labs' fully managed cloud service (Basic, Standard, and Advanced plans) and as self-hosted software. The company provid…
-  api_count: 26
-  score_band: developing
-  score_composite: 50.1
-  shared: 1
-- slug: arangodb
-  name: ArangoDB
-  description: ArangoDB (now operating as Arango) is the company behind the open-source, graph-native multi-model database of the same name, which unifies graph, document, key/value, vector and full-text search in a single core with one declarative query language, AQL. The database exposes its entire feature surf…
-  api_count: 24
-  score_band: developing
-  score_composite: 48.9
-  shared: 1
-- slug: microsoft-azure-mysql
-  name: Azure Database for MySQL
-  description: Azure Database for MySQL is a fully managed relational database service based on the open-source MySQL community edition. Its REST APIs enable management of flexible servers, single servers, databases, firewall and network rules, configurations, replicas, and backups with built-in high availability…
-  api_count: 10
-  score_band: developing
-  score_composite: 48.9
-  shared: 1
-- slug: kurrent
-  name: Kurrent
-  description: Kurrent — formerly Event Store Ltd — builds KurrentDB, an event-native database purpose-built to store, process and deliver application state changes as an immutable, append-only log of events. Where a traditional CRUD database overwrites rows and discards the history that produced them, KurrentDB…
-  api_count: 9
-  score_band: developing
-  score_composite: 48.9
-  shared: 1
-- slug: google-cloud-bigtable
-  name: Google Cloud Bigtable
-  description: Google Cloud Bigtable is a fully managed, scalable NoSQL database service designed for large analytical and operational workloads. It offers consistent sub-10ms latency and seamless scalability, making it ideal for time-series data, IoT, ad tech, fintech, and machine learning applications. Bigtable…
-  api_count: 3
-  score_band: developing
-  score_composite: 48.8
-  shared: 1
-- slug: google-cloud-sql
-  name: Google Cloud SQL
-  description: Google Cloud SQL is a fully managed relational database service that supports MySQL, PostgreSQL, and SQL Server. It handles routine database tasks such as provisioning, replication, backups, and failover, allowing developers to focus on application development. Cloud SQL provides high availability,…
-  api_count: 4
-  score_band: developing
-  score_composite: 48.6
-  shared: 1
 related:
-- slug: monitoring
-  name: Monitoring
-  shared: 2
 - slug: serverless
   name: Serverless
-  shared: 2
+  shared: 3
 - slug: gateway
   name: Gateway
   shared: 1
 - slug: caching
   name: Caching
+  shared: 1
+- slug: webhooks
+  name: Webhooks
+  shared: 1
+- slug: monitoring
+  name: Monitoring
   shared: 1
 - slug: observability
   name: Observability
@@ -237,8 +240,8 @@ related:
 overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [database.apievangelist.com](https://database.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Notion, Bubble, PingCAP, Amazon Keyspaces, Amazon Neptune, Ablo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Notion, Bubble, Amazon DynamoDB, Amazon Keyspaces, Amazon Neptune, PingCAP, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Monitoring, Serverless, Gateway, and Caching. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Serverless, Gateway, Caching, and Webhooks. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

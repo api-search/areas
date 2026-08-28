@@ -27,7 +27,7 @@ providers:
   description: Doctave is a platform for building modern technical documentation sites. Bring your guides, your API references and SDK documentation, and build developer portals that make your product stand out. It supports a docs-as-code workflow powered by Markdown and OpenAPI, with Git-friendly version control…
   api_count: 4
   score_band: thin
-  score_composite: 34.6
+  score_composite: 33.8
   shared: 1
 - slug: homes-com
   name: Homes.com
@@ -41,7 +41,7 @@ providers:
   description: Developer portals with multiple api gateways. No vendor lock-in. Enjoy the freedom of an open source developer portal that can connect to many API gateways.
   api_count: 1
   score_band: minimal
-  score_composite: 8.6
+  score_composite: 10.5
   shared: 1
 - slug: customer-portals
   name: Customer Portals

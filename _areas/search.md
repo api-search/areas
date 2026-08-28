@@ -6,21 +6,21 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 177
+provider_count: 184
 providers:
 - slug: bloomreach
   name: Bloomreach
   description: Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs f…
   api_count: 24
   score_band: exemplar
-  score_composite: 73.7
+  score_composite: 74.3
   shared: 1
 - slug: google-search-console
   name: Google Search Console
   description: 'Google Search Console gives site owners programmatic access to how their site appears in Google Search. Three separately versioned Google APIs make up the surface: the Search Console API for search analytics, sitemaps, site management and URL inspection; the URL Testing Tools API for the mobile-fri…'
   api_count: 6
   score_band: exemplar
-  score_composite: 67.1
+  score_composite: 69.7
   shared: 1
 - slug: google-indexing
   name: Google Indexing
@@ -32,6 +32,13 @@ providers:
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
+  api_count: 15
+  score_band: strong
+  score_composite: 64.5
+  shared: 1
+- slug: algolia
+  name: Algolia
+  description: Algolia is a hosted search and discovery platform that delivers fast, typo-tolerant search, browse, recommendations and personalization through a suite of REST APIs and edge-distributed infrastructure. It powers search experiences for ecommerce, media, SaaS and content sites, pairing a synchronous…
   api_count: 15
   score_band: strong
   score_composite: 63.6
@@ -71,12 +78,19 @@ providers:
   score_band: strong
   score_composite: 57.9
   shared: 1
+- slug: amazon-cloudsearch
+  name: Amazon CloudSearch
+  description: Amazon CloudSearch is a managed search service that makes it easy to set up, manage, and scale a search solution for your website or application. Supports full-text search, Boolean search, faceted search, autocomplete, geospatial search, and 34 languages.
+  api_count: 2
+  score_band: strong
+  score_composite: 57.5
+  shared: 1
 - slug: insider
   name: Insider
   description: Insider (rebranded Insider One; useinsider.com now redirects to insiderone.com) is an AI-native customer engagement and personalization platform used by 2,000+ global brands. It unifies a Customer Data Platform, cross-channel journey orchestration (Architect), personalization, predictive segmentati…
   api_count: 19
   score_band: strong
-  score_composite: 57.6
+  score_composite: 57.5
   shared: 1
 - slug: sylvia-api
   name: Sylvia API
@@ -85,12 +99,26 @@ providers:
   score_band: strong
   score_composite: 57.5
   shared: 1
+- slug: amazon-opensearch-service
+  name: Amazon OpenSearch Service
+  description: Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters for log analytics, full-text search, application monitoring, and more.
+  api_count: 1
+  score_band: strong
+  score_composite: 56.3
+  shared: 1
 - slug: vectara
   name: Vectara
   description: Vectara is a Retrieval Augmented Generation (RAG) as a service platform that provides grounded generative AI for enterprises. The API-first platform exposes a unified REST API v2 for managing corpora, ingesting documents, performing semantic and hybrid search, generating answers with hallucination…
   api_count: 9
   score_band: strong
   score_composite: 56.2
+  shared: 1
+- slug: browserless
+  name: Browserless
+  description: Browserless is a cloud browser-automation platform that runs managed Chromium, Chrome, Edge, Firefox, and WebKit browsers for Puppeteer, Playwright, and Selenium clients, plus a GraphQL-based stealth automation layer (BrowserQL) and a family of REST APIs for screenshots, PDFs, content scraping, fun…
+  api_count: 3
+  score_band: strong
+  score_composite: 55.6
   shared: 1
 - slug: mixedbread-ai
   name: Mixedbread
@@ -99,12 +127,19 @@ providers:
   score_band: strong
   score_composite: 55.6
   shared: 1
-- slug: amazon-opensearch-service
-  name: Amazon OpenSearch Service
-  description: Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters for log analytics, full-text search, application monitoring, and more.
+- slug: alphasense
+  name: AlphaSense
+  description: AlphaSense is an AI-powered market intelligence and search platform used by hedge funds, banks, corporates, consulting firms, and law firms to accelerate research and decision-making. The platform unifies 500M+ public and private documents - SEC filings, broker research from 1,500+ firms, news, ear…
+  api_count: 18
+  score_band: strong
+  score_composite: 54.7
+  shared: 1
+- slug: tmdb
+  name: The Movie Database
+  description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
   api_count: 1
   score_band: strong
-  score_composite: 54.9
+  score_composite: 54.3
   shared: 1
 - slug: airweave
   name: Airweave
@@ -112,6 +147,13 @@ providers:
   api_count: 5
   score_band: developing
   score_composite: 53.7
+  shared: 1
+- slug: amazon-opensearch
+  name: Amazon OpenSearch Service API
+  description: Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters in the AWS Cloud. It offers visualization capabilities powered by OpenSearch Dashboards and Kibana, and provides direct access to the OpenSearch API so that existing code and applicat…
+  api_count: 5
+  score_band: developing
+  score_composite: 53.6
   shared: 1
 - slug: tako
   name: Tako
@@ -134,20 +176,6 @@ providers:
   score_band: developing
   score_composite: 52.4
   shared: 1
-- slug: tmdb
-  name: The Movie Database
-  description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.2
-  shared: 1
-- slug: dexcare
-  name: DexCare
-  description: DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand,…
-  api_count: 7
-  score_band: developing
-  score_composite: 52.1
-  shared: 1
 - slug: mcp360
   name: MCP360
   description: MCP360 is a hosted unified Model Context Protocol gateway operated by Delta4 Infotech Pvt. Ltd. that gives AI agents access to 38 tool services — 106 individual tools — through a single credentialed endpoint, plus a no-code Custom MCP Builder that wraps any REST API as an MCP server. Every service…
@@ -155,19 +183,12 @@ providers:
   score_band: developing
   score_composite: 51.9
   shared: 1
-- slug: alphasense
-  name: AlphaSense
-  description: AlphaSense is an AI-powered market intelligence and search platform used by hedge funds, banks, corporates, consulting firms, and law firms to accelerate research and decision-making. The platform unifies 500M+ public and private documents - SEC filings, broker research from 1,500+ firms, news, ear…
-  api_count: 18
+- slug: brightedge
+  name: BrightEdge
+  description: BrightEdge is an enterprise SEO and content performance platform, founded in 2007 and headquartered in Silicon Valley, used by thousands of brands and a majority of the Fortune 100. Its products include the DataCube keyword and content data repository, ContentIQ site auditing, Autopilot, Copilot, a…
+  api_count: 45
   score_band: developing
-  score_composite: 51.8
-  shared: 1
-- slug: constructorio
-  name: Constructor.io
-  description: Constructor (Constructor.io) is an AI-powered ecommerce search and product discovery platform for online retailers. Its APIs cover autocomplete/autosuggest, keyword and natural-language search, image search, category browse, recommendations, quizzes, collections, offsite/email discovery, retail med…
-  api_count: 18
-  score_band: developing
-  score_composite: 51.4
+  score_composite: 51.3
   shared: 1
 - slug: aito-technologies
   name: Aito Technologies
@@ -190,35 +211,17 @@ providers:
   score_band: developing
   score_composite: 50.8
   shared: 1
-- slug: tinyfish
-  name: TinyFish
-  description: 'TinyFish provides enterprise infrastructure for AI web agents — a unified platform that lets AI systems interact with the live web at scale. It ships four API surfaces: a Web Agent Automation API that turns natural-language goals into browser automations on real websites (sync, async, SSE-streaming…'
+- slug: dexcare
+  name: DexCare
+  description: DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand,…
   api_count: 7
   score_band: developing
-  score_composite: 50.7
-  shared: 1
-- slug: openserp
-  name: OpenSERP
-  description: OpenSERP is an open-source, self-hostable SERP API that returns structured search results from Google, Bing, Yandex, Baidu, DuckDuckGo and Ecosia through one REST interface, alongside OpenSERP Cloud, a managed pay-as-you-go version of the same API adding page extraction, multi-engine megasearch, im…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.5
-  shared: 1
-- slug: brightedge
-  name: BrightEdge
-  description: BrightEdge is an enterprise SEO and content performance platform, founded in 2007 and headquartered in Silicon Valley, used by thousands of brands and a majority of the Fortune 100. Its products include the DataCube keyword and content data repository, ContentIQ site auditing, Autopilot, Copilot, a…
-  api_count: 45
-  score_band: developing
-  score_composite: 50.3
-  shared: 1
-- slug: amazon-cloudsearch
-  name: Amazon CloudSearch
-  description: Amazon CloudSearch is a managed search service that makes it easy to set up, manage, and scale a search solution for your website or application. Supports full-text search, Boolean search, faceted search, autocomplete, geospatial search, and 34 languages.
-  api_count: 2
-  score_band: developing
-  score_composite: 50.2
+  score_composite: 50.8
   shared: 1
 related:
+- slug: discovery
+  name: API Evangelist Discovery
+  shared: 2
 - slug: dns
   name: DNS
   shared: 2
@@ -227,9 +230,6 @@ related:
   shared: 1
 - slug: scraping
   name: Scraping
-  shared: 1
-- slug: discovery
-  name: API Evangelist Discovery
   shared: 1
 - slug: developer-experience
   name: Developer Experience
@@ -240,8 +240,8 @@ related:
 overview: 'API Evangelist Search is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [search.apievangelist.com](https://search.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Bloomreach, Google Search Console, Google Indexing, Shodan, Clerk.io, Serper, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Bloomreach, Google Search Console, Google Indexing, Shodan, Algolia, Clerk.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: DNS, Network, Scraping, and API Evangelist Discovery. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Discovery, DNS, Network, and Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

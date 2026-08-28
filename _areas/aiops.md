@@ -8,6 +8,13 @@ area_host: aiops.apievangelist.com
 icon: https://aiops.apievangelist.com/icon-thumb.png
 provider_count: 48
 providers:
+- slug: honeycomb-io
+  name: Honeycomb
+  description: Honeycomb is an observability platform for understanding complex distributed systems through high-cardinality, high-dimensional telemetry. Founded in 2016 by Charity Majors and Christine Yen and headquartered in San Francisco, it stores traces, logs and metrics as wide events and lets engineers que…
+  api_count: 22
+  score_band: exemplar
+  score_composite: 84.8
+  shared: 1
 - slug: akuity
   name: Akuity
   description: 'Akuity is the enterprise software delivery company founded by the creators of Argo CD and Kargo. The Akuity Platform is its commercial, fully-managed offering: hosted, enterprise-grade Argo CD control planes for GitOps continuous delivery, managed Kargo for multi-stage progressive promotion, the Ak…'
@@ -22,26 +29,19 @@ providers:
   score_band: strong
   score_composite: 65.2
   shared: 1
-- slug: honeycomb-io
-  name: Honeycomb
-  description: ''
-  api_count: 21
-  score_band: strong
-  score_composite: 60.0
-  shared: 1
 - slug: kentik
   name: Kentik
   description: Kentik is a network observability company whose SaaS platform (the Kentik Portal) unifies network flow records, BGP routing, SNMP and streaming telemetry, synthetic tests, and cloud VPC/flow logs into one analytics engine for network performance monitoring, capacity planning, DDoS detection and mit…
   api_count: 24
   score_band: strong
-  score_composite: 55.1
+  score_composite: 56.5
   shared: 1
 - slug: opsmill
   name: OpsMill
   description: OpsMill is the company behind Infrahub, an open-source, graph-based infrastructure data management platform that unifies a source of truth for network, data center, and cloud automation. Infrahub combines a flexible, extensible schema, native version control with branching and merging, and unified…
   api_count: 16
   score_band: developing
-  score_composite: 48.6
+  score_composite: 49.9
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
@@ -57,19 +57,19 @@ providers:
   score_band: developing
   score_composite: 47.3
   shared: 1
+- slug: runwhen
+  name: RunWhen
+  description: RunWhen is an AI platform for building safe-for-production agents that triage alerts, remediate infrastructure, analyze cost, and answer questions about production systems. Engineering teams compose reusable "Skills" (CodeBundles) into agents that run standalone or from Claude, Cursor, and VS Code…
+  api_count: 51
+  score_band: developing
+  score_composite: 47.0
+  shared: 1
 - slug: chamber
   name: Chamber
   description: Chamber is an AIOps control plane for enterprise AI infrastructure (Y Combinator W26, Seattle). Its always-on agent — Chambie — monitors, diagnoses, and automatically resolves GPU workload failures across AWS, GCP, Azure, and on-premise Kubernetes clusters, and optimizes utilization so ML teams can…
   api_count: 4
   score_band: developing
   score_composite: 46.2
-  shared: 1
-- slug: runwhen
-  name: RunWhen
-  description: RunWhen is an AI platform for building safe-for-production agents that triage alerts, remediate infrastructure, analyze cost, and answer questions about production systems. Engineering teams compose reusable "Skills" (CodeBundles) into agents that run standalone or from Claude, Cursor, and VS Code…
-  api_count: 51
-  score_band: developing
-  score_composite: 45.6
   shared: 1
 - slug: deeptrace
   name: Deeptrace
@@ -99,19 +99,19 @@ providers:
   score_band: thin
   score_composite: 34.6
   shared: 1
+- slug: keep
+  name: Keep
+  description: Keep is an open-source AIOps and alert management platform that unifies alerts from any monitoring tool, providing deduplication, correlation, enrichment, and workflow automation across observability, incident response, ticketing, and CMDB systems. The Keep REST API enables programmatic access to a…
+  api_count: 27
+  score_band: thin
+  score_composite: 31.3
+  shared: 1
 - slug: incident-io
   name: Incident.io
   description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
   api_count: 25
   score_band: thin
   score_composite: 29.6
-  shared: 1
-- slug: keep
-  name: Keep
-  description: Keep is an open-source AIOps and alert management platform that unifies alerts from any monitoring tool, providing deduplication, correlation, enrichment, and workflow automation across observability, incident response, ticketing, and CMDB systems. The Keep REST API enables programmatic access to a…
-  api_count: 27
-  score_band: thin
-  score_composite: 29.2
   shared: 1
 - slug: kosmoslabs
   name: Kosmos AI Labs
@@ -234,7 +234,7 @@ related:
 overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aiops.apievangelist.com](https://aiops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Akuity, Logz.io, Honeycomb, Kentik, OpsMill, Virtana (Virtual Instruments), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Honeycomb, Akuity, Logz.io, Kentik, OpsMill, Virtana (Virtual Instruments), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, Logging, Microservices, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'

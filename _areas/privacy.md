@@ -15,6 +15,13 @@ providers:
   score_band: exemplar
   score_composite: 78.6
   shared: 1
+- slug: didomi
+  name: Didomi
+  description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
+  api_count: 37
+  score_band: exemplar
+  score_composite: 77.5
+  shared: 1
 - slug: listrak
   name: Listrak
   description: 'Listrak is a retail customer-engagement platform whose public API surface is eight separate REST APIs served from api.listrak.com: Email (83 operations), SMS (20), Data Import (5), Media (9), Mobile App Push (5), Two-Way SMS (4), Cross Channel custom events (3) and Privacy (2). Together they cover…'
@@ -29,24 +36,17 @@ providers:
   score_band: exemplar
   score_composite: 77.3
   shared: 1
-- slug: didomi
-  name: Didomi
-  description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
-  api_count: 37
+- slug: rybbit
+  name: Rybbit
+  description: Rybbit is an open-source, privacy-friendly web and product analytics platform positioned as a cookieless alternative to Google Analytics and Plausible. It ingests pageviews, custom events, autocaptured interactions, performance samples and JavaScript errors through a lightweight tracking script and…
+  api_count: 3
   score_band: exemplar
-  score_composite: 77.1
+  score_composite: 69.7
   shared: 1
 - slug: blueconic
   name: BlueConic
   description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
   api_count: 28
-  score_band: exemplar
-  score_composite: 68.8
-  shared: 1
-- slug: rybbit
-  name: Rybbit
-  description: Rybbit is an open-source, privacy-friendly web and product analytics platform positioned as a cookieless alternative to Google Analytics and Plausible. It ingests pageviews, custom events, autocaptured interactions, performance samples and JavaScript errors through a lightweight tracking script and…
-  api_count: 3
   score_band: exemplar
   score_composite: 68.8
   shared: 1
@@ -64,26 +64,26 @@ providers:
   score_band: exemplar
   score_composite: 67.3
   shared: 1
+- slug: amazon-clean-rooms
+  name: Amazon Clean Rooms
+  description: Amazon Clean Rooms enables organizations to collaborate and analyze shared datasets without exposing underlying raw data to partners. Create secure data clean rooms in minutes and collaborate with any company while maintaining data privacy through differential privacy, cryptographic computing, and…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 67.0
+  shared: 1
 - slug: appsflyer
   name: AppsFlyer
   description: AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers to measure, attribute and optimize user acquisition across mobile, web, CTV, console and PC. Its developer surface spans mobile and platform SDKs (iOS, Android, Unity, React Native, Flutter, Cordova, Unreal, Ro…
   api_count: 11
   score_band: exemplar
-  score_composite: 66.9
-  shared: 1
-- slug: amazon-clean-rooms
-  name: Amazon Clean Rooms
-  description: Amazon Clean Rooms enables organizations to collaborate and analyze shared datasets without exposing underlying raw data to partners. Create secure data clean rooms in minutes and collaborate with any company while maintaining data privacy through differential privacy, cryptographic computing, and…
-  api_count: 4
-  score_band: strong
-  score_composite: 66.4
+  score_composite: 66.5
   shared: 1
 - slug: simpleanalytics
   name: Simple Analytics
   description: Simple Analytics is a privacy-first, cookieless web analytics platform built and hosted in the European Union by Simple Analytics B.V. in the Netherlands. It collects no personal data, sets no cookies, stores no IP addresses and needs no consent banner, while exposing a REST API surface to pull agg…
   api_count: 4
   score_band: strong
-  score_composite: 64.8
+  score_composite: 65.8
   shared: 1
 - slug: singular
   name: Singular
@@ -97,7 +97,7 @@ providers:
   description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full programmatic access to analytics data, website management, sess…
   api_count: 7
   score_band: strong
-  score_composite: 63.3
+  score_composite: 64.0
   shared: 1
 - slug: plausible
   name: Plausible
@@ -106,19 +106,19 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
-- slug: datavant
-  name: Datavant
-  description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.2
-  shared: 1
 - slug: liveramp
   name: LiveRamp
   description: LiveRamp is a data collaboration platform that lets enterprises connect, control, and activate first-party customer data across the digital ecosystem without moving raw PII between parties. Its developer surface spans identity resolution (AbiliTec links and RampID), programmatic activation to more…
   api_count: 11
   score_band: strong
-  score_composite: 59.1
+  score_composite: 58.7
+  shared: 1
+- slug: datavant
+  name: Datavant
+  description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.4
   shared: 1
 - slug: sourcepoint
   name: Sourcepoint
@@ -141,6 +141,13 @@ providers:
   score_band: strong
   score_composite: 56.0
   shared: 1
+- slug: amazon-macie
+  name: Amazon Macie
+  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the discovery of sensitive data, such as personally identifiable…
+  api_count: 24
+  score_band: strong
+  score_composite: 55.9
+  shared: 1
 - slug: bigid
   name: BigID
   description: BigID is a New York City-headquartered data security platform that combines Data Security Posture Management (DSPM), Data Loss Prevention (DLP), access governance, AI security & governance (AISPM), privacy automation, and a unified Data & AI Catalog. Founded in 2016 by Dimitri Sirota and Nimrod Vax…
@@ -161,6 +168,13 @@ providers:
   api_count: 5
   score_band: developing
   score_composite: 53.9
+  shared: 1
+- slug: transcend-io
+  name: Transcend
+  description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, consent and preference management, privacy assessments, and an A…
+  api_count: 11
+  score_band: developing
+  score_composite: 53.3
   shared: 1
 - slug: certifaction
   name: Certifaction
@@ -183,56 +197,39 @@ providers:
   score_band: developing
   score_composite: 52.7
   shared: 1
-- slug: amazon-macie
-  name: Amazon Macie
-  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the discovery of sensitive data, such as personally identifiable…
-  api_count: 24
+- slug: counter-dev
+  name: Counter
+  description: Counter (counter.dev) is an open-source, privacy-friendly web analytics service. A lightweight tracking snippet POSTs a single aggregated hit per visit to a public collect endpoint (t.counter.dev), and a token-authenticated dashboard data feed returns aggregated stats. Counter uses no cookies, no l…
+  api_count: 3
   score_band: developing
-  score_composite: 51.4
+  score_composite: 52.5
   shared: 1
 - slug: nym-technologies
   name: Nym Technologies
   description: Nym Technologies SA builds Nym, an open-source decentralized privacy infrastructure. Its flagship product NymVPN is a decentralized VPN built on the Nym mixnet, a multi-layer network of mix nodes that shuffles and delays packets to protect metadata (who talks to whom, when, and from where), not jus…
   api_count: 23
   score_band: developing
-  score_composite: 51.2
+  score_composite: 52.5
   shared: 1
 - slug: nord-security
   name: Nord Security
   description: Nord Security is a Lithuania-founded digital security and privacy company whose consumer and business portfolio spans NordVPN, NordPass, NordLocker, NordLayer (network access security for business), NordProtect/Coveron, Saily (eSIM) and NordStellar (external threat exposure management). Its develop…
   api_count: 10
   score_band: developing
-  score_composite: 50.7
-  shared: 1
-- slug: transcend-io
-  name: Transcend
-  description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, consent and preference management, privacy assessments, and an A…
-  api_count: 11
-  score_band: developing
-  score_composite: 50.5
-  shared: 1
-- slug: counter-dev
-  name: Counter
-  description: Counter (counter.dev) is an open-source, privacy-friendly web analytics service. A lightweight tracking snippet POSTs a single aggregated hit per visit to a public collect endpoint (t.counter.dev), and a token-authenticated dashboard data feed returns aggregated stats. Counter uses no cookies, no l…
-  api_count: 3
-  score_band: developing
-  score_composite: 50.1
+  score_composite: 52.4
   shared: 1
 related:
 - slug: agents-skills
   name: Agent Skills
   shared: 2
-- slug: authentication
-  name: Authentication
-  shared: 1
 - slug: sdk
   name: SDKs
   shared: 1
 overview: 'Privacy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [privacy.apievangelist.com](https://privacy.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Swetrix, Listrak, Adobe Campaign, Didomi, BlueConic, Rybbit, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Swetrix, Didomi, Listrak, Adobe Campaign, Rybbit, BlueConic, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Agent Skills, Authentication, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agent Skills and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

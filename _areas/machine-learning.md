@@ -6,21 +6,28 @@ description: An index and topic collection covering machine learning APIs, MLOps
 area_url: https://machine-learning.apievangelist.com
 area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
-provider_count: 1129
+provider_count: 1159
 providers:
+- slug: openai
+  name: OpenAI
+  description: OpenAI publishes a single unversioned REST API at https://api.openai.com/v1 covering text and reasoning (Responses, Chat Completions), embeddings, images, audio and speech, video, moderation, file storage, vector stores and file search, containers, batch inference at half price, fine-tuning, evals,…
+  api_count: 51
+  score_band: exemplar
+  score_composite: 80.4
+  shared: 1
 - slug: anthropic
   name: Anthropic
-  description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memo…
+  description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking…'
   api_count: 24
   score_band: exemplar
-  score_composite: 68.6
+  score_composite: 78.1
   shared: 1
 - slug: google-analytics
   name: Google Analytics
   description: Google Analytics provides data and insights about website and app usage, enabling businesses to understand their audience and optimize their digital properties through customer-centric measurement, machine learning insights, and cross-platform attribution.
   api_count: 13
   score_band: exemplar
-  score_composite: 68.4
+  score_composite: 70.3
   shared: 1
 - slug: exec
   name: Exec
@@ -43,12 +50,40 @@ providers:
   score_band: strong
   score_composite: 65.0
   shared: 1
+- slug: github-copilot
+  name: GitHub Copilot
+  description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
+  api_count: 12
+  score_band: strong
+  score_composite: 64.7
+  shared: 1
 - slug: refuel-ai
   name: Refuel
   description: Refuel is an AI data-labeling and data-enrichment platform that uses large language models to label, clean, structure and enrich enterprise datasets. Refuel Cloud exposes a REST API at cloud-api.refuel.ai covering projects, datasets, tasks and task runs, taxonomies, seedsets and evalsets, confidenc…
   api_count: 3
   score_band: strong
+  score_composite: 64.7
+  shared: 1
+- slug: lalal-ai
+  name: LALAL.AI
+  description: LALAL.AI is an AI-powered audio separation and voice technology platform operated by OmniSale GmbH. It uses proprietary neural networks (Andromeda, Perseus, Orion, Phoenix, Lyra, Lynx) to isolate vocals, instruments, drums, bass, guitars, piano, synth, strings, and wind from mixed audio, clean voic…
+  api_count: 4
+  score_band: strong
   score_composite: 64.6
+  shared: 1
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 55
+  score_band: strong
+  score_composite: 64.5
+  shared: 1
+- slug: nexgen-cloud
+  name: NexGen Cloud
+  description: NexGen Cloud Limited is a UK-headquartered AI cloud and GPU infrastructure provider. Its on-demand platform, Hyperstack, sells NVIDIA GPU and CPU virtual machines, managed Kubernetes clusters, block storage volumes, S3-compatible object storage and high-speed networking across three regions (CANADA…
+  api_count: 2
+  score_band: strong
+  score_composite: 64.5
   shared: 1
 - slug: landingai
   name: Landing.ai
@@ -64,19 +99,19 @@ providers:
   score_band: strong
   score_composite: 63.8
   shared: 1
-- slug: github-copilot
-  name: GitHub Copilot
-  description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
-  api_count: 12
+- slug: amazon-kendra
+  name: Amazon Kendra
+  description: Amazon Kendra is an intelligent enterprise search service powered by machine learning that enables organizations to index and search across multiple data sources, delivering highly accurate and relevant answers to natural language queries.
+  api_count: 8
   score_band: strong
-  score_composite: 63.7
+  score_composite: 63.1
   shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
-  api_count: 55
+- slug: pyannoteai
+  name: PyannoteAI
+  description: 'pyannoteAI builds speaker intelligence infrastructure for voice AI: a hosted REST and WebSocket API that answers "who spoke when" (speaker diarization) and "who is speaking" (speaker identification via voiceprints) for both batch audio files and live streams. The company commercializes the widely a…'
+  api_count: 1
   score_band: strong
-  score_composite: 62.6
+  score_composite: 62.9
   shared: 1
 - slug: corti
   name: Corti
@@ -92,20 +127,6 @@ providers:
   score_band: strong
   score_composite: 62.2
   shared: 1
-- slug: lalal-ai
-  name: LALAL.AI
-  description: LALAL.AI is an AI-powered audio separation and voice technology platform operated by OmniSale GmbH. It uses proprietary neural networks (Andromeda, Perseus, Orion, Phoenix, Lyra, Lynx) to isolate vocals, instruments, drums, bass, guitars, piano, synth, strings, and wind from mixed audio, clean voic…
-  api_count: 4
-  score_band: strong
-  score_composite: 62.0
-  shared: 1
-- slug: amazon-kendra
-  name: Amazon Kendra
-  description: Amazon Kendra is an intelligent enterprise search service powered by machine learning that enables organizations to index and search across multiple data sources, delivering highly accurate and relevant answers to natural language queries.
-  api_count: 8
-  score_band: strong
-  score_composite: 61.6
-  shared: 1
 - slug: viam
   name: Viam
   description: Viam is a robotics and edge AI platform founded in 2020 by Eliot Horowitz (MongoDB co-founder and former CTO). It pairs viam-server — a gRPC-based runtime that runs on Linux single-board computers (RDK) and ESP32-class microcontrollers (micro-rdk) — with viam.app, a multi-tenant cloud for fleet man…
@@ -113,12 +134,26 @@ providers:
   score_band: strong
   score_composite: 61.6
   shared: 1
-- slug: pyannoteai
-  name: PyannoteAI
-  description: 'pyannoteAI builds speaker intelligence infrastructure for voice AI: a hosted REST and WebSocket API that answers "who spoke when" (speaker diarization) and "who is speaking" (speaker identification via voiceprints) for both batch audio files and live streams. The company commercializes the widely a…'
-  api_count: 1
+- slug: amazon-entity-resolution
+  name: Amazon Entity Resolution
+  description: Amazon Entity Resolution is a service that helps you match and link related records across multiple applications, channels, and data stores using machine learning and configurable matching techniques to identify and consolidate records that refer to the same entity.
+  api_count: 3
   score_band: strong
-  score_composite: 61.4
+  score_composite: 61.3
+  shared: 1
+- slug: amazon-healthimaging
+  name: Amazon HealthImaging
+  description: AWS HealthImaging is a HIPAA-eligible service that helps healthcare providers and their software partners store, transform, and apply machine learning to medical images. It provides sub-second image retrieval and enables scaling from hundreds to millions of medical images.
+  api_count: 5
+  score_band: strong
+  score_composite: 61.2
+  shared: 1
+- slug: amazon-polly
+  name: Amazon Polly
+  description: Amazon Polly is a cloud service that converts text into lifelike speech, enabling you to create applications that talk and build entirely new categories of speech-enabled products. Polly supports multiple voices, languages, and audio output formats including neural and generative engines for natura…
+  api_count: 5
+  score_band: strong
+  score_composite: 61.0
   shared: 1
 - slug: amazon-web-services-aws
   name: Amazon Web Services (AWS)
@@ -148,12 +183,26 @@ providers:
   score_band: strong
   score_composite: 60.0
   shared: 1
-- slug: amazon-polly
-  name: Amazon Polly
-  description: Amazon Polly is a cloud service that converts text into lifelike speech, enabling you to create applications that talk and build entirely new categories of speech-enabled products. Polly supports multiple voices, languages, and audio output formats including neural and generative engines for natura…
-  api_count: 5
+- slug: roboflow
+  name: Roboflow
+  description: Roboflow is a computer vision platform used by over one million engineers to annotate images, train custom models, and deploy them to production from the cloud to the edge. The platform spans dataset management and AI-assisted labeling, model training (RF-DETR, YOLO and NAS architectures), evaluati…
+  api_count: 26
   score_band: strong
-  score_composite: 59.6
+  score_composite: 59.8
+  shared: 1
+- slug: amazon-transcribe
+  name: Amazon Transcribe
+  description: Amazon Transcribe is a speech-to-text service that uses machine learning models to convert audio to text, supporting real-time streaming and batch transcription with automatic speech recognition (ASR).
+  api_count: 2
+  score_band: strong
+  score_composite: 59.4
+  shared: 1
+- slug: amazon-glue-databrew
+  name: Amazon Glue DataBrew
+  description: AWS Glue DataBrew is a visual data preparation tool that makes it easy for data analysts and data scientists to clean and normalize data to prepare it for analytics and machine learning. It provides over 250 pre-built transformations to automate data preparation tasks.
+  api_count: 10
+  score_band: strong
+  score_composite: 59.3
   shared: 1
 - slug: databricks
   name: Databricks
@@ -162,69 +211,23 @@ providers:
   score_band: strong
   score_composite: 59.1
   shared: 1
-- slug: moloco
-  name: MOLOCO
-  description: 'Moloco is a machine-learning advertising company that operates three developer-facing platforms: Moloco Ads (a performance demand-side platform for app marketers), Moloco Commerce Media / MCM (a retail-media platform that lets marketplaces and retailers run sponsored product, brand, display and res…'
-  api_count: 6
+- slug: amazon-rekognition
+  name: Amazon Rekognition
+  description: Amazon Rekognition is a cloud-based computer vision service that makes it easy to add image and video analysis to your applications, providing capabilities such as object and scene detection, facial analysis, face comparison, celebrity recognition, text detection, content moderation, custom labels,…
+  api_count: 10
   score_band: strong
-  score_composite: 58.9
-  shared: 1
-- slug: tensordock
-  name: TensorDock
-  description: TensorDock operates a global GPU cloud marketplace that connects independent hardware hosts with customers needing affordable on-demand and spot GPU compute. The platform exposes two REST APIs — the original Marketplace API (v0) at marketplace.tensordock.com and the newer Instances API (v2) at dash…
-  api_count: 9
-  score_band: strong
-  score_composite: 58.6
-  shared: 1
-- slug: instabase
-  name: Instabase
-  description: Instabase is an agentic automation platform that transforms complex, document-heavy workflows using AI. Its AI Hub product uses large language models and packet-aware AI agents to extract, classify, validate, and reason over unstructured document packets (PDFs, images, spreadsheets, emails, scans,…
-  api_count: 6
-  score_band: strong
-  score_composite: 58.3
-  shared: 1
-- slug: ocrolus
-  name: Ocrolus
-  description: 'Ocrolus is a fintech document-automation and analytics platform that helps lenders analyze financial documents - bank statements, pay stubs, tax forms and more - with high accuracy. Its API covers Classify, Capture, Detect and Analyze: document classification and data extraction, fraud and authenti…'
-  api_count: 16
-  score_band: strong
-  score_composite: 57.9
-  shared: 1
-- slug: amazon-entity-resolution
-  name: Amazon Entity Resolution
-  description: Amazon Entity Resolution is a service that helps you match and link related records across multiple applications, channels, and data stores using machine learning and configurable matching techniques to identify and consolidate records that refer to the same entity.
-  api_count: 3
-  score_band: strong
-  score_composite: 57.8
-  shared: 1
-- slug: roboflow
-  name: Roboflow
-  description: Roboflow is a computer vision platform used by over one million engineers to annotate images, train custom models, and deploy them to production from the cloud to the edge. The platform spans dataset management and AI-assisted labeling, model training (RF-DETR, YOLO and NAS architectures), evaluati…
-  api_count: 26
-  score_band: strong
-  score_composite: 57.8
-  shared: 1
-- slug: amazon-healthimaging
-  name: Amazon HealthImaging
-  description: AWS HealthImaging is a HIPAA-eligible service that helps healthcare providers and their software partners store, transform, and apply machine learning to medical images. It provides sub-second image retrieval and enables scaling from hundreds to millions of medical images.
-  api_count: 5
-  score_band: strong
-  score_composite: 57.6
-  shared: 1
-- slug: decart
-  name: Decart
-  description: Decart is an AI research lab and API platform building real-time world models — foundation models that generate and transform video frame-by-frame as they are watched. Its Decart API Platform (platform.decart.ai) exposes the Lucy family of realtime and batch video/image models plus the Oasis prompt…
-  api_count: 4
-  score_band: strong
-  score_composite: 57.6
+  score_composite: 59.0
   shared: 1
 related:
 - slug: containers
   name: Containers
-  shared: 4
+  shared: 3
+- slug: agents
+  name: Agents
+  shared: 2
 - slug: security
   name: Security
-  shared: 3
+  shared: 2
 - slug: serverless
   name: Serverless
   shared: 2
@@ -234,14 +237,11 @@ related:
 - slug: ai-automation
   name: AI Automation
   shared: 1
-- slug: agents
-  name: Agents
-  shared: 1
 overview: 'Machine Learning is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [machine-learning.apievangelist.com](https://machine-learning.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Anthropic, Google Analytics, Exec, Celonis, Amazon SageMaker, Refuel, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including OpenAI, Anthropic, Google Analytics, Exec, Celonis, Amazon SageMaker, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, Security, Serverless, and IDE. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, Agents, Security, and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

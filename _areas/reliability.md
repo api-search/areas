@@ -6,7 +6,7 @@ description: An index and topic collection covering site reliability engineering
 area_url: https://reliability.apievangelist.com
 area_host: reliability.apievangelist.com
 icon: https://reliability.apievangelist.com/icon-thumb.png
-provider_count: 16
+provider_count: 17
 providers:
 - slug: svix
   name: Svix
@@ -48,7 +48,7 @@ providers:
   description: Statuspage by Atlassian is a hosted status page and incident communication platform that helps companies communicate real-time service status, incident updates, scheduled maintenance, and component health to customers and internal stakeholders. It supports public and private pages, audience-specifi…
   api_count: 4
   score_band: thin
-  score_composite: 34.5
+  score_composite: 36.0
   shared: 1
 - slug: overops
   name: Overops
@@ -62,7 +62,7 @@ providers:
   description: Antithesis is an autonomous software testing platform that finds deep bugs in mission-critical systems using deterministic simulation and continuous fuzzing. It runs your entire system inside a deterministic hypervisor, injects faults and network partitions, explores reachable states, and reproduce…
   api_count: 1
   score_band: thin
-  score_composite: 31.3
+  score_composite: 32.3
   shared: 1
 - slug: sonarly
   name: Sonarly
@@ -83,14 +83,21 @@ providers:
   description: Fiix (by Rockwell Automation) is a cloud-based CMMS (Computerized Maintenance Management System) platform for maintenance and reliability teams in manufacturing, facilities, and utilities. The Fiix API provides programmatic access to assets, work orders, purchase orders, parts, users, and maintenan…
   api_count: 1
   score_band: emerging
-  score_composite: 15.9
+  score_composite: 18.3
   shared: 1
 - slug: nobl9
   name: Nobl9
   description: Nobl9 is a service-level objective (SLO) management platform that helps engineering and SRE teams define, measure, and act on reliability targets across cloud and observability tools. The platform aggregates data from Datadog, Prometheus, New Relic, Splunk, AWS CloudWatch, and other sources to comp…
   api_count: 2
   score_band: emerging
-  score_composite: 15.3
+  score_composite: 17.6
+  shared: 1
+- slug: proteantecs
+  name: proteanTecs
+  description: proteanTecs is an Israeli deep data analytics company for advanced electronics. It embeds on-chip monitoring Agents (UCT, margin, path margin, I/O and power monitors) into semiconductor designs and pairs them with cloud and edge machine-learning applications that report health, performance, reliabi…
+  api_count: 0
+  score_band: emerging
+  score_composite: 11.0
   shared: 1
 - slug: augury
   name: Augury
@@ -130,7 +137,7 @@ related:
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  16 providers on the network work in this area, including Svix, Gremlin, Memfault, Google Cloud Error Reporting, Chaos Mesh, Statuspage, and 10 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  17 providers on the network work in this area, including Svix, Gremlin, Memfault, Google Cloud Error Reporting, Chaos Mesh, Statuspage, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Command Line Interface and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'

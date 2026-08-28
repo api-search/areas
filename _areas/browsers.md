@@ -8,6 +8,13 @@ area_host: browsers.apievangelist.com
 icon: https://browsers.apievangelist.com/icon-thumb.png
 provider_count: 2
 providers:
+- slug: selenium
+  name: Selenium
+  description: Selenium is the open-source browser automation project behind the W3C WebDriver and WebDriver BiDi standards. It drives real browsers through a vendor-neutral, standardised HTTP wire protocol that the browser vendors implement themselves, with official language bindings for Java, Python, C#, Ruby a…
+  api_count: 8
+  score_band: developing
+  score_composite: 43.4
+  shared: 1
 - slug: kernel-so
   name: Kernel
   description: Kernel is browser infrastructure for AI agents and web automations. Founded in 2025 by Catherine Jue (CEO) and Rafael Garcia (CTO) and backed by Accel and Y Combinator (S25), Kernel runs sandboxed Chromium browsers on a unikernel platform with sub-150ms cold starts, built-in stealth mode, residenti…
@@ -15,16 +22,15 @@ providers:
   score_band: developing
   score_composite: 41.6
   shared: 1
-- slug: selenium
-  name: Selenium
-  description: Selenium is a suite of tools for automating web browsers across many platforms. It provides a way to control browsers programmatically for testing web applications and automating browser-based tasks.
-  api_count: 8
-  score_band: emerging
-  score_composite: 23.2
+related:
+- slug: testing
+  name: Testing
   shared: 1
-related: []
 overview: 'Browsers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [browsers.apievangelist.com](https://browsers.apievangelist.com).
 
 
-  Providers on the network working in this area include Kernel and Selenium — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  Providers on the network working in this area include Selenium and Kernel — each links out to that provider''s APIs, schemas, and governance artifacts.
+
+
+  Related areas: Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

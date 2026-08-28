@@ -6,14 +6,14 @@ description: An index and topic collection covering application deployment platf
 area_url: https://deployment.apievangelist.com
 area_host: deployment.apievangelist.com
 icon: https://deployment.apievangelist.com/icon-thumb.png
-provider_count: 69
+provider_count: 70
 providers:
 - slug: raygun
   name: Raygun
   description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.ra…
   api_count: 15
   score_band: strong
-  score_composite: 63.1
+  score_composite: 63.7
   shared: 1
 - slug: laravel
   name: Laravel
@@ -41,21 +41,28 @@ providers:
   description: AWS Elastic Beanstalk is a platform-as-a-service (PaaS) that makes it easy to deploy, manage, and scale web applications and services. You simply upload your code and Elastic Beanstalk automatically handles the deployment, capacity provisioning, load balancing, auto-scaling, and application health…
   api_count: 4
   score_band: strong
-  score_composite: 55.1
-  shared: 1
-- slug: kubernetes
-  name: Kubernetes
-  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
-  api_count: 7
-  score_band: strong
-  score_composite: 55.0
+  score_composite: 60.1
   shared: 1
 - slug: amazon-codedeploy
   name: Amazon CodeDeploy
   description: AWS CodeDeploy is a fully managed deployment service that automates software deployments to various compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and on-premises servers. CodeDeploy makes it easier to rapidly release new features, helps avoid downtime during application deployment,…
   api_count: 49
   score_band: strong
-  score_composite: 54.5
+  score_composite: 55.9
+  shared: 1
+- slug: nuon
+  name: Nuon
+  description: Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into their customers' own AWS, Azure, or GCP accounts while keeping a…
+  api_count: 18
+  score_band: strong
+  score_composite: 54.6
+  shared: 1
+- slug: aptible
+  name: Aptible
+  description: Aptible is a Platform as a Service (PaaS) built for teams that have to prove security and compliance, not just ship. It deploys web apps, managed databases (PostgreSQL, MySQL, Redis, Elasticsearch, InfluxDB, RabbitMQ, SFTP) and AI workloads onto isolated, dedicated AWS infrastructure with encryptio…
+  api_count: 51
+  score_band: strong
+  score_composite: 54.4
   shared: 1
 - slug: upsun
   name: Upsun
@@ -64,19 +71,19 @@ providers:
   score_band: strong
   score_composite: 54.3
   shared: 1
-- slug: aptible
-  name: Aptible
-  description: Aptible is a Platform as a Service (PaaS) built for teams that have to prove security and compliance, not just ship. It deploys web apps, managed databases (PostgreSQL, MySQL, Redis, Elasticsearch, InfluxDB, RabbitMQ, SFTP) and AI workloads onto isolated, dedicated AWS infrastructure with encryptio…
-  api_count: 51
+- slug: kubernetes
+  name: Kubernetes
+  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
+  api_count: 7
   score_band: developing
-  score_composite: 53.9
+  score_composite: 54.1
   shared: 1
-- slug: nuon
-  name: Nuon
-  description: Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into their customers' own AWS, Azure, or GCP accounts while keeping a…
-  api_count: 18
+- slug: aws-app-runner
+  name: AWS App Runner
+  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
+  api_count: 13
   score_band: developing
-  score_composite: 53.7
+  score_composite: 53.2
   shared: 1
 - slug: microsoft-azure-pipelines
   name: Azure Pipelines
@@ -84,6 +91,20 @@ providers:
   api_count: 11
   score_band: developing
   score_composite: 52.2
+  shared: 1
+- slug: platform.sh
+  name: Platform.sh
+  description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster of applications and managed services (PostgreSQL, MySQL, Redi…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.2
+  shared: 1
+- slug: amazon-app-runner
+  name: Amazon App Runner
+  description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
+  api_count: 36
+  score_band: developing
+  score_composite: 51.8
   shared: 1
 - slug: codesphere
   name: Codesphere
@@ -99,19 +120,19 @@ providers:
   score_band: developing
   score_composite: 50.7
   shared: 1
-- slug: amazon-app-runner
-  name: Amazon App Runner
-  description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
-  api_count: 36
+- slug: render
+  name: Render
+  description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, PostgreSQL databases, Redis/Key-Value stores, and persistent disks.…
+  api_count: 26
   score_band: developing
-  score_composite: 49.7
+  score_composite: 50.4
   shared: 1
-- slug: aws-app-runner
-  name: AWS App Runner
-  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
-  api_count: 13
+- slug: dokploy
+  name: Dokploy
+  description: Dokploy is an open-source, self-hostable Platform-as-a-Service (PaaS) — an alternative to Heroku, Vercel, and Netlify — that deploys applications, Docker Compose stacks, and managed databases across one or many servers using Docker and Docker Swarm, with Traefik handling routing and TLS.
+  api_count: 48
   score_band: developing
-  score_composite: 49.4
+  score_composite: 50.2
   shared: 1
 - slug: amazon-launch-wizard
   name: Amazon Launch Wizard
@@ -120,12 +141,12 @@ providers:
   score_band: developing
   score_composite: 49.2
   shared: 1
-- slug: dokploy
-  name: Dokploy
-  description: Dokploy is an open-source, self-hostable Platform-as-a-Service (PaaS) — an alternative to Heroku, Vercel, and Netlify — that deploys applications, Docker Compose stacks, and managed databases across one or many servers using Docker and Docker Swarm, with Traefik handling routing and TLS.
-  api_count: 48
+- slug: semaphore
+  name: Semaphore
+  description: Semaphore is a cloud-based CI/CD platform designed for high-performance engineering teams, providing fast and reliable continuous integration and continuous delivery pipelines. The platform offers a comprehensive REST API that enables programmatic management of pipelines, workflows, jobs, secrets,…
+  api_count: 11
   score_band: developing
-  score_composite: 48.6
+  score_composite: 48.7
   shared: 1
 - slug: agentuity
   name: Agentuity
@@ -141,20 +162,6 @@ providers:
   score_band: developing
   score_composite: 48.2
   shared: 1
-- slug: render
-  name: Render
-  description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, PostgreSQL databases, Redis/Key-Value stores, and persistent disks.…
-  api_count: 26
-  score_band: developing
-  score_composite: 47.9
-  shared: 1
-- slug: semaphore
-  name: Semaphore
-  description: Semaphore is a cloud-based CI/CD platform designed for high-performance engineering teams, providing fast and reliable continuous integration and continuous delivery pipelines. The platform offers a comprehensive REST API that enables programmatic management of pipelines, workflows, jobs, secrets,…
-  api_count: 11
-  score_band: developing
-  score_composite: 46.9
-  shared: 1
 - slug: google-cloud-deploy
   name: Google Cloud Deploy
   description: Google Cloud Deploy is a managed continuous delivery service that automates the deployment of applications to Google Cloud target environments such as GKE, Cloud Run, and Anthos. It provides an opinionated delivery pipeline that promotes releases through a series of target environments with approva…
@@ -167,21 +174,28 @@ providers:
   description: Coolify is an open-source, self-hostable Platform-as-a-Service alternative to Vercel, Heroku, Netlify, and Railway. It lets you deploy static sites, APIs, full-stack applications, databases, and 280+ one-click services to any SSH-accessible server (VPS, bare-metal, Raspberry Pi, EC2, Hetzner, Digit…
   api_count: 19
   score_band: developing
-  score_composite: 44.9
+  score_composite: 46.3
   shared: 1
 - slug: teamcity
   name: TeamCity
   description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing projects, build configurations, agents, and infrastructure.
   api_count: 17
   score_band: developing
-  score_composite: 44.3
+  score_composite: 45.8
   shared: 1
 - slug: bentoml
   name: BentoML
   description: BentoML is an open-source unified inference platform for building, packaging, and deploying machine learning models as scalable REST API services. Developers define services using Python class decorators that automatically expose model inference logic as HTTP endpoints. BentoCloud, the managed clou…
   api_count: 62
   score_band: developing
-  score_composite: 44.1
+  score_composite: 45.5
+  shared: 1
+- slug: scalable-inference-serving
+  name: Scalable Inference Serving
+  description: A collection of APIs, frameworks, and platforms for scalable machine learning model inference serving, deployment, and management. This includes the KServe Open Inference Protocol (the CNCF standard for model serving on Kubernetes), BentoML (developer packaging and serving), vLLM (high-throughput L…
+  api_count: 9
+  score_band: developing
+  score_composite: 44.0
   shared: 1
 - slug: databricks-asset-bundles
   name: Databricks Asset Bundles
@@ -190,6 +204,13 @@ providers:
   score_band: developing
   score_composite: 43.8
   shared: 1
+- slug: pulumi
+  name: Pulumi
+  description: Pulumi is a modern infrastructure as code platform that allows you to use familiar programming languages to build, deploy, and manage cloud infrastructure. The Pulumi Cloud REST API enables programmatic access to manage organizations, stacks, deployments, environments, policy packs, webhooks, and o…
+  api_count: 35
+  score_band: developing
+  score_composite: 43.0
+  shared: 1
 - slug: dreamfactory
   name: DreamFactory
   description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
@@ -197,37 +218,13 @@ providers:
   score_band: developing
   score_composite: 42.7
   shared: 1
-- slug: deno
-  name: Deno
-  description: Deno is a modern JavaScript and TypeScript runtime built on V8 that emphasizes security, simplicity, and developer productivity. It provides a comprehensive developer platform including the Deno Deploy serverless edge network, a built-in key-value store, and a standard library of audited modules, a…
-  api_count: 11
-  score_band: developing
-  score_composite: 41.5
-  shared: 1
-- slug: pulumi
-  name: Pulumi
-  description: Pulumi is a modern infrastructure as code platform that allows you to use familiar programming languages to build, deploy, and manage cloud infrastructure. The Pulumi Cloud REST API enables programmatic access to manage organizations, stacks, deployments, environments, policy packs, webhooks, and o…
-  api_count: 35
-  score_band: developing
-  score_composite: 41.3
-  shared: 1
-- slug: stack-machine
-  name: Stack Machine
-  description: StackMachine is elastic, headless infrastructure for AI applications and agents. It runs existing Node.js, Python, and PHP codebases as WebAssembly with sub-5ms cold starts and sandboxed execution for untrusted or AI-generated code, packing thousands of apps per server. The platform is driven by a…
-  api_count: 1
-  score_band: developing
-  score_composite: 39.8
-  shared: 1
 related:
 - slug: containers
   name: Containers
-  shared: 5
+  shared: 6
 - slug: monitoring
   name: Monitoring
   shared: 2
-- slug: dns
-  name: DNS
-  shared: 1
 - slug: documentation
   name: Documentation
   shared: 1
@@ -237,11 +234,14 @@ related:
 - slug: observability
   name: Observability
   shared: 1
+- slug: orchestration
+  name: Orchestration
+  shared: 1
 overview: 'Deployment is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deployment.apievangelist.com](https://deployment.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Raygun, Laravel, OutSystems, Koyeb, Amazon Elastic Beanstalk, Kubernetes, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Raygun, Laravel, OutSystems, Koyeb, Amazon Elastic Beanstalk, Amazon CodeDeploy, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, Monitoring, DNS, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, Monitoring, Documentation, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

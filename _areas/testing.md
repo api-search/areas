@@ -12,8 +12,8 @@ providers:
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 39
-  score_band: strong
-  score_composite: 64.5
+  score_band: exemplar
+  score_composite: 67.1
   shared: 1
 - slug: uipath
   name: UiPath
@@ -27,21 +27,35 @@ providers:
   description: Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, Tosca Cloud), AI-driven test management (qTest), performance t…
   api_count: 102
   score_band: strong
-  score_composite: 61.0
+  score_composite: 61.1
   shared: 1
-- slug: stack-moxie
-  name: Stack Moxie
-  description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
-  api_count: 1
+- slug: treblle
+  name: Treblle
+  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
+  api_count: 15
   score_band: strong
-  score_composite: 60.8
+  score_composite: 57.8
   shared: 1
 - slug: gradle
   name: Gradle
   description: Gradle Inc. (Gradle Technologies) is the company behind the open-source Gradle Build Tool, downloaded more than 25 million times a month across the Java, JVM, Android, Kotlin, C/C++, and native ecosystems, and Develocity (formerly Gradle Enterprise), its commercial Developer Productivity Engineerin…
   api_count: 11
   score_band: strong
-  score_composite: 57.5
+  score_composite: 57.3
+  shared: 1
+- slug: stack-moxie
+  name: Stack Moxie
+  description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.1
+  shared: 1
+- slug: signadot
+  name: Signadot
+  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
+  api_count: 5
+  score_band: strong
+  score_composite: 55.5
   shared: 1
 - slug: coval
   name: Coval
@@ -50,33 +64,26 @@ providers:
   score_band: strong
   score_composite: 55.3
   shared: 1
-- slug: treblle
-  name: Treblle
-  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
-  api_count: 15
+- slug: speakeasy
+  name: Speakeasy
+  description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
+  api_count: 20
   score_band: strong
-  score_composite: 55.1
+  score_composite: 55.3
   shared: 1
-- slug: signadot
-  name: Signadot
-  description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
-  api_count: 5
+- slug: amazon-codebuild
+  name: Amazon CodeBuild
+  description: AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages. CodeBuild scales continuously and processes multiple builds concurrently so your builds are not left waiting in a queue. It supports popular build e…
+  api_count: 47
   score_band: strong
-  score_composite: 54.7
+  score_composite: 54.9
   shared: 1
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypress, Playwright, k6, JMeter, pytest and others — then aggreg…
   api_count: 30
   score_band: strong
-  score_composite: 54.4
-  shared: 1
-- slug: amazon-codebuild
-  name: Amazon CodeBuild
-  description: AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages. CodeBuild scales continuously and processes multiple builds concurrently so your builds are not left waiting in a queue. It supports popular build e…
-  api_count: 47
-  score_band: developing
-  score_composite: 53.5
+  score_composite: 54.6
   shared: 1
 - slug: testfairy
   name: TestFairy
@@ -92,6 +99,13 @@ providers:
   score_band: developing
   score_composite: 51.8
   shared: 1
+- slug: opkey
+  name: Opkey
+  description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests and change-impact analysis for Oracle Cloud/EBS, Workday, Sale…
+  api_count: 16
+  score_band: developing
+  score_composite: 51.6
+  shared: 1
 - slug: scorecard
   name: Scorecard
   description: Scorecard is a simulation and evaluation platform for building, testing, and deploying frontier AI agents. Teams run their agents through thousands of realistic scenarios, judge outputs with configurable AI, human, and heuristic metrics, and ship new capabilities with confidence. The platform organ…
@@ -99,12 +113,19 @@ providers:
   score_band: developing
   score_composite: 51.2
   shared: 1
-- slug: speakeasy
-  name: Speakeasy
-  description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
-  api_count: 20
+- slug: browserstack
+  name: BrowserStack
+  description: BrowserStack provides instant access to 3500+ real mobile devices and desktop browsers for testing web and mobile applications across different platforms and operating systems.
+  api_count: 22
   score_band: developing
-  score_composite: 51.0
+  score_composite: 50.9
+  shared: 1
+- slug: automation-preflight-api
+  name: Automation Preflight API
+  description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-bearing targets, honors robots exclusions, bounds redirects an…
+  api_count: 4
+  score_band: developing
+  score_composite: 50.5
   shared: 1
 - slug: sauce-labs
   name: Sauce Labs
@@ -112,27 +133,6 @@ providers:
   api_count: 9
   score_band: developing
   score_composite: 49.4
-  shared: 1
-- slug: automation-preflight-api
-  name: Automation Preflight API
-  description: A self-serve REST API by TinyOps Studio LLC that inspects a public URL and returns deterministic, bounded JSON integration-readiness evidence across reachability, integration surface, and readiness scoring. It rejects private/credential-bearing targets, honors robots exclusions, bounds redirects an…
-  api_count: 4
-  score_band: developing
-  score_composite: 48.6
-  shared: 1
-- slug: opkey
-  name: Opkey
-  description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests and change-impact analysis for Oracle Cloud/EBS, Workday, Sale…
-  api_count: 16
-  score_band: developing
-  score_composite: 48.5
-  shared: 1
-- slug: browserstack
-  name: BrowserStack
-  description: BrowserStack provides instant access to 3500+ real mobile devices and desktop browsers for testing web and mobile applications across different platforms and operating systems.
-  api_count: 22
-  score_band: developing
-  score_composite: 47.6
   shared: 1
 - slug: panaya
   name: Panaya
@@ -176,6 +176,13 @@ providers:
   score_band: developing
   score_composite: 45.8
   shared: 1
+- slug: teamcity
+  name: TeamCity
+  description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing projects, build configurations, agents, and infrastructure.
+  api_count: 17
+  score_band: developing
+  score_composite: 45.8
+  shared: 1
 - slug: lambdatest
   name: LambdaTest
   description: LambdaTest (rebranding as TestMu AI) is a cloud-based AI-powered test execution platform that enables developers and QA teams to run Selenium, Cypress, Playwright, and Appium automation tests across 3,000+ browser and OS combinations at scale. The platform provides live interactive cross-browser an…
@@ -195,14 +202,14 @@ providers:
   description: Parea AI is an LLM evaluation, testing, and observability platform designed for AI engineering teams building production-ready LLM applications. The platform provides a REST API for managing prompt versions, running automated test suites, collecting human feedback, and tracking quality metrics acro…
   api_count: 1
   score_band: developing
-  score_composite: 44.4
+  score_composite: 43.5
   shared: 1
-- slug: teamcity
-  name: TeamCity
-  description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing projects, build configurations, agents, and infrastructure.
-  api_count: 17
+- slug: selenium
+  name: Selenium
+  description: Selenium is the open-source browser automation project behind the W3C WebDriver and WebDriver BiDi standards. It drives real browsers through a vendor-neutral, standardised HTTP wire protocol that the browser vendors implement themselves, with official language bindings for Java, Python, C#, Ruby a…
+  api_count: 8
   score_band: developing
-  score_composite: 44.3
+  score_composite: 43.4
   shared: 1
 - slug: qa-wolf
   name: QA Wolf
@@ -210,13 +217,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 43.3
-  shared: 1
-- slug: replay
-  name: Replay
-  description: Replay is an AI-native QA and time-travel debugging platform for web applications. Replay QA autonomously explores a web app, records every session in a deterministic Replay Browser, finds real bugs, and hands a coding agent the root cause and a suggested fix. The recording is a time-travel databas…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.5
   shared: 1
 related:
 - slug: ai-automation
@@ -228,20 +228,20 @@ related:
 - slug: documentation
   name: Documentation
   shared: 2
+- slug: browsers
+  name: Browsers
+  shared: 1
 - slug: discovery
   name: API Evangelist Discovery
   shared: 1
 - slug: deployment
   name: Deployment
   shared: 1
-- slug: microservices
-  name: Microservices
-  shared: 1
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, UiPath, Tricentis, Stack Moxie, Gradle, Coval, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, UiPath, Tricentis, Treblle, Gradle, Stack Moxie, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: AI Automation, Developer Experience, Documentation, and API Evangelist Discovery. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: AI Automation, Developer Experience, Documentation, and Browsers. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

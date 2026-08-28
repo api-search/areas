@@ -6,8 +6,15 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 58
+provider_count: 60
 providers:
+- slug: anthropic
+  name: Anthropic
+  description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking…'
+  api_count: 24
+  score_band: exemplar
+  score_composite: 78.1
+  shared: 1
 - slug: apis-io
   name: APIs.io
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Post…
@@ -41,14 +48,14 @@ providers:
   description: Parallel Web Systems builds infrastructure for intelligence on the web, giving AI agents and developers high-quality, low-latency access to the internet. Its API suite spans a Search API (high-accuracy, cross-referenced web search with turbo/basic/advanced modes), an Extract API for token-efficient…
   api_count: 8
   score_band: strong
-  score_composite: 64.9
+  score_composite: 65.8
   shared: 1
-- slug: clickfunnels
-  name: ClickFunnels
-  description: ClickFunnels is a sales funnel and online business platform that lets entrepreneurs build landing pages, sales funnels, checkout flows, courses, membership sites, communities, blogs and email marketing campaigns without code. The ClickFunnels 2.0 REST API is a 418-operation OpenAPI 3.1 contract cov…
-  api_count: 1
+- slug: ledger
+  name: Ledger
+  description: 'Ledger SAS is the Paris-headquartered maker of the Ledger hardware signer family (Nano, Flex, Stax) and the surrounding self-custody and institutional-custody platform. Its developer surface spans five distinct programs: the Ledger Wallet exchange-provider APIs (Swap, Buy, Sell, Earn and Card OpenA…'
+  api_count: 5
   score_band: strong
-  score_composite: 64.3
+  score_composite: 63.0
   shared: 1
 - slug: planable
   name: Planable
@@ -63,13 +70,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 62.2
-  shared: 1
-- slug: airops
-  name: AirOps
-  description: AirOps is a growth platform for AI search and answer engine optimization (AEO) that helps brands measure and improve their visibility across AI assistants and search engines including ChatGPT, Perplexity, Gemini, Claude, and Google. The platform pairs Insights (citation tracking, share-of-voice, se…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.9
   shared: 1
 - slug: synthflow
   name: Synthflow
@@ -92,12 +92,40 @@ providers:
   score_band: strong
   score_composite: 61.2
   shared: 1
+- slug: airops
+  name: AirOps
+  description: AirOps is a growth platform for AI search and answer engine optimization (AEO) that helps brands measure and improve their visibility across AI assistants and search engines including ChatGPT, Perplexity, Gemini, Claude, and Google. The platform pairs Insights (citation tracking, share-of-voice, se…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.4
+  shared: 1
 - slug: criteo
   name: Criteo
   description: Criteo is a global commerce media company whose Retail Media, Marketing Solutions and Commerce Grid platforms let retailers, brands, agencies and partners create, launch and measure onsite and offsite commerce advertising. Criteo publishes three live OpenAPI 3.0.1 documents at api.criteo.com coveri…
   api_count: 4
   score_band: strong
-  score_composite: 59.0
+  score_composite: 58.8
+  shared: 1
+- slug: clickfunnels
+  name: ClickFunnels
+  description: ClickFunnels is a sales funnel and online business platform that lets entrepreneurs build landing pages, sales funnels, checkout flows, courses, membership sites, communities, blogs and email marketing campaigns without code. The ClickFunnels 2.0 REST API is a 418-operation OpenAPI 3.1 contract cov…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.3
+  shared: 1
+- slug: voygr
+  name: VOYGR
+  description: VOYGR provides real-world place intelligence for AI apps and agents, delivering continuous location and point-of-interest (POI) data validation and enrichment. Its Location Freshness Validation confirms historical existence and current operating status, detecting relocations, rebrands, and closures…
+  api_count: 2
+  score_band: strong
+  score_composite: 57.4
+  shared: 1
+- slug: visier
+  name: Visier
+  description: Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering. Visier publishes a broad suite of public REST APIs — Data…
+  api_count: 51
+  score_band: strong
+  score_composite: 57.4
   shared: 1
 - slug: hashnode
   name: Hashnode
@@ -113,19 +141,19 @@ providers:
   score_band: strong
   score_composite: 56.4
   shared: 1
-- slug: visier
-  name: Visier
-  description: Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering. Visier publishes a broad suite of public REST APIs — Data…
-  api_count: 51
+- slug: infer-by-flow7
+  name: Infer by Flow7
+  description: A single Responses-compatible inference API that fronts multiple model families through a private, opaque supplier pool. Public paid beta offering a prepaid-wallet billing model, locked prices, spending limits, and per-call receipts for accountable coding-agent inference. Four operations — two of t…
+  api_count: 1
   score_band: strong
-  score_composite: 56.3
+  score_composite: 55.1
   shared: 1
-- slug: voygr
-  name: VOYGR
-  description: VOYGR provides real-world place intelligence for AI apps and agents, delivering continuous location and point-of-interest (POI) data validation and enrichment. Its Location Freshness Validation confirms historical existence and current operating status, detecting relocations, rebrands, and closures…
-  api_count: 2
+- slug: smithery-ai
+  name: Smithery
+  description: Smithery is an MCP server registry and hosting platform that lets developers discover, publish, and connect to Model Context Protocol servers from any AI agent. The platform combines a public registry of thousands of community MCP servers with a managed gateway that handles OAuth, credential storag…
+  api_count: 9
   score_band: strong
-  score_composite: 55.0
+  score_composite: 55.1
   shared: 1
 - slug: 360learning
   name: 360Learning
@@ -141,13 +169,6 @@ providers:
   score_band: developing
   score_composite: 54.2
   shared: 1
-- slug: smithery-ai
-  name: Smithery
-  description: Smithery is an MCP server registry and hosting platform that lets developers discover, publish, and connect to Model Context Protocol servers from any AI agent. The platform combines a public registry of thousands of community MCP servers with a managed gateway that handles OAuth, credential storag…
-  api_count: 9
-  score_band: developing
-  score_composite: 53.3
-  shared: 1
 - slug: apstal
   name: Apstal
   description: AI-first website analytics and visitor tracking platform that replaces traditional dashboards with a natural-language chatbot interface, offering conversational analytics, cookieless tracking, session replays, heatmaps, funnels, error tracking, Core Web Vitals and AI-agent traffic detection. Apstal…
@@ -155,12 +176,19 @@ providers:
   score_band: developing
   score_composite: 52.8
   shared: 1
+- slug: daloopa
+  name: Daloopa
+  description: Daloopa is an AI-powered fundamental financial data platform for institutional investors, providing analyst-verified, source-linked financial data extracted from SEC filings, earnings transcripts, investor presentations and press releases. Coverage spans 6,000+ global public companies with roughly…
+  api_count: 2
+  score_band: developing
+  score_composite: 52.6
+  shared: 1
 - slug: nord-security
   name: Nord Security
   description: Nord Security is a Lithuania-founded digital security and privacy company whose consumer and business portfolio spans NordVPN, NordPass, NordLocker, NordLayer (network access security for business), NordProtect/Coveron, Saily (eSIM) and NordStellar (external threat exposure management). Its develop…
   api_count: 10
   score_band: developing
-  score_composite: 50.7
+  score_composite: 52.4
   shared: 1
 - slug: bitpanda
   name: Bitpanda
@@ -168,13 +196,6 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 50.5
-  shared: 1
-- slug: infer-by-flow7
-  name: Infer by Flow7
-  description: A single Responses-compatible inference API that fronts multiple model families through a private, opaque supplier pool. Public paid beta offering a prepaid-wallet billing model, locked prices, spending limits, and per-call receipts for accountable coding-agent inference. Four operations — two of t…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.9
   shared: 1
 - slug: enigma
   name: Enigma
@@ -190,43 +211,22 @@ providers:
   score_band: developing
   score_composite: 48.7
   shared: 1
-- slug: lokki
-  name: Lokki
-  description: Lokki is a Grenoble, France rental-management SaaS (getlokki.com) used by 2,500+ equipment rental businesses across bikes, e-bikes, scooters, cars, ski, climbing, surf, paddle, canoe/kayak, boats, event gear, groundskeeping equipment and tooling, paired with the lokki.rent consumer rental marketpla…
-  api_count: 2
-  score_band: developing
-  score_composite: 48.4
-  shared: 1
-- slug: phenom
-  name: Phenom
-  description: Phenom is an HR technology company whose Intelligent Talent Experience platform applies AI to every stage of the talent lifecycle — helping candidates find and apply to the right jobs, recruiters and hiring managers source and engage talent, employees grow, and HR teams operate more efficiently. Th…
-  api_count: 9
-  score_band: developing
-  score_composite: 48.2
-  shared: 1
-- slug: daloopa
-  name: Daloopa
-  description: Daloopa is an AI-powered fundamental financial data platform for institutional investors, providing analyst-verified, source-linked financial data extracted from SEC filings, earnings transcripts, investor presentations and press releases. Coverage spans 6,000+ global public companies with roughly…
-  api_count: 2
-  score_band: developing
-  score_composite: 47.4
-  shared: 1
 - slug: credo-ai
   name: Credo AI
   description: Credo AI is an enterprise AI governance, risk, and compliance platform used to discover, register, risk-classify, and continuously govern every AI model, application, agent, and third-party AI vendor an organization runs. The platform pairs an AI Registry (use cases, models, vendors, agents, shadow…
   api_count: 3
   score_band: developing
-  score_composite: 45.8
+  score_composite: 48.2
   shared: 1
 related:
+- slug: agents
+  name: Agents
+  shared: 2
 - slug: privacy
   name: Privacy
   shared: 2
 - slug: scraping
   name: Scraping
-  shared: 1
-- slug: agents
-  name: Agents
   shared: 1
 - slug: cli
   name: Command Line Interface
@@ -240,8 +240,8 @@ related:
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
-  30 providers on the network work in this area, including APIs.io, KonbiniAPI, SMTP2GO, Unify, Parallel Web Systems, ClickFunnels, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Anthropic, APIs.io, KonbiniAPI, SMTP2GO, Unify, Parallel Web Systems, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Privacy, Scraping, Agents, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agents, Privacy, Scraping, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

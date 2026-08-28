@@ -13,7 +13,7 @@ providers:
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 20
   score_band: strong
-  score_composite: 62.3
+  score_composite: 61.5
   shared: 1
 - slug: wundergraph
   name: WunderGraph
@@ -41,14 +41,14 @@ providers:
   description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
   api_count: 5
   score_band: developing
-  score_composite: 44.4
+  score_composite: 48.1
   shared: 1
 - slug: broadcom
   name: Broadcom
   description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
   api_count: 20
   score_band: thin
-  score_composite: 31.4
+  score_composite: 33.3
   shared: 1
 related:
 - slug: saas-management

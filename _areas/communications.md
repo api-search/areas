@@ -6,7 +6,7 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 154
+provider_count: 156
 providers:
 - slug: amazon-pinpoint
   name: Amazon Pinpoint
@@ -20,7 +20,21 @@ providers:
   description: Nylas connects your application to every email inbox and calendar in the world. The Nylas v3 platform provides REST APIs for email, calendar, contacts, scheduling, meeting notetaking, authentication, and administration across Google, Microsoft, Exchange, iCloud, Yahoo and any IMAP provider. Officia…
   api_count: 14
   score_band: exemplar
-  score_composite: 76.2
+  score_composite: 76.1
+  shared: 1
+- slug: orange-business
+  name: Orange Business
+  description: Orange Business is the B2B, telco-cloud, and developer arm of Orange S.A. — France's leading telecommunications group operating across Europe, the Middle East, and Africa. The company markets itself as "an operator, integrator, and platform player" and serves 30,000+ enterprise customers across 65…
+  api_count: 38
+  score_band: exemplar
+  score_composite: 74.6
+  shared: 1
+- slug: mailboxlayer
+  name: Mailboxlayer
+  description: Real-time email validation and verification REST/JSON API operated by APILayer. Provides syntax checks, typo suggestions, MX-record lookup, SMTP verification, catch-all/role/disposable/free-provider detection, and a deliverability quality score.
+  api_count: 2
+  score_band: exemplar
+  score_composite: 74.0
   shared: 1
 - slug: smtp2go
   name: SMTP2GO
@@ -28,13 +42,6 @@ providers:
   api_count: 11
   score_band: exemplar
   score_composite: 73.6
-  shared: 1
-- slug: mailboxlayer
-  name: Mailboxlayer
-  description: Real-time email validation and verification REST/JSON API operated by APILayer. Provides syntax checks, typo suggestions, MX-record lookup, SMTP verification, catch-all/role/disposable/free-provider detection, and a deliverability quality score.
-  api_count: 2
-  score_band: exemplar
-  score_composite: 73.4
   shared: 1
 - slug: twilio
   name: Twilio
@@ -57,26 +64,33 @@ providers:
   score_band: exemplar
   score_composite: 72.2
   shared: 1
+- slug: weave
+  name: Weave
+  description: 'Weave (Weave Communications, Inc., NYSE: WEAV) is an all-in-one customer communication and payments platform built for small and medium healthcare and services businesses — dental, optometry, veterinary, medical, and beyond. Weave brings together a cloud phone system (VoIP), two-way text messaging,…'
+  api_count: 9
+  score_band: exemplar
+  score_composite: 67.2
+  shared: 1
 - slug: zoom-phone
   name: Zoom Phone
   description: Zoom Phone is the cloud PBX / UCaaS voice product of Zoom Communications, headquartered in San Jose, California, and sold worldwide from its United States home market. It replaces on-premise telephony with a cloud calling service — extensions, auto receptionists, IVR, call queues, shared line group…
   api_count: 3
   score_band: exemplar
-  score_composite: 72.1
-  shared: 1
-- slug: weave
-  name: Weave
-  description: 'Weave (Weave Communications, Inc., NYSE: WEAV) is an all-in-one customer communication and payments platform built for small and medium healthcare and services businesses — dental, optometry, veterinary, medical, and beyond. Weave brings together a cloud phone system (VoIP), two-way text messaging,…'
-  api_count: 9
-  score_band: strong
-  score_composite: 65.5
+  score_composite: 67.2
   shared: 1
 - slug: spruce-health
   name: Spruce Health
   description: Spruce Health is a HIPAA-compliant healthcare communication platform that unifies phone, SMS, secure messaging, video, e-fax, team chat, mobile payments and VoIP phone lines into one system for medical practices, with AI-enabled voicemail transcription, summarization and call routing. Every eligibl…
   api_count: 15
   score_band: strong
-  score_composite: 64.8
+  score_composite: 65.7
+  shared: 1
+- slug: hustle
+  name: Hustle
+  description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and a…
+  api_count: 10
+  score_band: strong
+  score_composite: 65.5
   shared: 1
 - slug: mailersend
   name: MailerSend
@@ -90,14 +104,7 @@ providers:
   description: parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the customer journey. The platform spans four modules — Convert (pr…
   api_count: 8
   score_band: strong
-  score_composite: 60.9
-  shared: 1
-- slug: sendhub
-  name: SendHub
-  description: SendHub is a business text messaging platform for SMS/MMS marketing campaigns, two-way texting, appointment reminders, bulk messaging, SMS surveys, group messaging, and VoIP calling, used by more than 10,000 businesses. It exposes a REST-like v1 API at api.sendhub.com for programmatically managing…
-  api_count: 6
-  score_band: strong
-  score_composite: 60.7
+  score_composite: 61.8
   shared: 1
 - slug: kixie
   name: Kixie
@@ -106,19 +113,26 @@ providers:
   score_band: strong
   score_composite: 60.5
   shared: 1
-- slug: hustle
-  name: Hustle
-  description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and a…
-  api_count: 10
+- slug: neutrino-api
+  name: Neutrino API
+  description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP API of 28 published operations — one verb path each, no reso…'
+  api_count: 7
+  score_band: strong
+  score_composite: 60.3
+  shared: 1
+- slug: sendhub
+  name: SendHub
+  description: SendHub is a business text messaging platform for SMS/MMS marketing campaigns, two-way texting, appointment reminders, bulk messaging, SMS surveys, group messaging, and VoIP calling, used by more than 10,000 businesses. It exposes a REST-like v1 API at api.sendhub.com for programmatically managing…
+  api_count: 6
   score_band: strong
   score_composite: 59.8
   shared: 1
-- slug: kudosity
-  name: Kudosity
-  description: Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, l…
-  api_count: 2
+- slug: simpletexting
+  name: SimpleTexting
+  description: SimpleTexting is a business SMS and MMS marketing platform. Its v2 REST API lets developers send single text messages, run bulk campaigns to lists and segments, manage contacts and contact lists, upload MMS media, provision sending numbers, and subscribe to delivery and incoming-message webhooks, a…
+  api_count: 12
   score_band: strong
-  score_composite: 59.1
+  score_composite: 59.8
   shared: 1
 - slug: the-mobile-first-company
   name: The Mobile First Company
@@ -141,13 +155,6 @@ providers:
   score_band: strong
   score_composite: 58.9
   shared: 1
-- slug: simpletexting
-  name: SimpleTexting
-  description: SimpleTexting is a business SMS and MMS marketing platform. Its v2 REST API lets developers send single text messages, run bulk campaigns to lists and segments, manage contacts and contact lists, upload MMS media, provision sending numbers, and subscribe to delivery and incoming-message webhooks, a…
-  api_count: 12
-  score_band: strong
-  score_composite: 58.8
-  shared: 1
 - slug: ringcentral
   name: RingCentral
   description: RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.
@@ -155,19 +162,26 @@ providers:
   score_band: strong
   score_composite: 58.2
   shared: 1
-- slug: neutrino-api
-  name: Neutrino API
-  description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP API of 28 published operations — one verb path each, no reso…'
-  api_count: 7
+- slug: microsoft-teams
+  name: Microsoft Teams
+  description: Microsoft Teams is a collaboration platform that combines workplace chat, meetings, file storage, and application integration. It provides APIs for building custom integrations, managing teams and channels, sending messages, scheduling meetings, and initiating calls through Microsoft Graph.
+  api_count: 11
   score_band: strong
-  score_composite: 56.9
+  score_composite: 56.8
+  shared: 1
+- slug: kudosity
+  name: Kudosity
+  description: Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, l…
+  api_count: 2
+  score_band: strong
+  score_composite: 56.6
   shared: 1
 - slug: sinch
   name: Sinch
   description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
   api_count: 35
   score_band: strong
-  score_composite: 56.5
+  score_composite: 55.7
   shared: 1
 - slug: bandwidth
   name: Bandwidth
@@ -190,6 +204,13 @@ providers:
   score_band: strong
   score_composite: 55.0
   shared: 1
+- slug: zoom
+  name: Zoom
+  description: Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.
+  api_count: 47
+  score_band: strong
+  score_composite: 55.0
+  shared: 1
 - slug: whereby
   name: Whereby
   description: Whereby is an embeddable video API plus standalone meetings product that lets developers add browser-based, no-download video calls to their apps with a few lines of code or build deeply customized experiences via SDKs. The REST API at api.whereby.dev/v1 covers meetings, rooms, recordings, transcri…
@@ -197,30 +218,12 @@ providers:
   score_band: strong
   score_composite: 54.3
   shared: 1
-- slug: vonage
-  name: Vonage
-  description: Vonage (part of Ericsson) provides cloud communications APIs for voice, SMS, messaging, video, and verification. The Vonage API platform enables businesses to embed communication capabilities into applications including voice calls, SMS, multi-channel messaging (WhatsApp, Messenger, Viber, RCS), vi…
-  api_count: 9
-  score_band: developing
-  score_composite: 53.2
-  shared: 1
-- slug: microsoft-teams
-  name: Microsoft Teams
-  description: Microsoft Teams is a collaboration platform that combines workplace chat, meetings, file storage, and application integration. It provides APIs for building custom integrations, managing teams and channels, sending messages, scheduling meetings, and initiating calls through Microsoft Graph.
-  api_count: 11
-  score_band: developing
-  score_composite: 52.9
-  shared: 1
-- slug: nfon
-  name: Nfon
-  description: NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication.…
-  api_count: 52
-  score_band: developing
-  score_composite: 52.2
-  shared: 1
 related:
 - slug: authentication
   name: Authentication
+  shared: 3
+- slug: security
+  name: Security
   shared: 2
 - slug: agents-skills
   name: Agent Skills
@@ -231,14 +234,11 @@ related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 1
-- slug: security
-  name: Security
-  shared: 1
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Pinpoint, Nylas, SMTP2GO, Mailboxlayer, Twilio, Loops, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Pinpoint, Nylas, Orange Business, Mailboxlayer, SMTP2GO, Twilio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication, Agent Skills, Agents, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Authentication, Security, Agent Skills, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

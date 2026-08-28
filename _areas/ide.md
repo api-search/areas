@@ -13,7 +13,7 @@ providers:
   description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
   api_count: 12
   score_band: strong
-  score_composite: 63.7
+  score_composite: 64.7
   shared: 1
 - slug: choreo
   name: Choreo
@@ -22,12 +22,26 @@ providers:
   score_band: developing
   score_composite: 49.1
   shared: 1
+- slug: amazon-cloud9
+  name: Amazon Cloud9
+  description: AWS Cloud9 is a browser-based integrated development environment (IDE) that enables developers to write, run, and debug code without installing local software. Supports 40+ programming languages with real-time collaboration, integrated terminal, and pre-authenticated AWS CLI.
+  api_count: 2
+  score_band: developing
+  score_composite: 47.7
+  shared: 1
 - slug: workday-studio
   name: Workday Studio
   description: Workday Studio is an integrated development environment (IDE) for building custom integrations and applications on the Workday platform. It provides tools for creating web services, custom reports, and integration solutions.
   api_count: 18
   score_band: developing
-  score_composite: 46.3
+  score_composite: 47.7
+  shared: 1
+- slug: cognition
+  name: Cognition AI
+  description: Cognition AI is an applied AI lab building Devin, an autonomous AI software engineer that plans, writes, tests, and ships production code. The company also operates the Windsurf agentic IDE following its 2025 acquisition of the Windsurf team and product. Devin is sold to individual developers, engi…
+  api_count: 8
+  score_band: developing
+  score_composite: 43.9
   shared: 1
 - slug: windsurfrules
   name: Windsurf
@@ -43,20 +57,6 @@ providers:
   score_band: developing
   score_composite: 41.8
   shared: 1
-- slug: cognition
-  name: Cognition AI
-  description: Cognition AI is an applied AI lab building Devin, an autonomous AI software engineer that plans, writes, tests, and ships production code. The company also operates the Windsurf agentic IDE following its 2025 acquisition of the Windsurf team and product. Devin is sold to individual developers, engi…
-  api_count: 8
-  score_band: developing
-  score_composite: 41.0
-  shared: 1
-- slug: amazon-cloud9
-  name: Amazon Cloud9
-  description: AWS Cloud9 is a browser-based integrated development environment (IDE) that enables developers to write, run, and debug code without installing local software. Supports 40+ programming languages with real-time collaboration, integrated terminal, and pre-authenticated AWS CLI.
-  api_count: 2
-  score_band: developing
-  score_composite: 40.4
-  shared: 1
 - slug: vs-code-marketplace
   name: VS Code Marketplace
   description: VS Code Marketplace is Microsoft's official extension marketplace for Visual Studio Code, offering thousands of extensions for languages, debuggers, themes, and developer tools. It provides a Gallery API for programmatically searching, discovering, and retrieving extension metadata, enabling integr…
@@ -69,7 +69,7 @@ providers:
   description: JupyterLab is the next-generation web-based interactive development environment for notebooks, code, and data. It is served by Jupyter Server and ships with JupyterLab Server, which provides REST APIs for user-defined settings, workspaces, themes, translations, and license reports, alongside the Ja…
   api_count: 7
   score_band: thin
-  score_composite: 37.2
+  score_composite: 38.6
   shared: 1
 - slug: cursor
   name: Cursor
@@ -103,8 +103,8 @@ providers:
   name: StackBlitz
   description: StackBlitz is an online development environment that runs Node.js applications entirely in the browser using WebContainers, a WebAssembly-based operating system that boots Node.js in milliseconds without a remote server. It serves developers, technical writers, and platform teams who need interacti…
   api_count: 2
-  score_band: emerging
-  score_composite: 26.1
+  score_band: thin
+  score_composite: 28.5
   shared: 1
 - slug: nx-dev
   name: Nx
@@ -118,7 +118,7 @@ providers:
   description: Microsoft Visual Studio is an integrated development environment (IDE) for building applications. It provides APIs for extending the IDE functionality, publishing extensions to the marketplace, and building VS Code extensions.
   api_count: 3
   score_band: emerging
-  score_composite: 21.4
+  score_composite: 23.8
   shared: 1
 - slug: qt
   name: Qt
@@ -133,6 +133,20 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 16.9
+  shared: 1
+- slug: visual-studio
+  name: Visual Studio
+  description: Microsoft Visual Studio is an integrated development environment (IDE) for building applications across .NET, C++, web, mobile, cloud, and game platforms on Windows and macOS. While the Visual Studio IDE itself is not exposed as a SaaS REST API, Microsoft provides developer-facing APIs for Live Sha…
+  api_count: 2
+  score_band: emerging
+  score_composite: 13.1
+  shared: 1
+- slug: visual-studio-code
+  name: Visual Studio Code
+  description: Visual Studio Code is a free, open-source, cross-platform code editor developed by Microsoft for Windows, Linux, macOS, and the web, built on the MIT-licensed Code - OSS project and distinguished by features such as IntelliSense, debugging, integrated Git, and a marketplace with tens of thousands o…
+  api_count: 1
+  score_band: emerging
+  score_composite: 12.8
   shared: 1
 - slug: codeium
   name: Codeium
@@ -162,20 +176,6 @@ providers:
   score_band: emerging
   score_composite: 11.8
   shared: 1
-- slug: visual-studio
-  name: Visual Studio
-  description: Microsoft Visual Studio is an integrated development environment (IDE) for building applications across .NET, C++, web, mobile, cloud, and game platforms on Windows and macOS. While the Visual Studio IDE itself is not exposed as a SaaS REST API, Microsoft provides developer-facing APIs for Live Sha…
-  api_count: 2
-  score_band: emerging
-  score_composite: 11.7
-  shared: 1
-- slug: visual-studio-code
-  name: Visual Studio Code
-  description: Visual Studio Code is a free, open-source, cross-platform code editor developed by Microsoft for Windows, Linux, macOS, and the web, built on the MIT-licensed Code - OSS project and distinguished by features such as IntelliSense, debugging, integrated Git, and a marketplace with tens of thousands o…
-  api_count: 1
-  score_band: minimal
-  score_composite: 9.0
-  shared: 1
 - slug: integrated-development-environment
   name: Integrated Development Environment
   description: Integrated Development Environment (IDE) is a software application that consolidates the core developer workflow into a single interface, typically combining a source code editor, build automation tools, debugger, version control integration, intelligent code completion, refactoring, and language s…
@@ -199,7 +199,7 @@ related:
 overview: 'IDE is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ide.apievangelist.com](https://ide.apievangelist.com).
 
 
-  25 providers on the network work in this area, including GitHub Copilot, Choreo, Workday Studio, Windsurf, Anysphere, Cognition AI, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  25 providers on the network work in this area, including GitHub Copilot, Choreo, Amazon Cloud9, Workday Studio, Cognition AI, Windsurf, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Unified APIs, FinOps, Machine Learning, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'

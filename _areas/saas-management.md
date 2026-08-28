@@ -6,21 +6,49 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 51
+provider_count: 66
 providers:
 - slug: boomi
   name: Boomi
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 20
   score_band: strong
-  score_composite: 62.3
+  score_composite: 61.5
+  shared: 1
+- slug: levitate
+  name: Levitate
+  description: Levitate is a relationship-marketing and "Happiness Platform" SaaS for relationship-based small businesses — insurance agencies, financial advisors, law firms, nonprofits, home services and faith organizations — founded in 2017 in Raleigh, North Carolina by ShareFile founder Jesse Lipson. The produ…
+  api_count: 2
+  score_band: strong
+  score_composite: 58.3
+  shared: 1
+- slug: medtrainer
+  name: MedTrainer
+  description: MedTrainer is a healthcare workforce compliance software company that consolidates learning management, credentialing and provider enrollment, document and policy management, incident reporting, safety plans, contract management and exclusion/sanction monitoring into a single all-in-one platform fo…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.1
+  shared: 1
+- slug: sense-talent-labs
+  name: Sense Talent Labs
+  description: Sense Talent Labs, operating as Sense (sensehq.com), is an AI-powered talent engagement and recruiting automation platform founded in 2016 and used by staffing firms and enterprise talent-acquisition teams. The product suite spans recruiting automation, a talent CRM, campaigns and journeys, candida…
+  api_count: 1
+  score_band: strong
+  score_composite: 55.3
   shared: 1
 - slug: hiver
   name: Hiver
   description: 'Hiver (Hiver Inc., originally GrexIt) builds an AI-powered customer service platform for teams that run support out of shared email addresses. It ships in two forms: Hiver in Gmail, a Chrome-extension helpdesk that turns shared inboxes like support@ and billing@ into assignable, SLA-tracked queues…'
   api_count: 1
-  score_band: developing
-  score_composite: 54.2
+  score_band: strong
+  score_composite: 54.7
+  shared: 1
+- slug: leanlaw
+  name: LeanLaw
+  description: LeanLaw is legal billing and revenue-operations software for small and mid-sized law firms, built natively on QuickBooks Online. It runs the full law-firm revenue lifecycle — time and expense tracking, matter management, trust/IOLTA accounting, flat-fee and contingency billing, invoicing, e-payment…
+  api_count: 2
+  score_band: strong
+  score_composite: 54.7
   shared: 1
 - slug: wundergraph
   name: WunderGraph
@@ -28,6 +56,13 @@ providers:
   api_count: 11
   score_band: developing
   score_composite: 53.2
+  shared: 1
+- slug: peek
+  name: Peek
+  description: 'Peek is a San Francisco-based travel technology company founded in 2012 by Ruzwana Bashir and Oskar Bruening. It operates two connected surfaces: peek.com, a consumer marketplace of 300,000+ bookable tours, activities, rentals and attractions, and Peek Pro, the booking and back-office operating sys…'
+  api_count: 2
+  score_band: developing
+  score_composite: 51.3
   shared: 1
 - slug: dell-servers
   name: Dell Servers
@@ -50,47 +85,54 @@ providers:
   score_band: developing
   score_composite: 49.0
   shared: 1
-- slug: amazon-systems-manager
-  name: Amazon Systems Manager
-  description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
-  api_count: 5
-  score_band: developing
-  score_composite: 44.4
-  shared: 1
 - slug: zluri
   name: Zluri
   description: Zluri is a SaaS management and operations platform that helps organizations discover, govern, and optimize all their cloud applications. By connecting to SSO, finance, HR systems, and app APIs, it builds a unified system of record for SaaS usage, users, licenses, and spend. IT, finance, and procure…
   api_count: 4
   score_band: developing
-  score_composite: 44.4
+  score_composite: 48.9
+  shared: 1
+- slug: amazon-systems-manager
+  name: Amazon Systems Manager
+  description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
+  api_count: 5
+  score_band: developing
+  score_composite: 48.1
+  shared: 1
+- slug: logiwa
+  name: Logiwa
+  description: Logiwa is a Chicago-based cloud fulfillment software company whose flagship product, Logiwa IO, is a warehouse management and fulfillment management system (WMS/FMS) built for high-volume B2C and DTC brands, wholesalers and third-party logistics providers (3PLs). Logiwa exposes a documented Integra…
+  api_count: 2
+  score_band: developing
+  score_composite: 45.8
   shared: 1
 - slug: zylo
   name: Zylo
   description: Zylo is a SaaS management platform that helps organizations optimize their software usage and spending. By providing insights into software utilization, licensing agreements, and renewal dates, Zylo enables companies to make informed decisions about their software investments. With Zylo, businesses…
   api_count: 4
   score_band: developing
-  score_composite: 44.4
-  shared: 1
-- slug: layerx
-  name: LayerX
-  description: 'LayerX Inc. (株式会社LayerX) is a Tokyo-based enterprise software company founded 1 August 2018, operating as a compound startup across four business lines: Bakuraku (バクラク), an AI back-office suite covering expense reimbursement, invoice receipt and issuance, workflow and approvals, electronic bookkeep…'
-  api_count: 1
-  score_band: developing
-  score_composite: 41.8
+  score_composite: 45.4
   shared: 1
 - slug: tropic
   name: Tropic
   description: Tropic is an intelligent procurement platform that combines AI-powered spend management, supplier management, and benchmark data to help organizations find and capture savings opportunities. Tropic's AI agents track renewals, spot shadow spend, flag compliance issues, and automate manual procuremen…
   api_count: 5
   score_band: developing
-  score_composite: 41.6
+  score_composite: 43.4
   shared: 1
 - slug: productiv
   name: Productiv
   description: The SaaS Management Platform that delivers the industrys most comprehensive view of your SaaS portfolio with deep usage analytics, spend data, and feature-level insights to power the technology decisions that support your business.
   api_count: 11
   score_band: developing
-  score_composite: 40.5
+  score_composite: 41.7
+  shared: 1
+- slug: nudge-security
+  name: Nudge Security
+  description: Nudge Security is a SaaS and AI security management platform that discovers all SaaS and cloud applications used across an organization, helps security teams manage OAuth grants, enforce security policies, monitor app-to-app integrations, and reduce SaaS risk without blocking productivity. The plat…
+  api_count: 11
+  score_band: developing
+  score_composite: 40.6
   shared: 1
 - slug: cakewalk
   name: Cakewalk
@@ -106,6 +148,13 @@ providers:
   score_band: thin
   score_composite: 39.2
   shared: 1
+- slug: layerx
+  name: LayerX
+  description: 'LayerX Inc. (株式会社LayerX) is a Tokyo-based enterprise software company founded 1 August 2018, operating as a compound startup across four business lines: Bakuraku (バクラク), an AI back-office suite covering expense reimbursement, invoice receipt and issuance, workflow and approvals, electronic bookkeep…'
+  api_count: 1
+  score_band: thin
+  score_composite: 38.1
+  shared: 1
 - slug: snow-software
   name: Snow Software
   description: Snow Software (now Flexera Snow) is an IT asset and SaaS management platform providing visibility into software licenses, cloud spend, SaaS usage, and hardware assets across the enterprise. Snow Atlas is the cloud-native platform offering SAM (Software Asset Management), SaaS Management, Cloud Lice…
@@ -113,12 +162,19 @@ providers:
   score_band: thin
   score_composite: 36.9
   shared: 1
-- slug: nudge-security
-  name: Nudge Security
-  description: Nudge Security is a SaaS and AI security management platform that discovers all SaaS and cloud applications used across an organization, helps security teams manage OAuth grants, enforce security policies, monitor app-to-app integrations, and reduce SaaS risk without blocking productivity. The plat…
-  api_count: 11
+- slug: loopio
+  name: Loopio
+  description: Loopio is a Toronto-based response management platform used by teams to answer RFPs, RFIs, DDQs, and security questionnaires from a governed, reusable content Library. It publishes a public REST API — the Loopio Public API v2 at https://api.loopio.com/data/v2 — documented on a Stoplight developer p…
+  api_count: 1
   score_band: thin
-  score_composite: 36.8
+  score_composite: 34.7
+  shared: 1
+- slug: retail-zipline
+  name: Retail Zipline
+  description: Retail Zipline, Inc. (branded "Zipline") is a San Francisco-based retail operations software company founded in 2014 by Melissa Wong and Jeremy Baker. Its cloud platform coordinates communications, task management, checklists, audits, learning, knowledge base and performance reporting across headqu…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.4
   shared: 1
 - slug: coreview-fka-4ward365
   name: CoreView (FKA 4ward365)
@@ -126,6 +182,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 33.8
+  shared: 1
+- slug: league
+  name: League
+  description: League is a Toronto-founded (2014) healthcare platform company whose Health OS powers consumer healthcare experiences for payers, providers, consumer health brands and employers, and which now positions itself as a healthcare-grade agentic experience platform shipping pre-built AI Agent Teams for b…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.7
   shared: 1
 - slug: lumos
   name: Lumos
@@ -139,91 +202,28 @@ providers:
   description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
   api_count: 20
   score_band: thin
-  score_composite: 31.4
+  score_composite: 33.3
   shared: 1
 - slug: bettercloud
   name: BetterCloud
   description: BetterCloud is the end-to-end SaaS management platform that enables IT teams to discover, manage, and secure the growing SaaS environment. The platform provides automated workflows, security policies, and management capabilities for SaaS applications in enterprise environments, handling billions of…
   api_count: 5
   score_band: thin
-  score_composite: 30.9
-  shared: 1
-- slug: hypori
-  name: Hypori
-  description: Hypori, Inc. is a Reston, Virginia headquartered, service-disabled veteran-owned software company that builds Virtual Mobile Infrastructure (VMI) for zero-trust mobile access. Its products — Hypori Mobile, Hypori Lyte and Hypori Secure Messaging — run a fully isolated virtual Android workspace in H…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.8
-  shared: 1
-- slug: blissfully
-  name: Blissfully
-  description: Blissfully was a SaaS management platform providing SaaS discovery, spend optimization, and workflow automation for IT and finance teams. Blissfully was acquired by Vendr in 2022 and integrated into the Vendr platform. Vendr is now a leading SaaS buying and management platform that helps companies…
-  api_count: 7
-  score_band: thin
-  score_composite: 28.4
+  score_composite: 32.8
   shared: 1
 - slug: zenadmin
   name: ZenAdmin
   description: 'ZenAdmin is an all-in-one IT management platform for global teams, covering the full device and employee lifecycle: IT procurement, device lifecycle management, asset and inventory tracking, mobile device management (MDM), identity and access management, SaaS/app management, IT helpdesk, and 24/7 I…'
   api_count: 6
   score_band: thin
-  score_composite: 28.1
-  shared: 1
-- slug: spendflo
-  name: Spendflo
-  description: Spendflo is an AI-native procurement platform that centralizes intake-to-pay, enforces procurement policy, and reduces SaaS and vendor spend by combining AI-powered automation with expert-led negotiation. The Flash AI suite includes a Contract Analyst, Payables Agent, Procurement Analyst, and AI Wo…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.8
-  shared: 1
-- slug: sastrify
-  name: Sastrify
-  description: Sastrify is an AI-powered SaaS management and procurement platform that unites IT, Finance, and Procurement on one intelligent platform. It discovers every tool in an organization's stack, manages licenses and renewals, benchmarks spend automatically against market data, and provides procurement wo…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.7
-  shared: 1
-- slug: leanix
-  name: LeanIX
-  description: LeanIX (now SAP LeanIX) is an enterprise architecture and SaaS management platform providing IT portfolio management, application portfolio rationalization, SaaS discovery, and technology risk management. The platform exposes REST APIs for integrating with the fact sheet inventory, running inbound…
-  api_count: 5
-  score_band: emerging
-  score_composite: 24.3
-  shared: 1
-- slug: cleanshelf
-  name: Cleanshelf
-  description: Cleanshelf was a SaaS management platform that helped enterprises discover and inventory their SaaS applications, optimize software licenses, track spend, and surface shadow IT. Cleanshelf was acquired by Zylo in 2021 and its capabilities have been folded into the Zylo enterprise SaaS spend optimiz…
-  api_count: 2
-  score_band: emerging
-  score_composite: 23.8
-  shared: 1
-- slug: jirav
-  name: Jirav
-  description: Jirav is a financial planning and analysis (FP&A) platform for growth companies and for accounting and CFO advisory firms, combining reporting, dashboards, budgeting, forecasting, scenario modeling and workforce planning in a single hosted web application. It imports actuals from accounting systems…
-  api_count: 0
-  score_band: emerging
-  score_composite: 23.7
-  shared: 1
-- slug: kangarootime
-  name: Kangarootime
-  description: Kangarootime is a cloud-based childcare and early-education management platform for single-site and multi-location centers, franchises and after-school programs. The product covers enrollment and lead management, family and staff records, classroom and rooming, attendance and check-in/out kiosks, c…
-  api_count: 0
-  score_band: emerging
-  score_composite: 22.8
-  shared: 1
-- slug: augmentt
-  name: Augmentt
-  description: Augmentt is a multi-tenant SaaS management platform built for managed service providers (MSPs). It provides SaaS discovery (Shadow IT), license optimization, usage tracking, spend management, and SaaS security policy enforcement across Microsoft 365 and cloud applications. Augmentt integrates with…
-  api_count: 3
-  score_band: emerging
-  score_composite: 21.9
+  score_composite: 31.5
   shared: 1
 related:
 - slug: management
   name: Management
   shared: 6
-- slug: virtualization
-  name: Virtualization
+- slug: webhooks
+  name: Webhooks
   shared: 2
 - slug: ai-automation
   name: AI Automation
@@ -231,8 +231,8 @@ related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 1
-- slug: finops
-  name: FinOps
+- slug: virtualization
+  name: Virtualization
   shared: 1
 - slug: ipaas
   name: iPaaS
@@ -240,8 +240,8 @@ related:
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Boomi, Hiver, WunderGraph, Dell Servers, SnapLogic, Torii, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Boomi, Levitate, MedTrainer, Sense Talent Labs, Hiver, LeanLaw, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, Virtualization, AI Automation, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, Webhooks, AI Automation, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

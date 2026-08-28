@@ -13,21 +13,21 @@ providers:
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 15
   score_band: strong
-  score_composite: 63.6
+  score_composite: 64.5
   shared: 1
 - slug: att
   name: AT&T
   description: 'AT&T Inc. is a multinational telecommunications holding company providing wireless and wireline communications, broadband, and business networking to consumers and enterprises. Its developer surface spans four programs: the legacy AT&T Developer Program (SMS, MMS, in-app messaging, speech and OAuth…'
   api_count: 28
   score_band: developing
-  score_composite: 50.9
+  score_composite: 52.3
   shared: 1
 - slug: microsoft-azure-load-balancer
   name: Azure Load Balancer
   description: Azure Load Balancer is a high-performance, low-latency layer-4 load balancing service for distributing inbound and outbound network traffic across virtual machines and other Azure resources. It supports public and internal load balancers, health probes, NAT rules, and HA scenarios.
   api_count: 2
   score_band: developing
-  score_composite: 40.4
+  score_composite: 45.6
   shared: 1
 - slug: lumen-technologies
   name: Lumen Technologies
@@ -57,6 +57,13 @@ providers:
   score_band: thin
   score_composite: 29.2
   shared: 1
+- slug: zayo-group
+  name: Zayo Group Holdings
+  description: Zayo Group Holdings is a major US corporation and Fortune 1000 company. The Zayo Group Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
+  api_count: 2
+  score_band: emerging
+  score_composite: 17.4
+  shared: 1
 - slug: amazon-web-services
   name: Amazon Web Services
   description: A network index of all Amazon Web Services (AWS) API profiles maintained by the API Evangelist organization, covering all AWS services across compute, storage, database, networking, security, AI/ML, and more.
@@ -71,26 +78,19 @@ providers:
   score_band: emerging
   score_composite: 15.5
   shared: 1
-- slug: zayo-group
-  name: Zayo Group Holdings
-  description: Zayo Group Holdings is a major US corporation and Fortune 1000 company. The Zayo Group Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 2
+- slug: centurylink
+  name: CenturyLink (Lumen Technologies)
+  description: CenturyLink is the residential broadband and home services brand of Lumen Technologies, a Fortune 500 telecommunications provider operating one of the largest fiber networks in North America. Following the Level 3 acquisition and rebrand to Lumen, CenturyLink's developer surface is exposed through…
+  api_count: 5
   score_band: emerging
-  score_composite: 15.5
+  score_composite: 13.9
   shared: 1
 - slug: cogent-communications
   name: Cogent Communications
   description: Cogent Communications is a major US corporation and Fortune 1000 company. The Cogent Communications API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
   api_count: 1
-  score_band: minimal
-  score_composite: 9.3
-  shared: 1
-- slug: centurylink
-  name: CenturyLink (Lumen Technologies)
-  description: CenturyLink is the residential broadband and home services brand of Lumen Technologies, a Fortune 500 telecommunications provider operating one of the largest fiber networks in North America. Following the Level 3 acquisition and rebrand to Lumen, CenturyLink's developer surface is exposed through…
-  api_count: 5
-  score_band: minimal
-  score_composite: 8.9
+  score_band: emerging
+  score_composite: 11.2
   shared: 1
 - slug: api-evangelist-network
   name: API Evangelist Network
@@ -111,9 +111,6 @@ related:
   shared: 1
 - slug: dns
   name: DNS
-  shared: 1
-- slug: logging
-  name: Logging
   shared: 1
 - slug: security
   name: Security

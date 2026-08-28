@@ -6,21 +6,14 @@ description: FinOps is a cloud financial management discipline combining technol
 area_url: https://finops.apievangelist.com
 area_host: finops.apievangelist.com
 icon: https://finops.apievangelist.com/icon-thumb.png
-provider_count: 78
+provider_count: 79
 providers:
 - slug: doit
   name: DoiT
   description: DoiT International is a cloud and FinOps technology company behind DoiT Cloud Intelligence, an intent-aware FinOps platform that unifies cost, usage and savings data across AWS, Google Cloud, Azure, Kubernetes and 40+ other clouds and SaaS providers. The DoiT Platform API at api.doit.com gives prog…
   api_count: 2
   score_band: strong
-  score_composite: 64.7
-  shared: 1
-- slug: edgee
-  name: Edgee
-  description: Edgee is a French edge-native AI Gateway that sits between coding agents and LLM providers, intercepting, routing, compressing, metering and securing every request. Its OpenAI-compatible gateway API at edgee.io exposes chat completions, an Anthropic Messages endpoint, an OpenAI Responses endpoint,…
-  api_count: 2
-  score_band: strong
-  score_composite: 59.4
+  score_composite: 62.0
   shared: 1
 - slug: corestack
   name: CoreStack
@@ -28,6 +21,20 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 57.2
+  shared: 1
+- slug: amazon-compute-optimizer
+  name: Amazon Compute Optimizer
+  description: Amazon Compute Optimizer analyzes the configuration and utilization metrics of your AWS resources and provides recommendations to help you identify optimal AWS resource configurations. It uses machine learning to analyze historical utilization metrics and generates rightsizing recommendations for E…
+  api_count: 21
+  score_band: strong
+  score_composite: 57.0
+  shared: 1
+- slug: edgee
+  name: Edgee
+  description: Edgee is a French edge-native AI Gateway that sits between coding agents and LLM providers, intercepting, routing, compressing, metering and securing every request. Its OpenAI-compatible gateway API at edgee.io exposes chat completions, an Anthropic Messages endpoint, an OpenAI Responses endpoint,…
+  api_count: 2
+  score_band: developing
+  score_composite: 53.4
   shared: 1
 - slug: paid
   name: Paid
@@ -43,19 +50,19 @@ providers:
   score_band: developing
   score_composite: 51.7
   shared: 1
-- slug: amazon-compute-optimizer
-  name: Amazon Compute Optimizer
-  description: Amazon Compute Optimizer analyzes the configuration and utilization metrics of your AWS resources and provides recommendations to help you identify optimal AWS resource configurations. It uses machine learning to analyze historical utilization metrics and generates rightsizing recommendations for E…
-  api_count: 21
-  score_band: developing
-  score_composite: 51.1
-  shared: 1
 - slug: choreo
   name: Choreo
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
   api_count: 16
   score_band: developing
   score_composite: 49.1
+  shared: 1
+- slug: amazon-billing-and-cost-management
+  name: Amazon Billing And Cost Management
+  description: AWS Billing and Cost Management is a suite of tools and APIs that enables organizations to view, analyze, forecast, budget, and optimize their AWS spending. It includes AWS Cost Explorer for cost analysis, AWS Budgets for budget tracking and alerts, Cost Anomaly Detection for ML-powered anomaly ide…
+  api_count: 10
+  score_band: developing
+  score_composite: 47.7
   shared: 1
 - slug: langwatch
   name: LangWatch
@@ -71,12 +78,40 @@ providers:
   score_band: developing
   score_composite: 46.6
   shared: 1
+- slug: densify
+  name: Densify
+  description: Densify (now Kubex) provides a machine learning powered cloud and container optimization platform that continuously right-sizes resources to reduce cost and improve performance across Kubernetes, public cloud, and virtualized environments. The Densify REST API exposes optimization analysis, recomme…
+  api_count: 7
+  score_band: developing
+  score_composite: 46.4
+  shared: 1
+- slug: archera
+  name: Archera
+  description: Archera is a cloud financial operations (FinOps) platform that helps organizations reduce cloud spend by 20-30% through intelligent commitment management and insured, short-term cloud commitments across AWS, Azure, and Google Cloud. Its Guaranteed Commitments (Guaranteed Savings Plans, Guaranteed R…
+  api_count: 10
+  score_band: developing
+  score_composite: 46.2
+  shared: 1
+- slug: spot-by-netapp
+  name: Spot by NetApp
+  description: Spot by NetApp (formerly Spot by Flexera, originally Spotinst) is a cloud infrastructure optimization platform providing automated cost optimization, scaling, and intelligent management for cloud workloads across AWS, Azure, and GCP. The Spot platform includes Elastigroup for intelligent auto-scali…
+  api_count: 10
+  score_band: developing
+  score_composite: 45.6
+  shared: 1
 - slug: revefi
   name: Revefi
   description: Revefi is an AI-powered data operations platform that delivers FinOps, observability, and optimization for modern data warehouses and AI/LLM workloads. Its zero-touch "data copilot" (Raden) autonomously monitors data quality, spend, performance, and usage across Snowflake, Databricks, BigQuery, and…
   api_count: 6
   score_band: developing
   score_composite: 45.4
+  shared: 1
+- slug: spacelift
+  name: Spacelift
+  description: Spacelift is an infrastructure-as-code (IaC) orchestration platform that combines AI-assisted deployments, GitOps pipelines, and policy-as-code governance. It supports Terraform, OpenTofu, Pulumi, CloudFormation, Kubernetes, and Ansible. Key features include drift detection, OPA-based policies, sel…
+  api_count: 2
+  score_band: developing
+  score_composite: 45.1
   shared: 1
 - slug: cycloid
   name: Cycloid
@@ -85,26 +120,12 @@ providers:
   score_band: developing
   score_composite: 45.0
   shared: 1
-- slug: archera
-  name: Archera
-  description: Archera is a cloud financial operations (FinOps) platform that helps organizations reduce cloud spend by 20-30% through intelligent commitment management and insured, short-term cloud commitments across AWS, Azure, and Google Cloud. Its Guaranteed Commitments (Guaranteed Savings Plans, Guaranteed R…
-  api_count: 10
-  score_band: developing
-  score_composite: 44.9
-  shared: 1
 - slug: amberflo
   name: Amberflo
   description: Amberflo is a cloud metering, usage-based billing, and AI cost management platform. It provides real-time event ingestion, customer billing automation, AI gateway capabilities, and FinOps visibility for API-driven and AI-powered businesses. The platform supports usage-based, token-based, seat-based…
   api_count: 10
   score_band: developing
   score_composite: 44.8
-  shared: 1
-- slug: amazon-billing-and-cost-management
-  name: Amazon Billing And Cost Management
-  description: AWS Billing and Cost Management is a suite of tools and APIs that enables organizations to view, analyze, forecast, budget, and optimize their AWS spending. It includes AWS Cost Explorer for cost analysis, AWS Budgets for budget tracking and alerts, Cost Anomaly Detection for ML-powered anomaly ide…
-  api_count: 10
-  score_band: developing
-  score_composite: 44.4
   shared: 1
 - slug: cloudzero
   name: CloudZero
@@ -120,12 +141,12 @@ providers:
   score_band: developing
   score_composite: 44.4
   shared: 1
-- slug: densify
-  name: Densify
-  description: Densify (now Kubex) provides a machine learning powered cloud and container optimization platform that continuously right-sizes resources to reduce cost and improve performance across Kubernetes, public cloud, and virtualized environments. The Densify REST API exposes optimization analysis, recomme…
-  api_count: 7
+- slug: schematic
+  name: Schematic
+  description: 'Schematic is a monetization platform that lets developers implement pricing once so that go-to-market teams can control pricing, packaging and entitlements without code changes. It decouples pricing from code: engineering integrates the entitlement and metering layer, and product, sales and finance…'
+  api_count: 20
   score_band: developing
-  score_composite: 44.0
+  score_composite: 43.4
   shared: 1
 - slug: alphaus
   name: Alphaus
@@ -141,10 +162,10 @@ providers:
   score_band: developing
   score_composite: 43.3
   shared: 1
-- slug: spot-by-netapp
-  name: Spot by NetApp
-  description: Spot by NetApp (formerly Spot by Flexera, originally Spotinst) is a cloud infrastructure optimization platform providing automated cost optimization, scaling, and intelligent management for cloud workloads across AWS, Azure, and GCP. The Spot platform includes Elastigroup for intelligent auto-scali…
-  api_count: 10
+- slug: unravel-data-systems
+  name: Unravel Data Systems
+  description: Unravel Data Systems is an AI-powered data observability and FinOps platform that helps data teams optimize performance, cost, and reliability across modern data stacks including Databricks, Snowflake, BigQuery, Amazon EMR, and Cloudera. The self-hosted and SaaS platform exposes a REST API (JSON ov…
+  api_count: 1
   score_band: developing
   score_composite: 43.2
   shared: 1
@@ -155,26 +176,19 @@ providers:
   score_band: developing
   score_composite: 41.9
   shared: 1
-- slug: unravel-data-systems
-  name: Unravel Data Systems
-  description: Unravel Data Systems is an AI-powered data observability and FinOps platform that helps data teams optimize performance, cost, and reliability across modern data stacks including Databricks, Snowflake, BigQuery, Amazon EMR, and Cloudera. The self-hosted and SaaS platform exposes a REST API (JSON ov…
-  api_count: 1
+- slug: harness-cloud-cost
+  name: Harness Cloud Cost Management
+  description: Harness Cloud Cost Management (CCM) provides intelligent cloud cost optimization with AI-driven recommendations, customizable cost perspectives, budgets, anomaly detection, and chargeback / showback through cost categories. CCM ingests cost data from AWS, Azure, GCP, and Kubernetes clusters and exp…
+  api_count: 6
   score_band: developing
-  score_composite: 41.8
+  score_composite: 40.3
   shared: 1
-- slug: schematic
-  name: Schematic
-  description: 'Schematic is a monetization platform that lets developers implement pricing once so that go-to-market teams can control pricing, packaging and entitlements without code changes. It decouples pricing from code: engineering integrates the entitlement and metering layer, and product, sales and finance…'
-  api_count: 20
+- slug: cloudhealth
+  name: CloudHealth
+  description: CloudHealth (now VMware Tanzu CloudHealth, owned by Broadcom) is a multi-cloud financial and operational management platform. It provides cost visibility, optimization recommendations, asset inventory, custom perspectives (groupings), policies, governance, and partner/MSP billing workflows across A…
+  api_count: 8
   score_band: developing
-  score_composite: 41.0
-  shared: 1
-- slug: spacelift
-  name: Spacelift
-  description: Spacelift is an infrastructure-as-code (IaC) orchestration platform that combines AI-assisted deployments, GitOps pipelines, and policy-as-code governance. It supports Terraform, OpenTofu, Pulumi, CloudFormation, Kubernetes, and Ansible. Key features include drift detection, OPA-based policies, sel…
-  api_count: 2
-  score_band: developing
-  score_composite: 40.9
+  score_composite: 40.1
   shared: 1
 - slug: vantage-sh
   name: Vantage
@@ -183,40 +197,26 @@ providers:
   score_band: developing
   score_composite: 40.0
   shared: 1
-- slug: cloudhealth
-  name: CloudHealth
-  description: CloudHealth (now VMware Tanzu CloudHealth, owned by Broadcom) is a multi-cloud financial and operational management platform. It provides cost visibility, optimization recommendations, asset inventory, custom perspectives (groupings), policies, governance, and partner/MSP billing workflows across A…
-  api_count: 8
-  score_band: thin
-  score_composite: 38.6
-  shared: 1
-- slug: harness-cloud-cost
-  name: Harness Cloud Cost Management
-  description: Harness Cloud Cost Management (CCM) provides intelligent cloud cost optimization with AI-driven recommendations, customizable cost perspectives, budgets, anomaly detection, and chargeback / showback through cost categories. CCM ingests cost data from AWS, Azure, GCP, and Kubernetes clusters and exp…
-  api_count: 6
-  score_band: thin
-  score_composite: 37.9
+- slug: orb-billing
+  name: Orb
+  description: Orb is a usage-based billing and metering platform that turns product usage events into subscriptions, prices, invoices, and credits. The Orb REST API ingests metered events, models customers, plans, prices, and items, runs subscriptions, and automates invoicing, credit ledgers, alerts, and webhook…
+  api_count: 11
+  score_band: developing
+  score_composite: 39.3
   shared: 1
 - slug: kion
   name: Kion
   description: Kion is a cloud operations platform that provides automated governance and FinOps capabilities across AWS, Azure, GCP, and OCI through a self-hosted deployment model. The platform consolidates multiple point solutions into a comprehensive system that helps organizations allocate and track cloud spe…
   api_count: 25
   score_band: thin
-  score_composite: 37.1
+  score_composite: 39.0
   shared: 1
-- slug: orb-billing
-  name: Orb
-  description: Orb is a usage-based billing and metering platform that turns product usage events into subscriptions, prices, invoices, and credits. The Orb REST API ingests metered events, models customers, plans, prices, and items, runs subscriptions, and automates invoicing, credit ledgers, alerts, and webhook…
-  api_count: 11
+- slug: hyperline
+  name: Hyperline
+  description: Hyperline is a usage-based billing and subscription platform that helps B2B SaaS companies manage their entire quote-to-cash workflow. Its REST API covers customers, a product and plan catalog, subscriptions, real-time usage and event ingestion, invoicing, payments, credit notes, and webhooks for h…
+  api_count: 7
   score_band: thin
-  score_composite: 36.9
-  shared: 1
-- slug: snow-software
-  name: Snow Software
-  description: Snow Software (now Flexera Snow) is an IT asset and SaaS management platform providing visibility into software licenses, cloud spend, SaaS usage, and hardware assets across the enterprise. Snow Atlas is the cloud-native platform offering SAM (Software Asset Management), SaaS Management, Cloud Lice…
-  api_count: 31
-  score_band: thin
-  score_composite: 36.9
+  score_composite: 38.6
   shared: 1
 related:
 - slug: monetization
@@ -231,16 +231,16 @@ related:
 - slug: developer-experience
   name: Developer Experience
   shared: 1
-- slug: observability
-  name: Observability
-  shared: 1
 - slug: orchestration
   name: Orchestration
+  shared: 1
+- slug: performance
+  name: Performance
   shared: 1
 overview: 'FinOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [finops.apievangelist.com](https://finops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including DoiT, Edgee, CoreStack, Paid, Vantage, Amazon Compute Optimizer, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including DoiT, CoreStack, Amazon Compute Optimizer, Edgee, Paid, Vantage, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monetization, Unified APIs, IDE, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'

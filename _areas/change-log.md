@@ -13,7 +13,7 @@ providers:
   description: Canny is a customer feedback and product management platform that collects, organizes, and prioritizes feature requests from users and internal teams, ties them to roadmaps and changelogs, and surfaces product analytics. The Canny REST API exposes boards, posts, comments, votes, users, companies, c…
   api_count: 16
   score_band: thin
-  score_composite: 32.2
+  score_composite: 33.7
   shared: 1
 - slug: announcekit
   name: AnnounceKit
@@ -27,14 +27,14 @@ providers:
   description: Beamer is a changelog and notification center tool for announcing product updates, new features, and API changes to end users. It provides an embeddable feed widget, push notifications, email digests, and a public changelog page. The Beamer REST API enables programmatic management of posts, users,…
   api_count: 1
   score_band: emerging
-  score_composite: 18.5
+  score_composite: 22.3
   shared: 1
 - slug: launchnotes
   name: LaunchNotes
   description: LaunchNotes is a release communication platform for sharing changelogs, roadmaps, and deprecation notices. The platform helps product, engineering, and customer-facing teams coordinate launches, communicate releases, and notify customers about deprecations through a structured publishing workflow a…
   api_count: 1
   score_band: emerging
-  score_composite: 16.5
+  score_composite: 19.2
   shared: 1
 - slug: changelog-md
   name: CHANGELOG.md (Keep a Changelog)

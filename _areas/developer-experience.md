@@ -13,7 +13,7 @@ providers:
   description: 'Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation…'
   api_count: 32
   score_band: exemplar
-  score_composite: 71.2
+  score_composite: 72.6
   shared: 1
 - slug: unblocked
   name: Unblocked
@@ -27,14 +27,14 @@ providers:
   description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
   api_count: 15
   score_band: strong
-  score_composite: 55.1
+  score_composite: 57.8
   shared: 1
 - slug: signadot
   name: Signadot
   description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
   api_count: 5
   score_band: strong
-  score_composite: 54.7
+  score_composite: 55.5
   shared: 1
 - slug: apimatic
   name: APIMatic
@@ -48,12 +48,19 @@ providers:
   description: Viator is a Tripadvisor company and the largest online marketplace for tours, activities and travel experiences, headquartered in the United States and listing more than 300,000 bookable products across roughly 2,500 destinations. It sits on the demand side of the travel distribution chain as an ag…
   api_count: 9
   score_band: developing
-  score_composite: 50.8
+  score_composite: 46.7
   shared: 1
 - slug: coveo
   name: Coveo
   description: Coveo is a cloud-based AI-relevance platform that delivers personalized search, recommendations, and discovery experiences across digital workplaces, customer service portals, websites, and commerce storefronts. The Coveo platform exposes a family of REST APIs covering search, content indexing (Pus…
   api_count: 152
+  score_band: developing
+  score_composite: 46.5
+  shared: 1
+- slug: acquia
+  name: Acquia
+  description: Acquia is a leading provider of digital experience management solutions for organizations looking to enhance their online presence. They offer a range of services, including cloud hosting, digital asset management, and content management, to help businesses create, manage, and optimize their websit…
+  api_count: 21
   score_band: developing
   score_composite: 45.8
   shared: 1
@@ -78,13 +85,6 @@ providers:
   score_band: developing
   score_composite: 44.4
   shared: 1
-- slug: acquia
-  name: Acquia
-  description: Acquia is a leading provider of digital experience management solutions for organizations looking to enhance their online presence. They offer a range of services, including cloud hosting, digital asset management, and content management, to help businesses create, manage, and optimize their websit…
-  api_count: 21
-  score_band: developing
-  score_composite: 43.9
-  shared: 1
 - slug: getyourguide
   name: GetYourGuide
   description: GetYourGuide is a Berlin-based online travel marketplace for booking tours, activities, attraction tickets, and experiences in destinations around the world. Founded in 2009, the company connects travelers with local activity suppliers and operators, and exposes a public Partner API that gives affi…
@@ -97,21 +97,63 @@ providers:
   description: OpsLevel is a prescriptive internal developer portal for cataloging, measuring, and scaffolding services according to engineering best practices.
   api_count: 2
   score_band: developing
-  score_composite: 41.7
+  score_composite: 42.9
   shared: 1
 - slug: cortex-idp
   name: Cortex
   description: Cortex (cortex.io) is an internal developer portal (IDP) and software catalog platform. It gives engineering organizations a catalog of services and entities, Scorecards that measure those entities against production-readiness and reliability standards, Initiatives for driving improvement campaigns…
   api_count: 6
+  score_band: developing
+  score_composite: 41.3
+  shared: 1
+- slug: scalable-platforms
+  name: Scalable Platforms
+  description: A subject-matter collection covering APIs, tools, and platforms for building and deploying scalable platform infrastructure. This topic encompasses Platform-as-a-Service (PaaS) providers, developer experience platforms, deployment automation, serverless computing, container platforms, and the tools…
+  api_count: 7
   score_band: thin
-  score_composite: 38.9
+  score_composite: 38.8
+  shared: 1
+- slug: speakeasy-api
+  name: Speakeasy
+  description: Speakeasy is an API developer-experience platform that generates production-ready, type-safe SDKs (client libraries), Terraform providers, MCP servers, CLIs, code samples, and docs from an OpenAPI specification. The primary interface is the Speakeasy CLI plus GitHub Actions and the hosted platform,…
+  api_count: 13
+  score_band: thin
+  score_composite: 38.7
+  shared: 1
+- slug: gitbook
+  name: GitBook
+  description: GitBook is a platform that allows users to create, publish, and share online books and documentation. It provides a simple and user-friendly interface for writing and organizing content, as well as tools for collaborating with other authors or team members. With GitBook, users can easily create a p…
+  api_count: 19
+  score_band: thin
+  score_composite: 38.4
+  shared: 1
+- slug: roadie-io
+  name: Roadie
+  description: Roadie is managed Backstage - a fully hosted internal developer portal (IDP) and software catalog delivered as SaaS, so teams get the Backstage software catalog, TechDocs, Scaffolder software templates, Tech Insights scorecards, and 75+ plugins without operating Backstage themselves. Roadie exposes…
+  api_count: 6
+  score_band: thin
+  score_composite: 38.4
+  shared: 1
+- slug: konfetti
+  name: konfetti
+  description: konfetti (Konfetti GmbH, Berlin) operates a marketplace for bookable experiences — cooking classes, pottery and ceramics workshops, cocktail courses, tastings, boat tours, creative and craft workshops, DIY kits and team events — across Germany and Austria, with more than 7,600 bookable experience l…
+  api_count: 5
+  score_band: thin
+  score_composite: 38.4
   shared: 1
 - slug: rely
   name: Rely.io
   description: Rely.io is an internal developer portal that aggregates engineering data, provides software catalogs with blueprints and entities, engineering scorecards, self-service developer actions, and workflow automation for platform engineering teams. The platform integrates with CI/CD pipelines, incident m…
   api_count: 6
   score_band: thin
-  score_composite: 38.8
+  score_composite: 38.0
+  shared: 1
+- slug: fern
+  name: Fern
+  description: Fern is an SDK generation and documentation platform designed for the AI era. It transforms OpenAPI, AsyncAPI, Protobuf (gRPC), and OpenRPC specifications into idiomatic, production-ready SDKs across nine languages plus auto-generated, branded developer documentation, an AI-first CLI, llms.txt for…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.5
   shared: 1
 - slug: upbound
   name: Upbound
@@ -127,6 +169,13 @@ providers:
   score_band: thin
   score_composite: 37.2
   shared: 1
+- slug: tock
+  name: Tock
+  description: Tock is a Chicago-founded reservation, ticketed events, takeout, and delivery management platform for restaurants, wineries, and hospitality venues. Founded in 2014 by Nick Kokonas, Brian Fitzpatrick, and Grant Achatz to support prepaid and ticketed dining (originated at Alinea Group), Tock pioneer…
+  api_count: 2
+  score_band: thin
+  score_composite: 37.0
+  shared: 1
 - slug: fabric-com
   name: fabric
   description: ''
@@ -134,33 +183,12 @@ providers:
   score_band: thin
   score_composite: 36.8
   shared: 1
-- slug: gitbook
-  name: GitBook
-  description: GitBook is a platform that allows users to create, publish, and share online books and documentation. It provides a simple and user-friendly interface for writing and organizing content, as well as tools for collaborating with other authors or team members. With GitBook, users can easily create a p…
-  api_count: 19
-  score_band: thin
-  score_composite: 36.5
-  shared: 1
-- slug: speakeasy-api
-  name: Speakeasy
-  description: Speakeasy is an API developer-experience platform that generates production-ready, type-safe SDKs (client libraries), Terraform providers, MCP servers, CLIs, code samples, and docs from an OpenAPI specification. The primary interface is the Speakeasy CLI plus GitHub Actions and the hosted platform,…
-  api_count: 13
+- slug: readme-metrics
+  name: ReadMe Metrics
+  description: ReadMe is an API documentation and developer hub platform that helps companies build interactive API documentation, track API usage analytics, and improve developer experience. ReadMe Metrics captures and analyzes API request logs to provide insights into how developers are using your APIs.
+  api_count: 5
   score_band: thin
   score_composite: 36.3
-  shared: 1
-- slug: fern
-  name: Fern
-  description: Fern is an SDK generation and documentation platform designed for the AI era. It transforms OpenAPI, AsyncAPI, Protobuf (gRPC), and OpenRPC specifications into idiomatic, production-ready SDKs across nine languages plus auto-generated, branded developer documentation, an AI-first CLI, llms.txt for…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.0
-  shared: 1
-- slug: roadie-io
-  name: Roadie
-  description: Roadie is managed Backstage - a fully hosted internal developer portal (IDP) and software catalog delivered as SaaS, so teams get the Backstage software catalog, TechDocs, Scaffolder software templates, Tech Insights scorecards, and 75+ plugins without operating Backstage themselves. Roadie exposes…
-  api_count: 6
-  score_band: thin
-  score_composite: 36.0
   shared: 1
 - slug: qovery
   name: Qovery
@@ -176,13 +204,6 @@ providers:
   score_band: thin
   score_composite: 35.9
   shared: 1
-- slug: readme-metrics
-  name: ReadMe Metrics
-  description: ReadMe is an API documentation and developer hub platform that helps companies build interactive API documentation, track API usage analytics, and improve developer experience. ReadMe Metrics captures and analyzes API request logs to provide insights into how developers are using your APIs.
-  api_count: 5
-  score_band: thin
-  score_composite: 35.1
-  shared: 1
 - slug: cortex-app
   name: Cortex
   description: Cortex is an Internal Developer Portal and service catalog used by platform and engineering teams to inventory services, libraries, domains, teams, on-call rotations, and resources; measure them against Scorecards (production readiness, security, SLO compliance, cost, AI usage); and drive developer…
@@ -190,38 +211,17 @@ providers:
   score_band: thin
   score_composite: 34.7
   shared: 1
-- slug: tock
-  name: Tock
-  description: Tock is a Chicago-founded reservation, ticketed events, takeout, and delivery management platform for restaurants, wineries, and hospitality venues. Founded in 2014 by Nick Kokonas, Brian Fitzpatrick, and Grant Achatz to support prepaid and ticketed dining (originated at Alinea Group), Tock pioneer…
-  api_count: 2
+- slug: stainless
+  name: Stainless
+  description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic, Cloudflare, Google, and OpenAI, Stainless automates the boil…
+  api_count: 10
   score_band: thin
-  score_composite: 34.7
-  shared: 1
-- slug: konfetti
-  name: konfetti
-  description: konfetti (Konfetti GmbH, Berlin) operates a marketplace for bookable experiences — cooking classes, pottery and ceramics workshops, cocktail courses, tastings, boat tours, creative and craft workshops, DIY kits and team events — across Germany and Austria, with more than 7,600 bookable experience l…
-  api_count: 5
-  score_band: thin
-  score_composite: 34.6
-  shared: 1
-- slug: fever
-  name: Fever
-  description: 'Fever is a global live-entertainment discovery and ticketing platform that helps millions of people find events, activities and experiences in their city, and gives venues and partners the tools to sell and analyze tickets. For developers Fever exposes two public surfaces: an official Model Context…'
-  api_count: 5
-  score_band: thin
-  score_composite: 33.3
-  shared: 1
-- slug: configure8
-  name: Configure8
-  description: Configure8 is a commercial Internal Developer Portal (IDP) that gives engineering organizations a unified catalog of services, environments, and resources, with dependency mapping across cloud and on-premises infrastructure. It pairs that catalog with scorecards for software health and golden-path…
-  api_count: 6
-  score_band: thin
-  score_composite: 32.1
+  score_composite: 33.6
   shared: 1
 related:
 - slug: documentation
   name: Documentation
-  shared: 3
+  shared: 4
 - slug: microservices
   name: Microservices
   shared: 2

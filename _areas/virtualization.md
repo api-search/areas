@@ -6,21 +6,28 @@ description: 'An index and topic collection covering virtualization across two i
 area_url: https://virtualization.apievangelist.com
 area_host: virtualization.apievangelist.com
 icon: https://virtualization.apievangelist.com/icon-thumb.png
-provider_count: 37
+provider_count: 39
 providers:
+- slug: vmware
+  name: VMware
+  description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
+  api_count: 59
+  score_band: developing
+  score_composite: 53.4
+  shared: 1
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
   api_count: 11
-  score_band: strong
-  score_composite: 58.7
+  score_band: developing
+  score_composite: 52.8
   shared: 1
 - slug: slide
   name: Slide
   description: Slide is a modern, security-first Business Continuity and Disaster Recovery (BCDR) platform built exclusively for Managed Service Providers (MSPs). Founded by Datto creator Austin McChord, Slide pairs on-premise Slide Box appliances with the Slide Cloud to deliver always-encrypted, block-level back…
   api_count: 14
   score_band: developing
-  score_composite: 49.8
+  score_composite: 50.1
   shared: 1
 - slug: smol-machines
   name: Smol Machines
@@ -29,13 +36,6 @@ providers:
   score_band: developing
   score_composite: 48.7
   shared: 1
-- slug: vmware
-  name: VMware
-  description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
-  api_count: 59
-  score_band: developing
-  score_composite: 47.7
-  shared: 1
 - slug: nutanix
   name: Nutanix
   description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
@@ -43,26 +43,47 @@ providers:
   score_band: developing
   score_composite: 46.7
   shared: 1
+- slug: veritas-infoscale
+  name: Veritas InfoScale
+  description: APIs for Veritas InfoScale, an enterprise storage and availability management solution that provides high availability, disaster recovery, and storage management capabilities across physical, virtual, and cloud environments.
+  api_count: 13
+  score_band: developing
+  score_composite: 44.0
+  shared: 1
 - slug: vagrant
   name: Vagrant
   description: Vagrant, by HashiCorp, is a tool for building and managing virtualized development environments. Their developer platform provides APIs and SDKs for interacting with Vagrant Cloud and the HCP Vagrant Box Registry, enabling automation of box lifecycle management, plugin development, and integration…
   api_count: 7
   score_band: developing
-  score_composite: 41.6
+  score_composite: 43.0
+  shared: 1
+- slug: oxide-computer
+  name: Oxide
+  description: 'Oxide Computer Company builds a rack-scale cloud computer: integrated server sleds (Gimlet), a rack-level switch (Sidecar), Oxide''s own illumos distribution (Helios), the Propolis/bhyve hypervisor and the Crucible distributed block store, all driven by a single control plane called Nexus. Nexus exp…'
+  api_count: 1
+  score_band: developing
+  score_composite: 42.9
   shared: 1
 - slug: vers
   name: Vers
   description: Vers is "git for running compute" — a branchable microVM platform from HD Research (hdresearch) that lets you fork a live virtual machine (memory, processes, sockets and all) in roughly 258 microseconds, commit its state as an immutable content-addressable snapshot, and restore or branch that snaps…
   api_count: 12
   score_band: developing
-  score_composite: 41.2
+  score_composite: 42.5
   shared: 1
-- slug: veritas-infoscale
-  name: Veritas InfoScale
-  description: APIs for Veritas InfoScale, an enterprise storage and availability management solution that provides high availability, disaster recovery, and storage management capabilities across physical, virtual, and cloud environments.
-  api_count: 13
+- slug: citrix
+  name: Citrix
+  description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
+  api_count: 27
   score_band: developing
-  score_composite: 40.4
+  score_composite: 42.2
+  shared: 1
+- slug: scale-computing
+  name: Scale Computing
+  description: Scale Computing builds SC//Platform, an edge-computing and hyperconverged infrastructure stack made up of SC//HyperCore (a self-healing KVM-based virtualization and storage OS that runs on clustered appliance nodes) and SC//Fleet Manager (a cloud console that monitors, updates and orchestrates thou…
+  api_count: 3
+  score_band: developing
+  score_composite: 41.8
   shared: 1
 - slug: openstack
   name: OpenStack
@@ -78,19 +99,26 @@ providers:
   score_band: thin
   score_composite: 39.2
   shared: 1
-- slug: citrix
-  name: Citrix
-  description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
-  api_count: 27
-  score_band: thin
-  score_composite: 38.9
-  shared: 1
 - slug: platform9
   name: Platform9
   description: Platform9 is an enterprise private cloud company whose flagship Private Cloud Director is a full-featured VMware alternative for running virtual machines and containers on your own hardware. Built on a hardened OpenStack and Kubernetes foundation, it delivers high availability, live migration, dyna…
   api_count: 1
   score_band: thin
   score_composite: 36.5
+  shared: 1
+- slug: incus
+  name: Incus
+  description: Incus is a modern open source system container and virtual machine manager maintained by LinuxContainers.org as a community-led fork of Canonical's LXD. It provides a unified experience for running and managing system containers and VMs across single hosts and clusters, with image-based deployment,…
+  api_count: 22
+  score_band: thin
+  score_composite: 36.2
+  shared: 1
+- slug: kubevirt
+  name: KubeVirt
+  description: KubeVirt is a CNCF incubating project that extends Kubernetes to run traditional virtual machines alongside containers. It allows users to create, manage, and run VMs using the same Kubernetes APIs and tools used for containers. KubeVirt is ideal for migrating legacy workloads to Kubernetes without…
+  api_count: 8
+  score_band: thin
+  score_composite: 35.3
   shared: 1
 - slug: google-cloud-vmware-engine
   name: Google Cloud VMware Engine
@@ -99,19 +127,12 @@ providers:
   score_band: thin
   score_composite: 34.0
   shared: 1
-- slug: kubevirt
-  name: KubeVirt
-  description: KubeVirt is a CNCF incubating project that extends Kubernetes to run traditional virtual machines alongside containers. It allows users to create, manage, and run VMs using the same Kubernetes APIs and tools used for containers. KubeVirt is ideal for migrating legacy workloads to Kubernetes without…
-  api_count: 8
+- slug: broadcom
+  name: Broadcom
+  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
+  api_count: 20
   score_band: thin
-  score_composite: 33.9
-  shared: 1
-- slug: incus
-  name: Incus
-  description: Incus is a modern open source system container and virtual machine manager maintained by LinuxContainers.org as a community-led fork of Canonical's LXD. It provides a unified experience for running and managing system containers and VMs across single hosts and clusters, with image-based deployment,…
-  api_count: 22
-  score_band: thin
-  score_composite: 32.9
+  score_composite: 33.3
   shared: 1
 - slug: apache-cloudstack
   name: Apache CloudStack
@@ -119,13 +140,6 @@ providers:
   api_count: 4
   score_band: thin
   score_composite: 32.7
-  shared: 1
-- slug: broadcom
-  name: Broadcom
-  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
-  api_count: 20
-  score_band: thin
-  score_composite: 31.4
   shared: 1
 - slug: hypori
   name: Hypori
@@ -148,19 +162,19 @@ providers:
   score_band: thin
   score_composite: 29.5
   shared: 1
+- slug: simplivity
+  name: SimpliVity
+  description: SimpliVity is the hyperconverged infrastructure (HCI) pioneer acquired by Hewlett Packard Enterprise in 2017 and now shipped as HPE SimpliVity. Its data virtualization platform runs on the OmniStack software stack, delivering built-in deduplication, compression, backup, replication, and disaster re…
+  api_count: 10
+  score_band: thin
+  score_composite: 29.3
+  shared: 1
 - slug: parallels
   name: Parallels
   description: Parallels is a virtualization and remote-access software company (part of Alludo, with the Parallels virtualization division held by KKR) best known for Parallels Desktop for Mac, which runs Windows, Linux and other operating systems on Apple hardware for over 7 million users. Its enterprise line,…
   api_count: 1
   score_band: thin
   score_composite: 27.3
-  shared: 1
-- slug: simplivity
-  name: SimpliVity
-  description: SimpliVity is the hyperconverged infrastructure (HCI) pioneer acquired by Hewlett Packard Enterprise in 2017 and now shipped as HPE SimpliVity. Its data virtualization platform runs on the OmniStack software stack, delivering built-in deduplication, compression, backup, replication, and disaster re…
-  api_count: 10
-  score_band: thin
-  score_composite: 26.9
   shared: 1
 - slug: proxmox
   name: Proxmox VE
@@ -204,26 +218,12 @@ providers:
   score_band: minimal
   score_composite: 6.1
   shared: 1
-- slug: lima
-  name: Lima
-  description: Lima launches Linux virtual machines on macOS with automatic file sharing, port forwarding, and containerd integration for running containers.
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.7
-  shared: 1
-- slug: unidesk
-  name: Unidesk
-  description: Unidesk was a Marlborough, Massachusetts software company backed by Matrix Partners that pioneered application layering for virtual desktop infrastructure, packaging Windows applications and operating-system components into shareable virtual disk layers. Citrix acquired Unidesk in January 2017 and…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.7
-  shared: 1
 related:
 - slug: migration
   name: Migration
   shared: 2
-- slug: saas-management
-  name: SaaS Management
+- slug: orchestration
+  name: Orchestration
   shared: 2
 - slug: management
   name: Management
@@ -231,14 +231,14 @@ related:
 - slug: containers
   name: Containers
   shared: 1
-- slug: orchestration
-  name: Orchestration
+- slug: saas-management
+  name: SaaS Management
   shared: 1
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cisco Intersight, Slide, Smol Machines, VMware, Nutanix, Vagrant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including VMware, Cisco Intersight, Slide, Smol Machines, Nutanix, Veritas InfoScale, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, SaaS Management, Management, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, Orchestration, Management, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

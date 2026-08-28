@@ -8,12 +8,19 @@ area_host: caching.apievangelist.com
 icon: https://caching.apievangelist.com/icon-thumb.png
 provider_count: 21
 providers:
+- slug: amazon-elasticache
+  name: Amazon ElastiCache
+  description: Amazon ElastiCache is a fully managed in-memory caching service supporting Redis and Memcached. ElastiCache makes it easy to deploy, operate, and scale popular open-source compatible in-memory data stores, improving the performance of web applications.
+  api_count: 4
+  score_band: strong
+  score_composite: 60.1
+  shared: 1
 - slug: ezoic
   name: ezoic
   description: Ezoic is a website monetization and audience-growth platform for publishers, and a performance advertising marketplace for brands. Publishers integrate EzoicAds (via JavaScript, mobile SDKs for Android/iOS/Flutter/React Native/Unity, or framework SDKs for Angular/React/Vue) to run native, sticky, v…
   api_count: 5
   score_band: strong
-  score_composite: 56.1
+  score_composite: 57.0
   shared: 1
 - slug: cloudflare-ai-gateway
   name: Cloudflare AI Gateway
@@ -21,13 +28,6 @@ providers:
   api_count: 7
   score_band: strong
   score_composite: 55.5
-  shared: 1
-- slug: amazon-elasticache
-  name: Amazon ElastiCache
-  description: Amazon ElastiCache is a fully managed in-memory caching service supporting Redis and Memcached. ElastiCache makes it easy to deploy, operate, and scale popular open-source compatible in-memory data stores, improving the performance of web applications.
-  api_count: 4
-  score_band: strong
-  score_composite: 55.1
   shared: 1
 - slug: google-cloud-cdn
   name: Google Cloud CDN
@@ -64,6 +64,13 @@ providers:
   score_band: thin
   score_composite: 37.2
   shared: 1
+- slug: apache-geode
+  name: Apache Geode
+  description: Apache Geode is an in-memory data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures. It pools memory, CPU, network resources, and local disk storage across multiple processes, offering a REST API for data…
+  api_count: 5
+  score_band: thin
+  score_composite: 36.4
+  shared: 1
 - slug: gridgain
   name: GridGain
   description: GridGain is a unified real-time data platform that provides in-memory computing for transactions, analytics, and AI workloads. Built on top of Apache Ignite, it offers distributed database, caching, and computing capabilities for high-performance data-intensive applications.
@@ -71,40 +78,33 @@ providers:
   score_band: thin
   score_composite: 35.6
   shared: 1
-- slug: apache-geode
-  name: Apache Geode
-  description: Apache Geode is an in-memory data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures. It pools memory, CPU, network resources, and local disk storage across multiple processes, offering a REST API for data…
-  api_count: 5
-  score_band: thin
-  score_composite: 35.0
-  shared: 1
-- slug: blacksmith-sh
-  name: Blacksmith
-  description: Blacksmith runs your GitHub Actions up to 2x faster at half the cost on a fleet of modern gaming-CPU bare metal, booting ephemeral Firecracker microVMs in under three seconds. It is a drop-in replacement integrated as a GitHub App and selected via runs-on runner tags, with a co-located CI cache, 40…
-  api_count: 5
-  score_band: thin
-  score_composite: 33.1
-  shared: 1
 - slug: scalable-systems
   name: Scalable Systems
   description: A topic collection focused on APIs, tools, and platforms for designing and operating scalable distributed systems. Covers load balancing, auto-scaling, service discovery, distributed caching, message queues, and the cloud infrastructure APIs that enable systems to handle growth in data, traffic, an…
   api_count: 7
   score_band: thin
-  score_composite: 32.5
+  score_composite: 35.1
   shared: 1
 - slug: nginx
   name: NGINX
   description: NGINX is a high-performance open-source web server, reverse proxy, and API gateway widely used for load balancing, SSL termination, caching, and traffic management for APIs and microservices. Originally written by Igor Sysoev and released under the 2-clause BSD license, NGINX powers a significant p…
   api_count: 32
   score_band: thin
-  score_composite: 31.7
+  score_composite: 35.0
   shared: 1
 - slug: tailcall
   name: Tailcall
   description: Tailcall is a high-performance GraphQL API gateway and runtime that lets developers compose multiple upstream REST, gRPC, and GraphQL APIs into a unified GraphQL schema. Built in Rust, it offers declarative configuration via .graphql files with directives for HTTP, caching, batching, and security c…
   api_count: 2
   score_band: thin
-  score_composite: 30.8
+  score_composite: 34.9
+  shared: 1
+- slug: blacksmith-sh
+  name: Blacksmith
+  description: Blacksmith runs your GitHub Actions up to 2x faster at half the cost on a fleet of modern gaming-CPU bare metal, booting ephemeral Firecracker microVMs in under three seconds. It is a drop-in replacement integrated as a GitHub App and selected via runs-on runner tags, with a co-located CI cache, 40…
+  api_count: 5
+  score_band: thin
+  score_composite: 34.5
   shared: 1
 - slug: cloudfront
   name: CloudFront
@@ -125,7 +125,7 @@ providers:
   description: OpenPipe is a fine-tuning and inference platform for distilling expensive frontier-LLM workloads into smaller, cheaper specialized models. Captures production traces (OpenAI and Anthropic), fine-tunes, evaluates with judges, caches results, and serves the result via OpenAI-compatible API. Also supp…
   api_count: 10
   score_band: thin
-  score_composite: 27.7
+  score_composite: 29.4
   shared: 1
 - slug: readyset
   name: ReadySet
@@ -139,7 +139,7 @@ providers:
   description: Varnish Cache is a high-performance HTTP accelerator and reverse proxy designed for content-heavy dynamic websites and APIs. It sits in front of web servers and caches HTTP responses to serve repeated requests without hitting the backend, dramatically reducing load and latency. Varnish is configure…
   api_count: 3
   score_band: emerging
-  score_composite: 16.4
+  score_composite: 20.2
   shared: 1
 - slug: timesten
   name: TimesTen
@@ -174,7 +174,7 @@ related:
 overview: 'Caching is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [caching.apievangelist.com](https://caching.apievangelist.com).
 
 
-  21 providers on the network work in this area, including ezoic, Cloudflare AI Gateway, Amazon ElastiCache, Google Cloud CDN, Apache Ignite, Momento, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  21 providers on the network work in this area, including Amazon ElastiCache, ezoic, Cloudflare AI Gateway, Google Cloud CDN, Apache Ignite, Momento, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Network, Proxy, Command Line Interface, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'

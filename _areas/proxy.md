@@ -15,6 +15,20 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
+- slug: contour
+  name: Contour
+  description: A Kubernetes ingress controller using Envoy proxy that provides dynamic configuration updates and advanced routing capabilities for managing external access to services in a cluster.
+  api_count: 9
+  score_band: developing
+  score_composite: 44.5
+  shared: 1
+- slug: brightdata
+  name: Bright Data
+  description: Bright Data is a web data platform providing a global proxy network (residential, datacenter, ISP, mobile), pre-built Web Scraper APIs for 100+ sites, a SERP API, the Web Unlocker, ready-made Datasets, and a Scraping Browser (Browser API) that exposes a real Chrome DevTools Protocol endpoint over W…
+  api_count: 5
+  score_band: developing
+  score_composite: 44.4
+  shared: 1
 - slug: soax
   name: SOAX
   description: SOAX provides enterprise-grade proxy infrastructure and web data extraction APIs for developers and data teams. With 155M+ residential IPs, 33M+ mobile IPs, and 300K+ datacenter IPs across 195+ countries, SOAX enables web scraping, CAPTCHA bypass, geo-targeted data collection, and anti-bot circumve…
@@ -22,47 +36,33 @@ providers:
   score_band: developing
   score_composite: 43.5
   shared: 1
-- slug: contour
-  name: Contour
-  description: A Kubernetes ingress controller using Envoy proxy that provides dynamic configuration updates and advanced routing capabilities for managing external access to services in a cluster.
-  api_count: 9
-  score_band: developing
-  score_composite: 43.1
-  shared: 1
-- slug: brightdata
-  name: Bright Data
-  description: Bright Data is a web data platform providing a global proxy network (residential, datacenter, ISP, mobile), pre-built Web Scraper APIs for 100+ sites, a SERP API, the Web Unlocker, ready-made Datasets, and a Scraping Browser (Browser API) that exposes a real Chrome DevTools Protocol endpoint over W…
-  api_count: 5
-  score_band: developing
-  score_composite: 42.0
-  shared: 1
 - slug: http-toolkit
   name: HTTP Toolkit
   description: HTTP Toolkit is a beautiful, cross-platform, and open-source tool for debugging, testing, and building with HTTP(S) on Windows, Linux, and Mac. It provides a REST API for intercepting HTTP/HTTPS traffic, inspecting requests and responses, automated mocking and rewriting of API traffic, and integrat…
   api_count: 4
   score_band: developing
-  score_composite: 40.4
+  score_composite: 40.7
   shared: 1
 - slug: zenscrape
   name: Zenscrape
   description: Zenscrape is a web scraping API that returns the rendered HTML of any target URL while handling proxy rotation, headless-browser JavaScript rendering, geotargeting, and Cloudflare protection. A single GET /get request fetches a page through a rotating pool of standard or premium residential proxies…
   api_count: 2
   score_band: thin
-  score_composite: 37.6
+  score_composite: 39.0
   shared: 1
 - slug: envoy
   name: Envoy
   description: Envoy is a high-performance, open-source edge and service proxy designed for cloud-native applications and microservice architectures. It provides advanced load balancing, observability, and traffic management features, and serves as the data plane for many service mesh implementations including Is…
   api_count: 15
   score_band: thin
-  score_composite: 37.3
+  score_composite: 38.7
   shared: 1
 - slug: squid
   name: Squid
   description: Squid is a high-performance caching and forwarding HTTP web proxy used for content caching, access control, and bandwidth management. It supports HTTP, HTTPS, FTP, and other protocols, providing caching proxy features, access control lists, SSL/TLS inspection, and web content filtering for enterpri…
   api_count: 6
   score_band: thin
-  score_composite: 35.4
+  score_composite: 37.8
   shared: 1
 - slug: safeline
   name: SafeLine
@@ -90,49 +90,49 @@ providers:
   description: Crawlbase (formerly ProxyCrawl) is a web crawling and scraping platform that fetches any web page through a large rotating proxy network with optional headless-Chrome JavaScript rendering, returning raw HTML, Markdown, screenshots, or structured JSON. A single token-authenticated REST host (api.cra…
   api_count: 5
   score_band: thin
-  score_composite: 27.9
+  score_composite: 30.2
   shared: 1
-- slug: sozu
-  name: Sozu
-  description: Sōzu is an open-source, fast and lightweight HTTP reverse proxy written in Rust, designed for high-performance traffic management in immutable infrastructure environments. It is configurable at runtime through a protobuf-based IPC protocol without requiring restarts, making it ideal for always-up d…
-  api_count: 3
-  score_band: emerging
-  score_composite: 24.0
+- slug: whistle
+  name: Whistle
+  description: Whistle is a cross-platform HTTP, HTTPS, HTTP/2, WebSocket, and TCP debugging proxy built on Node.js. It enables developers to inspect, intercept, modify, and replay network traffic through a rule-based configuration system with a built-in web UI.
+  api_count: 1
+  score_band: thin
+  score_composite: 26.4
   shared: 1
 - slug: oauth2-proxy
   name: Oauth2-Proxy
   description: oauth2-proxy is an open-source reverse proxy that provides authentication with Google, Azure, OpenID Connect, and many more identity providers.
   api_count: 7
   score_band: emerging
-  score_composite: 23.2
+  score_composite: 25.6
   shared: 1
-- slug: whistle
-  name: Whistle
-  description: Whistle is a cross-platform HTTP, HTTPS, HTTP/2, WebSocket, and TCP debugging proxy built on Node.js. It enables developers to inspect, intercept, modify, and replay network traffic through a rule-based configuration system with a built-in web UI.
-  api_count: 1
+- slug: sozu
+  name: Sozu
+  description: Sōzu is an open-source, fast and lightweight HTTP reverse proxy written in Rust, designed for high-performance traffic management in immutable infrastructure environments. It is configurable at runtime through a protobuf-based IPC protocol without requiring restarts, making it ideal for always-up d…
+  api_count: 3
   score_band: emerging
-  score_composite: 22.9
+  score_composite: 25.2
   shared: 1
 - slug: dev-proxy
   name: Dev Proxy
   description: Dev Proxy is a Microsoft command-line tool for simulating, testing, and debugging API interactions during development.
   api_count: 3
   score_band: emerging
-  score_composite: 20.6
+  score_composite: 23.0
   shared: 1
 - slug: tinyproxy
   name: Tinyproxy
   description: Tinyproxy is a lightweight, open-source HTTP/HTTPS proxy daemon designed for POSIX operating systems. It is ideal for use cases in embedded deployments, small networks, and environments where a full-featured HTTP proxy is required with minimal system resource usage. Configuration is file-based with…
   api_count: 1
   score_band: emerging
-  score_composite: 20.0
+  score_composite: 22.4
   shared: 1
 - slug: varnish
   name: Varnish Cache
   description: Varnish Cache is a high-performance HTTP accelerator and reverse proxy designed for content-heavy dynamic websites and APIs. It sits in front of web servers and caches HTTP responses to serve repeated requests without hitting the backend, dramatically reducing load and latency. Varnish is configure…
   api_count: 3
   score_band: emerging
-  score_composite: 16.4
+  score_composite: 20.2
   shared: 1
 - slug: pipy
   name: Pipy
@@ -146,14 +146,14 @@ providers:
   description: MOSN (Modular Open Smart Network) is a cloud-native network proxy written in Go, open-sourced by Ant Group. It serves as a Service Mesh data plane and can function as L4/L7 load balancer, API gateway, and cloud-native ingress, with multi-protocol support including HTTP/1.1, HTTP/2, and gRPC.
   api_count: 1
   score_band: emerging
-  score_composite: 12.7
+  score_composite: 15.2
   shared: 1
 - slug: privoxy
   name: Privoxy
   description: Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page content, and managing cookies.
   api_count: 1
   score_band: emerging
-  score_composite: 11.8
+  score_composite: 14.2
   shared: 1
 - slug: proxyman
   name: Proxyman
@@ -174,7 +174,7 @@ providers:
   description: Web-scraping REST API that returns structured JSON from a large catalog of target sites (e-commerce, search engines, social, real estate, finance, and more), with proxies, CAPTCHA, and anti-bot handling managed server-side. Offers an npm-distributed MCP server, a live llms.txt docs manifest, and pu…
   api_count: 1
   score_band: minimal
-  score_composite: 5.9
+  score_composite: 7.8
   shared: 1
 related:
 - slug: caching
@@ -186,7 +186,7 @@ related:
 overview: 'Proxy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [proxy.apievangelist.com](https://proxy.apievangelist.com).
 
 
-  24 providers on the network work in this area, including Bright Data, SOAX, Contour, Bright Data, HTTP Toolkit, Zenscrape, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  24 providers on the network work in this area, including Bright Data, Contour, Bright Data, SOAX, HTTP Toolkit, Zenscrape, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Caching and Service Mesh. Browse every area at [areas.apis.io](https://apis.io/areas/).'

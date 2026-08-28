@@ -6,7 +6,7 @@ description: 'An index and topic collection covering software licensing APIs acr
 area_url: https://licensing.apievangelist.com
 area_host: licensing.apievangelist.com
 icon: https://licensing.apievangelist.com/icon-thumb.png
-provider_count: 34
+provider_count: 35
 providers:
 - slug: replicated
   name: Replicated
@@ -27,7 +27,7 @@ providers:
   description: The Australian Communications and Media Authority (ACMA) is the Commonwealth regulator for telecommunications, radiocommunications, broadcasting and online content in Australia. It issues carrier licences and apparatus and spectrum licences, maintains the Register of Radiocommunications Licences, a…
   api_count: 2
   score_band: developing
-  score_composite: 52.7
+  score_composite: 53.2
   shared: 1
 - slug: certifyos
   name: Certifyos
@@ -43,47 +43,54 @@ providers:
   score_band: developing
   score_composite: 49.7
   shared: 1
+- slug: madaket
+  name: Madaket
+  description: Madaket Health is a Cambridge, Massachusetts healthcare administration company whose Provider Data Management (PDM) platform automates payer enrollment, EDI enrollment, credentialing, licensing and provider directory data management between healthcare providers and payers. Madaket maintains connect…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.5
+  shared: 1
+- slug: shutterstock
+  name: Shutterstock
+  description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
+  api_count: 10
+  score_band: developing
+  score_composite: 43.8
+  shared: 1
 - slug: soundstripe
   name: Soundstripe
   description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
   api_count: 7
-  score_band: thin
-  score_composite: 38.9
+  score_band: developing
+  score_composite: 41.9
+  shared: 1
+- slug: agentsync
+  name: Agentsync
+  description: AgentSync builds modern insurance compliance infrastructure that connects carriers, agencies, MGAs, and producers. Its ProducerSync API is a REST API delivering more than 200 enriched data points sourced from the National Insurance Producer Registry (NIPR) — producer and adjuster licensing, carrier…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.0
+  shared: 1
+- slug: 7digital
+  name: 7digital
+  description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
+  api_count: 23
+  score_band: developing
+  score_composite: 40.1
   shared: 1
 - slug: warner-music-group
   name: Warner Music Group
   description: Warner Music Group is one of the major record labels in the music industry, with recorded music and music publishing operations spanning a roster of artists, songwriters, and labels around the world. WMG includes Warner Records, Atlantic Records, Elektra Records, and Warner Chappell Music (one of t…
   api_count: 4
   score_band: thin
-  score_composite: 37.4
-  shared: 1
-- slug: agentsync
-  name: Agentsync
-  description: AgentSync builds modern insurance compliance infrastructure that connects carriers, agencies, MGAs, and producers. Its ProducerSync API is a REST API delivering more than 200 enriched data points sourced from the National Insurance Producer Registry (NIPR) — producer and adjuster licensing, carrier…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.2
-  shared: 1
-- slug: 7digital
-  name: 7digital
-  description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
-  api_count: 23
-  score_band: thin
-  score_composite: 36.0
-  shared: 1
-- slug: shutterstock
-  name: Shutterstock
-  description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
-  api_count: 10
-  score_band: thin
-  score_composite: 34.5
+  score_composite: 38.4
   shared: 1
 - slug: fossology
   name: FOSSology
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations through automated scanning, human clearing workflows, and SP…
   api_count: 15
   score_band: thin
-  score_composite: 34.4
+  score_composite: 36.9
   shared: 1
 - slug: fcc
   name: FCC (Federal Communications Commission)
@@ -103,8 +110,8 @@ providers:
   name: Getty Images
   description: Getty Images is a premium stock media licensor of editorial and creative photography, illustrations, video, and music. The Getty Images API exposes search, asset metadata, and download endpoints for licensing partners and enterprise customers. Authentication is via API key + OAuth 2.0 client creden…
   api_count: 5
-  score_band: emerging
-  score_composite: 25.6
+  score_band: thin
+  score_composite: 27.5
   shared: 1
 - slug: medallion
   name: Medallion
@@ -155,6 +162,13 @@ providers:
   score_band: emerging
   score_composite: 13.0
   shared: 1
+- slug: universal-music-group
+  name: Universal Music Group
+  description: 'Universal Music Group N.V. (UMG) is the world''s largest music company, headquartered in Hilversum, Netherlands with operational headquarters in Santa Monica, California. Spun off from Vivendi and listed on Euronext Amsterdam (ticker: UMG) on September 21, 2021 at a EUR 54 billion valuation, UMG ope…'
+  api_count: 5
+  score_band: emerging
+  score_composite: 13.0
+  shared: 1
 - slug: spdx
   name: SPDX
   description: The Software Package Data Exchange (SPDX) is an open standard under the Linux Foundation for communicating software bill of materials information including components, licenses, copyrights, and security references. It is an ISO/IEC standard (ISO/IEC 5962) used for software supply chain transparency.
@@ -183,13 +197,6 @@ providers:
   score_band: minimal
   score_composite: 9.3
   shared: 1
-- slug: universal-music-group
-  name: Universal Music Group
-  description: 'Universal Music Group N.V. (UMG) is the world''s largest music company, headquartered in Hilversum, Netherlands with operational headquarters in Santa Monica, California. Spun off from Vivendi and listed on Euronext Amsterdam (ticker: UMG) on September 21, 2021 at a EUR 54 billion valuation, UMG ope…'
-  api_count: 5
-  score_band: minimal
-  score_composite: 8.2
-  shared: 1
 - slug: filmtrack
   name: FilmTrack
   description: FilmTrack is a cloud-based content and rights management platform for the media and entertainment industry, streamlining the intellectual property lifecycle from project inception through distribution. Its software gives distributors and studios a holistic view of the data behind rights, availabili…
@@ -211,16 +218,9 @@ providers:
   score_band: minimal
   score_composite: 6.3
   shared: 1
-- slug: nuro
-  name: Nuro
-  description: Nuro is a Mountain View-based autonomy company that has pivoted from its original autonomous-goods-delivery vehicle program (R1, R2, R3) to a licensable, vehicle-agnostic autonomous driving stack. The Nuro Driver is an AI-first Level 4 self-driving system, validated through 5+ years of driverless d…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.5
-  shared: 1
 related: []
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Replicated, SendOwl, ACMA, Certifyos, OpenGov, Soundstripe, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  30 providers on the network work in this area, including Replicated, SendOwl, ACMA, Certifyos, OpenGov, Madaket, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

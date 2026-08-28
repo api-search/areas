@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 371
+provider_count: 373
 providers:
 - slug: convertkit
   name: Kit
@@ -20,21 +20,35 @@ providers:
   description: drchrono, part of EverCommerce's EverHealth portfolio, is an all-in-one EHR, practice management and medical billing platform for independent US medical practices. It publishes two distinct machine-readable API surfaces. The proprietary REST v4 API (codename Hunt Valley) is an OAuth 2.0-secured con…
   api_count: 7
   score_band: exemplar
-  score_composite: 83.5
-  shared: 1
-- slug: zoho-crm
-  name: Zoho CRM
-  description: Zoho CRM is Zoho Corporation's AI-powered sales and customer relationship management platform, used to manage leads, contacts, accounts, deals, activities and customer engagement across channels. Its REST API is currently at v8 and is published as first-party OpenAPI 3.1.0 — 105 specification files…
-  api_count: 106
-  score_band: exemplar
-  score_composite: 74.1
+  score_composite: 84.7
   shared: 1
 - slug: aweber
   name: AWeber
   description: AWeber is an email marketing and automation platform for small businesses, creators, and entrepreneurs providing email broadcasts, drip campaigns, landing pages, sign-up forms, and subscriber management. The AWeber REST API at api.aweber.com offers full programmatic access to lists, subscribers, br…
   api_count: 12
   score_band: exemplar
-  score_composite: 73.5
+  score_composite: 77.2
+  shared: 1
+- slug: ios
+  name: iOS
+  description: iOS is Apple's mobile operating system and the developer platform behind iPhone apps. While the bulk of the iOS SDK is delivered as Swift / Objective-C client frameworks (UIKit, SwiftUI, MapKit, HealthKit, HomeKit, SiriKit, StoreKit, AppIntents, PassKit, WidgetKit, ActivityKit), Apple also exposes…
+  api_count: 199
+  score_band: exemplar
+  score_composite: 74.3
+  shared: 1
+- slug: kraken
+  name: Kraken
+  description: Kraken is one of the world's largest and longest-running cryptocurrency exchanges, founded in 2011 and headquartered in San Francisco. Kraken offers Spot and Futures trading, staking and yield through Kraken Earn, NFT marketplace access, OTC services, custody, prime brokerage, and a B2B Embed surfa…
+  api_count: 24
+  score_band: exemplar
+  score_composite: 73.9
+  shared: 1
+- slug: zoho-crm
+  name: Zoho CRM
+  description: Zoho CRM is Zoho Corporation's AI-powered sales and customer relationship management platform, used to manage leads, contacts, accounts, deals, activities and customer engagement across channels. Its REST API is currently at v8 and is published as first-party OpenAPI 3.1.0 — 105 specification files…
+  api_count: 106
+  score_band: exemplar
+  score_composite: 73.8
   shared: 1
 - slug: twilio
   name: Twilio
@@ -48,14 +62,21 @@ providers:
   description: 'Immutable is a games growth and blockchain infrastructure company whose platform spans two connected halves: Immutable Audience, a games-focused CDP, attribution and player-activation stack (ingestion, analytics, engage, conversion funnel, ad-network postbacks), and Immutable Chain, a gaming-optimi…'
   api_count: 3
   score_band: exemplar
-  score_composite: 73.2
+  score_composite: 72.8
   shared: 1
 - slug: commerce-layer
   name: Commerce Layer
   description: Commerce Layer is the headless, multi-market commerce API used by global brands to sell everywhere — web, mobile, in-store, chatbot, AI agent, and IoT. The company exposes a JSON:API-compliant Core API with 130+ top-level resources covering orders, line items, SKUs, bundles, prices, markets, stores…
   api_count: 148
   score_band: exemplar
-  score_composite: 72.4
+  score_composite: 72.5
+  shared: 1
+- slug: arcade
+  name: Arcade
+  description: Arcade.dev is the MCP runtime for production AI agent deployments. The Arcade Engine — a hosted or self-hostable API surface — handles OAuth user authorization, manages user tokens, and exposes 7,000+ pre-built integrations as Model Context Protocol tools that agent frameworks like LangChain, OpenA…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 71.3
   shared: 1
 - slug: jefferson-health
   name: Jefferson Health
@@ -64,40 +85,33 @@ providers:
   score_band: exemplar
   score_composite: 71.1
   shared: 1
-- slug: kraken
-  name: Kraken
-  description: Kraken is one of the world's largest and longest-running cryptocurrency exchanges, founded in 2011 and headquartered in San Francisco. Kraken offers Spot and Futures trading, staking and yield through Kraken Earn, NFT marketplace access, OTC services, custody, prime brokerage, and a B2B Embed surfa…
-  api_count: 24
-  score_band: exemplar
-  score_composite: 70.6
-  shared: 1
 - slug: cvent-event-cloud
   name: Cvent Event Cloud
   description: 'Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hybrid event delivery via the Attendee Hub, surveys, and analyt…'
   api_count: 42
   score_band: exemplar
-  score_composite: 69.6
-  shared: 1
-- slug: vim
-  name: Vim
-  description: Vim is a United States healthcare technology company (getvim.com) that operates a clinical workflow and point-of-care integration platform connecting health plans, provider organizations, and digital-health applications to physicians inside their existing electronic health records. Through the Vim…
-  api_count: 6
-  score_band: exemplar
-  score_composite: 68.2
-  shared: 1
-- slug: ios
-  name: iOS
-  description: iOS is Apple's mobile operating system and the developer platform behind iPhone apps. While the bulk of the iOS SDK is delivered as Swift / Objective-C client frameworks (UIKit, SwiftUI, MapKit, HealthKit, HomeKit, SiriKit, StoreKit, AppIntents, PassKit, WidgetKit, ActivityKit), Apple also exposes…
-  api_count: 199
-  score_band: exemplar
-  score_composite: 67.9
+  score_composite: 70.5
   shared: 1
 - slug: tibber
   name: Tibber
   description: Tibber is a fully-digital Nordic and European retail electricity provider operating in Norway, Sweden, Germany, and the Netherlands. Founded in 2016 by Daniel Lindén and Edgeir Vårdal Aksnes, the company passes Nord Pool / EPEX hourly spot prices through to customers at cost and overlays software-d…
   api_count: 4
   score_band: exemplar
-  score_composite: 67.0
+  score_composite: 69.1
+  shared: 1
+- slug: lever-co
+  name: Lever
+  description: 'Lever is an applicant tracking system (ATS) and candidate relationship management (CRM) platform for recruiting teams, now owned by Employ Inc. alongside Jobvite, JazzHR and NXTThing RPO. Lever exposes two distinct public surfaces: the authenticated Lever Data API at https://api.lever.co/v1 — a RES…'
+  api_count: 20
+  score_band: exemplar
+  score_composite: 68.3
+  shared: 1
+- slug: weave
+  name: Weave
+  description: 'Weave (Weave Communications, Inc., NYSE: WEAV) is an all-in-one customer communication and payments platform built for small and medium healthcare and services businesses — dental, optometry, veterinary, medical, and beyond. Weave brings together a cloud phone system (VoIP), two-way text messaging,…'
+  api_count: 9
+  score_band: exemplar
+  score_composite: 67.2
   shared: 1
 - slug: tvarka-atk-api
   name: Tvarka ATK API
@@ -106,6 +120,13 @@ providers:
   score_band: exemplar
   score_composite: 66.6
   shared: 1
+- slug: kinde
+  name: Kinde
+  description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
+  api_count: 31
+  score_band: strong
+  score_composite: 66.0
+  shared: 1
 - slug: propelauth
   name: PropelAuth
   description: PropelAuth is a B2B SaaS authentication and multi-tenant user management platform purpose-built for organizations that sell to other organizations. It provides hosted login UIs, first-class organizations / tenants with custom roles and permissions, enterprise SSO via SAML and OIDC, SCIM directory s…
@@ -113,10 +134,17 @@ providers:
   score_band: strong
   score_composite: 65.9
   shared: 1
-- slug: weave
-  name: Weave
-  description: 'Weave (Weave Communications, Inc., NYSE: WEAV) is an all-in-one customer communication and payments platform built for small and medium healthcare and services businesses — dental, optometry, veterinary, medical, and beyond. Weave brings together a cloud phone system (VoIP), two-way text messaging,…'
-  api_count: 9
+- slug: hustle
+  name: Hustle
+  description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and a…
+  api_count: 10
+  score_band: strong
+  score_composite: 65.5
+  shared: 1
+- slug: vim
+  name: Vim
+  description: Vim is a United States healthcare technology company (getvim.com) that operates a clinical workflow and point-of-care integration platform connecting health plans, provider organizations, and digital-health applications to physicians inside their existing electronic health records. Through the Vim…
+  api_count: 6
   score_band: strong
   score_composite: 65.5
   shared: 1
@@ -127,13 +155,6 @@ providers:
   score_band: strong
   score_composite: 64.7
   shared: 1
-- slug: playable
-  name: Playable
-  description: Playable (formerly Leadfamly, Playable ApS, Aarhus Denmark and London UK) is a self-service marketing gamification platform used by brands to build, publish and measure interactive campaigns — spin-the-wheel, advent calendars, quizzes, scratch cards, memory and skill games — across web, email, in-a…
-  api_count: 3
-  score_band: strong
-  score_composite: 64.3
-  shared: 1
 - slug: etsy
   name: Etsy
   description: Etsy is a global marketplace for unique and creative handmade, vintage, and craft-supply goods. The Etsy Open API v3 is a REST + OAuth 2.0 surface that third-party developers, sellers, and integration partners use to manage shops, listings, inventory, receipts, transactions, payments, ledger entrie…
@@ -141,12 +162,12 @@ providers:
   score_band: strong
   score_composite: 64.1
   shared: 1
-- slug: infusionsoft
-  name: Infusionsoft (Keap)
-  description: Infusionsoft, now branded as Keap and owned by Thryv Holdings, is a sales and marketing automation CRM built for small businesses that combines contact management, tagging, email marketing, campaign and automation sequences, e-commerce orders and subscriptions, sales pipelines, appointments and inv…
-  api_count: 4
+- slug: beeketing
+  name: Beeketing
+  description: Beeketing began as a Vietnam-founded e-commerce marketing startup (backed by 500 Global) that built conversion-optimization apps for Shopify and other online stores, and evolved into OpenCommerce Group — the operator of ShopBase, a cross-border commerce platform serving 100,000+ merchants across 19…
+  api_count: 1
   score_band: strong
-  score_composite: 63.4
+  score_composite: 63.3
   shared: 1
 - slug: frontegg
   name: Frontegg
@@ -155,26 +176,19 @@ providers:
   score_band: strong
   score_composite: 63.3
   shared: 1
-- slug: hootsuite
-  name: Hootsuite
-  description: Hootsuite is a social media management platform that lets organizations schedule posts, monitor conversations, run paid campaigns, and analyze performance across LinkedIn, X (Twitter), Facebook, Instagram, TikTok, YouTube, and Pinterest from a single dashboard. The platform serves marketers, agenci…
-  api_count: 5
+- slug: amazon-cognito
+  name: Amazon Cognito
+  description: Amazon Cognito is a fully managed AWS user identity and authentication service that adds sign-up, sign-in, and access control to web and mobile applications, scaling to millions of users. It provides User Pools for authentication (user directories, MFA, customizable auth flows) and Identity Pools f…
+  api_count: 126
   score_band: strong
-  score_composite: 63.3
+  score_composite: 63.1
   shared: 1
-- slug: beeketing
-  name: Beeketing
-  description: Beeketing began as a Vietnam-founded e-commerce marketing startup (backed by 500 Global) that built conversion-optimization apps for Shopify and other online stores, and evolved into OpenCommerce Group — the operator of ShopBase, a cross-border commerce platform serving 100,000+ merchants across 19…
-  api_count: 1
+- slug: temple-health
+  name: Temple Health
+  description: Temple University Health System (Temple Health) is the Philadelphia-based academic health system affiliated with the Lewis Katz School of Medicine at Temple University. It operates Temple University Hospital (Main Campus, Jeanes, Episcopal, Northeastern, Women & Families), Temple Health Chestnut Hi…
+  api_count: 10
   score_band: strong
-  score_composite: 62.9
-  shared: 1
-- slug: kinde
-  name: Kinde
-  description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
-  api_count: 31
-  score_band: strong
-  score_composite: 62.9
+  score_composite: 63.1
   shared: 1
 - slug: airtm
   name: Airtm
@@ -183,65 +197,48 @@ providers:
   score_band: strong
   score_composite: 62.8
   shared: 1
-- slug: datavant
-  name: Datavant
-  description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US…
-  api_count: 1
+- slug: playable
+  name: Playable
+  description: Playable (formerly Leadfamly, Playable ApS, Aarhus Denmark and London UK) is a self-service marketing gamification platform used by brands to build, publish and measure interactive campaigns — spin-the-wheel, advent calendars, quizzes, scratch cards, memory and skill games — across web, email, in-a…
+  api_count: 3
   score_band: strong
-  score_composite: 62.2
+  score_composite: 62.3
+  shared: 1
+- slug: okta
+  name: Okta
+  description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Secur…
+  api_count: 28
+  score_band: strong
+  score_composite: 61.6
   shared: 1
 - slug: taskfolk
   name: Taskfolk
   description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backlog, list, calendar and timeline views, with sprints, milesto…
   api_count: 2
   score_band: strong
-  score_composite: 61.9
-  shared: 1
-- slug: jane-app
-  name: Jane
-  description: Jane is a cloud-based practice management platform for health and wellness clinics, headquartered in North Vancouver, Canada, with regional data residency across Canada, the USA, the United Kingdom, and Australia. Jane combines online booking, scheduling, charting and clinical documentation (includ…
-  api_count: 8
-  score_band: strong
-  score_composite: 61.0
-  shared: 1
-- slug: arcade
-  name: Arcade
-  description: Arcade.dev is the MCP runtime for production AI agent deployments. The Arcade Engine — a hosted or self-hostable API surface — handles OAuth user authorization, manages user tokens, and exposes 7,000+ pre-built integrations as Model Context Protocol tools that agent frameworks like LangChain, OpenA…
-  api_count: 11
-  score_band: strong
-  score_composite: 60.8
-  shared: 1
-- slug: cisco-xdr
-  name: Cisco XDR
-  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
-  api_count: 50
-  score_band: strong
-  score_composite: 60.7
+  score_composite: 61.6
   shared: 1
 related:
-- slug: ai-automation
-  name: AI Automation
-  shared: 2
 - slug: communications
   name: Communications
-  shared: 2
-- slug: security
-  name: Security
-  shared: 2
+  shared: 3
 - slug: agents
   name: Agents
-  shared: 1
-- slug: privacy
-  name: Privacy
+  shared: 2
+- slug: ai-automation
+  name: AI Automation
   shared: 1
 - slug: sdk
   name: SDKs
   shared: 1
+- slug: security
+  name: Security
+  shared: 1
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Kit, drchrono, Zoho CRM, AWeber, Twilio, Immutable, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Kit, drchrono, AWeber, iOS, Kraken, Zoho CRM, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: AI Automation, Communications, Security, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Communications, Agents, AI Automation, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---
