@@ -20,14 +20,14 @@ providers:
   description: DVC (Data Version Control) is an Apache 2.0 open-source CLI and Python library for versioning datasets, models, pipelines, and ML experiments on top of Git. It is not a network service — there is no DVC REST API.
   api_count: 1
   score_band: emerging
-  score_composite: 18.6
+  score_composite: 23.3
   shared: 1
 - slug: changelog-md
   name: CHANGELOG.md (Keep a Changelog)
   description: CHANGELOG.md is a community convention for a human-readable, Markdown- formatted file at the root of a project that records notable changes between versions. The leading specification is "Keep a Changelog" by Olivier Lacan, which defines a stable, opinionated set of section headings (Added, Changed…
   api_count: 0
   score_band: emerging
-  score_composite: 11.7
+  score_composite: 17.1
   shared: 1
 related:
 - slug: change-log

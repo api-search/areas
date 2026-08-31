@@ -11,9 +11,9 @@ providers:
 - slug: canny
   name: Canny
   description: Canny is a customer feedback and product management platform that collects, organizes, and prioritizes feature requests from users and internal teams, ties them to roadmaps and changelogs, and surfaces product analytics. The Canny REST API exposes boards, posts, comments, votes, users, companies, c…
-  api_count: 16
+  api_count: 1
   score_band: thin
-  score_composite: 33.7
+  score_composite: 33.1
   shared: 1
 - slug: announcekit
   name: AnnounceKit
@@ -41,7 +41,7 @@ providers:
   description: CHANGELOG.md is a community convention for a human-readable, Markdown- formatted file at the root of a project that records notable changes between versions. The leading specification is "Keep a Changelog" by Olivier Lacan, which defines a stable, opinionated set of section headings (Added, Changed…
   api_count: 0
   score_band: emerging
-  score_composite: 11.7
+  score_composite: 17.1
   shared: 1
 - slug: makelog
   name: Makelog
@@ -51,6 +51,9 @@ providers:
   score_composite: 5.0
   shared: 1
 related:
+- slug: road-map
+  name: Road Map
+  shared: 3
 - slug: deprecation
   name: Deprecation
   shared: 2
@@ -63,5 +66,5 @@ overview: 'Change Log is one of the API Evangelist areas on the [APIs.io](https:
   Providers on the network working in this area include Canny, AnnounceKit, Beamer, LaunchNotes, CHANGELOG.md (Keep a Changelog), and Makelog — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Deprecation and Versioning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Road Map, Deprecation, and Versioning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

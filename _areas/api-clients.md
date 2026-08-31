@@ -18,9 +18,16 @@ providers:
 - slug: ruby
   name: Ruby Programming Language and Popular API Gems
   description: 'A profile of the Ruby programming language ecosystem from an API perspective: the language and its standard library HTTP surface (Net::HTTP), the rubygems.org package registry and its public v1/v2 REST API, Bundler, RBS type signatures, popular HTTP/REST client gems (Faraday, http.rb, HTTParty, Exc…'
-  api_count: 23
+  api_count: 1
   score_band: developing
-  score_composite: 44.9
+  score_composite: 44.4
+  shared: 1
+- slug: kiota
+  name: Kiota
+  description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the need to take a dependency on a different hand-written SDK f…'
+  api_count: 1
+  score_band: developing
+  score_composite: 44.3
   shared: 1
 - slug: hoppscotch
   name: Hoppscotch
@@ -32,21 +39,14 @@ providers:
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
-  api_count: 4
-  score_band: developing
-  score_composite: 40.0
-  shared: 1
-- slug: kiota
-  name: Kiota
-  description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the need to take a dependency on a different hand-written SDK f…'
   api_count: 1
-  score_band: thin
-  score_composite: 38.1
+  score_band: developing
+  score_composite: 39.5
   shared: 1
 - slug: httpie
   name: HTTPie
   description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submission…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 33.8
   shared: 1
@@ -56,6 +56,20 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 28.4
+  shared: 1
+- slug: axios
+  name: Axios
+  description: Axios is a promise-based HTTP client for the browser and Node.js with automatic JSON data transformation and request/response interceptors.
+  api_count: 1
+  score_band: emerging
+  score_composite: 26.0
+  shared: 1
+- slug: node-fetch
+  name: Node-Fetch
+  description: node-fetch is a lightweight module that brings the Fetch API to Node.js for making HTTP requests. It is a client library, not an API service, and provides a window.fetch-compatible interface for server-side JavaScript.
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.5
   shared: 1
 - slug: requests
   name: Requests
@@ -76,21 +90,14 @@ providers:
   description: Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-C…
   api_count: 1
   score_band: emerging
-  score_composite: 20.3
+  score_composite: 23.3
   shared: 1
-- slug: axios
-  name: Axios
-  description: Axios is a promise-based HTTP client for the browser and Node.js with automatic JSON data transformation and request/response interceptors.
+- slug: httpx
+  name: HTTPX
+  description: HTTPX is a fully featured HTTP client for Python 3 with sync and async APIs, HTTP/1.1 and HTTP/2 support. It is broadly compatible with the popular requests library while adding modern features such as strict timeouts, type annotations, direct WSGI and ASGI transport, SSL verification, cookie persi…
   api_count: 1
   score_band: emerging
-  score_composite: 17.7
-  shared: 1
-- slug: node-fetch
-  name: Node-Fetch
-  description: node-fetch is a lightweight module that brings the Fetch API to Node.js for making HTTP requests. It is a client library, not an API service, and provides a window.fetch-compatible interface for server-side JavaScript.
-  api_count: 1
-  score_band: emerging
-  score_composite: 17.2
+  score_composite: 19.1
   shared: 1
 - slug: yaak
   name: Yaak
@@ -105,13 +112,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 15.2
-  shared: 1
-- slug: httpx
-  name: HTTPX
-  description: HTTPX is a fully featured HTTP client for Python 3 with sync and async APIs, HTTP/1.1 and HTTP/2 support. It is broadly compatible with the popular requests library while adding modern features such as strict timeouts, type annotations, direct WSGI and ASGI transport, SSL verification, cookie persi…
-  api_count: 1
-  score_band: emerging
-  score_composite: 14.3
   shared: 1
 - slug: got
   name: Got
@@ -158,7 +158,7 @@ related:
 overview: 'API Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-clients.apievangelist.com](https://api-clients.apievangelist.com).
 
 
-  20 providers on the network work in this area, including Apollo GraphQL, Ruby Programming Language and Popular API Gems, Hoppscotch, Insomnia, Kiota, HTTPie, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  20 providers on the network work in this area, including Apollo GraphQL, Ruby Programming Language and Popular API Gems, Kiota, Hoppscotch, Insomnia, HTTPie, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Clients and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

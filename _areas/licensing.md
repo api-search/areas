@@ -11,9 +11,9 @@ providers:
 - slug: replicated
   name: Replicated
   description: Replicated is a commercial software distribution platform that lets independent software vendors (ISVs) deliver and manage modern applications into complex, customer-controlled environments — including on-prem, self-hosted, and air-gapped networks with little or no outbound internet access. The pla…
-  api_count: 22
+  api_count: 1
   score_band: strong
-  score_composite: 59.5
+  score_composite: 58.9
   shared: 1
 - slug: sendowl
   name: SendOwl
@@ -25,44 +25,44 @@ providers:
 - slug: acma
   name: ACMA
   description: The Australian Communications and Media Authority (ACMA) is the Commonwealth regulator for telecommunications, radiocommunications, broadcasting and online content in Australia. It issues carrier licences and apparatus and spectrum licences, maintains the Register of Radiocommunications Licences, a…
-  api_count: 8
+  api_count: 1
   score_band: developing
-  score_composite: 52.3
+  score_composite: 51.8
   shared: 1
 - slug: certifyos
   name: Certifyos
   description: 'Certify (operating as CertifyOS, certifyos.com) is a New York-based healthcare provider data platform that automates the end-to-end provider network management lifecycle: credentialing, licensing, payer enrollment, compliance monitoring, and roster management. Founded in 2020 by CEO Anshul Rathi, t…'
-  api_count: 59
+  api_count: 3
   score_band: developing
   score_composite: 49.5
   shared: 1
 - slug: opengov
   name: OpenGov
   description: OpenGov builds cloud enterprise resource planning and public service software for state and local government, serving more than 2,000 communities across budgeting and performance, financial management, procurement and contract management, vendor management, permitting and licensing, enterprise asse…
-  api_count: 102
+  api_count: 12
   score_band: developing
   score_composite: 47.1
   shared: 1
 - slug: madaket
   name: Madaket
   description: Madaket Health is a Cambridge, Massachusetts healthcare administration company whose Provider Data Management (PDM) platform automates payer enrollment, EDI enrollment, credentialing, licensing and provider directory data management between healthcare providers and payers. Madaket maintains connect…
-  api_count: 57
+  api_count: 1
   score_band: developing
-  score_composite: 44.9
+  score_composite: 44.3
   shared: 1
 - slug: shutterstock
   name: Shutterstock
   description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
-  api_count: 10
+  api_count: 1
   score_band: developing
-  score_composite: 43.8
+  score_composite: 43.3
   shared: 1
 - slug: soundstripe
   name: Soundstripe
   description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
-  api_count: 7
+  api_count: 1
   score_band: developing
-  score_composite: 41.9
+  score_composite: 41.3
   shared: 1
 - slug: 7digital
   name: 7digital
@@ -81,37 +81,37 @@ providers:
 - slug: warner-music-group
   name: Warner Music Group
   description: Warner Music Group is one of the major record labels in the music industry, with recorded music and music publishing operations spanning a roster of artists, songwriters, and labels around the world. WMG includes Warner Records, Atlantic Records, Elektra Records, and Warner Chappell Music (one of t…
-  api_count: 4
+  api_count: 1
   score_band: thin
-  score_composite: 38.4
+  score_composite: 37.8
   shared: 1
 - slug: fossology
   name: FOSSology
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations through automated scanning, human clearing workflows, and SP…
-  api_count: 15
+  api_count: 1
   score_band: thin
-  score_composite: 36.9
+  score_composite: 37.7
   shared: 1
 - slug: fcc
   name: FCC (Federal Communications Commission)
   description: The Federal Communications Commission provides free public REST APIs for radio station license lookup, broadband coverage maps, spectrum auction data, broadcast contours, census block conversions, consumer complaint databases, electronic comment filings, and regulatory data. All APIs are free with…
-  api_count: 19
+  api_count: 2
   score_band: thin
-  score_composite: 32.3
+  score_composite: 31.7
   shared: 1
 - slug: story-protocol
   name: Story Protocol
   description: Story Protocol is a purpose-built EVM Layer 1 blockchain for onchain intellectual property (the "IP blockchain"), powered by Proof of Creativity, built by Pip Labs and backed by a16z. Its public REST API (api.storyapis.com) is a read-only indexer that exposes IP assets, collections, license terms,…
-  api_count: 13
+  api_count: 1
   score_band: thin
-  score_composite: 29.4
+  score_composite: 28.9
   shared: 1
 - slug: getty
   name: Getty Images
   description: Getty Images is a premium stock media licensor of editorial and creative photography, illustrations, video, and music. The Getty Images API exposes search, asset metadata, and download endpoints for licensing partners and enterprise customers. Authentication is via API key + OAuth 2.0 client creden…
-  api_count: 5
+  api_count: 1
   score_band: thin
-  score_composite: 27.5
+  score_composite: 26.9
   shared: 1
 - slug: medallion
   name: Medallion

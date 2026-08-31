@@ -18,7 +18,7 @@ providers:
 - slug: confrere
   name: Confrere
   description: Confrere is a privacy-first, embeddable video-consultation platform (now a Compodium product) built in the Nordics for healthcare providers, therapists, consultants, tutors, and sales teams who need secure, encrypted video meetings that clients join from any modern browser with no download. Its ser…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 37.8
   shared: 1

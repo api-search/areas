@@ -11,16 +11,16 @@ providers:
 - slug: selenium
   name: Selenium
   description: Selenium is the open-source browser automation project behind the W3C WebDriver and WebDriver BiDi standards. It drives real browsers through a vendor-neutral, standardised HTTP wire protocol that the browser vendors implement themselves, with official language bindings for Java, Python, C#, Ruby a…
-  api_count: 8
+  api_count: 1
   score_band: developing
-  score_composite: 42.0
+  score_composite: 41.4
   shared: 1
 - slug: kernel-so
   name: Kernel
   description: Kernel is browser infrastructure for AI agents and web automations. Founded in 2025 by Catherine Jue (CEO) and Rafael Garcia (CTO) and backed by Accel and Y Combinator (S25), Kernel runs sandboxed Chromium browsers on a unikernel platform with sub-150ms cold starts, built-in stealth mode, residenti…
-  api_count: 22
+  api_count: 1
   score_band: developing
-  score_composite: 41.6
+  score_composite: 41.1
   shared: 1
 related: []
 overview: 'Browsers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [browsers.apievangelist.com](https://browsers.apievangelist.com).

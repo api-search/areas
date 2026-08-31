@@ -6,63 +6,63 @@ description: DNS (Domain Name System) is the distributed naming system that tran
 area_url: https://dns.apievangelist.com
 area_host: dns.apievangelist.com
 icon: https://dns.apievangelist.com/icon-thumb.png
-provider_count: 50
+provider_count: 51
 providers:
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
-  api_count: 15
+  api_count: 5
   score_band: strong
   score_composite: 64.5
-  shared: 1
-- slug: whoisfreaks
-  name: WhoisFreaks
-  description: WhoisFreaks is a domain and IP intelligence provider whose REST API suite covers live WHOIS, historical WHOIS, bulk and reverse WHOIS, IP and ASN WHOIS, live/historical/reverse DNS, domain availability with suggestions, typosquatting discovery, SSL certificate lookup, subdomain enumeration, IP geol…
-  api_count: 23
-  score_band: strong
-  score_composite: 63.4
   shared: 1
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 87
+  api_count: 24
   score_band: strong
-  score_composite: 63.2
+  score_composite: 63.4
   shared: 1
-- slug: apifreaks-api-hub-for-developers
-  name: APIFreaks - API Hub for Developers
-  description: APIFreaks is a first-party REST API hub built by JFreaks Software Solutions (Lahore, Pakistan) that ships more than 100 production endpoints behind a single API key and a single shared credit pool. The catalog spans IP geolocation and threat intelligence, WHOIS (live, historical, reverse, ASN), DNS…
-  api_count: 27
+- slug: whoisfreaks
+  name: WhoisFreaks
+  description: WhoisFreaks is a domain and IP intelligence provider whose REST API suite covers live WHOIS, historical WHOIS, bulk and reverse WHOIS, IP and ASN WHOIS, live/historical/reverse DNS, domain availability with suggestions, typosquatting discovery, SSL certificate lookup, subdomain enumeration, IP geol…
+  api_count: 1
   score_band: strong
-  score_composite: 61.4
+  score_composite: 62.9
   shared: 1
 - slug: cisco-umbrella
   name: Cisco Umbrella
   description: 'Cisco Umbrella, built on the OpenDNS platform Cisco acquired in 2015 and now sold within Cisco Secure Access, is Cisco''s cloud-delivered security service: DNS-layer security, secure web gateway, cloud-delivered firewall, CASB (Cisco Cloudlock) and remote browser isolation. Cisco publishes a full OA…'
-  api_count: 85
+  api_count: 52
   score_band: strong
   score_composite: 59.2
   shared: 1
 - slug: amazon-route-53
   name: Amazon Route 53
   description: Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service that provides DNS routing, domain name registration, and health checking capabilities. Route 53 connects user requests to internet applications running on AWS or on-premises infrastructure, and can be used to ro…
-  api_count: 3
+  api_count: 1
   score_band: strong
-  score_composite: 58.9
+  score_composite: 58.3
+  shared: 1
+- slug: apifreaks-api-hub-for-developers
+  name: APIFreaks - API Hub for Developers
+  description: APIFreaks is a first-party REST API hub built by JFreaks Software Solutions (Lahore, Pakistan) that ships more than 100 production endpoints behind a single API key and a single shared credit pool. The catalog spans IP geolocation and threat intelligence, WHOIS (live, historical, reverse, ASN), DNS…
+  api_count: 102
+  score_band: strong
+  score_composite: 57.8
   shared: 1
 - slug: amazon-route53-resolver
   name: Amazon Route 53 Resolver
   description: Amazon Route 53 Resolver provides DNS resolution for hybrid cloud environments, enabling DNS queries between your VPCs and on-premises networks. It allows you to configure DNS forwarding rules, manage resolver endpoints, and set up conditional forwarding to resolve domain names across your hybrid i…
-  api_count: 63
+  api_count: 1
   score_band: developing
-  score_composite: 51.8
+  score_composite: 51.2
   shared: 1
 - slug: infoblox
   name: Infoblox
   description: Infoblox is a networking and cybersecurity company providing DDI (DNS, DHCP, and IPAM) solutions and protective DNS-layer security services. Its product portfolio spans the Universal DDI suite for unified hybrid and multi-cloud network services, NIOS DDI for on-premises deployments, NIOS-X as a Ser…
-  api_count: 21
+  api_count: 1
   score_band: developing
-  score_composite: 51.1
+  score_composite: 50.5
   shared: 1
 - slug: mcp360
   name: MCP360
@@ -74,28 +74,42 @@ providers:
 - slug: domaintools
   name: DomainTools
   description: DomainTools is a domain and DNS intelligence company whose APIs power threat investigation, hunting, and monitoring for security teams. Its product surface spans Iris Investigate (pivot-based domain investigation), Iris Enrich (bulk domain enrichment), and Iris Detect (brand-infringement monitoring…
-  api_count: 12
+  api_count: 4
   score_band: developing
   score_composite: 49.2
   shared: 1
 - slug: google-cloud-dns
   name: Google Cloud DNS
   description: Google Cloud DNS is a scalable, reliable, and managed authoritative Domain Name System (DNS) service running on the same infrastructure as Google. It provides low-latency, high-availability DNS serving with 100% uptime SLA, supporting both public and private DNS zones for domain name resolution.
-  api_count: 4
+  api_count: 1
   score_band: developing
-  score_composite: 47.9
+  score_composite: 47.4
   shared: 1
 - slug: uchecker
   name: uChecker
   description: Russian-language email-validation platform offering bulk and single email verification (SMTP mailbox existence, MX/DNS, catch-all, disposable, role-based, spam-trap/blacklist checks) plus free DNS/email tools. Access via REST API, a hosted MCP server, web dashboard, and Telegram bot.
-  api_count: 3
+  api_count: 1
   score_band: developing
-  score_composite: 46.5
+  score_composite: 45.9
+  shared: 1
+- slug: coredns
+  name: CoreDNS
+  description: CoreDNS is a CNCF graduated DNS server written in Go that serves as the default DNS service for Kubernetes clusters. It is flexible and extensible through a plugin architecture, supporting DNS-based service discovery, forwarding, caching, and integration with etcd, Kubernetes, and other backends. C…
+  api_count: 2
+  score_band: developing
+  score_composite: 45.1
+  shared: 1
+- slug: akamai-technologies
+  name: Akamai Technologies
+  description: Akamai Technologies operates one of the world's largest distributed edge platforms, spanning content delivery (Ion, Adaptive Media Delivery, Download Delivery), application and API security (App & API Protector, Bot Manager, Prolexic DDoS, Secure Internet Access, Guardicore segmentation), edge comp…
+  api_count: 58
+  score_band: developing
+  score_composite: 44.3
   shared: 1
 - slug: d3
   name: D3
   description: D3 is a crypto-infrastructure company building the internet's domain layer, tokenized. Through its Doma Protocol, D3 brings ICANN domain names on-chain as tokenized name assets and unlocks "DomainFi" — programmable DNS, fractionalized domain tokens, an on-chain marketplace, and agentic commerce. De…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 42.9
   shared: 1
@@ -109,23 +123,16 @@ providers:
 - slug: dnsfilter
   name: DNSFilter
   description: DNSFilter is an AI-powered DNS security and content-filtering platform that protects organizations from cyber threats and unwanted content at the DNS layer. Its machine-learning engine blocks malicious domains — phishing, malware, ransomware, and botnet command-and-control — often before they appea…
-  api_count: 45
+  api_count: 1
   score_band: developing
-  score_composite: 41.5
-  shared: 1
-- slug: hetzner
-  name: Hetzner
-  description: Hetzner Online is a German hosting provider offering cloud servers, dedicated servers, and domain services. Hetzner provides a Cloud API for programmatic management of cloud resources, as well as a DNS API for managing DNS zones and records.
-  api_count: 32
-  score_band: developing
-  score_composite: 41.2
+  score_composite: 40.9
   shared: 1
 - slug: bunny-net
   name: Bunny.net
   description: Bunny.net is a content-delivery and edge platform offering a global CDN, edge storage, video streaming, DNS, image optimisation, edge scripting, and WAF / security shielding. The Bunny.net Core Platform REST API at api.bunny.net manages account-level resources - Pull Zones, Storage Zones, DNS Zones…
-  api_count: 26
+  api_count: 1
   score_band: developing
-  score_composite: 40.9
+  score_composite: 40.3
   shared: 1
 - slug: stack-machine
   name: Stack Machine
@@ -134,13 +141,6 @@ providers:
   score_band: developing
   score_composite: 39.8
   shared: 1
-- slug: coredns
-  name: CoreDNS
-  description: CoreDNS is a CNCF graduated DNS server written in Go that serves as the default DNS service for Kubernetes clusters. It is flexible and extensible through a plugin architecture, supporting DNS-based service discovery, forwarding, caching, and integration with etcd, Kubernetes, and other backends. C…
-  api_count: 5
-  score_band: developing
-  score_composite: 39.6
-  shared: 1
 - slug: tucows
   name: Tucows
   description: Tucows is one of the world's largest internet-services and domain companies. Its OpenSRS division runs a wholesale reseller platform for domain-name registration, DNS, TLS/SSL certificates and hosted email, exposed through the OpenSRS API (an XML-over-HTTPS reseller protocol) and the OpenSRS Mail A…
@@ -148,26 +148,33 @@ providers:
   score_band: developing
   score_composite: 39.5
   shared: 1
+- slug: hetzner
+  name: Hetzner
+  description: Hetzner Online is a German hosting provider offering cloud servers, dedicated servers, and domain services. Hetzner provides a Cloud API for programmatic management of cloud resources, as well as a DNS API for managing DNS zones and records.
+  api_count: 1
+  score_band: developing
+  score_composite: 39.4
+  shared: 1
 - slug: unstoppable-domains
   name: Unstoppable Domains
   description: Web3 domain name service providing REST APIs for resolving crypto domain names, managing NFT domains, reverse lookups, cross-chain address resolution, domain registration, and DNS management across 150+ TLDs on multiple blockchains.
-  api_count: 33
+  api_count: 4
   score_band: developing
   score_composite: 39.4
   shared: 1
 - slug: done
   name: _done
   description: _done is an agent-native catalog of 26 single-purpose utility REST APIs — network and DNS lookups, domain intelligence, email-authentication checks, HTTP and SEO inspection, OCR, screenshots, hashing, JSON tooling, web3 resolution and finance calculators. There are no accounts, no signups and no AP…
-  api_count: 27
-  score_band: developing
-  score_composite: 39.4
+  api_count: 52
+  score_band: thin
+  score_composite: 38.4
   shared: 1
 - slug: spaceship
   name: Spaceship
   description: Spaceship is a domain registrar and domain marketplace offering domain registration, DNS management, WHOIS privacy protection, and a SellerHub resale marketplace with SafePay escrow. Its public REST API (https://spaceship.dev/api, v1) exposes 40 operations across domain management, availability, se…
-  api_count: 10
+  api_count: 1
   score_band: thin
-  score_composite: 38.9
+  score_composite: 38.3
   shared: 1
 - slug: completedns
   name: CompleteDNS
@@ -186,50 +193,43 @@ providers:
 - slug: frostbyte
   name: Frostbyte
   description: Free API platform for developers and AI agents — 40+ services including IP Geolocation, Crypto Prices, Screenshots, DNS, Scraping, Code Execution. Free tier of 200 credits with no signup; USDC on Base top-ups via x402 for higher volume.
-  api_count: 10
+  api_count: 7
   score_band: thin
   score_composite: 37.1
   shared: 1
 - slug: quantcdn
   name: QuantCDN
   description: QuantCDN is an edge delivery, static site hosting, and cloud applications platform that lets teams generate, host, and maintain static and dynamic versions of their websites with a global CDN, WAF, edge functions, key-value storage, AI inference, and DNS management.
-  api_count: 38
+  api_count: 1
   score_band: thin
-  score_composite: 36.4
+  score_composite: 35.8
   shared: 1
 - slug: cpanel
   name: cPanel
   description: cPanel is a web-based control panel that provides a graphical interface and automation tools to simplify the management of web hosting services. cPanel exposes a family of HTTP APIs (UAPI, WHM API 1, and the legacy cPanel API 2) for automating account, domain, email, database, DNS, and server-wide…
-  api_count: 7
+  api_count: 1
   score_band: thin
-  score_composite: 34.9
+  score_composite: 34.3
   shared: 1
 - slug: openprovider
   name: Openprovider
   description: 'Openprovider is a wholesaler of Internet services and products with a unique platform from which you can find and manage all the products you need: domains, new gTLDs, SSL certificates, licenses for Plesk and Virtuozzo, spam filters, and more.'
-  api_count: 35
+  api_count: 1
   score_band: thin
-  score_composite: 34.0
-  shared: 1
-- slug: nacos
-  name: Nacos
-  description: Nacos is an easy-to-use dynamic service discovery, configuration, and service management platform from Alibaba for building cloud-native applications, supporting Dubbo, gRPC, Spring Cloud RESTful, and Kubernetes services.
-  api_count: 6
-  score_band: thin
-  score_composite: 33.1
+  score_composite: 33.5
   shared: 1
 related:
 - slug: security
   name: Security
   shared: 3
+- slug: search
+  name: API Evangelist Search
+  shared: 2
 - slug: network
   name: Network
   shared: 1
 - slug: scraping
   name: Scraping
-  shared: 1
-- slug: search
-  name: API Evangelist Search
   shared: 1
 - slug: containers
   name: Containers
@@ -240,8 +240,8 @@ related:
 overview: 'DNS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [dns.apievangelist.com](https://dns.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Shodan, WhoisFreaks, Cloudflare, APIFreaks - API Hub for Developers, Cisco Umbrella, Amazon Route 53, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Shodan, Cloudflare, WhoisFreaks, Cisco Umbrella, Amazon Route 53, APIFreaks - API Hub for Developers, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Security, Network, Scraping, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Security, API Evangelist Search, Network, and Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

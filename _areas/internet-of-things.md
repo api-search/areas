@@ -18,93 +18,93 @@ providers:
 - slug: the-things-network
   name: The Things Network / The Things Stack
   description: The Things Network (TTN) is a free, community-operated global LoRaWAN network with over 280,000 members and 21,000 gateways across 153 countries. It runs on The Things Stack, the open-source (Apache-2.0) LoRaWAN Network Server developed and maintained by The Things Industries. The Things Stack v3 i…
-  api_count: 58
+  api_count: 9
   score_band: exemplar
   score_composite: 78.1
   shared: 1
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
-  api_count: 15
+  api_count: 5
   score_band: strong
   score_composite: 64.5
-  shared: 1
-- slug: adafruit-io
-  name: Adafruit IO
-  description: Adafruit IO is a cloud Internet of Things platform from Adafruit Industries built for makers, hobbyists, students, and STEM educators. It provides feed-based time-series storage, drag-and-drop dashboards with 20+ visualization block types, actions/triggers for SMS/voice/email/webhook notifications,…
-  api_count: 12
-  score_band: strong
-  score_composite: 63.3
   shared: 1
 - slug: cumulocity
   name: Cumulocity
   description: Cumulocity is an enterprise AIoT (Artificial Intelligence of Things) platform that connects, manages, and analyzes industrial assets from cloud to edge. Founded inside Software AG and divested via a 2025 management buyout into an independent company (sale announced alongside the IBM acquisition of…
-  api_count: 39
+  api_count: 17
   score_band: strong
   score_composite: 63.2
   shared: 1
-- slug: particle
-  name: Particle
-  description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud exposes a REST API that enables developers to call device functi…
-  api_count: 28
+- slug: adafruit-io
+  name: Adafruit IO
+  description: Adafruit IO is a cloud Internet of Things platform from Adafruit Industries built for makers, hobbyists, students, and STEM educators. It provides feed-based time-series storage, drag-and-drop dashboards with 20+ visualization block types, actions/triggers for SMS/voice/email/webhook notifications,…
+  api_count: 1
   score_band: strong
   score_composite: 62.7
   shared: 1
 - slug: thingspeak
   name: ThingSpeak
   description: ThingSpeak is an IoT analytics platform from MathWorks that lets devices aggregate, visualize, and analyze live data streams in the cloud. Devices push telemetry to channels via a REST update endpoint or the `mqtt3.thingspeak.com` MQTT broker, and the platform layers in MATLAB Analysis for compute,…
-  api_count: 12
+  api_count: 2
   score_band: strong
-  score_composite: 62.7
+  score_composite: 62.2
+  shared: 1
+- slug: particle
+  name: Particle
+  description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud exposes a REST API that enables developers to call device functi…
+  api_count: 2
+  score_band: strong
+  score_composite: 62.1
   shared: 1
 - slug: emnify
   name: emnify
   description: emnify is a cloud-native global IoT cellular connectivity provider operating its own mobile core and SuperNetwork across 540+ MNOs in 190+ countries. emnify supplies SIMs, eUICC-enabled multi-form-factor cards, and Consumer/Advanced eSIM (SGP.32) profiles to enterprise IoT deployments — fleet track…
-  api_count: 29
+  api_count: 1
   score_band: strong
-  score_composite: 61.3
+  score_composite: 60.8
   shared: 1
 - slug: thingsboard
   name: ThingsBoard
   description: ThingsBoard is an open-source IoT platform for device connectivity, data collection, processing, and visualization. Licensed under Apache 2.0 and developed by ThingsBoard Inc., it supports multi-tenant device management, telemetry over MQTT/HTTP/CoAP/LwM2M/SNMP, a drag-and-drop rule engine, calcula…
-  api_count: 58
+  api_count: 15
   score_band: strong
   score_composite: 57.6
   shared: 1
 - slug: ev-energy
   name: ev.energy
   description: ev.energy is a London- and Palo-Alto-based smart electric-vehicle charging platform. Its cloud software connects EV drivers, vehicles, EVSEs (chargers), home batteries, solar inverters and utility programs so charging can be shifted to cheaper, greener periods and aggregated as grid flexibility. Th…
-  api_count: 25
+  api_count: 1
   score_band: strong
-  score_composite: 57.4
-  shared: 1
-- slug: itron
-  name: Itron
-  description: 'Itron, Inc. (NASDAQ: ITRI) is a Liberty Lake, Washington–based industrial technology company providing smart-meter, grid-edge, and IoT infrastructure to electric, gas, and water utilities and cities. Itron''s self-described mission is "Creating a more resourceful world" and the company reports 7,700…'
-  api_count: 11
-  score_band: developing
-  score_composite: 53.2
+  score_composite: 56.8
   shared: 1
 - slug: tago-io
   name: TagoIO
   description: TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO…
-  api_count: 22
+  api_count: 1
   score_band: developing
-  score_composite: 53.0
+  score_composite: 52.4
   shared: 1
 - slug: spectrumoutage-api
   name: SpectrumOutage API
   description: Community-powered REST API for live Spectrum internet, TV, and phone outage data across the United States, published by SpectrumOutage.us — an independent outage tracker with no affiliation to Charter Communications or Spectrum. The v1 API exposes eight operations over crowdsourced outage reports:…
-  api_count: 4
+  api_count: 2
   score_band: developing
-  score_composite: 52.9
+  score_composite: 51.1
+  shared: 1
+- slug: itron
+  name: Itron
+  description: 'Itron, Inc. (NASDAQ: ITRI) is a Liberty Lake, Washington–based industrial technology company providing smart-meter, grid-edge, and IoT infrastructure to electric, gas, and water utilities and cities. Itron''s self-described mission is "Creating a more resourceful world" and the company reports 7,700…'
+  api_count: 1
+  score_band: developing
+  score_composite: 50.0
   shared: 1
 - slug: esper
   name: Esper
   description: Esper is the DevOps platform for connected devices, providing cloud-based Android (and edge) device management, application deployment, and remote orchestration for dedicated-device fleets. The Esper Manage REST API lets developers programmatically provision, monitor, and control Android-based dedi…
-  api_count: 13
+  api_count: 1
   score_band: developing
-  score_composite: 48.5
+  score_composite: 47.9
   shared: 1
 - slug: liesheng
   name: Liesheng Group
@@ -116,30 +116,30 @@ providers:
 - slug: bear-robotics
   name: Bear Robotics
   description: Bear Robotics builds AI-driven autonomous mobile robots for hospitality and service environments — the Servi family (Servi, Servi Plus, Servi Q, Servi Clean) for restaurants, senior living, hotels and hospitals, the Carti cargo line for warehouses and factories, and Kinisi — all managed through the…
-  api_count: 9
+  api_count: 1
   score_band: developing
-  score_composite: 45.7
+  score_composite: 45.1
   shared: 1
 - slug: weavix
   name: Weavix
   description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
-  api_count: 8
+  api_count: 1
   score_band: developing
-  score_composite: 41.1
+  score_composite: 40.5
   shared: 1
 - slug: bitfinder
   name: Bitfinder
   description: Bitfinder, Inc., doing business as Awair, builds indoor air quality (IAQ) monitors and a cloud platform used across homes, offices, schools, and commercial spaces. Its devices (Awair Element, Awair Omni, and 2nd Edition) measure the Awair Score along with temperature, humidity, CO2, chemicals (VOC)…
-  api_count: 3
+  api_count: 1
   score_band: developing
-  score_composite: 40.9
+  score_composite: 40.4
   shared: 1
 - slug: afero
   name: Afero
   description: 'Afero, Inc. is a Los Altos, California IoT platform company founded in 2014 by Joe Britt and Shin Matsumura. Afero ships an end-to-end connected-product stack: ASR secure radio modules with a hardware root of trust and an embedded Hardware Security Module, the afLib MCU libraries and Secure Linux D…'
-  api_count: 4
-  score_band: developing
-  score_composite: 39.6
+  api_count: 1
+  score_band: thin
+  score_composite: 39.0
   shared: 1
 - slug: quanergy
   name: Quanergy
@@ -155,19 +155,19 @@ providers:
   score_band: thin
   score_composite: 36.8
   shared: 1
-- slug: lumen-technologies
-  name: Lumen Technologies
-  description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Center, Lumen exposes REST APIs that allow customers to programm…
-  api_count: 3
-  score_band: thin
-  score_composite: 35.9
-  shared: 1
 - slug: univers
   name: Univers
   description: Univers (formerly Envision Digital) is a Singapore-headquartered company building "The Platform for Physical AI" — its EnOS platform runs real-time, autonomous operations across energy grids, buildings, transportation, and industrial manufacturing, managing over 1,000 GW of energy assets and 400M+…
   api_count: 1
   score_band: thin
   score_composite: 35.5
+  shared: 1
+- slug: lumen-technologies
+  name: Lumen Technologies
+  description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Center, Lumen exposes REST APIs that allow customers to programm…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.3
   shared: 1
 - slug: hello-therma
   name: Hello Therma
@@ -240,7 +240,7 @@ related:
 overview: 'Internet of Things is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [internet-of-things.apievangelist.com](https://internet-of-things.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Losant, The Things Network / The Things Stack, Shodan, Adafruit IO, Cumulocity, Particle, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Losant, The Things Network / The Things Stack, Shodan, Cumulocity, Adafruit IO, ThingSpeak, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Network, Embedded iPaaS, Analysis, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'

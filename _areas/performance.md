@@ -11,37 +11,37 @@ providers:
 - slug: new-relic
   name: New Relic
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
-  api_count: 19
+  api_count: 5
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 69.7
   shared: 1
 - slug: whoop
   name: WHOOP
   description: WHOOP is a fitness and recovery wearable platform providing a REST API for accessing sleep, recovery, strain, and workout metrics from the WHOOP band. The API uses OAuth 2.0 authorization code flow with Bearer tokens to allow developers to build applications that access member health and performanc…
-  api_count: 7
+  api_count: 2
   score_band: strong
-  score_composite: 60.4
+  score_composite: 59.8
   shared: 1
 - slug: amazon-global-accelerator
   name: Amazon Global Accelerator
   description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the AWS global network to optimize the path from users to applic…
-  api_count: 49
+  api_count: 1
   score_band: developing
-  score_composite: 54.2
+  score_composite: 53.7
   shared: 1
 - slug: oracle-partitioning
   name: Oracle Partitioning
   description: Oracle Partitioning is a licensed option of Oracle Database Enterprise Edition that divides large tables and indexes into smaller, independently manageable segments called partitions, accessed transparently through the table name. It delivers partition pruning (the optimizer eliminates irrelevant p…
-  api_count: 25
+  api_count: 1
   score_band: developing
-  score_composite: 54.1
+  score_composite: 53.6
   shared: 1
 - slug: factorial-hr
   name: Factorial
   description: Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 "Legendre") covering employees, contracts, attendance, ti…
-  api_count: 22
+  api_count: 1
   score_band: developing
-  score_composite: 53.5
+  score_composite: 52.9
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
@@ -74,9 +74,9 @@ providers:
 - slug: sage-hr
   name: Sage HR
   description: Sage HR (formerly CakeHR) is a cloud HRIS for small and mid-sized businesses, owned by Sage Group plc. It bundles core HR records, leave management, performance, recruitment (ATS), timesheets, shift scheduling, expenses, and onboarding/offboarding into a modular per-employee SaaS. The Sage HR REST…
-  api_count: 14
+  api_count: 1
   score_band: developing
-  score_composite: 42.1
+  score_composite: 41.6
   shared: 1
 - slug: polar-signals
   name: Polar Signals
@@ -88,9 +88,9 @@ providers:
 - slug: questdb
   name: QuestDB
   description: QuestDB is a high-performance open-source time-series database. It exposes three programmatic surfaces — an HTTP REST API for SQL queries and CSV import/export, the InfluxDB Line Protocol (ILP) over TCP and HTTP for high-throughput ingestion, and the PostgreSQL wire protocol for compatibility with…
-  api_count: 10
+  api_count: 1
   score_band: thin
-  score_composite: 34.5
+  score_composite: 34.0
   shared: 1
 - slug: codspeed
   name: CodSpeed
@@ -120,19 +120,19 @@ providers:
   score_band: thin
   score_composite: 32.8
   shared: 1
-- slug: apicontext
-  name: APIContext
-  description: APIContext (formerly APImetrics) is an advanced synthetic API testing and monitoring platform that measures API performance, enforces SLOs, and validates API conformance for critical APIs. It provides an API directory with performance data on 300+ top API providers and offers solutions for develope…
-  api_count: 13
-  score_band: thin
-  score_composite: 29.1
-  shared: 1
 - slug: grafast
   name: Grafast
   description: Next-generation PostgreSQL-backed GraphQL planning and execution engine from the Graphile project, replacing graphql-js execution with a plan-based approach to eliminate N+1 queries.
   api_count: 1
   score_band: thin
-  score_composite: 26.3
+  score_composite: 30.2
+  shared: 1
+- slug: apicontext
+  name: APIContext
+  description: APIContext (formerly APImetrics) is an advanced synthetic API testing and monitoring platform that measures API performance, enforces SLOs, and validates API conformance for critical APIs. It provides an API directory with performance data on 300+ top API providers and offers solutions for develope…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.6
   shared: 1
 - slug: vegeta
   name: Vegeta
@@ -155,12 +155,19 @@ providers:
   score_band: emerging
   score_composite: 21.2
   shared: 1
+- slug: granulate
+  name: Granulate
+  description: Granulate is a real-time continuous optimization company acquired by Intel in 2022 and now offered as Intel Tiber App-Level Optimization. Its platform autonomously tunes OS-level and runtime behavior (scheduling, memory, networking) for compute, Kubernetes, and big-data workloads to cut CPU cost an…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.9
+  shared: 1
 - slug: merbridge
   name: Merbridge
   description: Merbridge is an open source, eBPF-based service mesh acceleration tool that replaces iptables rules with eBPF traffic interception and uses msg_redirect to shorten the datapath between sidecars and services. It is a CNCF Sandbox project and supports Istio, Linkerd2, and Kuma.
   api_count: 1
   score_band: emerging
-  score_composite: 15.8
+  score_composite: 18.3
   shared: 1
 - slug: flarion
   name: Flarion
@@ -189,13 +196,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 12.6
-  shared: 1
-- slug: granulate
-  name: Granulate
-  description: Granulate is a real-time continuous optimization company acquired by Intel in 2022 and now offered as Intel Tiber App-Level Optimization. Its platform autonomously tunes OS-level and runtime behavior (scheduling, memory, networking) for compute, Kubernetes, and big-data workloads to cut CPU cost an…
-  api_count: 0
-  score_band: emerging
-  score_composite: 12.1
   shared: 1
 - slug: the-meta
   name: The Meta

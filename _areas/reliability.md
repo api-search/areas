@@ -11,23 +11,23 @@ providers:
 - slug: svix
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
-  api_count: 29
+  api_count: 1
   score_band: exemplar
-  score_composite: 79.0
+  score_composite: 78.6
   shared: 1
 - slug: gremlin
   name: Gremlin
   description: Gremlin is a chaos engineering platform that helps teams build more resilient systems by running controlled failure experiments. It provides tools to simulate infrastructure failures, network issues, and resource exhaustion to identify and fix weaknesses before they cause real outages.
-  api_count: 55
+  api_count: 1
   score_band: developing
-  score_composite: 46.0
+  score_composite: 45.4
   shared: 1
-- slug: memfault
-  name: Memfault
-  description: Memfault is a device observability and reliability platform for connected products built on MCUs, embedded Linux, and Android. The Memfault Cloud ingests device data (coredumps, logs, metrics, reboots) and provides issue grouping, alerting, charting, fleet analytics, and over-the-air firmware updat…
-  api_count: 20
+- slug: chaos-mesh
+  name: Chaos Mesh
+  description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
+  api_count: 2
   score_band: developing
-  score_composite: 41.1
+  score_composite: 45.1
   shared: 1
 - slug: google-cloud-error-reporting
   name: Google Cloud Error Reporting
@@ -36,26 +36,19 @@ providers:
   score_band: developing
   score_composite: 40.9
   shared: 1
-- slug: chaos-mesh
-  name: Chaos Mesh
-  description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
-  api_count: 7
+- slug: memfault
+  name: Memfault
+  description: Memfault is a device observability and reliability platform for connected products built on MCUs, embedded Linux, and Android. The Memfault Cloud ingests device data (coredumps, logs, metrics, reboots) and provides issue grouping, alerting, charting, fleet analytics, and over-the-air firmware updat…
+  api_count: 1
   score_band: developing
-  score_composite: 39.6
+  score_composite: 40.6
   shared: 1
 - slug: statuspage
   name: Statuspage
   description: Statuspage by Atlassian is a hosted status page and incident communication platform that helps companies communicate real-time service status, incident updates, scheduled maintenance, and component health to customers and internal stakeholders. It supports public and private pages, audience-specifi…
-  api_count: 4
+  api_count: 1
   score_band: thin
-  score_composite: 36.0
-  shared: 1
-- slug: overops
-  name: Overops
-  description: OverOps (formerly Takipi) is a continuous reliability platform that helps teams who ship software ensure rapid code changes do not degrade the customer experience. It runs in the cloud or on-premises, instruments Java and .NET applications with a micro-agent, and automatically identifies, prevents,…
-  api_count: 16
-  score_band: thin
-  score_composite: 32.7
+  score_composite: 35.4
   shared: 1
 - slug: antithesis
   name: Antithesis
@@ -64,12 +57,19 @@ providers:
   score_band: thin
   score_composite: 32.3
   shared: 1
+- slug: overops
+  name: Overops
+  description: OverOps (formerly Takipi) is a continuous reliability platform that helps teams who ship software ensure rapid code changes do not degrade the customer experience. It runs in the cloud or on-premises, instruments Java and .NET applications with a micro-agent, and automatically identifies, prevents,…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.2
+  shared: 1
 - slug: sonarly
   name: Sonarly
   description: Sonarly is an AI production-reliability platform (Y Combinator W2026, Paris) that turns noisy production alerts into clear, deduplicated bug reports and ships ready-to-merge fix pull requests. It connects to a team's code (GitHub/GitLab) and their error and observability stack — Sentry, Datadog, Gr…
-  api_count: 3
+  api_count: 1
   score_band: thin
-  score_composite: 27.2
+  score_composite: 26.7
   shared: 1
 - slug: nerc
   name: NERC
@@ -141,11 +141,14 @@ related:
 - slug: logging
   name: Logging
   shared: 1
+- slug: testing
+  name: Testing
+  shared: 1
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Svix, Gremlin, Memfault, Google Cloud Error Reporting, Chaos Mesh, Statuspage, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Svix, Gremlin, Chaos Mesh, Google Cloud Error Reporting, Memfault, Statuspage, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Command Line Interface and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Command Line Interface, Logging, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

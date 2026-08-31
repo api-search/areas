@@ -11,37 +11,37 @@ providers:
 - slug: loon-finance
   name: Loon Finance
   description: Loon is a Calgary-based fintech and the issuer of CADC, a regulated, fiat-backed stablecoin pegged 1:1 to the Canadian dollar. Reserves are held in segregated cash deposits at ATB Financial and attested independently every month by HDCPA Professional Corporation, with FINTRAC compliance and a prosp…
-  api_count: 3
+  api_count: 1
   score_band: developing
-  score_composite: 45.3
+  score_composite: 44.7
   shared: 1
 - slug: open-payments
   name: CMS Open Payments
   description: CMS Open Payments is the U.S. federal transparency program (run by the Centers for Medicare and Medicaid Services) that publishes payments and transfers of value made by drug and medical device manufacturers and group purchasing organizations to physicians, non-physician practitioners, and teaching…
-  api_count: 5
+  api_count: 1
   score_band: thin
-  score_composite: 39.0
+  score_composite: 38.5
   shared: 1
 - slug: freedom-of-information-act
   name: Freedom of Information Act
   description: The Freedom of Information Act (FOIA) API provides access to FOIA request data and related information from federal agencies.
-  api_count: 3
+  api_count: 1
   score_band: thin
-  score_composite: 29.5
+  score_composite: 29.0
   shared: 1
 - slug: free-law-project
   name: Free Law Project
   description: Free Law Project is a non-profit organization that seeks to increase access to justice and transparency in the legal system through the use of technology and open data.
-  api_count: 10
+  api_count: 1
   score_band: thin
-  score_composite: 27.5
+  score_composite: 27.0
   shared: 1
 - slug: usaspending
   name: USAspending.gov
   description: USAspending.gov is the official open data source of federal spending information operated by the U.S. Department of the Treasury's Bureau of the Fiscal Service, implementing the DATA Act's transparency mandate. The underlying USAspending API (api.usaspending.gov) is a free, public, unauthenticated…
-  api_count: 9
-  score_band: thin
-  score_composite: 26.2
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.6
   shared: 1
 related: []
 overview: 'Transparency is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [transparency.apievangelist.com](https://transparency.apievangelist.com).

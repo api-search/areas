@@ -11,23 +11,23 @@ providers:
 - slug: paubox
   name: Paubox
   description: Paubox is a HIPAA compliant, HITRUST certified email infrastructure company serving healthcare organizations in the United States. Its products encrypt outbound email without recipient portals, passwords, or plugins, and work alongside Google Workspace and Microsoft 365. The developer surface is th…
-  api_count: 13
+  api_count: 3
   score_band: exemplar
   score_composite: 72.1
-  shared: 1
-- slug: evervault
-  name: Evervault
-  description: Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption keys on Evervault's side while customers hold the ciphertext,…
-  api_count: 4
-  score_band: strong
-  score_composite: 62.8
   shared: 1
 - slug: amazon-kms
   name: Amazon KMS
   description: AWS Key Management Service (KMS) is a managed service that makes it easy to create and control the cryptographic keys used to protect your data, integrated with other AWS services to simplify encryption of data stored and managed in those services.
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 62.5
+  shared: 1
+- slug: evervault
+  name: Evervault
+  description: Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption keys on Evervault's side while customers hold the ciphertext,…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.2
   shared: 1
 - slug: amazon-certificate-manager
   name: Amazon Certificate Manager
@@ -39,9 +39,9 @@ providers:
 - slug: ironcore-labs
   name: IronCore Labs
   description: IronCore Labs builds application-layer encryption tools that keep sensitive data private while it stays usable. Its products include SaaS Shield (tenant-controlled envelope encryption with customer-managed keys / BYOK for multi-tenant SaaS), Cloaked Search (a transparent encrypting proxy for Elasti…
-  api_count: 5
+  api_count: 1
   score_band: developing
-  score_composite: 53.8
+  score_composite: 53.3
   shared: 1
 - slug: openbao
   name: OpenBao
@@ -53,30 +53,30 @@ providers:
 - slug: virtru
   name: Virtru
   description: Virtru is a data-centric security company whose Data Security Platform is built on OpenTDF, the open Trusted Data Format. Applications encrypt data with attribute-based access control (ABAC) and enforce who can decrypt it through Key Access Servers (KAS), independent of where the data travels — ema…
-  api_count: 14
+  api_count: 15
   score_band: developing
   score_composite: 49.5
   shared: 1
 - slug: google-cloud-kms
   name: Google Cloud KMS
   description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symmetric and asymmetric keys for securing data and workloads.
-  api_count: 3
+  api_count: 1
   score_band: developing
-  score_composite: 46.9
-  shared: 1
-- slug: signal
-  name: Signal
-  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
-  api_count: 14
-  score_band: developing
-  score_composite: 42.8
+  score_composite: 46.4
   shared: 1
 - slug: fortanix
   name: Fortanix
   description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, HSM, tokenization and secrets service delivered as SaaS or as…
-  api_count: 51
+  api_count: 3
   score_band: developing
-  score_composite: 42.1
+  score_composite: 43.0
+  shared: 1
+- slug: signal
+  name: Signal
+  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.2
   shared: 1
 - slug: spideroak
   name: SpiderOak
@@ -99,13 +99,6 @@ providers:
   score_band: developing
   score_composite: 41.5
   shared: 1
-- slug: infisical
-  name: Infisical
-  description: Infisical is an open-source secrets management platform that provides developers with a centralized, end-to-end encrypted vault for storing, syncing, and rotating secrets across teams, environments, and cloud infrastructure. The platform offers a REST API enabling programmatic management of secrets…
-  api_count: 73
-  score_band: developing
-  score_composite: 41.3
-  shared: 1
 - slug: skyflow
   name: Skyflow
   description: Skyflow is a data privacy vault platform that lets companies isolate, protect, and govern sensitive customer data (PII, PCI, PHI) and secrets in a zero-trust vault, then use it safely through tokenization, encryption, polymorphic de-identification, and fine-grained data governance. Developers integ…
@@ -119,6 +112,13 @@ providers:
   api_count: 9
   score_band: developing
   score_composite: 40.9
+  shared: 1
+- slug: infisical
+  name: Infisical
+  description: Infisical is an open-source secrets management platform that provides developers with a centralized, end-to-end encrypted vault for storing, syncing, and rotating secrets across teams, environments, and cloud infrastructure. The platform offers a REST API enabling programmatic management of secrets…
+  api_count: 1
+  score_band: developing
+  score_composite: 40.8
   shared: 1
 - slug: incountry
   name: InCountry
@@ -134,13 +134,6 @@ providers:
   score_band: developing
   score_composite: 39.6
   shared: 1
-- slug: blindinsight
-  name: BlindInsight
-  description: BlindInsight (Blind Insight) is an end-to-end encrypted datastore and privacy-preserving data-analysis platform. It lets teams encrypt, ingest, search, and run machine learning and LLM queries over fully encrypted records without ever exposing plaintext, using a locally deployed Blind Proxy that tr…
-  api_count: 19
-  score_band: thin
-  score_composite: 39.2
-  shared: 1
 - slug: xmtp
   name: XMTP
   description: XMTP (Extensible Message Transport Protocol) is a decentralized, open messaging protocol that enables end-to-end encrypted communication between Ethereum wallet addresses and other decentralized identifiers. Built on MLS (Messaging Layer Security), XMTP provides developer SDKs and a gRPC-based netw…
@@ -148,12 +141,19 @@ providers:
   score_band: thin
   score_composite: 38.8
   shared: 1
+- slug: blindinsight
+  name: BlindInsight
+  description: BlindInsight (Blind Insight) is an end-to-end encrypted datastore and privacy-preserving data-analysis platform. It lets teams encrypt, ingest, search, and run machine learning and LLM queries over fully encrypted records without ever exposing plaintext, using a locally deployed Blind Proxy that tr…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.7
+  shared: 1
 - slug: hashicorp-vault
   name: HashiCorp Vault
   description: HashiCorp Vault is a secrets management tool that provides secure storage, access control, and distribution of tokens, passwords, certificates, and encryption keys. It provides a unified interface to any secret while providing tight access control and recording a detailed audit log.
-  api_count: 9
+  api_count: 1
   score_band: thin
-  score_composite: 38.2
+  score_composite: 37.6
   shared: 1
 - slug: preveil
   name: PreVeil
@@ -179,7 +179,7 @@ providers:
 - slug: hvault
   name: HashiCorp Vault
   description: HashiCorp Vault secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets in modern computing. Vault handles leasing, key revocation, key rolling, and auditing. Through a unified API, users can access an encrypted Key/Value store and network encryp…
-  api_count: 28
+  api_count: 4
   score_band: thin
   score_composite: 31.9
   shared: 1
@@ -231,7 +231,7 @@ related:
 overview: 'Encryption is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [encryption.apievangelist.com](https://encryption.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Paubox, Evervault, Amazon KMS, Amazon Certificate Manager, IronCore Labs, OpenBao, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Paubox, Amazon KMS, Evervault, Amazon Certificate Manager, IronCore Labs, OpenBao, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Security, Bots, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

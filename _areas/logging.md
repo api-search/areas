@@ -11,16 +11,16 @@ providers:
 - slug: highlight-io
   name: Highlight (highlight.io)
   description: Highlight (highlight.io) is the open-source, full-stack monitoring platform — session replay, error monitoring, logging, distributed tracing, and metrics in a single tool. Built on OpenTelemetry, rrweb, and ClickHouse, Highlight correlates server-side spans and logs back to the originating browser…
-  api_count: 8
+  api_count: 5
   score_band: exemplar
   score_composite: 66.8
   shared: 1
 - slug: hyperdx
   name: HyperDX
   description: HyperDX is an open-source observability platform that unifies logs, metrics, traces, session replay and errors on top of ClickHouse and OpenTelemetry, giving engineers one place to search raw events, correlate a log line to its trace and that span to a session replay, build dashboards and run thres…
-  api_count: 11
+  api_count: 1
   score_band: strong
-  score_composite: 66.3
+  score_composite: 65.7
   shared: 1
 - slug: logz-io
   name: Logz.io
@@ -32,58 +32,58 @@ providers:
 - slug: elk-stack
   name: Elastic Stack (ELK Stack)
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
-  api_count: 132
+  api_count: 3
   score_band: strong
-  score_composite: 63.3
-  shared: 1
-- slug: fastly
-  name: Fastly
-  description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
-  api_count: 80
-  score_band: strong
-  score_composite: 60.6
-  shared: 1
-- slug: splunk-observability
-  name: Splunk Observability Cloud
-  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
-  api_count: 49
-  score_band: strong
-  score_composite: 58.7
-  shared: 1
-- slug: elastic-observability
-  name: Elastic Observability
-  description: 'Elastic Observability is Elastic''s unified logs, metrics, traces and profiling solution, built on the Elastic Stack. Its published machine-readable contract is the Observability Intake API served by APM Server: a newline-delimited JSON event intake for Elastic APM agents, a central agent-configurat…'
-  api_count: 5
-  score_band: strong
-  score_composite: 57.5
+  score_composite: 65.1
   shared: 1
 - slug: grafana-loki
   name: Grafana Loki
   description: Grafana Loki is Grafana Labs' open source log aggregation system — "like Prometheus, but for logs." Rather than full-text indexing log contents, Loki indexes only a small set of labels per log stream and stores the compressed lines in object storage, which is what makes it cheap to run at scale. It…
   api_count: 3
   score_band: strong
-  score_composite: 56.8
+  score_composite: 63.5
   shared: 1
-- slug: lightrun
-  name: Lightrun
-  description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
-  api_count: 20
+- slug: fastly
+  name: Fastly
+  description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
+  api_count: 22
   score_band: strong
-  score_composite: 54.6
+  score_composite: 60.6
   shared: 1
-- slug: edge-delta
-  name: Edge Delta
-  description: Edge Delta is an AI-powered observability platform that pairs enterprise-grade telemetry pipelines with agentic AI Teammates for SRE, security, and DevOps teams. Its intelligent pipelines control and route logs, metrics, traces, and events from any source to any destination with in-stream reduction…
-  api_count: 19
-  score_band: developing
-  score_composite: 52.4
+- slug: splunk-observability
+  name: Splunk Observability Cloud
+  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
+  api_count: 48
+  score_band: strong
+  score_composite: 58.7
+  shared: 1
+- slug: elastic-observability
+  name: Elastic Observability
+  description: 'Elastic Observability is Elastic''s unified logs, metrics, traces and profiling solution, built on the Elastic Stack. Its published machine-readable contract is the Observability Intake API served by APM Server: a newline-delimited JSON event intake for Elastic APM agents, a central agent-configurat…'
+  api_count: 1
+  score_band: strong
+  score_composite: 57.0
   shared: 1
 - slug: azure-log-analytics
   name: Azure Log Analytics
   description: Azure Log Analytics is a service that helps you collect and analyze data generated by resources in your cloud and on-premises environments, providing query, management, and data collection APIs for monitoring and analytics.
   api_count: 5
+  score_band: strong
+  score_composite: 56.3
+  shared: 1
+- slug: lightrun
+  name: Lightrun
+  description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
+  api_count: 1
   score_band: developing
-  score_composite: 51.4
+  score_composite: 54.1
+  shared: 1
+- slug: edge-delta
+  name: Edge Delta
+  description: Edge Delta is an AI-powered observability platform that pairs enterprise-grade telemetry pipelines with agentic AI Teammates for SRE, security, and DevOps teams. Its intelligent pipelines control and route logs, metrics, traces, and events from any source to any destination with in-stream reduction…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.9
   shared: 1
 - slug: bitdrift
   name: bitdrift
@@ -95,30 +95,30 @@ providers:
 - slug: google-cloud-logging
   name: Google Cloud Logging
   description: Google Cloud Logging is a fully-managed service that performs at scale and can ingest application and system log data from thousands of VMs. Allows you to search, monitor, and analyze log data and events from Google Cloud and AWS.
-  api_count: 9
+  api_count: 1
   score_band: developing
-  score_composite: 50.3
-  shared: 1
-- slug: splunk
-  name: Splunk
-  description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.
-  api_count: 14
-  score_band: developing
-  score_composite: 49.7
+  score_composite: 49.8
   shared: 1
 - slug: codag
   name: Codag
   description: Codag is a Y Combinator (Summer 2026) developer-tools company building drop-in log compression for AI agents. It takes oversized infrastructure logs — from Kubernetes, Docker, AWS CloudWatch, Vercel, Railway, Datadog, Sentry, syslog and unstructured sources — and returns only the lines that matter…
-  api_count: 19
+  api_count: 1
   score_band: developing
-  score_composite: 48.7
+  score_composite: 48.2
   shared: 1
 - slug: chronosphere
   name: Chronosphere
   description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
-  api_count: 35
+  api_count: 3
   score_band: developing
   score_composite: 47.9
+  shared: 1
+- slug: splunk
+  name: Splunk
+  description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.
+  api_count: 1
+  score_band: developing
+  score_composite: 46.7
   shared: 1
 - slug: axiom
   name: Axiom
@@ -130,51 +130,58 @@ providers:
 - slug: google-cloud-operations-suite
   name: Google Cloud Operations Suite
   description: Google Cloud Operations Suite (formerly Stackdriver) provides integrated monitoring, logging, and diagnostics for applications and infrastructure running on Google Cloud. It encompasses Cloud Monitoring, Cloud Logging, Cloud Trace, Cloud Profiler, and Error Reporting to deliver comprehensive observ…
-  api_count: 3
+  api_count: 1
   score_band: developing
-  score_composite: 45.6
-  shared: 1
-- slug: sumo-logic
-  name: Sumo Logic
-  description: Sumo Logic is a cloud-native, machine data analytics platform delivering real-time, continuous intelligence for operations, security, and business insights. It provides a comprehensive REST API with 289 endpoints spanning log analytics, dashboards, monitors, roles, users, metrics, traces, and more.
-  api_count: 61
-  score_band: developing
-  score_composite: 45.3
+  score_composite: 45.0
   shared: 1
 - slug: glitchtip
   name: GlitchTip
   description: GlitchTip is an open-source error tracking and performance monitoring platform compatible with Sentry SDKs. It provides a REST API for managing errors, issues, projects, organizations, and teams, along with uptime monitoring and application performance insights. Available as a hosted SaaS service o…
-  api_count: 20
+  api_count: 1
   score_band: developing
-  score_composite: 44.3
+  score_composite: 43.7
   shared: 1
 - slug: opentelemetry
   name: OpenTelemetry
   description: Vendor-neutral open-source observability framework for cloud-native software, providing a collection of tools, APIs, and SDKs for instrumenting, generating, collecting, and exporting telemetry data including metrics, logs, and traces.
-  api_count: 6
+  api_count: 1
   score_band: developing
-  score_composite: 44.0
+  score_composite: 43.5
+  shared: 1
+- slug: fluentd
+  name: Fluentd
+  description: Open source data collector for unified logging layer that allows you to unify data collection and consumption for better use and understanding of data.
+  api_count: 1
+  score_band: developing
+  score_composite: 42.9
+  shared: 1
+- slug: sumo-logic
+  name: Sumo Logic
+  description: Sumo Logic is a cloud-native, machine data analytics platform delivering real-time, continuous intelligence for operations, security, and business insights. It provides a comprehensive REST API with 289 endpoints spanning log analytics, dashboards, monitors, roles, users, metrics, traces, and more.
+  api_count: 1
+  score_band: developing
+  score_composite: 42.9
   shared: 1
 - slug: superlog
   name: Superlog
   description: Superlog is an AI-native, open-core observability platform (Y Combinator, Spring 2026) that ingests OpenTelemetry traces, logs, and metrics over OTLP, groups noisy signals into incidents, and dispatches AI agents to investigate root causes and open fix pull requests automatically. It offers a Manag…
-  api_count: 4
+  api_count: 1
   score_band: developing
-  score_composite: 43.5
+  score_composite: 42.9
   shared: 1
 - slug: log10
   name: Log10
   description: Log10 is an LLMOps platform that provides REST API and SDK capabilities for capturing, logging, and managing LLM completions across major providers such as OpenAI, Anthropic, Google Gemini, Mistral, and Meta Llama. The platform enables engineering teams to debug prompt chains, run automated evaluat…
-  api_count: 6
+  api_count: 1
   score_band: developing
-  score_composite: 42.0
+  score_composite: 41.4
   shared: 1
 - slug: memfault
   name: Memfault
   description: Memfault is a device observability and reliability platform for connected products built on MCUs, embedded Linux, and Android. The Memfault Cloud ingests device data (coredumps, logs, metrics, reboots) and provides issue grouping, alerting, charting, fleet analytics, and over-the-air firmware updat…
-  api_count: 20
+  api_count: 1
   score_band: developing
-  score_composite: 41.1
+  score_composite: 40.6
   shared: 1
 - slug: axiom-controller
   name: Axiom Controller
@@ -183,26 +190,26 @@ providers:
   score_band: thin
   score_composite: 38.8
   shared: 1
-- slug: fluentd
-  name: Fluentd
-  description: Open source data collector for unified logging layer that allows you to unify data collection and consumption for better use and understanding of data.
-  api_count: 3
-  score_band: thin
-  score_composite: 37.1
-  shared: 1
 - slug: calyptia
   name: Calyptia
   description: Calyptia builds Calyptia Cloud (Telemetry Pipeline) and Calyptia Core, a commercial management plane for Fluent Bit — the widely deployed open-source agent and processor for logs, metrics and traces. The Calyptia Cloud API lets teams create and operate core instances, telemetry pipelines, agent fle…
-  api_count: 41
+  api_count: 1
   score_band: thin
-  score_composite: 35.3
+  score_composite: 34.7
   shared: 1
 - slug: kibana
   name: Kibana
   description: Kibana is an open-source data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence. Kibana provides histograms, line graphs, pie charts, heat maps, geospatial visualizations, dashboards, alerting, and management of saved obj…
-  api_count: 60
+  api_count: 1
   score_band: thin
-  score_composite: 34.9
+  score_composite: 34.4
+  shared: 1
+- slug: fluent-bit
+  name: Fluent Bit
+  description: Fluent Bit is an open source lightweight log processor and forwarder for collecting, parsing, and routing logs and metrics at scale. It exposes an embedded HTTP monitoring server with v1 and v2 endpoints for build info, uptime, internal metrics (JSON, Prometheus, cmetrics), storage stats, health ch…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.3
   shared: 1
 - slug: loggly
   name: Loggly
@@ -211,20 +218,13 @@ providers:
   score_band: thin
   score_composite: 34.2
   shared: 1
-- slug: logrocket
-  name: LogRocket
-  description: LogRocket is a session replay, product analytics, and frontend monitoring platform that captures user sessions, errors, and performance data.
-  api_count: 4
-  score_band: thin
-  score_composite: 33.9
-  shared: 1
 related:
 - slug: observability
   name: Observability
-  shared: 6
+  shared: 7
 - slug: monitoring
   name: Monitoring
-  shared: 5
+  shared: 6
 - slug: aiops
   name: AIOps
   shared: 3
@@ -240,7 +240,7 @@ related:
 overview: 'Logging is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [logging.apievangelist.com](https://logging.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Highlight (highlight.io), HyperDX, Logz.io, Elastic Stack (ELK Stack), Fastly, Splunk Observability Cloud, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Highlight (highlight.io), HyperDX, Logz.io, Elastic Stack (ELK Stack), Grafana Loki, Fastly, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, Monitoring, AIOps, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

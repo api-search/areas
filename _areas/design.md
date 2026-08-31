@@ -11,23 +11,23 @@ providers:
 - slug: adobe-suite
   name: Adobe Suite
   description: 'Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation…'
-  api_count: 482
+  api_count: 70
   score_band: exemplar
-  score_composite: 69.3
+  score_composite: 69.5
   shared: 1
 - slug: canva
   name: Canva
   description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run…'
-  api_count: 30
+  api_count: 1
   score_band: exemplar
-  score_composite: 67.5
+  score_composite: 67.0
   shared: 1
 - slug: figma
   name: Figma
   description: Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.
-  api_count: 16
+  api_count: 3
   score_band: strong
-  score_composite: 63.1
+  score_composite: 59.3
   shared: 1
 - slug: zeroheight
   name: Zeroheight
@@ -39,16 +39,16 @@ providers:
 - slug: autodesk
   name: Autodesk
   description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction pr…
-  api_count: 69
+  api_count: 12
   score_band: strong
   score_composite: 57.2
   shared: 1
 - slug: budgetpixel
   name: BudgetPixel
   description: BudgetPixel is an AI creative platform offering credit-based access to 70+ generative media models for image, video, music and sound-effect generation, plus upscaling, lip sync, motion control, format conversion and content moderation. Alongside a free design-studio canvas, LoRA training and a publ…
-  api_count: 27
+  api_count: 2
   score_band: strong
-  score_composite: 57.1
+  score_composite: 56.6
   shared: 1
 - slug: thebrief
   name: TheBrief
@@ -60,44 +60,44 @@ providers:
 - slug: adobe-creative-cloud
   name: Adobe Creative Cloud
   description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
-  api_count: 24
-  score_band: strong
-  score_composite: 54.4
-  shared: 1
-- slug: onshape
-  name: Onshape
-  description: Onshape is a cloud-native computer-aided design (CAD) and product data management (PDM) platform, part of PTC, that runs entirely in a web browser with real-time collaboration, versioning, and configurations. Its public REST API (OpenAPI 3.0.1, base https://cad.onshape.com/api/v16) exposes document…
-  api_count: 42
+  api_count: 4
   score_band: developing
-  score_composite: 51.4
+  score_composite: 53.0
   shared: 1
 - slug: ceros
   name: Ceros
   description: Ceros is an experiential content platform used by marketing, design and agency teams to build interactive, no-code web content — microsites, landing pages, interactive reports, infographics, pitch decks and embeddable experiences — in a browser design studio and publish them to a CDN. Its developer…
-  api_count: 6
+  api_count: 3
   score_band: developing
   score_composite: 50.9
+  shared: 1
+- slug: onshape
+  name: Onshape
+  description: Onshape is a cloud-native computer-aided design (CAD) and product data management (PDM) platform, part of PTC, that runs entirely in a web browser with real-time collaboration, versioning, and configurations. Its public REST API (OpenAPI 3.0.1, base https://cad.onshape.com/api/v16) exposes document…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.8
   shared: 1
 - slug: adobe-creative-suite
   name: Adobe Creative Suite
   description: Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography.
-  api_count: 38
+  api_count: 4
   score_band: developing
   score_composite: 50.1
   shared: 1
 - slug: blng
   name: Blng
   description: BLNG is an AI-driven creative suite for the jewelry industry, giving jewelers, designers, brands, and retailers tools to explore, refine, and present designs fast and without compromise. Its Design product turns sketches, doodles, photos, illustrations, or text prompts into photorealistic rendering…
-  api_count: 14
+  api_count: 4
   score_band: developing
   score_composite: 48.9
   shared: 1
 - slug: 99designs
   name: 99designs
   description: 99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.…
-  api_count: 5
+  api_count: 1
   score_band: developing
-  score_composite: 47.2
+  score_composite: 46.7
   shared: 1
 - slug: google-fonts
   name: Google Fonts Developer
@@ -109,16 +109,16 @@ providers:
 - slug: adobe-illustrator
   name: Adobe Illustrator
   description: Adobe Illustrator is the industry-standard vector graphics application. Its developer platform offers scripting APIs, UXP plugins, CEP extensions, and a C++ SDK for building custom integrations and automating workflows.
-  api_count: 11
+  api_count: 1
   score_band: developing
-  score_composite: 46.3
+  score_composite: 45.7
   shared: 1
 - slug: zeplin
   name: Zeplin
   description: Zeplin is a design-to-development handoff platform that bridges the gap between designers and developers by providing a structured workspace for accessing design specs, assets, style guides, components, and annotations. The Zeplin REST API enables programmatic access to all resources within Zeplin…
-  api_count: 16
+  api_count: 1
   score_band: developing
-  score_composite: 45.4
+  score_composite: 44.9
   shared: 1
 - slug: autocad
   name: AutoCAD
@@ -137,16 +137,16 @@ providers:
 - slug: havenly
   name: Havenly
   description: Havenly is an online interior-design platform that connects clients with professional designers for virtual and in-person home-decorating services. Clients take a style quiz, match with a designer, collaborate on 3D room renderings, and shop curated furniture and decor from partner brands at exclus…
-  api_count: 11
+  api_count: 1
   score_band: thin
-  score_composite: 38.7
+  score_composite: 38.1
   shared: 1
 - slug: penpot
   name: Penpot
   description: Penpot is an open-source design and prototyping platform built for design and code collaboration, offering a self-hostable alternative to Figma. It provides a REST RPC API that enables developers to programmatically access and manage projects, files, pages, components, and design assets. Authentica…
-  api_count: 139
+  api_count: 1
   score_band: thin
-  score_composite: 36.0
+  score_composite: 35.4
   shared: 1
 - slug: kittl
   name: Kittl
@@ -162,26 +162,26 @@ providers:
   score_band: thin
   score_composite: 35.2
   shared: 1
-- slug: uml
-  name: UML
-  description: UML (Unified Modeling Language) is the standard modeling language for software architecture, system design, and technical documentation. Governed by the Object Management Group (OMG), UML defines a set of notation conventions and diagram types — class, sequence, activity, use case, state, component…
-  api_count: 3
-  score_band: thin
-  score_composite: 34.0
-  shared: 1
-- slug: recraft
-  name: Recraft
-  description: Recraft is an AI design platform offering raster and vector image generation, image editing, inpainting, background removal/generation, vectorization, upscaling, and style creation. The Recraft API is REST-based at https://external.api.recraft.ai/v1, compatible with the OpenAI Python client, and us…
-  api_count: 5
-  score_band: thin
-  score_composite: 33.6
-  shared: 1
 - slug: gamma
   name: Gamma
   description: 'Gamma (Gamma Tech, Inc.) is an AI-native productivity platform for creating presentations, documents, websites, and social posts from a prompt or from existing content. Its public Generate API lets developers programmatically produce and manage gammas: generate from scratch or from a template, poll…'
   api_count: 1
   score_band: thin
   score_composite: 33.5
+  shared: 1
+- slug: uml
+  name: UML
+  description: UML (Unified Modeling Language) is the standard modeling language for software architecture, system design, and technical documentation. Governed by the Object Management Group (OMG), UML defines a set of notation conventions and diagram types — class, sequence, activity, use case, state, component…
+  api_count: 2
+  score_band: thin
+  score_composite: 33.4
+  shared: 1
+- slug: recraft
+  name: Recraft
+  description: Recraft is an AI design platform offering raster and vector image generation, image editing, inpainting, background removal/generation, vectorization, upscaling, and style creation. The Recraft API is REST-based at https://external.api.recraft.ai/v1, compatible with the OpenAI Python client, and us…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.1
   shared: 1
 - slug: uxpin
   name: UXPin
