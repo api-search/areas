@@ -11,9 +11,9 @@ providers:
 - slug: slack
   name: Slack
   description: Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.
-  api_count: 115
+  api_count: 48
   score_band: strong
-  score_composite: 65.5
+  score_composite: 64.7
   shared: 1
 - slug: lichess
   name: Lichess
@@ -22,19 +22,19 @@ providers:
   score_band: strong
   score_composite: 58.1
   shared: 1
-- slug: telegram
-  name: Telegram
-  description: Telegram is a cloud-based instant messaging and voice-over-IP service that provides a comprehensive Bot API for developers to build bots, automate workflows, send notifications, and create interactive experiences on the Telegram platform. The platform supports text messages, media sharing, payments…
-  api_count: 10
-  score_band: developing
-  score_composite: 53.3
-  shared: 1
 - slug: zenzap
   name: ZenZap
   description: Zenzap is an AI-native work communication platform — "Work Chat Built for the AI Era" — used by teams in healthcare, hospitality, construction, food service, retail, franchise, manufacturing, and non-profit operations. It organizes work into topics (group chats / channels / conversations) carrying…
   api_count: 8
   score_band: developing
-  score_composite: 52.5
+  score_composite: 51.0
+  shared: 1
+- slug: telegram
+  name: Telegram
+  description: Telegram is a cloud-based instant messaging and voice-over-IP service that provides a comprehensive Bot API for developers to build bots, automate workflows, send notifications, and create interactive experiences on the Telegram platform. The platform supports text messages, media sharing, payments…
+  api_count: 10
+  score_band: developing
+  score_composite: 48.0
   shared: 1
 - slug: zoho-cliq
   name: Zoho Cliq
@@ -48,21 +48,28 @@ providers:
   description: 'Highrise is a mobile-first virtual world by Pocket Worlds Inc where users create avatars, hang out in social rooms, design and trade fashion items, and build custom worlds. Alongside the consumer app, Highrise operates a developer platform for creators: a WebSocket Bot API for running programmable…'
   api_count: 7
   score_band: developing
-  score_composite: 41.4
+  score_composite: 39.9
   shared: 1
 - slug: hummingbot
   name: Hummingbot
   description: 'Hummingbot is an open source Python framework, maintained by the Hummingbot Foundation, that lets traders build and run automated, high-frequency crypto trading strategies across both centralized (CEX) and decentralized (DEX) venues. The project ships several developer-facing components: the Hummin…'
   api_count: 17
   score_band: thin
-  score_composite: 37.2
+  score_composite: 36.5
   shared: 1
 - slug: microsoft-bot-framework
   name: Microsoft Bot Framework
   description: Microsoft Bot Framework provides APIs and SDKs for building conversational AI bots that work across multiple channels including Teams, Slack, and custom applications.
   api_count: 6
   score_band: thin
-  score_composite: 35.4
+  score_composite: 36.2
+  shared: 1
+- slug: renovate-bot
+  name: Renovate
+  description: Renovate is an open source automated dependency update bot maintained by Mend. It scans repositories for references to dependencies across 100+ package managers — npm, pip, poetry, Maven, Gradle, NuGet, Go modules, Cargo, Bundler, Docker, Helm, Kubernetes, Terraform, GitHub Actions and many more —…
+  api_count: 6
+  score_band: thin
+  score_composite: 35.9
   shared: 1
 - slug: alta5
   name: Alta5
@@ -99,19 +106,12 @@ providers:
   score_band: thin
   score_composite: 27.7
   shared: 1
-- slug: renovate-bot
-  name: Renovate
-  description: Renovate is an open source automated dependency update bot maintained by Mend. It scans repositories for references to dependencies across 100+ package managers — npm, pip, poetry, Maven, Gradle, NuGet, Go modules, Cargo, Bundler, Docker, Helm, Kubernetes, Terraform, GitHub Actions and many more —…
-  api_count: 6
-  score_band: thin
-  score_composite: 27.5
-  shared: 1
 - slug: kataai
   name: Kata.ai
   description: Kata.ai is an Indonesian enterprise conversational-AI company that builds AI agents and chatbots for customer experience, marketing, sales, and HR across financial services, retail, healthcare, automotive, and government. Its developer-facing Kata Platform lets teams create bot projects that bundle…
   api_count: 9
-  score_band: thin
-  score_composite: 26.2
+  score_band: emerging
+  score_composite: 24.7
   shared: 1
 - slug: liveperson
   name: LivePerson
@@ -125,7 +125,7 @@ providers:
   description: Regression Games builds AI agents and bots for video games. Its platform lets studios create bots for QA testing, multiplayer simulation, game balancing, and NPC behavior with minimal code. The Unity SDK (gg.regression.unity.bots / RGUnityBots) adds AI-driven automated playtesting, UI and screensho…
   api_count: 0
   score_band: emerging
-  score_composite: 14.8
+  score_composite: 15.6
   shared: 1
 - slug: kik
   name: Kik
@@ -141,7 +141,7 @@ related:
 overview: 'Bots is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [bots.apievangelist.com](https://bots.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Slack, Lichess, Telegram, ZenZap, Zoho Cliq, Highrise, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Slack, Lichess, ZenZap, Telegram, Zoho Cliq, Highrise, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Encryption. Browse every area at [areas.apis.io](https://apis.io/areas/).'

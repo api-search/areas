@@ -27,7 +27,7 @@ providers:
   description: APIs for managing and monitoring Dell PowerEdge servers and infrastructure, including the iDRAC Redfish out-of-band management interface, OpenManage Enterprise centralized console and its modular, power, support, and VMware integrations, telemetry streaming, the Lifecycle Controller, RACADM, and th…
   api_count: 27
   score_band: developing
-  score_composite: 50.5
+  score_composite: 51.4
   shared: 1
 - slug: snaplogic
   name: SnapLogic

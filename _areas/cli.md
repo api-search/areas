@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 111
+provider_count: 112
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -18,51 +18,44 @@ providers:
 - slug: svix
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
-  api_count: 21
+  api_count: 29
   score_band: exemplar
-  score_composite: 79.2
+  score_composite: 79.0
   shared: 1
 - slug: common-room
   name: Common Room
   description: Common Room is an AI-native go-to-market and buyer-intelligence platform that unifies first-party product, community, social, web and CRM signals into a single identity-resolved view of contacts and organizations. It exposes a v1 Core REST API for ingesting contacts and activity from your own sourc…
   api_count: 23
-  score_band: exemplar
-  score_composite: 67.7
+  score_band: strong
+  score_composite: 65.1
   shared: 1
 - slug: ploy
   name: Ploy
   description: Ploy is an AI-powered web marketing automation platform that turns a company's marketing website into a growth channel. Founded in 2025 by former Webflow CTO Bryant Chou, backed by Y Combinator and First Round Capital ($27M), Ploy runs AI agents that build and optimize Astro/Tailwind marketing site…
   api_count: 1
   score_band: strong
-  score_composite: 61.2
+  score_composite: 60.1
   shared: 1
 - slug: qfex
   name: Qfex
   description: QFEX is the first 24/7 exchange built exclusively for US equities, commodities, and FX, offering high-leverage perpetual futures on traditional assets without a broker. Founded by former Tower Research and Citadel engineers who met studying mathematics at Cambridge, QFEX gives retail and institutio…
   api_count: 5
   score_band: strong
-  score_composite: 55.8
+  score_composite: 54.4
   shared: 1
 - slug: continue-dev
   name: Continue
   description: Continue is the open-source AI code assistant for VS Code and JetBrains, distributed under Apache 2.0. The Continue IDE extensions and the Continue CLI federate to any LLM provider — Anthropic, OpenAI, Mistral, OpenRouter, Ollama, and a Continue-managed proxy — and load their configuration from Con…
   api_count: 5
   score_band: developing
-  score_composite: 51.3
+  score_composite: 52.0
   shared: 1
 - slug: plandex
   name: Plandex
   description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
   api_count: 15
   score_band: developing
-  score_composite: 50.0
-  shared: 1
-- slug: tesslio
-  name: tessl.io
-  description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing, and publishing skills and plugins, server-side quality revi…
-  api_count: 35
-  score_band: developing
-  score_composite: 47.3
+  score_composite: 47.5
   shared: 1
 - slug: mammoth-media
   name: Mammoth Media
@@ -78,13 +71,6 @@ providers:
   score_band: developing
   score_composite: 45.9
   shared: 1
-- slug: landbase
-  name: Landbase
-  description: Landbase is a Palo Alto, California go-to-market (GTM) data and agentic-AI company whose platform builds, qualifies, enriches and activates B2B audiences from natural-language requests. Its GTM-1/GTM-2 Omni models sit behind a B2B database of 300M+ contacts with 1,500+ enrichment fields, an agentic…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.4
-  shared: 1
 - slug: vlt
   name: vlt
   description: vlt (pronounced "volt") is a JavaScript package management company started by the creator of npm and former members of the npm core team, and backed by Accel. It ships the open source vlt package manager CLI, the npm-compatible vlt serverless registry (vsr) that runs on Cloudflare's edge network, a…
@@ -99,26 +85,40 @@ providers:
   score_band: developing
   score_composite: 44.7
   shared: 1
-- slug: jetify
-  name: Jetify
-  description: Jetify builds developer tooling for reproducible environments and package management, backed by the Nix ecosystem. Its open-source Devbox CLI creates instant, isolated, predictable development shells; Jetify Cloud adds team secrets management, a private Nix package cache, and deployments; Nixhub in…
-  api_count: 3
+- slug: tesslio
+  name: tessl.io
+  description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing, and publishing skills and plugins, server-side quality revi…
+  api_count: 35
   score_band: developing
   score_composite: 44.7
+  shared: 1
+- slug: landbase
+  name: Landbase
+  description: Landbase is a Palo Alto, California go-to-market (GTM) data and agentic-AI company whose platform builds, qualifies, enriches and activates B2B audiences from natural-language requests. Its GTM-1/GTM-2 Omni models sit behind a B2B database of 300M+ contacts with 1,500+ enrichment fields, an agentic…
+  api_count: 1
+  score_band: developing
+  score_composite: 44.3
   shared: 1
 - slug: stakpak
   name: StakPak
   description: Stakpak is an open-source autonomous DevOps AI agent, distributed as a single Rust binary, that runs 24/7 on your machines to keep applications running — performing health checks, auto-healing failures, monitoring cloud cost, rotating secrets, renewing certificates, and alerting teams only when hum…
   api_count: 20
   score_band: developing
-  score_composite: 44.2
+  score_composite: 43.5
   shared: 1
-- slug: terminal-use
-  name: Terminal Use
-  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
-  api_count: 28
+- slug: jetify
+  name: Jetify
+  description: Jetify builds developer tooling for reproducible environments and package management, backed by the Nix ecosystem. Its open-source Devbox CLI creates instant, isolated, predictable development shells; Jetify Cloud adds team secrets management, a private Nix package cache, and deployments; Nixhub in…
+  api_count: 3
   score_band: developing
-  score_composite: 40.3
+  score_composite: 43.2
+  shared: 1
+- slug: promptfoo
+  name: Promptfoo
+  description: Promptfoo is an open-source LLM evaluation and red-teaming framework distributed as a TypeScript CLI and Node.js library under the MIT license. Developers use it to evaluate prompts, models, and RAG pipelines side by side, run automated red team attacks against LLM applications, scan code for LLM v…
+  api_count: 6
+  score_band: developing
+  score_composite: 42.2
   shared: 1
 - slug: insomnia
   name: Insomnia
@@ -127,6 +127,13 @@ providers:
   score_band: developing
   score_composite: 40.0
   shared: 1
+- slug: terminal-use
+  name: Terminal Use
+  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
+  api_count: 28
+  score_band: thin
+  score_composite: 38.8
+  shared: 1
 - slug: nx
   name: Nx
   description: Nx is an open-source, technology-agnostic monorepo build platform from Nrwl (backed by a16z) that speeds up builds and CI through computation caching, task orchestration, and running only the projects affected by a change. Its developer surface spans a local CLI (nx) with a large family of first-pa…
@@ -134,19 +141,26 @@ providers:
   score_band: thin
   score_composite: 38.7
   shared: 1
+- slug: orval
+  name: Orval
+  description: Orval is an MIT-licensed open source code generator that turns any valid OpenAPI v3 or Swagger v2 specification into type-safe TypeScript. From one spec it emits HTTP request functions (Fetch by default, Axios optional), TanStack Query hooks for React, Vue, Svelte, Solid and Angular, SWR hooks, Ang…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.4
+  shared: 1
 - slug: kiota
   name: Kiota
   description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the need to take a dependency on a different hand-written SDK f…'
   api_count: 1
   score_band: thin
-  score_composite: 38.5
+  score_composite: 38.1
   shared: 1
 - slug: qumulo
   name: Qumulo
   description: Qumulo is an enterprise data platform company that delivers a single, unified file and object storage system spanning on-premises data centers, the edge, and the public cloud (AWS, Azure, GCP) at exabyte scale. Every Qumulo cluster exposes a comprehensive versioned REST API (v1/v2/v3+) and the comp…
   api_count: 1
   score_band: thin
-  score_composite: 38.4
+  score_composite: 38.0
   shared: 1
 - slug: digger
   name: Digger
@@ -160,7 +174,7 @@ providers:
   description: AWS CloudShell is a browser-based terminal that enables users to manage and explore AWS resources directly from the AWS Management Console. Pre-authenticated, pre-installed with AWS CLI and dev tools, with 1 GB of persistent storage per region.
   api_count: 1
   score_band: thin
-  score_composite: 37.5
+  score_composite: 36.4
   shared: 1
 - slug: formspree
   name: Formspree
@@ -176,19 +190,12 @@ providers:
   score_band: thin
   score_composite: 36.1
   shared: 1
-- slug: promptfoo
-  name: Promptfoo
-  description: Promptfoo is an open-source LLM evaluation and red-teaming framework distributed as a TypeScript CLI and Node.js library under the MIT license. Developers use it to evaluate prompts, models, and RAG pipelines side by side, run automated red team attacks against LLM applications, scan code for LLM v…
-  api_count: 6
-  score_band: thin
-  score_composite: 34.6
-  shared: 1
 - slug: plakar
   name: Plakar
   description: Plakar is an open-source, end-to-end encrypted, deduplicated backup and restore platform powered by Kloset, an immutable data store engine. It encrypts and deduplicates data at the source before it leaves your system (encryption keys stay in your own secret manager), stores it in a non-proprietary…
   api_count: 0
   score_band: thin
-  score_composite: 34.1
+  score_composite: 34.8
   shared: 1
 - slug: httpie
   name: HTTPie
@@ -203,13 +210,6 @@ providers:
   api_count: 0
   score_band: thin
   score_composite: 32.4
-  shared: 1
-- slug: orval
-  name: Orval
-  description: Orval is an MIT-licensed open source code generator that turns any valid OpenAPI v3 or Swagger v2 specification into type-safe TypeScript. From one spec it emits HTTP request functions (Fetch by default, Axios optional), TanStack Query hooks for React, Vue, Svelte, Solid and Angular, SWR hooks, Ang…
-  api_count: 1
-  score_band: thin
-  score_composite: 31.6
   shared: 1
 - slug: serverless
   name: Serverless

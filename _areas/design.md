@@ -6,35 +6,49 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://design.apievangelist.com
 area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
-provider_count: 92
+provider_count: 94
 providers:
 - slug: adobe-suite
   name: Adobe Suite
   description: 'Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation…'
-  api_count: 32
+  api_count: 482
   score_band: exemplar
-  score_composite: 72.6
+  score_composite: 69.3
   shared: 1
 - slug: canva
   name: Canva
   description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run…'
-  api_count: 15
+  api_count: 30
   score_band: exemplar
-  score_composite: 69.5
+  score_composite: 67.5
   shared: 1
 - slug: figma
   name: Figma
   description: Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.
   api_count: 16
   score_band: strong
-  score_composite: 65.7
+  score_composite: 63.1
+  shared: 1
+- slug: zeroheight
+  name: Zeroheight
+  description: 'zeroheight is a design system platform where teams document components, patterns, guidelines and design tokens in a styleguide, then deliver that documentation to designers, engineers and AI agents. It exposes two machine surfaces: a small key-authenticated REST API (https://zeroheight.com/open_api…'
+  api_count: 2
+  score_band: strong
+  score_composite: 57.3
   shared: 1
 - slug: autodesk
   name: Autodesk
   description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction pr…
   api_count: 69
   score_band: strong
-  score_composite: 61.6
+  score_composite: 57.2
+  shared: 1
+- slug: budgetpixel
+  name: BudgetPixel
+  description: BudgetPixel is an AI creative platform offering credit-based access to 70+ generative media models for image, video, music and sound-effect generation, plus upscaling, lip sync, motion control, format conversion and content moderation. Alongside a free design-studio canvas, LoRA training and a publ…
+  api_count: 27
+  score_band: strong
+  score_composite: 57.1
   shared: 1
 - slug: thebrief
   name: TheBrief
@@ -47,29 +61,22 @@ providers:
   name: Adobe Creative Cloud
   description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
   api_count: 24
-  score_band: developing
-  score_composite: 53.5
+  score_band: strong
+  score_composite: 54.4
   shared: 1
 - slug: onshape
   name: Onshape
   description: Onshape is a cloud-native computer-aided design (CAD) and product data management (PDM) platform, part of PTC, that runs entirely in a web browser with real-time collaboration, versioning, and configurations. Its public REST API (OpenAPI 3.0.1, base https://cad.onshape.com/api/v16) exposes document…
   api_count: 42
   score_band: developing
-  score_composite: 52.9
+  score_composite: 51.4
   shared: 1
 - slug: ceros
   name: Ceros
   description: Ceros is an experiential content platform used by marketing, design and agency teams to build interactive, no-code web content — microsites, landing pages, interactive reports, infographics, pitch decks and embeddable experiences — in a browser design studio and publish them to a CDN. Its developer…
   api_count: 6
   score_band: developing
-  score_composite: 52.4
-  shared: 1
-- slug: blng
-  name: Blng
-  description: BLNG is an AI-driven creative suite for the jewelry industry, giving jewelers, designers, brands, and retailers tools to explore, refine, and present designs fast and without compromise. Its Design product turns sketches, doodles, photos, illustrations, or text prompts into photorealistic rendering…
-  api_count: 3
-  score_band: developing
-  score_composite: 50.5
+  score_composite: 50.9
   shared: 1
 - slug: adobe-creative-suite
   name: Adobe Creative Suite
@@ -78,12 +85,19 @@ providers:
   score_band: developing
   score_composite: 50.1
   shared: 1
+- slug: blng
+  name: Blng
+  description: BLNG is an AI-driven creative suite for the jewelry industry, giving jewelers, designers, brands, and retailers tools to explore, refine, and present designs fast and without compromise. Its Design product turns sketches, doodles, photos, illustrations, or text prompts into photorealistic rendering…
+  api_count: 14
+  score_band: developing
+  score_composite: 48.9
+  shared: 1
 - slug: 99designs
   name: 99designs
   description: 99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.…
   api_count: 5
   score_band: developing
-  score_composite: 49.8
+  score_composite: 47.2
   shared: 1
 - slug: google-fonts
   name: Google Fonts Developer
@@ -99,13 +113,6 @@ providers:
   score_band: developing
   score_composite: 46.3
   shared: 1
-- slug: napkin
-  name: Napkin
-  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
-  api_count: 1
-  score_band: developing
-  score_composite: 46.3
-  shared: 1
 - slug: zeplin
   name: Zeplin
   description: Zeplin is a design-to-development handoff platform that bridges the gap between designers and developers by providing a structured workspace for accessing design specs, assets, style guides, components, and annotations. The Zeplin REST API enables programmatic access to all resources within Zeplin…
@@ -118,21 +125,28 @@ providers:
   description: APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities through Autodesk Platform Services (APS, formerly Forge) and desktop development environments including AutoLISP, ObjectARX, .NET, and JavaScript.
   api_count: 6
   score_band: developing
-  score_composite: 45.0
+  score_composite: 43.9
+  shared: 1
+- slug: napkin
+  name: Napkin
+  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
+  api_count: 1
+  score_band: developing
+  score_composite: 43.8
   shared: 1
 - slug: havenly
   name: Havenly
   description: Havenly is an online interior-design platform that connects clients with professional designers for virtual and in-person home-decorating services. Clients take a style quiz, match with a designer, collaborate on 3D room renderings, and shop curated furniture and decor from partner brands at exclus…
   api_count: 11
-  score_band: developing
-  score_composite: 40.1
-  shared: 1
-- slug: tdaycom
-  name: Tdaycom
-  description: tday (tday.com) is a Y Combinator-backed (Spring 2026) AI platform, operated by Altacomm Technologies Pty. Ltd. of Adelaide, South Australia, that turns what a software team ships into on-brand creative. It connects to a company's GitHub repository or drives a live site through the browser like a u…
-  api_count: 1
   score_band: thin
-  score_composite: 35.6
+  score_composite: 38.7
+  shared: 1
+- slug: penpot
+  name: Penpot
+  description: Penpot is an open-source design and prototyping platform built for design and code collaboration, offering a self-hostable alternative to Figma. It provides a REST RPC API that enables developers to programmatically access and manage projects, files, pages, components, and design assets. Authentica…
+  api_count: 139
+  score_band: thin
+  score_composite: 36.0
   shared: 1
 - slug: kittl
   name: Kittl
@@ -141,40 +155,19 @@ providers:
   score_band: thin
   score_composite: 35.2
   shared: 1
-- slug: gamma
-  name: Gamma
-  description: 'Gamma (Gamma Tech, Inc.) is an AI-native productivity platform for creating presentations, documents, websites, and social posts from a prompt or from existing content. Its public Generate API lets developers programmatically produce and manage gammas: generate from scratch or from a template, poll…'
+- slug: tdaycom
+  name: Tdaycom
+  description: tday (tday.com) is a Y Combinator-backed (Spring 2026) AI platform, operated by Altacomm Technologies Pty. Ltd. of Adelaide, South Australia, that turns what a software team ships into on-brand creative. It connects to a company's GitHub repository or drives a live site through the browser like a u…
   api_count: 1
   score_band: thin
-  score_composite: 34.6
-  shared: 1
-- slug: napkinai
-  name: Napkin.AI
-  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, mind maps, icons, and infographics — and into full presentations, with no prompting or design skill required. Two products share the same text-to-visual engine: Napkin Visuals (standalone diagrams and graphics, exportabl…'
-  api_count: 1
-  score_band: thin
-  score_composite: 34.5
+  score_composite: 35.2
   shared: 1
 - slug: uml
   name: UML
   description: UML (Unified Modeling Language) is the standard modeling language for software architecture, system design, and technical documentation. Governed by the Object Management Group (OMG), UML defines a set of notation conventions and diagram types — class, sequence, activity, use case, state, component…
   api_count: 3
   score_band: thin
-  score_composite: 34.2
-  shared: 1
-- slug: uxpin
-  name: UXPin
-  description: UXPin is an AI-powered, code-based design and prototyping platform where designers work with real production React components instead of vector approximations. Its Merge technology syncs a team's design system from Git or Storybook onto the design canvas, its Forge AI assistant generates and iterat…
-  api_count: 0
-  score_band: thin
-  score_composite: 34.2
-  shared: 1
-- slug: penpot
-  name: Penpot
-  description: Penpot is an open-source design and prototyping platform built for design and code collaboration, offering a self-hostable alternative to Figma. It provides a REST RPC API that enables developers to programmatically access and manage projects, files, pages, components, and design assets. Authentica…
-  api_count: 139
-  score_band: thin
-  score_composite: 34.1
+  score_composite: 34.0
   shared: 1
 - slug: recraft
   name: Recraft
@@ -183,12 +176,26 @@ providers:
   score_band: thin
   score_composite: 33.6
   shared: 1
+- slug: gamma
+  name: Gamma
+  description: 'Gamma (Gamma Tech, Inc.) is an AI-native productivity platform for creating presentations, documents, websites, and social posts from a prompt or from existing content. Its public Generate API lets developers programmatically produce and manage gammas: generate from scratch or from a template, poll…'
+  api_count: 1
+  score_band: thin
+  score_composite: 33.5
+  shared: 1
+- slug: uxpin
+  name: UXPin
+  description: UXPin is an AI-powered, code-based design and prototyping platform where designers work with real production React components instead of vector approximations. Its Merge technology syncs a team's design system from Git or Storybook onto the design canvas, its Forge AI assistant generates and iterat…
+  api_count: 0
+  score_band: thin
+  score_composite: 33.1
+  shared: 1
 - slug: apple-keynote
   name: Apple Keynote
   description: Apple Keynote is a presentation software application developed by Apple Inc. as part of the iWork productivity suite, available on macOS, iOS, iPadOS, and the web via iCloud. It enables creating visually rich presentations with animations, transitions, charts, and real-time collaboration. Keynote s…
   api_count: 7
   score_band: thin
-  score_composite: 32.7
+  score_composite: 32.8
   shared: 1
 - slug: superside
   name: Superside
@@ -197,26 +204,19 @@ providers:
   score_band: thin
   score_composite: 32.3
   shared: 1
+- slug: napkinai
+  name: Napkin.AI
+  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, mind maps, icons, and infographics — and into full presentations, with no prompting or design skill required. Two products share the same text-to-visual engine: Napkin Visuals (standalone diagrams and graphics, exportabl…'
+  api_count: 1
+  score_band: thin
+  score_composite: 31.9
+  shared: 1
 - slug: paperless-post
   name: Paperless Post
   description: Paperless Post is a New York City based digital and print stationery company whose platform lets people design, send, and manage online invitations, greeting cards, save-the-dates, and free Flyers for weddings, birthdays, holidays, business events, and other occasions. Founded in 2008 by siblings J…
   api_count: 1
   score_band: thin
-  score_composite: 31.3
-  shared: 1
-- slug: domestika
-  name: Domestika
-  description: Domestika is an online creative education platform that connects over 8 million creative professionals and learners with high-quality courses across illustration, design, photography, marketing, and more. The platform provides a REST API at api.domestika.org that powers its web and mobile applicati…
-  api_count: 1
-  score_band: thin
-  score_composite: 28.2
-  shared: 1
-- slug: abstract
-  name: Abstract
-  description: Abstract is a design version control and collaboration platform that brings git-inspired branching, merging, and change history to design teams. It provides a REST API and JavaScript SDK for managing projects, branches, commits, files, collections, and design component libraries across teams, integ…
-  api_count: 1
-  score_band: thin
-  score_composite: 27.9
+  score_composite: 30.2
   shared: 1
 related:
 - slug: ai-automation
@@ -228,14 +228,17 @@ related:
 - slug: developer-experience
   name: Developer Experience
   shared: 1
+- slug: documentation
+  name: Documentation
+  shared: 1
 - slug: sdk
   name: SDKs
   shared: 1
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Adobe Suite, Canva, Figma, Autodesk, TheBrief, Adobe Creative Cloud, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Adobe Suite, Canva, Figma, Zeroheight, Autodesk, BudgetPixel, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: AI Automation, Visualization, Developer Experience, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: AI Automation, Visualization, Developer Experience, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

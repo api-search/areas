@@ -12,8 +12,8 @@ providers:
   name: SilverStripe
   description: SilverStripe is an open-source PHP content management system and framework with a GraphQL and REST API for managing pages, assets, versioning, and custom data objects. It powers 50,000+ live sites and provides a flexible, extensible platform for developers to build content-driven web applications w…
   api_count: 2
-  score_band: thin
-  score_composite: 37.6
+  score_band: developing
+  score_composite: 40.4
   shared: 1
 - slug: dvc
   name: DVC

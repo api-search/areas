@@ -13,14 +13,14 @@ providers:
   description: NVIDIA NIM (NVIDIA Inference Microservices) is a catalog of GPU-accelerated, containerized AI inference microservices that package optimized model engines (TensorRT-LLM, vLLM, SGLang, Triton) behind industry-standard OpenAI-compatible REST APIs. NIM covers large language models, embeddings and rera…
   api_count: 11
   score_band: exemplar
-  score_composite: 71.2
+  score_composite: 69.8
   shared: 1
 - slug: apigee
   name: Apigee
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 40
   score_band: strong
-  score_composite: 62.9
+  score_composite: 63.6
   shared: 1
 - slug: amazon-sqs
   name: Amazon SQS
@@ -34,28 +34,28 @@ providers:
   description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
   api_count: 5
   score_band: strong
-  score_composite: 58.1
+  score_composite: 58.9
   shared: 1
 - slug: encore-dev
   name: Encore
   description: Encore is a backend application framework and developer cloud that lets engineering teams build type-safe distributed systems in TypeScript (Encore.ts) and Go (Encore.go) using declarative Infrastructure from Code. Developers describe APIs, databases, Pub/Sub, object storage, caches, cron jobs, and…
   api_count: 6
   score_band: strong
-  score_composite: 55.8
+  score_composite: 55.9
   shared: 1
 - slug: websphere
   name: IBM WebSphere
   description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
   api_count: 35
   score_band: strong
-  score_composite: 55.6
+  score_composite: 55.7
   shared: 1
 - slug: signadot
   name: Signadot
   description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
   api_count: 5
-  score_band: strong
-  score_composite: 55.5
+  score_band: developing
+  score_composite: 54.1
   shared: 1
 - slug: aws-app-mesh
   name: AWS App Mesh
@@ -76,7 +76,7 @@ providers:
   description: Poly, built using cutting-edge AI and Kubernetes-native technology, accelerates development and simplifies the operation of integrations, orchestrations, and microservices with TypeScript, Python, Java, and C.
   api_count: 10
   score_band: developing
-  score_composite: 50.6
+  score_composite: 51.3
   shared: 1
 - slug: aws-x-ray
   name: AWS X-Ray
@@ -99,20 +99,6 @@ providers:
   score_band: developing
   score_composite: 49.1
   shared: 1
-- slug: amazon-app-mesh
-  name: Amazon App Mesh
-  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
-  api_count: 4
-  score_band: developing
-  score_composite: 48.3
-  shared: 1
-- slug: spring
-  name: Spring Framework
-  description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, messaging, cloud-native patterns, and AI integrations. Spring B…
-  api_count: 14
-  score_band: developing
-  score_composite: 47.0
-  shared: 1
 - slug: lumigo
   name: Lumigo
   description: Lumigo is an observability and troubleshooting platform for microservices and serverless environments. It provides distributed tracing, logs, and metrics with automatic, no-code instrumentation for AWS Lambda, Amazon ECS, AWS AppSync, API Gateway, Kubernetes, and OpenTelemetry workloads. Lumigo cap…
@@ -120,12 +106,19 @@ providers:
   score_band: developing
   score_composite: 46.6
   shared: 1
-- slug: amazon-vpc-lattice
-  name: Amazon VPC Lattice
-  description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
-  api_count: 73
+- slug: spring
+  name: Spring Framework
+  description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, messaging, cloud-native patterns, and AI integrations. Spring B…
+  api_count: 17
   score_band: developing
-  score_composite: 45.6
+  score_composite: 46.4
+  shared: 1
+- slug: amazon-app-mesh
+  name: Amazon App Mesh
+  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
+  api_count: 4
+  score_band: developing
+  score_composite: 45.7
   shared: 1
 - slug: apollo-config
   name: Apollo Config
@@ -141,26 +134,26 @@ providers:
   score_band: developing
   score_composite: 45.5
   shared: 1
-- slug: amazon-cloud-map
-  name: Amazon Cloud Map
-  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
-  api_count: 3
+- slug: webflux
+  name: Spring WebFlux
+  description: Spring WebFlux is a fully non-blocking, reactive-stack web framework built into Spring Framework 5.0+. It enables building highly scalable, asynchronous web applications using the Reactive Streams API with Project Reactor. WebFlux supports annotated controllers, functional routing endpoints, WebSoc…
+  api_count: 8
   score_band: developing
-  score_composite: 44.6
+  score_composite: 45.5
   shared: 1
 - slug: mist-ai
   name: Juniper Mist AI
   description: Juniper Mist AI is the AI-driven enterprise networking platform that powers Juniper Networks' AI-Native Networking portfolio. Acquired by Juniper Networks in 2019, Mist pioneered cloud-native, microservices Wi-Fi and extended its AIOps approach across Wired Assurance (EX/QFX switches), WAN Assuranc…
-  api_count: 211
+  api_count: 212
   score_band: developing
-  score_composite: 44.5
+  score_composite: 44.4
   shared: 1
-- slug: docker
-  name: Docker
-  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
-  api_count: 15
+- slug: amazon-vpc-lattice
+  name: Amazon VPC Lattice
+  description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
+  api_count: 73
   score_band: developing
-  score_composite: 43.7
+  score_composite: 43.8
   shared: 1
 - slug: datadog-apm
   name: Datadog APM
@@ -190,33 +183,40 @@ providers:
   score_band: developing
   score_composite: 42.3
   shared: 1
-- slug: grpc
-  name: gRPC
-  description: gRPC is a high-performance, open-source universal RPC framework that uses HTTP/2 for transport, Protocol Buffers as the interface description language, and provides features such as authentication, bidirectional streaming and flow control, blocking or nonblocking bindings, and cancellation and time…
-  api_count: 7
+- slug: zipkin
+  name: Zipkin
+  description: Zipkin is an open source distributed tracing system for gathering timing data to troubleshoot latency problems in microservice architectures. It was originally developed at Twitter based on the Google Dapper paper, and is now a CNCF-related project maintained by the OpenZipkin community. Zipkin pro…
+  api_count: 6
   score_band: developing
-  score_composite: 41.0
+  score_composite: 42.3
+  shared: 1
+- slug: amazon-cloud-map
+  name: Amazon Cloud Map
+  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
+  api_count: 3
+  score_band: developing
+  score_composite: 42.0
   shared: 1
 - slug: microsoft-azure-service-fabric
   name: Azure Service Fabric
   description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for distributed systems.
   api_count: 2
   score_band: developing
-  score_composite: 40.6
+  score_composite: 41.3
+  shared: 1
+- slug: docker
+  name: Docker
+  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
+  api_count: 15
+  score_band: developing
+  score_composite: 41.2
   shared: 1
 - slug: spring-boot
   name: Spring Boot
   description: Spring Boot is an open source Java-based framework used to create stand-alone, production-grade Spring-based applications with minimal configuration. It provides auto-configuration, embedded server support, opinionated defaults, and production-ready features including health checks, metrics, and ex…
   api_count: 13
   score_band: developing
-  score_composite: 40.2
-  shared: 1
-- slug: spring-cloud-config
-  name: Spring Cloud Config
-  description: Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system. It offers a central place to manage external properties for applications across all environments, backed by Git, SVN, or filesystem repositories with support for encryption, decr…
-  api_count: 4
-  score_band: developing
-  score_composite: 40.0
+  score_composite: 41.2
   shared: 1
 related:
 - slug: containers

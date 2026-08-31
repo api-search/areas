@@ -6,7 +6,7 @@ description: An index and topic collection covering data migration, cloud migrat
 area_url: https://migration.apievangelist.com
 area_host: migration.apievangelist.com
 icon: https://migration.apievangelist.com/icon-thumb.png
-provider_count: 14
+provider_count: 15
 providers:
 - slug: amazon-mainframe-modernization
   name: Amazon Mainframe Modernization
@@ -27,7 +27,7 @@ providers:
   description: Azure Migrate provides a unified platform for discovering, assessing, and migrating on-premises servers, infrastructure, applications, databases, and data to Azure. Its REST APIs enable programmatic management of migration projects, discovery, assessment, and replication workflows for VMs, database…
   api_count: 9
   score_band: developing
-  score_composite: 50.4
+  score_composite: 51.1
   shared: 1
 - slug: amazon-dms
   name: Amazon DMS
@@ -43,17 +43,17 @@ providers:
   score_band: developing
   score_composite: 44.4
   shared: 1
-- slug: import2
-  name: Import2
-  description: Import2 is a fully automated data-migration platform that moves customer data between SaaS applications — CRM, helpdesk, and project-management tools — without CSV exports or custom development. Users connect a source and destination app and Import2 moves records, custom fields, pipelines, and deal…
-  api_count: 2
-  score_band: developing
-  score_composite: 39.5
-  shared: 1
 - slug: google-cloud-transfer-service
   name: Google Cloud Transfer Service
   description: Google Cloud Storage Transfer Service enables seamless data movement across object and file storage systems, including transfers from Amazon S3, Azure Blob Storage, or Cloud Storage to Cloud Storage, and from on-premises storage to Cloud Storage. It is optimized for large-scale transfers involving…
   api_count: 3
+  score_band: thin
+  score_composite: 38.0
+  shared: 1
+- slug: import2
+  name: Import2
+  description: Import2 is a fully automated data-migration platform that moves customer data between SaaS applications — CRM, helpdesk, and project-management tools — without CSV exports or custom development. Users connect a source and destination app and Import2 moves records, custom fields, pipelines, and deal…
+  api_count: 2
   score_band: thin
   score_composite: 38.0
   shared: 1
@@ -76,14 +76,21 @@ providers:
   description: AWS Application Migration Service (MGN) is the primary migration service recommended for lift-and-shift migrations to AWS. It allows organizations to quickly realize the benefits of migrating applications to the cloud without changes and with minimal downtime.
   api_count: 10
   score_band: thin
-  score_composite: 33.3
+  score_composite: 30.7
+  shared: 1
+- slug: skykick
+  name: SkyKick
+  description: SkyKick is a Seattle-based cloud automation company whose Microsoft 365 migration, cloud backup, SaaS security and cloud automation products for managed service providers were acquired by ConnectWise in September 2024. The SkyKick brand's own domain no longer serves a website — skykick.com answers…
+  api_count: 1
+  score_band: thin
+  score_composite: 29.6
   shared: 1
 - slug: amazon-application-discovery-service
   name: Amazon Application Discovery Service
   description: Amazon Application Discovery Service helps enterprise customers plan application migration projects by automatically identifying servers, virtual machines, software, and software dependencies running in their on-premises data centers.
   api_count: 6
   score_band: emerging
-  score_composite: 24.3
+  score_composite: 21.7
   shared: 1
 - slug: calypso-migration
   name: Calypso Migration
@@ -113,11 +120,14 @@ related:
 - slug: virtualization
   name: Virtualization
   shared: 2
+- slug: database
+  name: Database
+  shared: 1
 overview: 'Migration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [migration.apievangelist.com](https://migration.apievangelist.com).
 
 
-  14 providers on the network work in this area, including Amazon Mainframe Modernization, Amazon DataSync, Azure Migrate, Amazon DMS, Google Cloud Migration Center, Import2, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  15 providers on the network work in this area, including Amazon Mainframe Modernization, Amazon DataSync, Azure Migrate, Amazon DMS, Google Cloud Migration Center, Google Cloud Transfer Service, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Evangelist Discovery and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Discovery, Virtualization, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

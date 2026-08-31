@@ -13,7 +13,7 @@ providers:
   description: Replicated is a commercial software distribution platform that lets independent software vendors (ISVs) deliver and manage modern applications into complex, customer-controlled environments — including on-prem, self-hosted, and air-gapped networks with little or no outbound internet access. The pla…
   api_count: 22
   score_band: strong
-  score_composite: 62.0
+  score_composite: 59.5
   shared: 1
 - slug: sendowl
   name: SendOwl
@@ -25,30 +25,30 @@ providers:
 - slug: acma
   name: ACMA
   description: The Australian Communications and Media Authority (ACMA) is the Commonwealth regulator for telecommunications, radiocommunications, broadcasting and online content in Australia. It issues carrier licences and apparatus and spectrum licences, maintains the Register of Radiocommunications Licences, a…
-  api_count: 2
+  api_count: 8
   score_band: developing
-  score_composite: 53.2
+  score_composite: 52.3
   shared: 1
 - slug: certifyos
   name: Certifyos
   description: 'Certify (operating as CertifyOS, certifyos.com) is a New York-based healthcare provider data platform that automates the end-to-end provider network management lifecycle: credentialing, licensing, payer enrollment, compliance monitoring, and roster management. Founded in 2020 by CEO Anshul Rathi, t…'
   api_count: 59
   score_band: developing
-  score_composite: 51.1
+  score_composite: 49.5
   shared: 1
 - slug: opengov
   name: OpenGov
   description: OpenGov builds cloud enterprise resource planning and public service software for state and local government, serving more than 2,000 communities across budgeting and performance, financial management, procurement and contract management, vendor management, permitting and licensing, enterprise asse…
   api_count: 102
   score_band: developing
-  score_composite: 49.7
+  score_composite: 47.1
   shared: 1
 - slug: madaket
   name: Madaket
   description: Madaket Health is a Cambridge, Massachusetts healthcare administration company whose Provider Data Management (PDM) platform automates payer enrollment, EDI enrollment, credentialing, licensing and provider directory data management between healthcare providers and payers. Madaket maintains connect…
-  api_count: 1
+  api_count: 57
   score_band: developing
-  score_composite: 45.5
+  score_composite: 44.9
   shared: 1
 - slug: shutterstock
   name: Shutterstock
@@ -64,19 +64,19 @@ providers:
   score_band: developing
   score_composite: 41.9
   shared: 1
-- slug: agentsync
-  name: Agentsync
-  description: AgentSync builds modern insurance compliance infrastructure that connects carriers, agencies, MGAs, and producers. Its ProducerSync API is a REST API delivering more than 200 enriched data points sourced from the National Insurance Producer Registry (NIPR) — producer and adjuster licensing, carrier…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.0
-  shared: 1
 - slug: 7digital
   name: 7digital
   description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
   api_count: 23
   score_band: developing
   score_composite: 40.1
+  shared: 1
+- slug: agentsync
+  name: Agentsync
+  description: AgentSync builds modern insurance compliance infrastructure that connects carriers, agencies, MGAs, and producers. Its ProducerSync API is a REST API delivering more than 200 enriched data points sourced from the National Insurance Producer Registry (NIPR) — producer and adjuster licensing, carrier…
+  api_count: 1
+  score_band: developing
+  score_composite: 39.9
   shared: 1
 - slug: warner-music-group
   name: Warner Music Group
@@ -104,7 +104,7 @@ providers:
   description: Story Protocol is a purpose-built EVM Layer 1 blockchain for onchain intellectual property (the "IP blockchain"), powered by Proof of Creativity, built by Pip Labs and backed by a16z. Its public REST API (api.storyapis.com) is a read-only indexer that exposes IP assets, collections, license terms,…
   api_count: 13
   score_band: thin
-  score_composite: 30.9
+  score_composite: 29.4
   shared: 1
 - slug: getty
   name: Getty Images
@@ -141,6 +141,13 @@ providers:
   score_band: emerging
   score_composite: 18.2
   shared: 1
+- slug: universal-music-group
+  name: Universal Music Group
+  description: 'Universal Music Group N.V. (UMG) is the world''s largest music company, headquartered in Hilversum, Netherlands with operational headquarters in Santa Monica, California. Spun off from Vivendi and listed on Euronext Amsterdam (ticker: UMG) on September 21, 2021 at a EUR 54 billion valuation, UMG ope…'
+  api_count: 5
+  score_band: emerging
+  score_composite: 16.4
+  shared: 1
 - slug: aceable
   name: Aceable
   description: 'Aceable (Aceable Brands) is an Austin, Texas mobile-first online education company founded in 2013 that builds state-accredited licensing and continuing-education courses across four brands: Aceable (drivers ed, defensive driving and traffic school in 40+ US states), Aceable Agent (real estate pre-…'
@@ -159,13 +166,6 @@ providers:
   name: OpenChain
   description: OpenChain is an international standard (ISO/IEC 5230) under the Linux Foundation for open source license compliance programs. It helps organizations manage open source licensing consistently by providing a benchmark for trust between organizations in the software supply chain.
   api_count: 1
-  score_band: emerging
-  score_composite: 13.0
-  shared: 1
-- slug: universal-music-group
-  name: Universal Music Group
-  description: 'Universal Music Group N.V. (UMG) is the world''s largest music company, headquartered in Hilversum, Netherlands with operational headquarters in Santa Monica, California. Spun off from Vivendi and listed on Euronext Amsterdam (ticker: UMG) on September 21, 2021 at a EUR 54 billion valuation, UMG ope…'
-  api_count: 5
   score_band: emerging
   score_composite: 13.0
   shared: 1
@@ -204,19 +204,19 @@ providers:
   score_band: minimal
   score_composite: 7.3
   shared: 1
+- slug: lexyom
+  name: Lexyom
+  description: 'Lexyom (Lexyom LLP) is a law firm operating at lexyom.com, which redirects to lexyomlaw.com. The firm markets legal services to financial-services companies: financial institution setup, company registration, broker licensing, proprietary-trading ("prop firm") licensing, trademark registration and…'
+  api_count: 0
+  score_band: minimal
+  score_composite: 7.1
+  shared: 1
 - slug: license-md
   name: LICENSE.md
   description: File specifying the legal license under which a project is distributed, defining permissions, conditions, and limitations for use and redistribution. Standard reference for SPDX-identified open source licenses including MIT, Apache-2.0, GPL-3.0, BSD, and Creative Commons variants.
   api_count: 0
   score_band: minimal
   score_composite: 6.4
-  shared: 1
-- slug: lexyom
-  name: Lexyom
-  description: 'Lexyom (Lexyom LLP) is a law firm operating at lexyom.com, which redirects to lexyomlaw.com. The firm markets legal services to financial-services companies: financial institution setup, company registration, broker licensing, proprietary-trading ("prop firm") licensing, trademark registration and…'
-  api_count: 0
-  score_band: minimal
-  score_composite: 6.3
   shared: 1
 related: []
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).

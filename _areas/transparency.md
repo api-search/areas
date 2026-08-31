@@ -13,7 +13,7 @@ providers:
   description: Loon is a Calgary-based fintech and the issuer of CADC, a regulated, fiat-backed stablecoin pegged 1:1 to the Canadian dollar. Reserves are held in segregated cash deposits at ATB Financial and attested independently every month by HDCPA Professional Corporation, with FINTRAC compliance and a prosp…
   api_count: 3
   score_band: developing
-  score_composite: 47.8
+  score_composite: 45.3
   shared: 1
 - slug: open-payments
   name: CMS Open Payments

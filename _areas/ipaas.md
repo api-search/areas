@@ -6,22 +6,8 @@ description: This is the index of iPaaS (integration platform as a service) repo
 area_url: https://ipaas.apievangelist.com
 area_host: ipaas.apievangelist.com
 icon: https://ipaas.apievangelist.com/icon-thumb.png
-provider_count: 48
+provider_count: 49
 providers:
-- slug: vessel
-  name: Vessel
-  description: Vessel (Kinit Inc.) is a developer-first embedded integrations platform for go-to-market software. It gives a product team one contract to read and write an end customer's CRM, sales engagement, chat, dialer and marketing automation tools, plus a drop-in browser component — Vessel Link — that handl…
-  api_count: 20
-  score_band: exemplar
-  score_composite: 71.7
-  shared: 1
-- slug: zapier
-  name: Zapier
-  description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
-  api_count: 13
-  score_band: strong
-  score_composite: 65.2
-  shared: 1
 - slug: workato
   name: Workato
   description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
@@ -29,12 +15,33 @@ providers:
   score_band: strong
   score_composite: 64.6
   shared: 1
+- slug: vessel
+  name: Vessel
+  description: Vessel (Kinit Inc.) is a developer-first embedded integrations platform for go-to-market software. It gives a product team one contract to read and write an end customer's CRM, sales engagement, chat, dialer and marketing automation tools, plus a drop-in browser component — Vessel Link — that handl…
+  api_count: 37
+  score_band: strong
+  score_composite: 64.0
+  shared: 1
+- slug: jitterbit
+  name: Jitterbit
+  description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
+  api_count: 6
+  score_band: strong
+  score_composite: 63.1
+  shared: 1
+- slug: zapier
+  name: Zapier
+  description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
+  api_count: 13
+  score_band: strong
+  score_composite: 62.6
+  shared: 1
 - slug: paragon
   name: Paragon
   description: Paragon is the Integration Infrastructure Platform for B2B SaaS and AI products. The platform combines Connect Portal (managed user authentication for 130+ SaaS apps), Workflows (event-driven async orchestration), ActionKit (Universal API + MCP server giving AI agents synchronous CRUD access to Int…
-  api_count: 10
+  api_count: 3
   score_band: strong
-  score_composite: 58.0
+  score_composite: 57.7
   shared: 1
 - slug: tray-ai
   name: Tray.ai
@@ -43,12 +50,26 @@ providers:
   score_band: developing
   score_composite: 54.1
   shared: 1
+- slug: oracle-integration
+  name: Oracle Integration
+  description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
+  api_count: 25
+  score_band: developing
+  score_composite: 53.1
+  shared: 1
+- slug: syncari
+  name: Syncari
+  description: Syncari is an agentic master data management (MDM) and data unification platform that syncs, cleans, governs and activates business data across CRM, marketing, finance, support and warehouse systems from a single unified data model. Its multidirectional stateful sync engine connects 50+ prebuilt "S…
+  api_count: 2
+  score_band: developing
+  score_composite: 51.4
+  shared: 1
 - slug: n8n
   name: n8n
   description: n8n is a fair-code workflow automation and iPaaS platform with AI-agent tooling. It exposes an instance-scoped REST API (public OpenAPI 3.0 contract), MCP server/client capabilities via built-in nodes, and an llms.txt documentation index.
-  api_count: 16
+  api_count: 15
   score_band: developing
-  score_composite: 52.0
+  score_composite: 51.3
   shared: 1
 - slug: aws-step-functions
   name: AWS Step Functions
@@ -57,19 +78,19 @@ providers:
   score_band: developing
   score_composite: 50.4
   shared: 1
-- slug: flume-health
-  name: Flume Health
-  description: Flume Health is a New York based healthcare data platform for the payer ecosystem. Its Relay product is an integration platform (iPaaS) that maps eligibility, claims, and other health plan data between source and destination Endpoints — SFTP, cloud storage, databases, Snowflake, and APIs — through…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.1
-  shared: 1
 - slug: hull
   name: Hull
   description: Hull is a real-time Customer Data Platform (CDP) that unifies customer data from every source — web, product, CRM, marketing and support tools, databases and files — into a single User and Account profile using claim-based identity resolution. It ingests, computes and enriches data through a data-l…
   api_count: 1
   score_band: developing
-  score_composite: 49.7
+  score_composite: 50.4
+  shared: 1
+- slug: flume-health
+  name: Flume Health
+  description: Flume Health is a New York based healthcare data platform for the payer ecosystem. Its Relay product is an integration platform (iPaaS) that maps eligibility, claims, and other health plan data between source and destination Endpoints — SFTP, cloud storage, databases, Snowflake, and APIs — through…
+  api_count: 20
+  score_band: developing
+  score_composite: 49.5
   shared: 1
 - slug: snaplogic
   name: SnapLogic
@@ -77,13 +98,6 @@ providers:
   api_count: 7
   score_band: developing
   score_composite: 49.0
-  shared: 1
-- slug: oracle-integration
-  name: Oracle Integration
-  description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
-  api_count: 25
-  score_band: developing
-  score_composite: 48.4
   shared: 1
 - slug: sap-integration-suite
   name: SAP Integration Suite
@@ -113,40 +127,19 @@ providers:
   score_band: developing
   score_composite: 46.7
   shared: 1
+- slug: microsoft-azure-logic-apps
+  name: Azure Logic Apps
+  description: Azure Logic Apps is a cloud platform for creating and running automated workflows that integrate apps, data, services, and systems. It provides a visual designer and over 400 connectors to build event-driven, scheduled, and on-demand integrations.
+  api_count: 2
+  score_band: developing
+  score_composite: 46.3
+  shared: 1
 - slug: make
   name: Make
   description: Make (formerly Integromat) is a visual scenario-based automation builder with advanced data transformation and routing logic.
   api_count: 8
   score_band: developing
   score_composite: 46.2
-  shared: 1
-- slug: runautomat
-  name: Runautomat
-  description: Runautomat (dba Automat) builds AI agents that operate computers the way people do, replacing legacy RPA tools like UiPath, Automation Anywhere, and Blue Prism with self-healing managed automations. Founded in 2022 by ex-Google engineers Lucas Ochoa and Gautam Bose and backed by Felicis, Khosla Ven…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.9
-  shared: 1
-- slug: microsoft-azure-logic-apps
-  name: Azure Logic Apps
-  description: Azure Logic Apps is a cloud platform for creating and running automated workflows that integrate apps, data, services, and systems. It provides a visual designer and over 400 connectors to build event-driven, scheduled, and on-demand integrations.
-  api_count: 2
-  score_band: developing
-  score_composite: 45.6
-  shared: 1
-- slug: morf
-  name: Morf
-  description: Morf is a HIPAA-compliant healthcare automation and integration platform that connects EHRs, CRMs, payment systems, and communication tools so digital health teams can eliminate manual work and put patient outreach on autopilot. Workflows are triggered by inbound webhooks from source applications (…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.8
-  shared: 1
-- slug: skyvia
-  name: Skyvia
-  description: 'Skyvia is a no-code cloud data platform from Devart covering five products on one account: Data Integration (import, export, replication, synchronization, data flow and control flow across 200+ cloud apps and databases), Automation (trigger-driven business process automation with schedule, polling-…'
-  api_count: 4
-  score_band: developing
-  score_composite: 44.8
   shared: 1
 - slug: modusbox
   name: ModusBox
@@ -155,12 +148,26 @@ providers:
   score_band: developing
   score_composite: 44.5
   shared: 1
-- slug: reachware-inc
-  name: Reachware Inc.
-  description: Reachware is an Integration Platform as a Service (iPaaS) that lets separate SaaS and business systems operate as one connected ecosystem, with 200+ prebuilt connectors to systems like NetSuite, QuickBooks, Microsoft Dynamics 365, Odoo, SAP, Oracle, Magento, Zid and Qoyod. Alongside the core platfo…
-  api_count: 2
+- slug: runautomat
+  name: Runautomat
+  description: Runautomat (dba Automat) builds AI agents that operate computers the way people do, replacing legacy RPA tools like UiPath, Automation Anywhere, and Blue Prism with self-healing managed automations. Founded in 2022 by ex-Google engineers Lucas Ochoa and Gautam Bose and backed by Felicis, Khosla Ven…
+  api_count: 1
   score_band: developing
-  score_composite: 42.2
+  score_composite: 44.5
+  shared: 1
+- slug: morf
+  name: Morf
+  description: Morf is a HIPAA-compliant healthcare automation and integration platform that connects EHRs, CRMs, payment systems, and communication tools so digital health teams can eliminate manual work and put patient outreach on autopilot. Workflows are triggered by inbound webhooks from source applications (…
+  api_count: 1
+  score_band: developing
+  score_composite: 43.7
+  shared: 1
+- slug: skyvia
+  name: Skyvia
+  description: 'Skyvia is a no-code cloud data platform from Devart covering five products on one account: Data Integration (import, export, replication, synchronization, data flow and control flow across 200+ cloud apps and databases), Automation (trigger-driven business process automation with schedule, polling-…'
+  api_count: 4
+  score_band: developing
+  score_composite: 43.3
   shared: 1
 - slug: useparagon
   name: Paragon
@@ -168,6 +175,13 @@ providers:
   api_count: 8
   score_band: developing
   score_composite: 40.9
+  shared: 1
+- slug: reachware-inc
+  name: Reachware Inc.
+  description: Reachware is an Integration Platform as a Service (iPaaS) that lets separate SaaS and business systems operate as one connected ecosystem, with 200+ prebuilt connectors to systems like NetSuite, QuickBooks, Microsoft Dynamics 365, Odoo, SAP, Oracle, Magento, Zid and Qoyod. Alongside the core platfo…
+  api_count: 2
+  score_band: developing
+  score_composite: 40.7
   shared: 1
 - slug: jetic
   name: Jetic
@@ -183,26 +197,19 @@ providers:
   score_band: thin
   score_composite: 39.1
   shared: 1
-- slug: software-ag
-  name: Software AG
-  description: Software AG provides enterprise integration and API management through webMethods, a platform for connecting applications, processes, and people across hybrid cloud and on-premises environments. The webMethods platform includes API Gateway, Developer Portal, Integration Server, and cloud-native int…
+- slug: hotglue
+  name: Hotglue
+  description: Hotglue is an embedded iPaaS platform that enables SaaS products to offer native integrations to their customers. Built on the Python ecosystem, it provides a code-first approach with over 600 open-source connectors, a CLI for programmatic configuration management, detailed job logs, webhooks, and…
   api_count: 6
   score_band: thin
-  score_composite: 39.1
+  score_composite: 37.2
   shared: 1
 - slug: automat
   name: Automat
   description: Automat builds AI agents that operate computers the way people do, replacing legacy RPA tools like UiPath, Automation Anywhere, and Blue Prism with intelligent, self-healing managed automations. Founded in 2022 by ex-Google engineers, the platform combines UI-based AI agents (RPA using Computer Use…
   api_count: 1
   score_band: thin
-  score_composite: 37.5
-  shared: 1
-- slug: hotglue
-  name: Hotglue
-  description: Hotglue is an embedded iPaaS platform that enables SaaS products to offer native integrations to their customers. Built on the Python ecosystem, it provides a code-first approach with over 600 open-source connectors, a CLI for programmatic configuration management, detailed job logs, webhooks, and…
-  api_count: 6
-  score_band: thin
-  score_composite: 36.5
+  score_composite: 36.1
   shared: 1
 - slug: sandbox-banking
   name: Sandbox Banking
@@ -211,13 +218,6 @@ providers:
   score_band: thin
   score_composite: 35.5
   shared: 1
-- slug: azure-logic-apps
-  name: Azure Logic Apps
-  description: Azure Logic Apps is a cloud-based integration platform that enables you to create and run automated workflows integrating apps, data, services, and systems across cloud and on-premises environments.
-  api_count: 23
-  score_band: thin
-  score_composite: 34.0
-  shared: 1
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
@@ -225,23 +225,23 @@ related:
 - slug: orchestration
   name: Orchestration
   shared: 3
-- slug: management
-  name: Management
-  shared: 1
 - slug: ai-automation
   name: AI Automation
+  shared: 2
+- slug: workflow-automation
+  name: Workflow Automation
+  shared: 2
+- slug: management
+  name: Management
   shared: 1
 - slug: saas-management
   name: SaaS Management
   shared: 1
-- slug: workflow-automation
-  name: Workflow Automation
-  shared: 1
 overview: 'iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ipaas.apievangelist.com](https://ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Vessel, Zapier, Workato, Paragon, Tray.ai, n8n, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Workato, Vessel, Jitterbit, Zapier, Paragon, Tray.ai, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Embedded iPaaS, Orchestration, Management, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Embedded iPaaS, Orchestration, AI Automation, and Workflow Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

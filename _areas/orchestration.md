@@ -32,7 +32,7 @@ providers:
 - slug: bonitasoft
   name: Bonitasoft
   description: Bonitasoft is the French open-source company behind Bonita, a business process management and process automation platform used to model BPMN processes, build living applications, and orchestrate work across an organization. Bonita ships as Bonita Studio, Bonita Fabric (Process Designer, BPA Studio,…
-  api_count: 1
+  api_count: 76
   score_band: strong
   score_composite: 62.2
   shared: 1
@@ -43,12 +43,26 @@ providers:
   score_band: strong
   score_composite: 61.7
   shared: 1
+- slug: intersight
+  name: Cisco Intersight
+  description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
+  api_count: 117
+  score_band: strong
+  score_composite: 57.4
+  shared: 1
+- slug: amazon-step-functions
+  name: Amazon Step Functions
+  description: Amazon Step Functions is a serverless workflow orchestration service that lets you coordinate distributed applications and microservices using visual workflows, enabling you to build and update state machines that react to events, manage retries, and orchestrate complex business processes.
+  api_count: 37
+  score_band: strong
+  score_composite: 56.1
+  shared: 1
 - slug: tower
   name: Tower
   description: Tower is a Python-native data flow orchestrator and fully-managed data backend for pipelines, agents, and data applications, pairing serverless (or self-hosted) Python compute with an open Apache Iceberg-based lakehouse that is compatible with Snowflake, Spark, and DuckDB. Teams deploy versioned ap…
   api_count: 27
   score_band: strong
-  score_composite: 57.3
+  score_composite: 55.8
   shared: 1
 - slug: hatchet
   name: Hatchet
@@ -64,52 +78,31 @@ providers:
   score_band: strong
   score_composite: 54.3
   shared: 1
-- slug: amazon-step-functions
-  name: Amazon Step Functions
-  description: Amazon Step Functions is a serverless workflow orchestration service that lets you coordinate distributed applications and microservices using visual workflows, enabling you to build and update state machines that react to events, manage retries, and orchestrate complex business processes.
-  api_count: 37
+- slug: netcracker
+  name: Netcracker
+  description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
+  api_count: 40
   score_band: developing
-  score_composite: 54.2
+  score_composite: 53.9
   shared: 1
 - slug: kubernetes
   name: Kubernetes
   description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
   api_count: 7
   score_band: developing
-  score_composite: 54.1
-  shared: 1
-- slug: netcracker
-  name: Netcracker
-  description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
-  api_count: 4
-  score_band: developing
-  score_composite: 54.0
-  shared: 1
-- slug: cisco-crosswork
-  name: Cisco Crosswork
-  description: 'Cisco Crosswork is Cisco''s service-provider network automation portfolio — Crosswork Network Controller, Data Gateway, Zero Touch Provisioning, Optimization Engine, Network Change Automation and Crosswork Workflow Manager. Unusually for Cisco, the specifications are published openly: the CiscoDevNe…'
-  api_count: 99
-  score_band: developing
-  score_composite: 52.9
-  shared: 1
-- slug: intersight
-  name: Cisco Intersight
-  description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
-  api_count: 11
-  score_band: developing
-  score_composite: 52.8
-  shared: 1
-- slug: n8n
-  name: n8n
-  description: n8n is a fair-code workflow automation and iPaaS platform with AI-agent tooling. It exposes an instance-scoped REST API (public OpenAPI 3.0 contract), MCP server/client capabilities via built-in nodes, and an llms.txt documentation index.
-  api_count: 16
-  score_band: developing
-  score_composite: 52.0
+  score_composite: 52.7
   shared: 1
 - slug: transmit-security
   name: Transmit Security
   description: Transmit Security provides the Mosaic platform, a comprehensive CIAM (Customer Identity and Access Management) solution offering REST APIs for passkey and WebAuthn authentication, fraud detection and risk-based access control, identity orchestration, identity verification, and user journey manageme…
   api_count: 9
+  score_band: developing
+  score_composite: 51.3
+  shared: 1
+- slug: n8n
+  name: n8n
+  description: n8n is a fair-code workflow automation and iPaaS platform with AI-agent tooling. It exposes an instance-scoped REST API (public OpenAPI 3.0 contract), MCP server/client capabilities via built-in nodes, and an llms.txt documentation index.
+  api_count: 15
   score_band: developing
   score_composite: 51.3
   shared: 1
@@ -119,6 +112,13 @@ providers:
   api_count: 10
   score_band: developing
   score_composite: 51.0
+  shared: 1
+- slug: cisco-crosswork
+  name: Cisco Crosswork
+  description: 'Cisco Crosswork is Cisco''s service-provider network automation portfolio — Crosswork Network Controller, Data Gateway, Zero Touch Provisioning, Optimization Engine, Network Change Automation and Crosswork Workflow Manager. Unusually for Cisco, the specifications are published openly: the CiscoDevNe…'
+  api_count: 99
+  score_band: developing
+  score_composite: 50.6
   shared: 1
 - slug: aws-step-functions
   name: AWS Step Functions
@@ -155,26 +155,12 @@ providers:
   score_band: developing
   score_composite: 47.9
   shared: 1
-- slug: apache-airflow
-  name: Apache Airflow
-  description: Apache Airflow is an open-source platform to programmatically author, schedule, and monitor workflows, developed by the Apache Software Foundation. It allows you to define workflows as Directed Acyclic Graphs (DAGs) in Python code, making them maintainable, versionable, testable, and collaborative.…
-  api_count: 19
-  score_band: developing
-  score_composite: 47.8
-  shared: 1
 - slug: kestra
   name: Kestra
   description: Kestra is a declarative workflow orchestration platform where pipelines are defined in YAML, combining visual and code-first approaches.
   api_count: 7
   score_band: developing
   score_composite: 46.6
-  shared: 1
-- slug: runai
-  name: NVIDIA Run:ai
-  description: NVIDIA Run:ai (formerly run.ai) is an AI operations and GPU orchestration platform for Kubernetes that pools, schedules, and governs GPU compute across clusters for training, fine-tuning, and inference workloads. It provides fractional GPU sharing, dynamic scheduling, quota and policy management, m…
-  api_count: 62
-  score_band: developing
-  score_composite: 46.3
   shared: 1
 - slug: cutover
   name: Cutover
@@ -197,6 +183,20 @@ providers:
   score_band: developing
   score_composite: 45.8
   shared: 1
+- slug: rook
+  name: Rook
+  description: Rook is a CNCF graduated cloud-native storage orchestrator for Kubernetes, providing the platform, framework, and support for Ceph distributed storage systems to natively integrate with cloud-native environments. It automates the deployment, configuration, provisioning, scaling, upgrading, and moni…
+  api_count: 6
+  score_band: developing
+  score_composite: 45.3
+  shared: 1
+- slug: apache-airflow
+  name: Apache Airflow
+  description: Apache Airflow is an open-source platform to programmatically author, schedule, and monitor workflows, developed by the Apache Software Foundation. It allows you to define workflows as Directed Acyclic Graphs (DAGs) in Python code, making them maintainable, versionable, testable, and collaborative.…
+  api_count: 19
+  score_band: developing
+  score_composite: 45.2
+  shared: 1
 - slug: workday-extend
   name: Workday Extend
   description: Workday Extend is a platform that enables developers to build custom applications that integrate seamlessly with Workday. It provides APIs, development tools, and a runtime environment for creating tailored solutions that extend Workday's core functionality.
@@ -204,19 +204,19 @@ providers:
   score_band: developing
   score_composite: 45.1
   shared: 1
+- slug: prefect
+  name: Prefect
+  description: Prefect is a Python-native workflow orchestration tool for building, scheduling, and monitoring data pipelines with fault tolerance. Prefect provides a hybrid execution model where the cloud control plane coordinates workflows while code and data remain in customer infrastructure, offering both a m…
+  api_count: 63
+  score_band: developing
+  score_composite: 44.3
+  shared: 1
 - slug: talend
   name: Talend
   description: Talend (now part of Qlik) provides data integration, quality, and API management capabilities through cloud-native APIs for ETL, data pipelines, and application integration. The Qlik Talend Cloud platform exposes REST APIs for orchestrating tasks and plans, executing data integration jobs, managing…
   api_count: 18
   score_band: developing
   score_composite: 44.0
-  shared: 1
-- slug: vers
-  name: Vers
-  description: Vers is "git for running compute" — a branchable microVM platform from HD Research (hdresearch) that lets you fork a live virtual machine (memory, processes, sockets and all) in roughly 258 microseconds, commit its state as an immutable content-addressable snapshot, and restore or branch that snaps…
-  api_count: 12
-  score_band: developing
-  score_composite: 42.5
   shared: 1
 related:
 - slug: containers
@@ -234,13 +234,13 @@ related:
 - slug: serverless
   name: Serverless
   shared: 2
-- slug: virtualization
-  name: Virtualization
-  shared: 2
+- slug: unified-apis
+  name: Unified APIs
+  shared: 1
 overview: 'Orchestration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [orchestration.apievangelist.com](https://orchestration.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Azure Kubernetes Service, Workato, Inngest, Bonitasoft, UiPath, Tower, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Azure Kubernetes Service, Workato, Inngest, Bonitasoft, UiPath, Cisco Intersight, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, Embedded iPaaS, iPaaS, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

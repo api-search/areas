@@ -19,15 +19,15 @@ providers:
   name: Confrere
   description: Confrere is a privacy-first, embeddable video-consultation platform (now a Compodium product) built in the Nordics for healthcare providers, therapists, consultants, tutors, and sales teams who need secure, encrypted video meetings that clients join from any modern browser with no download. Its ser…
   api_count: 2
-  score_band: developing
-  score_composite: 39.3
+  score_band: thin
+  score_composite: 37.8
   shared: 1
 - slug: screenleap
   name: Screenleap
   description: Screenleap is a screen sharing and online meeting service that lets anyone share their screen instantly from a browser with no software install required for viewers. Beyond the consumer product, Screenleap offers a REST-style developer API (api.screenleap.com/v2) that lets businesses embed live int…
   api_count: 1
   score_band: thin
-  score_composite: 33.9
+  score_composite: 32.4
   shared: 1
 - slug: desmos
   name: Desmos

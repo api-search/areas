@@ -20,7 +20,7 @@ providers:
   description: Stacker is a no-code platform that enables organizations to build custom business applications, internal tools, and customer portals on top of their existing data sources — including Airtable, Google Sheets, SQL databases, and Salesforce — without writing code. Its drag-and-drop interface, role-bas…
   api_count: 4
   score_band: thin
-  score_composite: 38.3
+  score_composite: 39.0
   shared: 1
 - slug: doctave
   name: Doctave

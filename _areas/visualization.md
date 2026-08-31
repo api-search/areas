@@ -13,14 +13,14 @@ providers:
   description: Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. It provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards.
   api_count: 11
   score_band: exemplar
-  score_composite: 69.3
+  score_composite: 71.0
   shared: 1
 - slug: foxglove-technologies
   name: Foxglove Technologies
   description: Foxglove Technologies, Inc. (foxglove.dev) builds a multimodal data platform for robotics, autonomy and physical AI. Its products cover visualization and debugging of robot data (3D scenes, images, plots, logs, maps), cloud and self-hosted data infrastructure for recording ingest and retention, fle…
-  api_count: 1
+  api_count: 20
   score_band: strong
-  score_composite: 58.5
+  score_composite: 58.7
   shared: 1
 - slug: amazon-quicksight
   name: Amazon QuickSight
@@ -32,9 +32,9 @@ providers:
 - slug: grafana
   name: Grafana
   description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
-  api_count: 138
+  api_count: 78
   score_band: strong
-  score_composite: 56.4
+  score_composite: 56.2
   shared: 1
 - slug: amazon-managed-grafana
   name: Amazon Managed Grafana
@@ -48,7 +48,7 @@ providers:
   description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sources and supports community connectors and visualizations for…
   api_count: 6
   score_band: developing
-  score_composite: 49.8
+  score_composite: 49.2
   shared: 1
 - slug: visio
   name: Microsoft Visio API
@@ -69,28 +69,21 @@ providers:
   description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
   api_count: 1
   score_band: developing
-  score_composite: 46.3
+  score_composite: 43.8
   shared: 1
 - slug: microsoft-visio
   name: Microsoft Visio
   description: APIs and resources for Microsoft Visio, a diagramming and vector graphics application that helps visualize data-connected business process flows. Provides programmatic access to diagrams, pages, shapes, data items, comments, and hyperlinks through Microsoft Graph and JavaScript APIs.
   api_count: 7
   score_band: thin
-  score_composite: 38.7
-  shared: 1
-- slug: windy
-  name: Windy
-  description: Windy.com is a weather visualization platform serving high-resolution forecast models, animated weather maps, and a global webcam network. The Windy API exposes three developer products - a Point Forecast API for multi-model numerical weather data at a coordinate, an embeddable Map Forecast API bas…
-  api_count: 2
-  score_band: thin
-  score_composite: 38.1
+  score_composite: 38.8
   shared: 1
 - slug: elastic
   name: Elastic
   description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
   api_count: 12
   score_band: thin
-  score_composite: 37.6
+  score_composite: 38.0
   shared: 1
 - slug: lucidchart
   name: Lucidchart
@@ -106,12 +99,12 @@ providers:
   score_band: thin
   score_composite: 34.9
   shared: 1
-- slug: napkinai
-  name: Napkin.AI
-  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, mind maps, icons, and infographics — and into full presentations, with no prompting or design skill required. Two products share the same text-to-visual engine: Napkin Visuals (standalone diagrams and graphics, exportabl…'
-  api_count: 1
+- slug: windy
+  name: Windy
+  description: Windy.com is a weather visualization platform serving high-resolution forecast models, animated weather maps, and a global webcam network. The Windy API exposes three developer products - a Point Forecast API for multi-model numerical weather data at a coordinate, an embeddable Map Forecast API bas…
+  api_count: 2
   score_band: thin
-  score_composite: 34.5
+  score_composite: 34.3
   shared: 1
 - slug: qlik-cloud
   name: Qlik Cloud
@@ -126,6 +119,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 33.0
+  shared: 1
+- slug: napkinai
+  name: Napkin.AI
+  description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, mind maps, icons, and infographics — and into full presentations, with no prompting or design skill required. Two products share the same text-to-visual engine: Napkin Visuals (standalone diagrams and graphics, exportabl…'
+  api_count: 1
+  score_band: thin
+  score_composite: 31.9
   shared: 1
 - slug: perses
   name: Perses
@@ -183,19 +183,19 @@ providers:
   score_band: emerging
   score_composite: 11.8
   shared: 1
-- slug: all3d
-  name: All3D
-  description: ALL3D, Inc. is a San Francisco AI-powered visual content platform that replaces traditional product photography for ecommerce brands and agencies. Users upload a product photo and its real-world dimensions, build a scene from inspiration images and props, and generate 4K studio and lifestyle images…
-  api_count: 0
-  score_band: minimal
-  score_composite: 6.9
-  shared: 1
 - slug: flowcharts
   name: Flowcharts
   description: Flowcharts are a visual modeling technique used across software engineering, systems analysis, business process design, and education to depict the steps, decisions, and flow of a process or algorithm. Within an API context, flowcharts are used to model workflows, integration patterns, retry logic,…
   api_count: 0
   score_band: minimal
   score_composite: 6.9
+  shared: 1
+- slug: all3d
+  name: All3D
+  description: ALL3D, Inc. is a San Francisco AI-powered visual content platform that replaces traditional product photography for ecommerce brands and agencies. Users upload a product photo and its real-world dimensions, build a scene from inspiration images and props, and generate 4K studio and lifestyle images…
+  api_count: 0
+  score_band: minimal
+  score_composite: 5.7
   shared: 1
 - slug: noteable
   name: Noteable
@@ -222,11 +222,11 @@ related:
 - slug: design
   name: Design
   shared: 2
-- slug: monitoring
-  name: Monitoring
-  shared: 2
 - slug: logging
   name: Logging
+  shared: 1
+- slug: monitoring
+  name: Monitoring
   shared: 1
 - slug: observability
   name: Observability
@@ -237,5 +237,5 @@ overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](htt
   30 providers on the network work in this area, including Power BI, Foxglove Technologies, Amazon QuickSight, Grafana, Amazon Managed Grafana, Google Data Studio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Design, Monitoring, Logging, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Design, Logging, Monitoring, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

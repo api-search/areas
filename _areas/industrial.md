@@ -6,49 +6,35 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 164
+provider_count: 167
 providers:
 - slug: paperless-parts
   name: Paperless Parts
   description: Paperless Parts, Inc. is a Boston-based manufacturing software company founded in 2017 that builds a secure, ITAR-compliant cloud quoting and sales platform for custom part manufacturers — job shops, contract manufacturers and rapid-prototype businesses working in CNC machining, sheet metal fabrica…
-  api_count: 2
+  api_count: 12
   score_band: developing
-  score_composite: 50.3
-  shared: 1
-- slug: renesas
-  name: Renesas
-  description: 'Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products for automotive, industrial, infrastructure, and consumer el…'
-  api_count: 6
-  score_band: developing
-  score_composite: 46.6
+  score_composite: 49.9
   shared: 1
 - slug: eaton
   name: Eaton
   description: 'Eaton Corporation plc (NYSE: ETN) is a global intelligent-power-management company with operations across electrical, aerospace, vehicle, and eMobility segments. Its digital surface centers on Brightlayer — a software portfolio for data centers, utilities, industrial, buildings, and mobility — toge…'
   api_count: 19
   score_band: developing
-  score_composite: 44.5
+  score_composite: 45.2
+  shared: 1
+- slug: renesas
+  name: Renesas
+  description: 'Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products for automotive, industrial, infrastructure, and consumer el…'
+  api_count: 6
+  score_band: developing
+  score_composite: 44.1
   shared: 1
 - slug: remberg
   name: Remberg
   description: remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventi…
   api_count: 19
   score_band: developing
-  score_composite: 42.8
-  shared: 1
-- slug: weavix
-  name: Weavix
-  description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
-  api_count: 8
-  score_band: developing
-  score_composite: 42.6
-  shared: 1
-- slug: cosmo-tech
-  name: Cosmo Tech
-  description: Cosmo Tech is a predictive and prescriptive AI-simulation (digital twin) platform for industry, based in Lyon, France and backed by Insight Partners. Its open-source Cosmo Tech Cloud Platform API (Kotlin, MIT) lets teams model organizations, workspaces, solutions, datasets, runners and runs, then c…
-  api_count: 7
-  score_band: developing
-  score_composite: 41.9
+  score_composite: 42.1
   shared: 1
 - slug: siemens-mindsphere
   name: Siemens MindSphere
@@ -57,12 +43,26 @@ providers:
   score_band: developing
   score_composite: 41.6
   shared: 1
+- slug: cosmo-tech
+  name: Cosmo Tech
+  description: Cosmo Tech is a predictive and prescriptive AI-simulation (digital twin) platform for industry, based in Lyon, France and backed by Insight Partners. Its open-source Cosmo Tech Cloud Platform API (Kotlin, MIT) lets teams model organizations, workspaces, solutions, datasets, runners and runs, then c…
+  api_count: 7
+  score_band: developing
+  score_composite: 41.2
+  shared: 1
+- slug: weavix
+  name: Weavix
+  description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
+  api_count: 8
+  score_band: developing
+  score_composite: 41.1
+  shared: 1
 - slug: steute-technologies-gmbh-and-co-kg
   name: steute Technologies GmbH & Co. KG
   description: 'steute Technologies GmbH & Co. KG is a German industrial technology company headquartered in Löhne that develops switchgear, sensors and controls under the tagline "Applied Intelligence", organized into three divisions: Meditec (certified user interfaces such as foot and hand controls for medical d…'
   api_count: 7
   score_band: developing
-  score_composite: 41.4
+  score_composite: 40.0
   shared: 1
 - slug: 3m
   name: 3M
@@ -90,7 +90,7 @@ providers:
   description: Innovapptive is a Houston-headquartered industrial software company whose AI-first Connected Worker Platform (CWP) digitizes frontline work across maintenance, operations, warehouse, EHS and continuous-improvement processes for asset-intensive industries — oil and gas, chemicals, mining and metals,…
   api_count: 1
   score_band: thin
-  score_composite: 33.6
+  score_composite: 32.5
   shared: 1
 - slug: parsable
   name: Parsable
@@ -113,12 +113,19 @@ providers:
   score_band: thin
   score_composite: 28.4
   shared: 1
-- slug: entytle
-  name: Entytle
-  description: Entytle, Inc. (founded 2014, Austin, Texas) provides an Installed Base Intelligence SaaS platform for equipment manufacturers (OEMs). It unifies fragmented data from ERP, CRM, FSM systems, and spreadsheets into a single "Source of Truth" for an OEM's installed base, then applies purpose-built AI an…
-  api_count: 0
+- slug: otis-worldwide
+  name: Otis Worldwide
+  description: Otis Worldwide is the world's leading manufacturer, installer and servicer of elevators, escalators and moving walkways, serving customers in more than 200 countries and territories. Alongside the equipment business Otis runs a connected-building software portfolio — Otis ONE IoT remote monitoring,…
+  api_count: 2
   score_band: emerging
-  score_composite: 22.6
+  score_composite: 25.3
+  shared: 1
+- slug: graybar-electric
+  name: Graybar Electric
+  description: Graybar Electric Company is an employee-owned Fortune 500 distributor of electrical, communications, and data networking products and a provider of related supply chain management and logistics services. Graybar serves contractors, industrial plants, utilities, institutions and commercial customers…
+  api_count: 1
+  score_band: emerging
+  score_composite: 23.4
   shared: 1
 - slug: civil-infrastructure-platform
   name: Civil Infrastructure Platform
@@ -127,12 +134,19 @@ providers:
   score_band: emerging
   score_composite: 21.9
   shared: 1
-- slug: redaptive
-  name: Redaptive
-  description: Redaptive is an energy infrastructure modernization company that funds, installs, and measures energy-saving and energy-generating equipment across large multi-site commercial, industrial, healthcare and real-estate portfolios under an Efficiency-as-a-Service and Energy-as-a-Service model, so custo…
-  api_count: 3
+- slug: entytle
+  name: Entytle
+  description: Entytle, Inc. (founded 2014, Austin, Texas) provides an Installed Base Intelligence SaaS platform for equipment manufacturers (OEMs). It unifies fragmented data from ERP, CRM, FSM systems, and spreadsheets into a single "Source of Truth" for an OEM's installed base, then applies purpose-built AI an…
+  api_count: 0
   score_band: emerging
-  score_composite: 21.6
+  score_composite: 21.4
+  shared: 1
+- slug: control-seat
+  name: Control Seat
+  description: Control Seat is an AI-native industrial systems integrator building a modern replacement for legacy SCADA (Supervisory Control and Data Acquisition) platforms such as Ignition, WinCC, and FactoryTalk. It designs, builds, deploys, and runs the full industrial control stack, from PLC programming (All…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.8
   shared: 1
 - slug: timken
   name: Timken
@@ -141,12 +155,12 @@ providers:
   score_band: emerging
   score_composite: 20.6
   shared: 1
-- slug: control-seat
-  name: Control Seat
-  description: Control Seat is an AI-native industrial systems integrator building a modern replacement for legacy SCADA (Supervisory Control and Data Acquisition) platforms such as Ignition, WinCC, and FactoryTalk. It designs, builds, deploys, and runs the full industrial control stack, from PLC programming (All…
-  api_count: 0
+- slug: redaptive
+  name: Redaptive
+  description: Redaptive is an energy infrastructure modernization company that funds, installs, and measures energy-saving and energy-generating equipment across large multi-site commercial, industrial, healthcare and real-estate portfolios under an Efficiency-as-a-Service and Energy-as-a-Service model, so custo…
+  api_count: 3
   score_band: emerging
-  score_composite: 20.0
+  score_composite: 20.5
   shared: 1
 - slug: deephow
   name: DeepHow
@@ -167,19 +181,12 @@ providers:
   description: 'Matthews International Corporation (NASDAQ: MATW) is a Pittsburgh, Pennsylvania diversified manufacturer founded in 1850 and reporting in three segments. Memorialization covers bronze and granite memorials, caskets, cremation-related products and cremation and incineration equipment for the cemeter…'
   api_count: 0
   score_band: emerging
-  score_composite: 18.1
+  score_composite: 18.9
   shared: 1
 - slug: ametek
   name: AMETEK
   description: 'AMETEK is a leading global manufacturer of electronic instruments and electromechanical devices with annual sales of over $6 billion. The company operates through two differentiated business segments: Electronic Instruments Group (EIG) and Electromechanical Group (EMG), serving industries including…'
   api_count: 1
-  score_band: emerging
-  score_composite: 18.0
-  shared: 1
-- slug: laserhub
-  name: Laserhub
-  description: Laserhub is a Stuttgart-based digital procurement platform for custom-manufactured metal and plastic parts, founded to replace the traditional RFQ cycle for sheet metal, tube and machined components with instant online quoting. Buyers register at app.laserhub.com, upload CAD files, and receive an a…
-  api_count: 0
   score_band: emerging
   score_composite: 18.0
   shared: 1
@@ -204,32 +211,22 @@ providers:
   score_band: emerging
   score_composite: 17.2
   shared: 1
-- slug: circor-international
-  name: CIRCOR International
-  description: CIRCOR International is a major US corporation and Fortune 1000 company. The CIRCOR International API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-  api_count: 1
-  score_band: emerging
-  score_composite: 14.7
-  shared: 1
-- slug: manex-ai
-  name: Manex AI
-  description: Manex AI (Manex AI GmbH) is a European enterprise AI company that builds Kosmos, an Autonomous Enterprise AI Platform for industrial and manufacturing OEMs and their suppliers. Kosmos models the domains a business runs on and lets AI agents, workflows, and applications act on full enterprise contex…
+- slug: laserhub
+  name: Laserhub
+  description: Laserhub is a Stuttgart-based digital procurement platform for custom-manufactured metal and plastic parts, founded to replace the traditional RFQ cycle for sheet metal, tube and machined components with instant online quoting. Buyers register at app.laserhub.com, upload CAD files, and receive an a…
   api_count: 0
   score_band: emerging
-  score_composite: 14.6
+  score_composite: 16.9
   shared: 1
 related:
-- slug: embedded-ipaas
-  name: Embedded iPaaS
-  shared: 1
 - slug: internet-of-things
   name: Internet of Things
   shared: 1
 overview: 'Industrial is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [industrial.apievangelist.com](https://industrial.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Paperless Parts, Renesas, Eaton, Remberg, Weavix, Cosmo Tech, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Paperless Parts, Eaton, Renesas, Remberg, Siemens MindSphere, Cosmo Tech, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Embedded iPaaS and Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -8,31 +8,24 @@ area_host: virtualization.apievangelist.com
 icon: https://virtualization.apievangelist.com/icon-thumb.png
 provider_count: 39
 providers:
+- slug: intersight
+  name: Cisco Intersight
+  description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
+  api_count: 117
+  score_band: strong
+  score_composite: 57.4
+  shared: 1
 - slug: vmware
   name: VMware
   description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
   api_count: 59
-  score_band: developing
-  score_composite: 53.4
-  shared: 1
-- slug: intersight
-  name: Cisco Intersight
-  description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
-  api_count: 11
-  score_band: developing
-  score_composite: 52.8
+  score_band: strong
+  score_composite: 56.2
   shared: 1
 - slug: slide
   name: Slide
   description: Slide is a modern, security-first Business Continuity and Disaster Recovery (BCDR) platform built exclusively for Managed Service Providers (MSPs). Founded by Datto creator Austin McChord, Slide pairs on-premise Slide Box appliances with the Slide Cloud to deliver always-encrypted, block-level back…
   api_count: 14
-  score_band: developing
-  score_composite: 50.1
-  shared: 1
-- slug: smol-machines
-  name: Smol Machines
-  description: Smol Machines (smol machines, inc.) is a Y Combinator-backed developer infrastructure company building portable, self-contained Linux microVMs. Its open-source `smolvm` engine and `smol` CLI (both Rust, Apache-2.0) boot hardware-isolated virtual machines from any OCI image in under 200ms — on a lap…
-  api_count: 19
   score_band: developing
   score_composite: 48.7
   shared: 1
@@ -41,14 +34,14 @@ providers:
   description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
   api_count: 21
   score_band: developing
-  score_composite: 46.7
+  score_composite: 47.5
   shared: 1
-- slug: veritas-infoscale
-  name: Veritas InfoScale
-  description: APIs for Veritas InfoScale, an enterprise storage and availability management solution that provides high availability, disaster recovery, and storage management capabilities across physical, virtual, and cloud environments.
-  api_count: 13
+- slug: smol-machines
+  name: Smol Machines
+  description: Smol Machines (smol machines, inc.) is a Y Combinator-backed developer infrastructure company building portable, self-contained Linux microVMs. Its open-source `smolvm` engine and `smol` CLI (both Rust, Apache-2.0) boot hardware-isolated virtual machines from any OCI image in under 200ms — on a lap…
+  api_count: 19
   score_band: developing
-  score_composite: 44.0
+  score_composite: 47.2
   shared: 1
 - slug: vagrant
   name: Vagrant
@@ -60,14 +53,7 @@ providers:
 - slug: oxide-computer
   name: Oxide
   description: 'Oxide Computer Company builds a rack-scale cloud computer: integrated server sleds (Gimlet), a rack-level switch (Sidecar), Oxide''s own illumos distribution (Helios), the Propolis/bhyve hypervisor and the Crucible distributed block store, all driven by a single control plane called Nexus. Nexus exp…'
-  api_count: 1
-  score_band: developing
-  score_composite: 42.9
-  shared: 1
-- slug: vers
-  name: Vers
-  description: Vers is "git for running compute" — a branchable microVM platform from HD Research (hdresearch) that lets you fork a live virtual machine (memory, processes, sockets and all) in roughly 258 microseconds, commit its state as an immutable content-addressable snapshot, and restore or branch that snaps…
-  api_count: 12
+  api_count: 30
   score_band: developing
   score_composite: 42.5
   shared: 1
@@ -78,12 +64,19 @@ providers:
   score_band: developing
   score_composite: 42.2
   shared: 1
-- slug: scale-computing
-  name: Scale Computing
-  description: Scale Computing builds SC//Platform, an edge-computing and hyperconverged infrastructure stack made up of SC//HyperCore (a self-healing KVM-based virtualization and storage OS that runs on clustered appliance nodes) and SC//Fleet Manager (a cloud console that monitors, updates and orchestrates thou…
-  api_count: 3
+- slug: vers
+  name: Vers
+  description: Vers is "git for running compute" — a branchable microVM platform from HD Research (hdresearch) that lets you fork a live virtual machine (memory, processes, sockets and all) in roughly 258 microseconds, commit its state as an immutable content-addressable snapshot, and restore or branch that snaps…
+  api_count: 12
   score_band: developing
-  score_composite: 41.8
+  score_composite: 41.1
+  shared: 1
+- slug: veritas-infoscale
+  name: Veritas InfoScale
+  description: APIs for Veritas InfoScale, an enterprise storage and availability management solution that provides high availability, disaster recovery, and storage management capabilities across physical, virtual, and cloud environments.
+  api_count: 13
+  score_band: developing
+  score_composite: 39.7
   shared: 1
 - slug: openstack
   name: OpenStack
@@ -98,6 +91,13 @@ providers:
   api_count: 26
   score_band: thin
   score_composite: 39.2
+  shared: 1
+- slug: scale-computing
+  name: Scale Computing
+  description: Scale Computing builds SC//Platform, an edge-computing and hyperconverged infrastructure stack made up of SC//HyperCore (a self-healing KVM-based virtualization and storage OS that runs on clustered appliance nodes) and SC//Fleet Manager (a cloud console that monitors, updates and orchestrates thou…
+  api_count: 18
+  score_band: thin
+  score_composite: 36.6
   shared: 1
 - slug: platform9
   name: Platform9
@@ -139,7 +139,14 @@ providers:
   description: Apache CloudStack is an open-source cloud computing platform developed by the Apache Software Foundation for creating, managing, and deploying infrastructure cloud services. It provides a comprehensive IaaS platform supporting multiple hypervisors (KVM, VMware vSphere, XenServer) and a rich API for…
   api_count: 4
   score_band: thin
-  score_composite: 32.7
+  score_composite: 32.8
+  shared: 1
+- slug: simplivity
+  name: SimpliVity
+  description: SimpliVity is the hyperconverged infrastructure (HCI) pioneer acquired by Hewlett Packard Enterprise in 2017 and now shipped as HPE SimpliVity. Its data virtualization platform runs on the OmniStack software stack, delivering built-in deduplication, compression, backup, replication, and disaster re…
+  api_count: 10
+  score_band: thin
+  score_composite: 31.9
   shared: 1
 - slug: hypori
   name: Hypori
@@ -160,14 +167,7 @@ providers:
   description: Parallels is a virtualization and remote-access software company, originally founded as SWSoft in 1999 and renamed Parallels in 2008 (now part of Alludo/Corel). Its flagship enterprise product, Parallels Remote Application Server (RAS), delivers virtual apps and desktops and exposes a public REST A…
   api_count: 1
   score_band: thin
-  score_composite: 29.5
-  shared: 1
-- slug: simplivity
-  name: SimpliVity
-  description: SimpliVity is the hyperconverged infrastructure (HCI) pioneer acquired by Hewlett Packard Enterprise in 2017 and now shipped as HPE SimpliVity. Its data virtualization platform runs on the OmniStack software stack, delivering built-in deduplication, compression, backup, replication, and disaster re…
-  api_count: 10
-  score_band: thin
-  score_composite: 29.3
+  score_composite: 30.3
   shared: 1
 - slug: parallels
   name: Parallels
@@ -188,7 +188,7 @@ providers:
   description: 'Tintri, now part of DDN, builds intelligent enterprise data-management and storage infrastructure: the VMstore virtualization-aware storage platform, the Tintri Cloud Platform (TCP) and Cloud Engine (TCE), and the Tintri Global Center (TGC) management fabric. Tintri exposes a versioned, session-aut…'
   api_count: 1
   score_band: emerging
-  score_composite: 24.2
+  score_composite: 22.5
   shared: 1
 - slug: nanovms
   name: NanoVMs
@@ -202,34 +202,31 @@ providers:
   description: Green Hills Software is a privately held embedded software company founded in 1982 by Dan O'Dowd and Carl Rosenberg and headquartered in Santa Barbara, California. It builds safety- and security-certified real-time operating systems (INTEGRITY, INTEGRITY-178 tuMP, u-velOSity), embedded hypervisors…
   api_count: 0
   score_band: emerging
-  score_composite: 12.3
+  score_composite: 13.0
   shared: 1
 - slug: kerys
   name: Kerys
   description: Kerys Software is a European (Palaiseau, France) cybersecurity company behind YS::Desktop, a Type 1 hypervisor that runs multiple fully isolated environments on a single workstation. By preallocating dedicated CPU cores to the hypervisor versus VM workloads and adding hypervisor-level encryption, Y…
   api_count: 0
-  score_band: minimal
-  score_composite: 10.6
+  score_band: emerging
+  score_composite: 11.4
   shared: 1
-- slug: bedrock-systems
-  name: Bedrock Systems
-  description: BedRock Systems (now operating as BlueRock Security, Inc) is a United States based cybersecurity company building formally verified systems software for critical infrastructure. Its work centers on the NOVA microhypervisor and virtual machine introspection (VMI) tooling, using machine-checked mathe…
+- slug: unidesk
+  name: Unidesk
+  description: Unidesk was a Marlborough, Massachusetts software company backed by Matrix Partners that pioneered application layering for virtual desktop infrastructure, packaging Windows applications and operating-system components into shareable virtual disk layers. Citrix acquired Unidesk in January 2017 and…
   api_count: 0
   score_band: minimal
-  score_composite: 6.1
+  score_composite: 6.4
   shared: 1
 related:
 - slug: migration
   name: Migration
   shared: 2
-- slug: orchestration
-  name: Orchestration
-  shared: 2
 - slug: management
   name: Management
   shared: 1
-- slug: containers
-  name: Containers
+- slug: orchestration
+  name: Orchestration
   shared: 1
 - slug: saas-management
   name: SaaS Management
@@ -237,8 +234,8 @@ related:
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including VMware, Cisco Intersight, Slide, Smol Machines, Nutanix, Veritas InfoScale, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Cisco Intersight, VMware, Slide, Nutanix, Smol Machines, Vagrant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, Orchestration, Management, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, Management, Orchestration, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

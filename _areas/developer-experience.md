@@ -11,16 +11,9 @@ providers:
 - slug: adobe-suite
   name: Adobe Suite
   description: 'Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation…'
-  api_count: 32
+  api_count: 482
   score_band: exemplar
-  score_composite: 72.6
-  shared: 1
-- slug: unblocked
-  name: Unblocked
-  description: Unblocked is an AI context engine for engineering teams that consolidates code, documentation, tickets, and conversations from sources like GitHub, Slack, Jira, Confluence, Notion, and Google Drive into grounded, cited answers for engineers and AI coding agents. The product spans developer Q&A, AI…
-  api_count: 3
-  score_band: strong
-  score_composite: 57.9
+  score_composite: 69.3
   shared: 1
 - slug: treblle
   name: Treblle
@@ -29,12 +22,19 @@ providers:
   score_band: strong
   score_composite: 57.8
   shared: 1
+- slug: unblocked
+  name: Unblocked
+  description: Unblocked is an AI context engine for engineering teams that consolidates code, documentation, tickets, and conversations from sources like GitHub, Slack, Jira, Confluence, Notion, and Google Drive into grounded, cited answers for engineers and AI coding agents. The product spans developer Q&A, AI…
+  api_count: 3
+  score_band: strong
+  score_composite: 55.3
+  shared: 1
 - slug: signadot
   name: Signadot
   description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
   api_count: 5
-  score_band: strong
-  score_composite: 55.5
+  score_band: developing
+  score_composite: 54.1
   shared: 1
 - slug: apimatic
   name: APIMatic
@@ -46,16 +46,16 @@ providers:
 - slug: viator
   name: Viator
   description: Viator is a Tripadvisor company and the largest online marketplace for tours, activities and travel experiences, headquartered in the United States and listing more than 300,000 bookable products across roughly 2,500 destinations. It sits on the demand side of the travel distribution chain as an ag…
-  api_count: 9
+  api_count: 17
   score_band: developing
-  score_composite: 46.7
+  score_composite: 47.5
   shared: 1
 - slug: coveo
   name: Coveo
   description: Coveo is a cloud-based AI-relevance platform that delivers personalized search, recommendations, and discovery experiences across digital workplaces, customer service portals, websites, and commerce storefronts. The Coveo platform exposes a family of REST APIs covering search, content indexing (Pus…
   api_count: 152
   score_band: developing
-  score_composite: 46.5
+  score_composite: 46.3
   shared: 1
 - slug: acquia
   name: Acquia
@@ -63,13 +63,6 @@ providers:
   api_count: 21
   score_band: developing
   score_composite: 45.8
-  shared: 1
-- slug: klook
-  name: Klook
-  description: Klook is a Hong Kong-headquartered travel and experiences booking platform for the "things to do" sector — attractions, tours and activities, theme parks, food and beverage, WiFi and SIM cards, and transportation passes. Klook publishes an Open API specification for merchants, suppliers, reservatio…
-  api_count: 4
-  score_band: developing
-  score_composite: 45.3
   shared: 1
 - slug: cycloid
   name: Cycloid
@@ -85,12 +78,12 @@ providers:
   score_band: developing
   score_composite: 44.4
   shared: 1
-- slug: getyourguide
-  name: GetYourGuide
-  description: GetYourGuide is a Berlin-based online travel marketplace for booking tours, activities, attraction tickets, and experiences in destinations around the world. Founded in 2009, the company connects travelers with local activity suppliers and operators, and exposes a public Partner API that gives affi…
-  api_count: 8
+- slug: klook
+  name: Klook
+  description: Klook is a Hong Kong-headquartered travel and experiences booking platform for the "things to do" sector — attractions, tours and activities, theme parks, food and beverage, WiFi and SIM cards, and transportation passes. Klook publishes an Open API specification for merchants, suppliers, reservatio…
+  api_count: 4
   score_band: developing
-  score_composite: 43.5
+  score_composite: 43.9
   shared: 1
 - slug: opslevel
   name: OpsLevel
@@ -105,6 +98,13 @@ providers:
   api_count: 6
   score_band: developing
   score_composite: 41.3
+  shared: 1
+- slug: getyourguide
+  name: GetYourGuide
+  description: GetYourGuide is a Berlin-based online travel marketplace for booking tours, activities, attraction tickets, and experiences in destinations around the world. Founded in 2009, the company connects travelers with local activity suppliers and operators, and exposes a public Partner API that gives affi…
+  api_count: 8
+  score_band: developing
+  score_composite: 40.9
   shared: 1
 - slug: scalable-platforms
   name: Scalable Platforms
@@ -131,13 +131,6 @@ providers:
   name: Roadie
   description: Roadie is managed Backstage - a fully hosted internal developer portal (IDP) and software catalog delivered as SaaS, so teams get the Backstage software catalog, TechDocs, Scaffolder software templates, Tech Insights scorecards, and 75+ plugins without operating Backstage themselves. Roadie exposes…
   api_count: 6
-  score_band: thin
-  score_composite: 38.4
-  shared: 1
-- slug: konfetti
-  name: konfetti
-  description: konfetti (Konfetti GmbH, Berlin) operates a marketplace for bookable experiences — cooking classes, pottery and ceramics workshops, cocktail courses, tastings, boat tours, creative and craft workshops, DIY kits and team events — across Germany and Austria, with more than 7,600 bookable experience l…
-  api_count: 5
   score_band: thin
   score_composite: 38.4
   shared: 1
@@ -176,12 +169,26 @@ providers:
   score_band: thin
   score_composite: 37.0
   shared: 1
+- slug: konfetti
+  name: konfetti
+  description: konfetti (Konfetti GmbH, Berlin) operates a marketplace for bookable experiences — cooking classes, pottery and ceramics workshops, cocktail courses, tastings, boat tours, creative and craft workshops, DIY kits and team events — across Germany and Austria, with more than 7,600 bookable experience l…
+  api_count: 5
+  score_band: thin
+  score_composite: 36.9
+  shared: 1
+- slug: software
+  name: Software
+  description: Software (software.com) is the developer-productivity company behind the Code Time and Music Time editor plugins, now rebranded and operating as Antenna (antenna.dev). Antenna is an AI-native development intelligence platform — a control plane for AI-driven software development that measures AI-too…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.6
+  shared: 1
 - slug: fabric-com
   name: fabric
   description: ''
   api_count: 61
   score_band: thin
-  score_composite: 36.8
+  score_composite: 36.6
   shared: 1
 - slug: readme-metrics
   name: ReadMe Metrics
@@ -190,19 +197,12 @@ providers:
   score_band: thin
   score_composite: 36.3
   shared: 1
-- slug: qovery
-  name: Qovery
-  description: Qovery is an internal developer platform that simplifies cloud deployment and infrastructure management, enabling developers to self-serve environments on AWS, GCP, and Azure.
-  api_count: 94
+- slug: port-io
+  name: Port
+  description: Port is an Internal Developer Portal built around an API-first software catalog, customizable blueprints and entities, self-service actions, and scorecards. Platform teams model their own domain (services, environments, pipelines, AI agents, cloud resources) as blueprints, ingest data from integrat…
+  api_count: 16
   score_band: thin
-  score_composite: 35.9
-  shared: 1
-- slug: software
-  name: Software
-  description: Software (software.com) is the developer-productivity company behind the Code Time and Music Time editor plugins, now rebranded and operating as Antenna (antenna.dev). Antenna is an AI-native development intelligence platform — a control plane for AI-driven software development that measures AI-too…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.9
+  score_composite: 35.3
   shared: 1
 - slug: cortex-app
   name: Cortex
@@ -211,17 +211,17 @@ providers:
   score_band: thin
   score_composite: 34.7
   shared: 1
-- slug: stainless
-  name: Stainless
-  description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic, Cloudflare, Google, and OpenAI, Stainless automates the boil…
-  api_count: 10
+- slug: qovery
+  name: Qovery
+  description: Qovery is an internal developer platform that simplifies cloud deployment and infrastructure management, enabling developers to self-serve environments on AWS, GCP, and Azure.
+  api_count: 94
   score_band: thin
-  score_composite: 33.6
+  score_composite: 34.1
   shared: 1
 related:
 - slug: documentation
   name: Documentation
-  shared: 4
+  shared: 3
 - slug: microservices
   name: Microservices
   shared: 2
@@ -240,7 +240,7 @@ related:
 overview: 'Developer Experience is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [developer-experience.apievangelist.com](https://developer-experience.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Adobe Suite, Unblocked, Treblle, Signadot, APIMatic, Viator, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Adobe Suite, Treblle, Unblocked, Signadot, APIMatic, Viator, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation, Microservices, Testing, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

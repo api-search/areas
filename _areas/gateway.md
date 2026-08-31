@@ -15,13 +15,6 @@ providers:
   score_band: strong
   score_composite: 56.4
   shared: 1
-- slug: dedaluslabs
-  name: Dedalus Labs
-  description: 'Dedalus Labs builds infrastructure for AI agents. It runs two production APIs: the Dedalus Agents API, an OpenAI-compatible MCP gateway that lets you mix and match any model from any provider with tools drawn from the Dedalus MCP marketplace (chat completions, embeddings, audio, images, and OCR thr…'
-  api_count: 16
-  score_band: strong
-  score_composite: 56.1
-  shared: 1
 - slug: amazon-storage-gateway
   name: Amazon Storage Gateway
   description: AWS Storage Gateway is a hybrid cloud storage service that provides on-premises access to virtually unlimited cloud storage. It seamlessly connects on-premises environments to AWS cloud storage, providing low-latency data access with local caching.
@@ -29,26 +22,26 @@ providers:
   score_band: strong
   score_composite: 55.4
   shared: 1
+- slug: dedaluslabs
+  name: Dedalus Labs
+  description: 'Dedalus Labs builds infrastructure for AI agents. It runs two production APIs: the Dedalus Agents API, an OpenAI-compatible MCP gateway that lets you mix and match any model from any provider with tools drawn from the Dedalus MCP marketplace (chat completions, embeddings, audio, images, and OCR thr…'
+  api_count: 7
+  score_band: developing
+  score_composite: 53.2
+  shared: 1
 - slug: amazon-api-gateway
   name: Amazon API Gateway
   description: Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
   api_count: 18
-  score_band: strong
-  score_composite: 54.5
+  score_band: developing
+  score_composite: 51.9
   shared: 1
 - slug: couchbase
   name: Couchbase
   description: Couchbase is a distributed, document-oriented NoSQL cloud database platform that combines the flexibility of JSON, the power of SQL++ querying, and the performance of an in-memory key-value store. The Couchbase product line includes Couchbase Server (self-managed), Couchbase Capella (fully managed…
   api_count: 54
   score_band: developing
-  score_composite: 50.6
-  shared: 1
-- slug: onecli
-  name: Onecli
-  description: OneCLI is an open-source credential gateway and identity layer for AI agents. Agents connect to Gmail, GitHub, Slack, AWS, Jira and 50+ other services through a network-layer proxy that injects real API keys and OAuth tokens at request time, so the agent only ever sees placeholder credential stubs…
-  api_count: 24
-  score_band: developing
-  score_composite: 50.4
+  score_composite: 51.7
   shared: 1
 - slug: openrouter
   name: OpenRouter
@@ -56,6 +49,13 @@ providers:
   api_count: 7
   score_band: developing
   score_composite: 50.4
+  shared: 1
+- slug: onecli
+  name: Onecli
+  description: OneCLI is an open-source credential gateway and identity layer for AI agents. Agents connect to Gmail, GitHub, Slack, AWS, Jira and 50+ other services through a network-layer proxy that injects real API keys and OAuth tokens at request time, so the agent only ever sees placeholder credential stubs…
+  api_count: 24
+  score_band: developing
+  score_composite: 48.9
   shared: 1
 - slug: requesty
   name: Requesty
@@ -90,7 +90,7 @@ providers:
   description: InterPlanetary File System (IPFS) is a peer-to-peer hypermedia protocol and distributed content-addressed storage system. The Kubo implementation exposes an HTTP RPC API (/api/v0/) for adding, pinning, and retrieving content-addressed files, managing DAG (Directed Acyclic Graph) nodes, key manageme…
   api_count: 40
   score_band: thin
-  score_composite: 34.0
+  score_composite: 34.1
   shared: 1
 - slug: osmapi
   name: osmAPI
@@ -110,14 +110,11 @@ related:
 - slug: database
   name: Database
   shared: 1
-- slug: serverless
-  name: Serverless
-  shared: 1
 overview: 'Gateway is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [gateway.apievangelist.com](https://gateway.apievangelist.com).
 
 
-  14 providers on the network work in this area, including Martian, Dedalus Labs, Amazon Storage Gateway, Amazon API Gateway, Couchbase, Onecli, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  14 providers on the network work in this area, including Martian, Amazon Storage Gateway, Dedalus Labs, Amazon API Gateway, Couchbase, OpenRouter, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Database and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

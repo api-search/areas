@@ -20,7 +20,7 @@ providers:
   description: 'A profile of the Ruby programming language ecosystem from an API perspective: the language and its standard library HTTP surface (Net::HTTP), the rubygems.org package registry and its public v1/v2 REST API, Bundler, RBS type signatures, popular HTTP/REST client gems (Faraday, http.rb, HTTParty, Exc…'
   api_count: 23
   score_band: developing
-  score_composite: 44.3
+  score_composite: 44.9
   shared: 1
 - slug: hoppscotch
   name: Hoppscotch
@@ -41,7 +41,7 @@ providers:
   description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the need to take a dependency on a different hand-written SDK f…'
   api_count: 1
   score_band: thin
-  score_composite: 38.5
+  score_composite: 38.1
   shared: 1
 - slug: httpie
   name: HTTPie
@@ -55,7 +55,7 @@ providers:
   description: REST Client is a Visual Studio Code extension developed by Huachao Mao that enables developers to send HTTP requests and view responses directly within the VS Code editor. It supports RFC 2616 HTTP request format using .http and .rest files, GraphQL queries, cURL commands, multiple authentication s…
   api_count: 1
   score_band: thin
-  score_composite: 27.1
+  score_composite: 28.4
   shared: 1
 - slug: requests
   name: Requests

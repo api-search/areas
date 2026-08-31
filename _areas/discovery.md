@@ -13,21 +13,21 @@ providers:
   description: 'Taboola (NASDAQ: TBLA) is a New-York-headquartered native and discovery advertising company founded in 2007 by Adam Singolda. Its Realize performance marketing platform serves recommendation widgets across major publishers (a 30-year exclusive partnership with Yahoo since 2022) and offers advertise…'
   api_count: 16
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 68.9
   shared: 1
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 39
+  api_count: 51
   score_band: exemplar
-  score_composite: 67.1
+  score_composite: 67.2
   shared: 1
 - slug: algolia
   name: Algolia
   description: Algolia is a hosted search and discovery platform that delivers fast, typo-tolerant search, browse, recommendations and personalization through a suite of REST APIs and edge-distributed infrastructure. It powers search experiences for ecommerce, media, SaaS and content sites, pairing a synchronous…
   api_count: 15
   score_band: strong
-  score_composite: 63.6
+  score_composite: 61.1
   shared: 1
 - slug: tmdb
   name: The Movie Database
@@ -41,7 +41,7 @@ providers:
   description: Azure Migrate provides a unified platform for discovering, assessing, and migrating on-premises servers, infrastructure, applications, databases, and data to Azure. Its REST APIs enable programmatic management of migration projects, discovery, assessment, and replication workflows for VMs, database…
   api_count: 9
   score_band: developing
-  score_composite: 50.4
+  score_composite: 51.1
   shared: 1
 - slug: amazon-resource-explorer
   name: Amazon Resource Explorer
@@ -62,14 +62,7 @@ providers:
   description: OCLC WorldCat REST API for searching 500 million+ library holdings worldwide, accessing bibliographic records, finding library locations, and retrieving rich metadata for books, videos, music, and other media. Provides access to the WorldCat Search API, WorldCat Metadata API, WorldCat Knowledge Bas…
   api_count: 20
   score_band: developing
-  score_composite: 44.1
-  shared: 1
-- slug: voidpet
-  name: Voidpet
-  description: Voidpet is a creative games studio behind emotion-inspired games, stories, characters, and community — including Voidpet Dungeon, a turn-based roguelite RPG about befriending and battling emotion-inspired creatures, and Voidpet Garden, a mental-health companion game for collecting emotions and prac…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.4
+  score_composite: 44.0
   shared: 1
 - slug: productplan
   name: ProductPlan
@@ -78,12 +71,19 @@ providers:
   score_band: developing
   score_composite: 40.5
   shared: 1
+- slug: voidpet
+  name: Voidpet
+  description: Voidpet is a creative games studio behind emotion-inspired games, stories, characters, and community — including Voidpet Dungeon, a turn-based roguelite RPG about befriending and battling emotion-inspired creatures, and Voidpet Garden, a mental-health companion game for collecting emotions and prac…
+  api_count: 2
+  score_band: developing
+  score_composite: 39.8
+  shared: 1
 - slug: artifact-hub
   name: Artifact Hub
   description: Artifact Hub is a CNCF incubating web-based application that enables finding, installing, and publishing cloud-native packages. Built primarily in TypeScript and Go, it addresses fragmentation in the cloud-native ecosystem by providing a single discovery experience for consumers. It supports 27+ ar…
   api_count: 10
   score_band: thin
-  score_composite: 37.1
+  score_composite: 37.8
   shared: 1
 - slug: audiomack
   name: Audiomack
@@ -92,33 +92,33 @@ providers:
   score_band: thin
   score_composite: 33.8
   shared: 1
-- slug: podcastindex
-  name: PodcastIndex
-  description: The Podcast Index (Podcast Index LLC) is a software developer focused partnership that provides tools and data to anyone who aspires to create new and exciting Podcast experiences without the heavy lifting of indexing, aggregation and data management.
-  api_count: 11
-  score_band: thin
-  score_composite: 33.4
-  shared: 1
 - slug: bored
   name: Bored API
   description: The Bored API is a free, open-source, no-authentication public API that serves suggestions for things to do when you are bored. The canonical reference implementation is an MEVN (MongoDB / Express / Vue / Node) project maintained by Drew Thoennes at github.com/drewthoennes/Bored-API (MIT licensed).…
   api_count: 5
   score_band: thin
-  score_composite: 32.5
+  score_composite: 32.4
+  shared: 1
+- slug: podcastindex
+  name: PodcastIndex
+  description: The Podcast Index (Podcast Index LLC) is a software developer focused partnership that provides tools and data to anyone who aspires to create new and exciting Podcast experiences without the heavy lifting of indexing, aggregation and data management.
+  api_count: 11
+  score_band: thin
+  score_composite: 30.2
   shared: 1
 - slug: agentic-resource-discovery
   name: Agentic Resource Discovery (ARD)
   description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked set of MCP servers, agent cards, skills, workflows and APIs i…
-  api_count: 2
-  score_band: emerging
-  score_composite: 25.9
+  api_count: 4
+  score_band: thin
+  score_composite: 26.9
   shared: 1
 - slug: amazon-application-discovery-service
   name: Amazon Application Discovery Service
   description: Amazon Application Discovery Service helps enterprise customers plan application migration projects by automatically identifying servers, virtual machines, software, and software dependencies running in their on-premises data centers.
   api_count: 6
   score_band: emerging
-  score_composite: 24.3
+  score_composite: 21.7
   shared: 1
 - slug: tel-aviv-university
   name: Tel Aviv University
@@ -141,26 +141,19 @@ providers:
   score_band: emerging
   score_composite: 13.9
   shared: 1
+- slug: equipboard
+  name: Equipboard
+  description: Equipboard is a community-sourced music-gear discovery platform where musicians, producers, and DJs find the equipment behind the music. Members browse the gear their favorite artists play — guitars, effects pedals, synthesizers, DAWs, plug-ins, microphones, drum machines, and keyboards — build and…
+  api_count: 0
+  score_band: emerging
+  score_composite: 13.5
+  shared: 1
 - slug: qidz-holding
   name: QiDZ Holding
   description: QiDZ Holding operates theQapp (formerly QiDZ), a consumer mobile platform that helps families discover, compare, and book activities, entertainment, and dining experiences across the United Arab Emirates and the wider Middle East (Dubai, Abu Dhabi, Riyadh, Jeddah, Eastern Province, Manama, and Cair…
   api_count: 0
   score_band: emerging
   score_composite: 13.0
-  shared: 1
-- slug: dice
-  name: DICE
-  description: DICE is a mobile-first live events discovery and ticketing platform founded in London in 2014 by Phil Hutcheon. Through the DICE app (iOS and Android) and dice.fm, fans discover concerts, club nights, festivals, tours and livestreams, buy fee-transparent tickets that live securely in-app, join wait…
-  api_count: 0
-  score_band: emerging
-  score_composite: 12.8
-  shared: 1
-- slug: equipboard
-  name: Equipboard
-  description: Equipboard is a community-sourced music-gear discovery platform where musicians, producers, and DJs find the equipment behind the music. Members browse the gear their favorite artists play — guitars, effects pedals, synthesizers, DAWs, plug-ins, microphones, drum machines, and keyboards — build and…
-  api_count: 0
-  score_band: emerging
-  score_composite: 12.8
   shared: 1
 - slug: api-stack
   name: API Stack
@@ -203,6 +196,13 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 11.8
+  shared: 1
+- slug: dice
+  name: DICE
+  description: DICE is a mobile-first live events discovery and ticketing platform founded in London in 2014 by Phil Hutcheon. Through the DICE app (iOS and Android) and dice.fm, fans discover concerts, club nights, festivals, tours and livestreams, buy fee-transparent tickets that live securely in-app, join wait…
+  api_count: 0
+  score_band: emerging
+  score_composite: 11.7
   shared: 1
 - slug: qraved
   name: Qraved

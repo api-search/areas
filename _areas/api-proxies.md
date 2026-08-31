@@ -6,14 +6,14 @@ description: An index and topic collection covering reverse-proxy and edge-proxy
 area_url: https://api-proxies.apievangelist.com
 area_host: api-proxies.apievangelist.com
 icon: https://api-proxies.apievangelist.com/icon-thumb.png
-provider_count: 13
+provider_count: 14
 providers:
 - slug: webscraping-ai
   name: WebScraping.AI
   description: WebScraping.AI is a web scraping API that returns the rendered HTML, visible text, CSS-selected fragments, or LLM-extracted structured data of any URL, so callers do not have to operate their own scraping infrastructure. The service handles headless Chromium JavaScript rendering, rotating datacente…
   api_count: 6
   score_band: strong
-  score_composite: 62.6
+  score_composite: 58.3
   shared: 1
 - slug: hyperbrowser
   name: Hyperbrowser
@@ -27,7 +27,7 @@ providers:
   description: Nimble (Nimbleway) is a real-time web data intelligence platform that turns any public web page into structured, analysis-ready data at scale. Its AI-Native SDK exposes Search, Extract, Map, Crawl, SERP, Media Download, and Web Search Agents over a single REST API (https://sdk.nimbleway.com/v1), pl…
   api_count: 11
   score_band: strong
-  score_composite: 56.2
+  score_composite: 54.8
   shared: 1
 - slug: oxylabs
   name: Oxylabs
@@ -43,26 +43,33 @@ providers:
   score_band: developing
   score_composite: 51.8
   shared: 1
+- slug: zyte
+  name: Zyte
+  description: Zyte (formerly Scrapinghub, the company behind the Scrapy framework) is a web data extraction platform. Its flagship Zyte API is a single POST endpoint that fetches any URL through an automatic anti-ban network, optionally rendering it in a browser, running interaction actions, capturing network tr…
+  api_count: 3
+  score_band: developing
+  score_composite: 50.4
+  shared: 1
+- slug: scrapingant
+  name: ScrapingAnt
+  description: ScrapingAnt is a web-data infrastructure platform operated by DATAANT that puts headless Chrome rendering, a rotating pool of 3M+ residential and datacenter proxies, CAPTCHA avoidance and AI-powered extraction behind a single HTTP API. One request returns a fully JavaScript-rendered page as raw HTM…
+  api_count: 4
+  score_band: developing
+  score_composite: 49.4
+  shared: 1
 - slug: zenrows
   name: ZenRows
   description: 'ZenRows is a Spanish web scraping platform headquartered in Madrid that lets developers collect public web data at scale without managing proxies, browsers, or CAPTCHAs. A single API key unlocks four products against a shared 55M+ residential IP pool across 190+ countries: the Universal Scraper API…'
   api_count: 6
   score_band: developing
-  score_composite: 50.4
+  score_composite: 45.3
   shared: 1
 - slug: spider-cloud
   name: Spider
   description: Spider is a Rust-based, AI-friendly web scraping and crawling cloud. Point it at a URL and get back clean markdown, structured JSON, screenshots, or links — at up to 100K pages per second — with anti-bot bypass, residential proxies, headless browsers, and native MCP, LangChain, LlamaIndex, CrewAI,…
   api_count: 10
   score_band: developing
-  score_composite: 48.3
-  shared: 1
-- slug: smartproxy
-  name: Smartproxy
-  description: Smartproxy (now also known as Decodo) is a proxy network and web scraping infrastructure platform providing residential, datacenter, mobile, and ISP proxies for web data collection at scale. The Smartproxy API enables programmatic management of proxy accounts, sub-users, traffic allocation, IP whit…
-  api_count: 6
-  score_band: thin
-  score_composite: 36.3
+  score_composite: 43.5
   shared: 1
 - slug: scrapfly
   name: Scrapfly
@@ -78,6 +85,13 @@ providers:
   score_band: thin
   score_composite: 34.4
   shared: 1
+- slug: smartproxy
+  name: Smartproxy
+  description: Smartproxy (now also known as Decodo) is a proxy network and web scraping infrastructure platform providing residential, datacenter, mobile, and ISP proxies for web data collection at scale. The Smartproxy API enables programmatic management of proxy accounts, sub-users, traffic allocation, IP whit…
+  api_count: 6
+  score_band: thin
+  score_composite: 34.2
+  shared: 1
 - slug: envoy-proxy
   name: Envoy Proxy
   description: Envoy Proxy is an open-source edge and service proxy that is designed for cloud-native applications. It acts as a gateway for all incoming and outgoing traffic within a microservices architecture, providing functionalities such as load balancing, service discovery, encryption, authentication, and o…
@@ -92,22 +106,18 @@ providers:
   score_band: thin
   score_composite: 28.4
   shared: 1
-- slug: scrapingant
-  name: ScrapingAnt
-  description: ScrapingAnt is a web scraping API service that handles proxy rotation, headless browsers, and CAPTCHA solving for reliable web data extraction.
-  api_count: 2
-  score_band: thin
-  score_composite: 27.8
-  shared: 1
 related:
 - slug: scraping
   name: Scraping
-  shared: 4
+  shared: 5
+- slug: agents-skills
+  name: Agent Skills
+  shared: 1
 overview: 'API Proxies is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-proxies.apievangelist.com](https://api-proxies.apievangelist.com).
 
 
-  13 providers on the network work in this area, including WebScraping.AI, Hyperbrowser, Nimbleway, Oxylabs, ngrok, ZenRows, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  14 providers on the network work in this area, including WebScraping.AI, Hyperbrowser, Nimbleway, Oxylabs, ngrok, Zyte, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Scraping and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

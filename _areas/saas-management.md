@@ -6,8 +6,15 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 66
+provider_count: 72
 providers:
+- slug: levitate
+  name: Levitate
+  description: Levitate is a relationship-marketing and "Happiness Platform" SaaS for relationship-based small businesses — insurance agencies, financial advisors, law firms, nonprofits, home services and faith organizations — founded in 2017 in Raleigh, North Carolina by ShareFile founder Jesse Lipson. The produ…
+  api_count: 4
+  score_band: strong
+  score_composite: 61.6
+  shared: 1
 - slug: boomi
   name: Boomi
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
@@ -15,40 +22,33 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
-- slug: levitate
-  name: Levitate
-  description: Levitate is a relationship-marketing and "Happiness Platform" SaaS for relationship-based small businesses — insurance agencies, financial advisors, law firms, nonprofits, home services and faith organizations — founded in 2017 in Raleigh, North Carolina by ShareFile founder Jesse Lipson. The produ…
-  api_count: 2
-  score_band: strong
-  score_composite: 58.3
-  shared: 1
 - slug: medtrainer
   name: MedTrainer
   description: MedTrainer is a healthcare workforce compliance software company that consolidates learning management, credentialing and provider enrollment, document and policy management, incident reporting, safety plans, contract management and exclusion/sanction monitoring into a single all-in-one platform fo…
-  api_count: 1
+  api_count: 6
   score_band: strong
-  score_composite: 56.1
+  score_composite: 61.4
   shared: 1
 - slug: sense-talent-labs
   name: Sense Talent Labs
   description: Sense Talent Labs, operating as Sense (sensehq.com), is an AI-powered talent engagement and recruiting automation platform founded in 2016 and used by staffing firms and enterprise talent-acquisition teams. The product suite spans recruiting automation, a talent CRM, campaigns and journeys, candida…
-  api_count: 1
+  api_count: 11
   score_band: strong
-  score_composite: 55.3
-  shared: 1
-- slug: hiver
-  name: Hiver
-  description: 'Hiver (Hiver Inc., originally GrexIt) builds an AI-powered customer service platform for teams that run support out of shared email addresses. It ships in two forms: Hiver in Gmail, a Chrome-extension helpdesk that turns shared inboxes like support@ and billing@ into assignable, SLA-tracked queues…'
-  api_count: 1
-  score_band: strong
-  score_composite: 54.7
+  score_composite: 59.1
   shared: 1
 - slug: leanlaw
   name: LeanLaw
   description: LeanLaw is legal billing and revenue-operations software for small and mid-sized law firms, built natively on QuickBooks Online. It runs the full law-firm revenue lifecycle — time and expense tracking, matter management, trust/IOLTA accounting, flat-fee and contingency billing, invoicing, e-payment…
-  api_count: 2
+  api_count: 11
   score_band: strong
-  score_composite: 54.7
+  score_composite: 57.4
+  shared: 1
+- slug: hiver
+  name: Hiver
+  description: 'Hiver (Hiver Inc., originally GrexIt) builds an AI-powered customer service platform for teams that run support out of shared email addresses. It ships in two forms: Hiver in Gmail, a Chrome-extension helpdesk that turns shared inboxes like support@ and billing@ into assignable, SLA-tracked queues…'
+  api_count: 2
+  score_band: developing
+  score_composite: 54.0
   shared: 1
 - slug: wundergraph
   name: WunderGraph
@@ -57,19 +57,33 @@ providers:
   score_band: developing
   score_composite: 53.2
   shared: 1
-- slug: peek
-  name: Peek
-  description: 'Peek is a San Francisco-based travel technology company founded in 2012 by Ruzwana Bashir and Oskar Bruening. It operates two connected surfaces: peek.com, a consumer marketplace of 300,000+ bookable tours, activities, rentals and attractions, and Peek Pro, the booking and back-office operating sys…'
-  api_count: 2
+- slug: super-studio
+  name: SUPER STUDIO
+  description: SUPER STUDIO (株式会社SUPER STUDIO) is a Tokyo-based commerce software company founded in 2014 that builds "ecforce", an AI commerce platform used by Japanese D2C and subscription brands for storefronts, order management, subscriptions, CRM, marketing automation and BI. The platform is multi-tenant and…
+  api_count: 3
   score_band: developing
-  score_composite: 51.3
+  score_composite: 53.1
+  shared: 1
+- slug: lumos
+  name: Lumos
+  description: Lumos is the first Autonomous Identity Platform that helps organizations discover and manage access to all apps with enhanced security, increased productivity, and reduced cost. Lumos automates access requests, enforces least privilege, speeds up user access reviews, and eliminates extra SaaS app s…
+  api_count: 16
+  score_band: developing
+  score_composite: 52.3
   shared: 1
 - slug: dell-servers
   name: Dell Servers
   description: APIs for managing and monitoring Dell PowerEdge servers and infrastructure, including the iDRAC Redfish out-of-band management interface, OpenManage Enterprise centralized console and its modular, power, support, and VMware integrations, telemetry streaming, the Lifecycle Controller, RACADM, and th…
   api_count: 27
   score_band: developing
-  score_composite: 50.5
+  score_composite: 51.4
+  shared: 1
+- slug: peek
+  name: Peek
+  description: 'Peek is a San Francisco-based travel technology company founded in 2012 by Ruzwana Bashir and Oskar Bruening. It operates two connected surfaces: peek.com, a consumer marketplace of 300,000+ bookable tours, activities, rentals and attractions, and Peek Pro, the booking and back-office operating sys…'
+  api_count: 2
+  score_band: developing
+  score_composite: 50.2
   shared: 1
 - slug: snaplogic
   name: SnapLogic
@@ -99,12 +113,12 @@ providers:
   score_band: developing
   score_composite: 48.1
   shared: 1
-- slug: logiwa
-  name: Logiwa
-  description: Logiwa is a Chicago-based cloud fulfillment software company whose flagship product, Logiwa IO, is a warehouse management and fulfillment management system (WMS/FMS) built for high-volume B2C and DTC brands, wholesalers and third-party logistics providers (3PLs). Logiwa exposes a documented Integra…
-  api_count: 2
+- slug: sponsorunited
+  name: SponsorUnited
+  description: SponsorUnited is a sports and entertainment sponsorship intelligence platform, founded in 2018 and headquartered in Stamford, Connecticut. Its B2B SaaS product gives brands, rights holders (teams, leagues, venues and events), agencies and media companies a searchable dataset of marketing partnershi…
+  api_count: 1
   score_band: developing
-  score_composite: 45.8
+  score_composite: 46.8
   shared: 1
 - slug: zylo
   name: Zylo
@@ -112,6 +126,13 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 45.4
+  shared: 1
+- slug: logiwa
+  name: Logiwa
+  description: Logiwa is a Chicago-based cloud fulfillment software company whose flagship product, Logiwa IO, is a warehouse management and fulfillment management system (WMS/FMS) built for high-volume B2C and DTC brands, wholesalers and third-party logistics providers (3PLs). Logiwa exposes a documented Integra…
+  api_count: 2
+  score_band: developing
+  score_composite: 44.7
   shared: 1
 - slug: tropic
   name: Tropic
@@ -141,19 +162,12 @@ providers:
   score_band: developing
   score_composite: 39.5
   shared: 1
-- slug: trelica
-  name: Trelica
-  description: Trelica is a SaaS management platform (now part of 1Password SaaS Manager) providing application discovery, license optimization, contract management, and workflow automation for IT teams. The platform offers a REST API covering applications, users, people, contracts, workflows, assets, and audit l…
-  api_count: 8
-  score_band: thin
-  score_composite: 39.2
-  shared: 1
 - slug: layerx
   name: LayerX
   description: 'LayerX Inc. (株式会社LayerX) is a Tokyo-based enterprise software company founded 1 August 2018, operating as a compound startup across four business lines: Bakuraku (バクラク), an AI back-office suite covering expense reimbursement, invoice receipt and issuance, workflow and approvals, electronic bookkeep…'
   api_count: 1
   score_band: thin
-  score_composite: 38.1
+  score_composite: 37.0
   shared: 1
 - slug: snow-software
   name: Snow Software
@@ -162,40 +176,26 @@ providers:
   score_band: thin
   score_composite: 36.9
   shared: 1
-- slug: loopio
-  name: Loopio
-  description: Loopio is a Toronto-based response management platform used by teams to answer RFPs, RFIs, DDQs, and security questionnaires from a governed, reusable content Library. It publishes a public REST API — the Loopio Public API v2 at https://api.loopio.com/data/v2 — documented on a Stoplight developer p…
-  api_count: 1
+- slug: trelica
+  name: Trelica
+  description: Trelica is a SaaS management platform (now part of 1Password SaaS Manager) providing application discovery, license optimization, contract management, and workflow automation for IT teams. The platform offers a REST API covering applications, users, people, contracts, workflows, assets, and audit l…
+  api_count: 8
   score_band: thin
-  score_composite: 34.7
-  shared: 1
-- slug: retail-zipline
-  name: Retail Zipline
-  description: Retail Zipline, Inc. (branded "Zipline") is a San Francisco-based retail operations software company founded in 2014 by Melissa Wong and Jeremy Baker. Its cloud platform coordinates communications, task management, checklists, audits, learning, knowledge base and performance reporting across headqu…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.4
-  shared: 1
-- slug: coreview-fka-4ward365
-  name: CoreView (FKA 4ward365)
-  description: CoreView (formerly 4ward365) is an enterprise Microsoft 365 governance, security, and automation platform. It secures the configuration, identity, and access layers of Microsoft 365 tenants and provides delegated administration, license management, reporting, and workflow automation. CoreView expos…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.8
+  score_composite: 35.2
   shared: 1
 - slug: league
   name: League
   description: League is a Toronto-founded (2014) healthcare platform company whose Health OS powers consumer healthcare experiences for payers, providers, consumer health brands and employers, and which now positions itself as a healthcare-grade agentic experience platform shipping pre-built AI Agent Teams for b…
   api_count: 1
   score_band: thin
-  score_composite: 33.7
+  score_composite: 34.5
   shared: 1
-- slug: lumos
-  name: Lumos
-  description: Lumos is the first Autonomous Identity Platform that helps organizations discover and manage access to all apps with enhanced security, increased productivity, and reduced cost. Lumos automates access requests, enforces least privilege, speeds up user access reviews, and eliminates extra SaaS app s…
-  api_count: 16
+- slug: loopio
+  name: Loopio
+  description: Loopio is a Toronto-based response management platform used by teams to answer RFPs, RFIs, DDQs, and security questionnaires from a governed, reusable content Library. It publishes a public REST API — the Loopio Public API v2 at https://api.loopio.com/data/v2 — documented on a Stoplight developer p…
+  api_count: 15
   score_band: thin
-  score_composite: 33.5
+  score_composite: 34.5
   shared: 1
 - slug: broadcom
   name: Broadcom
@@ -204,19 +204,19 @@ providers:
   score_band: thin
   score_composite: 33.3
   shared: 1
+- slug: retail-zipline
+  name: Retail Zipline
+  description: Retail Zipline, Inc. (branded "Zipline") is a San Francisco-based retail operations software company founded in 2014 by Melissa Wong and Jeremy Baker. Its cloud platform coordinates communications, task management, checklists, audits, learning, knowledge base and performance reporting across headqu…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.3
+  shared: 1
 - slug: bettercloud
   name: BetterCloud
   description: BetterCloud is the end-to-end SaaS management platform that enables IT teams to discover, manage, and secure the growing SaaS environment. The platform provides automated workflows, security policies, and management capabilities for SaaS applications in enterprise environments, handling billions of…
   api_count: 5
   score_band: thin
-  score_composite: 32.8
-  shared: 1
-- slug: zenadmin
-  name: ZenAdmin
-  description: 'ZenAdmin is an all-in-one IT management platform for global teams, covering the full device and employee lifecycle: IT procurement, device lifecycle management, asset and inventory tracking, mobile device management (MDM), identity and access management, SaaS/app management, IT helpdesk, and 24/7 I…'
-  api_count: 6
-  score_band: thin
-  score_composite: 31.5
+  score_composite: 32.9
   shared: 1
 related:
 - slug: management
@@ -240,7 +240,7 @@ related:
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Boomi, Levitate, MedTrainer, Sense Talent Labs, Hiver, LeanLaw, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Levitate, Boomi, MedTrainer, Sense Talent Labs, LeanLaw, Hiver, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Management, Webhooks, AI Automation, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

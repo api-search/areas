@@ -6,14 +6,14 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://documentation.apievangelist.com
 area_host: documentation.apievangelist.com
 icon: https://documentation.apievangelist.com/icon-thumb.png
-provider_count: 89
+provider_count: 90
 providers:
 - slug: confluence
   name: Confluence
   description: APIs for Atlassian Confluence - team collaboration and knowledge management software.
   api_count: 66
   score_band: strong
-  score_composite: 65.1
+  score_composite: 64.4
   shared: 1
 - slug: treblle
   name: Treblle
@@ -22,12 +22,12 @@ providers:
   score_band: strong
   score_composite: 57.8
   shared: 1
-- slug: companycam
-  name: CompanyCam
-  description: CompanyCam is a photo-based job-site documentation platform for contractors and the trades — roofing, restoration, solar, home services and construction. Its mobile apps capture location- and time-stamped photos and videos that sync to a shared, project-organized workspace so crews, offices and cli…
-  api_count: 10
+- slug: zeroheight
+  name: Zeroheight
+  description: 'zeroheight is a design system platform where teams document components, patterns, guidelines and design tokens in a styleguide, then deliver that documentation to designers, engineers and AI agents. It exposes two machine surfaces: a small key-authenticated REST API (https://zeroheight.com/open_api…'
+  api_count: 2
   score_band: strong
-  score_composite: 57.1
+  score_composite: 57.3
   shared: 1
 - slug: hashnode
   name: Hashnode
@@ -36,12 +36,12 @@ providers:
   score_band: strong
   score_composite: 57.0
   shared: 1
-- slug: speakeasy
-  name: Speakeasy
-  description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
-  api_count: 20
+- slug: companycam
+  name: CompanyCam
+  description: CompanyCam is a photo-based job-site documentation platform for contractors and the trades — roofing, restoration, solar, home services and construction. Its mobile apps capture location- and time-stamped photos and videos that sync to a shared, project-organized workspace so crews, offices and cli…
+  api_count: 10
   score_band: strong
-  score_composite: 55.3
+  score_composite: 55.6
   shared: 1
 - slug: apidog
   name: Apidog
@@ -57,33 +57,19 @@ providers:
   score_band: developing
   score_composite: 52.9
   shared: 1
-- slug: hackmd
-  name: HackMD
-  description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide decks or books. HackMD exposes a v1 REST API at api.hackmd.io…
-  api_count: 8
+- slug: speakeasy
+  name: Speakeasy
+  description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
+  api_count: 20
   score_band: developing
-  score_composite: 52.8
-  shared: 1
-- slug: sweep
-  name: Sweep
-  description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes safely across complex systems. It unifies discovery, design,…
-  api_count: 2
-  score_band: developing
-  score_composite: 52.5
+  score_composite: 52.2
   shared: 1
 - slug: scribe
   name: Scribe
   description: Scribe (scribehow) is an AI workflow-documentation platform founded in 2019 that automatically turns any process or software walkthrough into a step-by-step guide. Its products — Scribe Capture, the knowledge base, and the newer Scribe Optimize workflow-mapping platform — are used by more than five…
   api_count: 3
   score_band: developing
-  score_composite: 52.4
-  shared: 1
-- slug: elium
-  name: Elium
-  description: Elium is a European enterprise knowledge-management SaaS platform, founded in 2007 as Knowledge Plaza and renamed Elium in 2017, headquartered in Louvain-la-Neuve, Belgium. Teams capture, validate and govern company knowledge as structured articles - which Elium calls "stories" - inside spaces, usi…
-  api_count: 2
-  score_band: developing
-  score_composite: 52.2
+  score_composite: 51.7
   shared: 1
 - slug: apimatic
   name: APIMatic
@@ -92,6 +78,13 @@ providers:
   score_band: developing
   score_composite: 51.6
   shared: 1
+- slug: elium
+  name: Elium
+  description: Elium is a European enterprise knowledge-management SaaS platform, founded in 2007 as Knowledge Plaza and renamed Elium in 2017, headquartered in Louvain-la-Neuve, Belgium. Teams capture, validate and govern company knowledge as structured articles - which Elium calls "stories" - inside spaces, usi…
+  api_count: 2
+  score_band: developing
+  score_composite: 51.1
+  shared: 1
 - slug: mintlify
   name: Mintlify
   description: Mintlify is an AI-native intelligent documentation platform designed for the next generation of technical documentation, combining beautiful out-of-the-box design with advanced collaboration and AI capabilities.
@@ -99,19 +92,26 @@ providers:
   score_band: developing
   score_composite: 51.1
   shared: 1
+- slug: hackmd
+  name: HackMD
+  description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide decks or books. HackMD exposes a v1 REST API at api.hackmd.io…
+  api_count: 8
+  score_band: developing
+  score_composite: 50.2
+  shared: 1
+- slug: sweep
+  name: Sweep
+  description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes safely across complex systems. It unifies discovery, design,…
+  api_count: 70
+  score_band: developing
+  score_composite: 49.9
+  shared: 1
 - slug: swaggerhub
   name: SwaggerHub
   description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.0, OpenAPI 3.0, OpenAPI 3.1, and AsyncAPI specifications. Th…
   api_count: 9
   score_band: developing
   score_composite: 49.8
-  shared: 1
-- slug: planradar
-  name: PlanRadar
-  description: PlanRadar is a SaaS platform for construction and real estate documentation, defect and task management, and site inspections, used by builders, owners, facility managers, architects and engineers in more than 75 countries. Its secure REST Open API (v1 and v2) lets Pro and Enterprise customers read…
-  api_count: 36
-  score_band: developing
-  score_composite: 47.3
   shared: 1
 - slug: atlassian-confluence
   name: Atlassian Confluence
@@ -141,6 +141,13 @@ providers:
   score_band: developing
   score_composite: 45.8
   shared: 1
+- slug: planradar
+  name: PlanRadar
+  description: PlanRadar is a SaaS platform for construction and real estate documentation, defect and task management, and site inspections, used by builders, owners, facility managers, architects and engineers in more than 75 countries. Its secure REST Open API (v1 and v2) lets Pro and Enterprise customers read…
+  api_count: 36
+  score_band: developing
+  score_composite: 45.8
+  shared: 1
 - slug: eraser
   name: Eraser
   description: Eraser is an AI-powered diagramming and technical documentation platform designed for engineering teams. It provides a REST API for generating diagrams from natural language prompts or structured DSL, managing files and workspaces, and embedding interactive technical visuals into documentation work…
@@ -155,19 +162,19 @@ providers:
   score_band: developing
   score_composite: 44.8
   shared: 1
+- slug: openapi-generator
+  name: OpenAPI Generator
+  description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagger Codegen in 2018 by more than 40 of that project's top cont…
+  api_count: 2
+  score_band: developing
+  score_composite: 43.6
+  shared: 1
 - slug: dreamfactory
   name: DreamFactory
   description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
   api_count: 16
   score_band: developing
   score_composite: 42.7
-  shared: 1
-- slug: openapi-generator
-  name: OpenAPI Generator
-  description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagger Codegen in 2018 by more than 40 of that project's top cont…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.0
   shared: 1
 - slug: document360
   name: Document360
@@ -182,13 +189,6 @@ providers:
   api_count: 6
   score_band: developing
   score_composite: 41.0
-  shared: 1
-- slug: corestory
-  name: CoreStory
-  description: CoreStory is an AI code intelligence platform that ingests large brownfield and legacy codebases and reverse-engineers a persistent understanding of how they work — generating product requirements (PRDs), technical specifications, dependency graphs, and business-rule extractions directly from sourc…
-  api_count: 47
-  score_band: developing
-  score_composite: 40.9
   shared: 1
 - slug: slite
   name: Slite
@@ -211,19 +211,22 @@ providers:
   score_band: thin
   score_composite: 38.4
   shared: 1
-- slug: fern
-  name: Fern
-  description: Fern is an SDK generation and documentation platform designed for the AI era. It transforms OpenAPI, AsyncAPI, Protobuf (gRPC), and OpenRPC specifications into idiomatic, production-ready SDKs across nine languages plus auto-generated, branded developer documentation, an AI-first CLI, llms.txt for…
-  api_count: 1
+- slug: corestory
+  name: CoreStory
+  description: CoreStory is an AI code intelligence platform that ingests large brownfield and legacy codebases and reverse-engineers a persistent understanding of how they work — generating product requirements (PRDs), technical specifications, dependency graphs, and business-rule extractions directly from sourc…
+  api_count: 47
   score_band: thin
-  score_composite: 37.5
+  score_composite: 38.3
   shared: 1
 related:
 - slug: developer-experience
   name: Developer Experience
-  shared: 4
+  shared: 3
 - slug: support
   name: Support
+  shared: 2
+- slug: sdk
+  name: SDKs
   shared: 2
 - slug: testing
   name: Testing
@@ -234,14 +237,11 @@ related:
 - slug: search
   name: API Evangelist Search
   shared: 1
-- slug: agents-skills
-  name: Agent Skills
-  shared: 1
 overview: 'Documentation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [documentation.apievangelist.com](https://documentation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Confluence, Treblle, CompanyCam, Hashnode, Speakeasy, Apidog, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Confluence, Treblle, Zeroheight, Hashnode, CompanyCam, Apidog, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Developer Experience, Support, Testing, and Portal. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Developer Experience, Support, SDKs, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

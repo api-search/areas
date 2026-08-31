@@ -15,19 +15,19 @@ providers:
   score_band: strong
   score_composite: 60.1
   shared: 1
-- slug: ezoic
-  name: ezoic
-  description: Ezoic is a website monetization and audience-growth platform for publishers, and a performance advertising marketplace for brands. Publishers integrate EzoicAds (via JavaScript, mobile SDKs for Android/iOS/Flutter/React Native/Unity, or framework SDKs for Angular/React/Vue) to run native, sticky, v…
-  api_count: 5
-  score_band: strong
-  score_composite: 57.0
-  shared: 1
 - slug: cloudflare-ai-gateway
   name: Cloudflare AI Gateway
   description: Cloudflare AI Gateway is a managed LLM proxy that sits in front of 23+ AI providers (OpenAI, Anthropic, Google AI Studio, Google Vertex AI, Amazon Bedrock, Azure OpenAI, Workers AI, Mistral, Cohere, Groq, DeepSeek, Cerebras, xAI, Perplexity, Replicate, HuggingFace, OpenRouter, ElevenLabs, Deepgram,…
   api_count: 7
   score_band: strong
   score_composite: 55.5
+  shared: 1
+- slug: ezoic
+  name: ezoic
+  description: Ezoic is a website monetization and audience-growth platform for publishers, and a performance advertising marketplace for brands. Publishers integrate EzoicAds (via JavaScript, mobile SDKs for Android/iOS/Flutter/React Native/Unity, or framework SDKs for Angular/React/Vue) to run native, sticky, v…
+  api_count: 8
+  score_band: strong
+  score_composite: 54.3
   shared: 1
 - slug: google-cloud-cdn
   name: Google Cloud CDN
@@ -48,7 +48,7 @@ providers:
   description: Momento is a serverless data platform that provides low-latency, pay-as-you-go infrastructure without servers to provision, tune, or scale. Its core services are Momento Cache (an ephemeral serverless cache and drop-in Redis replacement), Momento Topics (a serverless publish/subscribe event bus), a…
   api_count: 1
   score_band: developing
-  score_composite: 39.5
+  score_composite: 40.2
   shared: 1
 - slug: nx
   name: Nx
@@ -85,19 +85,19 @@ providers:
   score_band: thin
   score_composite: 35.1
   shared: 1
-- slug: nginx
-  name: NGINX
-  description: NGINX is a high-performance open-source web server, reverse proxy, and API gateway widely used for load balancing, SSL termination, caching, and traffic management for APIs and microservices. Originally written by Igor Sysoev and released under the 2-clause BSD license, NGINX powers a significant p…
-  api_count: 32
-  score_band: thin
-  score_composite: 35.0
-  shared: 1
 - slug: tailcall
   name: Tailcall
   description: Tailcall is a high-performance GraphQL API gateway and runtime that lets developers compose multiple upstream REST, gRPC, and GraphQL APIs into a unified GraphQL schema. Built in Rust, it offers declarative configuration via .graphql files with directives for HTTP, caching, batching, and security c…
   api_count: 2
   score_band: thin
   score_composite: 34.9
+  shared: 1
+- slug: nginx
+  name: NGINX
+  description: NGINX is a high-performance open-source web server, reverse proxy, and API gateway widely used for load balancing, SSL termination, caching, and traffic management for APIs and microservices. Originally written by Igor Sysoev and released under the 2-clause BSD license, NGINX powers a significant p…
+  api_count: 28
+  score_band: thin
+  score_composite: 34.8
   shared: 1
 - slug: blacksmith-sh
   name: Blacksmith
@@ -132,14 +132,14 @@ providers:
   description: Readyset is a realtime SQL caching engine for Postgres and MySQL. It sits between applications and the database as a wire-compatible proxy, automatically caching the results of costly SELECT queries and keeping them up to date from the database replication stream with no application code changes or…
   api_count: 0
   score_band: emerging
-  score_composite: 22.3
+  score_composite: 21.2
   shared: 1
 - slug: varnish
   name: Varnish Cache
   description: Varnish Cache is a high-performance HTTP accelerator and reverse proxy designed for content-heavy dynamic websites and APIs. It sits in front of web servers and caches HTTP responses to serve repeated requests without hitting the backend, dramatically reducing load and latency. Varnish is configure…
   api_count: 3
   score_band: emerging
-  score_composite: 20.2
+  score_composite: 20.7
   shared: 1
 - slug: timesten
   name: TimesTen
@@ -174,7 +174,7 @@ related:
 overview: 'Caching is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [caching.apievangelist.com](https://caching.apievangelist.com).
 
 
-  21 providers on the network work in this area, including Amazon ElastiCache, ezoic, Cloudflare AI Gateway, Google Cloud CDN, Apache Ignite, Momento, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  21 providers on the network work in this area, including Amazon ElastiCache, Cloudflare AI Gateway, ezoic, Google Cloud CDN, Apache Ignite, Momento, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Network, Proxy, Command Line Interface, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'

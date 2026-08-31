@@ -11,9 +11,9 @@ providers:
 - slug: ab-tasty
   name: AB Tasty
   description: At AB Tasty, we are your partner for pushing great ideas even further through optimization. We achieve this by empowering brands to build better experiences using personalization, experimentation, recommendations, merchandising, and the market's only emotions-based segmentation solution.
-  api_count: 7
+  api_count: 5
   score_band: developing
-  score_composite: 52.4
+  score_composite: 52.3
   shared: 1
 - slug: mx-platform
   name: MX Platform
@@ -55,7 +55,7 @@ providers:
   description: StatsD is the network daemon and UDP-based line protocol for application metrics, originally written at Etsy and now maintained at github.com/statsd/statsd. A StatsD client emits short text packets — counters, gauges, timers, histograms, sets, and meters — to a daemon that aggregates them in memory…
   api_count: 8
   score_band: thin
-  score_composite: 36.2
+  score_composite: 36.6
   shared: 1
 - slug: urjanet
   name: Urjanet

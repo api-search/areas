@@ -12,8 +12,8 @@ providers:
   name: Solo.io
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gatewa…
   api_count: 15
-  score_band: exemplar
-  score_composite: 68.2
+  score_band: strong
+  score_composite: 62.6
   shared: 1
 - slug: aws-app-mesh
   name: AWS App Mesh
@@ -27,21 +27,21 @@ providers:
   description: Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agen…
   api_count: 139
   score_band: developing
-  score_composite: 52.6
+  score_composite: 52.1
   shared: 1
 - slug: amazon-app-mesh
   name: Amazon App Mesh
   description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
   api_count: 4
   score_band: developing
-  score_composite: 48.3
+  score_composite: 45.7
   shared: 1
 - slug: amazon-vpc-lattice
   name: Amazon VPC Lattice
   description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
   api_count: 73
   score_band: developing
-  score_composite: 45.6
+  score_composite: 43.8
   shared: 1
 - slug: tetrate
   name: Tetrate
@@ -62,7 +62,7 @@ providers:
   description: Envoy is a high-performance, open-source edge and service proxy designed for cloud-native applications and microservice architectures. It provides advanced load balancing, observability, and traffic management features, and serves as the data plane for many service mesh implementations including Is…
   api_count: 15
   score_band: thin
-  score_composite: 38.7
+  score_composite: 38.6
   shared: 1
 - slug: istio
   name: Istio
@@ -78,19 +78,19 @@ providers:
   score_band: thin
   score_composite: 38.2
   shared: 1
+- slug: linkerd
+  name: Linkerd
+  description: Service mesh without the mess. Linkerd adds security, observability, and reliability to any Kubernetes cluster without the complexity of bloat of other meshes.
+  api_count: 11
+  score_band: thin
+  score_composite: 38.1
+  shared: 1
 - slug: consul
   name: HashiCorp Consul
   description: HashiCorp Consul is a distributed, highly available service-networking control plane that automates network configuration, discovers services, enables secure service-to-service communication, and exposes a strongly consistent key/value store. The Consul HTTP API is a REST + JSON service exposed by…
   api_count: 14
   score_band: thin
   score_composite: 38.0
-  shared: 1
-- slug: linkerd
-  name: Linkerd
-  description: Service mesh without the mess. Linkerd adds security, observability, and reliability to any Kubernetes cluster without the complexity of bloat of other meshes.
-  api_count: 11
-  score_band: thin
-  score_composite: 37.7
   shared: 1
 - slug: calico
   name: Calico
@@ -120,13 +120,6 @@ providers:
   score_band: thin
   score_composite: 36.0
   shared: 1
-- slug: isovalent
-  name: Isovalent
-  description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium project (a CNCF graduated project), the Hubble observability laye…
-  api_count: 10
-  score_band: thin
-  score_composite: 35.7
-  shared: 1
 - slug: consul-connect
   name: Consul Connect
   description: Consul Connect is the service mesh subsystem of HashiCorp Consul. Connect provides service identity, mTLS, traffic authorization via intentions, and L7 traffic management through Envoy sidecar proxies. Consul Connect ships with a built-in certificate authority that can also be backed by Vault or ex…
@@ -140,6 +133,20 @@ providers:
   api_count: 14
   score_band: thin
   score_composite: 35.0
+  shared: 1
+- slug: traefik-mesh
+  name: Traefik Mesh
+  description: Traefik Mesh (formerly Maesh) is a lightweight, non-invasive service mesh built on top of Traefik Proxy for Kubernetes. It provides automatic traffic management, observability, and security for microservices without requiring sidecar containers. Traefik Mesh is compliant with the Service Mesh Inter…
+  api_count: 3
+  score_band: thin
+  score_composite: 35.0
+  shared: 1
+- slug: isovalent
+  name: Isovalent
+  description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium project (a CNCF graduated project), the Hubble observability laye…
+  api_count: 10
+  score_band: thin
+  score_composite: 34.2
   shared: 1
 - slug: pubmed
   name: PubMed
@@ -155,13 +162,6 @@ providers:
   score_band: thin
   score_composite: 32.8
   shared: 1
-- slug: traefik-mesh
-  name: Traefik Mesh
-  description: Traefik Mesh (formerly Maesh) is a lightweight, non-invasive service mesh built on top of Traefik Proxy for Kubernetes. It provides automatic traffic management, observability, and security for microservices without requiring sidecar containers. Traefik Mesh is compliant with the Service Mesh Inter…
-  api_count: 3
-  score_band: thin
-  score_composite: 31.7
-  shared: 1
 - slug: apiclarity
   name: APIClarity
   description: APIClarity is an open source API security and observability tool that analyzes API traffic to reconstruct OpenAPI specifications, detect shadow and zombie APIs, identify API differences and changes, and provide API security alerts. It is part of the OpenClarity project and works with Kubernetes ser…
@@ -176,12 +176,26 @@ providers:
   score_band: thin
   score_composite: 27.4
   shared: 1
+- slug: open-service-mesh
+  name: Open Service Mesh
+  description: Open Service Mesh (OSM) is a lightweight, extensible, cloud native service mesh built on Envoy and the Service Mesh Interface (SMI) specification. OSM provides traffic shifting, mutual TLS, access control, observability, and automatic sidecar injection for Kubernetes-based microservices. The projec…
+  api_count: 1
+  score_band: emerging
+  score_composite: 24.4
+  shared: 1
 - slug: gloo
   name: Gloo
   description: Gloo is a suite of open-source and enterprise API gateway and service mesh products from Solo.io built on Envoy Proxy, offering advanced traffic management, security, observability, and developer portal capabilities for Kubernetes and cloud-native environments.
   api_count: 4
   score_band: emerging
   score_composite: 23.0
+  shared: 1
+- slug: service-mesh-interface
+  name: Service Mesh Interface (SMI)
+  description: 'Service Mesh Interface (SMI) was a CNCF Sandbox specification that defined a standard, vendor-neutral set of Kubernetes Custom Resource Definitions (CRDs) for the most common service mesh capabilities: traffic policy, traffic telemetry, and traffic management. SMI''s stated mission was "a standard i…'
+  api_count: 4
+  score_band: emerging
+  score_composite: 22.6
   shared: 1
 - slug: buoyant
   name: Buoyant
@@ -203,20 +217,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 20.9
-  shared: 1
-- slug: gloo-mesh
-  name: Gloo Mesh
-  description: Gloo Mesh is an enterprise service mesh management platform from Solo.io built on Istio, providing multi-cluster and multi-mesh traffic management, security policy enforcement, and observability across hybrid cloud environments. It simplifies service mesh operations with a unified control plane and…
-  api_count: 2
-  score_band: emerging
-  score_composite: 20.4
-  shared: 1
-- slug: greymatter
-  name: Greymatter
-  description: Greymatter is a Kubernetes-native, zero trust networking platform that delivers secure, agentic, and scalable service connectivity across multi-cloud, hybrid, and edge environments. It provides a unified platform with five integrated layers covering service connectivity, zero trust security, orches…
-  api_count: 3
-  score_band: emerging
-  score_composite: 19.5
   shared: 1
 related:
 - slug: microservices

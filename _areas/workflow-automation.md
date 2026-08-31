@@ -6,35 +6,42 @@ description: This is the index of workflow automation service and tooling repos 
 area_url: https://workflow-automation.apievangelist.com
 area_host: workflow-automation.apievangelist.com
 icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-provider_count: 660
+provider_count: 668
 providers:
 - slug: plunk
   name: Plunk
   description: Plunk is an open-source (AGPL-3.0) email platform for developers that unifies transactional email, marketing campaigns, contact segmentation and event-driven workflow automation behind a single REST API. It publishes its own OpenAPI 3.1.0 at docs.useplunk.com/openapi.json, declaring next-api.useplu…
-  api_count: 5
+  api_count: 7
   score_band: exemplar
-  score_composite: 71.5
+  score_composite: 69.6
+  shared: 2
+- slug: jitterbit
+  name: Jitterbit
+  description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
+  api_count: 6
+  score_band: strong
+  score_composite: 63.1
   shared: 2
 - slug: servicenow
   name: ServiceNow
   description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
   api_count: 63
   score_band: strong
-  score_composite: 64.8
+  score_composite: 62.3
   shared: 2
 - slug: pixiebrix
   name: PixieBrix
   description: PixieBrix is a browser-based platform for customer care and enterprise operations teams that layers automation, AI assistance, integrations and real-time policy enforcement onto the web applications a team already uses, deployed as a lightweight browser extension and companion web app rather than a…
-  api_count: 1
+  api_count: 31
   score_band: strong
-  score_composite: 60.0
+  score_composite: 59.5
   shared: 2
 - slug: gumloop
   name: Gumloop
   description: Gumloop is an AI-agent automation platform for building, deploying, and governing agents that automate real work — data analysis, customer support, CRM management, and back-office tasks — across tools like Slack, Microsoft Teams, and Gmail. Its public REST API (https://api.gumloop.com/api/v1) expos…
   api_count: 14
-  score_band: strong
-  score_composite: 55.8
+  score_band: developing
+  score_composite: 53.3
   shared: 2
 - slug: rewst
   name: Rewst
@@ -43,19 +50,19 @@ providers:
   score_band: developing
   score_composite: 46.7
   shared: 2
-- slug: jinba
-  name: Jinba
-  description: Jinba is an enterprise-grade platform for building, running, and deploying AI-powered workflows and agents using natural language. Business teams describe a process in plain language, refine it in a visual graph editor or a YAML manifest, and deploy it to production as an API or an MCP server. The…
-  api_count: 14
-  score_band: developing
-  score_composite: 44.8
-  shared: 2
 - slug: robocorp
   name: Robocorp
   description: Robocorp is an open source RPA and workflow automation platform for building Python-based automation bots. The platform provides the Control Room API for managing workspaces, workers, processes, work items, assets, vaults, webhooks, and task packages. Robocorp also provides the RPA Framework, an op…
   api_count: 13
   score_band: developing
   score_composite: 44.5
+  shared: 2
+- slug: jinba
+  name: Jinba
+  description: Jinba is an enterprise-grade platform for building, running, and deploying AI-powered workflows and agents using natural language. Business teams describe a process in plain language, refine it in a visual graph editor or a YAML manifest, and deploy it to production as an API or an MCP server. The…
+  api_count: 14
+  score_band: developing
+  score_composite: 43.3
   shared: 2
 - slug: budibase
   name: Budibase
@@ -69,7 +76,7 @@ providers:
   description: BRYTER is a no-code service automation and AI productivity platform for legal and professional-services teams, used by law firms and corporate legal, compliance, and operations departments to build self-service applications, document automation, and rule-based workflows without writing code. Beyond…
   api_count: 3
   score_band: thin
-  score_composite: 35.9
+  score_composite: 36.6
   shared: 2
 - slug: kubeark
   name: Kubeark
@@ -83,7 +90,7 @@ providers:
   description: Ema is an enterprise "AI Employee" platform that builds autonomous agents to automate cross-functional workflows across HR, IT, Finance, customer support and healthcare operations. Its Autopilot builder turns plain-language descriptions into working AI Employees, EmaFusion combines 100+ AI models t…
   api_count: 1
   score_band: emerging
-  score_composite: 25.8
+  score_composite: 24.7
   shared: 2
 - slug: integrately
   name: Integrately
@@ -97,7 +104,7 @@ providers:
   description: Bubble Lab is an open-core, agentic workflow automation platform built for developers. Its open-source (Apache-2.0) TypeScript engine lets you compose AI agents and integrations as typed, composable units called "Bubbles" — service bubbles (Slack, Gmail, PostgreSQL, Google Sheets, Airtable, ElevenL…
   api_count: 0
   score_band: emerging
-  score_composite: 21.0
+  score_composite: 21.7
   shared: 2
 - slug: magical
   name: Magical
@@ -188,7 +195,7 @@ providers:
   description: Cofia is an AI automation platform that learns how a team actually works and automatically builds custom workflow automations without manual setup. By monitoring system events and recognizing repetitive patterns, Cofia proposes and assembles custom agents for tasks like prospect list building, outr…
   api_count: 0
   score_band: minimal
-  score_composite: 6.1
+  score_composite: 5.0
   shared: 2
 - slug: tuza
   name: Tuza
@@ -200,23 +207,16 @@ providers:
 - slug: xquik-api
   name: Xquik
   description: Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.
-  api_count: 3
+  api_count: 22
   score_band: exemplar
-  score_composite: 90.7
+  score_composite: 89.9
   shared: 1
 - slug: brevo
   name: Brevo
   description: Brevo (formerly Sendinblue) is a French customer-relationship platform that combines email marketing, transactional email and SMTP relay, transactional and campaign SMS, WhatsApp messaging, web and mobile push, live chat, a sales CRM, an ecommerce attribution layer and a loyalty and rewards engine…
-  api_count: 29
+  api_count: 53
   score_band: exemplar
-  score_composite: 87.1
-  shared: 1
-- slug: salesforce-marketing-cloud
-  name: Salesforce Marketing Cloud
-  description: 'Salesforce Marketing Cloud Engagement is an enterprise digital marketing platform for customer journeys, email marketing, mobile messaging (SMS/MMS and push), advertising, content management and marketing data. Its API surface is tenant-scoped: every REST call goes to https://{subdomain}.rest.marke…'
-  api_count: 17
-  score_band: exemplar
-  score_composite: 86.0
+  score_composite: 84.4
   shared: 1
 related:
 - slug: ai-automation
@@ -224,14 +224,14 @@ related:
   shared: 5
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 1
+  shared: 2
 - slug: ipaas
   name: iPaaS
-  shared: 1
+  shared: 2
 overview: 'Workflow Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [workflow-automation.apievangelist.com](https://workflow-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Plunk, ServiceNow, PixieBrix, Gumloop, Rewst, Jinba, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Plunk, Jitterbit, ServiceNow, PixieBrix, Gumloop, Rewst, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Embedded iPaaS, and iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

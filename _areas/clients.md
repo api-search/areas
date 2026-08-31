@@ -41,7 +41,7 @@ providers:
   description: REST Client is a Visual Studio Code extension developed by Huachao Mao that enables developers to send HTTP requests and view responses directly within the VS Code editor. It supports RFC 2616 HTTP request format using .http and .rest files, GraphQL queries, cURL commands, multiple authentication s…
   api_count: 1
   score_band: thin
-  score_composite: 27.1
+  score_composite: 28.4
   shared: 1
 - slug: requests
   name: Requests

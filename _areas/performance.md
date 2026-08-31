@@ -11,9 +11,9 @@ providers:
 - slug: new-relic
   name: New Relic
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
-  api_count: 41
+  api_count: 19
   score_band: exemplar
-  score_composite: 69.4
+  score_composite: 70.3
   shared: 1
 - slug: whoop
   name: WHOOP
@@ -28,6 +28,13 @@ providers:
   api_count: 49
   score_band: developing
   score_composite: 54.2
+  shared: 1
+- slug: oracle-partitioning
+  name: Oracle Partitioning
+  description: Oracle Partitioning is a licensed option of Oracle Database Enterprise Edition that divides large tables and indexes into smaller, independently manageable segments called partitions, accessed transparently through the table name. It delivers partition pruning (the optimizer eliminates irrelevant p…
+  api_count: 25
+  score_band: developing
+  score_composite: 54.1
   shared: 1
 - slug: factorial-hr
   name: Factorial
@@ -64,19 +71,19 @@ providers:
   score_band: developing
   score_composite: 42.7
   shared: 1
-- slug: polar-signals
-  name: Polar Signals
-  description: Polar Signals is a continuous profiling company built by the team behind the open-source Parca project. Its Polar Signals Cloud product uses eBPF to continuously profile CPU, memory, and NVIDIA GPU workloads across Kubernetes, Docker, ECS, and bare metal with under 1% overhead and no code changes,…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.5
-  shared: 1
 - slug: sage-hr
   name: Sage HR
   description: Sage HR (formerly CakeHR) is a cloud HRIS for small and mid-sized businesses, owned by Sage Group plc. It bundles core HR records, leave management, performance, recruitment (ATS), timesheets, shift scheduling, expenses, and onboarding/offboarding into a modular per-employee SaaS. The Sage HR REST…
   api_count: 14
   score_band: developing
   score_composite: 42.1
+  shared: 1
+- slug: polar-signals
+  name: Polar Signals
+  description: Polar Signals is a continuous profiling company built by the team behind the open-source Parca project. Its Polar Signals Cloud product uses eBPF to continuously profile CPU, memory, and NVIDIA GPU workloads across Kubernetes, Docker, ECS, and bare metal with under 1% overhead and no code changes,…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.4
   shared: 1
 - slug: questdb
   name: QuestDB
@@ -91,13 +98,6 @@ providers:
   api_count: 0
   score_band: thin
   score_composite: 33.5
-  shared: 1
-- slug: oracle-partitioning
-  name: Oracle Partitioning
-  description: Oracle Partitioning enables tables and indexes to be partitioned into smaller, more manageable pieces, improving performance, availability, and manageability of large database objects.
-  api_count: 3
-  score_band: thin
-  score_composite: 33.2
   shared: 1
 - slug: kotzilla
   name: Kotzilla
@@ -134,12 +134,12 @@ providers:
   score_band: thin
   score_composite: 26.3
   shared: 1
-- slug: readyset
-  name: ReadySet
-  description: Readyset is a realtime SQL caching engine for Postgres and MySQL. It sits between applications and the database as a wire-compatible proxy, automatically caching the results of costly SELECT queries and keeping them up to date from the database replication stream with no application code changes or…
-  api_count: 0
+- slug: vegeta
+  name: Vegeta
+  description: Vegeta is an open source HTTP load testing tool and library written in Go for generating constant request rates to measure API performance and reliability under sustained load. Supports CLI and library usage with attack plans, rate limiting, duration control, and detailed result metrics including l…
+  api_count: 1
   score_band: emerging
-  score_composite: 22.3
+  score_composite: 25.2
   shared: 1
 - slug: headspin
   name: HeadSpin
@@ -148,12 +148,12 @@ providers:
   score_band: emerging
   score_composite: 21.8
   shared: 1
-- slug: vegeta
-  name: Vegeta
-  description: Vegeta is an open source HTTP load testing tool and library written in Go for generating constant request rates to measure API performance and reliability under sustained load. Supports CLI and library usage with attack plans, rate limiting, duration control, and detailed result metrics including l…
-  api_count: 1
+- slug: readyset
+  name: ReadySet
+  description: Readyset is a realtime SQL caching engine for Postgres and MySQL. It sits between applications and the database as a wire-compatible proxy, automatically caching the results of costly SELECT queries and keeping them up to date from the database replication stream with no application code changes or…
+  api_count: 0
   score_band: emerging
-  score_composite: 20.4
+  score_composite: 21.2
   shared: 1
 - slug: merbridge
   name: Merbridge
@@ -211,12 +211,12 @@ providers:
   score_band: minimal
   score_composite: 8.2
   shared: 1
-- slug: http-2
-  name: HTTP/2
-  description: HTTP/2 is the second major version of the Hypertext Transfer Protocol, defined by the IETF in RFC 7540 and standardized in 2015. It optimizes use of network resources and reduces perceived latency by introducing a binary framing layer over a single TCP connection, with full request and response mul…
+- slug: nazar
+  name: Nazar
+  description: Nazar (nazar.ai) is an AI-powered database performance and cost optimization platform that helps engineering and DBA teams monitor, analyze, and tune their databases. It supports Postgres, MySQL, SQL Server, MariaDB, Amazon Aurora, Oracle, and SAP HANA across cloud, on-premises, and hybrid environm…
   api_count: 0
   score_band: minimal
-  score_composite: 6.8
+  score_composite: 7.1
   shared: 1
 related:
 - slug: analysis
@@ -228,20 +228,20 @@ related:
 - slug: aiops
   name: AIOps
   shared: 1
+- slug: agents-skills
+  name: Agent Skills
+  shared: 1
+- slug: database
+  name: Database
+  shared: 1
 - slug: finops
   name: FinOps
-  shared: 1
-- slug: monitoring
-  name: Monitoring
-  shared: 1
-- slug: observability
-  name: Observability
   shared: 1
 overview: 'Performance is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [performance.apievangelist.com](https://performance.apievangelist.com).
 
 
-  30 providers on the network work in this area, including New Relic, WHOOP, Amazon Global Accelerator, Factorial, Virtana (Virtual Instruments), Google Cloud Trace, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including New Relic, WHOOP, Amazon Global Accelerator, Oracle Partitioning, Factorial, Virtana (Virtual Instruments), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Analysis, Caching, AIOps, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Analysis, Caching, AIOps, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

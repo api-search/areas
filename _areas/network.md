@@ -18,7 +18,7 @@ providers:
 - slug: att
   name: AT&T
   description: 'AT&T Inc. is a multinational telecommunications holding company providing wireless and wireline communications, broadband, and business networking to consumers and enterprises. Its developer surface spans four programs: the legacy AT&T Developer Program (SMS, MMS, in-app messaging, speech and OAuth…'
-  api_count: 28
+  api_count: 33
   score_band: developing
   score_composite: 52.3
   shared: 1
@@ -27,14 +27,14 @@ providers:
   description: Azure Load Balancer is a high-performance, low-latency layer-4 load balancing service for distributing inbound and outbound network traffic across virtual machines and other Azure resources. It supports public and internal load balancers, health probes, NAT rules, and HA scenarios.
   api_count: 2
   score_band: developing
-  score_composite: 45.6
+  score_composite: 46.3
   shared: 1
 - slug: lumen-technologies
   name: Lumen Technologies
   description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Center, Lumen exposes REST APIs that allow customers to programm…
   api_count: 3
   score_band: thin
-  score_composite: 35.1
+  score_composite: 35.9
   shared: 1
 - slug: orange
   name: Orange
@@ -43,19 +43,19 @@ providers:
   score_band: thin
   score_composite: 32.1
   shared: 1
+- slug: systemd
+  name: systemd
+  description: systemd is a suite of basic building blocks for a Linux system. It runs as PID 1 and is the system and service manager that bootstraps the rest of the userspace, supervises long-running services, and exposes a coordinated set of D-Bus and Varlink IPC interfaces for managing services (systemd1), use…
+  api_count: 34
+  score_band: thin
+  score_composite: 32.0
+  shared: 1
 - slug: cloudfront
   name: CloudFront
   description: CloudFront is Amazon Web Services' content delivery network (CDN) for delivering data, video, applications, and APIs globally with low latency. This repository is the short-form profile for AWS CloudFront; the canonical AWS service profile lives at amazon-cloudfront in the API Evangelist Network. C…
   api_count: 7
   score_band: thin
   score_composite: 30.0
-  shared: 1
-- slug: systemd
-  name: systemd
-  description: systemd is a suite of basic building blocks for a Linux system. It runs as PID 1 and is the system and service manager that bootstraps the rest of the userspace, supervises long-running services, and exposes a coordinated set of D-Bus and Varlink IPC interfaces for managing services (systemd1), use…
-  api_count: 34
-  score_band: thin
-  score_composite: 29.2
   shared: 1
 - slug: zayo-group
   name: Zayo Group Holdings
@@ -118,7 +118,7 @@ related:
 overview: 'Network is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [network.apievangelist.com](https://network.apievangelist.com).
 
 
-  13 providers on the network work in this area, including Shodan, AT&T, Azure Load Balancer, Lumen Technologies, Orange, CloudFront, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  13 providers on the network work in this area, including Shodan, AT&T, Azure Load Balancer, Lumen Technologies, Orange, systemd, and 7 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Internet of Things, Caching, API Evangelist Search, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

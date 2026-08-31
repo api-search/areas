@@ -6,7 +6,7 @@ description: An index of container runtime, orchestration, registry, security, a
 area_url: https://containers.apievangelist.com
 area_host: containers.apievangelist.com
 icon: https://containers.apievangelist.com/icon-thumb.png
-provider_count: 138
+provider_count: 139
 providers:
 - slug: microsoft-azure-kubernetes-service
   name: Azure Kubernetes Service
@@ -15,33 +15,19 @@ providers:
   score_band: exemplar
   score_composite: 68.7
   shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
-  api_count: 55
-  score_band: strong
-  score_composite: 64.5
-  shared: 1
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 87
   score_band: strong
-  score_composite: 63.4
+  score_composite: 63.2
   shared: 1
-- slug: amazon-web-services-aws
-  name: Amazon Web Services (AWS)
-  description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
-  api_count: 8
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 55
   score_band: strong
-  score_composite: 60.6
-  shared: 1
-- slug: koyeb
-  name: Koyeb
-  description: Koyeb is a developer-friendly serverless platform for deploying applications, Postgres databases, GPU workloads and isolated code-execution sandboxes across a global edge network. The Koyeb REST API is a Swagger 2.0 contract generated from protobuf services by grpc-gateway — 126 paths, 177 operatio…
-  api_count: 42
-  score_band: strong
-  score_composite: 60.5
+  score_composite: 62.0
   shared: 1
 - slug: paperspace
   name: Paperspace
@@ -50,13 +36,6 @@ providers:
   score_band: strong
   score_composite: 60.2
   shared: 1
-- slug: seqera-labs
-  name: Seqera Labs
-  description: Seqera (Seqera Labs) builds open, cloud-based software for scientific data analysis at scale. It is the company behind Nextflow, the widely adopted open-source workflow orchestration engine, and the Seqera Platform (formerly Nextflow Tower) for launching, monitoring, and governing data pipelines ac…
-  api_count: 28
-  score_band: strong
-  score_composite: 59.3
-  shared: 1
 - slug: amazon-ecr
   name: Amazon ECR
   description: Amazon Elastic Container Registry (ECR) is a fully managed container registry that makes it easy to store, manage, share, and deploy container images and artifacts. ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure, and integrate…
@@ -64,12 +43,26 @@ providers:
   score_band: strong
   score_composite: 59.2
   shared: 1
-- slug: red-hat
-  name: Red Hat
-  description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
-  api_count: 75
+- slug: koyeb
+  name: Koyeb
+  description: Koyeb is a developer-friendly serverless platform for deploying applications, Postgres databases, GPU workloads and isolated code-execution sandboxes across a global edge network. The Koyeb REST API is a Swagger 2.0 contract generated from protobuf services by grpc-gateway — 126 paths, 177 operatio…
+  api_count: 44
   score_band: strong
-  score_composite: 59.1
+  score_composite: 59.0
+  shared: 1
+- slug: azure-container-apps
+  name: Azure Container Apps
+  description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
+  api_count: 5
+  score_band: strong
+  score_composite: 58.9
+  shared: 1
+- slug: amazon-web-services-aws
+  name: Amazon Web Services (AWS)
+  description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
+  api_count: 8
+  score_band: strong
+  score_composite: 58.8
   shared: 1
 - slug: tensordock
   name: TensorDock
@@ -78,13 +71,6 @@ providers:
   score_band: strong
   score_composite: 58.6
   shared: 1
-- slug: azure-container-apps
-  name: Azure Container Apps
-  description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
-  api_count: 5
-  score_band: strong
-  score_composite: 58.1
-  shared: 1
 - slug: fargate
   name: AWS Fargate
   description: AWS Fargate is a serverless, pay-as-you-go compute engine for containers that works with Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS). It removes the need to provision and manage servers, letting you focus on building and running applications without managing i…
@@ -92,12 +78,19 @@ providers:
   score_band: strong
   score_composite: 57.4
   shared: 1
-- slug: amazon-batch
-  name: Amazon Batch
-  description: AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (EC2 On-Demand, EC2 Spot, Fargate, EKS) based on the volume and specific re…
-  api_count: 2
+- slug: seqera-labs
+  name: Seqera Labs
+  description: Seqera (Seqera Labs) builds open, cloud-based software for scientific data analysis at scale. It is the company behind Nextflow, the widely adopted open-source workflow orchestration engine, and the Seqera Platform (formerly Nextflow Tower) for launching, monitoring, and governing data pipelines ac…
+  api_count: 28
   score_band: strong
-  score_composite: 54.6
+  score_composite: 56.7
+  shared: 1
+- slug: red-hat
+  name: Red Hat
+  description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
+  api_count: 75
+  score_band: strong
+  score_composite: 54.4
   shared: 1
 - slug: amazon-ecs
   name: Amazon ECS
@@ -106,26 +99,19 @@ providers:
   score_band: strong
   score_composite: 54.3
   shared: 1
-- slug: upsun
-  name: Upsun
-  description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
-  api_count: 50
-  score_band: strong
-  score_composite: 54.3
-  shared: 1
-- slug: kubernetes
-  name: Kubernetes
-  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
-  api_count: 7
-  score_band: developing
-  score_composite: 54.1
-  shared: 1
 - slug: snyk-container
   name: Snyk Container
   description: Snyk Container helps developers find and fix vulnerabilities in container images and Kubernetes workloads. It integrates into existing development workflows to provide continuous security monitoring throughout the container lifecycle, scanning Docker images, Kubernetes manifests, and Helm charts fo…
   api_count: 3
   score_band: developing
   score_composite: 53.8
+  shared: 1
+- slug: platform.sh
+  name: Platform.sh
+  description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster of applications and managed services (PostgreSQL, MySQL, Redi…
+  api_count: 60
+  score_band: developing
+  score_composite: 53.7
   shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
@@ -134,26 +120,19 @@ providers:
   score_band: developing
   score_composite: 53.2
   shared: 1
-- slug: gameye
-  name: Gameye
-  description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single REST API — the Session API. Studios call POST /session with a r…
-  api_count: 5
+- slug: kubernetes
+  name: Kubernetes
+  description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
+  api_count: 7
   score_band: developing
   score_composite: 52.7
   shared: 1
-- slug: platform.sh
-  name: Platform.sh
-  description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster of applications and managed services (PostgreSQL, MySQL, Redi…
-  api_count: 1
+- slug: amazon-batch
+  name: Amazon Batch
+  description: AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (EC2 On-Demand, EC2 Spot, Fargate, EKS) based on the volume and specific re…
+  api_count: 2
   score_band: developing
-  score_composite: 52.2
-  shared: 1
-- slug: amazon-app-runner
-  name: Amazon App Runner
-  description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
-  api_count: 36
-  score_band: developing
-  score_composite: 51.8
+  score_composite: 52.1
   shared: 1
 - slug: amazon-managed-prometheus
   name: Amazon Managed Service for Prometheus
@@ -161,6 +140,20 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 51.8
+  shared: 1
+- slug: upsun
+  name: Upsun
+  description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
+  api_count: 50
+  score_band: developing
+  score_composite: 51.7
+  shared: 1
+- slug: jfrog-container-registry
+  name: JFrog Container Registry
+  description: JFrog Container Registry is a free, hybrid, and multi-cloud Docker registry and Helm chart repository for managing and distributing container images. It provides advanced access control, vulnerability scanning, and scales to support enterprise container workflows across any cloud or on-premises inf…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.1
   shared: 1
 - slug: sysdig
   name: Sysdig
@@ -175,6 +168,13 @@ providers:
   api_count: 9
   score_band: developing
   score_composite: 50.5
+  shared: 1
+- slug: gameye
+  name: Gameye
+  description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single REST API — the Session API. Studios call POST /session with a r…
+  api_count: 5
+  score_band: developing
+  score_composite: 50.2
   shared: 1
 - slug: red-hat-openshift
   name: Red Hat OpenShift
@@ -197,19 +197,19 @@ providers:
   score_band: developing
   score_composite: 49.4
   shared: 1
+- slug: amazon-app-runner
+  name: Amazon App Runner
+  description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
+  api_count: 36
+  score_band: developing
+  score_composite: 49.3
+  shared: 1
 - slug: amazon-fargate
   name: Amazon Fargate
   description: Amazon Fargate is a serverless compute engine for containers that works with both Amazon ECS and Amazon EKS. Fargate removes the need to provision and manage servers, letting you specify and pay for resources per application, and improves security through application isolation by design.
   api_count: 6
   score_band: developing
   score_composite: 49.1
-  shared: 1
-- slug: smol-machines
-  name: Smol Machines
-  description: Smol Machines (smol machines, inc.) is a Y Combinator-backed developer infrastructure company building portable, self-contained Linux microVMs. Its open-source `smolvm` engine and `smol` CLI (both Rust, Apache-2.0) boot hardware-isolated virtual machines from any OCI image in under 200ms — on a lap…
-  api_count: 19
-  score_band: developing
-  score_composite: 48.7
   shared: 1
 - slug: google-cloud-kubernetes-engine
   name: Google Cloud Kubernetes Engine
@@ -219,29 +219,29 @@ providers:
   score_composite: 47.9
   shared: 1
 related:
-- slug: serverless
-  name: Serverless
-  shared: 7
 - slug: deployment
   name: Deployment
+  shared: 6
+- slug: serverless
+  name: Serverless
   shared: 6
 - slug: orchestration
   name: Orchestration
   shared: 4
-- slug: machine-learning
-  name: Machine Learning
-  shared: 3
 - slug: microservices
   name: Microservices
   shared: 3
+- slug: machine-learning
+  name: Machine Learning
+  shared: 2
 - slug: security
   name: Security
-  shared: 3
+  shared: 2
 overview: 'Containers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [containers.apievangelist.com](https://containers.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Azure Kubernetes Service, IBM, Cloudflare, Amazon Web Services (AWS), Koyeb, Paperspace, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Azure Kubernetes Service, Cloudflare, IBM, Paperspace, Amazon ECR, Koyeb, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Serverless, Deployment, Orchestration, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Deployment, Serverless, Orchestration, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -6,14 +6,14 @@ description: An index and topic collection covering site reliability engineering
 area_url: https://reliability.apievangelist.com
 area_host: reliability.apievangelist.com
 icon: https://reliability.apievangelist.com/icon-thumb.png
-provider_count: 17
+provider_count: 18
 providers:
 - slug: svix
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
-  api_count: 21
+  api_count: 29
   score_band: exemplar
-  score_composite: 79.2
+  score_composite: 79.0
   shared: 1
 - slug: gremlin
   name: Gremlin
@@ -40,8 +40,8 @@ providers:
   name: Chaos Mesh
   description: Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel,…
   api_count: 7
-  score_band: thin
-  score_composite: 38.5
+  score_band: developing
+  score_composite: 39.6
   shared: 1
 - slug: statuspage
   name: Statuspage
@@ -55,7 +55,7 @@ providers:
   description: OverOps (formerly Takipi) is a continuous reliability platform that helps teams who ship software ensure rapid code changes do not degrade the customer experience. It runs in the cloud or on-premises, instruments Java and .NET applications with a micro-agent, and automatically identifies, prevents,…
   api_count: 16
   score_band: thin
-  score_composite: 34.2
+  score_composite: 32.7
   shared: 1
 - slug: antithesis
   name: Antithesis
@@ -76,7 +76,21 @@ providers:
   description: The North American Electric Reliability Corporation (NERC) is the not-for-profit international regulatory authority certified by FERC in July 2006 as the Electric Reliability Organization under Section 215 of the Federal Power Act, added by the Energy Policy Act of 2005. From offices in Washington,…
   api_count: 0
   score_band: emerging
-  score_composite: 24.3
+  score_composite: 23.2
+  shared: 1
+- slug: blameless
+  name: Blameless
+  description: Blameless was an SRE and incident management platform for reliability engineering teams, covering the full incident lifecycle — detection and response, on-call and severity workflows, blameless retrospectives, and SLOs with error budgets. It sold to enterprise reliability organizations including Cr…
+  api_count: 1
+  score_band: emerging
+  score_composite: 23.1
+  shared: 1
+- slug: nobl9
+  name: Nobl9
+  description: Nobl9 is a service-level objective (SLO) management platform that helps engineering and SRE teams define, measure, and act on reliability targets across cloud and observability tools. The platform aggregates data from Datadog, Prometheus, New Relic, Splunk, AWS CloudWatch, and other sources to comp…
+  api_count: 2
+  score_band: emerging
+  score_composite: 18.4
   shared: 1
 - slug: fiix-software
   name: Fiix Software
@@ -85,19 +99,12 @@ providers:
   score_band: emerging
   score_composite: 18.3
   shared: 1
-- slug: nobl9
-  name: Nobl9
-  description: Nobl9 is a service-level objective (SLO) management platform that helps engineering and SRE teams define, measure, and act on reliability targets across cloud and observability tools. The platform aggregates data from Datadog, Prometheus, New Relic, Splunk, AWS CloudWatch, and other sources to comp…
-  api_count: 2
-  score_band: emerging
-  score_composite: 17.6
-  shared: 1
 - slug: proteantecs
   name: proteanTecs
   description: proteanTecs is an Israeli deep data analytics company for advanced electronics. It embeds on-chip monitoring Agents (UCT, margin, path margin, I/O and power monitors) into semiconductor designs and pairs them with cloud and edge machine-learning applications that report health, performance, reliabi…
   api_count: 0
   score_band: emerging
-  score_composite: 11.0
+  score_composite: 11.7
   shared: 1
 - slug: augury
   name: Augury
@@ -118,7 +125,7 @@ providers:
   description: Distributional is an a16z-backed company (security contact Scott Clark) tracked in the API Evangelist network. As of July 2026 distributional.com serves a pre-launch holding page ("Something new is coming") with no public API, backend, or authentication surface. The site does publish machine-readab…
   api_count: 0
   score_band: minimal
-  score_composite: 8.2
+  score_composite: 7.1
   shared: 1
 - slug: omen
   name: Omen
@@ -137,7 +144,7 @@ related:
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  17 providers on the network work in this area, including Svix, Gremlin, Memfault, Google Cloud Error Reporting, Chaos Mesh, Statuspage, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Svix, Gremlin, Memfault, Google Cloud Error Reporting, Chaos Mesh, Statuspage, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Command Line Interface and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'

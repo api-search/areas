@@ -6,14 +6,21 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 105
+provider_count: 112
 providers:
 - slug: losant
   name: Losant
   description: Losant is an Enterprise IoT Platform that lets product teams build connected experiences, manage fleets of devices, orchestrate edge and embedded compute, and visualize and act on IoT data. The platform exposes a comprehensive REST API (the Platform API) covering applications, devices, data tables,…
-  api_count: 9
+  api_count: 6
   score_band: exemplar
-  score_composite: 85.2
+  score_composite: 81.2
+  shared: 1
+- slug: the-things-network
+  name: The Things Network / The Things Stack
+  description: The Things Network (TTN) is a free, community-operated global LoRaWAN network with over 280,000 members and 21,000 gateways across 153 countries. It runs on The Things Stack, the open-source (Apache-2.0) LoRaWAN Network Server developed and maintained by The Things Industries. The Things Stack v3 i…
+  api_count: 58
+  score_band: exemplar
+  score_composite: 78.1
   shared: 1
 - slug: shodan
   name: Shodan
@@ -39,9 +46,9 @@ providers:
 - slug: particle
   name: Particle
   description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud exposes a REST API that enables developers to call device functi…
-  api_count: 25
+  api_count: 28
   score_band: strong
-  score_composite: 63.2
+  score_composite: 62.7
   shared: 1
 - slug: thingspeak
   name: ThingSpeak
@@ -57,13 +64,6 @@ providers:
   score_band: strong
   score_composite: 61.3
   shared: 1
-- slug: the-things-network
-  name: The Things Network / The Things Stack
-  description: The Things Network (TTN) is a free, community-operated global LoRaWAN network with over 280,000 members and 21,000 gateways across 153 countries. It runs on The Things Stack, the open-source (Apache-2.0) LoRaWAN Network Server developed and maintained by The Things Industries. The Things Stack v3 i…
-  api_count: 58
-  score_band: strong
-  score_composite: 58.7
-  shared: 1
 - slug: thingsboard
   name: ThingsBoard
   description: ThingsBoard is an open-source IoT platform for device connectivity, data collection, processing, and visualization. Licensed under Apache 2.0 and developed by ThingsBoard Inc., it supports multi-tenant device management, telemetry over MQTT/HTTP/CoAP/LwM2M/SNMP, a drag-and-drop rule engine, calcula…
@@ -74,9 +74,9 @@ providers:
 - slug: ev-energy
   name: ev.energy
   description: ev.energy is a London- and Palo-Alto-based smart electric-vehicle charging platform. Its cloud software connects EV drivers, vehicles, EVSEs (chargers), home batteries, solar inverters and utility programs so charging can be shifted to cheaper, greener periods and aggregated as grid flexibility. Th…
-  api_count: 1
+  api_count: 25
   score_band: strong
-  score_composite: 55.7
+  score_composite: 57.4
   shared: 1
 - slug: itron
   name: Itron
@@ -92,54 +92,54 @@ providers:
   score_band: developing
   score_composite: 53.0
   shared: 1
+- slug: spectrumoutage-api
+  name: SpectrumOutage API
+  description: Community-powered REST API for live Spectrum internet, TV, and phone outage data across the United States, published by SpectrumOutage.us — an independent outage tracker with no affiliation to Charter Communications or Spectrum. The v1 API exposes eight operations over crowdsourced outage reports:…
+  api_count: 4
+  score_band: developing
+  score_composite: 52.9
+  shared: 1
 - slug: esper
   name: Esper
   description: Esper is the DevOps platform for connected devices, providing cloud-based Android (and edge) device management, application deployment, and remote orchestration for dedicated-device fleets. The Esper Manage REST API lets developers programmatically provision, monitor, and control Android-based dedi…
   api_count: 13
   score_band: developing
-  score_composite: 49.9
-  shared: 1
-- slug: spectrumoutage-api
-  name: SpectrumOutage API
-  description: Community-powered REST API for live Spectrum internet, TV, and phone outage data across the United States, published by SpectrumOutage.us — an independent outage tracker with no affiliation to Charter Communications or Spectrum. The v1 API exposes eight operations over crowdsourced outage reports:…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.7
-  shared: 1
-- slug: bear-robotics
-  name: Bear Robotics
-  description: Bear Robotics builds AI-driven autonomous mobile robots for hospitality and service environments — the Servi family (Servi, Servi Plus, Servi Q, Servi Clean) for restaurants, senior living, hotels and hospitals, the Carti cargo line for warehouses and factories, and Kinisi — all managed through the…
-  api_count: 9
-  score_band: developing
-  score_composite: 47.2
+  score_composite: 48.5
   shared: 1
 - slug: liesheng
   name: Liesheng Group
   description: Liesheng Group (猎声集团 / Liesheng Technology) is a Dongguan, Guangdong based consumer-electronics company founded on 25 May 2015 as one of Xiaomi's first ecosystem-chain suppliers. It operates as a global ODM/OEM solution provider — it engineered the Redmi AirDots true-wireless earbuds — while buildi…
   api_count: 2
   score_band: developing
-  score_composite: 46.9
+  score_composite: 45.8
+  shared: 1
+- slug: bear-robotics
+  name: Bear Robotics
+  description: Bear Robotics builds AI-driven autonomous mobile robots for hospitality and service environments — the Servi family (Servi, Servi Plus, Servi Q, Servi Clean) for restaurants, senior living, hotels and hospitals, the Carti cargo line for warehouses and factories, and Kinisi — all managed through the…
+  api_count: 9
+  score_band: developing
+  score_composite: 45.7
   shared: 1
 - slug: weavix
   name: Weavix
   description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
   api_count: 8
   score_band: developing
-  score_composite: 42.6
+  score_composite: 41.1
   shared: 1
 - slug: bitfinder
   name: Bitfinder
   description: Bitfinder, Inc., doing business as Awair, builds indoor air quality (IAQ) monitors and a cloud platform used across homes, offices, schools, and commercial spaces. Its devices (Awair Element, Awair Omni, and 2nd Edition) measure the Awair Score along with temperature, humidity, CO2, chemicals (VOC)…
   api_count: 3
   score_band: developing
-  score_composite: 42.4
+  score_composite: 40.9
   shared: 1
 - slug: afero
   name: Afero
   description: 'Afero, Inc. is a Los Altos, California IoT platform company founded in 2014 by Joe Britt and Shin Matsumura. Afero ships an end-to-end connected-product stack: ASR secure radio modules with a hardware root of trust and an embedded Hardware Security Module, the afLib MCU libraries and Secure Linux D…'
   api_count: 4
   score_band: developing
-  score_composite: 41.1
+  score_composite: 39.6
   shared: 1
 - slug: quanergy
   name: Quanergy
@@ -155,19 +155,12 @@ providers:
   score_band: thin
   score_composite: 36.8
   shared: 1
-- slug: hello-therma
-  name: Hello Therma
-  description: Hello Therma is the original brand of Therma, Inc., the San Francisco cold-chain and cooling intelligence company founded in 2014 by Manik Suri, which rebranded as GlacierGrid in February 2024 and now operates as GlacierGrid, Inc. out of Richmond, Virginia. The platform pairs LoRaWAN temperature an…
-  api_count: 1
+- slug: lumen-technologies
+  name: Lumen Technologies
+  description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Center, Lumen exposes REST APIs that allow customers to programm…
+  api_count: 3
   score_band: thin
-  score_composite: 36.2
-  shared: 1
-- slug: wyze
-  name: Wyze
-  description: 'Wyze Labs, Inc. is a Kirkland, Washington consumer smart-home company founded in 2017 by former Amazon employees, known for value-priced connected hardware: indoor and outdoor security cameras, video doorbells, smart locks, contact and motion sensors, plugs, bulbs and light strips, robot vacuums, t…'
-  api_count: 4
-  score_band: thin
-  score_composite: 36.0
+  score_composite: 35.9
   shared: 1
 - slug: univers
   name: Univers
@@ -176,12 +169,26 @@ providers:
   score_band: thin
   score_composite: 35.5
   shared: 1
-- slug: lumen-technologies
-  name: Lumen Technologies
-  description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Center, Lumen exposes REST APIs that allow customers to programm…
-  api_count: 3
+- slug: hello-therma
+  name: Hello Therma
+  description: Hello Therma is the original brand of Therma, Inc., the San Francisco cold-chain and cooling intelligence company founded in 2014 by Manik Suri, which rebranded as GlacierGrid in February 2024 and now operates as GlacierGrid, Inc. out of Richmond, Virginia. The platform pairs LoRaWAN temperature an…
+  api_count: 1
   score_band: thin
   score_composite: 35.1
+  shared: 1
+- slug: wyze
+  name: Wyze
+  description: 'Wyze Labs, Inc. is a Kirkland, Washington consumer smart-home company founded in 2017 by former Amazon employees, known for value-priced connected hardware: indoor and outdoor security cameras, video doorbells, smart locks, contact and motion sensors, plugs, bulbs and light strips, robot vacuums, t…'
+  api_count: 4
+  score_band: thin
+  score_composite: 34.9
+  shared: 1
+- slug: flashparking
+  name: Flashparking
+  description: 'Flash (formerly FlashParking) is an Austin, Texas parking technology company that sells an end-to-end mobility platform to parking asset owners and operators: cloud software (FlashOS), purpose-built PARCS gate and kiosk hardware, Flash Vision LPR/computer-vision cameras, valet and enforcement appli…'
+  api_count: 1
+  score_band: thin
+  score_composite: 32.6
   shared: 1
 - slug: inspur-cloud
   name: Inspur Cloud
@@ -190,24 +197,10 @@ providers:
   score_band: thin
   score_composite: 32.0
   shared: 1
-- slug: flashparking
-  name: Flashparking
-  description: 'Flash (formerly FlashParking) is an Austin, Texas parking technology company that sells an end-to-end mobility platform to parking asset owners and operators: cloud software (FlashOS), purpose-built PARCS gate and kiosk hardware, Flash Vision LPR/computer-vision cameras, valet and enforcement appli…'
-  api_count: 1
-  score_band: thin
-  score_composite: 31.9
-  shared: 1
 - slug: internet-engineering-task-force
   name: Internet Engineering Task Force
   description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of the internet. The IETF publishes freely accessible RFCs (Reque…
   api_count: 6
-  score_band: thin
-  score_composite: 31.1
-  shared: 1
-- slug: telemetron-ai
-  name: Telemetron
-  description: Telemetron is an AI-powered customer support platform for hardware companies, backed by Y Combinator. It connects to IoT devices in real time, correlates device telemetry with customer records, diagnoses issues with AI, and resolves support tickets automatically. Its External API (ext-v1) lets hard…
-  api_count: 4
   score_band: thin
   score_composite: 31.1
   shared: 1
@@ -217,6 +210,13 @@ providers:
   api_count: 3
   score_band: thin
   score_composite: 31.0
+  shared: 1
+- slug: telemetron-ai
+  name: Telemetron
+  description: Telemetron is an AI-powered customer support platform for hardware companies, backed by Y Combinator. It connects to IoT devices in real time, correlates device telemetry with customer records, diagnoses issues with AI, and resolves support tickets automatically. Its External API (ext-v1) lets hard…
+  api_count: 4
+  score_band: thin
+  score_composite: 29.6
   shared: 1
 related:
 - slug: network
@@ -240,7 +240,7 @@ related:
 overview: 'Internet of Things is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [internet-of-things.apievangelist.com](https://internet-of-things.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Losant, Shodan, Adafruit IO, Cumulocity, Particle, ThingSpeak, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Losant, The Things Network / The Things Stack, Shodan, Adafruit IO, Cumulocity, Particle, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Network, Embedded iPaaS, Analysis, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'
