@@ -228,11 +228,14 @@ related:
 - slug: orchestration
   name: Orchestration
   shared: 1
+- slug: saas-management
+  name: SaaS Management
+  shared: 1
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
   30 providers on the network work in this area, including Cisco Intersight, VMware, Slide, Nutanix, Smol Machines, Vagrant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, Management, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, Management, Orchestration, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

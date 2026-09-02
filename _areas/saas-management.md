@@ -6,49 +6,14 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 97
+provider_count: 44
 providers:
-- slug: sugarcrm
-  name: SugarCRM
-  description: SugarCRM — rebranded as SugarAI in April 2026, with www.sugarcrm.com now redirecting to www.sugarai.com — is a B2B sales CRM platform serving 4,000+ customers and over one million users across 120+ countries. Its product suite spans Sugar Sell (sales automation), Sugar Serve (customer service), Sug…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.2
-  shared: 1
-- slug: bonitasoft
-  name: Bonitasoft
-  description: Bonitasoft is the French open-source company behind Bonita, a business process management and process automation platform used to model BPMN processes, build living applications, and orchestrate work across an organization. Bonita ships as Bonita Studio, Bonita Fabric (Process Designer, BPA Studio,…
-  api_count: 2
-  score_band: strong
-  score_composite: 61.7
-  shared: 1
 - slug: boomi
   name: Boomi
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 3
   score_band: strong
   score_composite: 61.5
-  shared: 1
-- slug: levitate
-  name: Levitate
-  description: Levitate is a relationship-marketing and "Happiness Platform" SaaS for relationship-based small businesses — insurance agencies, financial advisors, law firms, nonprofits, home services and faith organizations — founded in 2017 in Raleigh, North Carolina by ShareFile founder Jesse Lipson. The produ…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.0
-  shared: 1
-- slug: inflectionio
-  name: Inflection.io
-  description: Inflection.io is a B2B marketing automation platform positioned as a modern, AI-native replacement for legacy tools like Marketo. It unifies target accounts, product users, customers, and leads with product-usage, sales, and behavioral signals so marketing teams can build audiences, draft campaigns…
-  api_count: 1
-  score_band: strong
-  score_composite: 59.8
-  shared: 1
-- slug: creatio
-  name: Creatio
-  description: Creatio is a global software vendor of an AI-native no-code platform for customer relationship management (CRM) and workflow / business process automation. Its product line spans Sales Creatio, Marketing Creatio, and Service Creatio, built on Studio Creatio — a no-code toolkit with visual designers…
-  api_count: 4
-  score_band: strong
-  score_composite: 59.5
   shared: 1
 - slug: wundergraph
   name: WunderGraph
@@ -57,40 +22,12 @@ providers:
   score_band: developing
   score_composite: 53.2
   shared: 1
-- slug: planhat
-  name: Planhat
-  description: Planhat is a Customer Platform that unifies customer success, product usage, revenue and post-sales operations for B2B SaaS companies. It centralizes companies, end users, licenses, conversations, NPS, health scores and time-series usage metrics, then drives playbooks, automations and revenue workf…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.9
-  shared: 1
 - slug: lumos
   name: Lumos
   description: Lumos is the first Autonomous Identity Platform that helps organizations discover and manage access to all apps with enhanced security, increased productivity, and reduced cost. Lumos automates access requests, enforces least privilege, speeds up user access reviews, and eliminates extra SaaS app s…
   api_count: 1
   score_band: developing
   score_composite: 51.7
-  shared: 1
-- slug: spekit
-  name: Spekit
-  description: Spekit is an AI-powered revenue enablement platform for B2B sales teams, delivering coaching, content, and deal intelligence inside rep workflows. Its GTM Knowledge Engine keeps governed go-to-market knowledge accurate and on-brand, pairs agentic coaching (the AI Sidekick) with unified deal context…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.5
-  shared: 1
-- slug: mixmax
-  name: Mixmax
-  description: Mixmax is an AI-native sales engagement and execution platform that lives inside Gmail and Outlook, helping sales, customer success, recruiting, and other relationship-driven teams run their entire customer journey without context-switching. It combines email tracking and templates, multi-channel s…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.2
-  shared: 1
-- slug: workday-report-writer
-  name: Workday Report Writer
-  description: APIs for Workday Report Writer - a tool for creating custom reports and data extracts from Workday HCM and Financial systems.
-  api_count: 4
-  score_band: developing
-  score_composite: 51.0
   shared: 1
 - slug: torii
   name: Torii
@@ -106,13 +43,6 @@ providers:
   score_band: developing
   score_composite: 48.4
   shared: 1
-- slug: activtrak
-  name: ActivTrak
-  description: 'ActivTrak is a workforce analytics and productivity-monitoring SaaS platform. Its Public APIs (v2) expose REST endpoints across three surfaces: the Live Data / Reports API (Working Hours and Activity Log), account administration (Clients, Consumers, and full SCIM 2.0 user and group management), and…'
-  api_count: 1
-  score_band: developing
-  score_composite: 48.3
-  shared: 1
 - slug: zluri
   name: Zluri
   description: Zluri is a SaaS management and operations platform that helps organizations discover, govern, and optimize all their cloud applications. By connecting to SSO, finance, HR systems, and app APIs, it builds a unified system of record for SaaS usage, users, licenses, and spend. IT, finance, and procure…
@@ -127,54 +57,12 @@ providers:
   score_band: developing
   score_composite: 48.2
   shared: 1
-- slug: alokai-formerly-vue-storefront
-  name: Alokai (formerly Vue Storefront)
-  description: Alokai (formerly Vue Storefront) is a Frontend-as-a-Service platform for composable, headless commerce. It connects enterprise ecommerce backends (SAP Commerce Cloud, Salesforce, Adobe Commerce/Magento, commercetools, BigCommerce, Shopware and others) to fast, customizable storefronts through the A…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.0
-  shared: 1
-- slug: codesphere
-  name: Codesphere
-  description: Codesphere is a European-built sovereign cloud platform that lets organizations deploy and operate applications across on-premises, hybrid, and public-cloud infrastructure from a single control layer, without Kubernetes expertise or vendor lock-in. Its Public API manages workspaces, CI/deploy pipel…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.6
-  shared: 1
 - slug: amazon-systems-manager
   name: Amazon Systems Manager
   description: AWS Systems Manager is an operational management service that provides a unified interface for managing AWS resources and on-premises infrastructure. It enables automation of operational tasks, configuration management, patch management, parameter storage, and run command execution across your hybr…
   api_count: 1
   score_band: developing
   score_composite: 47.5
-  shared: 1
-- slug: fellow
-  name: Fellow
-  description: 'Fellow is an AI meeting assistant and meeting-management platform that records, transcribes, and summarizes meetings, then captures structured notes, action items, and decisions across a team''s calendar. Fellow''s Developer API opens that meeting data through a REST interface: authenticated workspac…'
-  api_count: 1
-  score_band: developing
-  score_composite: 47.1
-  shared: 1
-- slug: bonjoro
-  name: Bonjoro
-  description: 'Bonjoro is a personal-video customer engagement platform operated by Vimily Pty Ltd of Sydney, Australia. Sales, marketing, customer success and education teams use it to record short one-to-one videos — "Bonjoros" — and deliver them at the moments that decide a relationship: signup, onboarding, fi…'
-  api_count: 2
-  score_band: developing
-  score_composite: 46.6
-  shared: 1
-- slug: clozd
-  name: Clozd
-  description: Clozd is a Lehi, Utah based decision-intelligence and win-loss analysis platform that collects structured buyer feedback — through human-led live interviews, AI-assisted Flex interviews, and autonomous Flow interviews — and turns it into decision drivers, competitor sentiment, win rates, and verbat…
-  api_count: 6
-  score_band: developing
-  score_composite: 46.6
-  shared: 1
-- slug: favro
-  name: Favro
-  description: Favro is a cloud planning and collaboration platform for agile teams, combining planning boards, backlogs, sprint/kanban widgets, roadmaps, and OKR/portfolio management in a single organization-scoped workspace. Its public REST API (https://favro.com/api/v1) exposes organizations, collections, widg…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.0
   shared: 1
 - slug: zylo
   name: Zylo
@@ -183,24 +71,10 @@ providers:
   score_band: developing
   score_composite: 44.8
   shared: 1
-- slug: coorpacademy
-  name: Coorpacademy
-  description: 'Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as "Coorpacademy by Go1". It sells a B2B SaaS learning experience platform built on inverted-pedagogy, gamified micro-learning: brand-scoped learning…'
-  api_count: 14
-  score_band: developing
-  score_composite: 44.0
-  shared: 1
 - slug: tropic
   name: Tropic
   description: Tropic is an intelligent procurement platform that combines AI-powered spend management, supplier management, and benchmark data to help organizations find and capture savings opportunities. Tropic's AI agents track renewals, spot shadow spend, flag compliance issues, and automate manual procuremen…
   api_count: 1
-  score_band: developing
-  score_composite: 42.9
-  shared: 1
-- slug: itslearning
-  name: itslearning
-  description: itslearning is a Norwegian learning management system (LMS) founded in 1999 and headquartered in Bergen, Norway, now part of the Sanoma Learning group. Its cloud platform serves primary, secondary, vocational, higher education, lifelong-learning and international schools across Europe and beyond, g…
-  api_count: 4
   score_band: developing
   score_composite: 42.9
   shared: 1
@@ -211,37 +85,160 @@ providers:
   score_band: developing
   score_composite: 41.1
   shared: 1
-- slug: prewave
-  name: Prewave
-  description: Prewave is a Vienna-based AI-powered supply-chain risk intelligence platform that monitors millions of risk events across languages and networks to give enterprises proactive resilience, multi-tier supplier transparency, and sustainability-compliance automation (EU Deforestation Regulation, LkSG, a…
+- slug: nudge-security
+  name: Nudge Security
+  description: Nudge Security is a SaaS and AI security management platform that discovers all SaaS and cloud applications used across an organization, helps security teams manage OAuth grants, enforce security policies, monitor app-to-app integrations, and reduce SaaS risk without blocking productivity. The plat…
   api_count: 1
   score_band: developing
-  score_composite: 40.4
+  score_composite: 40.0
+  shared: 1
+- slug: cakewalk
+  name: Cakewalk
+  description: 'Cakewalk is the agentic access management platform for fast-moving companies, combining a granular identity governance and administration (IGA) platform with AI-driven workflows. Cakewalk governs access for both human identities and AI agents: its MCP Gateway routes every AI agent tool call through…'
+  api_count: 1
+  score_band: developing
+  score_composite: 39.5
+  shared: 1
+- slug: snow-software
+  name: Snow Software
+  description: Snow Software (now Flexera Snow) is an IT asset and SaaS management platform providing visibility into software licenses, cloud spend, SaaS usage, and hardware assets across the enterprise. Snow Atlas is the cloud-native platform offering SAM (Software Asset Management), SaaS Management, Cloud Lice…
+  api_count: 4
+  score_band: thin
+  score_composite: 36.9
+  shared: 1
+- slug: trelica
+  name: Trelica
+  description: Trelica is a SaaS management platform (now part of 1Password SaaS Manager) providing application discovery, license optimization, contract management, and workflow automation for IT teams. The platform offers a REST API covering applications, users, people, contracts, workflows, assets, and audit l…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.7
+  shared: 1
+- slug: broadcom
+  name: Broadcom
+  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
+  api_count: 3
+  score_band: thin
+  score_composite: 33.3
+  shared: 1
+- slug: bettercloud
+  name: BetterCloud
+  description: BetterCloud is the end-to-end SaaS management platform that enables IT teams to discover, manage, and secure the growing SaaS environment. The platform provides automated workflows, security policies, and management capabilities for SaaS applications in enterprise environments, handling billions of…
+  api_count: 5
+  score_band: thin
+  score_composite: 32.9
+  shared: 1
+- slug: coreview-fka-4ward365
+  name: CoreView (FKA 4ward365)
+  description: CoreView (formerly 4ward365) is an enterprise Microsoft 365 governance, security, and automation platform. It secures the configuration, identity, and access layers of Microsoft 365 tenants and provides delegated administration, license management, reporting, and workflow automation. CoreView expos…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.7
+  shared: 1
+- slug: zenadmin
+  name: ZenAdmin
+  description: 'ZenAdmin is an all-in-one IT management platform for global teams, covering the full device and employee lifecycle: IT procurement, device lifecycle management, asset and inventory tracking, mobile device management (MDM), identity and access management, SaaS/app management, IT helpdesk, and 24/7 I…'
+  api_count: 1
+  score_band: thin
+  score_composite: 29.4
+  shared: 1
+- slug: spendflo
+  name: Spendflo
+  description: Spendflo is an AI-native procurement platform that centralizes intake-to-pay, enforces procurement policy, and reduces SaaS and vendor spend by combining AI-powered automation with expert-led negotiation. The Flash AI suite includes a Contract Analyst, Payables Agent, Procurement Analyst, and AI Wo…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.5
+  shared: 1
+- slug: blissfully
+  name: Blissfully
+  description: Blissfully was a SaaS management platform providing SaaS discovery, spend optimization, and workflow automation for IT and finance teams. Blissfully was acquired by Vendr in 2022 and integrated into the Vendr platform. Vendr is now a leading SaaS buying and management platform that helps companies…
+  api_count: 7
+  score_band: thin
+  score_composite: 28.4
+  shared: 1
+- slug: sastrify
+  name: Sastrify
+  description: Sastrify is an AI-powered SaaS management and procurement platform that unites IT, Finance, and Procurement on one intelligent platform. It discovers every tool in an organization's stack, manages licenses and renewals, benchmarks spend automatically against market data, and provides procurement wo…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.4
+  shared: 1
+- slug: cleanshelf
+  name: Cleanshelf
+  description: Cleanshelf was a SaaS management platform that helped enterprises discover and inventory their SaaS applications, optimize software licenses, track spend, and surface shadow IT. Cleanshelf was acquired by Zylo in 2021 and its capabilities have been folded into the Zylo enterprise SaaS spend optimiz…
+  api_count: 2
+  score_band: thin
+  score_composite: 27.2
+  shared: 1
+- slug: leanix
+  name: LeanIX
+  description: LeanIX (now SAP LeanIX) is an enterprise architecture and SaaS management platform providing IT portfolio management, application portfolio rationalization, SaaS discovery, and technology risk management. The platform exposes REST APIs for integrating with the fact sheet inventory, running inbound…
+  api_count: 1
+  score_band: emerging
+  score_composite: 24.2
+  shared: 1
+- slug: augmentt
+  name: Augmentt
+  description: Augmentt is a multi-tenant SaaS management platform built for managed service providers (MSPs). It provides SaaS discovery (Shadow IT), license optimization, usage tracking, spend management, and SaaS security policy enforcement across Microsoft 365 and cloud applications. Augmentt integrates with…
+  api_count: 3
+  score_band: emerging
+  score_composite: 21.9
+  shared: 1
+- slug: salto
+  name: Salto
+  description: Salto is an AI-powered configuration-management platform for enterprise business and IT applications. It lets teams search, analyze, compare, document, and deploy configuration changes across systems such as Salesforce, Salesforce CPQ, NetSuite, Zendesk, Jira, Confluence, Google Workspace, Okta, Mi…
+  api_count: 0
+  score_band: emerging
+  score_composite: 21.6
+  shared: 1
+- slug: electricai
+  name: Electric.ai
+  description: Electric (electric.ai) is an all-in-one IT and security management platform built for small and mid-sized businesses that lack an in-house IT team. From a single IT Hub it automates employee onboarding and offboarding, device (MDM) management, application provisioning and access, credential/passwor…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.1
+  shared: 1
+- slug: substly
+  name: Substly
+  description: Substly is a SaaS management platform designed for small and medium-sized businesses to track software subscriptions, optimize spend, manage user access, and detect shadow IT across cloud applications. It provides centralized oversight, automated renewal tracking, and integrations with Google Works…
+  api_count: 1
+  score_band: emerging
+  score_composite: 18.6
+  shared: 1
+- slug: vertice
+  name: Vertice
+  description: Vertice is an intelligent procurement platform built for the modern enterprise with agentic workflows, AI insights, and expert buyers that empower finance and procurement teams across 30+ countries to buy smarter and scale faster. The platform covers SaaS purchasing and contract management, cloud s…
+  api_count: 1
+  score_band: emerging
+  score_composite: 17.5
+  shared: 1
+- slug: certero
+  name: Certero
+  description: Certero is an enterprise IT Asset Management (ITAM) software vendor whose flagship CerteroX platform unifies visibility, observability, management, and governance across hardware, software, SaaS, and multi-cloud environments. The CerteroX suite includes CerteroX ITAM (hardware and network discovery…
+  api_count: 6
+  score_band: emerging
+  score_composite: 17.3
   shared: 1
 related:
 - slug: management
   name: Management
-  shared: 5
+  shared: 6
 - slug: ai-automation
   name: AI Automation
-  shared: 1
-- slug: deployment
-  name: Deployment
   shared: 1
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 1
-- slug: orchestration
-  name: Orchestration
+- slug: virtualization
+  name: Virtualization
   shared: 1
-- slug: sdk
-  name: SDKs
+- slug: ipaas
+  name: iPaaS
   shared: 1
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including SugarCRM, Bonitasoft, Boomi, Levitate, Inflection.io, Creatio, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Boomi, WunderGraph, Lumos, Torii, SnapLogic, Zluri, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, AI Automation, Deployment, and Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, AI Automation, Embedded iPaaS, and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

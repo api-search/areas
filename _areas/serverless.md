@@ -113,13 +113,6 @@ providers:
   score_band: strong
   score_composite: 61.4
   shared: 1
-- slug: amazon-web-services-aws
-  name: Amazon Web Services (AWS)
-  description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
-  api_count: 1
-  score_band: strong
-  score_composite: 60.1
-  shared: 1
 - slug: azure-container-apps
   name: Azure Container Apps
   description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
@@ -147,6 +140,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 58.4
+  shared: 1
+- slug: amazon-web-services-aws
+  name: Amazon Web Services (AWS)
+  description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
+  api_count: 1
+  score_band: strong
+  score_composite: 58.2
   shared: 1
 - slug: amazon-glue
   name: Amazon Glue
@@ -227,12 +227,12 @@ related:
   shared: 4
 - slug: machine-learning
   name: Machine Learning
-  shared: 3
-- slug: security
-  name: Security
-  shared: 3
+  shared: 2
 - slug: orchestration
   name: Orchestration
+  shared: 2
+- slug: security
+  name: Security
   shared: 2
 - slug: dns
   name: DNS
@@ -243,5 +243,5 @@ overview: 'Serverless is one of the API Evangelist areas on the [APIs.io](https:
   30 providers on the network work in this area, including Oracle Cloud Infrastructure, fal, Amazon API Gateway, Modal, Microsoft Azure Functions, Inngest, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, Database, Machine Learning, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, Database, Machine Learning, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -53,7 +53,7 @@ providers:
 related:
 - slug: saas-management
   name: SaaS Management
-  shared: 5
+  shared: 6
 - slug: ai-automation
   name: AI Automation
   shared: 1

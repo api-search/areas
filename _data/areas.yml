@@ -95,7 +95,7 @@
     authorization, identity management, and secrets management. This collec…
   area_url: https://authentication.apievangelist.com
   icon: https://authentication.apievangelist.com/icon-thumb.png
-  provider_count: 382
+  provider_count: 385
   url: https://apis.io/areas/authentication/
 - slug: backups
   name: Backups
@@ -161,7 +161,7 @@
     line interfaces, HTTP clients, and terminal-based API tools. This collection co…
   area_url: https://cli.apievangelist.com
   icon: https://cli.apievangelist.com/icon-thumb.png
-  provider_count: 113
+  provider_count: 112
   url: https://apis.io/areas/cli/
 - slug: communications
   name: Communications
@@ -169,7 +169,7 @@
     (CPaaS) and messaging-and-voice infrastructure APIs. This network gathers providers…
   area_url: https://communications.apievangelist.com
   icon: https://communications.apievangelist.com/icon-thumb.png
-  provider_count: 159
+  provider_count: 158
   url: https://apis.io/areas/communications/
 - slug: containers
   name: Containers
@@ -514,7 +514,7 @@
     Publi…
   area_url: https://road-map.apievangelist.com
   icon: https://road-map.apievangelist.com/icon-thumb.png
-  provider_count: 4
+  provider_count: 0
   url: https://apis.io/areas/road-map/
 - slug: saas-management
   name: SaaS Management
@@ -522,7 +522,7 @@
     to discover, manage, optimize, and secure their portfolio of SaaS applications…
   area_url: https://saas-management.apievangelist.com
   icon: https://saas-management.apievangelist.com/icon-thumb.png
-  provider_count: 97
+  provider_count: 44
   url: https://apis.io/areas/saas-management/
 - slug: scraping
   name: Scraping

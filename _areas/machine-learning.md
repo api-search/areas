@@ -183,13 +183,6 @@ providers:
   score_band: strong
   score_composite: 60.2
   shared: 1
-- slug: amazon-web-services-aws
-  name: Amazon Web Services (AWS)
-  description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
-  api_count: 1
-  score_band: strong
-  score_composite: 60.1
-  shared: 1
 - slug: aimlapi
   name: AIMLAPI
   description: AIMLAPI is a unified AI model API gateway providing access to 400+ state-of-the-art AI models from OpenAI, Anthropic, Google, Meta, DeepSeek, Mistral, Stability AI, and 40+ other providers through a single OpenAI-compatible API. Supported modalities include text/chat LLMs, image generation, video g…
@@ -218,21 +211,28 @@ providers:
   score_band: strong
   score_composite: 59.3
   shared: 1
+- slug: zenml
+  name: ZenML
+  description: ZenML is an open-source MLOps and LLMOps framework that unifies machine learning and generative AI workflows through a single orchestration, versioning, and governance layer. It provides a Python SDK, CLI, REST API, and server for managing pipelines, stacks, artifacts, models, and deployments acros…
+  api_count: 1
+  score_band: strong
+  score_composite: 59.2
+  shared: 1
 related:
-- slug: containers
-  name: Containers
-  shared: 3
-- slug: security
-  name: Security
-  shared: 3
-- slug: serverless
-  name: Serverless
-  shared: 3
 - slug: agents
   name: Agents
   shared: 2
+- slug: containers
+  name: Containers
+  shared: 2
 - slug: observability
   name: Observability
+  shared: 2
+- slug: security
+  name: Security
+  shared: 2
+- slug: serverless
+  name: Serverless
   shared: 2
 - slug: ide
   name: IDE
@@ -243,5 +243,5 @@ overview: 'Machine Learning is one of the API Evangelist areas on the [APIs.io](
   30 providers on the network work in this area, including Anthropic, Pluralsight, Google Analytics, NexGen Cloud, Exec, GitHub Copilot, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, Security, Serverless, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agents, Containers, Observability, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

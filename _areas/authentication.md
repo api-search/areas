@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 382
+provider_count: 385
 providers:
 - slug: convertkit
   name: Kit
@@ -78,19 +78,19 @@ providers:
   score_band: exemplar
   score_composite: 70.1
   shared: 1
-- slug: jefferson-health
-  name: Jefferson Health
-  description: Jefferson Health is a multi-state nonprofit academic health system based in Philadelphia, Pennsylvania, operating more than 30 hospitals and over 700 care sites across eastern Pennsylvania and southern New Jersey as the clinical arm of the broader Jefferson enterprise that also includes Thomas Jeff…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 69.8
-  shared: 1
 - slug: arcade
   name: Arcade
   description: Arcade.dev is the MCP runtime for production AI agent deployments. The Arcade Engine — a hosted or self-hostable API surface — handles OAuth user authorization, manages user tokens, and exposes 7,000+ pre-built integrations as Model Context Protocol tools that agent frameworks like LangChain, OpenA…
   api_count: 1
   score_band: exemplar
   score_composite: 68.8
+  shared: 1
+- slug: jefferson-health
+  name: Jefferson Health
+  description: Jefferson Health is a multi-state nonprofit academic health system based in Philadelphia, Pennsylvania, operating more than 30 hospitals and over 700 care sites across eastern Pennsylvania and southern New Jersey as the clinical arm of the broader Jefferson enterprise that also includes Thomas Jeff…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 68.0
   shared: 1
 - slug: strivacity
   name: Strivacity
@@ -105,6 +105,13 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 66.5
+  shared: 1
+- slug: tvarka
+  name: Tvarka ATK API
+  description: A single REST API estate for Lithuanian eID authentication and qualified electronic signing (QES). The ATK API reads the Lithuanian identity card itself - physical smart-card reader or NFC phone tap - through one request, polling, webhook and metering model, and adds standalone validation, timestam…
+  api_count: 4
+  score_band: strong
+  score_composite: 66.3
   shared: 1
 - slug: lever-co
   name: Lever
@@ -208,13 +215,6 @@ providers:
   name: Playable
   description: Playable (formerly Leadfamly, Playable ApS, Aarhus Denmark and London UK) is a self-service marketing gamification platform used by brands to build, publish and measure interactive campaigns — spin-the-wheel, advent calendars, quizzes, scratch cards, memory and skill games — across web, email, in-a…
   api_count: 2
-  score_band: strong
-  score_composite: 61.1
-  shared: 1
-- slug: temple-health
-  name: Temple Health
-  description: Temple University Health System (Temple Health) is the Philadelphia-based academic health system affiliated with the Lewis Katz School of Medicine at Temple University. It operates Temple University Hospital (Main Campus, Jeanes, Episcopal, Northeastern, Women & Families), Temple Health Chestnut Hi…
-  api_count: 1
   score_band: strong
   score_composite: 61.1
   shared: 1

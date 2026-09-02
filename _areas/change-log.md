@@ -51,9 +51,6 @@ providers:
   score_composite: 5.0
   shared: 1
 related:
-- slug: road-map
-  name: Road Map
-  shared: 3
 - slug: deprecation
   name: Deprecation
   shared: 2
@@ -66,5 +63,5 @@ overview: 'Change Log is one of the API Evangelist areas on the [APIs.io](https:
   Providers on the network working in this area include Canny, AnnounceKit, Beamer, LaunchNotes, CHANGELOG.md (Keep a Changelog), and Makelog — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Road Map, Deprecation, and Versioning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Deprecation and Versioning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

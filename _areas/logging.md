@@ -134,6 +134,13 @@ providers:
   score_band: developing
   score_composite: 45.0
   shared: 1
+- slug: sumo-logic
+  name: Sumo Logic
+  description: Sumo Logic is a cloud-native, machine data analytics platform delivering real-time, continuous intelligence for operations, security, and business insights. It provides a comprehensive REST API with 289 endpoints spanning log analytics, dashboards, monitors, roles, users, metrics, traces, and more.
+  api_count: 1
+  score_band: developing
+  score_composite: 44.7
+  shared: 1
 - slug: glitchtip
   name: GlitchTip
   description: GlitchTip is an open-source error tracking and performance monitoring platform compatible with Sentry SDKs. It provides a REST API for managing errors, issues, projects, organizations, and teams, along with uptime monitoring and application performance insights. Available as a hosted SaaS service o…
@@ -151,13 +158,6 @@ providers:
 - slug: fluentd
   name: Fluentd
   description: Open source data collector for unified logging layer that allows you to unify data collection and consumption for better use and understanding of data.
-  api_count: 1
-  score_band: developing
-  score_composite: 42.9
-  shared: 1
-- slug: sumo-logic
-  name: Sumo Logic
-  description: Sumo Logic is a cloud-native, machine data analytics platform delivering real-time, continuous intelligence for operations, security, and business insights. It provides a comprehensive REST API with 289 endpoints spanning log analytics, dashboards, monitors, roles, users, metrics, traces, and more.
   api_count: 1
   score_band: developing
   score_composite: 42.9

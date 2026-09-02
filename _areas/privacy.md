@@ -27,7 +27,7 @@ providers:
   description: 'Listrak is a retail customer-engagement platform whose public API surface is eight separate REST APIs served from api.listrak.com: Email (83 operations), SMS (20), Data Import (5), Media (9), Mobile App Push (5), Two-Way SMS (4), Cross Channel custom events (3) and Privacy (2). Together they cover…'
   api_count: 18
   score_band: exemplar
-  score_composite: 76.5
+  score_composite: 74.7
   shared: 1
 - slug: adobe-campaign
   name: Adobe Campaign

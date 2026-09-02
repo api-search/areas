@@ -169,6 +169,13 @@ providers:
   score_band: developing
   score_composite: 53.3
   shared: 1
+- slug: influxdata
+  name: InfluxData
+  description: InfluxData is the company behind InfluxDB, the leading open source time series database purpose-built for real-time analytics, monitoring, IoT and sensor data, application metrics, and observability workloads. InfluxDB ingests millions of data points per second and ships as open source (InfluxDB OS…
+  api_count: 2
+  score_band: developing
+  score_composite: 53.0
+  shared: 1
 - slug: yugabyte
   name: Yugabyte
   description: Yugabyte is the company behind YugabyteDB, an open source (Apache 2.0), PostgreSQL-compatible distributed SQL database built for cloud-native and mission-critical applications. It pairs PostgreSQL wire-compatibility (the YSQL API) and a Cassandra-inspired API (YCQL) with horizontal scalability, bui…
@@ -189,13 +196,6 @@ providers:
   api_count: 12
   score_band: developing
   score_composite: 51.7
-  shared: 1
-- slug: influxdata
-  name: InfluxData
-  description: InfluxData is the company behind InfluxDB, the leading open source time series database purpose-built for real-time analytics, monitoring, IoT and sensor data, application metrics, and observability workloads. InfluxDB ingests millions of data points per second and ships as open source (InfluxDB OS…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.2
   shared: 1
 - slug: microsoft-azure-mysql
   name: Azure Database for MySQL

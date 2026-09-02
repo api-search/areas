@@ -36,13 +36,6 @@ providers:
   score_band: strong
   score_composite: 60.2
   shared: 1
-- slug: amazon-web-services-aws
-  name: Amazon Web Services (AWS)
-  description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
-  api_count: 1
-  score_band: strong
-  score_composite: 60.1
-  shared: 1
 - slug: azure-container-apps
   name: Azure Container Apps
   description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
@@ -63,6 +56,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 58.4
+  shared: 1
+- slug: amazon-web-services-aws
+  name: Amazon Web Services (AWS)
+  description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
+  api_count: 1
+  score_band: strong
+  score_composite: 58.2
   shared: 1
 - slug: tensordock
   name: TensorDock
@@ -228,20 +228,20 @@ related:
 - slug: orchestration
   name: Orchestration
   shared: 4
-- slug: machine-learning
-  name: Machine Learning
-  shared: 3
 - slug: microservices
   name: Microservices
   shared: 3
+- slug: machine-learning
+  name: Machine Learning
+  shared: 2
 - slug: security
   name: Security
-  shared: 3
+  shared: 2
 overview: 'Containers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [containers.apievangelist.com](https://containers.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Azure Kubernetes Service, Cloudflare, IBM, Paperspace, Amazon Web Services (AWS), Azure Container Apps, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Azure Kubernetes Service, Cloudflare, IBM, Paperspace, Azure Container Apps, Amazon ECR, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Deployment, Serverless, Orchestration, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Deployment, Serverless, Orchestration, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

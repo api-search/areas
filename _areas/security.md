@@ -197,13 +197,6 @@ providers:
   score_band: strong
   score_composite: 60.3
   shared: 1
-- slug: amazon-web-services-aws
-  name: Amazon Web Services (AWS)
-  description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
-  api_count: 1
-  score_band: strong
-  score_composite: 60.1
-  shared: 1
 - slug: kondukto
   name: Kondukto
   description: Kondukto — now shipped as Invicti ASPM following Invicti Security's acquisition of the company — is an Application Security Posture Management platform that centralizes and automates the AppSec vulnerability management lifecycle. It ingests, deduplicates and correlates findings from more than eight…
@@ -218,12 +211,16 @@ providers:
   score_band: strong
   score_composite: 59.2
   shared: 1
+- slug: amazon-iam-access-analyzer
+  name: Amazon IAM Access Analyzer
+  description: AWS IAM Access Analyzer helps you set, verify, and refine your IAM policies by providing a suite of capabilities including findings for external, internal, and unused access, basic and custom policy checks for validating policies, and policy generation to generate fine-grained policies. It uses aut…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.9
+  shared: 1
 related:
 - slug: authentication
   name: Authentication
-  shared: 3
-- slug: containers
-  name: Containers
   shared: 3
 - slug: dns
   name: DNS
@@ -231,17 +228,20 @@ related:
 - slug: encryption
   name: Encryption
   shared: 3
-- slug: machine-learning
-  name: Machine Learning
-  shared: 3
 - slug: observability
   name: Observability
   shared: 3
+- slug: search
+  name: API Evangelist Search
+  shared: 2
+- slug: containers
+  name: Containers
+  shared: 2
 overview: 'Security is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [security.apievangelist.com](https://security.apievangelist.com).
 
 
   30 providers on the network work in this area, including Mailboxlayer, Paubox, Strivacity, Censys, Barndoor, Cisco Identity Services Engine, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication, Containers, DNS, and Encryption. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Authentication, DNS, Encryption, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

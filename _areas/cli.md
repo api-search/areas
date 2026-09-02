@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 113
+provider_count: 112
 providers:
 - slug: aws-cli
   name: AWS CLI

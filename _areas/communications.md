@@ -6,7 +6,7 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 159
+provider_count: 158
 providers:
 - slug: amazon-pinpoint
   name: Amazon Pinpoint

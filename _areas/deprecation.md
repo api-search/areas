@@ -40,14 +40,11 @@ related:
 - slug: change-log
   name: Change Log
   shared: 2
-- slug: road-map
-  name: Road Map
-  shared: 1
 overview: 'Deprecation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deprecation.apievangelist.com](https://deprecation.apievangelist.com).
 
 
   Providers on the network working in this area include Beamer, Versioning Protocols, LaunchNotes, and Oasdiff — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Change Log and Road Map. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Change Log. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---
