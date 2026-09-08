@@ -13,28 +13,21 @@ providers:
   description: At AB Tasty, we are your partner for pushing great ideas even further through optimization. We achieve this by empowering brands to build better experiences using personalization, experimentation, recommendations, merchandising, and the market's only emotions-based segmentation solution.
   api_count: 1
   score_band: developing
-  score_composite: 51.7
+  score_composite: 50.3
   shared: 1
 - slug: mx-platform
   name: MX Platform
   description: The MX Platform API is a powerful, fully-featured API designed to make aggregating and enhancing financial data easy and reliable. It can seamlessly connect your app or website to tens of thousands of financial institutions.
   api_count: 1
   score_band: developing
-  score_composite: 43.4
+  score_composite: 42.5
   shared: 1
-- slug: thenewsapi
-  name: TheNewsAPI
-  description: Global news aggregation REST API providing real-time and historical news articles from thousands of sources with filtering by category, language, country, and search. Indexes over 1 million new articles per week from 40,000+ sources across 50+ countries and 35+ languages.
-  api_count: 1
+- slug: tietoevry
+  name: TietoEVRY
+  description: TietoEVRY (Tietoevry Corporation, listed as TIETO on Nasdaq Helsinki and Stockholm, rebranded to "Tieto" in 2026) is a Nordic software and technology company of roughly 14,000 people operating in 20+ countries, serving banking, healthcare, public sector and industry. Its public API surface is publi…
+  api_count: 24
   score_band: developing
-  score_composite: 40.0
-  shared: 1
-- slug: krakend
-  name: KrakenD
-  description: KrakenD is a stateless, distributed, high-performance open-source API gateway written in Go, focused on API aggregation, transformation, and security with a declarative configuration approach.
-  api_count: 1
-  score_band: developing
-  score_composite: 39.7
+  score_composite: 41.9
   shared: 1
 - slug: google-news
   name: Google News RSS
@@ -48,32 +41,49 @@ providers:
   description: Belvo is a Latin American open-finance API platform that lets companies connect to bank, fiscal, and employment institutions across Mexico, Brazil, and Colombia to aggregate accounts, balances, transactions, owners, and income data, and to initiate account-to-account payments over Brazil's Pix / Op…
   api_count: 1
   score_band: thin
-  score_composite: 37.9
+  score_composite: 39.2
+  shared: 1
+- slug: krakend
+  name: KrakenD
+  description: KrakenD is a stateless, distributed, high-performance open-source API gateway written in Go, focused on API aggregation, transformation, and security with a declarative configuration approach.
+  api_count: 1
+  score_band: thin
+  score_composite: 39.0
   shared: 1
 - slug: quiltt
   name: Quiltt
   description: Quiltt is a fintech data platform and abstraction layer over open-banking aggregators like Plaid, MX, and Finicity. It exposes a unified GraphQL API for reading end-user financial data (profiles, connections, accounts, balances, transactions, investment holdings, statements) plus a REST Admin/Auth…
   api_count: 1
   score_band: thin
-  score_composite: 37.1
+  score_composite: 36.4
   shared: 1
 - slug: statsd
   name: StatsD
   description: StatsD is the network daemon and UDP-based line protocol for application metrics, originally written at Etsy and now maintained at github.com/statsd/statsd. A StatsD client emits short text packets — counters, gauges, timers, histograms, sets, and meters — to a daemon that aggregates them in memory…
   api_count: 1
   score_band: thin
-  score_composite: 36.1
+  score_composite: 34.7
   shared: 1
 - slug: urjanet
   name: Urjanet
   description: Urjanet (now part of Arcadia) is a utility-data aggregation platform that programmatically collects utility bill, statement, meter, and interval usage data from thousands of electricity, gas, water, waste, and telecom providers worldwide. Following Arcadia's 2022 acquisition, Urjanet's data access…
   api_count: 1
   score_band: thin
-  score_composite: 33.5
+  score_composite: 32.8
   shared: 1
+provider_slugs:
+- ab-tasty
+- mx-platform
+- tietoevry
+- google-news
+- belvo
+- krakend
+- quiltt
+- statsd
+- urjanet
 related: []
 overview: 'Aggregation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aggregation.apievangelist.com](https://aggregation.apievangelist.com).
 
 
-  9 providers on the network work in this area, including AB Tasty, MX Platform, TheNewsAPI, KrakenD, Google News RSS, Belvo, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  9 providers on the network work in this area, including AB Tasty, MX Platform, TietoEVRY, Google News RSS, Belvo, KrakenD, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

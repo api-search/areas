@@ -13,7 +13,7 @@ providers:
   description: 'Godot Engine is a free and open-source community-driven 2D and 3D game engine released under the MIT License and stewarded by the Godot Foundation. Godot ships an integrated editor plus a deep scripting and extension surface across three primary languages: GDScript (Godot''s own typed scripting lang…'
   api_count: 5
   score_band: thin
-  score_composite: 34.0
+  score_composite: 30.6
   shared: 1
 - slug: wpgraphql
   name: WPGraphQL
@@ -29,6 +29,10 @@ providers:
   score_band: emerging
   score_composite: 24.2
   shared: 1
+provider_slugs:
+- godot
+- wpgraphql
+- unreal-engine
 related: []
 overview: 'Plugin is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [plugin.apievangelist.com](https://plugin.apievangelist.com).
 

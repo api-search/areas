@@ -6,21 +6,35 @@ description: 'An index and topic collection covering software licensing APIs acr
 area_url: https://licensing.apievangelist.com
 area_host: licensing.apievangelist.com
 icon: https://licensing.apievangelist.com/icon-thumb.png
-provider_count: 35
+provider_count: 34
 providers:
 - slug: replicated
   name: Replicated
   description: Replicated is a commercial software distribution platform that lets independent software vendors (ISVs) deliver and manage modern applications into complex, customer-controlled environments — including on-prem, self-hosted, and air-gapped networks with little or no outbound internet access. The pla…
   api_count: 1
   score_band: strong
-  score_composite: 58.9
+  score_composite: 60.6
+  shared: 1
+- slug: certifyos
+  name: Certifyos
+  description: 'Certify (operating as CertifyOS, certifyos.com) is a New York-based healthcare provider data platform that automates the end-to-end provider network management lifecycle: credentialing, licensing, payer enrollment, compliance monitoring, and roster management. Founded in 2020 by CEO Anshul Rathi, t…'
+  api_count: 3
+  score_band: strong
+  score_composite: 59.6
+  shared: 1
+- slug: accela
+  name: Accela
+  description: Accela is a San Ramon, California govtech company whose cloud Civic Platform runs permitting, planning, licensing, code enforcement, inspections, asset management and citizen service requests for state and local government agencies worldwide. Its public developer surface is the Accela Construct API…
+  api_count: 15
+  score_band: strong
+  score_composite: 57.4
   shared: 1
 - slug: sendowl
   name: SendOwl
   description: SendOwl is a UK-based digital commerce platform that lets creators and small businesses sell digital products, subscriptions, memberships, license keys, drip-delivered courses and physical goods, with hosted checkout, automated file delivery, PDF stamping, affiliate programs, discount codes and EU…
   api_count: 1
   score_band: strong
-  score_composite: 55.0
+  score_composite: 54.7
   shared: 1
 - slug: acma
   name: ACMA
@@ -29,47 +43,33 @@ providers:
   score_band: developing
   score_composite: 51.8
   shared: 1
-- slug: certifyos
-  name: Certifyos
-  description: 'Certify (operating as CertifyOS, certifyos.com) is a New York-based healthcare provider data platform that automates the end-to-end provider network management lifecycle: credentialing, licensing, payer enrollment, compliance monitoring, and roster management. Founded in 2020 by CEO Anshul Rathi, t…'
-  api_count: 3
-  score_band: developing
-  score_composite: 49.5
-  shared: 1
 - slug: opengov
   name: OpenGov
   description: OpenGov builds cloud enterprise resource planning and public service software for state and local government, serving more than 2,000 communities across budgeting and performance, financial management, procurement and contract management, vendor management, permitting and licensing, enterprise asse…
   api_count: 12
   score_band: developing
-  score_composite: 47.1
+  score_composite: 49.5
   shared: 1
 - slug: madaket
   name: Madaket
   description: Madaket Health is a Cambridge, Massachusetts healthcare administration company whose Provider Data Management (PDM) platform automates payer enrollment, EDI enrollment, credentialing, licensing and provider directory data management between healthcare providers and payers. Madaket maintains connect…
   api_count: 1
   score_band: developing
-  score_composite: 44.3
+  score_composite: 42.7
   shared: 1
 - slug: shutterstock
   name: Shutterstock
   description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
   api_count: 1
   score_band: developing
-  score_composite: 43.3
+  score_composite: 42.5
   shared: 1
 - slug: soundstripe
   name: Soundstripe
   description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
   api_count: 1
   score_band: developing
-  score_composite: 41.3
-  shared: 1
-- slug: 7digital
-  name: 7digital
-  description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
-  api_count: 23
-  score_band: developing
-  score_composite: 40.1
+  score_composite: 40.4
   shared: 1
 - slug: agentsync
   name: Agentsync
@@ -78,19 +78,26 @@ providers:
   score_band: developing
   score_composite: 39.9
   shared: 1
+- slug: 7digital
+  name: 7digital
+  description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
+  api_count: 23
+  score_band: developing
+  score_composite: 39.4
+  shared: 1
 - slug: warner-music-group
   name: Warner Music Group
   description: Warner Music Group is one of the major record labels in the music industry, with recorded music and music publishing operations spanning a roster of artists, songwriters, and labels around the world. WMG includes Warner Records, Atlantic Records, Elektra Records, and Warner Chappell Music (one of t…
   api_count: 1
   score_band: thin
-  score_composite: 37.8
+  score_composite: 37.1
   shared: 1
 - slug: fossology
   name: FOSSology
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations through automated scanning, human clearing workflows, and SP…
   api_count: 1
   score_band: thin
-  score_composite: 37.7
+  score_composite: 35.7
   shared: 1
 - slug: fcc
   name: FCC (Federal Communications Commission)
@@ -104,14 +111,7 @@ providers:
   description: Story Protocol is a purpose-built EVM Layer 1 blockchain for onchain intellectual property (the "IP blockchain"), powered by Proof of Creativity, built by Pip Labs and backed by a16z. Its public REST API (api.storyapis.com) is a read-only indexer that exposes IP assets, collections, license terms,…
   api_count: 1
   score_band: thin
-  score_composite: 28.9
-  shared: 1
-- slug: getty
-  name: Getty Images
-  description: Getty Images is a premium stock media licensor of editorial and creative photography, illustrations, video, and music. The Getty Images API exposes search, asset metadata, and download endpoints for licensing partners and enterprise customers. Authentication is via API key + OAuth 2.0 client creden…
-  api_count: 1
-  score_band: thin
-  score_composite: 26.9
+  score_composite: 28.2
   shared: 1
 - slug: medallion
   name: Medallion
@@ -141,12 +141,12 @@ providers:
   score_band: emerging
   score_composite: 18.2
   shared: 1
-- slug: universal-music-group
-  name: Universal Music Group
-  description: 'Universal Music Group N.V. (UMG) is the world''s largest music company, headquartered in Hilversum, Netherlands with operational headquarters in Santa Monica, California. Spun off from Vivendi and listed on Euronext Amsterdam (ticker: UMG) on September 21, 2021 at a EUR 54 billion valuation, UMG ope…'
-  api_count: 5
+- slug: endeavor
+  name: Endeavor
+  description: Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media,…
+  api_count: 2
   score_band: emerging
-  score_composite: 16.4
+  score_composite: 18.1
   shared: 1
 - slug: aceable
   name: Aceable
@@ -160,7 +160,14 @@ providers:
   description: Tradespace is an AI-powered intellectual property management platform that combines IP management software, AI tooling, and on-demand patent attorneys in a single full-service patent practice. The platform spans the IP lifecycle across four products — Create (invention harvesting and disclosure, wi…
   api_count: 0
   score_band: emerging
-  score_composite: 14.1
+  score_composite: 15.1
+  shared: 1
+- slug: universal-music-group
+  name: Universal Music Group
+  description: 'Universal Music Group N.V. (UMG) is the world''s largest music company, headquartered in Hilversum, Netherlands with operational headquarters in Santa Monica, California. Spun off from Vivendi and listed on Euronext Amsterdam (ticker: UMG) on September 21, 2021 at a EUR 54 billion valuation, UMG ope…'
+  api_count: 5
+  score_band: emerging
+  score_composite: 14.4
   shared: 1
 - slug: openchain
   name: OpenChain
@@ -183,13 +190,6 @@ providers:
   score_band: minimal
   score_composite: 9.7
   shared: 1
-- slug: acknowledgments-md
-  name: ACKNOWLEDGMENTS.md
-  description: ACKNOWLEDGMENTS.md is a standardized file convention used in open source repositories to credit third-party software, libraries, inspirations, and other works that a project builds upon or is indebted to. It is a common practice for documenting attribution and provenance, complementing LICENSE, REA…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.3
-  shared: 1
 - slug: payna
   name: Payna
   description: Payna is a compliance operating system for financial licensing that automates applications, renewals, maintenance, and monitoring across all 50 US states and jurisdictions. It tracks state statutes, NMLS procedures, and FinCEN requirements in real time, calculates filing deadlines backward from due…
@@ -211,16 +211,57 @@ providers:
   score_band: minimal
   score_composite: 7.1
   shared: 1
-- slug: license-md
-  name: LICENSE.md
-  description: File specifying the legal license under which a project is distributed, defining permissions, conditions, and limitations for use and redistribution. Standard reference for SPDX-identified open source licenses including MIT, Apache-2.0, GPL-3.0, BSD, and Creative Commons variants.
+- slug: nuro
+  name: Nuro
+  description: Nuro is a Mountain View-based autonomy company that has pivoted from its original autonomous-goods-delivery vehicle program (R1, R2, R3) to a licensable, vehicle-agnostic autonomous driving stack. The Nuro Driver is an AI-first Level 4 self-driving system, validated through 5+ years of driverless d…
   api_count: 0
   score_band: minimal
-  score_composite: 6.4
+  score_composite: 5.5
   shared: 1
-related: []
+provider_slugs:
+- replicated
+- certifyos
+- accela
+- sendowl
+- acma
+- opengov
+- madaket
+- shutterstock
+- soundstripe
+- agentsync
+- 7digital
+- warner-music-group
+- fossology
+- fcc
+- story-protocol
+- medallion
+- centric-brands
+- occ
+- govwell
+- endeavor
+- aceable
+- tradespace
+- universal-music-group
+- openchain
+- spdx
+- kaizen-labs
+- payna
+- filmtrack
+- lexyom
+- nuro
+- eql-games
+- peerless-systems
+- acknowledgments-md
+- license-md
+related:
+- slug: saas-management
+  name: SaaS Management
+  shared: 1
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Replicated, SendOwl, ACMA, Certifyos, OpenGov, Madaket, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  30 providers on the network work in this area, including Replicated, Certifyos, Accela, SendOwl, ACMA, OpenGov, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+
+
+  Related areas: SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

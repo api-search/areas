@@ -36,6 +36,11 @@ providers:
   score_band: emerging
   score_composite: 11.2
   shared: 1
+provider_slugs:
+- beamer
+- versioning-protocols
+- launchnotes
+- oasdiff
 related:
 - slug: change-log
   name: Change Log

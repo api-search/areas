@@ -15,6 +15,8 @@ providers:
   score_band: minimal
   score_composite: 7.6
   shared: 1
+provider_slugs:
+- chiquita-brands-international
 related: []
 overview: 'Low Hanging Fruit is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [low-hanging-fruit.apievangelist.com](https://low-hanging-fruit.apievangelist.com).
 

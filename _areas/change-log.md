@@ -8,19 +8,19 @@ area_host: change-log.apievangelist.com
 icon: https://change-log.apievangelist.com/icon-thumb.png
 provider_count: 6
 providers:
+- slug: announcekit
+  name: AnnounceKit
+  description: AnnounceKit is a product communication platform providing changelog management, in-app notification widgets, feature request boards, roadmaps, and NPS surveys. It enables product teams to communicate updates to users via 10+ widget display modes, email digests, Slack, webhooks, and RSS, with GraphQ…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.5
+  shared: 1
 - slug: canny
   name: Canny
   description: Canny is a customer feedback and product management platform that collects, organizes, and prioritizes feature requests from users and internal teams, ties them to roadmaps and changelogs, and surfaces product analytics. The Canny REST API exposes boards, posts, comments, votes, users, companies, c…
   api_count: 1
   score_band: thin
-  score_composite: 33.1
-  shared: 1
-- slug: announcekit
-  name: AnnounceKit
-  description: AnnounceKit is a product communication platform providing changelog management, in-app notification widgets, feature request boards, roadmaps, and NPS surveys. It enables product teams to communicate updates to users via 10+ widget display modes, email digests, Slack, webhooks, and RSS, with GraphQ…
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.7
+  score_composite: 34.6
   shared: 1
 - slug: beamer
   name: Beamer
@@ -41,15 +41,22 @@ providers:
   description: CHANGELOG.md is a community convention for a human-readable, Markdown- formatted file at the root of a project that records notable changes between versions. The leading specification is "Keep a Changelog" by Olivier Lacan, which defines a stable, opinionated set of section headings (Added, Changed…
   api_count: 0
   score_band: emerging
-  score_composite: 17.1
+  score_composite: 14.2
   shared: 1
 - slug: makelog
   name: Makelog
   description: Makelog was a product changelog and release-notes platform that helped software and product teams collect, curate, and publish product updates to communicate releases with customers and internal stakeholders. It was surfaced as a portfolio company of Accel and added to the API Evangelist network as…
   api_count: 0
-  score_band: minimal
-  score_composite: 5.0
+  score_band: null
+  score_composite: 0
   shared: 1
+provider_slugs:
+- announcekit
+- canny
+- beamer
+- launchnotes
+- changelog-md
+- makelog
 related:
 - slug: deprecation
   name: Deprecation
@@ -60,7 +67,7 @@ related:
 overview: 'Change Log is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [change-log.apievangelist.com](https://change-log.apievangelist.com).
 
 
-  Providers on the network working in this area include Canny, AnnounceKit, Beamer, LaunchNotes, CHANGELOG.md (Keep a Changelog), and Makelog — each links out to that provider''s APIs, schemas, and governance artifacts.
+  Providers on the network working in this area include AnnounceKit, Canny, Beamer, LaunchNotes, CHANGELOG.md (Keep a Changelog), and Makelog — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Deprecation and Versioning. Browse every area at [areas.apis.io](https://apis.io/areas/).'

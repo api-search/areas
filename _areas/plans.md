@@ -13,14 +13,14 @@ providers:
   description: ''
   api_count: 6
   score_band: strong
-  score_composite: 59.1
+  score_composite: 57.3
   shared: 1
 - slug: plandex
   name: Plandex
   description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
   api_count: 1
   score_band: developing
-  score_composite: 47.0
+  score_composite: 50.2
   shared: 1
 - slug: priceops
   name: PriceOps
@@ -29,6 +29,10 @@ providers:
   score_band: thin
   score_composite: 26.5
   shared: 1
+provider_slugs:
+- fieldwire
+- plandex
+- priceops
 related:
 - slug: cli
   name: Command Line Interface

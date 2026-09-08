@@ -6,25 +6,20 @@ description: An index and topic collection covering hypermedia-driven APIs, HATE
 area_url: https://hypermedia.apievangelist.com
 area_host: hypermedia.apievangelist.com
 icon: https://hypermedia.apievangelist.com/icon-thumb.png
-provider_count: 2
+provider_count: 1
 providers:
 - slug: art
   name: Artsy
   description: 'Artsy (art.sy) is the online marketplace and platform for discovering, buying, and selling fine art, connecting collectors with galleries, museums, art fairs, and auction houses worldwide. Artsy operates a public developer program: the Artsy Public API (v2) is a HAL hypermedia REST API exposing Art…'
   api_count: 1
-  score_band: thin
-  score_composite: 26.3
-  shared: 1
-- slug: an-api-of-ice-and-fire
-  name: An API of Ice And Fire
-  description: An API of Ice And Fire is the world's greatest source for quantified and structured data from the universe of A Song of Ice and Fire (and the HBO series Game of Thrones). The open, read-only REST API exposes Books, Characters, and Houses as hypermedia resources with HAL-style URL references, RFC 59…
-  api_count: 4
   score_band: emerging
-  score_composite: 17.5
+  score_composite: 25.6
   shared: 1
+provider_slugs:
+- art
 related: []
 overview: 'Hypermedia is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [hypermedia.apievangelist.com](https://hypermedia.apievangelist.com).
 
 
-  Providers on the network working in this area include Artsy and An API of Ice And Fire — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  Providers on the network working in this area include Artsy — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

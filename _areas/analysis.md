@@ -13,21 +13,21 @@ providers:
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
   api_count: 5
   score_band: exemplar
-  score_composite: 69.7
+  score_composite: 68.1
   shared: 1
 - slug: tago-io
   name: TagoIO
   description: TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 51.3
   shared: 1
 - slug: dsg-sports-analytics
   name: DSG Sports Analytics
   description: DSG Sports Analytics, operated by Data Sports Group, is a sports data provider offering live scores, statistics, historical data, fixtures, player and team information, and odds across more than 80 sports including soccer, basketball, American football, cricket, tennis, ice hockey, e-sports, and Ol…
   api_count: 1
   score_band: emerging
-  score_composite: 16.8
+  score_composite: 23.0
   shared: 1
 - slug: lumafield
   name: Lumafield
@@ -57,6 +57,14 @@ providers:
   score_band: emerging
   score_composite: 12.3
   shared: 1
+provider_slugs:
+- new-relic
+- tago-io
+- dsg-sports-analytics
+- lumafield
+- domo
+- api-insights
+- lf-research
 related:
 - slug: internet-of-things
   name: Internet of Things

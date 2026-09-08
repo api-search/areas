@@ -20,28 +20,28 @@ providers:
   description: 'A profile of the Ruby programming language ecosystem from an API perspective: the language and its standard library HTTP surface (Net::HTTP), the rubygems.org package registry and its public v1/v2 REST API, Bundler, RBS type signatures, popular HTTP/REST client gems (Faraday, http.rb, HTTParty, Exc…'
   api_count: 1
   score_band: developing
-  score_composite: 44.4
-  shared: 1
-- slug: kiota
-  name: Kiota
-  description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the need to take a dependency on a different hand-written SDK f…'
-  api_count: 1
-  score_band: developing
-  score_composite: 44.3
+  score_composite: 43.1
   shared: 1
 - slug: hoppscotch
   name: Hoppscotch
   description: Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT.
   api_count: 1
   score_band: developing
-  score_composite: 40.5
+  score_composite: 41.5
   shared: 1
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 1
-  score_band: developing
-  score_composite: 39.5
+  score_band: thin
+  score_composite: 38.8
+  shared: 1
+- slug: kiota
+  name: Kiota
+  description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the need to take a dependency on a different hand-written SDK f…'
+  api_count: 1
+  score_band: thin
+  score_composite: 38.1
   shared: 1
 - slug: httpie
   name: HTTPie
@@ -148,17 +148,38 @@ providers:
   score_band: minimal
   score_composite: 8.6
   shared: 1
+provider_slugs:
+- apollo-graphql
+- ruby
+- hoppscotch
+- insomnia
+- kiota
+- httpie
+- rest-client
+- axios
+- node-fetch
+- requests
+- wget
+- firecamp
+- httpx
+- yaak
+- http-client
+- got
+- nightingale
+- paw
+- ezy
+- okhttp
 related:
 - slug: clients
   name: Clients
   shared: 18
 - slug: cli
   name: Command Line Interface
-  shared: 3
+  shared: 2
 overview: 'API Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-clients.apievangelist.com](https://api-clients.apievangelist.com).
 
 
-  20 providers on the network work in this area, including Apollo GraphQL, Ruby Programming Language and Popular API Gems, Kiota, Hoppscotch, Insomnia, HTTPie, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  20 providers on the network work in this area, including Apollo GraphQL, Ruby Programming Language and Popular API Gems, Hoppscotch, Insomnia, Kiota, HTTPie, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Clients and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

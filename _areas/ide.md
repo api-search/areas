@@ -13,91 +13,91 @@ providers:
   description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
   api_count: 1
   score_band: strong
-  score_composite: 65.5
+  score_composite: 64.1
+  shared: 1
+- slug: eclipse
+  name: Eclipse Foundation
+  description: 'The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is also a substantial API provider in its own right: it publis…'
+  api_count: 19
+  score_band: strong
+  score_composite: 61.5
   shared: 1
 - slug: choreo
   name: Choreo
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
   api_count: 3
   score_band: developing
-  score_composite: 49.1
+  score_composite: 47.7
   shared: 1
 - slug: workday-studio
   name: Workday Studio
   description: Workday Studio is an integrated development environment (IDE) for building custom integrations and applications on the Workday platform. It provides tools for creating web services, custom reports, and integration solutions.
   api_count: 2
   score_band: developing
-  score_composite: 47.1
+  score_composite: 46.8
   shared: 1
 - slug: amazon-cloud9
   name: Amazon Cloud9
   description: AWS Cloud9 is a browser-based integrated development environment (IDE) that enables developers to write, run, and debug code without installing local software. Supports 40+ programming languages with real-time collaboration, integrated terminal, and pre-authenticated AWS CLI.
   api_count: 2
   score_band: developing
-  score_composite: 45.1
+  score_composite: 44.4
   shared: 1
 - slug: cognition
   name: Cognition AI
   description: Cognition AI is an applied AI lab building Devin, an autonomous AI software engineer that plans, writes, tests, and ships production code. The company also operates the Windsurf agentic IDE following its 2025 acquisition of the Windsurf team and product. Devin is sold to individual developers, engi…
   api_count: 1
   score_band: developing
-  score_composite: 43.3
+  score_composite: 42.6
   shared: 1
 - slug: jupyterlab
   name: JupyterLab
   description: JupyterLab is the next-generation web-based interactive development environment for notebooks, code, and data. It is served by Jupyter Server and ships with JupyterLab Server, which provides REST APIs for user-defined settings, workspaces, themes, translations, and license reports, alongside the Ja…
   api_count: 1
   score_band: developing
-  score_composite: 40.7
+  score_composite: 40.0
   shared: 1
 - slug: vs-code-marketplace
   name: VS Code Marketplace
   description: VS Code Marketplace is Microsoft's official extension marketplace for Visual Studio Code, offering thousands of extensions for languages, debuggers, themes, and developer tools. It provides a Gallery API for programmatically searching, discovering, and retrieving extension metadata, enabling integr…
   api_count: 1
-  score_band: developing
-  score_composite: 39.3
+  score_band: thin
+  score_composite: 38.6
   shared: 1
 - slug: anysphere
   name: Anysphere
   description: Anysphere is the applied-research company behind Cursor, the AI-native code editor and agent platform. Beyond the desktop app, Cursor ships a public Cloud Agents REST API (https://api.cursor.com) that lets developers programmatically create autonomous coding agents, submit prompt runs, stream run e…
   api_count: 1
   score_band: thin
-  score_composite: 38.6
-  shared: 1
-- slug: windsurfrules
-  name: Windsurf
-  description: Windsurf (formerly Codeium) is an AI-native code editor featuring Cascade, an autonomous AI agent that can plan multi-step code changes, execute terminal commands, read linter output, and modify files across entire projects. The .windsurfrules file format provides project-specific configuration for…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.7
+  score_composite: 37.2
   shared: 1
 - slug: cursor
   name: Cursor
   description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
   api_count: 1
   score_band: thin
-  score_composite: 35.3
+  score_composite: 36.8
   shared: 1
 - slug: jetbrains
   name: JetBrains
   description: JetBrains is a software development company that provides integrated development environments, CI/CD tools, issue tracking, and team collaboration platforms for software developers. Their product suite includes IntelliJ IDEA, TeamCity, YouTrack, Space, Hub, and the JetBrains Marketplace, all of whi…
   api_count: 5
   score_band: thin
-  score_composite: 33.1
+  score_composite: 32.4
   shared: 1
 - slug: windsurf
   name: Windsurf
   description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
   api_count: 1
   score_band: thin
-  score_composite: 31.9
+  score_composite: 32.4
   shared: 1
 - slug: jetbrains-plugin
   name: JetBrains Marketplace
   description: JetBrains Marketplace is the official plugin and theme distribution platform for JetBrains IDEs including IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, Rider, and other IntelliJ Platform products. The marketplace hosts thousands of free and paid plugins that extend IDE functionality with new…
   api_count: 1
   score_band: thin
-  score_composite: 31.5
+  score_composite: 30.8
   shared: 1
 - slug: stackblitz
   name: StackBlitz
@@ -120,13 +120,6 @@ providers:
   score_band: emerging
   score_composite: 23.8
   shared: 1
-- slug: zed-editor
-  name: Zed
-  description: Zed is an open-source, high-performance multiplayer code editor written from scratch in Rust and built around GPU-accelerated rendering through its own GPUI framework. Created by Zed Industries — founded by Nathan Sobo, Antonio Scandurra, and Max Brunsfeld, the team behind Atom, Electron, and Tree-…
-  api_count: 0
-  score_band: emerging
-  score_composite: 21.7
-  shared: 1
 - slug: qt
   name: Qt
   description: Qt Group is a global software company that builds cross-platform development, design, and quality-assurance tools used across more than 70 industries and billions of devices. Its portfolio spans the Qt Framework (cross-platform C++ software libraries and APIs), the Qt Creator IDE, Qt for MCUs, Qt D…
@@ -134,19 +127,19 @@ providers:
   score_band: emerging
   score_composite: 19.0
   shared: 1
+- slug: zed-editor
+  name: Zed
+  description: Zed is an open-source, high-performance multiplayer code editor written from scratch in Rust and built around GPU-accelerated rendering through its own GPUI framework. Created by Zed Industries — founded by Nathan Sobo, Antonio Scandurra, and Max Brunsfeld, the team behind Atom, Electron, and Tree-…
+  api_count: 0
+  score_band: emerging
+  score_composite: 16.9
+  shared: 1
 - slug: refact-ai
   name: Refact.ai
   description: Refact.ai is an open-source, local-first AI coding assistant and autonomous software-engineering agent built by Small Magellanic Cloud Ai Ltd. ("SmallCloud"). The product combines an IDE-integrated chat experience (Ask / Explore / Debug / Review / Plan modes), accurate code completion powered by Qw…
   api_count: 2
   score_band: emerging
-  score_composite: 17.9
-  shared: 1
-- slug: editorconfig
-  name: EditorConfig
-  description: EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format…
-  api_count: 0
-  score_band: emerging
-  score_composite: 13.8
+  score_composite: 14.3
   shared: 1
 - slug: visual-studio
   name: Visual Studio
@@ -176,6 +169,13 @@ providers:
   score_band: emerging
   score_composite: 12.3
   shared: 1
+- slug: editorconfig
+  name: EditorConfig
+  description: EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format…
+  api_count: 0
+  score_band: minimal
+  score_composite: 10.8
+  shared: 1
 - slug: integrated-development-environment
   name: Integrated Development Environment
   description: Integrated Development Environment (IDE) is a software application that consolidates the core developer workflow into a single interface, typically combining a source code editor, build automation tools, debugger, version control integration, intelligent code completion, refactoring, and language s…
@@ -183,12 +183,35 @@ providers:
   score_band: minimal
   score_composite: 6.4
   shared: 1
+provider_slugs:
+- github-copilot
+- eclipse
+- choreo
+- workday-studio
+- amazon-cloud9
+- cognition
+- jupyterlab
+- vs-code-marketplace
+- anysphere
+- cursor
+- jetbrains
+- windsurf
+- jetbrains-plugin
+- stackblitz
+- nx-dev
+- microsoft-visual-studio
+- qt
+- zed-editor
+- refact-ai
+- visual-studio
+- visual-studio-code
+- codeium
+- clad-labs
+- editorconfig
+- integrated-development-environment
 related:
 - slug: unified-apis
   name: Unified APIs
-  shared: 1
-- slug: agents
-  name: Agents
   shared: 1
 - slug: finops
   name: FinOps
@@ -202,8 +225,8 @@ related:
 overview: 'IDE is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ide.apievangelist.com](https://ide.apievangelist.com).
 
 
-  25 providers on the network work in this area, including GitHub Copilot, Choreo, Workday Studio, Amazon Cloud9, Cognition AI, JupyterLab, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  25 providers on the network work in this area, including GitHub Copilot, Eclipse Foundation, Choreo, Workday Studio, Amazon Cloud9, Cognition AI, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Unified APIs, Agents, FinOps, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Unified APIs, FinOps, Machine Learning, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

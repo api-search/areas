@@ -13,8 +13,10 @@ providers:
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
   api_count: 3
   score_band: developing
-  score_composite: 49.1
+  score_composite: 47.7
   shared: 1
+provider_slugs:
+- choreo
 related:
 - slug: ide
   name: IDE

@@ -20,14 +20,14 @@ providers:
   description: Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT.
   api_count: 1
   score_band: developing
-  score_composite: 40.5
+  score_composite: 41.5
   shared: 1
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 1
-  score_band: developing
-  score_composite: 39.5
+  score_band: thin
+  score_composite: 38.8
   shared: 1
 - slug: httpie
   name: HTTPie
@@ -134,13 +134,32 @@ providers:
   score_band: minimal
   score_composite: 8.6
   shared: 1
+provider_slugs:
+- apollo-graphql
+- hoppscotch
+- insomnia
+- httpie
+- rest-client
+- axios
+- node-fetch
+- requests
+- wget
+- firecamp
+- httpx
+- yaak
+- http-client
+- got
+- nightingale
+- paw
+- ezy
+- okhttp
 related:
 - slug: api-clients
   name: API Clients
   shared: 18
 - slug: cli
   name: Command Line Interface
-  shared: 2
+  shared: 1
 overview: 'Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [clients.apievangelist.com](https://clients.apievangelist.com).
 
 

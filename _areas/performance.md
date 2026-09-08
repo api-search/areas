@@ -6,77 +6,77 @@ description: An index and topic collection covering API and web performance, inc
 area_url: https://performance.apievangelist.com
 area_host: performance.apievangelist.com
 icon: https://performance.apievangelist.com/icon-thumb.png
-provider_count: 35
+provider_count: 34
 providers:
 - slug: new-relic
   name: New Relic
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
   api_count: 5
   score_band: exemplar
-  score_composite: 69.7
+  score_composite: 68.1
+  shared: 1
+- slug: oracle-partitioning
+  name: Oracle Partitioning
+  description: Oracle Partitioning is a licensed option of Oracle Database Enterprise Edition that divides large tables and indexes into smaller, independently manageable segments called partitions, accessed transparently through the table name. It delivers partition pruning (the optimizer eliminates irrelevant p…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.6
   shared: 1
 - slug: whoop
   name: WHOOP
   description: WHOOP is a fitness and recovery wearable platform providing a REST API for accessing sleep, recovery, strain, and workout metrics from the WHOOP band. The API uses OAuth 2.0 authorization code flow with Bearer tokens to allow developers to build applications that access member health and performanc…
   api_count: 2
   score_band: strong
-  score_composite: 59.8
+  score_composite: 58.2
   shared: 1
 - slug: amazon-global-accelerator
   name: Amazon Global Accelerator
   description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the AWS global network to optimize the path from users to applic…
   api_count: 1
   score_band: developing
-  score_composite: 53.7
+  score_composite: 52.3
   shared: 1
-- slug: oracle-partitioning
-  name: Oracle Partitioning
-  description: Oracle Partitioning is a licensed option of Oracle Database Enterprise Edition that divides large tables and indexes into smaller, independently manageable segments called partitions, accessed transparently through the table name. It delivers partition pruning (the optimizer eliminates irrelevant p…
-  api_count: 1
+- slug: apicontext
+  name: APIContext
+  description: APIContext (formerly APImetrics) is a synthetic API testing, monitoring and conformance platform. It calls the APIs you depend on from cloud locations around the world on a schedule, measures latency and availability from the outside in, validates responses against expected schemas and security pro…
+  api_count: 2
   score_band: developing
-  score_composite: 53.6
+  score_composite: 51.9
   shared: 1
 - slug: factorial-hr
   name: Factorial
   description: Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 "Legendre") covering employees, contracts, attendance, ti…
   api_count: 1
   score_band: developing
-  score_composite: 52.9
+  score_composite: 51.3
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
   description: Virtana (formerly Virtual Instruments) is an AI-powered hybrid infrastructure observability company whose platform monitors and optimizes performance, cost, and risk across on-premises, colocation, and cloud environments. The platform spans Infrastructure Observability, Container Observability, App…
   api_count: 3
   score_band: developing
-  score_composite: 48.0
-  shared: 1
-- slug: google-cloud-trace
-  name: Google Cloud Trace
-  description: Google Cloud Trace is a distributed tracing system that collects latency data from applications and displays it in near real-time. It helps developers understand how requests propagate through their application, identify performance bottlenecks, and analyze latency across microservices and distribu…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.7
+  score_composite: 47.7
   shared: 1
 - slug: unravel-data-systems
   name: Unravel Data Systems
   description: Unravel Data Systems is an AI-powered data observability and FinOps platform that helps data teams optimize performance, cost, and reliability across modern data stacks including Databricks, Snowflake, BigQuery, Amazon EMR, and Cloudera. The self-hosted and SaaS platform exposes a REST API (JSON ov…
   api_count: 1
   score_band: developing
-  score_composite: 43.2
+  score_composite: 47.2
   shared: 1
-- slug: google-cloud-profiler
-  name: Google Cloud Profiler
-  description: Google Cloud Profiler is a statistical, low-overhead profiling service that continuously monitors CPU usage and memory allocation in production applications. It attributes resource consumption to specific source code sections, supports Go, Java, Node.js, and Python, and provides flame graph visuali…
+- slug: google-cloud-trace
+  name: Google Cloud Trace
+  description: Google Cloud Trace is a distributed tracing system that collects latency data from applications and displays it in near real-time. It helps developers understand how requests propagate through their application, identify performance bottlenecks, and analyze latency across microservices and distribu…
   api_count: 1
   score_band: developing
-  score_composite: 42.7
+  score_composite: 42.3
   shared: 1
 - slug: sage-hr
   name: Sage HR
   description: Sage HR (formerly CakeHR) is a cloud HRIS for small and mid-sized businesses, owned by Sage Group plc. It bundles core HR records, leave management, performance, recruitment (ATS), timesheets, shift scheduling, expenses, and onboarding/offboarding into a modular per-employee SaaS. The Sage HR REST…
   api_count: 1
   score_band: developing
-  score_composite: 41.6
+  score_composite: 42.0
   shared: 1
 - slug: polar-signals
   name: Polar Signals
@@ -85,12 +85,19 @@ providers:
   score_band: developing
   score_composite: 41.4
   shared: 1
+- slug: google-cloud-profiler
+  name: Google Cloud Profiler
+  description: Google Cloud Profiler is a statistical, low-overhead profiling service that continuously monitors CPU usage and memory allocation in production applications. It attributes resource consumption to specific source code sections, supports Go, Java, Node.js, and Python, and provides flame graph visuali…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.3
+  shared: 1
 - slug: questdb
   name: QuestDB
   description: QuestDB is a high-performance open-source time-series database. It exposes three programmatic surfaces — an HTTP REST API for SQL queries and CSV import/export, the InfluxDB Line Protocol (ILP) over TCP and HTTP for high-throughput ingestion, and the PostgreSQL wire protocol for compatibility with…
   api_count: 1
   score_band: thin
-  score_composite: 34.0
+  score_composite: 34.4
   shared: 1
 - slug: codspeed
   name: CodSpeed
@@ -126,13 +133,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 30.2
-  shared: 1
-- slug: apicontext
-  name: APIContext
-  description: APIContext (formerly APImetrics) is an advanced synthetic API testing and monitoring platform that measures API performance, enforces SLOs, and validates API conformance for critical APIs. It provides an API directory with performance data on 300+ top API providers and offers solutions for develope…
-  api_count: 1
-  score_band: thin
-  score_composite: 28.6
   shared: 1
 - slug: vegeta
   name: Vegeta
@@ -176,13 +176,6 @@ providers:
   score_band: emerging
   score_composite: 14.1
   shared: 1
-- slug: flarion-technologies
-  name: Flarion Technologies
-  description: Flarion is a data-processing acceleration company that speeds up distributed data engines without code changes or infrastructure migration. Its plug-and-play engine replaces row-by-row JVM execution with a native, vectorized runtime built in Rust on Apache Arrow and DataFusion, delivering roughly 3…
-  api_count: 0
-  score_band: emerging
-  score_composite: 14.1
-  shared: 1
 - slug: teamworks
   name: Teamworks
   description: Teamworks is a sports technology company that builds "The Operating System for Sports" — an integrated software platform used by elite collegiate, professional, and national-team organizations to digitize the athlete lifecycle and consolidate their technology stack. The platform spans four product…
@@ -218,6 +211,48 @@ providers:
   score_band: minimal
   score_composite: 7.1
   shared: 1
+- slug: http-2
+  name: HTTP/2
+  description: HTTP/2 is the second major version of the Hypertext Transfer Protocol, defined by the IETF in RFC 7540 and standardized in 2015. It optimizes use of network resources and reduces perceived latency by introducing a binary framing layer over a single TCP connection, with full request and response mul…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.8
+  shared: 1
+provider_slugs:
+- new-relic
+- oracle-partitioning
+- whoop
+- amazon-global-accelerator
+- apicontext
+- factorial-hr
+- virtual-instruments
+- unravel-data-systems
+- google-cloud-trace
+- sage-hr
+- polar-signals
+- google-cloud-profiler
+- questdb
+- codspeed
+- kotzilla
+- scalability
+- scalable-architecture
+- grafast
+- vegeta
+- headspin
+- readyset
+- granulate
+- merbridge
+- flarion
+- teamworks
+- ethossystems
+- the-meta
+- big-o-notation
+- nazar
+- http-2
+- reniac
+- optimyze
+- qos
+- hinsta
 related:
 - slug: analysis
   name: Analysis
@@ -240,7 +275,7 @@ related:
 overview: 'Performance is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [performance.apievangelist.com](https://performance.apievangelist.com).
 
 
-  30 providers on the network work in this area, including New Relic, WHOOP, Amazon Global Accelerator, Oracle Partitioning, Factorial, Virtana (Virtual Instruments), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including New Relic, Oracle Partitioning, WHOOP, Amazon Global Accelerator, APIContext, Factorial, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Analysis, Caching, AIOps, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
