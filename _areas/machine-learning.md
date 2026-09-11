@@ -6,7 +6,7 @@ description: An index and topic collection covering machine learning APIs, MLOps
 area_url: https://machine-learning.apievangelist.com
 area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
-provider_count: 1164
+provider_count: 1166
 providers:
 - slug: amazon-web-services-aws
   name: Amazon Web Services (AWS)
@@ -257,6 +257,7 @@ provider_slugs:
 - amazon-healthimaging
 - eden-ai
 - ximilar
+- fraud-net
 - amazon-glue-databrew
 - databricks
 - amazon-transcribe
@@ -1134,6 +1135,7 @@ provider_slugs:
 - manabio
 - supa
 - sportlogiq
+- advex-ai
 - elemental-cognition
 - mu-sigma
 - percolata

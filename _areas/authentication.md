@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 378
+provider_count: 379
 providers:
 - slug: convertkit
   name: Kit
@@ -91,6 +91,13 @@ providers:
   api_count: 9
   score_band: exemplar
   score_composite: 71.8
+  shared: 1
+- slug: aembit
+  name: Aembit
+  description: Aembit is a Workload Identity and Access Management (Workload IAM) platform for non-human identities — AI agents, applications, microservices, CI/CD pipelines, scripts and service accounts. Instead of long-lived, hard-coded secrets, Aembit cryptographically attests a workload against a Trust Provid…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 71.5
   shared: 1
 - slug: commerce-layer
   name: Commerce Layer
@@ -211,13 +218,6 @@ providers:
   score_band: strong
   score_composite: 63.9
   shared: 1
-- slug: cvent-hospitality-cloud
-  name: Cvent Hospitality Cloud
-  description: Cvent Hospitality Cloud is the hotel and venue product line of the Cvent Platform. It includes the Cvent Supplier Network (the marketplace connecting event planners with hotels and venues for RFPs and bookings), Passkey (hotel room block and housing management), Venue Sourcing (venue search and dis…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.2
-  shared: 1
 provider_slugs:
 - convertkit
 - drchrono
@@ -231,6 +231,7 @@ provider_slugs:
 - twilio
 - kinde
 - azure-ad
+- aembit
 - commerce-layer
 - cvent-event-cloud
 - jefferson-health
@@ -598,11 +599,11 @@ provider_slugs:
 - general-galactic-corporation
 - security-protocols
 related:
-- slug: communications
-  name: Communications
-  shared: 3
 - slug: security
   name: Security
+  shared: 4
+- slug: communications
+  name: Communications
   shared: 3
 - slug: agents
   name: Agents
@@ -619,5 +620,5 @@ overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](ht
   30 providers on the network work in this area, including Kit, drchrono, Cvent Registration, Zoho CRM, Arcade, Cvent, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Communications, Security, Agents, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Security, Communications, Agents, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

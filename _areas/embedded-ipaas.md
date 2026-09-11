@@ -307,7 +307,6 @@ provider_slugs:
 - roofline
 - frends
 - plumerai
-- fusebit
 - azuqua
 - code-metal
 - apex-ai
@@ -318,6 +317,7 @@ provider_slugs:
 - cloudpipes
 - energy-micro
 - freescale-semiconductor
+- fusebit
 related:
 - slug: ipaas
   name: iPaaS

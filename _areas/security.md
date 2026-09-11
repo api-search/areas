@@ -6,7 +6,7 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 825
+provider_count: 826
 providers:
 - slug: amazon-web-services-aws
   name: Amazon Web Services (AWS)
@@ -35,6 +35,13 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 71.9
+  shared: 1
+- slug: aembit
+  name: Aembit
+  description: Aembit is a Workload Identity and Access Management (Workload IAM) platform for non-human identities — AI agents, applications, microservices, CI/CD pipelines, scripts and service accounts. Instead of long-lived, hard-coded secrets, Aembit cryptographically attests a workload against a Trust Provid…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 71.5
   shared: 1
 - slug: paubox
   name: Paubox
@@ -125,7 +132,7 @@ providers:
   description: F5 is a global company that specializes in application delivery and security solutions for businesses. They provide products and services that help organizations efficiently and securely deliver applications to users across any network or cloud environment. F5's solutions are designed to optimize t…
   api_count: 5
   score_band: strong
-  score_composite: 64.1
+  score_composite: 63.7
   shared: 1
 - slug: imgauth-api-di-attestazione-opere-digitali
   name: imgauth — API di attestazione opere digitali
@@ -211,18 +218,12 @@ providers:
   score_band: strong
   score_composite: 60.7
   shared: 1
-- slug: microsoft-azure-key-vault
-  name: Azure Key Vault
-  description: Azure Key Vault is a cloud service for securely storing and accessing secrets, keys, and certificates. It helps safeguard cryptographic keys and secrets used by cloud applications and services.
-  api_count: 1
-  score_band: strong
-  score_composite: 60.4
-  shared: 1
 provider_slugs:
 - amazon-web-services-aws
 - elk-stack
 - amazon-vpn
 - mailboxlayer
+- aembit
 - paubox
 - snyk
 - onetrust
@@ -255,6 +256,7 @@ provider_slugs:
 - cisco-umbrella
 - greynoise
 - allegion
+- fraud-net
 - databricks
 - stytch
 - chef-software
@@ -808,7 +810,6 @@ provider_slugs:
 - straiker
 - iovation
 - presidio
-- fraud-net
 - artificial-intelligence-underwriting-company
 - eclypsium
 - blocks
@@ -1014,12 +1015,12 @@ provider_slugs:
 - barracuda-networks
 - national-security-agency
 - defense-counterintelligence-and-security-agency
+- federal-protective-service
 - scytl
 - cyemptive
 - avatao
 - mount
 - zengo
-- federal-protective-service
 - cinder
 - fraugster
 - gem
@@ -1047,7 +1048,7 @@ provider_slugs:
 related:
 - slug: authentication
   name: Authentication
-  shared: 3
+  shared: 4
 - slug: encryption
   name: Encryption
   shared: 3
@@ -1066,7 +1067,7 @@ related:
 overview: 'Security is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [security.apievangelist.com](https://security.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Web Services (AWS), Elastic Stack (ELK Stack), Amazon VPN, Mailboxlayer, Paubox, Snyk, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Web Services (AWS), Elastic Stack (ELK Stack), Amazon VPN, Mailboxlayer, Aembit, Paubox, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Authentication, Encryption, API Evangelist Search, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'

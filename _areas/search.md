@@ -6,7 +6,7 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 186
+provider_count: 188
 providers:
 - slug: elk-stack
   name: Elastic Stack (ELK Stack)
@@ -176,6 +176,13 @@ providers:
   score_band: developing
   score_composite: 52.6
   shared: 1
+- slug: crustapi
+  name: CrustAPI
+  description: Hosted API delivering structured Google (Search/Maps/etc.) and public LinkedIn data as JSON for developers, data teams, and AI agents. Pay-per-successful-result billing with an OpenAPI spec, an llms.txt, an x402 agent-payment endpoint, and a local MCP server.
+  api_count: 1
+  score_band: developing
+  score_composite: 52.3
+  shared: 1
 - slug: constructorio
   name: Constructor.io
   description: Constructor (Constructor.io) is an AI-powered ecommerce search and product discovery platform for online retailers. Its APIs cover autocomplete/autosuggest, keyword and natural-language search, image search, category browse, recommendations, quizzes, collections, offsite/email discovery, retail med…
@@ -211,13 +218,6 @@ providers:
   score_band: developing
   score_composite: 50.7
   shared: 1
-- slug: anyapi
-  name: AnyAPI
-  description: AnyAPI is a unified gateway and marketplace for scraping and data APIs, operated by AnyAPI Labs, Inc. One key and one prepaid USD wallet reach 363 normalized third-party data sources - social profiles and posts, search and SEO, commerce listings and reviews, sales enrichment and email verification,…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.5
-  shared: 1
 provider_slugs:
 - elk-stack
 - algolia
@@ -243,6 +243,7 @@ provider_slugs:
 - sylvia-api
 - alphasense
 - vespa-ai
+- crustapi
 - constructorio
 - amazon-opensearch
 - scribe
@@ -323,6 +324,7 @@ provider_slugs:
 - phraseanet
 - microsoft-bing
 - preply
+- federal-laboratory-consortium-for-technology-transfer
 - slite
 - midpage
 - orama
@@ -408,7 +410,7 @@ provider_slugs:
 related:
 - slug: scraping
   name: Scraping
-  shared: 3
+  shared: 2
 - slug: discovery
   name: API Evangelist Discovery
   shared: 2

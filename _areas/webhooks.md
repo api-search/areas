@@ -6,7 +6,7 @@ description: An index and topic collection covering webhook delivery, ingestion,
 area_url: https://webhooks.apievangelist.com
 area_host: webhooks.apievangelist.com
 icon: https://webhooks.apievangelist.com/icon-thumb.png
-provider_count: 21
+provider_count: 22
 providers:
 - slug: contensis
   name: Contensis
@@ -127,6 +127,13 @@ providers:
   score_band: developing
   score_composite: 40.2
   shared: 1
+- slug: comunicate-top-api
+  name: Comunicate.top API
+  description: Romanian press-release and advertorial distribution platform exposing a REST API (with free keyless public read routes and authenticated partner routes), an OpenAPI 3.1 contract, an llms.txt, and a hosted MCP server for agent-native access to catalogue search, drafting, editorial planning, and publ…
+  api_count: 1
+  score_band: developing
+  score_composite: 39.6
+  shared: 1
 - slug: abiglobalhealth
   name: Abi Global Health
   description: Abi Global Health is an AI-native healthcare navigation, virtual care orchestration and clinical cost management platform founded in Dublin, Ireland in 2016. Abi sells to health insurers, employee benefits providers, TPAs, assistance companies, digital health organisations, pharmaceutical companies…
@@ -173,6 +180,7 @@ provider_slugs:
 - videoverse
 - acadio
 - upland
+- comunicate-top-api
 - abiglobalhealth
 - concentrix
 - acorn-finance
@@ -187,7 +195,7 @@ related:
 overview: 'Webhooks is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [webhooks.apievangelist.com](https://webhooks.apievangelist.com).
 
 
-  21 providers on the network work in this area, including Contensis, Medblocks, Nedap, TempMailGrab API, SoFi Technologies, Drillster, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  22 providers on the network work in this area, including Contensis, Medblocks, Nedap, TempMailGrab API, SoFi Technologies, Drillster, and 16 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Serverless and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

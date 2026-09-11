@@ -6,12 +6,12 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 70
+provider_count: 71
 providers:
 - slug: apis-io
   name: APIs.io
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Post…
-  api_count: 18
+  api_count: 19
   score_band: exemplar
   score_composite: 71.9
   shared: 1
@@ -264,6 +264,7 @@ provider_slugs:
 - phenom
 - anew
 - coorpacademy
+- aelf-inc
 - admakeai
 - mydentify-public-api
 - naftiko

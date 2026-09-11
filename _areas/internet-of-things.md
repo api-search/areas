@@ -6,7 +6,7 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 123
+provider_count: 125
 providers:
 - slug: losant
   name: Losant
@@ -35,6 +35,13 @@ providers:
   api_count: 5
   score_band: exemplar
   score_composite: 67.2
+  shared: 1
+- slug: aedifion
+  name: Aedifion
+  description: aedifion GmbH is a Cologne-based PropTech founded in 2017 that operates a vendor-neutral, patented cloud platform for the optimized operation of non-residential buildings. The platform ingests real-time operating data from all building trades via plug-and-play edge devices, applies analytics and AI…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.8
   shared: 1
 - slug: cumulocity
   name: Cumulocity
@@ -211,18 +218,12 @@ providers:
   score_band: thin
   score_composite: 34.6
   shared: 1
-- slug: actionstreamer
-  name: ActionStreamer
-  description: ActionStreamer is a Cincinnati, Ohio IoT video platform company, founded in 2016, that builds wearable and connected-device live streaming technology for industrial, public-safety, defense, aerospace/MRO and sports operations. Its ActionSync platform manages fleets of smart cameras and body-worn de…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.4
-  shared: 1
 provider_slugs:
 - losant
 - the-things-network
 - edge-impulse
 - shodan
+- aedifion
 - cumulocity
 - particle
 - thingsboard
@@ -319,6 +320,7 @@ provider_slugs:
 - greenq
 - swiftmile
 - 500nettechnologycoltd
+- aernos-inc
 - comfy
 - parstream
 - revolv
@@ -349,9 +351,6 @@ related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 2
-- slug: industrial
-  name: Industrial
-  shared: 2
 - slug: analysis
   name: Analysis
   shared: 1
@@ -361,11 +360,14 @@ related:
 - slug: dns
   name: DNS
   shared: 1
+- slug: industrial
+  name: Industrial
+  shared: 1
 overview: 'Internet of Things is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [internet-of-things.apievangelist.com](https://internet-of-things.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Losant, The Things Network / The Things Stack, Edge Impulse, Shodan, Cumulocity, Particle, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Losant, The Things Network / The Things Stack, Edge Impulse, Shodan, Aedifion, Cumulocity, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Network, Embedded iPaaS, Industrial, and Analysis. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Network, Embedded iPaaS, Analysis, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

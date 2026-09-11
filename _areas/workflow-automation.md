@@ -283,10 +283,10 @@ provider_slugs:
 - celonis
 - emailoctopus
 - boomi
-- facets
 - leankit
 - fundamental-research-labs
 - appian
+- facets
 - smartlead-ai
 - aifordatabase
 - 1fort

@@ -254,10 +254,10 @@ provider_slugs:
 - celonis
 - emailoctopus
 - boomi
-- facets
 - fundamental-research-labs
 - appian
 - servicenow
+- facets
 - smartlead-ai
 - pixiebrix
 - coasty

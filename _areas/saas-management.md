@@ -6,7 +6,7 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 69
+provider_count: 71
 providers:
 - slug: cledara
   name: Cledara
@@ -21,6 +21,13 @@ providers:
   api_count: 3
   score_band: strong
   score_composite: 61.0
+  shared: 1
+- slug: fenergo
+  name: Fenergo
+  description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance to banks, asset managers and financial institutions. The pla…
+  api_count: 145
+  score_band: strong
+  score_composite: 58.1
   shared: 1
 - slug: accela
   name: Accela
@@ -211,16 +218,10 @@ providers:
   score_band: thin
   score_composite: 32.6
   shared: 1
-- slug: bettercloud
-  name: BetterCloud
-  description: BetterCloud is the end-to-end SaaS management platform that enables IT teams to discover, manage, and secure the growing SaaS environment. The platform provides automated workflows, security policies, and management capabilities for SaaS applications in enterprise environments, handling billions of…
-  api_count: 5
-  score_band: thin
-  score_composite: 31.5
-  shared: 1
 provider_slugs:
 - cledara
 - boomi
+- fenergo
 - accela
 - pagesnap
 - yoodli
@@ -272,6 +273,7 @@ provider_slugs:
 - binadox
 - josys
 - corma
+- aents
 - 51haohuo-com
 - ablesky
 - beamy
@@ -307,7 +309,7 @@ related:
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cledara, Boomi, Accela, Pagesnap, Yoodli, Lumos, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Cledara, Boomi, Fenergo, Accela, Pagesnap, Yoodli, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Management, FinOps, Licensing, and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'

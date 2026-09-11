@@ -62,7 +62,7 @@ providers:
   description: Facets is an AI-native SDLC orchestrator and platform-engineering control plane that unifies infrastructure provisioning, CI/CD and configuration management into a single declarative blueprint model, so product teams get self-serve, drift-free cloud environments without writing Terraform by hand. T…
   api_count: 1
   score_band: strong
-  score_composite: 60.9
+  score_composite: 60.5
   shared: 1
 - slug: inngest
   name: Inngest

@@ -6,7 +6,7 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 145
+provider_count: 146
 providers:
 - slug: listrak
   name: Listrak
@@ -303,6 +303,7 @@ provider_slugs:
 - sarus
 - oasis-labs
 - tari
+- trickybird
 - aztec
 - pi-hole
 - webai

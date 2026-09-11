@@ -6,7 +6,7 @@ description: An index and topic collection covering serverless compute, function
 area_url: https://serverless.apievangelist.com
 area_host: serverless.apievangelist.com
 icon: https://serverless.apievangelist.com/icon-thumb.png
-provider_count: 142
+provider_count: 143
 providers:
 - slug: amazon-web-services-aws
   name: Amazon Web Services (AWS)
@@ -295,6 +295,7 @@ provider_slugs:
 - featherless
 - chutes
 - codehooks
+- fermyon
 - glia
 - centml
 - aws
@@ -347,7 +348,6 @@ provider_slugs:
 - 8base
 - unweave
 - streamfold
-- fermyon
 - gimlet-labs
 - defer
 - serverless-workflow
@@ -358,6 +358,7 @@ provider_slugs:
 - serverless-patterns
 - binaris
 - bitio
+- fusebit
 - picloud
 - suborbital
 - thundra

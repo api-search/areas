@@ -8,7 +8,7 @@
     capability units that AI coding agents load to extend their behavior. Agent Skill…
   area_url: https://agents-skills.apievangelist.com
   icon: https://agents-skills.apievangelist.com/icon-thumb.png
-  provider_count: 70
+  provider_count: 71
   url: https://apis.io/areas/agents-skills/
 - slug: agents
   name: Agents
@@ -16,7 +16,7 @@
     runtimes that enable autonomous reasoning, tool use, and multi-step task executio…
   area_url: https://agents.apievangelist.com
   icon: https://agents.apievangelist.com/icon-thumb.png
-  provider_count: 407
+  provider_count: 408
   url: https://apis.io/areas/agents/
 - slug: aggregation
   name: Aggregation
@@ -79,7 +79,7 @@
   short: Searching across API Evangelist.
   area_url: https://search.apievangelist.com
   icon: https://search.apievangelist.com/icon-thumb.png
-  provider_count: 186
+  provider_count: 188
   url: https://apis.io/areas/search/
 - slug: api-proxies
   name: API Proxies
@@ -95,7 +95,7 @@
     authorization, identity management, and secrets management. This collec…
   area_url: https://authentication.apievangelist.com
   icon: https://authentication.apievangelist.com/icon-thumb.png
-  provider_count: 378
+  provider_count: 379
   url: https://apis.io/areas/authentication/
 - slug: backups
   name: Backups
@@ -306,7 +306,7 @@
     asset ma…
   area_url: https://industrial.apievangelist.com
   icon: https://industrial.apievangelist.com/icon-thumb.png
-  provider_count: 170
+  provider_count: 171
   url: https://apis.io/areas/industrial/
 - slug: integrations
   name: Integrations
@@ -324,7 +324,7 @@
     messag…
   area_url: https://internet-of-things.apievangelist.com
   icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-  provider_count: 123
+  provider_count: 125
   url: https://apis.io/areas/internet-of-things/
 - slug: ipaas
   name: iPaaS
@@ -374,7 +374,7 @@
     model serving infrastructure, and inference providers. Machine learning APIs spa…
   area_url: https://machine-learning.apievangelist.com
   icon: https://machine-learning.apievangelist.com/icon-thumb.png
-  provider_count: 1164
+  provider_count: 1166
   url: https://apis.io/areas/machine-learning/
 - slug: management
   name: Management
@@ -481,7 +481,7 @@
     data subject rights, data classification, and PII detection APIs. Privacy platfo…
   area_url: https://privacy.apievangelist.com
   icon: https://privacy.apievangelist.com/icon-thumb.png
-  provider_count: 145
+  provider_count: 146
   url: https://apis.io/areas/privacy/
 - slug: proxy
   name: Proxy
@@ -522,7 +522,7 @@
     to discover, manage, optimize, and secure their portfolio of SaaS applications…
   area_url: https://saas-management.apievangelist.com
   icon: https://saas-management.apievangelist.com/icon-thumb.png
-  provider_count: 69
+  provider_count: 71
   url: https://apis.io/areas/saas-management/
 - slug: scraping
   name: Scraping
@@ -547,7 +547,7 @@
     secrets management, encryption, and threat protection. API security spans the…
   area_url: https://security.apievangelist.com
   icon: https://security.apievangelist.com/icon-thumb.png
-  provider_count: 825
+  provider_count: 826
   url: https://apis.io/areas/security/
 - slug: serverless
   name: Serverless
@@ -555,7 +555,7 @@
     (FaaS) runtimes, and edge function platforms. Serverless platforms abstract aw…
   area_url: https://serverless.apievangelist.com
   icon: https://serverless.apievangelist.com/icon-thumb.png
-  provider_count: 142
+  provider_count: 143
   url: https://apis.io/areas/serverless/
 - slug: service-mesh
   name: Service Mesh
@@ -630,7 +630,7 @@
     retry, and inspection APIs. Webhooks are the dominant HTTP pattern for asyn…
   area_url: https://webhooks.apievangelist.com
   icon: https://webhooks.apievangelist.com/icon-thumb.png
-  provider_count: 21
+  provider_count: 22
   url: https://apis.io/areas/webhooks/
 - slug: workflow-automation
   name: Workflow Automation

@@ -6,7 +6,7 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 407
+provider_count: 408
 providers:
 - slug: convertkit
   name: Kit
@@ -204,19 +204,19 @@ providers:
   score_band: strong
   score_composite: 65.0
   shared: 1
+- slug: transcriptfetch
+  name: TranscriptFetch
+  description: Social video & audio to text API for builders. Returns timestamped, structured JSON transcripts for YouTube, TikTok, Instagram, Spotify, Apple Podcasts, and direct media files — captions when available, AI audio transcription as fallback — plus YouTube channel/playlist/search discovery. Delivered v…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.7
+  shared: 1
 - slug: northbeam
   name: Northbeam
   description: Northbeam is a multi-touch marketing attribution platform for e-commerce brands. It joins first-party click and view data collected by its own browser pixel to order-level revenue and to ad spend across every channel, then reports channel, campaign, adset and ad level ROAS, CAC, AOV and creative pe…
   api_count: 8
   score_band: strong
   score_composite: 64.2
-  shared: 1
-- slug: e2b-dev
-  name: E2B
-  description: E2B (e2b-dev) provides secure, isolated cloud sandboxes for AI agents and AI-generated code, built on a forked Firecracker microVM runtime. The platform ships a REST Sandbox API, JavaScript and Python SDKs, a Code Interpreter SDK, a Desktop Sandbox for computer-use agents, persistent volumes, a cus…
-  api_count: 3
-  score_band: strong
-  score_composite: 64.1
   shared: 1
 provider_slugs:
 - convertkit
@@ -247,6 +247,7 @@ provider_slugs:
 - crawl4ai
 - buildkite-com
 - parallel
+- transcriptfetch
 - northbeam
 - e2b-dev
 - github-copilot
