@@ -148,6 +148,13 @@ providers:
   score_band: strong
   score_composite: 62.5
   shared: 1
+- slug: stack-moxie
+  name: Stack Moxie
+  description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
+  api_count: 2
+  score_band: strong
+  score_composite: 62.4
+  shared: 1
 - slug: fastly
   name: Fastly
   description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
@@ -211,13 +218,6 @@ providers:
   score_band: strong
   score_composite: 60.8
   shared: 1
-- slug: waxell
-  name: Waxell
-  description: Waxell is an AI agent governance and observability platform that provides runtime policy enforcement, auto-instrumented LLM telemetry, MCP governance, cost management, and durable workflow execution for agents built in any Python framework or third-party agentic tool (Claude Code, Cursor, LangChain…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.8
-  shared: 1
 provider_slugs:
 - dynatrace
 - honeycomb-io
@@ -239,6 +239,7 @@ provider_slugs:
 - hyperdx
 - sentry-system
 - grafana-loki
+- stack-moxie
 - fastly
 - raygun
 - nasuni
@@ -256,7 +257,6 @@ provider_slugs:
 - s2-dev
 - amazon-xray
 - logicmonitor
-- stack-moxie
 - elastic-observability
 - foxglove-technologies
 - microsoft-azure-monitor
@@ -558,7 +558,7 @@ provider_slugs:
 related:
 - slug: monitoring
   name: Monitoring
-  shared: 14
+  shared: 15
 - slug: logging
   name: Logging
   shared: 7
@@ -571,9 +571,9 @@ related:
 - slug: security
   name: Security
   shared: 2
-- slug: analysis
-  name: Analysis
-  shared: 1
+- slug: testing
+  name: Testing
+  shared: 2
 overview: 'Observability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [observability.apievangelist.com](https://observability.apievangelist.com).
 
 

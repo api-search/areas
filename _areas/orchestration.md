@@ -13,7 +13,7 @@ providers:
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
   api_count: 4
   score_band: exemplar
-  score_composite: 84.3
+  score_composite: 87.1
   shared: 1
 - slug: microsoft-azure-kubernetes-service
   name: Azure Kubernetes Service

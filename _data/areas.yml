@@ -16,7 +16,7 @@
     runtimes that enable autonomous reasoning, tool use, and multi-step task executio…
   area_url: https://agents.apievangelist.com
   icon: https://agents.apievangelist.com/icon-thumb.png
-  provider_count: 408
+  provider_count: 409
   url: https://apis.io/areas/agents/
 - slug: aggregation
   name: Aggregation
@@ -169,7 +169,7 @@
     (CPaaS) and messaging-and-voice infrastructure APIs. This network gathers providers…
   area_url: https://communications.apievangelist.com
   icon: https://communications.apievangelist.com/icon-thumb.png
-  provider_count: 160
+  provider_count: 161
   url: https://apis.io/areas/communications/
 - slug: containers
   name: Containers
@@ -416,7 +416,7 @@
     d…
   area_url: https://monitoring.apievangelist.com
   icon: https://monitoring.apievangelist.com/icon-thumb.png
-  provider_count: 202
+  provider_count: 203
   url: https://apis.io/areas/monitoring/
 - slug: network
   name: Network
@@ -630,7 +630,7 @@
     retry, and inspection APIs. Webhooks are the dominant HTTP pattern for asyn…
   area_url: https://webhooks.apievangelist.com
   icon: https://webhooks.apievangelist.com/icon-thumb.png
-  provider_count: 22
+  provider_count: 24
   url: https://apis.io/areas/webhooks/
 - slug: workflow-automation
   name: Workflow Automation

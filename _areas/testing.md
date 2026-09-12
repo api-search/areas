@@ -55,7 +55,7 @@ providers:
   description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
   api_count: 2
   score_band: strong
-  score_composite: 58.6
+  score_composite: 62.4
   shared: 1
 - slug: gradle
   name: Gradle
@@ -369,11 +369,11 @@ related:
 - slug: monitoring
   name: Monitoring
   shared: 2
+- slug: observability
+  name: Observability
+  shared: 2
 - slug: webhooks
   name: Webhooks
-  shared: 1
-- slug: discovery
-  name: API Evangelist Discovery
   shared: 1
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 

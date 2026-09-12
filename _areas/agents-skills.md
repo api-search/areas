@@ -13,7 +13,7 @@ providers:
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Post…
   api_count: 19
   score_band: exemplar
-  score_composite: 71.9
+  score_composite: 88.1
   shared: 1
 - slug: smtp2go
   name: SMTP2GO

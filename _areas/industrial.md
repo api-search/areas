@@ -111,7 +111,7 @@ providers:
   description: ActionStreamer is a Cincinnati, Ohio IoT video platform company, founded in 2016, that builds wearable and connected-device live streaming technology for industrial, public-safety, defense, aerospace/MRO and sports operations. Its ActionSync platform manages fleets of smart cameras and body-worn de…
   api_count: 1
   score_band: thin
-  score_composite: 33.4
+  score_composite: 32.7
   shared: 1
 - slug: innovapptive
   name: Innovapptive

@@ -6,7 +6,7 @@ description: An index and topic collection covering webhook delivery, ingestion,
 area_url: https://webhooks.apievangelist.com
 area_host: webhooks.apievangelist.com
 icon: https://webhooks.apievangelist.com/icon-thumb.png
-provider_count: 22
+provider_count: 24
 providers:
 - slug: contensis
   name: Contensis
@@ -35,6 +35,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 62.6
+  shared: 1
+- slug: publora
+  name: Publora
+  description: Publora is a social media scheduling and publishing platform with a REST API and a native remote MCP server. One integration publishes and schedules posts across LinkedIn, X (Twitter), Instagram, Threads, TikTok, YouTube, Facebook, Bluesky, Mastodon, and Telegram, with pre-signed media uploads, per…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.4
   shared: 1
 - slug: sofi-technologies
   name: SoFi Technologies
@@ -77,6 +84,13 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 55.6
+  shared: 1
+- slug: entergram
+  name: Entergram
+  description: Entergram is a CRM built specifically for Telegram. It connects personal Telegram accounts (not bots) into a shared team workspace where sales, support, community and trading teams manage conversations at scale — a multi-account inbox, a CRM table and Kanban pipeline, custom columns and labels, bro…
+  api_count: 1
+  score_band: strong
+  score_composite: 55.4
   shared: 1
 - slug: worklittle
   name: Worklittle
@@ -167,12 +181,14 @@ provider_slugs:
 - medblocks
 - nedap
 - tempmailgrab
+- publora
 - sofi-technologies
 - drillster
 - scanverity-resolution-api
 - accrue-savings
 - formboost
 - worksome
+- entergram
 - worklittle
 - vergesense
 - parseforme
@@ -186,6 +202,9 @@ provider_slugs:
 - acorn-finance
 - vitalconnect
 related:
+- slug: communications
+  name: Communications
+  shared: 1
 - slug: serverless
   name: Serverless
   shared: 1
@@ -195,8 +214,8 @@ related:
 overview: 'Webhooks is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [webhooks.apievangelist.com](https://webhooks.apievangelist.com).
 
 
-  22 providers on the network work in this area, including Contensis, Medblocks, Nedap, TempMailGrab API, SoFi Technologies, Drillster, and 16 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  24 providers on the network work in this area, including Contensis, Medblocks, Nedap, TempMailGrab API, Publora, SoFi Technologies, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Serverless and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Communications, Serverless, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

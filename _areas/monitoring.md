@@ -6,7 +6,7 @@ description: An index and topic collection covering API monitoring, application 
 area_url: https://monitoring.apievangelist.com
 area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
-provider_count: 202
+provider_count: 203
 providers:
 - slug: elk-stack
   name: Elastic Stack (ELK Stack)
@@ -36,6 +36,13 @@ providers:
   score_band: exemplar
   score_composite: 71.1
   shared: 1
+- slug: oracle-cloud
+  name: Oracle Cloud Infrastructure
+  description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notificatio…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 71.1
+  shared: 1
 - slug: bigpanda
   name: BigPanda
   description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
@@ -49,13 +56,6 @@ providers:
   api_count: 5
   score_band: exemplar
   score_composite: 68.1
-  shared: 1
-- slug: oracle-cloud
-  name: Oracle Cloud Infrastructure
-  description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notificatio…
-  api_count: 9
-  score_band: exemplar
-  score_composite: 67.7
   shared: 1
 - slug: betterstack
   name: Better Stack
@@ -98,6 +98,13 @@ providers:
   api_count: 3
   score_band: strong
   score_composite: 62.5
+  shared: 1
+- slug: stack-moxie
+  name: Stack Moxie
+  description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
+  api_count: 2
+  score_band: strong
+  score_composite: 62.4
   shared: 1
 - slug: raygun
   name: Raygun
@@ -176,13 +183,6 @@ providers:
   score_band: strong
   score_composite: 58.6
   shared: 1
-- slug: stack-moxie
-  name: Stack Moxie
-  description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
-  api_count: 2
-  score_band: strong
-  score_composite: 58.6
-  shared: 1
 - slug: elastic-observability
   name: Elastic Observability
   description: 'Elastic Observability is Elastic''s unified logs, metrics, traces and profiling solution, built on the Elastic Stack. Its published machine-readable contract is the Observability Intake API served by APM Server: a newline-delimited JSON event intake for Elastic APM agents, a central agent-configurat…'
@@ -223,15 +223,16 @@ provider_slugs:
 - redocly
 - thousandeyes
 - checkly
+- oracle-cloud
 - bigpanda
 - new-relic
-- oracle-cloud
 - betterstack
 - controlup
 - dun-and-bradstreet
 - datadog
 - hyperdx
 - grafana-loki
+- stack-moxie
 - raygun
 - openzeppelin
 - embrace
@@ -243,7 +244,6 @@ provider_slugs:
 - metaplane
 - amazon-xray
 - logicmonitor
-- stack-moxie
 - elastic-observability
 - microsoft-azure-monitor
 - laravel
@@ -253,6 +253,7 @@ provider_slugs:
 - amazon-guardduty
 - cloudwatch
 - verifiable
+- social-fetch
 - solar-edge
 - conviva
 - lightrun
@@ -424,7 +425,7 @@ provider_slugs:
 related:
 - slug: observability
   name: Observability
-  shared: 14
+  shared: 15
 - slug: aiops
   name: AIOps
   shared: 7
@@ -443,7 +444,7 @@ related:
 overview: 'Monitoring is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monitoring.apievangelist.com](https://monitoring.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Elastic Stack (ELK Stack), Redocly, ThousandEyes, Checkly, BigPanda, New Relic, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Elastic Stack (ELK Stack), Redocly, ThousandEyes, Checkly, Oracle Cloud Infrastructure, BigPanda, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, AIOps, Logging, and Deployment. Browse every area at [areas.apis.io](https://apis.io/areas/).'

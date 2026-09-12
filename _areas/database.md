@@ -8,6 +8,13 @@ area_host: database.apievangelist.com
 icon: https://database.apievangelist.com/icon-thumb.png
 provider_count: 180
 providers:
+- slug: oracle-cloud
+  name: Oracle Cloud Infrastructure
+  description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notificatio…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 71.1
+  shared: 1
 - slug: oracle-platforms
   name: Oracle Platforms
   description: 'Oracle Platforms is the API Evangelist index of Oracle''s cloud and enterprise platform APIs: the Oracle Cloud Infrastructure (OCI) control plane for compute, storage, networking and databases, plus the PaaS and SaaS services layered on it — Autonomous Database, Integration Cloud, Content Management…'
@@ -21,13 +28,6 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 68.7
-  shared: 1
-- slug: oracle-cloud
-  name: Oracle Cloud Infrastructure
-  description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notificatio…
-  api_count: 9
-  score_band: exemplar
-  score_composite: 67.7
   shared: 1
 - slug: cloudkit
   name: Apple CloudKit
@@ -77,6 +77,13 @@ providers:
   api_count: 161
   score_band: strong
   score_composite: 60.2
+  shared: 1
+- slug: abloatai
+  name: Ablo
+  description: 'Ablo is collaboration infrastructure for AI agents: one API that lets agents, apps and people claim, change and confirm the same database rows without clobbering each other. Rows stay in the customer''s own Postgres — Ablo holds only an ordered transaction log and the coordination state — while dura…'
+  api_count: 1
+  score_band: strong
+  score_composite: 59.9
   shared: 1
 - slug: amazon-documentdb
   name: Amazon DocumentDB
@@ -140,13 +147,6 @@ providers:
   api_count: 6
   score_band: strong
   score_composite: 57.8
-  shared: 1
-- slug: abloatai
-  name: Ablo
-  description: 'Ablo is collaboration infrastructure for AI agents: one API that lets agents, apps and people claim, change and confirm the same database rows without clobbering each other. Rows stay in the customer''s own Postgres — Ablo holds only an ordered transaction log and the coordination state — while dura…'
-  api_count: 1
-  score_band: strong
-  score_composite: 56.0
   shared: 1
 - slug: amuncore
   name: AmunCore
@@ -219,9 +219,9 @@ providers:
   score_composite: 50.6
   shared: 1
 provider_slugs:
+- oracle-cloud
 - oracle-platforms
 - clickhouse
-- oracle-cloud
 - cloudkit
 - amazon-dynamodb
 - yugabytedb
@@ -229,6 +229,7 @@ provider_slugs:
 - amazon-neptune
 - aifordatabase
 - oracle
+- abloatai
 - amazon-documentdb
 - notion
 - oracle-partitioning
@@ -238,7 +239,6 @@ provider_slugs:
 - insforge
 - bubble
 - oracle-goldengate
-- abloatai
 - amuncore
 - couchbase
 - tiledb
@@ -421,7 +421,7 @@ related:
 overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [database.apievangelist.com](https://database.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Oracle Platforms, ClickHouse, Oracle Cloud Infrastructure, Apple CloudKit, Amazon DynamoDB, YugabyteDB, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Oracle Cloud Infrastructure, Oracle Platforms, ClickHouse, Apple CloudKit, Amazon DynamoDB, YugabyteDB, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Serverless, Gateway, Caching, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'

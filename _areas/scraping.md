@@ -13,7 +13,7 @@ providers:
   description: Diffbot is a company that provides AI-powered web scraping and data extraction services. Their technology allows businesses to automatically extract and organize data from any website, turning unstructured web content into structured data that can be easily analyzed and used for various purposes. D…
   api_count: 9
   score_band: exemplar
-  score_composite: 71.4
+  score_composite: 73.7
   shared: 1
 - slug: konbiniapi
   name: KonbiniAPI

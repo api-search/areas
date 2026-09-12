@@ -15,19 +15,19 @@ providers:
   score_band: exemplar
   score_composite: 78.2
   shared: 1
+- slug: oracle-cloud
+  name: Oracle Cloud Infrastructure
+  description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notificatio…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 71.1
+  shared: 1
 - slug: aws-api-gateway
   name: Amazon API Gateway
   description: Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, and WebSocket APIs with built-in traffic management, authoriz…
   api_count: 3
   score_band: exemplar
   score_composite: 68.2
-  shared: 1
-- slug: oracle-cloud
-  name: Oracle Cloud Infrastructure
-  description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notificatio…
-  api_count: 9
-  score_band: exemplar
-  score_composite: 67.7
   shared: 1
 - slug: fal-ai
   name: fal
@@ -220,8 +220,8 @@ providers:
   shared: 1
 provider_slugs:
 - amazon-web-services-aws
-- aws-api-gateway
 - oracle-cloud
+- aws-api-gateway
 - fal-ai
 - segmind
 - microsoft-azure-functions
@@ -384,7 +384,7 @@ related:
 overview: 'Serverless is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [serverless.apievangelist.com](https://serverless.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Web Services (AWS), Amazon API Gateway, Oracle Cloud Infrastructure, fal, Segmind, Microsoft Azure Functions, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Web Services (AWS), Oracle Cloud Infrastructure, Amazon API Gateway, fal, Segmind, Microsoft Azure Functions, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, Database, Machine Learning, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'

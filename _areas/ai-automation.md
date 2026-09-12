@@ -22,19 +22,19 @@ providers:
   score_band: exemplar
   score_composite: 87.3
   shared: 1
+- slug: tray-ai
+  name: Tray.ai
+  description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 87.1
+  shared: 1
 - slug: dynatrace
   name: Dynatrace
   description: Dynatrace is a software intelligence platform that provides application performance monitoring, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management.
   api_count: 6
   score_band: exemplar
   score_composite: 86.5
-  shared: 1
-- slug: tray-ai
-  name: Tray.ai
-  description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 84.3
   shared: 1
 - slug: ada
   name: Ada
@@ -221,8 +221,8 @@ providers:
 provider_slugs:
 - xquik-api
 - brevo
-- dynatrace
 - tray-ai
+- dynatrace
 - ada
 - convertkit
 - salesforce-marketing-cloud
@@ -740,7 +740,7 @@ related:
 overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ai-automation.apievangelist.com](https://ai-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Xquik, Brevo, Dynatrace, Tray.ai, Ada, Kit, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Xquik, Brevo, Tray.ai, Dynatrace, Ada, Kit, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Workflow Automation, Orchestration, Embedded iPaaS, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'

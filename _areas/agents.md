@@ -6,7 +6,7 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 408
+provider_count: 409
 providers:
 - slug: convertkit
   name: Kit
@@ -328,6 +328,7 @@ provider_slugs:
 - madkudu
 - super-studio
 - hex
+- anchor-x402
 - fixie
 - letta
 - light

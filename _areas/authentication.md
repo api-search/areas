@@ -15,6 +15,13 @@ providers:
   score_band: exemplar
   score_composite: 82.8
   shared: 1
+- slug: cvent-registration
+  name: Cvent Registration
+  description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 82.0
+  shared: 1
 - slug: drchrono
   name: drchrono
   description: drchrono, part of EverCommerce's EverHealth portfolio, is an all-in-one EHR, practice management and medical billing platform for independent US medical practices. It publishes two distinct machine-readable API surfaces. The proprietary REST v4 API (codename Hunt Valley) is an OAuth 2.0-secured con…
@@ -22,12 +29,12 @@ providers:
   score_band: exemplar
   score_composite: 80.9
   shared: 1
-- slug: cvent-registration
-  name: Cvent Registration
-  description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
-  api_count: 2
+- slug: azure-ad
+  name: Microsoft Entra ID (formerly Azure AD)
+  description: Microsoft's cloud-based identity and access management service that helps employees sign in and access resources. Azure AD provides OAuth, OpenID Connect, SAML, and other identity protocols for securing applications and managing user identities.
+  api_count: 9
   score_band: exemplar
-  score_composite: 79.2
+  score_composite: 77.9
   shared: 1
 - slug: zoho-crm
   name: Zoho CRM
@@ -84,13 +91,6 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 72.8
-  shared: 1
-- slug: azure-ad
-  name: Microsoft Entra ID (formerly Azure AD)
-  description: Microsoft's cloud-based identity and access management service that helps employees sign in and access resources. Azure AD provides OAuth, OpenID Connect, SAML, and other identity protocols for securing applications and managing user identities.
-  api_count: 9
-  score_band: exemplar
-  score_composite: 71.8
   shared: 1
 - slug: aembit
   name: Aembit
@@ -197,6 +197,13 @@ providers:
   score_band: strong
   score_composite: 64.4
   shared: 1
+- slug: cvent-hospitality-cloud
+  name: Cvent Hospitality Cloud
+  description: Cvent Hospitality Cloud is the hotel and venue product line of the Cvent Platform. It includes the Cvent Supplier Network (the marketplace connecting event planners with hotels and venues for RFPs and bookings), Passkey (hotel room block and housing management), Venue Sourcing (venue search and dis…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.3
+  shared: 1
 - slug: vim
   name: Vim
   description: Vim is a United States healthcare technology company (getvim.com) that operates a clinical workflow and point-of-care integration platform connecting health plans, provider organizations, and digital-health applications to physicians inside their existing electronic health records. Through the Vim…
@@ -211,17 +218,11 @@ providers:
   score_band: strong
   score_composite: 64.1
   shared: 1
-- slug: amazon-cognito
-  name: Amazon Cognito
-  description: Amazon Cognito is a fully managed AWS user identity and authentication service that adds sign-up, sign-in, and access control to web and mobile applications, scaling to millions of users. It provides User Pools for authentication (user directories, MFA, customizable auth flows) and Identity Pools f…
-  api_count: 2
-  score_band: strong
-  score_composite: 63.9
-  shared: 1
 provider_slugs:
 - convertkit
-- drchrono
 - cvent-registration
+- drchrono
+- azure-ad
 - zoho-crm
 - arcade
 - cvent
@@ -230,7 +231,6 @@ provider_slugs:
 - ios
 - twilio
 - kinde
-- azure-ad
 - aembit
 - commerce-layer
 - cvent-event-cloud
@@ -246,10 +246,10 @@ provider_slugs:
 - infusionsoft
 - barndoor
 - propelauth
+- cvent-hospitality-cloud
 - vim
 - weave
 - amazon-cognito
-- cvent-hospitality-cloud
 - etsy
 - cisco-xdr
 - beeketing
@@ -617,7 +617,7 @@ related:
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Kit, drchrono, Cvent Registration, Zoho CRM, Arcade, Cvent, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Kit, Cvent Registration, drchrono, Microsoft Entra ID (formerly Azure AD), Zoho CRM, Arcade, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Security, Communications, Agents, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'

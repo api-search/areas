@@ -6,7 +6,7 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 160
+provider_count: 161
 providers:
 - slug: amazon-pinpoint
   name: Amazon Pinpoint
@@ -204,19 +204,19 @@ providers:
   score_band: strong
   score_composite: 55.8
   shared: 1
+- slug: entergram
+  name: Entergram
+  description: Entergram is a CRM built specifically for Telegram. It connects personal Telegram accounts (not bots) into a shared team workspace where sales, support, community and trading teams manage conversations at scale — a multi-account inbox, a CRM table and Kanban pipeline, custom columns and labels, bro…
+  api_count: 1
+  score_band: strong
+  score_composite: 55.4
+  shared: 1
 - slug: openphone
   name: OpenPhone
   description: OpenPhone (rebranded to Quo in 2026) is a business phone and customer communications platform that provides shared phone numbers, calling, SMS/MMS texting, AI call summaries and transcripts, contacts, conversations, and tasks for teams. Its public REST API lets developers programmatically send mess…
   api_count: 2
   score_band: strong
   score_composite: 54.8
-  shared: 1
-- slug: bandwidth
-  name: Bandwidth
-  description: Bandwidth is a leading cloud-based communications platform providing voice, messaging, emergency calling, phone number management, multi-factor authentication, and toll-free verification APIs. Built on Bandwidth's own Tier 1 network, the platform delivers enterprise-grade reliability for CPaaS appl…
-  api_count: 3
-  score_band: developing
-  score_composite: 53.7
   shared: 1
 provider_slugs:
 - amazon-pinpoint
@@ -247,6 +247,7 @@ provider_slugs:
 - ringcentral
 - zavu
 - webex
+- entergram
 - openphone
 - bandwidth
 - zoom
@@ -383,6 +384,9 @@ related:
 - slug: authentication
   name: Authentication
   shared: 3
+- slug: webhooks
+  name: Webhooks
+  shared: 1
 - slug: agents-skills
   name: Agent Skills
   shared: 1
@@ -398,5 +402,5 @@ overview: 'Communications is one of the API Evangelist areas on the [APIs.io](ht
   30 providers on the network work in this area, including Amazon Pinpoint, Leadping, Nylas, Twilio, Zoom Phone, Mailboxlayer, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication, Agent Skills, Agents, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Authentication, Webhooks, Agent Skills, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---
