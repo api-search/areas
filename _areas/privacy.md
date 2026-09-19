@@ -6,21 +6,21 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 146
+provider_count: 147
 providers:
 - slug: listrak
   name: Listrak
   description: 'Listrak is a retail customer-engagement platform whose public API surface is eight separate REST APIs served from api.listrak.com: Email (83 operations), SMS (20), Data Import (5), Media (9), Mobile App Push (5), Two-Way SMS (4), Cross Channel custom events (3) and Privacy (2). Together they cover…'
   api_count: 18
   score_band: exemplar
-  score_composite: 77.0
+  score_composite: 78.5
   shared: 1
 - slug: didomi
   name: Didomi
   description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
   api_count: 1
   score_band: exemplar
-  score_composite: 76.6
+  score_composite: 77.3
   shared: 1
 - slug: swetrix
   name: Swetrix
@@ -41,7 +41,7 @@ providers:
   description: OneTrust is an enterprise trust, privacy, and AI-governance platform. Its developer portal publishes 37 downloadable OpenAPI definitions covering roughly 631 operations across Universal Consent & Preference Management, Cookie Consent / CMP, Consent Receipts, Data Subject Request (DSR) Automation, A…
   api_count: 37
   score_band: exemplar
-  score_composite: 68.2
+  score_composite: 70.7
   shared: 1
 - slug: pirsch
   name: Pirsch
@@ -50,19 +50,19 @@ providers:
   score_band: exemplar
   score_composite: 68.0
   shared: 1
-- slug: matomo
-  name: Matomo
-  description: Matomo is an open source web analytics platform — self-hosted (Matomo On-Premise) or vendor-hosted (Matomo Cloud) — that gives an organisation complete ownership of its analytics data. Formerly Piwik, it is the leading privacy-first alternative to Google Analytics, with GDPR tooling, data residency…
-  api_count: 61
-  score_band: exemplar
-  score_composite: 66.7
-  shared: 1
 - slug: appsflyer
   name: AppsFlyer
   description: AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers to measure, attribute and optimize user acquisition across mobile, web, CTV, console and PC. Its developer surface spans mobile and platform SDKs (iOS, Android, Unity, React Native, Flutter, Cordova, Unreal, Ro…
   api_count: 78
   score_band: strong
-  score_composite: 65.6
+  score_composite: 65.9
+  shared: 1
+- slug: matomo
+  name: Matomo
+  description: Matomo is an open source web analytics platform — self-hosted (Matomo On-Premise) or vendor-hosted (Matomo Cloud) — that gives an organisation complete ownership of its analytics data. Formerly Piwik, it is the leading privacy-first alternative to Google Analytics, with GDPR tooling, data residency…
+  api_count: 61
+  score_band: strong
+  score_composite: 65.8
   shared: 1
 - slug: rybbit
   name: Rybbit
@@ -76,7 +76,7 @@ providers:
   description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
   api_count: 1
   score_band: strong
-  score_composite: 64.7
+  score_composite: 64.0
   shared: 1
 - slug: singular
   name: Singular
@@ -99,12 +99,19 @@ providers:
   score_band: strong
   score_composite: 62.4
   shared: 1
+- slug: plausible
+  name: Plausible
+  description: Plausible is an open source, privacy-friendly web analytics platform designed as a lightweight alternative to Google Analytics. It provides essential website traffic metrics without using cookies or collecting personal data, making it compliant with GDPR, CCPA, and other privacy regulations out of…
+  api_count: 3
+  score_band: strong
+  score_composite: 61.8
+  shared: 1
 - slug: datavant
   name: Datavant
   description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US…
   api_count: 2
   score_band: strong
-  score_composite: 61.2
+  score_composite: 61.3
   shared: 1
 - slug: umami
   name: Umami
@@ -113,19 +120,12 @@ providers:
   score_band: strong
   score_composite: 61.2
   shared: 1
-- slug: plausible
-  name: Plausible
-  description: Plausible is an open source, privacy-friendly web analytics platform designed as a lightweight alternative to Google Analytics. It provides essential website traffic metrics without using cookies or collecting personal data, making it compliant with GDPR, CCPA, and other privacy regulations out of…
-  api_count: 3
+- slug: california-privacy-protection-agency
+  name: California Privacy Protection Agency
+  description: The California Privacy Protection Agency (CPPA, branded CalPrivacy) is the state regulator that administers and enforces the California Consumer Privacy Act and the Delete Act. Under the Delete Act it operates DROP, the Delete Request and Opt-out Platform, through which California residents file a…
+  api_count: 1
   score_band: strong
-  score_composite: 60.7
-  shared: 1
-- slug: ccpa
-  name: CCPA (California Consumer Privacy Act)
-  description: 'The California Consumer Privacy Act (CCPA), amended by the California Privacy Rights Act (CPRA), is a state statute that grants California residents rights over their personal information: the right to know, delete, correct, opt-out of sale/sharing, limit use of sensitive personal information, and…'
-  api_count: 5
-  score_band: strong
-  score_composite: 59.1
+  score_composite: 59.7
   shared: 1
 - slug: liveramp
   name: LiveRamp
@@ -141,6 +141,13 @@ providers:
   score_band: strong
   score_composite: 57.1
   shared: 1
+- slug: sourcepoint
+  name: Sourcepoint
+  description: Sourcepoint is a New York City-headquartered enterprise privacy and consent management technology company founded in 2015 by Ben Barokas and Brian Kane. The platform began as an ad-block recovery solution for publishers and evolved into a Consent Management Platform (CMP) used by leading global pub…
+  api_count: 14
+  score_band: strong
+  score_composite: 55.8
+  shared: 1
 - slug: freshpaint
   name: Freshpaint
   description: Freshpaint is a healthcare privacy platform and customer-data platform that collects first-party event data and governs it for HIPAA compliance before fanning it out to 100+ marketing, analytics, and data destinations. Its server-side HTTP API ingests track, identify, page, and screen events at htt…
@@ -148,19 +155,12 @@ providers:
   score_band: strong
   score_composite: 55.1
   shared: 1
-- slug: sourcepoint
-  name: Sourcepoint
-  description: Sourcepoint is a New York City-headquartered enterprise privacy and consent management technology company founded in 2015 by Ben Barokas and Brian Kane. The platform began as an ad-block recovery solution for publishers and evolved into a Consent Management Platform (CMP) used by leading global pub…
-  api_count: 14
-  score_band: strong
-  score_composite: 54.9
-  shared: 1
 - slug: nord-security
   name: Nord Security
   description: Nord Security is a Lithuania-founded digital security and privacy company whose consumer and business portfolio spans NordVPN, NordPass, NordLocker, NordLayer (network access security for business), NordProtect/Coveron, Saily (eSIM) and NordStellar (external threat exposure management). Its develop…
   api_count: 7
   score_band: strong
-  score_composite: 54.7
+  score_composite: 54.8
   shared: 1
 - slug: transcend-io
   name: Transcend
@@ -204,19 +204,19 @@ providers:
   score_band: developing
   score_composite: 52.0
   shared: 1
+- slug: iab-tech-lab
+  name: IAB Tech Lab
+  description: IAB Technology Laboratory (IAB Tech Lab) is the non-profit consortium that writes the technical standards the digital advertising supply chain runs on — OpenRTB (real-time bidding), AdCOM, OpenDirect (programmatic direct), VAST and VMAP (video ad serving), the Transparency and Consent Framework and…
+  api_count: 4
+  score_band: developing
+  score_composite: 51.8
+  shared: 1
 - slug: trustarc
   name: TrustArc
   description: TrustArc is a Walnut Creek, California enterprise privacy management platform that helps organizations operationalize global data privacy programs. Its product portfolio spans three suites. Privacy Studio covers consumer-facing consent and rights with Cookie Consent Manager, Consent & Preference Ma…
   api_count: 2
   score_band: developing
-  score_composite: 50.6
-  shared: 1
-- slug: certifaction
-  name: Certifaction
-  description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electroni…'
-  api_count: 2
-  score_band: developing
-  score_composite: 50.4
+  score_composite: 51.6
   shared: 1
 provider_slugs:
 - listrak
@@ -225,21 +225,21 @@ provider_slugs:
 - adobe-campaign
 - onetrust
 - pirsch
-- matomo
 - appsflyer
+- matomo
 - rybbit
 - blueconic
 - singular
 - amazon-clean-rooms
 - simpleanalytics
+- plausible
 - datavant
 - umami
-- plausible
-- ccpa
+- california-privacy-protection-agency
 - liveramp
 - apple-safari
-- freshpaint
 - sourcepoint
+- freshpaint
 - nord-security
 - transcend-io
 - bigid
@@ -247,6 +247,7 @@ provider_slugs:
 - apstal
 - fathom
 - goatcounter
+- iab-tech-lab
 - trustarc
 - certifaction
 - inth
@@ -268,47 +269,47 @@ provider_slugs:
 - quantcast
 - screenpipe
 - incountry
+- terminal-3
 - seismic-systems
 - burner
 - hcaptcha
 - vlex
-- blindinsight
 - nightfall-ai
 - mostly-ai
-- covatic
 - brave-browser
-- terminal-3
+- blindinsight
 - tonic-ai
+- covatic
 - friendly-captcha
 - sourcehut
 - mailpace
 - mobilecoin
-- cloudflare-turnstile
 - dead-drop
+- cloudflare-turnstile
 - monero
 - confidential-computing-consortium
 - truevault
+- vpn
 - zcash
 - bitfount
 - flower
-- vpn
 - cookieyes
 - contextsdk
 - audigent
 - demox-labs
 - lattica
 - iron-fish
+- sarus
 - skale-labs
 - ernst-and-young
-- sarus
 - oasis-labs
 - tari
 - trickybird
 - aztec
 - pi-hole
+- zot
 - webai
 - odaseva
-- zot
 - privado
 - hamsa
 - anoma
@@ -348,7 +349,6 @@ provider_slugs:
 - stealth-worker
 - 451-degrees
 - fabric-cryptography
-- jumbo
 - nortonlifelock
 - opencola
 - privacy-by-design
@@ -359,11 +359,12 @@ provider_slugs:
 - friendster
 - one-raven
 - gen-digital
-- gdpr
 - webb-protocol
-- hipaa
 - ballard-spahr
 - aiignore
+- ccpa
+- gdpr
+- hipaa
 - jumboprivacy
 related:
 - slug: agents-skills

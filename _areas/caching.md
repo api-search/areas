@@ -8,6 +8,13 @@ area_host: caching.apievangelist.com
 icon: https://caching.apievangelist.com/icon-thumb.png
 provider_count: 21
 providers:
+- slug: microsoft-azure-cdn
+  name: Microsoft Azure Cdn
+  description: Azure Content Delivery Network (CDN) caches static web content at strategically placed edge locations to deliver it to users with maximum throughput and minimum latency. The product is operated through the Microsoft.Cdn Azure Resource Manager resource provider, a 115-operation REST contract on mana…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.9
+  shared: 1
 - slug: cloudfront
   name: CloudFront
   description: CloudFront is Amazon Web Services' content delivery network (CDN) for delivering data, video, applications, and APIs globally with low latency. This repository is the short-form profile for AWS CloudFront; the canonical AWS service profile lives at amazon-cloudfront in the API Evangelist Network. C…
@@ -34,7 +41,7 @@ providers:
   description: Ezoic is a website monetization and audience-growth platform for publishers, and a performance advertising marketplace for brands. Publishers integrate EzoicAds (via JavaScript, mobile SDKs for Android/iOS/Flutter/React Native/Unity, or framework SDKs for Angular/React/Vue) to run native, sticky, v…
   api_count: 2
   score_band: developing
-  score_composite: 47.8
+  score_composite: 50.0
   shared: 1
 - slug: nginx
   name: NGINX
@@ -55,7 +62,7 @@ providers:
   description: Apache Ignite is a distributed database for mission-critical high-velocity applications requiring in-memory performance. It provides ACID transactions, SQL queries, key-value storage, compute grid, and backpressured streaming across distributed clusters. Governed by the Apache Software Foundation u…
   api_count: 1
   score_band: developing
-  score_composite: 41.0
+  score_composite: 41.1
   shared: 1
 - slug: momento
   name: Momento
@@ -63,13 +70,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 40.4
-  shared: 1
-- slug: nx
-  name: Nx
-  description: Nx is an open-source, technology-agnostic monorepo build platform from Nrwl (backed by a16z) that speeds up builds and CI through computation caching, task orchestration, and running only the projects affected by a change. Its developer surface spans a local CLI (nx) with a large family of first-pa…
-  api_count: 0
-  score_band: thin
-  score_composite: 38.7
   shared: 1
 - slug: turborepo
   name: Turborepo
@@ -97,7 +97,7 @@ providers:
   description: GridGain is a unified real-time data platform that provides in-memory computing for transactions, analytics, and AI workloads. Built on top of Apache Ignite, it offers distributed database, caching, and computing capabilities for high-performance data-intensive applications.
   api_count: 1
   score_band: thin
-  score_composite: 34.3
+  score_composite: 34.4
   shared: 1
 - slug: blacksmith-sh
   name: Blacksmith
@@ -125,7 +125,7 @@ providers:
   description: OpenPipe is a fine-tuning and inference platform for distilling expensive frontier-LLM workloads into smaller, cheaper specialized models. Captures production traces (OpenAI and Anthropic), fine-tunes, evaluates with judges, caches results, and serves the result via OpenAI-compatible API. Also supp…
   api_count: 1
   score_band: thin
-  score_composite: 28.2
+  score_composite: 29.2
   shared: 1
 - slug: readyset
   name: ReadySet
@@ -156,6 +156,7 @@ providers:
   score_composite: 3.4
   shared: 1
 provider_slugs:
+- microsoft-azure-cdn
 - cloudfront
 - amazon-elasticache
 - cloudflare-ai-gateway
@@ -164,7 +165,6 @@ provider_slugs:
 - google-cloud-cdn
 - apache-ignite
 - momento
-- nx
 - turborepo
 - apache-geode
 - tailcall
@@ -178,14 +178,8 @@ provider_slugs:
 - timesten
 - picasso
 related:
-- slug: network
-  name: Network
-  shared: 1
 - slug: proxy
   name: Proxy
-  shared: 1
-- slug: cli
-  name: Command Line Interface
   shared: 1
 - slug: database
   name: Database
@@ -196,8 +190,8 @@ related:
 overview: 'Caching is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [caching.apievangelist.com](https://caching.apievangelist.com).
 
 
-  21 providers on the network work in this area, including CloudFront, Amazon ElastiCache, Cloudflare AI Gateway, ezoic, NGINX, Google Cloud CDN, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  21 providers on the network work in this area, including Microsoft Azure Cdn, CloudFront, Amazon ElastiCache, Cloudflare AI Gateway, ezoic, NGINX, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Network, Proxy, Command Line Interface, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Proxy, Database, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

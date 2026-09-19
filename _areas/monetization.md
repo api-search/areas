@@ -6,7 +6,7 @@ description: 'An index and topic collection covering API and SaaS monetization p
 area_url: https://monetization.apievangelist.com
 area_host: monetization.apievangelist.com
 icon: https://monetization.apievangelist.com/icon-thumb.png
-provider_count: 64
+provider_count: 62
 providers:
 - slug: drippay
   name: Drippay
@@ -20,7 +20,7 @@ providers:
   description: Appcharge is a monetization and payments platform (merchant of record) for mobile game publishers. It lets studios sell in-game offers direct-to-consumer outside the app stores through a hosted web store, a mobile Checkout SDK, and Payment Links — covering checkout sessions, price localization, cou…
   api_count: 1
   score_band: strong
-  score_composite: 65.4
+  score_composite: 66.0
   shared: 1
 - slug: apigee
   name: Apigee
@@ -34,7 +34,7 @@ providers:
   description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
   api_count: 4
   score_band: strong
-  score_composite: 61.0
+  score_composite: 61.2
   shared: 1
 - slug: paid
   name: Paid
@@ -48,7 +48,7 @@ providers:
   description: Zype is an API-first video content management and streaming platform used by enterprises and media companies to run OTT apps, FAST and linear channels, and global video distribution. The platform spans a video CMS and CRM, cloud encoding, multi-CDN delivery, AI-assisted metadata, transcription and…
   api_count: 15
   score_band: strong
-  score_composite: 58.1
+  score_composite: 57.5
   shared: 1
 - slug: solvimon
   name: Solvimon
@@ -69,28 +69,21 @@ providers:
   description: MonetizeNow is an enterprise monetization platform that unifies quoting, billing, and usage metering into a single quote-to-cash system for B2B SaaS companies. It combines a CPQ/quote builder with guided selling, a billing engine supporting subscriptions, credits, and usage-based pricing, multi-cur…
   api_count: 1
   score_band: strong
-  score_composite: 55.8
-  shared: 1
-- slug: admob
-  name: AdMob
-  description: AdMob is Google's mobile app advertising and monetization platform, letting app publishers earn revenue through in-app ads (banner, interstitial, rewarded, rewarded interstitial, native, and app open formats), maximize fill rate and eCPM with AdMob Mediation and open bidding across many ad networks…
-  api_count: 2
-  score_band: developing
-  score_composite: 54.1
+  score_composite: 56.0
   shared: 1
 - slug: viglink
   name: VigLink (Sovrn Commerce)
   description: VigLink pioneered automatic affiliate link monetization for publishers, turning ordinary product links into revenue-generating affiliate links across a network of tens of thousands of merchants. Founded in 2009 and backed by investors including Uncork Capital, VigLink was acquired by Sovrn in early…
   api_count: 8
-  score_band: developing
-  score_composite: 53.9
+  score_band: strong
+  score_composite: 55.0
   shared: 1
 - slug: sovrn
   name: Sovrn
   description: Sovrn is an advertising technology and content monetization company that helps online publishers, advertisers, and creators earn revenue from their websites and audiences. Its platform spans Ad Exchange (an omnichannel programmatic demand pipeline connecting publisher inventory to buyers and DSPs),…
   api_count: 26
   score_band: developing
-  score_composite: 49.2
+  score_composite: 49.8
   shared: 1
 - slug: news-break
   name: News Break
@@ -218,6 +211,13 @@ providers:
   score_band: thin
   score_composite: 36.1
   shared: 1
+- slug: madvertise
+  name: Madvertise
+  description: Madvertise is a mobile advertising and monetization brand now operating within Azerion as the "BlueStack" (Improve Digital InApp) mobile SDK suite and the mng-ads.com ad-serving platform. It lets mobile publishers monetize in-app inventory with banner, interstitial, native, rewarded-video and App O…
+  api_count: 3
+  score_band: thin
+  score_composite: 33.9
+  shared: 1
 provider_slugs:
 - drippay
 - appcharge
@@ -228,7 +228,6 @@ provider_slugs:
 - solvimon
 - coda-payments
 - monetizenow
-- admob
 - viglink
 - sovrn
 - news-break
@@ -271,14 +270,13 @@ provider_slugs:
 - favorited
 - art19
 - jetapult
-- anchor-fm
-- auditude
 - cakeshop
 - tapsense
 - streamloots
 - lotusflare
 - trialpay
 - openet
+- auditude
 - crowdmob
 - glow
 - heyzap

@@ -6,14 +6,35 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 409
+provider_count: 413
 providers:
+- slug: messagebird
+  name: Messagebird
+  description: MessageBird, which trades as Bird, is a Dutch cloud communications company whose platform carries email, SMS, WhatsApp, RCS, push, voice and eSIM traffic for businesses in over 200 countries. Bird publishes a first-party OpenAPI 3.1 description of 277 operations at bird.com/openapi.json and generat…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 92.1
+  shared: 1
 - slug: convertkit
   name: Kit
   description: Kit (formerly ConvertKit) is a creator email marketing platform whose REST API v4 covers subscribers, tags, custom fields, forms and landing pages, sequences, broadcasts, snippets, posts, purchases, segments and webhooks across 72 operations on https://api.kit.com/v4. It authenticates with an X-Kit…
-  api_count: 1
+  api_count: 2
   score_band: exemplar
-  score_composite: 82.8
+  score_composite: 84.1
+  shared: 1
+- slug: elevenlabs
+  name: ElevenLabs
+  description: 'ElevenLabs is an AI research and product company building voice and audio models, founded in 2022 and launched publicly in January 2023 with the first human-like AI voice model. It sells across three platforms: ElevenCreative (text to speech, speech to text, voice cloning and design, music, sound e…'
+  api_count: 11
+  score_band: exemplar
+  score_composite: 82.3
+  shared: 1
+- slug: appwrite
+  name: Appwrite
+  description: Appwrite is an open-source backend platform for web, mobile and AI applications, shipped both as a self-hostable BSD-3-Clause server and as the managed Appwrite Cloud. One REST API — 1,022 operations across 44 services in the published Appwrite 2.0 OpenAPI, mirrored field-for-field in GraphQL — cov…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 80.1
   shared: 1
 - slug: boom-ai
   name: Boom Ai
@@ -21,13 +42,6 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 79.9
-  shared: 1
-- slug: anthropic
-  name: Anthropic
-  description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking…'
-  api_count: 6
-  score_band: exemplar
-  score_composite: 77.8
   shared: 1
 - slug: arcade
   name: Arcade
@@ -43,40 +57,40 @@ providers:
   score_band: exemplar
   score_composite: 75.6
   shared: 1
-- slug: atlassian-confluence
-  name: Atlassian Confluence
-  description: Atlassian Confluence is a team workspace and wiki platform for creating, organizing and collaborating on documentation, project plans, meeting notes and knowledge bases. Confluence Cloud publishes two OpenAPI-described REST surfaces — a legacy v1 API under /wiki/rest/api and the recommended cursor-…
+- slug: anthropic
+  name: Anthropic
+  description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking…'
+  api_count: 6
+  score_band: exemplar
+  score_composite: 74.4
+  shared: 1
+- slug: dify
+  name: Dify
+  description: Dify is an open-source platform for building AI applications, combining Backend-as-a-Service and LLMOps to streamline the development of generative AI solutions for developers and non-technical innovators alike. Teams build agentic workflows, chatflows, agents and RAG knowledge pipelines on a visua…
   api_count: 2
   score_band: exemplar
-  score_composite: 74.3
-  shared: 1
-- slug: carsxe
-  name: CarsXE
-  description: CarsXE is a B2B vehicle data API platform operated by PiWaves, LLC, offering VIN decoding, vehicle specifications, market value estimates, vehicle history, vehicle imagery, license plate decoding and recognition, VIN OCR, OBD fault-code decoding, international VIN decoding, lien and theft screening…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 74.2
-  shared: 1
-- slug: vapi-ai
-  name: Vapi
-  description: Vapi is a San Francisco-based voice AI platform that lets developers build real-time, low-latency voice agents over phone, web, and SIP. It orchestrates three modular components — a transcriber (STT), an LLM, and a voice (TTS) — into a sub-700ms voice-to-voice pipeline, with first-class support for…
-  api_count: 15
-  score_band: exemplar
-  score_composite: 73.6
+  score_composite: 74.4
   shared: 1
 - slug: dust-tt
   name: Dust
   description: Dust is a Paris-based enterprise AI platform for building, deploying, and operating teams of AI agents that have shared context across a company's knowledge and tools. Dust positions itself as the platform for "AI Operators" — the people who design, govern, and continuously improve agentic workflow…
   api_count: 9
   score_band: exemplar
-  score_composite: 73.0
+  score_composite: 73.7
+  shared: 1
+- slug: carsxe
+  name: CarsXE
+  description: CarsXE is a B2B vehicle data API platform operated by PiWaves, LLC, offering VIN decoding, vehicle specifications, market value estimates, vehicle history, vehicle imagery, license plate decoding and recognition, VIN OCR, OBD fault-code decoding, international VIN decoding, lien and theft screening…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 73.5
   shared: 1
 - slug: outreach
   name: Outreach
   description: Outreach is a sales execution and revenue platform for go-to-market teams, unifying email, calling, social and meetings into sequenced outbound motions with AI agents layered on top. Its public developer surface is a JSON API 1.0 REST API at api.outreach.io/api/v2 covering accounts, prospects, oppo…
   api_count: 2
   score_band: exemplar
-  score_composite: 72.6
+  score_composite: 73.2
   shared: 1
 - slug: konbiniapi
   name: KonbiniAPI
@@ -92,19 +106,19 @@ providers:
   score_band: exemplar
   score_composite: 70.5
   shared: 1
-- slug: qliksense
-  name: Qlik Sense APIs
-  description: 'Qlik Sense and Qlik Cloud from Qlik Parent, Inc. — a business intelligence, data integration and AI analytics platform. Qlik publishes one of the broadest machine-readable API surfaces in the analytics market: 78 OpenAPI 3.0.0 documents covering 681 REST operations, 29 AsyncAPI 3.0.0 event document…'
-  api_count: 82
-  score_band: exemplar
-  score_composite: 70.5
-  shared: 1
 - slug: bigpanda
   name: BigPanda
   description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
-  api_count: 27
+  api_count: 29
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 69.9
+  shared: 1
+- slug: qliksense
+  name: Qlik Sense
+  description: 'Qlik Sense and Qlik Cloud from Qlik Parent, Inc. — a business intelligence, data integration and AI analytics platform. Qlik publishes one of the broadest machine-readable API surfaces in the analytics market: 78 OpenAPI 3.0.0 documents covering 681 REST operations, 29 AsyncAPI 3.0.0 event document…'
+  api_count: 78
+  score_band: exemplar
+  score_composite: 69.7
   shared: 1
 - slug: loops
   name: Loops
@@ -127,26 +141,33 @@ providers:
   score_band: exemplar
   score_composite: 68.2
   shared: 1
-- slug: lightfield
-  name: Lightfield
-  description: Lightfield is an agent-native customer relationship management (CRM) platform for high-growth and AI-native go-to-market teams. Rather than depending on manual data entry, Lightfield captures customer interactions — calls, emails, meetings and external signals — as unstructured data, organizes them…
+- slug: crawl4ai
+  name: Crawl4AI
+  description: Crawl4AI is an open-source, Apache-2.0 web crawler and scraper built to turn any URL into clean, LLM-ready data — Markdown, typed JSON, screenshots, PDFs, or a map of every URL on a domain. Operated by CONTEXT4AI PTE LTD of Singapore and created by Hossein Tohidi (@unclecode), the project pairs a 7…
   api_count: 1
   score_band: exemplar
-  score_composite: 68.2
+  score_composite: 67.6
   shared: 1
 - slug: bitly
   name: Bitly
   description: Bitly is a link management platform for creating, branding, routing and measuring short links, QR Codes and link-in-bio pages at scale. The Bitly v4 REST API is a 94-operation, bearer-authenticated JSON API at https://api-ssl.bitly.com/v4 covering Bitlink creation and expansion, custom back-halves,…
   api_count: 2
   score_band: exemplar
-  score_composite: 67.6
+  score_composite: 67.5
   shared: 1
-- slug: api-evangelist
-  name: API Evangelist
-  description: The index of everything available via the API Evangelist developer portal at developer.apievangelist.com — sixteen years of API research served as one REST API, an MCP server for agents, and the static JSON feeds behind each network collection.
-  api_count: 2
+- slug: textql
+  name: TextQL
+  description: TextQL is an enterprise AI data platform built around Ana, an AI data scientist that connects to a company's warehouses, databases, BI tools and SaaS APIs and answers questions in plain language. Ana writes SQL, runs Python in a managed gVisor sandbox, searches the web, and produces charts, dashboa…
+  api_count: 15
   score_band: exemplar
   score_composite: 66.9
+  shared: 1
+- slug: lightfield
+  name: Lightfield
+  description: Lightfield is an agent-native customer relationship management (CRM) platform for high-growth and AI-native go-to-market teams. Rather than depending on manual data entry, Lightfield captures customer interactions — calls, emails, meetings and external signals — as unstructured data, organizes them…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 66.8
   shared: 1
 - slug: cogny
   name: Cogny
@@ -162,20 +183,6 @@ providers:
   score_band: exemplar
   score_composite: 66.7
   shared: 1
-- slug: textql
-  name: TextQL
-  description: TextQL is an enterprise AI data platform built around Ana, an AI data scientist that connects to a company's warehouses, databases, BI tools and SaaS APIs and answers questions in plain language. Ana writes SQL, runs Python in a managed gVisor sandbox, searches the web, and produces charts, dashboa…
-  api_count: 8
-  score_band: exemplar
-  score_composite: 66.6
-  shared: 1
-- slug: seamless-ai
-  name: Seamless.AI
-  description: Seamless.AI is a B2B sales intelligence platform that provides real-time contact and company data to help sales teams find and connect with their ideal customers. The platform uses artificial intelligence to continuously verify and update contact information including emails, direct dials and mobil…
-  api_count: 2
-  score_band: strong
-  score_composite: 66.2
-  shared: 1
 - slug: facebook-business-manager
   name: Facebook Business Manager
   description: APIs for managing Facebook Business accounts, advertising, pages, and assets across the Meta platform family. Facebook Business Manager exposes a deep catalog of Graph API surfaces for marketing, pages, conversions, business asset management, Instagram, insights, Messenger, catalogs, live video, Th…
@@ -183,12 +190,12 @@ providers:
   score_band: strong
   score_composite: 65.7
   shared: 1
-- slug: crawl4ai
-  name: Crawl4AI
-  description: Crawl4AI is an open-source, Apache-2.0 web crawler and scraper built to turn any URL into clean, LLM-ready data — Markdown, typed JSON, screenshots, PDFs, or a map of every URL on a domain. Operated by CONTEXT4AI PTE LTD of Singapore and created by Hossein Tohidi (@unclecode), the project pairs a 7…
+- slug: e2b-dev
+  name: E2B
+  description: E2B (e2b-dev) provides secure, isolated cloud sandboxes for AI agents and AI-generated code, built on a forked Firecracker microVM runtime. The platform ships a REST Sandbox API, JavaScript and Python SDKs, a Code Interpreter SDK, a Desktop Sandbox for computer-use agents, persistent volumes, a cus…
   api_count: 3
   score_band: strong
-  score_composite: 65.6
+  score_composite: 65.5
   shared: 1
 - slug: buildkite-com
   name: Buildkite
@@ -197,176 +204,170 @@ providers:
   score_band: strong
   score_composite: 65.2
   shared: 1
-- slug: parallel
-  name: Parallel
-  description: 'Parallel Web Systems builds web APIs purpose-built for AI agents: a high-accuracy Search API, an Extract API that turns URLs into clean LLM-ready markdown, a Task/Deep Research API with tiered processors (lite through ultra), FindAll for natural-language entity discovery and enrichment, a Monitor A…'
+- slug: api-evangelist
+  name: API Evangelist
+  description: The index of everything available via the API Evangelist developer portal at developer.apievangelist.com — sixteen years of API research served as one REST API, an MCP server for agents, and the static JSON feeds behind each network collection.
+  api_count: 2
+  score_band: strong
+  score_composite: 65.1
+  shared: 1
+- slug: google-dialogflow
+  name: Google Dialogflow
+  description: Google Dialogflow is Google Cloud's conversational-agent platform, shipped as two editions on one API host. Dialogflow ES (Essentials, API v2) builds intent-, entity- and context-driven agents with knowledge connectors and the Agent Assist surface for human contact-centre agents. Dialogflow CX — no…
   api_count: 2
   score_band: strong
   score_composite: 65.0
   shared: 1
-- slug: transcriptfetch
-  name: TranscriptFetch
-  description: Social video & audio to text API for builders. Returns timestamped, structured JSON transcripts for YouTube, TikTok, Instagram, Spotify, Apple Podcasts, and direct media files — captions when available, AI audio transcription as fallback — plus YouTube channel/playlist/search discovery. Delivered v…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.7
-  shared: 1
-- slug: northbeam
-  name: Northbeam
-  description: Northbeam is a multi-touch marketing attribution platform for e-commerce brands. It joins first-party click and view data collected by its own browser pixel to order-level revenue and to ad spend across every channel, then reports channel, campaign, adset and ad level ROAS, CAC, AOV and creative pe…
-  api_count: 8
-  score_band: strong
-  score_composite: 64.2
-  shared: 1
 provider_slugs:
+- messagebird
 - convertkit
+- elevenlabs
+- appwrite
 - boom-ai
-- anthropic
 - arcade
 - veeva
-- atlassian-confluence
-- carsxe
-- vapi-ai
+- anthropic
+- dify
 - dust-tt
+- carsxe
 - outreach
 - konbiniapi
 - instacart
-- qliksense
 - bigpanda
+- qliksense
 - loops
 - x
 - impact
-- lightfield
+- crawl4ai
 - bitly
-- api-evangelist
+- textql
+- lightfield
 - cogny
 - plinth-us-grants-data
-- textql
-- seamless-ai
 - facebook-business-manager
-- crawl4ai
+- e2b-dev
 - buildkite-com
+- api-evangelist
+- google-dialogflow
 - parallel
+- seamless-ai
 - transcriptfetch
 - northbeam
-- e2b-dev
+- n8n
 - github-copilot
-- dify
+- postiz
 - natural-ai
-- daytona-io
 - fundz
 - hyperdx
 - buffer
 - chili-piper
-- postiz
 - anecdotes
 - gong
-- n8n
-- compresr
-- landingai
 - vendia
 - inflectionio
 - flint
+- landingai
+- compresr
 - seekr
 - corti
-- fundamental-research-labs
-- ok-capsule
-- apollo-api-documentation
-- freestyle-sh
 - salesloft
+- daytona-io
+- ok-capsule
+- freestyle-sh
+- apollo-api-documentation
+- fundamental-research-labs
 - wegtultrarich
+- chatgpt
 - exa-ai
+- clari
 - navattic
 - lilt
-- clari
 - edgee
+- perplexity
 - nooks
+- thoughtspot
 - insider
 - jasper
 - serper
 - prime-intellect
 - amazon-bedrock
-- thoughtspot
-- nextroll
-- chatgpt
-- conviva
+- galileo-technologies
 - lifi
-- smithery-ai
+- nextroll
+- conviva
+- duvo-ai
+- pydantic-ai
 - read-ai
 - end-game
 - koreai
 - bykaranteli
-- pydantic-ai
-- vectara
-- amuncore
 - tetrascience
-- galileo-technologies
-- duvo-ai
-- tether
-- beyond-presence
+- vectara
 - perfect-corp
+- hex
+- amuncore
+- beyond-presence
+- globant
 - leadpages
-- brainfish
-- permutive
+- mistral
+- tether
 - scorecard
 - sambanova-systems
 - workos
+- brainfish
 - h-company
-- comet
+- linqalpha
 - trybloom
 - cognee
 - govly
 - dedaluslabs
 - sitefire
-- anam
 - wundergraph
 - bria
-- spekit
-- linqalpha
+- comet
 - microsoft-copilot
 - mixmax
+- fixie
 - madkudu
 - super-studio
-- hex
-- anchor-x402
-- fixie
 - letta
-- light
-- altimate-ai
 - amperity
 - plandex
+- spekit
 - reevo
 - adaptive-automation-technologies
 - tako
+- ezoic
 - antimetal
 - sandboxaq
+- aleph-alpha
 - listen-labs
 - typeface
 - aquant
+- light
+- lokki
 - opkey
-- anthropic-claude
+- altimate-ai
+- vooma
 - airweave
-- flowise
+- anchor-x402
 - simetrik
+- flowise
 - sail-research
 - agentuity
-- monaco
-- revnu
-- lokki
-- gemini
-- vooma
-- ezoic
 - dialect
+- revnu
+- gemini
 - fastino-labs
 - meetsmore
 - graphy
-- waniwani
-- aleph-alpha
-- ando
+- monaco
 - opus
+- waniwani
+- ando
+- langdock
 - sail
 - akia
-- langdock
 - yutori
 - result
 - uniphore
@@ -375,24 +376,25 @@ provider_slugs:
 - fixture
 - stacks-ai
 - klutch
-- osmosis
 - tana
 - runautomat
-- whisperr-inc
+- permutive
 - landbase
-- terminal-use
+- osmosis
 - fieldguide
+- whisperr-inc
+- ai21-labs
 - inkeep
 - nexad
 - openhands
+- recipe-api
 - clarifeye
 - rasa
+- causa-prima
 - flexai
 - sana
-- ai21-labs
 - sahara-ai
-- recipe-api
-- causa-prima
+- terminal-use
 - seltz
 - theorg
 - rokid
@@ -403,14 +405,13 @@ provider_slugs:
 - langflow
 - mem
 - pryon
-- kernel-so
 - linear-app
 - mason
-- chatwoot
+- langchain
 - exponential
 - golem-cloud
-- langchain
 - publer
+- chatwoot
 - caretta
 - hevn-inc
 - lightsprint
@@ -419,50 +420,48 @@ provider_slugs:
 - healthex
 - aaico
 - pipecat-ai
+- localai
 - nexosai
 - arc-prize-foundation
 - chalk
 - chronicle
 - rapidfolio
 - tofu
-- limrun
-- localai
-- unisson
+- julep
 - superscale
 - the-interaction-company-of-california
-- cartodb
 - blaxel
 - langbase
-- julep
+- unisson
+- monid
+- retell-ai
 - sight-machine
 - montycloud
 - substack
 - vapi
+- limrun
 - raindrop
 - aci-dev
 - cursor
 - openmind
+- 4paradigm
 - maven-agi
 - mastra
-- monid
 - mutiny-hq
-- 4paradigm
-- retell-ai
 - keyframe-labs
 - xmtp
 - databook
-- langgraph
 - ondemand
 - judgment-labs
 - polyai
 - io-net
-- buildkite
 - kumoai
 - sana-labs
 - vana
 - tdaycom
 - hello-therma
 - linusbio
+- langgraph
 - coval-ai
 - league
 - scratchpad
@@ -474,14 +473,15 @@ provider_slugs:
 - causalens
 - vantara
 - koah-labs
-- adapter
 - kotzilla
-- poolside
+- llamaindex
 - windsurf
 - sesame-labs
 - david-protein
 - factory-ai
 - urbit
+- adapter
+- realtor
 - alien
 - writer
 - agentql
@@ -493,7 +493,6 @@ provider_slugs:
 - plai-labs
 - superlist
 - arphie
-- tessl
 - boosted
 - packdigital
 - unified
@@ -515,6 +514,7 @@ provider_slugs:
 - notyfi
 - maxim
 - superhuman
+- globaldata
 - instawork
 - solve-intelligence
 - nx-dev
@@ -530,17 +530,19 @@ provider_slugs:
 - stacklet
 - sierra
 - voiceops
+- afterquery
 - esentire
 - telekinesisai
 - skillsync
+- boltmcp
 - ushur
 - paper
 - gensyn
+- gleefulai
 - ossio
 - fibe
 - klarity
 - spotwise-inc
-- gleefulai
 - decagon
 - persado
 - notable
@@ -576,6 +578,7 @@ provider_slugs:
 - gimlet-labs
 - regression-games
 - ambarella
+- agentifai
 - adept
 - flowscope
 - huginn
@@ -601,6 +604,7 @@ provider_slugs:
 - agentic-data-intelligence
 - hark
 - productnow
+- generally-intelligent
 - primary
 - heyclicky
 - goomp-inc-kalendar-ai
@@ -629,14 +633,17 @@ provider_slugs:
 - semantic-kernel
 - useparrot
 related:
+- slug: machine-learning
+  name: Machine Learning
+  shared: 4
+- slug: authentication
+  name: Authentication
+  shared: 3
 - slug: ai-automation
   name: AI Automation
   shared: 2
-- slug: authentication
-  name: Authentication
-  shared: 2
-- slug: machine-learning
-  name: Machine Learning
+- slug: communications
+  name: Communications
   shared: 2
 - slug: scraping
   name: Scraping
@@ -644,14 +651,11 @@ related:
 - slug: aiops
   name: AIOps
   shared: 1
-- slug: search
-  name: API Evangelist Search
-  shared: 1
 overview: 'Agents is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents.apievangelist.com](https://agents.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Kit, Boom Ai, Anthropic, Arcade, Veeva, Atlassian Confluence, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Messagebird, Kit, ElevenLabs, Appwrite, Boom Ai, Arcade, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: AI Automation, Authentication, Machine Learning, and Scraping. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Machine Learning, Authentication, AI Automation, and Communications. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -6,7 +6,7 @@ description: An index of microservices architecture frameworks, service discover
 area_url: https://microservices.apievangelist.com
 area_host: microservices.apievangelist.com
 icon: https://microservices.apievangelist.com/icon-thumb.png
-provider_count: 108
+provider_count: 106
 providers:
 - slug: datadog-apm
   name: Datadog APM
@@ -34,7 +34,7 @@ providers:
   description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
   api_count: 1
   score_band: strong
-  score_composite: 60.9
+  score_composite: 61.6
   shared: 1
 - slug: amazon-sqs
   name: Amazon SQS
@@ -78,6 +78,13 @@ providers:
   score_band: developing
   score_composite: 51.2
   shared: 1
+- slug: aws-x-ray
+  name: AWS X-Ray
+  description: AWS X-Ray is a service that helps developers analyze and debug distributed applications by providing end-to-end tracing of requests as they travel through the application, identifying performance bottlenecks and errors. It is now part of Amazon CloudWatch Application Signals for unified observabili…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.1
+  shared: 1
 - slug: polyapi
   name: PolyAPI
   description: Poly, built using cutting-edge AI and Kubernetes-native technology, accelerates development and simplifies the operation of integrations, orchestrations, and microservices with TypeScript, Python, Java, and C.
@@ -92,13 +99,6 @@ providers:
   score_band: developing
   score_composite: 48.6
   shared: 1
-- slug: aws-x-ray
-  name: AWS X-Ray
-  description: AWS X-Ray is a service that helps developers analyze and debug distributed applications by providing end-to-end tracing of requests as they travel through the application, identifying performance bottlenecks and errors. It is now part of Amazon CloudWatch Application Signals for unified observabili…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.2
-  shared: 1
 - slug: amazon-fargate
   name: Amazon Fargate
   description: Amazon Fargate is a serverless compute engine for containers that works with both Amazon ECS and Amazon EKS. Fargate removes the need to provision and manage servers, letting you specify and pay for resources per application, and improves security through application isolation by design.
@@ -112,6 +112,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 47.2
+  shared: 1
+- slug: beamable
+  name: Beamable
+  description: Beamable is a cloud backend platform purpose-built for games and interactive applications, providing REST APIs and SDK integrations for Unity, Unreal, and web environments. The platform delivers production-ready services covering player identity and authentication, virtual currency and economy, inv…
+  api_count: 4
+  score_band: developing
+  score_composite: 46.6
   shared: 1
 - slug: mist-ai
   name: Juniper Mist AI
@@ -141,6 +148,13 @@ providers:
   score_band: developing
   score_composite: 45.7
   shared: 1
+- slug: amazon-app-mesh
+  name: Amazon App Mesh
+  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
+  api_count: 2
+  score_band: developing
+  score_composite: 45.5
+  shared: 1
 - slug: webflux
   name: Spring WebFlux
   description: Spring WebFlux is a fully non-blocking, reactive-stack web framework built into Spring Framework 5.0+. It enables building highly scalable, asynchronous web applications using the Reactive Streams API with Project Reactor. WebFlux supports annotated controllers, functional routing endpoints, WebSoc…
@@ -148,26 +162,19 @@ providers:
   score_band: developing
   score_composite: 45.3
   shared: 1
-- slug: beamable
-  name: Beamable
-  description: Beamable is a cloud backend platform purpose-built for games and interactive applications, providing REST APIs and SDK integrations for Unity, Unreal, and web environments. The platform delivers production-ready services covering player identity and authentication, virtual currency and economy, inv…
-  api_count: 4
-  score_band: developing
-  score_composite: 44.8
-  shared: 1
-- slug: amazon-app-mesh
-  name: Amazon App Mesh
-  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
-  api_count: 2
-  score_band: developing
-  score_composite: 44.4
-  shared: 1
 - slug: apache-dubbo
   name: Apache Dubbo
   description: Apache Dubbo is a high-performance, Java-based open-source RPC framework that provides service discovery, traffic management, and observability capabilities for building enterprise-level microservices. It supports multiple protocols including Triple (gRPC-compatible), Dubbo, and REST, with SDKs for…
   api_count: 1
   score_band: developing
-  score_composite: 43.4
+  score_composite: 44.0
+  shared: 1
+- slug: microsoft-azure-service-fabric
+  name: Azure Service Fabric
+  description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for distributed systems.
+  api_count: 2
+  score_band: developing
+  score_composite: 43.6
   shared: 1
 - slug: kuma
   name: Kuma
@@ -182,13 +189,6 @@ providers:
   api_count: 73
   score_band: developing
   score_composite: 43.0
-  shared: 1
-- slug: microsoft-azure-service-fabric
-  name: Azure Service Fabric
-  description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for distributed systems.
-  api_count: 2
-  score_band: developing
-  score_composite: 42.9
   shared: 1
 - slug: dapr
   name: Dapr
@@ -229,22 +229,22 @@ provider_slugs:
 - encore-dev
 - aws-app-mesh
 - aws-app-runner
+- aws-x-ray
 - polyapi
 - zeebe
-- aws-x-ray
 - amazon-fargate
 - apollo-config
+- beamable
 - mist-ai
 - lumigo
 - spring
 - grpc
-- webflux
-- beamable
 - amazon-app-mesh
+- webflux
 - apache-dubbo
+- microsoft-azure-service-fabric
 - kuma
 - amazon-vpc-lattice
-- microsoft-azure-service-fabric
 - dapr
 - nats
 - opslevel
@@ -262,12 +262,11 @@ provider_slugs:
 - service-fabric
 - spring-cloud-gateway
 - jaeger
+- purplebricks
 - axon-framework
 - spring-boot-3
 - express-gateway
 - ambient-mesh
-- purplebricks
-- jaeger-io
 - conductor-oss
 - akka
 - scalable-services
@@ -296,7 +295,6 @@ provider_slugs:
 - alibaba-sentinel
 - kitex
 - open-service-mesh
-- encore
 - eventuate
 - netflix-conductor
 - helidon

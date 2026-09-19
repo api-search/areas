@@ -25,9 +25,9 @@ providers:
 - slug: accela
   name: Accela
   description: Accela is a San Ramon, California govtech company whose cloud Civic Platform runs permitting, planning, licensing, code enforcement, inspections, asset management and citizen service requests for state and local government agencies worldwide. Its public developer surface is the Accela Construct API…
-  api_count: 15
+  api_count: 30
   score_band: strong
-  score_composite: 57.4
+  score_composite: 57.0
   shared: 1
 - slug: sendowl
   name: SendOwl
@@ -48,14 +48,7 @@ providers:
   description: OpenGov builds cloud enterprise resource planning and public service software for state and local government, serving more than 2,000 communities across budgeting and performance, financial management, procurement and contract management, vendor management, permitting and licensing, enterprise asse…
   api_count: 12
   score_band: developing
-  score_composite: 49.5
-  shared: 1
-- slug: madaket
-  name: Madaket
-  description: Madaket Health is a Cambridge, Massachusetts healthcare administration company whose Provider Data Management (PDM) platform automates payer enrollment, EDI enrollment, credentialing, licensing and provider directory data management between healthcare providers and payers. Madaket maintains connect…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.7
+  score_composite: 49.7
   shared: 1
 - slug: shutterstock
   name: Shutterstock
@@ -63,6 +56,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 42.5
+  shared: 1
+- slug: madaket
+  name: Madaket
+  description: Madaket Health is a Cambridge, Massachusetts healthcare administration company whose Provider Data Management (PDM) platform automates payer enrollment, EDI enrollment, credentialing, licensing and provider directory data management between healthcare providers and payers. Madaket maintains connect…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.8
   shared: 1
 - slug: soundstripe
   name: Soundstripe
@@ -97,7 +97,7 @@ providers:
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations through automated scanning, human clearing workflows, and SP…
   api_count: 1
   score_band: thin
-  score_composite: 35.7
+  score_composite: 35.5
   shared: 1
 - slug: fcc
   name: FCC (Federal Communications Commission)
@@ -111,7 +111,7 @@ providers:
   description: Story Protocol is a purpose-built EVM Layer 1 blockchain for onchain intellectual property (the "IP blockchain"), powered by Proof of Creativity, built by Pip Labs and backed by a16z. Its public REST API (api.storyapis.com) is a read-only indexer that exposes IP assets, collections, license terms,…
   api_count: 1
   score_band: thin
-  score_composite: 28.2
+  score_composite: 28.8
   shared: 1
 - slug: medallion
   name: Medallion
@@ -144,9 +144,9 @@ providers:
 - slug: endeavor
   name: Endeavor
   description: Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media,…
-  api_count: 2
+  api_count: 1
   score_band: emerging
-  score_composite: 18.1
+  score_composite: 18.0
   shared: 1
 - slug: aceable
   name: Aceable
@@ -216,7 +216,7 @@ providers:
   description: Nuro is a Mountain View-based autonomy company that has pivoted from its original autonomous-goods-delivery vehicle program (R1, R2, R3) to a licensable, vehicle-agnostic autonomous driving stack. The Nuro Driver is an AI-first Level 4 self-driving system, validated through 5+ years of driverless d…
   api_count: 0
   score_band: minimal
-  score_composite: 5.5
+  score_composite: 6.2
   shared: 1
 provider_slugs:
 - replicated
@@ -225,8 +225,8 @@ provider_slugs:
 - sendowl
 - acma
 - opengov
-- madaket
 - shutterstock
+- madaket
 - soundstripe
 - agentsync
 - 7digital
@@ -253,15 +253,9 @@ provider_slugs:
 - peerless-systems
 - acknowledgments-md
 - license-md
-related:
-- slug: saas-management
-  name: SaaS Management
-  shared: 1
+related: []
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Replicated, Certifyos, Accela, SendOwl, ACMA, OpenGov, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
-
-
-  Related areas: SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  30 providers on the network work in this area, including Replicated, Certifyos, Accela, SendOwl, ACMA, OpenGov, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

@@ -6,28 +6,49 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 171
+provider_count: 177
 providers:
 - slug: paperless-parts
   name: Paperless Parts
   description: Paperless Parts, Inc. is a Boston-based manufacturing software company founded in 2017 that builds a secure, ITAR-compliant cloud quoting and sales platform for custom part manufacturers — job shops, contract manufacturers and rapid-prototype businesses working in CNC machining, sheet metal fabrica…
   api_count: 4
   score_band: developing
-  score_composite: 53.1
+  score_composite: 53.2
   shared: 1
-- slug: civil-infrastructure-platform
-  name: Civil Infrastructure Platform
-  description: The Civil Infrastructure Platform (CIP) is a Linux Foundation collaborative project that builds an industrial-grade open source base layer for civil infrastructure systems such as transportation, power generation and distribution, building and city management, industrial control, and healthcare equ…
-  api_count: 6
+- slug: eaton
+  name: Eaton
+  description: 'Eaton Corporation plc (NYSE: ETN) is a global intelligent-power-management company with operations across electrical, aerospace, vehicle, and eMobility segments. Its digital surface centers on Brightlayer — a software portfolio for data centers, utilities, industrial, buildings, and mobility — toge…'
+  api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 53.0
   shared: 1
 - slug: aerones
   name: Aerones
   description: Aerones is a Latvian robotics company that performs wind turbine blade inspection, cleaning, coating, leading-edge repair and lightning-protection testing with cable-suspended robots and autonomous drones, operating onshore and offshore for owners and OEMs including NextEra, GE, Vestas, Enel and Si…
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 50.3
+  score_composite: 50.6
+  shared: 1
+- slug: civil-infrastructure-platform
+  name: Civil Infrastructure Platform
+  description: The Civil Infrastructure Platform (CIP) is a Linux Foundation collaborative project that builds an industrial-grade open source base layer for civil infrastructure systems such as transportation, power generation and distribution, building and city management, industrial control, and healthcare equ…
+  api_count: 3
+  score_band: developing
+  score_composite: 49.9
+  shared: 1
+- slug: ge-vernova
+  name: GE Vernova
+  description: GE Vernova is accelerating the path to more reliable, affordable, and sustainable energy through its innovative portfolio of electrification, power, and decarbonization technologies. Spun off from General Electric in April 2024, GE Vernova brings together the legacy GE Power, Renewable Energy, Digi…
+  api_count: 4
+  score_band: developing
+  score_composite: 49.0
+  shared: 1
+- slug: renesas
+  name: Renesas
+  description: 'Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products for automotive, industrial, infrastructure, and consumer el…'
+  api_count: 1
+  score_band: developing
+  score_composite: 43.5
   shared: 1
 - slug: siemens-mindsphere
   name: Siemens MindSphere
@@ -36,19 +57,12 @@ providers:
   score_band: developing
   score_composite: 43.1
   shared: 1
-- slug: renesas
-  name: Renesas
-  description: 'Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products for automotive, industrial, infrastructure, and consumer el…'
-  api_count: 1
-  score_band: developing
-  score_composite: 42.8
-  shared: 1
 - slug: remberg
   name: Remberg
   description: remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventi…
   api_count: 12
   score_band: developing
-  score_composite: 42.2
+  score_composite: 42.3
   shared: 1
 - slug: cosmo-tech
   name: Cosmo Tech
@@ -56,13 +70,6 @@ providers:
   api_count: 7
   score_band: developing
   score_composite: 41.6
-  shared: 1
-- slug: eaton
-  name: Eaton
-  description: 'Eaton Corporation plc (NYSE: ETN) is a global intelligent-power-management company with operations across electrical, aerospace, vehicle, and eMobility segments. Its digital surface centers on Brightlayer — a software portfolio for data centers, utilities, industrial, buildings, and mobility — toge…'
-  api_count: 1
-  score_band: developing
-  score_composite: 41.1
   shared: 1
 - slug: weavix
   name: Weavix
@@ -85,12 +92,12 @@ providers:
   score_band: thin
   score_composite: 36.4
   shared: 1
-- slug: ametek
-  name: AMETEK
-  description: 'AMETEK is a leading global manufacturer of electronic instruments and electromechanical devices with annual sales of over $6 billion. The company operates through two differentiated business segments: Electronic Instruments Group (EIG) and Electromechanical Group (EMG), serving industries including…'
-  api_count: 3
+- slug: helmerich-and-payne
+  name: Helmerich And Payne
+  description: 'Helmerich & Payne, Inc. (H&P, NYSE: HP) is a Tulsa-based drilling solutions company that operates one of the largest land rig fleets in the United States alongside international and offshore operations, and sells rig automation and wellbore-placement technology under the H&P Technologies banner — F…'
+  api_count: 2
   score_band: thin
-  score_composite: 36.0
+  score_composite: 36.1
   shared: 1
 - slug: archrock
   name: Archrock
@@ -98,6 +105,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 36.0
+  shared: 1
+- slug: ametek
+  name: AMETEK
+  description: 'AMETEK is a leading global manufacturer of electronic instruments and electromechanical devices with annual sales of over $6 billion. The company operates through two differentiated business segments: Electronic Instruments Group (EIG) and Electromechanical Group (EMG), serving industries including…'
+  api_count: 1
+  score_band: thin
+  score_composite: 35.4
   shared: 1
 - slug: markforged
   name: Markforged
@@ -111,7 +125,7 @@ providers:
   description: ActionStreamer is a Cincinnati, Ohio IoT video platform company, founded in 2016, that builds wearable and connected-device live streaming technology for industrial, public-safety, defense, aerospace/MRO and sports operations. Its ActionSync platform manages fleets of smart cameras and body-worn de…
   api_count: 1
   score_band: thin
-  score_composite: 32.7
+  score_composite: 34.2
   shared: 1
 - slug: innovapptive
   name: Innovapptive
@@ -133,6 +147,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 28.9
+  shared: 1
+- slug: greif
+  name: Greif
+  description: Greif is an industrial packaging products and services leader with a vision to be the best performing customer service company in the world. Greif also offers digital tools such as the Greif Green Tool carbon footprint calculator and the Greif+ online platform for customers.
+  api_count: 1
+  score_band: thin
+  score_composite: 28.1
   shared: 1
 - slug: blynk
   name: Blynk
@@ -197,46 +218,28 @@ providers:
   score_band: emerging
   score_composite: 19.3
   shared: 1
-- slug: matthews-international
-  name: Matthews International
-  description: 'Matthews International Corporation (NASDAQ: MATW) is a Pittsburgh, Pennsylvania diversified manufacturer founded in 1850 and reporting in three segments. Memorialization covers bronze and granite memorials, caskets, cremation-related products and cremation and incineration equipment for the cemeter…'
-  api_count: 0
-  score_band: emerging
-  score_composite: 18.9
-  shared: 1
-- slug: sanmina
-  name: Sanmina
-  description: Sanmina Corporation is a global contract manufacturer and leading provider of end-to-end design, manufacturing, logistics, and repair solutions for OEMs across defense, industrial, medical, communications, and computing markets. Through its 42Q subsidiary, Sanmina offers a cloud-based Manufacturing…
-  api_count: 1
-  score_band: emerging
-  score_composite: 18.0
-  shared: 1
-- slug: vishay-intertechnology
-  name: Vishay Intertechnology
-  description: Vishay Intertechnology is one of the world's largest manufacturers of discrete semiconductors (diodes, rectifiers, MOSFETs, optoelectronics, selected ICs) and passive electronic components (resistors, inductors, capacitors). Vishay components are used in automotive, industrial, computing, consumer,…
-  api_count: 3
-  score_band: emerging
-  score_composite: 17.5
-  shared: 1
 provider_slugs:
 - paperless-parts
-- civil-infrastructure-platform
+- eaton
 - aerones
-- siemens-mindsphere
+- civil-infrastructure-platform
+- ge-vernova
 - renesas
+- siemens-mindsphere
 - remberg
 - cosmo-tech
-- eaton
 - weavix
 - steute-technologies-gmbh-and-co-kg
 - 3m
-- ametek
+- helmerich-and-payne
 - archrock
+- ametek
 - markforged
 - actionstreamer
 - innovapptive
 - parsable
 - swipeguide
+- greif
 - blynk
 - otis-worldwide
 - graybar-electric
@@ -270,6 +273,7 @@ provider_slugs:
 - asseta
 - nacco-industries
 - operon
+- minerals-technologies
 - verve-motion
 - kaman
 - nth-cycle
@@ -281,8 +285,10 @@ provider_slugs:
 - venwiz
 - watts-water-technologies
 - magnusmetal
+- ventura
 - kilsar
 - amsc
+- american-superconductor-corporation
 - re-build
 - divergent
 - c-infinity
@@ -309,10 +315,10 @@ provider_slugs:
 - scope
 - pairio
 - cameron-international
+- berry-plastics-group
 - herthametals
 - oshkosh
 - moog
-- berry-global
 - sortera-alloys
 - sunrise
 - sonoco-products
@@ -333,14 +339,12 @@ provider_slugs:
 - aris-machina
 - hyster-yale-materials-handling
 - lyondellbasell
-- berry-plastics-group
 - drishti
 - harsco
 - exide-technologies
 - fastenal
 - general-cable
 - ghost-robotics
-- greif
 - illinois-tool-works
 - jjgmachining
 - kennametal
@@ -357,8 +361,8 @@ provider_slugs:
 - zwitterco
 - prmeasure
 - genuine-parts
-- nexa3d
 - rizm
+- twine-ventures
 - utility-global
 - parker-hannifin
 - donaldson
@@ -368,6 +372,7 @@ provider_slugs:
 - joy-global
 - msc-industrial-direct
 - mueller-industries
+- kyten-technologies
 - plexus
 - championx
 - dresser-rand-group
@@ -384,24 +389,22 @@ provider_slugs:
 - mrc-global
 - nov
 - itt
-- rovilus
 - cdhot
 - crane
 - colfax
 - fulcrum-bioenergy
 - inxeption
+- nexa3d
+- rovilus
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 1
-- slug: internet-of-things
-  name: Internet of Things
-  shared: 1
 overview: 'Industrial is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [industrial.apievangelist.com](https://industrial.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Paperless Parts, Civil Infrastructure Platform, Aerones, Siemens MindSphere, Renesas, Remberg, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Paperless Parts, Eaton, Aerones, Civil Infrastructure Platform, GE Vernova, Renesas, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Embedded iPaaS and Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -18,23 +18,23 @@ providers:
 - slug: zyte
   name: Zyte
   description: Zyte (formerly Scrapinghub, the company behind the Scrapy framework) is a web data extraction platform. Its flagship Zyte API is a single POST endpoint that fetches any URL through an automatic anti-ban network, optionally rendering it in a browser, running interaction actions, capturing network tr…
-  api_count: 3
+  api_count: 2
   score_band: strong
-  score_composite: 56.7
+  score_composite: 57.2
   shared: 1
 - slug: nimbleway
   name: Nimbleway
   description: Nimble (Nimbleway) is a real-time web data intelligence platform that turns any public web page into structured, analysis-ready data at scale. Its AI-Native SDK exposes Search, Extract, Map, Crawl, SERP, Media Download, and Web Search Agents over a single REST API (https://sdk.nimbleway.com/v1), pl…
   api_count: 1
   score_band: strong
-  score_composite: 54.6
+  score_composite: 55.1
   shared: 1
 - slug: hyperbrowser
   name: Hyperbrowser
   description: Hyperbrowser provides cloud browser infrastructure tailored for AI agents, bundling managed Chromium sessions with web scraping, crawling, and data-extraction APIs. The platform ships the open-source HyperAgent framework and first-class integrations for Browser-Use, Claude Computer Use, Gemini Comp…
   api_count: 1
-  score_band: strong
-  score_composite: 54.4
+  score_band: developing
+  score_composite: 54.1
   shared: 1
 - slug: oxylabs
   name: Oxylabs
@@ -48,7 +48,7 @@ providers:
   description: ScrapingAnt is a web-data infrastructure platform operated by DATAANT that puts headless Chrome rendering, a rotating pool of 3M+ residential and datacenter proxies, CAPTCHA avoidance and AI-powered extraction behind a single HTTP API. One request returns a fully JavaScript-rendered page as raw HTM…
   api_count: 2
   score_band: developing
-  score_composite: 52.6
+  score_composite: 51.2
   shared: 1
 - slug: ngrok
   name: ngrok
@@ -83,7 +83,7 @@ providers:
   description: Scrapfly is a web scraping API platform that enables effortless collection of web data with battle-tested APIs that scale. It provides capabilities for scraping web pages, capturing screenshots, and extracting structured data with AI assistance to handle anti-bot measures and JavaScript rendering.…
   api_count: 1
   score_band: thin
-  score_composite: 34.6
+  score_composite: 35.6
   shared: 1
 - slug: snapapi-pics
   name: SnapAPI

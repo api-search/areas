@@ -41,7 +41,7 @@ providers:
   description: Smol Machines (smol machines, inc.) is a Y Combinator-backed developer infrastructure company building portable, self-contained Linux microVMs. Its open-source `smolvm` engine and `smol` CLI (both Rust, Apache-2.0) boot hardware-isolated virtual machines from any OCI image in under 200ms — on a lap…
   api_count: 2
   score_band: developing
-  score_composite: 46.0
+  score_composite: 46.3
   shared: 1
 - slug: oxide-computer
   name: Oxide
@@ -83,7 +83,7 @@ providers:
   description: Vers is "git for running compute" — a branchable microVM platform from HD Research (hdresearch) that lets you fork a live virtual machine (memory, processes, sockets and all) in roughly 258 microseconds, commit its state as an immutable content-addressable snapshot, and restore or branch that snaps…
   api_count: 1
   score_band: developing
-  score_composite: 39.8
+  score_composite: 39.4
   shared: 1
 - slug: solaris-zones
   name: Solaris Zones
@@ -120,19 +120,19 @@ providers:
   score_band: thin
   score_composite: 37.5
   shared: 1
+- slug: scale-computing
+  name: Scale Computing
+  description: Scale Computing builds SC//Platform, an edge-computing and hyperconverged infrastructure stack made up of SC//HyperCore (a self-healing KVM-based virtualization and storage OS that runs on clustered appliance nodes) and SC//Fleet Manager (a cloud console that monitors, updates and orchestrates thou…
+  api_count: 4
+  score_band: thin
+  score_composite: 37.2
+  shared: 1
 - slug: platform9
   name: Platform9
   description: Platform9 is an enterprise private cloud company whose flagship Private Cloud Director is a full-featured VMware alternative for running virtual machines and containers on your own hardware. Built on a hardened OpenStack and Kubernetes foundation, it delivers high availability, live migration, dyna…
   api_count: 1
   score_band: thin
   score_composite: 36.5
-  shared: 1
-- slug: scale-computing
-  name: Scale Computing
-  description: Scale Computing builds SC//Platform, an edge-computing and hyperconverged infrastructure stack made up of SC//HyperCore (a self-healing KVM-based virtualization and storage OS that runs on clustered appliance nodes) and SC//Fleet Manager (a cloud console that monitors, updates and orchestrates thou…
-  api_count: 4
-  score_band: thin
-  score_composite: 36.4
   shared: 1
 - slug: google-cloud-vmware-engine
   name: Google Cloud VMware Engine
@@ -188,7 +188,7 @@ providers:
   description: Proxmox Virtual Environment (Proxmox VE) is an open-source server virtualization platform that combines KVM hypervisor and LXC containers, software-defined storage and networking, and clustering and high- availability features in a single web-managed solution. The Proxmox VE API exposes all platfor…
   api_count: 1
   score_band: emerging
-  score_composite: 24.8
+  score_composite: 25.5
   shared: 1
 - slug: tintri
   name: Tintri
@@ -235,8 +235,8 @@ provider_slugs:
 - veritas-infoscale
 - apache-cloudstack
 - firecracker
-- platform9
 - scale-computing
+- platform9
 - google-cloud-vmware-engine
 - broadcom
 - hypori
@@ -253,11 +253,11 @@ provider_slugs:
 - lima
 - calista-technologies
 - cloudphysics
-- greenbytes
 - platespin
 - qumranet
 - cloudswitch
 - cloudsimple
+- greenbytes
 related:
 - slug: migration
   name: Migration

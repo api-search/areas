@@ -6,7 +6,7 @@ description: An index and topic collection covering integrated development envir
 area_url: https://ide.apievangelist.com
 area_host: ide.apievangelist.com
 icon: https://ide.apievangelist.com/icon-thumb.png
-provider_count: 25
+provider_count: 23
 providers:
 - slug: github-copilot
   name: GitHub Copilot
@@ -20,7 +20,7 @@ providers:
   description: 'The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is also a substantial API provider in its own right: it publis…'
   api_count: 19
   score_band: strong
-  score_composite: 61.5
+  score_composite: 59.5
   shared: 1
 - slug: choreo
   name: Choreo
@@ -41,14 +41,7 @@ providers:
   description: AWS Cloud9 is a browser-based integrated development environment (IDE) that enables developers to write, run, and debug code without installing local software. Supports 40+ programming languages with real-time collaboration, integrated terminal, and pre-authenticated AWS CLI.
   api_count: 2
   score_band: developing
-  score_composite: 44.4
-  shared: 1
-- slug: cognition
-  name: Cognition AI
-  description: Cognition AI is an applied AI lab building Devin, an autonomous AI software engineer that plans, writes, tests, and ships production code. The company also operates the Windsurf agentic IDE following its 2025 acquisition of the Windsurf team and product. Devin is sold to individual developers, engi…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.6
+  score_composite: 45.4
   shared: 1
 - slug: jupyterlab
   name: JupyterLab
@@ -99,6 +92,13 @@ providers:
   score_band: thin
   score_composite: 30.8
   shared: 1
+- slug: microsoft-visual-studio
+  name: Microsoft Visual Studio
+  description: Microsoft Visual Studio is an integrated development environment (IDE) for building applications. It provides APIs for extending the IDE functionality, publishing extensions to the marketplace, and building VS Code extensions.
+  api_count: 4
+  score_band: thin
+  score_composite: 28.5
+  shared: 1
 - slug: stackblitz
   name: StackBlitz
   description: StackBlitz is an online development environment that runs Node.js applications entirely in the browser using WebContainers, a WebAssembly-based operating system that boots Node.js in milliseconds without a remote server. It serves developers, technical writers, and platform teams who need interacti…
@@ -112,13 +112,6 @@ providers:
   api_count: 10
   score_band: emerging
   score_composite: 25.3
-  shared: 1
-- slug: microsoft-visual-studio
-  name: Microsoft Visual Studio
-  description: Microsoft Visual Studio is an integrated development environment (IDE) for building applications. It provides APIs for extending the IDE functionality, publishing extensions to the marketplace, and building VS Code extensions.
-  api_count: 3
-  score_band: emerging
-  score_composite: 23.8
   shared: 1
 - slug: qt
   name: Qt
@@ -141,19 +134,12 @@ providers:
   score_band: emerging
   score_composite: 14.3
   shared: 1
-- slug: visual-studio
-  name: Visual Studio
-  description: Microsoft Visual Studio is an integrated development environment (IDE) for building applications across .NET, C++, web, mobile, cloud, and game platforms on Windows and macOS. While the Visual Studio IDE itself is not exposed as a SaaS REST API, Microsoft provides developer-facing APIs for Live Sha…
-  api_count: 2
-  score_band: emerging
-  score_composite: 13.1
-  shared: 1
 - slug: visual-studio-code
   name: Visual Studio Code
   description: Visual Studio Code is a free, open-source, cross-platform code editor developed by Microsoft for Windows, Linux, macOS, and the web, built on the MIT-licensed Code - OSS project and distinguished by features such as IntelliSense, debugging, integrated Git, and a marketplace with tens of thousands o…
   api_count: 1
   score_band: emerging
-  score_composite: 12.8
+  score_composite: 13.6
   shared: 1
 - slug: codeium
   name: Codeium
@@ -189,7 +175,6 @@ provider_slugs:
 - choreo
 - workday-studio
 - amazon-cloud9
-- cognition
 - jupyterlab
 - vs-code-marketplace
 - anysphere
@@ -197,13 +182,12 @@ provider_slugs:
 - jetbrains
 - windsurf
 - jetbrains-plugin
+- microsoft-visual-studio
 - stackblitz
 - nx-dev
-- microsoft-visual-studio
 - qt
 - zed-editor
 - refact-ai
-- visual-studio
 - visual-studio-code
 - codeium
 - clad-labs
@@ -225,7 +209,7 @@ related:
 overview: 'IDE is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ide.apievangelist.com](https://ide.apievangelist.com).
 
 
-  25 providers on the network work in this area, including GitHub Copilot, Eclipse Foundation, Choreo, Workday Studio, Amazon Cloud9, Cognition AI, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  23 providers on the network work in this area, including GitHub Copilot, Eclipse Foundation, Choreo, Workday Studio, Amazon Cloud9, JupyterLab, and 17 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Unified APIs, FinOps, Machine Learning, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'

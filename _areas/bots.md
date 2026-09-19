@@ -8,6 +8,13 @@ area_host: bots.apievangelist.com
 icon: https://bots.apievangelist.com/icon-thumb.png
 provider_count: 18
 providers:
+- slug: automation-anywhere
+  name: Automation Anywhere
+  description: Automation Anywhere is an enterprise robotic process automation (RPA) platform that enables organizations to automate business processes using software bots. Their developer platform, centered around the Automation 360 Control Room, provides a comprehensive suite of REST APIs for managing bot deplo…
+  api_count: 7
+  score_band: exemplar
+  score_composite: 70.3
+  shared: 1
 - slug: slack
   name: Slack
   description: Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.
@@ -50,6 +57,13 @@ providers:
   score_band: developing
   score_composite: 39.3
   shared: 1
+- slug: hummingbot
+  name: Hummingbot
+  description: 'Hummingbot is an open source Python framework, maintained by the Hummingbot Foundation, that lets traders build and run automated, high-frequency crypto trading strategies across both centralized (CEX) and decentralized (DEX) venues. The project ships several developer-facing components: the Hummin…'
+  api_count: 1
+  score_band: thin
+  score_composite: 36.9
+  shared: 1
 - slug: bot-butcher
   name: Bot Butcher
   description: Bot Butcher is an AI-powered spam detection API that uses a fine-tuned large language model to classify contact form submissions as spam or legitimate messages. The service analyzes messages within the context of what each website is about, providing context-aware classification with 99% reported a…
@@ -62,14 +76,7 @@ providers:
   description: Microsoft Bot Framework provides APIs and SDKs for building conversational AI bots that work across multiple channels including Teams, Slack, and custom applications.
   api_count: 6
   score_band: thin
-  score_composite: 35.5
-  shared: 1
-- slug: hummingbot
-  name: Hummingbot
-  description: 'Hummingbot is an open source Python framework, maintained by the Hummingbot Foundation, that lets traders build and run automated, high-frequency crypto trading strategies across both centralized (CEX) and decentralized (DEX) venues. The project ships several developer-facing components: the Hummin…'
-  api_count: 1
-  score_band: thin
-  score_composite: 35.2
+  score_composite: 36.2
   shared: 1
 - slug: alta5
   name: Alta5
@@ -127,23 +134,17 @@ providers:
   score_band: emerging
   score_composite: 15.6
   shared: 1
-- slug: kik
-  name: Kik
-  description: Kik is a freeware instant-messaging mobile app for iOS and Android, known for letting users register with only a username rather than a phone number. Founded in 2009 by University of Waterloo students and released in 2010, Kik grew to hundreds of millions of registered users and was especially popu…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.2
-  shared: 1
 provider_slugs:
+- automation-anywhere
 - slack
 - lichess
 - zenzap
 - telegram
 - zoho-cliq
 - highrise
+- hummingbot
 - bot-butcher
 - microsoft-bot-framework
-- hummingbot
 - alta5
 - groupme
 - here-not-there-labs
@@ -152,7 +153,6 @@ provider_slugs:
 - kataai
 - liveperson
 - regression-games
-- kik
 related:
 - slug: encryption
   name: Encryption
@@ -160,7 +160,7 @@ related:
 overview: 'Bots is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [bots.apievangelist.com](https://bots.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Slack, Lichess, ZenZap, Telegram, Zoho Cliq, Highrise, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Automation Anywhere, Slack, Lichess, ZenZap, Telegram, Zoho Cliq, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Encryption. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,14 +6,14 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 71
+provider_count: 43
 providers:
 - slug: cledara
   name: Cledara
   description: Cledara is a SaaS management platform that helps companies manage, control, and optimize software spending. The platform provides visibility into all software subscriptions, virtual payment cards with per-vendor spending limits, approval workflows, vendor renewal tracking, usage analytics, and acco…
   api_count: 1
   score_band: strong
-  score_composite: 65.2
+  score_composite: 65.9
   shared: 1
 - slug: boomi
   name: Boomi
@@ -22,40 +22,12 @@ providers:
   score_band: strong
   score_composite: 61.0
   shared: 1
-- slug: fenergo
-  name: Fenergo
-  description: Fenergo is an Irish-headquartered financial-services SaaS vendor whose Fen-X platform delivers Client Lifecycle Management (CLM), Know Your Customer (KYC), AML screening, client onboarding, transaction monitoring and regulatory compliance to banks, asset managers and financial institutions. The pla…
-  api_count: 145
-  score_band: strong
-  score_composite: 58.1
-  shared: 1
-- slug: accela
-  name: Accela
-  description: Accela is a San Ramon, California govtech company whose cloud Civic Platform runs permitting, planning, licensing, code enforcement, inspections, asset management and citizen service requests for state and local government agencies worldwide. Its public developer surface is the Accela Construct API…
-  api_count: 15
-  score_band: strong
-  score_composite: 57.4
-  shared: 1
-- slug: pagesnap
-  name: Pagesnap
-  description: Pagesnap turns any publicly reachable HTTP(S) URL into clean LLM-ready Markdown, a screenshot, a PDF, link-preview metadata, or normalized structured data, and extends the same engine to robots-aware site crawls, llms.txt generation, two-page diffs, and persisted change monitors with signed webhook…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.1
-  shared: 1
-- slug: yoodli
-  name: Yoodli
-  description: Yoodli is a Seattle-based AI communication coaching company, founded in 2021 by former Google engineers and spun out of the Allen Institute for AI incubator. Its platform runs AI roleplays and speech analysis so sales, leadership, L&D and customer-facing teams can rehearse high-stakes conversations…
-  api_count: 1
-  score_band: strong
-  score_composite: 54.8
-  shared: 1
 - slug: lumos
   name: Lumos
   description: Lumos is the first Autonomous Identity Platform that helps organizations discover and manage access to all apps with enhanced security, increased productivity, and reduced cost. Lumos automates access requests, enforces least privilege, speeds up user access reviews, and eliminates extra SaaS app s…
-  api_count: 1
+  api_count: 2
   score_band: strong
-  score_composite: 54.6
+  score_composite: 55.7
   shared: 1
 - slug: wundergraph
   name: WunderGraph
@@ -64,26 +36,19 @@ providers:
   score_band: developing
   score_composite: 51.6
   shared: 1
-- slug: workspot
-  name: Workspot
-  description: Workspot is a cloud-native virtual desktop infrastructure (VDI) and Cloud PC provider delivering Desktop-as-a-Service through its Workspot Control SaaS plane and the Workspot Desktop Control Fabric, a globally distributed architecture that provisions and manages Windows desktops and published appli…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.5
-  shared: 1
-- slug: 3vjia-technology
-  name: 3vjia Technology
-  description: 3vjia Technology (Guangdong Sanweijia Information Technology Co., Ltd. / 三维家, international brand AiHouse) is a Guangzhou-based home-furnishing industrial-software company founded in 2013 that runs a cloud 3D design and manufacturing platform for the interior-decoration and custom-furniture industr…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.9
-  shared: 1
 - slug: torii
   name: Torii
   description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide license and usage data, automate user onboarding and offboar…
   api_count: 1
   score_band: developing
   score_composite: 49.8
+  shared: 1
+- slug: augmentt
+  name: Augmentt
+  description: Augmentt is a Canadian software company (Kanata, Ontario) whose platform gives managed service providers one place to run Microsoft 365 across every client tenant. It combines SaaS and Shadow IT discovery, Microsoft 365 license and spend optimization, user lifecycle automation, Intune device baseli…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.5
   shared: 1
 - slug: amazon-systems-manager
   name: Amazon Systems Manager
@@ -120,19 +85,12 @@ providers:
   score_band: developing
   score_composite: 44.1
   shared: 1
-- slug: acall
-  name: Acall
-  description: Acall Inc. (アコール株式会社) is a Japanese workplace-experience software company, founded in 2010 and headquartered in Tokyo with a Kobe office, whose Acall / WorkstyleOS platform runs the physical side of hybrid work for more than 7,000 organizations. The product is a set of check-in surfaces — Acall Rec…
+- slug: g2-track
+  name: G2 Track
+  description: G2 Track was G2's SaaS spend management product — a single view of purchased applications, users, contracts and license utilization, used by IT and finance teams to find shadow IT, reclaim unused licenses and benchmark contracts ahead of renewal. BetterCloud acquired the G2 Track product line from…
   api_count: 1
   score_band: developing
-  score_composite: 43.7
-  shared: 1
-- slug: 31huiyi
-  name: 31huiyi
-  description: 31huiyi (31会议 / 31Event) is the digital event and exhibition SaaS platform operated by Shanghai Bayantu Information Technology Co., Ltd. (上海八彦图信息科技有限公司), founded 2010 and headquartered in Shanghai, China. It runs a product family covering conference management (31大会易), lightweight event management…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.1
+  score_composite: 42.5
   shared: 1
 - slug: tropic
   name: Tropic
@@ -141,40 +99,19 @@ providers:
   score_band: developing
   score_composite: 41.4
   shared: 1
+- slug: nudge-security
+  name: Nudge Security
+  description: Nudge Security is a SaaS and AI security management platform that discovers all SaaS and cloud applications used across an organization, helps security teams manage OAuth grants, enforce security policies, monitor app-to-app integrations, and reduce SaaS risk without blocking productivity. The plat…
+  api_count: 1
+  score_band: developing
+  score_composite: 40.0
+  shared: 1
 - slug: productiv
   name: Productiv
   description: The SaaS Management Platform that delivers the industrys most comprehensive view of your SaaS portfolio with deep usage analytics, spend data, and feature-level insights to power the technology decisions that support your business.
   api_count: 1
   score_band: developing
   score_composite: 39.7
-  shared: 1
-- slug: stellary
-  name: Stellary
-  description: AI-native project-management software for teams and AI agents, offering an AI Kanban board, knowledge base, cockpit dashboards, AI agent orchestration, automations, plugins, a built-in remote MCP server, and a REST API.
-  api_count: 2
-  score_band: developing
-  score_composite: 39.7
-  shared: 1
-- slug: 1up
-  name: 1up
-  description: 1up (1up Corp, 1up.ai) is a New York City based AI knowledge-automation company whose "Answer Engine" generates source-grounded answers for go-to-market teams. The platform connects approved knowledge sources — Confluence, Notion, Google Drive, OneDrive, SharePoint, Box, Dropbox, Egnyte, Salesforce…
-  api_count: 1
-  score_band: developing
-  score_composite: 39.6
-  shared: 1
-- slug: accordacff
-  name: Accord
-  description: Accord is a San Francisco-based revenue excellence platform for B2B sales, onboarding and customer success teams, founded in 2020 by Ross Rich and Ryan Rich. It turns a company's winning sales process into enforceable playbooks, mutual action plans and shared buyer workspaces, with stakeholder mapp…
-  api_count: 2
-  score_band: developing
-  score_composite: 39.6
-  shared: 1
-- slug: nudge-security
-  name: Nudge Security
-  description: Nudge Security is a SaaS and AI security management platform that discovers all SaaS and cloud applications used across an organization, helps security teams manage OAuth grants, enforce security policies, monitor app-to-app integrations, and reduce SaaS risk without blocking productivity. The plat…
-  api_count: 1
-  score_band: developing
-  score_composite: 39.3
   shared: 1
 - slug: cakewalk
   name: Cakewalk
@@ -218,31 +155,85 @@ providers:
   score_band: thin
   score_composite: 32.6
   shared: 1
+- slug: bettercloud
+  name: BetterCloud
+  description: BetterCloud is the end-to-end SaaS management platform that enables IT teams to discover, manage, and secure the growing SaaS environment. The platform provides automated workflows, security policies, and management capabilities for SaaS applications in enterprise environments, handling billions of…
+  api_count: 5
+  score_band: thin
+  score_composite: 31.5
+  shared: 1
+- slug: zenadmin
+  name: ZenAdmin
+  description: 'ZenAdmin is an all-in-one IT management platform for global teams, covering the full device and employee lifecycle: IT procurement, device lifecycle management, asset and inventory tracking, mobile device management (MDM), identity and access management, SaaS/app management, IT helpdesk, and 24/7 I…'
+  api_count: 1
+  score_band: thin
+  score_composite: 28.7
+  shared: 1
+- slug: spendflo
+  name: Spendflo
+  description: Spendflo is an AI-native procurement platform that centralizes intake-to-pay, enforces procurement policy, and reduces SaaS and vendor spend by combining AI-powered automation with expert-led negotiation. The Flash AI suite includes a Contract Analyst, Payables Agent, Procurement Analyst, and AI Wo…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.5
+  shared: 1
+- slug: blissfully
+  name: Blissfully
+  description: Blissfully was a SaaS management platform providing SaaS discovery, spend optimization, and workflow automation for IT and finance teams. Blissfully was acquired by Vendr in 2022 and integrated into the Vendr platform. Vendr is now a leading SaaS buying and management platform that helps companies…
+  api_count: 7
+  score_band: thin
+  score_composite: 27.7
+  shared: 1
+- slug: sastrify
+  name: Sastrify
+  description: Sastrify is an AI-powered SaaS management and procurement platform that unites IT, Finance, and Procurement on one intelligent platform. It discovers every tool in an organization's stack, manages licenses and renewals, benchmarks spend automatically against market data, and provides procurement wo…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.4
+  shared: 1
+- slug: leanix
+  name: LeanIX
+  description: LeanIX (now SAP LeanIX) is an enterprise architecture and SaaS management platform providing IT portfolio management, application portfolio rationalization, SaaS discovery, and technology risk management. The platform exposes REST APIs for integrating with the fact sheet inventory, running inbound…
+  api_count: 1
+  score_band: thin
+  score_composite: 26.9
+  shared: 1
+- slug: salto
+  name: Salto
+  description: Salto is an AI-powered configuration-management platform for enterprise business and IT applications. It lets teams search, analyze, compare, document, and deploy configuration changes across systems such as Salesforce, Salesforce CPQ, NetSuite, Zendesk, Jira, Confluence, Google Workspace, Okta, Mi…
+  api_count: 0
+  score_band: emerging
+  score_composite: 21.6
+  shared: 1
+- slug: substly
+  name: Substly
+  description: Substly is a SaaS management platform designed for small and medium-sized businesses to track software subscriptions, optimize spend, manage user access, and detect shadow IT across cloud applications. It provides centralized oversight, automated renewal tracking, and integrations with Google Works…
+  api_count: 1
+  score_band: emerging
+  score_composite: 18.6
+  shared: 1
+- slug: vertice
+  name: Vertice
+  description: Vertice is an intelligent procurement platform built for the modern enterprise with agentic workflows, AI insights, and expert buyers that empower finance and procurement teams across 30+ countries to buy smarter and scale faster. The platform covers SaaS purchasing and contract management, cloud s…
+  api_count: 1
+  score_band: emerging
+  score_composite: 17.5
+  shared: 1
 provider_slugs:
 - cledara
 - boomi
-- fenergo
-- accela
-- pagesnap
-- yoodli
 - lumos
 - wundergraph
-- workspot
-- 3vjia-technology
 - torii
+- augmentt
 - amazon-systems-manager
 - snaplogic
 - dell-servers
 - zluri
 - zylo
-- acall
-- 31huiyi
+- g2-track
 - tropic
-- productiv
-- stellary
-- 1up
-- accordacff
 - nudge-security
+- productiv
 - cakewalk
 - snow-software
 - trelica
@@ -250,18 +241,12 @@ provider_slugs:
 - coreview-fka-4ward365
 - broadcom
 - bettercloud
-- 10x-banking-technology-services
-- acquco
 - zenadmin
 - spendflo
 - blissfully
 - sastrify
-- 7learnings
-- unifa
 - leanix
-- augmentt
 - salto
-- electricai
 - substly
 - vertice
 - certero
@@ -269,36 +254,20 @@ provider_slugs:
 - electric
 - cleanshelf
 - cloudnuro
-- adaptx
 - binadox
 - josys
 - corma
-- aents
-- 51haohuo-com
-- ablesky
 - beamy
-- g2-track
-- 4r
 - nickl
 - oomnitza
-- acelerate
-- 3721zhcom
-- aaktelescienceinc
-- ababa
-- aceturtleservicespvtltd
-- 4dbim
 - intello
 - vendorhawk
-- 1sm
 related:
 - slug: management
   name: Management
   shared: 6
 - slug: finops
   name: FinOps
-  shared: 1
-- slug: licensing
-  name: Licensing
   shared: 1
 - slug: virtualization
   name: Virtualization
@@ -309,8 +278,8 @@ related:
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cledara, Boomi, Fenergo, Accela, Pagesnap, Yoodli, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Cledara, Boomi, Lumos, WunderGraph, Torii, Augmentt, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, FinOps, Licensing, and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, FinOps, Virtualization, and iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

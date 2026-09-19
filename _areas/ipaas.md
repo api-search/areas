@@ -6,14 +6,14 @@ description: This is the index of iPaaS (integration platform as a service) repo
 area_url: https://ipaas.apievangelist.com
 area_host: ipaas.apievangelist.com
 icon: https://ipaas.apievangelist.com/icon-thumb.png
-provider_count: 49
+provider_count: 47
 providers:
 - slug: tray-ai
   name: Tray.ai
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
   api_count: 4
   score_band: exemplar
-  score_composite: 87.1
+  score_composite: 86.8
   shared: 1
 - slug: jitterbit
   name: Jitterbit
@@ -22,12 +22,26 @@ providers:
   score_band: exemplar
   score_composite: 70.1
   shared: 1
+- slug: integration-os
+  name: IntegrationOS
+  description: IntegrationOS was a unified API platform that let developers add third-party integrations to their products with a single API call. The company rebranded as Pica (picaos.com) and then, on 2026-03-25, as One (withone.ai) — the provider's own changelog records the step as "Pica is now One". One is an…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.5
+  shared: 1
 - slug: vessel
   name: Vessel
   description: Vessel (Kinit Inc.) is a developer-first embedded integrations platform for go-to-market software. It gives a product team one contract to read and write an end customer's CRM, sales engagement, chat, dialer and marketing automation tools, plus a drop-in browser component — Vessel Link — that handl…
   api_count: 20
   score_band: strong
   score_composite: 64.0
+  shared: 1
+- slug: pandium
+  name: Pandium
+  description: Transform integration development from a fragmented, ad hoc process into a streamlined, repeatable workflow with Pandiums Integration Platform. With Pandium, B2B SaaS companies can meet customer demands, reduce technical debt, and stay ahead in an increasingly connected world.
+  api_count: 2
+  score_band: strong
+  score_composite: 63.7
   shared: 1
 - slug: workato
   name: Workato
@@ -36,19 +50,12 @@ providers:
   score_band: strong
   score_composite: 62.9
   shared: 1
-- slug: pandium
-  name: Pandium
-  description: Transform integration development from a fragmented, ad hoc process into a streamlined, repeatable workflow with Pandiums Integration Platform. With Pandium, B2B SaaS companies can meet customer demands, reduce technical debt, and stay ahead in an increasingly connected world.
-  api_count: 2
-  score_band: strong
-  score_composite: 62.0
-  shared: 1
 - slug: agave
   name: Agave
   description: Agave is a unified API platform for the construction industry, enabling software companies and contractors to read and write data across 100+ construction and accounting software systems including Procore, Autodesk Build, QuickBooks, Sage, Viewpoint, and more.
-  api_count: 11
+  api_count: 18
   score_band: strong
-  score_composite: 60.5
+  score_composite: 61.1
   shared: 1
 - slug: zapier
   name: Zapier
@@ -62,14 +69,7 @@ providers:
   description: 3-shake, Inc. (株式会社スリーシェイク) is a Tokyo-based cloud and reliability engineering company, founded in 2015, that operates four product lines. Sreake is its SRE / platform-engineering consulting and managed-operations practice for AWS, Google Cloud and Kubernetes. Reckoner is a no-code ETL and data-int…
   api_count: 1
   score_band: strong
-  score_composite: 56.7
-  shared: 1
-- slug: paragon
-  name: Paragon
-  description: Paragon is the Integration Infrastructure Platform for B2B SaaS and AI products. The platform combines Connect Portal (managed user authentication for 130+ SaaS apps), Workflows (event-driven async orchestration), ActionKit (Universal API + MCP server giving AI agents synchronous CRUD access to Int…
-  api_count: 2
-  score_band: strong
-  score_composite: 55.4
+  score_composite: 56.5
   shared: 1
 - slug: syncari
   name: Syncari
@@ -85,6 +85,13 @@ providers:
   score_band: developing
   score_composite: 50.1
   shared: 1
+- slug: aws-step-functions
+  name: AWS Step Functions
+  description: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error handling and retries.
+  api_count: 2
+  score_band: developing
+  score_composite: 49.2
+  shared: 1
 - slug: oracle-integration
   name: Oracle Integration
   description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
@@ -92,26 +99,19 @@ providers:
   score_band: developing
   score_composite: 48.8
   shared: 1
-- slug: aws-step-functions
-  name: AWS Step Functions
-  description: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error handling and retries.
-  api_count: 1
-  score_band: developing
-  score_composite: 48.4
-  shared: 1
 - slug: flume-health
   name: Flume Health
   description: Flume Health is a New York based healthcare data platform for the payer ecosystem. Its Relay product is an integration platform (iPaaS) that maps eligibility, claims, and other health plan data between source and destination Endpoints — SFTP, cloud storage, databases, Snowflake, and APIs — through…
   api_count: 2
   score_band: developing
-  score_composite: 48.3
+  score_composite: 48.2
   shared: 1
-- slug: microsoft-azure-logic-apps
+- slug: azure-logic-apps
   name: Azure Logic Apps
-  description: Azure Logic Apps is a cloud platform for creating and running automated workflows that integrate apps, data, services, and systems. It provides a visual designer and over 400 connectors to build event-driven, scheduled, and on-demand integrations.
-  api_count: 2
+  description: Azure Logic Apps is a cloud-based integration platform that enables you to create and run automated workflows integrating apps, data, services, and systems across cloud and on-premises environments.
+  api_count: 1
   score_band: developing
-  score_composite: 47.9
+  score_composite: 47.8
   shared: 1
 - slug: rewst
   name: Rewst
@@ -134,6 +134,13 @@ providers:
   score_band: developing
   score_composite: 46.9
   shared: 1
+- slug: integrately
+  name: Integrately
+  description: Integrately is a one-click workflow automation platform offering 20 million+ ready-to-use automations across 1500+ applications. It positions itself as a no-code, lower-cost alternative to other iPaaS and workflow tools, using SmartConnect technology to auto-detect connections between apps and bund…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.5
+  shared: 1
 - slug: sap-integration-suite
   name: SAP Integration Suite
   description: SAP Integration Suite is an enterprise integration platform as a service (iPaaS) that connects applications, processes, and people across cloud and on-premises environments. It includes capabilities for Cloud Integration, API Management, Integration Advisor, Open Connectors, Trading Partner Managem…
@@ -144,6 +151,13 @@ providers:
 - slug: make
   name: Make
   description: Make (formerly Integromat) is a visual scenario-based automation builder with advanced data transformation and routing logic.
+  api_count: 1
+  score_band: developing
+  score_composite: 45.0
+  shared: 1
+- slug: skyvia
+  name: Skyvia
+  description: 'Skyvia is a no-code cloud data platform from Devart covering five products on one account: Data Integration (import, export, replication, synchronization, data flow and control flow across 200+ cloud apps and databases), Automation (trigger-driven business process automation with schedule, polling-…'
   api_count: 1
   score_band: developing
   score_composite: 45.0
@@ -176,13 +190,6 @@ providers:
   score_band: developing
   score_composite: 43.4
   shared: 1
-- slug: skyvia
-  name: Skyvia
-  description: 'Skyvia is a no-code cloud data platform from Devart covering five products on one account: Data Integration (import, export, replication, synchronization, data flow and control flow across 200+ cloud apps and databases), Automation (trigger-driven business process automation with schedule, polling-…'
-  api_count: 1
-  score_band: developing
-  score_composite: 40.6
-  shared: 1
 - slug: reachware-inc
   name: Reachware Inc.
   description: Reachware is an Integration Platform as a Service (iPaaS) that lets separate SaaS and business systems operate as one connected ecosystem, with 200+ prebuilt connectors to systems like NetSuite, QuickBooks, Microsoft Dynamics 365, Odoo, SAP, Oracle, Magento, Zid and Qoyod. Alongside the core platfo…
@@ -204,63 +211,54 @@ providers:
   score_band: thin
   score_composite: 38.9
   shared: 1
-- slug: alloy-automation
-  name: Alloy Automation
-  description: Alloy Automation (runalloy.com) is an embedded integration platform (iPaaS) and Unified API for SaaS products. Its Embedded product lets you drop white-labeled, end-user-facing integrations into your app, while the Connectivity and Unified API provide a single REST interface for connecting to hundr…
+- slug: celigo
+  name: Celigo
+  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
   api_count: 1
   score_band: thin
-  score_composite: 37.1
-  shared: 1
-- slug: hotglue
-  name: Hotglue
-  description: Hotglue is an embedded iPaaS platform that enables SaaS products to offer native integrations to their customers. Built on the Python ecosystem, it provides a code-first approach with over 600 open-source connectors, a CLI for programmatic configuration management, detailed job logs, webhooks, and…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.9
+  score_composite: 38.4
   shared: 1
 provider_slugs:
 - tray-ai
 - jitterbit
+- integration-os
 - vessel
-- workato
 - pandium
+- workato
 - agave
 - zapier
 - 3shake
-- paragon
 - syncari
 - hull
-- oracle-integration
 - aws-step-functions
+- oracle-integration
 - flume-health
-- microsoft-azure-logic-apps
+- azure-logic-apps
 - rewst
 - snaplogic
 - stackone
+- integrately
 - sap-integration-suite
 - make
+- skyvia
 - elastic-io
 - runautomat
 - modusbox
 - morf
-- skyvia
 - reachware-inc
 - jetic
 - useparagon
+- celigo
 - alloy-automation
 - hotglue
 - automat
-- azure-logic-apps
 - sandbox-banking
 - software-ag
 - apifuse
-- celigo
 - ifttt
-- integrately
 - unifyapps
 - lonti
 - locoia
-- integration-os
 - ibm-app-connect
 - oneio
 - locale
@@ -271,16 +269,16 @@ provider_slugs:
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 17
-- slug: ai-automation
-  name: AI Automation
-  shared: 3
+  shared: 15
+- slug: workflow-automation
+  name: Workflow Automation
+  shared: 4
 - slug: orchestration
   name: Orchestration
   shared: 3
-- slug: workflow-automation
-  name: Workflow Automation
-  shared: 3
+- slug: ai-automation
+  name: AI Automation
+  shared: 2
 - slug: management
   name: Management
   shared: 1
@@ -290,8 +288,8 @@ related:
 overview: 'iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ipaas.apievangelist.com](https://ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Tray.ai, Jitterbit, Vessel, Workato, Pandium, Agave, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Tray.ai, Jitterbit, IntegrationOS, Vessel, Pandium, Workato, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Embedded iPaaS, AI Automation, Orchestration, and Workflow Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Embedded iPaaS, Workflow Automation, Orchestration, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -6,14 +6,14 @@ description: An index and topic collection covering container orchestration and 
 area_url: https://orchestration.apievangelist.com
 area_host: orchestration.apievangelist.com
 icon: https://orchestration.apievangelist.com/icon-thumb.png
-provider_count: 86
+provider_count: 89
 providers:
 - slug: tray-ai
   name: Tray.ai
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
   api_count: 4
   score_band: exemplar
-  score_composite: 87.1
+  score_composite: 86.8
   shared: 1
 - slug: microsoft-azure-kubernetes-service
   name: Azure Kubernetes Service
@@ -22,12 +22,12 @@ providers:
   score_band: exemplar
   score_composite: 72.2
   shared: 1
-- slug: cohesity
-  name: Cohesity
-  description: Cohesity is a data security and management company providing backup, disaster recovery, archive, and cyber resilience capabilities across on-premises, cloud, and SaaS workloads. Following the merger with Veritas, the combined company protects enterprise data while powering automation, orchestration…
-  api_count: 4
-  score_band: strong
-  score_composite: 66.1
+- slug: microsoft-azure-data-factory
+  name: Azure Data Factory
+  description: Azure Data Factory is Microsoft's cloud-based data integration service, orchestrating and automating the movement and transformation of data across ETL and ELT workloads that span cloud and on-premises stores. Its public interface is the Microsoft.DataFactory resource provider behind Azure Resource…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 70.5
   shared: 1
 - slug: uipath
   name: UiPath
@@ -36,12 +36,26 @@ providers:
   score_band: strong
   score_composite: 66.1
   shared: 1
+- slug: cohesity
+  name: Cohesity
+  description: Cohesity is a data security and management company providing backup, disaster recovery, archive, and cyber resilience capabilities across on-premises, cloud, and SaaS workloads. Following the merger with Veritas, the combined company protects enterprise data while powering automation, orchestration…
+  api_count: 8
+  score_band: strong
+  score_composite: 66.0
+  shared: 1
+- slug: socure
+  name: Socure
+  description: Socure is the leading vertically-integrated digital identity verification and fraud-prevention platform, used by 3,000+ banks, fintechs, crypto exchanges, marketplaces, gaming operators, and public-sector agencies. The ID+ API exposes Socure's KYC, document verification (DocV), Sigma fraud models,…
+  api_count: 3
+  score_band: strong
+  score_composite: 63.5
+  shared: 1
 - slug: bonitasoft
   name: Bonitasoft
   description: Bonitasoft is the French open-source company behind Bonita, a business process management and process automation platform used to model BPMN processes, build living applications, and orchestrate work across an organization. Bonita ships as Bonita Studio, Bonita Fabric (Process Designer, BPA Studio,…
   api_count: 2
   score_band: strong
-  score_composite: 64.3
+  score_composite: 63.3
   shared: 1
 - slug: workato
   name: Workato
@@ -55,14 +69,14 @@ providers:
   description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
   api_count: 4
   score_band: strong
-  score_composite: 61.0
+  score_composite: 61.2
   shared: 1
 - slug: facets
   name: Facets
   description: Facets is an AI-native SDLC orchestrator and platform-engineering control plane that unifies infrastructure provisioning, CI/CD and configuration management into a single declarative blueprint model, so product teams get self-serve, drift-free cloud environments without writing Terraform by hand. T…
-  api_count: 1
+  api_count: 2
   score_band: strong
-  score_composite: 60.5
+  score_composite: 61.0
   shared: 1
 - slug: inngest
   name: Inngest
@@ -83,7 +97,7 @@ providers:
   description: Hatchet is an open-source distributed task queue and workflow orchestration engine for background jobs, AI agents, and durable workflows. It is Postgres-backed, MIT-licensed, and ships with first-class SDKs for Python, TypeScript, Go, and Ruby plus a managed offering (Hatchet Cloud) and a self-host…
   api_count: 1
   score_band: strong
-  score_composite: 55.7
+  score_composite: 55.8
   shared: 1
 - slug: tower
   name: Tower
@@ -92,12 +106,12 @@ providers:
   score_band: strong
   score_composite: 54.3
   shared: 1
-- slug: amazon-step-functions
-  name: Amazon Step Functions
-  description: Amazon Step Functions is a serverless workflow orchestration service that lets you coordinate distributed applications and microservices using visual workflows, enabling you to build and update state machines that react to events, manage retries, and orchestrate complex business processes.
-  api_count: 2
+- slug: ballerina
+  name: Ballerina
+  description: 'Ballerina is an open-source programming language for the cloud, created and maintained by WSO2, whose type system, syntax and tooling are built around network interaction: services, clients, data transformation and integration are language constructs rather than framework add-ons. It ships first-pa…'
+  api_count: 1
   score_band: developing
-  score_composite: 54.1
+  score_composite: 53.6
   shared: 1
 - slug: amazon-ecs
   name: Amazon ECS
@@ -106,31 +120,31 @@ providers:
   score_band: developing
   score_composite: 53.5
   shared: 1
+- slug: amazon-step-functions
+  name: Amazon Step Functions
+  description: Amazon Step Functions is a serverless workflow orchestration service that lets you coordinate distributed applications and microservices using visual workflows, enabling you to build and update state machines that react to events, manage retries, and orchestrate complex business processes.
+  api_count: 2
+  score_band: developing
+  score_composite: 52.3
+  shared: 1
 - slug: fyno
   name: Fyno
   description: Fyno is a notification routing and orchestration platform that provides a single unified REST API for sending and managing notifications across 10+ communication channels including email, SMS, push, WhatsApp, in-app, RCS, voice, and iMessage. Engineering teams integrate once to gain access to 100+…
   api_count: 1
   score_band: developing
-  score_composite: 51.2
-  shared: 1
-- slug: cisco-crosswork
-  name: Cisco Crosswork
-  description: 'Cisco Crosswork is Cisco''s service-provider network automation portfolio — Crosswork Network Controller, Data Gateway, Zero Touch Provisioning, Optimization Engine, Network Change Automation and Crosswork Workflow Manager. Unusually for Cisco, the specifications are published openly: the CiscoDevNe…'
-  api_count: 50
-  score_band: developing
-  score_composite: 50.9
-  shared: 1
-- slug: transmit-security
-  name: Transmit Security
-  description: Transmit Security provides the Mosaic platform, a comprehensive CIAM (Customer Identity and Access Management) solution offering REST APIs for passkey and WebAuthn authentication, fraud detection and risk-based access control, identity orchestration, identity verification, and user journey manageme…
-  api_count: 7
-  score_band: developing
-  score_composite: 50.9
+  score_composite: 51.9
   shared: 1
 - slug: kestra
   name: Kestra
   description: Kestra is a declarative workflow orchestration platform where pipelines are defined in YAML, combining visual and code-first approaches.
   api_count: 1
+  score_band: developing
+  score_composite: 50.7
+  shared: 1
+- slug: transmit-security
+  name: Transmit Security
+  description: Transmit Security provides the Mosaic platform, a comprehensive CIAM (Customer Identity and Access Management) solution offering REST APIs for passkey and WebAuthn authentication, fraud detection and risk-based access control, identity orchestration, identity verification, and user journey manageme…
+  api_count: 7
   score_band: developing
   score_composite: 50.7
   shared: 1
@@ -140,6 +154,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 50.4
+  shared: 1
+- slug: cisco-crosswork
+  name: Cisco Crosswork
+  description: 'Cisco Crosswork is Cisco''s service-provider network automation portfolio — Crosswork Network Controller, Data Gateway, Zero Touch Provisioning, Optimization Engine, Network Change Automation and Crosswork Workflow Manager. Unusually for Cisco, the specifications are published openly: the CiscoDevNe…'
+  api_count: 50
+  score_band: developing
+  score_composite: 50.2
   shared: 1
 - slug: prefect
   name: Prefect
@@ -151,9 +172,16 @@ providers:
 - slug: aws-step-functions
   name: AWS Step Functions
   description: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error handling and retries.
+  api_count: 2
+  score_band: developing
+  score_composite: 49.2
+  shared: 1
+- slug: polyapi
+  name: PolyAPI
+  description: Poly, built using cutting-edge AI and Kubernetes-native technology, accelerates development and simplifies the operation of integrations, orchestrations, and microservices with TypeScript, Python, Java, and C.
   api_count: 1
   score_band: developing
-  score_composite: 48.4
+  score_composite: 49.1
   shared: 1
 - slug: choreo
   name: Choreo
@@ -190,39 +218,13 @@ providers:
   score_band: developing
   score_composite: 46.0
   shared: 1
-- slug: cutover
-  name: Cutover
-  description: Cutover is a collaborative automation and IT resilience platform that codifies operational work as task-led runbooks for IT disaster recovery, application recovery, major incident management, and complex change and release events. The platform combines automated runbooks, real-time dashboards, immu…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.9
-  shared: 1
-- slug: apache-airflow
-  name: Apache Airflow
-  description: Apache Airflow is an open-source platform to programmatically author, schedule, and monitor workflows, developed by the Apache Software Foundation. It allows you to define workflows as Directed Acyclic Graphs (DAGs) in Python code, making them maintainable, versionable, testable, and collaborative.…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.4
-  shared: 1
-- slug: conductor
-  name: Conductor
-  description: Conductor allows you to build a complex application using simple and granular tasks that do not need to be aware of or keep track of the state of your application's execution flow. Conductor keeps track of the state, calls tasks in the right order (sequentially or in parallel, as defined by you), r…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.9
-  shared: 1
-- slug: shuffle
-  name: Shuffle
-  description: Shuffle is an open source security automation platform (SOAR) built for and by security professionals. The platform enables security teams to orchestrate workflows across their entire security tool stack using a no-code/low-code interface powered by OpenAPI integrations. Shuffle provides workflow a…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.5
-  shared: 1
 provider_slugs:
 - tray-ai
 - microsoft-azure-kubernetes-service
-- cohesity
+- microsoft-azure-data-factory
 - uipath
+- cohesity
+- socure
 - bonitasoft
 - workato
 - netcracker
@@ -231,15 +233,17 @@ provider_slugs:
 - intersight
 - hatchet
 - tower
-- amazon-step-functions
+- ballerina
 - amazon-ecs
+- amazon-step-functions
 - fyno
-- cisco-crosswork
-- transmit-security
 - kestra
+- transmit-security
 - kubernetes
+- cisco-crosswork
 - prefect
 - aws-step-functions
+- polyapi
 - choreo
 - ansible
 - ansible-playbooks
@@ -251,34 +255,34 @@ provider_slugs:
 - shuffle
 - google-cloud-workflows
 - rook
-- terminal-use
 - microsoft-azure-service-fabric
 - talend
+- terminal-use
 - keboola
 - splunk-soar
 - elementum
 - runai
+- haystack-ai
 - kubeflow-pipelines
-- vers
 - oracle-container-engine
 - restate
+- vers
 - restack
-- haystack-ai
 - zededa
 - unionai
+- julep
 - formance
 - aalyria
 - lightbend
-- julep
 - google-kubernetes-engine
 - clearml
 - rundeck
-- langgraph
 - mage-ai
 - edgegap
 - apache-oozie
 - notdiamond
 - conductor-oss
+- langgraph
 - apache-dolphinscheduler
 - ansible-automation-platform
 - y42
@@ -286,7 +290,6 @@ provider_slugs:
 - kubeark
 - puppet
 - armada
-- restate-dev
 - big-picture-medical
 - netflix-conductor
 - pinkfish
@@ -308,7 +311,7 @@ provider_slugs:
 related:
 - slug: ai-automation
   name: AI Automation
-  shared: 4
+  shared: 3
 - slug: containers
   name: Containers
   shared: 3
@@ -318,16 +321,16 @@ related:
 - slug: ipaas
   name: iPaaS
   shared: 3
-- slug: serverless
-  name: Serverless
-  shared: 2
 - slug: unified-apis
   name: Unified APIs
+  shared: 1
+- slug: ide
+  name: IDE
   shared: 1
 overview: 'Orchestration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [orchestration.apievangelist.com](https://orchestration.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Tray.ai, Azure Kubernetes Service, Cohesity, UiPath, Bonitasoft, Workato, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Tray.ai, Azure Kubernetes Service, Azure Data Factory, UiPath, Cohesity, Socure, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Containers, Embedded iPaaS, and iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,7 +6,7 @@ description: This is the index of embedded iPaaS service and tooling repos being
 area_url: https://embedded-ipaas.apievangelist.com
 area_host: embedded-ipaas.apievangelist.com
 icon: https://embedded-ipaas.apievangelist.com/icon-thumb.png
-provider_count: 99
+provider_count: 95
 providers:
 - slug: workato
   name: Workato
@@ -27,14 +27,14 @@ providers:
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
   api_count: 4
   score_band: exemplar
-  score_composite: 87.1
+  score_composite: 86.8
   shared: 1
 - slug: losant
   name: Losant
   description: Losant is an Enterprise IoT Platform that lets product teams build connected experiences, manage fleets of devices, orchestrate edge and embedded compute, and visualize and act on IoT data. The platform exposes a comprehensive REST API (the Platform API) covering applications, devices, data tables,…
   api_count: 6
   score_band: exemplar
-  score_composite: 79.5
+  score_composite: 80.4
   shared: 1
 - slug: jitterbit
   name: Jitterbit
@@ -43,6 +43,13 @@ providers:
   score_band: exemplar
   score_composite: 70.1
   shared: 1
+- slug: integration-os
+  name: IntegrationOS
+  description: IntegrationOS was a unified API platform that let developers add third-party integrations to their products with a single API call. The company rebranded as Pica (picaos.com) and then, on 2026-03-25, as One (withone.ai) — the provider's own changelog records the step as "Pica is now One". One is an…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.5
+  shared: 1
 - slug: vessel
   name: Vessel
   description: Vessel (Kinit Inc.) is a developer-first embedded integrations platform for go-to-market software. It gives a product team one contract to read and write an end customer's CRM, sales engagement, chat, dialer and marketing automation tools, plus a drop-in browser component — Vessel Link — that handl…
@@ -50,12 +57,19 @@ providers:
   score_band: strong
   score_composite: 64.0
   shared: 1
+- slug: pandium
+  name: Pandium
+  description: Transform integration development from a fragmented, ad hoc process into a streamlined, repeatable workflow with Pandiums Integration Platform. With Pandium, B2B SaaS companies can meet customer demands, reduce technical debt, and stay ahead in an increasingly connected world.
+  api_count: 2
+  score_band: strong
+  score_composite: 63.7
+  shared: 1
 - slug: particle
   name: Particle
   description: Particle is an integrated IoT Platform-as-a-Service that provides cellular, Wi-Fi, and Bluetooth hardware modules alongside a comprehensive cloud platform for building and managing connected devices at scale. The Particle Device Cloud exposes a REST API that enables developers to call device functi…
   api_count: 2
   score_band: strong
-  score_composite: 63.6
+  score_composite: 63.7
   shared: 1
 - slug: prismatic
   name: Prismatic
@@ -64,19 +78,12 @@ providers:
   score_band: strong
   score_composite: 63.0
   shared: 1
-- slug: pandium
-  name: Pandium
-  description: Transform integration development from a fragmented, ad hoc process into a streamlined, repeatable workflow with Pandiums Integration Platform. With Pandium, B2B SaaS companies can meet customer demands, reduce technical debt, and stay ahead in an increasingly connected world.
-  api_count: 2
-  score_band: strong
-  score_composite: 62.0
-  shared: 1
 - slug: agave
   name: Agave
   description: Agave is a unified API platform for the construction industry, enabling software companies and contractors to read and write data across 100+ construction and accounting software systems including Procore, Autodesk Build, QuickBooks, Sage, Viewpoint, and more.
-  api_count: 11
+  api_count: 18
   score_band: strong
-  score_composite: 60.5
+  score_composite: 61.1
   shared: 1
 - slug: zapier
   name: Zapier
@@ -84,6 +91,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 60.4
+  shared: 1
+- slug: integration-app
+  name: Integration.app (Membrane)
+  description: Integration.app, now operating as Membrane (getmembrane.com), is an agentic integration infrastructure platform that lets AI agents, products, and internal tools connect with 100,000+ applications through a unified interface. It exposes integrations via API, CLI, SDK, MCP servers, and embedded UI,…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.2
   shared: 1
 - slug: viam
   name: Viam
@@ -97,14 +111,7 @@ providers:
   description: 3-shake, Inc. (株式会社スリーシェイク) is a Tokyo-based cloud and reliability engineering company, founded in 2015, that operates four product lines. Sreake is its SRE / platform-engineering consulting and managed-operations practice for AWS, Google Cloud and Kubernetes. Reckoner is a no-code ETL and data-int…
   api_count: 1
   score_band: strong
-  score_composite: 56.7
-  shared: 1
-- slug: paragon
-  name: Paragon
-  description: Paragon is the Integration Infrastructure Platform for B2B SaaS and AI products. The platform combines Connect Portal (managed user authentication for 130+ SaaS apps), Workflows (event-driven async orchestration), ActionKit (Universal API + MCP server giving AI agents synchronous CRUD access to Int…
-  api_count: 2
-  score_band: strong
-  score_composite: 55.4
+  score_composite: 56.5
   shared: 1
 - slug: cobalt
   name: Cobalt
@@ -120,19 +127,12 @@ providers:
   score_band: developing
   score_composite: 52.8
   shared: 1
-- slug: civil-infrastructure-platform
-  name: Civil Infrastructure Platform
-  description: The Civil Infrastructure Platform (CIP) is a Linux Foundation collaborative project that builds an industrial-grade open source base layer for civil infrastructure systems such as transportation, power generation and distribution, building and city management, industrial control, and healthcare equ…
-  api_count: 6
-  score_band: developing
-  score_composite: 52.4
-  shared: 1
 - slug: 1nce
   name: 1NCE
   description: 1NCE is a Cologne-headquartered global IoT connectivity provider best known for the IoT Lifetime Flat — a single one-time fee that bundles a multi-network SIM with 500 MB of data and 250 SMS over a 10-year subscription. The 1NCE Management API on api.1nce.com/management-api exposes the same surface…
   api_count: 8
   score_band: developing
-  score_composite: 52.2
+  score_composite: 52.4
   shared: 1
 - slug: cyclr
   name: Cyclr
@@ -155,12 +155,26 @@ providers:
   score_band: developing
   score_composite: 51.1
   shared: 1
+- slug: elisa
+  name: ELISA
+  description: ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups span automotive, aerospace, medical devices, railways, space-…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.8
+  shared: 1
 - slug: hull
   name: Hull
   description: Hull is a real-time Customer Data Platform (CDP) that unifies customer data from every source — web, product, CRM, marketing and support tools, databases and files — into a single User and Account profile using claim-based identity resolution. It ingests, computes and enriches data through a data-l…
   api_count: 1
   score_band: developing
   score_composite: 50.1
+  shared: 1
+- slug: civil-infrastructure-platform
+  name: Civil Infrastructure Platform
+  description: The Civil Infrastructure Platform (CIP) is a Linux Foundation collaborative project that builds an industrial-grade open source base layer for civil infrastructure systems such as transportation, power generation and distribution, building and city management, industrial control, and healthcare equ…
+  api_count: 3
+  score_band: developing
+  score_composite: 49.9
   shared: 1
 - slug: albato
   name: Albato
@@ -169,12 +183,12 @@ providers:
   score_band: developing
   score_composite: 49.7
   shared: 1
-- slug: elisa
-  name: ELISA
-  description: ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups span automotive, aerospace, medical devices, railways, space-…
-  api_count: 1
+- slug: aws-step-functions
+  name: AWS Step Functions
+  description: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error handling and retries.
+  api_count: 2
   score_band: developing
-  score_composite: 49.1
+  score_composite: 49.2
   shared: 1
 - slug: oracle-integration
   name: Oracle Integration
@@ -183,40 +197,26 @@ providers:
   score_band: developing
   score_composite: 48.8
   shared: 1
-- slug: aws-step-functions
-  name: AWS Step Functions
-  description: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error handling and retries.
-  api_count: 1
-  score_band: developing
-  score_composite: 48.4
-  shared: 1
 - slug: flume-health
   name: Flume Health
   description: Flume Health is a New York based healthcare data platform for the payer ecosystem. Its Relay product is an integration platform (iPaaS) that maps eligibility, claims, and other health plan data between source and destination Endpoints — SFTP, cloud storage, databases, Snowflake, and APIs — through…
   api_count: 2
   score_band: developing
-  score_composite: 48.3
-  shared: 1
-- slug: microsoft-azure-logic-apps
-  name: Azure Logic Apps
-  description: Azure Logic Apps is a cloud platform for creating and running automated workflows that integrate apps, data, services, and systems. It provides a visual designer and over 400 connectors to build event-driven, scheduled, and on-demand integrations.
-  api_count: 2
-  score_band: developing
-  score_composite: 47.9
-  shared: 1
-- slug: rewst
-  name: Rewst
-  description: Rewst is a workflow automation and integration (iPaaS/RPA) platform built specifically for managed service providers (MSPs). It combines a visual workflow builder, a form builder, an app builder, 90+ managed MSP integrations (PSA, RMM, Microsoft 365, security tools), reusable automation packages ca…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.5
+  score_composite: 48.2
   shared: 1
 - slug: golioth
   name: Golioth
   description: Golioth is an IoT device management cloud and firmware SDK for connected hardware. The platform pairs an open-source Firmware SDK (Zephyr RTOS, nRF Connect SDK, ESP-IDF, ModusToolbox, Linux) with a REST Management API at api.golioth.io, a web console, and services for OTA firmware updates, device s…
   api_count: 1
   score_band: developing
-  score_composite: 47.0
+  score_composite: 47.9
+  shared: 1
+- slug: azure-logic-apps
+  name: Azure Logic Apps
+  description: Azure Logic Apps is a cloud-based integration platform that enables you to create and run automated workflows integrating apps, data, services, and systems across cloud and on-premises environments.
+  api_count: 1
+  score_band: developing
+  score_composite: 47.8
   shared: 1
 provider_slugs:
 - workato
@@ -224,53 +224,53 @@ provider_slugs:
 - tray-ai
 - losant
 - jitterbit
+- integration-os
 - vessel
+- pandium
 - particle
 - prismatic
-- pandium
 - agave
 - zapier
+- integration-app
 - viam
 - 3shake
-- paragon
 - cobalt
 - whereby
-- civil-infrastructure-platform
 - 1nce
 - cyclr
 - appmixer
 - syncari
-- hull
-- albato
 - elisa
-- oracle-integration
+- hull
+- civil-infrastructure-platform
+- albato
 - aws-step-functions
+- oracle-integration
 - flume-health
-- microsoft-azure-logic-apps
-- rewst
 - golioth
+- azure-logic-apps
+- rewst
 - snaplogic
 - stackone
+- integrately
 - sap-integration-suite
 - make
+- skyvia
 - elastic-io
 - runautomat
 - modusbox
 - kombo
-- integration-app
-- morf
 - renesas
+- morf
 - memfault
-- skyvia
 - cesanta
 - reachware-inc
 - jetic
 - useparagon
-- screenleap-inc
+- celigo
 - zephyr
 - hotglue
 - automat
-- azure-logic-apps
 - sandbox-banking
 - software-ag
 - terapi
@@ -279,13 +279,11 @@ provider_slugs:
 - apache-derby
 - apifuse
 - blynk
-- celigo
 - integry
 - ble
 - ifttt
 - axiado-corporation
 - duckdb
-- integrately
 - unifyapps
 - cleverpet
 - lonti
@@ -293,13 +291,11 @@ provider_slugs:
 - neros
 - locoia
 - qt
-- integration-os
 - sensel
 - silabs
 - ambiq-micro
 - ibm-app-connect
 - uhnder
-- alif
 - oneio
 - locale
 - exein
@@ -314,25 +310,22 @@ provider_slugs:
 - fluentai
 - cloud-elements
 - cypress
-- cloudpipes
 - energy-micro
+- cloudpipes
 - freescale-semiconductor
 - fusebit
 related:
 - slug: ipaas
   name: iPaaS
-  shared: 17
-- slug: ai-automation
-  name: AI Automation
-  shared: 3
+  shared: 15
 - slug: orchestration
   name: Orchestration
   shared: 3
+- slug: ai-automation
+  name: AI Automation
+  shared: 2
 - slug: workflow-automation
   name: Workflow Automation
-  shared: 3
-- slug: internet-of-things
-  name: Internet of Things
   shared: 2
 - slug: industrial
   name: Industrial
@@ -340,8 +333,8 @@ related:
 overview: 'Embedded iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [embedded-ipaas.apievangelist.com](https://embedded-ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Workato, Alloy Automation, Tray.ai, Losant, Jitterbit, Vessel, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Workato, Alloy Automation, Tray.ai, Losant, Jitterbit, IntegrationOS, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: iPaaS, AI Automation, Orchestration, and Workflow Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: iPaaS, Orchestration, AI Automation, and Workflow Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

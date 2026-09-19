@@ -34,7 +34,7 @@ providers:
   description: AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. AWS DMS can migrate your data to and from the most widely used commerc…
   api_count: 2
   score_band: developing
-  score_composite: 48.1
+  score_composite: 49.1
   shared: 1
 - slug: kubevirt
   name: KubeVirt

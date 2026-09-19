@@ -6,7 +6,7 @@ description: An index and topic collection covering customer support, help desk,
 area_url: https://support.apievangelist.com
 area_host: support.apievangelist.com
 icon: https://support.apievangelist.com/icon-thumb.png
-provider_count: 12
+provider_count: 11
 providers:
 - slug: service-cloud
   name: Salesforce Service Cloud APIs
@@ -20,7 +20,7 @@ providers:
   description: Zendesk provides customer service and engagement software that helps businesses manage support tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and phonethrough a unified platform.
   api_count: 76
   score_band: strong
-  score_composite: 61.1
+  score_composite: 61.2
   shared: 1
 - slug: plain
   name: Plain
@@ -28,13 +28,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.8
-  shared: 1
-- slug: salesforce-service-cloud
-  name: Salesforce Service Cloud
-  description: Salesforce Service Cloud is a customer service and support platform that helps businesses deliver smarter, faster, and more personalized customer service across all channels.
-  api_count: 2
-  score_band: developing
-  score_composite: 49.4
   shared: 1
 - slug: salesforce-knowledge-management
   name: Salesforce Knowledge Management
@@ -96,7 +89,6 @@ provider_slugs:
 - service-cloud
 - zendesk
 - plain
-- salesforce-service-cloud
 - salesforce-knowledge-management
 - inkeep
 - papercups
@@ -115,7 +107,7 @@ related:
 overview: 'Support is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [support.apievangelist.com](https://support.apievangelist.com).
 
 
-  12 providers on the network work in this area, including Salesforce Service Cloud APIs, Zendesk, Plain, Salesforce Service Cloud, Salesforce Knowledge Management, Inkeep, and 6 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  11 providers on the network work in this area, including Salesforce Service Cloud APIs, Zendesk, Plain, Salesforce Knowledge Management, Inkeep, Papercups, and 5 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Portal and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

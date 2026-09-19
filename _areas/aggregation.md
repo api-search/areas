@@ -20,14 +20,14 @@ providers:
   description: The MX Platform API is a powerful, fully-featured API designed to make aggregating and enhancing financial data easy and reliable. It can seamlessly connect your app or website to tens of thousands of financial institutions.
   api_count: 1
   score_band: developing
-  score_composite: 42.5
+  score_composite: 43.1
   shared: 1
 - slug: tietoevry
   name: TietoEVRY
   description: TietoEVRY (Tietoevry Corporation, listed as TIETO on Nasdaq Helsinki and Stockholm, rebranded to "Tieto" in 2026) is a Nordic software and technology company of roughly 14,000 people operating in 20+ countries, serving banking, healthcare, public sector and industry. Its public API surface is publi…
-  api_count: 24
+  api_count: 48
   score_band: developing
-  score_composite: 41.9
+  score_composite: 41.8
   shared: 1
 - slug: google-news
   name: Google News RSS

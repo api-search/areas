@@ -6,14 +6,14 @@ description: An index and topic collection covering application deployment platf
 area_url: https://deployment.apievangelist.com
 area_host: deployment.apievangelist.com
 icon: https://deployment.apievangelist.com/icon-thumb.png
-provider_count: 68
+provider_count: 66
 providers:
 - slug: koyeb
   name: Koyeb
   description: Koyeb is a developer-friendly serverless platform for deploying applications, Postgres databases, GPU workloads and isolated code-execution sandboxes across a global edge network. The Koyeb REST API is a Swagger 2.0 contract generated from protobuf services by grpc-gateway — 126 paths, 177 operatio…
   api_count: 1
   score_band: strong
-  score_composite: 64.2
+  score_composite: 64.3
   shared: 1
 - slug: databricks-asset-bundles
   name: Databricks Asset Bundles
@@ -34,7 +34,7 @@ providers:
   description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11), the self-managed/PaaS platform, and OutSystems Developer Clo…
   api_count: 13
   score_band: strong
-  score_composite: 59.5
+  score_composite: 60.6
   shared: 1
 - slug: amazon-elastic-beanstalk
   name: Amazon Elastic Beanstalk
@@ -55,7 +55,7 @@ providers:
   description: Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into their customers' own AWS, Azure, or GCP accounts while keeping a…
   api_count: 2
   score_band: strong
-  score_composite: 55.4
+  score_composite: 55.5
   shared: 1
 - slug: amazon-codedeploy
   name: Amazon CodeDeploy
@@ -69,19 +69,19 @@ providers:
   description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster of applications and managed services (PostgreSQL, MySQL, Redi…
   api_count: 3
   score_band: developing
-  score_composite: 52.8
-  shared: 1
-- slug: aptible
-  name: Aptible
-  description: Aptible is a Platform as a Service (PaaS) built for teams that have to prove security and compliance, not just ship. It deploys web apps, managed databases (PostgreSQL, MySQL, Redis, Elasticsearch, InfluxDB, RabbitMQ, SFTP) and AI workloads onto isolated, dedicated AWS infrastructure with encryptio…
-  api_count: 3
-  score_band: developing
-  score_composite: 51.8
+  score_composite: 52.9
   shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
   api_count: 1
+  score_band: developing
+  score_composite: 51.2
+  shared: 1
+- slug: aptible
+  name: Aptible
+  description: Aptible is a Platform as a Service (PaaS) built for teams that have to prove security and compliance, not just ship. It deploys web apps, managed databases (PostgreSQL, MySQL, Redis, Elasticsearch, InfluxDB, RabbitMQ, SFTP) and AI workloads onto isolated, dedicated AWS infrastructure with encryptio…
+  api_count: 3
   score_band: developing
   score_composite: 51.2
   shared: 1
@@ -91,6 +91,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.2
+  shared: 1
+- slug: microsoft-azure-pipelines
+  name: Azure Pipelines
+  description: Azure Pipelines is a cloud service that you can use to automatically build and test your code project and make it available to other users. It works with just about any language or project type.
+  api_count: 2
+  score_band: developing
+  score_composite: 51.0
   shared: 1
 - slug: upsun
   name: Upsun
@@ -106,31 +113,31 @@ providers:
   score_band: developing
   score_composite: 50.4
   shared: 1
-- slug: microsoft-azure-pipelines
-  name: Azure Pipelines
-  description: Azure Pipelines is a cloud service that you can use to automatically build and test your code project and make it available to other users. It works with just about any language or project type.
-  api_count: 2
+- slug: render
+  name: Render
+  description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, PostgreSQL databases, Redis/Key-Value stores, and persistent disks.…
+  api_count: 1
   score_band: developing
-  score_composite: 50.2
+  score_composite: 50.4
   shared: 1
 - slug: dokploy
   name: Dokploy
   description: Dokploy is an open-source, self-hostable Platform-as-a-Service (PaaS) — an alternative to Heroku, Vercel, and Netlify — that deploys applications, Docker Compose stacks, and managed databases across one or many servers using Docker and Docker Swarm, with Traefik handling routing and TLS.
   api_count: 1
   score_band: developing
-  score_composite: 48.9
-  shared: 1
-- slug: render
-  name: Render
-  description: Render is a cloud platform for building and running applications and websites with automatic Git-based deployments. It provides managed infrastructure for web services, static sites, background workers, cron jobs, private services, PostgreSQL databases, Redis/Key-Value stores, and persistent disks.…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.6
+  score_composite: 49.9
   shared: 1
 - slug: amazon-app-runner
   name: Amazon App Runner
   description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
   api_count: 3
+  score_band: developing
+  score_composite: 49.5
+  shared: 1
+- slug: semaphore
+  name: Semaphore
+  description: Semaphore is a cloud-based CI/CD platform designed for high-performance engineering teams, providing fast and reliable continuous integration and continuous delivery pipelines. The platform offers a comprehensive REST API that enables programmatic management of pipelines, workflows, jobs, secrets,…
+  api_count: 1
   score_band: developing
   score_composite: 48.5
   shared: 1
@@ -155,13 +162,6 @@ providers:
   score_band: developing
   score_composite: 47.8
   shared: 1
-- slug: semaphore
-  name: Semaphore
-  description: Semaphore is a cloud-based CI/CD platform designed for high-performance engineering teams, providing fast and reliable continuous integration and continuous delivery pipelines. The platform offers a comprehensive REST API that enables programmatic management of pipelines, workflows, jobs, secrets,…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.5
-  shared: 1
 - slug: alpic
   name: Alpic
   description: Alpic is the MCP-native cloud platform for building, deploying, monitoring, and distributing Model Context Protocol (MCP) servers and ChatGPT Apps. Its stack spans the open-source Skybridge TypeScript framework, the `alpic` CLI, Alpic Cloud (one-click deploy, multi-environment support, runtime and…
@@ -183,20 +183,6 @@ providers:
   score_band: developing
   score_composite: 44.5
   shared: 1
-- slug: bentoml
-  name: BentoML
-  description: BentoML is an open-source unified inference platform for building, packaging, and deploying machine learning models as scalable REST API services. Developers define services using Python class decorators that automatically expose model inference logic as HTTP endpoints. BentoCloud, the managed clou…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.2
-  shared: 1
-- slug: terminal-use
-  name: Terminal Use
-  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.0
-  shared: 1
 - slug: vellum
   name: Vellum AI
   description: Vellum AI is an LLM development platform that helps product and engineering teams build, evaluate, deploy, and monitor LLM-powered applications. The platform centers on prompt engineering, a visual Workflows builder for agentic and multi-step pipelines, evaluation suites with dataset management, re…
@@ -204,9 +190,9 @@ providers:
   score_band: developing
   score_composite: 43.4
   shared: 1
-- slug: pulumi
-  name: Pulumi
-  description: Pulumi is a modern infrastructure as code platform that allows you to use familiar programming languages to build, deploy, and manage cloud infrastructure. The Pulumi Cloud REST API enables programmatic access to manage organizations, stacks, deployments, environments, policy packs, webhooks, and o…
+- slug: bentoml
+  name: BentoML
+  description: BentoML is an open-source unified inference platform for building, packaging, and deploying machine learning models as scalable REST API services. Developers define services using Python class decorators that automatically expose model inference logic as HTTP endpoints. BentoCloud, the managed clou…
   api_count: 1
   score_band: developing
   score_composite: 42.8
@@ -218,6 +204,20 @@ providers:
   score_band: developing
   score_composite: 42.7
   shared: 1
+- slug: terminal-use
+  name: Terminal Use
+  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.7
+  shared: 1
+- slug: dreamfactory
+  name: DreamFactory
+  description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
+  api_count: 16
+  score_band: developing
+  score_composite: 41.8
+  shared: 1
 provider_slugs:
 - koyeb
 - databricks-asset-bundles
@@ -228,29 +228,29 @@ provider_slugs:
 - nuon
 - amazon-codedeploy
 - platform.sh
-- aptible
 - aws-app-runner
+- aptible
 - release
+- microsoft-azure-pipelines
 - upsun
 - kubernetes
-- microsoft-azure-pipelines
-- dokploy
 - render
+- dokploy
 - amazon-app-runner
+- semaphore
 - agentuity
 - codesphere
 - amazon-launch-wizard
-- semaphore
 - alpic
 - coolify
 - google-cloud-deploy
-- bentoml
-- terminal-use
 - vellum
-- pulumi
+- bentoml
 - scalable-inference-serving
+- terminal-use
 - dreamfactory
 - teamcity
+- pulumi
 - deno
 - stack-machine
 - railway-app
@@ -266,10 +266,9 @@ provider_slugs:
 - zeabur
 - shorebird
 - serverless
+- mendix
 - openkruise
 - codenow
-- mendix
-- railway
 - tensor9
 - prodly
 - pantheon
@@ -282,7 +281,6 @@ provider_slugs:
 - dokku
 - kitura
 - operation-support-equipment
-- armoryio
 - devfast
 - distelli
 - divshot
@@ -290,12 +288,12 @@ provider_slugs:
 related:
 - slug: containers
   name: Containers
-  shared: 5
-- slug: monitoring
-  name: Monitoring
-  shared: 2
+  shared: 6
 - slug: cli
   name: Command Line Interface
+  shared: 1
+- slug: documentation
+  name: Documentation
   shared: 1
 - slug: machine-learning
   name: Machine Learning
@@ -303,8 +301,8 @@ related:
 - slug: microservices
   name: Microservices
   shared: 1
-- slug: observability
-  name: Observability
+- slug: monitoring
+  name: Monitoring
   shared: 1
 overview: 'Deployment is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deployment.apievangelist.com](https://deployment.apievangelist.com).
 
@@ -312,5 +310,5 @@ overview: 'Deployment is one of the API Evangelist areas on the [APIs.io](https:
   30 providers on the network work in this area, including Koyeb, Databricks Asset Bundles, Raygun, OutSystems, Amazon Elastic Beanstalk, Laravel, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, Monitoring, Command Line Interface, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, Command Line Interface, Documentation, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

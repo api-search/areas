@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 111
+provider_count: 110
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -27,7 +27,7 @@ providers:
   description: Common Room is an AI-native go-to-market and buyer-intelligence platform that unifies first-party product, community, social, web and CRM signals into a single identity-resolved view of contacts and organizations. It exposes a v1 Core REST API for ingesting contacts and activity from your own sourc…
   api_count: 3
   score_band: strong
-  score_composite: 64.2
+  score_composite: 65.0
   shared: 1
 - slug: ploy
   name: Ploy
@@ -50,19 +50,19 @@ providers:
   score_band: developing
   score_composite: 50.2
   shared: 1
+- slug: tesslio
+  name: tessl.io
+  description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing, and publishing skills and plugins, server-side quality revi…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.2
+  shared: 1
 - slug: continue-dev
   name: Continue
   description: Continue is the open-source AI code assistant for VS Code and JetBrains, distributed under Apache 2.0. The Continue IDE extensions and the Continue CLI federate to any LLM provider — Anthropic, OpenAI, Mistral, OpenRouter, Ollama, and a Continue-managed proxy — and load their configuration from Con…
   api_count: 1
   score_band: developing
   score_composite: 50.0
-  shared: 1
-- slug: tesslio
-  name: tessl.io
-  description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing, and publishing skills and plugins, server-side quality revi…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.5
   shared: 1
 - slug: mammoth-media
   name: Mammoth Media
@@ -99,13 +99,6 @@ providers:
   score_band: developing
   score_composite: 44.3
   shared: 1
-- slug: terminal-use
-  name: Terminal Use
-  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.0
-  shared: 1
 - slug: sideko
   name: Sideko
   description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
@@ -116,6 +109,13 @@ providers:
 - slug: jetify
   name: Jetify
   description: Jetify builds developer tooling for reproducible environments and package management, backed by the Nix ecosystem. Its open-source Devbox CLI creates instant, isolated, predictable development shells; Jetify Cloud adds team secrets management, a private Nix package cache, and deployments; Nixhub in…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.7
+  shared: 1
+- slug: terminal-use
+  name: Terminal Use
+  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
   api_count: 1
   score_band: developing
   score_composite: 42.7
@@ -140,13 +140,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 38.8
-  shared: 1
-- slug: nx
-  name: Nx
-  description: Nx is an open-source, technology-agnostic monorepo build platform from Nrwl (backed by a16z) that speeds up builds and CI through computation caching, task orchestration, and running only the projects affected by a change. Its developer surface spans a local CLI (nx) with a large family of first-pa…
-  api_count: 0
-  score_band: thin
-  score_composite: 38.7
   shared: 1
 - slug: carvel
   name: Carvel
@@ -218,6 +211,13 @@ providers:
   score_band: thin
   score_composite: 34.5
   shared: 1
+- slug: httpie
+  name: HTTPie
+  description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submission…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.8
+  shared: 1
 provider_slugs:
 - aws-cli
 - svix
@@ -225,20 +225,19 @@ provider_slugs:
 - ploy
 - qfex
 - plandex
-- continue-dev
 - tesslio
+- continue-dev
 - mammoth-media
 - vlt
 - apitoolkit
 - stakpak
 - landbase
-- terminal-use
 - sideko
 - jetify
+- terminal-use
 - virtualitics
 - cosign
 - insomnia
-- nx
 - carvel
 - kiota
 - qumulo
@@ -258,13 +257,13 @@ provider_slugs:
 - tabtabtab
 - cycode
 - machine0
-- tessl
 - bit
 - entire
 - onfabric
 - guildai
 - tensor9
 - ranger
+- qname
 - aider
 - coral
 - prodly
@@ -273,10 +272,10 @@ provider_slugs:
 - thunder-client
 - nanovms
 - cluely
+- azure-cli
 - nitric
 - bruno-api
 - tolmo
-- azure-cli
 - specific
 - webstudio
 - openapi-typescript-codegen
@@ -327,27 +326,27 @@ provider_slugs:
 - dokku
 - memverge
 - stage
-- quantive-fka-gtmhub
+- qname-ai-whois-api
 - rome-tools
 - stamplay
 related:
 - slug: api-clients
   name: API Clients
   shared: 2
-- slug: plans
-  name: Plans
-  shared: 1
 - slug: clients
   name: Clients
+  shared: 2
+- slug: plans
+  name: Plans
   shared: 1
 - slug: reliability
   name: Reliability
   shared: 1
-- slug: caching
-  name: Caching
-  shared: 1
 - slug: agents-skills
   name: Agent Skills
+  shared: 1
+- slug: deployment
+  name: Deployment
   shared: 1
 overview: 'Command Line Interface is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [cli.apievangelist.com](https://cli.apievangelist.com).
 
@@ -355,5 +354,5 @@ overview: 'Command Line Interface is one of the API Evangelist areas on the [API
   30 providers on the network work in this area, including AWS CLI, Svix, Common Room, Ploy, Qfex, Plandex, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Clients, Plans, Clients, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Clients, Clients, Plans, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

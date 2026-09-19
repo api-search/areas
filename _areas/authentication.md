@@ -6,42 +6,49 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 379
+provider_count: 384
 providers:
+- slug: kinde
+  name: Kinde
+  description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 86.1
+  shared: 1
 - slug: convertkit
   name: Kit
   description: Kit (formerly ConvertKit) is a creator email marketing platform whose REST API v4 covers subscribers, tags, custom fields, forms and landing pages, sequences, broadcasts, snippets, posts, purchases, segments and webhooks across 72 operations on https://api.kit.com/v4. It authenticates with an X-Kit…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 82.8
-  shared: 1
-- slug: cvent-registration
-  name: Cvent Registration
-  description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
   api_count: 2
   score_band: exemplar
-  score_composite: 82.0
+  score_composite: 84.1
   shared: 1
 - slug: drchrono
   name: drchrono
   description: drchrono, part of EverCommerce's EverHealth portfolio, is an all-in-one EHR, practice management and medical billing platform for independent US medical practices. It publishes two distinct machine-readable API surfaces. The proprietary REST v4 API (codename Hunt Valley) is an OAuth 2.0-secured con…
   api_count: 2
   score_band: exemplar
-  score_composite: 80.9
+  score_composite: 81.8
+  shared: 1
+- slug: appwrite
+  name: Appwrite
+  description: Appwrite is an open-source backend platform for web, mobile and AI applications, shipped both as a self-hostable BSD-3-Clause server and as the managed Appwrite Cloud. One REST API — 1,022 operations across 44 services in the published Appwrite 2.0 OpenAPI, mirrored field-for-field in GraphQL — cov…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 80.1
   shared: 1
 - slug: azure-ad
   name: Microsoft Entra ID (formerly Azure AD)
   description: Microsoft's cloud-based identity and access management service that helps employees sign in and access resources. Azure AD provides OAuth, OpenID Connect, SAML, and other identity protocols for securing applications and managing user identities.
   api_count: 9
   score_band: exemplar
-  score_composite: 77.9
+  score_composite: 79.7
   shared: 1
-- slug: zoho-crm
-  name: Zoho CRM
-  description: Zoho CRM is Zoho Corporation's AI-powered sales and customer relationship management platform, used to manage leads, contacts, accounts, deals, activities and customer engagement across channels. Its REST API is currently at v8 and is published as first-party OpenAPI 3.1.0 — 105 specification files…
-  api_count: 105
+- slug: cvent-registration
+  name: Cvent Registration
+  description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
+  api_count: 2
   score_band: exemplar
-  score_composite: 75.8
+  score_composite: 79.5
   shared: 1
 - slug: arcade
   name: Arcade
@@ -50,12 +57,12 @@ providers:
   score_band: exemplar
   score_composite: 75.7
   shared: 1
-- slug: cvent
-  name: Cvent
-  description: Cvent is a leading meetings, events, and hospitality technology provider with over 4,800 employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration, mobile event apps, virtual and hybrid events, Attendee Hub, surveys, Diagramming, and analytics)…
-  api_count: 2
+- slug: zoho-crm
+  name: Zoho CRM
+  description: Zoho CRM is Zoho Corporation's AI-powered sales and customer relationship management platform, used to manage leads, contacts, accounts, deals, activities and customer engagement across channels. Its REST API is currently at v8 and is published as first-party OpenAPI 3.1.0 — 105 specification files…
+  api_count: 105
   score_band: exemplar
-  score_composite: 75.2
+  score_composite: 75.7
   shared: 1
 - slug: kraken
   name: Kraken
@@ -64,12 +71,19 @@ providers:
   score_band: exemplar
   score_composite: 74.5
   shared: 1
-- slug: aweber
-  name: AWeber
-  description: AWeber is an email marketing and automation platform for small businesses, creators, and entrepreneurs providing email broadcasts, drip campaigns, landing pages, sign-up forms, and subscriber management. The AWeber REST API at api.aweber.com offers full programmatic access to lists, subscribers, br…
-  api_count: 4
+- slug: cvent
+  name: Cvent
+  description: Cvent is a leading meetings, events, and hospitality technology provider with over 4,800 employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration, mobile event apps, virtual and hybrid events, Attendee Hub, surveys, Diagramming, and analytics)…
+  api_count: 2
   score_band: exemplar
-  score_composite: 73.1
+  score_composite: 74.3
+  shared: 1
+- slug: twilio
+  name: Twilio
+  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
+  api_count: 40
+  score_band: exemplar
+  score_composite: 73.5
   shared: 1
 - slug: ios
   name: iOS
@@ -78,33 +92,40 @@ providers:
   score_band: exemplar
   score_composite: 73.1
   shared: 1
-- slug: twilio
-  name: Twilio
-  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
-  api_count: 40
+- slug: aweber
+  name: AWeber
+  description: AWeber is an email marketing and automation platform for small businesses, creators, and entrepreneurs providing email broadcasts, drip campaigns, landing pages, sign-up forms, and subscriber management. The AWeber REST API at api.aweber.com offers full programmatic access to lists, subscribers, br…
+  api_count: 4
   score_band: exemplar
-  score_composite: 72.9
-  shared: 1
-- slug: kinde
-  name: Kinde
-  description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 72.8
+  score_composite: 72.4
   shared: 1
 - slug: aembit
   name: Aembit
   description: Aembit is a Workload Identity and Access Management (Workload IAM) platform for non-human identities — AI agents, applications, microservices, CI/CD pipelines, scripts and service accounts. Instead of long-lived, hard-coded secrets, Aembit cryptographically attests a workload against a Trust Provid…
   api_count: 2
   score_band: exemplar
-  score_composite: 71.5
+  score_composite: 71.8
+  shared: 1
+- slug: jefferson-health
+  name: Jefferson Health
+  description: Jefferson Health is a multi-state nonprofit academic health system based in Philadelphia, Pennsylvania, operating more than 30 hospitals and over 700 care sites across eastern Pennsylvania and southern New Jersey as the clinical arm of the broader Jefferson enterprise that also includes Thomas Jeff…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 70.4
+  shared: 1
+- slug: authentik
+  name: Authentik
+  description: Authentik is an open source identity provider from Authentik Security Inc., a public benefit company, exposing a 1,193-operation REST API at /api/v3 on every self-hosted instance. The published OpenAPI covers users, groups, applications, tokens, RBAC, flows, stages, policies, property mappings, out…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 70.1
   shared: 1
 - slug: commerce-layer
   name: Commerce Layer
   description: Commerce Layer is the headless, multi-market commerce API used by global brands to sell everywhere — web, mobile, in-store, chatbot, AI agent, and IoT. The company exposes a JSON:API-compliant Core API with 130+ top-level resources covering orders, line items, SKUs, bundles, prices, markets, stores…
   api_count: 3
   score_band: exemplar
-  score_composite: 70.8
+  score_composite: 69.9
   shared: 1
 - slug: cvent-event-cloud
   name: Cvent Event Cloud
@@ -113,75 +134,40 @@ providers:
   score_band: exemplar
   score_composite: 69.9
   shared: 1
-- slug: jefferson-health
-  name: Jefferson Health
-  description: Jefferson Health is a multi-state nonprofit academic health system based in Philadelphia, Pennsylvania, operating more than 30 hospitals and over 700 care sites across eastern Pennsylvania and southern New Jersey as the clinical arm of the broader Jefferson enterprise that also includes Thomas Jeff…
-  api_count: 2
+- slug: tvarka
+  name: Tvarka ATK API
+  description: A single REST API estate for Lithuanian eID authentication and qualified electronic signing (QES). The ATK API reads the Lithuanian identity card itself - physical smart-card reader or NFC phone tap - through one request, polling, webhook and metering model, and adds standalone validation, timestam…
+  api_count: 4
   score_band: exemplar
-  score_composite: 69.8
-  shared: 1
-- slug: authentik
-  name: Authentik
-  description: Authentik is an open source identity provider from Authentik Security Inc., a public benefit company, exposing a 1,193-operation REST API at /api/v3 on every self-hosted instance. The published OpenAPI covers users, groups, applications, tokens, RBAC, flows, stages, policies, property mappings, out…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 69.1
+  score_composite: 68.7
   shared: 1
 - slug: immutable
   name: Immutable
   description: 'Immutable is a games growth and blockchain infrastructure company whose platform spans two connected halves: Immutable Audience, a games-focused CDP, attribution and player-activation stack (ingestion, analytics, engage, conversion funnel, ad-network postbacks), and Immutable Chain, a gaming-optimi…'
   api_count: 2
   score_band: exemplar
-  score_composite: 69.1
-  shared: 1
-- slug: tvarka
-  name: Tvarka ATK API
-  description: A single REST API estate for Lithuanian eID authentication and qualified electronic signing (QES). The ATK API reads the Lithuanian identity card itself - physical smart-card reader or NFC phone tap - through one request, polling, webhook and metering model, and adds standalone validation, timestam…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 68.9
+  score_composite: 68.4
   shared: 1
 - slug: frontegg
   name: Frontegg
   description: Frontegg is a customer identity and access management (CIAM) platform for B2B SaaS. It provides self-serve authentication, multi-tenancy, role-based access control, single sign-on, SCIM provisioning, entitlements, and an admin portal that ships with the product. Frontegg publishes OpenAPI specifica…
   api_count: 10
   score_band: exemplar
-  score_composite: 67.5
+  score_composite: 67.3
   shared: 1
 - slug: hustle
   name: Hustle
   description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and a…
   api_count: 1
-  score_band: strong
-  score_composite: 66.2
+  score_band: exemplar
+  score_composite: 66.8
   shared: 1
 - slug: clerk-com
   name: Clerk
   description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
-  api_count: 3
-  score_band: strong
-  score_composite: 65.8
-  shared: 1
-- slug: strivacity
-  name: Strivacity
-  description: Strivacity is a customer identity and access management (CIAM) vendor that runs a single-tenant, dedicated-cloud identity platform for consumer, partner, B2B and — since its Agentic AI release — AI-agent identities. The product covers registration and self-service, adaptive multi-factor authenticat…
-  api_count: 6
-  score_band: strong
-  score_composite: 65.7
-  shared: 1
-- slug: lever-co
-  name: Lever
-  description: 'Lever is an applicant tracking system (ATS) and candidate relationship management (CRM) platform for recruiting teams, now owned by Employ Inc. alongside Jobvite, JazzHR and NXTThing RPO. Lever exposes two distinct public surfaces: the authenticated Lever Data API at https://api.lever.co/v1 — a RES…'
-  api_count: 2
-  score_band: strong
-  score_composite: 65.6
-  shared: 1
-- slug: infusionsoft
-  name: Infusionsoft (Keap)
-  description: Infusionsoft, now branded as Keap and owned by Thryv Holdings, is a sales and marketing automation CRM built for small businesses that combines contact management, tagging, email marketing, campaign and automation sequences, e-commerce orders and subscriptions, sales pipelines, appointments and inv…
-  api_count: 9
-  score_band: strong
-  score_composite: 65.2
+  api_count: 7
+  score_band: exemplar
+  score_composite: 66.7
   shared: 1
 - slug: barndoor
   name: Barndoor
@@ -190,26 +176,40 @@ providers:
   score_band: strong
   score_composite: 65.1
   shared: 1
-- slug: propelauth
-  name: PropelAuth
-  description: PropelAuth is a B2B SaaS authentication and multi-tenant user management platform purpose-built for organizations that sell to other organizations. It provides hosted login UIs, first-class organizations / tenants with custom roles and permissions, enterprise SSO via SAML and OIDC, SCIM directory s…
-  api_count: 3
+- slug: infusionsoft
+  name: Infusionsoft (Keap)
+  description: Infusionsoft, now branded as Keap and owned by Thryv Holdings, is a sales and marketing automation CRM built for small businesses that combines contact management, tagging, email marketing, campaign and automation sequences, e-commerce orders and subscriptions, sales pipelines, appointments and inv…
+  api_count: 9
   score_band: strong
-  score_composite: 64.4
+  score_composite: 65.1
+  shared: 1
+- slug: strivacity
+  name: Strivacity
+  description: Strivacity is a customer identity and access management (CIAM) vendor that runs a single-tenant, dedicated-cloud identity platform for consumer, partner, B2B and — since its Agentic AI release — AI-agent identities. The product covers registration and self-service, adaptive multi-factor authenticat…
+  api_count: 12
+  score_band: strong
+  score_composite: 65.1
   shared: 1
 - slug: cvent-hospitality-cloud
   name: Cvent Hospitality Cloud
   description: Cvent Hospitality Cloud is the hotel and venue product line of the Cvent Platform. It includes the Cvent Supplier Network (the marketplace connecting event planners with hotels and venues for RFPs and bookings), Passkey (hotel room block and housing management), Venue Sourcing (venue search and dis…
-  api_count: 1
+  api_count: 17
   score_band: strong
-  score_composite: 64.3
+  score_composite: 64.4
   shared: 1
 - slug: vim
   name: Vim
   description: Vim is a United States healthcare technology company (getvim.com) that operates a clinical workflow and point-of-care integration platform connecting health plans, provider organizations, and digital-health applications to physicians inside their existing electronic health records. Through the Vim…
   api_count: 2
   score_band: strong
-  score_composite: 64.2
+  score_composite: 64.4
+  shared: 1
+- slug: propelauth
+  name: PropelAuth
+  description: PropelAuth is a B2B SaaS authentication and multi-tenant user management platform purpose-built for organizations that sell to other organizations. It provides hosted login UIs, first-class organizations / tenants with custom roles and permissions, enterprise SSO via SAML and OIDC, SCIM directory s…
+  api_count: 3
+  score_band: strong
+  score_composite: 64.1
   shared: 1
 - slug: weave
   name: Weave
@@ -219,96 +219,100 @@ providers:
   score_composite: 64.1
   shared: 1
 provider_slugs:
-- convertkit
-- cvent-registration
-- drchrono
-- azure-ad
-- zoho-crm
-- arcade
-- cvent
-- kraken
-- aweber
-- ios
-- twilio
 - kinde
+- convertkit
+- drchrono
+- appwrite
+- azure-ad
+- cvent-registration
+- arcade
+- zoho-crm
+- kraken
+- cvent
+- twilio
+- ios
+- aweber
 - aembit
-- commerce-layer
-- cvent-event-cloud
 - jefferson-health
 - authentik
-- immutable
+- commerce-layer
+- cvent-event-cloud
 - tvarka
+- immutable
 - frontegg
 - hustle
 - clerk-com
-- strivacity
-- lever-co
-- infusionsoft
 - barndoor
-- propelauth
+- infusionsoft
+- strivacity
 - cvent-hospitality-cloud
 - vim
+- propelauth
 - weave
 - amazon-cognito
 - etsy
-- cisco-xdr
-- beeketing
+- lacuna
 - okta
+- beeketing
+- gluu
+- cisco-xdr
 - datavant
-- taskfolk
 - temple-health
+- playable
 - tibber
 - auth0
-- airtm
+- taskfolk
 - hootsuite
-- playable
+- airtm
 - allegion
 - beyond-identity
 - criteo
 - stytch
-- insforge
 - photon
-- jane-app
-- ironclad
 - rose-rocket
+- insforge
+- ironclad
+- jane-app
 - wahoo
-- microsoft-azure-active-directory
 - amazon-iam
 - composio
-- descope
 - trakt
-- appdirect
+- descope
 - civic
-- cobot
 - lichess
+- cobot
 - uber-eats
 - yubico
-- login-gov
-- doximity
-- unico
 - authenticx
+- doximity
+- login-gov
+- unico
+- appdirect
 - active-directory
-- authelia
-- cabify
-- lawmatics
-- amazon-iam-identity-center
-- workos
-- dynamic
 - typingdna
 - snap
+- authelia
+- cabify
 - microsoft-entra
+- lawmatics
+- amazon-iam-identity-center
+- consolidated-edison
+- workos
 - cyclr
-- trusona
-- spekit
+- trustarc
 - mixmax
 - slashid
-- transmit-security
 - buoy-health
+- transmit-security
+- trusona
 - clear
-- trustarc
+- singlefile
 - idme
+- cerner
 - keyo
+- spekit
 - zitadel
+- ezoic
 - bokio
 - 1kosmos
 - neon
@@ -316,47 +320,48 @@ provider_slugs:
 - cirrus-identity
 - google-cloud-api-gateway
 - forgerock
-- singlefile
-- bluestacks
 - playfab
+- bluestacks
 - signiant
-- cerner
-- flume-health
 - authlete
-- dream-sports
-- ezoic
+- flume-health
+- amazon-directory-service
 - onecli
-- wish
-- tiktok-for-developers
+- dream-sports
+- textmaster
+- carefluence
 - hanko
 - klavis
+- nomos
 - opal
+- tiktok-for-developers
 - clearslide
-- amazon-directory-service
+- wish
 - hopae-inc
 - zoho-people
-- textmaster
 - defakto-security
-- gadjah-mada-university
-- nomos
 - truecaller
 - coinlist
+- fusionauth
 - result
 - jack-henry
 - myfitnesspal
-- ory
 - bitski
+- clio
+- ory
 - easywebinar
 - linqgg
 - climate-fieldview
+- nthu
+- comunicate-top-api
 - nango
 - capital-one
 - charles-schwab
-- clio
 - dust-identity
 - unkey
-- shanghai-jiao-tong-university
+- gadjah-mada-university
 - spire
+- shanghai-jiao-tong-university
 - aol
 - fdx
 - google-firebase
@@ -366,54 +371,52 @@ provider_slugs:
 - google-cloud-endpoints
 - workday-security
 - firebase
-- fusionauth
 - onfido
-- withings
+- splitwise
 - supabase
-- guestready
 - nycu
 - feathery
 - monzo
+- dynamic-labs
 - nhost
-- arccos-golf
+- butterflymx
+- guestready
 - ccp-games
 - nuvemshop-tiendanube
-- splitwise
-- microsoft-active-directory
-- butterflymx
 - mycase
-- dynamic-labs
 - eve-online
 - gojek
 - jupyterhub
 - intacct
 - scalekit
+- withings
 - anilist
-- kinde-so
 - luminary
 - pangea
+- arccos-golf
 - corbado
+- nudge-security
 - agentsync
 - kadence
 - apache-knox
 - kroger
 - yahoo
-- nudge-security
 - burner
 - cakewalk
 - centralreach
 - reqkey
 - ampersand
-- neurable
 - spycloud
 - telefonica
 - altruist
 - autopass
 - grammarly
+- medium
 - cyberark
 - ikas-ikas-teknoloji-as
 - liquid
 - fusewp
+- debank
 - google-identity-platform
 - parse
 - eagle-eye-networks
@@ -422,62 +425,60 @@ provider_slugs:
 - aci-dev
 - authsignal
 - keycloak
-- nthu
 - bullhorn
 - classlink
 - iniciador
-- capy-inc
-- debank
 - wolt
+- capy-inc
 - galxe
 - jeeng
-- glama
+- neurable
 - strata-identity
 - prelude-so
-- spring-security
 - express-gateway
+- collectors
+- spring-security
 - surveymonkey
 - cuvva
 - flipkart
 - pocketbase
 - flockjay
-- collectors
+- pingone
 - ccc-intelligent-solutions
 - planday
 - kahoot
 - picogrid
+- ping-identity
 - via-science
 - spiffe
-- gluu
-- pingone
 - terapi
 - kakao
 - prove
-- infra
 - nevis
-- ping-identity
 - noredink
-- sso
 - nanjing
 - onelogin
+- sso
 - gel-data
+- farcaster
 - grab
+- infra
 - alien
 - everledger
 - hanyang
 - pragma
-- farcaster
 - thrivecom
 - sage-accounting
 - centurylink
 - river-financial
 - soundcloud
+- deezer
 - virgil-security
 - itb
 - glama-ai
 - bmw-connecteddrive
 - sifive
-- deezer
+- primerica
 - pulsoid
 - privy
 - samedi
@@ -488,17 +489,20 @@ provider_slugs:
 - passbase
 - apache-shiro
 - better-auth
+- duo-security
+- wellfound
 - getnet
 - saml
 - elk
+- verto-education
 - oscar-emr
 - blueleaf
 - 3dagogo
-- podbean-api
 - centrify
 - skyfire
 - blink-ledger-systems
 - wibmo
+- glacier-bancorp
 - snapser
 - nectar-social
 - formstack
@@ -516,6 +520,7 @@ provider_slugs:
 - libryo
 - marco-polo
 - scnd
+- hanr-block
 - silverfort
 - actively
 - rohlik
@@ -541,7 +546,6 @@ provider_slugs:
 - hostfully
 - redotpay
 - trustdock
-- duo-security
 - mural
 - yeshid
 - naver
@@ -596,29 +600,33 @@ provider_slugs:
 - crane
 - proxy
 - appnet
+- fusebit
 - general-galactic-corporation
 - security-protocols
 related:
 - slug: security
   name: Security
   shared: 4
+- slug: agents
+  name: Agents
+  shared: 3
 - slug: communications
   name: Communications
   shared: 3
-- slug: agents
-  name: Agents
-  shared: 2
 - slug: sdk
   name: SDKs
   shared: 2
 - slug: ai-automation
   name: AI Automation
   shared: 1
+- slug: database
+  name: Database
+  shared: 1
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Kit, Cvent Registration, drchrono, Microsoft Entra ID (formerly Azure AD), Zoho CRM, Arcade, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Kinde, Kit, drchrono, Appwrite, Microsoft Entra ID (formerly Azure AD), Cvent Registration, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Security, Communications, Agents, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Security, Agents, Communications, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

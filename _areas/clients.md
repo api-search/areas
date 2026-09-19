@@ -36,6 +36,13 @@ providers:
   score_band: thin
   score_composite: 33.8
   shared: 1
+- slug: firecamp
+  name: Firecamp
+  description: Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-C…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.8
+  shared: 1
 - slug: rest-client
   name: REST Client
   description: REST Client is a Visual Studio Code extension developed by Huachao Mao that enables developers to send HTTP requests and view responses directly within the VS Code editor. It supports RFC 2616 HTTP request format using .http and .rest files, GraphQL queries, cURL commands, multiple authentication s…
@@ -71,13 +78,6 @@ providers:
   score_band: emerging
   score_composite: 24.5
   shared: 1
-- slug: firecamp
-  name: Firecamp
-  description: Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-C…
-  api_count: 1
-  score_band: emerging
-  score_composite: 23.3
-  shared: 1
 - slug: httpx
   name: HTTPX
   description: HTTPX is a fully featured HTTP client for Python 3 with sync and async APIs, HTTP/1.1 and HTTP/2 support. It is broadly compatible with the popular requests library while adding modern features such as strict timeouts, type annotations, direct WSGI and ASGI transport, SSL verification, cookie persi…
@@ -106,19 +106,19 @@ providers:
   score_band: emerging
   score_composite: 14.2
   shared: 1
+- slug: paw
+  name: Paw
+  description: Paw (now RapidAPI for Mac) is a full-featured HTTP client that lets you test and describe the APIs you build or consume. It provides a native macOS API testing experience with collaboration features.
+  api_count: 1
+  score_band: emerging
+  score_composite: 11.4
+  shared: 1
 - slug: nightingale
   name: Nightingale
   description: Nightingale REST Client is a modern, resource-friendly REST API client for Windows.
   api_count: 1
   score_band: emerging
   score_composite: 11.0
-  shared: 1
-- slug: paw
-  name: Paw
-  description: Paw (now RapidAPI for Mac) is a full-featured HTTP client that lets you test and describe the APIs you build or consume. It provides a native macOS API testing experience with collaboration features.
-  api_count: 1
-  score_band: minimal
-  score_composite: 10.5
   shared: 1
 - slug: ezy
   name: Ezy
@@ -139,18 +139,18 @@ provider_slugs:
 - hoppscotch
 - insomnia
 - httpie
+- firecamp
 - rest-client
 - axios
 - node-fetch
 - requests
 - wget
-- firecamp
 - httpx
 - yaak
 - http-client
 - got
-- nightingale
 - paw
+- nightingale
 - ezy
 - okhttp
 related:
@@ -159,11 +159,11 @@ related:
   shared: 18
 - slug: cli
   name: Command Line Interface
-  shared: 1
+  shared: 2
 overview: 'Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [clients.apievangelist.com](https://clients.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Apollo GraphQL, Hoppscotch, Insomnia, HTTPie, REST Client, Axios, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Apollo GraphQL, Hoppscotch, Insomnia, HTTPie, Firecamp, REST Client, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Clients and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

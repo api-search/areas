@@ -13,7 +13,7 @@ providers:
   description: ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive API explorer, Try-It console, Developer Dashboard with real-t…
   api_count: 2
   score_band: developing
-  score_composite: 50.7
+  score_composite: 51.3
   shared: 1
 - slug: stacker
   name: Stacker

@@ -12,8 +12,8 @@ providers:
   name: Beamer
   description: Beamer is a changelog and notification center tool for announcing product updates, new features, and API changes to end users. It provides an embeddable feed widget, push notifications, email digests, and a public changelog page. The Beamer REST API enables programmatic management of posts, users,…
   api_count: 1
-  score_band: emerging
-  score_composite: 22.3
+  score_band: strong
+  score_composite: 60.7
   shared: 1
 - slug: versioning-protocols
   name: Versioning Protocols
@@ -44,7 +44,7 @@ provider_slugs:
 related:
 - slug: change-log
   name: Change Log
-  shared: 2
+  shared: 3
 overview: 'Deprecation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deprecation.apievangelist.com](https://deprecation.apievangelist.com).
 
 

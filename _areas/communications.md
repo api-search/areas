@@ -6,35 +6,42 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 161
+provider_count: 163
 providers:
+- slug: messagebird
+  name: Messagebird
+  description: MessageBird, which trades as Bird, is a Dutch cloud communications company whose platform carries email, SMS, WhatsApp, RCS, push, voice and eSIM traffic for businesses in over 200 countries. Bird publishes a first-party OpenAPI 3.1 description of 277 operations at bird.com/openapi.json and generat…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 92.1
+  shared: 1
 - slug: amazon-pinpoint
   name: Amazon Pinpoint
   description: Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communications service that enables you to engage with customers across multiple messaging channels including email, SMS, push notifications, and voice messages. Note - AWS will end support for Amazon Pinpoint on October 30,…
   api_count: 2
   score_band: exemplar
-  score_composite: 82.2
+  score_composite: 82.4
   shared: 1
 - slug: leadping
   name: Leadping
   description: Leadping is a lead-management and responsible-outreach platform for teams that need to move a new inbound lead from source to first touch without stitching together separate tools. It captures leads from approved sources, routes and assigns them, runs follow-up automations, sends SMS and MMS, place…
   api_count: 1
   score_band: exemplar
-  score_composite: 79.6
+  score_composite: 78.4
   shared: 1
 - slug: nylas
   name: Nylas
   description: Nylas connects your application to every email inbox and calendar in the world. The Nylas v3 platform provides REST APIs for email, calendar, contacts, scheduling, meeting notetaking, authentication, and administration across Google, Microsoft, Exchange, iCloud, Yahoo and any IMAP provider. Officia…
   api_count: 2
   score_band: exemplar
-  score_composite: 76.6
+  score_composite: 74.9
   shared: 1
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
   api_count: 40
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 73.5
   shared: 1
 - slug: zoom-phone
   name: Zoom Phone
@@ -42,13 +49,6 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 72.4
-  shared: 1
-- slug: mailboxlayer
-  name: Mailboxlayer
-  description: Real-time email validation and verification REST/JSON API operated by APILayer. Provides syntax checks, typo suggestions, MX-record lookup, SMTP verification, catch-all/role/disposable/free-provider detection, and a deliverability quality score.
-  api_count: 2
-  score_band: exemplar
-  score_composite: 71.9
   shared: 1
 - slug: smtp2go
   name: SMTP2GO
@@ -62,7 +62,14 @@ providers:
   description: Orange Business is the B2B, telco-cloud, and developer arm of Orange S.A. — France's leading telecommunications group operating across Europe, the Middle East, and Africa. The company markets itself as "an operator, integrator, and platform player" and serves 30,000+ enterprise customers across 65…
   api_count: 12
   score_band: exemplar
-  score_composite: 70.1
+  score_composite: 70.0
+  shared: 1
+- slug: mailboxlayer
+  name: Mailboxlayer
+  description: Real-time email validation and verification REST/JSON API operated by APILayer. Provides syntax checks, typo suggestions, MX-record lookup, SMTP verification, catch-all/role/disposable/free-provider detection, and a deliverability quality score.
+  api_count: 2
+  score_band: exemplar
+  score_composite: 69.5
   shared: 1
 - slug: loops
   name: Loops
@@ -82,20 +89,13 @@ providers:
   name: Hustle
   description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and a…
   api_count: 1
-  score_band: strong
-  score_composite: 66.2
+  score_band: exemplar
+  score_composite: 66.8
   shared: 1
 - slug: gotowebinar
   name: GoToWebinar
   description: GoToWebinar is GoTo's (formerly LogMeIn) webinar and virtual event platform. The GoToWebinar REST API lets developers create and manage webinars, organizers, registrants, attendees, sessions, panelists, co-organizers, polls, surveys, and recordings, and subscribe to real-time webhook events for reg…
   api_count: 3
-  score_band: strong
-  score_composite: 64.9
-  shared: 1
-- slug: spruce-health
-  name: Spruce Health
-  description: Spruce Health is a HIPAA-compliant healthcare communication platform that unifies phone, SMS, secure messaging, video, e-fax, team chat, mobile payments and VoIP phone lines into one system for medical practices, with AI-enabled voicemail transcription, summarization and call routing. Every eligibl…
-  api_count: 16
   score_band: strong
   score_composite: 64.9
   shared: 1
@@ -105,6 +105,20 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 64.8
+  shared: 1
+- slug: avaya
+  name: Avaya
+  description: 'Avaya is a global enterprise communications company whose developer surface spans two cloud platforms: Avaya Infinity, the cloud-native customer experience platform launched in 2025, and Avaya Experience Platform (AXP), the CCaaS generation that preceded it. Between them they publish 40 OpenAPI 3.0…'
+  api_count: 80
+  score_band: strong
+  score_composite: 64.2
+  shared: 1
+- slug: spruce-health
+  name: Spruce Health
+  description: Spruce Health is a HIPAA-compliant healthcare communication platform that unifies phone, SMS, secure messaging, video, e-fax, team chat, mobile payments and VoIP phone lines into one system for medical practices, with AI-enabled voicemail transcription, summarization and call routing. Every eligibl…
+  api_count: 16
+  score_band: strong
+  score_composite: 64.2
   shared: 1
 - slug: weave
   name: Weave
@@ -120,6 +134,13 @@ providers:
   score_band: strong
   score_composite: 60.7
   shared: 1
+- slug: kudosity
+  name: Kudosity
+  description: Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, l…
+  api_count: 2
+  score_band: strong
+  score_composite: 60.6
+  shared: 1
 - slug: mailersend
   name: MailerSend
   description: MailerSend is a transactional email and SMS platform built for developers. Its v1 REST API covers email sending (single, bulk to 500 objects per request, and scheduled up to 72 hours out), SMTP relay, templates, sending domains and DNS verification, sender identities, recipients and five suppressio…
@@ -127,19 +148,12 @@ providers:
   score_band: strong
   score_composite: 60.6
   shared: 1
-- slug: kudosity
-  name: Kudosity
-  description: Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, l…
-  api_count: 2
-  score_band: strong
-  score_composite: 60.0
-  shared: 1
 - slug: cloudtalk
   name: CloudTalk
   description: CloudTalk is an AI-powered cloud call center and business phone system (CCaaS) for sales and customer support teams, backed by Point Nine. Its public REST API (served at https://my.cloudtalk.io/api, published as OpenAPI 3.0.1 version 1.7) lets developers automate calls, contacts, agents, groups, ph…
   api_count: 1
   score_band: strong
-  score_composite: 58.9
+  score_composite: 59.5
   shared: 1
 - slug: community
   name: Community
@@ -148,19 +162,19 @@ providers:
   score_band: strong
   score_composite: 58.2
   shared: 1
+- slug: entergram
+  name: Entergram
+  description: Entergram is a CRM built specifically for Telegram. It connects personal Telegram accounts (not bots) into a shared team workspace where sales, support, community and trading teams manage conversations at scale — a multi-account inbox, a CRM table and Kanban pipeline, custom columns and labels, bro…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.0
+  shared: 1
 - slug: sendhub
   name: SendHub
   description: SendHub is a business text messaging platform for SMS/MMS marketing campaigns, two-way texting, appointment reminders, bulk messaging, SMS surveys, group messaging, and VoIP calling, used by more than 10,000 businesses. It exposes a REST-like v1 API at api.sendhub.com for programmatically managing…
   api_count: 1
   score_band: strong
   score_composite: 58.0
-  shared: 1
-- slug: neutrino-api
-  name: Neutrino API
-  description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP API of 28 published operations — one verb path each, no reso…'
-  api_count: 2
-  score_band: strong
-  score_composite: 57.6
   shared: 1
 - slug: the-mobile-first-company
   name: The Mobile First Company
@@ -183,6 +197,13 @@ providers:
   score_band: strong
   score_composite: 57.2
   shared: 1
+- slug: neutrino-api
+  name: Neutrino API
+  description: 'Neutrino API is a general-purpose API collection that solves common but recurring software-development problems: data validation, telephony, geolocation, security and networking, e-commerce and imaging. It is a single flat REST-style HTTP API of 28 published operations — one verb path each, no reso…'
+  api_count: 2
+  score_band: strong
+  score_composite: 56.9
+  shared: 1
 - slug: ringcentral
   name: RingCentral
   description: RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.
@@ -197,77 +218,60 @@ providers:
   score_band: strong
   score_composite: 56.1
   shared: 1
-- slug: webex
-  name: Webex
-  description: Cisco Webex is a comprehensive collaboration platform offering APIs for messaging, meetings, calling, devices, and contact center workflows. The Webex Developer Platform enables developers to build integrations, bots, embedded apps, and automations using REST APIs, SDKs, and webhooks. Webex support…
-  api_count: 9
-  score_band: strong
-  score_composite: 55.8
-  shared: 1
-- slug: entergram
-  name: Entergram
-  description: Entergram is a CRM built specifically for Telegram. It connects personal Telegram accounts (not bots) into a shared team workspace where sales, support, community and trading teams manage conversations at scale — a multi-account inbox, a CRM table and Kanban pipeline, custom columns and labels, bro…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.4
-  shared: 1
-- slug: openphone
-  name: OpenPhone
-  description: OpenPhone (rebranded to Quo in 2026) is a business phone and customer communications platform that provides shared phone numbers, calling, SMS/MMS texting, AI call summaries and transcripts, contacts, conversations, and tasks for teams. Its public REST API lets developers programmatically send mess…
-  api_count: 2
-  score_band: strong
-  score_composite: 54.8
-  shared: 1
 provider_slugs:
+- messagebird
 - amazon-pinpoint
 - leadping
 - nylas
 - twilio
 - zoom-phone
-- mailboxlayer
 - smtp2go
 - orange-business
+- mailboxlayer
 - loops
 - signalwire
 - hustle
 - gotowebinar
-- spruce-health
 - parcellab
+- avaya
+- spruce-health
 - weave
 - kixie
-- mailersend
 - kudosity
+- mailersend
 - cloudtalk
 - community
+- entergram
 - sendhub
-- neutrino-api
 - the-mobile-first-company
 - simpletexting
 - sinch
+- neutrino-api
 - ringcentral
 - zavu
 - webex
-- entergram
 - openphone
-- bandwidth
-- zoom
+- yoodli
 - microsoft-teams
+- zoom
+- bandwidth
 - whereby
 - fyno
 - vonage
 - quo
 - phone-com
+- commsharbor
 - nextiva
-- nfon
 - veritus
 - aptly
 - frontapp
+- nfon
 - truecaller
-- discord
+- cisco-webex-meetings
 - zoho-cliq
-- commsharbor
-- beeper
+- discord
 - kumospace
+- beeper
 - agentphone
 - talkjs
 - telesign
@@ -276,54 +280,53 @@ provider_slugs:
 - whippy
 - documo
 - weavix
+- exotel
 - burner
 - rainbow
 - mirrorfly-messages-api
 - smsapi
-- dyte
 - confrere
+- dyte
 - clicksend
-- cisco-webex-meetings
 - sedna
+- truvideo
 - textmagic
+- cisco-control-hub
 - justcall
 - sobot
-- alianza
 - telnyx
+- alianza
 - chert
 - telefon
+- gupshup
 - engagespark
 - 46elks
 - groupme
 - textla-inc
 - movius
+- symphony
 - loom
 - muck-rack
-- symphony
 - lifesize
 - aircall
 - dialpad
 - africastalking
-- sightcall
 - meet
-- newvoicemedia
+- sightcall
 - clicksend-sms
+- newvoicemedia
 - sdui
 - motorola-solutions
 - federal-communications-commission
-- exotel
 - rr-donnelley-and-sons
-- cisco-control-hub
 - ourpeople
 - superhuman
-- truvideo
 - microsoft-skype
 - signpost
 - airpr
 - carbyne
 - xmatters
 - voxer
-- gupshup
 - launchnotes
 - moxtra
 - volt
@@ -341,6 +344,7 @@ provider_slugs:
 - caremessage
 - prepared
 - cesiumastro
+- northwood-space
 - crew
 - satellite
 - aptos-orbital
@@ -352,15 +356,12 @@ provider_slugs:
 - dialup
 - remind
 - west
-- northwood-space
 - voxeet
 - blue-jeans-network
 - liveprofile
 - network-protocols
-- avaya
 - vonbox
 - sonus
-- around
 - cord
 - echostar
 - fuze
@@ -371,6 +372,7 @@ provider_slugs:
 - quanta-services
 - cedar-point-communications
 - voxox
+- around
 - faxsav
 - makelog
 - messageme
@@ -384,14 +386,14 @@ related:
 - slug: authentication
   name: Authentication
   shared: 3
-- slug: webhooks
-  name: Webhooks
+- slug: agents
+  name: Agents
+  shared: 2
+- slug: ai-automation
+  name: AI Automation
   shared: 1
 - slug: agents-skills
   name: Agent Skills
-  shared: 1
-- slug: agents
-  name: Agents
   shared: 1
 - slug: security
   name: Security
@@ -399,8 +401,8 @@ related:
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Pinpoint, Leadping, Nylas, Twilio, Zoom Phone, Mailboxlayer, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Messagebird, Amazon Pinpoint, Leadping, Nylas, Twilio, Zoom Phone, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication, Webhooks, Agent Skills, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Authentication, Agents, AI Automation, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

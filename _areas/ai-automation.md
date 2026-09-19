@@ -6,15 +6,8 @@ description: AI automation combines artificial intelligence with workflow and pr
 area_url: https://ai-automation.apievangelist.com
 area_host: ai-automation.apievangelist.com
 icon: https://ai-automation.apievangelist.com/icon-thumb.png
-provider_count: 499
+provider_count: 508
 providers:
-- slug: xquik-api
-  name: Xquik
-  description: Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.
-  api_count: 2
-  score_band: exemplar
-  score_composite: 87.6
-  shared: 1
 - slug: brevo
   name: Brevo
   description: Brevo (formerly Sendinblue) is a French customer-relationship platform that combines email marketing, transactional email and SMTP relay, transactional and campaign SMS, WhatsApp messaging, web and mobile push, live chat, a sales CRM, an ecommerce attribution layer and a loyalty and rewards engine…
@@ -27,28 +20,35 @@ providers:
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
   api_count: 4
   score_band: exemplar
-  score_composite: 87.1
+  score_composite: 86.8
+  shared: 1
+- slug: xquik-api
+  name: Xquik
+  description: Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.
+  api_count: 2
+  score_band: exemplar
+  score_composite: 86.8
   shared: 1
 - slug: dynatrace
   name: Dynatrace
   description: Dynatrace is a software intelligence platform that provides application performance monitoring, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management.
   api_count: 6
   score_band: exemplar
-  score_composite: 86.5
+  score_composite: 84.4
+  shared: 1
+- slug: convertkit
+  name: Kit
+  description: Kit (formerly ConvertKit) is a creator email marketing platform whose REST API v4 covers subscribers, tags, custom fields, forms and landing pages, sequences, broadcasts, snippets, posts, purchases, segments and webhooks across 72 operations on https://api.kit.com/v4. It authenticates with an X-Kit…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 84.1
   shared: 1
 - slug: ada
   name: Ada
   description: Ada is an AI-powered customer service automation platform that enables enterprises to deploy AI agents capable of resolving customer inquiries across digital channels without human intervention. The platform exposes a suite of REST APIs for managing knowledge bases, end-user profiles, conversation…
   api_count: 4
   score_band: exemplar
-  score_composite: 83.2
-  shared: 1
-- slug: convertkit
-  name: Kit
-  description: Kit (formerly ConvertKit) is a creator email marketing platform whose REST API v4 covers subscribers, tags, custom fields, forms and landing pages, sequences, broadcasts, snippets, posts, purchases, segments and webhooks across 72 operations on https://api.kit.com/v4. It authenticates with an X-Kit…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 82.8
+  score_composite: 83.1
   shared: 1
 - slug: salesforce-marketing-cloud
   name: Salesforce Marketing Cloud
@@ -57,12 +57,26 @@ providers:
   score_band: exemplar
   score_composite: 82.6
   shared: 1
+- slug: github-actions
+  name: GitHub Actions
+  description: GitHub Actions is GitHub's hosted CI/CD and workflow automation platform, and this record covers the REST API surface that drives it. Eighty-two operations across eleven resource areas let a caller dispatch and cancel workflow runs, poll runs and jobs, read and prune logs, artifacts and caches, sea…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 79.8
+  shared: 1
 - slug: klaviyo
   name: Klaviyo
   description: Klaviyo is a marketing automation and customer data platform built for ecommerce. Build custom integrations to bring data into Klaviyo to create personalized experiences across email, SMS, mobile push, and more. The Klaviyo API exposes profiles, events, lists, segments, campaigns, flows, catalogs,…
   api_count: 1
   score_band: exemplar
   score_composite: 79.1
+  shared: 1
+- slug: leadping
+  name: Leadping
+  description: Leadping is a lead-management and responsible-outreach platform for teams that need to move a new inbound lead from source to first touch without stitching together separate tools. It captures leads from approved sources, routes and assigns them, runs follow-up automations, sends SMS and MMS, place…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 78.4
   shared: 1
 - slug: mailerlite
   name: MailerLite
@@ -71,12 +85,19 @@ providers:
   score_band: exemplar
   score_composite: 77.3
   shared: 1
+- slug: relevance-ai
+  name: Relevance AI
+  description: Relevance AI is an agent platform for building, testing and running specialist AI agents and multi-agent "workforces" — teams of agents that coordinate on a shared goal. Domain experts build agents in a no-code visual builder, hold them to pass/fail quality bars with a built-in evals system, and co…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 76.3
+  shared: 1
 - slug: adobe-suite
   name: Adobe Suite
   description: 'Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation…'
   api_count: 70
   score_band: exemplar
-  score_composite: 75.6
+  score_composite: 75.7
   shared: 1
 - slug: plunk
   name: Plunk
@@ -85,24 +106,17 @@ providers:
   score_band: exemplar
   score_composite: 74.6
   shared: 1
-- slug: postman
-  name: Postman
-  description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 21
-  score_band: exemplar
-  score_composite: 72.5
-  shared: 1
-- slug: relevance-ai
-  name: Relevance AI
-  description: Relevance AI is an agent platform for building, testing and running specialist AI agents and multi-agent "workforces" — teams of agents that coordinate on a shared goal. Domain experts build agents in a no-code visual builder, hold them to pass/fail quality bars with a built-in evals system, and co…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 72.4
-  shared: 1
 - slug: jitterbit
   name: Jitterbit
   description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
   api_count: 1
+  score_band: exemplar
+  score_composite: 70.1
+  shared: 1
+- slug: postman
+  name: Postman
+  description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
+  api_count: 21
   score_band: exemplar
   score_composite: 70.1
   shared: 1
@@ -116,35 +130,35 @@ providers:
 - slug: browser-use
   name: Browser Use
   description: Browser Use makes websites accessible to AI agents. It ships two commercial products on one managed browser platform — Browser Use Agents, which take a natural-language goal and return completed web work, and Browser Infrastructure, which rents stealth cloud Chromium browsers over SDK, REST, or CDP…
-  api_count: 3
+  api_count: 6
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 68.9
   shared: 1
 - slug: cisco-catalyst-sdwan
   name: Cisco Catalyst SD-WAN
   description: 'Cisco Catalyst SD-WAN, built on the Viptela platform Cisco acquired in 2017, is Cisco''s wide-area network overlay: centralized policy, application-aware routing, and secure transport across MPLS, broadband and LTE. Its controller — SD-WAN Manager, formerly vManage — exposes a REST API of 4,138 publ…'
   api_count: 13
   score_band: exemplar
-  score_composite: 67.6
+  score_composite: 68.4
   shared: 1
-- slug: canva
-  name: Canva
-  description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run…'
+- slug: crawl4ai
+  name: Crawl4AI
+  description: Crawl4AI is an open-source, Apache-2.0 web crawler and scraper built to turn any URL into clean, LLM-ready data — Markdown, typed JSON, screenshots, PDFs, or a map of every URL on a domain. Operated by CONTEXT4AI PTE LTD of Singapore and created by Hossein Tohidi (@unclecode), the project pairs a 7…
   api_count: 1
   score_band: exemplar
-  score_composite: 67.1
+  score_composite: 67.6
+  shared: 1
+- slug: buttondown
+  name: Buttondown
+  description: Buttondown is an independent, bootstrapped email newsletter platform for writers, creators and developers, offering a Markdown and rich-text editor, subscriber management with tags, segments and metadata, automations, RSS-to-email, surveys, comments, paid subscriptions via Stripe with no revenue sh…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.2
   shared: 1
 - slug: browserstack
   name: BrowserStack
   description: BrowserStack provides instant access to 3,500+ real desktop browsers and 30,000+ real mobile device units for manual and automated software testing. Its products span cross-browser testing (Live, Automate), mobile app testing (App Live, App Automate), visual regression testing (Percy, App Percy), a…
   api_count: 1
-  score_band: strong
-  score_composite: 66.1
-  shared: 1
-- slug: cohesity
-  name: Cohesity
-  description: Cohesity is a data security and management company providing backup, disaster recovery, archive, and cyber resilience capabilities across on-premises, cloud, and SaaS workloads. Following the merger with Veritas, the combined company protects enterprise data while powering automation, orchestration…
-  api_count: 4
   score_band: strong
   score_composite: 66.1
   shared: 1
@@ -155,12 +169,33 @@ providers:
   score_band: strong
   score_composite: 66.1
   shared: 1
-- slug: crawl4ai
-  name: Crawl4AI
-  description: Crawl4AI is an open-source, Apache-2.0 web crawler and scraper built to turn any URL into clean, LLM-ready data — Markdown, typed JSON, screenshots, PDFs, or a map of every URL on a domain. Operated by CONTEXT4AI PTE LTD of Singapore and created by Hossein Tohidi (@unclecode), the project pairs a 7…
+- slug: cohesity
+  name: Cohesity
+  description: Cohesity is a data security and management company providing backup, disaster recovery, archive, and cyber resilience capabilities across on-premises, cloud, and SaaS workloads. Following the merger with Veritas, the combined company protects enterprise data while powering automation, orchestration…
+  api_count: 8
+  score_band: strong
+  score_composite: 66.0
+  shared: 1
+- slug: canva
+  name: Canva
+  description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run…'
+  api_count: 1
+  score_band: strong
+  score_composite: 64.9
+  shared: 1
+- slug: n8n
+  name: n8n
+  description: n8n is a fair-code workflow automation and iPaaS platform with AI-agent tooling. It exposes an instance-scoped REST API (public OpenAPI 3.0 contract), MCP server/client capabilities via built-in nodes, and an llms.txt documentation index.
+  api_count: 1
+  score_band: strong
+  score_composite: 64.3
+  shared: 1
+- slug: postiz
+  name: Postiz
+  description: Postiz is an open-source social media scheduling and management platform for posting across 30+ social, video, community, and blogging channels from a single calendar. It ships as a free AGPL-licensed self-hosted app and as a paid managed Cloud. The Postiz Public API uses simple API-key auth to lis…
   api_count: 3
   score_band: strong
-  score_composite: 65.6
+  score_composite: 64.0
   shared: 1
 - slug: clay-com
   name: Clay
@@ -169,108 +204,77 @@ providers:
   score_band: strong
   score_composite: 63.7
   shared: 1
+- slug: level2
+  name: Level2
+  description: Level2 is a no-code systematic-trading platform from Bytemine Technologies Ltd that lets active retail traders build, backtest and deploy fully automated strategies from a visual drag-and-drop canvas, with no code and no proprietary scripting language. Strategies can be rehearsed against historical…
+  api_count: 3
+  score_band: strong
+  score_composite: 63.4
+  shared: 1
 - slug: red-hat-ansible-automation-platform
   name: Red Hat Ansible Automation Platform
   description: Red Hat Ansible Automation Platform is an enterprise automation solution that provides a framework for building and operating IT automation at scale. It includes the Automation Controller, Automation Hub, Event-Driven Ansible, and Ansible Lightspeed with IBM watsonx Code Assistant, providing REST A…
-  api_count: 7
+  api_count: 5
   score_band: strong
-  score_composite: 63.2
-  shared: 1
-- slug: postiz
-  name: Postiz
-  description: Postiz is an open-source social media scheduling and management platform for posting across 30+ social, video, community, and blogging channels from a single calendar. It ships as a free AGPL-licensed self-hosted app and as a paid managed Cloud. The Postiz Public API uses simple API-key auth to lis…
-  api_count: 3
-  score_band: strong
-  score_composite: 63.1
-  shared: 1
-- slug: benchmark-email
-  name: Benchmark Email
-  description: Benchmark Email is an email marketing platform for small businesses, run by Benchmark Internet Group, with two live REST API generations. The current Benchmark Email API on the benchmarkemail.io platform covers contacts, contact structures and custom fields, lists, campaigns, templates, sending dom…
-  api_count: 2
-  score_band: strong
-  score_composite: 62.9
-  shared: 1
-- slug: cisco-xdr
-  name: Cisco XDR
-  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
-  api_count: 12
-  score_band: strong
-  score_composite: 62.9
-  shared: 1
-- slug: workato
-  name: Workato
-  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
-  api_count: 4
-  score_band: strong
-  score_composite: 62.9
-  shared: 1
-- slug: n8n
-  name: n8n
-  description: n8n is a fair-code workflow automation and iPaaS platform with AI-agent tooling. It exposes an instance-scoped REST API (public OpenAPI 3.0 contract), MCP server/client capabilities via built-in nodes, and an llms.txt documentation index.
-  api_count: 1
-  score_band: strong
-  score_composite: 62.9
-  shared: 1
-- slug: dotdigital
-  name: Dotdigital
-  description: 'Dotdigital is a UK-headquartered customer engagement platform (LSE: DOTD) whose Marketing product combines email, SMS, MMS, WhatsApp, push, app messaging, chat and web personalization behind one contact database. Its API estate is unusually large and unusually well published: 42 OpenAPI description…'
-  api_count: 86
-  score_band: strong
-  score_composite: 62.8
+  score_composite: 63.0
   shared: 1
 provider_slugs:
-- xquik-api
 - brevo
 - tray-ai
+- xquik-api
 - dynatrace
-- ada
 - convertkit
+- ada
 - salesforce-marketing-cloud
+- github-actions
 - klaviyo
+- leadping
 - mailerlite
+- relevance-ai
 - adobe-suite
 - plunk
-- postman
-- relevance-ai
 - jitterbit
+- postman
 - campaignmonitor
 - browser-use
 - cisco-catalyst-sdwan
-- canva
-- browserstack
-- cohesity
-- uipath
 - crawl4ai
-- clay-com
-- red-hat-ansible-automation-platform
-- postiz
-- benchmark-email
-- cisco-xdr
-- workato
+- buttondown
+- browserstack
+- uipath
+- cohesity
+- canva
 - n8n
+- postiz
+- clay-com
+- level2
+- red-hat-ansible-automation-platform
+- benchmark-email
+- workato
 - dotdigital
-- cloudformation
 - budibase
+- cisco-xdr
 - celonis
 - emailoctopus
+- pixiebrix
 - boomi
-- fundamental-research-labs
+- facets
 - appian
 - servicenow
-- facets
 - smartlead-ai
-- pixiebrix
+- fundamental-research-labs
 - coasty
-- sciencelogic
+- autocontent-api
 - salesflare
-- adobe-premiere
 - amazon-ec2-image-builder
 - autogpt
 - graphiant
-- superai
+- adobe-premiere
 - windmill
-- cisco-secure-firewall
+- sciencelogic
 - pabbly
+- cisco-secure-firewall
+- superai
 - bluma
 - gumloop
 - augment
@@ -278,121 +282,125 @@ provider_slugs:
 - marketo
 - qubiqle
 - silna
+- duvo-ai
 - instabase
+- microsoft-power-automate
 - amazon-datasync
 - koreai
 - salesforce-automation
 - cobalt
-- duvo-ai
 - amazon-data-lifecycle-manager
 - cisco-aci
-- continuous-delivery-foundation
 - pixc
 - h-company
 - amazon-incident-manager
 - amazon-iot-events
-- amika
+- sweep
+- continuous-delivery-foundation
 - amazon-data-pipeline
 - appmixer
+- crewai-cloud
+- microsoft-azure-pipelines
 - replicas
+- amika
 - kestra
-- sweep
 - kubernetes
 - abbyy
-- microsoft-azure-pipelines
-- manychat
-- microsoft-power-automate
+- supra
 - baserow
 - amazon-swf
-- blue-prism
-- prefect
-- aito-technologies
-- capy
-- supra
 - gitar
+- aito-technologies
+- prefect
+- blue-prism
+- capy
+- manychat
 - hilos
 - oracle-integration
+- perforce
+- microsoft-excel
 - cast-corporation
-- ninjaone
-- microsoft-azure-logic-apps
 - automation-preflight-api
-- chef
+- rowguard
 - rewst
 - sauce-labs
 - ansible
 - salesforce-automation-system
 - amazon-systems-manager
 - ansible-playbooks
-- microsoft-excel
 - brownie
 - sharpspring
 - snaplogic
-- workday-extend
-- archastro
-- autocontent-api
-- runwhen
-- missive
+- ninjaone
 - superdial
+- workday-extend
+- integrately
+- missive
 - velaris
+- lambdatest
 - workist
 - uniphore
 - ava-protocol
 - wegalvanize
 - stacks-ai
-- lambdatest
+- archastro
 - alteryx
 - easywebinar
+- runwhen
 - make
 - amboras
 - conductor
 - runautomat
 - cerby
+- cflow
 - shuffle
 - google-cloud-workflows
 - devrev
 - nexthink
+- luminance
 - morf
 - advanced-excel
-- luminance
 - juniper
 - ansible-roles
-- pulumi
 - robocorp
 - activepieces
 - jinba
 - splunk-soar
 - dreamfactory
 - elementum
+- pulumi
 - rhel
 - dell-technologies
 - templated
 - botkeeper
 - salesforce-flow
+- parseur
 - publer
 - selenium
-- parseur
 - sleekflow
 - calendly
-- microsoft-excel-advanced
-- optimyzee
-- powershell
+- rockwell-factorytalk
 - beeceptor
+- microsoft-excel-advanced
+- powershell
+- optimyzee
 - swimlane
-- polymath
 - creatomate
 - tofu
 - steute-technologies-gmbh-and-co-kg
-- unisson
+- celigo
 - the-interaction-company-of-california
 - dapta
 - red-canary
 - hospitable
 - microsoft-azure-automation
+- teammates
 - zoho-writer
 - google-apps-script
 - bannerbear
 - blotato
-- teammates
+- unisson
+- polymath
 - alloy-automation
 - boltic
 - lua-global-inc
@@ -408,9 +416,7 @@ provider_slugs:
 - tuya
 - sema4-ai
 - squillo
-- test-cases
 - bardeen
-- test-scripts
 - ansible-automation-platform
 - jeeva-ai
 - adt
@@ -426,18 +432,20 @@ provider_slugs:
 - puppet
 - rows
 - monday-com
+- freshdesk
 - tsenta
 - locbox-labs
 - bettercloud
+- snap-api-website-screenshots-in-one-call
+- packer
 - wato
+- grapes-knowledge-base
 - landbot
 - google-cloud-scheduler
 - parallels-swsoft
 - rest-assured
 - agent-skills
 - tabtabtab
-- grapes-knowledge-base
-- packer
 - cucumber
 - intezer
 - nine-fives
@@ -448,7 +456,6 @@ provider_slugs:
 - auditoria
 - gigacatalyst
 - pulse-software
-- celigo
 - hostbill
 - anitian
 - sintra
@@ -469,7 +476,6 @@ provider_slugs:
 - pinkfish
 - black-ore-technologies
 - clicks
-- integrately
 - unifyapps
 - bdd
 - ushur
@@ -535,6 +541,7 @@ provider_slugs:
 - qventus
 - riff
 - ubio-automation-cloud
+- aessenseholding
 - readyapi
 - mona-ai
 - presso
@@ -632,6 +639,7 @@ provider_slugs:
 - sento
 - nebu
 - akasa
+- agrist
 - atlas
 - netic
 - nimble-robotics
@@ -670,9 +678,7 @@ provider_slugs:
 - burt
 - calibrate-ventures
 - ciridae
-- cloudpipes
 - cofia
-- dyna
 - eigentech
 - forge-robotics
 - fulfil
@@ -694,10 +700,9 @@ provider_slugs:
 - chowbotics
 - zudo
 - akara
-- akara-robotics
 - fortive
 - finern
-- rapid-robotics
+- advancedfarmtechnologies
 - beyond-imagination
 - vestris
 - byanat
@@ -708,40 +713,44 @@ provider_slugs:
 - lighting
 - tuza
 - jadu
-- power-tools
 - prompt-md
 - airplane
 - codeowners
+- cloudpipes
 - dependabot-yml
 - devops
 - iron-ox
 - logicloop
 - piestro
+- power-tools
+- rapid-robotics
 - shoreline
+- test-cases
+- test-scripts
 related:
 - slug: workflow-automation
   name: Workflow Automation
   shared: 5
-- slug: orchestration
-  name: Orchestration
-  shared: 4
-- slug: embedded-ipaas
-  name: Embedded iPaaS
-  shared: 3
 - slug: observability
   name: Observability
+  shared: 3
+- slug: orchestration
+  name: Orchestration
   shared: 3
 - slug: testing
   name: Testing
   shared: 3
-- slug: ipaas
-  name: iPaaS
-  shared: 3
+- slug: agents
+  name: Agents
+  shared: 2
+- slug: design
+  name: Design
+  shared: 2
 overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ai-automation.apievangelist.com](https://ai-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Xquik, Brevo, Tray.ai, Dynatrace, Ada, Kit, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Brevo, Tray.ai, Xquik, Dynatrace, Kit, Ada, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Workflow Automation, Orchestration, Embedded iPaaS, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Workflow Automation, Observability, Orchestration, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

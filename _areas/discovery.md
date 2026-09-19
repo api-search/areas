@@ -8,19 +8,19 @@ area_host: discovery.apievangelist.com
 icon: https://discovery.apievangelist.com/icon-thumb.png
 provider_count: 37
 providers:
-- slug: postman
-  name: Postman
-  description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 21
-  score_band: exemplar
-  score_composite: 72.5
-  shared: 1
 - slug: algolia
   name: Algolia
   description: Algolia is a hosted search and discovery platform that delivers fast, typo-tolerant search, browse, recommendations and personalization through a suite of REST APIs and edge-distributed infrastructure. It powers search experiences for ecommerce, media, SaaS and content sites, pairing a synchronous…
   api_count: 15
   score_band: exemplar
   score_composite: 71.5
+  shared: 1
+- slug: postman
+  name: Postman
+  description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
+  api_count: 21
+  score_band: exemplar
+  score_composite: 70.1
   shared: 1
 - slug: taboola
   name: Taboola
@@ -32,9 +32,9 @@ providers:
 - slug: tmdb
   name: The Movie Database
   description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
-  api_count: 22
+  api_count: 21
   score_band: strong
-  score_composite: 56.0
+  score_composite: 55.9
   shared: 1
 - slug: microsoft-azure-migrate
   name: Azure Migrate
@@ -48,7 +48,7 @@ providers:
   description: Artifact Hub is a CNCF incubating web-based application that enables finding, installing, and publishing cloud-native packages. Built primarily in TypeScript and Go, it addresses fragmentation in the cloud-native ecosystem by providing a single discovery experience for consumers. It supports 27+ ar…
   api_count: 1
   score_band: developing
-  score_composite: 50.7
+  score_composite: 49.4
   shared: 1
 - slug: amazon-resource-explorer
   name: Amazon Resource Explorer
@@ -62,7 +62,7 @@ providers:
   description: OCLC WorldCat REST API for searching 500 million+ library holdings worldwide, accessing bibliographic records, finding library locations, and retrieving rich metadata for books, videos, music, and other media. Provides access to the WorldCat Search API, WorldCat Metadata API, WorldCat Knowledge Bas…
   api_count: 4
   score_band: developing
-  score_composite: 43.3
+  score_composite: 43.0
   shared: 1
 - slug: google-cloud-migration-center
   name: Google Cloud Migration Center
@@ -104,7 +104,7 @@ providers:
   description: The Podcast Index (Podcast Index LLC) is a software developer focused partnership that provides tools and data to anyone who aspires to create new and exciting Podcast experiences without the heavy lifting of indexing, aggregation and data management.
   api_count: 1
   score_band: thin
-  score_composite: 29.0
+  score_composite: 28.4
   shared: 1
 - slug: tel-aviv-university
   name: Tel Aviv University
@@ -219,8 +219,8 @@ providers:
   score_composite: 9.7
   shared: 1
 provider_slugs:
-- postman
 - algolia
+- postman
 - taboola
 - tmdb
 - microsoft-azure-migrate
@@ -272,7 +272,7 @@ related:
 overview: 'API Evangelist Discovery is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [discovery.apievangelist.com](https://discovery.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, Algolia, Taboola, The Movie Database, Azure Migrate, Artifact Hub, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Algolia, Postman, Taboola, The Movie Database, Azure Migrate, Artifact Hub, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Migration, API Evangelist Search, AI Automation, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

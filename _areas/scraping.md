@@ -13,7 +13,7 @@ providers:
   description: Diffbot is a company that provides AI-powered web scraping and data extraction services. Their technology allows businesses to automatically extract and organize data from any website, turning unstructured web content into structured data that can be easily analyzed and used for various purposes. D…
   api_count: 9
   score_band: exemplar
-  score_composite: 73.7
+  score_composite: 75.0
   shared: 1
 - slug: konbiniapi
   name: KonbiniAPI
@@ -29,17 +29,24 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
+- slug: zyte
+  name: Zyte
+  description: Zyte (formerly Scrapinghub, the company behind the Scrapy framework) is a web data extraction platform. Its flagship Zyte API is a single POST endpoint that fetches any URL through an automatic anti-ban network, optionally rendering it in a browser, running interaction actions, capturing network tr…
+  api_count: 2
+  score_band: strong
+  score_composite: 57.2
+  shared: 1
+- slug: anyapi
+  name: AnyAPI
+  description: AnyAPI is a unified gateway and marketplace for scraping and data APIs, operated by AnyAPI Labs, Inc. One key and one prepaid USD wallet reach 363 normalized third-party data sources - social profiles and posts, search and SEO, commerce listings and reviews, sales enrichment and email verification,…
+  api_count: 2
+  score_band: strong
+  score_composite: 56.8
+  shared: 1
 - slug: serper
   name: Serper
   description: Serper is the world's fastest and most affordable Google Search API, delivering real-time SERP data in 1-2 seconds via a simple REST interface. It supports web search, images, news, maps, places, videos, shopping, scholar, patents, and autocomplete — all returned as structured JSON. Widely used in…
   api_count: 2
-  score_band: strong
-  score_composite: 56.7
-  shared: 1
-- slug: zyte
-  name: Zyte
-  description: Zyte (formerly Scrapinghub, the company behind the Scrapy framework) is a web data extraction platform. Its flagship Zyte API is a single POST endpoint that fetches any URL through an automatic anti-ban network, optionally rendering it in a browser, running interaction actions, capturing network tr…
-  api_count: 3
   score_band: strong
   score_composite: 56.7
   shared: 1
@@ -55,14 +62,7 @@ providers:
   description: ScrapingAnt is a web-data infrastructure platform operated by DATAANT that puts headless Chrome rendering, a rotating pool of 3M+ residential and datacenter proxies, CAPTCHA avoidance and AI-powered extraction behind a single HTTP API. One request returns a fully JavaScript-rendered page as raw HTM…
   api_count: 2
   score_band: developing
-  score_composite: 52.6
-  shared: 1
-- slug: anyapi
-  name: AnyAPI
-  description: AnyAPI is a unified gateway and marketplace for scraping and data APIs, operated by AnyAPI Labs, Inc. One key and one prepaid USD wallet reach 363 normalized third-party data sources - social profiles and posts, search and SEO, commerce listings and reviews, sales enrichment and email verification,…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.5
+  score_composite: 51.2
   shared: 1
 - slug: spider-cloud
   name: Spider
@@ -90,7 +90,7 @@ providers:
   description: Octoparse is a powerful web scraping tool that allows users to extract data from websites without any coding knowledge. The platform uses advanced algorithms to automatically identify and extract relevant information from web pages, saving users time and effort. With Octoparse, users can easily col…
   api_count: 1
   score_band: thin
-  score_composite: 36.8
+  score_composite: 37.5
   shared: 1
 - slug: steel-dev
   name: Steel
@@ -166,11 +166,11 @@ provider_slugs:
 - diffbot
 - konbiniapi
 - serpwow
-- serper
 - zyte
+- anyapi
+- serper
 - oxylabs
 - scrapingant
-- anyapi
 - spider-cloud
 - firecrawl
 - notte
@@ -191,20 +191,17 @@ related:
   shared: 5
 - slug: search
   name: API Evangelist Search
-  shared: 2
+  shared: 3
 - slug: agents-skills
   name: Agent Skills
   shared: 2
 - slug: agents
   name: Agents
   shared: 1
-- slug: dns
-  name: DNS
-  shared: 1
 overview: 'Scraping is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [scraping.apievangelist.com](https://scraping.apievangelist.com).
 
 
-  22 providers on the network work in this area, including Diffbot, KonbiniAPI, SerpWow, Serper, Zyte, Oxylabs, and 16 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  22 providers on the network work in this area, including Diffbot, KonbiniAPI, SerpWow, Zyte, AnyAPI, Serper, and 16 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Proxies, API Evangelist Search, Agent Skills, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'

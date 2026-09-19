@@ -6,15 +6,8 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 826
+provider_count: 819
 providers:
-- slug: amazon-web-services-aws
-  name: Amazon Web Services (AWS)
-  description: Amazon Web Services is the cloud computing arm of Amazon and the largest public cloud provider in the world, offering more than 200 services across compute, storage, databases, networking, analytics, machine learning, security and developer tooling from data centers in dozens of Regions. Nearly eve…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 78.2
-  shared: 1
 - slug: elk-stack
   name: Elastic Stack (ELK Stack)
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
@@ -29,19 +22,19 @@ providers:
   score_band: exemplar
   score_composite: 73.3
   shared: 1
-- slug: mailboxlayer
-  name: Mailboxlayer
-  description: Real-time email validation and verification REST/JSON API operated by APILayer. Provides syntax checks, typo suggestions, MX-record lookup, SMTP verification, catch-all/role/disposable/free-provider detection, and a deliverability quality score.
-  api_count: 2
-  score_band: exemplar
-  score_composite: 71.9
-  shared: 1
 - slug: aembit
   name: Aembit
   description: Aembit is a Workload Identity and Access Management (Workload IAM) platform for non-human identities — AI agents, applications, microservices, CI/CD pipelines, scripts and service accounts. Instead of long-lived, hard-coded secrets, Aembit cryptographically attests a workload against a Trust Provid…
   api_count: 2
   score_band: exemplar
-  score_composite: 71.5
+  score_composite: 71.8
+  shared: 1
+- slug: snyk
+  name: Snyk
+  description: Snyk is a developer-first security platform covering code, open-source dependencies, container images, and infrastructure-as-code. The Snyk REST API and V1 API expose groups, organizations, projects, issues, targets, integrations, audit logs, SBOMs, container images, custom base images, webhooks, a…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 71.6
   shared: 1
 - slug: paubox
   name: Paubox
@@ -50,19 +43,19 @@ providers:
   score_band: exemplar
   score_composite: 71.5
   shared: 1
-- slug: snyk
-  name: Snyk
-  description: Snyk is a developer-first security platform covering code, open-source dependencies, container images, and infrastructure-as-code. The Snyk REST API and V1 API expose groups, organizations, projects, issues, targets, integrations, audit logs, SBOMs, container images, custom base images, webhooks, a…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 71.3
-  shared: 1
 - slug: onetrust
   name: OneTrust
   description: OneTrust is an enterprise trust, privacy, and AI-governance platform. Its developer portal publishes 37 downloadable OpenAPI definitions covering roughly 631 operations across Universal Consent & Preference Management, Cookie Consent / CMP, Consent Receipts, Data Subject Request (DSR) Automation, A…
   api_count: 37
   score_band: exemplar
-  score_composite: 68.2
+  score_composite: 70.7
+  shared: 1
+- slug: mailboxlayer
+  name: Mailboxlayer
+  description: Real-time email validation and verification REST/JSON API operated by APILayer. Provides syntax checks, typo suggestions, MX-record lookup, SMTP verification, catch-all/role/disposable/free-provider detection, and a deliverability quality score.
+  api_count: 2
+  score_band: exemplar
+  score_composite: 69.5
   shared: 1
 - slug: shodan
   name: Shodan
@@ -74,23 +67,16 @@ providers:
 - slug: clerk-com
   name: Clerk
   description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
-  api_count: 3
-  score_band: strong
-  score_composite: 65.8
+  api_count: 7
+  score_band: exemplar
+  score_composite: 66.7
   shared: 1
-- slug: strivacity
-  name: Strivacity
-  description: Strivacity is a customer identity and access management (CIAM) vendor that runs a single-tenant, dedicated-cloud identity platform for consumer, partner, B2B and — since its Agentic AI release — AI-agent identities. The product covers registration and self-service, adaptive multi-factor authenticat…
-  api_count: 6
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 24
   score_band: strong
-  score_composite: 65.7
-  shared: 1
-- slug: cisco-ise
-  name: Cisco Identity Services Engine
-  description: 'Cisco Identity Services Engine (ISE) is Cisco''s network access control and zero-trust policy platform: 802.1X and RADIUS authentication, TACACS+ device administration, guest and BYOD onboarding, endpoint profiling, posture assessment, and TrustSec security-group segmentation, all driven from a cent…'
-  api_count: 104
-  score_band: strong
-  score_composite: 65.5
+  score_composite: 66.3
   shared: 1
 - slug: drata
   name: Drata
@@ -104,7 +90,7 @@ providers:
   description: Censys is an internet intelligence and attack surface management platform that continuously scans the public IPv4 space, IPv6 announced ranges, and the global certificate transparency ecosystem to produce a comprehensive public dataset of internet-connected hosts, services, certificates, and web pr…
   api_count: 2
   score_band: strong
-  score_composite: 65.3
+  score_composite: 65.2
   shared: 1
 - slug: barndoor
   name: Barndoor
@@ -113,12 +99,26 @@ providers:
   score_band: strong
   score_composite: 65.1
   shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 24
+- slug: strivacity
+  name: Strivacity
+  description: Strivacity is a customer identity and access management (CIAM) vendor that runs a single-tenant, dedicated-cloud identity platform for consumer, partner, B2B and — since its Agentic AI release — AI-agent identities. The product covers registration and self-service, adaptive multi-factor authenticat…
+  api_count: 12
   score_band: strong
   score_composite: 65.1
+  shared: 1
+- slug: f5
+  name: F5
+  description: F5 is a global company that specializes in application delivery and security solutions for businesses. They provide products and services that help organizations efficiently and securely deliver applications to users across any network or cloud environment. F5's solutions are designed to optimize t…
+  api_count: 8
+  score_band: strong
+  score_composite: 64.7
+  shared: 1
+- slug: cisco-ise
+  name: Cisco Identity Services Engine
+  description: 'Cisco Identity Services Engine (ISE) is Cisco''s network access control and zero-trust policy platform: 802.1X and RADIUS authentication, TACACS+ device administration, guest and BYOD onboarding, endpoint profiling, posture assessment, and TrustSec security-group segmentation, all driven from a cent…'
+  api_count: 104
+  score_band: strong
+  score_composite: 64.4
   shared: 1
 - slug: shieldlabs
   name: ShieldLabs
@@ -127,26 +127,12 @@ providers:
   score_band: strong
   score_composite: 64.2
   shared: 1
-- slug: f5
-  name: F5
-  description: F5 is a global company that specializes in application delivery and security solutions for businesses. They provide products and services that help organizations efficiently and securely deliver applications to users across any network or cloud environment. F5's solutions are designed to optimize t…
-  api_count: 5
-  score_band: strong
-  score_composite: 63.7
-  shared: 1
 - slug: imgauth-api-di-attestazione-opere-digitali
   name: imgauth — API di attestazione opere digitali
   description: Digital-work attestation and proof-of-existence service operated by Spazio Genesi ETS, an Italian non-profit (third-sector entity). The client computes a SHA-256 fingerprint locally and sends only the 64-hex hash — file bytes never leave the device. The service binds that fingerprint to a signed se…
   api_count: 1
   score_band: strong
-  score_composite: 63.5
-  shared: 1
-- slug: very-good-security
-  name: Very Good Security
-  description: Very Good Security (VGS) is a data security and payments infrastructure company that lets organizations operate on sensitive data — payment card numbers, bank accounts, PII, and other regulated information — without the cost or liability of storing it themselves. Its core Vault tokenization platfor…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.1
+  score_composite: 64.1
   shared: 1
 - slug: anecdotes
   name: anecdotes
@@ -154,13 +140,6 @@ providers:
   api_count: 3
   score_band: strong
   score_composite: 63.1
-  shared: 1
-- slug: cisco-xdr
-  name: Cisco XDR
-  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
-  api_count: 12
-  score_band: strong
-  score_composite: 62.9
   shared: 1
 - slug: fastly
   name: Fastly
@@ -176,31 +155,31 @@ providers:
   score_band: strong
   score_composite: 62.0
   shared: 1
+- slug: exclaimer
+  name: Exclaimer
+  description: Exclaimer is an email signature management platform used by IT, marketing, and sales teams to centrally create, deploy, and govern corporate email signatures across Microsoft 365, Microsoft Exchange, and Google Workspace. It manages signatures for more than 9 million email accounts, adding campaign…
+  api_count: 10
+  score_band: strong
+  score_composite: 61.7
+  shared: 1
+- slug: cisco-xdr
+  name: Cisco XDR
+  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
+  api_count: 12
+  score_band: strong
+  score_composite: 61.4
+  shared: 1
 - slug: evervault
   name: Evervault
   description: Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption keys on Evervault's side while customers hold the ciphertext,…
   api_count: 1
   score_band: strong
-  score_composite: 61.7
-  shared: 1
-- slug: openzeppelin
-  name: OpenZeppelin
-  description: OpenZeppelin is a Web3 security platform providing tools for secure smart contract development, deployment, monitoring, and automation. The platform includes OpenZeppelin Contracts (battle-tested Solidity libraries), Defender (a developer security platform for auditing, deploying, and operating blo…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.6
+  score_composite: 61.4
   shared: 1
 - slug: amazon-kms
   name: Amazon KMS
   description: AWS Key Management Service (KMS) is a managed service that makes it easy to create and control the cryptographic keys used to protect your data, integrated with other AWS services to simplify encryption of data stored and managed in those services.
   api_count: 1
-  score_band: strong
-  score_composite: 61.1
-  shared: 1
-- slug: exclaimer
-  name: Exclaimer
-  description: Exclaimer is an email signature management platform used by IT, marketing, and sales teams to centrally create, deploy, and govern corporate email signatures across Microsoft 365, Microsoft Exchange, and Google Workspace. It manages signatures for more than 9 million email accounts, adding campaign…
-  api_count: 10
   score_band: strong
   score_composite: 61.1
   shared: 1
@@ -218,150 +197,171 @@ providers:
   score_band: strong
   score_composite: 60.7
   shared: 1
+- slug: ledger
+  name: Ledger
+  description: 'Ledger SAS is the Paris-headquartered maker of the Ledger hardware signer family (Nano, Flex, Stax) and the surrounding self-custody and institutional-custody platform. Its developer surface spans five distinct programs: the Ledger Wallet exchange-provider APIs (Swap, Buy, Sell, Earn and Card OpenA…'
+  api_count: 14
+  score_band: strong
+  score_composite: 60.7
+  shared: 1
+- slug: microsoft-azure-key-vault
+  name: Azure Key Vault
+  description: Azure Key Vault is a cloud service for securely storing and accessing secrets, keys, and certificates. It helps safeguard cryptographic keys and secrets used by cloud applications and services.
+  api_count: 1
+  score_band: strong
+  score_composite: 60.4
+  shared: 1
+- slug: openzeppelin
+  name: OpenZeppelin
+  description: OpenZeppelin is a Web3 security platform providing tools for secure smart contract development, deployment, monitoring, and automation. The platform includes OpenZeppelin Contracts (battle-tested Solidity libraries), Defender (a developer security platform for auditing, deploying, and operating blo…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.3
+  shared: 1
 provider_slugs:
-- amazon-web-services-aws
 - elk-stack
 - amazon-vpn
-- mailboxlayer
 - aembit
-- paubox
 - snyk
+- paubox
 - onetrust
+- mailboxlayer
 - shodan
 - clerk-com
-- strivacity
-- cisco-ise
+- cloudflare
 - drata
 - censys
 - barndoor
-- cloudflare
-- shieldlabs
+- strivacity
 - f5
+- cisco-ise
+- shieldlabs
 - imgauth-api-di-attestazione-opere-digitali
-- very-good-security
 - anecdotes
-- cisco-xdr
 - fastly
 - amazon-secrets-manager
-- evervault
-- openzeppelin
-- amazon-kms
 - exclaimer
+- cisco-xdr
+- evervault
+- amazon-kms
 - auth0
 - jfrog
-- microsoft-azure-key-vault
-- ibm
 - ledger
+- microsoft-azure-key-vault
+- openzeppelin
+- ibm
 - amazon-vpc
 - cisco-umbrella
 - greynoise
+- microsoft-azure-private-link
 - allegion
-- fraud-net
 - databricks
 - stytch
-- chef-software
+- fraud-net
 - 1password
-- zerotier
 - kondukto
-- cisco-secure-firewall
-- neutrino-api
 - amazon-iam-access-analyzer
+- cisco-secure-firewall
 - amazon-waf
 - amazon-guardduty
+- chef-software
+- neutrino-api
+- zerotier
 - amazon-firewall-manager
+- xbow
 - amazon-iam
-- secureframe
 - amazon-certificate-manager
 - fordefi
 - civic
-- xbow
 - treblle
 - amazon-fraud-detector
 - sailpoint
+- secureframe
 - amazon-config
 - basis-theory
-- method-security
 - yubico
-- malwarebytes
-- amazon-private-ca
-- amazon-cloudtrail
-- amazon-inspector
+- cisco-psirt
+- vulncheck
+- method-security
 - kolide
-- dopesecurity
 - agentgateway
+- amazon-private-ca
+- clearspeed
+- amazon-cloudtrail
+- malwarebytes
+- amazon-inspector
+- dopesecurity
+- splunk
 - jupiterone
 - panther
-- clearspeed
-- cipherowl
 - tenable
+- cipherowl
 - c1
-- cisco-psirt
+- typingdna
+- emailrep
 - qwiet-ai
-- upwind
 - smallstep
 - amazon-security-lake
-- ironcore-labs
-- pynt
+- microsoft-entra
 - vettly
-- typingdna
+- ironcore-labs
 - amazon-iot-device-defender
 - amazon-security-hub
-- microsoft-entra
 - projectdiscovery
-- aptible
 - snyk-container
-- abnormal
-- trusona
-- macadress
-- hacknotice
 - have-i-been-pwned
+- abnormal
+- macadress
+- opal-security
+- bureau-of-industry-and-security
+- hacknotice
 - indykite
 - slashid
+- aptible
+- pynt
 - huntress
 - regscale
 - transmit-security
-- virustotal
-- opal-security
+- trusona
 - amazon-shield
+- virustotal
 - adaptive-automation-technologies
-- nym-technologies
 - authzed
-- sandboxaq
+- nym-technologies
 - 1kosmos
 - openbao
+- sandboxaq
+- upwind
 - google-cloud-api-gateway
 - axway
 - kodex
 - sift-science
+- npm
 - verkada
 - infoblox
-- sysdig
 - viso-trust
+- mine
+- sysdig
 - domaintools
 - fossa
-- npm
-- conductorone
-- vulncheck
-- amazon-signer
-- bureau-of-industry-and-security
-- mine
 - synack
+- conductorone
+- dashlane
+- amazon-signer
+- levelblue
 - mcp-manager
+- vanta
 - termius
 - anomaly-detection
-- cubist
 - knostic
 - onecli
 - amazon-detective
-- emailrep
-- vanta
-- dashlane
-- levelblue
+- cubist
+- root-fka-slimai
 - tanium
 - accuknox
 - akamai
 - defakto-security
-- root-fka-slimai
 - kisi
 - amazon-trusted-advisor
 - plerion
@@ -370,70 +370,70 @@ provider_slugs:
 - amazon-codeguru-reviewer
 - cilium
 - clawvisor
-- cycognito
 - filigran
-- dragos
 - wegalvanize
 - google-cloud-secret-manager
 - border0
 - cisco
-- splunk
-- angelcam
+- oso
 - tracebit
 - google-cloud-armor
+- angelcam
+- cycognito
 - google-cloud-kms
-- sumo-logic
 - amazon-verified-access
 - zero-networks
 - binarly
 - cerby
+- dragos
+- hashicorp-vault
+- microsoft-sentinel
 - shuffle
 - aruba
 - google-cloud-artifact-registry
 - dust-identity
-- oso
 - push-security
-- permit-io
 - c-side
+- adaptive-security
 - sonar
 - google-cloud-iam
 - saviynt
 - amazon-control-tower
 - castle
-- microsoft-sentinel
 - spire
+- securden
 - p0-security
+- cyble
 - kuma
 - doppel
 - google-cloud-certificate-manager
+- sumo-logic
 - amazon-codeguru-security
 - amazon-verified-permissions
 - juniper
-- securden
+- permit-io
 - workday-security
-- cyble
 - forta
-- fortanix
+- imperva
 - coro
 - amazon-privatelink
 - google-safe-browsing
+- adlumininc
+- fortanix
 - socket
-- imperva
+- rapid7
 - dnsfilter
 - hacware
-- hashicorp-vault
-- venafi
-- adlumininc
-- certifid
 - spideroak
 - splunk-soar
 - arctic-wolf
-- dreamfactory
-- rapid7
 - base-operations
+- dreamfactory
 - rhel
 - aqua-security
+- certifid
 - coronet
+- infisical
 - signal
 - amazon-cloudhsm
 - google-recaptcha
@@ -441,30 +441,32 @@ provider_slugs:
 - pixee-ai
 - cybersecurity-and-infrastructure-security-agency
 - detectify
+- isovalent
 - symantec
-- pangea
+- venafi
 - viso-trust-protecht
+- pangea
+- onlinenic
 - veza
-- spyderbat
 - urbanfox
-- infisical
+- nudge-security
 - runreveal
-- sublime-security
 - apache-knox
 - soveren
+- spyderbat
 - sophos
-- adaptive-security
+- stackrox
+- sublime-security
 - mcafee
 - portswigger
 - vgs
-- nudge-security
-- stream-security
 - cakewalk
 - mondoo
+- stream-security
 - arcjet
 - falco
-- stackrox
 - scanner
+- sonarqube
 - spycloud
 - linkerd
 - stellar-cyber
@@ -472,27 +474,26 @@ provider_slugs:
 - safe-security
 - red-canary
 - strongdm
-- aserto
-- blindinsight
 - cynet
 - kyverno
 - nvd
-- sonarqube
+- sonatype
 - demisto
+- aserto
 - elastic
 - ocean-security
 - pulse
 - silent-push
 - eagle-eye-networks
-- sonatype
-- gcp
+- cisco-secure-client
 - keycloak
 - ipregistry
+- qlik
+- blindinsight
 - sigstore
-- black-duck-software
 - checkpoint
-- capy-inc
 - bot-butcher
+- capy-inc
 - google-beyondcorp
 - immersive-labs
 - qpoint
@@ -505,24 +506,22 @@ provider_slugs:
 - zero-trust-network-access
 - openssf
 - nucleus-security
-- spring-security
 - truffle-security
 - blowfish
 - preveil
 - trivy
 - truebiz
 - koi-security
+- spring-security
 - vault12
+- bitwarden
 - lumen-technologies
 - stairwell
 - watchtowr
 - devo
-- traceable
-- seventh-sense
-- bitwarden
 - securonix
+- traceable
 - apache-ranger
-- chaitin
 - natoma
 - corridor
 - safeline
@@ -533,23 +532,24 @@ provider_slugs:
 - hvault
 - escape
 - prisma-cloud
+- chaitin
 - protectai
 - passbolt
-- isovalent
 - prompt-armor
+- seventh-sense
 - immunefi
-- infra
 - nevis
 - coreview-fka-4ward365
 - movius
-- sso
+- netbird
 - mirrortab
 - virsec
+- sso
 - ipbase
 - confidential-computing-consortium
-- netbird
 - echomark
 - microsoft-intune
+- infra
 - tessian
 - aws-waf
 - bettercloud
@@ -558,12 +558,13 @@ provider_slugs:
 - doppler
 - repacket
 - truevault
+- vpn
 - clumio
 - anydesk
 - hypernative
 - hypori
-- vpn
 - anvilogic
+- proofpoint
 - certora
 - keyfactor
 - virgil-security
@@ -591,7 +592,6 @@ provider_slugs:
 - armis
 - bluerock-security
 - saml
-- cisco-secure-client
 - tensor9
 - tuf
 - lattica
@@ -601,21 +601,21 @@ provider_slugs:
 - valtix
 - zero-trust-security-model
 - centrify
-- quadrant-api
 - reality-defender
 - bridgecrew
 - dataminr
 - anitian
 - red-balloon-security
+- neuvector
 - heeler
 - theta-lake
 - uptycs
 - cato-networks
 - secret-double-octopus
 - arkose-labs
-- neuvector
 - cynomi
 - kata-containers
+- quadrant-api
 - tolmo
 - keeper-security
 - chainguard
@@ -653,6 +653,7 @@ provider_slugs:
 - keybase
 - txone-networks
 - thoropass
+- networkcalc
 - qualys
 - mosyle
 - wireshark
@@ -660,13 +661,11 @@ provider_slugs:
 - rewind
 - zeroeyes
 - brinqa
-- networkcalc
 - privado
 - qradar
 - arbor-networks
 - distroless
 - arthur-j-gallagher
-- electricai
 - risk-ledger
 - adyton
 - kenna-security
@@ -721,7 +720,6 @@ provider_slugs:
 - attivo-networks-sentinelone
 - skopenow
 - astrix-security
-- cloudflare-com
 - orionsec
 - securitypal
 - validit
@@ -775,7 +773,6 @@ provider_slugs:
 - nsknox
 - efflux-systems
 - flashpoint
-- imperai
 - novee-security
 - processbolt
 - exein
@@ -921,10 +918,10 @@ provider_slugs:
 - classify
 - devsecops
 - filterlists
+- riskiq
 - threat-jammer
 - trace-data
 - aireye
-- jumbo
 - ocra
 - secure-by-design
 - sonus
@@ -938,9 +935,7 @@ provider_slugs:
 - alterya
 - apex
 - aporeto
-- awake-security-arista-networks
 - axis-security
-- bluebox
 - bracket-computing
 - bromium
 - cambridge-aerospace
@@ -949,7 +944,6 @@ provider_slugs:
 - ciphercloud
 - citadel
 - cmd
-- confer
 - confluera
 - dasera
 - dehash-lt
@@ -970,21 +964,16 @@ provider_slugs:
 - keynexus
 - lightcyber
 - miru-labs
-- mitro
-- ns8
 - nok-nok-labs
 - normalyze
 - observo
-- observo-ai
 - octarine
 - oneasp
 - paragon-solutions
 - protent
 - reveal-imaging
-- riskiq
 - silk
 - soha-systems
-- st-bernard-software
 - stabilitas
 - talon
 - tcell-io
@@ -1011,10 +1000,8 @@ provider_slugs:
 - shieldx-fortinet
 - soc-os
 - zimperium
-- hipaa
 - barracuda-networks
 - national-security-agency
-- defense-counterintelligence-and-security-agency
 - federal-protective-service
 - scytl
 - cyemptive
@@ -1027,13 +1014,18 @@ provider_slugs:
 - crane
 - simility
 - aiignore
+- bluebox
 - brightmail
+- confer
 - dasient
 - dependabot-yml
 - fleetsmith
+- hipaa
 - jumboprivacy
 - likewise
+- mitro
 - morta-security
+- ns8
 - neoteris
 - network-alchemy
 - security-md
@@ -1044,6 +1036,7 @@ provider_slugs:
 - silver-tail
 - skybox-security
 - skyport-systems
+- st-bernard-software
 - sygate
 related:
 - slug: authentication
@@ -1055,20 +1048,20 @@ related:
 - slug: search
   name: API Evangelist Search
   shared: 2
-- slug: containers
-  name: Containers
-  shared: 2
 - slug: dns
   name: DNS
   shared: 2
 - slug: logging
   name: Logging
   shared: 2
+- slug: monitoring
+  name: Monitoring
+  shared: 2
 overview: 'Security is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [security.apievangelist.com](https://security.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Web Services (AWS), Elastic Stack (ELK Stack), Amazon VPN, Mailboxlayer, Aembit, Paubox, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Elastic Stack (ELK Stack), Amazon VPN, Aembit, Snyk, Paubox, OneTrust, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication, Encryption, API Evangelist Search, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Authentication, Encryption, API Evangelist Search, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

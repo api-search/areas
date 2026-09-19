@@ -6,7 +6,7 @@ description: An index and topic collection covering encryption services, key man
 area_url: https://encryption.apievangelist.com
 area_host: encryption.apievangelist.com
 icon: https://encryption.apievangelist.com/icon-thumb.png
-provider_count: 49
+provider_count: 48
 providers:
 - slug: paubox
   name: Paubox
@@ -20,7 +20,7 @@ providers:
   description: Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption keys on Evervault's side while customers hold the ciphertext,…
   api_count: 1
   score_band: strong
-  score_composite: 61.7
+  score_composite: 61.4
   shared: 1
 - slug: amazon-kms
   name: Amazon KMS
@@ -55,7 +55,7 @@ providers:
   description: Virtru is a data-centric security company whose Data Security Platform is built on OpenTDF, the open Trusted Data Format. Applications encrypt data with attribute-based access control (ABAC) and enforce who can decrypt it through Key Access Servers (KAS), independent of where the data travels — ema…
   api_count: 15
   score_band: developing
-  score_composite: 48.8
+  score_composite: 47.5
   shared: 1
 - slug: google-cloud-kms
   name: Google Cloud KMS
@@ -64,12 +64,19 @@ providers:
   score_band: developing
   score_composite: 45.0
   shared: 1
-- slug: fortanix
-  name: Fortanix
-  description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, HSM, tokenization and secrets service delivered as SaaS or as…
-  api_count: 3
+- slug: hashicorp-vault
+  name: HashiCorp Vault
+  description: HashiCorp Vault is a secrets management tool that provides secure storage, access control, and distribution of tokens, passwords, certificates, and encryption keys. It provides a unified interface to any secret while providing tight access control and recording a detailed audit log.
+  api_count: 8
   score_band: developing
-  score_composite: 42.8
+  score_composite: 44.5
+  shared: 1
+- slug: akeyless
+  name: Akeyless
+  description: Akeyless is a cloud-native identity security platform that unifies secrets management, machine identity, and privileged access for AI agents, machines, and humans at scale. The platform provides a REST API with 200+ endpoints covering secrets vaulting, dynamic secrets generation, certificate lifecy…
+  api_count: 1
+  score_band: developing
+  score_composite: 43.1
   shared: 1
 - slug: skyflow
   name: Skyflow
@@ -78,19 +85,12 @@ providers:
   score_band: developing
   score_composite: 42.6
   shared: 1
-- slug: hashicorp-vault
-  name: HashiCorp Vault
-  description: HashiCorp Vault is a secrets management tool that provides secure storage, access control, and distribution of tokens, passwords, certificates, and encryption keys. It provides a unified interface to any secret while providing tight access control and recording a detailed audit log.
-  api_count: 1
+- slug: fortanix
+  name: Fortanix
+  description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, HSM, tokenization and secrets service delivered as SaaS or as…
+  api_count: 3
   score_band: developing
-  score_composite: 42.3
-  shared: 1
-- slug: akeyless
-  name: Akeyless
-  description: Akeyless is a cloud-native identity security platform that unifies secrets management, machine identity, and privileged access for AI agents, machines, and humans at scale. The platform provides a REST API with 200+ endpoints covering secrets vaulting, dynamic secrets generation, certificate lifecy…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.1
+  score_composite: 42.5
   shared: 1
 - slug: spideroak
   name: SpiderOak
@@ -98,6 +98,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 42.0
+  shared: 1
+- slug: infisical
+  name: Infisical
+  description: Infisical is an open-source secrets management platform that provides developers with a centralized, end-to-end encrypted vault for storing, syncing, and rotating secrets across teams, environments, and cloud infrastructure. The platform offers a REST API enabling programmatic management of secrets…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.3
   shared: 1
 - slug: signal
   name: Signal
@@ -112,13 +119,6 @@ providers:
   api_count: 9
   score_band: developing
   score_composite: 40.8
-  shared: 1
-- slug: infisical
-  name: Infisical
-  description: Infisical is an open-source secrets management platform that provides developers with a centralized, end-to-end encrypted vault for storing, syncing, and rotating secrets across teams, environments, and cloud infrastructure. The platform offers a REST API enabling programmatic management of secrets…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.0
   shared: 1
 - slug: incountry
   name: InCountry
@@ -139,7 +139,7 @@ providers:
   description: BlindInsight (Blind Insight) is an end-to-end encrypted datastore and privacy-preserving data-analysis platform. It lets teams encrypt, ingest, search, and run machine learning and LLM queries over fully encrypted records without ever exposing plaintext, using a locally deployed Blind Proxy that tr…
   api_count: 1
   score_band: thin
-  score_composite: 37.8
+  score_composite: 36.5
   shared: 1
 - slug: xmtp
   name: XMTP
@@ -195,7 +195,7 @@ providers:
   description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corporate networks, protecting privacy on public Wi-Fi, and bypass…
   api_count: 6
   score_band: thin
-  score_composite: 30.7
+  score_composite: 31.4
   shared: 1
 - slug: virgil-security
   name: Virgil Security
@@ -227,14 +227,14 @@ provider_slugs:
 - openbao
 - virtru
 - google-cloud-kms
-- fortanix
-- skyflow
 - hashicorp-vault
 - akeyless
+- skyflow
+- fortanix
 - spideroak
+- infisical
 - signal
 - digicert
-- infisical
 - incountry
 - seismic-systems
 - blindinsight
@@ -264,7 +264,6 @@ provider_slugs:
 - ciphercloud
 - identify3d
 - keynexus
-- vera-security
 - bitcasa
 - secure-tunneling-protocols
 - security-protocols

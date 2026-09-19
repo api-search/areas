@@ -6,7 +6,7 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 188
+provider_count: 187
 providers:
 - slug: elk-stack
   name: Elastic Stack (ELK Stack)
@@ -22,12 +22,33 @@ providers:
   score_band: exemplar
   score_composite: 71.5
   shared: 1
+- slug: tgatlas
+  name: ChannelIndex (tgAtlas)
+  description: 'A read-only HTTP API over public Telegram data: resolve @usernames to numeric IDs, read channel size/description, walk post history with per-post views/forwards, pull Telegram similar-channel recommendations, and search the public directory. No phone number or MTProto session required. Auth via Rap…'
+  api_count: 1
+  score_band: exemplar
+  score_composite: 71.1
+  shared: 1
 - slug: bloomreach
   name: Bloomreach
   description: Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs f…
   api_count: 8
   score_band: exemplar
-  score_composite: 67.2
+  score_composite: 68.6
+  shared: 1
+- slug: crawl4ai
+  name: Crawl4AI
+  description: Crawl4AI is an open-source, Apache-2.0 web crawler and scraper built to turn any URL into clean, LLM-ready data — Markdown, typed JSON, screenshots, PDFs, or a map of every URL on a domain. Operated by CONTEXT4AI PTE LTD of Singapore and created by Hossein Tohidi (@unclecode), the project pairs a 7…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.6
+  shared: 1
+- slug: open-food-facts
+  name: Open Food Facts
+  description: Open Food Facts is a collaborative, free and open database of food products from around the world, built by everyone for everyone. Anyone can scan a barcode and contribute product data, and the whole database is published under the Open Database License so it can be re-used for any purpose. The pro…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.3
   shared: 1
 - slug: shodan
   name: Shodan
@@ -42,13 +63,6 @@ providers:
   api_count: 5
   score_band: exemplar
   score_composite: 66.8
-  shared: 1
-- slug: crawl4ai
-  name: Crawl4AI
-  description: Crawl4AI is an open-source, Apache-2.0 web crawler and scraper built to turn any URL into clean, LLM-ready data — Markdown, typed JSON, screenshots, PDFs, or a map of every URL on a domain. Operated by CONTEXT4AI PTE LTD of Singapore and created by Hossein Tohidi (@unclecode), the project pairs a 7…
-  api_count: 3
-  score_band: strong
-  score_composite: 65.6
   shared: 1
 - slug: google-indexing
   name: Google Indexing
@@ -90,14 +104,7 @@ providers:
   description: Clerk.io is an e-commerce personalization platform that uses artificial intelligence and machine learning to deliver tailored product recommendations, on-site search results, audience-segmented email campaigns, and merchandising controls for online retailers. The platform exposes a REST API for pro…
   api_count: 2
   score_band: strong
-  score_composite: 59.1
-  shared: 1
-- slug: amazon-opensearch-service
-  name: Amazon OpenSearch Service
-  description: Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters for log analytics, full-text search, application monitoring, and more.
-  api_count: 1
-  score_band: strong
-  score_composite: 58.8
+  score_composite: 58.5
   shared: 1
 - slug: amazon-cloudsearch
   name: Amazon CloudSearch
@@ -113,12 +120,26 @@ providers:
   score_band: strong
   score_composite: 58.1
   shared: 1
+- slug: perplexity
+  name: Perplexity
+  description: Perplexity AI is an answer engine that delivers accurate answers to complex questions using large language models with real-time web search capabilities.
+  api_count: 1
+  score_band: strong
+  score_composite: 57.8
+  shared: 1
 - slug: insider
   name: Insider
   description: Insider (rebranded Insider One; useinsider.com now redirects to insiderone.com) is an AI-native customer engagement and personalization platform used by 2,000+ global brands. It unifies a Customer Data Platform, cross-channel journey orchestration (Architect), personalization, predictive segmentati…
   api_count: 18
   score_band: strong
   score_composite: 57.0
+  shared: 1
+- slug: anyapi
+  name: AnyAPI
+  description: AnyAPI is a unified gateway and marketplace for scraping and data APIs, operated by AnyAPI Labs, Inc. One key and one prepaid USD wallet reach 363 normalized third-party data sources - social profiles and posts, search and SEO, commerce listings and reviews, sales enrichment and email verification,…
+  api_count: 2
+  score_band: strong
+  score_composite: 56.8
   shared: 1
 - slug: serper
   name: Serper
@@ -130,9 +151,16 @@ providers:
 - slug: tmdb
   name: The Movie Database
   description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
-  api_count: 22
+  api_count: 21
   score_band: strong
-  score_composite: 56.0
+  score_composite: 55.9
+  shared: 1
+- slug: crustapi
+  name: CrustAPI
+  description: Hosted API delivering structured Google (Search/Maps/etc.) and public LinkedIn data as JSON for developers, data teams, and AI agents. Pay-per-successful-result billing with an OpenAPI spec, an llms.txt, an x402 agent-payment endpoint, and a local MCP server.
+  api_count: 2
+  score_band: strong
+  score_composite: 55.7
   shared: 1
 - slug: unblocked
   name: Unblocked
@@ -146,7 +174,7 @@ providers:
   description: Browserless is a cloud browser-automation platform that runs managed Chromium, Chrome, Edge, Firefox, and WebKit browsers for Puppeteer, Playwright, and Selenium clients, plus a GraphQL-based stealth automation layer (BrowserQL) and a family of REST APIs for screenshots, PDFs, content scraping, fun…
   api_count: 1
   score_band: strong
-  score_composite: 54.6
+  score_composite: 55.3
   shared: 1
 - slug: vectara
   name: Vectara
@@ -160,7 +188,7 @@ providers:
   description: Sylvia API is a third-party Reddit data API that serves Reddit content as JSON — posts, comments with full recursive threads, subreddit and user surfaces, global search, and a live comment stream. Thirty-six operations across twelve tags cover the read surface (posts, comments, subreddits, users, s…
   api_count: 3
   score_band: developing
-  score_composite: 54.1
+  score_composite: 54.0
   shared: 1
 - slug: alphasense
   name: AlphaSense
@@ -176,13 +204,6 @@ providers:
   score_band: developing
   score_composite: 52.6
   shared: 1
-- slug: crustapi
-  name: CrustAPI
-  description: Hosted API delivering structured Google (Search/Maps/etc.) and public LinkedIn data as JSON for developers, data teams, and AI agents. Pay-per-successful-result billing with an OpenAPI spec, an llms.txt, an x402 agent-payment endpoint, and a local MCP server.
-  api_count: 1
-  score_band: developing
-  score_composite: 52.3
-  shared: 1
 - slug: constructorio
   name: Constructor.io
   description: Constructor (Constructor.io) is an AI-powered ecommerce search and product discovery platform for online retailers. Its APIs cover autocomplete/autosuggest, keyword and natural-language search, image search, category browse, recommendations, quizzes, collections, offsite/email discovery, retail med…
@@ -195,149 +216,127 @@ providers:
   description: Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters in the AWS Cloud. It offers visualization capabilities powered by OpenSearch Dashboards and Kibana, and provides direct access to the OpenSearch API so that existing code and applicat…
   api_count: 1
   score_band: developing
-  score_composite: 51.7
-  shared: 1
-- slug: scribe
-  name: Scribe
-  description: Scribe (scribehow) is an AI workflow-documentation platform founded in 2019 that automatically turns any process or software walkthrough into a step-by-step guide. Its products — Scribe Capture, the knowledge base, and the newer Scribe Optimize workflow-mapping platform — are used by more than five…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.2
-  shared: 1
-- slug: wego
-  name: Wego
-  description: Wego (Wego Pte Ltd, Singapore, with a regional base in Dubai) is a travel metasearch engine and online travel agency serving travelers across the Middle East, North Africa, Southeast Asia and beyond. It compares flights and hotels across airlines, hotels and online travel agencies, and sells Book-o…
-  api_count: 4
-  score_band: developing
-  score_composite: 50.9
-  shared: 1
-- slug: searchapi
-  name: SearchApi
-  description: SearchApi is a real-time SERP and search-data API that gives applications and AI agents structured access to results from 100+ search engines — Google Search, Google Maps, Google News, Google Scholar, Google Images, Google Shopping, Google Trends, Google Jobs, YouTube, Bing, Baidu, and marketplace…
-  api_count: 3
-  score_band: developing
-  score_composite: 50.7
+  score_composite: 52.1
   shared: 1
 provider_slugs:
 - elk-stack
 - algolia
+- tgatlas
 - bloomreach
+- crawl4ai
+- open-food-facts
 - shodan
 - google-search-console
-- crawl4ai
 - google-indexing
 - ahrefs
 - serpwow
 - geekflare
 - exa-ai
 - clerk-io
-- amazon-opensearch-service
 - amazon-cloudsearch
 - mixedbread-ai
+- perplexity
 - insider
+- anyapi
 - serper
 - tmdb
+- crustapi
 - unblocked
 - browserless
 - vectara
 - sylvia-api
 - alphasense
 - vespa-ai
-- crustapi
 - constructorio
 - amazon-opensearch
 - scribe
 - wego
 - searchapi
-- anyapi
+- bing-news
 - dexcare
-- tako
 - coveo
+- tako
 - brightedge
 - duckduckgo
 - mcp360
-- bing-news
 - aito-technologies
 - chroma
 - openserp
+- getty-images
 - uspto-trademark-search-api
+- google
 - newscatcher
 - airweave
-- depictai
-- google
-- openmenu
 - microsoft-azure-search
+- openmenu
 - wikimedia
 - depict
-- tinyfish
 - tweetapi
+- tinyfish
 - newsapi
 - tavily
 - cribl
-- exa
+- trieve
 - google-custom-search
+- meilisearch
+- outdoorsy
 - ragflow
 - quickwit
-- trieve
-- meilisearch
-- rentberry
+- radar-cnpj
 - google-youtube
 - artlist
 - tvu-networks
 - kagi
 - europeana
+- rentberry
+- macrometa
 - moz
 - active-network
-- macrometa
-- outdoorsy
-- new-york-times-company
 - nuclia
 - apache-nutch
 - jetify
-- openverse
+- tollbit
 - apache-solr
 - motion-elements
+- openverse
 - elasticsearch
 - zeroentropy
 - mem
 - telenav
-- tollbit
 - chroniclingamerica
-- radar-cnpj
 - opensearch
 - landing
 - topk
 - twelvelabs
-- gist
-- wolframalpha
-- lily-ai
-- iconik
 - tenor
+- gist
+- new-york-times-company
+- wolframalpha
+- iconik
+- lily-ai
+- physna
 - parseflow
+- prorataai
 - google-books
 - manticore
-- prorataai
-- mytomorrows
+- microsoft-bing
 - the-news-api
 - listennotes
 - delphi
 - phraseanet
-- microsoft-bing
 - preply
-- federal-laboratory-consortium-for-technology-transfer
 - slite
 - midpage
 - orama
 - elastic
+- mytomorrows
 - misoai
 - google-cloud-talent-solution
 - you-com
 - brave-browser
 - searchstax
 - nuxeo
-- currentsapi
-- physna
-- brightedge-technologies
+- federal-laboratory-consortium-for-technology-transfer
 - searchcraft
 - openlaws
 - point-me
@@ -352,19 +351,19 @@ provider_slugs:
 - serpapi
 - mastodon-instances
 - qeenai
-- constructor
 - dvids-api
 - the-index-fyi
 - paradedb
 - glean
 - quissly-inc
+- coworkingview-api
 - moda-operandi
 - apache-lucene
 - marginalia-search
 - crystallize
+- open-library
 - poetry-db
 - dynamic-yield
-- open-library
 - solve-intelligence
 - snapmagic
 - elastic-stack
@@ -392,25 +391,25 @@ provider_slugs:
 - poly
 - diem
 - weshine
-- ask
 - excite-japan-co-ltd-jasdaq-3754
 - curlie
 - my-china-roots
-- cleargraph
 - command-e
-- neeva
 - alphabet
 - alien-labs
+- ask
 - blekko
+- cleargraph
 - dashbase
 - freejit
 - kosmix
 - legit-patents
+- neeva
 - vark
 related:
 - slug: scraping
   name: Scraping
-  shared: 2
+  shared: 3
 - slug: discovery
   name: API Evangelist Discovery
   shared: 2
@@ -420,8 +419,8 @@ related:
 - slug: security
   name: Security
   shared: 2
-- slug: network
-  name: Network
+- slug: internet-of-things
+  name: Internet of Things
   shared: 1
 - slug: ai-automation
   name: AI Automation
@@ -429,7 +428,7 @@ related:
 overview: 'API Evangelist Search is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [search.apievangelist.com](https://search.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Elastic Stack (ELK Stack), Algolia, Bloomreach, Shodan, Google Search Console, Crawl4AI, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Elastic Stack (ELK Stack), Algolia, ChannelIndex (tgAtlas), Bloomreach, Crawl4AI, Open Food Facts, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Scraping, API Evangelist Discovery, DNS, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

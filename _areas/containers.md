@@ -6,14 +6,14 @@ description: An index of container runtime, orchestration, registry, security, a
 area_url: https://containers.apievangelist.com
 area_host: containers.apievangelist.com
 icon: https://containers.apievangelist.com/icon-thumb.png
-provider_count: 136
+provider_count: 139
 providers:
-- slug: amazon-web-services-aws
-  name: Amazon Web Services (AWS)
-  description: Amazon Web Services is the cloud computing arm of Amazon and the largest public cloud provider in the world, offering more than 200 services across compute, storage, databases, networking, analytics, machine learning, security and developer tooling from data centers in dozens of Regions. Nearly eve…
-  api_count: 1
+- slug: amazon-lightsail
+  name: Amazon Lightsail
+  description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Lightsail provides developers compute, storage, and networking ca…
+  api_count: 2
   score_band: exemplar
-  score_composite: 78.2
+  score_composite: 72.3
   shared: 1
 - slug: microsoft-azure-kubernetes-service
   name: Azure Kubernetes Service
@@ -29,26 +29,33 @@ providers:
   score_band: exemplar
   score_composite: 71.0
   shared: 1
+- slug: canonical
+  name: Canonical
+  description: Canonical is the company behind Ubuntu, the world's most popular open source operating system for cloud, servers, desktops, IoT, and Kubernetes. Canonical publishes a broad set of developer APIs spanning the Ubuntu and Canonical ecosystem — the Snap Store and Snapcraft, the Charmhub charm marketpla…
+  api_count: 13
+  score_band: exemplar
+  score_composite: 67.3
+  shared: 1
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 24
   score_band: strong
-  score_composite: 65.1
-  shared: 1
-- slug: canonical
-  name: Canonical
-  description: Canonical is the company behind Ubuntu, the world's most popular open source operating system for cloud, servers, desktops, IoT, and Kubernetes. Canonical publishes a broad set of developer APIs spanning the Ubuntu and Canonical ecosystem — the Snap Store and Snapcraft, the Charmhub charm marketpla…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.4
+  score_composite: 66.3
   shared: 1
 - slug: koyeb
   name: Koyeb
   description: Koyeb is a developer-friendly serverless platform for deploying applications, Postgres databases, GPU workloads and isolated code-execution sandboxes across a global edge network. The Koyeb REST API is a Swagger 2.0 contract generated from protobuf services by grpc-gateway — 126 paths, 177 operatio…
   api_count: 1
   score_band: strong
-  score_composite: 64.2
+  score_composite: 64.3
+  shared: 1
+- slug: azure-container-apps
+  name: Azure Container Apps
+  description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.6
   shared: 1
 - slug: paperspace
   name: Paperspace
@@ -56,13 +63,6 @@ providers:
   api_count: 4
   score_band: strong
   score_composite: 61.0
-  shared: 1
-- slug: azure-container-apps
-  name: Azure Container Apps
-  description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.9
   shared: 1
 - slug: ibm
   name: IBM
@@ -99,33 +99,33 @@ providers:
   score_band: strong
   score_composite: 56.7
   shared: 1
-- slug: cloud-foundry
-  name: Cloud Foundry
-  description: Cloud Foundry is an open-source, multi-cloud Platform as a Service (PaaS) governed by the Cloud Foundry Foundation. It provides a developer-friendly application platform where operators push source code or container images and Cloud Foundry handles staging, routing, scaling, and lifecycle managemen…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.2
-  shared: 1
 - slug: dagger
   name: Dagger
   description: Dagger is an open-source programmable CI/CD engine that runs pipelines in containers using a unified, introspectable GraphQL API. Pipelines are written as code in the developer's preferred language (Go, Python, TypeScript, PHP, Java, .NET, Elixir, or Rust) using Dagger SDKs and packaged as Dagger M…
   api_count: 1
   score_band: strong
-  score_composite: 55.9
+  score_composite: 56.6
   shared: 1
-- slug: fargate
-  name: AWS Fargate
-  description: AWS Fargate is a serverless, pay-as-you-go compute engine for containers that works with Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS). It removes the need to provision and manage servers, letting you focus on building and running applications without managing i…
-  api_count: 1
+- slug: cloud-foundry
+  name: Cloud Foundry
+  description: Cloud Foundry is an open-source, multi-cloud Platform as a Service (PaaS) governed by the Cloud Foundry Foundation. It provides a developer-friendly application platform where operators push source code or container images and Cloud Foundry handles staging, routing, scaling, and lifecycle managemen…
+  api_count: 2
   score_band: strong
-  score_composite: 55.5
+  score_composite: 56.2
+  shared: 1
+- slug: goharbor
+  name: GoHarbor
+  description: 'Harbor is an open source, CNCF-hosted registry that stores, signs and scans OCI artifacts, adding the policy and identity layer a plain container registry lacks: projects, RBAC and robot accounts, vulnerability scanning and SBOM generation, Cosign content trust, tag retention and immutability, quot…'
+  api_count: 2
+  score_band: strong
+  score_composite: 54.9
   shared: 1
 - slug: seqera-labs
   name: Seqera Labs
   description: Seqera (Seqera Labs) builds open, cloud-based software for scientific data analysis at scale. It is the company behind Nextflow, the widely adopted open-source workflow orchestration engine, and the Seqera Platform (formerly Nextflow Tower) for launching, monitoring, and governing data pipelines ac…
   api_count: 1
-  score_band: strong
-  score_composite: 55.4
+  score_band: developing
+  score_composite: 54.1
   shared: 1
 - slug: amazon-ecs
   name: Amazon ECS
@@ -139,7 +139,14 @@ providers:
   description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster of applications and managed services (PostgreSQL, MySQL, Redi…
   api_count: 3
   score_band: developing
-  score_composite: 52.8
+  score_composite: 52.9
+  shared: 1
+- slug: gameye
+  name: Gameye
+  description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single REST API — the Session API. Studios call POST /session with a r…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.9
   shared: 1
 - slug: snyk-container
   name: Snyk Container
@@ -148,16 +155,16 @@ providers:
   score_band: developing
   score_composite: 51.8
   shared: 1
-- slug: gameye
-  name: Gameye
-  description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single REST API — the Session API. Studios call POST /session with a r…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.7
-  shared: 1
 - slug: amazon-batch
   name: Amazon Batch
   description: AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (EC2 On-Demand, EC2 Spot, Fargate, EKS) based on the volume and specific re…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.3
+  shared: 1
+- slug: azure-container-instances
+  name: Azure Container Instances
+  description: Azure Container Instances (ACI) is the fastest and simplest way to run containers in Azure without having to manage virtual machines or adopt a higher-level orchestration service. It offers serverless containers with per-second billing, custom sizes, and seamless integration with the Azure ecosyste…
   api_count: 1
   score_band: developing
   score_composite: 51.3
@@ -190,6 +197,13 @@ providers:
   score_band: developing
   score_composite: 50.4
   shared: 1
+- slug: amazon-app-runner
+  name: Amazon App Runner
+  description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
+  api_count: 3
+  score_band: developing
+  score_composite: 49.5
+  shared: 1
 - slug: scaleway
   name: Scaleway
   description: Scaleway is a European cloud provider offering a full suite of compute, storage, networking, AI, and serverless infrastructure services. Scaleway provides a comprehensive REST API for programmatic management of all cloud resources including Instances, Kubernetes clusters (Kapsule and Kosmos), manag…
@@ -204,88 +218,74 @@ providers:
   score_band: developing
   score_composite: 49.2
   shared: 1
-- slug: red-hat-openshift
-  name: Red Hat OpenShift
-  description: Red Hat OpenShift is an enterprise Kubernetes platform that provides a consistent hybrid cloud foundation for building, deploying, and scaling containerized applications. OpenShift extends Kubernetes with developer productivity tools, built-in CI/CD pipelines, integrated monitoring and logging, aut…
-  api_count: 2
-  score_band: developing
-  score_composite: 49.1
-  shared: 1
-- slug: sysdig
-  name: Sysdig
-  description: Sysdig is a cloud and container security platform that provides runtime threat detection, vulnerability management, cloud security posture management (CSPM), compliance automation, and observability for containers, Kubernetes, and cloud environments. Sysdig Monitor offers full-stack monitoring and…
-  api_count: 2
-  score_band: developing
-  score_composite: 49.0
-  shared: 1
 provider_slugs:
-- amazon-web-services-aws
+- amazon-lightsail
 - microsoft-azure-kubernetes-service
 - calico
-- cloudflare
 - canonical
+- cloudflare
 - koyeb
-- paperspace
 - azure-container-apps
+- paperspace
 - ibm
 - jfrog-container-registry
 - red-hat
 - amazon-ecr
 - tensordock
-- cloud-foundry
 - dagger
-- fargate
+- cloud-foundry
+- goharbor
 - seqera-labs
 - amazon-ecs
 - platform.sh
-- snyk-container
 - gameye
+- snyk-container
 - amazon-batch
+- azure-container-instances
 - aws-app-runner
 - upsun
 - amazon-managed-prometheus
 - kubernetes
+- amazon-app-runner
 - scaleway
 - balena
 - red-hat-openshift
 - sysdig
-- amazon-app-runner
+- azure-container-registry
 - amazon-eks
-- amazon-fargate
 - buildpacks
+- amazon-fargate
 - rancher
-- google-cloud-kubernetes-engine
-- smol-machines
 - argo-workflows
+- smol-machines
+- google-cloud-kubernetes-engine
 - timoni
 - coolify
 - google-cloud-run
 - google-cloud-artifact-registry
-- azure-container-instances
-- openshift
-- incus
-- portainer
 - docker-hub
 - microsoft-azure-service-fabric
+- incus
+- navis
+- portainer
 - quay
 - beam-cloud
-- aqua-security
 - woodpecker-ci
+- aqua-security
 - drone
 - docker
-- azure-container-registry
 - anchore
-- spyderbat
 - cosign
+- spyderbat
 - oracle-container-engine
 - github-container-registry
 - google-cloud-container-registry
-- podman
 - solaris-zones
+- flatcar-container-linux
+- podman
 - carvel
 - veritas-cluster
 - youki
-- flatcar-container-linux
 - firecracker
 - spinnaker
 - apptainer
@@ -300,27 +300,30 @@ provider_slugs:
 - gitlab-container-registry
 - trivy
 - cri-o
+- cargosmart
 - scalable-services
-- portworx
 - prisma-cloud
+- portworx
 - inspur-cloud
 - testcontainers
 - weave-net
 - aws-batch
 - runc
+- systemd
+- buildah
 - openebs
 - containerfile
-- cni
 - neuvector
+- cni
 - kata-containers
+- openfin
 - open-container-initiative
+- proxmox
 - chainguard
 - gvisor
-- proxmox
 - werf
 - earthly
 - sst-dev
-- buildah
 - ibm-cloud-kubernetes
 - coasts
 - distroless
@@ -356,29 +359,29 @@ provider_slugs:
 - distelli
 - heptio
 related:
-- slug: serverless
-  name: Serverless
-  shared: 6
 - slug: deployment
   name: Deployment
-  shared: 5
+  shared: 6
+- slug: serverless
+  name: Serverless
+  shared: 4
 - slug: orchestration
   name: Orchestration
   shared: 3
-- slug: machine-learning
-  name: Machine Learning
+- slug: database
+  name: Database
   shared: 2
 - slug: microservices
   name: Microservices
   shared: 2
-- slug: security
-  name: Security
-  shared: 2
+- slug: dns
+  name: DNS
+  shared: 1
 overview: 'Containers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [containers.apievangelist.com](https://containers.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Web Services (AWS), Azure Kubernetes Service, Calico, Cloudflare, Canonical, Koyeb, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Lightsail, Azure Kubernetes Service, Calico, Canonical, Cloudflare, Koyeb, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Serverless, Deployment, Orchestration, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Deployment, Serverless, Orchestration, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

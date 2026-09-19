@@ -6,7 +6,7 @@ description: An index and topic collection covering developer changelog publishi
 area_url: https://change-log.apievangelist.com
 area_host: change-log.apievangelist.com
 icon: https://change-log.apievangelist.com/icon-thumb.png
-provider_count: 6
+provider_count: 7
 providers:
 - slug: announcekit
   name: AnnounceKit
@@ -15,19 +15,19 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
+- slug: beamer
+  name: Beamer
+  description: Beamer is a changelog and notification center tool for announcing product updates, new features, and API changes to end users. It provides an embeddable feed widget, push notifications, email digests, and a public changelog page. The Beamer REST API enables programmatic management of posts, users,…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.7
+  shared: 1
 - slug: canny
   name: Canny
   description: Canny is a customer feedback and product management platform that collects, organizes, and prioritizes feature requests from users and internal teams, ties them to roadmaps and changelogs, and surfaces product analytics. The Canny REST API exposes boards, posts, comments, votes, users, companies, c…
   api_count: 1
   score_band: thin
-  score_composite: 34.6
-  shared: 1
-- slug: beamer
-  name: Beamer
-  description: Beamer is a changelog and notification center tool for announcing product updates, new features, and API changes to end users. It provides an embeddable feed widget, push notifications, email digests, and a public changelog page. The Beamer REST API enables programmatic management of posts, users,…
-  api_count: 1
-  score_band: emerging
-  score_composite: 22.3
+  score_composite: 35.3
   shared: 1
 - slug: launchnotes
   name: LaunchNotes
@@ -43,6 +43,13 @@ providers:
   score_band: emerging
   score_composite: 14.2
   shared: 1
+- slug: oasdiff
+  name: Oasdiff
+  description: Oasdiff is an open-source tool for detecting breaking changes and generating changelogs from OpenAPI specifications.
+  api_count: 1
+  score_band: emerging
+  score_composite: 11.2
+  shared: 1
 - slug: makelog
   name: Makelog
   description: Makelog was a product changelog and release-notes platform that helped software and product teams collect, curate, and publish product updates to communicate releases with customers and internal stakeholders. It was surfaced as a portfolio company of Accel and added to the API Evangelist network as…
@@ -52,22 +59,23 @@ providers:
   shared: 1
 provider_slugs:
 - announcekit
-- canny
 - beamer
+- canny
 - launchnotes
 - changelog-md
+- oasdiff
 - makelog
 related:
 - slug: deprecation
   name: Deprecation
-  shared: 2
+  shared: 3
 - slug: versioning
   name: Versioning
   shared: 1
 overview: 'Change Log is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [change-log.apievangelist.com](https://change-log.apievangelist.com).
 
 
-  Providers on the network working in this area include AnnounceKit, Canny, Beamer, LaunchNotes, CHANGELOG.md (Keep a Changelog), and Makelog — each links out to that provider''s APIs, schemas, and governance artifacts.
+  7 providers on the network work in this area, including AnnounceKit, Beamer, Canny, LaunchNotes, CHANGELOG.md (Keep a Changelog), Oasdiff, and 1 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Deprecation and Versioning. Browse every area at [areas.apis.io](https://apis.io/areas/).'

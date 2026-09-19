@@ -6,21 +6,14 @@ description: AIOps applies artificial intelligence and machine learning to IT op
 area_url: https://aiops.apievangelist.com
 area_host: aiops.apievangelist.com
 icon: https://aiops.apievangelist.com/icon-thumb.png
-provider_count: 50
+provider_count: 49
 providers:
-- slug: honeycomb-io
-  name: Honeycomb
-  description: Honeycomb is an observability platform for understanding complex distributed systems through high-cardinality, high-dimensional telemetry. Founded in 2016 by Charity Majors and Christine Yen and headquartered in San Francisco, it stores traces, logs and metrics as wide events and lets engineers que…
-  api_count: 13
-  score_band: exemplar
-  score_composite: 80.6
-  shared: 1
 - slug: soda-data
   name: Soda
   description: Soda is a data quality and data observability platform for the modern data stack. Its core abstraction is the data contract — a declarative YAML source of truth that defines the checks a dataset must pass — extended by organization-wide data standards, ML-based metric monitors for anomaly detection…
   api_count: 1
   score_band: exemplar
-  score_composite: 71.6
+  score_composite: 71.7
   shared: 1
 - slug: akuity
   name: Akuity
@@ -32,23 +25,30 @@ providers:
 - slug: bigpanda
   name: BigPanda
   description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
-  api_count: 27
+  api_count: 29
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 69.9
   shared: 1
 - slug: firehydrant
   name: FireHydrant
   description: FireHydrant is an incident management platform, now part of Freshworks, that covers the whole incident lifecycle — declaring and driving incidents from Slack or Microsoft Teams, Signals on-call scheduling and alerting, automated runbooks, a service catalog with environments and functionalities, its…
-  api_count: 1
+  api_count: 2
   score_band: strong
-  score_composite: 65.5
+  score_composite: 66.1
   shared: 1
 - slug: logz-io
   name: Logz.io
   description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
-  api_count: 19
+  api_count: 1
   score_band: strong
-  score_composite: 64.9
+  score_composite: 66.0
+  shared: 1
+- slug: logicmonitor
+  name: LogicMonitor
+  description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
+  api_count: 4
+  score_band: strong
+  score_composite: 63.1
   shared: 1
 - slug: groundcover
   name: Groundcover
@@ -62,28 +62,14 @@ providers:
   description: Moogsoft is an AIOps platform for IT operations, DevOps and SRE teams that ingests events, alerts and metrics from across a hybrid estate, deduplicates and reduces noise, correlates related alerts into incidents, detects anomalies in metric streams, and surfaces probable root cause and similar past…
   api_count: 17
   score_band: strong
-  score_composite: 61.2
-  shared: 1
-- slug: sciencelogic
-  name: ScienceLogic
-  description: ScienceLogic is an AIOps and IT operations company whose ScienceLogic AI Platform — rebranded in 2026 as the Skylar family — covers infrastructure and application observability, network configuration and compliance, and workflow automation. Skylar One (formerly SL1) is the observability platform, w…
-  api_count: 5
-  score_band: strong
-  score_composite: 59.5
+  score_composite: 59.3
   shared: 1
 - slug: metaplane
   name: Metaplane
   description: Metaplane is a data observability platform for data teams — automated anomaly detection, data quality monitoring, column-level lineage, schema-change alerting and data CI/CD across Snowflake, BigQuery, Redshift, Databricks, ClickHouse, Postgres, MySQL, SQL Server, S3, dbt, Airflow and the major BI…
   api_count: 1
   score_band: strong
-  score_composite: 59.4
-  shared: 1
-- slug: logicmonitor
-  name: LogicMonitor
-  description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
-  api_count: 2
-  score_band: strong
-  score_composite: 58.6
+  score_composite: 58.7
   shared: 1
 - slug: elastic-observability
   name: Elastic Observability
@@ -92,33 +78,40 @@ providers:
   score_band: strong
   score_composite: 58.4
   shared: 1
+- slug: sciencelogic
+  name: ScienceLogic
+  description: ScienceLogic is an AIOps and IT operations company whose ScienceLogic AI Platform — rebranded in 2026 as the Skylar family — covers infrastructure and application observability, network configuration and compliance, and workflow automation. Skylar One (formerly SL1) is the observability platform, w…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.7
+  shared: 1
 - slug: deployxa
   name: Deployxa
   description: AI-first autonomous cloud deployment platform for deploying AI-built and containerized web apps to production, featuring a deployment intelligence engine, global edge deployment, managed databases, VPS clusters, and a CLI. Publishes an OpenAPI 3.0.3 contract at /openapi.json, an llms.txt, an A2A ag…
   api_count: 1
   score_band: strong
-  score_composite: 56.0
-  shared: 1
-- slug: 7signalsolutions
-  name: 7SIGNAL
-  description: 7SIGNAL is an enterprise wireless and wired network experience monitoring platform, headquartered in Independence, Ohio, that measures Wi-Fi and network performance from the client's point of view using vendor-agnostic Sapphire Eye hardware sensors and Mobile Eye software agents installed on endpoi…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.1
-  shared: 1
-- slug: kentik
-  name: Kentik
-  description: Kentik is a network observability company whose SaaS platform (the Kentik Portal) unifies network flow records, BGP routing, SNMP and streaming telemetry, synthetic tests, and cloud VPC/flow logs into one analytics engine for network performance monitoring, capacity planning, DDoS detection and mit…
-  api_count: 20
-  score_band: developing
-  score_composite: 54.1
+  score_composite: 57.0
   shared: 1
 - slug: chronosphere
   name: Chronosphere
   description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
   api_count: 3
   score_band: developing
-  score_composite: 51.2
+  score_composite: 53.0
+  shared: 1
+- slug: 7signalsolutions
+  name: 7SIGNAL
+  description: 7SIGNAL is an enterprise wireless and wired network experience monitoring platform, headquartered in Independence, Ohio, that measures Wi-Fi and network performance from the client's point of view using vendor-agnostic Sapphire Eye hardware sensors and Mobile Eye software agents installed on endpoi…
+  api_count: 3
+  score_band: developing
+  score_composite: 52.7
+  shared: 1
+- slug: kentik
+  name: Kentik
+  description: Kentik is a network observability company whose SaaS platform (the Kentik Portal) unifies network flow records, BGP routing, SNMP and streaming telemetry, synthetic tests, and cloud VPC/flow logs into one analytics engine for network performance monitoring, capacity planning, DDoS detection and mit…
+  api_count: 20
+  score_band: developing
+  score_composite: 52.7
   shared: 1
 - slug: zenoss
   name: Zenoss
@@ -134,13 +127,6 @@ providers:
   score_band: developing
   score_composite: 47.7
   shared: 1
-- slug: opsmill
-  name: OpsMill
-  description: OpsMill is the company behind Infrahub, an open-source, graph-based infrastructure data management platform that unifies a source of truth for network, data center, and cloud automation. Infrahub combines a flexible, extensible schema, native version control with branching and merging, and unified…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.2
-  shared: 1
 - slug: brownie
   name: IncidentFox (Brownie)
   description: IncidentFox (the company was surfaced in the API Evangelist network under its Y Combinator portfolio codename "Brownie") is an open-source, AI-powered SRE platform that automates production incident investigation and response. Its multi-agent system triages alerts, queries logs, metrics, traces and…
@@ -155,12 +141,19 @@ providers:
   score_band: developing
   score_composite: 46.5
   shared: 1
+- slug: opsmill
+  name: OpsMill
+  description: OpsMill is the company behind Infrahub, an open-source, graph-based infrastructure data management platform that unifies a source of truth for network, data center, and cloud automation. Infrahub combines a flexible, extensible schema, native version control with branching and merging, and unified…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.8
+  shared: 1
 - slug: runwhen
   name: RunWhen
   description: RunWhen is an AI platform for building safe-for-production agents that triage alerts, remediate infrastructure, analyze cost, and answer questions about production systems. Engineering teams compose reusable "Skills" (CodeBundles) into agents that run standalone or from Claude, Cursor, and VS Code…
   api_count: 1
   score_band: developing
-  score_composite: 46.5
+  score_composite: 45.1
   shared: 1
 - slug: chamber
   name: Chamber
@@ -197,57 +190,63 @@ providers:
   score_band: thin
   score_composite: 35.3
   shared: 1
-- slug: keep
-  name: Keep
-  description: Keep is an open-source AIOps and alert management platform that unifies alerts from any monitoring tool, providing deduplication, correlation, enrichment, and workflow automation across observability, incident response, ticketing, and CMDB systems. The Keep REST API enables programmatic access to a…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.0
-  shared: 1
 - slug: incident-io
   name: Incident.io
   description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
   api_count: 25
   score_band: thin
-  score_composite: 28.9
+  score_composite: 29.6
+  shared: 1
+- slug: keep
+  name: Keep
+  description: Keep is an open-source AIOps and alert management platform that unifies alerts from any monitoring tool, providing deduplication, correlation, enrichment, and workflow automation across observability, incident response, ticketing, and CMDB systems. The Keep REST API enables programmatic access to a…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.6
   shared: 1
 - slug: rootly
   name: Rootly
   description: Rootly is an incident management platform that automates incident response workflows and integrates with existing tools.
   api_count: 7
   score_band: thin
-  score_composite: 28.0
+  score_composite: 28.6
+  shared: 1
+- slug: kosmoslabs
+  name: Kosmos AI Labs
+  description: Kosmos AI Labs builds an operational intelligence platform that correlates signals across fragmented enterprise systems — Jira, Salesforce Service Cloud, GitHub, ServiceNow, Zendesk, Linear, Bitbucket, Azure DevOps, Pylon and OpenTelemetry — to surface Risk Events with ranked causes and supporting…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.9
   shared: 1
 provider_slugs:
-- honeycomb-io
 - soda-data
 - akuity
 - bigpanda
 - firehydrant
 - logz-io
+- logicmonitor
 - groundcover
 - moogsoft
-- sciencelogic
 - metaplane
-- logicmonitor
 - elastic-observability
+- sciencelogic
 - deployxa
+- chronosphere
 - 7signalsolutions
 - kentik
-- chronosphere
 - zenoss
 - virtual-instruments
-- opsmill
 - brownie
 - mist-ai
+- opsmill
 - runwhen
 - chamber
 - deeptrace
 - motadata
 - doctor-droid
 - neubird
-- keep
 - incident-io
+- keep
 - rootly
 - kosmoslabs
 - carrot-labs
@@ -272,10 +271,10 @@ provider_slugs:
 related:
 - slug: monitoring
   name: Monitoring
-  shared: 7
+  shared: 5
 - slug: observability
   name: Observability
-  shared: 6
+  shared: 5
 - slug: logging
   name: Logging
   shared: 3
@@ -291,7 +290,7 @@ related:
 overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aiops.apievangelist.com](https://aiops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Honeycomb, Soda, Akuity, BigPanda, FireHydrant, Logz.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Soda, Akuity, BigPanda, FireHydrant, Logz.io, LogicMonitor, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monitoring, Observability, Logging, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'

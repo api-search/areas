@@ -20,14 +20,14 @@ providers:
   description: Oracle Partitioning is a licensed option of Oracle Database Enterprise Edition that divides large tables and indexes into smaller, independently manageable segments called partitions, accessed transparently through the table name. It delivers partition pruning (the optimizer eliminates irrelevant p…
   api_count: 1
   score_band: strong
-  score_composite: 58.6
+  score_composite: 59.0
   shared: 1
 - slug: whoop
   name: WHOOP
   description: WHOOP is a fitness and recovery wearable platform providing a REST API for accessing sleep, recovery, strain, and workout metrics from the WHOOP band. The API uses OAuth 2.0 authorization code flow with Bearer tokens to allow developers to build applications that access member health and performanc…
   api_count: 2
   score_band: strong
-  score_composite: 58.2
+  score_composite: 58.9
   shared: 1
 - slug: amazon-global-accelerator
   name: Amazon Global Accelerator
@@ -36,19 +36,19 @@ providers:
   score_band: developing
   score_composite: 52.3
   shared: 1
-- slug: apicontext
-  name: APIContext
-  description: APIContext (formerly APImetrics) is a synthetic API testing, monitoring and conformance platform. It calls the APIs you depend on from cloud locations around the world on a schedule, measures latency and availability from the outside in, validates responses against expected schemas and security pro…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.9
-  shared: 1
 - slug: factorial-hr
   name: Factorial
   description: Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 "Legendre") covering employees, contracts, attendance, ti…
-  api_count: 1
+  api_count: 2
   score_band: developing
-  score_composite: 51.3
+  score_composite: 52.2
+  shared: 1
+- slug: apicontext
+  name: APIContext
+  description: APIContext (formerly APImetrics) is a synthetic API testing, monitoring and conformance platform. It calls the APIs you depend on from cloud locations around the world on a schedule, measures latency and availability from the outside in, validates responses against expected schemas and security pro…
+  api_count: 6
+  score_band: developing
+  score_composite: 48.3
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
@@ -223,8 +223,8 @@ provider_slugs:
 - oracle-partitioning
 - whoop
 - amazon-global-accelerator
-- apicontext
 - factorial-hr
+- apicontext
 - virtual-instruments
 - unravel-data-systems
 - google-cloud-trace
@@ -275,7 +275,7 @@ related:
 overview: 'Performance is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [performance.apievangelist.com](https://performance.apievangelist.com).
 
 
-  30 providers on the network work in this area, including New Relic, Oracle Partitioning, WHOOP, Amazon Global Accelerator, APIContext, Factorial, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including New Relic, Oracle Partitioning, WHOOP, Amazon Global Accelerator, Factorial, APIContext, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Analysis, Caching, AIOps, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'

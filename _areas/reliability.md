@@ -20,14 +20,14 @@ providers:
   description: Gremlin is a chaos engineering platform that helps teams build more resilient systems by running controlled failure experiments. It provides tools to simulate infrastructure failures, network issues, and resource exhaustion to identify and fix weaknesses before they cause real outages.
   api_count: 1
   score_band: developing
-  score_composite: 45.8
+  score_composite: 45.9
   shared: 1
 - slug: memfault
   name: Memfault
   description: Memfault is a device observability and reliability platform for connected products built on MCUs, embedded Linux, and Android. The Memfault Cloud ingests device data (coredumps, logs, metrics, reboots) and provides issue grouping, alerting, charting, fleet analytics, and over-the-air firmware updat…
   api_count: 1
   score_band: developing
-  score_composite: 42.1
+  score_composite: 42.8
   shared: 1
 - slug: google-cloud-error-reporting
   name: Google Cloud Error Reporting
@@ -48,7 +48,7 @@ providers:
   description: Statuspage by Atlassian is a hosted status page and incident communication platform that helps companies communicate real-time service status, incident updates, scheduled maintenance, and component health to customers and internal stakeholders. It supports public and private pages, audience-specifi…
   api_count: 1
   score_band: thin
-  score_composite: 34.5
+  score_composite: 35.1
   shared: 1
 - slug: antithesis
   name: Antithesis
@@ -62,7 +62,7 @@ providers:
   description: OverOps (formerly Takipi) is a continuous reliability platform that helps teams who ship software ensure rapid code changes do not degrade the customer experience. It runs in the cloud or on-premises, instruments Java and .NET applications with a micro-agent, and automatically identifies, prevents,…
   api_count: 1
   score_band: thin
-  score_composite: 31.5
+  score_composite: 30.7
   shared: 1
 - slug: sonarly
   name: Sonarly

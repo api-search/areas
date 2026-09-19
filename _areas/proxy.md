@@ -13,7 +13,7 @@ providers:
   description: Web-scraping REST API that returns structured JSON from a large catalog of target sites (e-commerce, search engines, social, real estate, finance, and more), with proxies, CAPTCHA, and anti-bot handling managed server-side. Ships an OpenAPI 3.1 contract, official Node/Python/Go SDKs, a CLI, an npm-…
   api_count: 1
   score_band: strong
-  score_composite: 61.9
+  score_composite: 62.0
   shared: 1
 - slug: bright-data
   name: Bright Data
@@ -34,14 +34,14 @@ providers:
   description: Envoy is a high-performance, open-source edge and service proxy designed for cloud-native applications and microservice architectures. It provides advanced load balancing, observability, and traffic management features, and serves as the data plane for many service mesh implementations including Is…
   api_count: 3
   score_band: developing
-  score_composite: 44.0
+  score_composite: 44.5
   shared: 1
 - slug: haproxy
   name: HAProxy
   description: HAProxy is a free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It exposes a Data Plane API for dynamic configuration management and a stats socket for runtime management.
-  api_count: 3
+  api_count: 1
   score_band: developing
-  score_composite: 43.9
+  score_composite: 42.7
   shared: 1
 - slug: soax
   name: SOAX
@@ -70,6 +70,13 @@ providers:
   api_count: 4
   score_band: thin
   score_composite: 38.4
+  shared: 1
+- slug: crawlbase
+  name: Crawlbase
+  description: Crawlbase (formerly ProxyCrawl) is a web crawling and scraping platform that fetches any web page through a large rotating proxy network with optional headless-Chrome JavaScript rendering, returning raw HTML, Markdown, screenshots, or structured JSON. A single token-authenticated REST host (api.cra…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.3
   shared: 1
 - slug: squid
   name: Squid
@@ -118,14 +125,7 @@ providers:
   description: oauth2-proxy is an open-source reverse proxy that provides authentication with Google, Azure, OpenID Connect, and many more identity providers.
   api_count: 1
   score_band: emerging
-  score_composite: 25.1
-  shared: 1
-- slug: crawlbase
-  name: Crawlbase
-  description: Crawlbase (formerly ProxyCrawl) is a web crawling and scraping platform that fetches any web page through a large rotating proxy network with optional headless-Chrome JavaScript rendering, returning raw HTML, Markdown, screenshots, or structured JSON. A single token-authenticated REST host (api.cra…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.9
+  score_composite: 25.8
   shared: 1
 - slug: dev-proxy
   name: Dev Proxy
@@ -186,6 +186,7 @@ provider_slugs:
 - verdaccio
 - zenscrape
 - http-toolkit
+- crawlbase
 - squid
 - apache-httpd
 - safeline
@@ -193,7 +194,6 @@ provider_slugs:
 - sozu
 - whistle
 - oauth2-proxy
-- crawlbase
 - dev-proxy
 - varnish
 - mosn

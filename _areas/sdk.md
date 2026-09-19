@@ -6,14 +6,14 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://sdk.apievangelist.com
 area_host: sdk.apievangelist.com
 icon: https://sdk.apievangelist.com/icon-thumb.png
-provider_count: 356
+provider_count: 353
 providers:
 - slug: cvent-registration
   name: Cvent Registration
   description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
   api_count: 2
   score_band: exemplar
-  score_composite: 82.0
+  score_composite: 79.5
   shared: 1
 - slug: cvent-event-cloud
   name: Cvent Event Cloud
@@ -27,14 +27,28 @@ providers:
   description: General Translation is an end-to-end internationalization (i18n) and localization platform for developers, backed by a16z. It combines open-source i18n libraries for React, Next.js, React Native, Node.js, and Python with an AI-powered translation API, a context platform (glossaries and translation…
   api_count: 1
   score_band: strong
-  score_composite: 64.3
+  score_composite: 63.7
+  shared: 1
+- slug: buf
+  name: Buf
+  description: 'Buf Technologies builds the modern toolchain for Protocol Buffers and gRPC: the buf CLI, the Buf Schema Registry (BSR), Protovalidate, Protobuf-ES and Protobuf-Py, and the Connect protocol, which is now a CNCF project. It replaces protoc-based workflows with linting, breaking-change detection, code…'
+  api_count: 2
+  score_band: strong
+  score_composite: 61.0
+  shared: 1
+- slug: api-league
+  name: API League
+  description: API League is a single-key hub of 55 read-only HTTP APIs spanning twelve categories — Books, News, Humor, Food, Knowledge, Games, Art, Web, Text, Media, Math and Storage — operated by skycraft GmbH of Dresden, Germany, which has been shipping developer APIs since 2015. Every operation is an HTTP GE…
+  api_count: 13
+  score_band: strong
+  score_composite: 60.6
   shared: 1
 - slug: dwolla
   name: Dwolla
   description: Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform that lets businesses programmatically move money across the U.S. banking system. Its v2 REST API — a JSON-HAL hypermedia API secured with OAuth 2.0 client-credentials — supports ACH (standard and Same-Day),…
   api_count: 19
   score_band: strong
-  score_composite: 60.2
+  score_composite: 59.5
   shared: 1
 - slug: suki-ai
   name: Suki AI
@@ -43,9 +57,23 @@ providers:
   score_band: strong
   score_composite: 57.8
   shared: 1
+- slug: odds-api
+  name: Odds API
+  description: OpenAPI-first sports betting odds API (odds-api.net) providing bookmaker odds, odds comparison, arbitrage, positive EV, line movement, and racing/sports coverage via REST plus SSE and WebSocket streaming. Agent-native with an MCP server, llms.txt, and agent instruction files, plus TypeScript and Py…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.4
+  shared: 1
 - slug: lucra-sports
   name: Lucra Sports
   description: Lucra (Lucra Sports, Inc.) is a competitive-loyalty and gamification platform that embeds real-money, free-to-play and peer-to-peer contests into third-party consumer apps and websites through a white-label SDK. Partners integrate Games You Play (head-to-head recreational matchups), Sports You Watc…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.7
+  shared: 1
+- slug: dagger
+  name: Dagger
+  description: Dagger is an open-source programmable CI/CD engine that runs pipelines in containers using a unified, introspectable GraphQL API. Pipelines are written as code in the developer's preferred language (Go, Python, TypeScript, PHP, Java, .NET, Elixir, or Rust) using Dagger SDKs and packaged as Dagger M…
   api_count: 1
   score_band: strong
   score_composite: 56.6
@@ -55,21 +83,7 @@ providers:
   description: Swagger Codegen is an open-source template-driven code generation tool that automatically generates client libraries, server stubs, and API documentation from OpenAPI Specification definitions. It supports 40+ client languages and 20+ server frameworks. Available as a CLI, Docker image, Maven/Gradl…
   api_count: 3
   score_band: strong
-  score_composite: 56.2
-  shared: 1
-- slug: dagger
-  name: Dagger
-  description: Dagger is an open-source programmable CI/CD engine that runs pipelines in containers using a unified, introspectable GraphQL API. Pipelines are written as code in the developer's preferred language (Go, Python, TypeScript, PHP, Java, .NET, Elixir, or Rust) using Dagger SDKs and packaged as Dagger M…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.9
-  shared: 1
-- slug: api-league
-  name: API League
-  description: API League is a single-key hub of 55 read-only HTTP APIs spanning twelve categories — Books, News, Humor, Food, Knowledge, Games, Art, Web, Text, Media, Math and Storage — operated by skycraft GmbH of Dresden, Germany, which has been shipping developer APIs since 2015. Every operation is an HTTP GE…
-  api_count: 1
-  score_band: strong
-  score_composite: 54.9
+  score_composite: 54.8
   shared: 1
 - slug: transcend-io
   name: Transcend
@@ -83,6 +97,13 @@ providers:
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
   api_count: 1
   score_band: developing
+  score_composite: 53.4
+  shared: 1
+- slug: snap
+  name: Snap
+  description: 'Snap Inc. is the technology company behind Snapchat, Bitmoji, Spectacles, and Lens Studio. Its Snap for Developers program exposes several public APIs and SDKs: the Snapchat Marketing API (Ads API, Ads Gallery API, Conversions API, and Public Profile API) for programmatically managing organizations…'
+  api_count: 4
+  score_band: developing
   score_composite: 53.3
   shared: 1
 - slug: appsamurai
@@ -91,13 +112,6 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 52.8
-  shared: 1
-- slug: snap
-  name: Snap
-  description: 'Snap Inc. is the technology company behind Snapchat, Bitmoji, Spectacles, and Lens Studio. Its Snap for Developers program exposes several public APIs and SDKs: the Snapchat Marketing API (Ads API, Ads Gallery API, Conversions API, and Public Profile API) for programmatically managing organizations…'
-  api_count: 4
-  score_band: developing
-  score_composite: 52.3
   shared: 1
 - slug: bitdrift
   name: bitdrift
@@ -113,6 +127,13 @@ providers:
   score_band: developing
   score_composite: 51.2
   shared: 1
+- slug: ceros
+  name: Ceros
+  description: Ceros is an experiential content platform used by marketing, design and agency teams to build interactive, no-code web content — microsites, landing pages, interactive reports, infographics, pitch decks and embeddable experiences — in a browser design studio and publish them to a CDN. Its developer…
+  api_count: 3
+  score_band: developing
+  score_composite: 51.1
+  shared: 1
 - slug: mercado-pago
   name: Mercado Pago
   description: Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Founded in 2003, it processes a substantial share of LatAm digital payments across Brazil (PIX, Boleto, cards), Argentina, Mexico (SPEI, OXXO), Chile, Colombia, Peru, a…
@@ -120,19 +141,19 @@ providers:
   score_band: developing
   score_composite: 51.0
   shared: 1
-- slug: ceros
-  name: Ceros
-  description: Ceros is an experiential content platform used by marketing, design and agency teams to build interactive, no-code web content — microsites, landing pages, interactive reports, infographics, pitch decks and embeddable experiences — in a browser design studio and publish them to a CDN. Its developer…
-  api_count: 3
+- slug: netomi
+  name: Netomi
+  description: Netomi (founded 2016 as msg.ai) is an enterprise agentic AI platform for customer experience. Its "Agentic OS for CX" orchestrates a network of AI agents across chat, email, telephony, social, search, MCP and API channels, layering a governance tier (topic and policy guardrails, prompt security, re…
+  api_count: 1
   score_band: developing
-  score_composite: 50.2
+  score_composite: 50.3
   shared: 1
 - slug: dexcare
   name: DexCare
   description: DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand,…
   api_count: 12
   score_band: developing
-  score_composite: 50.2
+  score_composite: 50.1
   shared: 1
 - slug: android
   name: Android
@@ -141,12 +162,12 @@ providers:
   score_band: developing
   score_composite: 49.8
   shared: 1
-- slug: scalar
-  name: Scalar
-  description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rules, and automated SDK generation for TypeScript, Python, Go,…
-  api_count: 1
+- slug: banuba
+  name: Banuba
+  description: Banuba is an AR and AI technology company providing the Face AR SDK for augmented reality face effects, beauty filters, and virtual try-on experiences. The SDK supports iOS, Android, Web (HTML5), Windows, macOS, Unity, Flutter, and React Native. Use cases include live streaming beauty filters, vide…
+  api_count: 4
   score_band: developing
-  score_composite: 49.4
+  score_composite: 49.6
   shared: 1
 - slug: chroma
   name: Chroma
@@ -155,17 +176,24 @@ providers:
   score_band: developing
   score_composite: 49.3
   shared: 1
-- slug: netomi
-  name: Netomi
-  description: Netomi (founded 2016 as msg.ai) is an enterprise agentic AI platform for customer experience. Its "Agentic OS for CX" orchestrates a network of AI agents across chat, email, telephony, social, search, MCP and API channels, layering a governance tier (topic and policy guardrails, prompt security, re…
+- slug: scalar
+  name: Scalar
+  description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rules, and automated SDK generation for TypeScript, Python, Go,…
   api_count: 1
   score_band: developing
-  score_composite: 49.3
+  score_composite: 48.8
   shared: 1
 - slug: episerver
   name: Episerver
   description: Episerver is a digital experience platform (DXP) vendor that rebranded to Optimizely in 2021 after Episerver acquired Optimizely; the developer surface now ships under the Optimizely brand. The platform combines content management (CMS / Content Cloud), a headless Content Delivery and Content Manag…
   api_count: 3
+  score_band: developing
+  score_composite: 47.8
+  shared: 1
+- slug: huma
+  name: Huma
+  description: Huma (Huma Therapeutics Limited) is a United Kingdom-headquartered digital health and remote patient monitoring company that provides a regulated, configurable platform for building and running healthcare and life-sciences applications. Its Huma Workspace lets clinical teams assemble no-code apps,…
+  api_count: 1
   score_band: developing
   score_composite: 47.8
   shared: 1
@@ -183,71 +211,46 @@ providers:
   score_band: developing
   score_composite: 47.4
   shared: 1
-- slug: alokai-formerly-vue-storefront
-  name: Alokai (formerly Vue Storefront)
-  description: Alokai (formerly Vue Storefront) is a Frontend-as-a-Service platform for composable, headless commerce. It connects enterprise ecommerce backends (SAP Commerce Cloud, Salesforce, Adobe Commerce/Magento, commercetools, BigCommerce, Shopware and others) to fast, customizable storefronts through the A…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.3
-  shared: 1
-- slug: waniwani
-  name: Waniwani
-  description: 'Waniwani is an AI distribution platform: it helps companies build, deploy, and optimize AI apps — lightweight services built on the Model Context Protocol (MCP) that represent a product inside AI conversations on ChatGPT, Claude, Gemini, and Perplexity. The platform spans an AI app builder, synthet…'
-  api_count: 1
-  score_band: developing
-  score_composite: 47.0
-  shared: 1
-- slug: huma
-  name: Huma
-  description: Huma (Huma Therapeutics Limited) is a United Kingdom-headquartered digital health and remote patient monitoring company that provides a regulated, configurable platform for building and running healthcare and life-sciences applications. Its Huma Workspace lets clinical teams assemble no-code apps,…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.8
-  shared: 1
 - slug: daily-co
   name: Daily
   description: Daily provides WebRTC video and audio infrastructure for developers — REST APIs for rooms, recordings, transcripts, meetings, dial-out and Daily Bots / Pipecat Cloud (voice AI agents), plus client SDKs for Web, iOS, Android, React Native and Flutter.
   api_count: 1
   score_band: developing
-  score_composite: 46.7
-  shared: 1
-- slug: hansoft
-  name: Hansoft
-  description: Hansoft, now branded P4 Plan by Perforce, is a real-time agile project planning and portfolio management tool for software, game, and hardware teams. It lets multiple teams work in their preferred methodology simultaneously (Scrum, Kanban, and Gantt) within a single backlog, with field-level permis…
-  api_count: 3
-  score_band: developing
-  score_composite: 46.5
+  score_composite: 47.3
   shared: 1
 provider_slugs:
 - cvent-registration
 - cvent-event-cloud
 - general-translation
+- buf
+- api-league
 - dwolla
 - suki-ai
+- odds-api
 - lucra-sports
-- swagger-codegen
 - dagger
-- api-league
+- swagger-codegen
 - transcend-io
 - speakeasy
-- appsamurai
 - snap
+- appsamurai
 - bitdrift
 - ostium-labs
-- mercado-pago
 - ceros
+- mercado-pago
+- netomi
 - dexcare
 - android
-- scalar
+- banuba
 - chroma
-- netomi
+- scalar
 - episerver
+- huma
 - graphy
 - firework
-- alokai-formerly-vue-storefront
-- waniwani
-- huma
 - daily-co
+- waniwani
+- alokai-formerly-vue-storefront
 - hansoft
 - inmobi
 - sanas
@@ -255,22 +258,23 @@ provider_slugs:
 - reactor
 - patch-io
 - montonio
-- terminal-use
+- hey-api
 - sideko
 - priorlabs
-- hey-api
-- sensors-data
 - domob
 - lemon-cash
 - talkjs
+- sensors-data
 - ketch-io
 - mysten-labs
+- terminal-use
 - tripetto
 - commercetools
+- wsc-sports
+- superviz
 - tronzap
 - fidel
 - echo3d
-- wsc-sports
 - moises
 - openapi-generator
 - the-guild-dev
@@ -280,7 +284,6 @@ provider_slugs:
 - mirrorfly-messages-api
 - split
 - velt
-- fern
 - real-gift-services
 - cometchat
 - fish-audio
@@ -292,6 +295,7 @@ provider_slugs:
 - quarterzip
 - digger
 - matterport
+- truvideo
 - sapiom
 - gitbook
 - easebuzz
@@ -302,36 +306,33 @@ provider_slugs:
 - apache-http
 - codafication
 - soul-machines
-- reasonblocks
 - kittl
 - symblai
 - argmax
 - ai-coustics
-- adaption-labs
+- reasonblocks
 - snorkel-ai
-- helika
 - madvertise
+- applitools
 - flic
-- glia-fka-salemove
 - ai-arena
 - daz-3d
 - vantara
-- applitools
 - koah-labs
 - ogen
 - tawkitai
+- helika
 - here-not-there-labs
 - magicx
 - miri
-- fidel-api
 - antithesis
 - apptimize
 - flow-ai
 - nominal
+- farcaster
 - orval
 - keyper
 - adcolony
-- farcaster
 - oapi-codegen
 - flower
 - godot
@@ -341,16 +342,15 @@ provider_slugs:
 - niantic
 - openfeature
 - raycast
+- angle
 - contextsdk
 - huly
 - sensely
 - ansys
 - original
 - stainless
-- buf
 - perp
 - reforge
-- angle
 - subbly
 - liblab
 - w4-games
@@ -361,11 +361,11 @@ provider_slugs:
 - symbolica
 - frvr
 - scandit
-- superviz
 - leap-motion
 - amwell
 - smithy
 - genql
+- aidinrobotics
 - onekey
 - spindl
 - lm-studio
@@ -373,7 +373,6 @@ provider_slugs:
 - mobilion-systems
 - thrift
 - mythical-games
-- refuel
 - onymos
 - tecton
 - nitric
@@ -388,13 +387,11 @@ provider_slugs:
 - 3d-look
 - adjuvomotion
 - openapi-typescript-codegen
-- truvideo
 - nswag
 - unreal-engine
 - zefchain
 - axiado-corporation
 - synervoz
-- banuba
 - dji
 - neuracore
 - simular
@@ -443,6 +440,7 @@ provider_slugs:
 - lisnr
 - qt
 - sandisk
+- aibee
 - oculus
 - royco
 - yaskawa-robotics
@@ -543,16 +541,12 @@ provider_slugs:
 - indoo-rs
 - streamroot
 - cega
-- fritzai
-- kalki-zebec-kalkire
 - mangata-finance
 - fourier-intelligence
 - brooktrout-technology
 - envariant
-- escher-reality
 - iomob
 - quago-technologies-ltd
-- webmynd
 - textnpayme
 - semantic-kernel
 - cybavo
@@ -562,8 +556,10 @@ provider_slugs:
 - anki
 - binpress
 - bump
+- escher-reality
 - fiftythree
 - fleksy
+- fritzai
 - gestoos
 - heyzap
 - kamcord
@@ -573,6 +569,7 @@ provider_slugs:
 - scoreloop
 - stamplay
 - uninstall
+- webmynd
 - wupima
 - cardio
 related:
@@ -597,7 +594,7 @@ related:
 overview: 'SDKs is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [sdk.apievangelist.com](https://sdk.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cvent Registration, Cvent Event Cloud, General Translation, Dwolla, Suki AI, Lucra Sports, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Cvent Registration, Cvent Event Cloud, General Translation, Buf, API League, Dwolla, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Authentication, Containers, Design, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

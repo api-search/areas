@@ -6,21 +6,21 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://documentation.apievangelist.com
 area_host: documentation.apievangelist.com
 icon: https://documentation.apievangelist.com/icon-thumb.png
-provider_count: 90
+provider_count: 87
 providers:
-- slug: atlassian-confluence
-  name: Atlassian Confluence
-  description: Atlassian Confluence is a team workspace and wiki platform for creating, organizing and collaborating on documentation, project plans, meeting notes and knowledge bases. Confluence Cloud publishes two OpenAPI-described REST surfaces — a legacy v1 API under /wiki/rest/api and the recommended cursor-…
-  api_count: 2
+- slug: apimatic
+  name: APIMatic
+  description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languag…
+  api_count: 1
   score_band: exemplar
-  score_composite: 74.3
+  score_composite: 70.0
   shared: 1
 - slug: confluence
   name: Confluence
   description: APIs for Atlassian Confluence - team collaboration and knowledge management software.
-  api_count: 1
-  score_band: strong
-  score_composite: 62.1
+  api_count: 3
+  score_band: exemplar
+  score_composite: 67.4
   shared: 1
 - slug: hashnode
   name: Hashnode
@@ -29,19 +29,19 @@ providers:
   score_band: strong
   score_composite: 57.8
   shared: 1
-- slug: developerhub
-  name: DeveloperHub
-  description: DeveloperHub is a hosted developer documentation platform that enables teams to create beautiful API references, user guides, and knowledge bases. It features auto-generated API documentation from OpenAPI specifications, built-in versioning, full-text search, custom domains, and a WYSIWYG editor. D…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.1
-  shared: 1
 - slug: treblle
   name: Treblle
   description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
   api_count: 1
   score_band: strong
   score_composite: 55.8
+  shared: 1
+- slug: developerhub
+  name: DeveloperHub
+  description: DeveloperHub is a hosted developer documentation platform that enables teams to create beautiful API references, user guides, and knowledge bases. It features auto-generated API documentation from OpenAPI specifications, built-in versioning, full-text search, custom domains, and a WYSIWYG editor. D…
+  api_count: 1
+  score_band: strong
+  score_composite: 55.4
   shared: 1
 - slug: companycam
   name: CompanyCam
@@ -55,12 +55,12 @@ providers:
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
   api_count: 1
   score_band: developing
-  score_composite: 53.3
+  score_composite: 53.4
   shared: 1
 - slug: zeroheight
   name: Zeroheight
   description: 'zeroheight is a design system platform where teams document components, patterns, guidelines and design tokens in a styleguide, then deliver that documentation to designers, engineers and AI agents. It exposes two machine surfaces: a small key-authenticated REST API (https://zeroheight.com/open_api…'
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 52.9
   shared: 1
@@ -70,6 +70,20 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 52.5
+  shared: 1
+- slug: sweep
+  name: Sweep
+  description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes safely across complex systems. It unifies discovery, design,…
+  api_count: 2
+  score_band: developing
+  score_composite: 51.6
+  shared: 1
+- slug: readme
+  name: ReadMe
+  description: ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive API explorer, Try-It console, Developer Dashboard with real-t…
+  api_count: 2
+  score_band: developing
+  score_composite: 51.3
   shared: 1
 - slug: scribe
   name: Scribe
@@ -92,26 +106,12 @@ providers:
   score_band: developing
   score_composite: 50.8
   shared: 1
-- slug: readme
-  name: ReadMe
-  description: ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive API explorer, Try-It console, Developer Dashboard with real-t…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.7
-  shared: 1
-- slug: sweep
-  name: Sweep
-  description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes safely across complex systems. It unifies discovery, design,…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.7
-  shared: 1
-- slug: apimatic
-  name: APIMatic
-  description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languag…
+- slug: hackmd
+  name: HackMD
+  description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide decks or books. HackMD exposes a v1 REST API at api.hackmd.io…
   api_count: 1
   score_band: developing
-  score_composite: 49.6
+  score_composite: 50.1
   shared: 1
 - slug: mintlify
   name: Mintlify
@@ -119,13 +119,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 49.1
-  shared: 1
-- slug: hackmd
-  name: HackMD
-  description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide decks or books. HackMD exposes a v1 REST API at api.hackmd.io…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.0
   shared: 1
 - slug: nuclino
   name: Nuclino
@@ -139,7 +132,7 @@ providers:
   description: PlanRadar is a SaaS platform for construction and real estate documentation, defect and task management, and site inspections, used by builders, owners, facility managers, architects and engineers in more than 75 countries. Its secure REST Open API (v1 and v2) lets Pro and Enterprise customers read…
   api_count: 1
   score_band: developing
-  score_composite: 44.4
+  score_composite: 45.1
   shared: 1
 - slug: salesforce-knowledge-management
   name: Salesforce Knowledge Management
@@ -172,9 +165,9 @@ providers:
 - slug: apiary
   name: Apiary
   description: Apiary is an API design and documentation platform, now part of Oracle Cloud Infrastructure. With 486,000+ users and 591,000+ APIs managed, it uses API Blueprint and Swagger/OpenAPI specifications to produce interactive API documentation, mock servers, automated testing, and collaborative API desig…
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 43.2
+  score_composite: 42.9
   shared: 1
 - slug: dreamfactory
   name: DreamFactory
@@ -190,19 +183,19 @@ providers:
   score_band: developing
   score_composite: 41.3
   shared: 1
-- slug: api-blueprint
-  name: API Blueprint
-  description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Markdown format that makes APIs accessible to both technical a…
-  api_count: 2
-  score_band: developing
-  score_composite: 41.2
-  shared: 1
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagger Codegen in 2018 by more than 40 of that project's top cont…
   api_count: 1
   score_band: developing
   score_composite: 40.6
+  shared: 1
+- slug: api-blueprint
+  name: API Blueprint
+  description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Markdown format that makes APIs accessible to both technical a…
+  api_count: 1
+  score_band: developing
+  score_composite: 40.5
   shared: 1
 - slug: corestory
   name: CoreStory
@@ -218,24 +211,30 @@ providers:
   score_band: developing
   score_composite: 39.3
   shared: 1
+- slug: slite
+  name: Slite
+  description: Slite is a collaborative documentation and knowledge base platform with a REST API for managing notes, channels, documents, templates, and team knowledge bases. It enables asynchronous work through AI-powered search, document creation, and automated knowledge management workflows. The Slite Public…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.5
+  shared: 1
 provider_slugs:
-- atlassian-confluence
+- apimatic
 - confluence
 - hashnode
-- developerhub
 - treblle
+- developerhub
 - companycam
 - speakeasy
 - zeroheight
 - apidog
+- sweep
+- readme
 - scribe
 - elium
 - swaggerhub
-- readme
-- sweep
-- apimatic
-- mintlify
 - hackmd
+- mintlify
 - nuclino
 - planradar
 - salesforce-knowledge-management
@@ -245,11 +244,10 @@ provider_slugs:
 - apiary
 - dreamfactory
 - kapa-ai
-- api-blueprint
 - openapi-generator
+- api-blueprint
 - corestory
 - document360
-- fern
 - slite
 - apigen
 - readmeio
@@ -269,9 +267,8 @@ provider_slugs:
 - stainless
 - elements
 - grounded-tools
-- test-plans
-- slate
 - redoc
+- slate
 - fumadocs
 - apigit
 - bookstack
@@ -283,8 +280,6 @@ provider_slugs:
 - style-guides
 - apinotes
 - vitepress
-- test-specifications
-- stainless-api
 - openapi
 - tax-templates
 - swimm
@@ -309,6 +304,8 @@ provider_slugs:
 - contributing-md
 - readme-md
 - standard-operating-procedures
+- test-plans
+- test-specifications
 related:
 - slug: support
   name: Support
@@ -325,13 +322,13 @@ related:
 - slug: portal
   name: Portal
   shared: 1
-- slug: search
-  name: API Evangelist Search
+- slug: cli
+  name: Command Line Interface
   shared: 1
 overview: 'Documentation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [documentation.apievangelist.com](https://documentation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Atlassian Confluence, Confluence, Hashnode, DeveloperHub, Treblle, CompanyCam, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including APIMatic, Confluence, Hashnode, Treblle, DeveloperHub, CompanyCam, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Support, Agent Skills, Developer Experience, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

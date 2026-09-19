@@ -6,7 +6,7 @@ description: An index and topic collection covering API monitoring, application 
 area_url: https://monitoring.apievangelist.com
 area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
-provider_count: 203
+provider_count: 204
 providers:
 - slug: elk-stack
   name: Elastic Stack (ELK Stack)
@@ -15,12 +15,26 @@ providers:
   score_band: exemplar
   score_composite: 76.7
   shared: 1
+- slug: bugsnag
+  name: Bugsnag
+  description: BugSnag is an application stability monitoring platform from SmartBear that helps software teams detect, diagnose and fix errors in web, mobile, desktop and back-end applications. It combines error monitoring, real user monitoring and end-to-end distributed tracing behind a stability score that tel…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 75.7
+  shared: 1
 - slug: redocly
   name: Redocly
   description: Redocly is a company that specializes in API documentation and governance tooling. Their platform helps organizations create, manage, and publish API documentation through Realm (the integrated lifecycle platform that unifies Redoc, Revel, and Reef), Reunite (Git-connected collaboration and deploym…
-  api_count: 12
+  api_count: 4
   score_band: exemplar
-  score_composite: 74.6
+  score_composite: 75.5
+  shared: 1
+- slug: oracle-cloud
+  name: Oracle Cloud Infrastructure
+  description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notificatio…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 74.7
   shared: 1
 - slug: thousandeyes
   name: ThousandEyes
@@ -36,19 +50,12 @@ providers:
   score_band: exemplar
   score_composite: 71.1
   shared: 1
-- slug: oracle-cloud
-  name: Oracle Cloud Infrastructure
-  description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notificatio…
-  api_count: 9
-  score_band: exemplar
-  score_composite: 71.1
-  shared: 1
 - slug: bigpanda
   name: BigPanda
   description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
-  api_count: 27
+  api_count: 29
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 69.9
   shared: 1
 - slug: new-relic
   name: New Relic
@@ -57,6 +64,20 @@ providers:
   score_band: exemplar
   score_composite: 68.1
   shared: 1
+- slug: monte-carlo
+  name: Monte Carlo
+  description: Monte Carlo is a data and AI observability platform that monitors data warehouses, lakes, and pipelines for freshness, volume, schema, and quality anomalies, helping data teams detect, resolve, and prevent data downtime across Snowflake, Databricks, BigQuery, Redshift, and other modern data stack t…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.6
+  shared: 1
+- slug: controlup
+  name: ControlUp
+  description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Paral…
+  api_count: 24
+  score_band: exemplar
+  score_composite: 67.5
+  shared: 1
 - slug: betterstack
   name: Better Stack
   description: Better Stack is an infrastructure monitoring and observability platform that combines uptime monitoring, heartbeat monitoring for scheduled jobs, incident management with on-call paging and escalation policies, public and private status pages, log/trace/metric telemetry queried with ClickHouse SQL,…
@@ -64,12 +85,12 @@ providers:
   score_band: strong
   score_composite: 65.6
   shared: 1
-- slug: controlup
-  name: ControlUp
-  description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Paral…
-  api_count: 24
+- slug: google-cloud-logging
+  name: Google Cloud Logging
+  description: Google Cloud Logging is a fully managed, real-time log management service that ingests, stores, searches, analyzes, routes and alerts on application and system log data at scale across Google Cloud, AWS and on-premises environments. The v2 API writes log entries and manages the configuration surfac…
+  api_count: 1
   score_band: strong
-  score_composite: 65.6
+  score_composite: 64.2
   shared: 1
 - slug: dun-and-bradstreet
   name: Dun & Bradstreet
@@ -78,12 +99,12 @@ providers:
   score_band: strong
   score_composite: 64.0
   shared: 1
-- slug: datadog
-  name: Datadog
-  description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
-  api_count: 6
+- slug: socure
+  name: Socure
+  description: Socure is the leading vertically-integrated digital identity verification and fraud-prevention platform, used by 3,000+ banks, fintechs, crypto exchanges, marketplaces, gaming operators, and public-sector agencies. The ID+ API exposes Socure's KYC, document verification (DocV), Sigma fraud models,…
+  api_count: 3
   score_band: strong
-  score_composite: 63.6
+  score_composite: 63.5
   shared: 1
 - slug: hyperdx
   name: HyperDX
@@ -92,19 +113,26 @@ providers:
   score_band: strong
   score_composite: 63.3
   shared: 1
-- slug: grafana-loki
-  name: Grafana Loki
-  description: Grafana Loki is Grafana Labs' open source log aggregation system — "like Prometheus, but for logs." Rather than full-text indexing log contents, Loki indexes only a small set of labels per log stream and stores the compressed lines in object storage, which is what makes it cheap to run at scale. It…
-  api_count: 3
+- slug: logicmonitor
+  name: LogicMonitor
+  description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
+  api_count: 4
   score_band: strong
-  score_composite: 62.5
+  score_composite: 63.1
   shared: 1
 - slug: stack-moxie
   name: Stack Moxie
   description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
   api_count: 2
   score_band: strong
-  score_composite: 62.4
+  score_composite: 63.1
+  shared: 1
+- slug: grafana-loki
+  name: Grafana Loki
+  description: Grafana Loki is Grafana Labs' open source log aggregation system — "like Prometheus, but for logs." Rather than full-text indexing log contents, Loki indexes only a small set of labels per log stream and stores the compressed lines in object storage, which is what makes it cheap to run at scale. It…
+  api_count: 3
+  score_band: strong
+  score_composite: 62.5
   shared: 1
 - slug: raygun
   name: Raygun
@@ -113,12 +141,12 @@ providers:
   score_band: strong
   score_composite: 61.9
   shared: 1
-- slug: openzeppelin
-  name: OpenZeppelin
-  description: OpenZeppelin is a Web3 security platform providing tools for secure smart contract development, deployment, monitoring, and automation. The platform includes OpenZeppelin Contracts (battle-tested Solidity libraries), Defender (a developer security platform for auditing, deploying, and operating blo…
-  api_count: 1
+- slug: datadog
+  name: Datadog
+  description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
+  api_count: 6
   score_band: strong
-  score_composite: 61.6
+  score_composite: 61.7
   shared: 1
 - slug: embrace
   name: Embrace
@@ -134,19 +162,26 @@ providers:
   score_band: strong
   score_composite: 61.2
   shared: 1
-- slug: moogsoft
-  name: Moogsoft
-  description: Moogsoft is an AIOps platform for IT operations, DevOps and SRE teams that ingests events, alerts and metrics from across a hybrid estate, deduplicates and reduces noise, correlates related alerts into incidents, detects anomalies in metric streams, and surfaces probable root cause and similar past…
-  api_count: 17
+- slug: aws-lambda
+  name: AWS Lambda
+  description: AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. Lambda runs your code on high-availability compute infrastructure and performs all of the administration of the compute…
+  api_count: 1
   score_band: strong
-  score_composite: 61.2
+  score_composite: 61.1
   shared: 1
 - slug: splunk-observability
   name: Splunk Observability Cloud
   description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
   api_count: 48
   score_band: strong
-  score_composite: 60.8
+  score_composite: 61.0
+  shared: 1
+- slug: openzeppelin
+  name: OpenZeppelin
+  description: OpenZeppelin is a Web3 security platform providing tools for secure smart contract development, deployment, monitoring, and automation. The platform includes OpenZeppelin Contracts (battle-tested Solidity libraries), Defender (a developer security platform for auditing, deploying, and operating blo…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.3
   shared: 1
 - slug: dash0
   name: Dash0
@@ -155,19 +190,19 @@ providers:
   score_band: strong
   score_composite: 59.9
   shared: 1
-- slug: sciencelogic
-  name: ScienceLogic
-  description: ScienceLogic is an AIOps and IT operations company whose ScienceLogic AI Platform — rebranded in 2026 as the Skylar family — covers infrastructure and application observability, network configuration and compliance, and workflow automation. Skylar One (formerly SL1) is the observability platform, w…
-  api_count: 5
-  score_band: strong
-  score_composite: 59.5
-  shared: 1
-- slug: metaplane
-  name: Metaplane
-  description: Metaplane is a data observability platform for data teams — automated anomaly detection, data quality monitoring, column-level lineage, schema-change alerting and data CI/CD across Snowflake, BigQuery, Redshift, Databricks, ClickHouse, Postgres, MySQL, SQL Server, S3, dbt, Airflow and the major BI…
+- slug: geneos
+  name: Geneos
+  description: 'Geneos is ITRS Group''s real-time monitoring and observability platform for trading systems, applications and infrastructure, deployed across investment banks, hedge funds, exchanges, telcos and government. It is customer-deployed software rather than a hosted API: Netprobes collect high-frequency t…'
   api_count: 1
   score_band: strong
-  score_composite: 59.4
+  score_composite: 59.7
+  shared: 1
+- slug: moogsoft
+  name: Moogsoft
+  description: Moogsoft is an AIOps platform for IT operations, DevOps and SRE teams that ingests events, alerts and metrics from across a hybrid estate, deduplicates and reduces noise, correlates related alerts into incidents, detects anomalies in metric streams, and surfaces probable root cause and similar past…
+  api_count: 17
+  score_band: strong
+  score_composite: 59.3
   shared: 1
 - slug: amazon-xray
   name: Amazon X-Ray
@@ -176,132 +211,99 @@ providers:
   score_band: strong
   score_composite: 58.7
   shared: 1
-- slug: logicmonitor
-  name: LogicMonitor
-  description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
-  api_count: 2
-  score_band: strong
-  score_composite: 58.6
-  shared: 1
-- slug: elastic-observability
-  name: Elastic Observability
-  description: 'Elastic Observability is Elastic''s unified logs, metrics, traces and profiling solution, built on the Elastic Stack. Its published machine-readable contract is the Observability Intake API served by APM Server: a newline-delimited JSON event intake for Elastic APM agents, a central agent-configurat…'
+- slug: metaplane
+  name: Metaplane
+  description: Metaplane is a data observability platform for data teams — automated anomaly detection, data quality monitoring, column-level lineage, schema-change alerting and data CI/CD across Snowflake, BigQuery, Redshift, Databricks, ClickHouse, Postgres, MySQL, SQL Server, S3, dbt, Airflow and the major BI…
   api_count: 1
   score_band: strong
-  score_composite: 58.4
-  shared: 1
-- slug: microsoft-azure-monitor
-  name: Azure Monitor
-  description: Azure Monitor helps you maximize the availability and performance of your applications and services. It delivers a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments.
-  api_count: 15
-  score_band: strong
-  score_composite: 58.2
-  shared: 1
-- slug: laravel
-  name: Laravel
-  description: 'Laravel is the company behind the Laravel PHP framework and a suite of commercial developer infrastructure products: Laravel Cloud (a fully managed PaaS for deploying and scaling Laravel and Symfony applications), Laravel Forge (server provisioning and application deployment across DigitalOcean, AW…'
-  api_count: 2
-  score_band: strong
-  score_composite: 57.7
-  shared: 1
-- slug: amazon-cloudwatch
-  name: Amazon CloudWatch
-  description: Amazon CloudWatch is an intelligent observability platform providing complete visibility into performance, availability, and security across your entire technology stack. Monitor applications, infrastructure, and workloads with unified metrics, logs, and traces plus AI-powered insights.
-  api_count: 1
-  score_band: strong
-  score_composite: 57.6
-  shared: 1
-- slug: grafana
-  name: Grafana
-  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
-  api_count: 2
-  score_band: strong
-  score_composite: 57.5
+  score_composite: 58.7
   shared: 1
 provider_slugs:
 - elk-stack
+- bugsnag
 - redocly
+- oracle-cloud
 - thousandeyes
 - checkly
-- oracle-cloud
 - bigpanda
 - new-relic
-- betterstack
+- monte-carlo
 - controlup
+- betterstack
+- google-cloud-logging
 - dun-and-bradstreet
-- datadog
+- socure
 - hyperdx
-- grafana-loki
+- logicmonitor
 - stack-moxie
+- grafana-loki
 - raygun
-- openzeppelin
+- datadog
 - embrace
 - groundcover
-- moogsoft
+- aws-lambda
 - splunk-observability
+- openzeppelin
 - dash0
-- sciencelogic
-- metaplane
+- geneos
+- moogsoft
 - amazon-xray
-- logicmonitor
+- metaplane
+- amazon-cloudwatch
 - elastic-observability
 - microsoft-azure-monitor
-- laravel
-- amazon-cloudwatch
-- grafana
-- azure-log-analytics
-- amazon-guardduty
-- cloudwatch
-- verifiable
 - social-fetch
+- azure-log-analytics
+- laravel
+- sciencelogic
+- grafana
+- amazon-guardduty
+- verifiable
+- cloudwatch
 - solar-edge
+- galileo-technologies
 - conviva
 - lightrun
-- galileo-technologies
+- splunk
 - rtcstats
+- chronosphere
+- edge-delta
 - vividcortex
 - oracle-enterprise-manager
 - grafana-com
+- influxdata
 - amazon-security-hub
 - amazon-managed-grafana
 - bitdrift
 - hacknotice
-- chronosphere
-- edge-delta
-- zenoss
-- influxdata
-- opik
-- amazon-managed-prometheus
-- prometheus
-- spectrumoutage-api
-- pixie
-- braintrust
-- catchpoint
 - bigeye
+- zenoss
+- amazon-managed-prometheus
+- catchpoint
+- spectrumoutage-api
+- opik
+- pixie
 - diligent
 - sysdig
-- google-cloud-logging
-- agnost-ai
 - assertible
+- agnost-ai
 - bluejay
 - opsgenie
-- ninjaone
+- braintrust
 - amazon-lookout-for-metrics
 - anomaly-detection
 - virtual-instruments
 - site24x7
+- hookpulse
 - dell-servers
+- ninjaone
 - lumigo
 - netdata
 - moesif
 - cronitor
-- catchpoint-systems
 - laminar
 - sifflet
-- splunk
-- sumo-logic
 - sentio
-- hookpulse
 - venueauthority
 - smartbear
 - chamber
@@ -310,6 +312,7 @@ provider_slugs:
 - deeptrace
 - uselemma
 - sorry
+- sumo-logic
 - google-cloud-endpoints
 - forta
 - opentelemetry
@@ -319,26 +322,27 @@ provider_slugs:
 - keywordsai
 - zabbix
 - spike-sh
-- spyderbat
 - openstatus
 - tempo
+- spyderbat
+- 1factory
+- appneta
 - athina
 - literalai
 - appdynamics
 - vapor-io
 - apache-zipkin
-- 1factory
-- supply-wisdom
 - axiom-controller
+- supply-wisdom
 - uptime-com
 - signl4
-- tableaux-de-bord
-- kibana
 - prometheus-io
+- tableaux-de-bord
 - raindrop
 - uptrace
 - blocktorch
 - jaeger
+- kibana
 - motadata
 - judgment-labs
 - doctor-droid
@@ -346,7 +350,6 @@ provider_slugs:
 - sensu
 - truebiz
 - atla
-- monte-carlo
 - deepchecks
 - loggly
 - adt
@@ -368,23 +371,22 @@ provider_slugs:
 - notyfi
 - sonarly
 - maxim
+- groundwork-open-source
 - perses
 - elastic-stack
-- groundwork-open-source
 - deep-sentinel
 - sentrial
 - apache-skywalking
 - headspin
 - ca
 - control-seat
-- pulse-grow
 - hydrolix
+- pulse-grow
 - oneapm
 - log4j
 - pingdom
 - librato
 - tanaza
-- geneos
 - streamfold
 - humio
 - sazabi
@@ -394,7 +396,6 @@ provider_slugs:
 - api-insights
 - assertsai
 - growatt
-- appneta
 - omnidian
 - fibersense
 - optoscale
@@ -404,7 +405,6 @@ provider_slugs:
 - epsagon
 - captains-eye
 - scalyr
-- ubervu
 - blacksky
 - fox-tech
 - amixrio
@@ -422,21 +422,22 @@ provider_slugs:
 - dirig-software
 - thundra
 - unamo
+- ubervu
 related:
 - slug: observability
   name: Observability
-  shared: 15
-- slug: aiops
-  name: AIOps
-  shared: 7
+  shared: 16
 - slug: logging
   name: Logging
+  shared: 6
+- slug: aiops
+  name: AIOps
   shared: 5
-- slug: deployment
-  name: Deployment
-  shared: 2
 - slug: security
   name: Security
+  shared: 2
+- slug: serverless
+  name: Serverless
   shared: 2
 - slug: testing
   name: Testing
@@ -444,8 +445,8 @@ related:
 overview: 'Monitoring is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monitoring.apievangelist.com](https://monitoring.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Elastic Stack (ELK Stack), Redocly, ThousandEyes, Checkly, Oracle Cloud Infrastructure, BigPanda, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Elastic Stack (ELK Stack), Bugsnag, Redocly, Oracle Cloud Infrastructure, ThousandEyes, Checkly, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability, AIOps, Logging, and Deployment. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Logging, AIOps, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

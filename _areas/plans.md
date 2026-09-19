@@ -10,10 +10,10 @@ provider_count: 3
 providers:
 - slug: fieldwire
   name: Fieldwire
-  description: ''
+  description: Fieldwire is a construction field-management platform. Its API covers plans and drawings, tasks and punch lists, forms, change orders, budget line items and actual costs, BIM models, and the people and companies attached to a project.
   api_count: 6
   score_band: strong
-  score_composite: 57.3
+  score_composite: 58.2
   shared: 1
 - slug: plandex
   name: Plandex

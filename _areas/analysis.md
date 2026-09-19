@@ -20,7 +20,7 @@ providers:
   description: TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO…
   api_count: 1
   score_band: developing
-  score_composite: 51.3
+  score_composite: 51.1
   shared: 1
 - slug: dsg-sports-analytics
   name: DSG Sports Analytics
@@ -66,9 +66,6 @@ provider_slugs:
 - api-insights
 - lf-research
 related:
-- slug: internet-of-things
-  name: Internet of Things
-  shared: 1
 - slug: monitoring
   name: Monitoring
   shared: 1
@@ -78,11 +75,14 @@ related:
 - slug: performance
   name: Performance
   shared: 1
+- slug: visualization
+  name: Visualization
+  shared: 1
 overview: 'Analysis is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [analysis.apievangelist.com](https://analysis.apievangelist.com).
 
 
   7 providers on the network work in this area, including New Relic, TagoIO, DSG Sports Analytics, Lumafield, Domo, API Insights, and 1 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Internet of Things, Monitoring, Observability, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Monitoring, Observability, Performance, and Visualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

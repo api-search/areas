@@ -11,9 +11,9 @@ providers:
 - slug: densify
   name: Densify
   description: Densify — now trading as Kubex — provides a machine-learning driven cloud, GPU and container optimization platform that continuously right-sizes resources to cut cost and protect performance across Kubernetes, public cloud and GPU/AI infrastructure. The Kubex REST API publishes 65 operations across…
-  api_count: 22
+  api_count: 43
   score_band: exemplar
-  score_composite: 69.7
+  score_composite: 70.3
   shared: 1
 - slug: doit
   name: DoiT
@@ -27,7 +27,14 @@ providers:
   description: Cledara is a SaaS management platform that helps companies manage, control, and optimize software spending. The platform provides visibility into all software subscriptions, virtual payment cards with per-vendor spending limits, approval workflows, vendor renewal tracking, usage analytics, and acco…
   api_count: 1
   score_band: strong
-  score_composite: 65.2
+  score_composite: 65.9
+  shared: 1
+- slug: microsoft-azure-cost-management
+  name: Azure Cost Management
+  description: Microsoft Cost Management is the Azure Resource Manager resource provider (Microsoft.CostManagement) for understanding and controlling cloud spend. Its REST API covers multidimensional cost and usage queries, forecasting, budgets and their alert thresholds, saved Cost Analysis views, scheduled acti…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.0
   shared: 1
 - slug: env0
   name: Env0
@@ -50,19 +57,26 @@ providers:
   score_band: strong
   score_composite: 58.1
   shared: 1
+- slug: cloudhealth
+  name: CloudHealth
+  description: CloudHealth (now VMware Tanzu CloudHealth, owned by Broadcom) is a multi-cloud financial and operational management platform. It provides cost visibility, optimization recommendations, asset inventory, custom perspectives (groupings), policies, governance, and partner/MSP billing workflows across A…
+  api_count: 8
+  score_band: strong
+  score_composite: 57.6
+  shared: 1
 - slug: cloudchipr
   name: CloudChipr
   description: CloudChipr is a cloud cost-management and FinOps platform that consolidates AWS, Azure, GCP, Kubernetes and AI-vendor spend (OpenAI, Anthropic, Datadog, Snowflake, MongoDB, Confluent) in a single console and automates resource cleanup, rightsizing, and cost governance. The product surface centres o…
   api_count: 1
   score_band: strong
-  score_composite: 57.7
+  score_composite: 57.1
   shared: 1
 - slug: corestack
   name: CoreStack
   description: CoreStack is a multi-cloud governance and security platform that unifies FinOps (cost visibility, budgets, anomaly detection, rightsizing and commitment optimization), CloudOps (workload lifecycle, tagging, automation and self-service), SecOps/compliance (policy guardrails, posture management and c…
   api_count: 1
   score_band: strong
-  score_composite: 56.0
+  score_composite: 54.9
   shared: 1
 - slug: amazon-compute-optimizer
   name: Amazon Compute Optimizer
@@ -78,19 +92,19 @@ providers:
   score_band: developing
   score_composite: 50.7
   shared: 1
-- slug: vantage
-  name: Vantage
-  description: Vantage is a cloud cost management platform designed for modern engineering teams to monitor, optimize, and control their cloud infrastructure spending across multiple providers. The platform helps companies identify immediate cost savings through features like automated purchasing of savings plans…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.7
-  shared: 1
 - slug: alphaus
   name: Alphaus
   description: Alphaus is a Tokyo-based cloud FinOps company (No. 1 in Japan) whose platform helps enterprises, managed service providers, and cloud resellers manage and optimize multi-cloud spend across AWS, Azure, and GCP. Its products include Octo (cost visibility and optimization), Ripple and WavePro (reselle…
   api_count: 1
   score_band: developing
-  score_composite: 49.4
+  score_composite: 49.6
+  shared: 1
+- slug: langwatch
+  name: LangWatch
+  description: LangWatch is an open-source LLM observability, evaluation, and AI agent testing platform. Built around OpenTelemetry-native tracing, LangWatch lets teams instrument LLM applications (LangChain, LangGraph, DSPy, OpenAI Agents, LiteLLM, Pydantic AI, CrewAI, AWS Bedrock, and more), run real-time and b…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.9
   shared: 1
 - slug: choreo
   name: Choreo
@@ -106,10 +120,10 @@ providers:
   score_band: developing
   score_composite: 47.2
   shared: 1
-- slug: langwatch
-  name: LangWatch
-  description: LangWatch is an open-source LLM observability, evaluation, and AI agent testing platform. Built around OpenTelemetry-native tracing, LangWatch lets teams instrument LLM applications (LangChain, LangGraph, DSPy, OpenAI Agents, LiteLLM, Pydantic AI, CrewAI, AWS Bedrock, and more), run real-time and b…
-  api_count: 1
+- slug: schematic
+  name: Schematic
+  description: 'Schematic is a monetization platform that lets developers implement pricing once so that go-to-market teams can control pricing, packaging and entitlements without code changes. It decouples pricing from code: engineering integrates the entitlement and metering layer, and product, sales and finance…'
+  api_count: 2
   score_band: developing
   score_composite: 47.1
   shared: 1
@@ -126,13 +140,6 @@ providers:
   api_count: 10
   score_band: developing
   score_composite: 46.4
-  shared: 1
-- slug: schematic
-  name: Schematic
-  description: 'Schematic is a monetization platform that lets developers implement pricing once so that go-to-market teams can control pricing, packaging and entitlements without code changes. It decouples pricing from code: engineering integrates the entitlement and metering layer, and product, sales and finance…'
-  api_count: 2
-  score_band: developing
-  score_composite: 46.2
   shared: 1
 - slug: spacelift
   name: Spacelift
@@ -188,14 +195,7 @@ providers:
   description: Archera is a cloud financial operations (FinOps) platform that helps organizations reduce cloud spend by 20-30% through intelligent commitment management and insured, short-term cloud commitments across AWS, Azure, and Google Cloud. Its Guaranteed Commitments (Guaranteed Savings Plans, Guaranteed R…
   api_count: 1
   score_band: developing
-  score_composite: 42.4
-  shared: 1
-- slug: orb-billing
-  name: Orb
-  description: Orb is a usage-based billing and metering platform that turns product usage events into subscriptions, prices, invoices, and credits. The Orb REST API ingests metered events, models customers, plans, prices, and items, runs subscriptions, and automates invoicing, credit ledgers, alerts, and webhook…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.6
+  score_composite: 41.8
   shared: 1
 - slug: revefi
   name: Revefi
@@ -216,27 +216,28 @@ providers:
   description: Metronome is a usage-based billing platform providing real-time metering, pricing, invoicing, and revenue recognition for API and cloud services.
   api_count: 1
   score_band: developing
-  score_composite: 40.5
+  score_composite: 40.4
   shared: 1
 provider_slugs:
 - densify
 - doit
 - cledara
+- microsoft-azure-cost-management
 - env0
 - paid
 - edgee
+- cloudhealth
 - cloudchipr
 - corestack
 - amazon-compute-optimizer
 - cloudability
-- vantage
 - alphaus
+- langwatch
 - choreo
 - unravel-data-systems
-- langwatch
+- schematic
 - cast-ai
 - amberflo
-- schematic
 - spacelift
 - sedai
 - amazon-billing-and-cost-management
@@ -245,29 +246,28 @@ provider_slugs:
 - stigg
 - cycloid
 - archera
-- orb-billing
 - revefi
 - m3ter
 - metronome
 - devtron
+- orb-billing
 - finout
 - pay-i
 - vantage-sh
 - optscale
 - harness-cloud-cost
 - kion
-- snow-software
 - paigo
-- cloudhealth
-- cloudquery
+- snow-software
 - hyperline
+- cloudquery
 - finops-foundation
 - flexera
 - ternary
-- nops
-- infracost
-- anodot
 - scalr
+- nops
+- anodot
+- infracost
 - north-cloud
 - amnic
 - perfectscale
@@ -320,7 +320,7 @@ related:
 overview: 'FinOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [finops.apievangelist.com](https://finops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Densify, DoiT, Cledara, Env0, Paid, Edgee, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Densify, DoiT, Cledara, Azure Cost Management, Env0, Paid, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monetization, Unified APIs, IDE, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'

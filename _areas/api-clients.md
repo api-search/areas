@@ -6,7 +6,7 @@ description: An index and topic collection covering API clients, the developer t
 area_url: https://api-clients.apievangelist.com
 area_host: api-clients.apievangelist.com
 icon: https://api-clients.apievangelist.com/icon-thumb.png
-provider_count: 20
+provider_count: 18
 providers:
 - slug: apollo-graphql
   name: Apollo GraphQL
@@ -14,13 +14,6 @@ providers:
   api_count: 11
   score_band: developing
   score_composite: 50.9
-  shared: 1
-- slug: ruby
-  name: Ruby Programming Language and Popular API Gems
-  description: 'A profile of the Ruby programming language ecosystem from an API perspective: the language and its standard library HTTP surface (Net::HTTP), the rubygems.org package registry and its public v1/v2 REST API, Bundler, RBS type signatures, popular HTTP/REST client gems (Faraday, http.rb, HTTParty, Exc…'
-  api_count: 1
-  score_band: developing
-  score_composite: 43.1
   shared: 1
 - slug: hoppscotch
   name: Hoppscotch
@@ -36,19 +29,19 @@ providers:
   score_band: thin
   score_composite: 38.8
   shared: 1
-- slug: kiota
-  name: Kiota
-  description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the need to take a dependency on a different hand-written SDK f…'
-  api_count: 1
-  score_band: thin
-  score_composite: 38.1
-  shared: 1
 - slug: httpie
   name: HTTPie
   description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submission…
   api_count: 1
   score_band: thin
   score_composite: 33.8
+  shared: 1
+- slug: firecamp
+  name: Firecamp
+  description: Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-C…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.8
   shared: 1
 - slug: rest-client
   name: REST Client
@@ -85,13 +78,6 @@ providers:
   score_band: emerging
   score_composite: 24.5
   shared: 1
-- slug: firecamp
-  name: Firecamp
-  description: Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-C…
-  api_count: 1
-  score_band: emerging
-  score_composite: 23.3
-  shared: 1
 - slug: httpx
   name: HTTPX
   description: HTTPX is a fully featured HTTP client for Python 3 with sync and async APIs, HTTP/1.1 and HTTP/2 support. It is broadly compatible with the popular requests library while adding modern features such as strict timeouts, type annotations, direct WSGI and ASGI transport, SSL verification, cookie persi…
@@ -120,19 +106,19 @@ providers:
   score_band: emerging
   score_composite: 14.2
   shared: 1
+- slug: paw
+  name: Paw
+  description: Paw (now RapidAPI for Mac) is a full-featured HTTP client that lets you test and describe the APIs you build or consume. It provides a native macOS API testing experience with collaboration features.
+  api_count: 1
+  score_band: emerging
+  score_composite: 11.4
+  shared: 1
 - slug: nightingale
   name: Nightingale
   description: Nightingale REST Client is a modern, resource-friendly REST API client for Windows.
   api_count: 1
   score_band: emerging
   score_composite: 11.0
-  shared: 1
-- slug: paw
-  name: Paw
-  description: Paw (now RapidAPI for Mac) is a full-featured HTTP client that lets you test and describe the APIs you build or consume. It provides a native macOS API testing experience with collaboration features.
-  api_count: 1
-  score_band: minimal
-  score_composite: 10.5
   shared: 1
 - slug: ezy
   name: Ezy
@@ -150,23 +136,21 @@ providers:
   shared: 1
 provider_slugs:
 - apollo-graphql
-- ruby
 - hoppscotch
 - insomnia
-- kiota
 - httpie
+- firecamp
 - rest-client
 - axios
 - node-fetch
 - requests
 - wget
-- firecamp
 - httpx
 - yaak
 - http-client
 - got
-- nightingale
 - paw
+- nightingale
 - ezy
 - okhttp
 related:
@@ -179,7 +163,7 @@ related:
 overview: 'API Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-clients.apievangelist.com](https://api-clients.apievangelist.com).
 
 
-  20 providers on the network work in this area, including Apollo GraphQL, Ruby Programming Language and Popular API Gems, Hoppscotch, Insomnia, Kiota, HTTPie, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Apollo GraphQL, Hoppscotch, Insomnia, HTTPie, Firecamp, REST Client, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Clients and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

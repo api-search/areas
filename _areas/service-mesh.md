@@ -6,7 +6,7 @@ description: Service mesh is a dedicated infrastructure layer for handling servi
 area_url: https://service-mesh.apievangelist.com
 area_host: service-mesh.apievangelist.com
 icon: https://service-mesh.apievangelist.com/icon-thumb.png
-provider_count: 42
+provider_count: 38
 providers:
 - slug: calico
   name: Calico
@@ -20,14 +20,21 @@ providers:
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gatewa…
   api_count: 5
   score_band: strong
-  score_composite: 62.3
+  score_composite: 62.4
   shared: 1
 - slug: kong
   name: Kong
   description: Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agen…
   api_count: 2
   score_band: strong
-  score_composite: 58.0
+  score_composite: 58.6
+  shared: 1
+- slug: gloo
+  name: Gloo
+  description: Gloo is Solo.io's family of open-source and enterprise API gateway, service mesh and developer portal products, built on Envoy Proxy and Istio and delivered as software the customer runs in their own Kubernetes clusters rather than as a hosted SaaS. Gloo Edge and Gloo Gateway provide ingress, advan…
+  api_count: 8
+  score_band: strong
+  score_composite: 57.1
   shared: 1
 - slug: buoyant
   name: Buoyant
@@ -43,26 +50,33 @@ providers:
   score_band: developing
   score_composite: 51.5
   shared: 1
+- slug: gloo-mesh
+  name: Gloo Mesh
+  description: Gloo Mesh is Solo.io's enterprise service mesh management platform, built on Istio and shipped as Kubernetes software you run in your own clusters. It provides multi-cluster and multi-mesh traffic management, security policy enforcement, workload identity and observability, with a management plane…
+  api_count: 2
+  score_band: developing
+  score_composite: 48.9
+  shared: 1
 - slug: amazon-app-mesh
   name: Amazon App Mesh
   description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
   api_count: 2
   score_band: developing
-  score_composite: 44.4
+  score_composite: 45.5
   shared: 1
 - slug: envoy
   name: Envoy
   description: Envoy is a high-performance, open-source edge and service proxy designed for cloud-native applications and microservice architectures. It provides advanced load balancing, observability, and traffic management features, and serves as the data plane for many service mesh implementations including Is…
   api_count: 3
   score_band: developing
-  score_composite: 44.0
+  score_composite: 44.5
   shared: 1
 - slug: apache-dubbo
   name: Apache Dubbo
   description: Apache Dubbo is a high-performance, Java-based open-source RPC framework that provides service discovery, traffic management, and observability capabilities for building enterprise-level microservices. It supports multiple protocols including Triple (gRPC-compatible), Dubbo, and REST, with SDKs for…
   api_count: 1
   score_band: developing
-  score_composite: 43.4
+  score_composite: 44.0
   shared: 1
 - slug: kuma
   name: Kuma
@@ -92,6 +106,13 @@ providers:
   score_band: developing
   score_composite: 40.8
   shared: 1
+- slug: isovalent
+  name: Isovalent
+  description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium project (a CNCF graduated project), the Hubble observability laye…
+  api_count: 2
+  score_band: developing
+  score_composite: 40.7
+  shared: 1
 - slug: consul
   name: HashiCorp Consul
   description: HashiCorp Consul is a distributed, highly available service-networking control plane that automates network configuration, discovers services, enables secure service-to-service communication, and exposes a strongly consistent key/value store. The Consul HTTP API is a REST + JSON service exposed by…
@@ -120,6 +141,13 @@ providers:
   score_band: thin
   score_composite: 37.7
   shared: 1
+- slug: apiclarity
+  name: APIClarity
+  description: APIClarity is an open source (Apache-2.0) API security and observability tool that captures API traffic in a Kubernetes environment, reconstructs OpenAPI specifications from what it observes, and detects shadow APIs, zombie APIs, specification drift and broken function-level authorization. It integ…
+  api_count: 12
+  score_band: thin
+  score_composite: 37.0
+  shared: 1
 - slug: consul-connect
   name: Consul Connect
   description: Consul Connect is the service mesh subsystem of HashiCorp Consul. Connect provides service identity, mTLS, traffic authorization via intentions, and L7 traffic management through Envoy sidecar proxies. Consul Connect ships with a built-in certificate authority that can also be backed by Vault or ex…
@@ -141,13 +169,6 @@ providers:
   score_band: thin
   score_composite: 36.1
   shared: 1
-- slug: apiclarity
-  name: APIClarity
-  description: APIClarity is an open source (Apache-2.0) API security and observability tool that captures API traffic in a Kubernetes environment, reconstructs OpenAPI specifications from what it observes, and detects shadow APIs, zombie APIs, specification drift and broken function-level authorization. It integ…
-  api_count: 5
-  score_band: thin
-  score_composite: 35.3
-  shared: 1
 - slug: ambient-mesh
   name: Ambient Mesh
   description: Ambient Mesh is a sidecar-less service mesh architecture built on Istio that simplifies microservices communication, enhances zero-trust security, and improves observability without requiring sidecar proxy injection. It uses a shared per-node proxy (ztunnel) for zero-trust security and optional way…
@@ -161,13 +182,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 33.7
-  shared: 1
-- slug: isovalent
-  name: Isovalent
-  description: Isovalent is the company founded in 2017 by the creators of Cilium, the eBPF-based networking, security, and observability platform for Kubernetes and cloud-native infrastructure. Isovalent builds and maintains the open source Cilium project (a CNCF graduated project), the Hubble observability laye…
-  api_count: 2
-  score_band: thin
-  score_composite: 32.9
   shared: 1
 - slug: scalable-architecture
   name: Scalable Architecture
@@ -197,13 +211,6 @@ providers:
   score_band: thin
   score_composite: 28.9
   shared: 1
-- slug: tekion
-  name: Tekion
-  description: Tekion is a cloud-native, AI-native automotive retail platform whose flagship Automotive Retail Cloud (ARC) is a modern dealer management system (DMS) spanning sales, service, parts, inventory, F&I, accounting, and CRM for franchise dealerships and OEMs. Tekion exposes its data and workflows to tec…
-  api_count: 6
-  score_band: thin
-  score_composite: 27.4
-  shared: 1
 - slug: open-service-mesh
   name: Open Service Mesh
   description: Open Service Mesh (OSM) is a lightweight, extensible, cloud native service mesh built on Envoy and the Service Mesh Interface (SMI) specification. OSM provides traffic shifting, mutual TLS, access control, observability, and automatic sidecar injection for Kubernetes-based microservices. The projec…
@@ -211,19 +218,14 @@ providers:
   score_band: emerging
   score_composite: 24.5
   shared: 1
-- slug: gloo
-  name: Gloo
-  description: Gloo is a suite of open-source and enterprise API gateway and service mesh products from Solo.io built on Envoy Proxy, offering advanced traffic management, security, observability, and developer portal capabilities for Kubernetes and cloud-native environments.
-  api_count: 4
-  score_band: emerging
-  score_composite: 23.0
-  shared: 1
 provider_slugs:
 - calico
 - solo-io
 - kong
+- gloo
 - buoyant
 - aws-app-mesh
+- gloo-mesh
 - amazon-app-mesh
 - envoy
 - apache-dubbo
@@ -231,36 +233,30 @@ provider_slugs:
 - amazon-vpc-lattice
 - envoy-gateway
 - tetrate
+- isovalent
 - consul
 - linkerd
 - google-cloud-service-mesh
 - istio
+- apiclarity
 - consul-connect
 - vmware-tanzu
 - google-anthos
-- apiclarity
 - ambient-mesh
 - scalable-services
-- isovalent
 - scalable-architecture
 - pubmed
 - traefik-mesh
 - meshery
-- tekion
 - open-service-mesh
-- gloo
 - service-mesh-interface
-- gloo-mesh
 - greymatter
 - mosn
 - merbridge
 - tripo3d
 - nginx-service-mesh
-- hobart
 - restful-microservices
 - octarine
-- redcap
-- pep-boys-manny-moe-and-jack
 related:
 - slug: microservices
   name: Microservices
@@ -277,7 +273,7 @@ related:
 overview: 'Service Mesh is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [service-mesh.apievangelist.com](https://service-mesh.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Calico, Solo.io, Kong, Buoyant, AWS App Mesh, Amazon App Mesh, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Calico, Solo.io, Kong, Gloo, Buoyant, AWS App Mesh, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Microservices, Proxy, Containers, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
