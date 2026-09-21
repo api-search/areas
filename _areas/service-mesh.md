@@ -27,7 +27,7 @@ providers:
   description: Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agen…
   api_count: 2
   score_band: strong
-  score_composite: 58.6
+  score_composite: 62.0
   shared: 1
 - slug: gloo
   name: Gloo
@@ -36,6 +36,13 @@ providers:
   score_band: strong
   score_composite: 57.1
   shared: 1
+- slug: aws-app-mesh
+  name: AWS App Mesh
+  description: AWS App Mesh is a service mesh based on the Envoy proxy that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure including Amazon ECS, EKS, EC2, and Fargate. App Mesh standardizes service communication, gi…
+  api_count: 1
+  score_band: developing
+  score_composite: 54.1
+  shared: 1
 - slug: buoyant
   name: Buoyant
   description: Buoyant is the creator of Linkerd, the CNCF-graduated service mesh for Kubernetes. Linkerd provides zero-trust security via mutual TLS, ultra-high availability with automated failover, and observability for microservices including AI/LLM workloads. Buoyant Enterprise Linkerd adds enterprise feature…
@@ -43,12 +50,12 @@ providers:
   score_band: developing
   score_composite: 52.5
   shared: 1
-- slug: aws-app-mesh
-  name: AWS App Mesh
-  description: AWS App Mesh is a service mesh based on the Envoy proxy that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure including Amazon ECS, EKS, EC2, and Fargate. App Mesh standardizes service communication, gi…
-  api_count: 1
+- slug: amazon-app-mesh
+  name: Amazon App Mesh
+  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
+  api_count: 2
   score_band: developing
-  score_composite: 51.5
+  score_composite: 49.7
   shared: 1
 - slug: gloo-mesh
   name: Gloo Mesh
@@ -57,19 +64,19 @@ providers:
   score_band: developing
   score_composite: 48.9
   shared: 1
-- slug: amazon-app-mesh
-  name: Amazon App Mesh
-  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
-  api_count: 2
+- slug: amazon-vpc-lattice
+  name: Amazon VPC Lattice
+  description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
+  api_count: 73
   score_band: developing
-  score_composite: 45.5
+  score_composite: 47.8
   shared: 1
 - slug: envoy
   name: Envoy
   description: Envoy is a high-performance, open-source edge and service proxy designed for cloud-native applications and microservice architectures. It provides advanced load balancing, observability, and traffic management features, and serves as the data plane for many service mesh implementations including Is…
   api_count: 3
   score_band: developing
-  score_composite: 44.5
+  score_composite: 45.3
   shared: 1
 - slug: apache-dubbo
   name: Apache Dubbo
@@ -84,13 +91,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 43.2
-  shared: 1
-- slug: amazon-vpc-lattice
-  name: Amazon VPC Lattice
-  description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
-  api_count: 73
-  score_band: developing
-  score_composite: 43.0
   shared: 1
 - slug: envoy-gateway
   name: Envoy Gateway
@@ -223,14 +223,14 @@ provider_slugs:
 - solo-io
 - kong
 - gloo
-- buoyant
 - aws-app-mesh
-- gloo-mesh
+- buoyant
 - amazon-app-mesh
+- gloo-mesh
+- amazon-vpc-lattice
 - envoy
 - apache-dubbo
 - kuma
-- amazon-vpc-lattice
 - envoy-gateway
 - tetrate
 - isovalent
@@ -273,7 +273,7 @@ related:
 overview: 'Service Mesh is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [service-mesh.apievangelist.com](https://service-mesh.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Calico, Solo.io, Kong, Gloo, Buoyant, AWS App Mesh, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Calico, Solo.io, Kong, Gloo, AWS App Mesh, Buoyant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Microservices, Proxy, Containers, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'

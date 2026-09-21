@@ -6,7 +6,7 @@ description: This is the index of developer experience service and tooling repos
 area_url: https://developer-experience.apievangelist.com
 area_host: developer-experience.apievangelist.com
 icon: https://developer-experience.apievangelist.com/icon-thumb.png
-provider_count: 59
+provider_count: 60
 providers:
 - slug: adobe-suite
   name: Adobe Suite
@@ -64,13 +64,6 @@ providers:
   score_band: strong
   score_composite: 55.0
   shared: 1
-- slug: autoura
-  name: Autoura
-  description: Autoura is a UK digital experience platform (DXP) for real-world tourism and travel experiences, operated by The Spontaneous Travel Company Limited. It structures and maintains experience data — venues, attractions, tours, routes, stops, accessibility and dietary signals, AI guide characters and st…
-  api_count: 2
-  score_band: developing
-  score_composite: 52.3
-  shared: 1
 - slug: apiable
   name: Apiable
   description: Apiable is an API portal platform that enables businesses to create single-tenant, white-label developer portals with custom domains, branding, and API product management. It supports API monetization, developer self-service onboarding, usage metrics, subscription lifecycle management, and integrat…
@@ -83,7 +76,7 @@ providers:
   description: Coveo is a cloud-based AI-relevance platform that delivers personalized search, recommendations, and discovery experiences across digital workplaces, customer service portals, websites, and commerce storefronts. The Coveo platform exposes a family of REST APIs covering search, content indexing (Pus…
   api_count: 31
   score_band: developing
-  score_composite: 50.0
+  score_composite: 50.5
   shared: 1
 - slug: peek
   name: Peek
@@ -91,6 +84,13 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 49.9
+  shared: 1
+- slug: opplevagent-no
+  name: Opplevagent
+  description: Opplevagent is an agent-native (A2A) marketplace of Norwegian experiences and activities — 547 hand-picked tours, courses, attractions and things to do from 417 providers verified against Brønnøysundregistrene, plus a gårdssalg vertical of 252 farm-sale drink producers (breweries, cideries, winerie…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.3
   shared: 1
 - slug: viator
   name: Viator
@@ -133,6 +133,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 41.5
+  shared: 1
+- slug: qovery
+  name: Qovery
+  description: Qovery is an internal developer platform that simplifies cloud deployment and infrastructure management, enabling developers to self-serve environments on AWS, GCP, and Azure.
+  api_count: 1
+  score_band: developing
+  score_composite: 41.3
   shared: 1
 - slug: getyourguide
   name: GetYourGuide
@@ -204,19 +211,12 @@ providers:
   score_band: thin
   score_composite: 35.0
   shared: 1
-- slug: qovery
-  name: Qovery
-  description: Qovery is an internal developer platform that simplifies cloud deployment and infrastructure management, enabling developers to self-serve environments on AWS, GCP, and Azure.
-  api_count: 1
+- slug: autoura
+  name: Autoura
+  description: Autoura is a UK digital experience platform (DXP) for real-world tourism and travel experiences, operated by The Spontaneous Travel Company Limited. It structures and maintains experience data — venues, attractions, tours, routes, stops, accessibility and dietary signals, AI guide characters and st…
+  api_count: 2
   score_band: thin
-  score_composite: 34.9
-  shared: 1
-- slug: port-io
-  name: Port
-  description: Port is an Internal Developer Portal built around an API-first software catalog, customizable blueprints and entities, self-service actions, and scorecards. Platform teams model their own domain (services, environments, pipelines, AI agents, cloud resources) as blueprints, ingest data from integrat…
-  api_count: 1
-  score_band: thin
-  score_composite: 31.3
+  score_composite: 32.3
   shared: 1
 provider_slugs:
 - adobe-suite
@@ -227,16 +227,17 @@ provider_slugs:
 - configure8
 - unblocked
 - signadot
-- autoura
 - apiable
 - coveo
 - peek
+- opplevagent-no
 - viator
 - cycloid
 - fabric-com
 - klook
 - opslevel
 - cortex-idp
+- qovery
 - getyourguide
 - roadie-io
 - software
@@ -247,7 +248,7 @@ provider_slugs:
 - rely
 - upbound
 - readme-metrics
-- qovery
+- autoura
 - port-io
 - fever
 - northflank

@@ -8,6 +8,13 @@ area_host: virtualization.apievangelist.com
 icon: https://virtualization.apievangelist.com/icon-thumb.png
 provider_count: 39
 providers:
+- slug: nutanix
+  name: Nutanix
+  description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
+  api_count: 2
+  score_band: strong
+  score_composite: 57.8
+  shared: 1
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
@@ -19,15 +26,8 @@ providers:
   name: VMware
   description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
   api_count: 1
-  score_band: strong
-  score_composite: 54.3
-  shared: 1
-- slug: nutanix
-  name: Nutanix
-  description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
-  api_count: 2
   score_band: developing
-  score_composite: 47.9
+  score_composite: 52.8
   shared: 1
 - slug: slide
   name: Slide
@@ -219,9 +219,9 @@ providers:
   score_composite: 6.4
   shared: 1
 provider_slugs:
+- nutanix
 - intersight
 - vmware
-- nutanix
 - slide
 - smol-machines
 - oxide-computer
@@ -265,6 +265,9 @@ related:
 - slug: management
   name: Management
   shared: 1
+- slug: database
+  name: Database
+  shared: 1
 - slug: orchestration
   name: Orchestration
   shared: 1
@@ -274,8 +277,8 @@ related:
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cisco Intersight, VMware, Nutanix, Slide, Smol Machines, Oxide, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Nutanix, Cisco Intersight, VMware, Slide, Smol Machines, Oxide, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, Management, Orchestration, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, Management, Database, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

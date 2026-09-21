@@ -41,7 +41,7 @@ providers:
   description: Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-C…
   api_count: 1
   score_band: thin
-  score_composite: 32.8
+  score_composite: 31.6
   shared: 1
 - slug: rest-client
   name: REST Client
@@ -159,7 +159,7 @@ related:
   shared: 18
 - slug: cli
   name: Command Line Interface
-  shared: 2
+  shared: 1
 overview: 'Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [clients.apievangelist.com](https://clients.apievangelist.com).
 
 

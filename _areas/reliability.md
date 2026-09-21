@@ -20,7 +20,7 @@ providers:
   description: Gremlin is a chaos engineering platform that helps teams build more resilient systems by running controlled failure experiments. It provides tools to simulate infrastructure failures, network issues, and resource exhaustion to identify and fix weaknesses before they cause real outages.
   api_count: 1
   score_band: developing
-  score_composite: 45.9
+  score_composite: 50.6
   shared: 1
 - slug: memfault
   name: Memfault

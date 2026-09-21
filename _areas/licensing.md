@@ -216,7 +216,7 @@ providers:
   description: Nuro is a Mountain View-based autonomy company that has pivoted from its original autonomous-goods-delivery vehicle program (R1, R2, R3) to a licensable, vehicle-agnostic autonomous driving stack. The Nuro Driver is an AI-first Level 4 self-driving system, validated through 5+ years of driverless d…
   api_count: 0
   score_band: minimal
-  score_composite: 6.2
+  score_composite: 5.8
   shared: 1
 provider_slugs:
 - replicated

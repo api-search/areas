@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 110
+provider_count: 111
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -36,6 +36,13 @@ providers:
   score_band: strong
   score_composite: 59.8
   shared: 1
+- slug: tesslio
+  name: tessl.io
+  description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing, and publishing skills and plugins, server-side quality revi…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.5
+  shared: 1
 - slug: qfex
   name: Qfex
   description: QFEX is the first 24/7 exchange built exclusively for US equities, commodities, and FX, offering high-leverage perpetual futures on traditional assets without a broker. Founded by former Tower Research and Citadel engineers who met studying mathematics at Cambridge, QFEX gives retail and institutio…
@@ -50,19 +57,19 @@ providers:
   score_band: developing
   score_composite: 50.2
   shared: 1
-- slug: tesslio
-  name: tessl.io
-  description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing, and publishing skills and plugins, server-side quality revi…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.2
-  shared: 1
 - slug: continue-dev
   name: Continue
   description: Continue is the open-source AI code assistant for VS Code and JetBrains, distributed under Apache 2.0. The Continue IDE extensions and the Continue CLI federate to any LLM provider — Anthropic, OpenAI, Mistral, OpenRouter, Ollama, and a Continue-managed proxy — and load their configuration from Con…
   api_count: 1
   score_band: developing
   score_composite: 50.0
+  shared: 1
+- slug: bruno-api
+  name: Bruno
+  description: Bruno is an open-source (MIT), git-native API client - a lightweight, offline-first alternative to Postman and Insomnia for exploring and testing APIs. It is a developer TOOL, not a hosted HTTP API provider. Collections are stored on the local filesystem as folders of plain-text files (the .bru "Br…
+  api_count: 6
+  score_band: developing
+  score_composite: 49.9
   shared: 1
 - slug: mammoth-media
   name: Mammoth Media
@@ -211,22 +218,16 @@ providers:
   score_band: thin
   score_composite: 34.5
   shared: 1
-- slug: httpie
-  name: HTTPie
-  description: HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submission…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.8
-  shared: 1
 provider_slugs:
 - aws-cli
 - svix
 - common-room
 - ploy
+- tesslio
 - qfex
 - plandex
-- tesslio
 - continue-dev
+- bruno-api
 - mammoth-media
 - vlt
 - apitoolkit
@@ -262,8 +263,8 @@ provider_slugs:
 - onfabric
 - guildai
 - tensor9
+- perkoon-com
 - ranger
-- qname
 - aider
 - coral
 - prodly
@@ -274,7 +275,7 @@ provider_slugs:
 - cluely
 - azure-cli
 - nitric
-- bruno-api
+- qname
 - tolmo
 - specific
 - webstudio
@@ -330,14 +331,14 @@ provider_slugs:
 - rome-tools
 - stamplay
 related:
-- slug: api-clients
-  name: API Clients
-  shared: 2
-- slug: clients
-  name: Clients
-  shared: 2
 - slug: plans
   name: Plans
+  shared: 1
+- slug: api-clients
+  name: API Clients
+  shared: 1
+- slug: clients
+  name: Clients
   shared: 1
 - slug: reliability
   name: Reliability
@@ -345,14 +346,14 @@ related:
 - slug: agents-skills
   name: Agent Skills
   shared: 1
-- slug: deployment
-  name: Deployment
+- slug: documentation
+  name: Documentation
   shared: 1
 overview: 'Command Line Interface is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [cli.apievangelist.com](https://cli.apievangelist.com).
 
 
-  30 providers on the network work in this area, including AWS CLI, Svix, Common Room, Ploy, Qfex, Plandex, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including AWS CLI, Svix, Common Room, Ploy, tessl.io, Qfex, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Clients, Clients, Plans, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Plans, API Clients, Clients, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

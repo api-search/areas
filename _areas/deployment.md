@@ -8,6 +8,20 @@ area_host: deployment.apievangelist.com
 icon: https://deployment.apievangelist.com/icon-thumb.png
 provider_count: 66
 providers:
+- slug: laravel
+  name: Laravel
+  description: 'Laravel is the company behind the Laravel PHP framework and a suite of commercial developer infrastructure products: Laravel Cloud (a fully managed PaaS for deploying and scaling Laravel and Symfony applications), Laravel Forge (server provisioning and application deployment across DigitalOcean, AW…'
+  api_count: 2
+  score_band: exemplar
+  score_composite: 66.7
+  shared: 1
+- slug: outsystems
+  name: OutSystems
+  description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11), the self-managed/PaaS platform, and OutSystems Developer Clo…
+  api_count: 13
+  score_band: strong
+  score_composite: 64.9
+  shared: 1
 - slug: koyeb
   name: Koyeb
   description: Koyeb is a developer-friendly serverless platform for deploying applications, Postgres databases, GPU workloads and isolated code-execution sandboxes across a global edge network. The Koyeb REST API is a Swagger 2.0 contract generated from protobuf services by grpc-gateway — 126 paths, 177 operatio…
@@ -29,13 +43,6 @@ providers:
   score_band: strong
   score_composite: 61.9
   shared: 1
-- slug: outsystems
-  name: OutSystems
-  description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11), the self-managed/PaaS platform, and OutSystems Developer Clo…
-  api_count: 13
-  score_band: strong
-  score_composite: 60.6
-  shared: 1
 - slug: amazon-elastic-beanstalk
   name: Amazon Elastic Beanstalk
   description: AWS Elastic Beanstalk is a platform-as-a-service (PaaS) that makes it easy to deploy, manage, and scale web applications and services. You simply upload your code and Elastic Beanstalk automatically handles the deployment, capacity provisioning, load balancing, auto-scaling, and application health…
@@ -43,12 +50,26 @@ providers:
   score_band: strong
   score_composite: 58.1
   shared: 1
-- slug: laravel
-  name: Laravel
-  description: 'Laravel is the company behind the Laravel PHP framework and a suite of commercial developer infrastructure products: Laravel Cloud (a fully managed PaaS for deploying and scaling Laravel and Symfony applications), Laravel Forge (server provisioning and application deployment across DigitalOcean, AW…'
-  api_count: 2
+- slug: aptible
+  name: Aptible
+  description: Aptible is a Platform as a Service (PaaS) built for teams that have to prove security and compliance, not just ship. It deploys web apps, managed databases (PostgreSQL, MySQL, Redis, Elasticsearch, InfluxDB, RabbitMQ, SFTP) and AI workloads onto isolated, dedicated AWS infrastructure with encryptio…
+  api_count: 3
   score_band: strong
-  score_composite: 57.7
+  score_composite: 56.9
+  shared: 1
+- slug: upsun
+  name: Upsun
+  description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.9
+  shared: 1
+- slug: amazon-app-runner
+  name: Amazon App Runner
+  description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
+  api_count: 3
+  score_band: strong
+  score_composite: 55.9
   shared: 1
 - slug: nuon
   name: Nuon
@@ -78,13 +99,6 @@ providers:
   score_band: developing
   score_composite: 51.2
   shared: 1
-- slug: aptible
-  name: Aptible
-  description: Aptible is a Platform as a Service (PaaS) built for teams that have to prove security and compliance, not just ship. It deploys web apps, managed databases (PostgreSQL, MySQL, Redis, Elasticsearch, InfluxDB, RabbitMQ, SFTP) and AI workloads onto isolated, dedicated AWS infrastructure with encryptio…
-  api_count: 3
-  score_band: developing
-  score_composite: 51.2
-  shared: 1
 - slug: release
   name: Release
   description: Release is a developer-tools platform that provisions on-demand, full-stack ephemeral environments inside your own AWS or GCP cloud accounts. Positioned as a Heroku replacement and a Vercel alternative for full-stack apps, Release turns a repository plus a .release.yaml (or Docker Compose) file int…
@@ -98,13 +112,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 51.0
-  shared: 1
-- slug: upsun
-  name: Upsun
-  description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.6
   shared: 1
 - slug: kubernetes
   name: Kubernetes
@@ -126,13 +133,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 49.9
-  shared: 1
-- slug: amazon-app-runner
-  name: Amazon App Runner
-  description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
-  api_count: 3
-  score_band: developing
-  score_composite: 49.5
   shared: 1
 - slug: semaphore
   name: Semaphore
@@ -169,6 +169,20 @@ providers:
   score_band: developing
   score_composite: 46.6
   shared: 1
+- slug: pulumi
+  name: Pulumi
+  description: Pulumi is a modern infrastructure as code platform that allows you to use familiar programming languages to build, deploy, and manage cloud infrastructure. The Pulumi Cloud REST API enables programmatic access to manage organizations, stacks, deployments, environments, policy packs, webhooks, and o…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.4
+  shared: 1
+- slug: teamcity
+  name: TeamCity
+  description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing projects, build configurations, agents, and infrastructure.
+  api_count: 1
+  score_band: developing
+  score_composite: 46.1
+  shared: 1
 - slug: coolify
   name: Coolify
   description: Coolify is an open-source, self-hostable Platform-as-a-Service alternative to Vercel, Heroku, Netlify, and Railway. It lets you deploy static sites, APIs, full-stack applications, databases, and 280+ one-click services to any SSH-accessible server (VPS, bare-metal, Raspberry Pi, EC2, Hetzner, Digit…
@@ -204,44 +218,32 @@ providers:
   score_band: developing
   score_composite: 42.7
   shared: 1
-- slug: terminal-use
-  name: Terminal Use
-  description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.7
-  shared: 1
-- slug: dreamfactory
-  name: DreamFactory
-  description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
-  api_count: 16
-  score_band: developing
-  score_composite: 41.8
-  shared: 1
 provider_slugs:
+- laravel
+- outsystems
 - koyeb
 - databricks-asset-bundles
 - raygun
-- outsystems
 - amazon-elastic-beanstalk
-- laravel
+- aptible
+- upsun
+- amazon-app-runner
 - nuon
 - amazon-codedeploy
 - platform.sh
 - aws-app-runner
-- aptible
 - release
 - microsoft-azure-pipelines
-- upsun
 - kubernetes
 - render
 - dokploy
-- amazon-app-runner
 - semaphore
 - agentuity
 - codesphere
 - amazon-launch-wizard
 - alpic
+- pulumi
+- teamcity
 - coolify
 - google-cloud-deploy
 - vellum
@@ -249,8 +251,6 @@ provider_slugs:
 - scalable-inference-serving
 - terminal-use
 - dreamfactory
-- teamcity
-- pulumi
 - deno
 - stack-machine
 - railway-app
@@ -289,26 +289,26 @@ related:
 - slug: containers
   name: Containers
   shared: 6
-- slug: cli
-  name: Command Line Interface
-  shared: 1
-- slug: documentation
-  name: Documentation
-  shared: 1
+- slug: monitoring
+  name: Monitoring
+  shared: 2
+- slug: serverless
+  name: Serverless
+  shared: 2
 - slug: machine-learning
   name: Machine Learning
   shared: 1
 - slug: microservices
   name: Microservices
   shared: 1
-- slug: monitoring
-  name: Monitoring
+- slug: orchestration
+  name: Orchestration
   shared: 1
 overview: 'Deployment is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deployment.apievangelist.com](https://deployment.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Koyeb, Databricks Asset Bundles, Raygun, OutSystems, Amazon Elastic Beanstalk, Laravel, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Laravel, OutSystems, Koyeb, Databricks Asset Bundles, Raygun, Amazon Elastic Beanstalk, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Containers, Command Line Interface, Documentation, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, Monitoring, Serverless, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

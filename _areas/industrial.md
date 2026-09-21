@@ -6,21 +6,21 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 177
+provider_count: 178
 providers:
+- slug: eaton
+  name: Eaton
+  description: 'Eaton Corporation plc (NYSE: ETN) is a global intelligent-power-management company with operations across electrical, aerospace, vehicle, and eMobility segments. Its digital surface centers on Brightlayer — a software portfolio for data centers, utilities, industrial, buildings, and mobility — toge…'
+  api_count: 1
+  score_band: developing
+  score_composite: 54.0
+  shared: 1
 - slug: paperless-parts
   name: Paperless Parts
   description: Paperless Parts, Inc. is a Boston-based manufacturing software company founded in 2017 that builds a secure, ITAR-compliant cloud quoting and sales platform for custom part manufacturers — job shops, contract manufacturers and rapid-prototype businesses working in CNC machining, sheet metal fabrica…
   api_count: 4
   score_band: developing
   score_composite: 53.2
-  shared: 1
-- slug: eaton
-  name: Eaton
-  description: 'Eaton Corporation plc (NYSE: ETN) is a global intelligent-power-management company with operations across electrical, aerospace, vehicle, and eMobility segments. Its digital surface centers on Brightlayer — a software portfolio for data centers, utilities, industrial, buildings, and mobility — toge…'
-  api_count: 1
-  score_band: developing
-  score_composite: 53.0
   shared: 1
 - slug: aerones
   name: Aerones
@@ -43,6 +43,13 @@ providers:
   score_band: developing
   score_composite: 49.0
   shared: 1
+- slug: remberg
+  name: Remberg
+  description: remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventi…
+  api_count: 12
+  score_band: developing
+  score_composite: 48.6
+  shared: 1
 - slug: renesas
   name: Renesas
   description: 'Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products for automotive, industrial, infrastructure, and consumer el…'
@@ -56,13 +63,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 43.1
-  shared: 1
-- slug: remberg
-  name: Remberg
-  description: remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventi…
-  api_count: 12
-  score_band: developing
-  score_composite: 42.3
   shared: 1
 - slug: cosmo-tech
   name: Cosmo Tech
@@ -219,14 +219,14 @@ providers:
   score_composite: 19.3
   shared: 1
 provider_slugs:
-- paperless-parts
 - eaton
+- paperless-parts
 - aerones
 - civil-infrastructure-platform
 - ge-vernova
+- remberg
 - renesas
 - siemens-mindsphere
-- remberg
 - cosmo-tech
 - weavix
 - steute-technologies-gmbh-and-co-kg
@@ -250,12 +250,13 @@ provider_slugs:
 - deephow
 - realwear
 - matthews-international
+- airwave
 - sanmina
 - vishay-intertechnology
 - ermeo
 - laserhub
-- anixter-international
 - circor-international
+- anixter-international
 - manex-ai
 - shapeci
 - ashland
@@ -273,7 +274,6 @@ provider_slugs:
 - asseta
 - nacco-industries
 - operon
-- minerals-technologies
 - verve-motion
 - kaman
 - nth-cycle
@@ -287,6 +287,7 @@ provider_slugs:
 - magnusmetal
 - ventura
 - kilsar
+- minerals-technologies
 - amsc
 - american-superconductor-corporation
 - re-build
@@ -315,7 +316,6 @@ provider_slugs:
 - scope
 - pairio
 - cameron-international
-- berry-plastics-group
 - herthametals
 - oshkosh
 - moog
@@ -391,6 +391,7 @@ provider_slugs:
 - itt
 - cdhot
 - crane
+- berry-plastics-group
 - colfax
 - fulcrum-bioenergy
 - inxeption
@@ -403,7 +404,7 @@ related:
 overview: 'Industrial is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [industrial.apievangelist.com](https://industrial.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Paperless Parts, Eaton, Aerones, Civil Infrastructure Platform, GE Vernova, Renesas, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Eaton, Paperless Parts, Aerones, Civil Infrastructure Platform, GE Vernova, Remberg, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

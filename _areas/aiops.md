@@ -78,19 +78,19 @@ providers:
   score_band: strong
   score_composite: 58.4
   shared: 1
-- slug: sciencelogic
-  name: ScienceLogic
-  description: ScienceLogic is an AIOps and IT operations company whose ScienceLogic AI Platform — rebranded in 2026 as the Skylar family — covers infrastructure and application observability, network configuration and compliance, and workflow automation. Skylar One (formerly SL1) is the observability platform, w…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.7
-  shared: 1
 - slug: deployxa
   name: Deployxa
   description: AI-first autonomous cloud deployment platform for deploying AI-built and containerized web apps to production, featuring a deployment intelligence engine, global edge deployment, managed databases, VPS clusters, and a CLI. Publishes an OpenAPI 3.0.3 contract at /openapi.json, an llms.txt, an A2A ag…
   api_count: 1
   score_band: strong
   score_composite: 57.0
+  shared: 1
+- slug: sciencelogic
+  name: ScienceLogic
+  description: ScienceLogic is an AIOps and IT operations company whose ScienceLogic AI Platform — rebranded in 2026 as the Skylar family — covers infrastructure and application observability, network configuration and compliance, and workflow automation. Skylar One (formerly SL1) is the observability platform, w…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.8
   shared: 1
 - slug: chronosphere
   name: Chronosphere
@@ -229,8 +229,8 @@ provider_slugs:
 - moogsoft
 - metaplane
 - elastic-observability
-- sciencelogic
 - deployxa
+- sciencelogic
 - chronosphere
 - 7signalsolutions
 - kentik
@@ -269,14 +269,14 @@ provider_slugs:
 - zebrium
 - shoreline
 related:
-- slug: monitoring
-  name: Monitoring
-  shared: 5
 - slug: observability
   name: Observability
-  shared: 5
+  shared: 4
 - slug: logging
   name: Logging
+  shared: 3
+- slug: monitoring
+  name: Monitoring
   shared: 3
 - slug: agents
   name: Agents
@@ -293,5 +293,5 @@ overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://api
   30 providers on the network work in this area, including Soda, Akuity, BigPanda, FireHydrant, Logz.io, LogicMonitor, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Monitoring, Observability, Logging, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Logging, Monitoring, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

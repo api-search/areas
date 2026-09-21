@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://sdk.apievangelist.com
 area_host: sdk.apievangelist.com
 icon: https://sdk.apievangelist.com/icon-thumb.png
-provider_count: 353
+provider_count: 354
 providers:
 - slug: cvent-registration
   name: Cvent Registration
@@ -22,6 +22,20 @@ providers:
   score_band: exemplar
   score_composite: 69.9
   shared: 1
+- slug: clix-so
+  name: Clix
+  description: Clix is a US-based, developer-first mobile push notification platform for iOS, Android, React Native and Flutter — one CLI command (clix install) automates Firebase Cloud Messaging and APNs setup, and the console adds behaviour-triggered and API-triggered campaigns, real-time delivery logs, full-fu…
+  api_count: 1
+  score_band: strong
+  score_composite: 66.1
+  shared: 1
+- slug: dwolla
+  name: Dwolla
+  description: Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform that lets businesses programmatically move money across the U.S. banking system. Its v2 REST API — a JSON-HAL hypermedia API secured with OAuth 2.0 client-credentials — supports ACH (standard and Same-Day),…
+  api_count: 19
+  score_band: strong
+  score_composite: 63.7
+  shared: 1
 - slug: general-translation
   name: General Translation
   description: General Translation is an end-to-end internationalization (i18n) and localization platform for developers, backed by a16z. It combines open-source i18n libraries for React, Next.js, React Native, Node.js, and Python with an AI-powered translation API, a context platform (glossaries and translation…
@@ -34,7 +48,7 @@ providers:
   description: 'Buf Technologies builds the modern toolchain for Protocol Buffers and gRPC: the buf CLI, the Buf Schema Registry (BSR), Protovalidate, Protobuf-ES and Protobuf-Py, and the Connect protocol, which is now a CNCF project. It replaces protoc-based workflows with linting, breaking-change detection, code…'
   api_count: 2
   score_band: strong
-  score_composite: 61.0
+  score_composite: 61.4
   shared: 1
 - slug: api-league
   name: API League
@@ -42,13 +56,6 @@ providers:
   api_count: 13
   score_band: strong
   score_composite: 60.6
-  shared: 1
-- slug: dwolla
-  name: Dwolla
-  description: Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform that lets businesses programmatically move money across the U.S. banking system. Its v2 REST API — a JSON-HAL hypermedia API secured with OAuth 2.0 client-credentials — supports ACH (standard and Same-Day),…
-  api_count: 19
-  score_band: strong
-  score_composite: 59.5
   shared: 1
 - slug: suki-ai
   name: Suki AI
@@ -62,7 +69,7 @@ providers:
   description: OpenAPI-first sports betting odds API (odds-api.net) providing bookmaker odds, odds comparison, arbitrage, positive EV, line movement, and racing/sports coverage via REST plus SSE and WebSocket streaming. Agent-native with an MCP server, llms.txt, and agent instruction files, plus TypeScript and Py…
   api_count: 1
   score_band: strong
-  score_composite: 57.4
+  score_composite: 57.0
   shared: 1
 - slug: lucra-sports
   name: Lucra Sports
@@ -162,12 +169,19 @@ providers:
   score_band: developing
   score_composite: 49.8
   shared: 1
+- slug: daily-co
+  name: Daily
+  description: Daily provides WebRTC video and audio infrastructure for developers — REST APIs for rooms, recordings, transcripts, meetings, dial-out and Daily Bots / Pipecat Cloud (voice AI agents), plus client SDKs for Web, iOS, Android, React Native and Flutter.
+  api_count: 1
+  score_band: developing
+  score_composite: 49.7
+  shared: 1
 - slug: banuba
   name: Banuba
   description: Banuba is an AR and AI technology company providing the Face AR SDK for augmented reality face effects, beauty filters, and virtual try-on experiences. The SDK supports iOS, Android, Web (HTML5), Windows, macOS, Unity, Flutter, and React Native. Use cases include live streaming beauty filters, vide…
   api_count: 4
   score_band: developing
-  score_composite: 49.6
+  score_composite: 49.3
   shared: 1
 - slug: chroma
   name: Chroma
@@ -204,27 +218,14 @@ providers:
   score_band: developing
   score_composite: 47.5
   shared: 1
-- slug: firework
-  name: Firework
-  description: Firework is a video commerce platform that helps brands and retailers bring the in-store experience and human connection online through shoppable short-form video, livestream shopping, 1:1 video chat, digital showrooms, and an AI shopping agent. Operated by Loop Now Technologies and backed by SoftB…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.4
-  shared: 1
-- slug: daily-co
-  name: Daily
-  description: Daily provides WebRTC video and audio infrastructure for developers — REST APIs for rooms, recordings, transcripts, meetings, dial-out and Daily Bots / Pipecat Cloud (voice AI agents), plus client SDKs for Web, iOS, Android, React Native and Flutter.
-  api_count: 1
-  score_band: developing
-  score_composite: 47.3
-  shared: 1
 provider_slugs:
 - cvent-registration
 - cvent-event-cloud
+- clix-so
+- dwolla
 - general-translation
 - buf
 - api-league
-- dwolla
 - suki-ai
 - odds-api
 - lucra-sports
@@ -241,6 +242,7 @@ provider_slugs:
 - netomi
 - dexcare
 - android
+- daily-co
 - banuba
 - chroma
 - scalar
@@ -248,7 +250,6 @@ provider_slugs:
 - huma
 - graphy
 - firework
-- daily-co
 - waniwani
 - alokai-formerly-vue-storefront
 - hansoft
@@ -278,6 +279,7 @@ provider_slugs:
 - moises
 - openapi-generator
 - the-guild-dev
+- cometchat
 - virtualitics
 - krisp
 - rigetti-computing
@@ -285,7 +287,6 @@ provider_slugs:
 - split
 - velt
 - real-gift-services
-- cometchat
 - fish-audio
 - dyte
 - kiota
@@ -343,6 +344,7 @@ provider_slugs:
 - openfeature
 - raycast
 - angle
+- ultraleap
 - contextsdk
 - huly
 - sensely
@@ -361,13 +363,12 @@ provider_slugs:
 - symbolica
 - frvr
 - scandit
-- leap-motion
 - amwell
 - smithy
 - genql
-- aidinrobotics
 - onekey
 - spindl
+- aidinrobotics
 - lm-studio
 - o1-labs
 - mobilion-systems
@@ -594,7 +595,7 @@ related:
 overview: 'SDKs is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [sdk.apievangelist.com](https://sdk.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cvent Registration, Cvent Event Cloud, General Translation, Buf, API League, Dwolla, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Cvent Registration, Cvent Event Cloud, Clix, Dwolla, General Translation, Buf, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Authentication, Containers, Design, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

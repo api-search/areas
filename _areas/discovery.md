@@ -6,21 +6,21 @@ description: Mapping the technical details of API operations to the human standa
 area_url: https://discovery.apievangelist.com
 area_host: discovery.apievangelist.com
 icon: https://discovery.apievangelist.com/icon-thumb.png
-provider_count: 37
+provider_count: 39
 providers:
+- slug: postman
+  name: Postman
+  description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
+  api_count: 21
+  score_band: exemplar
+  score_composite: 72.4
+  shared: 1
 - slug: algolia
   name: Algolia
   description: Algolia is a hosted search and discovery platform that delivers fast, typo-tolerant search, browse, recommendations and personalization through a suite of REST APIs and edge-distributed infrastructure. It powers search experiences for ecommerce, media, SaaS and content sites, pairing a synchronous…
   api_count: 15
   score_band: exemplar
   score_composite: 71.5
-  shared: 1
-- slug: postman
-  name: Postman
-  description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 21
-  score_band: exemplar
-  score_composite: 70.1
   shared: 1
 - slug: taboola
   name: Taboola
@@ -85,6 +85,13 @@ providers:
   score_band: thin
   score_composite: 39.2
   shared: 1
+- slug: afmr-ai
+  name: Agent Failure Mode Registry
+  description: The Agent Failure Mode Registry (AFMR) is a reputation-integrity standard for agentic commerce. AFMR 1.0 is a published, citable vocabulary of 32 permanent failure-mode families in eight classes describing how autonomous agent systems fail as designed mechanisms; afmr.ai is the independent public f…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.9
+  shared: 1
 - slug: audiomack
   name: Audiomack
   description: Audiomack is an on-demand music streaming and audio discovery platform that lets artists and creators upload unlimited music and podcasts and reach listeners through its iOS, Android, and web apps. The service is widely associated with hip-hop, rap, R&B, Afrobeats, dancehall, reggae, electronic, an…
@@ -113,10 +120,24 @@ providers:
   score_band: thin
   score_composite: 27.8
   shared: 1
+- slug: apinity-io
+  name: Apinity.io
+  description: Apinity empowers organisations to run their compliant API marketplace that simplifies integration, drives adoption, and secures governance. The platform provides tools for managing API lifecycle, enabling API discovery, enforcing compliance policies, and facilitating secure API-driven integrations…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.2
+  shared: 1
 - slug: agentic-resource-discovery
   name: Agentic Resource Discovery (ARD)
   description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked set of MCP servers, agent cards, skills, workflows and APIs i…
   api_count: 1
+  score_band: emerging
+  score_composite: 25.7
+  shared: 1
+- slug: allagents-app
+  name: allagents
+  description: allagents (allagents.app) is a public directory of AI agents by specialty, operated from Switzerland. It lists 811 agents across specialties such as trading, research, coding, memory, automation, legal, commerce, identity and security, each card carrying the agent's name, address, protocols and how…
+  api_count: 2
   score_band: emerging
   score_composite: 25.7
   shared: 1
@@ -126,13 +147,6 @@ providers:
   api_count: 6
   score_band: emerging
   score_composite: 21.0
-  shared: 1
-- slug: apinity-io
-  name: Apinity.io
-  description: Apinity empowers organisations to run their compliant API marketplace that simplifies integration, drives adoption, and secures governance. The platform provides tools for managing API lifecycle, enabling API discovery, enforcing compliance policies, and facilitating secure API-driven integrations…
-  api_count: 1
-  score_band: emerging
-  score_composite: 19.1
   shared: 1
 - slug: api-stack
   name: API Stack
@@ -204,23 +218,9 @@ providers:
   score_band: minimal
   score_composite: 10.6
   shared: 1
-- slug: atmosfy
-  name: Atmosfy
-  description: Atmosfy is a live-video mapping platform that bills itself as the world's largest live video map, aggregating 500M+ geo-tagged short-form videos across 100M+ places in 20,000+ cities and 150+ countries. The consumer app lets people see what restaurants, bars, hotels, and events actually look like i…
-  api_count: 0
-  score_band: minimal
-  score_composite: 10.2
-  shared: 1
-- slug: shoobs
-  name: Shoobs
-  description: Shoobs is a UK-based online events discovery and ticketing platform focused on urban culture — Afrobeats, R&B, hip-hop, dancehall, comedy, theatre, festivals, brunches and club nights across London and other British cities. Founded as a Y Combinator-backed startup, Shoobs helps fans find and book t…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.7
-  shared: 1
 provider_slugs:
-- algolia
 - postman
+- algolia
 - taboola
 - tmdb
 - microsoft-azure-migrate
@@ -230,13 +230,15 @@ provider_slugs:
 - google-cloud-migration-center
 - voidpet
 - productplan
+- afmr-ai
 - audiomack
 - bored
 - podcastindex
 - tel-aviv-university
-- agentic-resource-discovery
-- amazon-application-discovery-service
 - apinity-io
+- agentic-resource-discovery
+- allagents-app
+- amazon-application-discovery-service
 - api-stack
 - launching-next
 - equipboard
@@ -272,7 +274,7 @@ related:
 overview: 'API Evangelist Discovery is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [discovery.apievangelist.com](https://discovery.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Algolia, Postman, Taboola, The Movie Database, Azure Migrate, Artifact Hub, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, Algolia, Taboola, The Movie Database, Azure Migrate, Artifact Hub, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Migration, API Evangelist Search, AI Automation, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'

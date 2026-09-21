@@ -13,7 +13,7 @@ providers:
   description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Lightsail provides developers compute, storage, and networking ca…
   api_count: 2
   score_band: exemplar
-  score_composite: 72.3
+  score_composite: 73.3
   shared: 1
 - slug: microsoft-azure-kubernetes-service
   name: Azure Kubernetes Service
@@ -21,6 +21,13 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 72.2
+  shared: 1
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 24
+  score_band: exemplar
+  score_composite: 71.1
   shared: 1
 - slug: calico
   name: Calico
@@ -36,12 +43,12 @@ providers:
   score_band: exemplar
   score_composite: 67.3
   shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 24
+- slug: paperspace
+  name: Paperspace
+  description: Paperspace is a GPU cloud platform for AI, ML, and 3D rendering workloads, acquired by DigitalOcean in 2023. The platform combines on-demand GPU/CPU machines (Core), the Gradient ML workflow stack (Notebooks, Datasets, Models, Workflows), and container-as-a-service Deployments under a single team-s…
+  api_count: 4
   score_band: strong
-  score_composite: 66.3
+  score_composite: 65.1
   shared: 1
 - slug: koyeb
   name: Koyeb
@@ -50,6 +57,20 @@ providers:
   score_band: strong
   score_composite: 64.3
   shared: 1
+- slug: red-hat
+  name: Red Hat
+  description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
+  api_count: 6
+  score_band: strong
+  score_composite: 62.8
+  shared: 1
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 1
+  score_band: strong
+  score_composite: 62.6
+  shared: 1
 - slug: azure-container-apps
   name: Azure Container Apps
   description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
@@ -57,19 +78,19 @@ providers:
   score_band: strong
   score_composite: 61.6
   shared: 1
-- slug: paperspace
-  name: Paperspace
-  description: Paperspace is a GPU cloud platform for AI, ML, and 3D rendering workloads, acquired by DigitalOcean in 2023. The platform combines on-demand GPU/CPU machines (Core), the Gradient ML workflow stack (Notebooks, Datasets, Models, Workflows), and container-as-a-service Deployments under a single team-s…
-  api_count: 4
-  score_band: strong
-  score_composite: 61.0
-  shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
+- slug: seqera-labs
+  name: Seqera Labs
+  description: Seqera (Seqera Labs) builds open, cloud-based software for scientific data analysis at scale. It is the company behind Nextflow, the widely adopted open-source workflow orchestration engine, and the Seqera Platform (formerly Nextflow Tower) for launching, monitoring, and governing data pipelines ac…
   api_count: 1
   score_band: strong
-  score_composite: 60.0
+  score_composite: 60.4
+  shared: 1
+- slug: amazon-ecs
+  name: Amazon ECS
+  description: Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications.
+  api_count: 1
+  score_band: strong
+  score_composite: 57.8
   shared: 1
 - slug: jfrog-container-registry
   name: JFrog Container Registry
@@ -78,19 +99,19 @@ providers:
   score_band: strong
   score_composite: 57.6
   shared: 1
-- slug: red-hat
-  name: Red Hat
-  description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
-  api_count: 6
-  score_band: strong
-  score_composite: 57.5
-  shared: 1
 - slug: amazon-ecr
   name: Amazon ECR
   description: Amazon Elastic Container Registry (ECR) is a fully managed container registry that makes it easy to store, manage, share, and deploy container images and artifacts. ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure, and integrate…
   api_count: 1
   score_band: strong
   score_composite: 57.2
+  shared: 1
+- slug: upsun
+  name: Upsun
+  description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.9
   shared: 1
 - slug: tensordock
   name: TensorDock
@@ -113,26 +134,19 @@ providers:
   score_band: strong
   score_composite: 56.2
   shared: 1
+- slug: amazon-app-runner
+  name: Amazon App Runner
+  description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
+  api_count: 3
+  score_band: strong
+  score_composite: 55.9
+  shared: 1
 - slug: goharbor
   name: GoHarbor
   description: 'Harbor is an open source, CNCF-hosted registry that stores, signs and scans OCI artifacts, adding the policy and identity layer a plain container registry lacks: projects, RBAC and robot accounts, vulnerability scanning and SBOM generation, Cosign content trust, tag retention and immutability, quot…'
   api_count: 2
   score_band: strong
   score_composite: 54.9
-  shared: 1
-- slug: seqera-labs
-  name: Seqera Labs
-  description: Seqera (Seqera Labs) builds open, cloud-based software for scientific data analysis at scale. It is the company behind Nextflow, the widely adopted open-source workflow orchestration engine, and the Seqera Platform (formerly Nextflow Tower) for launching, monitoring, and governing data pipelines ac…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.1
-  shared: 1
-- slug: amazon-ecs
-  name: Amazon ECS
-  description: Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications.
-  api_count: 1
-  score_band: developing
-  score_composite: 53.5
   shared: 1
 - slug: platform.sh
   name: Platform.sh
@@ -147,6 +161,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.9
+  shared: 1
+- slug: scaleway
+  name: Scaleway
+  description: Scaleway is a European cloud provider offering a full suite of compute, storage, networking, AI, and serverless infrastructure services. Scaleway provides a comprehensive REST API for programmatic management of all cloud resources including Instances, Kubernetes clusters (Kapsule and Kosmos), manag…
+  api_count: 10
+  score_band: developing
+  score_composite: 51.8
   shared: 1
 - slug: snyk-container
   name: Snyk Container
@@ -176,13 +197,6 @@ providers:
   score_band: developing
   score_composite: 51.2
   shared: 1
-- slug: upsun
-  name: Upsun
-  description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.6
-  shared: 1
 - slug: amazon-managed-prometheus
   name: Amazon Managed Service for Prometheus
   description: Amazon Managed Service for Prometheus is a serverless, Prometheus-compatible monitoring service for container metrics. It automatically scales as your monitoring needs increase, works with open-source tools, and integrates with Amazon EKS and other container environments. The service provides fully…
@@ -197,20 +211,6 @@ providers:
   score_band: developing
   score_composite: 50.4
   shared: 1
-- slug: amazon-app-runner
-  name: Amazon App Runner
-  description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
-  api_count: 3
-  score_band: developing
-  score_composite: 49.5
-  shared: 1
-- slug: scaleway
-  name: Scaleway
-  description: Scaleway is a European cloud provider offering a full suite of compute, storage, networking, AI, and serverless infrastructure services. Scaleway provides a comprehensive REST API for programmatic management of all cloud resources including Instances, Kubernetes clusters (Kapsule and Kosmos), manag…
-  api_count: 10
-  score_band: developing
-  score_composite: 49.3
-  shared: 1
 - slug: balena
   name: Balena
   description: Balena is a complete platform for building, deploying, and managing fleets of connected Linux devices. The platform combines balenaOS, balenaEngine, balenaCloud, the balena CLI, and the balena SDK so teams can build container-based device images and continuously deliver them to devices in the field…
@@ -221,33 +221,33 @@ providers:
 provider_slugs:
 - amazon-lightsail
 - microsoft-azure-kubernetes-service
+- cloudflare
 - calico
 - canonical
-- cloudflare
-- koyeb
-- azure-container-apps
 - paperspace
-- ibm
-- jfrog-container-registry
+- koyeb
 - red-hat
+- ibm
+- azure-container-apps
+- seqera-labs
+- amazon-ecs
+- jfrog-container-registry
 - amazon-ecr
+- upsun
 - tensordock
 - dagger
 - cloud-foundry
+- amazon-app-runner
 - goharbor
-- seqera-labs
-- amazon-ecs
 - platform.sh
 - gameye
+- scaleway
 - snyk-container
 - amazon-batch
 - azure-container-instances
 - aws-app-runner
-- upsun
 - amazon-managed-prometheus
 - kubernetes
-- amazon-app-runner
-- scaleway
 - balena
 - red-hat-openshift
 - sysdig
@@ -364,23 +364,23 @@ related:
   shared: 6
 - slug: serverless
   name: Serverless
-  shared: 4
+  shared: 5
 - slug: orchestration
   name: Orchestration
   shared: 3
 - slug: database
   name: Database
   shared: 2
+- slug: machine-learning
+  name: Machine Learning
+  shared: 2
 - slug: microservices
   name: Microservices
   shared: 2
-- slug: dns
-  name: DNS
-  shared: 1
 overview: 'Containers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [containers.apievangelist.com](https://containers.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Lightsail, Azure Kubernetes Service, Calico, Canonical, Cloudflare, Koyeb, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Lightsail, Azure Kubernetes Service, Cloudflare, Calico, Canonical, Paperspace, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Deployment, Serverless, Orchestration, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'

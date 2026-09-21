@@ -78,6 +78,13 @@ providers:
   score_band: developing
   score_composite: 51.6
   shared: 1
+- slug: planradar
+  name: PlanRadar
+  description: PlanRadar is a SaaS platform for construction and real estate documentation, defect and task management, and site inspections, used by builders, owners, facility managers, architects and engineers in more than 75 countries. Its secure REST Open API (v1 and v2) lets Pro and Enterprise customers read…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.4
+  shared: 1
 - slug: readme
   name: ReadMe
   description: ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive API explorer, Try-It console, Developer Dashboard with real-t…
@@ -123,13 +130,6 @@ providers:
 - slug: nuclino
   name: Nuclino
   description: Nuclino is a unified team workspace that combines wikis, docs, and project management into one collaborative platform. Its REST API enables developers to build integrations and automate tasks by programmatically managing items, collections, workspaces, teams, users, fields, and files using Markdown…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.1
-  shared: 1
-- slug: planradar
-  name: PlanRadar
-  description: PlanRadar is a SaaS platform for construction and real estate documentation, defect and task management, and site inspections, used by builders, owners, facility managers, architects and engineers in more than 75 countries. Its secure REST Open API (v1 and v2) lets Pro and Enterprise customers read…
   api_count: 1
   score_band: developing
   score_composite: 45.1
@@ -229,6 +229,7 @@ provider_slugs:
 - zeroheight
 - apidog
 - sweep
+- planradar
 - readme
 - scribe
 - elium
@@ -236,7 +237,6 @@ provider_slugs:
 - hackmd
 - mintlify
 - nuclino
-- planradar
 - salesforce-knowledge-management
 - sideko
 - eraser

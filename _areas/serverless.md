@@ -15,6 +15,13 @@ providers:
   score_band: exemplar
   score_composite: 80.1
   shared: 1
+- slug: amazon-dynamodb
+  name: Amazon DynamoDB
+  description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-value and document data models.
+  api_count: 1
+  score_band: exemplar
+  score_composite: 79.4
+  shared: 1
 - slug: oracle-cloud
   name: Oracle Cloud Infrastructure
   description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notificatio…
@@ -22,12 +29,26 @@ providers:
   score_band: exemplar
   score_composite: 74.7
   shared: 1
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 24
+  score_band: exemplar
+  score_composite: 71.1
+  shared: 1
 - slug: prisma
   name: Prisma
   description: Prisma gives TypeScript and Node.js teams a type-safe ORM, managed serverless Postgres, and Compute for deploying apps and AI agents next to their database. The product line is Prisma ORM, Prisma Postgres, Prisma Compute, Prisma Composer, Prisma Studio, Object Store buckets and Query Insights, wire…
   api_count: 7
   score_band: exemplar
-  score_composite: 71.5
+  score_composite: 70.1
+  shared: 1
+- slug: fal-ai
+  name: fal
+  description: fal (Features and Labels, Inc.) is a generative media platform providing the world's fastest API for running image, video, audio, and multimodal generative AI models. Through a unified queue-based REST API at https://queue.fal.run, plus realtime WebSocket and SSE streaming surfaces, fal serves 1,00…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 69.7
   shared: 1
 - slug: aws-api-gateway
   name: Amazon API Gateway
@@ -43,19 +64,19 @@ providers:
   score_band: exemplar
   score_composite: 68.8
   shared: 1
+- slug: aws-lambda
+  name: AWS Lambda
+  description: AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. Lambda runs your code on high-availability compute infrastructure and performs all of the administration of the compute…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.2
+  shared: 1
 - slug: netlify
   name: Netlify
   description: Netlify is a cloud platform for building, deploying and scaling modern web applications, with continuous deployment from Git, serverless and edge functions, a global CDN, forms, identity, Postgres storage and an image CDN. Its public REST API at https://api.netlify.com/api/v1 is described by an Ope…
   api_count: 2
   score_band: exemplar
   score_composite: 68.1
-  shared: 1
-- slug: fal-ai
-  name: fal
-  description: fal (Features and Labels, Inc.) is a generative media platform providing the world's fastest API for running image, video, audio, and multimodal generative AI models. Through a unified queue-based REST API at https://queue.fal.run, plus realtime WebSocket and SSE streaming surfaces, fal serves 1,00…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 67.6
   shared: 1
 - slug: segmind
   name: Segmind
@@ -64,19 +85,12 @@ providers:
   score_band: exemplar
   score_composite: 67.2
   shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 24
-  score_band: strong
-  score_composite: 66.3
-  shared: 1
-- slug: amazon-dynamodb
-  name: Amazon DynamoDB
-  description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-value and document data models.
+- slug: modal-labs
+  name: Modal
+  description: Modal is a serverless cloud for AI, data, and general compute. Developers define infrastructure as code in Python (with JavaScript and Go SDKs) and run functions, GPUs, sandboxes, web endpoints, cron jobs, and volumes on demand. The primary developer interface is the Modal SDK and CLI communicating…
   api_count: 1
   score_band: strong
-  score_composite: 64.4
+  score_composite: 64.8
   shared: 1
 - slug: koyeb
   name: Koyeb
@@ -84,6 +98,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 64.3
+  shared: 1
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  api_count: 1
+  score_band: strong
+  score_composite: 62.6
   shared: 1
 - slug: amazon-lambda
   name: Amazon Lambda
@@ -99,12 +120,12 @@ providers:
   score_band: strong
   score_composite: 61.6
   shared: 1
-- slug: aws-lambda
-  name: AWS Lambda
-  description: AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. Lambda runs your code on high-availability compute infrastructure and performs all of the administration of the compute…
+- slug: amazon-glue
+  name: Amazon Glue
+  description: Amazon Glue is a serverless data integration service that makes it simple to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning, and application development. It provides both visual and code-based interfaces for ETL operations and includes a Data Catal…
   api_count: 1
   score_band: strong
-  score_composite: 61.1
+  score_composite: 61.0
   shared: 1
 - slug: amazon-eventbridge-pipes
   name: Amazon EventBridge Pipes
@@ -134,13 +155,6 @@ providers:
   score_band: strong
   score_composite: 60.4
   shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
-  api_count: 1
-  score_band: strong
-  score_composite: 60.0
-  shared: 1
 - slug: amazon-eventbridge
   name: Amazon EventBridge
   description: Amazon EventBridge is a serverless event bus service that makes it easy to connect your applications with data from a variety of sources. EventBridge delivers a stream of real-time data from your own applications, SaaS applications, and AWS services and routes that data to targets such as Lambda, S…
@@ -169,13 +183,6 @@ providers:
   score_band: strong
   score_composite: 56.4
   shared: 1
-- slug: amazon-glue
-  name: Amazon Glue
-  description: Amazon Glue is a serverless data integration service that makes it simple to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning, and application development. It provides both visual and code-based interfaces for ETL operations and includes a Data Catal…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.2
-  shared: 1
 - slug: cloudflare-queues
   name: Cloudflare Queues
   description: Cloudflare Queues is a flexible, scalable message queue service built into the Cloudflare Workers ecosystem. It provides guaranteed message delivery with a REST API for creating and managing queues, sending individual or batched messages, configuring push-based Worker consumers and HTTP pull consum…
@@ -189,6 +196,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 56.0
+  shared: 1
+- slug: amazon-app-runner
+  name: Amazon App Runner
+  description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
+  api_count: 3
+  score_band: strong
+  score_composite: 55.9
   shared: 1
 - slug: archil
   name: Archil
@@ -204,52 +218,41 @@ providers:
   score_band: developing
   score_composite: 53.1
   shared: 1
-- slug: fermyon
-  name: Fermyon
-  description: Fermyon Wasm Functions is a multi-tenant, hosted, globally distributed engine for serverless functions running on Akamai Cloud, the most distributed cloud network. Fermyon is the company behind the Spin Framework and SpinKube, providing tools and runtimes for building and operating WebAssembly-base…
-  api_count: 2
-  score_band: developing
-  score_composite: 52.9
-  shared: 1
-- slug: amazon-proton
-  name: Amazon Proton
-  description: AWS Proton is a managed service for platform engineers that helps them publish standardized container and serverless application templates to empower developers. It provides automated infrastructure provisioning and manages deployment pipelines for all your applications, enabling self-service devel…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.4
-  shared: 1
 provider_slugs:
 - appwrite
+- amazon-dynamodb
 - oracle-cloud
+- cloudflare
 - prisma
+- fal-ai
 - aws-api-gateway
 - microsoft-azure-functions
+- aws-lambda
 - netlify
-- fal-ai
 - segmind
-- cloudflare
-- amazon-dynamodb
+- modal-labs
 - koyeb
+- ibm
 - amazon-lambda
 - azure-container-apps
-- aws-lambda
+- amazon-glue
 - amazon-eventbridge-pipes
 - amazon-eventbridge-scheduler
 - freestyle-sh
 - inngest
-- ibm
 - amazon-eventbridge
 - amazon-efs
 - insforge
 - formboost
-- amazon-glue
 - cloudflare-queues
 - amazon-redshift
+- amazon-app-runner
 - archil
 - rightnow
 - fermyon
 - amazon-proton
 - amazon-step-functions
+- scaleway
 - vast-ai
 - microsoft-azure-web-pubsub
 - turbopuffer
@@ -260,16 +263,15 @@ provider_slugs:
 - knative
 - dataloop
 - neon
-- amazon-app-runner
 - google-cloud-api-gateway
 - chroma
-- scaleway
 - aws-step-functions
 - qstash
 - val-town
 - agentuity
 - azure-function-apps
 - warpstream
+- macrometa
 - amazon-fargate
 - datastax
 - lumigo
@@ -283,9 +285,9 @@ provider_slugs:
 - xata
 - convex
 - google-cloud-workflows
+- qubrid-ai
 - amazon-serverless-application-repository
 - google-cloud-eventarc
-- macrometa
 - partykit
 - google-cloud-app-engine
 - localstack
@@ -309,24 +311,22 @@ provider_slugs:
 - datacrunch
 - aws-glue
 - amazon-athena
+- upstash
 - blaxel
 - langbase
 - firecracker
 - scalable-platforms
-- qubrid-ai
 - spocket
 - clockwork-labs
 - coiled
 - metorial
 - deepinfra
 - apache-event-mesh
-- modal-labs
 - scalable-services
 - recursal-ai-inc
 - serverless
 - wasmedge
 - amazon-appsync
-- upstash
 - amazon-aurora-dsql
 - spin
 - hyperbolic
@@ -358,29 +358,29 @@ provider_slugs:
 - suborbital
 - thundra
 related:
-- slug: database
-  name: Database
-  shared: 6
 - slug: containers
   name: Containers
-  shared: 4
+  shared: 5
+- slug: database
+  name: Database
+  shared: 5
+- slug: deployment
+  name: Deployment
+  shared: 2
+- slug: machine-learning
+  name: Machine Learning
+  shared: 2
 - slug: monitoring
   name: Monitoring
   shared: 2
-- slug: agents
-  name: Agents
-  shared: 1
-- slug: authentication
-  name: Authentication
-  shared: 1
-- slug: dns
-  name: DNS
-  shared: 1
+- slug: observability
+  name: Observability
+  shared: 2
 overview: 'Serverless is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [serverless.apievangelist.com](https://serverless.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Appwrite, Oracle Cloud Infrastructure, Prisma, Amazon API Gateway, Microsoft Azure Functions, Netlify, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Appwrite, Amazon DynamoDB, Oracle Cloud Infrastructure, Cloudflare, Prisma, fal, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Database, Containers, Monitoring, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Containers, Database, Deployment, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

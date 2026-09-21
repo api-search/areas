@@ -19,8 +19,15 @@ providers:
   name: Datadog
   description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
   api_count: 6
+  score_band: exemplar
+  score_composite: 66.5
+  shared: 1
+- slug: grafana
+  name: Grafana
+  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
+  api_count: 2
   score_band: strong
-  score_composite: 61.7
+  score_composite: 65.3
   shared: 1
 - slug: foxglove-technologies
   name: Foxglove Technologies
@@ -28,13 +35,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 59.0
-  shared: 1
-- slug: grafana
-  name: Grafana
-  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
-  api_count: 2
-  score_band: strong
-  score_composite: 57.5
   shared: 1
 - slug: amazon-quicksight
   name: Amazon QuickSight
@@ -92,19 +92,19 @@ providers:
   score_band: thin
   score_composite: 36.7
   shared: 1
-- slug: kibana
-  name: Kibana
-  description: Kibana is an open-source data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence. Kibana provides histograms, line graphs, pie charts, heat maps, geospatial visualizations, dashboards, alerting, and management of saved obj…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.3
-  shared: 1
 - slug: lucidchart
   name: Lucidchart
   description: Lucidchart is a web-based intelligent diagramming application by Lucid Software, part of the Lucid Visual Collaboration Suite (Lucidchart, Lucidspark, Lucidscale). The Lucid Developer Platform exposes a REST API for documents/folders/collaborators/content, an Extension API for in-editor extensions,…
   api_count: 1
   score_band: thin
   score_composite: 36.0
+  shared: 1
+- slug: kibana
+  name: Kibana
+  description: Kibana is an open-source data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence. Kibana provides histograms, line graphs, pie charts, heat maps, geospatial visualizations, dashboards, alerting, and management of saved obj…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.8
   shared: 1
 - slug: apache-zeppelin
   name: Apache Zeppelin
@@ -221,8 +221,8 @@ providers:
 provider_slugs:
 - power-bi
 - datadog
-- foxglove-technologies
 - grafana
+- foxglove-technologies
 - amazon-quicksight
 - amazon-managed-grafana
 - visio
@@ -231,8 +231,8 @@ provider_slugs:
 - zoho-analytics
 - elastic
 - windy
-- kibana
 - lucidchart
+- kibana
 - apache-zeppelin
 - qlik-cloud
 - threejs
@@ -251,6 +251,9 @@ provider_slugs:
 - lagoa
 - noteable
 related:
+- slug: monitoring
+  name: Monitoring
+  shared: 2
 - slug: analysis
   name: Analysis
   shared: 1
@@ -260,14 +263,14 @@ related:
 - slug: logging
   name: Logging
   shared: 1
-- slug: monitoring
-  name: Monitoring
+- slug: observability
+  name: Observability
   shared: 1
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Power BI, Datadog, Foxglove Technologies, Grafana, Amazon QuickSight, Amazon Managed Grafana, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Power BI, Datadog, Grafana, Foxglove Technologies, Amazon QuickSight, Amazon Managed Grafana, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Analysis, Design, Logging, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Monitoring, Analysis, Design, and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

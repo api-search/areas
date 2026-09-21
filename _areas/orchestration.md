@@ -6,7 +6,7 @@ description: An index and topic collection covering container orchestration and 
 area_url: https://orchestration.apievangelist.com
 area_host: orchestration.apievangelist.com
 icon: https://orchestration.apievangelist.com/icon-thumb.png
-provider_count: 89
+provider_count: 90
 providers:
 - slug: tray-ai
   name: Tray.ai
@@ -27,7 +27,14 @@ providers:
   description: Azure Data Factory is Microsoft's cloud-based data integration service, orchestrating and automating the movement and transformation of data across ETL and ELT workloads that span cloud and on-premises stores. Its public interface is the Microsoft.DataFactory resource provider behind Azure Resource…
   api_count: 1
   score_band: exemplar
-  score_composite: 70.5
+  score_composite: 67.9
+  shared: 1
+- slug: cohesity
+  name: Cohesity
+  description: Cohesity is a data security and management company providing backup, disaster recovery, archive, and cyber resilience capabilities across on-premises, cloud, and SaaS workloads. Following the merger with Veritas, the combined company protects enterprise data while powering automation, orchestration…
+  api_count: 8
+  score_band: exemplar
+  score_composite: 66.5
   shared: 1
 - slug: uipath
   name: UiPath
@@ -35,13 +42,6 @@ providers:
   api_count: 6
   score_band: strong
   score_composite: 66.1
-  shared: 1
-- slug: cohesity
-  name: Cohesity
-  description: Cohesity is a data security and management company providing backup, disaster recovery, archive, and cyber resilience capabilities across on-premises, cloud, and SaaS workloads. Following the merger with Veritas, the combined company protects enterprise data while powering automation, orchestration…
-  api_count: 8
-  score_band: strong
-  score_composite: 66.0
   shared: 1
 - slug: socure
   name: Socure
@@ -85,6 +85,13 @@ providers:
   score_band: strong
   score_composite: 60.4
   shared: 1
+- slug: amazon-ecs
+  name: Amazon ECS
+  description: Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications.
+  api_count: 1
+  score_band: strong
+  score_composite: 57.8
+  shared: 1
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
@@ -106,19 +113,19 @@ providers:
   score_band: strong
   score_composite: 54.3
   shared: 1
+- slug: prefect
+  name: Prefect
+  description: Prefect is a Python-native workflow orchestration tool for building, scheduling, and monitoring data pipelines with fault tolerance. Prefect provides a hybrid execution model where the cloud control plane coordinates workflows while code and data remain in customer infrastructure, offering both a m…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.7
+  shared: 1
 - slug: ballerina
   name: Ballerina
   description: 'Ballerina is an open-source programming language for the cloud, created and maintained by WSO2, whose type system, syntax and tooling are built around network interaction: services, clients, data transformation and integration are language constructs rather than framework add-ons. It ships first-pa…'
   api_count: 1
   score_band: developing
   score_composite: 53.6
-  shared: 1
-- slug: amazon-ecs
-  name: Amazon ECS
-  description: Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications.
-  api_count: 1
-  score_band: developing
-  score_composite: 53.5
   shared: 1
 - slug: amazon-step-functions
   name: Amazon Step Functions
@@ -161,13 +168,6 @@ providers:
   api_count: 50
   score_band: developing
   score_composite: 50.2
-  shared: 1
-- slug: prefect
-  name: Prefect
-  description: Prefect is a Python-native workflow orchestration tool for building, scheduling, and monitoring data pipelines with fault tolerance. Prefect provides a hybrid execution model where the cloud control plane coordinates workflows while code and data remain in customer infrastructure, offering both a m…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.4
   shared: 1
 - slug: aws-step-functions
   name: AWS Step Functions
@@ -222,26 +222,26 @@ provider_slugs:
 - tray-ai
 - microsoft-azure-kubernetes-service
 - microsoft-azure-data-factory
-- uipath
 - cohesity
+- uipath
 - socure
 - bonitasoft
 - workato
 - netcracker
 - facets
 - inngest
+- amazon-ecs
 - intersight
 - hatchet
 - tower
+- prefect
 - ballerina
-- amazon-ecs
 - amazon-step-functions
 - fyno
 - kestra
 - transmit-security
 - kubernetes
 - cisco-crosswork
-- prefect
 - aws-step-functions
 - polyapi
 - choreo
@@ -250,6 +250,7 @@ provider_slugs:
 - workday-extend
 - google-cloud-kubernetes-engine
 - cutover
+- aureliusagent-dev
 - apache-airflow
 - conductor
 - shuffle
@@ -330,7 +331,7 @@ related:
 overview: 'Orchestration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [orchestration.apievangelist.com](https://orchestration.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Tray.ai, Azure Kubernetes Service, Azure Data Factory, UiPath, Cohesity, Socure, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Tray.ai, Azure Kubernetes Service, Azure Data Factory, Cohesity, UiPath, Socure, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Containers, Embedded iPaaS, and iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

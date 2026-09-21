@@ -29,19 +29,19 @@ providers:
   score_band: exemplar
   score_composite: 78.4
   shared: 1
+- slug: twilio
+  name: Twilio
+  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
+  api_count: 40
+  score_band: exemplar
+  score_composite: 77.8
+  shared: 1
 - slug: nylas
   name: Nylas
   description: Nylas connects your application to every email inbox and calendar in the world. The Nylas v3 platform provides REST APIs for email, calendar, contacts, scheduling, meeting notetaking, authentication, and administration across Google, Microsoft, Exchange, iCloud, Yahoo and any IMAP provider. Officia…
   api_count: 2
   score_band: exemplar
   score_composite: 74.9
-  shared: 1
-- slug: twilio
-  name: Twilio
-  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
-  api_count: 40
-  score_band: exemplar
-  score_composite: 73.5
   shared: 1
 - slug: zoom-phone
   name: Zoom Phone
@@ -92,6 +92,13 @@ providers:
   score_band: exemplar
   score_composite: 66.8
   shared: 1
+- slug: the-mobile-first-company
+  name: The Mobile First Company
+  description: The Mobile-First Company is a French / US (Miami HQ) startup building a suite of mobile-first, AI-powered business apps for small teams under a "one problem, one app" philosophy. Its flagship product, Allo, is an AI phone system used by 5,000+ businesses — an AI receptionist that answers 24/7, call…
+  api_count: 1
+  score_band: strong
+  score_composite: 66.3
+  shared: 1
 - slug: gotowebinar
   name: GoToWebinar
   description: GoToWebinar is GoTo's (formerly LogMeIn) webinar and virtual event platform. The GoToWebinar REST API lets developers create and manage webinars, organizers, registrants, attendees, sessions, panelists, co-organizers, polls, surveys, and recordings, and subscribe to real-time webhook events for reg…
@@ -106,13 +113,6 @@ providers:
   score_band: strong
   score_composite: 64.8
   shared: 1
-- slug: avaya
-  name: Avaya
-  description: 'Avaya is a global enterprise communications company whose developer surface spans two cloud platforms: Avaya Infinity, the cloud-native customer experience platform launched in 2025, and Avaya Experience Platform (AXP), the CCaaS generation that preceded it. Between them they publish 40 OpenAPI 3.0…'
-  api_count: 80
-  score_band: strong
-  score_composite: 64.2
-  shared: 1
 - slug: spruce-health
   name: Spruce Health
   description: Spruce Health is a HIPAA-compliant healthcare communication platform that unifies phone, SMS, secure messaging, video, e-fax, team chat, mobile payments and VoIP phone lines into one system for medical practices, with AI-enabled voicemail transcription, summarization and call routing. Every eligibl…
@@ -120,12 +120,26 @@ providers:
   score_band: strong
   score_composite: 64.2
   shared: 1
+- slug: ringcentral
+  name: RingCentral
+  description: RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.
+  api_count: 1
+  score_band: strong
+  score_composite: 64.1
+  shared: 1
 - slug: weave
   name: Weave
   description: 'Weave (Weave Communications, Inc., NYSE: WEAV) is an all-in-one customer communication and payments platform built for small and medium healthcare and services businesses — dental, optometry, veterinary, medical, and beyond. Weave brings together a cloud phone system (VoIP), two-way text messaging,…'
   api_count: 1
   score_band: strong
   score_composite: 64.1
+  shared: 1
+- slug: zavu
+  name: Zavu
+  description: Zavu is a unified multi-channel messaging platform that consolidates SMS, WhatsApp, Telegram, Email, Voice, and Messenger behind a single REST API, so developers integrate once instead of stitching together Twilio, Vonage, MessageBird and others. The Unified Messaging Layer API adds smart ML-powere…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.4
   shared: 1
 - slug: kixie
   name: Kixie
@@ -155,6 +169,13 @@ providers:
   score_band: strong
   score_composite: 59.5
   shared: 1
+- slug: openphone
+  name: OpenPhone
+  description: OpenPhone (rebranded to Quo in 2026) is a business phone and customer communications platform that provides shared phone numbers, calling, SMS/MMS texting, AI call summaries and transcripts, contacts, conversations, and tasks for teams. Its public REST API lets developers programmatically send mess…
+  api_count: 2
+  score_band: strong
+  score_composite: 59.4
+  shared: 1
 - slug: community
   name: Community
   description: Community is a conversational messaging platform that lets brands, creators, artists, sports teams, media companies, and political organizations reach their audiences directly over SMS, MMS, WhatsApp, Apple Messages for Business, and RCS. Founded in 2019 and remote-first, Community pairs a campaign…
@@ -176,24 +197,10 @@ providers:
   score_band: strong
   score_composite: 58.0
   shared: 1
-- slug: the-mobile-first-company
-  name: The Mobile First Company
-  description: The Mobile-First Company is a French / US (Miami HQ) startup building a suite of mobile-first, AI-powered business apps for small teams under a "one problem, one app" philosophy. Its flagship product, Allo, is an AI phone system used by 5,000+ businesses — an AI receptionist that answers 24/7, call…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.3
-  shared: 1
 - slug: simpletexting
   name: SimpleTexting
   description: SimpleTexting is a business SMS and MMS marketing platform. Its v2 REST API lets developers send single text messages, run bulk campaigns to lists and segments, manage contacts and contact lists, upload MMS media, provision sending numbers, and subscribe to delivery and incoming-message webhooks, a…
   api_count: 1
-  score_band: strong
-  score_composite: 57.2
-  shared: 1
-- slug: sinch
-  name: Sinch
-  description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
-  api_count: 10
   score_band: strong
   score_composite: 57.2
   shared: 1
@@ -204,17 +211,10 @@ providers:
   score_band: strong
   score_composite: 56.9
   shared: 1
-- slug: ringcentral
-  name: RingCentral
-  description: RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.
-  api_count: 1
-  score_band: strong
-  score_composite: 56.3
-  shared: 1
-- slug: zavu
-  name: Zavu
-  description: Zavu is a unified multi-channel messaging platform that consolidates SMS, WhatsApp, Telegram, Email, Voice, and Messenger behind a single REST API, so developers integrate once instead of stitching together Twilio, Vonage, MessageBird and others. The Unified Messaging Layer API adds smart ML-powere…
-  api_count: 1
+- slug: sinch
+  name: Sinch
+  description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
+  api_count: 10
   score_band: strong
   score_composite: 56.1
   shared: 1
@@ -222,8 +222,8 @@ provider_slugs:
 - messagebird
 - amazon-pinpoint
 - leadping
-- nylas
 - twilio
+- nylas
 - zoom-phone
 - smtp2go
 - orange-business
@@ -231,35 +231,35 @@ provider_slugs:
 - loops
 - signalwire
 - hustle
+- the-mobile-first-company
 - gotowebinar
 - parcellab
-- avaya
 - spruce-health
+- ringcentral
 - weave
+- zavu
 - kixie
 - kudosity
 - mailersend
 - cloudtalk
+- openphone
 - community
 - entergram
 - sendhub
-- the-mobile-first-company
 - simpletexting
-- sinch
 - neutrino-api
-- ringcentral
-- zavu
+- sinch
 - webex
-- openphone
 - yoodli
+- quo
 - microsoft-teams
 - zoom
 - bandwidth
 - whereby
 - fyno
 - vonage
-- quo
 - phone-com
+- avaya
 - commsharbor
 - nextiva
 - veritus
@@ -268,6 +268,7 @@ provider_slugs:
 - nfon
 - truecaller
 - cisco-webex-meetings
+- telnyx
 - zoho-cliq
 - discord
 - kumospace
@@ -275,9 +276,9 @@ provider_slugs:
 - agentphone
 - talkjs
 - telesign
-- bird
-- plivo
 - whippy
+- plivo
+- engagespark
 - documo
 - weavix
 - exotel
@@ -291,15 +292,14 @@ provider_slugs:
 - sedna
 - truvideo
 - textmagic
+- bird
 - cisco-control-hub
 - justcall
 - sobot
-- telnyx
 - alianza
 - chert
 - telefon
 - gupshup
-- engagespark
 - 46elks
 - groupme
 - textla-inc
@@ -383,11 +383,11 @@ provider_slugs:
 - voicevoice
 - inbilin
 related:
-- slug: authentication
-  name: Authentication
-  shared: 3
 - slug: agents
   name: Agents
+  shared: 2
+- slug: authentication
+  name: Authentication
   shared: 2
 - slug: ai-automation
   name: AI Automation
@@ -401,8 +401,8 @@ related:
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Messagebird, Amazon Pinpoint, Leadping, Nylas, Twilio, Zoom Phone, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Messagebird, Amazon Pinpoint, Leadping, Twilio, Nylas, Zoom Phone, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication, Agents, AI Automation, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agents, Authentication, AI Automation, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

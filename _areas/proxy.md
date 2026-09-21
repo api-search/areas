@@ -34,7 +34,7 @@ providers:
   description: Envoy is a high-performance, open-source edge and service proxy designed for cloud-native applications and microservice architectures. It provides advanced load balancing, observability, and traffic management features, and serves as the data plane for many service mesh implementations including Is…
   api_count: 3
   score_band: developing
-  score_composite: 44.5
+  score_composite: 45.3
   shared: 1
 - slug: haproxy
   name: HAProxy

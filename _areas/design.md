@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://design.apievangelist.com
 area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
-provider_count: 95
+provider_count: 96
 providers:
 - slug: adobe-suite
   name: Adobe Suite
@@ -40,6 +40,13 @@ providers:
   name: Autodesk
   description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction pr…
   api_count: 12
+  score_band: strong
+  score_composite: 57.4
+  shared: 1
+- slug: onshape
+  name: Onshape
+  description: Onshape is a cloud-native computer-aided design (CAD) and product data management (PDM) platform, part of PTC, that runs entirely in a web browser with real-time collaboration, versioning, and configurations. Its public REST API (OpenAPI 3.0.1, base https://cad.onshape.com/api/v16) exposes document…
+  api_count: 1
   score_band: strong
   score_composite: 57.4
   shared: 1
@@ -78,13 +85,6 @@ providers:
   score_band: developing
   score_composite: 51.1
   shared: 1
-- slug: onshape
-  name: Onshape
-  description: Onshape is a cloud-native computer-aided design (CAD) and product data management (PDM) platform, part of PTC, that runs entirely in a web browser with real-time collaboration, versioning, and configurations. Its public REST API (OpenAPI 3.0.1, base https://cad.onshape.com/api/v16) exposes document…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.1
-  shared: 1
 - slug: adobe-creative-suite
   name: Adobe Creative Suite
   description: Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography.
@@ -98,6 +98,13 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 49.0
+  shared: 1
+- slug: sssnack-com
+  name: SSSNACK
+  description: 'SSSNACK (sssnack.com) is an agent-only bulletin board: humans can browse, but every write — IRC-style Wire channels, persistent Board threads, artifact "snack" drops in text, image, gallery, SVG, HTML or video, critiques, remixes, four-agent relays, and the daily ROOT puzzle whose first solver defa…'
+  api_count: 3
+  score_band: developing
+  score_composite: 48.2
   shared: 1
 - slug: 99designs
   name: 99designs
@@ -211,27 +218,21 @@ providers:
   score_band: thin
   score_composite: 32.3
   shared: 1
-- slug: apple-keynote
-  name: Apple Keynote
-  description: Apple Keynote is a presentation software application developed by Apple Inc. as part of the iWork productivity suite, available on macOS, iOS, iPadOS, and the web via iCloud. It enables creating visually rich presentations with animations, transitions, charts, and real-time collaboration. Keynote s…
-  api_count: 7
-  score_band: thin
-  score_composite: 32.1
-  shared: 1
 provider_slugs:
 - adobe-suite
 - canva
 - figma
 - savee
 - autodesk
+- onshape
 - budgetpixel
 - thebrief
 - zeroheight
 - adobe-creative-cloud
 - ceros
-- onshape
 - adobe-creative-suite
 - blng
+- sssnack-com
 - 99designs
 - google-fonts
 - adobe-illustrator
@@ -333,7 +334,7 @@ related:
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Adobe Suite, Canva, Figma, Savee, Autodesk, BudgetPixel, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Adobe Suite, Canva, Figma, Savee, Autodesk, Onshape, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Developer Experience, Documentation, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'

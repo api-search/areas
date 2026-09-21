@@ -6,7 +6,7 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 147
+provider_count: 150
 providers:
 - slug: listrak
   name: Listrak
@@ -98,6 +98,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 62.4
+  shared: 1
+- slug: statable-stats-api
+  name: Statable Stats API
+  description: Privacy-first, cookieless web analytics from Statable (Key Arg B.V.), EU-hosted in the Netherlands with GDPR compliance and a ~2 KB tracking script. Exposes a server-side REST HTTP API with a public OpenAPI 3.1 contract, a hosted MCP server, an llms.txt, and a CLI for querying visitors, pages, sour…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.1
   shared: 1
 - slug: plausible
   name: Plausible
@@ -204,13 +211,6 @@ providers:
   score_band: developing
   score_composite: 52.0
   shared: 1
-- slug: iab-tech-lab
-  name: IAB Tech Lab
-  description: IAB Technology Laboratory (IAB Tech Lab) is the non-profit consortium that writes the technical standards the digital advertising supply chain runs on — OpenRTB (real-time bidding), AdCOM, OpenDirect (programmatic direct), VAST and VMAP (video ad serving), the Transparency and Consent Framework and…
-  api_count: 4
-  score_band: developing
-  score_composite: 51.8
-  shared: 1
 - slug: trustarc
   name: TrustArc
   description: TrustArc is a Walnut Creek, California enterprise privacy management platform that helps organizations operationalize global data privacy programs. Its product portfolio spans three suites. Privacy Studio covers consumer-facing consent and rights with Cookie Consent Manager, Consent & Preference Ma…
@@ -232,6 +232,7 @@ provider_slugs:
 - singular
 - amazon-clean-rooms
 - simpleanalytics
+- statable-stats-api
 - plausible
 - datavant
 - umami
@@ -247,7 +248,6 @@ provider_slugs:
 - apstal
 - fathom
 - goatcounter
-- iab-tech-lab
 - trustarc
 - certifaction
 - inth
@@ -255,8 +255,11 @@ provider_slugs:
 - nym-technologies
 - pimloc
 - counter-dev
+- iab-tech-lab
 - usercentrics
+- trustboost-dev
 - habu
+- privatedao-org
 - kagi
 - sitejabber
 - workday-security
@@ -276,7 +279,6 @@ provider_slugs:
 - vlex
 - nightfall-ai
 - mostly-ai
-- brave-browser
 - blindinsight
 - tonic-ai
 - covatic
@@ -284,6 +286,7 @@ provider_slugs:
 - sourcehut
 - mailpace
 - mobilecoin
+- brave-browser
 - dead-drop
 - cloudflare-turnstile
 - monero

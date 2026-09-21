@@ -6,7 +6,7 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 187
+provider_count: 195
 providers:
 - slug: elk-stack
   name: Elastic Stack (ELK Stack)
@@ -22,13 +22,6 @@ providers:
   score_band: exemplar
   score_composite: 71.5
   shared: 1
-- slug: tgatlas
-  name: ChannelIndex (tgAtlas)
-  description: 'A read-only HTTP API over public Telegram data: resolve @usernames to numeric IDs, read channel size/description, walk post history with per-post views/forwards, pull Telegram similar-channel recommendations, and search the public directory. No phone number or MTProto session required. Auth via Rap…'
-  api_count: 1
-  score_band: exemplar
-  score_composite: 71.1
-  shared: 1
 - slug: bloomreach
   name: Bloomreach
   description: Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs f…
@@ -43,12 +36,12 @@ providers:
   score_band: exemplar
   score_composite: 67.6
   shared: 1
-- slug: open-food-facts
-  name: Open Food Facts
-  description: Open Food Facts is a collaborative, free and open database of food products from around the world, built by everyone for everyone. Anyone can scan a barcode and contribute product data, and the whole database is published under the Open Database License so it can be re-used for any purpose. The pro…
-  api_count: 1
+- slug: perigon
+  name: Perigon
+  description: Perigon is a real-time global news data and intelligence platform. It provides structured, enriched news data from 200,000+ sources worldwide through REST APIs — articles, clustered stories, AI search summaries, semantic vector search, sources, companies, people, journalists, topics and Wikipedia —…
+  api_count: 2
   score_band: exemplar
-  score_composite: 67.3
+  score_composite: 67.6
   shared: 1
 - slug: shodan
   name: Shodan
@@ -63,6 +56,13 @@ providers:
   api_count: 5
   score_band: exemplar
   score_composite: 66.8
+  shared: 1
+- slug: open-food-facts
+  name: Open Food Facts
+  description: Open Food Facts is a collaborative, free and open database of food products from around the world, built by everyone for everyone. Anyone can scan a barcode and contribute product data, and the whole database is published under the Open Database License so it can be re-used for any purpose. The pro…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 66.6
   shared: 1
 - slug: google-indexing
   name: Google Indexing
@@ -176,6 +176,13 @@ providers:
   score_band: strong
   score_composite: 55.3
   shared: 1
+- slug: machinelibrary-ai
+  name: Space Frontiers
+  description: 'Space Frontiers is a Wyoming corporation whose search and AI product, Machine Library (formerly Space Frontiers search, moved to machinelibrary.ai on 2026-09-12), is a full-text retrieval API and hosted MCP server over a corpus of roughly 2.9 billion records: peer-reviewed papers (CrossRef, PubMed,…'
+  api_count: 2
+  score_band: strong
+  score_composite: 54.9
+  shared: 1
 - slug: vectara
   name: Vectara
   description: Vectara is a Retrieval Augmented Generation (RAG) as a service platform that provides grounded generative AI for enterprises. The API-first platform exposes a unified REST API v2 for managing corpora, ingesting documents, performing semantic and hybrid search, generating answers with hallucination…
@@ -190,6 +197,20 @@ providers:
   score_band: developing
   score_composite: 54.0
   shared: 1
+- slug: kannkidas-de
+  name: Kann KI das? Sponsoring Agent
+  description: Kann KI das? is an independent German-language publisher of build-or-buy test reports that assess whether well-known business software can realistically be rebuilt with AI, and where buying remains the better decision. The site is financed by ten fixed, clearly labelled sponsor placements (P01-P10,…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.8
+  shared: 1
+- slug: google
+  name: Google
+  description: Google's public APIs and services.
+  api_count: 9
+  score_band: developing
+  score_composite: 53.6
+  shared: 1
 - slug: alphasense
   name: AlphaSense
   description: AlphaSense is an AI-powered market intelligence and search platform used by hedge funds, banks, corporates, consulting firms, and law firms to accelerate research and decision-making. The platform unifies 500M+ public and private documents - SEC filings, broker research from 1,500+ firms, news, ear…
@@ -197,36 +218,15 @@ providers:
   score_band: developing
   score_composite: 53.3
   shared: 1
-- slug: vespa-ai
-  name: Vespa
-  description: Vespa is an open-source AI search engine, big-data serving engine, and vector database originally developed inside Yahoo and spun out as Vespa.ai AS. Vespa combines vector search, text search (BM25), structured filtering, and machine-learned ranking — including native tensor inference — into a sing…
-  api_count: 3
-  score_band: developing
-  score_composite: 52.6
-  shared: 1
-- slug: constructorio
-  name: Constructor.io
-  description: Constructor (Constructor.io) is an AI-powered ecommerce search and product discovery platform for online retailers. Its APIs cover autocomplete/autosuggest, keyword and natural-language search, image search, category browse, recommendations, quizzes, collections, offsite/email discovery, retail med…
-  api_count: 34
-  score_band: developing
-  score_composite: 52.2
-  shared: 1
-- slug: amazon-opensearch
-  name: Amazon OpenSearch Service API
-  description: Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters in the AWS Cloud. It offers visualization capabilities powered by OpenSearch Dashboards and Kibana, and provides direct access to the OpenSearch API so that existing code and applicat…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.1
-  shared: 1
 provider_slugs:
 - elk-stack
 - algolia
-- tgatlas
 - bloomreach
 - crawl4ai
-- open-food-facts
+- perigon
 - shodan
 - google-search-console
+- open-food-facts
 - google-indexing
 - ahrefs
 - serpwow
@@ -243,18 +243,23 @@ provider_slugs:
 - crustapi
 - unblocked
 - browserless
+- machinelibrary-ai
 - vectara
 - sylvia-api
+- kannkidas-de
+- google
 - alphasense
+- tgatlas
+- cribl
 - vespa-ai
 - constructorio
 - amazon-opensearch
 - scribe
 - wego
 - searchapi
+- coveo
 - bing-news
 - dexcare
-- coveo
 - tako
 - brightedge
 - duckduckgo
@@ -264,18 +269,18 @@ provider_slugs:
 - openserp
 - getty-images
 - uspto-trademark-search-api
-- google
 - newscatcher
 - airweave
 - microsoft-azure-search
 - openmenu
+- rettfrabonden-com
 - wikimedia
+- macrometa
 - depict
 - tweetapi
 - tinyfish
 - newsapi
 - tavily
-- cribl
 - trieve
 - google-custom-search
 - meilisearch
@@ -285,11 +290,11 @@ provider_slugs:
 - radar-cnpj
 - google-youtube
 - artlist
+- dokki-one
 - tvu-networks
 - kagi
 - europeana
 - rentberry
-- macrometa
 - moz
 - active-network
 - nuclia
@@ -318,6 +323,7 @@ provider_slugs:
 - parseflow
 - prorataai
 - google-books
+- finn-tannlege-com
 - manticore
 - microsoft-bing
 - the-news-api
@@ -333,12 +339,12 @@ provider_slugs:
 - misoai
 - google-cloud-talent-solution
 - you-com
-- brave-browser
 - searchstax
 - nuxeo
 - federal-laboratory-consortium-for-technology-transfer
 - searchcraft
 - openlaws
+- brave-browser
 - point-me
 - jina-ai
 - golden
@@ -364,12 +370,14 @@ provider_slugs:
 - open-library
 - poetry-db
 - dynamic-yield
+- allagents-app
 - solve-intelligence
 - snapmagic
 - elastic-stack
 - shelf
 - solr
 - launchmetrics
+- digiant-nz
 - swiftype
 - genspark
 - naver
@@ -428,7 +436,7 @@ related:
 overview: 'API Evangelist Search is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [search.apievangelist.com](https://search.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Elastic Stack (ELK Stack), Algolia, ChannelIndex (tgAtlas), Bloomreach, Crawl4AI, Open Food Facts, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Elastic Stack (ELK Stack), Algolia, Bloomreach, Crawl4AI, Perigon, Shodan, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Scraping, API Evangelist Discovery, DNS, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

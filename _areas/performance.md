@@ -33,8 +33,8 @@ providers:
   name: Amazon Global Accelerator
   description: Amazon Global Accelerator is a networking service that improves the performance and availability of applications with local or global users. It provides static IP addresses that act as a fixed entry point to your applications and uses the AWS global network to optimize the path from users to applic…
   api_count: 1
-  score_band: developing
-  score_composite: 52.3
+  score_band: strong
+  score_composite: 57.0
   shared: 1
 - slug: factorial-hr
   name: Factorial
@@ -48,7 +48,7 @@ providers:
   description: APIContext (formerly APImetrics) is a synthetic API testing, monitoring and conformance platform. It calls the APIs you depend on from cloud locations around the world on a schedule, measures latency and availability from the outside in, validates responses against expected schemas and security pro…
   api_count: 6
   score_band: developing
-  score_composite: 48.3
+  score_composite: 50.2
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)

@@ -8,7 +8,7 @@
     capability units that AI coding agents load to extend their behavior. Agent Skill…
   area_url: https://agents-skills.apievangelist.com
   icon: https://agents-skills.apievangelist.com/icon-thumb.png
-  provider_count: 75
+  provider_count: 83
   url: https://apis.io/areas/agents-skills/
 - slug: agents
   name: Agents
@@ -16,7 +16,7 @@
     runtimes that enable autonomous reasoning, tool use, and multi-step task executio…
   area_url: https://agents.apievangelist.com
   icon: https://agents.apievangelist.com/icon-thumb.png
-  provider_count: 413
+  provider_count: 496
   url: https://apis.io/areas/agents/
 - slug: aggregation
   name: Aggregation
@@ -33,7 +33,7 @@
     au…
   area_url: https://ai-automation.apievangelist.com
   icon: https://ai-automation.apievangelist.com/icon-thumb.png
-  provider_count: 508
+  provider_count: 510
   url: https://apis.io/areas/ai-automation/
 - slug: aiops
   name: AIOps
@@ -65,7 +65,7 @@
   short: Mapping the technical details of API operations to the human standard.
   area_url: https://discovery.apievangelist.com
   icon: https://discovery.apievangelist.com/icon-thumb.png
-  provider_count: 37
+  provider_count: 39
   url: https://apis.io/areas/discovery/
 - slug: partners
   name: API Evangelist Partners
@@ -79,7 +79,7 @@
   short: Searching across API Evangelist.
   area_url: https://search.apievangelist.com
   icon: https://search.apievangelist.com/icon-thumb.png
-  provider_count: 187
+  provider_count: 195
   url: https://apis.io/areas/search/
 - slug: api-proxies
   name: API Proxies
@@ -95,7 +95,7 @@
     authorization, identity management, and secrets management. This collec…
   area_url: https://authentication.apievangelist.com
   icon: https://authentication.apievangelist.com/icon-thumb.png
-  provider_count: 384
+  provider_count: 387
   url: https://apis.io/areas/authentication/
 - slug: backups
   name: Backups
@@ -112,7 +112,7 @@
     are…
   area_url: https://bots.apievangelist.com
   icon: https://bots.apievangelist.com/icon-thumb.png
-  provider_count: 18
+  provider_count: 19
   url: https://apis.io/areas/bots/
 - slug: breaches
   name: Breaches
@@ -161,7 +161,7 @@
     line interfaces, HTTP clients, and terminal-based API tools. This collection co…
   area_url: https://cli.apievangelist.com
   icon: https://cli.apievangelist.com/icon-thumb.png
-  provider_count: 110
+  provider_count: 111
   url: https://apis.io/areas/cli/
 - slug: communications
   name: Communications
@@ -212,7 +212,7 @@
     A…
   area_url: https://design.apievangelist.com
   icon: https://design.apievangelist.com/icon-thumb.png
-  provider_count: 95
+  provider_count: 96
   url: https://apis.io/areas/design/
 - slug: developer-experience
   name: Developer Experience
@@ -220,7 +220,7 @@
     tracked by the API Evangelist network, covering developer portals, API documentation…
   area_url: https://developer-experience.apievangelist.com
   icon: https://developer-experience.apievangelist.com/icon-thumb.png
-  provider_count: 59
+  provider_count: 60
   url: https://apis.io/areas/developer-experience/
 - slug: dns
   name: DNS
@@ -229,7 +229,7 @@
     comput…
   area_url: https://dns.apievangelist.com
   icon: https://dns.apievangelist.com/icon-thumb.png
-  provider_count: 53
+  provider_count: 56
   url: https://apis.io/areas/dns/
 - slug: documentation
   name: Documentation
@@ -306,7 +306,7 @@
     asset ma…
   area_url: https://industrial.apievangelist.com
   icon: https://industrial.apievangelist.com/icon-thumb.png
-  provider_count: 177
+  provider_count: 178
   url: https://apis.io/areas/industrial/
 - slug: integrations
   name: Integrations
@@ -374,7 +374,7 @@
     model serving infrastructure, and inference providers. Machine learning APIs spa…
   area_url: https://machine-learning.apievangelist.com
   icon: https://machine-learning.apievangelist.com/icon-thumb.png
-  provider_count: 1177
+  provider_count: 1180
   url: https://apis.io/areas/machine-learning/
 - slug: management
   name: Management
@@ -416,7 +416,7 @@
     d…
   area_url: https://monitoring.apievangelist.com
   icon: https://monitoring.apievangelist.com/icon-thumb.png
-  provider_count: 204
+  provider_count: 206
   url: https://apis.io/areas/monitoring/
 - slug: network
   name: Network
@@ -431,7 +431,7 @@
     monitoring, logging, tracing, metrics, and analytics. This collection co…
   area_url: https://observability.apievangelist.com
   icon: https://observability.apievangelist.com/icon-thumb.png
-  provider_count: 336
+  provider_count: 339
   url: https://apis.io/areas/observability/
 - slug: orchestration
   name: Orchestration
@@ -439,7 +439,7 @@
     orchestration platforms. Container orchestration platforms like Kubernetes, OpenShi…
   area_url: https://orchestration.apievangelist.com
   icon: https://orchestration.apievangelist.com/icon-thumb.png
-  provider_count: 89
+  provider_count: 90
   url: https://apis.io/areas/orchestration/
 - slug: performance
   name: Performance
@@ -481,7 +481,7 @@
     data subject rights, data classification, and PII detection APIs. Privacy platfo…
   area_url: https://privacy.apievangelist.com
   icon: https://privacy.apievangelist.com/icon-thumb.png
-  provider_count: 147
+  provider_count: 150
   url: https://apis.io/areas/privacy/
 - slug: proxy
   name: Proxy
@@ -539,7 +539,7 @@
     co…
   area_url: https://sdk.apievangelist.com
   icon: https://sdk.apievangelist.com/icon-thumb.png
-  provider_count: 353
+  provider_count: 354
   url: https://apis.io/areas/sdk/
 - slug: security
   name: Security
@@ -547,7 +547,7 @@
     secrets management, encryption, and threat protection. API security spans the…
   area_url: https://security.apievangelist.com
   icon: https://security.apievangelist.com/icon-thumb.png
-  provider_count: 819
+  provider_count: 827
   url: https://apis.io/areas/security/
 - slug: serverless
   name: Serverless
@@ -579,7 +579,7 @@
     mocking, load testing, contract testing, and quality assurance. This collectio…
   area_url: https://testing.apievangelist.com
   icon: https://testing.apievangelist.com/icon-thumb.png
-  provider_count: 139
+  provider_count: 140
   url: https://apis.io/areas/testing/
 - slug: transparency
   name: Transparency

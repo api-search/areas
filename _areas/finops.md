@@ -57,19 +57,19 @@ providers:
   score_band: strong
   score_composite: 58.1
   shared: 1
-- slug: cloudhealth
-  name: CloudHealth
-  description: CloudHealth (now VMware Tanzu CloudHealth, owned by Broadcom) is a multi-cloud financial and operational management platform. It provides cost visibility, optimization recommendations, asset inventory, custom perspectives (groupings), policies, governance, and partner/MSP billing workflows across A…
-  api_count: 8
-  score_band: strong
-  score_composite: 57.6
-  shared: 1
 - slug: cloudchipr
   name: CloudChipr
   description: CloudChipr is a cloud cost-management and FinOps platform that consolidates AWS, Azure, GCP, Kubernetes and AI-vendor spend (OpenAI, Anthropic, Datadog, Snowflake, MongoDB, Confluent) in a single console and automates resource cleanup, rightsizing, and cost governance. The product surface centres o…
   api_count: 1
   score_band: strong
   score_composite: 57.1
+  shared: 1
+- slug: cloudhealth
+  name: CloudHealth
+  description: CloudHealth (now VMware Tanzu CloudHealth, owned by Broadcom) is a multi-cloud financial and operational management platform. It provides cost visibility, optimization recommendations, asset inventory, custom perspectives (groupings), policies, governance, and partner/MSP billing workflows across A…
+  api_count: 8
+  score_band: strong
+  score_composite: 56.3
   shared: 1
 - slug: corestack
   name: CoreStack
@@ -226,8 +226,8 @@ provider_slugs:
 - env0
 - paid
 - edgee
-- cloudhealth
 - cloudchipr
+- cloudhealth
 - corestack
 - amazon-compute-optimizer
 - cloudability

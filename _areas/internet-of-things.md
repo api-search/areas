@@ -62,7 +62,7 @@ providers:
   description: 'Cogent Communications Holdings, Inc. (NASDAQ: CCOI, AS174) is a facilities-based Tier 1 internet service provider headquartered in Washington, DC, selling Dedicated Internet Access, IP Transit, Ethernet, MPLS IP-VPN, SD-WAN, optical wavelength transport, Global Peer Connect peering ports and coloca…'
   api_count: 0
   score_band: emerging
-  score_composite: 14.6
+  score_composite: 13.3
   shared: 1
 - slug: tcp-ip
   name: TCP/IP

@@ -26,8 +26,8 @@ providers:
   name: IntegrationOS
   description: IntegrationOS was a unified API platform that let developers add third-party integrations to their products with a single API call. The company rebranded as Pica (picaos.com) and then, on 2026-03-25, as One (withone.ai) — the provider's own changelog records the step as "Pica is now One". One is an…
   api_count: 1
-  score_band: exemplar
-  score_composite: 67.5
+  score_band: strong
+  score_composite: 66.2
   shared: 1
 - slug: vessel
   name: Vessel
@@ -134,19 +134,19 @@ providers:
   score_band: developing
   score_composite: 46.9
   shared: 1
-- slug: integrately
-  name: Integrately
-  description: Integrately is a one-click workflow automation platform offering 20 million+ ready-to-use automations across 1500+ applications. It positions itself as a no-code, lower-cost alternative to other iPaaS and workflow tools, using SmartConnect technology to auto-detect connections between apps and bund…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.5
-  shared: 1
 - slug: sap-integration-suite
   name: SAP Integration Suite
   description: SAP Integration Suite is an enterprise integration platform as a service (iPaaS) that connects applications, processes, and people across cloud and on-premises environments. It includes capabilities for Cloud Integration, API Management, Integration Advisor, Open Connectors, Trading Partner Managem…
   api_count: 2
   score_band: developing
   score_composite: 46.2
+  shared: 1
+- slug: integrately
+  name: Integrately
+  description: Integrately is a one-click workflow automation platform offering 20 million+ ready-to-use automations across 1500+ applications. It positions itself as a no-code, lower-cost alternative to other iPaaS and workflow tools, using SmartConnect technology to auto-detect connections between apps and bund…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.1
   shared: 1
 - slug: make
   name: Make
@@ -237,8 +237,8 @@ provider_slugs:
 - rewst
 - snaplogic
 - stackone
-- integrately
 - sap-integration-suite
+- integrately
 - make
 - skyvia
 - elastic-io

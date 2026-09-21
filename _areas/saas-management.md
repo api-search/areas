@@ -20,14 +20,14 @@ providers:
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 3
   score_band: strong
-  score_composite: 61.0
+  score_composite: 59.0
   shared: 1
 - slug: lumos
   name: Lumos
   description: Lumos is the first Autonomous Identity Platform that helps organizations discover and manage access to all apps with enhanced security, increased productivity, and reduced cost. Lumos automates access requests, enforces least privilege, speeds up user access reviews, and eliminates extra SaaS app s…
   api_count: 2
   score_band: strong
-  score_composite: 55.7
+  score_composite: 54.5
   shared: 1
 - slug: wundergraph
   name: WunderGraph
@@ -36,19 +36,19 @@ providers:
   score_band: developing
   score_composite: 51.6
   shared: 1
+- slug: axonius
+  name: Axonius
+  description: Axonius is a cybersecurity asset management platform (Axonius Asset Cloud) that aggregates device, user, cloud, SaaS and vulnerability data from 800+ adapters into one correlated inventory, enforces security policies through automated enforcement actions and workflows, and exposes that inventory ov…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.8
+  shared: 1
 - slug: torii
   name: Torii
   description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide license and usage data, automate user onboarding and offboar…
   api_count: 1
   score_band: developing
   score_composite: 49.8
-  shared: 1
-- slug: augmentt
-  name: Augmentt
-  description: Augmentt is a Canadian software company (Kanata, Ontario) whose platform gives managed service providers one place to run Microsoft 365 across every client tenant. It combines SaaS and Shadow IT discovery, Microsoft 365 license and spend optimization, user lifecycle automation, Intune device baseli…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.5
   shared: 1
 - slug: amazon-systems-manager
   name: Amazon Systems Manager
@@ -84,6 +84,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 44.1
+  shared: 1
+- slug: augmentt
+  name: Augmentt
+  description: Augmentt is a Canadian software company (Kanata, Ontario) whose platform gives managed service providers one place to run Microsoft 365 across every client tenant. It combines SaaS and Shadow IT discovery, Microsoft 365 license and spend optimization, user lifecycle automation, Intune device baseli…
+  api_count: 1
+  score_band: developing
+  score_composite: 43.0
   shared: 1
 - slug: g2-track
   name: G2 Track
@@ -204,32 +211,26 @@ providers:
   score_band: emerging
   score_composite: 21.6
   shared: 1
-- slug: substly
-  name: Substly
-  description: Substly is a SaaS management platform designed for small and medium-sized businesses to track software subscriptions, optimize spend, manage user access, and detect shadow IT across cloud applications. It provides centralized oversight, automated renewal tracking, and integrations with Google Works…
+- slug: beamy
+  name: Beamy
+  description: Beamy is an enterprise application-portfolio and usage-intelligence platform from Beamy SAS (Lille and Paris, France). It began as a SaaS discovery and governance product — browser-extension detection of shadow IT, SSO and ITSM integrations, spend and license tracking, security and compliance polic…
   api_count: 1
   score_band: emerging
-  score_composite: 18.6
-  shared: 1
-- slug: vertice
-  name: Vertice
-  description: Vertice is an intelligent procurement platform built for the modern enterprise with agentic workflows, AI insights, and expert buyers that empower finance and procurement teams across 30+ countries to buy smarter and scale faster. The platform covers SaaS purchasing and contract management, cloud s…
-  api_count: 1
-  score_band: emerging
-  score_composite: 17.5
+  score_composite: 18.9
   shared: 1
 provider_slugs:
 - cledara
 - boomi
 - lumos
 - wundergraph
+- axonius
 - torii
-- augmentt
 - amazon-systems-manager
 - snaplogic
 - dell-servers
 - zluri
 - zylo
+- augmentt
 - g2-track
 - tropic
 - nudge-security
@@ -247,17 +248,16 @@ provider_slugs:
 - sastrify
 - leanix
 - salto
+- beamy
 - substly
 - vertice
 - certero
-- axonius
 - electric
 - cleanshelf
 - cloudnuro
 - binadox
 - josys
 - corma
-- beamy
 - nickl
 - oomnitza
 - intello
@@ -278,7 +278,7 @@ related:
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cledara, Boomi, Lumos, WunderGraph, Torii, Augmentt, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Cledara, Boomi, Lumos, WunderGraph, Axonius, Torii, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Management, FinOps, Virtualization, and iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

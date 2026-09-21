@@ -6,7 +6,7 @@ description: AI automation combines artificial intelligence with workflow and pr
 area_url: https://ai-automation.apievangelist.com
 area_host: ai-automation.apievangelist.com
 icon: https://ai-automation.apievangelist.com/icon-thumb.png
-provider_count: 508
+provider_count: 510
 providers:
 - slug: brevo
   name: Brevo
@@ -62,7 +62,7 @@ providers:
   description: GitHub Actions is GitHub's hosted CI/CD and workflow automation platform, and this record covers the REST API surface that drives it. Eighty-two operations across eleven resource areas let a caller dispatch and cancel workflow runs, poll runs and jobs, read and prune logs, artifacts and caches, sea…
   api_count: 1
   score_band: exemplar
-  score_composite: 79.8
+  score_composite: 80.2
   shared: 1
 - slug: klaviyo
   name: Klaviyo
@@ -106,17 +106,17 @@ providers:
   score_band: exemplar
   score_composite: 74.6
   shared: 1
-- slug: jitterbit
-  name: Jitterbit
-  description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 70.1
-  shared: 1
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 21
+  score_band: exemplar
+  score_composite: 72.4
+  shared: 1
+- slug: jitterbit
+  name: Jitterbit
+  description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
+  api_count: 1
   score_band: exemplar
   score_composite: 70.1
   shared: 1
@@ -155,6 +155,13 @@ providers:
   score_band: exemplar
   score_composite: 67.2
   shared: 1
+- slug: cohesity
+  name: Cohesity
+  description: Cohesity is a data security and management company providing backup, disaster recovery, archive, and cyber resilience capabilities across on-premises, cloud, and SaaS workloads. Following the merger with Veritas, the combined company protects enterprise data while powering automation, orchestration…
+  api_count: 8
+  score_band: exemplar
+  score_composite: 66.5
+  shared: 1
 - slug: browserstack
   name: BrowserStack
   description: BrowserStack provides instant access to 3,500+ real desktop browsers and 30,000+ real mobile device units for manual and automated software testing. Its products span cross-browser testing (Live, Automate), mobile app testing (App Live, App Automate), visual regression testing (Percy, App Percy), a…
@@ -168,13 +175,6 @@ providers:
   api_count: 6
   score_band: strong
   score_composite: 66.1
-  shared: 1
-- slug: cohesity
-  name: Cohesity
-  description: Cohesity is a data security and management company providing backup, disaster recovery, archive, and cyber resilience capabilities across on-premises, cloud, and SaaS workloads. Following the merger with Veritas, the combined company protects enterprise data while powering automation, orchestration…
-  api_count: 8
-  score_band: strong
-  score_composite: 66.0
   shared: 1
 - slug: canva
   name: Canva
@@ -209,7 +209,7 @@ providers:
   description: Level2 is a no-code systematic-trading platform from Bytemine Technologies Ltd that lets active retail traders build, backtest and deploy fully automated strategies from a visual drag-and-drop canvas, with no code and no proprietary scripting language. Strategies can be rehearsed against historical…
   api_count: 3
   score_band: strong
-  score_composite: 63.4
+  score_composite: 63.1
   shared: 1
 - slug: red-hat-ansible-automation-platform
   name: Red Hat Ansible Automation Platform
@@ -233,16 +233,16 @@ provider_slugs:
 - relevance-ai
 - adobe-suite
 - plunk
-- jitterbit
 - postman
+- jitterbit
 - campaignmonitor
 - browser-use
 - cisco-catalyst-sdwan
 - crawl4ai
 - buttondown
+- cohesity
 - browserstack
 - uipath
-- cohesity
 - canva
 - n8n
 - postiz
@@ -253,12 +253,13 @@ provider_slugs:
 - workato
 - dotdigital
 - budibase
+- windmill
 - cisco-xdr
 - celonis
 - emailoctopus
 - pixiebrix
-- boomi
 - facets
+- relmcrm-com
 - appian
 - servicenow
 - smartlead-ai
@@ -266,18 +267,19 @@ provider_slugs:
 - coasty
 - autocontent-api
 - salesflare
+- boomi
 - amazon-ec2-image-builder
+- augment
 - autogpt
 - graphiant
 - adobe-premiere
-- windmill
-- sciencelogic
+- juniper
 - pabbly
 - cisco-secure-firewall
 - superai
 - bluma
 - gumloop
-- augment
+- sciencelogic
 - lindy
 - marketo
 - qubiqle
@@ -291,6 +293,7 @@ provider_slugs:
 - cobalt
 - amazon-data-lifecycle-manager
 - cisco-aci
+- prefect
 - pixc
 - h-company
 - amazon-incident-manager
@@ -307,21 +310,19 @@ provider_slugs:
 - kubernetes
 - abbyy
 - supra
-- baserow
 - amazon-swf
 - gitar
 - aito-technologies
-- prefect
 - blue-prism
 - capy
 - manychat
+- baserow
 - hilos
 - oracle-integration
 - perforce
 - microsoft-excel
 - cast-corporation
 - automation-preflight-api
-- rowguard
 - rewst
 - sauce-labs
 - ansible
@@ -334,9 +335,11 @@ provider_slugs:
 - ninjaone
 - superdial
 - workday-extend
-- integrately
 - missive
+- pulumi
 - velaris
+- integrately
+- rowguard
 - lambdatest
 - workist
 - uniphore
@@ -360,7 +363,6 @@ provider_slugs:
 - luminance
 - morf
 - advanced-excel
-- juniper
 - ansible-roles
 - robocorp
 - activepieces
@@ -368,22 +370,22 @@ provider_slugs:
 - splunk-soar
 - dreamfactory
 - elementum
-- pulumi
 - rhel
 - dell-technologies
 - templated
 - botkeeper
 - salesforce-flow
 - parseur
+- blotato
+- sleekflow
 - publer
 - selenium
-- sleekflow
 - calendly
-- rockwell-factorytalk
 - beeceptor
 - microsoft-excel-advanced
 - powershell
 - optimyzee
+- rockwell-factorytalk
 - swimlane
 - creatomate
 - tofu
@@ -398,7 +400,6 @@ provider_slugs:
 - zoho-writer
 - google-apps-script
 - bannerbear
-- blotato
 - unisson
 - polymath
 - alloy-automation
@@ -460,6 +461,7 @@ provider_slugs:
 - anitian
 - sintra
 - microsoft-excel-macros
+- p0stman-com
 - bmc-software
 - apiwiz
 - shakr-media

@@ -6,7 +6,7 @@ description: An index and topic collection covering API monitoring, application 
 area_url: https://monitoring.apievangelist.com
 area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
-provider_count: 204
+provider_count: 206
 providers:
 - slug: elk-stack
   name: Elastic Stack (ELK Stack)
@@ -36,6 +36,13 @@ providers:
   score_band: exemplar
   score_composite: 74.7
   shared: 1
+- slug: controlup
+  name: ControlUp
+  description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Paral…
+  api_count: 24
+  score_band: exemplar
+  score_composite: 73.8
+  shared: 1
 - slug: thousandeyes
   name: ThousandEyes
   description: ThousandEyes is Cisco's digital experience monitoring platform, acquired in 2020 and operated as part of Cisco Networking. It runs a global fleet of Cloud, Enterprise, Endpoint and Connected Device agents that measure network paths, BGP routing, DNS, application response and internet outages end to…
@@ -57,6 +64,13 @@ providers:
   score_band: exemplar
   score_composite: 69.9
   shared: 1
+- slug: aws-lambda
+  name: AWS Lambda
+  description: AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. Lambda runs your code on high-availability compute infrastructure and performs all of the administration of the compute…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.2
+  shared: 1
 - slug: new-relic
   name: New Relic
   description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
@@ -64,19 +78,19 @@ providers:
   score_band: exemplar
   score_composite: 68.1
   shared: 1
-- slug: monte-carlo
-  name: Monte Carlo
-  description: Monte Carlo is a data and AI observability platform that monitors data warehouses, lakes, and pipelines for freshness, volume, schema, and quality anomalies, helping data teams detect, resolve, and prevent data downtime across Snowflake, Databricks, BigQuery, Redshift, and other modern data stack t…
-  api_count: 1
+- slug: laravel
+  name: Laravel
+  description: 'Laravel is the company behind the Laravel PHP framework and a suite of commercial developer infrastructure products: Laravel Cloud (a fully managed PaaS for deploying and scaling Laravel and Symfony applications), Laravel Forge (server provisioning and application deployment across DigitalOcean, AW…'
+  api_count: 2
   score_band: exemplar
-  score_composite: 67.6
+  score_composite: 66.7
   shared: 1
-- slug: controlup
-  name: ControlUp
-  description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Paral…
-  api_count: 24
+- slug: datadog
+  name: Datadog
+  description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
+  api_count: 6
   score_band: exemplar
-  score_composite: 67.5
+  score_composite: 66.5
   shared: 1
 - slug: betterstack
   name: Better Stack
@@ -84,6 +98,20 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 65.6
+  shared: 1
+- slug: monte-carlo
+  name: Monte Carlo
+  description: Monte Carlo is a data and AI observability platform that monitors data warehouses, lakes, and pipelines for freshness, volume, schema, and quality anomalies, helping data teams detect, resolve, and prevent data downtime across Snowflake, Databricks, BigQuery, Redshift, and other modern data stack t…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.5
+  shared: 1
+- slug: grafana
+  name: Grafana
+  description: Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, org…
+  api_count: 2
+  score_band: strong
+  score_composite: 65.3
   shared: 1
 - slug: google-cloud-logging
   name: Google Cloud Logging
@@ -134,19 +162,19 @@ providers:
   score_band: strong
   score_composite: 62.5
   shared: 1
+- slug: galileo-technologies
+  name: Galileo Technologies
+  description: Galileo (Galileo Technologies Inc., formerly Rungalileo) is an AI observability and evaluation platform for teams building generative-AI applications and agents. Its REST API and Python/TypeScript SDKs let developers log traces and spans, run offline experiments and evaluations, create datasets and…
+  api_count: 9
+  score_band: strong
+  score_composite: 62.4
+  shared: 1
 - slug: raygun
   name: Raygun
   description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.ra…
   api_count: 1
   score_band: strong
   score_composite: 61.9
-  shared: 1
-- slug: datadog
-  name: Datadog
-  description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
-  api_count: 6
-  score_band: strong
-  score_composite: 61.7
   shared: 1
 - slug: embrace
   name: Embrace
@@ -161,13 +189,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 61.2
-  shared: 1
-- slug: aws-lambda
-  name: AWS Lambda
-  description: AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. Lambda runs your code on high-availability compute infrastructure and performs all of the administration of the compute…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.1
   shared: 1
 - slug: splunk-observability
   name: Splunk Observability Cloud
@@ -197,39 +218,22 @@ providers:
   score_band: strong
   score_composite: 59.7
   shared: 1
-- slug: moogsoft
-  name: Moogsoft
-  description: Moogsoft is an AIOps platform for IT operations, DevOps and SRE teams that ingests events, alerts and metrics from across a hybrid estate, deduplicates and reduces noise, correlates related alerts into incidents, detects anomalies in metric streams, and surfaces probable root cause and similar past…
-  api_count: 17
-  score_band: strong
-  score_composite: 59.3
-  shared: 1
-- slug: amazon-xray
-  name: Amazon X-Ray
-  description: AWS X-Ray is a distributed tracing service that helps developers analyze and debug production applications, providing end-to-end visibility into requests as they travel through the application. X-Ray provides service maps, trace analysis, sampling rules, group filtering, and AI-powered insights for…
-  api_count: 2
-  score_band: strong
-  score_composite: 58.7
-  shared: 1
-- slug: metaplane
-  name: Metaplane
-  description: Metaplane is a data observability platform for data teams — automated anomaly detection, data quality monitoring, column-level lineage, schema-change alerting and data CI/CD across Snowflake, BigQuery, Redshift, Databricks, ClickHouse, Postgres, MySQL, SQL Server, S3, dbt, Airflow and the major BI…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.7
-  shared: 1
 provider_slugs:
 - elk-stack
 - bugsnag
 - redocly
 - oracle-cloud
+- controlup
 - thousandeyes
 - checkly
 - bigpanda
+- aws-lambda
 - new-relic
-- monte-carlo
-- controlup
+- laravel
+- datadog
 - betterstack
+- monte-carlo
+- grafana
 - google-cloud-logging
 - dun-and-bradstreet
 - socure
@@ -237,11 +241,10 @@ provider_slugs:
 - logicmonitor
 - stack-moxie
 - grafana-loki
+- galileo-technologies
 - raygun
-- datadog
 - embrace
 - groundcover
-- aws-lambda
 - splunk-observability
 - openzeppelin
 - dash0
@@ -249,19 +252,18 @@ provider_slugs:
 - moogsoft
 - amazon-xray
 - metaplane
+- influxdata
 - amazon-cloudwatch
 - elastic-observability
 - microsoft-azure-monitor
 - social-fetch
 - azure-log-analytics
-- laravel
-- sciencelogic
-- grafana
 - amazon-guardduty
 - verifiable
+- broke2builtai-com
+- sciencelogic
 - cloudwatch
 - solar-edge
-- galileo-technologies
 - conviva
 - lightrun
 - splunk
@@ -271,7 +273,6 @@ provider_slugs:
 - vividcortex
 - oracle-enterprise-manager
 - grafana-com
-- influxdata
 - amazon-security-hub
 - amazon-managed-grafana
 - bitdrift
@@ -290,6 +291,7 @@ provider_slugs:
 - bluejay
 - opsgenie
 - braintrust
+- sumo-logic
 - amazon-lookout-for-metrics
 - anomaly-detection
 - virtual-instruments
@@ -312,21 +314,21 @@ provider_slugs:
 - deeptrace
 - uselemma
 - sorry
-- sumo-logic
 - google-cloud-endpoints
 - forta
 - opentelemetry
+- appneta
 - superlog
 - nagios
 - google-cloud-monitoring
 - keywordsai
 - zabbix
 - spike-sh
+- agenthealthmonitor-xyz
 - openstatus
 - tempo
 - spyderbat
 - 1factory
-- appneta
 - athina
 - literalai
 - appdynamics
@@ -342,7 +344,6 @@ provider_slugs:
 - uptrace
 - blocktorch
 - jaeger
-- kibana
 - motadata
 - judgment-labs
 - doctor-droid
@@ -350,7 +351,9 @@ provider_slugs:
 - sensu
 - truebiz
 - atla
+- kibana
 - deepchecks
+- instana
 - loggly
 - adt
 - thanos
@@ -367,7 +370,6 @@ provider_slugs:
 - lightstep
 - stackdriver-google
 - spring-boot-admin-console
-- instana
 - notyfi
 - sonarly
 - maxim
@@ -426,27 +428,27 @@ provider_slugs:
 related:
 - slug: observability
   name: Observability
-  shared: 16
+  shared: 15
 - slug: logging
   name: Logging
   shared: 6
 - slug: aiops
   name: AIOps
-  shared: 5
-- slug: security
-  name: Security
+  shared: 3
+- slug: deployment
+  name: Deployment
+  shared: 2
+- slug: machine-learning
+  name: Machine Learning
   shared: 2
 - slug: serverless
   name: Serverless
   shared: 2
-- slug: testing
-  name: Testing
-  shared: 2
 overview: 'Monitoring is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monitoring.apievangelist.com](https://monitoring.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Elastic Stack (ELK Stack), Bugsnag, Redocly, Oracle Cloud Infrastructure, ThousandEyes, Checkly, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Elastic Stack (ELK Stack), Bugsnag, Redocly, Oracle Cloud Infrastructure, ControlUp, ThousandEyes, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability, Logging, AIOps, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Logging, AIOps, and Deployment. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

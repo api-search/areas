@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 384
+provider_count: 387
 providers:
 - slug: kinde
   name: Kinde
@@ -50,6 +50,13 @@ providers:
   score_band: exemplar
   score_composite: 79.5
   shared: 1
+- slug: twilio
+  name: Twilio
+  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
+  api_count: 40
+  score_band: exemplar
+  score_composite: 77.8
+  shared: 1
 - slug: arcade
   name: Arcade
   description: Arcade.dev is the MCP runtime for production AI agent deployments. The Arcade Engine — a hosted or self-hostable API surface — handles OAuth user authorization, manages user tokens, and exposes 7,000+ pre-built integrations as Model Context Protocol tools that agent frameworks like LangChain, OpenA…
@@ -78,13 +85,6 @@ providers:
   score_band: exemplar
   score_composite: 74.3
   shared: 1
-- slug: twilio
-  name: Twilio
-  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
-  api_count: 40
-  score_band: exemplar
-  score_composite: 73.5
-  shared: 1
 - slug: ios
   name: iOS
   description: iOS is Apple's mobile operating system and the developer platform behind iPhone apps. While the bulk of the iOS SDK is delivered as Swift / Objective-C client frameworks (UIKit, SwiftUI, MapKit, HealthKit, HomeKit, SiriKit, StoreKit, AppIntents, PassKit, WidgetKit, ActivityKit), Apple also exposes…
@@ -105,6 +105,13 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 71.8
+  shared: 1
+- slug: clerk-com
+  name: Clerk
+  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
+  api_count: 7
+  score_band: exemplar
+  score_composite: 70.9
   shared: 1
 - slug: jefferson-health
   name: Jefferson Health
@@ -148,6 +155,13 @@ providers:
   score_band: exemplar
   score_composite: 68.4
   shared: 1
+- slug: auth0
+  name: Auth0
+  description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes a Management API (OpenAPI 3.1, 221 paths, 2,567 schemas), an…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 67.9
+  shared: 1
 - slug: frontegg
   name: Frontegg
   description: Frontegg is a customer identity and access management (CIAM) platform for B2B SaaS. It provides self-serve authentication, multi-tenancy, role-based access control, single sign-on, SCIM provisioning, entitlements, and an admin portal that ships with the product. Frontegg publishes OpenAPI specifica…
@@ -162,12 +176,12 @@ providers:
   score_band: exemplar
   score_composite: 66.8
   shared: 1
-- slug: clerk-com
-  name: Clerk
-  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
-  api_count: 7
-  score_band: exemplar
-  score_composite: 66.7
+- slug: amazon-cognito
+  name: Amazon Cognito
+  description: Amazon Cognito is a fully managed AWS user identity and authentication service that adds sign-up, sign-in, and access control to web and mobile applications, scaling to millions of users. It provides User Pools for authentication (user directories, MFA, customizable auth flows) and Identity Pools f…
+  api_count: 2
+  score_band: strong
+  score_composite: 66.0
   shared: 1
 - slug: barndoor
   name: Barndoor
@@ -204,20 +218,6 @@ providers:
   score_band: strong
   score_composite: 64.4
   shared: 1
-- slug: propelauth
-  name: PropelAuth
-  description: PropelAuth is a B2B SaaS authentication and multi-tenant user management platform purpose-built for organizations that sell to other organizations. It provides hosted login UIs, first-class organizations / tenants with custom roles and permissions, enterprise SSO via SAML and OIDC, SCIM directory s…
-  api_count: 3
-  score_band: strong
-  score_composite: 64.1
-  shared: 1
-- slug: weave
-  name: Weave
-  description: 'Weave (Weave Communications, Inc., NYSE: WEAV) is an all-in-one customer communication and payments platform built for small and medium healthcare and services businesses — dental, optometry, veterinary, medical, and beyond. Weave brings together a cloud phone system (VoIP), two-way text messaging,…'
-  api_count: 1
-  score_band: strong
-  score_composite: 64.1
-  shared: 1
 provider_slugs:
 - kinde
 - convertkit
@@ -225,23 +225,25 @@ provider_slugs:
 - appwrite
 - azure-ad
 - cvent-registration
+- twilio
 - arcade
 - zoho-crm
 - kraken
 - cvent
-- twilio
 - ios
 - aweber
 - aembit
+- clerk-com
 - jefferson-health
 - authentik
 - commerce-layer
 - cvent-event-cloud
 - tvarka
 - immutable
+- auth0
 - frontegg
 - hustle
-- clerk-com
+- amazon-cognito
 - barndoor
 - infusionsoft
 - strivacity
@@ -249,55 +251,59 @@ provider_slugs:
 - vim
 - propelauth
 - weave
-- amazon-cognito
+- beeketing
+- stytch
+- jane-app
 - etsy
 - lacuna
 - okta
-- beeketing
 - gluu
 - cisco-xdr
 - datavant
 - temple-health
 - playable
 - tibber
-- auth0
 - taskfolk
 - hootsuite
 - airtm
+- active-directory
+- workos
 - allegion
 - beyond-identity
 - criteo
-- stytch
 - photon
 - rose-rocket
 - insforge
 - ironclad
-- jane-app
 - wahoo
 - amazon-iam
+- microsoft-entra
 - composio
 - trakt
 - descope
+- forgerock
 - civic
 - lichess
 - cobot
 - uber-eats
 - yubico
+- appdirect
 - authenticx
 - doximity
+- clio
 - login-gov
 - unico
-- appdirect
-- active-directory
+- onecli
+- kannkidas-de
 - typingdna
+- aircover
 - snap
 - authelia
 - cabify
-- microsoft-entra
 - lawmatics
 - amazon-iam-identity-center
 - consolidated-edison
-- workos
+- fusionauth
 - cyclr
 - trustarc
 - mixmax
@@ -319,14 +325,12 @@ provider_slugs:
 - solaris
 - cirrus-identity
 - google-cloud-api-gateway
-- forgerock
 - playfab
 - bluestacks
 - signiant
+- amazon-directory-service
 - authlete
 - flume-health
-- amazon-directory-service
-- onecli
 - dream-sports
 - textmaster
 - carefluence
@@ -342,30 +346,29 @@ provider_slugs:
 - defakto-security
 - truecaller
 - coinlist
-- fusionauth
 - result
 - jack-henry
 - myfitnesspal
 - bitski
-- clio
 - ory
 - easywebinar
 - linqgg
 - climate-fieldview
 - nthu
 - comunicate-top-api
+- logto
 - nango
 - capital-one
 - charles-schwab
 - dust-identity
 - unkey
 - gadjah-mada-university
+- supertokens
 - spire
 - shanghai-jiao-tong-university
 - aol
 - fdx
 - google-firebase
-- supertokens
 - era
 - telesign
 - google-cloud-endpoints
@@ -411,9 +414,9 @@ provider_slugs:
 - altruist
 - autopass
 - grammarly
-- medium
 - cyberark
 - ikas-ikas-teknoloji-as
+- medium
 - liquid
 - fusewp
 - debank
@@ -421,7 +424,6 @@ provider_slugs:
 - parse
 - eagle-eye-networks
 - passage-1password
-- logto
 - aci-dev
 - authsignal
 - keycloak
@@ -478,7 +480,6 @@ provider_slugs:
 - glama-ai
 - bmw-connecteddrive
 - sifive
-- primerica
 - pulsoid
 - privy
 - samedi
@@ -489,6 +490,7 @@ provider_slugs:
 - passbase
 - apache-shiro
 - better-auth
+- primerica
 - duo-security
 - wellfound
 - getnet
@@ -520,13 +522,14 @@ provider_slugs:
 - libryo
 - marco-polo
 - scnd
-- hanr-block
 - silverfort
 - actively
+- augworlds-ai
 - rohlik
 - numeric
 - imprivata
 - incognia
+- hanr-block
 - equipmentshare
 - travelclick-amadeus
 - appwrite-graphql
@@ -606,13 +609,13 @@ provider_slugs:
 related:
 - slug: security
   name: Security
-  shared: 4
+  shared: 5
 - slug: agents
   name: Agents
   shared: 3
 - slug: communications
   name: Communications
-  shared: 3
+  shared: 2
 - slug: sdk
   name: SDKs
   shared: 2

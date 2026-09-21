@@ -20,7 +20,7 @@ providers:
   description: Beamer is a changelog and notification center tool for announcing product updates, new features, and API changes to end users. It provides an embeddable feed widget, push notifications, email digests, and a public changelog page. The Beamer REST API enables programmatic management of posts, users,…
   api_count: 1
   score_band: strong
-  score_composite: 60.7
+  score_composite: 59.3
   shared: 1
 - slug: canny
   name: Canny

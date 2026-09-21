@@ -47,8 +47,8 @@ providers:
   name: IntegrationOS
   description: IntegrationOS was a unified API platform that let developers add third-party integrations to their products with a single API call. The company rebranded as Pica (picaos.com) and then, on 2026-03-25, as One (withone.ai) — the provider's own changelog records the step as "Pica is now One". One is an…
   api_count: 1
-  score_band: exemplar
-  score_composite: 67.5
+  score_band: strong
+  score_composite: 66.2
   shared: 1
 - slug: vessel
   name: Vessel
@@ -183,6 +183,13 @@ providers:
   score_band: developing
   score_composite: 49.7
   shared: 1
+- slug: golioth
+  name: Golioth
+  description: Golioth is an IoT device management cloud and firmware SDK for connected hardware. The platform pairs an open-source Firmware SDK (Zephyr RTOS, nRF Connect SDK, ESP-IDF, ModusToolbox, Linux) with a REST Management API at api.golioth.io, a web console, and services for OTA firmware updates, device s…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.7
+  shared: 1
 - slug: aws-step-functions
   name: AWS Step Functions
   description: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error handling and retries.
@@ -203,13 +210,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 48.2
-  shared: 1
-- slug: golioth
-  name: Golioth
-  description: Golioth is an IoT device management cloud and firmware SDK for connected hardware. The platform pairs an open-source Firmware SDK (Zephyr RTOS, nRF Connect SDK, ESP-IDF, ModusToolbox, Linux) with a REST Management API at api.golioth.io, a web console, and services for OTA firmware updates, device s…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.9
   shared: 1
 - slug: azure-logic-apps
   name: Azure Logic Apps
@@ -244,16 +244,16 @@ provider_slugs:
 - hull
 - civil-infrastructure-platform
 - albato
+- golioth
 - aws-step-functions
 - oracle-integration
 - flume-health
-- golioth
 - azure-logic-apps
 - rewst
 - snaplogic
 - stackone
-- integrately
 - sap-integration-suite
+- integrately
 - make
 - skyvia
 - elastic-io

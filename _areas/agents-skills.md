@@ -6,7 +6,7 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 75
+provider_count: 83
 providers:
 - slug: apis-io
   name: APIs.io
@@ -42,6 +42,13 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 67.7
+  shared: 1
+- slug: 360learning
+  name: 360Learning
+  description: '360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automate the platform: provision and activate users, organize them…'
+  api_count: 5
+  score_band: exemplar
+  score_composite: 67.4
   shared: 1
 - slug: cracked
   name: Cracked API
@@ -148,6 +155,13 @@ providers:
   score_band: strong
   score_composite: 58.9
   shared: 1
+- slug: dant3-net
+  name: Dant3
+  description: 'Dant3 is a public-beta social and work network, operated from London by Snooptsz Group LTD, where Humans, AI Agents, Bots and Robots participate under visible identity and operator-accountability rules. It publishes a machine-first surface on dant3.net: a 15-operation Machine API (OpenAPI 3.1.0, po…'
+  api_count: 1
+  score_band: strong
+  score_composite: 58.8
+  shared: 1
 - slug: criteo
   name: Criteo
   description: Criteo is a global commerce media company whose Retail Media, Marketing Solutions and Commerce Grid platforms let retailers, brands, agencies and partners create, launch and measure onsite and offsite commerce advertising. Criteo publishes three live OpenAPI 3.0.1 documents at api.criteo.com coveri…
@@ -168,13 +182,6 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 57.2
-  shared: 1
-- slug: 360learning
-  name: 360Learning
-  description: '360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automate the platform: provision and activate users, organize them…'
-  api_count: 5
-  score_band: strong
-  score_composite: 57.0
   shared: 1
 - slug: developerhub
   name: DeveloperHub
@@ -211,19 +218,13 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
-- slug: ballerina
-  name: Ballerina
-  description: 'Ballerina is an open-source programming language for the cloud, created and maintained by WSO2, whose type system, syntax and tooling are built around network interaction: services, clients, data transformation and integration are language constructs rather than framework add-ons. It ships first-pa…'
-  api_count: 1
-  score_band: developing
-  score_composite: 53.6
-  shared: 1
 provider_slugs:
 - apis-io
 - smtp2go
 - konbiniapi
 - unify
 - clickfunnels
+- 360learning
 - cracked
 - adanos-market-sentiment-api
 - infer-by-flow7
@@ -239,10 +240,10 @@ provider_slugs:
 - visier
 - oracle-partitioning
 - synthflow
+- dant3-net
 - criteo
 - hashnode
 - zyte
-- 360learning
 - developerhub
 - nord-security
 - daloopa
@@ -256,34 +257,41 @@ provider_slugs:
 - cloud-academy
 - trusona
 - abbyy
+- lvlltd-com
+- apicontext
 - lokki
 - seshat-markets
+- typesafe-ai
 - bitpanda
-- apicontext
 - btc-war-live-market-data-api
+- plyrium-com
 - enigma-analytics
 - smithery
 - anew
 - coorpacademy
 - phenom
 - aelf-inc
-- probabl
 - mydentify-public-api
 - admakeai
+- probabl
 - naftiko
 - gloat
+- renoolab-fr
 - superscale
 - delta-witness
+- meetanlora-com
 - limit-break
 - growthspace
 - wato
 - agent-skills
 - blockscout
+- genie-us-software-com
 - taizen
+- perkoon-com
 - horizon-robotics
-- qname
 - legal-and-general
 - heeler
+- qname
 - agentic-resource-discovery
 - cloutjam
 - numeric
@@ -307,16 +315,16 @@ related:
 - slug: api-proxies
   name: API Proxies
   shared: 1
+- slug: bots
+  name: Bots
+  shared: 1
 - slug: agents
   name: Agents
-  shared: 1
-- slug: cli
-  name: Command Line Interface
   shared: 1
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
-  30 providers on the network work in this area, including APIs.io, SMTP2GO, KonbiniAPI, Unify, ClickFunnels, Cracked API, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including APIs.io, SMTP2GO, KonbiniAPI, Unify, ClickFunnels, 360Learning, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Scraping, Documentation, Privacy, and API Proxies. Browse every area at [areas.apis.io](https://apis.io/areas/).'

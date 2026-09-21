@@ -57,6 +57,13 @@ providers:
   score_band: developing
   score_composite: 47.5
   shared: 1
+- slug: infisical
+  name: Infisical
+  description: Infisical is an open-source secrets management platform that provides developers with a centralized, end-to-end encrypted vault for storing, syncing, and rotating secrets across teams, environments, and cloud infrastructure. The platform offers a REST API enabling programmatic management of secrets…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.4
+  shared: 1
 - slug: google-cloud-kms
   name: Google Cloud KMS
   description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symmetric and asymmetric keys for securing data and workloads.
@@ -98,13 +105,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 42.0
-  shared: 1
-- slug: infisical
-  name: Infisical
-  description: Infisical is an open-source secrets management platform that provides developers with a centralized, end-to-end encrypted vault for storing, syncing, and rotating secrets across teams, environments, and cloud infrastructure. The platform offers a REST API enabling programmatic management of secrets…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.3
   shared: 1
 - slug: signal
   name: Signal
@@ -226,13 +226,13 @@ provider_slugs:
 - ironcore-labs
 - openbao
 - virtru
+- infisical
 - google-cloud-kms
 - hashicorp-vault
 - akeyless
 - skyflow
 - fortanix
 - spideroak
-- infisical
 - signal
 - digicert
 - incountry
@@ -268,14 +268,14 @@ provider_slugs:
 - secure-tunneling-protocols
 - security-protocols
 related:
-- slug: security
-  name: Security
-  shared: 3
 - slug: bots
   name: Bots
   shared: 1
 - slug: cli
   name: Command Line Interface
+  shared: 1
+- slug: security
+  name: Security
   shared: 1
 overview: 'Encryption is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [encryption.apievangelist.com](https://encryption.apievangelist.com).
 
@@ -283,5 +283,5 @@ overview: 'Encryption is one of the API Evangelist areas on the [APIs.io](https:
   30 providers on the network work in this area, including Paubox, Evervault, Amazon KMS, Amazon Certificate Manager, IronCore Labs, OpenBao, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Security, Bots, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Bots, Command Line Interface, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

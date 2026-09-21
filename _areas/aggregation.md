@@ -29,19 +29,19 @@ providers:
   score_band: developing
   score_composite: 41.8
   shared: 1
+- slug: belvo
+  name: Belvo
+  description: Belvo is a Latin American open-finance API platform that lets companies connect to bank, fiscal, and employment institutions across Mexico, Brazil, and Colombia to aggregate accounts, balances, transactions, owners, and income data, and to initiate account-to-account payments over Brazil's Pix / Op…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.3
+  shared: 1
 - slug: google-news
   name: Google News RSS
   description: Google News provides RSS feeds that deliver news headlines organized by topic, location, and search query. The feeds expose structured XML data that can be consumed programmatically to retrieve top stories, topic-based headlines (World, Business, Technology, Sports, etc.), location-specific news, a…
   api_count: 1
   score_band: developing
   score_composite: 39.5
-  shared: 1
-- slug: belvo
-  name: Belvo
-  description: Belvo is a Latin American open-finance API platform that lets companies connect to bank, fiscal, and employment institutions across Mexico, Brazil, and Colombia to aggregate accounts, balances, transactions, owners, and income data, and to initiate account-to-account payments over Brazil's Pix / Op…
-  api_count: 1
-  score_band: thin
-  score_composite: 39.2
   shared: 1
 - slug: krakend
   name: KrakenD
@@ -75,8 +75,8 @@ provider_slugs:
 - ab-tasty
 - mx-platform
 - tietoevry
-- google-news
 - belvo
+- google-news
 - krakend
 - quiltt
 - statsd
@@ -85,5 +85,5 @@ related: []
 overview: 'Aggregation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aggregation.apievangelist.com](https://aggregation.apievangelist.com).
 
 
-  9 providers on the network work in this area, including AB Tasty, MX Platform, TietoEVRY, Google News RSS, Belvo, KrakenD, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  9 providers on the network work in this area, including AB Tasty, MX Platform, TietoEVRY, Belvo, Google News RSS, KrakenD, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

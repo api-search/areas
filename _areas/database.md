@@ -15,12 +15,12 @@ providers:
   score_band: exemplar
   score_composite: 80.1
   shared: 1
-- slug: tidb
-  name: Tidb
-  description: TiDB is an open-source, MySQL-compatible distributed SQL database built by PingCAP for Hybrid Transactional and Analytical Processing (HTAP) workloads, with horizontal scale-out, Raft-based strong consistency, high availability and built-in vector search for AI retrieval. It ships both as self-mana…
-  api_count: 12
+- slug: amazon-dynamodb
+  name: Amazon DynamoDB
+  description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-value and document data models.
+  api_count: 1
   score_band: exemplar
-  score_composite: 76.5
+  score_composite: 79.4
   shared: 1
 - slug: cdata
   name: CData
@@ -28,6 +28,13 @@ providers:
   api_count: 9
   score_band: exemplar
   score_composite: 75.8
+  shared: 1
+- slug: tidb
+  name: Tidb
+  description: TiDB is an open-source, MySQL-compatible distributed SQL database built by PingCAP for Hybrid Transactional and Analytical Processing (HTAP) workloads, with horizontal scale-out, Raft-based strong consistency, high availability and built-in vector search for AI retrieval. It ships both as self-mana…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 74.8
   shared: 1
 - slug: oracle-cloud
   name: Oracle Cloud Infrastructure
@@ -41,14 +48,7 @@ providers:
   description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Lightsail provides developers compute, storage, and networking ca…
   api_count: 2
   score_band: exemplar
-  score_composite: 72.3
-  shared: 1
-- slug: prisma
-  name: Prisma
-  description: Prisma gives TypeScript and Node.js teams a type-safe ORM, managed serverless Postgres, and Compute for deploying apps and AI agents next to their database. The product line is Prisma ORM, Prisma Postgres, Prisma Compute, Prisma Composer, Prisma Studio, Object Store buckets and Query Insights, wire…
-  api_count: 7
-  score_band: exemplar
-  score_composite: 71.5
+  score_composite: 73.3
   shared: 1
 - slug: clickhouse
   name: ClickHouse
@@ -57,6 +57,27 @@ providers:
   score_band: exemplar
   score_composite: 70.5
   shared: 1
+- slug: prisma
+  name: Prisma
+  description: Prisma gives TypeScript and Node.js teams a type-safe ORM, managed serverless Postgres, and Compute for deploying apps and AI agents next to their database. The product line is Prisma ORM, Prisma Postgres, Prisma Compute, Prisma Composer, Prisma Studio, Object Store buckets and Query Insights, wire…
+  api_count: 7
+  score_band: exemplar
+  score_composite: 70.1
+  shared: 1
+- slug: amazon-neptune
+  name: Amazon Neptune
+  description: Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. It supports property graph and RDF models, with multiple query languages including Gremlin, SPARQL, and openCypher.
+  api_count: 9
+  score_band: exemplar
+  score_composite: 67.3
+  shared: 1
+- slug: oracle
+  name: Oracle
+  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
+  api_count: 161
+  score_band: exemplar
+  score_composite: 67.0
+  shared: 1
 - slug: cloudkit
   name: Apple CloudKit
   description: Apple CloudKit is the cloud backend for iOS, iPadOS, macOS, tvOS, watchOS, visionOS, and the web. CloudKit Web Services is the public REST surface that lets non-Apple-platform clients (web apps, servers) read and write data into a CloudKit container's public, private, or shared database. The web se…
@@ -64,26 +85,19 @@ providers:
   score_band: strong
   score_composite: 65.0
   shared: 1
-- slug: amazon-dynamodb
-  name: Amazon DynamoDB
-  description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-value and document data models.
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
   api_count: 1
-  score_band: strong
-  score_composite: 64.4
-  shared: 1
-- slug: amazon-neptune
-  name: Amazon Neptune
-  description: Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. It supports property graph and RDF models, with multiple query languages including Gremlin, SPARQL, and openCypher.
-  api_count: 9
   score_band: strong
   score_composite: 62.6
   shared: 1
-- slug: oracle
-  name: Oracle
-  description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
-  api_count: 161
+- slug: oracle-goldengate
+  name: Oracle GoldenGate
+  description: Oracle GoldenGate enables real-time data integration and replication in heterogeneous IT environments. These APIs provide programmatic access to manage and monitor GoldenGate deployments, processes, and configurations.
+  api_count: 6
   score_band: strong
-  score_composite: 62.3
+  score_composite: 62.1
   shared: 1
 - slug: airtable
   name: Airtable
@@ -120,12 +134,12 @@ providers:
   score_band: strong
   score_composite: 60.3
   shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
+- slug: mongodb
+  name: MongoDB
+  description: MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database, MongoDB uses JSON-like documents with optional schemas.
   api_count: 1
   score_band: strong
-  score_composite: 60.0
+  score_composite: 60.2
   shared: 1
 - slug: abloatai
   name: Ablo
@@ -155,12 +169,26 @@ providers:
   score_band: strong
   score_composite: 59.0
   shared: 1
+- slug: couchbase
+  name: Couchbase
+  description: Couchbase is a distributed, document-oriented NoSQL cloud database platform that combines the flexibility of JSON, the power of SQL++ querying, and the performance of an in-memory key-value store. The Couchbase product line includes Couchbase Server (self-managed), Couchbase Capella (fully managed…
+  api_count: 12
+  score_band: strong
+  score_composite: 58.8
+  shared: 1
 - slug: tiledb
   name: TileDB
   description: TileDB, Inc. builds a multimodal database around a single universal data model — the multi-dimensional array — that stores tables, genomics (VCF), single-cell (SOMA), biomedical imaging, vector embeddings, point clouds, files and ML models in one cloud-native format on S3, Azure Blob, GCS, Lustre o…
   api_count: 4
   score_band: strong
   score_composite: 58.7
+  shared: 1
+- slug: influxdata
+  name: InfluxData
+  description: InfluxData is the company behind InfluxDB, the leading open source time series database purpose-built for real-time analytics, monitoring, IoT and sensor data, application metrics, and observability workloads. InfluxDB ingests millions of data points per second and ships as open source (InfluxDB OS…
+  api_count: 2
+  score_band: strong
+  score_composite: 58.6
   shared: 1
 - slug: pingcap
   name: PingCAP
@@ -183,93 +211,67 @@ providers:
   score_band: strong
   score_composite: 57.8
   shared: 1
-- slug: oracle-goldengate
-  name: Oracle GoldenGate
-  description: Oracle GoldenGate enables real-time data integration and replication in heterogeneous IT environments. These APIs provide programmatic access to manage and monitor GoldenGate deployments, processes, and configurations.
-  api_count: 6
+- slug: nutanix
+  name: Nutanix
+  description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
+  api_count: 2
   score_band: strong
   score_composite: 57.8
   shared: 1
-- slug: insforge
-  name: Insforge
-  description: InsForge is an open-source (Apache-2.0), agent-native cloud infrastructure platform built so that AI coding agents can provision and operate an entire backend end to end through a CLI and packaged agent skills instead of a human clicking through a dashboard. A single project bundles a Postgres data…
-  api_count: 14
-  score_band: strong
-  score_composite: 57.3
-  shared: 1
-- slug: couchbase
-  name: Couchbase
-  description: Couchbase is a distributed, document-oriented NoSQL cloud database platform that combines the flexibility of JSON, the power of SQL++ querying, and the performance of an in-memory key-value store. The Couchbase product line includes Couchbase Server (self-managed), Couchbase Capella (fully managed…
-  api_count: 12
-  score_band: developing
-  score_composite: 54.0
-  shared: 1
-- slug: amuncore
-  name: AmunCore
-  description: AmunCore turns a database into a secure REST API without writing a backend. You connect a database, pick tables, and endpoints go live with routing, authentication, validation, pagination, joins, errors, logs and docs already handled — the layer between a database and HTTP that would otherwise be a…
-  api_count: 2
-  score_band: developing
-  score_composite: 53.5
-  shared: 1
-- slug: timescale
-  name: Timescale
-  description: Timescale — rebranded as Tiger Data in 2025 — is the PostgreSQL data platform company behind TimescaleDB, the open-source PostgreSQL extension for time-series and real-time analytics, and Tiger Cloud, a fully managed PostgreSQL cloud service on AWS and Azure. The platform adds hypertables (automati…
-  api_count: 2
-  score_band: developing
-  score_composite: 53.3
-  shared: 1
 provider_slugs:
 - appwrite
-- tidb
+- amazon-dynamodb
 - cdata
+- tidb
 - oracle-cloud
 - amazon-lightsail
-- prisma
 - clickhouse
-- cloudkit
-- amazon-dynamodb
+- prisma
 - amazon-neptune
 - oracle
+- cloudkit
+- ibm
+- oracle-goldengate
 - airtable
 - yugabytedb
 - amazon-keyspaces
 - notion
 - aifordatabase
-- ibm
+- mongodb
 - abloatai
 - microsoft-sql-server
 - amazon-documentdb
 - oracle-partitioning
+- couchbase
 - tiledb
+- influxdata
 - pingcap
 - amazon-elasticache
 - bubble
-- oracle-goldengate
+- nutanix
 - insforge
-- couchbase
 - amuncore
 - timescale
 - ehrbase
 - vividcortex
 - microsoft-azure-mysql
-- influxdata
 - yugabyte
 - scylladb
+- scaleway
 - oracle-database
 - cockroach-labs
 - render
-- mongodb
 - adaptive-automation-technologies
-- baserow
 - dokploy
+- amazon-dms
 - neon
 - nocodb
 - turso
-- scaleway
-- amazon-dms
+- baserow
 - startree
+- tessell
 - ocient
-- nutanix
+- macrometa
 - superblocks
 - artie
 - arangodb
@@ -279,7 +281,6 @@ provider_slugs:
 - datastax
 - google-cloud-sql
 - google-cloud-spanner
-- sap-hana
 - cloudflare-d1
 - ditto-live
 - google-cloud-firestore
@@ -295,31 +296,30 @@ provider_slugs:
 - cockroachdb
 - kurrent
 - oracle-apex
-- tessell
 - singlestore
-- macrometa
 - microsoft-azure-sql-database
 - ardent
 - risingwave
+- sap-hana
 - firebase
-- sybase
 - supabase
 - instantdb
 - apache-hbase
 - elasticsearch
 - codehooks
+- sybase
 - coda
 - apache-doris
 - electric-sql
 - popsink
 - altinity
 - teradata
-- apache-druid
 - redis
 - anilist
 - apache-couchdb
 - stack-machine
 - vitess
+- apache-druid
 - backendless
 - imply
 - ninox
@@ -343,6 +343,7 @@ provider_slugs:
 - dolthub
 - edgedb
 - bytebase
+- influxdb
 - microsoft-entity-framework
 - microsoft-access
 - thegamesdb
@@ -355,17 +356,16 @@ provider_slugs:
 - spring-data
 - knack
 - mysql
-- oracle-database-19c
 - victoriametrics
 - bigchaindb
 - inspur-cloud
 - gel-data
 - surrealdb
-- influxdb
 - yunqi
 - debezium
 - google-cloud-datastore
 - powersync
+- oracle-database-19c
 - paradedb
 - synthesized
 - apache-derby
@@ -428,7 +428,7 @@ provider_slugs:
 related:
 - slug: serverless
   name: Serverless
-  shared: 6
+  shared: 5
 - slug: containers
   name: Containers
   shared: 2
@@ -447,7 +447,7 @@ related:
 overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [database.apievangelist.com](https://database.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Appwrite, Tidb, CData, Oracle Cloud Infrastructure, Amazon Lightsail, Prisma, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Appwrite, Amazon DynamoDB, CData, Tidb, Oracle Cloud Infrastructure, Amazon Lightsail, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Serverless, Containers, Caching, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'

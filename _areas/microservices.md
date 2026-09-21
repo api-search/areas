@@ -27,7 +27,7 @@ providers:
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 5
   score_band: strong
-  score_composite: 62.1
+  score_composite: 65.8
   shared: 1
 - slug: azure-container-apps
   name: Azure Container Apps
@@ -43,6 +43,13 @@ providers:
   score_band: strong
   score_composite: 57.4
   shared: 1
+- slug: websphere
+  name: IBM WebSphere
+  description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
+  api_count: 7
+  score_band: strong
+  score_composite: 57.4
+  shared: 1
 - slug: signadot
   name: Signadot
   description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
@@ -50,12 +57,12 @@ providers:
   score_band: strong
   score_composite: 55.0
   shared: 1
-- slug: websphere
-  name: IBM WebSphere
-  description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
-  api_count: 7
-  score_band: strong
-  score_composite: 54.3
+- slug: aws-app-mesh
+  name: AWS App Mesh
+  description: AWS App Mesh is a service mesh based on the Envoy proxy that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure including Amazon ECS, EKS, EC2, and Fargate. App Mesh standardizes service communication, gi…
+  api_count: 1
+  score_band: developing
+  score_composite: 54.1
   shared: 1
 - slug: encore-dev
   name: Encore
@@ -64,19 +71,19 @@ providers:
   score_band: developing
   score_composite: 54.0
   shared: 1
-- slug: aws-app-mesh
-  name: AWS App Mesh
-  description: AWS App Mesh is a service mesh based on the Envoy proxy that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure including Amazon ECS, EKS, EC2, and Fargate. App Mesh standardizes service communication, gi…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.5
-  shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
   api_count: 1
   score_band: developing
   score_composite: 51.2
+  shared: 1
+- slug: amazon-app-mesh
+  name: Amazon App Mesh
+  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
+  api_count: 2
+  score_band: developing
+  score_composite: 49.7
   shared: 1
 - slug: aws-x-ray
   name: AWS X-Ray
@@ -98,6 +105,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 48.6
+  shared: 1
+- slug: amazon-vpc-lattice
+  name: Amazon VPC Lattice
+  description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
+  api_count: 73
+  score_band: developing
+  score_composite: 47.8
   shared: 1
 - slug: amazon-fargate
   name: Amazon Fargate
@@ -148,13 +162,6 @@ providers:
   score_band: developing
   score_composite: 45.7
   shared: 1
-- slug: amazon-app-mesh
-  name: Amazon App Mesh
-  description: AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure.
-  api_count: 2
-  score_band: developing
-  score_composite: 45.5
-  shared: 1
 - slug: webflux
   name: Spring WebFlux
   description: Spring WebFlux is a fully non-blocking, reactive-stack web framework built into Spring Framework 5.0+. It enables building highly scalable, asynchronous web applications using the Reactive Streams API with Project Reactor. WebFlux supports annotated controllers, functional routing endpoints, WebSoc…
@@ -183,12 +190,12 @@ providers:
   score_band: developing
   score_composite: 43.2
   shared: 1
-- slug: amazon-vpc-lattice
-  name: Amazon VPC Lattice
-  description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
-  api_count: 73
+- slug: purplebricks
+  name: Purplebricks
+  description: Purplebricks is the United Kingdom's largest online (hybrid) estate agency, founded in 2014 by Michael and Kenny Bruce and David Shepherd, selling and letting residential property across England, Wales and Scotland through a fixed-fee, remote model staffed by local property experts rather than a hi…
+  api_count: 32
   score_band: developing
-  score_composite: 43.0
+  score_composite: 42.8
   shared: 1
 - slug: dapr
   name: Dapr
@@ -211,27 +218,22 @@ providers:
   score_band: developing
   score_composite: 42.2
   shared: 1
-- slug: amazon-cloud-map
-  name: Amazon Cloud Map
-  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
-  api_count: 3
-  score_band: developing
-  score_composite: 41.3
-  shared: 1
 provider_slugs:
 - datadog-apm
 - nvidia-nim
 - apigee
 - azure-container-apps
 - amazon-sqs
-- signadot
 - websphere
-- encore-dev
+- signadot
 - aws-app-mesh
+- encore-dev
 - aws-app-runner
+- amazon-app-mesh
 - aws-x-ray
 - polyapi
 - zeebe
+- amazon-vpc-lattice
 - amazon-fargate
 - apollo-config
 - beamable
@@ -239,12 +241,11 @@ provider_slugs:
 - lumigo
 - spring
 - grpc
-- amazon-app-mesh
 - webflux
 - apache-dubbo
 - microsoft-azure-service-fabric
 - kuma
-- amazon-vpc-lattice
+- purplebricks
 - dapr
 - nats
 - opslevel
@@ -262,7 +263,6 @@ provider_slugs:
 - service-fabric
 - spring-cloud-gateway
 - jaeger
-- purplebricks
 - axon-framework
 - spring-boot-3
 - express-gateway
@@ -338,16 +338,16 @@ related:
 - slug: aiops
   name: AIOps
   shared: 1
-- slug: dns
-  name: DNS
-  shared: 1
 - slug: deployment
   name: Deployment
+  shared: 1
+- slug: monetization
+  name: Monetization
   shared: 1
 overview: 'Microservices is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [microservices.apievangelist.com](https://microservices.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Datadog APM, NVIDIA NIM, Apigee, Azure Container Apps, Amazon SQS, Signadot, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Datadog APM, NVIDIA NIM, Apigee, Azure Container Apps, Amazon SQS, IBM WebSphere, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Service Mesh, Containers, Developer Experience, and AIOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,14 +6,14 @@ description: An index and topic collection covering chatbots, conversational age
 area_url: https://bots.apievangelist.com
 area_host: bots.apievangelist.com
 icon: https://bots.apievangelist.com/icon-thumb.png
-provider_count: 18
+provider_count: 19
 providers:
 - slug: automation-anywhere
   name: Automation Anywhere
   description: Automation Anywhere is an enterprise robotic process automation (RPA) platform that enables organizations to automate business processes using software bots. Their developer platform, centered around the Automation 360 Control Room, provides a comprehensive suite of REST APIs for managing bot deplo…
   api_count: 7
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 72.9
   shared: 1
 - slug: slack
   name: Slack
@@ -21,6 +21,13 @@ providers:
   api_count: 32
   score_band: strong
   score_composite: 65.6
+  shared: 1
+- slug: dant3-net
+  name: Dant3
+  description: 'Dant3 is a public-beta social and work network, operated from London by Snooptsz Group LTD, where Humans, AI Agents, Bots and Robots participate under visible identity and operator-accountability rules. It publishes a machine-first surface on dant3.net: a 15-operation Machine API (OpenAPI 3.1.0, po…'
+  api_count: 1
+  score_band: strong
+  score_composite: 58.8
   shared: 1
 - slug: lichess
   name: Lichess
@@ -137,6 +144,7 @@ providers:
 provider_slugs:
 - automation-anywhere
 - slack
+- dant3-net
 - lichess
 - zenzap
 - telegram
@@ -154,14 +162,17 @@ provider_slugs:
 - liveperson
 - regression-games
 related:
+- slug: agents-skills
+  name: Agent Skills
+  shared: 1
 - slug: encryption
   name: Encryption
   shared: 1
 overview: 'Bots is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [bots.apievangelist.com](https://bots.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Automation Anywhere, Slack, Lichess, ZenZap, Telegram, Zoho Cliq, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  19 providers on the network work in this area, including Automation Anywhere, Slack, Dant3, Lichess, ZenZap, Telegram, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Encryption. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agent Skills and Encryption. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

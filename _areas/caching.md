@@ -36,6 +36,13 @@ providers:
   score_band: developing
   score_composite: 54.2
   shared: 1
+- slug: google-cloud-cdn
+  name: Google Cloud CDN
+  description: Google Cloud CDN (Content Delivery Network) uses Google's globally distributed edge points of presence to cache HTTP(S) load-balanced content close to users. It accelerates content delivery, reduces serving costs, and improves availability by leveraging Google's global network infrastructure for fa…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.8
+  shared: 1
 - slug: ezoic
   name: ezoic
   description: Ezoic is a website monetization and audience-growth platform for publishers, and a performance advertising marketplace for brands. Publishers integrate EzoicAds (via JavaScript, mobile SDKs for Android/iOS/Flutter/React Native/Unity, or framework SDKs for Angular/React/Vue) to run native, sticky, v…
@@ -49,13 +56,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 46.9
-  shared: 1
-- slug: google-cloud-cdn
-  name: Google Cloud CDN
-  description: Google Cloud CDN (Content Delivery Network) uses Google's globally distributed edge points of presence to cache HTTP(S) load-balanced content close to users. It accelerates content delivery, reduces serving costs, and improves availability by leveraging Google's global network infrastructure for fa…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.0
   shared: 1
 - slug: apache-ignite
   name: Apache Ignite
@@ -160,9 +160,9 @@ provider_slugs:
 - cloudfront
 - amazon-elasticache
 - cloudflare-ai-gateway
+- google-cloud-cdn
 - ezoic
 - nginx
-- google-cloud-cdn
 - apache-ignite
 - momento
 - turborepo
@@ -190,7 +190,7 @@ related:
 overview: 'Caching is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [caching.apievangelist.com](https://caching.apievangelist.com).
 
 
-  21 providers on the network work in this area, including Microsoft Azure Cdn, CloudFront, Amazon ElastiCache, Cloudflare AI Gateway, ezoic, NGINX, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  21 providers on the network work in this area, including Microsoft Azure Cdn, CloudFront, Amazon ElastiCache, Cloudflare AI Gateway, Google Cloud CDN, ezoic, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Proxy, Database, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'

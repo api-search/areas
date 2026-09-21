@@ -50,6 +50,13 @@ providers:
   score_band: developing
   score_composite: 40.0
   shared: 1
+- slug: jetbrains
+  name: JetBrains
+  description: JetBrains is a software development company that provides integrated development environments, CI/CD tools, issue tracking, and team collaboration platforms for software developers. Their product suite includes IntelliJ IDEA, TeamCity, YouTrack, Space, Hub, and the JetBrains Marketplace, all of whi…
+  api_count: 5
+  score_band: developing
+  score_composite: 39.3
+  shared: 1
 - slug: vs-code-marketplace
   name: VS Code Marketplace
   description: VS Code Marketplace is Microsoft's official extension marketplace for Visual Studio Code, offering thousands of extensions for languages, debuggers, themes, and developer tools. It provides a Gallery API for programmatically searching, discovering, and retrieving extension metadata, enabling integr…
@@ -70,13 +77,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 36.8
-  shared: 1
-- slug: jetbrains
-  name: JetBrains
-  description: JetBrains is a software development company that provides integrated development environments, CI/CD tools, issue tracking, and team collaboration platforms for software developers. Their product suite includes IntelliJ IDEA, TeamCity, YouTrack, Space, Hub, and the JetBrains Marketplace, all of whi…
-  api_count: 5
-  score_band: thin
-  score_composite: 32.4
   shared: 1
 - slug: windsurf
   name: Windsurf
@@ -176,10 +176,10 @@ provider_slugs:
 - workday-studio
 - amazon-cloud9
 - jupyterlab
+- jetbrains
 - vs-code-marketplace
 - anysphere
 - cursor
-- jetbrains
 - windsurf
 - jetbrains-plugin
 - microsoft-visual-studio

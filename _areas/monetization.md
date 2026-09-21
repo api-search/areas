@@ -27,7 +27,14 @@ providers:
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 5
   score_band: strong
-  score_composite: 62.1
+  score_composite: 65.8
+  shared: 1
+- slug: solvimon
+  name: Solvimon
+  description: Solvimon is an IPO-ready billing and monetization platform for usage-based and hybrid pricing that unifies metering, CPQ (quote-to-cash), subscriptions, invoicing, payments and revenue recognition in a single system. It is PSP-agnostic (Stripe, Adyen, Checkout.com) with multi-currency support, and…
+  api_count: 4
+  score_band: strong
+  score_composite: 63.2
   shared: 1
 - slug: netcracker
   name: Netcracker
@@ -49,13 +56,6 @@ providers:
   api_count: 15
   score_band: strong
   score_composite: 57.5
-  shared: 1
-- slug: solvimon
-  name: Solvimon
-  description: Solvimon is an IPO-ready billing and monetization platform for usage-based and hybrid pricing that unifies metering, CPQ (quote-to-cash), subscriptions, invoicing, payments and revenue recognition in a single system. It is PSP-agnostic (Stripe, Adyen, Checkout.com) with multi-currency support, and…
-  api_count: 4
-  score_band: strong
-  score_composite: 56.9
   shared: 1
 - slug: coda-payments
   name: Coda Payments
@@ -222,10 +222,10 @@ provider_slugs:
 - drippay
 - appcharge
 - apigee
+- solvimon
 - netcracker
 - paid
 - zype
-- solvimon
 - coda-payments
 - monetizenow
 - viglink
@@ -294,7 +294,7 @@ related:
 overview: 'Monetization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monetization.apievangelist.com](https://monetization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Drippay, Appcharge, Apigee, Netcracker, Paid, Zype, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Drippay, Appcharge, Apigee, Solvimon, Netcracker, Paid, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: FinOps, Microservices, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'

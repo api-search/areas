@@ -6,21 +6,21 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://testing.apievangelist.com
 area_host: testing.apievangelist.com
 icon: https://testing.apievangelist.com/icon-thumb.png
-provider_count: 139
+provider_count: 140
 providers:
+- slug: postman
+  name: Postman
+  description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
+  api_count: 21
+  score_band: exemplar
+  score_composite: 72.4
+  shared: 1
 - slug: checkly
   name: Checkly
   description: Checkly is a code-first reliability platform for synthetic monitoring, uptime monitoring, alerting and AI-assisted incident investigation. Engineering teams define monitors as versioned code with the Checkly CLI, Terraform or Pulumi, reuse existing Playwright suites as production browser checks, an…
   api_count: 1
   score_band: exemplar
   score_composite: 71.1
-  shared: 1
-- slug: postman
-  name: Postman
-  description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 21
-  score_band: exemplar
-  score_composite: 70.1
   shared: 1
 - slug: browserstack
   name: BrowserStack
@@ -127,6 +127,13 @@ providers:
   score_band: developing
   score_composite: 51.3
   shared: 1
+- slug: apicontext
+  name: APIContext
+  description: APIContext (formerly APImetrics) is a synthetic API testing, monitoring and conformance platform. It calls the APIs you depend on from cloud locations around the world on a schedule, measures latency and availability from the outside in, validates responses against expected schemas and security pro…
+  api_count: 6
+  score_band: developing
+  score_composite: 50.2
+  shared: 1
 - slug: opkey
   name: Opkey
   description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests and change-impact analysis for Oracle Cloud/EBS, Workday, Sale…
@@ -140,13 +147,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 48.5
-  shared: 1
-- slug: apicontext
-  name: APIContext
-  description: APIContext (formerly APImetrics) is a synthetic API testing, monitoring and conformance platform. It calls the APIs you depend on from cloud locations around the world on a schedule, measures latency and availability from the outside in, validates responses against expected schemas and security pro…
-  api_count: 6
-  score_band: developing
-  score_composite: 48.3
   shared: 1
 - slug: rainforest-qa
   name: Rainforest QA
@@ -183,6 +183,13 @@ providers:
   score_band: developing
   score_composite: 47.2
   shared: 1
+- slug: teamcity
+  name: TeamCity
+  description: JetBrains TeamCity is a powerful continuous integration and deployment server that helps development teams build, test, and deploy software efficiently. TeamCity provides a comprehensive REST API for automating CI/CD workflows, managing projects, build configurations, agents, and infrastructure.
+  api_count: 1
+  score_band: developing
+  score_composite: 46.1
+  shared: 1
 - slug: lambdatest
   name: LambdaTest
   description: LambdaTest (rebranding as TestMu AI) is a cloud-based AI-powered test execution platform that enables developers and QA teams to run Selenium, Cypress, Playwright, and Appium automation tests across 3,000+ browser and OS combinations at scale. The platform provides live interactive cross-browser an…
@@ -211,16 +218,9 @@ providers:
   score_band: developing
   score_composite: 45.4
   shared: 1
-- slug: confident-cannabis
-  name: Confident Cannabis
-  description: Confident Cannabis (CC Software LLC, operating as Confident LIMS) is a cloud-based Laboratory Information Management System for analytical testing labs and their clients across cannabis and hemp, food and beverage, environmental, agriculture, nutraceuticals, cosmetics, oil and gas, and industrial c…
-  api_count: 3
-  score_band: developing
-  score_composite: 43.6
-  shared: 1
 provider_slugs:
-- checkly
 - postman
+- checkly
 - browserstack
 - uipath
 - tricentis
@@ -236,14 +236,15 @@ provider_slugs:
 - testfairy
 - coval
 - kubeshop
+- apicontext
 - opkey
 - assertible
-- apicontext
 - rainforest-qa
 - automation-preflight-api
 - azure-test-labs
 - sauce-labs
 - panaya
+- teamcity
 - lambdatest
 - parea
 - emerge-tools
@@ -255,10 +256,10 @@ provider_slugs:
 - replay
 - qa-wolf
 - nuclei
-- teamcity
 - testsigma
 - selenium
 - launchable
+- pearson
 - beeceptor
 - testrail
 - testiny
@@ -283,11 +284,11 @@ provider_slugs:
 - applitools
 - codspeed
 - hamming-ai
-- playground
-- firecamp
 - k6
+- playground
 - antithesis
-- pearson
+- a2apark-com
+- firecamp
 - rest-assured
 - cucumber
 - testcontainers
@@ -380,7 +381,7 @@ related:
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Checkly, Postman, BrowserStack, UiPath, Tricentis, Stack Moxie, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, Checkly, BrowserStack, UiPath, Tricentis, Stack Moxie, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Developer Experience, Documentation, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'

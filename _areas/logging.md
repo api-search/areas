@@ -15,6 +15,20 @@ providers:
   score_band: exemplar
   score_composite: 76.7
   shared: 1
+- slug: aws-lambda
+  name: AWS Lambda
+  description: AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. Lambda runs your code on high-availability compute infrastructure and performs all of the administration of the compute…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.2
+  shared: 1
+- slug: fastly
+  name: Fastly
+  description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
+  api_count: 22
+  score_band: strong
+  score_composite: 66.0
+  shared: 1
 - slug: logz-io
   name: Logz.io
   description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
@@ -49,20 +63,6 @@ providers:
   api_count: 3
   score_band: strong
   score_composite: 62.5
-  shared: 1
-- slug: fastly
-  name: Fastly
-  description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
-  api_count: 22
-  score_band: strong
-  score_composite: 62.3
-  shared: 1
-- slug: aws-lambda
-  name: AWS Lambda
-  description: AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. Lambda runs your code on high-availability compute infrastructure and performs all of the administration of the compute…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.1
   shared: 1
 - slug: splunk-observability
   name: Splunk Observability Cloud
@@ -120,6 +120,13 @@ providers:
   score_band: developing
   score_composite: 51.5
   shared: 1
+- slug: sumo-logic
+  name: Sumo Logic
+  description: Sumo Logic is a cloud-native, machine data analytics platform delivering real-time, continuous intelligence for operations, security, and business insights. It provides a comprehensive REST API with 289 endpoints spanning log analytics, dashboards, monitors, roles, users, metrics, traces, and more.
+  api_count: 1
+  score_band: developing
+  score_composite: 47.9
+  shared: 1
 - slug: codag
   name: Codag
   description: Codag is a Y Combinator (Summer 2026) developer-tools company building drop-in log compression for AI agents. It takes oversized infrastructure logs — from Kubernetes, Docker, AWS CloudWatch, Vercel, Railway, Datadog, Sentry, syslog and unstructured sources — and returns only the lines that matter…
@@ -140,13 +147,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 43.6
-  shared: 1
-- slug: sumo-logic
-  name: Sumo Logic
-  description: Sumo Logic is a cloud-native, machine data analytics platform delivering real-time, continuous intelligence for operations, security, and business insights. It provides a comprehensive REST API with 289 endpoints spanning log analytics, dashboards, monitors, roles, users, metrics, traces, and more.
-  api_count: 1
-  score_band: developing
-  score_composite: 43.1
   shared: 1
 - slug: glitchtip
   name: GlitchTip
@@ -197,13 +197,6 @@ providers:
   score_band: thin
   score_composite: 38.8
   shared: 1
-- slug: kibana
-  name: Kibana
-  description: Kibana is an open-source data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence. Kibana provides histograms, line graphs, pie charts, heat maps, geospatial visualizations, dashboards, alerting, and management of saved obj…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.3
-  shared: 1
 - slug: logrocket
   name: LogRocket
   description: LogRocket is a session replay, product analytics, and frontend monitoring platform that captures user sessions, errors, and performance data.
@@ -218,15 +211,22 @@ providers:
   score_band: thin
   score_composite: 35.0
   shared: 1
+- slug: kibana
+  name: Kibana
+  description: Kibana is an open-source data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence. Kibana provides histograms, line graphs, pie charts, heat maps, geospatial visualizations, dashboards, alerting, and management of saved obj…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.8
+  shared: 1
 provider_slugs:
 - elk-stack
+- aws-lambda
+- fastly
 - logz-io
 - highlight-io
 - google-cloud-logging
 - hyperdx
 - grafana-loki
-- fastly
-- aws-lambda
 - splunk-observability
 - elastic-observability
 - azure-log-analytics
@@ -235,10 +235,10 @@ provider_slugs:
 - chronosphere
 - edge-delta
 - bitdrift
+- sumo-logic
 - codag
 - axiom
 - google-cloud-operations-suite
-- sumo-logic
 - glitchtip
 - memfault
 - opentelemetry
@@ -246,9 +246,9 @@ provider_slugs:
 - superlog
 - log10
 - axiom-controller
-- kibana
 - logrocket
 - calyptia
+- kibana
 - fluent-bit
 - loggly
 - timber
@@ -264,7 +264,7 @@ provider_slugs:
 related:
 - slug: observability
   name: Observability
-  shared: 7
+  shared: 8
 - slug: monitoring
   name: Monitoring
   shared: 6
@@ -283,7 +283,7 @@ related:
 overview: 'Logging is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [logging.apievangelist.com](https://logging.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Elastic Stack (ELK Stack), Logz.io, Highlight (highlight.io), Google Cloud Logging, HyperDX, Grafana Loki, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Elastic Stack (ELK Stack), AWS Lambda, Fastly, Logz.io, Highlight (highlight.io), Google Cloud Logging, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, Monitoring, AIOps, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
