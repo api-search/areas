@@ -22,19 +22,19 @@ providers:
   score_band: exemplar
   score_composite: 79.4
   shared: 1
+- slug: tidb
+  name: Tidb
+  description: TiDB is an open-source, MySQL-compatible distributed SQL database built by PingCAP for Hybrid Transactional and Analytical Processing (HTAP) workloads, with horizontal scale-out, Raft-based strong consistency, high availability and built-in vector search for AI retrieval. It ships both as self-mana…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 78.4
+  shared: 1
 - slug: cdata
   name: CData
   description: CData Software is a leading provider of data access and connectivity solutions. Our standards-based connectors streamline data access and insulate customers from the complexities of integrating with on-premise or cloud databases, SaaS, APIs, NoSQL, and Big Data.
   api_count: 9
   score_band: exemplar
   score_composite: 75.8
-  shared: 1
-- slug: tidb
-  name: Tidb
-  description: TiDB is an open-source, MySQL-compatible distributed SQL database built by PingCAP for Hybrid Transactional and Analytical Processing (HTAP) workloads, with horizontal scale-out, Raft-based strong consistency, high availability and built-in vector search for AI retrieval. It ships both as self-mana…
-  api_count: 12
-  score_band: exemplar
-  score_composite: 74.8
   shared: 1
 - slug: oracle-cloud
   name: Oracle Cloud Infrastructure
@@ -64,13 +64,6 @@ providers:
   score_band: exemplar
   score_composite: 70.1
   shared: 1
-- slug: amazon-neptune
-  name: Amazon Neptune
-  description: Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. It supports property graph and RDF models, with multiple query languages including Gremlin, SPARQL, and openCypher.
-  api_count: 9
-  score_band: exemplar
-  score_composite: 67.3
-  shared: 1
 - slug: oracle
   name: Oracle
   description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
@@ -78,12 +71,26 @@ providers:
   score_band: exemplar
   score_composite: 67.0
   shared: 1
+- slug: amazon-neptune
+  name: Amazon Neptune
+  description: Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. It supports property graph and RDF models, with multiple query languages including Gremlin, SPARQL, and openCypher.
+  api_count: 9
+  score_band: strong
+  score_composite: 65.4
+  shared: 1
 - slug: cloudkit
   name: Apple CloudKit
   description: Apple CloudKit is the cloud backend for iOS, iPadOS, macOS, tvOS, watchOS, visionOS, and the web. CloudKit Web Services is the public REST surface that lets non-Apple-platform clients (web apps, servers) read and write data into a CloudKit container's public, private, or shared database. The web se…
   api_count: 1
   score_band: strong
   score_composite: 65.0
+  shared: 1
+- slug: yugabytedb
+  name: YugabyteDB
+  description: YugabyteDB is a distributed PostgreSQL-compatible SQL database for cloud-native and mission-critical applications. It is delivered as open-source YugabyteDB Core, the fully managed YugabyteDB Aeon DBaaS, and the self-managed YugabyteDB Anywhere control plane, with REST APIs for programmatic managem…
+  api_count: 12
+  score_band: strong
+  score_composite: 63.5
   shared: 1
 - slug: ibm
   name: IBM
@@ -105,13 +112,6 @@ providers:
   api_count: 3
   score_band: strong
   score_composite: 62.0
-  shared: 1
-- slug: yugabytedb
-  name: YugabyteDB
-  description: YugabyteDB is a distributed PostgreSQL-compatible SQL database for cloud-native and mission-critical applications. It is delivered as open-source YugabyteDB Core, the fully managed YugabyteDB Aeon DBaaS, and the self-managed YugabyteDB Anywhere control plane, with REST APIs for programmatic managem…
-  api_count: 12
-  score_band: strong
-  score_composite: 61.6
   shared: 1
 - slug: amazon-keyspaces
   name: Amazon Keyspaces
@@ -221,19 +221,19 @@ providers:
 provider_slugs:
 - appwrite
 - amazon-dynamodb
-- cdata
 - tidb
+- cdata
 - oracle-cloud
 - amazon-lightsail
 - clickhouse
 - prisma
-- amazon-neptune
 - oracle
+- amazon-neptune
 - cloudkit
+- yugabytedb
 - ibm
 - oracle-goldengate
 - airtable
-- yugabytedb
 - amazon-keyspaces
 - notion
 - aifordatabase
@@ -262,12 +262,12 @@ provider_slugs:
 - cockroach-labs
 - render
 - adaptive-automation-technologies
+- baserow
 - dokploy
 - amazon-dms
 - neon
 - nocodb
 - turso
-- baserow
 - startree
 - tessell
 - ocient
@@ -276,12 +276,12 @@ provider_slugs:
 - artie
 - arangodb
 - grist
-- amazon-simpledb
 - google-cloud-bigtable
 - datastax
 - google-cloud-sql
 - google-cloud-spanner
 - cloudflare-d1
+- delphix
 - ditto-live
 - google-cloud-firestore
 - amazon-timestream
@@ -292,7 +292,7 @@ provider_slugs:
 - microsoft-azure-postgresql
 - xata
 - convex
-- delphix
+- amazon-simpledb
 - cockroachdb
 - kurrent
 - oracle-apex
@@ -447,7 +447,7 @@ related:
 overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [database.apievangelist.com](https://database.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Appwrite, Amazon DynamoDB, CData, Tidb, Oracle Cloud Infrastructure, Amazon Lightsail, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Appwrite, Amazon DynamoDB, Tidb, CData, Oracle Cloud Infrastructure, Amazon Lightsail, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Serverless, Containers, Caching, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'

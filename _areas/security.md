@@ -85,6 +85,13 @@ providers:
   score_band: exemplar
   score_composite: 67.9
   shared: 1
+- slug: drata
+  name: Drata
+  description: Drata is a continuous security and compliance automation platform supporting SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, and more, with policies, evidence, and trust center. Drata exposes a public REST API plus the SafeBase Trust API (acquired) and a Custom Connections framework for evidence collection.
+  api_count: 3
+  score_band: exemplar
+  score_composite: 67.3
+  shared: 1
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
@@ -99,19 +106,19 @@ providers:
   score_band: exemplar
   score_composite: 66.7
   shared: 1
+- slug: tenable
+  name: Tenable
+  description: Tenable is a cybersecurity and exposure-management company, maker of Nessus and the Tenable One platform, providing vulnerability management, web application scanning, cloud security, identity exposure, attack surface management and OT security. Its developer platform (developer.tenable.com) expose…
+  api_count: 8
+  score_band: strong
+  score_composite: 66.1
+  shared: 1
 - slug: fastly
   name: Fastly
   description: Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching…
   api_count: 22
   score_band: strong
   score_composite: 66.0
-  shared: 1
-- slug: drata
-  name: Drata
-  description: Drata is a continuous security and compliance automation platform supporting SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, and more, with policies, evidence, and trust center. Drata exposes a public REST API plus the SafeBase Trust API (acquired) and a Custom Connections framework for evidence collection.
-  api_count: 3
-  score_band: strong
-  score_composite: 65.4
   shared: 1
 - slug: censys
   name: Censys
@@ -155,13 +162,6 @@ providers:
   score_band: strong
   score_composite: 64.4
   shared: 1
-- slug: tenable
-  name: Tenable
-  description: Tenable is a cybersecurity and exposure-management company, maker of Nessus and the Tenable One platform, providing vulnerability management, web application scanning, cloud security, identity exposure, attack surface management and OT security. Its developer platform (developer.tenable.com) expose…
-  api_count: 8
-  score_band: strong
-  score_composite: 64.3
-  shared: 1
 - slug: shieldlabs
   name: ShieldLabs
   description: Anonymous visitor identification and fraud-prevention platform. A browser ES-module snippet loaded from cdn.shieldlabs.ai collects 100+ device and network signals and returns six persistent identifiers (DeviceID, VisitorID, CookieID, SessionID, RequestID and a caller-supplied hashed UserHID) plus a…
@@ -190,6 +190,13 @@ providers:
   score_band: strong
   score_composite: 63.3
   shared: 1
+- slug: cisco-xdr
+  name: Cisco XDR
+  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
+  api_count: 12
+  score_band: strong
+  score_composite: 63.2
+  shared: 1
 - slug: anecdotes
   name: anecdotes
   description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed compliance. Its Compliance OS collects evidence automatically…
@@ -211,13 +218,6 @@ providers:
   score_band: strong
   score_composite: 61.7
   shared: 1
-- slug: cisco-xdr
-  name: Cisco XDR
-  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
-  api_count: 12
-  score_band: strong
-  score_composite: 61.4
-  shared: 1
 provider_slugs:
 - elk-stack
 - amazon-vpn
@@ -230,41 +230,41 @@ provider_slugs:
 - mailboxlayer
 - jfrog
 - auth0
+- drata
 - shodan
 - amazon-secrets-manager
+- tenable
 - fastly
-- drata
 - censys
 - barndoor
 - strivacity
 - f5
 - amazon-vpc
 - cisco-ise
-- tenable
 - shieldlabs
 - imgauth-api-di-attestazione-opere-digitali
 - stytch
 - zerotier
+- cisco-xdr
 - anecdotes
 - ibm
 - exclaimer
-- cisco-xdr
+- ledger
 - evervault
 - amazon-kms
 - microsoft-azure-private-link
-- ledger
 - atomadic-tech
 - microsoft-azure-key-vault
 - openzeppelin
 - cisco-umbrella
 - greynoise
+- cisco-secure-firewall
 - allegion
 - juniper
 - fraud-net
 - 1password
 - kondukto
 - amazon-iam-access-analyzer
-- cisco-secure-firewall
 - amazon-waf
 - amazon-guardduty
 - amazon-iot-device-defender
@@ -279,6 +279,7 @@ provider_slugs:
 - microsoft-entra
 - amazon-certificate-manager
 - fordefi
+- malwarebytes
 - civic
 - treblle
 - amazon-fraud-detector
@@ -296,7 +297,6 @@ provider_slugs:
 - amazon-private-ca
 - clearspeed
 - amazon-cloudtrail
-- malwarebytes
 - amazon-inspector
 - dopesecurity
 - onecli
@@ -338,7 +338,9 @@ provider_slugs:
 - patronus-protect
 - authzed
 - nym-technologies
+- sumo-logic
 - 1kosmos
+- amazon-verified-permissions
 - openbao
 - sandboxaq
 - upwind
@@ -359,18 +361,18 @@ provider_slugs:
 - amazon-signer
 - levelblue
 - mcp-manager
-- sumo-logic
 - vanta
-- amazon-verified-permissions
 - termius
 - anomaly-detection
 - knostic
 - amazon-detective
 - cubist
+- sonatype
 - root-fka-slimai
 - tanium
 - accuknox
 - akamai
+- angelcam
 - defakto-security
 - amazon-trusted-advisor
 - plerion
@@ -380,7 +382,6 @@ provider_slugs:
 - cilium
 - clawvisor
 - filigran
-- sonatype
 - permit-io
 - wegalvanize
 - google-cloud-secret-manager
@@ -390,7 +391,6 @@ provider_slugs:
 - oso
 - tracebit
 - google-cloud-armor
-- angelcam
 - cycognito
 - google-cloud-kms
 - amazon-verified-access
@@ -405,6 +405,7 @@ provider_slugs:
 - google-cloud-artifact-registry
 - dust-identity
 - push-security
+- rapid7
 - c-side
 - adaptive-security
 - sonar
@@ -429,7 +430,7 @@ provider_slugs:
 - adlumininc
 - fortanix
 - socket
-- rapid7
+- venafi
 - hacware
 - spideroak
 - splunk-soar
@@ -449,7 +450,6 @@ provider_slugs:
 - detectify
 - isovalent
 - symantec
-- venafi
 - viso-trust-protecht
 - pangea
 - onlinenic
@@ -521,6 +521,7 @@ provider_slugs:
 - truebiz
 - koi-security
 - spring-security
+- chaitin
 - vault12
 - bitwarden
 - lumen-technologies
@@ -540,7 +541,6 @@ provider_slugs:
 - hvault
 - escape
 - prisma-cloud
-- chaitin
 - protectai
 - passbolt
 - prompt-armor
@@ -558,6 +558,7 @@ provider_slugs:
 - echomark
 - microsoft-intune
 - infra
+- openpath
 - tessian
 - aws-waf
 - bettercloud
@@ -579,7 +580,6 @@ provider_slugs:
 - perimeter-81
 - sgnl
 - beyondtrust
-- openpath
 - caplinked
 - forcepoint
 - illumio

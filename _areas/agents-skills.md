@@ -85,19 +85,26 @@ providers:
   score_band: strong
   score_composite: 62.7
   shared: 1
+- slug: ledger
+  name: Ledger
+  description: 'Ledger SAS is the Paris-headquartered maker of the Ledger hardware signer family (Nano, Flex, Stax) and the surrounding self-custody and institutional-custody platform. Its developer surface spans five distinct programs: the Ledger Wallet exchange-provider APIs (Swap, Buy, Sell, Earn and Card OpenA…'
+  api_count: 14
+  score_band: strong
+  score_composite: 61.7
+  shared: 1
+- slug: visier
+  name: Visier
+  description: Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering. Visier publishes a broad suite of public REST APIs — Data…
+  api_count: 9
+  score_band: strong
+  score_composite: 61.3
+  shared: 1
 - slug: parallel-web-systems
   name: Parallel Web Systems
   description: Parallel Web Systems builds infrastructure for intelligence on the web, giving AI agents and developers high-quality, low-latency access to the internet. Its API suite spans a Search API (high-accuracy, cross-referenced web search with turbo/basic/advanced modes), an Extract API for token-efficient…
   api_count: 2
   score_band: strong
   score_composite: 61.1
-  shared: 1
-- slug: ledger
-  name: Ledger
-  description: 'Ledger SAS is the Paris-headquartered maker of the Ledger hardware signer family (Nano, Flex, Stax) and the surrounding self-custody and institutional-custody platform. Its developer surface spans five distinct programs: the Ledger Wallet exchange-provider APIs (Swap, Buy, Sell, Earn and Card OpenA…'
-  api_count: 14
-  score_band: strong
-  score_composite: 60.7
   shared: 1
 - slug: cadasto
   name: Cadasto
@@ -133,13 +140,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 59.8
-  shared: 1
-- slug: visier
-  name: Visier
-  description: Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering. Visier publishes a broad suite of public REST APIs — Data…
-  api_count: 9
-  score_band: strong
-  score_composite: 59.4
   shared: 1
 - slug: oracle-partitioning
   name: Oracle Partitioning
@@ -230,14 +230,14 @@ provider_slugs:
 - infer-by-flow7
 - lacuna
 - erxes
-- parallel-web-systems
 - ledger
+- visier
+- parallel-web-systems
 - cadasto
 - airops
 - se-ranking
 - planable
 - ploy
-- visier
 - oracle-partitioning
 - synthflow
 - dant3-net
@@ -266,9 +266,9 @@ provider_slugs:
 - btc-war-live-market-data-api
 - plyrium-com
 - enigma-analytics
+- coorpacademy
 - smithery
 - anew
-- coorpacademy
 - phenom
 - aelf-inc
 - mydentify-public-api

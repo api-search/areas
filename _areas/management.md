@@ -13,7 +13,7 @@ providers:
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 3
   score_band: strong
-  score_composite: 59.0
+  score_composite: 61.0
   shared: 1
 - slug: wundergraph
   name: WunderGraph

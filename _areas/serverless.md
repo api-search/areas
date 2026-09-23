@@ -211,12 +211,12 @@ providers:
   score_band: strong
   score_composite: 55.6
   shared: 1
-- slug: rightnow
-  name: RightNow AI
-  description: RightNow AI (RunInfra) turns plain-English descriptions of an inference workload into production, OpenAI-compatible AI endpoints. The platform selects open-source models from Hugging Face, benchmarks GPU options, applies kernel optimizations (quantization, speculative decoding, KV-cache tuning, For…
+- slug: amazon-proton
+  name: Amazon Proton
+  description: AWS Proton is a managed service for platform engineers that helps them publish standardized container and serverless application templates to empower developers. It provides automated infrastructure provisioning and manages deployment pipelines for all your applications, enabling self-service devel…
   api_count: 1
-  score_band: developing
-  score_composite: 53.1
+  score_band: strong
+  score_composite: 54.3
   shared: 1
 provider_slugs:
 - appwrite
@@ -248,10 +248,10 @@ provider_slugs:
 - amazon-redshift
 - amazon-app-runner
 - archil
-- rightnow
-- fermyon
 - amazon-proton
 - amazon-step-functions
+- rightnow
+- fermyon
 - scaleway
 - vast-ai
 - microsoft-azure-web-pubsub

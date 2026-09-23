@@ -41,7 +41,7 @@ providers:
   description: HAProxy is a free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It exposes a Data Plane API for dynamic configuration management and a stats socket for runtime management.
   api_count: 1
   score_band: developing
-  score_composite: 42.7
+  score_composite: 43.5
   shared: 1
 - slug: soax
   name: SOAX

@@ -85,6 +85,13 @@ providers:
   score_band: strong
   score_composite: 60.4
   shared: 1
+- slug: cloud-foundry
+  name: Cloud Foundry
+  description: Cloud Foundry is an open-source, multi-cloud Platform as a Service (PaaS) governed by the Cloud Foundry Foundation. It provides a developer-friendly application platform where operators push source code or container images and Cloud Foundry handles staging, routing, scaling, and lifecycle managemen…
+  api_count: 2
+  score_band: strong
+  score_composite: 58.1
+  shared: 1
 - slug: amazon-ecs
   name: Amazon ECS
   description: Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications.
@@ -127,13 +134,6 @@ providers:
   score_band: strong
   score_composite: 56.6
   shared: 1
-- slug: cloud-foundry
-  name: Cloud Foundry
-  description: Cloud Foundry is an open-source, multi-cloud Platform as a Service (PaaS) governed by the Cloud Foundry Foundation. It provides a developer-friendly application platform where operators push source code or container images and Cloud Foundry handles staging, routing, scaling, and lifecycle managemen…
-  api_count: 2
-  score_band: strong
-  score_composite: 56.2
-  shared: 1
 - slug: amazon-app-runner
   name: Amazon App Runner
   description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
@@ -152,8 +152,8 @@ providers:
   name: Platform.sh
   description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster of applications and managed services (PostgreSQL, MySQL, Redi…
   api_count: 3
-  score_band: developing
-  score_composite: 52.9
+  score_band: strong
+  score_composite: 54.7
   shared: 1
 - slug: gameye
   name: Gameye
@@ -230,13 +230,13 @@ provider_slugs:
 - ibm
 - azure-container-apps
 - seqera-labs
+- cloud-foundry
 - amazon-ecs
 - jfrog-container-registry
 - amazon-ecr
 - upsun
 - tensordock
 - dagger
-- cloud-foundry
 - amazon-app-runner
 - goharbor
 - platform.sh
@@ -308,8 +308,8 @@ provider_slugs:
 - testcontainers
 - weave-net
 - aws-batch
-- runc
 - systemd
+- runc
 - buildah
 - openebs
 - containerfile

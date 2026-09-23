@@ -33,7 +33,7 @@
     au…
   area_url: https://ai-automation.apievangelist.com
   icon: https://ai-automation.apievangelist.com/icon-thumb.png
-  provider_count: 510
+  provider_count: 512
   url: https://apis.io/areas/ai-automation/
 - slug: aiops
   name: AIOps
@@ -306,7 +306,7 @@
     asset ma…
   area_url: https://industrial.apievangelist.com
   icon: https://industrial.apievangelist.com/icon-thumb.png
-  provider_count: 178
+  provider_count: 179
   url: https://apis.io/areas/industrial/
 - slug: integrations
   name: Integrations
@@ -481,7 +481,7 @@
     data subject rights, data classification, and PII detection APIs. Privacy platfo…
   area_url: https://privacy.apievangelist.com
   icon: https://privacy.apievangelist.com/icon-thumb.png
-  provider_count: 150
+  provider_count: 152
   url: https://apis.io/areas/privacy/
 - slug: proxy
   name: Proxy
@@ -588,7 +588,7 @@
     the me…
   area_url: https://transparency.apievangelist.com
   icon: https://transparency.apievangelist.com/icon-thumb.png
-  provider_count: 6
+  provider_count: 7
   url: https://apis.io/areas/transparency/
 - slug: unified-apis
   name: Unified APIs
@@ -638,5 +638,5 @@
     tracked by the API Evangelist network.
   area_url: https://workflow-automation.apievangelist.com
   icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-  provider_count: 668
+  provider_count: 670
   url: https://apis.io/areas/workflow-automation/

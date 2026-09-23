@@ -29,6 +29,13 @@ providers:
   score_band: exemplar
   score_composite: 81.8
   shared: 1
+- slug: cvent-registration
+  name: Cvent Registration
+  description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 81.4
+  shared: 1
 - slug: appwrite
   name: Appwrite
   description: Appwrite is an open-source backend platform for web, mobile and AI applications, shipped both as a self-hostable BSD-3-Clause server and as the managed Appwrite Cloud. One REST API — 1,022 operations across 44 services in the published Appwrite 2.0 OpenAPI, mirrored field-for-field in GraphQL — cov…
@@ -42,13 +49,6 @@ providers:
   api_count: 9
   score_band: exemplar
   score_composite: 79.7
-  shared: 1
-- slug: cvent-registration
-  name: Cvent Registration
-  description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 79.5
   shared: 1
 - slug: twilio
   name: Twilio
@@ -71,19 +71,19 @@ providers:
   score_band: exemplar
   score_composite: 75.7
   shared: 1
+- slug: cvent
+  name: Cvent
+  description: Cvent is a leading meetings, events, and hospitality technology provider with over 4,800 employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration, mobile event apps, virtual and hybrid events, Attendee Hub, surveys, Diagramming, and analytics)…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 75.2
+  shared: 1
 - slug: kraken
   name: Kraken
   description: Kraken is one of the world's largest and longest-running cryptocurrency exchanges, founded in 2011 and headquartered in San Francisco. Kraken offers Spot and Futures trading, staking and yield through Kraken Earn, NFT marketplace access, OTC services, custody, prime brokerage, and a B2B Embed surfa…
   api_count: 24
   score_band: exemplar
   score_composite: 74.5
-  shared: 1
-- slug: cvent
-  name: Cvent
-  description: Cvent is a leading meetings, events, and hospitality technology provider with over 4,800 employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration, mobile event apps, virtual and hybrid events, Attendee Hub, surveys, Diagramming, and analytics)…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 74.3
   shared: 1
 - slug: ios
   name: iOS
@@ -222,14 +222,14 @@ provider_slugs:
 - kinde
 - convertkit
 - drchrono
+- cvent-registration
 - appwrite
 - azure-ad
-- cvent-registration
 - twilio
 - arcade
 - zoho-crm
-- kraken
 - cvent
+- kraken
 - ios
 - aweber
 - aembit
@@ -253,19 +253,19 @@ provider_slugs:
 - weave
 - beeketing
 - stytch
+- cisco-xdr
 - jane-app
 - etsy
 - lacuna
 - okta
+- taskfolk
 - gluu
-- cisco-xdr
+- airtm
 - datavant
 - temple-health
 - playable
 - tibber
-- taskfolk
 - hootsuite
-- airtm
 - active-directory
 - workos
 - allegion
@@ -284,10 +284,10 @@ provider_slugs:
 - forgerock
 - civic
 - lichess
+- appdirect
 - cobot
 - uber-eats
 - yubico
-- appdirect
 - authenticx
 - doximity
 - clio
@@ -313,6 +313,7 @@ provider_slugs:
 - trusona
 - clear
 - singlefile
+- amazon-directory-service
 - idme
 - cerner
 - keyo
@@ -328,7 +329,6 @@ provider_slugs:
 - playfab
 - bluestacks
 - signiant
-- amazon-directory-service
 - authlete
 - flume-health
 - dream-sports
@@ -344,6 +344,7 @@ provider_slugs:
 - hopae-inc
 - zoho-people
 - defakto-security
+- gadjah-mada-university
 - truecaller
 - coinlist
 - result
@@ -362,7 +363,6 @@ provider_slugs:
 - charles-schwab
 - dust-identity
 - unkey
-- gadjah-mada-university
 - supertokens
 - spire
 - shanghai-jiao-tong-university
@@ -376,6 +376,7 @@ provider_slugs:
 - firebase
 - onfido
 - splitwise
+- withings
 - supabase
 - nycu
 - feathery
@@ -392,7 +393,6 @@ provider_slugs:
 - jupyterhub
 - intacct
 - scalekit
-- withings
 - anilist
 - luminary
 - pangea
@@ -628,7 +628,7 @@ related:
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Kinde, Kit, drchrono, Appwrite, Microsoft Entra ID (formerly Azure AD), Cvent Registration, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Kinde, Kit, drchrono, Cvent Registration, Appwrite, Microsoft Entra ID (formerly Azure AD), and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Security, Agents, Communications, and SDKs. Browse every area at [areas.apis.io](https://apis.io/areas/).'

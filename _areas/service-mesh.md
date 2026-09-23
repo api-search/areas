@@ -57,19 +57,19 @@ providers:
   score_band: developing
   score_composite: 49.7
   shared: 1
+- slug: amazon-vpc-lattice
+  name: Amazon VPC Lattice
+  description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
+  api_count: 73
+  score_band: developing
+  score_composite: 49.6
+  shared: 1
 - slug: gloo-mesh
   name: Gloo Mesh
   description: Gloo Mesh is Solo.io's enterprise service mesh management platform, built on Istio and shipped as Kubernetes software you run in your own clusters. It provides multi-cluster and multi-mesh traffic management, security policy enforcement, workload identity and observability, with a management plane…
   api_count: 2
   score_band: developing
   score_composite: 48.9
-  shared: 1
-- slug: amazon-vpc-lattice
-  name: Amazon VPC Lattice
-  description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
-  api_count: 73
-  score_band: developing
-  score_composite: 47.8
   shared: 1
 - slug: envoy
   name: Envoy
@@ -226,8 +226,8 @@ provider_slugs:
 - aws-app-mesh
 - buoyant
 - amazon-app-mesh
-- gloo-mesh
 - amazon-vpc-lattice
+- gloo-mesh
 - envoy
 - apache-dubbo
 - kuma

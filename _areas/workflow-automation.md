@@ -6,7 +6,7 @@ description: This is the index of workflow automation service and tooling repos 
 area_url: https://workflow-automation.apievangelist.com
 area_host: workflow-automation.apievangelist.com
 icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-provider_count: 668
+provider_count: 670
 providers:
 - slug: tray-ai
   name: Tray.ai
@@ -29,6 +29,13 @@ providers:
   score_band: exemplar
   score_composite: 70.1
   shared: 2
+- slug: servicenow
+  name: ServiceNow
+  description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
+  api_count: 9
+  score_band: strong
+  score_composite: 62.5
+  shared: 2
 - slug: budibase
   name: Budibase
   description: Budibase is an open source low-code platform for building AI agents, internal tools, and workflow automations. It enables teams to connect databases, spreadsheets, and business systems, then build applications and automations on top without extensive coding. Used by over 300,000 teams ranging from…
@@ -42,13 +49,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 61.1
-  shared: 2
-- slug: servicenow
-  name: ServiceNow
-  description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
-  api_count: 9
-  score_band: strong
-  score_composite: 60.7
   shared: 2
 - slug: gumloop
   name: Gumloop
@@ -222,9 +222,9 @@ provider_slugs:
 - tray-ai
 - plunk
 - jitterbit
+- servicenow
 - budibase
 - pixiebrix
-- servicenow
 - gumloop
 - rewst
 - integrately
@@ -255,17 +255,18 @@ provider_slugs:
 - salesforce-marketing-cloud
 - losant
 - github-actions
-- klaviyo
 - leadping
+- klaviyo
 - mailerlite
+- adobe-campaign
 - relevance-ai
 - adobe-suite
-- adobe-campaign
 - controlup
 - automation-anywhere
 - postman
 - campaignmonitor
 - cisco-catalyst-sdwan
+- canva
 - buttondown
 - workfront
 - cohesity
@@ -273,20 +274,21 @@ provider_slugs:
 - browserstack
 - uipath
 - flora-fauna
-- canva
 - n8n
 - postiz
 - clay-com
+- cisco-xdr
 - trisotech
 - level2
 - red-hat-ansible-automation-platform
 - benchmark-email
 - workato
 - dotdigital
+- 1fort
 - windmill
-- cisco-xdr
 - celonis
 - emailoctopus
+- boomi
 - facets
 - leankit
 - relmcrm-com
@@ -294,23 +296,21 @@ provider_slugs:
 - smartlead-ai
 - aifordatabase
 - fundamental-research-labs
-- 1fort
 - appsmax-rest-api-v1
 - coasty
+- graphiant
 - autocontent-api
 - salesflare
+- cisco-secure-firewall
 - creatio
-- boomi
 - amazon-ec2-image-builder
 - augment
 - autogpt
-- graphiant
 - nanonets
 - adobe-premiere
 - juniper
 - bubble
 - pabbly
-- cisco-secure-firewall
 - suprsend
 - b3
 - superai
@@ -330,17 +330,20 @@ provider_slugs:
 - amazon-datasync
 - koreai
 - salesforce-automation
+- prefect
 - cobalt
 - amazon-data-lifecycle-manager
 - cisco-aci
-- prefect
 - lawmatics
+- mavenlink
 - pixc
 - h-company
 - astronomer
+- cisco-crosswork
 - amazon-incident-manager
 - amazon-iot-events
 - unito
+- amazon-swf
 - sweep
 - continuous-delivery-foundation
 - amazon-data-pipeline
@@ -350,12 +353,11 @@ provider_slugs:
 - replicas
 - amika
 - kestra
-- mavenlink
+- oracle-integration
 - kubernetes
-- cisco-crosswork
 - supra
+- baserow
 - albato
-- amazon-swf
 - gitar
 - seven-bridges
 - aito-technologies
@@ -363,10 +365,8 @@ provider_slugs:
 - capy
 - agiloft
 - manychat
-- baserow
 - hilos
 - nextworld
-- oracle-integration
 - perforce
 - phonely
 - microsoft-excel
@@ -398,6 +398,7 @@ provider_slugs:
 - workist
 - uniphore
 - ava-protocol
+- process-street
 - wrike
 - humaans-io
 - wegalvanize
@@ -414,7 +415,6 @@ provider_slugs:
 - runautomat
 - cerby
 - logicgate
-- process-street
 - cflow
 - shuffle
 - google-cloud-workflows
@@ -552,6 +552,7 @@ provider_slugs:
 - hyperscience
 - cafex-communications
 - keep
+- vtiger
 - nected
 - vertigis
 - qingflow
@@ -632,6 +633,7 @@ provider_slugs:
 - rapidclaims
 - osly
 - conductor-ai
+- docketbird
 - rezo
 - revion
 - talus-network
@@ -903,7 +905,7 @@ related:
 overview: 'Workflow Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [workflow-automation.apievangelist.com](https://workflow-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Tray.ai, Plunk, Jitterbit, Budibase, PixieBrix, ServiceNow, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Tray.ai, Plunk, Jitterbit, ServiceNow, Budibase, PixieBrix, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, iPaaS, Embedded iPaaS, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'

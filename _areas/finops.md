@@ -64,19 +64,19 @@ providers:
   score_band: strong
   score_composite: 57.1
   shared: 1
+- slug: corestack
+  name: CoreStack
+  description: CoreStack is a multi-cloud governance and security platform that unifies FinOps (cost visibility, budgets, anomaly detection, rightsizing and commitment optimization), CloudOps (workload lifecycle, tagging, automation and self-service), SecOps/compliance (policy guardrails, posture management and c…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.8
+  shared: 1
 - slug: cloudhealth
   name: CloudHealth
   description: CloudHealth (now VMware Tanzu CloudHealth, owned by Broadcom) is a multi-cloud financial and operational management platform. It provides cost visibility, optimization recommendations, asset inventory, custom perspectives (groupings), policies, governance, and partner/MSP billing workflows across A…
   api_count: 8
   score_band: strong
   score_composite: 56.3
-  shared: 1
-- slug: corestack
-  name: CoreStack
-  description: CoreStack is a multi-cloud governance and security platform that unifies FinOps (cost visibility, budgets, anomaly detection, rightsizing and commitment optimization), CloudOps (workload lifecycle, tagging, automation and self-service), SecOps/compliance (policy guardrails, posture management and c…
-  api_count: 1
-  score_band: strong
-  score_composite: 54.9
   shared: 1
 - slug: amazon-compute-optimizer
   name: Amazon Compute Optimizer
@@ -190,6 +190,13 @@ providers:
   score_band: developing
   score_composite: 43.0
   shared: 1
+- slug: m3ter
+  name: M3ter
+  description: 'm3ter is a usage-based billing and metering engine providing real-time usage data ingestion, pricing logic, and billing automation for API and SaaS products. The m3ter platform exposes two HTTP-based REST APIs returning JSON responses: an Ingest API for submitting raw usage measurements and a Confi…'
+  api_count: 1
+  score_band: developing
+  score_composite: 42.7
+  shared: 1
 - slug: archera
   name: Archera
   description: Archera is a cloud financial operations (FinOps) platform that helps organizations reduce cloud spend by 20-30% through intelligent commitment management and insured, short-term cloud commitments across AWS, Azure, and Google Cloud. Its Guaranteed Commitments (Guaranteed Savings Plans, Guaranteed R…
@@ -203,13 +210,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 41.6
-  shared: 1
-- slug: m3ter
-  name: M3ter
-  description: 'm3ter is a usage-based billing and metering engine providing real-time usage data ingestion, pricing logic, and billing automation for API and SaaS products. The m3ter platform exposes two HTTP-based REST APIs returning JSON responses: an Ingest API for submitting raw usage measurements and a Confi…'
-  api_count: 1
-  score_band: developing
-  score_composite: 40.9
   shared: 1
 - slug: metronome
   name: Metronome
@@ -227,8 +227,8 @@ provider_slugs:
 - paid
 - edgee
 - cloudchipr
-- cloudhealth
 - corestack
+- cloudhealth
 - amazon-compute-optimizer
 - cloudability
 - alphaus
@@ -245,9 +245,9 @@ provider_slugs:
 - cloudzero
 - stigg
 - cycloid
+- m3ter
 - archera
 - revefi
-- m3ter
 - metronome
 - devtron
 - orb-billing

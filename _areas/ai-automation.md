@@ -6,7 +6,7 @@ description: AI automation combines artificial intelligence with workflow and pr
 area_url: https://ai-automation.apievangelist.com
 area_host: ai-automation.apievangelist.com
 icon: https://ai-automation.apievangelist.com/icon-thumb.png
-provider_count: 510
+provider_count: 512
 providers:
 - slug: brevo
   name: Brevo
@@ -64,19 +64,19 @@ providers:
   score_band: exemplar
   score_composite: 80.2
   shared: 1
+- slug: leadping
+  name: Leadping
+  description: Leadping is a lead-management and responsible-outreach platform for teams that need to move a new inbound lead from source to first touch without stitching together separate tools. It captures leads from approved sources, routes and assigns them, runs follow-up automations, sends SMS and MMS, place…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 80.2
+  shared: 1
 - slug: klaviyo
   name: Klaviyo
   description: Klaviyo is a marketing automation and customer data platform built for ecommerce. Build custom integrations to bring data into Klaviyo to create personalized experiences across email, SMS, mobile push, and more. The Klaviyo API exposes profiles, events, lists, segments, campaigns, flows, catalogs,…
   api_count: 1
   score_band: exemplar
   score_composite: 79.1
-  shared: 1
-- slug: leadping
-  name: Leadping
-  description: Leadping is a lead-management and responsible-outreach platform for teams that need to move a new inbound lead from source to first touch without stitching together separate tools. It captures leads from approved sources, routes and assigns them, runs follow-up automations, sends SMS and MMS, place…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 78.4
   shared: 1
 - slug: mailerlite
   name: MailerLite
@@ -141,6 +141,13 @@ providers:
   score_band: exemplar
   score_composite: 68.4
   shared: 1
+- slug: canva
+  name: Canva
+  description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run…'
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.7
+  shared: 1
 - slug: crawl4ai
   name: Crawl4AI
   description: Crawl4AI is an open-source, Apache-2.0 web crawler and scraper built to turn any URL into clean, LLM-ready data — Markdown, typed JSON, screenshots, PDFs, or a map of every URL on a domain. Operated by CONTEXT4AI PTE LTD of Singapore and created by Hossein Tohidi (@unclecode), the project pairs a 7…
@@ -176,13 +183,6 @@ providers:
   score_band: strong
   score_composite: 66.1
   shared: 1
-- slug: canva
-  name: Canva
-  description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run…'
-  api_count: 1
-  score_band: strong
-  score_composite: 64.9
-  shared: 1
 - slug: n8n
   name: n8n
   description: n8n is a fair-code workflow automation and iPaaS platform with AI-agent tooling. It exposes an instance-scoped REST API (public OpenAPI 3.0 contract), MCP server/client capabilities via built-in nodes, and an llms.txt documentation index.
@@ -204,19 +204,19 @@ providers:
   score_band: strong
   score_composite: 63.7
   shared: 1
+- slug: cisco-xdr
+  name: Cisco XDR
+  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
+  api_count: 12
+  score_band: strong
+  score_composite: 63.2
+  shared: 1
 - slug: level2
   name: Level2
   description: Level2 is a no-code systematic-trading platform from Bytemine Technologies Ltd that lets active retail traders build, backtest and deploy fully automated strategies from a visual drag-and-drop canvas, with no code and no proprietary scripting language. Strategies can be rehearsed against historical…
   api_count: 3
   score_band: strong
   score_composite: 63.1
-  shared: 1
-- slug: red-hat-ansible-automation-platform
-  name: Red Hat Ansible Automation Platform
-  description: Red Hat Ansible Automation Platform is an enterprise automation solution that provides a framework for building and operating IT automation at scale. It includes the Automation Controller, Automation Hub, Event-Driven Ansible, and Ansible Lightspeed with IBM watsonx Code Assistant, providing REST A…
-  api_count: 5
-  score_band: strong
-  score_composite: 63.0
   shared: 1
 provider_slugs:
 - brevo
@@ -227,8 +227,8 @@ provider_slugs:
 - ada
 - salesforce-marketing-cloud
 - github-actions
-- klaviyo
 - leadping
+- klaviyo
 - mailerlite
 - relevance-ai
 - adobe-suite
@@ -238,44 +238,44 @@ provider_slugs:
 - campaignmonitor
 - browser-use
 - cisco-catalyst-sdwan
+- canva
 - crawl4ai
 - buttondown
 - cohesity
 - browserstack
 - uipath
-- canva
 - n8n
 - postiz
 - clay-com
+- cisco-xdr
 - level2
 - red-hat-ansible-automation-platform
 - benchmark-email
 - workato
 - dotdigital
+- servicenow
 - budibase
 - windmill
-- cisco-xdr
 - celonis
 - emailoctopus
 - pixiebrix
+- boomi
 - facets
 - relmcrm-com
 - appian
-- servicenow
 - smartlead-ai
 - fundamental-research-labs
 - coasty
+- graphiant
 - autocontent-api
 - salesflare
-- boomi
+- cisco-secure-firewall
 - amazon-ec2-image-builder
 - augment
 - autogpt
-- graphiant
 - adobe-premiere
 - juniper
 - pabbly
-- cisco-secure-firewall
 - superai
 - bluma
 - gumloop
@@ -290,14 +290,15 @@ provider_slugs:
 - amazon-datasync
 - koreai
 - salesforce-automation
+- prefect
 - cobalt
 - amazon-data-lifecycle-manager
 - cisco-aci
-- prefect
 - pixc
 - h-company
 - amazon-incident-manager
 - amazon-iot-events
+- amazon-swf
 - sweep
 - continuous-delivery-foundation
 - amazon-data-pipeline
@@ -307,18 +308,17 @@ provider_slugs:
 - replicas
 - amika
 - kestra
+- oracle-integration
 - kubernetes
 - abbyy
 - supra
-- amazon-swf
+- baserow
 - gitar
 - aito-technologies
 - blue-prism
 - capy
 - manychat
-- baserow
 - hilos
-- oracle-integration
 - perforce
 - microsoft-excel
 - cast-corporation
@@ -453,6 +453,7 @@ provider_slugs:
 - popp
 - renovate-bot
 - hyperscience
+- vtiger
 - qingflow
 - auditoria
 - gigacatalyst
@@ -509,6 +510,7 @@ provider_slugs:
 - basata
 - genspark
 - rapidclaims
+- docketbird
 - rezo
 - fullseam
 - zatanna

@@ -50,19 +50,19 @@ providers:
   score_band: developing
   score_composite: 49.7
   shared: 1
+- slug: madaket
+  name: Madaket
+  description: Madaket Health is a Cambridge, Massachusetts healthcare administration company whose Provider Data Management (PDM) platform automates payer enrollment, EDI enrollment, credentialing, licensing and provider directory data management between healthcare providers and payers. Madaket maintains connect…
+  api_count: 1
+  score_band: developing
+  score_composite: 43.6
+  shared: 1
 - slug: shutterstock
   name: Shutterstock
   description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
   api_count: 1
   score_band: developing
   score_composite: 42.5
-  shared: 1
-- slug: madaket
-  name: Madaket
-  description: Madaket Health is a Cambridge, Massachusetts healthcare administration company whose Provider Data Management (PDM) platform automates payer enrollment, EDI enrollment, credentialing, licensing and provider directory data management between healthcare providers and payers. Madaket maintains connect…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.8
   shared: 1
 - slug: soundstripe
   name: Soundstripe
@@ -225,8 +225,8 @@ provider_slugs:
 - sendowl
 - acma
 - opengov
-- shutterstock
 - madaket
+- shutterstock
 - soundstripe
 - agentsync
 - 7digital

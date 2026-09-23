@@ -62,7 +62,7 @@ providers:
   description: Moogsoft is an AIOps platform for IT operations, DevOps and SRE teams that ingests events, alerts and metrics from across a hybrid estate, deduplicates and reduces noise, correlates related alerts into incidents, detects anomalies in metric streams, and surfaces probable root cause and similar past…
   api_count: 17
   score_band: strong
-  score_composite: 59.3
+  score_composite: 61.1
   shared: 1
 - slug: metaplane
   name: Metaplane
@@ -92,19 +92,19 @@ providers:
   score_band: strong
   score_composite: 56.8
   shared: 1
+- slug: 7signalsolutions
+  name: 7SIGNAL
+  description: 7SIGNAL is an enterprise wireless and wired network experience monitoring platform, headquartered in Independence, Ohio, that measures Wi-Fi and network performance from the client's point of view using vendor-agnostic Sapphire Eye hardware sensors and Mobile Eye software agents installed on endpoi…
+  api_count: 3
+  score_band: strong
+  score_composite: 54.5
+  shared: 1
 - slug: chronosphere
   name: Chronosphere
   description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
   api_count: 3
   score_band: developing
   score_composite: 53.0
-  shared: 1
-- slug: 7signalsolutions
-  name: 7SIGNAL
-  description: 7SIGNAL is an enterprise wireless and wired network experience monitoring platform, headquartered in Independence, Ohio, that measures Wi-Fi and network performance from the client's point of view using vendor-agnostic Sapphire Eye hardware sensors and Mobile Eye software agents installed on endpoi…
-  api_count: 3
-  score_band: developing
-  score_composite: 52.7
   shared: 1
 - slug: kentik
   name: Kentik
@@ -231,8 +231,8 @@ provider_slugs:
 - elastic-observability
 - deployxa
 - sciencelogic
-- chronosphere
 - 7signalsolutions
+- chronosphere
 - kentik
 - zenoss
 - virtual-instruments
@@ -269,14 +269,14 @@ provider_slugs:
 - zebrium
 - shoreline
 related:
+- slug: monitoring
+  name: Monitoring
+  shared: 4
 - slug: observability
   name: Observability
   shared: 4
 - slug: logging
   name: Logging
-  shared: 3
-- slug: monitoring
-  name: Monitoring
   shared: 3
 - slug: agents
   name: Agents
@@ -293,5 +293,5 @@ overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://api
   30 providers on the network work in this area, including Soda, Akuity, BigPanda, FireHydrant, Logz.io, LogicMonitor, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability, Logging, Monitoring, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Monitoring, Observability, Logging, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

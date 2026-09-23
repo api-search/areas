@@ -162,6 +162,13 @@ providers:
   score_band: developing
   score_composite: 50.8
   shared: 1
+- slug: oracle-integration
+  name: Oracle Integration
+  description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
+  api_count: 25
+  score_band: developing
+  score_composite: 50.6
+  shared: 1
 - slug: hull
   name: Hull
   description: Hull is a real-time Customer Data Platform (CDP) that unifies customer data from every source — web, product, CRM, marketing and support tools, databases and files — into a single User and Account profile using claim-based identity resolution. It ingests, computes and enriches data through a data-l…
@@ -196,13 +203,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 49.2
-  shared: 1
-- slug: oracle-integration
-  name: Oracle Integration
-  description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
-  api_count: 25
-  score_band: developing
-  score_composite: 48.8
   shared: 1
 - slug: flume-health
   name: Flume Health
@@ -241,12 +241,12 @@ provider_slugs:
 - appmixer
 - syncari
 - elisa
+- oracle-integration
 - hull
 - civil-infrastructure-platform
 - albato
 - golioth
 - aws-step-functions
-- oracle-integration
 - flume-health
 - azure-logic-apps
 - rewst

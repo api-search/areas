@@ -27,7 +27,7 @@ providers:
   description: Leadping is a lead-management and responsible-outreach platform for teams that need to move a new inbound lead from source to first touch without stitching together separate tools. It captures leads from approved sources, routes and assigns them, runs follow-up automations, sends SMS and MMS, place…
   api_count: 1
   score_band: exemplar
-  score_composite: 78.4
+  score_composite: 80.2
   shared: 1
 - slug: twilio
   name: Twilio
@@ -41,7 +41,7 @@ providers:
   description: Nylas connects your application to every email inbox and calendar in the world. The Nylas v3 platform provides REST APIs for email, calendar, contacts, scheduling, meeting notetaking, authentication, and administration across Google, Microsoft, Exchange, iCloud, Yahoo and any IMAP provider. Officia…
   api_count: 2
   score_band: exemplar
-  score_composite: 74.9
+  score_composite: 76.7
   shared: 1
 - slug: zoom-phone
   name: Zoom Phone
@@ -263,12 +263,12 @@ provider_slugs:
 - commsharbor
 - nextiva
 - veritus
+- nfon
+- telnyx
 - aptly
 - frontapp
-- nfon
 - truecaller
 - cisco-webex-meetings
-- telnyx
 - zoho-cliq
 - discord
 - kumospace
@@ -295,8 +295,8 @@ provider_slugs:
 - bird
 - cisco-control-hub
 - justcall
-- sobot
 - alianza
+- sobot
 - chert
 - telefon
 - gupshup

@@ -43,6 +43,13 @@ providers:
   score_band: exemplar
   score_composite: 79.9
   shared: 1
+- slug: anthropic
+  name: Anthropic
+  description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking…'
+  api_count: 6
+  score_band: exemplar
+  score_composite: 77.8
+  shared: 1
 - slug: agoragentic-com
   name: Agoragentic
   description: 'Agoragentic is an agent-commerce platform operated by a New York-based sole proprietor: Triptych OS (Agent OS), a governed runtime for deploying autonomous agents under budgets, approvals and receipts, plus a Router / Marketplace where agents discover, quote, invoke and pay for each other''s service…'
@@ -63,13 +70,6 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 75.6
-  shared: 1
-- slug: anthropic
-  name: Anthropic
-  description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking…'
-  api_count: 6
-  score_band: exemplar
-  score_composite: 74.4
   shared: 1
 - slug: dify
   name: Dify
@@ -155,6 +155,13 @@ providers:
   score_band: exemplar
   score_composite: 69.1
   shared: 1
+- slug: textql
+  name: TextQL
+  description: TextQL is an enterprise AI data platform built around Ana, an AI data scientist that connects to a company's warehouses, databases, BI tools and SaaS APIs and answers questions in plain language. Ana writes SQL, runs Python in a managed gVisor sandbox, searches the web, and produces charts, dashboa…
+  api_count: 15
+  score_band: exemplar
+  score_composite: 68.8
+  shared: 1
 - slug: x
   name: X
   description: X (formerly Twitter) operates the X Developer Platform, the programmable interface to the public conversation on X. The X API v2 is a 190-operation REST surface covering Posts, Users, Direct Messages, the encrypted Chat API, Lists, Spaces, Media, Communities, Community Notes, Broadcasts, News, Tren…
@@ -190,10 +197,10 @@ providers:
   score_band: exemplar
   score_composite: 67.5
   shared: 1
-- slug: textql
-  name: TextQL
-  description: TextQL is an enterprise AI data platform built around Ana, an AI data scientist that connects to a company's warehouses, databases, BI tools and SaaS APIs and answers questions in plain language. Ana writes SQL, runs Python in a managed gVisor sandbox, searches the web, and produces charts, dashboa…
-  api_count: 15
+- slug: api-evangelist
+  name: API Evangelist
+  description: The index of everything available via the API Evangelist developer portal at developer.apievangelist.com — sixteen years of API research served as one REST API, an MCP server for agents, and the static JSON feeds behind each network collection.
+  api_count: 2
   score_band: exemplar
   score_composite: 66.9
   shared: 1
@@ -211,23 +218,16 @@ providers:
   score_band: exemplar
   score_composite: 66.7
   shared: 1
-- slug: plinth-us-grants-data
-  name: Plinth US Grants Data
-  description: 'A JSON API over the entire US grantmaking universe — about 205,000 grantmaking foundations and 17.9 million grants, read from public IRS Form 990, 990-EZ and 990-PF e-file filings and the IRS Business Master File. The funder-grantee graph traverses in both directions: filter by funder_id for everyt…'
-  api_count: 1
-  score_band: exemplar
-  score_composite: 66.7
-  shared: 1
 provider_slugs:
 - messagebird
 - convertkit
 - elevenlabs
 - appwrite
 - boom-ai
+- anthropic
 - agoragentic-com
 - arcade
 - veeva
-- anthropic
 - dify
 - delx-ai
 - dust-tt
@@ -240,12 +240,13 @@ provider_slugs:
 - bigpanda
 - qliksense
 - loops
+- textql
 - x
 - impact
 - seekr
 - crawl4ai
 - bitly
-- textql
+- api-evangelist
 - lightfield
 - cogny
 - plinth-us-grants-data
@@ -253,7 +254,6 @@ provider_slugs:
 - facebook-business-manager
 - e2b-dev
 - buildkite-com
-- api-evangelist
 - google-dialogflow
 - parallel
 - seamless-ai
@@ -263,6 +263,7 @@ provider_slugs:
 - github-copilot
 - postiz
 - natural-ai
+- daytona-io
 - fundz
 - hyperdx
 - buffer
@@ -283,7 +284,6 @@ provider_slugs:
 - compresr
 - corti
 - salesloft
-- daytona-io
 - ok-capsule
 - freestyle-sh
 - apollo-api-documentation
@@ -297,11 +297,11 @@ provider_slugs:
 - navattic
 - lilt
 - edgee
+- thoughtspot
 - perplexity
 - aicomglobal-com
 - fixie
 - nooks
-- thoughtspot
 - insider
 - jasper
 - 2s-io
@@ -737,7 +737,7 @@ related:
 overview: 'Agents is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents.apievangelist.com](https://agents.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Messagebird, Kit, ElevenLabs, Appwrite, Boom Ai, Agoragentic, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Messagebird, Kit, ElevenLabs, Appwrite, Boom Ai, Anthropic, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Authentication, Machine Learning, Observability, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

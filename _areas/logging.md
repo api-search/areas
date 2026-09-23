@@ -57,19 +57,19 @@ providers:
   score_band: strong
   score_composite: 63.3
   shared: 1
+- slug: splunk-observability
+  name: Splunk Observability Cloud
+  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
+  api_count: 48
+  score_band: strong
+  score_composite: 62.9
+  shared: 1
 - slug: grafana-loki
   name: Grafana Loki
   description: Grafana Loki is Grafana Labs' open source log aggregation system — "like Prometheus, but for logs." Rather than full-text indexing log contents, Loki indexes only a small set of labels per log stream and stores the compressed lines in object storage, which is what makes it cheap to run at scale. It…
   api_count: 3
   score_band: strong
   score_composite: 62.5
-  shared: 1
-- slug: splunk-observability
-  name: Splunk Observability Cloud
-  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
-  api_count: 48
-  score_band: strong
-  score_composite: 61.0
   shared: 1
 - slug: elastic-observability
   name: Elastic Observability
@@ -125,7 +125,7 @@ providers:
   description: Sumo Logic is a cloud-native, machine data analytics platform delivering real-time, continuous intelligence for operations, security, and business insights. It provides a comprehensive REST API with 289 endpoints spanning log analytics, dashboards, monitors, roles, users, metrics, traces, and more.
   api_count: 1
   score_band: developing
-  score_composite: 47.9
+  score_composite: 49.7
   shared: 1
 - slug: codag
   name: Codag
@@ -226,8 +226,8 @@ provider_slugs:
 - highlight-io
 - google-cloud-logging
 - hyperdx
-- grafana-loki
 - splunk-observability
+- grafana-loki
 - elastic-observability
 - azure-log-analytics
 - lightrun

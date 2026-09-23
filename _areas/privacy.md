@@ -6,8 +6,15 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 150
+provider_count: 152
 providers:
+- slug: didomi
+  name: Didomi
+  description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 79.9
+  shared: 1
 - slug: listrak
   name: Listrak
   description: 'Listrak is a retail customer-engagement platform whose public API surface is eight separate REST APIs served from api.listrak.com: Email (83 operations), SMS (20), Data Import (5), Media (9), Mobile App Push (5), Two-Way SMS (4), Cross Channel custom events (3) and Privacy (2). Together they cover…'
@@ -15,12 +22,12 @@ providers:
   score_band: exemplar
   score_composite: 78.5
   shared: 1
-- slug: didomi
-  name: Didomi
-  description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
-  api_count: 1
+- slug: adobe-campaign
+  name: Adobe Campaign
+  description: 'Adobe Campaign is Adobe''s enterprise cross-channel campaign management and marketing automation platform, orchestrating email, SMS, push, direct mail and web messaging against a customer-owned marketing database. It ships two distinct programmable surfaces: a JSON REST API on https://mc.adobe.io/{O…'
+  api_count: 2
   score_band: exemplar
-  score_composite: 77.3
+  score_composite: 76.5
   shared: 1
 - slug: swetrix
   name: Swetrix
@@ -28,13 +35,6 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 75.9
-  shared: 1
-- slug: adobe-campaign
-  name: Adobe Campaign
-  description: 'Adobe Campaign is Adobe''s enterprise cross-channel campaign management and marketing automation platform, orchestrating email, SMS, push, direct mail and web messaging against a customer-owned marketing database. It ships two distinct programmable surfaces: a JSON REST API on https://mc.adobe.io/{O…'
-  api_count: 2
-  score_band: exemplar
-  score_composite: 74.9
   shared: 1
 - slug: onetrust
   name: OneTrust
@@ -50,6 +50,13 @@ providers:
   score_band: exemplar
   score_composite: 68.0
   shared: 1
+- slug: matomo
+  name: Matomo
+  description: Matomo is an open source web analytics platform — self-hosted (Matomo On-Premise) or vendor-hosted (Matomo Cloud) — that gives an organisation complete ownership of its analytics data. Formerly Piwik, it is the leading privacy-first alternative to Google Analytics, with GDPR tooling, data residency…
+  api_count: 61
+  score_band: exemplar
+  score_composite: 67.7
+  shared: 1
 - slug: appsflyer
   name: AppsFlyer
   description: AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers to measure, attribute and optimize user acquisition across mobile, web, CTV, console and PC. Its developer surface spans mobile and platform SDKs (iOS, Android, Unity, React Native, Flutter, Cordova, Unreal, Ro…
@@ -57,12 +64,12 @@ providers:
   score_band: strong
   score_composite: 65.9
   shared: 1
-- slug: matomo
-  name: Matomo
-  description: Matomo is an open source web analytics platform — self-hosted (Matomo On-Premise) or vendor-hosted (Matomo Cloud) — that gives an organisation complete ownership of its analytics data. Formerly Piwik, it is the leading privacy-first alternative to Google Analytics, with GDPR tooling, data residency…
-  api_count: 61
+- slug: blueconic
+  name: BlueConic
+  description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
+  api_count: 1
   score_band: strong
-  score_composite: 65.8
+  score_composite: 65.9
   shared: 1
 - slug: rybbit
   name: Rybbit
@@ -70,13 +77,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 65.2
-  shared: 1
-- slug: blueconic
-  name: BlueConic
-  description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.0
   shared: 1
 - slug: singular
   name: Singular
@@ -219,16 +219,16 @@ providers:
   score_composite: 51.6
   shared: 1
 provider_slugs:
-- listrak
 - didomi
-- swetrix
+- listrak
 - adobe-campaign
+- swetrix
 - onetrust
 - pirsch
-- appsflyer
 - matomo
-- rybbit
+- appsflyer
 - blueconic
+- rybbit
 - singular
 - amazon-clean-rooms
 - simpleanalytics
@@ -256,9 +256,10 @@ provider_slugs:
 - pimloc
 - counter-dev
 - iab-tech-lab
+- servghost-agent-api
 - usercentrics
-- trustboost-dev
 - habu
+- trustboost-dev
 - privatedao-org
 - kagi
 - sitejabber
@@ -317,6 +318,7 @@ provider_slugs:
 - hamsa
 - anoma
 - cape
+- miniflux
 - sunscreen
 - relyance-ai
 - intego
@@ -382,7 +384,7 @@ related:
 overview: 'Privacy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [privacy.apievangelist.com](https://privacy.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Listrak, Didomi, Swetrix, Adobe Campaign, OneTrust, Pirsch, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Didomi, Listrak, Adobe Campaign, Swetrix, OneTrust, Pirsch, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agent Skills, SDKs, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

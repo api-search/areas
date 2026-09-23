@@ -27,7 +27,7 @@ providers:
   description: Azure Data Factory is Microsoft's cloud-based data integration service, orchestrating and automating the movement and transformation of data across ETL and ELT workloads that span cloud and on-premises stores. Its public interface is the Microsoft.DataFactory resource provider behind Azure Resource…
   api_count: 1
   score_band: exemplar
-  score_composite: 67.9
+  score_composite: 68.8
   shared: 1
 - slug: cohesity
   name: Cohesity
@@ -43,19 +43,19 @@ providers:
   score_band: strong
   score_composite: 66.1
   shared: 1
+- slug: bonitasoft
+  name: Bonitasoft
+  description: Bonitasoft is the French open-source company behind Bonita, a business process management and process automation platform used to model BPMN processes, build living applications, and orchestrate work across an organization. Bonita ships as Bonita Studio, Bonita Fabric (Process Designer, BPA Studio,…
+  api_count: 2
+  score_band: strong
+  score_composite: 64.2
+  shared: 1
 - slug: socure
   name: Socure
   description: Socure is the leading vertically-integrated digital identity verification and fraud-prevention platform, used by 3,000+ banks, fintechs, crypto exchanges, marketplaces, gaming operators, and public-sector agencies. The ID+ API exposes Socure's KYC, document verification (DocV), Sigma fraud models,…
   api_count: 3
   score_band: strong
   score_composite: 63.5
-  shared: 1
-- slug: bonitasoft
-  name: Bonitasoft
-  description: Bonitasoft is the French open-source company behind Bonita, a business process management and process automation platform used to model BPMN processes, build living applications, and orchestrate work across an organization. Bonita ships as Bonita Studio, Bonita Fabric (Process Designer, BPA Studio,…
-  api_count: 2
-  score_band: strong
-  score_composite: 63.3
   shared: 1
 - slug: workato
   name: Workato
@@ -97,7 +97,7 @@ providers:
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
   api_count: 11
   score_band: strong
-  score_composite: 55.8
+  score_composite: 57.7
   shared: 1
 - slug: hatchet
   name: Hatchet
@@ -106,6 +106,13 @@ providers:
   score_band: strong
   score_composite: 55.8
   shared: 1
+- slug: prefect
+  name: Prefect
+  description: Prefect is a Python-native workflow orchestration tool for building, scheduling, and monitoring data pipelines with fault tolerance. Prefect provides a hybrid execution model where the cloud control plane coordinates workflows while code and data remain in customer infrastructure, offering both a m…
+  api_count: 1
+  score_band: strong
+  score_composite: 54.5
+  shared: 1
 - slug: tower
   name: Tower
   description: Tower is a Python-native data flow orchestrator and fully-managed data backend for pipelines, agents, and data applications, pairing serverless (or self-hosted) Python compute with an open Apache Iceberg-based lakehouse that is compatible with Snowflake, Spark, and DuckDB. Teams deploy versioned ap…
@@ -113,12 +120,12 @@ providers:
   score_band: strong
   score_composite: 54.3
   shared: 1
-- slug: prefect
-  name: Prefect
-  description: Prefect is a Python-native workflow orchestration tool for building, scheduling, and monitoring data pipelines with fault tolerance. Prefect provides a hybrid execution model where the cloud control plane coordinates workflows while code and data remain in customer infrastructure, offering both a m…
-  api_count: 1
+- slug: amazon-step-functions
+  name: Amazon Step Functions
+  description: Amazon Step Functions is a serverless workflow orchestration service that lets you coordinate distributed applications and microservices using visual workflows, enabling you to build and update state machines that react to events, manage retries, and orchestrate complex business processes.
+  api_count: 2
   score_band: developing
-  score_composite: 53.7
+  score_composite: 54.1
   shared: 1
 - slug: ballerina
   name: Ballerina
@@ -127,12 +134,12 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
-- slug: amazon-step-functions
-  name: Amazon Step Functions
-  description: Amazon Step Functions is a serverless workflow orchestration service that lets you coordinate distributed applications and microservices using visual workflows, enabling you to build and update state machines that react to events, manage retries, and orchestrate complex business processes.
-  api_count: 2
+- slug: cisco-crosswork
+  name: Cisco Crosswork
+  description: 'Cisco Crosswork is Cisco''s service-provider network automation portfolio — Crosswork Network Controller, Data Gateway, Zero Touch Provisioning, Optimization Engine, Network Change Automation and Crosswork Workflow Manager. Unusually for Cisco, the specifications are published openly: the CiscoDevNe…'
+  api_count: 50
   score_band: developing
-  score_composite: 52.3
+  score_composite: 52.1
   shared: 1
 - slug: fyno
   name: Fyno
@@ -161,13 +168,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 50.4
-  shared: 1
-- slug: cisco-crosswork
-  name: Cisco Crosswork
-  description: 'Cisco Crosswork is Cisco''s service-provider network automation portfolio — Crosswork Network Controller, Data Gateway, Zero Touch Provisioning, Optimization Engine, Network Change Automation and Crosswork Workflow Manager. Unusually for Cisco, the specifications are published openly: the CiscoDevNe…'
-  api_count: 50
-  score_band: developing
-  score_composite: 50.2
   shared: 1
 - slug: aws-step-functions
   name: AWS Step Functions
@@ -224,8 +224,8 @@ provider_slugs:
 - microsoft-azure-data-factory
 - cohesity
 - uipath
-- socure
 - bonitasoft
+- socure
 - workato
 - netcracker
 - facets
@@ -233,15 +233,15 @@ provider_slugs:
 - amazon-ecs
 - intersight
 - hatchet
-- tower
 - prefect
-- ballerina
+- tower
 - amazon-step-functions
+- ballerina
+- cisco-crosswork
 - fyno
 - kestra
 - transmit-security
 - kubernetes
-- cisco-crosswork
 - aws-step-functions
 - polyapi
 - choreo
@@ -257,12 +257,12 @@ provider_slugs:
 - google-cloud-workflows
 - rook
 - microsoft-azure-service-fabric
+- runai
 - talend
 - terminal-use
 - keboola
 - splunk-soar
 - elementum
-- runai
 - haystack-ai
 - kubeflow-pipelines
 - oracle-container-engine
@@ -331,7 +331,7 @@ related:
 overview: 'Orchestration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [orchestration.apievangelist.com](https://orchestration.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Tray.ai, Azure Kubernetes Service, Azure Data Factory, Cohesity, UiPath, Socure, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Tray.ai, Azure Kubernetes Service, Azure Data Factory, Cohesity, UiPath, Bonitasoft, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Containers, Embedded iPaaS, and iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

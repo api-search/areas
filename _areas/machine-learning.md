@@ -15,19 +15,19 @@ providers:
   score_band: exemplar
   score_composite: 82.3
   shared: 1
+- slug: anthropic
+  name: Anthropic
+  description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking…'
+  api_count: 6
+  score_band: exemplar
+  score_composite: 77.8
+  shared: 1
 - slug: elk-stack
   name: Elastic Stack (ELK Stack)
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
   api_count: 3
   score_band: exemplar
   score_composite: 76.7
-  shared: 1
-- slug: anthropic
-  name: Anthropic
-  description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking…'
-  api_count: 6
-  score_band: exemplar
-  score_composite: 74.4
   shared: 1
 - slug: pluralsight
   name: Pluralsight
@@ -220,8 +220,8 @@ providers:
   shared: 1
 provider_slugs:
 - elevenlabs
-- elk-stack
 - anthropic
+- elk-stack
 - pluralsight
 - amazon-codeguru-profiler
 - matlab
@@ -282,6 +282,7 @@ provider_slugs:
 - posit
 - ai-squared
 - amazon-bedrock
+- amazon-comprehend
 - amazon-redshift
 - amazon-rekognition
 - mathpix
@@ -295,7 +296,6 @@ provider_slugs:
 - amazon-iot-greengrass
 - friendliai
 - reducto
-- amazon-comprehend
 - openrelay
 - aignostics
 - perfect-corp
@@ -339,6 +339,7 @@ provider_slugs:
 - boltz
 - exactly-ai
 - amazon-lookout-for-equipment
+- amazon-mechanical-turk
 - opik
 - amazon-deepracer
 - android
@@ -349,7 +350,6 @@ provider_slugs:
 - sift-science
 - chroma
 - scalarr
-- amazon-mechanical-turk
 - deepl
 - tellius
 - typesafe-ai
@@ -367,6 +367,7 @@ provider_slugs:
 - amazon-lookout-for-metrics
 - anomaly-detection
 - fastino-labs
+- akkio
 - traceloop
 - amazon-lookout-for-vision
 - numerai
@@ -388,7 +389,6 @@ provider_slugs:
 - amazon-codeguru-reviewer
 - memories
 - uniphore
-- akkio
 - parea
 - green-screens-ai
 - mirage
@@ -420,6 +420,7 @@ provider_slugs:
 - amazon-textract
 - argilla
 - flux
+- runai
 - rasa
 - flexai
 - kensho
@@ -442,7 +443,7 @@ provider_slugs:
 - kotoba
 - stability-ai
 - thought-industries
-- runai
+- crunchdao
 - eigenpal
 - dp
 - probabl
@@ -457,7 +458,6 @@ provider_slugs:
 - arcee-ai
 - runware
 - videoverse
-- crunchdao
 - palebluedotai
 - teradata
 - log10
@@ -1421,7 +1421,7 @@ related:
 overview: 'Machine Learning is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [machine-learning.apievangelist.com](https://machine-learning.apievangelist.com).
 
 
-  30 providers on the network work in this area, including ElevenLabs, Elastic Stack (ELK Stack), Anthropic, Pluralsight, Amazon CodeGuru Profiler, MATLAB, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including ElevenLabs, Anthropic, Elastic Stack (ELK Stack), Pluralsight, Amazon CodeGuru Profiler, MATLAB, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agents, Containers, Monitoring, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'

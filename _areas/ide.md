@@ -20,7 +20,7 @@ providers:
   description: 'The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is also a substantial API provider in its own right: it publis…'
   api_count: 19
   score_band: strong
-  score_composite: 59.5
+  score_composite: 61.3
   shared: 1
 - slug: choreo
   name: Choreo

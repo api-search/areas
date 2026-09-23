@@ -19,8 +19,8 @@ providers:
   name: Canva
   description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run…'
   api_count: 1
-  score_band: strong
-  score_composite: 64.9
+  score_band: exemplar
+  score_composite: 67.7
   shared: 1
 - slug: figma
   name: Figma

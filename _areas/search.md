@@ -27,7 +27,7 @@ providers:
   description: Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs f…
   api_count: 8
   score_band: exemplar
-  score_composite: 68.6
+  score_composite: 70.4
   shared: 1
 - slug: crawl4ai
   name: Crawl4AI
@@ -99,6 +99,13 @@ providers:
   score_band: strong
   score_composite: 59.2
   shared: 1
+- slug: anyapi
+  name: AnyAPI
+  description: AnyAPI is a unified gateway and marketplace for scraping and data APIs, operated by AnyAPI Labs, Inc. One key and one prepaid USD wallet reach 363 normalized third-party data sources - social profiles and posts, search and SEO, commerce listings and reviews, sales enrichment and email verification,…
+  api_count: 2
+  score_band: strong
+  score_composite: 58.7
+  shared: 1
 - slug: clerk-io
   name: Clerk.io
   description: Clerk.io is an e-commerce personalization platform that uses artificial intelligence and machine learning to deliver tailored product recommendations, on-site search results, audience-segmented email campaigns, and merchandising controls for online retailers. The platform exposes a REST API for pro…
@@ -133,13 +140,6 @@ providers:
   api_count: 18
   score_band: strong
   score_composite: 57.0
-  shared: 1
-- slug: anyapi
-  name: AnyAPI
-  description: AnyAPI is a unified gateway and marketplace for scraping and data APIs, operated by AnyAPI Labs, Inc. One key and one prepaid USD wallet reach 363 normalized third-party data sources - social profiles and posts, search and SEO, commerce listings and reviews, sales enrichment and email verification,…
-  api_count: 2
-  score_band: strong
-  score_composite: 56.8
   shared: 1
 - slug: serper
   name: Serper
@@ -183,6 +183,13 @@ providers:
   score_band: strong
   score_composite: 54.9
   shared: 1
+- slug: google
+  name: Google
+  description: Google's public APIs and services.
+  api_count: 9
+  score_band: strong
+  score_composite: 54.5
+  shared: 1
 - slug: vectara
   name: Vectara
   description: Vectara is a Retrieval Augmented Generation (RAG) as a service platform that provides grounded generative AI for enterprises. The API-first platform exposes a unified REST API v2 for managing corpora, ingesting documents, performing semantic and hybrid search, generating answers with hallucination…
@@ -203,13 +210,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 53.8
-  shared: 1
-- slug: google
-  name: Google
-  description: Google's public APIs and services.
-  api_count: 9
-  score_band: developing
-  score_composite: 53.6
   shared: 1
 - slug: alphasense
   name: AlphaSense
@@ -232,22 +232,22 @@ provider_slugs:
 - serpwow
 - geekflare
 - exa-ai
+- anyapi
 - clerk-io
 - amazon-cloudsearch
 - mixedbread-ai
 - perplexity
 - insider
-- anyapi
 - serper
 - tmdb
 - crustapi
 - unblocked
 - browserless
 - machinelibrary-ai
+- google
 - vectara
 - sylvia-api
 - kannkidas-de
-- google
 - alphasense
 - tgatlas
 - cribl
@@ -295,6 +295,7 @@ provider_slugs:
 - kagi
 - europeana
 - rentberry
+- new-york-times-company
 - moz
 - active-network
 - nuclia
@@ -315,7 +316,6 @@ provider_slugs:
 - twelvelabs
 - tenor
 - gist
-- new-york-times-company
 - wolframalpha
 - iconik
 - lily-ai

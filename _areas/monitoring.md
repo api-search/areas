@@ -48,7 +48,7 @@ providers:
   description: ThousandEyes is Cisco's digital experience monitoring platform, acquired in 2020 and operated as part of Cisco Networking. It runs a global fleet of Cloud, Enterprise, Endpoint and Connected Device agents that measure network paths, BGP routing, DNS, application response and internet outages end to…
   api_count: 53
   score_band: exemplar
-  score_composite: 71.2
+  score_composite: 72.1
   shared: 1
 - slug: checkly
   name: Checkly
@@ -155,6 +155,13 @@ providers:
   score_band: strong
   score_composite: 63.1
   shared: 1
+- slug: splunk-observability
+  name: Splunk Observability Cloud
+  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
+  api_count: 48
+  score_band: strong
+  score_composite: 62.9
+  shared: 1
 - slug: grafana-loki
   name: Grafana Loki
   description: Grafana Loki is Grafana Labs' open source log aggregation system — "like Prometheus, but for logs." Rather than full-text indexing log contents, Loki indexes only a small set of labels per log stream and stores the compressed lines in object storage, which is what makes it cheap to run at scale. It…
@@ -190,12 +197,12 @@ providers:
   score_band: strong
   score_composite: 61.2
   shared: 1
-- slug: splunk-observability
-  name: Splunk Observability Cloud
-  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
-  api_count: 48
+- slug: moogsoft
+  name: Moogsoft
+  description: Moogsoft is an AIOps platform for IT operations, DevOps and SRE teams that ingests events, alerts and metrics from across a hybrid estate, deduplicates and reduces noise, correlates related alerts into incidents, detects anomalies in metric streams, and surfaces probable root cause and similar past…
+  api_count: 17
   score_band: strong
-  score_composite: 61.0
+  score_composite: 61.1
   shared: 1
 - slug: openzeppelin
   name: OpenZeppelin
@@ -210,13 +217,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 59.9
-  shared: 1
-- slug: geneos
-  name: Geneos
-  description: 'Geneos is ITRS Group''s real-time monitoring and observability platform for trading systems, applications and infrastructure, deployed across investment banks, hedge funds, exchanges, telcos and government. It is customer-deployed software rather than a hosted API: Netprobes collect high-frequency t…'
-  api_count: 1
-  score_band: strong
-  score_composite: 59.7
   shared: 1
 provider_slugs:
 - elk-stack
@@ -240,17 +240,18 @@ provider_slugs:
 - hyperdx
 - logicmonitor
 - stack-moxie
+- splunk-observability
 - grafana-loki
 - galileo-technologies
 - raygun
 - embrace
 - groundcover
-- splunk-observability
+- moogsoft
 - openzeppelin
 - dash0
 - geneos
-- moogsoft
 - amazon-xray
+- verifiable
 - metaplane
 - influxdata
 - amazon-cloudwatch
@@ -259,7 +260,6 @@ provider_slugs:
 - social-fetch
 - azure-log-analytics
 - amazon-guardduty
-- verifiable
 - broke2builtai-com
 - sciencelogic
 - cloudwatch
@@ -282,16 +282,16 @@ provider_slugs:
 - amazon-managed-prometheus
 - catchpoint
 - spectrumoutage-api
+- bluejay
 - opik
 - pixie
+- sumo-logic
 - diligent
 - sysdig
 - assertible
 - agnost-ai
-- bluejay
 - opsgenie
 - braintrust
-- sumo-logic
 - amazon-lookout-for-metrics
 - anomaly-detection
 - virtual-instruments
@@ -434,7 +434,7 @@ related:
   shared: 6
 - slug: aiops
   name: AIOps
-  shared: 3
+  shared: 4
 - slug: deployment
   name: Deployment
   shared: 2

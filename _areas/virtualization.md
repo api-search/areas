@@ -20,7 +20,7 @@ providers:
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
   api_count: 11
   score_band: strong
-  score_composite: 55.8
+  score_composite: 57.7
   shared: 1
 - slug: vmware
   name: VMware

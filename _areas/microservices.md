@@ -85,6 +85,13 @@ providers:
   score_band: developing
   score_composite: 49.7
   shared: 1
+- slug: amazon-vpc-lattice
+  name: Amazon VPC Lattice
+  description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
+  api_count: 73
+  score_band: developing
+  score_composite: 49.6
+  shared: 1
 - slug: aws-x-ray
   name: AWS X-Ray
   description: AWS X-Ray is a service that helps developers analyze and debug distributed applications by providing end-to-end tracing of requests as they travel through the application, identifying performance bottlenecks and errors. It is now part of Amazon CloudWatch Application Signals for unified observabili…
@@ -105,13 +112,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 48.6
-  shared: 1
-- slug: amazon-vpc-lattice
-  name: Amazon VPC Lattice
-  description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
-  api_count: 73
-  score_band: developing
-  score_composite: 47.8
   shared: 1
 - slug: amazon-fargate
   name: Amazon Fargate
@@ -230,10 +230,10 @@ provider_slugs:
 - encore-dev
 - aws-app-runner
 - amazon-app-mesh
+- amazon-vpc-lattice
 - aws-x-ray
 - polyapi
 - zeebe
-- amazon-vpc-lattice
 - amazon-fargate
 - apollo-config
 - beamable

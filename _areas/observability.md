@@ -76,7 +76,7 @@ providers:
   description: ThousandEyes is Cisco's digital experience monitoring platform, acquired in 2020 and operated as part of Cisco Networking. It runs a global fleet of Cloud, Enterprise, Endpoint and Connected Device agents that measure network paths, BGP routing, DNS, application response and internet outages end to…
   api_count: 53
   score_band: exemplar
-  score_composite: 71.2
+  score_composite: 72.1
   shared: 1
 - slug: checkly
   name: Checkly
@@ -169,6 +169,13 @@ providers:
   score_band: strong
   score_composite: 64.2
   shared: 1
+- slug: nasuni
+  name: Nasuni
+  description: Nasuni is an enterprise hybrid-cloud file data platform that consolidates distributed NAS and file servers into UniFS, a cloud-native global file system backed by customer-owned object storage (Azure Blob, Amazon S3, Google Cloud Storage and S3-compatible on-prem targets). Edge appliances cache hot…
+  api_count: 14
+  score_band: strong
+  score_composite: 63.8
+  shared: 1
 - slug: cisco-catalyst-center
   name: Cisco Catalyst Center
   description: Cisco Catalyst Center, formerly DNA Center, is Cisco's intent-based networking controller for enterprise campus, branch and wireless networks. It covers network design and hierarchy, device discovery and provisioning, software image management, SD-Access fabric, policy, telemetry and Assurance anal…
@@ -197,26 +204,19 @@ providers:
   score_band: strong
   score_composite: 63.1
   shared: 1
+- slug: splunk-observability
+  name: Splunk Observability Cloud
+  description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
+  api_count: 48
+  score_band: strong
+  score_composite: 62.9
+  shared: 1
 - slug: ibm
   name: IBM
   description: A collection of IBM's public APIs and developer resources.
   api_count: 1
   score_band: strong
   score_composite: 62.6
-  shared: 1
-- slug: grafana-loki
-  name: Grafana Loki
-  description: Grafana Loki is Grafana Labs' open source log aggregation system — "like Prometheus, but for logs." Rather than full-text indexing log contents, Loki indexes only a small set of labels per log stream and stores the compressed lines in object storage, which is what makes it cheap to run at scale. It…
-  api_count: 3
-  score_band: strong
-  score_composite: 62.5
-  shared: 1
-- slug: nasuni
-  name: Nasuni
-  description: Nasuni is an enterprise hybrid-cloud file data platform that consolidates distributed NAS and file servers into UniFS, a cloud-native global file system backed by customer-owned object storage (Azure Blob, Amazon S3, Google Cloud Storage and S3-compatible on-prem targets). Edge appliances cache hot…
-  api_count: 14
-  score_band: strong
-  score_composite: 61.9
   shared: 1
 provider_slugs:
 - dynatrace
@@ -242,35 +242,35 @@ provider_slugs:
 - grafana
 - highlight-io
 - google-cloud-logging
+- nasuni
 - cisco-catalyst-center
 - hyperdx
 - logicmonitor
 - stack-moxie
+- splunk-observability
 - ibm
 - grafana-loki
-- nasuni
 - raygun
 - webscale-networks
+- acceldata
 - hookdeck
 - embrace
 - groundcover
-- splunk-observability
+- moogsoft
 - waxell
 - sift-stack
 - dash0
 - geneos
-- s2-dev
-- moogsoft
-- foxglove-technologies
-- graphiant
 - amazon-xray
+- graphiant
+- s2-dev
+- foxglove-technologies
 - influxdata
 - amazon-cloudwatch
 - elastic-observability
 - microsoft-azure-monitor
 - edgee
 - portkey
-- acceldata
 - laserdata
 - upsun
 - sciencelogic
@@ -313,21 +313,21 @@ provider_slugs:
 - amazon-managed-prometheus
 - catchpoint
 - apicontext
+- bluejay
 - opik
 - pixie
 - antimetal
 - lucent
+- sumo-logic
 - corelayer
 - aws-x-ray
 - sysdig
 - gloo-mesh
 - agnost-ai
-- bluejay
 - jam
 - braintrust
 - agntcy
 - mcp-manager
-- sumo-logic
 - vijil
 - anomaly-detection
 - choreo

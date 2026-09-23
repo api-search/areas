@@ -29,19 +29,19 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
+- slug: anyapi
+  name: AnyAPI
+  description: AnyAPI is a unified gateway and marketplace for scraping and data APIs, operated by AnyAPI Labs, Inc. One key and one prepaid USD wallet reach 363 normalized third-party data sources - social profiles and posts, search and SEO, commerce listings and reviews, sales enrichment and email verification,…
+  api_count: 2
+  score_band: strong
+  score_composite: 58.7
+  shared: 1
 - slug: zyte
   name: Zyte
   description: Zyte (formerly Scrapinghub, the company behind the Scrapy framework) is a web data extraction platform. Its flagship Zyte API is a single POST endpoint that fetches any URL through an automatic anti-ban network, optionally rendering it in a browser, running interaction actions, capturing network tr…
   api_count: 2
   score_band: strong
   score_composite: 57.2
-  shared: 1
-- slug: anyapi
-  name: AnyAPI
-  description: AnyAPI is a unified gateway and marketplace for scraping and data APIs, operated by AnyAPI Labs, Inc. One key and one prepaid USD wallet reach 363 normalized third-party data sources - social profiles and posts, search and SEO, commerce listings and reviews, sales enrichment and email verification,…
-  api_count: 2
-  score_band: strong
-  score_composite: 56.8
   shared: 1
 - slug: serper
   name: Serper
@@ -166,8 +166,8 @@ provider_slugs:
 - diffbot
 - konbiniapi
 - serpwow
-- zyte
 - anyapi
+- zyte
 - serper
 - oxylabs
 - scrapingant
@@ -201,7 +201,7 @@ related:
 overview: 'Scraping is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [scraping.apievangelist.com](https://scraping.apievangelist.com).
 
 
-  22 providers on the network work in this area, including Diffbot, KonbiniAPI, SerpWow, Zyte, AnyAPI, Serper, and 16 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  22 providers on the network work in this area, including Diffbot, KonbiniAPI, SerpWow, AnyAPI, Zyte, Serper, and 16 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Proxies, API Evangelist Search, Agent Skills, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'

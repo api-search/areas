@@ -13,7 +13,7 @@ providers:
   description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
   api_count: 2
   score_band: exemplar
-  score_composite: 79.5
+  score_composite: 81.4
   shared: 1
 - slug: cvent-event-cloud
   name: Cvent Event Cloud

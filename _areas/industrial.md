@@ -6,7 +6,7 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 178
+provider_count: 179
 providers:
 - slug: eaton
   name: Eaton
@@ -99,6 +99,13 @@ providers:
   score_band: thin
   score_composite: 36.1
   shared: 1
+- slug: actionstreamer
+  name: ActionStreamer
+  description: ActionStreamer is a Cincinnati, Ohio IoT video platform company, founded in 2016, that builds wearable and connected-device live streaming technology for industrial, public-safety, defense, aerospace/MRO and sports operations. Its ActionSync platform manages fleets of smart cameras and body-worn de…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.0
+  shared: 1
 - slug: archrock
   name: Archrock
   description: 'Archrock (NYSE: AROC) is the premier provider of natural gas compression services and equipment to customers in the oil and natural gas industry throughout the United States. The company operates a large fleet of compression equipment and provides contract operations and aftermarket services.'
@@ -119,13 +126,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 34.9
-  shared: 1
-- slug: actionstreamer
-  name: ActionStreamer
-  description: ActionStreamer is a Cincinnati, Ohio IoT video platform company, founded in 2016, that builds wearable and connected-device live streaming technology for industrial, public-safety, defense, aerospace/MRO and sports operations. Its ActionSync platform manages fleets of smart cameras and body-worn de…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.2
   shared: 1
 - slug: innovapptive
   name: Innovapptive
@@ -232,10 +232,10 @@ provider_slugs:
 - steute-technologies-gmbh-and-co-kg
 - 3m
 - helmerich-and-payne
+- actionstreamer
 - archrock
 - ametek
 - markforged
-- actionstreamer
 - innovapptive
 - parsable
 - swipeguide
@@ -390,6 +390,7 @@ provider_slugs:
 - nov
 - itt
 - cdhot
+- airx
 - crane
 - berry-plastics-group
 - colfax

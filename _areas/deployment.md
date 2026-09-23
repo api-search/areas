@@ -71,6 +71,13 @@ providers:
   score_band: strong
   score_composite: 55.9
   shared: 1
+- slug: amazon-codedeploy
+  name: Amazon CodeDeploy
+  description: AWS CodeDeploy is a fully managed deployment service that automates software deployments to various compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and on-premises servers. CodeDeploy makes it easier to rapidly release new features, helps avoid downtime during application deployment,…
+  api_count: 2
+  score_band: strong
+  score_composite: 55.9
+  shared: 1
 - slug: nuon
   name: Nuon
   description: Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into their customers' own AWS, Azure, or GCP accounts while keeping a…
@@ -78,19 +85,12 @@ providers:
   score_band: strong
   score_composite: 55.5
   shared: 1
-- slug: amazon-codedeploy
-  name: Amazon CodeDeploy
-  description: AWS CodeDeploy is a fully managed deployment service that automates software deployments to various compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and on-premises servers. CodeDeploy makes it easier to rapidly release new features, helps avoid downtime during application deployment,…
-  api_count: 2
-  score_band: developing
-  score_composite: 54.1
-  shared: 1
 - slug: platform.sh
   name: Platform.sh
   description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster of applications and managed services (PostgreSQL, MySQL, Redi…
   api_count: 3
-  score_band: developing
-  score_composite: 52.9
+  score_band: strong
+  score_composite: 54.7
   shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
@@ -228,8 +228,8 @@ provider_slugs:
 - aptible
 - upsun
 - amazon-app-runner
-- nuon
 - amazon-codedeploy
+- nuon
 - platform.sh
 - aws-app-runner
 - release

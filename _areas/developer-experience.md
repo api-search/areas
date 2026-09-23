@@ -85,6 +85,13 @@ providers:
   score_band: developing
   score_composite: 49.9
   shared: 1
+- slug: viator
+  name: Viator
+  description: Viator is a Tripadvisor company and the largest online marketplace for tours, activities and travel experiences, headquartered in the United States and listing more than 300,000 bookable products across roughly 2,500 destinations. It sits on the demand side of the travel distribution chain as an ag…
+  api_count: 4
+  score_band: developing
+  score_composite: 47.8
+  shared: 1
 - slug: opplevagent-no
   name: Opplevagent
   description: Opplevagent is an agent-native (A2A) marketplace of Norwegian experiences and activities — 547 hand-picked tours, courses, attractions and things to do from 417 providers verified against Brønnøysundregistrene, plus a gårdssalg vertical of 252 farm-sale drink producers (breweries, cideries, winerie…
@@ -92,24 +99,24 @@ providers:
   score_band: developing
   score_composite: 46.3
   shared: 1
-- slug: viator
-  name: Viator
-  description: Viator is a Tripadvisor company and the largest online marketplace for tours, activities and travel experiences, headquartered in the United States and listing more than 300,000 bookable products across roughly 2,500 destinations. It sits on the demand side of the travel distribution chain as an ag…
-  api_count: 4
+- slug: fabric-com
+  name: fabric
+  description: fabric is a composable, headless commerce platform. Its API covers catalog and product information management, pricing and promotions, cart and checkout, orders and order management, inventory, customers and addresses, and returns and appeasements.
+  api_count: 16
   score_band: developing
-  score_composite: 46.0
+  score_composite: 44.8
+  shared: 1
+- slug: qovery
+  name: Qovery
+  description: Qovery is an internal developer platform that simplifies cloud deployment and infrastructure management, enabling developers to self-serve environments on AWS, GCP, and Azure.
+  api_count: 1
+  score_band: developing
+  score_composite: 43.2
   shared: 1
 - slug: cycloid
   name: Cycloid
   description: Cycloid is a unified Internal Developer Portal & Platform combining self-service Service Catalogs (Stacks and StackForms), Infrastructure as Code orchestration, multi-cloud asset inventory (Asset Inventory and InfraView), CI/CD pipeline centralization, FinOps and GreenOps cost / carbon dashboards,…
   api_count: 1
-  score_band: developing
-  score_composite: 43.0
-  shared: 1
-- slug: fabric-com
-  name: fabric
-  description: fabric is a composable, headless commerce platform. Its API covers catalog and product information management, pricing and promotions, cart and checkout, orders and order management, inventory, customers and addresses, and returns and appeasements.
-  api_count: 16
   score_band: developing
   score_composite: 43.0
   shared: 1
@@ -133,13 +140,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 41.5
-  shared: 1
-- slug: qovery
-  name: Qovery
-  description: Qovery is an internal developer platform that simplifies cloud deployment and infrastructure management, enabling developers to self-serve environments on AWS, GCP, and Azure.
-  api_count: 1
-  score_band: developing
-  score_composite: 41.3
   shared: 1
 - slug: getyourguide
   name: GetYourGuide
@@ -211,12 +211,12 @@ providers:
   score_band: thin
   score_composite: 35.0
   shared: 1
-- slug: autoura
-  name: Autoura
-  description: Autoura is a UK digital experience platform (DXP) for real-world tourism and travel experiences, operated by The Spontaneous Travel Company Limited. It structures and maintains experience data — venues, attractions, tours, routes, stops, accessibility and dietary signals, AI guide characters and st…
-  api_count: 2
+- slug: fever
+  name: Fever
+  description: 'Fever is a global live-entertainment discovery and ticketing platform that helps millions of people find events, activities and experiences in their city, and gives venues and partners the tools to sell and analyze tickets. For developers Fever exposes two public surfaces: an official Model Context…'
+  api_count: 1
   score_band: thin
-  score_composite: 32.3
+  score_composite: 33.1
   shared: 1
 provider_slugs:
 - adobe-suite
@@ -230,14 +230,14 @@ provider_slugs:
 - apiable
 - coveo
 - peek
-- opplevagent-no
 - viator
-- cycloid
+- opplevagent-no
 - fabric-com
+- qovery
+- cycloid
 - klook
 - opslevel
 - cortex-idp
-- qovery
 - getyourguide
 - roadie-io
 - software
@@ -248,9 +248,9 @@ provider_slugs:
 - rely
 - upbound
 - readme-metrics
+- fever
 - autoura
 - port-io
-- fever
 - northflank
 - american-airlines
 - supernova
