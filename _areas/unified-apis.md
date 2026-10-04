@@ -13,7 +13,7 @@ providers:
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
   api_count: 3
   score_band: developing
-  score_composite: 47.7
+  score_composite: 50.3
   shared: 1
 provider_slugs:
 - choreo
@@ -24,8 +24,14 @@ related:
 - slug: finops
   name: FinOps
   shared: 1
+- slug: management
+  name: Management
+  shared: 1
 - slug: orchestration
   name: Orchestration
+  shared: 1
+- slug: portal
+  name: Portal
   shared: 1
 overview: 'Unified APIs is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [unified-apis.apievangelist.com](https://unified-apis.apievangelist.com).
 
@@ -33,5 +39,5 @@ overview: 'Unified APIs is one of the API Evangelist areas on the [APIs.io](http
   Providers on the network working in this area include Choreo — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: IDE, FinOps, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: IDE, FinOps, Management, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

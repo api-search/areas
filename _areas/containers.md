@@ -6,364 +6,357 @@ description: An index of container runtime, orchestration, registry, security, a
 area_url: https://containers.apievangelist.com
 area_host: containers.apievangelist.com
 icon: https://containers.apievangelist.com/icon-thumb.png
-provider_count: 139
+provider_count: 132
 providers:
 - slug: amazon-lightsail
   name: Amazon Lightsail
   description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Lightsail provides developers compute, storage, and networking ca…
-  api_count: 2
+  api_count: 3
   score_band: exemplar
-  score_composite: 73.3
+  score_composite: 75.3
   shared: 1
 - slug: microsoft-azure-kubernetes-service
   name: Azure Kubernetes Service
   description: Azure Kubernetes Service (AKS) simplifies deploying a managed Kubernetes cluster in Azure by offloading the operational overhead to Azure. As a hosted Kubernetes service, Azure handles critical tasks, like health monitoring and maintenance.
   api_count: 1
   score_band: exemplar
-  score_composite: 72.2
+  score_composite: 73.5
   shared: 1
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 24
   score_band: exemplar
-  score_composite: 71.1
-  shared: 1
-- slug: calico
-  name: Calico
-  description: Calico is an open source networking and network security solution for containers, virtual machines, and native host-based workloads. Created and maintained by Tigera, it is the most widely adopted solution for container networking and security, powering over 8 million nodes daily across 166 countri…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 71.0
+  score_composite: 71.9
   shared: 1
 - slug: canonical
   name: Canonical
   description: Canonical is the company behind Ubuntu, the world's most popular open source operating system for cloud, servers, desktops, IoT, and Kubernetes. Canonical publishes a broad set of developer APIs spanning the Ubuntu and Canonical ecosystem — the Snap Store and Snapcraft, the Charmhub charm marketpla…
   api_count: 13
   score_band: exemplar
-  score_composite: 67.3
+  score_composite: 70.9
+  shared: 1
+- slug: calico
+  name: Calico
+  description: Calico is an open source networking and network security solution for containers, virtual machines, and native host-based workloads. Created and maintained by Tigera, it is the most widely adopted solution for container networking and security, powering over 8 million nodes daily across 166 countri…
+  api_count: 1
+  score_band: strong
+  score_composite: 66.3
   shared: 1
 - slug: paperspace
   name: Paperspace
   description: Paperspace is a GPU cloud platform for AI, ML, and 3D rendering workloads, acquired by DigitalOcean in 2023. The platform combines on-demand GPU/CPU machines (Core), the Gradient ML workflow stack (Notebooks, Datasets, Models, Workflows), and container-as-a-service Deployments under a single team-s…
   api_count: 4
   score_band: strong
-  score_composite: 65.1
-  shared: 1
-- slug: koyeb
-  name: Koyeb
-  description: Koyeb is a developer-friendly serverless platform for deploying applications, Postgres databases, GPU workloads and isolated code-execution sandboxes across a global edge network. The Koyeb REST API is a Swagger 2.0 contract generated from protobuf services by grpc-gateway — 126 paths, 177 operatio…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.3
+  score_composite: 65.7
   shared: 1
 - slug: red-hat
   name: Red Hat
   description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
   api_count: 6
   score_band: strong
-  score_composite: 62.8
+  score_composite: 65.1
   shared: 1
 - slug: ibm
   name: IBM
   description: A collection of IBM's public APIs and developer resources.
   api_count: 1
   score_band: strong
-  score_composite: 62.6
+  score_composite: 65.0
+  shared: 1
+- slug: koyeb
+  name: Koyeb
+  description: Koyeb is a developer-friendly serverless platform for deploying applications, Postgres databases, GPU workloads and isolated code-execution sandboxes across a global edge network. The Koyeb REST API is a Swagger 2.0 contract generated from protobuf services by grpc-gateway — 126 paths, 177 operatio…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.5
   shared: 1
 - slug: azure-container-apps
   name: Azure Container Apps
   description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven archit…
   api_count: 1
   score_band: strong
-  score_composite: 61.6
-  shared: 1
-- slug: seqera-labs
-  name: Seqera Labs
-  description: Seqera (Seqera Labs) builds open, cloud-based software for scientific data analysis at scale. It is the company behind Nextflow, the widely adopted open-source workflow orchestration engine, and the Seqera Platform (formerly Nextflow Tower) for launching, monitoring, and governing data pipelines ac…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.4
-  shared: 1
-- slug: cloud-foundry
-  name: Cloud Foundry
-  description: Cloud Foundry is an open-source, multi-cloud Platform as a Service (PaaS) governed by the Cloud Foundry Foundation. It provides a developer-friendly application platform where operators push source code or container images and Cloud Foundry handles staging, routing, scaling, and lifecycle managemen…
-  api_count: 2
-  score_band: strong
-  score_composite: 58.1
-  shared: 1
-- slug: amazon-ecs
-  name: Amazon ECS
-  description: Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications.
-  api_count: 1
-  score_band: strong
-  score_composite: 57.8
+  score_composite: 62.6
   shared: 1
 - slug: jfrog-container-registry
   name: JFrog Container Registry
   description: JFrog Container Registry is a free, hybrid, and multi-cloud Docker registry and Helm chart repository for managing and distributing container images. It provides advanced access control, vulnerability scanning, and scales to support enterprise container workflows across any cloud or on-premises inf…
   api_count: 1
   score_band: strong
-  score_composite: 57.6
-  shared: 1
-- slug: amazon-ecr
-  name: Amazon ECR
-  description: Amazon Elastic Container Registry (ECR) is a fully managed container registry that makes it easy to store, manage, share, and deploy container images and artifacts. ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure, and integrate…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.2
+  score_composite: 60.6
   shared: 1
 - slug: upsun
   name: Upsun
   description: Upsun is the cloud application platform from Platform.sh that automatically builds, deploys, and scales applications with git-driven workflows, preview environments per branch, managed services, and usage-based pricing. Its REST API at api.upsun.com covers projects, environments, deployments, backu…
   api_count: 1
   score_band: strong
-  score_composite: 56.9
+  score_composite: 60.6
   shared: 1
-- slug: tensordock
-  name: TensorDock
-  description: TensorDock operates a global GPU cloud marketplace that connects independent hardware hosts with customers needing affordable on-demand and spot GPU compute. The platform exposes two REST APIs — the original Marketplace API (v0) at marketplace.tensordock.com and the newer Instances API (v2) at dash…
-  api_count: 1
+- slug: cloud-foundry
+  name: Cloud Foundry
+  description: Cloud Foundry is an open-source, multi-cloud Platform as a Service (PaaS) governed by the Cloud Foundry Foundation. It provides a developer-friendly application platform where operators push source code or container images and Cloud Foundry handles staging, routing, scaling, and lifecycle managemen…
+  api_count: 2
   score_band: strong
-  score_composite: 56.7
-  shared: 1
-- slug: dagger
-  name: Dagger
-  description: Dagger is an open-source programmable CI/CD engine that runs pipelines in containers using a unified, introspectable GraphQL API. Pipelines are written as code in the developer's preferred language (Go, Python, TypeScript, PHP, Java, .NET, Elixir, or Rust) using Dagger SDKs and packaged as Dagger M…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.6
-  shared: 1
-- slug: amazon-app-runner
-  name: Amazon App Runner
-  description: AWS App Runner is a fully managed container application service that lets you build, deploy, and run containerized web applications and API services without prior infrastructure or container experience. Start with your source code or a container image.
-  api_count: 3
-  score_band: strong
-  score_composite: 55.9
+  score_composite: 59.3
   shared: 1
 - slug: goharbor
   name: GoHarbor
   description: 'Harbor is an open source, CNCF-hosted registry that stores, signs and scans OCI artifacts, adding the policy and identity layer a plain container registry lacks: projects, RBAC and robot accounts, vulnerability scanning and SBOM generation, Cosign content trust, tag retention and immutability, quot…'
   api_count: 2
   score_band: strong
-  score_composite: 54.9
+  score_composite: 58.5
+  shared: 1
+- slug: amazon-ecr
+  name: Amazon ECR
+  description: Amazon Elastic Container Registry (ECR) is a fully managed container registry that makes it easy to store, manage, share, and deploy container images and artifacts. ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure, and integrate…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.4
+  shared: 1
+- slug: amazon-ecs
+  name: Amazon ECS
+  description: Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications.
+  api_count: 1
+  score_band: strong
+  score_composite: 58.4
   shared: 1
 - slug: platform.sh
   name: Platform.sh
   description: Platform.sh is the container-based Platform-as-a-Service (PaaS) founded in 2010 and headquartered in Paris and San Francisco, best known for Git-driven deployments in which a single push plus a few YAML files provisions an entire cluster of applications and managed services (PostgreSQL, MySQL, Redi…
   api_count: 3
   score_band: strong
-  score_composite: 54.7
+  score_composite: 58.4
   shared: 1
-- slug: gameye
-  name: Gameye
-  description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single REST API — the Session API. Studios call POST /session with a r…
+- slug: seqera-labs
+  name: Seqera Labs
+  description: Seqera (Seqera Labs) builds open, cloud-based software for scientific data analysis at scale. It is the company behind Nextflow, the widely adopted open-source workflow orchestration engine, and the Seqera Platform (formerly Nextflow Tower) for launching, monitoring, and governing data pipelines ac…
   api_count: 1
-  score_band: developing
-  score_composite: 51.9
+  score_band: strong
+  score_composite: 57.3
   shared: 1
-- slug: scaleway
-  name: Scaleway
-  description: Scaleway is a European cloud provider offering a full suite of compute, storage, networking, AI, and serverless infrastructure services. Scaleway provides a comprehensive REST API for programmatic management of all cloud resources including Instances, Kubernetes clusters (Kapsule and Kosmos), manag…
-  api_count: 10
-  score_band: developing
-  score_composite: 51.8
+- slug: aws-app-runner
+  name: AWS App Runner
+  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
+  api_count: 16
+  score_band: strong
+  score_composite: 57.1
   shared: 1
-- slug: snyk-container
-  name: Snyk Container
-  description: Snyk Container helps developers find and fix vulnerabilities in container images and Kubernetes workloads. It integrates into existing development workflows to provide continuous security monitoring throughout the container lifecycle, scanning Docker images, Kubernetes manifests, and Helm charts fo…
+- slug: dagger
+  name: Dagger
+  description: Dagger is an open-source programmable CI/CD engine that runs pipelines in containers using a unified, introspectable GraphQL API. Pipelines are written as code in the developer's preferred language (Go, Python, TypeScript, PHP, Java, .NET, Elixir, or Rust) using Dagger SDKs and packaged as Dagger M…
   api_count: 1
-  score_band: developing
-  score_composite: 51.8
+  score_band: strong
+  score_composite: 57.0
   shared: 1
-- slug: amazon-batch
-  name: Amazon Batch
-  description: AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (EC2 On-Demand, EC2 Spot, Fargate, EKS) based on the volume and specific re…
+- slug: tensordock
+  name: TensorDock
+  description: TensorDock operates a global GPU cloud marketplace that connects independent hardware hosts with customers needing affordable on-demand and spot GPU compute. The platform exposes two REST APIs — the original Marketplace API (v0) at marketplace.tensordock.com and the newer Instances API (v2) at dash…
   api_count: 1
-  score_band: developing
-  score_composite: 51.3
+  score_band: strong
+  score_composite: 56.5
   shared: 1
 - slug: azure-container-instances
   name: Azure Container Instances
   description: Azure Container Instances (ACI) is the fastest and simplest way to run containers in Azure without having to manage virtual machines or adopt a higher-level orchestration service. It offers serverless containers with per-second billing, custom sizes, and seamless integration with the Azure ecosyste…
   api_count: 1
   score_band: developing
-  score_composite: 51.3
+  score_composite: 53.4
   shared: 1
-- slug: aws-app-runner
-  name: AWS App Runner
-  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
+- slug: scaleway
+  name: Scaleway
+  description: Scaleway is a European cloud provider offering a full suite of compute, storage, networking, AI, and serverless infrastructure services. Scaleway provides a comprehensive REST API for programmatic management of all cloud resources including Instances, Kubernetes clusters (Kapsule and Kosmos), manag…
+  api_count: 10
+  score_band: developing
+  score_composite: 52.2
+  shared: 1
+- slug: gameye
+  name: Gameye
+  description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single REST API — the Session API. Studios call POST /session with a r…
   api_count: 1
   score_band: developing
-  score_composite: 51.2
+  score_composite: 51.7
+  shared: 1
+- slug: snyk-container
+  name: Snyk Container
+  description: Snyk Container helps developers find and fix vulnerabilities in container images and Kubernetes workloads. It integrates into existing development workflows to provide continuous security monitoring throughout the container lifecycle, scanning Docker images, Kubernetes manifests, and Helm charts fo…
+  api_count: 1
+  score_band: developing
+  score_composite: 51.6
   shared: 1
 - slug: amazon-managed-prometheus
   name: Amazon Managed Service for Prometheus
   description: Amazon Managed Service for Prometheus is a serverless, Prometheus-compatible monitoring service for container metrics. It automatically scales as your monitoring needs increase, works with open-source tools, and integrates with Amazon EKS and other container environments. The service provides fully…
   api_count: 1
   score_band: developing
-  score_composite: 50.4
+  score_composite: 51.5
+  shared: 1
+- slug: azure-container-registry
+  name: Azure Container Registry
+  description: Azure Container Registry is a managed Docker registry service based on the open-source Docker Registry for storing and managing private container images and artifacts. It supports automated container image builds, geo-replication, and integrates with Azure Kubernetes Service and other Azure deploym…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.9
   shared: 1
 - slug: kubernetes
   name: Kubernetes
   description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running p…
   api_count: 1
   score_band: developing
-  score_composite: 50.4
+  score_composite: 49.7
+  shared: 1
+- slug: red-hat-openshift
+  name: Red Hat OpenShift
+  description: Red Hat OpenShift is an enterprise Kubernetes platform that provides a consistent hybrid cloud foundation for building, deploying, and scaling containerized applications. OpenShift extends Kubernetes with developer productivity tools, built-in CI/CD pipelines, integrated monitoring and logging, aut…
+  api_count: 2
+  score_band: developing
+  score_composite: 49.5
   shared: 1
 - slug: balena
   name: Balena
   description: Balena is a complete platform for building, deploying, and managing fleets of connected Linux devices. The platform combines balenaOS, balenaEngine, balenaCloud, the balena CLI, and the balena SDK so teams can build container-based device images and continuously deliver them to devices in the field…
   api_count: 1
   score_band: developing
-  score_composite: 49.2
+  score_composite: 49.3
   shared: 1
 provider_slugs:
 - amazon-lightsail
 - microsoft-azure-kubernetes-service
 - cloudflare
-- calico
 - canonical
+- calico
 - paperspace
-- koyeb
 - red-hat
 - ibm
+- koyeb
 - azure-container-apps
-- seqera-labs
-- cloud-foundry
-- amazon-ecs
 - jfrog-container-registry
-- amazon-ecr
 - upsun
-- tensordock
-- dagger
-- amazon-app-runner
+- cloud-foundry
 - goharbor
+- amazon-ecr
+- amazon-ecs
 - platform.sh
-- gameye
-- scaleway
-- snyk-container
-- amazon-batch
-- azure-container-instances
+- seqera-labs
 - aws-app-runner
+- dagger
+- tensordock
+- azure-container-instances
+- scaleway
+- gameye
+- snyk-container
 - amazon-managed-prometheus
-- kubernetes
-- balena
-- red-hat-openshift
-- sysdig
 - azure-container-registry
-- amazon-eks
-- buildpacks
+- kubernetes
+- red-hat-openshift
+- balena
 - amazon-fargate
+- buildpacks
+- amazon-eks
+- google-cloud-run
+- sysdig
+- smol-machines
 - rancher
 - argo-workflows
-- smol-machines
-- google-cloud-kubernetes-engine
-- timoni
-- coolify
-- google-cloud-run
-- google-cloud-artifact-registry
-- docker-hub
 - microsoft-azure-service-fabric
-- incus
+- coolify
+- timoni
+- docker-hub
 - navis
-- portainer
-- quay
-- beam-cloud
-- woodpecker-ci
-- aqua-security
-- drone
-- docker
-- anchore
 - cosign
+- quay
+- aqua-security
+- woodpecker-ci
+- incus
+- portainer
+- docker
+- drone
 - spyderbat
-- oracle-container-engine
-- github-container-registry
+- beam-cloud
+- anchore
 - google-cloud-container-registry
 - solaris-zones
-- flatcar-container-linux
-- podman
-- carvel
 - veritas-cluster
-- youki
-- firecracker
-- spinnaker
-- apptainer
-- google-kubernetes-engine
-- service-fabric
-- sigstore
-- vmware-tanzu
-- google-artifact-registry
-- ubuntu
-- flexera
-- io-net
-- gitlab-container-registry
-- trivy
+- carvel
 - cri-o
+- google-kubernetes-engine
+- oracle-container-engine
+- spinnaker
+- google-artifact-registry
+- youki
+- flatcar-container-linux
+- gitlab-container-registry
+- github-container-registry
+- io-net
+- podman
+- service-fabric
+- flexera
+- apptainer
+- vmware-tanzu
+- firecracker
+- sigstore
+- ubuntu
+- trivy
+- inspur-cloud
 - cargosmart
-- scalable-services
+- runc
 - prisma-cloud
 - portworx
-- inspur-cloud
-- testcontainers
+- systemd
 - weave-net
 - aws-batch
-- systemd
-- runc
 - buildah
-- openebs
-- containerfile
-- neuvector
-- cni
-- kata-containers
+- testcontainers
 - openfin
-- open-container-initiative
-- proxmox
+- openebs
+- cni
 - chainguard
+- kata-containers
+- proxmox
 - gvisor
+- neuvector
+- open-container-initiative
 - werf
 - earthly
-- sst-dev
 - ibm-cloud-kubernetes
+- sst-dev
+- kamal-deploy
 - coasts
 - distroless
-- copa
 - atomicjar
-- grype
-- kaniko
+- copa
 - mirantis
 - fluxcd
-- kamal-deploy
+- grype
 - cncf
-- flannel
-- jib
+- kaniko
+- harpoon
 - ko
 - kustomize
-- multus-cni
-- harpoon
 - threat-stack
-- dokku
+- flannel
+- jib
+- multus-cni
 - rapidfort
-- epsagon
+- dokku
 - westrock
 - owens-illinois
 - lima
+- diamanti
 - coreos
+- containers
+- apcera
 - bluedata-software-inc
 - d2iq
-- diamanti
-- oci
-- apcera
 - dchq
-- devops
 - distelli
+- epsagon
 - heptio
 related:
-- slug: deployment
-  name: Deployment
-  shared: 6
 - slug: serverless
   name: Serverless
+  shared: 6
+- slug: deployment
+  name: Deployment
   shared: 5
 - slug: orchestration
   name: Orchestration
@@ -380,8 +373,8 @@ related:
 overview: 'Containers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [containers.apievangelist.com](https://containers.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Lightsail, Azure Kubernetes Service, Cloudflare, Calico, Canonical, Paperspace, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Amazon Lightsail, Azure Kubernetes Service, Cloudflare, Canonical, Calico, Paperspace, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Deployment, Serverless, Orchestration, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Serverless, Deployment, Orchestration, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

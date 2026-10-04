@@ -13,21 +13,21 @@ providers:
   description: Fieldwire is a construction field-management platform. Its API covers plans and drawings, tasks and punch lists, forms, change orders, budget line items and actual costs, BIM models, and the people and companies attached to a project.
   api_count: 6
   score_band: strong
-  score_composite: 58.2
+  score_composite: 56.7
   shared: 1
 - slug: plandex
   name: Plandex
   description: Plandex is an open-source, terminal-based AI coding agent designed to take on large, multi-step software development tasks across many files in real world codebases. Written in Go and released under the MIT license, Plandex builds and executes long-running "plans" — durable, branchable units of wor…
   api_count: 1
   score_band: developing
-  score_composite: 50.2
+  score_composite: 46.3
   shared: 1
 - slug: priceops
   name: PriceOps
   description: PriceOps is a pricing and packaging infrastructure platform for SaaS companies that enables simulation of pricing strategies, design of packaging tiers, and launch of pricing pages within minutes. The platform provides REST APIs for managing customer information, usage records, pricing plans, entit…
   api_count: 1
-  score_band: thin
-  score_composite: 26.5
+  score_band: emerging
+  score_composite: 23.8
   shared: 1
 provider_slugs:
 - fieldwire

@@ -6,330 +6,338 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://documentation.apievangelist.com
 area_host: documentation.apievangelist.com
 icon: https://documentation.apievangelist.com/icon-thumb.png
-provider_count: 87
+provider_count: 95
 providers:
-- slug: apimatic
-  name: APIMatic
-  description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languag…
+- slug: readme
+  name: ReadMe
+  description: ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive API explorer, Try-It console, Developer Dashboard with real-t…
+  api_count: 2
+  score_band: developing
+  score_composite: 51.1
+  shared: 3
+- slug: developerhub
+  name: DeveloperHub
+  description: DeveloperHub is a hosted developer documentation platform that enables teams to create beautiful API references, user guides, and knowledge bases. It features auto-generated API documentation from OpenAPI specifications, built-in versioning, full-text search, custom domains, and a WYSIWYG editor. D…
   api_count: 1
+  score_band: strong
+  score_composite: 57.5
+  shared: 2
+- slug: mintlify
+  name: Mintlify
+  description: Mintlify is an AI-native intelligent documentation platform designed for the next generation of technical documentation, combining beautiful out-of-the-box design with advanced collaboration and AI capabilities.
+  api_count: 1
+  score_band: developing
+  score_composite: 50.5
+  shared: 2
+- slug: scalar
+  name: Scalar
+  description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rules, and automated SDK generation for TypeScript, Python, Go,…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.1
+  shared: 2
+- slug: readmeio
+  name: ReadMe.io
+  description: ReadMe is a developer-experience platform that turns an OpenAPI definition into interactive, personalized API documentation and developer hubs — complete with a live API Explorer ("Try It!"), guides, recipes, a changelog, discussions, and Developer Metrics that show how real users call your API. Te…
+  api_count: 3
+  score_band: thin
+  score_composite: 38.9
+  shared: 2
+- slug: redoc
+  name: ReDoc
+  description: ReDoc is an open-source API documentation renderer for OpenAPI specifications by Redocly. It generates a responsive three-panel documentation layout from OpenAPI 3.1, 3.0, and Swagger 2.0 definitions. The left panel provides a search bar and navigation menu, the central panel displays documentation…
+  api_count: 1
+  score_band: thin
+  score_composite: 26.8
+  shared: 2
+- slug: elements
+  name: Stoplight Elements
+  description: Stoplight Elements is an open-source API documentation component library for rendering OpenAPI specifications interactively. It provides embeddable React and Web Components that produce beautiful, interactive API reference documentation from any OpenAPI 2.0, 3.0, or 3.1 document, with support for a…
+  api_count: 1
+  score_band: thin
+  score_composite: 26.7
+  shared: 2
+- slug: slate
+  name: Slate
+  description: Slate is an open-source tool for creating beautiful, three-panel API documentation from Markdown. Built on Ruby and Middleman, Slate renders a left-side navigation menu, a center documentation panel, and a right-side code sample panel. It supports multiple language tabs, full-text search, GitHub Pa…
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.6
+  shared: 2
+- slug: apinotes
+  name: ApiNotes
+  description: ApiNotes is an interactive API documentation tool that generates developer portals with live endpoint testing, code examples in multiple languages, and shareable documentation from OpenAPI and Swagger specifications.
+  api_count: 1
+  score_band: emerging
+  score_composite: 19.6
+  shared: 2
+- slug: dapperdox
+  name: DapperDox
+  description: DapperDox is an open-source API documentation generator that creates beautiful, customizable reference documentation from OpenAPI specifications. It supports theming, overlays, and cross-referencing across multiple API specifications, making it suitable for teams managing complex API ecosystems. Da…
+  api_count: 1
+  score_band: emerging
+  score_composite: 16.2
+  shared: 2
+- slug: documentation
+  name: Documentation
+  description: A curated index of services, tooling, and open source solutions for producing API and developer documentation. This collection covers hosted documentation platforms, open source static site generators, API reference renderers, SDK generators, and developer portal tools across the documentation life…
+  api_count: 0
+  score_band: minimal
+  score_composite: 1.6
+  shared: 2
+- slug: redocly
+  name: Redocly
+  description: Redocly is a company that specializes in API documentation and governance tooling. Their platform helps organizations create, manage, and publish API documentation through Realm (the integrated lifecycle platform that unifies Redoc, Revel, and Reef), Reunite (Git-connected collaboration and deploym…
+  api_count: 4
   score_band: exemplar
-  score_composite: 70.0
+  score_composite: 79.7
+  shared: 1
+- slug: postman
+  name: Postman
+  description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
+  api_count: 21
+  score_band: exemplar
+  score_composite: 73.7
+  shared: 1
+- slug: archbee
+  name: Archbee
+  description: Archbee is a documentation and knowledge-portal platform for software teams. It creates, manages and publishes technical documentation, API references and internal wikis, with collaborative editing, revision history, branching and review, custom-domain publishing, an embeddable in-product docs widg…
+  api_count: 11
+  score_band: exemplar
+  score_composite: 70.9
   shared: 1
 - slug: confluence
   name: Confluence
   description: APIs for Atlassian Confluence - team collaboration and knowledge management software.
   api_count: 3
   score_band: exemplar
-  score_composite: 67.4
+  score_composite: 70.6
+  shared: 1
+- slug: stoplight
+  name: Stoplight
+  description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism (mock server), Spectral (JSON/YAML linter), and Elements (do…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 70.4
+  shared: 1
+- slug: routebase
+  name: Routebase
+  description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living OpenAPI spec.
+  api_count: 1
+  score_band: strong
+  score_composite: 64.3
+  shared: 1
+- slug: apimatic
+  name: APIMatic
+  description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languag…
+  api_count: 5
+  score_band: strong
+  score_composite: 63.1
+  shared: 1
+- slug: apollo-api-documentation
+  name: Apollo API Documentation
+  description: Apollo.io is a sales intelligence and engagement platform. Its REST API provides programmatic access to a database of over 240 million contacts and 30 million companies, covering people and organization enrichment (single and bulk), people/company/news search, and go-to-market workflow management a…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.2
   shared: 1
 - slug: hashnode
   name: Hashnode
   description: Hashnode is a blogging platform for developers and engineering teams, offering publications on a custom domain, a headless CMS mode, and a public GraphQL API covering posts, drafts, publications, users, tags, series, comments and documentation projects. The API is a single GraphQL endpoint with ano…
   api_count: 1
   score_band: strong
-  score_composite: 57.8
+  score_composite: 58.4
+  shared: 1
+- slug: zeroheight
+  name: Zeroheight
+  description: 'zeroheight is a design system platform where teams document components, patterns, guidelines and design tokens in a styleguide, then deliver that documentation to designers, engineers and AI agents. It exposes two machine surfaces: a small key-authenticated REST API (https://zeroheight.com/open_api…'
+  api_count: 1
+  score_band: strong
+  score_composite: 56.3
   shared: 1
 - slug: treblle
   name: Treblle
   description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
   api_count: 1
   score_band: strong
-  score_composite: 55.8
-  shared: 1
-- slug: developerhub
-  name: DeveloperHub
-  description: DeveloperHub is a hosted developer documentation platform that enables teams to create beautiful API references, user guides, and knowledge bases. It features auto-generated API documentation from OpenAPI specifications, built-in versioning, full-text search, custom domains, and a WYSIWYG editor. D…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.4
+  score_composite: 55.6
   shared: 1
 - slug: companycam
   name: CompanyCam
   description: CompanyCam is a photo-based job-site documentation platform for contractors and the trades — roofing, restoration, solar, home services and construction. Its mobile apps capture location- and time-stamped photos and videos that sync to a shared, project-organized workspace so crews, offices and cli…
   api_count: 1
-  score_band: developing
-  score_composite: 53.4
+  score_band: strong
+  score_composite: 55.5
   shared: 1
 - slug: speakeasy
   name: Speakeasy
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
   api_count: 1
-  score_band: developing
-  score_composite: 53.4
-  shared: 1
-- slug: zeroheight
-  name: Zeroheight
-  description: 'zeroheight is a design system platform where teams document components, patterns, guidelines and design tokens in a styleguide, then deliver that documentation to designers, engineers and AI agents. It exposes two machine surfaces: a small key-authenticated REST API (https://zeroheight.com/open_api…'
-  api_count: 1
-  score_band: developing
-  score_composite: 52.9
-  shared: 1
-- slug: apidog
-  name: Apidog
-  description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborativ…'
-  api_count: 1
-  score_band: developing
-  score_composite: 52.5
-  shared: 1
-- slug: sweep
-  name: Sweep
-  description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes safely across complex systems. It unifies discovery, design,…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.6
-  shared: 1
-- slug: planradar
-  name: PlanRadar
-  description: PlanRadar is a SaaS platform for construction and real estate documentation, defect and task management, and site inspections, used by builders, owners, facility managers, architects and engineers in more than 75 countries. Its secure REST Open API (v1 and v2) lets Pro and Enterprise customers read…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.4
-  shared: 1
-- slug: readme
-  name: ReadMe
-  description: ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive API explorer, Try-It console, Developer Dashboard with real-t…
-  api_count: 2
-  score_band: developing
-  score_composite: 51.3
-  shared: 1
-- slug: scribe
-  name: Scribe
-  description: Scribe (scribehow) is an AI workflow-documentation platform founded in 2019 that automatically turns any process or software walkthrough into a step-by-step guide. Its products — Scribe Capture, the knowledge base, and the newer Scribe Optimize workflow-mapping platform — are used by more than five…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.2
+  score_band: strong
+  score_composite: 54.7
   shared: 1
 - slug: elium
   name: Elium
   description: Elium is a European enterprise knowledge-management SaaS platform, founded in 2007 as Knowledge Plaza and renamed Elium in 2017, headquartered in Louvain-la-Neuve, Belgium. Teams capture, validate and govern company knowledge as structured articles - which Elium calls "stories" - inside spaces, usi…
   api_count: 2
   score_band: developing
-  score_composite: 50.8
+  score_composite: 53.9
   shared: 1
-- slug: swaggerhub
-  name: SwaggerHub
-  description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.0, OpenAPI 3.0, OpenAPI 3.1, and AsyncAPI specifications. Th…
+- slug: gitbook
+  name: GitBook
+  description: GitBook is a documentation and knowledge platform, positioned as "the knowledge layer for AI", that connects a company's docs, product and users, answers user questions with AI, and identifies gaps in its knowledge. Teams write and publish product and API documentation with docs-as-code support and…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.9
+  shared: 1
+- slug: sweep
+  name: Sweep
+  description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes safely across complex systems. It unifies discovery, design,…
   api_count: 2
   score_band: developing
-  score_composite: 50.8
+  score_composite: 52.7
   shared: 1
-- slug: hackmd
-  name: HackMD
-  description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide decks or books. HackMD exposes a v1 REST API at api.hackmd.io…
+- slug: planradar
+  name: PlanRadar
+  description: PlanRadar is a SaaS platform for construction and real estate documentation, defect and task management, and site inspections, used by builders, owners, facility managers, architects and engineers in more than 75 countries. Its secure REST Open API (v1 and v2) lets Pro and Enterprise customers read…
   api_count: 1
   score_band: developing
-  score_composite: 50.1
+  score_composite: 52.1
   shared: 1
-- slug: mintlify
-  name: Mintlify
-  description: Mintlify is an AI-native intelligent documentation platform designed for the next generation of technical documentation, combining beautiful out-of-the-box design with advanced collaboration and AI capabilities.
+- slug: apidog
+  name: Apidog
+  description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborativ…'
   api_count: 1
   score_band: developing
-  score_composite: 49.1
+  score_composite: 51.7
   shared: 1
-- slug: nuclino
-  name: Nuclino
-  description: Nuclino is a unified team workspace that combines wikis, docs, and project management into one collaborative platform. Its REST API enables developers to build integrations and automate tasks by programmatically managing items, collections, workspaces, teams, users, fields, and files using Markdown…
+- slug: scribe
+  name: Scribe
+  description: Scribe (scribehow) is an AI workflow-documentation platform founded in 2019 that automatically turns any process or software walkthrough into a step-by-step guide. Its products — Scribe Capture, the knowledge base, and the newer Scribe Optimize workflow-mapping platform — are used by more than five…
   api_count: 1
   score_band: developing
-  score_composite: 45.1
-  shared: 1
-- slug: salesforce-knowledge-management
-  name: Salesforce Knowledge Management
-  description: API for managing knowledge articles, categories, and data in Salesforce Knowledge. Enables creating, reading, updating, publishing, and archiving knowledge articles for customer self-service and agent-assisted support scenarios across multiple channels including internal app, public knowledge base,…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.9
-  shared: 1
-- slug: sideko
-  name: Sideko
-  description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.9
-  shared: 1
-- slug: eraser
-  name: Eraser
-  description: Eraser is an AI-powered diagramming and technical documentation platform designed for engineering teams. It provides a REST API for generating diagrams from natural language prompts or structured DSL, managing files and workspaces, and embedding interactive technical visuals into documentation work…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.6
-  shared: 1
-- slug: inkeep
-  name: Inkeep
-  description: Inkeep is an AI support and agent platform for documentation and products. Its developer platform exposes an OpenAI-compatible RAG / chat completions API over your own content, an Analytics API for logging conversations, feedback, and events, and an Agents / management surface for building and oper…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.6
-  shared: 1
-- slug: apiary
-  name: Apiary
-  description: Apiary is an API design and documentation platform, now part of Oracle Cloud Infrastructure. With 486,000+ users and 591,000+ APIs managed, it uses API Blueprint and Swagger/OpenAPI specifications to produce interactive API documentation, mock servers, automated testing, and collaborative API desig…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.9
-  shared: 1
-- slug: dreamfactory
-  name: DreamFactory
-  description: Automate the building, securing, and documenting of REST APIs for data products with built-in enterprise security on bare-metal, VMs, or containers.
-  api_count: 16
-  score_band: developing
-  score_composite: 41.8
-  shared: 1
-- slug: kapa-ai
-  name: kapa.ai
-  description: kapa.ai is an AI assistant and answer platform that turns technical documentation, GitHub content, forums, and developer products into a retrieval-augmented chat experience. The kapa.ai Query API lets teams ask questions, run threaded conversations with streaming answers, perform semantic retrieval…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.3
-  shared: 1
-- slug: openapi-generator
-  name: OpenAPI Generator
-  description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagger Codegen in 2018 by more than 40 of that project's top cont…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.6
-  shared: 1
-- slug: api-blueprint
-  name: API Blueprint
-  description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Markdown format that makes APIs accessible to both technical a…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.5
-  shared: 1
-- slug: corestory
-  name: CoreStory
-  description: CoreStory is an AI code intelligence platform that ingests large brownfield and legacy codebases and reverse-engineers a persistent understanding of how they work — generating product requirements (PRDs), technical specifications, dependency graphs, and business-rule extractions directly from sourc…
-  api_count: 1
-  score_band: developing
-  score_composite: 39.4
-  shared: 1
-- slug: document360
-  name: Document360
-  description: Document360 is a SaaS knowledge base platform that allows teams to create, manage, and publish self-service knowledge bases and documentation portals. It supports version control, categories, team collaboration, analytics, and an API for integrating documentation into external workflows.
-  api_count: 1
-  score_band: developing
-  score_composite: 39.3
-  shared: 1
-- slug: slite
-  name: Slite
-  description: Slite is a collaborative documentation and knowledge base platform with a REST API for managing notes, channels, documents, templates, and team knowledge bases. It enables asynchronous work through AI-powered search, document creation, and automated knowledge management workflows. The Slite Public…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.5
+  score_composite: 51.5
   shared: 1
 provider_slugs:
-- apimatic
-- confluence
-- hashnode
-- treblle
+- readme
 - developerhub
+- mintlify
+- scalar
+- readmeio
+- redoc
+- elements
+- slate
+- apinotes
+- dapperdox
+- documentation
+- redocly
+- postman
+- archbee
+- confluence
+- stoplight
+- routebase
+- apimatic
+- apollo-api-documentation
+- hashnode
+- zeroheight
+- treblle
 - companycam
 - speakeasy
-- zeroheight
-- apidog
+- elium
+- gitbook
 - sweep
 - planradar
-- readme
+- apidog
 - scribe
-- elium
-- swaggerhub
 - hackmd
-- mintlify
-- nuclino
+- swaggerhub
+- bump-sh
 - salesforce-knowledge-management
+- apiary
+- smartbear
+- theneo
+- nuclino
+- swytchcode
+- openapi-generator
 - sideko
 - eraser
-- inkeep
-- apiary
 - dreamfactory
-- kapa-ai
-- openapi-generator
-- api-blueprint
+- inkeep
 - corestory
+- api-blueprint
 - document360
-- slite
+- kapa-ai
 - apigen
-- readmeio
-- gitbook
+- slite
 - slab
-- rapidoc
 - cargosmart
+- readme-metrics
 - context7
+- rapidoc
+- supernova
 - cargodocs
+- voiden
 - doctave
 - api-fiddle
+- stainless
 - princess-beef-heavy-industries
 - zudoku
-- tax-reporting-templates
-- swagger
-- supernova
-- stainless
-- elements
-- grounded-tools
-- redoc
-- slate
-- fumadocs
-- apigit
-- bookstack
 - prox
-- templates
-- docusaurus
+- grounded-tools
+- apigit
+- fern-api
+- bookstack
+- fumadocs
 - vacuum
 - nextra
-- style-guides
-- apinotes
+- docusaurus
+- konfig-api
 - vitepress
-- openapi
-- tax-templates
-- swimm
-- dapperdox
 - guidde
+- swimm
+- openapi
 - almanac-labs
 - changelog-md
 - mkdocs
-- docsify
 - zoomin
+- docsify
 - joggr
-- sketchpro
 - productnow
+- sketchpro
 - icontrol
-- reporting-templates
 - flowcharts
-- markup-language
 - wikidocs
+- developer-experience
+- markup-language
 - process-flow-diagrams
 - product-specifications
 - acknowledgments-md
 - contributing-md
 - readme-md
-- standard-operating-procedures
-- test-plans
-- test-specifications
 related:
-- slug: support
-  name: Support
-  shared: 2
-- slug: agents-skills
-  name: Agent Skills
-  shared: 2
-- slug: developer-experience
-  name: Developer Experience
-  shared: 2
-- slug: testing
-  name: Testing
-  shared: 2
 - slug: portal
   name: Portal
-  shared: 1
-- slug: cli
-  name: Command Line Interface
-  shared: 1
+  shared: 6
+- slug: design
+  name: Design
+  shared: 5
+- slug: testing
+  name: Testing
+  shared: 5
+- slug: developer-experience
+  name: Developer Experience
+  shared: 4
+- slug: monitoring
+  name: Monitoring
+  shared: 3
+- slug: sdk
+  name: SDKs
+  shared: 2
 overview: 'Documentation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [documentation.apievangelist.com](https://documentation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including APIMatic, Confluence, Hashnode, Treblle, DeveloperHub, CompanyCam, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including ReadMe, DeveloperHub, Mintlify, Scalar, ReadMe.io, ReDoc, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Support, Agent Skills, Developer Experience, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Portal, Design, Testing, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

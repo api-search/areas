@@ -6,597 +6,174 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://sdk.apievangelist.com
 area_host: sdk.apievangelist.com
 icon: https://sdk.apievangelist.com/icon-thumb.png
-provider_count: 354
+provider_count: 18
 providers:
-- slug: cvent-registration
-  name: Cvent Registration
-  description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 81.4
-  shared: 1
-- slug: cvent-event-cloud
-  name: Cvent Event Cloud
-  description: 'Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hybrid event delivery via the Attendee Hub, surveys, and analyt…'
-  api_count: 2
-  score_band: exemplar
-  score_composite: 69.9
-  shared: 1
-- slug: clix-so
-  name: Clix
-  description: Clix is a US-based, developer-first mobile push notification platform for iOS, Android, React Native and Flutter — one CLI command (clix install) automates Firebase Cloud Messaging and APNs setup, and the console adds behaviour-triggered and API-triggered campaigns, real-time delivery logs, full-fu…
-  api_count: 1
-  score_band: strong
-  score_composite: 66.1
-  shared: 1
-- slug: dwolla
-  name: Dwolla
-  description: Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform that lets businesses programmatically move money across the U.S. banking system. Its v2 REST API — a JSON-HAL hypermedia API secured with OAuth 2.0 client-credentials — supports ACH (standard and Same-Day),…
-  api_count: 19
-  score_band: strong
-  score_composite: 63.7
-  shared: 1
-- slug: general-translation
-  name: General Translation
-  description: General Translation is an end-to-end internationalization (i18n) and localization platform for developers, backed by a16z. It combines open-source i18n libraries for React, Next.js, React Native, Node.js, and Python with an AI-powered translation API, a context platform (glossaries and translation…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.7
-  shared: 1
-- slug: buf
-  name: Buf
-  description: 'Buf Technologies builds the modern toolchain for Protocol Buffers and gRPC: the buf CLI, the Buf Schema Registry (BSR), Protovalidate, Protobuf-ES and Protobuf-Py, and the Connect protocol, which is now a CNCF project. It replaces protoc-based workflows with linting, breaking-change detection, code…'
-  api_count: 2
-  score_band: strong
-  score_composite: 61.4
-  shared: 1
-- slug: api-league
-  name: API League
-  description: API League is a single-key hub of 55 read-only HTTP APIs spanning twelve categories — Books, News, Humor, Food, Knowledge, Games, Art, Web, Text, Media, Math and Storage — operated by skycraft GmbH of Dresden, Germany, which has been shipping developer APIs since 2015. Every operation is an HTTP GE…
-  api_count: 13
-  score_band: strong
-  score_composite: 60.6
-  shared: 1
-- slug: suki-ai
-  name: Suki AI
-  description: Suki AI provides voice-enabled, ambient clinical intelligence used by clinicians to generate clinical notes, dictate, and complete documentation tasks across more than 400 health systems. Suki for Partners is a developer platform offering REST APIs and SDKs (Web SDK, Headless Web SDK, Mobile SDK fo…
-  api_count: 3
-  score_band: strong
-  score_composite: 57.8
-  shared: 1
-- slug: odds-api
-  name: Odds API
-  description: OpenAPI-first sports betting odds API (odds-api.net) providing bookmaker odds, odds comparison, arbitrage, positive EV, line movement, and racing/sports coverage via REST plus SSE and WebSocket streaming. Agent-native with an MCP server, llms.txt, and agent instruction files, plus TypeScript and Py…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.0
-  shared: 1
-- slug: lucra-sports
-  name: Lucra Sports
-  description: Lucra (Lucra Sports, Inc.) is a competitive-loyalty and gamification platform that embeds real-money, free-to-play and peer-to-peer contests into third-party consumer apps and websites through a white-label SDK. Partners integrate Games You Play (head-to-head recreational matchups), Sports You Watc…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.7
-  shared: 1
-- slug: dagger
-  name: Dagger
-  description: Dagger is an open-source programmable CI/CD engine that runs pipelines in containers using a unified, introspectable GraphQL API. Pipelines are written as code in the developer's preferred language (Go, Python, TypeScript, PHP, Java, .NET, Elixir, or Rust) using Dagger SDKs and packaged as Dagger M…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.6
-  shared: 1
 - slug: swagger-codegen
   name: Swagger Codegen
   description: Swagger Codegen is an open-source template-driven code generation tool that automatically generates client libraries, server stubs, and API documentation from OpenAPI Specification definitions. It supports 40+ client languages and 20+ server frameworks. Available as a CLI, Docker image, Maven/Gradl…
   api_count: 3
   score_band: strong
-  score_composite: 54.8
-  shared: 1
-- slug: transcend-io
-  name: Transcend
-  description: Transcend is a privacy and data permissioning platform that helps enterprises decide in real time whether customer data can be used for a given purpose. The platform spans data discovery and inventory, data subject request automation, consent and preference management, privacy assessments, and an A…
+  score_composite: 57.6
+  shared: 2
+- slug: ogen
+  name: Ogen
+  description: 'Ogen is an Apache-2.0 OpenAPI v3 code generator for Go, maintained by the ogen-go organization. It reads an OpenAPI v3 document at build time and emits a statically typed Go client and server: code-generated JSON encoding with no reflection or interface{}, code-generated validators, a static radix…'
   api_count: 1
-  score_band: developing
-  score_composite: 54.1
+  score_band: thin
+  score_composite: 38.1
+  shared: 2
+- slug: apimatic
+  name: APIMatic
+  description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languag…
+  api_count: 5
+  score_band: strong
+  score_composite: 63.1
   shared: 1
 - slug: speakeasy
   name: Speakeasy
   description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
   api_count: 1
-  score_band: developing
-  score_composite: 53.4
+  score_band: strong
+  score_composite: 54.7
   shared: 1
-- slug: snap
-  name: Snap
-  description: 'Snap Inc. is the technology company behind Snapchat, Bitmoji, Spectacles, and Lens Studio. Its Snap for Developers program exposes several public APIs and SDKs: the Snapchat Marketing API (Ads API, Ads Gallery API, Conversions API, and Public Profile API) for programmatically managing organizations…'
+- slug: kiota
+  name: Kiota
+  description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the need to take a dependency on a different hand-written SDK f…'
+  api_count: 1
+  score_band: developing
+  score_composite: 46.3
+  shared: 1
+- slug: hey-api
+  name: Hey API
+  description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR hooks, MSW and Playwright test doubles, and Fastify/NestJS/Hon…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.8
+  shared: 1
+- slug: openapi-generator
+  name: OpenAPI Generator
+  description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagger Codegen in 2018 by more than 40 of that project's top cont…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.9
+  shared: 1
+- slug: sideko
+  name: Sideko
+  description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.9
+  shared: 1
+- slug: orval
+  name: Orval
+  description: Orval is an MIT-licensed open source code generator that turns any valid OpenAPI v3 or Swagger v2 specification into type-safe TypeScript. From one spec it emits HTTP request functions (Fetch by default, Axios optional), TanStack Query hooks for React, Vue, Svelte, Solid and Angular, SWR hooks, Ang…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.4
+  shared: 1
+- slug: autorest
+  name: AutoRest
+  description: 'AutoRest is an open source tool from Microsoft (MIT License) that generates client libraries for accessing RESTful APIs from OpenAPI specifications. It powers generation of Azure SDKs across C#, Python, Java, TypeScript, Go, PowerShell, and Swift with an extensible plugin architecture. Note: AutoRe…'
+  api_count: 6
+  score_band: thin
+  score_composite: 36.0
+  shared: 1
+- slug: oapi-codegen
+  name: Oapi-Codegen
+  description: oapi-codegen is an open source Go code generator that produces client and server boilerplate from OpenAPI 3.0 and 3.1 specifications with support for Echo, Chi, Gin, Gorilla/Mux, Iris, Fiber, and the standard library net/http router.
+  api_count: 1
+  score_band: thin
+  score_composite: 32.8
+  shared: 1
+- slug: stainless
+  name: Stainless
+  description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic, Cloudflare, Google, and OpenAI, Stainless automates the boil…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.8
+  shared: 1
+- slug: liblab
+  name: Liblab
+  description: liblab generates and publishes type-safe, idiomatic SDKs in TypeScript, Python, Java, .NET, Go, PHP, and Terraform from OpenAPI/Swagger/Postman specs, plus MCP servers that expose those APIs to AI agents. The platform ships a CLI, hosted portal, and CI/CD GitHub Action that publish SDKs to customer…
   api_count: 4
-  score_band: developing
-  score_composite: 53.3
+  score_band: thin
+  score_composite: 28.1
   shared: 1
-- slug: appsamurai
-  name: Appsamurai
-  description: AppSamurai (legally Apps Medya Teknoloji A.S., engineering org Netvent) is a global, AI-powered mobile app growth platform founded in 2016. It offers user acquisition, retargeting, OEM / on-device app discovery, rewarded user acquisition and monetization across one platform, plus Storyly, its AI-po…
-  api_count: 3
-  score_band: developing
-  score_composite: 52.8
+- slug: snapser
+  name: Snapser
+  description: Snapser is a plug-and-play, modular backend-as-a-service platform for game studios and app developers. Instead of building infrastructure from scratch, teams assemble a backend from modular "Snaps" — managed microservices such as Authentication, Profiles, Storage, Leaderboards, Inventory, Chat, Soc…
+  api_count: 0
+  score_band: thin
+  score_composite: 26.9
   shared: 1
-- slug: bitdrift
-  name: bitdrift
-  description: bitdrift builds Capture, a cost-effective dynamic mobile observability platform for iOS, Android, and React Native. A lightweight on-device SDK stores high-volume telemetry locally and uploads only what is needed under real-time control from the bitdrift control plane, avoiding lengthy mobile relea…
+- slug: nswag
+  name: NSwag
+  description: 'NSwag is the Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript, written in C# and maintained by Rico Suter under an MIT licence. It runs the contract in both directions: generating Swagger 2.0 and OpenAPI 3.0 documents from ASP.NET (Core) controllers, Web API assemblies and plain .NET…'
   api_count: 1
-  score_band: developing
-  score_composite: 51.5
+  score_band: emerging
+  score_composite: 25.9
   shared: 1
-- slug: ostium-labs
-  name: Ostium Labs
-  description: Ostium is a decentralized perpetual-futures exchange that lets traders access global real-world-asset markets — stocks, ETFs, commodities, indices, forex and crypto — directly from a self-custodial crypto wallet, with leverage and no broker or intermediary. Built on Arbitrum, the protocol pairs an…
+- slug: fern-api
+  name: Fern
+  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generates type-safe SDKs in TypeScript, Python, Go, Java, C#, PHP,…
   api_count: 1
-  score_band: developing
-  score_composite: 51.2
+  score_band: emerging
+  score_composite: 25.7
   shared: 1
-- slug: ceros
-  name: Ceros
-  description: Ceros is an experiential content platform used by marketing, design and agency teams to build interactive, no-code web content — microsites, landing pages, interactive reports, infographics, pitch decks and embeddable experiences — in a browser design studio and publish them to a CDN. Its developer…
-  api_count: 3
-  score_band: developing
-  score_composite: 51.1
+- slug: konfig-api
+  name: Konfig
+  description: Konfig is an SDK and API documentation generator that turns an OpenAPI Specification or Postman Collection into production-ready client libraries, interactive reference docs, demos, and tutorials. It generates and publishes idiomatic SDKs across TypeScript/JavaScript, Python, Java, C#, PHP, Ruby, G…
+  api_count: 0
+  score_band: emerging
+  score_composite: 20.4
   shared: 1
-- slug: mercado-pago
-  name: Mercado Pago
-  description: Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Founded in 2003, it processes a substantial share of LatAm digital payments across Brazil (PIX, Boleto, cards), Argentina, Mexico (SPEI, OXXO), Chile, Colombia, Peru, a…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.0
-  shared: 1
-- slug: netomi
-  name: Netomi
-  description: Netomi (founded 2016 as msg.ai) is an enterprise agentic AI platform for customer experience. Its "Agentic OS for CX" orchestrates a network of AI agents across chat, email, telephony, social, search, MCP and API channels, layering a governance tier (topic and policy guardrails, prompt security, re…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.3
-  shared: 1
-- slug: dexcare
-  name: DexCare
-  description: DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand,…
-  api_count: 12
-  score_band: developing
-  score_composite: 50.1
-  shared: 1
-- slug: android
-  name: Android
-  description: Collection of APIs and services available in the Android ecosystem.
-  api_count: 1
-  score_band: developing
-  score_composite: 49.8
-  shared: 1
-- slug: daily-co
-  name: Daily
-  description: Daily provides WebRTC video and audio infrastructure for developers — REST APIs for rooms, recordings, transcripts, meetings, dial-out and Daily Bots / Pipecat Cloud (voice AI agents), plus client SDKs for Web, iOS, Android, React Native and Flutter.
-  api_count: 1
-  score_band: developing
-  score_composite: 49.7
-  shared: 1
-- slug: banuba
-  name: Banuba
-  description: Banuba is an AR and AI technology company providing the Face AR SDK for augmented reality face effects, beauty filters, and virtual try-on experiences. The SDK supports iOS, Android, Web (HTML5), Windows, macOS, Unity, Flutter, and React Native. Use cases include live streaming beauty filters, vide…
-  api_count: 4
-  score_band: developing
-  score_composite: 49.3
-  shared: 1
-- slug: chroma
-  name: Chroma
-  description: Chroma (Chroma DB) is an open-source AI-native embedding database designed to make it easy to build LLM applications by providing storage, retrieval, and management for vector embeddings, full-text search, regex search, and multi-modal retrieval (text, image, audio). Distributed under the Apache 2.…
-  api_count: 2
-  score_band: developing
-  score_composite: 49.3
-  shared: 1
-- slug: scalar
-  name: Scalar
-  description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rules, and automated SDK generation for TypeScript, Python, Go,…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.8
-  shared: 1
-- slug: episerver
-  name: Episerver
-  description: Episerver is a digital experience platform (DXP) vendor that rebranded to Optimizely in 2021 after Episerver acquired Optimizely; the developer surface now ships under the Optimizely brand. The platform combines content management (CMS / Content Cloud), a headless Content Delivery and Content Manag…
-  api_count: 3
-  score_band: developing
-  score_composite: 47.8
-  shared: 1
-- slug: huma
-  name: Huma
-  description: Huma (Huma Therapeutics Limited) is a United Kingdom-headquartered digital health and remote patient monitoring company that provides a regulated, configurable platform for building and running healthcare and life-sciences applications. Its Huma Workspace lets clinical teams assemble no-code apps,…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.8
-  shared: 1
-- slug: graphy
-  name: Graphy
-  description: Graphy is an AI-powered data visualization platform that turns raw data into presentation-ready charts and interactive data stories. Alongside its no-code chart maker (Google Sheets, CSV and Excel import, AI insights, conversational data chat and 20+ chart types), Graphy ships a developer platform…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.5
+- slug: sdk
+  name: SDKs
+  description: A curated index of services, tooling, and open source solutions for generating API SDKs, client libraries, and code from API specifications. This collection covers SDK generation platforms, open source code generators, RPC frameworks, and schema-driven toolchains across the SDK lifecycle stop.
+  api_count: 0
+  score_band: minimal
+  score_composite: 1.6
   shared: 1
 provider_slugs:
-- cvent-registration
-- cvent-event-cloud
-- clix-so
-- dwolla
-- general-translation
-- buf
-- api-league
-- suki-ai
-- odds-api
-- lucra-sports
-- dagger
 - swagger-codegen
-- transcend-io
-- speakeasy
-- snap
-- appsamurai
-- bitdrift
-- ostium-labs
-- ceros
-- mercado-pago
-- netomi
-- dexcare
-- android
-- daily-co
-- banuba
-- chroma
-- scalar
-- episerver
-- huma
-- graphy
-- firework
-- waniwani
-- alokai-formerly-vue-storefront
-- hansoft
-- inmobi
-- sanas
-- truex-media
-- reactor
-- patch-io
-- montonio
-- hey-api
-- sideko
-- priorlabs
-- domob
-- lemon-cash
-- talkjs
-- sensors-data
-- ketch-io
-- mysten-labs
-- terminal-use
-- tripetto
-- commercetools
-- wsc-sports
-- superviz
-- tronzap
-- fidel
-- echo3d
-- moises
-- openapi-generator
-- the-guild-dev
-- cometchat
-- virtualitics
-- krisp
-- rigetti-computing
-- mirrorfly-messages-api
-- split
-- velt
-- real-gift-services
-- fish-audio
-- dyte
-- kiota
-- reka
-- camtasia
-- ikas-ikas-teknoloji-as
-- quarterzip
-- digger
-- matterport
-- truvideo
-- sapiom
-- gitbook
-- easebuzz
-- curai
-- tonic-ai
-- loopme
-- nift
-- apache-http
-- codafication
-- soul-machines
-- kittl
-- symblai
-- argmax
-- ai-coustics
-- reasonblocks
-- snorkel-ai
-- madvertise
-- applitools
-- flic
-- ai-arena
-- daz-3d
-- vantara
-- koah-labs
 - ogen
-- tawkitai
-- helika
-- here-not-there-labs
-- magicx
-- miri
-- antithesis
-- apptimize
-- flow-ai
-- nominal
-- farcaster
+- apimatic
+- speakeasy
+- kiota
+- hey-api
+- openapi-generator
+- sideko
 - orval
-- keyper
-- adcolony
+- autorest
 - oapi-codegen
-- flower
-- godot
-- q-ctrl
-- qiniu
-- worldcoin
-- niantic
-- openfeature
-- raycast
-- angle
-- ultraleap
-- contextsdk
-- huly
-- sensely
-- ansys
-- original
 - stainless
-- perp
-- reforge
-- subbly
 - liblab
-- w4-games
-- vertigis
-- demox-labs
-- guildai
-- series-ai
-- symbolica
-- frvr
-- scandit
-- amwell
-- smithy
-- genql
-- onekey
-- spindl
-- aidinrobotics
-- lm-studio
-- o1-labs
-- mobilion-systems
-- thrift
-- mythical-games
-- onymos
-- tecton
-- nitric
-- parallel-domain
-- wandelbots
-- keeper-security
-- agentsea
-- odyssey
-- maple-finance
-- rerun
-- shakr-media
-- 3d-look
-- adjuvomotion
-- openapi-typescript-codegen
+- snapser
 - nswag
-- unreal-engine
-- zefchain
-- axiado-corporation
-- synervoz
-- dji
-- neuracore
-- simular
-- kneron
-- high-fidelity
-- rive
-- zebec
-- auterion
-- lottielab
-- ntop
-- playroom
-- genies
-- twirp
-- cambridge-mobile-telematics
-- bittensor
-- meniga
-- runanywhere
-- bubble-lab
-- embodyme
-- looking-glass-factory
-- ashr
-- cleverpet
-- milaboratories
-- restsharp
-- logseq
-- citrine-informatics
-- furhatrobotics
-- skippr
-- mirai
-- voxer
-- rainway
-- ramper
-- evinced
-- flurry
-- magic-leap
-- flyby-robotics
-- homa-games
-- picfinder
-- anoma
-- hyperprobe
-- triumph
-- tldraw
-- infinit
-- marginfi
-- human-behavior
-- lisnr
-- qt
-- sandisk
-- aibee
-- oculus
-- royco
-- yaskawa-robotics
-- coinbase-onchain-kit
-- stratasys
-- crow
-- lottiefiles
-- ready-formerly-argent
-- branding-brand
-- ezkl
-- databand
-- double-robotics
-- dylibso
-- retrofit
-- sworkit
-- kipu-quantum
-- atmosplay
-- ellipsis-labs
-- proximie
-- upmem
-- noril1
-- feign
-- pulse-labs
-- effectful
-- mech-mind
-- tobii
-- forte-labs
-- colibri
-- graphcore
-- talus-network
-- zama
-- wonder-workshop
-- connect-rpc
-- heex-technologies
-- wing-cloud
-- alkami
-- naver-z
-- chui
-- hubble-protocol
-- my-ai
-- spline
-- ambiq-micro
-- zenbu-2
-- insta360
-- capn-proto
-- doubledutch
-- regression-games
-- ithaca
-- digilens
-- rebellions
-- zibra-ai
-- gotenna
-- razer
-- bestow
-- tech-soft-3d
-- argent
-- ingresse
-- over
-- tiplink
-- xamarin
-- silk-labs
-- brevis
-- solvebio
-- keystatic
-- hesai-technology
-- layer
-- quadric
-- maxlinear
-- sphero
-- race-protocol
-- omni-network
-- tenstorrent
-- improbable
-- morphcast
-- betdex
-- photoneo
-- saber
-- soundxyz
-- oriient
-- audiomob
-- sanlo
-- unitree
-- roli
-- kinvey
-- stride
-- birentech
-- blocto
-- perennial-labs
-- brainco
-- zogo-finance
-- ionic-security
-- jam-gg
-- rally-network
-- ironsource
-- launchkit
-- habana-labs
-- d
-- indoo-rs
-- streamroot
-- cega
-- mangata-finance
-- fourier-intelligence
-- brooktrout-technology
-- envariant
-- iomob
-- quago-technologies-ltd
-- textnpayme
-- semantic-kernel
-- cybavo
-- carevision-inc
-- moven
-- airbrite
-- anki
-- binpress
-- bump
-- escher-reality
-- fiftythree
-- fleksy
-- fritzai
-- gestoos
-- heyzap
-- kamcord
-- kik-kin
-- mopub
-- placenote
-- scoreloop
-- stamplay
-- uninstall
-- webmynd
-- wupima
-- cardio
+- fern-api
+- konfig-api
+- sdk
 related:
-- slug: authentication
-  name: Authentication
+- slug: cli
+  name: Command Line Interface
+  shared: 3
+- slug: documentation
+  name: Documentation
   shared: 2
-- slug: containers
-  name: Containers
-  shared: 1
 - slug: design
   name: Design
   shared: 1
-- slug: documentation
-  name: Documentation
+- slug: developer-experience
+  name: Developer Experience
   shared: 1
-- slug: logging
-  name: Logging
-  shared: 1
-- slug: privacy
-  name: Privacy
+- slug: testing
+  name: Testing
   shared: 1
 overview: 'SDKs is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [sdk.apievangelist.com](https://sdk.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cvent Registration, Cvent Event Cloud, Clix, Dwolla, General Translation, Buf, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Swagger Codegen, Ogen, APIMatic, Speakeasy, Kiota, Hey API, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication, Containers, Design, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Command Line Interface, Documentation, Design, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---
