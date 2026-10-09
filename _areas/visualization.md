@@ -6,14 +6,21 @@ description: An index and topic collection covering data visualization, charts, 
 area_url: https://visualization.apievangelist.com
 area_host: visualization.apievangelist.com
 icon: https://visualization.apievangelist.com/icon-thumb.png
-provider_count: 30
+provider_count: 31
 providers:
 - slug: datadog
   name: Datadog
   description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
   api_count: 6
   score_band: exemplar
-  score_composite: 70.6
+  score_composite: 79.1
+  shared: 1
+- slug: elastic
+  name: Elastic
+  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 74.2
   shared: 1
 - slug: power-bi
   name: Power BI
@@ -41,7 +48,7 @@ providers:
   description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
   api_count: 1
   score_band: developing
-  score_composite: 53.0
+  score_composite: 53.9
   shared: 1
 - slug: visio
   name: Microsoft Visio API
@@ -78,13 +85,6 @@ providers:
   score_band: thin
   score_composite: 34.6
   shared: 1
-- slug: elastic
-  name: Elastic
-  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
-  api_count: 3
-  score_band: thin
-  score_composite: 34.5
-  shared: 1
 - slug: windy
   name: Windy
   description: Windy.com is a weather visualization platform serving high-resolution forecast models, animated weather maps, and a global webcam network. The Windy API exposes three developer products - a Point Forecast API for multi-model numerical weather data at a coordinate, an embeddable Map Forecast API bas…
@@ -97,7 +97,7 @@ providers:
   description: Lucidchart is a web-based intelligent diagramming application by Lucid Software, part of the Lucid Visual Collaboration Suite (Lucidchart, Lucidspark, Lucidscale). The Lucid Developer Platform exposes a REST API for documents/folders/collaborators/content, an Extension API for in-editor extensions,…
   api_count: 1
   score_band: thin
-  score_composite: 34.0
+  score_composite: 33.9
   shared: 1
 - slug: apache-zeppelin
   name: Apache Zeppelin
@@ -197,6 +197,13 @@ providers:
   score_band: minimal
   score_composite: 3.8
   shared: 1
+- slug: bloom9
+  name: Bloom9
+  description: Bloom9 is a data analytics platform that claims to provide businesses with tools for data integration, visualization, and predictive insights. The company was initially identified through secondary‑market listings and lacks a clearly documented public website or API endpoints. Preliminary searches…
+  api_count: 0
+  score_band: minimal
+  score_composite: 3.0
+  shared: 1
 - slug: gantt-charts
   name: Gantt Charts
   description: Gantt charts are a project-management visualization that depicts tasks, timelines, dependencies, and progress against a calendar. This repository tracks APIs, libraries, and SaaS providers that produce, render, or expose Gantt-chart data for project planning and scheduling use cases.
@@ -211,15 +218,9 @@ providers:
   score_band: minimal
   score_composite: 0
   shared: 1
-- slug: noteable
-  name: Noteable
-  description: Noteable was a collaborative, cloud-based data notebook platform that combined code (SQL, Python, and R), natural language, and interactive no-code visualizations so data teams could explore, visualize, and act on data together in a single browser-based workspace. It offered real-time collaboration…
-  api_count: 0
-  score_band: minimal
-  score_composite: 0
-  shared: 1
 provider_slugs:
 - datadog
+- elastic
 - power-bi
 - foxglove-technologies
 - amazon-quicksight
@@ -229,7 +230,6 @@ provider_slugs:
 - napkin
 - zoho-analytics
 - kibana
-- elastic
 - windy
 - lucidchart
 - apache-zeppelin
@@ -246,24 +246,34 @@ provider_slugs:
 - flowcharts
 - all3d
 - planby-technologies-inc
+- bloom9
 - gantt-charts
 - lagoa
 - noteable
 related:
+- slug: monitoring
+  name: Monitoring
+  shared: 2
 - slug: analysis
   name: Analysis
+  shared: 1
+- slug: search
+  name: API Evangelist Search
   shared: 1
 - slug: design
   name: Design
   shared: 1
-- slug: monitoring
-  name: Monitoring
+- slug: observability
+  name: Observability
+  shared: 1
+- slug: security
+  name: Security
   shared: 1
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Datadog, Power BI, Foxglove Technologies, Amazon QuickSight, Amazon Managed Grafana, Microsoft Visio API, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Datadog, Elastic, Power BI, Foxglove Technologies, Amazon QuickSight, Amazon Managed Grafana, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Analysis, Design, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Monitoring, Analysis, API Evangelist Search, and Design. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

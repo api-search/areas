@@ -6,8 +6,15 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://design.apievangelist.com
 area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
-provider_count: 134
+provider_count: 144
 providers:
+- slug: postman
+  name: Postman
+  description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
+  api_count: 21
+  score_band: exemplar
+  score_composite: 79.6
+  shared: 1
 - slug: adobe-suite
   name: Adobe Suite
   description: 'Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation…'
@@ -15,12 +22,12 @@ providers:
   score_band: exemplar
   score_composite: 78.8
   shared: 1
-- slug: postman
-  name: Postman
-  description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 21
+- slug: stoplight
+  name: Stoplight
+  description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism (mock server), Spectral (JSON/YAML linter), and Elements (do…
+  api_count: 2
   score_band: exemplar
-  score_composite: 73.7
+  score_composite: 71.8
   shared: 1
 - slug: canva
   name: Canva
@@ -28,13 +35,6 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 70.9
-  shared: 1
-- slug: stoplight
-  name: Stoplight
-  description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism (mock server), Spectral (JSON/YAML linter), and Elements (do…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 70.4
   shared: 1
 - slug: routebase
   name: Routebase
@@ -71,6 +71,13 @@ providers:
   score_band: strong
   score_composite: 59.4
   shared: 1
+- slug: smartbear
+  name: SmartBear
+  description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI for API testing, PactFlow for contract testing, and other tool…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.3
+  shared: 1
 - slug: thebrief
   name: TheBrief
   description: The Brief (formerly Creatopy) is an AI-powered advertising creation platform that helps brands and agencies discover, create, launch, and optimize ads at scale. Its Ad Studio, AI agents (Discover, Create, Optimize), and native ad server generate on-brand creatives, resize a single design into 50+ a…
@@ -92,6 +99,20 @@ providers:
   score_band: strong
   score_composite: 54.3
   shared: 1
+- slug: apidog
+  name: Apidog
+  description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborativ…'
+  api_count: 1
+  score_band: developing
+  score_composite: 54.0
+  shared: 1
+- slug: insomnia
+  name: Insomnia
+  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.9
+  shared: 1
 - slug: adobe-creative-cloud
   name: Adobe Creative Cloud
   description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
@@ -103,13 +124,6 @@ providers:
   name: Adobe Creative Suite
   description: Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography.
   api_count: 4
-  score_band: developing
-  score_composite: 51.7
-  shared: 1
-- slug: apidog
-  name: Apidog
-  description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborativ…'
-  api_count: 1
   score_band: developing
   score_composite: 51.7
   shared: 1
@@ -183,13 +197,6 @@ providers:
   score_band: developing
   score_composite: 43.9
   shared: 1
-- slug: smartbear
-  name: SmartBear
-  description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI for API testing, PactFlow for contract testing, and other tool…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.7
-  shared: 1
 - slug: hey-api
   name: Hey API
   description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR hooks, MSW and Playwright test doubles, and Fastify/NestJS/Hon…
@@ -209,31 +216,26 @@ providers:
   description: RapidAPI operates the world's largest API marketplace, connecting developers to thousands of APIs through a single platform. Their developer platform provides tools for API discovery, testing, management, design, and gateway configuration, enabling both individual developers and enterprises to buil…
   api_count: 6
   score_band: developing
-  score_composite: 41.0
-  shared: 1
-- slug: zally
-  name: Zally
-  description: Zally is an open source API linter from Zalando that validates OpenAPI 2 and 3 specifications against configurable rule sets for API design consistency. It exposes a REST API, command-line interface, and web UI for checking API designs against Zalando's RESTful API Guidelines or custom rule sets.
-  api_count: 1
-  score_band: developing
-  score_composite: 41.0
+  score_composite: 41.7
   shared: 1
 provider_slugs:
-- adobe-suite
 - postman
-- canva
+- adobe-suite
 - stoplight
+- canva
 - routebase
 - figma
 - autodesk
 - onshape
 - savee
+- smartbear
 - thebrief
 - zeroheight
 - budgetpixel
+- apidog
+- insomnia
 - adobe-creative-cloud
 - adobe-creative-suite
-- apidog
 - ceros
 - sssnack-com
 - blng
@@ -244,17 +246,16 @@ provider_slugs:
 - adobe-illustrator
 - napkin
 - apiary
-- smartbear
 - hey-api
 - zeplin
 - rapidapi
 - zally
 - api-blueprint
+- noun-project
 - acelab
 - kittl
 - ogen
 - tdaycom
-- insomnia
 - gamma
 - havenly
 - penpot
@@ -329,9 +330,16 @@ provider_slugs:
 - povio
 - designstripe
 - caba
+- icons8
+- lordicon
 - scoutzie
+- colormind
+- colourlovers
+- dribbble
+- cooper-hewitt
 - variant
 - antidot
+- bravegroup
 - mockups
 - minted
 - bounty-hunter
@@ -342,6 +350,8 @@ provider_slugs:
 - studio
 - float
 - rivet-design
+- iconfinder
+- xcolors
 - developer-experience
 - facet
 - herman-miller
@@ -356,10 +366,10 @@ provider_slugs:
 related:
 - slug: documentation
   name: Documentation
-  shared: 5
+  shared: 6
 - slug: testing
   name: Testing
-  shared: 4
+  shared: 5
 - slug: ai-automation
   name: AI Automation
   shared: 3
@@ -369,13 +379,13 @@ related:
 - slug: network
   name: Network
   shared: 1
-- slug: sdk
-  name: SDKs
+- slug: api-clients
+  name: API Clients
   shared: 1
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Adobe Suite, Postman, Canva, Stoplight, Routebase, Figma, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, Adobe Suite, Stoplight, Canva, Routebase, Figma, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation, Testing, AI Automation, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'

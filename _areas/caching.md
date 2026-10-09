@@ -181,9 +181,6 @@ related:
 - slug: proxy
   name: Proxy
   shared: 1
-- slug: database
-  name: Database
-  shared: 1
 - slug: performance
   name: Performance
   shared: 1
@@ -193,5 +190,5 @@ overview: 'Caching is one of the API Evangelist areas on the [APIs.io](https://a
   21 providers on the network work in this area, including Microsoft Azure Cdn, CloudFront, Amazon ElastiCache, Google Cloud CDN, ezoic, Cloudflare AI Gateway, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Proxy, Database, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Proxy and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

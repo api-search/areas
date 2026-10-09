@@ -6,21 +6,49 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 197
+provider_count: 202
 providers:
-- slug: elk-stack
-  name: Elastic Stack
-  description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
-  api_count: 11
-  score_band: exemplar
-  score_composite: 78.5
-  shared: 1
 - slug: algolia
   name: Algolia
   description: Algolia is a hosted search and discovery platform that delivers fast, typo-tolerant search, browse, recommendations and personalization through a suite of REST APIs and edge-distributed infrastructure. It powers search experiences for ecommerce, media, SaaS and content sites, pairing a synchronous…
   api_count: 15
   score_band: exemplar
-  score_composite: 74.4
+  score_composite: 82.8
+  shared: 1
+- slug: cloro-dev
+  name: cloro
+  description: 'cloro is one API for Google Search and AI answer engines: a REST surface at api.cloro.dev that submits a prompt to ChatGPT, Gemini, Perplexity, Microsoft Copilot, Grok, Google AI Mode, Google Search, Google AI Overview and Google News from a chosen country (and US state) and returns the engine''s an…'
+  api_count: 2
+  score_band: exemplar
+  score_composite: 79.4
+  shared: 1
+- slug: elk-stack
+  name: Elastic Stack
+  description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
+  api_count: 19
+  score_band: exemplar
+  score_composite: 78.0
+  shared: 1
+- slug: s1-dev
+  name: Search1API
+  description: Search1API is web access infrastructure for AI agents, operated by SuperAgents, LLC (Delaware). One credit-metered REST API at api.search1api.com provides multi-engine web search (Google, Bing, DuckDuckGo, Yandex, GitHub, arXiv, Reddit, X, Baidu and more), agentic search routed by the TypeSafe Jev…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 75.6
+  shared: 1
+- slug: octen-ai
+  name: Octen
+  description: Octen (Octen.AI) is an AI-native web search and retrieval platform built for LLM applications and agents. Its REST API at api.octen.ai exposes Broad Search (multi-angle query decomposition), Web Search, News Search, Business Search, Image Search, Video Search, URL Extract, text and vision-language…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 75.5
+  shared: 1
+- slug: elastic
+  name: Elastic
+  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 74.2
   shared: 1
 - slug: bloomreach
   name: Bloomreach
@@ -28,6 +56,20 @@ providers:
   api_count: 8
   score_band: exemplar
   score_composite: 72.8
+  shared: 1
+- slug: mrscraper
+  name: MrScraper
+  description: 'MrScraper is an AI-powered web scraping platform: a Scraper API (Web Renderer fetch, Scrape JSON/Markdown, screenshots, listing pages and sitemaps on api.mrscraper.com), a Platform API for creating, rerunning and managing scrapers and results (api.app.mrscraper.com/api/v1), Google SERP, residential…'
+  api_count: 2
+  score_band: exemplar
+  score_composite: 70.9
+  shared: 1
+- slug: google
+  name: Google
+  description: Google Docs is an online word processing and PDF editing tool that is part of Google Workspace. It provides cloud‑based document creation, real‑time collaboration, and AI‑powered features such as Gemini in Docs for drafting and formatting. The service is offered to individuals, small businesses, st…
+  api_count: 9
+  score_band: exemplar
+  score_composite: 70.1
   shared: 1
 - slug: google-search-console
   name: Google Search Console
@@ -50,6 +92,13 @@ providers:
   score_band: exemplar
   score_composite: 67.1
   shared: 1
+- slug: machinelibrary-ai
+  name: Space Frontiers
+  description: 'Space Frontiers is a Wyoming corporation whose search and AI product, Machine Library (formerly Space Frontiers search, moved to machinelibrary.ai on 2026-09-12), is a full-text retrieval API and hosted MCP server over a corpus the provider describes as multi-billion documents: peer-reviewed papers…'
+  api_count: 4
+  score_band: strong
+  score_composite: 65.5
+  shared: 1
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
@@ -70,6 +119,13 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 64.2
+  shared: 1
+- slug: arcmira
+  name: Arcmira
+  description: Arcmira provides AI-powered search of YouTube transcript data, enabling developers to retrieve timestamped passages, speaker mentions, sponsors, and ad reads. Their platform offers JavaScript and Python SDKs, a CLI, and an OAuth-enabled remote MCP for integrating spoken web insights into applicatio…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.6
   shared: 1
 - slug: serpwow
   name: SerpWow
@@ -92,19 +148,19 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
-- slug: machinelibrary-ai
-  name: Space Frontiers
-  description: 'Space Frontiers is a Wyoming corporation whose search and AI product, Machine Library (formerly Space Frontiers search, moved to machinelibrary.ai on 2026-09-12), is a full-text retrieval API and hosted MCP server over a corpus of roughly 2.9 billion records: peer-reviewed papers (CrossRef, PubMed,…'
-  api_count: 4
-  score_band: strong
-  score_composite: 60.8
-  shared: 1
 - slug: open-food-facts
   name: Open Food Facts
   description: Open Food Facts is a collaborative, free and open database of food products from around the world, built by everyone for everyone. Anyone can scan a barcode and contribute product data, and the whole database is published under the Open Database License so it can be re-used for any purpose. The pro…
   api_count: 8
   score_band: strong
-  score_composite: 60.7
+  score_composite: 60.1
+  shared: 1
+- slug: litescrape
+  name: Litescrape
+  description: Litescrape is a search-results and web-data API from Litescrape LLC (Sheridan, Wyoming) that returns structured JSON from Google Search, Google AI Overview and AI Mode, Google Maps and reviews, Google Shopping, Bing, DuckDuckGo, Apple Maps, Yelp, Tripadvisor, Google Play and the Apple App Store, pl…
+  api_count: 2
+  score_band: strong
+  score_composite: 59.1
   shared: 1
 - slug: exa-ai
   name: Exa
@@ -127,26 +183,19 @@ providers:
   score_band: strong
   score_composite: 58.3
   shared: 1
+- slug: sociallisteningapi
+  name: SocialListeningAPI
+  description: SocialListeningAPI is a social listening API for developers and AI agents that searches public posts, videos, profiles, forum discussions and Google results across LinkedIn, X, Reddit, Facebook, Hacker News, TikTok, YouTube, Pinterest, Instagram, Google and Discourse through one x-api-key and a nor…
+  api_count: 2
+  score_band: strong
+  score_composite: 57.4
+  shared: 1
 - slug: perplexity
   name: Perplexity
   description: Perplexity AI is an answer engine that delivers accurate answers to complex questions using large language models with real-time web search capabilities.
   api_count: 1
   score_band: strong
   score_composite: 57.0
-  shared: 1
-- slug: sociallisteningapi
-  name: SocialListeningAPI
-  description: SocialListeningAPI is a social listening API for developers and AI agents that searches public posts, videos, profiles, forum discussions and Google results across LinkedIn, X, Reddit, Facebook, Hacker News, TikTok, YouTube, Pinterest, Instagram, Google and Discourse through one x-api-key and a nor…
-  api_count: 2
-  score_band: strong
-  score_composite: 56.7
-  shared: 1
-- slug: google
-  name: Google
-  description: Google's public APIs and services.
-  api_count: 9
-  score_band: strong
-  score_composite: 56.3
   shared: 1
 - slug: serper
   name: Serper
@@ -169,76 +218,34 @@ providers:
   score_band: strong
   score_composite: 55.5
   shared: 1
-- slug: anyapi
-  name: AnyAPI
-  description: AnyAPI is a unified gateway and marketplace for scraping and data APIs, operated by AnyAPI Labs, Inc. One key and one prepaid USD wallet reach 363 normalized third-party data sources - social profiles and posts, search and SEO, commerce listings and reviews, sales enrichment and email verification,…
-  api_count: 2
-  score_band: strong
-  score_composite: 55.3
-  shared: 1
-- slug: crustapi
-  name: CrustAPI
-  description: Hosted API delivering structured Google (Search/Maps/etc.) and public LinkedIn data as JSON for developers, data teams, and AI agents. Pay-per-successful-result billing with an OpenAPI spec, an llms.txt, an x402 agent-payment endpoint, and a local MCP server.
-  api_count: 2
-  score_band: strong
-  score_composite: 55.2
-  shared: 1
-- slug: cribl
-  name: Cribl
-  description: Cribl is an observability pipeline company providing a suite of products for collecting, processing, routing, searching, and storing telemetry data at scale. Cribl's developer platform offers REST APIs across Stream, Edge, Search, Lake, and the As Code product line, exposing programmatic control ov…
-  api_count: 6
-  score_band: strong
-  score_composite: 55.0
-  shared: 1
-- slug: browserless
-  name: Browserless
-  description: Browserless is a cloud browser-automation platform that runs managed Chromium, Chrome, Edge, Firefox, and WebKit browsers for Puppeteer, Playwright, and Selenium clients, plus a GraphQL-based stealth automation layer (BrowserQL) and a family of REST APIs for screenshots, PDFs, content scraping, fun…
-  api_count: 1
-  score_band: strong
-  score_composite: 54.9
-  shared: 1
-- slug: vectara
-  name: Vectara
-  description: Vectara is a Retrieval Augmented Generation (RAG) as a service platform that provides grounded generative AI for enterprises. The API-first platform exposes a unified REST API v2 for managing corpora, ingesting documents, performing semantic and hybrid search, generating answers with hallucination…
-  api_count: 1
-  score_band: strong
-  score_composite: 54.8
-  shared: 1
-- slug: tmdb
-  name: The Movie Database
-  description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
-  api_count: 21
-  score_band: strong
-  score_composite: 54.6
-  shared: 1
-- slug: insider
-  name: Insider
-  description: Insider (rebranded Insider One; useinsider.com now redirects to insiderone.com) is an AI-native customer engagement and personalization platform used by 2,000+ global brands. It unifies a Customer Data Platform, cross-channel journey orchestration (Architect), personalization, predictive segmentati…
-  api_count: 18
-  score_band: strong
-  score_composite: 54.5
-  shared: 1
 provider_slugs:
-- elk-stack
 - algolia
+- cloro-dev
+- elk-stack
+- s1-dev
+- octen-ai
+- elastic
 - bloomreach
+- mrscraper
+- google
 - google-search-console
 - crawl4ai
 - perigon
+- machinelibrary-ai
 - shodan
 - ahrefs
 - google-indexing
+- arcmira
 - serpwow
 - amazon-kendra
 - geekflare
-- machinelibrary-ai
 - open-food-facts
+- litescrape
 - exa-ai
 - amazon-cloudsearch
 - clerk-io
-- perplexity
 - sociallisteningapi
-- google
+- perplexity
 - serper
 - unblocked
 - mixedbread-ai
@@ -248,9 +255,9 @@ provider_slugs:
 - browserless
 - vectara
 - tmdb
-- insider
 - vespa-ai
 - searchapi
+- insider
 - constructorio
 - sylvia-api
 - amazon-opensearch
@@ -264,6 +271,7 @@ provider_slugs:
 - tweetapi
 - kannkidas-de
 - rettfrabonden-com
+- opoint
 - aito-technologies
 - tako
 - openserp
@@ -276,11 +284,10 @@ provider_slugs:
 - microsoft-azure-search
 - dexcare
 - wikimedia
-- google-custom-search
-- google-youtube
 - duckduckgo
 - moz
 - tinyfish
+- google-custom-search
 - openmenu
 - macrometa
 - newscatcher
@@ -291,7 +298,6 @@ provider_slugs:
 - trieve
 - outdoorsy
 - newsapi
-- janus-machine-market
 - active-network
 - topk
 - apache-nutch
@@ -302,6 +308,7 @@ provider_slugs:
 - mem
 - jetify
 - kagi
+- janus-machine-market
 - quickwit
 - tollbit
 - zeroentropy
@@ -336,7 +343,6 @@ provider_slugs:
 - slite
 - mytomorrows
 - nuxeo
-- elastic
 - preply
 - google-books
 - orama
@@ -349,16 +355,16 @@ provider_slugs:
 - qeenai
 - jina-ai
 - golden
-- serpapi
 - lucidworks
 - kakao
+- serpapi
 - gnews
 - nutrientsdb
 - taddy
 - demo-openapi
 - mastodon-instances
-- glean
 - quissly-inc
+- glean
 - moda-operandi
 - solve-intelligence
 - the-index-fyi
@@ -389,7 +395,6 @@ provider_slugs:
 - openevidence
 - newsdata
 - plos
-- podcast-api
 - plush
 - zyla
 - statmuse
@@ -419,27 +424,27 @@ provider_slugs:
 related:
 - slug: scraping
   name: Scraping
-  shared: 3
-- slug: discovery
-  name: API Evangelist Discovery
+  shared: 2
+- slug: agents
+  name: Agents
   shared: 2
 - slug: dns
   name: DNS
   shared: 2
-- slug: internet-of-things
-  name: Internet of Things
-  shared: 1
-- slug: ai-automation
-  name: AI Automation
-  shared: 1
-- slug: agents
-  name: Agents
-  shared: 1
+- slug: monitoring
+  name: Monitoring
+  shared: 2
+- slug: observability
+  name: Observability
+  shared: 2
+- slug: security
+  name: Security
+  shared: 2
 overview: 'API Evangelist Search is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [search.apievangelist.com](https://search.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Elastic Stack, Algolia, Bloomreach, Google Search Console, Crawl4AI, Perigon, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Algolia, cloro, Elastic Stack, Search1API, Octen, Elastic, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Scraping, API Evangelist Discovery, DNS, and Internet of Things. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Scraping, Agents, DNS, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

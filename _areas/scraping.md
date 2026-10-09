@@ -191,7 +191,7 @@ related:
   shared: 5
 - slug: search
   name: API Evangelist Search
-  shared: 3
+  shared: 2
 - slug: agents-skills
   name: Agent Skills
   shared: 2

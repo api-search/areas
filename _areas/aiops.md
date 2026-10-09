@@ -8,6 +8,13 @@ area_host: aiops.apievangelist.com
 icon: https://aiops.apievangelist.com/icon-thumb.png
 provider_count: 50
 providers:
+- slug: logicmonitor
+  name: LogicMonitor
+  description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 74.6
+  shared: 1
 - slug: akuity
   name: Akuity
   description: 'Akuity is the enterprise software delivery company founded by the creators of Argo CD and Kargo. The Akuity Platform is its commercial, fully-managed offering: hosted, enterprise-grade Argo CD control planes for GitOps continuous delivery, managed Kargo for multi-stage progressive promotion, the Ak…'
@@ -36,13 +43,6 @@ providers:
   score_band: strong
   score_composite: 66.4
   shared: 1
-- slug: logicmonitor
-  name: LogicMonitor
-  description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
-  api_count: 4
-  score_band: strong
-  score_composite: 65.8
-  shared: 1
 - slug: logz-io
   name: Logz.io
   description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
@@ -63,6 +63,20 @@ providers:
   api_count: 17
   score_band: strong
   score_composite: 63.0
+  shared: 1
+- slug: chronosphere
+  name: Chronosphere
+  description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
+  api_count: 4
+  score_band: strong
+  score_composite: 62.4
+  shared: 1
+- slug: sciencelogic
+  name: ScienceLogic
+  description: ScienceLogic is an AIOps and IT operations company whose ScienceLogic AI Platform — rebranded in 2026 as the Skylar family — covers infrastructure and application observability, network configuration and compliance, and workflow automation. Skylar One (formerly SL1) is the observability platform, w…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.3
   shared: 1
 - slug: elastic-observability
   name: Elastic Observability
@@ -85,13 +99,6 @@ providers:
   score_band: strong
   score_composite: 59.2
   shared: 1
-- slug: sciencelogic
-  name: ScienceLogic
-  description: ScienceLogic is an AIOps and IT operations company whose ScienceLogic AI Platform — rebranded in 2026 as the Skylar family — covers infrastructure and application observability, network configuration and compliance, and workflow automation. Skylar One (formerly SL1) is the observability platform, w…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.8
-  shared: 1
 - slug: 7signalsolutions
   name: 7SIGNAL
   description: 7SIGNAL is an enterprise wireless and wired network experience monitoring platform, headquartered in Independence, Ohio, that measures Wi-Fi and network performance from the client's point of view using vendor-agnostic Sapphire Eye hardware sensors and Mobile Eye software agents installed on endpoi…
@@ -99,19 +106,12 @@ providers:
   score_band: strong
   score_composite: 57.2
   shared: 1
-- slug: chronosphere
-  name: Chronosphere
-  description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
-  api_count: 3
-  score_band: strong
-  score_composite: 54.6
-  shared: 1
 - slug: kentik
   name: Kentik
   description: Kentik is a network observability company whose SaaS platform (the Kentik Portal) unifies network flow records, BGP routing, SNMP and streaming telemetry, synthetic tests, and cloud VPC/flow logs into one analytics engine for network performance monitoring, capacity planning, DDoS detection and mit…
   api_count: 20
   score_band: developing
-  score_composite: 53.7
+  score_composite: 53.2
   shared: 1
 - slug: zenoss
   name: Zenoss
@@ -119,6 +119,13 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 51.6
+  shared: 1
+- slug: coralogix
+  name: Coralogix
+  description: Coralogix is a comprehensive observability platform that delivers real‑time log analytics, metrics, tracing, and AI‑driven insights. It enables developers, DevOps, and SRE teams to monitor applications, infrastructure, and services across cloud, on‑premise, and hybrid environments. Features include…
+  api_count: 4
+  score_band: developing
+  score_composite: 50.7
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
@@ -211,30 +218,24 @@ providers:
   score_band: thin
   score_composite: 28.1
   shared: 1
-- slug: carrot-labs
-  name: Carrot Labs
-  description: Carrot Labs is the company behind SuperPenguin, an AI spend intelligence platform that tracks, attributes, and forecasts spending across 14+ LLM, speech, and gateway providers including OpenAI, Anthropic, Google Gemini, AWS Bedrock, Vercel AI Gateway, Deepgram, ElevenLabs, LiveKit, and LiteLLM. Sup…
-  api_count: 1
-  score_band: thin
-  score_composite: 27.5
-  shared: 1
 provider_slugs:
+- logicmonitor
 - akuity
 - soda-data
 - bigpanda
 - firehydrant
-- logicmonitor
 - logz-io
 - groundcover
 - moogsoft
+- chronosphere
+- sciencelogic
 - elastic-observability
 - deployxa
 - metaplane
-- sciencelogic
 - 7signalsolutions
-- chronosphere
 - kentik
 - zenoss
+- coralogix
 - virtual-instruments
 - brownie
 - runwhen
@@ -254,7 +255,6 @@ provider_slugs:
 - riverbed-technology
 - aruba-hpe
 - hyground
-- coralogix
 - opsramp
 - oneapm
 - blameless
@@ -272,13 +272,13 @@ provider_slugs:
 related:
 - slug: observability
   name: Observability
-  shared: 5
-- slug: monitoring
-  name: Monitoring
   shared: 4
 - slug: logging
   name: Logging
   shared: 3
+- slug: monitoring
+  name: Monitoring
+  shared: 2
 - slug: agents
   name: Agents
   shared: 1
@@ -291,8 +291,8 @@ related:
 overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aiops.apievangelist.com](https://aiops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Akuity, Soda, BigPanda, FireHydrant, LogicMonitor, Logz.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including LogicMonitor, Akuity, Soda, BigPanda, FireHydrant, Logz.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability, Monitoring, Logging, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Logging, Monitoring, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -15,6 +15,13 @@ providers:
   score_band: exemplar
   score_composite: 83.6
   shared: 1
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 25
+  score_band: exemplar
+  score_composite: 80.6
+  shared: 1
 - slug: amazon-dynamodb
   name: Amazon DynamoDB
   description: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-value and document data models.
@@ -34,14 +41,7 @@ providers:
   description: Prisma gives TypeScript and Node.js teams a type-safe ORM, managed serverless Postgres, and Compute for deploying apps and AI agents next to their database. The product line is Prisma ORM, Prisma Postgres, Prisma Compute, Prisma Composer, Prisma Studio, Object Store buckets and Query Insights, wire…
   api_count: 7
   score_band: exemplar
-  score_composite: 73.2
-  shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 24
-  score_band: exemplar
-  score_composite: 71.9
+  score_composite: 72.7
   shared: 1
 - slug: netlify
   name: Netlify
@@ -71,6 +71,13 @@ providers:
   score_band: exemplar
   score_composite: 69.4
   shared: 1
+- slug: ibm
+  name: IBM
+  description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and governance in the AI era. The company targets organizations s…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 69.1
+  shared: 1
 - slug: segmind
   name: Segmind
   description: Segmind is a serverless GPU inference platform that puts 200+ generative AI models — image, video, audio, 3D and LLM — behind one REST gateway with a single API key. Calls are metered per GPU-second or per generation against a prepaid credit balance, with the cost of every request reported inline o…
@@ -84,13 +91,6 @@ providers:
   api_count: 3
   score_band: exemplar
   score_composite: 68.6
-  shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
-  api_count: 1
-  score_band: strong
-  score_composite: 65.0
   shared: 1
 - slug: modal-labs
   name: Modal
@@ -176,19 +176,19 @@ providers:
   score_band: strong
   score_composite: 57.6
   shared: 1
-- slug: aws-app-runner
-  name: AWS App Runner
-  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
-  api_count: 16
-  score_band: strong
-  score_composite: 57.1
-  shared: 1
 - slug: archil
   name: Archil
   description: Archil is the cloud filesystem for AI. It turns an existing object-storage bucket (Amazon S3, Google Cloud Storage, Cloudflare R2, Azure Blob, MinIO, Wasabi, Backblaze B2, DigitalOcean Spaces) into an unlimited, POSIX-compatible local disk that thousands of machines can mount at once — live, in pla…
   api_count: 1
   score_band: strong
   score_composite: 56.5
+  shared: 1
+- slug: aws-app-runner
+  name: AWS App Runner
+  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
+  api_count: 16
+  score_band: strong
+  score_composite: 56.0
   shared: 1
 - slug: amazon-proton
   name: Amazon Proton
@@ -220,17 +220,17 @@ providers:
   shared: 1
 provider_slugs:
 - appwrite
+- cloudflare
 - amazon-dynamodb
 - oracle-cloud
 - prisma
-- cloudflare
 - netlify
 - aws-api-gateway
 - aws-lambda
 - microsoft-azure-functions
+- ibm
 - segmind
 - fal-ai
-- ibm
 - modal-labs
 - koyeb
 - azure-container-apps
@@ -243,8 +243,8 @@ provider_slugs:
 - freestyle-sh
 - amazon-efs
 - formboost
-- aws-app-runner
 - archil
+- aws-app-runner
 - amazon-proton
 - cloudflare-queues
 - fermyon
@@ -257,8 +257,8 @@ provider_slugs:
 - neon
 - microsoft-azure-web-pubsub
 - google-cloud-api-gateway
-- runpod
 - agentuity
+- runpod
 - vast-ai
 - amazon-fargate
 - turbopuffer
@@ -286,12 +286,12 @@ provider_slugs:
 - google-cloud-eventarc
 - localstack
 - google-bigquery
-- aws-glue
 - supabase
 - qubrid-ai
 - partykit
 - codehooks
 - momento
+- aws-glue
 - rivet
 - spocket
 - deno
@@ -328,12 +328,12 @@ provider_slugs:
 - kvdb
 - quarkus
 - quirrel
-- alibaba
 - micronaut
 - nitric
 - motherduck
 - sst-dev
 - 8base
+- alibaba
 - unweave
 - gimlet-labs
 - streamfold
@@ -373,7 +373,7 @@ related:
 overview: 'Serverless is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [serverless.apievangelist.com](https://serverless.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Appwrite, Amazon DynamoDB, Oracle Cloud Infrastructure, Prisma, Cloudflare, Netlify, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Appwrite, Cloudflare, Amazon DynamoDB, Oracle Cloud Infrastructure, Prisma, Netlify, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, Database, Deployment, and Gateway. Browse every area at [areas.apis.io](https://apis.io/areas/).'

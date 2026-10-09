@@ -6,7 +6,7 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 84
+provider_count: 81
 providers:
 - slug: apis-io
   name: APIs.io
@@ -85,13 +85,6 @@ providers:
   score_band: strong
   score_composite: 62.8
   shared: 1
-- slug: 360learning
-  name: 360Learning
-  description: '360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automate the platform: provision and activate users, organize them…'
-  api_count: 5
-  score_band: strong
-  score_composite: 62.6
-  shared: 1
 - slug: airops
   name: AirOps
   description: AirOps is a growth platform for AI search and answer engine optimization (AEO) that helps brands measure and improve their visibility across AI assistants and search engines including ChatGPT, Perplexity, Gemini, Claude, and Google. The platform pairs Insights (citation tracking, share-of-voice, se…
@@ -154,6 +147,13 @@ providers:
   api_count: 14
   score_band: strong
   score_composite: 58.9
+  shared: 1
+- slug: assetfare
+  name: AssetFare
+  description: A capped, non-custodial routing API for a single corridor — Solana SOL to Base native ETH — aimed at AI agents. It returns fee-inclusive quotes and bounded unsigned actions; the caller's agent verifies, signs, and submits every transaction. AssetFare never receives private keys and never signs or s…
+  api_count: 4
+  score_band: strong
+  score_composite: 58.5
   shared: 1
 - slug: hashnode
   name: Hashnode
@@ -230,7 +230,6 @@ provider_slugs:
 - clickfunnels
 - lacuna
 - parallel-web-systems
-- 360learning
 - airops
 - se-ranking
 - dant3-net
@@ -240,6 +239,7 @@ provider_slugs:
 - synthflow
 - adanos-market-sentiment-api
 - ledger
+- assetfare
 - hashnode
 - developerhub
 - zyte
@@ -251,13 +251,12 @@ provider_slugs:
 - credo-ai
 - ballerina
 - voygr
-- assetfare
 - abbyy
 - enigma-analytics
 - plyrium-com
-- apicontext
 - typesafe-ai
 - daloopa
+- apicontext
 - trusona
 - meta-agent-tools
 - lokki
@@ -269,9 +268,7 @@ provider_slugs:
 - admakeai
 - renoolab-fr
 - btc-war-live-market-data-api
-- smithery
 - aelf-inc
-- coorpacademy
 - mydentify-public-api
 - amazon-seller-central
 - probabl

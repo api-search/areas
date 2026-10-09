@@ -12,8 +12,8 @@ providers:
   name: Workato
   description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
   api_count: 4
-  score_band: strong
-  score_composite: 64.0
+  score_band: exemplar
+  score_composite: 67.2
   shared: 2
 - slug: alloy-automation
   name: Alloy Automation
@@ -34,7 +34,7 @@ providers:
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
   api_count: 4
   score_band: exemplar
-  score_composite: 89.2
+  score_composite: 89.3
   shared: 1
 - slug: losant
   name: Losant
@@ -48,7 +48,14 @@ providers:
   description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
   api_count: 1
   score_band: exemplar
-  score_composite: 70.6
+  score_composite: 74.0
+  shared: 1
+- slug: zapier
+  name: Zapier
+  description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.9
   shared: 1
 - slug: integration-os
   name: IntegrationOS
@@ -56,6 +63,13 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 68.1
+  shared: 1
+- slug: boomi
+  name: Boomi
+  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 67.6
   shared: 1
 - slug: pandium
   name: Pandium
@@ -69,7 +83,7 @@ providers:
   description: Vessel (Kinit Inc.) is a developer-first embedded integrations platform for go-to-market software. It gives a product team one contract to read and write an end customer's CRM, sales engagement, chat, dialer and marketing automation tools, plus a drop-in browser component — Vessel Link — that handl…
   api_count: 20
   score_band: strong
-  score_composite: 64.4
+  score_composite: 64.0
   shared: 1
 - slug: prismatic
   name: Prismatic
@@ -85,27 +99,6 @@ providers:
   score_band: strong
   score_composite: 62.2
   shared: 1
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 3
-  score_band: strong
-  score_composite: 62.0
-  shared: 1
-- slug: integration-app
-  name: Integration.app (Membrane)
-  description: Integration.app, now operating as Membrane (getmembrane.com), is an agentic integration infrastructure platform that lets AI agents, products, and internal tools connect with 100,000+ applications through a unified interface. It exposes integrations via API, CLI, SDK, MCP servers, and embedded UI,…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.6
-  shared: 1
-- slug: zapier
-  name: Zapier
-  description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
-  api_count: 1
-  score_band: strong
-  score_composite: 61.5
-  shared: 1
 - slug: agave
   name: Agave
   description: Agave is a unified API platform for the construction industry, enabling software companies and contractors to read and write data across 100+ construction and accounting software systems including Procore, Autodesk Build, QuickBooks, Sage, Viewpoint, and more.
@@ -113,12 +106,33 @@ providers:
   score_band: strong
   score_composite: 61.3
   shared: 1
+- slug: integration-app
+  name: Integration.app (Membrane)
+  description: Integration.app, now operating as Membrane (getmembrane.com), is an agentic integration infrastructure platform that lets AI agents, products, and internal tools connect with 100,000+ applications through a unified interface. It exposes integrations via API, CLI, SDK, MCP servers, and embedded UI,…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.1
+  shared: 1
 - slug: viam
   name: Viam
   description: Viam is a robotics and edge AI platform founded in 2020 by Eliot Horowitz (MongoDB co-founder and former CTO). It pairs viam-server — a gRPC-based runtime that runs on Linux single-board computers (RDK) and ESP32-class microcontrollers (micro-rdk) — with viam.app, a multi-tenant cloud for fleet man…
   api_count: 13
   score_band: strong
   score_composite: 60.7
+  shared: 1
+- slug: snaplogic
+  name: SnapLogic
+  description: SnapLogic provides an Agentic Integration and Applied AI Platform that securely connects applications, data, APIs and AI agents across cloud, on‑premise and hybrid environments for enterprises. The platform offers visual ETL/ELT, no‑code iPaaS, API management, legacy modernization tools, and govern…
+  api_count: 1
+  score_band: strong
+  score_composite: 59.6
+  shared: 1
+- slug: celigo
+  name: Celigo
+  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.1
   shared: 1
 - slug: 3shake
   name: 3-shake
@@ -162,19 +176,19 @@ providers:
   score_band: developing
   score_composite: 51.3
   shared: 1
-- slug: appmixer
-  name: Appmixer
-  description: Let your users build powerful agentic workflowsno code, fully white-labeled, and embedded right in your web app.
-  api_count: 1
-  score_band: developing
-  score_composite: 51.3
-  shared: 1
 - slug: hull
   name: Hull
   description: Hull is a real-time Customer Data Platform (CDP) that unifies customer data from every source — web, product, CRM, marketing and support tools, databases and files — into a single User and Account profile using claim-based identity resolution. It ingests, computes and enriches data through a data-l…
   api_count: 1
   score_band: developing
   score_composite: 50.9
+  shared: 1
+- slug: appmixer
+  name: Appmixer
+  description: Let your users build powerful agentic workflowsno code, fully white-labeled, and embedded right in your web app.
+  api_count: 1
+  score_band: developing
+  score_composite: 50.5
   shared: 1
 - slug: azure-logic-apps
   name: Azure Logic Apps
@@ -204,20 +218,6 @@ providers:
   score_band: developing
   score_composite: 49.3
   shared: 1
-- slug: 1nce
-  name: 1NCE
-  description: 1NCE is a Cologne-headquartered global IoT connectivity provider best known for the IoT Lifetime Flat — a single one-time fee that bundles a multi-network SIM with 500 MB of data and 250 SMS over a 10-year subscription. The 1NCE Management API on api.1nce.com/management-api exposes the same surface…
-  api_count: 8
-  score_band: developing
-  score_composite: 48.9
-  shared: 1
-- slug: golioth
-  name: Golioth
-  description: Golioth is an IoT device management cloud and firmware SDK for connected hardware. The platform pairs an open-source Firmware SDK (Zephyr RTOS, nRF Connect SDK, ESP-IDF, ModusToolbox, Linux) with a REST Management API at api.golioth.io, a web console, and services for OTA firmware updates, device s…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.5
-  shared: 1
 provider_slugs:
 - workato
 - alloy-automation
@@ -225,24 +225,26 @@ provider_slugs:
 - tray-ai
 - losant
 - jitterbit
+- zapier
 - integration-os
+- boomi
 - pandium
 - vessel
 - prismatic
 - particle
-- boomi
-- integration-app
-- zapier
 - agave
+- integration-app
 - viam
+- snaplogic
+- celigo
 - 3shake
 - cobalt
 - syncari
 - oracle-integration
 - whereby
 - aws-step-functions
-- appmixer
 - hull
+- appmixer
 - azure-logic-apps
 - rewst
 - cyclr
@@ -251,7 +253,6 @@ provider_slugs:
 - golioth
 - sap-integration-suite
 - skyvia
-- snaplogic
 - stackone
 - integrately
 - runautomat
@@ -259,6 +260,7 @@ provider_slugs:
 - flume-health
 - renesas
 - elastic-io
+- frends
 - modusbox
 - kombo
 - morf
@@ -266,7 +268,6 @@ provider_slugs:
 - civil-infrastructure-platform
 - cesanta
 - jetic
-- celigo
 - elisa
 - zephyr
 - reachware-inc
@@ -288,9 +289,9 @@ provider_slugs:
 - unifyapps
 - ifttt
 - cleverpet
-- lonti
 - arm
 - neros
+- lonti
 - qt
 - locoia
 - silabs
@@ -305,7 +306,6 @@ provider_slugs:
 - exein
 - aprilgetaprilcom
 - roofline
-- frends
 - plumerai
 - unified-apis
 - code-metal
@@ -324,27 +324,27 @@ provider_slugs:
 related:
 - slug: ipaas
   name: iPaaS
-  shared: 16
-- slug: workflow-automation
-  name: Workflow Automation
-  shared: 5
+  shared: 18
 - slug: management
   name: Management
-  shared: 4
+  shared: 6
+- slug: workflow-automation
+  name: Workflow Automation
+  shared: 6
+- slug: ai-automation
+  name: AI Automation
+  shared: 5
 - slug: orchestration
   name: Orchestration
   shared: 3
-- slug: ai-automation
-  name: AI Automation
+- slug: saas-management
+  name: SaaS Management
   shared: 2
-- slug: gateway
-  name: Gateway
-  shared: 1
 overview: 'Embedded iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [embedded-ipaas.apievangelist.com](https://embedded-ipaas.apievangelist.com).
 
 
   30 providers on the network work in this area, including Workato, Alloy Automation, Integrations, Tray.ai, Losant, Jitterbit, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: iPaaS, Workflow Automation, Management, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: iPaaS, Management, Workflow Automation, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

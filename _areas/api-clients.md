@@ -8,19 +8,19 @@ area_host: api-clients.apievangelist.com
 icon: https://api-clients.apievangelist.com/icon-thumb.png
 provider_count: 18
 providers:
+- slug: insomnia
+  name: Insomnia
+  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.9
+  shared: 1
 - slug: apollo-graphql
   name: Apollo GraphQL
   description: 'Apollo Graph, Inc. — trading publicly as Apollo and Apollo GraphQL — is the San Francisco company behind the Apollo GraphQL platform: Apollo GraphOS (a hosted supergraph platform with a schema registry, schema checks, proposals, launches, and operation/field insights), the Apollo Router and Apollo…'
   api_count: 11
   score_band: developing
   score_composite: 50.5
-  shared: 1
-- slug: insomnia
-  name: Insomnia
-  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.2
   shared: 1
 - slug: httpie
   name: HTTPie
@@ -41,7 +41,7 @@ providers:
   description: Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT.
   api_count: 1
   score_band: thin
-  score_composite: 30.9
+  score_composite: 30.7
   shared: 1
 - slug: rest-client
   name: REST Client
@@ -135,8 +135,8 @@ providers:
   score_composite: 6.1
   shared: 1
 provider_slugs:
-- apollo-graphql
 - insomnia
+- apollo-graphql
 - httpie
 - firecamp
 - hoppscotch
@@ -160,14 +160,20 @@ related:
 - slug: cli
   name: Command Line Interface
   shared: 1
+- slug: design
+  name: Design
+  shared: 1
 - slug: orchestration
   name: Orchestration
+  shared: 1
+- slug: testing
+  name: Testing
   shared: 1
 overview: 'API Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-clients.apievangelist.com](https://api-clients.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Apollo GraphQL, Insomnia, HTTPie, Firecamp, Hoppscotch, REST Client, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Insomnia, Apollo GraphQL, HTTPie, Firecamp, Hoppscotch, REST Client, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Clients, Command Line Interface, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Clients, Command Line Interface, Design, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

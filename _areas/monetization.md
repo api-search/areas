@@ -6,7 +6,7 @@ description: 'An index and topic collection covering API and SaaS monetization p
 area_url: https://monetization.apievangelist.com
 area_host: monetization.apievangelist.com
 icon: https://monetization.apievangelist.com/icon-thumb.png
-provider_count: 70
+provider_count: 71
 providers:
 - slug: drippay
   name: Drippay
@@ -20,7 +20,21 @@ providers:
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 5
   score_band: exemplar
-  score_composite: 68.2
+  score_composite: 70.8
+  shared: 1
+- slug: moesif
+  name: Moesif
+  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 66.9
+  shared: 1
+- slug: tyk
+  name: Tyk
+  description: Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.
+  api_count: 4
+  score_band: strong
+  score_composite: 64.0
   shared: 1
 - slug: appcharge
   name: Appcharge
@@ -48,7 +62,7 @@ providers:
   description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
   api_count: 4
   score_band: strong
-  score_composite: 57.9
+  score_composite: 57.4
   shared: 1
 - slug: paid
   name: Paid
@@ -63,13 +77,6 @@ providers:
   api_count: 8
   score_band: strong
   score_composite: 56.4
-  shared: 1
-- slug: moesif
-  name: Moesif
-  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
-  api_count: 2
-  score_band: strong
-  score_composite: 54.7
   shared: 1
 - slug: apiable
   name: Apiable
@@ -148,13 +155,6 @@ providers:
   score_band: developing
   score_composite: 43.1
   shared: 1
-- slug: api-market
-  name: API.market
-  description: API.market (Noveum) is an API marketplace launched in April 2024 where developers discover, subscribe to and call third-party APIs and AI models with one account, one x-api-market-key and unified billing, and where sellers import an OpenAPI source, set pricing plans and get paid. The platform itsel…
-  api_count: 3
-  score_band: developing
-  score_composite: 41.1
-  shared: 1
 - slug: vungle
   name: Vungle
   description: Vungle is a mobile app monetization and user-acquisition platform, now operated as part of Liftoff (the merged Liftoff + Vungle mobile growth company). Vungle's in-app advertising SDKs help mobile publishers monetize with performance-focused ad formats (video, interactive, and playable ads), while…
@@ -221,13 +221,14 @@ providers:
 provider_slugs:
 - drippay
 - apigee
+- moesif
+- tyk
 - appcharge
 - zype
 - solvimon
 - netcracker
 - paid
 - viglink
-- moesif
 - apiable
 - coda-payments
 - monetizenow
@@ -239,7 +240,6 @@ provider_slugs:
 - news-break
 - streamelements
 - domob
-- api-market
 - vungle
 - podbean
 - gameanalytics
@@ -253,6 +253,7 @@ provider_slugs:
 - madvertise
 - acast
 - koah-labs
+- api-market
 - google-adsense
 - adcolony
 - frvr
@@ -292,15 +293,15 @@ provider_slugs:
 related:
 - slug: management
   name: Management
-  shared: 3
+  shared: 4
 - slug: portal
   name: Portal
+  shared: 4
+- slug: gateway
+  name: Gateway
   shared: 3
 - slug: finops
   name: FinOps
-  shared: 2
-- slug: gateway
-  name: Gateway
   shared: 2
 - slug: developer-experience
   name: Developer Experience
@@ -311,8 +312,8 @@ related:
 overview: 'Monetization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monetization.apievangelist.com](https://monetization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Drippay, Apigee, Appcharge, Zype, Solvimon, Netcracker, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Drippay, Apigee, Moesif, Tyk, Appcharge, Zype, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, Portal, FinOps, and Gateway. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, Portal, Gateway, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

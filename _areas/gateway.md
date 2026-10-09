@@ -6,28 +6,35 @@ description: A collection of services, tooling, and open source solutions for AP
 area_url: https://gateway.apievangelist.com
 area_host: gateway.apievangelist.com
 icon: https://gateway.apievangelist.com/icon-thumb.png
-provider_count: 108
+provider_count: 109
 providers:
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 24
+  api_count: 25
   score_band: exemplar
-  score_composite: 71.9
-  shared: 2
-- slug: microsoft-azure-api-management
-  name: Microsoft Azure API Management
-  description: Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments. It is composed of an API gateway (data plane), a management plane, and a developer portal, and supports the complete API lifecycle for publishing, securing, monitoring, and transforming APIs…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 70.4
+  score_composite: 80.6
   shared: 2
 - slug: kong
   name: Kong
   description: Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agen…
   api_count: 2
   score_band: exemplar
-  score_composite: 66.8
+  score_composite: 73.2
+  shared: 2
+- slug: microsoft-azure-api-management
+  name: Microsoft Azure API Management
+  description: Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments. It is composed of an API gateway (data plane), a management plane, and a developer portal, and supports the complete API lifecycle for publishing, securing, monitoring, and transforming APIs…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 72.9
+  shared: 2
+- slug: gravitee
+  name: Gravitee
+  description: Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kubernetes Operator, and a new AI Agent Management suite with na…
+  api_count: 2
+  score_band: strong
+  score_composite: 65.2
   shared: 2
 - slug: solo-io
   name: Solo.io
@@ -36,12 +43,19 @@ providers:
   score_band: strong
   score_composite: 63.0
   shared: 2
-- slug: gravitee
-  name: Gravitee
-  description: Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kubernetes Operator, and a new AI Agent Management suite with na…
-  api_count: 2
+- slug: zuplo
+  name: Zuplo
+  description: Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.
+  api_count: 1
   score_band: strong
-  score_composite: 61.2
+  score_composite: 62.3
+  shared: 2
+- slug: traefik
+  name: Traefik Labs
+  description: Traefik Labs builds cloud-native traffic and API infrastructure - the open-source Traefik Proxy (an ingress controller, reverse proxy, and load balancer for Kubernetes, Docker, Nomad, ECS, Consul, and bare metal), plus the commercial Traefik Hub product line covering API Gateway, API Management, AI…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.0
   shared: 2
 - slug: agentgateway
   name: AgentGateway
@@ -69,14 +83,7 @@ providers:
   description: ngrok is a unified application delivery network for developers, providing secure tunnels, ingress-as-a-service, API gateway, and AI gateway capabilities. It enables developers to expose local services on the public internet, manage edge ingress, and route traffic to AI providers without redeploying…
   api_count: 1
   score_band: developing
-  score_composite: 47.0
-  shared: 2
-- slug: traefik
-  name: Traefik Labs
-  description: Traefik Labs builds cloud-native traffic and API infrastructure - the open-source Traefik Proxy (an ingress controller, reverse proxy, and load balancer for Kubernetes, Docker, Nomad, ECS, Consul, and bare metal), plus the commercial Traefik Hub product line covering API Gateway, API Management, AI…
-  api_count: 1
-  score_band: developing
-  score_composite: 46.7
+  score_composite: 46.3
   shared: 2
 - slug: routerplex
   name: RouterPlex
@@ -99,6 +106,20 @@ providers:
   score_band: thin
   score_composite: 32.2
   shared: 2
+- slug: jitterbit
+  name: Jitterbit
+  description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 74.0
+  shared: 1
+- slug: apigee
+  name: Apigee
+  description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
+  api_count: 5
+  score_band: exemplar
+  score_composite: 70.8
+  shared: 1
 - slug: aws-api-gateway
   name: Amazon API Gateway
   description: Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, and WebSocket APIs with built-in traffic management, authoriz…
@@ -106,26 +127,12 @@ providers:
   score_band: exemplar
   score_composite: 70.6
   shared: 1
-- slug: jitterbit
-  name: Jitterbit
-  description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 70.6
-  shared: 1
-- slug: apigee
-  name: Apigee
-  description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
-  api_count: 5
-  score_band: exemplar
-  score_composite: 68.2
-  shared: 1
 - slug: f5
   name: F5
   description: F5 is a global company that specializes in application delivery and security solutions for businesses. They provide products and services that help organizations efficiently and securely deliver applications to users across any network or cloud environment. F5's solutions are designed to optimize t…
   api_count: 8
-  score_band: exemplar
-  score_composite: 66.6
+  score_band: strong
+  score_composite: 66.1
   shared: 1
 - slug: aimlapi
   name: AIMLAPI
@@ -141,6 +148,13 @@ providers:
   score_band: strong
   score_composite: 64.7
   shared: 1
+- slug: tyk
+  name: Tyk
+  description: Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.
+  api_count: 4
+  score_band: strong
+  score_composite: 64.0
+  shared: 1
 - slug: eden-ai
   name: Eden AI
   description: Eden AI is a French AI gateway that puts one API, one key and one invoice in front of 500+ AI models from 50+ providers. Its v3 surface is deliberately OpenAI-wire-compatible — chat completions, responses, embeddings, moderations, images and audio — with an Anthropic Messages pass-through alongside…
@@ -154,13 +168,6 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 59.0
-  shared: 1
-- slug: zuplo
-  name: Zuplo
-  description: Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.
-  api_count: 1
-  score_band: strong
-  score_composite: 58.8
   shared: 1
 - slug: aptible
   name: Aptible
@@ -176,13 +183,6 @@ providers:
   score_band: strong
   score_composite: 58.3
   shared: 1
-- slug: citi
-  name: Citi
-  description: 'Citi is the consumer and institutional brand of Citigroup, serving over 200 million customers across 160 countries. Citi runs one of the largest published API estates in banking: 118 machine-readable OpenAPI and Swagger contracts covering 297 operations are served from developer.citi.com across pay…'
-  api_count: 196
-  score_band: strong
-  score_composite: 58.0
-  shared: 1
 - slug: gloo
   name: Gloo
   description: Gloo is Solo.io's family of open-source and enterprise API gateway, service mesh and developer portal products, built on Envoy Proxy and Istio and delivered as software the customer runs in their own Kubernetes clusters rather than as a hosted SaaS. Gloo Edge and Gloo Gateway provide ingress, advan…
@@ -197,10 +197,10 @@ providers:
   score_band: strong
   score_composite: 57.6
   shared: 1
-- slug: tyk
-  name: Tyk
-  description: Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.
-  api_count: 4
+- slug: citi
+  name: Citi
+  description: 'Citi is the consumer and institutional brand of Citigroup, serving over 200 million customers across 160 countries. Citi runs one of the largest published API estates in banking: 118 machine-readable OpenAPI and Swagger contracts covering 297 operations are served from developer.citi.com across pay…'
+  api_count: 196
   score_band: strong
   score_composite: 57.5
   shared: 1
@@ -220,42 +220,43 @@ providers:
   shared: 1
 provider_slugs:
 - cloudflare
-- microsoft-azure-api-management
 - kong
-- solo-io
+- microsoft-azure-api-management
 - gravitee
+- solo-io
+- zuplo
+- traefik
 - agentgateway
 - aklivity
 - lunar
 - ngrok
-- traefik
 - routerplex
 - ai-gateway
 - apipark
-- aws-api-gateway
 - jitterbit
 - apigee
+- aws-api-gateway
 - f5
 - aimlapi
 - vendia
+- tyk
 - eden-ai
 - vercel
-- zuplo
 - aptible
 - edgee
-- citi
 - gloo
 - portkey
-- tyk
+- citi
 - 558686-xyz
 - fusio
+- mulesoft
 - 2s-io
 - apiable
 - slng
 - insforge
-- helicone
 - wundergraph
 - citrix-netscaler
+- helicone
 - cloudflare-ai-gateway
 - xguardgate-com
 - mcp360
@@ -264,14 +265,11 @@ provider_slugs:
 - ucsd
 - speko
 - google-cloud-api-gateway
-- university-of-cambridge
 - agentuity
 - unify-ai
-- university-of-helsinki
-- mulesoft
 - mcp-manager
+- university-of-helsinki
 - apache-apisix
-- ucsb
 - apinizer
 - standard-compute
 - langwatch
@@ -295,8 +293,10 @@ provider_slugs:
 - express-gateway
 - mindlogic
 - spring-cloud-gateway
+- ambassador
 - ocelot
 - ibm-api-connect
+- litellm
 - weaveapi
 - apiida
 - runlayer
@@ -306,11 +306,12 @@ provider_slugs:
 - stepzen
 - hiscox
 - emissary-ingress
+- kgateway
 - rhapsody
 - tensorzero
 - cumulus-labs
-- deutsche-telekom
 - apiwiz
+- deutsche-telekom
 - adaptigent
 - primerica
 - university-of-indonesia
@@ -330,10 +331,13 @@ provider_slugs:
 related:
 - slug: management
   name: Management
-  shared: 8
+  shared: 9
 - slug: portal
   name: Portal
-  shared: 7
+  shared: 8
+- slug: monetization
+  name: Monetization
+  shared: 3
 - slug: serverless
   name: Serverless
   shared: 3
@@ -343,14 +347,11 @@ related:
 - slug: deployment
   name: Deployment
   shared: 2
-- slug: machine-learning
-  name: Machine Learning
-  shared: 2
 overview: 'Gateway is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [gateway.apievangelist.com](https://gateway.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cloudflare, Microsoft Azure API Management, Kong, Solo.io, Gravitee, AgentGateway, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Cloudflare, Kong, Microsoft Azure API Management, Gravitee, Solo.io, Zuplo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, Portal, Serverless, and Service Mesh. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, Portal, Monetization, and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

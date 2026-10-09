@@ -6,7 +6,7 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 188
+provider_count: 192
 providers:
 - slug: paperless-parts
   name: Paperless Parts
@@ -14,6 +14,13 @@ providers:
   api_count: 4
   score_band: strong
   score_composite: 54.6
+  shared: 1
+- slug: siemens
+  name: Siemens
+  description: Siemens is a global powerhouse in the fields of electrification, automation and digitalization. The company offers a broad portfolio of products, solutions and services that enable customers to increase their efficiency and sustainability. Siemens operates in a variety of sectors including energy,…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.7
   shared: 1
 - slug: eaton
   name: Eaton
@@ -106,13 +113,6 @@ providers:
   score_band: thin
   score_composite: 36.3
   shared: 1
-- slug: siemens
-  name: Siemens
-  description: Siemens is a global powerhouse in the fields of electrification, automation and digitalization. The company offers a broad portfolio of products, solutions and services that enable customers to increase their efficiency and sustainability. Siemens operates in a variety of sectors including energy,…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.2
-  shared: 1
 - slug: 3m
   name: 3M
   description: 3M is a global science and manufacturing company. The 3M Partner and Supplier API provides real-time access to product, pricing, order, delivery, and invoice data for partners and suppliers, enabling automated commerce and supply chain integration.
@@ -124,6 +124,13 @@ providers:
   name: AMETEK
   description: 'AMETEK is a leading global manufacturer of electronic instruments and electromechanical devices with annual sales of over $6 billion. The company operates through two differentiated business segments: Electronic Instruments Group (EIG) and Electromechanical Group (EMG), serving industries including…'
   api_count: 1
+  score_band: thin
+  score_composite: 34.1
+  shared: 1
+- slug: brainbox3ae3
+  name: Brainbox3ae3
+  description: Brainboxes Ltd is a UK‑based designer and manufacturer of rugged industrial‑grade data connectivity solutions, including Ethernet switches, serial device servers, edge controllers and remote I/O modules. Founded in 1984, the company provides lifetime support, in‑house design and testing, and serves…
+  api_count: 2
   score_band: thin
   score_composite: 34.1
   shared: 1
@@ -204,22 +211,16 @@ providers:
   score_band: emerging
   score_composite: 22.9
   shared: 1
-- slug: entytle
-  name: Entytle
-  description: Entytle, Inc. (founded 2014, Austin, Texas) provides an Installed Base Intelligence SaaS platform for equipment manufacturers (OEMs). It unifies fragmented data from ERP, CRM, FSM systems, and spreadsheets into a single "Source of Truth" for an OEM's installed base, then applies purpose-built AI an…
-  api_count: 0
+- slug: archrock
+  name: Archrock
+  description: 'Archrock (NYSE: AROC) is the premier provider of natural gas compression services and equipment to customers in the oil and natural gas industry throughout the United States. The company operates a large fleet of compression equipment and provides contract operations and aftermarket services.'
+  api_count: 1
   score_band: emerging
-  score_composite: 22.2
-  shared: 1
-- slug: control-seat
-  name: Control Seat
-  description: Control Seat is an AI-native industrial systems integrator building a modern replacement for legacy SCADA (Supervisory Control and Data Acquisition) platforms such as Ignition, WinCC, and FactoryTalk. It designs, builds, deploys, and runs the full industrial control stack, from PLC programming (All…
-  api_count: 0
-  score_band: emerging
-  score_composite: 20.3
+  score_composite: 22.8
   shared: 1
 provider_slugs:
 - paperless-parts
+- siemens
 - eaton
 - remberg
 - aerones
@@ -233,9 +234,9 @@ provider_slugs:
 - ptc
 - steute-technologies-gmbh-and-co-kg
 - actionstreamer
-- siemens
 - 3m
 - ametek
+- brainbox3ae3
 - helmerich-and-payne
 - parsable
 - markforged
@@ -247,6 +248,7 @@ provider_slugs:
 - rockwell-automation
 - greif
 - graybar-electric
+- archrock
 - entytle
 - control-seat
 - deephow
@@ -256,7 +258,6 @@ provider_slugs:
 - airwave
 - matthews-international
 - realwear
-- archrock
 - vishay-intertechnology
 - ermeo
 - sanmina
@@ -288,6 +289,7 @@ provider_slugs:
 - minerals-technologies
 - seurat
 - amsc
+- bolo-ai
 - kilsar
 - nacco-industries
 - divergent
@@ -328,6 +330,7 @@ provider_slugs:
 - herthametals
 - oshkosh
 - scope
+- boruspanprecision
 - archimetis
 - northvolt
 - sortera-alloys
@@ -352,6 +355,7 @@ provider_slugs:
 - fmc-technologies
 - recommercex
 - on-semiconductor
+- blacklaketechnologies
 - curtiss-wright
 - glasspoint
 - hyster-yale-materials-handling
@@ -407,15 +411,9 @@ provider_slugs:
 - liquidlight
 - nexa3d
 - rovilus
-related:
-- slug: portal
-  name: Portal
-  shared: 1
+related: []
 overview: 'Industrial is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [industrial.apievangelist.com](https://industrial.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Paperless Parts, Eaton, Remberg, Aerones, GE Vernova, Renesas, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
-
-
-  Related areas: Portal. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  30 providers on the network work in this area, including Paperless Parts, Siemens, Eaton, Remberg, Aerones, GE Vernova, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

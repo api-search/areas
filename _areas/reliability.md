@@ -34,7 +34,7 @@ providers:
   description: Memfault is a device observability and reliability platform for connected products built on MCUs, embedded Linux, and Android. The Memfault Cloud ingests device data (coredumps, logs, metrics, reboots) and provides issue grouping, alerting, charting, fleet analytics, and over-the-air firmware updat…
   api_count: 1
   score_band: developing
-  score_composite: 40.1
+  score_composite: 40.0
   shared: 1
 - slug: google-cloud-error-reporting
   name: Google Cloud Error Reporting

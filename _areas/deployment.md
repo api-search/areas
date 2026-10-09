@@ -6,21 +6,21 @@ description: An index and topic collection covering application deployment platf
 area_url: https://deployment.apievangelist.com
 area_host: deployment.apievangelist.com
 icon: https://deployment.apievangelist.com/icon-thumb.png
-provider_count: 65
+provider_count: 63
 providers:
+- slug: outsystems
+  name: OutSystems
+  description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11), the self-managed/PaaS platform, and OutSystems Developer Clo…
+  api_count: 14
+  score_band: exemplar
+  score_composite: 75.8
+  shared: 1
 - slug: laravel
   name: Laravel
   description: 'Laravel is the company behind the Laravel PHP framework and a suite of commercial developer infrastructure products: Laravel Cloud (a fully managed PaaS for deploying and scaling Laravel and Symfony applications), Laravel Forge (server provisioning and application deployment across DigitalOcean, AW…'
   api_count: 2
   score_band: exemplar
   score_composite: 69.5
-  shared: 1
-- slug: outsystems
-  name: OutSystems
-  description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11), the self-managed/PaaS platform, and OutSystems Developer Clo…
-  api_count: 13
-  score_band: exemplar
-  score_composite: 67.2
   shared: 1
 - slug: databricks-asset-bundles
   name: Databricks Asset Bundles
@@ -71,12 +71,12 @@ providers:
   score_band: strong
   score_composite: 58.4
   shared: 1
-- slug: aws-app-runner
-  name: AWS App Runner
-  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
-  api_count: 16
+- slug: mendix
+  name: Mendix
+  description: Mendix, a Siemens company, is an enterprise low-code application development platform for designing, building, deploying, and operating multi-experience applications across web, mobile, and conversational interfaces. The platform spans Studio Pro modeling, the Mendix Cloud and private cloud runtime…
+  api_count: 2
   score_band: strong
-  score_composite: 57.1
+  score_composite: 57.7
   shared: 1
 - slug: amazon-codedeploy
   name: Amazon CodeDeploy
@@ -84,6 +84,13 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 56.8
+  shared: 1
+- slug: aws-app-runner
+  name: AWS App Runner
+  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
+  api_count: 16
+  score_band: strong
+  score_composite: 56.0
   shared: 1
 - slug: nuon
   name: Nuon
@@ -134,26 +141,12 @@ providers:
   score_band: developing
   score_composite: 49.3
   shared: 1
-- slug: amazon-launch-wizard
-  name: Amazon Launch Wizard
-  description: AWS Launch Wizard is a service that guides you through the sizing, configuration, and deployment of enterprise applications on AWS, such as Microsoft SQL Server Always On and HANA-based SAP systems, without the need to manually identify and provision individual AWS resources.
-  api_count: 1
-  score_band: developing
-  score_composite: 48.8
-  shared: 1
 - slug: alpic
   name: Alpic
   description: Alpic is the MCP-native cloud platform for building, deploying, monitoring, and distributing Model Context Protocol (MCP) servers and ChatGPT Apps. Its stack spans the open-source Skybridge TypeScript framework, the `alpic` CLI, Alpic Cloud (one-click deploy, multi-environment support, runtime and…
   api_count: 1
   score_band: developing
   score_composite: 48.5
-  shared: 1
-- slug: dokploy
-  name: Dokploy
-  description: Dokploy is an open-source, self-hostable Platform-as-a-Service (PaaS) — an alternative to Heroku, Vercel, and Netlify — that deploys applications, Docker Compose stacks, and managed databases across one or many servers using Docker and Docker Swarm, with Traefik handling routing and TLS.
-  api_count: 1
-  score_band: developing
-  score_composite: 47.9
   shared: 1
 - slug: semaphore
   name: Semaphore
@@ -218,9 +211,16 @@ providers:
   score_band: developing
   score_composite: 40.9
   shared: 1
+- slug: spocket
+  name: Spocket
+  description: Agent-native deployment/hosting platform. An AI coding agent ships a folder over MCP and it runs 24/7 with HTTPS URLs and custom domains. Supports Discord/Slack/Telegram/Twitch bots, web apps/APIs, static sites, scrapers, queue consumers and cron jobs on Node 22 and Python 3.11. No CLI, Dockerfile,…
+  api_count: 2
+  score_band: developing
+  score_composite: 39.9
+  shared: 1
 provider_slugs:
-- laravel
 - outsystems
+- laravel
 - databricks-asset-bundles
 - koyeb
 - raygun
@@ -228,8 +228,9 @@ provider_slugs:
 - vercel
 - aptible
 - platform.sh
-- aws-app-runner
+- mendix
 - amazon-codedeploy
+- aws-app-runner
 - nuon
 - release
 - render
@@ -237,9 +238,7 @@ provider_slugs:
 - microsoft-azure-pipelines
 - kubernetes
 - codesphere
-- amazon-launch-wizard
 - alpic
-- dokploy
 - semaphore
 - google-cloud-deploy
 - teamcity
@@ -261,12 +260,11 @@ provider_slugs:
 - flightcontrol
 - sevalla
 - shorebird
-- baseten
 - humanitec
+- baseten
 - zeabur
 - codenow
 - tensor9
-- mendix
 - prodly
 - openkruise
 - pantheon
@@ -306,7 +304,7 @@ related:
 overview: 'Deployment is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deployment.apievangelist.com](https://deployment.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Laravel, OutSystems, Databricks Asset Bundles, Koyeb, Raygun, Upsun, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including OutSystems, Laravel, Databricks Asset Bundles, Koyeb, Raygun, Upsun, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, Serverless, Gateway, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

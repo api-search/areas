@@ -10,10 +10,10 @@ provider_count: 8
 providers:
 - slug: new-relic
   name: New Relic
-  description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
+  description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain real‑time visibility into cloud costs, multi‑cloud and Kuberne…
   api_count: 5
   score_band: exemplar
-  score_composite: 69.9
+  score_composite: 72.3
   shared: 1
 - slug: tago-io
   name: TagoIO

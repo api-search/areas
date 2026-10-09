@@ -6,7 +6,7 @@ description: This is the index of API proxy, reverse proxy, forward proxy, and p
 area_url: https://proxy.apievangelist.com
 area_host: proxy.apievangelist.com
 icon: https://proxy.apievangelist.com/icon-thumb.png
-provider_count: 26
+provider_count: 25
 providers:
 - slug: chocodata
   name: Chocodata
@@ -141,13 +141,6 @@ providers:
   score_band: emerging
   score_composite: 18.5
   shared: 1
-- slug: proxy
-  name: Proxy
-  description: This is the index of API proxy, reverse proxy, forward proxy, and proxy middleware service and tooling repos being tracked by the API Evangelist network.
-  api_count: 1
-  score_band: emerging
-  score_composite: 17.5
-  shared: 1
 - slug: mosn
   name: MOSN
   description: MOSN (Modular Open Smart Network) is a cloud-native network proxy written in Go, open-sourced by Ant Group. It serves as a Service Mesh data plane and can function as L4/L7 load balancer, API gateway, and cloud-native ingress, with multi-protocol support including HTTP/1.1, HTTP/2, and gRPC.
@@ -210,7 +203,6 @@ provider_slugs:
 - oauth2-proxy
 - dev-proxy
 - varnish
-- proxy
 - mosn
 - pipy
 - privoxy
@@ -227,7 +219,7 @@ related:
 overview: 'Proxy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [proxy.apievangelist.com](https://proxy.apievangelist.com).
 
 
-  26 providers on the network work in this area, including Chocodata, Bright Data, Contour, Envoy, HAProxy, SOAX, and 20 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  25 providers on the network work in this area, including Chocodata, Bright Data, Contour, Envoy, HAProxy, SOAX, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Service Mesh and Caching. Browse every area at [areas.apis.io](https://apis.io/areas/).'

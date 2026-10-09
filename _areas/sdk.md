@@ -22,6 +22,13 @@ providers:
   score_band: thin
   score_composite: 38.1
   shared: 2
+- slug: speakeasy
+  name: Speakeasy
+  description: Speakeasy provides an AI control plane platform that lets enterprises govern, secure, and observe AI agents, MCP servers, and Skills. The platform integrates with existing identity providers to assign permissioned identities to each agent and enforces policy in real time. It offers audit logs, comp…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.6
+  shared: 1
 - slug: apimatic
   name: APIMatic
   description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languag…
@@ -29,12 +36,12 @@ providers:
   score_band: strong
   score_composite: 63.1
   shared: 1
-- slug: speakeasy
-  name: Speakeasy
-  description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
-  api_count: 1
-  score_band: strong
-  score_composite: 54.7
+- slug: liblab
+  name: Liblab
+  description: liblab generates and publishes type-safe, idiomatic SDKs in TypeScript, Python, Java, .NET, Go, PHP, and Terraform from OpenAPI/Swagger/Postman specs, plus MCP servers that expose those APIs to AI agents. The platform ships a CLI, hosted portal, and CI/CD GitHub Action that publish SDKs to customer…
+  api_count: 13
+  score_band: developing
+  score_composite: 47.6
   shared: 1
 - slug: kiota
   name: Kiota
@@ -64,6 +71,13 @@ providers:
   score_band: developing
   score_composite: 41.9
   shared: 1
+- slug: stainless
+  name: Stainless
+  description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic, Cloudflare, Google, and OpenAI, Stainless automates the boil…
+  api_count: 4
+  score_band: developing
+  score_composite: 41.1
+  shared: 1
 - slug: orval
   name: Orval
   description: Orval is an MIT-licensed open source code generator that turns any valid OpenAPI v3 or Swagger v2 specification into type-safe TypeScript. From one spec it emits HTTP request functions (Fetch by default, Axios optional), TanStack Query hooks for React, Vue, Svelte, Solid and Angular, SWR hooks, Ang…
@@ -85,20 +99,6 @@ providers:
   score_band: thin
   score_composite: 32.8
   shared: 1
-- slug: stainless
-  name: Stainless
-  description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic, Cloudflare, Google, and OpenAI, Stainless automates the boil…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.8
-  shared: 1
-- slug: liblab
-  name: Liblab
-  description: liblab generates and publishes type-safe, idiomatic SDKs in TypeScript, Python, Java, .NET, Go, PHP, and Terraform from OpenAPI/Swagger/Postman specs, plus MCP servers that expose those APIs to AI agents. The platform ships a CLI, hosted portal, and CI/CD GitHub Action that publish SDKs to customer…
-  api_count: 4
-  score_band: thin
-  score_composite: 28.1
-  shared: 1
 - slug: snapser
   name: Snapser
   description: Snapser is a plug-and-play, modular backend-as-a-service platform for game studios and app developers. Instead of building infrastructure from scratch, teams assemble a backend from modular "Snaps" — managed microservices such as Authentication, Profiles, Storage, Leaderboards, Inventory, Chat, Soc…
@@ -106,19 +106,19 @@ providers:
   score_band: thin
   score_composite: 26.9
   shared: 1
+- slug: fern-api
+  name: Fern
+  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generates type-safe SDKs in TypeScript, Python, Go, Java, C#, PHP,…
+  api_count: 1
+  score_band: thin
+  score_composite: 26.6
+  shared: 1
 - slug: nswag
   name: NSwag
   description: 'NSwag is the Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript, written in C# and maintained by Rico Suter under an MIT licence. It runs the contract in both directions: generating Swagger 2.0 and OpenAPI 3.0 documents from ASP.NET (Core) controllers, Web API assemblies and plain .NET…'
   api_count: 1
   score_band: emerging
   score_composite: 25.9
-  shared: 1
-- slug: fern-api
-  name: Fern
-  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generates type-safe SDKs in TypeScript, Python, Go, Java, C#, PHP,…
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.7
   shared: 1
 - slug: konfig-api
   name: Konfig
@@ -137,34 +137,34 @@ providers:
 provider_slugs:
 - swagger-codegen
 - ogen
-- apimatic
 - speakeasy
+- apimatic
+- liblab
 - kiota
 - hey-api
 - openapi-generator
 - sideko
+- stainless
 - orval
 - autorest
 - oapi-codegen
-- stainless
-- liblab
 - snapser
-- nswag
 - fern-api
+- nswag
 - konfig-api
 - sdk
 related:
 - slug: cli
   name: Command Line Interface
   shared: 3
-- slug: documentation
-  name: Documentation
-  shared: 2
-- slug: design
-  name: Design
-  shared: 1
 - slug: developer-experience
   name: Developer Experience
+  shared: 3
+- slug: documentation
+  name: Documentation
+  shared: 3
+- slug: design
+  name: Design
   shared: 1
 - slug: testing
   name: Testing
@@ -172,8 +172,8 @@ related:
 overview: 'SDKs is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [sdk.apievangelist.com](https://sdk.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Swagger Codegen, Ogen, APIMatic, Speakeasy, Kiota, Hey API, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Swagger Codegen, Ogen, Speakeasy, APIMatic, Liblab, Kiota, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Command Line Interface, Documentation, Design, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Command Line Interface, Developer Experience, Documentation, and Design. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

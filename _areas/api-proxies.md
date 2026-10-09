@@ -6,8 +6,15 @@ description: An index and topic collection covering reverse-proxy and edge-proxy
 area_url: https://api-proxies.apievangelist.com
 area_host: api-proxies.apievangelist.com
 icon: https://api-proxies.apievangelist.com/icon-thumb.png
-provider_count: 15
+provider_count: 16
 providers:
+- slug: mrscraper
+  name: MrScraper
+  description: 'MrScraper is an AI-powered web scraping platform: a Scraper API (Web Renderer fetch, Scrape JSON/Markdown, screenshots, listing pages and sitemaps on api.mrscraper.com), a Platform API for creating, rerunning and managing scrapers and results (api.app.mrscraper.com/api/v1), Google SERP, residential…'
+  api_count: 2
+  score_band: exemplar
+  score_composite: 70.9
+  shared: 1
 - slug: webscraping-ai
   name: WebScraping.AI
   description: WebScraping.AI is a web scraping API that returns the rendered HTML, visible text, CSS-selected fragments, or LLM-extracted structured data of any URL, so callers do not have to operate their own scraping infrastructure. The service handles headless Chromium JavaScript rendering, rotating datacente…
@@ -22,19 +29,19 @@ providers:
   score_band: strong
   score_composite: 57.3
   shared: 1
+- slug: trueproxies
+  name: TrueProxies
+  description: 'TrueProxies, LLC (USA) sells residential and datacenter proxies (HTTP/HTTPS/SOCKS5) for developers and data teams, priced per hour, per GB or per day: unlimited-bandwidth Residential IPv4 at a chosen speed tier, GB-based Residential IPv4 with country, city, region and ASN targeting, and Datacenter…'
+  api_count: 2
+  score_band: strong
+  score_composite: 56.5
+  shared: 1
 - slug: nimbleway
   name: Nimbleway
   description: Nimble (Nimbleway) is a real-time web data intelligence platform that turns any public web page into structured, analysis-ready data at scale. Its AI-Native SDK exposes Search, Extract, Map, Crawl, SERP, Media Download, and Web Search Agents over a single REST API (https://sdk.nimbleway.com/v1), pl…
   api_count: 1
   score_band: strong
   score_composite: 55.7
-  shared: 1
-- slug: trueproxies
-  name: TrueProxies
-  description: 'TrueProxies, LLC (USA) sells residential and datacenter proxies (HTTP/HTTPS/SOCKS5) for developers and data teams, priced per hour, per GB or per day: unlimited-bandwidth Residential IPv4 at a chosen speed tier, GB-based Residential IPv4 with country, city, region and ASN targeting, and Datacenter…'
-  api_count: 2
-  score_band: strong
-  score_composite: 55.0
   shared: 1
 - slug: hyperbrowser
   name: Hyperbrowser
@@ -62,14 +69,14 @@ providers:
   description: ngrok is a unified application delivery network for developers, providing secure tunnels, ingress-as-a-service, API gateway, and AI gateway capabilities. It enables developers to expose local services on the public internet, manage edge ingress, and route traffic to AI providers without redeploying…
   api_count: 1
   score_band: developing
-  score_composite: 47.0
+  score_composite: 46.3
   shared: 1
 - slug: zenrows
   name: ZenRows
   description: 'ZenRows is a Spanish web scraping platform headquartered in Madrid that lets developers collect public web data at scale without managing proxies, browsers, or CAPTCHAs. A single API key unlocks four products against a shared 55M+ residential IP pool across 190+ countries: the Universal Scraper API…'
   api_count: 1
   score_band: developing
-  score_composite: 41.1
+  score_composite: 40.9
   shared: 1
 - slug: spider-cloud
   name: Spider
@@ -114,10 +121,11 @@ providers:
   score_composite: 25.3
   shared: 1
 provider_slugs:
+- mrscraper
 - webscraping-ai
 - zyte
-- nimbleway
 - trueproxies
+- nimbleway
 - hyperbrowser
 - oxylabs
 - scrapingant
@@ -133,6 +141,9 @@ related:
 - slug: scraping
   name: Scraping
   shared: 5
+- slug: search
+  name: API Evangelist Search
+  shared: 1
 - slug: agents-skills
   name: Agent Skills
   shared: 1
@@ -142,8 +153,8 @@ related:
 overview: 'API Proxies is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-proxies.apievangelist.com](https://api-proxies.apievangelist.com).
 
 
-  15 providers on the network work in this area, including WebScraping.AI, Zyte, Nimbleway, TrueProxies, Hyperbrowser, Oxylabs, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  16 providers on the network work in this area, including MrScraper, WebScraping.AI, Zyte, TrueProxies, Nimbleway, Hyperbrowser, and 10 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Scraping, Agent Skills, and Gateway. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Scraping, API Evangelist Search, Agent Skills, and Gateway. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

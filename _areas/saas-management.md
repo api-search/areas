@@ -6,14 +6,14 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 51
+provider_count: 48
 providers:
 - slug: boomi
   name: Boomi
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 3
-  score_band: strong
-  score_composite: 62.0
+  score_band: exemplar
+  score_composite: 67.6
   shared: 1
 - slug: cledara
   name: Cledara
@@ -22,12 +22,12 @@ providers:
   score_band: strong
   score_composite: 61.5
   shared: 1
-- slug: blumira
-  name: Blumira
-  description: Blumira provides a security operations platform that helps IT teams detect, investigate, and respond to threats across cloud, on‑premise, and hybrid environments. It offers features such as automated alerting, evidence‑rich case management, integrations with major cloud providers, and a developer‑f…
+- slug: snaplogic
+  name: SnapLogic
+  description: SnapLogic provides an Agentic Integration and Applied AI Platform that securely connects applications, data, APIs and AI agents across cloud, on‑premise and hybrid environments for enterprises. The platform offers visual ETL/ELT, no‑code iPaaS, API management, legacy modernization tools, and govern…
   api_count: 1
   score_band: strong
-  score_composite: 59.0
+  score_composite: 59.6
   shared: 1
 - slug: lumos
   name: Lumos
@@ -55,7 +55,7 @@ providers:
   description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide license and usage data, automate user onboarding and offboar…
   api_count: 1
   score_band: developing
-  score_composite: 50.1
+  score_composite: 49.9
   shared: 1
 - slug: zluri
   name: Zluri
@@ -71,19 +71,19 @@ providers:
   score_band: developing
   score_composite: 47.7
   shared: 1
+- slug: broadcom
+  name: Broadcom
+  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
+  api_count: 3
+  score_band: developing
+  score_composite: 47.5
+  shared: 1
 - slug: dell-servers
   name: Dell Servers
   description: APIs for managing and monitoring Dell PowerEdge servers and infrastructure, including the iDRAC Redfish out-of-band management interface, OpenManage Enterprise centralized console and its modular, power, support, and VMware integrations, telemetry streaming, the Lifecycle Controller, RACADM, and th…
   api_count: 2
   score_band: developing
   score_composite: 46.9
-  shared: 1
-- slug: snaplogic
-  name: SnapLogic
-  description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
-  api_count: 1
-  score_band: developing
-  score_composite: 46.6
   shared: 1
 - slug: augmentt
   name: Augmentt
@@ -104,7 +104,7 @@ providers:
   description: Zylo is a SaaS management platform that helps organizations optimize their software usage and spending. By providing insights into software utilization, licensing agreements, and renewal dates, Zylo enables companies to make informed decisions about their software investments. With Zylo, businesses…
   api_count: 1
   score_band: developing
-  score_composite: 44.6
+  score_composite: 44.4
   shared: 1
 - slug: cakewalk
   name: Cakewalk
@@ -169,13 +169,6 @@ providers:
   score_band: thin
   score_composite: 31.2
   shared: 1
-- slug: broadcom
-  name: Broadcom
-  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
-  api_count: 3
-  score_band: thin
-  score_composite: 31.0
-  shared: 1
 - slug: zenadmin
   name: ZenAdmin
   description: 'ZenAdmin is an all-in-one IT management platform for global teams, covering the full device and employee lifecycle: IT procurement, device lifecycle management, asset and inventory tracking, mobile device management (MDM), identity and access management, SaaS/app management, IT helpdesk, and 24/7 I…'
@@ -211,25 +204,32 @@ providers:
   score_band: thin
   score_composite: 26.2
   shared: 1
-- slug: bitsighttechnologies
-  name: Bitsighttechnologies
-  description: Bitsight is a cyber risk intelligence platform that provides real‑time monitoring of external attack surfaces, third‑party risk, and vulnerability data. Leveraging AI‑driven attribution and a massive data set of internet‑exposed assets, Bitsight helps enterprises assess and mitigate security risks…
+- slug: salto
+  name: Salto
+  description: Salto is an AI-powered configuration-management platform for enterprise business and IT applications. It lets teams search, analyze, compare, document, and deploy configuration changes across systems such as Salesforce, Salesforce CPQ, NetSuite, Zendesk, Jira, Confluence, Google Workspace, Okta, Mi…
   api_count: 0
   score_band: emerging
-  score_composite: 25.8
+  score_composite: 22.7
+  shared: 1
+- slug: beamy
+  name: Beamy
+  description: Beamy is an enterprise application-portfolio and usage-intelligence platform from Beamy SAS (Lille and Paris, France). It began as a SaaS discovery and governance product — browser-extension detection of shadow IT, SSO and ITSM integrations, spend and license tracking, security and compliance polic…
+  api_count: 1
+  score_band: emerging
+  score_composite: 18.6
   shared: 1
 provider_slugs:
 - boomi
 - cledara
-- blumira
+- snaplogic
 - lumos
 - wundergraph
 - axonius
 - torii
 - zluri
 - amazon-systems-manager
+- broadcom
 - dell-servers
-- snaplogic
 - augmentt
 - g2-track
 - zylo
@@ -242,13 +242,11 @@ provider_slugs:
 - cloudeagle
 - trelica
 - bettercloud
-- broadcom
 - zenadmin
 - blissfully
 - spendflo
 - leanix
 - sastrify
-- bitsighttechnologies
 - salto
 - beamy
 - substly
@@ -262,23 +260,25 @@ provider_slugs:
 - josys
 - corma
 - beepluscoworkingspace
-- blume-global
 - nickl
 - oomnitza
 - saas-management
 - intello
-- bitstar
 - amcandp
 - vendorhawk
+- albi
 related:
 - slug: management
   name: Management
   shared: 3
+- slug: embedded-ipaas
+  name: Embedded iPaaS
+  shared: 2
 - slug: ipaas
   name: iPaaS
   shared: 2
-- slug: embedded-ipaas
-  name: Embedded iPaaS
+- slug: ai-automation
+  name: AI Automation
   shared: 1
 - slug: finops
   name: FinOps
@@ -286,14 +286,11 @@ related:
 - slug: virtualization
   name: Virtualization
   shared: 1
-- slug: workflow-automation
-  name: Workflow Automation
-  shared: 1
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Boomi, Cledara, Blumira, Lumos, WunderGraph, Axonius, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Boomi, Cledara, SnapLogic, Lumos, WunderGraph, Axonius, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, iPaaS, Embedded iPaaS, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, Embedded iPaaS, iPaaS, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

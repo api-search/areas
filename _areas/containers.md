@@ -6,8 +6,22 @@ description: An index of container runtime, orchestration, registry, security, a
 area_url: https://containers.apievangelist.com
 area_host: containers.apievangelist.com
 icon: https://containers.apievangelist.com/icon-thumb.png
-provider_count: 132
+provider_count: 133
 providers:
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 25
+  score_band: exemplar
+  score_composite: 80.6
+  shared: 1
+- slug: canonical
+  name: Canonical
+  description: Canonical is the company behind Ubuntu, the world's most popular open source operating system for cloud, servers, desktops, IoT, and Kubernetes. Canonical publishes a broad set of developer APIs spanning the Ubuntu and Canonical ecosystem — the Snap Store and Snapcraft, the Charmhub charm marketpla…
+  api_count: 13
+  score_band: exemplar
+  score_composite: 76.3
+  shared: 1
 - slug: amazon-lightsail
   name: Amazon Lightsail
   description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Lightsail provides developers compute, storage, and networking ca…
@@ -22,19 +36,19 @@ providers:
   score_band: exemplar
   score_composite: 73.5
   shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 24
+- slug: red-hat
+  name: Red Hat
+  description: Red Hat provides a comprehensive suite of enterprise open source solutions, offering APIs and developer resources across Linux operating systems, cloud platforms, container technologies, and Kubernetes orchestration. Their offerings enable organizations to manage subscriptions, advanced cluster man…
+  api_count: 6
   score_band: exemplar
-  score_composite: 71.9
+  score_composite: 70.6
   shared: 1
-- slug: canonical
-  name: Canonical
-  description: Canonical is the company behind Ubuntu, the world's most popular open source operating system for cloud, servers, desktops, IoT, and Kubernetes. Canonical publishes a broad set of developer APIs spanning the Ubuntu and Canonical ecosystem — the Snap Store and Snapcraft, the Charmhub charm marketpla…
-  api_count: 13
+- slug: ibm
+  name: IBM
+  description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and governance in the AI era. The company targets organizations s…
+  api_count: 1
   score_band: exemplar
-  score_composite: 70.9
+  score_composite: 69.1
   shared: 1
 - slug: calico
   name: Calico
@@ -49,20 +63,6 @@ providers:
   api_count: 4
   score_band: strong
   score_composite: 65.7
-  shared: 1
-- slug: red-hat
-  name: Red Hat
-  description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
-  api_count: 6
-  score_band: strong
-  score_composite: 65.1
-  shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
-  api_count: 1
-  score_band: strong
-  score_composite: 65.0
   shared: 1
 - slug: koyeb
   name: Koyeb
@@ -134,13 +134,6 @@ providers:
   score_band: strong
   score_composite: 57.3
   shared: 1
-- slug: aws-app-runner
-  name: AWS App Runner
-  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
-  api_count: 16
-  score_band: strong
-  score_composite: 57.1
-  shared: 1
 - slug: dagger
   name: Dagger
   description: Dagger is an open-source programmable CI/CD engine that runs pipelines in containers using a unified, introspectable GraphQL API. Pipelines are written as code in the developer's preferred language (Go, Python, TypeScript, PHP, Java, .NET, Elixir, or Rust) using Dagger SDKs and packaged as Dagger M…
@@ -154,6 +147,20 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 56.5
+  shared: 1
+- slug: aws-app-runner
+  name: AWS App Runner
+  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
+  api_count: 16
+  score_band: strong
+  score_composite: 56.0
+  shared: 1
+- slug: portainer
+  name: Portainer
+  description: Portainer provides a centralized multi‑cluster management platform for Kubernetes, Docker, Swarm and Podman workloads. It offers enterprise identity and access features such as SSO, LDAP and OIDC, as well as GitOps deployment workflows and self‑service guardrails. The product is aimed at engineerin…
+  api_count: 1
+  score_band: developing
+  score_composite: 54.1
   shared: 1
 - slug: azure-container-instances
   name: Azure Container Instances
@@ -211,22 +218,15 @@ providers:
   score_band: developing
   score_composite: 49.5
   shared: 1
-- slug: balena
-  name: Balena
-  description: Balena is a complete platform for building, deploying, and managing fleets of connected Linux devices. The platform combines balenaOS, balenaEngine, balenaCloud, the balena CLI, and the balena SDK so teams can build container-based device images and continuously deliver them to devices in the field…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.3
-  shared: 1
 provider_slugs:
-- amazon-lightsail
-- microsoft-azure-kubernetes-service
 - cloudflare
 - canonical
-- calico
-- paperspace
+- amazon-lightsail
+- microsoft-azure-kubernetes-service
 - red-hat
 - ibm
+- calico
+- paperspace
 - koyeb
 - azure-container-apps
 - jfrog-container-registry
@@ -237,9 +237,10 @@ provider_slugs:
 - amazon-ecs
 - platform.sh
 - seqera-labs
-- aws-app-runner
 - dagger
 - tensordock
+- aws-app-runner
+- portainer
 - azure-container-instances
 - scaleway
 - gameye
@@ -267,16 +268,15 @@ provider_slugs:
 - aqua-security
 - woodpecker-ci
 - incus
-- portainer
 - docker
 - drone
 - spyderbat
 - beam-cloud
 - anchore
 - google-cloud-container-registry
-- solaris-zones
 - veritas-cluster
 - carvel
+- solaris-zones
 - cri-o
 - google-kubernetes-engine
 - oracle-container-engine
@@ -317,6 +317,7 @@ provider_slugs:
 - open-container-initiative
 - werf
 - earthly
+- mirantis
 - ibm-cloud-kubernetes
 - sst-dev
 - kamal-deploy
@@ -324,7 +325,6 @@ provider_slugs:
 - distroless
 - atomicjar
 - copa
-- mirantis
 - fluxcd
 - grype
 - cncf
@@ -338,6 +338,7 @@ provider_slugs:
 - multus-cni
 - rapidfort
 - dokku
+- boxhub
 - westrock
 - owens-illinois
 - lima
@@ -358,9 +359,6 @@ related:
 - slug: deployment
   name: Deployment
   shared: 5
-- slug: orchestration
-  name: Orchestration
-  shared: 3
 - slug: database
   name: Database
   shared: 2
@@ -370,11 +368,14 @@ related:
 - slug: microservices
   name: Microservices
   shared: 2
+- slug: dns
+  name: DNS
+  shared: 1
 overview: 'Containers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [containers.apievangelist.com](https://containers.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Amazon Lightsail, Azure Kubernetes Service, Cloudflare, Canonical, Calico, Paperspace, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Cloudflare, Canonical, Amazon Lightsail, Azure Kubernetes Service, Red Hat, IBM, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Serverless, Deployment, Orchestration, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Serverless, Deployment, Database, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

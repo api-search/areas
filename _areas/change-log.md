@@ -26,8 +26,8 @@ providers:
   name: Bump.sh
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into deterministic, observable MCP servers for AI agents. Customers include…
   api_count: 1
-  score_band: developing
-  score_composite: 48.9
+  score_band: strong
+  score_composite: 60.6
   shared: 1
 - slug: canny
   name: Canny
@@ -88,11 +88,17 @@ related:
 - slug: versioning
   name: Versioning
   shared: 2
+- slug: documentation
+  name: Documentation
+  shared: 1
+- slug: portal
+  name: Portal
+  shared: 1
 overview: 'Change Log is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [change-log.apievangelist.com](https://change-log.apievangelist.com).
 
 
   9 providers on the network work in this area, including AnnounceKit, Beamer, Bump.sh, Canny, LaunchNotes, CHANGELOG.md (Keep a Changelog), and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Deprecation and Versioning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Deprecation, Versioning, Documentation, and Portal. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

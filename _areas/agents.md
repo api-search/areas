@@ -6,7 +6,7 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 495
+provider_count: 497
 providers:
 - slug: appwrite
   name: Appwrite
@@ -20,21 +20,21 @@ providers:
   description: 'ElevenLabs is an AI research and product company building voice and audio models, founded in 2022 and launched publicly in January 2023 with the first human-like AI voice model. It sells across three platforms: ElevenCreative (text to speech, speech to text, voice cloning and design, music, sound e…'
   api_count: 12
   score_band: exemplar
-  score_composite: 82.3
-  shared: 1
-- slug: agoragentic-com
-  name: Agoragentic
-  description: 'Agoragentic is an agent-commerce platform operated by a New York-based sole proprietor: Triptych OS (Agent OS), a governed runtime for deploying autonomous agents under budgets, approvals and receipts, plus a Router / Marketplace where agents discover, quote, invoke and pay for each other''s service…'
-  api_count: 1
-  score_band: exemplar
-  score_composite: 80.3
+  score_composite: 81.8
   shared: 1
 - slug: anthropic
   name: Anthropic
   description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking…'
   api_count: 6
   score_band: exemplar
-  score_composite: 78.8
+  score_composite: 81.5
+  shared: 1
+- slug: agoragentic-com
+  name: Agoragentic
+  description: 'Agoragentic is an agent-commerce platform operated by a New York-based sole proprietor: Triptych OS (Agent OS), a governed runtime for deploying autonomous agents under budgets, approvals and receipts, plus a Router / Marketplace where agents discover, quote, invoke and pay for each other''s service…'
+  api_count: 1
+  score_band: exemplar
+  score_composite: 79.8
   shared: 1
 - slug: convertkit
   name: Kit
@@ -57,6 +57,13 @@ providers:
   score_band: exemplar
   score_composite: 75.6
   shared: 1
+- slug: octen-ai
+  name: Octen
+  description: Octen (Octen.AI) is an AI-native web search and retrieval platform built for LLM applications and agents. Its REST API at api.octen.ai exposes Broad Search (multi-angle query decomposition), Web Search, News Search, Business Search, Image Search, Video Search, URL Extract, text and vision-language…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 75.5
+  shared: 1
 - slug: dify
   name: Dify
   description: Dify is an open-source platform for building AI applications, combining Backend-as-a-Service and LLMOps to streamline the development of generative AI solutions for developers and non-technical innovators alike. Teams build agentic workflows, chatflows, agents and RAG knowledge pipelines on a visua…
@@ -69,7 +76,7 @@ providers:
   description: 'Hive Civilization (DBAs The Hivery and The Hivery IQ; Walnut Creek, California; single-founder Wyoming corporation established 2026) sells signed, independently verifiable receipts for automated and AI-agent actions: every call returns a dual-signed record (Ed25519 plus ML-DSA-65) over an artifact…'
   api_count: 4
   score_band: exemplar
-  score_composite: 74.6
+  score_composite: 74.1
   shared: 1
 - slug: carsxe
   name: CarsXE
@@ -106,27 +113,6 @@ providers:
   score_band: exemplar
   score_composite: 72.5
   shared: 1
-- slug: scvd-store
-  name: SCVD General Store
-  description: Record Creative Co. LLC is the one-person Oak City, North Carolina company that operates scvd.store — "Sean-Claude Van Damme's General Store", an evidence observatory for agentic commerce and a general store for AI agents. It independently verifies x402 payment endpoints, signed offers and receipts…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 72.1
-  shared: 1
-- slug: arcade
-  name: Arcade
-  description: Arcade.dev is the MCP runtime for production AI agent deployments. The Arcade Engine — a hosted or self-hostable API surface — handles OAuth user authorization, manages user tokens, and exposes 7,000+ pre-built integrations as Model Context Protocol tools that agent frameworks like LangChain, OpenA…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 71.9
-  shared: 1
-- slug: impact
-  name: Impact
-  description: impact.com is a partnership management platform for affiliate, creator, influencer and customer-referral programs. It publishes four REST API personas - Brand v14, Partner v16, Agency v3 and Advocate v13 - across 69 OpenAPI 3.1 documents and 245 operations, a remote OAuth 2.1 MCP server at mcp.impa…
-  api_count: 138
-  score_band: exemplar
-  score_composite: 71.9
-  shared: 1
 - slug: bigpanda
   name: BigPanda
   description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
@@ -134,12 +120,26 @@ providers:
   score_band: exemplar
   score_composite: 71.8
   shared: 1
+- slug: scvd-store
+  name: SCVD General Store
+  description: Record Creative Co. LLC is the one-person Oak City, North Carolina company that operates scvd.store — "Sean-Claude Van Damme's General Store", an evidence observatory for agentic commerce and a general store for AI agents. It independently verifies x402 payment endpoints, signed offers and receipts…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 71.6
+  shared: 1
 - slug: instacart
   name: Instacart
   description: Instacart (Maplebear Inc.) is a North American grocery technology company that operates the Instacart Marketplace and sells its underlying commerce, fulfillment, catalog, advertising and storefront technology to retailers and brands. Its published API surface splits cleanly in two. The Instacart De…
   api_count: 5
   score_band: exemplar
   score_composite: 71.5
+  shared: 1
+- slug: impact
+  name: Impact
+  description: impact.com is a partnership management platform for affiliate, creator, influencer and customer-referral programs. It publishes four REST API personas - Brand v14, Partner v16, Agency v3 and Advocate v13 - across 69 OpenAPI 3.1 documents and 245 operations, a remote OAuth 2.1 MCP server at mcp.impa…
+  api_count: 138
+  score_band: exemplar
+  score_composite: 71.4
   shared: 1
 - slug: loops
   name: Loops
@@ -183,6 +183,13 @@ providers:
   score_band: exemplar
   score_composite: 69.4
   shared: 1
+- slug: ploid
+  name: Ploid
+  description: 'Ploid is an applied AI lab building a people search and intelligence platform: a living index of more than two billion people available through a web app, a REST API, a CLI, and a hosted MCP server. The Ploid Public API (OpenAPI 3.1, 31 operations on api.ploid.com) covers synchronous people search,…'
+  api_count: 2
+  score_band: exemplar
+  score_composite: 68.9
+  shared: 1
 - slug: crawl4ai
   name: Crawl4AI
   description: Crawl4AI is an open-source, Apache-2.0 web crawler and scraper built to turn any URL into clean, LLM-ready data — Markdown, typed JSON, screenshots, PDFs, or a map of every URL on a domain. Operated by CONTEXT4AI PTE LTD of Singapore and created by Hossein Tohidi (@unclecode), the project pairs a 7…
@@ -204,28 +211,22 @@ providers:
   score_band: exemplar
   score_composite: 68.1
   shared: 1
-- slug: google-dialogflow
-  name: Google Dialogflow
-  description: Google Dialogflow is Google Cloud's conversational-agent platform, shipped as two editions on one API host. Dialogflow ES (Essentials, API v2) builds intent-, entity- and context-driven agents with knowledge connectors and the Agent Assist surface for human contact-centre agents. Dialogflow CX — no…
+- slug: buildkite-com
+  name: Buildkite
+  description: Buildkite is a hybrid CI/CD platform that combines a hosted control plane (pipelines.buildkite.com) with self-hosted or Buildkite-Hosted agents that run jobs on customer-controlled infrastructure. The platform spans three core products — Pipelines, Test Engine, and Package Registries — and exposes…
   api_count: 2
   score_band: exemplar
   score_composite: 68.0
   shared: 1
-- slug: clix-so
-  name: Clix
-  description: Clix is a US-based, developer-first mobile push notification platform for iOS, Android, React Native and Flutter — one CLI command (clix install) automates Firebase Cloud Messaging and APNs setup, and the console adds behaviour-triggered and API-triggered campaigns, real-time delivery logs, full-fu…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 67.8
-  shared: 1
 provider_slugs:
 - appwrite
 - elevenlabs
-- agoragentic-com
 - anthropic
+- agoragentic-com
 - convertkit
 - outreach
 - boom-ai
+- octen-ai
 - dify
 - thehiveryiq-com
 - carsxe
@@ -233,33 +234,34 @@ provider_slugs:
 - veeva
 - delx-ai
 - qliksense
-- scvd-store
-- arcade
-- impact
 - bigpanda
+- scvd-store
 - instacart
+- impact
 - loops
 - x
 - bitly
 - textql
 - cogny
 - lightfield
+- ploid
 - crawl4ai
 - facebook-business-manager
 - gitdealflow-com
+- buildkite-com
 - google-dialogflow
 - clix-so
 - transcriptfetch
 - buffer
 - seamless-ai
-- api-evangelist
 - northbeam
 - parallel
-- buildkite-com
 - postiz
+- api-evangelist
 - chili-piper
 - github-copilot
 - e2b-dev
+- apollo-io
 - konbiniapi
 - n8n
 - agent-ready-dev
@@ -267,9 +269,10 @@ provider_slugs:
 - vendia
 - inflectionio
 - flint
-- thecolony-ai
+- bykaranteli
 - salesloft
 - anecdotes
+- thecolony-ai
 - bria
 - seekr
 - daytona-io
@@ -277,9 +280,9 @@ provider_slugs:
 - comet
 - hyperdx
 - navattic
-- apollo-api-documentation
 - aicomglobal-com
 - landingai
+- monid
 - compresr
 - lilt
 - fundamental-research-labs
@@ -289,21 +292,22 @@ provider_slugs:
 - nooks
 - workos
 - nextroll
+- cursor
 - jasper
 - whisper-online
 - exa-ai
 - natural-ai
 - freestyle-sh
-- mercury-hq-com
 - conviva
 - thoughtspot
 - edgee
 - postalform-com
+- mercury-hq-com
 - fixie
-- councilof-ai
 - corti
 - end-game
 - read-ai
+- councilof-ai
 - perplexity
 - leadpages
 - duvo-ai
@@ -320,13 +324,13 @@ provider_slugs:
 - koreai
 - vectara
 - mixmax
-- 2s-io
-- insider
 - pydantic-ai
 - horizonshield-dev
 - hiveagentiq-com
 - smklog-com
+- 2s-io
 - greenhelix-net
+- insider
 - beyond-presence
 - lifi
 - sitefire
@@ -349,15 +353,13 @@ provider_slugs:
 - antimetal
 - xguardgate-com
 - chainaware-ai
-- bykaranteli
 - h-company
 - typeface
 - madkudu
 - sssnack-com
-- tetrascience
 - macaroonnetwork-com
 - tether
-- gemini
+- tetrascience
 - trustboost-dev
 - linktree
 - movehome-org
@@ -375,13 +377,11 @@ provider_slugs:
 - akia
 - hevn-inc
 - sandboxaq
-- bird
 - opkey
 - coinrailz-com
 - hergertsynthora-com
 - revnu
 - avalix-ai
-- agentexchange-work
 - agenthealthmonitor-xyz
 - airweave
 - uniphore
@@ -390,6 +390,7 @@ provider_slugs:
 - linqalpha
 - meetsmore
 - ragflow
+- agentexchange-work
 - opus
 - dokki-one
 - langdock
@@ -398,6 +399,7 @@ provider_slugs:
 - polycode-co-uk
 - permutive
 - graphy
+- vooma
 - geoloods
 - anchor-x402
 - light
@@ -411,9 +413,9 @@ provider_slugs:
 - dialect
 - flowise
 - landbase
-- vooma
 - wagerx-io
 - yutori
+- bird
 - nexad
 - fieldguide
 - aleph-alpha
@@ -421,7 +423,6 @@ provider_slugs:
 - 01mind-net
 - aquant
 - clarifeye
-- sail
 - tana
 - flexai
 - runautomat
@@ -429,11 +430,11 @@ provider_slugs:
 - globant
 - admakeai
 - onchainagentintel-io
-- langchain
 - linear-app
 - privatedao-org
 - result
 - jinba
+- langchain
 - osmosis
 - machinerealms-com
 - chatwoot
@@ -487,10 +488,10 @@ provider_slugs:
 - scratchpad
 - kgninja-dev
 - golem-cloud
-- monid
 - tdaycom
 - capepartners-fr
 - kumoai
+- merchant-0-com
 - arc-prize-foundation
 - deusproof-com
 - unisson
@@ -504,7 +505,6 @@ provider_slugs:
 - judgment-labs
 - patlytics
 - openmind
-- merchant-0-com
 - getaiscan-app
 - 4paradigm
 - pipecat-ai
@@ -514,7 +514,6 @@ provider_slugs:
 - kotzilla
 - polyai
 - vapi
-- cursor
 - langbase
 - wrongbeauty-com
 - wisdom-ai
@@ -538,9 +537,9 @@ provider_slugs:
 - league
 - sana-labs
 - urbit
-- bland-ai
 - langgraph
 - rainfocus
+- bland-ai
 - linusbio
 - anvilogic
 - hello-therma
@@ -555,8 +554,8 @@ provider_slugs:
 - superlist
 - 21st
 - unified
-- windsurf
 - hatchable-site
+- windsurf
 - packdigital
 - gigacatalyst
 - llamaindex
@@ -564,7 +563,6 @@ provider_slugs:
 - korso
 - reflexivity
 - hakuto-0209-com
-- realtor
 - david-protein
 - popp
 - glean
@@ -575,9 +573,9 @@ provider_slugs:
 - solve-intelligence
 - tabtabtab
 - deepip
-- symbolica
 - aera-technology
 - instawork
+- symbolica
 - fleethelp-ai
 - heeler
 - voiceops
@@ -657,9 +655,9 @@ provider_slugs:
 - ambarella
 - sazabi
 - hippo-insurance
-- cline
 - staircase
 - regression-games
+- cline
 - agentifai
 - intersection
 - martini
@@ -714,15 +712,22 @@ provider_slugs:
 - burt
 - talking-computers
 - semantic-kernel
+- eventwren
+- hagglebee
+- yarnhen
+- yawplet
 related:
 - slug: machine-learning
   name: Machine Learning
-  shared: 4
-- slug: authentication
-  name: Authentication
   shared: 3
 - slug: ai-automation
   name: AI Automation
+  shared: 2
+- slug: search
+  name: API Evangelist Search
+  shared: 2
+- slug: authentication
+  name: Authentication
   shared: 2
 - slug: observability
   name: Observability
@@ -730,14 +735,11 @@ related:
 - slug: aiops
   name: AIOps
   shared: 1
-- slug: search
-  name: API Evangelist Search
-  shared: 1
 overview: 'Agents is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents.apievangelist.com](https://agents.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Appwrite, ElevenLabs, Agoragentic, Anthropic, Kit, Outreach, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Appwrite, ElevenLabs, Anthropic, Agoragentic, Kit, Outreach, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Machine Learning, Authentication, AI Automation, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Machine Learning, AI Automation, API Evangelist Search, and Authentication. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

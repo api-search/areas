@@ -13,14 +13,14 @@ providers:
   description: Algolia is a hosted search and discovery platform that delivers fast, typo-tolerant search, browse, recommendations and personalization through a suite of REST APIs and edge-distributed infrastructure. It powers search experiences for ecommerce, media, SaaS and content sites, pairing a synchronous…
   api_count: 15
   score_band: exemplar
-  score_composite: 74.4
+  score_composite: 82.8
   shared: 1
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 21
   score_band: exemplar
-  score_composite: 73.7
+  score_composite: 79.6
   shared: 1
 - slug: taboola
   name: Taboola
@@ -111,7 +111,7 @@ providers:
   description: Apinity empowers organisations to run their compliant API marketplace that simplifies integration, drives adoption, and secures governance. The platform provides tools for managing API lifecycle, enabling API discovery, enforcing compliance policies, and facilitating secure API-driven integrations…
   api_count: 1
   score_band: thin
-  score_composite: 27.1
+  score_composite: 26.9
   shared: 1
 - slug: podcastindex
   name: PodcastIndex
@@ -264,14 +264,14 @@ related:
 - slug: migration
   name: Migration
   shared: 3
-- slug: search
-  name: API Evangelist Search
-  shared: 2
 - slug: network
   name: Network
   shared: 1
 - slug: ai-automation
   name: AI Automation
+  shared: 1
+- slug: search
+  name: API Evangelist Search
   shared: 1
 - slug: design
   name: Design
@@ -285,5 +285,5 @@ overview: 'API Evangelist Discovery is one of the API Evangelist areas on the [A
   30 providers on the network work in this area, including Algolia, Postman, Taboola, The Movie Database, Azure Migrate, Artifact Hub, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, API Evangelist Search, Network, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, Network, AI Automation, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

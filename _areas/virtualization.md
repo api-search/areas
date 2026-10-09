@@ -15,19 +15,19 @@ providers:
   score_band: minimal
   score_composite: 9.5
   shared: 2
+- slug: nutanix
+  name: Nutanix
+  description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 67.4
+  shared: 1
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
   api_count: 11
   score_band: strong
   score_composite: 60.2
-  shared: 1
-- slug: nutanix
-  name: Nutanix
-  description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
-  api_count: 2
-  score_band: strong
-  score_composite: 56.2
   shared: 1
 - slug: vmware
   name: VMware
@@ -42,6 +42,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 47.8
+  shared: 1
+- slug: broadcom
+  name: Broadcom
+  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
+  api_count: 3
+  score_band: developing
+  score_composite: 47.5
   shared: 1
 - slug: smol-machines
   name: Smol Machines
@@ -64,19 +71,19 @@ providers:
   score_band: developing
   score_composite: 42.3
   shared: 1
-- slug: citrix
-  name: Citrix
-  description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
-  api_count: 6
-  score_band: developing
-  score_composite: 41.8
-  shared: 1
 - slug: incus
   name: Incus
   description: Incus is a modern open source system container and virtual machine manager maintained by LinuxContainers.org as a community-led fork of Canonical's LXD. It provides a unified experience for running and managing system containers and VMs across single hosts and clusters, with image-based deployment,…
   api_count: 1
   score_band: developing
   score_composite: 41.7
+  shared: 1
+- slug: citrix
+  name: Citrix
+  description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
+  api_count: 6
+  score_band: developing
+  score_composite: 41.3
   shared: 1
 - slug: vagrant
   name: Vagrant
@@ -111,7 +118,7 @@ providers:
   description: API for managing Solaris Zones (containers) and virtualization on Oracle Solaris systems.
   api_count: 9
   score_band: thin
-  score_composite: 38.8
+  score_composite: 38.3
   shared: 1
 - slug: platform9
   name: Platform9
@@ -161,13 +168,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 31.1
-  shared: 1
-- slug: broadcom
-  name: Broadcom
-  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
-  api_count: 3
-  score_band: thin
-  score_composite: 31.0
   shared: 1
 - slug: hypori
   name: Hypori
@@ -220,15 +220,16 @@ providers:
   shared: 1
 provider_slugs:
 - virtualization
-- intersight
 - nutanix
+- intersight
 - vmware
 - slide
+- broadcom
 - smol-machines
 - oxide-computer
 - kubevirt
-- citrix
 - incus
+- citrix
 - vagrant
 - veritas-infoscale
 - vers
@@ -241,7 +242,6 @@ provider_slugs:
 - google-cloud-vmware-engine
 - parallels-swsoft
 - simplivity
-- broadcom
 - hypori
 - parallels
 - nanovms
@@ -276,7 +276,7 @@ related:
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Virtualization, Cisco Intersight, Nutanix, VMware, Slide, Smol Machines, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Virtualization, Nutanix, Cisco Intersight, VMware, Slide, Broadcom, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Migration, Database, Orchestration, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'

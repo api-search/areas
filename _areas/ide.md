@@ -22,6 +22,20 @@ providers:
   score_band: strong
   score_composite: 64.1
   shared: 1
+- slug: cursor
+  name: Cursor
+  description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
+  api_count: 1
+  score_band: strong
+  score_composite: 59.6
+  shared: 1
+- slug: jetbrains
+  name: JetBrains
+  description: JetBrains is a software development company that provides integrated development environments, CI/CD tools, issue tracking, and team collaboration platforms for software developers. Their product suite includes IntelliJ IDEA, TeamCity, YouTrack, Space, Hub, and the JetBrains Marketplace, all of whi…
+  api_count: 5
+  score_band: strong
+  score_composite: 55.0
+  shared: 1
 - slug: choreo
   name: Choreo
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
@@ -50,13 +64,6 @@ providers:
   score_band: developing
   score_composite: 39.6
   shared: 1
-- slug: jetbrains
-  name: JetBrains
-  description: JetBrains is a software development company that provides integrated development environments, CI/CD tools, issue tracking, and team collaboration platforms for software developers. Their product suite includes IntelliJ IDEA, TeamCity, YouTrack, Space, Hub, and the JetBrains Marketplace, all of whi…
-  api_count: 5
-  score_band: thin
-  score_composite: 39.2
-  shared: 1
 - slug: vs-code-marketplace
   name: VS Code Marketplace
   description: VS Code Marketplace is Microsoft's official extension marketplace for Visual Studio Code, offering thousands of extensions for languages, debuggers, themes, and developer tools. It provides a Gallery API for programmatically searching, discovering, and retrieving extension metadata, enabling integr…
@@ -71,19 +78,12 @@ providers:
   score_band: thin
   score_composite: 36.3
   shared: 1
-- slug: cursor
-  name: Cursor
-  description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
-  api_count: 1
-  score_band: thin
-  score_composite: 35.4
-  shared: 1
 - slug: windsurf
   name: Windsurf
   description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
   api_count: 1
   score_band: thin
-  score_composite: 30.9
+  score_composite: 30.7
   shared: 1
 - slug: microsoft-visual-studio
   name: Microsoft Visual Studio
@@ -179,14 +179,14 @@ providers:
 provider_slugs:
 - github-copilot
 - eclipse
+- cursor
+- jetbrains
 - choreo
 - workday-studio
 - amazon-cloud9
 - jupyterlab
-- jetbrains
 - vs-code-marketplace
 - anysphere
-- cursor
 - windsurf
 - microsoft-visual-studio
 - jetbrains-plugin
@@ -223,7 +223,7 @@ related:
 overview: 'IDE is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ide.apievangelist.com](https://ide.apievangelist.com).
 
 
-  24 providers on the network work in this area, including GitHub Copilot, Eclipse Foundation, Choreo, Workday Studio, Amazon Cloud9, JupyterLab, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  24 providers on the network work in this area, including GitHub Copilot, Eclipse Foundation, Cursor, JetBrains, Choreo, Workday Studio, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Unified APIs, FinOps, Machine Learning, and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'

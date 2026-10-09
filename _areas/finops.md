@@ -132,7 +132,7 @@ providers:
   description: CAST AI is an Application Performance Automation (APA) platform for Kubernetes that automates cost optimization, autoscaling, workload rightsizing, GPU/LLM workload placement, spot instance selection, and security posture analysis. The platform works across AWS, GCP, Azure, Oracle Cloud, IBM Cloud,…
   api_count: 1
   score_band: developing
-  score_composite: 46.5
+  score_composite: 46.3
   shared: 1
 - slug: schematic
   name: Schematic
@@ -181,7 +181,7 @@ providers:
   description: CloudZero is a cloud cost intelligence and FinOps platform that automates the collection, allocation, and analysis of infrastructure spend to uncover waste and improve unit economics. The CloudZero API V2 is REST-oriented, uses API key authentication, and exposes endpoints for querying billing cost…
   api_count: 1
   score_band: developing
-  score_composite: 43.3
+  score_composite: 43.1
   shared: 1
 - slug: cycloid
   name: Cycloid

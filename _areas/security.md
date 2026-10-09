@@ -6,7 +6,7 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 867
+provider_count: 871
 providers:
 - slug: pynt
   name: Pynt
@@ -155,19 +155,26 @@ providers:
   score_band: null
   score_composite: 0
   shared: 2
-- slug: elk-stack
-  name: Elastic Stack
-  description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
-  api_count: 11
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 25
   score_band: exemplar
-  score_composite: 78.5
+  score_composite: 80.6
   shared: 1
 - slug: snyk
   name: Snyk
   description: Snyk is a developer-first security platform covering code, open-source dependencies, container images, and infrastructure-as-code. The Snyk REST API and V1 API expose groups, organizations, projects, issues, targets, integrations, audit logs, SBOMs, container images, custom base images, webhooks, a…
   api_count: 3
   score_band: exemplar
-  score_composite: 74.8
+  score_composite: 80.6
+  shared: 1
+- slug: elk-stack
+  name: Elastic Stack
+  description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
+  api_count: 19
+  score_band: exemplar
+  score_composite: 78.0
   shared: 1
 - slug: amazon-vpn
   name: Amazon VPN
@@ -175,6 +182,13 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 74.6
+  shared: 1
+- slug: elastic
+  name: Elastic
+  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 74.2
   shared: 1
 - slug: onetrust
   name: OneTrust
@@ -190,33 +204,19 @@ providers:
   score_band: exemplar
   score_composite: 72.6
   shared: 1
+- slug: jfrog
+  name: JFrog
+  description: JFrog provides universal DevOps solutions for software supply chain automation and security, offering a unified platform for managing binaries, securing the software supply chain, and automating DevOps workflows.
+  api_count: 14
+  score_band: exemplar
+  score_composite: 71.6
+  shared: 1
 - slug: clerk-com
   name: Clerk
   description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
   api_count: 7
   score_band: exemplar
-  score_composite: 71.9
-  shared: 1
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 24
-  score_band: exemplar
-  score_composite: 71.9
-  shared: 1
-- slug: drata
-  name: Drata
-  description: Drata is a continuous security and compliance automation platform supporting SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, and more, with policies, evidence, and trust center. Drata exposes a public REST API plus the SafeBase Trust API (acquired) and a Custom Connections framework for evidence collection.
-  api_count: 3
-  score_band: exemplar
-  score_composite: 70.7
-  shared: 1
-- slug: auth0
-  name: Auth0
-  description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes a Management API (OpenAPI 3.1, 221 paths, 2,567 schemas), an…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 70.5
+  score_composite: 71.4
   shared: 1
 provider_slugs:
 - pynt
@@ -240,34 +240,38 @@ provider_slugs:
 - hex-security
 - tinfoil-security
 - tcell-io
-- elk-stack
+- cloudflare
 - snyk
+- elk-stack
 - amazon-vpn
+- elastic
 - onetrust
 - aembit
+- jfrog
 - clerk-com
-- cloudflare
 - drata
 - auth0
+- ibm
 - mailboxlayer
-- jfrog
 - paubox
 - strivacity
 - amazon-secrets-manager
 - tenable
 - f5
-- cisco-xdr
 - imgauth-api-di-attestazione-opere-digitali
+- cisco-xdr
 - amazon-vpc
+- databricks
 - fastly
-- ibm
 - shodan
 - shieldlabs
+- sonatype
 - zerotier
 - censys
 - microsoft-azure-private-link
 - routebase
 - anecdotes
+- treblle
 - exclaimer
 - cisco-umbrella
 - cisco-ise
@@ -275,12 +279,14 @@ provider_slugs:
 - barndoor
 - stytch
 - microsoft-azure-key-vault
-- juniper
+- splunk
 - openzeppelin
+- blumira
+- transmit-security
 - allegion
+- juniper
 - 1password
 - whisper-online
-- blumira
 - kondukto
 - malwarebytes
 - ledger
@@ -300,46 +306,46 @@ provider_slugs:
 - cisco-secure-firewall
 - amazon-config
 - yubico
-- databricks
 - amazon-certificate-manager
 - amazon-private-ca
 - kolide
+- axway
 - sailpoint
 - amazon-fraud-detector
 - jupiterone
 - c1
-- treblle
 - vulncheck
 - typingdna
 - dopesecurity
-- splunk
 - airmdr
 - amazon-inspector
 - amazon-security-lake
 - cipherowl
 - kisi
-- 2s-io
 - panther
 - amazon-iam-access-analyzer
 - amazon-cloudtrail
 - conductorone
 - agentgateway
 - fraud-net
+- 2s-io
 - huntress
+- saviynt
 - onecli
 - neutrino-api
-- emailrep
 - projectdiscovery
 - smallstep
 - fordefi
 - vettly
 - abnormal
+- emailrep
 - adaptive-automation-technologies
 - channelseal
 - civic
 - qwiet-ai
 - indykite
 - ironcore-labs
+- strongdm
 - macadress
 - amazon-shield
 - basis-theory
@@ -353,17 +359,16 @@ provider_slugs:
 - patronus-protect
 - 1kosmos
 - amazon-verified-permissions
+- cisco
 - mine
 - trusona
 - synack
 - verkada
 - viso-trust
-- axway
 - google-cloud-api-gateway
 - levelblue
 - amazon-detective
 - method-security
-- transmit-security
 - npm
 - accuknox
 - horizon3ai
@@ -400,8 +405,8 @@ provider_slugs:
 - tanium
 - sysdig
 - filigran
-- sonatype
 - regscale
+- qlik
 - amazon-codeguru-reviewer
 - google-cloud-armor
 - dragos
@@ -424,6 +429,7 @@ provider_slugs:
 - binarly
 - adaptive-security
 - doppel
+- keeper-security
 - securden
 - workday-security
 - coro
@@ -438,24 +444,22 @@ provider_slugs:
 - microsoft-sentinel
 - shuffle
 - socket
-- aws-waf
 - cubist
 - forta
 - google-safe-browsing
 - venafi
 - c-side
 - runreveal
-- stackhawk
 - cequence
 - oso
 - arctic-wolf
+- stackhawk
 - p0-security
-- saviynt
 - pixee-ai
-- sonar
 - base-operations
 - amazon-cloudhsm
 - aqua-security
+- sonar
 - coronet
 - kuma
 - google-recaptcha
@@ -464,6 +468,7 @@ provider_slugs:
 - signal
 - rapid7
 - cakewalk
+- aws-waf
 - dreamfactory
 - isovalent
 - safe-security
@@ -471,8 +476,8 @@ provider_slugs:
 - spire
 - cynet
 - symantec
-- wallarm
 - veza
+- wallarm
 - proofpoint
 - pulse
 - spycloud
@@ -485,24 +490,25 @@ provider_slugs:
 - silent-push
 - spyderbat
 - sublime-security
+- beyondtrust
 - immersive-labs
 - nudge-security
 - opensearch
-- cisco
 - certifid
-- strongdm
 - eagle-eye-networks
+- netskope
 - stackrox
 - mcafee
 - onlinenic
 - mondoo
 - sophos
+- ciphertrust
 - pangea
 - spring-security
-- strata-identity
 - stellar-cyber
 - akamai-api-security
 - hush-security
+- strata-identity
 - kyverno
 - urbanfox
 - bot-butcher
@@ -522,7 +528,6 @@ provider_slugs:
 - devo
 - demisto
 - keycloak
-- qlik
 - sonarqube
 - coreview-fka-4ward365
 - qpoint
@@ -544,7 +549,6 @@ provider_slugs:
 - koi-security
 - echomark
 - watchtowr
-- elastic
 - sigstore
 - cert-manager
 - ubuntu
@@ -586,10 +590,10 @@ provider_slugs:
 - spiffe
 - bettercloud
 - bitsight
-- doppler
 - prisma-cloud
 - tessian
 - vpn
+- doppler
 - certora
 - illumio
 - infra
@@ -597,7 +601,6 @@ provider_slugs:
 - aws-security-hub
 - hypernative
 - intezer
-- beyondtrust
 - endor-labs
 - armorcode
 - assembla
@@ -608,14 +611,15 @@ provider_slugs:
 - caplinked
 - tensor9
 - perimeterx
+- iboss
 - uptycs
 - code-42
 - theta-lake
 - ipbase
-- bluerock-security
 - styra
 - nebulock
 - centrify
+- bluerock-security
 - dataminr
 - lattica
 - perimeter-81
@@ -636,13 +640,13 @@ provider_slugs:
 - in-toto
 - evebrief-org
 - splashtop
-- keeper-security
 - tuf
 - tolmo
 - red-balloon-security
 - apiwiz
 - raid-ai
 - valtix
+- blocksec
 - esentire
 - silverfort
 - todyl
@@ -667,9 +671,7 @@ provider_slugs:
 - mendral
 - quadrant-api
 - unisys
-- ciphertrust
 - lastline
-- iboss
 - api-dynamics
 - brinks
 - zero-trust-architecture
@@ -682,10 +684,12 @@ provider_slugs:
 - daylight
 - rewind
 - mosyle
+- blackcloak
 - qradar
 - keybase
 - anonyome-labs
 - resurface
+- breachlock
 - halborn
 - seezo
 - arbor-networks
@@ -727,6 +731,7 @@ provider_slugs:
 - material-security
 - sonrai-security
 - zafran-security
+- datatheorem
 - adyton
 - alkira
 - astelia
@@ -738,7 +743,6 @@ provider_slugs:
 - knoxsystems
 - apiiroltd
 - orca-security
-- astrix-security
 - anomali
 - ardent-privacy
 - code4rena
@@ -746,6 +750,7 @@ provider_slugs:
 - cartography
 - copa
 - mandiant
+- astrix-security
 - belfry
 - armorcodeinc
 - validit
@@ -789,7 +794,6 @@ provider_slugs:
 - clover-security
 - api-stack
 - cogent
-- lightbeam-ai
 - bluecoat-symantec
 - ordr
 - pensando
@@ -798,10 +802,11 @@ provider_slugs:
 - scytale
 - abstract-security
 - biocatch
+- lightbeam-ai
 - exaforce
-- sprinto
 - nsknox
 - legion
+- sprinto
 - actualyzeai
 - command-zero
 - rbac
@@ -815,7 +820,6 @@ provider_slugs:
 - novee-security
 - closinglock
 - owasp-api-security-project
-- qiz-security
 - opendns
 - threat-stack
 - anagram
@@ -823,6 +827,7 @@ provider_slugs:
 - rapidfort
 - exein
 - allcloud
+- qiz-security
 - authmind
 - enclave
 - redaccess
@@ -832,7 +837,6 @@ provider_slugs:
 - outtake
 - pentera
 - lastpass
-- netskope
 - siemonster
 - taai-labs-inc
 - observeit-proofpoint
@@ -854,6 +858,7 @@ provider_slugs:
 - qualys
 - tugboat-logic
 - calvis
+- arconnet
 - verint-systems
 - concentric-ai
 - aurascape
@@ -870,7 +875,6 @@ provider_slugs:
 - fortune-brands-innovations
 - kratos-defense-and-security-solutions
 - prosimo
-- security
 - authy
 - aizome
 - oligo
@@ -1005,6 +1009,7 @@ provider_slugs:
 - secure-by-design
 - anxiatechnology
 - beekeeperai
+- botguard
 - privacy-by-design
 - lightcyber
 - secure-by-default
@@ -1014,7 +1019,6 @@ provider_slugs:
 - authentication
 - bromium
 - ciphercloud
-- iam
 - nok-nok-labs
 - octarine
 - oneasp
@@ -1087,23 +1091,23 @@ provider_slugs:
 - versive
 - waveset
 related:
-- slug: authentication
-  name: Authentication
-  shared: 3
 - slug: search
   name: API Evangelist Search
-  shared: 1
+  shared: 2
+- slug: authentication
+  name: Authentication
+  shared: 2
+- slug: monitoring
+  name: Monitoring
+  shared: 2
+- slug: observability
+  name: Observability
+  shared: 2
 - slug: containers
   name: Containers
   shared: 1
 - slug: dns
   name: DNS
-  shared: 1
-- slug: gateway
-  name: Gateway
-  shared: 1
-- slug: logging
-  name: Logging
   shared: 1
 overview: 'Security is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [security.apievangelist.com](https://security.apievangelist.com).
 
@@ -1111,5 +1115,5 @@ overview: 'Security is one of the API Evangelist areas on the [APIs.io](https://
   30 providers on the network work in this area, including Pynt, Upwind, CyCognito, detectify, Imperva, Chaitin Tech, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Authentication, API Evangelist Search, Containers, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Search, Authentication, Monitoring, and Observability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

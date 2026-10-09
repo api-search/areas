@@ -120,19 +120,26 @@ providers:
   score_band: developing
   score_composite: 40.5
   shared: 1
-- slug: akeyless
-  name: Akeyless
-  description: Akeyless is a cloud-native identity security platform that unifies secrets management, machine identity, and privileged access for AI agents, machines, and humans at scale. The platform provides a REST API with 200+ endpoints covering secrets vaulting, dynamic secrets generation, certificate lifecy…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.2
-  shared: 1
 - slug: digicert
   name: Digicert
   description: Digicert is a leading provider of digital security solutions, specializing in SSL/TLS certificates, PKI solutions, and website security. They help organizations of all sizes protect their websites, data, and communications from cyber threats by providing secure encryption and authentication service…
   api_count: 9
   score_band: developing
   score_composite: 40.2
+  shared: 1
+- slug: akeyless
+  name: Akeyless
+  description: Akeyless is a cloud-native identity security platform that unifies secrets management, machine identity, and privileged access for AI agents, machines, and humans at scale. The platform provides a REST API with 200+ endpoints covering secrets vaulting, dynamic secrets generation, certificate lifecy…
+  api_count: 1
+  score_band: developing
+  score_composite: 39.7
+  shared: 1
+- slug: ciphertrust
+  name: CipherTrust
+  description: CipherTrust Manager is Thales's centralized key- and data-security management platform and the control plane of the CipherTrust Data Security Platform (CDSP). It provides a unified plane for encryption key lifecycle management, secrets management, certificates, tokenization, data discovery, and pol…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.0
   shared: 1
 - slug: preveil
   name: PreVeil
@@ -211,13 +218,6 @@ providers:
   score_band: thin
   score_composite: 28.6
   shared: 1
-- slug: ciphertrust
-  name: CipherTrust
-  description: CipherTrust Manager is Thales's centralized key- and data-security management platform and the control plane of the CipherTrust Data Security Platform (CDSP). It provides a unified plane for encryption key lifecycle management, secrets management, certificates, tokenization, data discovery, and pol…
-  api_count: 1
-  score_band: emerging
-  score_composite: 23.7
-  shared: 1
 provider_slugs:
 - paubox
 - amazon-kms
@@ -235,8 +235,9 @@ provider_slugs:
 - signal
 - seismic-systems
 - skyflow
-- akeyless
 - digicert
+- akeyless
+- ciphertrust
 - preveil
 - plakar
 - via-science
@@ -248,7 +249,6 @@ provider_slugs:
 - virgil-security
 - vpn
 - lattica
-- ciphertrust
 - sops
 - keybase
 - pipe-network

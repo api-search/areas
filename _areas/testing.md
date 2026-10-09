@@ -6,14 +6,21 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://testing.apievangelist.com
 area_host: testing.apievangelist.com
 icon: https://testing.apievangelist.com/icon-thumb.png
-provider_count: 176
+provider_count: 177
 providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 21
   score_band: exemplar
-  score_composite: 73.7
+  score_composite: 79.6
+  shared: 2
+- slug: smartbear
+  name: SmartBear
+  description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI for API testing, PactFlow for contract testing, and other tool…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.3
   shared: 2
 - slug: keploy
   name: Keploy
@@ -22,6 +29,13 @@ providers:
   score_band: strong
   score_composite: 57.0
   shared: 2
+- slug: apidog
+  name: Apidog
+  description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborativ…'
+  api_count: 1
+  score_band: developing
+  score_composite: 54.0
+  shared: 2
 - slug: bruno-api
   name: Bruno
   description: Bruno is an open-source (MIT), git-native API client - a lightweight, offline-first alternative to Postman and Insomnia for exploring and testing APIs. It is a developer TOOL, not a hosted HTTP API provider. Collections are stored on the local filesystem as folders of plain-text files (the .bru "Br…
@@ -29,26 +43,12 @@ providers:
   score_band: developing
   score_composite: 51.9
   shared: 2
-- slug: apidog
-  name: Apidog
-  description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborativ…'
-  api_count: 1
-  score_band: developing
-  score_composite: 51.7
-  shared: 2
 - slug: assertible
   name: Assertible
   description: Assertible provides a reliable first line of defense against web service failures by providing simple and powerful assertions to test and monitor APIs. It enables automated API testing with assertions on response status, headers, body content, and performance, with integrations for CI/CD pipelines…
   api_count: 1
   score_band: developing
   score_composite: 48.2
-  shared: 2
-- slug: smartbear
-  name: SmartBear
-  description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI for API testing, PactFlow for contract testing, and other tool…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.7
   shared: 2
 - slug: testim-io
   name: Testim
@@ -106,12 +106,19 @@ providers:
   score_band: exemplar
   score_composite: 67.8
   shared: 1
+- slug: speakeasy
+  name: Speakeasy
+  description: Speakeasy provides an AI control plane platform that lets enterprises govern, secure, and observe AI agents, MCP servers, and Skills. The platform integrates with existing identity providers to assign permissioned identities to each agent and enforces policy in real time. It offers audit logs, comp…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.6
+  shared: 1
 - slug: uipath
   name: UiPath
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
   api_count: 6
-  score_band: exemplar
-  score_composite: 66.8
+  score_band: strong
+  score_composite: 66.3
   shared: 1
 - slug: stack-moxie
   name: Stack Moxie
@@ -126,6 +133,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 64.3
+  shared: 1
+- slug: treblle
+  name: Treblle
+  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.2
   shared: 1
 - slug: tempmailgrab
   name: TempMailGrab API
@@ -155,19 +169,12 @@ providers:
   score_band: strong
   score_composite: 55.6
   shared: 1
-- slug: treblle
-  name: Treblle
-  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
+- slug: insomnia
+  name: Insomnia
+  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 1
-  score_band: strong
-  score_composite: 55.6
-  shared: 1
-- slug: speakeasy
-  name: Speakeasy
-  description: The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.
-  api_count: 1
-  score_band: strong
-  score_composite: 54.7
+  score_band: developing
+  score_composite: 53.9
   shared: 1
 - slug: testfairy
   name: TestFairy
@@ -197,13 +204,6 @@ providers:
   score_band: developing
   score_composite: 52.7
   shared: 1
-- slug: apicontext
-  name: APIContext
-  description: APIContext (formerly APImetrics) is a synthetic API testing, monitoring and conformance platform. It calls the APIs you depend on from cloud locations around the world on a schedule, measures latency and availability from the outside in, validates responses against expected schemas and security pro…
-  api_count: 6
-  score_band: developing
-  score_composite: 51.6
-  shared: 1
 - slug: coval
   name: Coval
   description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Coval supports inbound/outbound voice, standard chat, chat over…
@@ -211,20 +211,20 @@ providers:
   score_band: developing
   score_composite: 51.6
   shared: 1
-- slug: elva
-  name: Elva
-  description: 'API management platform for the agentic era: reads repos to build an API catalog, enforces per-audience contracts, generates tests, and turns APIs into governed, hosted MCP servers for AI agents. Built by Theneo. Exposes a public no-auth OpenAPI scoring REST API and an llms.txt.'
-  api_count: 1
+- slug: apicontext
+  name: APIContext
+  description: APIContext (formerly APImetrics) is a synthetic API testing, monitoring and conformance platform. It calls the APIs you depend on from cloud locations around the world on a schedule, measures latency and availability from the outside in, validates responses against expected schemas and security pro…
+  api_count: 6
   score_band: developing
-  score_composite: 50.5
+  score_composite: 51.1
   shared: 1
 provider_slugs:
 - postman
-- keploy
-- bruno-api
-- apidog
-- assertible
 - smartbear
+- keploy
+- apidog
+- bruno-api
+- assertible
 - testim-io
 - rest-assured
 - supertest
@@ -233,27 +233,29 @@ provider_slugs:
 - checkly
 - tricentis
 - browserstack
+- speakeasy
 - uipath
 - stack-moxie
 - routebase
+- treblle
 - tempmailgrab
 - artillery
 - gradle
 - signadot
-- treblle
-- speakeasy
+- insomnia
 - testfairy
 - scorecard
 - kubeshop
 - pynt
-- apicontext
 - coval
+- apicontext
 - elva
 - panaya
 - automation-preflight-api
 - opkey
 - azure-test-labs
 - rainforest-qa
+- pactflow
 - emerge-tools
 - teamcity
 - accessibe
@@ -272,8 +274,8 @@ provider_slugs:
 - testmail-app
 - launchable
 - nuclei
-- apache-jmeter
 - rapidapi
+- apache-jmeter
 - copado
 - confident-cannabis
 - reqres
@@ -281,9 +283,8 @@ provider_slugs:
 - limrun
 - reflect
 - cypressio
-- beeceptor
 - owasp-zap
-- insomnia
+- beeceptor
 - testiny
 - http-toolkit
 - openlayer
@@ -398,26 +399,26 @@ provider_slugs:
 related:
 - slug: documentation
   name: Documentation
-  shared: 5
+  shared: 6
 - slug: design
   name: Design
-  shared: 4
+  shared: 5
 - slug: monitoring
   name: Monitoring
   shared: 4
 - slug: ai-automation
   name: AI Automation
-  shared: 3
+  shared: 2
+- slug: cli
+  name: Command Line Interface
+  shared: 2
 - slug: developer-experience
   name: Developer Experience
-  shared: 2
-- slug: observability
-  name: Observability
   shared: 2
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, Keploy, Bruno, Apidog, Assertible, SmartBear, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, SmartBear, Keploy, Apidog, Bruno, Assertible, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation, Design, Monitoring, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

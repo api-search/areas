@@ -6,7 +6,7 @@ description: An index and topic collection covering chatbots, conversational age
 area_url: https://bots.apievangelist.com
 area_host: bots.apievangelist.com
 icon: https://bots.apievangelist.com/icon-thumb.png
-provider_count: 19
+provider_count: 20
 providers:
 - slug: automation-anywhere
   name: Automation Anywhere
@@ -141,6 +141,13 @@ providers:
   score_band: emerging
   score_composite: 14.9
   shared: 1
+- slug: botsandusltd
+  name: Botsandusltd
+  description: Botsandusltd is a technology services company offering AI-driven automation solutions for businesses. The company focuses on integrating bots and custom software to streamline workflows, improve customer engagement, and enhance operational efficiency across various industries. While detailed public…
+  api_count: 0
+  score_band: minimal
+  score_composite: 2.9
+  shared: 1
 provider_slugs:
 - automation-anywhere
 - slack
@@ -161,6 +168,7 @@ provider_slugs:
 - kataai
 - liveperson
 - regression-games
+- botsandusltd
 related:
 - slug: agents-skills
   name: Agent Skills
@@ -171,7 +179,7 @@ related:
 overview: 'Bots is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [bots.apievangelist.com](https://bots.apievangelist.com).
 
 
-  19 providers on the network work in this area, including Automation Anywhere, Slack, Dant3, Lichess, ZenZap, Zoho Cliq, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  20 providers on the network work in this area, including Automation Anywhere, Slack, Dant3, Lichess, ZenZap, Zoho Cliq, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agent Skills and Encryption. Browse every area at [areas.apis.io](https://apis.io/areas/).'

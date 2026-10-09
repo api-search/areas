@@ -29,12 +29,26 @@ providers:
   score_band: exemplar
   score_composite: 72.6
   shared: 1
+- slug: treblle
+  name: Treblle
+  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.2
+  shared: 1
 - slug: apimatic
   name: APIMatic
   description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languag…
   api_count: 5
   score_band: strong
   score_composite: 63.1
+  shared: 1
+- slug: gitbook
+  name: GitBook
+  description: GitBook is a documentation and knowledge platform, positioned as "the knowledge layer for AI", that connects a company's docs, product and users, answers user questions with AI, and identifies gaps in its knowledge. Teams write and publish product and API documentation with docs-as-code support and…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.4
   shared: 1
 - slug: configure8
   name: Configure8
@@ -57,26 +71,12 @@ providers:
   score_band: strong
   score_composite: 55.6
   shared: 1
-- slug: treblle
-  name: Treblle
-  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.6
-  shared: 1
 - slug: apiable
   name: Apiable
   description: Apiable is an API portal platform that enables businesses to create single-tenant, white-label developer portals with custom domains, branding, and API product management. It supports API monetization, developer self-service onboarding, usage metrics, subscription lifecycle management, and integrat…
   api_count: 1
   score_band: developing
   score_composite: 53.6
-  shared: 1
-- slug: gitbook
-  name: GitBook
-  description: GitBook is a documentation and knowledge platform, positioned as "the knowledge layer for AI", that connects a company's docs, product and users, answers user questions with AI, and identifies gaps in its knowledge. Teams write and publish product and API documentation with docs-as-code support and…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.9
   shared: 1
 - slug: coveo
   name: Coveo
@@ -98,6 +98,13 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 48.0
+  shared: 1
+- slug: liblab
+  name: Liblab
+  description: liblab generates and publishes type-safe, idiomatic SDKs in TypeScript, Python, Java, .NET, Go, PHP, and Terraform from OpenAPI/Swagger/Postman specs, plus MCP servers that expose those APIs to AI agents. The platform ships a CLI, hosted portal, and CI/CD GitHub Action that publish SDKs to customer…
+  api_count: 13
+  score_band: developing
+  score_composite: 47.6
   shared: 1
 - slug: opplevagent-no
   name: Opplevagent
@@ -139,7 +146,14 @@ providers:
   description: OpsLevel is a prescriptive internal developer portal for cataloging, measuring, and scaffolding services according to engineering best practices.
   api_count: 1
   score_band: developing
-  score_composite: 42.2
+  score_composite: 41.9
+  shared: 1
+- slug: stainless
+  name: Stainless
+  description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic, Cloudflare, Google, and OpenAI, Stainless automates the boil…
+  api_count: 4
+  score_band: developing
+  score_composite: 41.1
   shared: 1
 - slug: getyourguide
   name: GetYourGuide
@@ -167,7 +181,7 @@ providers:
   description: Cortex (cortex.io) is an internal developer portal (IDP) and software catalog platform. It gives engineering organizations a catalog of services and entities, Scorecards that measure those entities against production-readiness and reliability standards, Initiatives for driving improvement campaigns…
   api_count: 1
   score_band: thin
-  score_composite: 37.7
+  score_composite: 37.5
   shared: 1
 - slug: tock
   name: Tock
@@ -204,40 +218,28 @@ providers:
   score_band: thin
   score_composite: 33.2
   shared: 1
-- slug: fever
-  name: Fever
-  description: 'Fever is a global live-entertainment discovery and ticketing platform that helps millions of people find events, activities and experiences in their city, and gives venues and partners the tools to sell and analyze tickets. For developers Fever exposes two public surfaces: an official Model Context…'
-  api_count: 1
-  score_band: thin
-  score_composite: 33.1
-  shared: 1
-- slug: readme-metrics
-  name: ReadMe Metrics
-  description: ReadMe is an API documentation and developer hub platform that helps companies build interactive API documentation, track API usage analytics, and improve developer experience. ReadMe Metrics captures and analyzes API request logs to provide insights into how developers are using your APIs.
-  api_count: 1
-  score_band: thin
-  score_composite: 32.9
-  shared: 1
 provider_slugs:
 - adobe-suite
 - acquia
 - atlassian-compass
+- treblle
 - apimatic
+- gitbook
 - configure8
 - unblocked
 - signadot
-- treblle
 - apiable
-- gitbook
 - coveo
 - viator
 - peek
+- liblab
 - opplevagent-no
 - fabric-com
 - cycloid
 - klook
 - qovery
 - opslevel
+- stainless
 - getyourguide
 - software
 - readmeio
@@ -252,14 +254,12 @@ provider_slugs:
 - driver
 - supernova
 - port-io
-- stainless
 - northflank
-- liblab
 - score
 - american-airlines
+- fern-api
 - grounded-tools
 - anyroad
-- fern-api
 - konfetti
 - turneo
 - nx-dev
@@ -283,27 +283,27 @@ provider_slugs:
 related:
 - slug: portal
   name: Portal
-  shared: 5
+  shared: 6
 - slug: documentation
   name: Documentation
   shared: 4
+- slug: sdk
+  name: SDKs
+  shared: 3
 - slug: microservices
   name: Microservices
   shared: 2
 - slug: testing
   name: Testing
   shared: 2
-- slug: sdk
-  name: SDKs
-  shared: 1
 - slug: ai-automation
   name: AI Automation
   shared: 1
 overview: 'Developer Experience is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [developer-experience.apievangelist.com](https://developer-experience.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Adobe Suite, Acquia, Atlassian Compass, APIMatic, Configure8, Unblocked, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Adobe Suite, Acquia, Atlassian Compass, Treblle, APIMatic, GitBook, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Portal, Documentation, Microservices, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Portal, Documentation, SDKs, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

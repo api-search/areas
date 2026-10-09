@@ -6,7 +6,7 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 186
+provider_count: 188
 providers:
 - slug: didomi
   name: Didomi
@@ -129,7 +129,7 @@ providers:
   shared: 1
 - slug: screenpipe
   name: Screenpipe
-  description: Screenpipe is a local-first, source-available desktop application (by Mediar AI, Y Combinator S26) that continuously captures everything you see, say, and hear on your computer, reads on-screen text through OS accessibility APIs with an OCR fallback, transcribes system and microphone audio locally…
+  description: Screenpipe is a local-first, source-available desktop application (by Mediar AI, Y Combinator S26) that continuously captures everything you see, say, and hear on your computer, reads on-screen text through OS accessibility APIs with an OCR fallback, transcribes system and microphone audio with loc…
   api_count: 1
   score_band: strong
   score_composite: 60.8
@@ -140,6 +140,13 @@ providers:
   api_count: 5
   score_band: strong
   score_composite: 60.6
+  shared: 1
+- slug: opentext-cybersecurity
+  name: OpenText Cybersecurity
+  description: OpenText Cybersecurity is the security business of OpenText, assembled from the Micro Focus security portfolio (Fortify application security, ArcSight threat detection and response, NetIQ identity and access management, Voltage data privacy) and the SMB/MSP brands OpenText acquired through Webroot,…
+  api_count: 2
+  score_band: strong
+  score_composite: 60.3
   shared: 1
 - slug: apple-safari
   name: Apple Safari
@@ -197,13 +204,6 @@ providers:
   score_band: strong
   score_composite: 54.7
   shared: 1
-- slug: opentext-cybersecurity
-  name: OpenText Cybersecurity
-  description: OpenText Cybersecurity is the security business of OpenText, assembled from the Micro Focus security portfolio (Fortify application security, ArcSight threat detection and response, NetIQ identity and access management, Voltage data privacy) and the SMB/MSP brands OpenText acquired through Webroot,…
-  api_count: 2
-  score_band: strong
-  score_composite: 54.7
-  shared: 1
 - slug: amazon-macie
   name: Amazon Macie
   description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the discovery of sensitive data, such as personally identifiable…
@@ -238,6 +238,7 @@ provider_slugs:
 - inrupt
 - screenpipe
 - liveramp
+- opentext-cybersecurity
 - apple-safari
 - altr
 - sourcepoint
@@ -246,7 +247,6 @@ provider_slugs:
 - apstal
 - california-privacy-protection-agency
 - bigid
-- opentext-cybersecurity
 - amazon-macie
 - osano
 - immuta
@@ -259,8 +259,8 @@ provider_slugs:
 - nym-technologies
 - fathom
 - habu
-- iab-tech-lab
 - mine
+- iab-tech-lab
 - trustboost-dev
 - inth
 - pimloc
@@ -275,6 +275,7 @@ provider_slugs:
 - k-id
 - sitejabber
 - quantcast
+- tabnine
 - terminal-3
 - kagi
 - opaque
@@ -294,8 +295,8 @@ provider_slugs:
 - hcaptcha
 - blindinsight
 - mostly-ai
-- tonic-ai
 - mobilecoin
+- tonic-ai
 - cookieyes
 - consentx
 - aztecprotocol
@@ -324,7 +325,6 @@ provider_slugs:
 - iron-fish
 - sarus
 - skale-labs
-- ernst-and-young
 - odaseva
 - miniflux
 - tari
@@ -348,9 +348,11 @@ provider_slugs:
 - aura
 - feroot
 - 1touch-io
+- boundaryintelligentcontrol
 - ardent-privacy
 - leapyear
 - zama
+- brandyourself
 - blindmate
 - blockpartyapp
 - datagrail
@@ -359,16 +361,15 @@ provider_slugs:
 - joya-communications
 - leapyear-technologies
 - anonos
-- lightbeam-ai
 - rialo
 - securiti-ai
+- lightbeam-ai
 - orchid-labs
 - fhenix
-- tabnine
 - mozi
 - picnic
-- theom
 - secuvy
+- theom
 - perf-ai
 - safeshepherd
 - shardsecure
@@ -379,6 +380,7 @@ provider_slugs:
 - mdclone
 - conifer
 - divebell
+- ey
 - stack
 - irreducible
 - stealth-worker

@@ -6,7 +6,7 @@ description: An index of microservices architecture frameworks, service discover
 area_url: https://microservices.apievangelist.com
 area_host: microservices.apievangelist.com
 icon: https://microservices.apievangelist.com/icon-thumb.png
-provider_count: 101
+provider_count: 102
 providers:
 - slug: datadog-apm
   name: Datadog APM
@@ -20,7 +20,7 @@ providers:
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 5
   score_band: exemplar
-  score_composite: 68.2
+  score_composite: 70.8
   shared: 1
 - slug: nvidia-nim
   name: NVIDIA NIM
@@ -48,14 +48,14 @@ providers:
   description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
   api_count: 7
   score_band: strong
-  score_composite: 58.5
+  score_composite: 58.0
   shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
   api_count: 16
   score_band: strong
-  score_composite: 57.1
+  score_composite: 56.0
   shared: 1
 - slug: signadot
   name: Signadot
@@ -110,6 +110,13 @@ providers:
   name: Lumigo
   description: Lumigo is an observability and troubleshooting platform for microservices and serverless environments. It provides distributed tracing, logs, and metrics with automatic, no-code instrumentation for AWS Lambda, Amazon ECS, AWS AppSync, API Gateway, Kubernetes, and OpenTelemetry workloads. Lumigo cap…
   api_count: 1
+  score_band: developing
+  score_composite: 47.7
+  shared: 1
+- slug: pactflow
+  name: PactFlow
+  description: PactFlow provides a comprehensive contract testing platform that enables developers and QA teams to create, verify, and maintain consumer-driven contracts for APIs and microservices. Built on the Pact framework and backed by SmartBear, PactFlow offers hosted Pact Broker services, CI/CD integrations…
+  api_count: 8
   score_band: developing
   score_composite: 47.7
   shared: 1
@@ -190,13 +197,6 @@ providers:
   score_band: developing
   score_composite: 42.8
   shared: 1
-- slug: opslevel
-  name: OpsLevel
-  description: OpsLevel is a prescriptive internal developer portal for cataloging, measuring, and scaffolding services according to engineering best practices.
-  api_count: 1
-  score_band: developing
-  score_composite: 42.2
-  shared: 1
 - slug: kuma
   name: Kuma
   description: Kuma is a platform-agnostic open-source service mesh built on top of Envoy proxy. It provides universal connectivity, security, and observability for services and microservices running on any infrastructure including Kubernetes and VMs.
@@ -204,19 +204,19 @@ providers:
   score_band: developing
   score_composite: 42.0
   shared: 1
+- slug: opslevel
+  name: OpsLevel
+  description: OpsLevel is a prescriptive internal developer portal for cataloging, measuring, and scaffolding services according to engineering best practices.
+  api_count: 1
+  score_band: developing
+  score_composite: 41.9
+  shared: 1
 - slug: docker
   name: Docker
   description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
   api_count: 1
   score_band: developing
   score_composite: 41.1
-  shared: 1
-- slug: dapr
-  name: Dapr
-  description: Dapr (Distributed Application Runtime) is a portable, event-driven runtime that makes it easy for developers to build resilient, stateless, and stateful applications that run on the cloud and edge. It provides building block APIs for state management, pub/sub messaging, service invocation, bindings…
-  api_count: 13
-  score_band: developing
-  score_composite: 40.6
   shared: 1
 provider_slugs:
 - datadog-apm
@@ -234,6 +234,7 @@ provider_slugs:
 - amazon-fargate
 - zeebe
 - lumigo
+- pactflow
 - polyapi
 - apollo-config
 - mist-ai
@@ -245,8 +246,8 @@ provider_slugs:
 - purplebricks
 - apache-dubbo
 - beamable
-- opslevel
 - kuma
+- opslevel
 - docker
 - dapr
 - nats

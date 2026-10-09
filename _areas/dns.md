@@ -11,9 +11,9 @@ providers:
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 24
+  api_count: 25
   score_band: exemplar
-  score_composite: 71.9
+  score_composite: 80.6
   shared: 1
 - slug: whoisfreaks
   name: WhoisFreaks
@@ -26,8 +26,8 @@ providers:
   name: cPanel
   description: cPanel is a web-based control panel that provides a graphical interface and automation tools to simplify the management of web hosting services. cPanel exposes a family of HTTP APIs (UAPI, WHM API 1, and the legacy cPanel API 2) for automating account, domain, email, database, DNS, and server-wide…
   api_count: 3
-  score_band: exemplar
-  score_composite: 66.7
+  score_band: strong
+  score_composite: 66.2
   shared: 1
 - slug: shodan
   name: Shodan
@@ -111,7 +111,7 @@ providers:
   description: Linode — operating as Akamai Cloud since Akamai's acquisition, with the Linode brand retained on the API, the CLI and the developer surface — is a cloud infrastructure provider offering virtual compute instances, GPU and accelerated plans, managed Kubernetes (LKE), S3-compatible Object Storage, Blo…
   api_count: 2
   score_band: strong
-  score_composite: 55.0
+  score_composite: 54.5
   shared: 1
 - slug: amazon-route-53
   name: Amazon Route 53

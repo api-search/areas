@@ -90,7 +90,7 @@ providers:
   description: DigitalAPI is an API catalog, marketplace, and management platform that unifies APIs across multiple gateways into a single searchable catalog with governance, discovery, access control, and analytics.
   api_count: 1
   score_band: emerging
-  score_composite: 11.3
+  score_composite: 11.0
   shared: 1
 - slug: finverse
   name: Finverse

@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://observability.apievangelist.com
 area_host: observability.apievangelist.com
 icon: https://observability.apievangelist.com/icon-thumb.png
-provider_count: 343
+provider_count: 345
 providers:
 - slug: dynatrace
   name: Dynatrace
@@ -36,13 +36,6 @@ providers:
   score_band: exemplar
   score_composite: 80.5
   shared: 1
-- slug: elk-stack
-  name: Elastic Stack
-  description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
-  api_count: 11
-  score_band: exemplar
-  score_composite: 78.5
-  shared: 1
 - slug: relevance-ai
   name: Relevance AI
   description: Relevance AI is an agent platform for building, testing and running specialist AI agents and multi-agent "workforces" — teams of agents that coordinate on a shared goal. Domain experts build agents in a no-code visual builder, hold them to pass/fail quality bars with a built-in evals system, and co…
@@ -56,6 +49,13 @@ providers:
   api_count: 5
   score_band: exemplar
   score_composite: 78.4
+  shared: 1
+- slug: elk-stack
+  name: Elastic Stack
+  description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
+  api_count: 19
+  score_band: exemplar
+  score_composite: 78.0
   shared: 1
 - slug: controlup
   name: ControlUp
@@ -71,6 +71,20 @@ providers:
   score_band: exemplar
   score_composite: 75.5
   shared: 1
+- slug: logicmonitor
+  name: LogicMonitor
+  description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 74.6
+  shared: 1
+- slug: elastic
+  name: Elastic
+  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 74.2
+  shared: 1
 - slug: checkly
   name: Checkly
   description: Checkly is a code-first reliability platform for synthetic monitoring, uptime monitoring, alerting and AI-assisted incident investigation. Engineering teams define monitors as versioned code with the Checkly CLI, Terraform or Pulumi, reuse existing Playwright suites as production browser checks, an…
@@ -78,12 +92,12 @@ providers:
   score_band: exemplar
   score_composite: 74.0
   shared: 1
-- slug: scvd-store
-  name: SCVD General Store
-  description: Record Creative Co. LLC is the one-person Oak City, North Carolina company that operates scvd.store — "Sean-Claude Van Damme's General Store", an evidence observatory for agentic commerce and a general store for AI agents. It independently verifies x402 payment endpoints, signed offers and receipts…
-  api_count: 1
+- slug: new-relic
+  name: New Relic
+  description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain real‑time visibility into cloud costs, multi‑cloud and Kuberne…
+  api_count: 5
   score_band: exemplar
-  score_composite: 72.1
+  score_composite: 72.3
   shared: 1
 - slug: bigpanda
   name: BigPanda
@@ -92,12 +106,19 @@ providers:
   score_band: exemplar
   score_composite: 71.8
   shared: 1
-- slug: new-relic
-  name: New Relic
-  description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
-  api_count: 5
+- slug: scvd-store
+  name: SCVD General Store
+  description: Record Creative Co. LLC is the one-person Oak City, North Carolina company that operates scvd.store — "Sean-Claude Van Damme's General Store", an evidence observatory for agentic commerce and a general store for AI agents. It independently verifies x402 payment endpoints, signed offers and receipts…
+  api_count: 1
   score_band: exemplar
-  score_composite: 69.9
+  score_composite: 71.6
+  shared: 1
+- slug: grafana-com
+  name: Grafana
+  description: Grafana Labs builds the open and composable observability stack used by millions of engineers to visualize, query, alert on, and explore their metrics, logs, traces, and profiles. The flagship Grafana OSS dashboarding platform is paired with Grafana Loki (logs), Grafana Mimir (Prometheus-compatible…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 71.0
   shared: 1
 - slug: aws-lambda
   name: AWS Lambda
@@ -105,6 +126,20 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 69.8
+  shared: 1
+- slug: rtcstats
+  name: rtcStats
+  description: SaaS for developers to troubleshoot and monitor WebRTC applications. Users upload webrtc-internals/rtcstats dumps or stream stats to receive metrics, Observations, Deductions, an Experience Score, and an AI root-cause summary. Offers a REST API, a hosted MCP server, and an open-source collection SD…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 69.2
+  shared: 1
+- slug: ibm
+  name: IBM
+  description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and governance in the AI era. The company targets organizations s…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 69.1
   shared: 1
 - slug: betterstack
   name: Better Stack
@@ -119,6 +154,20 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 67.4
+  shared: 1
+- slug: moesif
+  name: Moesif
+  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 66.9
+  shared: 1
+- slug: honeycomb
+  name: Honeycomb
+  description: Honeycomb provides an observability platform that gives engineering teams real‑time visibility into distributed tracing, log analytics, metrics, and AI agent workflows. The platform supports OpenTelemetry, private‑cloud deployments, and telemetry pipelines for enterprises, AI startups, financial se…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 66.5
   shared: 1
 - slug: firehydrant
   name: FireHydrant
@@ -141,24 +190,10 @@ providers:
   score_band: strong
   score_composite: 66.1
   shared: 1
-- slug: logicmonitor
-  name: LogicMonitor
-  description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
-  api_count: 4
-  score_band: strong
-  score_composite: 65.8
-  shared: 1
 - slug: logz-io
   name: Logz.io
   description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
   api_count: 1
-  score_band: strong
-  score_composite: 65.5
-  shared: 1
-- slug: rtcstats
-  name: rtcStats
-  description: SaaS for developers to troubleshoot and monitor WebRTC applications. Users upload webrtc-internals/rtcstats dumps or stream stats to receive metrics, Observations, Deductions, an Experience Score, and an AI root-cause summary. Offers a REST API, a hosted MCP server, and an open-source collection SD…
-  api_count: 2
   score_band: strong
   score_composite: 65.5
   shared: 1
@@ -183,77 +218,50 @@ providers:
   score_band: strong
   score_composite: 65.0
   shared: 1
-- slug: ibm
-  name: IBM
-  description: A collection of IBM's public APIs and developer resources.
-  api_count: 1
-  score_band: strong
-  score_composite: 65.0
-  shared: 1
-- slug: nasuni
-  name: Nasuni
-  description: Nasuni is an enterprise hybrid-cloud file data platform that consolidates distributed NAS and file servers into UniFS, a cloud-native global file system backed by customer-owned object storage (Azure Blob, Amazon S3, Google Cloud Storage and S3-compatible on-prem targets). Edge appliances cache hot…
-  api_count: 14
-  score_band: strong
-  score_composite: 64.8
-  shared: 1
-- slug: stack-moxie
-  name: Stack Moxie
-  description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
-  api_count: 2
-  score_band: strong
-  score_composite: 64.5
-  shared: 1
-- slug: groundcover
-  name: Groundcover
-  description: groundcover is a cloud-native observability platform that uses eBPF for zero-instrumentation monitoring of Kubernetes and Linux workloads, covering logs, metrics, traces, Kubernetes events, real user monitoring, synthetics and AI/LLM observability. Its BYOC (bring your own cloud) architecture keeps…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.0
-  shared: 1
-- slug: cisco-catalyst-sdwan
-  name: Cisco Catalyst SD-WAN
-  description: 'Cisco Catalyst SD-WAN, built on the Viptela platform Cisco acquired in 2017, is Cisco''s wide-area network overlay: centralized policy, application-aware routing, and secure transport across MPLS, broadband and LTE. Its controller — SD-WAN Manager, formerly vManage — exposes a REST API of 4,138 publ…'
-  api_count: 13
-  score_band: strong
-  score_composite: 63.7
-  shared: 1
 provider_slugs:
 - dynatrace
 - datadog-apm
 - launchdarkly
 - sentry-system
-- elk-stack
 - relevance-ai
 - bugsnag
+- elk-stack
 - controlup
 - thousandeyes
+- logicmonitor
+- elastic
 - checkly
-- scvd-store
-- bigpanda
 - new-relic
+- bigpanda
+- scvd-store
+- grafana-com
 - aws-lambda
+- rtcstats
+- ibm
 - betterstack
 - google-cloud-logging
+- moesif
+- honeycomb
 - firehydrant
 - splunk-observability
 - grafana-loki
-- logicmonitor
 - logz-io
-- rtcstats
 - fastly
 - acceldata
 - embrace
-- ibm
 - nasuni
 - stack-moxie
 - groundcover
+- tyk
 - cisco-catalyst-sdwan
 - highlight-io
 - seekr
+- treblle
 - dash0
 - moogsoft
 - hyperdx
+- solarwinds
+- chronosphere
 - webscale-networks
 - raygun
 - geneos
@@ -262,6 +270,8 @@ provider_slugs:
 - s2-dev
 - influxdata
 - upsun
+- splunk
+- sciencelogic
 - graphiant
 - microsoft-azure-monitor
 - elastic-observability
@@ -273,26 +283,21 @@ provider_slugs:
 - edgee
 - laserdata
 - waxell
-- sciencelogic
 - portkey
 - sift-stack
 - cloudwatch
 - tigera
 - lightrun
-- treblle
-- splunk
 - cribl
-- moesif
-- chronosphere
 - pydantic-ai
 - inference
 - scale3
 - agentgateway
 - buoyant
-- jentic
-- kentik
-- vividcortex
 - amazon-managed-grafana
+- jentic
+- vividcortex
+- kentik
 - scorecard
 - wundergraph
 - edge-delta
@@ -302,17 +307,16 @@ provider_slugs:
 - encore-dev
 - antimetal
 - cloudflare-ai-gateway
-- grafana-com
-- solarwinds
 - jam
 - mezmo
-- apicontext
 - coval
 - zenoss
 - amazon-managed-prometheus
+- apicontext
 - bluejay
 - catchpoint
 - instabug
+- coralogix
 - lucent
 - lunar
 - corelayer
@@ -332,6 +336,7 @@ provider_slugs:
 - larridin
 - vijil
 - lumigo
+- broadcom
 - hookpulse
 - gloo-mesh
 - codag
@@ -339,8 +344,8 @@ provider_slugs:
 - sysdig
 - lakeside-software
 - site24x7
-- cast-ai
 - nexthink
+- cast-ai
 - laminar
 - runwhen
 - braintrust
@@ -359,6 +364,7 @@ provider_slugs:
 - apitoolkit
 - chamber
 - uselemma
+- apica-io
 - superlog
 - google-cloud-trace
 - quickwit
@@ -416,7 +422,6 @@ provider_slugs:
 - athina
 - axiom-co
 - calyptia
-- honeycomb
 - kotzilla
 - codspeed
 - uptrace
@@ -428,7 +433,6 @@ provider_slugs:
 - hyperping
 - kibana
 - langtrace
-- elastic
 - honeybadger
 - langfuse
 - jaeger
@@ -451,7 +455,6 @@ provider_slugs:
 - pepperdata
 - uptrain
 - zenduty
-- broadcom
 - elementl
 - thanos
 - kosmoslabs
@@ -473,8 +476,8 @@ provider_slugs:
 - middleware
 - armature
 - kestrel
-- agentops
 - apiwiz
+- agentops
 - sonarly
 - airbrake
 - bentolabs-ai
@@ -493,7 +496,6 @@ provider_slugs:
 - ashr
 - resurface
 - hyground
-- coralogix
 - evals
 - hydrolix
 - aria-networks
@@ -565,26 +567,26 @@ provider_slugs:
 related:
 - slug: monitoring
   name: Monitoring
-  shared: 19
+  shared: 21
 - slug: logging
   name: Logging
   shared: 7
 - slug: aiops
   name: AIOps
-  shared: 5
+  shared: 4
 - slug: ai-automation
   name: AI Automation
+  shared: 2
+- slug: search
+  name: API Evangelist Search
   shared: 2
 - slug: agents
   name: Agents
   shared: 2
-- slug: machine-learning
-  name: Machine Learning
-  shared: 2
 overview: 'Observability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [observability.apievangelist.com](https://observability.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Dynatrace, Datadog APM, LaunchDarkly, Sentry, Elastic Stack, Relevance AI, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Dynatrace, Datadog APM, LaunchDarkly, Sentry, Relevance AI, Bugsnag, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monitoring, Logging, AIOps, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
