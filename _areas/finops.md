@@ -53,7 +53,7 @@ providers:
 - slug: edgee
   name: Edgee
   description: Edgee is a French edge-native AI Gateway that sits between coding agents and LLM providers, intercepting, routing, compressing, metering and securing every request. Its OpenAI-compatible gateway API at edgee.io exposes chat completions, an Anthropic Messages endpoint, an OpenAI Responses endpoint,…
-  api_count: 1
+  api_count: 2
   score_band: strong
   score_composite: 58.3
   shared: 1
@@ -95,7 +95,7 @@ providers:
 - slug: alphaus
   name: Alphaus
   description: Alphaus is a Tokyo-based cloud FinOps company (No. 1 in Japan) whose platform helps enterprises, managed service providers, and cloud resellers manage and optimize multi-cloud spend across AWS, Azure, and GCP. Its products include Octo (cost visibility and optimization), Ripple and WavePro (reselle…
-  api_count: 1
+  api_count: 2
   score_band: developing
   score_composite: 51.1
   shared: 1
@@ -155,6 +155,13 @@ providers:
   score_band: developing
   score_composite: 44.9
   shared: 1
+- slug: cloudcheckr
+  name: CloudCheckr
+  description: CloudCheckr provides cloud cost management and optimization solutions for managed service providers and enterprises. It helps organizations identify wasted spend, control AI costs, reduce Kubernetes expenses, and allocate cloud costs across business units. As part of Flexera, CloudCheckr delivers u…
+  api_count: 1
+  score_band: developing
+  score_composite: 44.6
+  shared: 1
 - slug: archera
   name: Archera
   description: Archera is a cloud financial operations (FinOps) platform that helps organizations reduce cloud spend by 20-30% through intelligent commitment management and insured, short-term cloud commitments across AWS, Azure, and Google Cloud. Its Guaranteed Commitments (Guaranteed Savings Plans, Guaranteed R…
@@ -211,13 +218,6 @@ providers:
   score_band: developing
   score_composite: 41.5
   shared: 1
-- slug: devtron
-  name: Devtron
-  description: Devtron is an open-source, AI-native Kubernetes management and software delivery platform that unifies application, infrastructure, and cost management for engineering, DevOps, and SRE teams. It provides Kubernetes-native CI/CD, GitOps (ArgoCD/FluxCD), multi-cluster operations, security and complia…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.4
-  shared: 1
 provider_slugs:
 - densify
 - microsoft-azure-cost-management
@@ -240,6 +240,7 @@ provider_slugs:
 - schematic
 - amazon-billing-and-cost-management
 - sedai
+- cloudcheckr
 - archera
 - m3ter
 - spacelift
@@ -264,6 +265,7 @@ provider_slugs:
 - finops-foundation
 - hyperline
 - ternary
+- carrot-labs
 - scalr
 - anodot
 - nops
@@ -274,7 +276,6 @@ provider_slugs:
 - north-cloud
 - perfectscale
 - palette
-- carrot-labs
 - pointfive
 - blackline
 - stacklet
@@ -285,6 +286,7 @@ provider_slugs:
 - cloudexmachina
 - fullseam
 - strategic-blue
+- blocks
 - certero
 - focus-spec
 - jetstream
@@ -292,12 +294,10 @@ provider_slugs:
 - prosperops
 - binadox
 - auxilius
-- blocks
+- rukaai
 - condorsoftware
 - zalos
-- rukaai
 - payflows
-- finops
 - clusterk
 related:
 - slug: monetization

@@ -6,7 +6,7 @@ description: An index and topic collection covering API versioning patterns, sch
 area_url: https://versioning.apievangelist.com
 area_host: versioning.apievangelist.com
 icon: https://versioning.apievangelist.com/icon-thumb.png
-provider_count: 5
+provider_count: 3
 providers:
 - slug: silverstripe
   name: SilverStripe
@@ -29,38 +29,19 @@ providers:
   score_band: emerging
   score_composite: 13.3
   shared: 1
-- slug: change-log
-  name: Change Log
-  description: An index and topic collection covering developer changelog publishing, release-notes platforms, and API change-tracking services. Change Log services help product, engineering, and developer-relations teams communicate releases, deprecations, and breaking changes to customers and integrators throug…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.5
-  shared: 1
-- slug: versioning
-  name: Versioning
-  description: An index and topic collection covering API versioning patterns, schema evolution, and breaking-change detection across the API lifecycle. API versioning communicates change to consumers, while schema versioning and diff tooling makes those changes explicit, reviewable, and reversible. This collecti…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.5
-  shared: 1
 provider_slugs:
 - silverstripe
 - dvc
 - changelog-md
-- change-log
-- versioning
 related:
-- slug: deprecation
-  name: Deprecation
-  shared: 2
 - slug: change-log
   name: Change Log
-  shared: 2
+  shared: 1
 overview: 'Versioning is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [versioning.apievangelist.com](https://versioning.apievangelist.com).
 
 
-  Providers on the network working in this area include SilverStripe, DVC, CHANGELOG.md (Keep a Changelog), Change Log, and Versioning — each links out to that provider''s APIs, schemas, and governance artifacts.
+  Providers on the network working in this area include SilverStripe, DVC, and CHANGELOG.md (Keep a Changelog) — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Deprecation and Change Log. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Change Log. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

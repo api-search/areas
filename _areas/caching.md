@@ -6,7 +6,7 @@ description: An index and topic collection covering API-accessible caching servi
 area_url: https://caching.apievangelist.com
 area_host: caching.apievangelist.com
 icon: https://caching.apievangelist.com/icon-thumb.png
-provider_count: 21
+provider_count: 20
 providers:
 - slug: microsoft-azure-cdn
   name: Microsoft Azure Cdn
@@ -36,19 +36,19 @@ providers:
   score_band: strong
   score_composite: 54.8
   shared: 1
+- slug: cloudflare-ai-gateway
+  name: Cloudflare AI Gateway
+  description: Cloudflare AI Gateway is a managed LLM proxy that sits in front of 23+ AI providers (OpenAI, Anthropic, Google AI Studio, Google Vertex AI, Amazon Bedrock, Azure OpenAI, Workers AI, Mistral, Cohere, Groq, DeepSeek, Cerebras, xAI, Perplexity, Replicate, HuggingFace, OpenRouter, ElevenLabs, Deepgram,…
+  api_count: 1
+  score_band: developing
+  score_composite: 54.2
+  shared: 1
 - slug: ezoic
   name: ezoic
   description: Ezoic is a website monetization and audience-growth platform for publishers, and a performance advertising marketplace for brands. Publishers integrate EzoicAds (via JavaScript, mobile SDKs for Android/iOS/Flutter/React Native/Unity, or framework SDKs for Angular/React/Vue) to run native, sticky, v…
   api_count: 2
   score_band: developing
   score_composite: 53.1
-  shared: 1
-- slug: cloudflare-ai-gateway
-  name: Cloudflare AI Gateway
-  description: Cloudflare AI Gateway is a managed LLM proxy that sits in front of 23+ AI providers (OpenAI, Anthropic, Google AI Studio, Google Vertex AI, Amazon Bedrock, Azure OpenAI, Workers AI, Mistral, Cohere, Groq, DeepSeek, Cerebras, xAI, Perplexity, Replicate, HuggingFace, OpenRouter, ElevenLabs, Deepgram,…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.3
   shared: 1
 - slug: nginx
   name: NGINX
@@ -67,7 +67,7 @@ providers:
 - slug: apache-ignite
   name: Apache Ignite
   description: Apache Ignite is a distributed database for mission-critical high-velocity applications requiring in-memory performance. It provides ACID transactions, SQL queries, key-value storage, compute grid, and backpressured streaming across distributed clusters. Governed by the Apache Software Foundation u…
-  api_count: 1
+  api_count: 2
   score_band: thin
   score_composite: 38.4
   shared: 1
@@ -134,13 +134,6 @@ providers:
   score_band: emerging
   score_composite: 18.5
   shared: 1
-- slug: caching
-  name: Caching
-  description: An index and topic collection covering API-accessible caching services, in-memory data stores, key-value caches, and edge/CDN cache APIs. Caching reduces latency, lowers backend load, and improves API consumer experience by serving frequently requested data from memory or geographically distributed…
-  api_count: 0
-  score_band: minimal
-  score_composite: 8.5
-  shared: 1
 - slug: timesten
   name: TimesTen
   description: TimesTen is an in-memory relational database company that spun out of Hewlett-Packard Labs in Palo Alto in 1996 as TimesTen Performance Software, taking venture backing that included Lightspeed Venture Partners, and was acquired by Oracle Corporation in 2005. The product lives on as Oracle TimesTen…
@@ -160,8 +153,8 @@ provider_slugs:
 - cloudfront
 - amazon-elasticache
 - google-cloud-cdn
-- ezoic
 - cloudflare-ai-gateway
+- ezoic
 - nginx
 - momento
 - apache-ignite
@@ -174,12 +167,14 @@ provider_slugs:
 - openpipe
 - readyset
 - varnish
-- caching
 - timesten
 - picasso
 related:
 - slug: proxy
   name: Proxy
+  shared: 1
+- slug: database
+  name: Database
   shared: 1
 - slug: performance
   name: Performance
@@ -187,8 +182,8 @@ related:
 overview: 'Caching is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [caching.apievangelist.com](https://caching.apievangelist.com).
 
 
-  21 providers on the network work in this area, including Microsoft Azure Cdn, CloudFront, Amazon ElastiCache, Google Cloud CDN, ezoic, Cloudflare AI Gateway, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  20 providers on the network work in this area, including Microsoft Azure Cdn, CloudFront, Amazon ElastiCache, Google Cloud CDN, Cloudflare AI Gateway, ezoic, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Proxy and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Proxy, Database, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

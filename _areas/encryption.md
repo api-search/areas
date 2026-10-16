@@ -6,7 +6,7 @@ description: An index and topic collection covering encryption services, key man
 area_url: https://encryption.apievangelist.com
 area_host: encryption.apievangelist.com
 icon: https://encryption.apievangelist.com/icon-thumb.png
-provider_count: 49
+provider_count: 48
 providers:
 - slug: paubox
   name: Paubox
@@ -39,7 +39,7 @@ providers:
 - slug: ironcore-labs
   name: IronCore Labs
   description: IronCore Labs builds application-layer encryption tools that keep sensitive data private while it stays usable. Its products include SaaS Shield (tenant-controlled envelope encryption with customer-managed keys / BYOK for multi-tenant SaaS), Cloaked Search (a transparent encrypting proxy for Elasti…
-  api_count: 1
+  api_count: 2
   score_band: developing
   score_composite: 52.6
   shared: 1
@@ -120,19 +120,19 @@ providers:
   score_band: developing
   score_composite: 40.5
   shared: 1
+- slug: akeyless
+  name: Akeyless
+  description: Akeyless is a cloud-native identity security platform that unifies secrets management, machine identity, and privileged access for AI agents, machines, and humans at scale. The platform provides a REST API with 200+ endpoints covering secrets vaulting, dynamic secrets generation, certificate lifecy…
+  api_count: 1
+  score_band: developing
+  score_composite: 40.2
+  shared: 1
 - slug: digicert
   name: Digicert
   description: Digicert is a leading provider of digital security solutions, specializing in SSL/TLS certificates, PKI solutions, and website security. They help organizations of all sizes protect their websites, data, and communications from cyber threats by providing secure encryption and authentication service…
   api_count: 9
   score_band: developing
   score_composite: 40.2
-  shared: 1
-- slug: akeyless
-  name: Akeyless
-  description: Akeyless is a cloud-native identity security platform that unifies secrets management, machine identity, and privileged access for AI agents, machines, and humans at scale. The platform provides a REST API with 200+ endpoints covering secrets vaulting, dynamic secrets generation, certificate lifecy…
-  api_count: 1
-  score_band: developing
-  score_composite: 39.7
   shared: 1
 - slug: ciphertrust
   name: CipherTrust
@@ -165,7 +165,7 @@ providers:
 - slug: blindinsight
   name: BlindInsight
   description: BlindInsight (Blind Insight) is an end-to-end encrypted datastore and privacy-preserving data-analysis platform. It lets teams encrypt, ingest, search, and run machine learning and LLM queries over fully encrypted records without ever exposing plaintext, using a locally deployed Blind Proxy that tr…
-  api_count: 1
+  api_count: 2
   score_band: thin
   score_composite: 35.0
   shared: 1
@@ -197,19 +197,19 @@ providers:
   score_band: thin
   score_composite: 32.5
   shared: 1
+- slug: vpn
+  name: VPN
+  description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corporate networks, protecting privacy on public Wi-Fi, and bypass…
+  api_count: 6
+  score_band: thin
+  score_composite: 31.5
+  shared: 1
 - slug: virgil-security
   name: Virgil Security
   description: Virgil Security is an end-to-end encryption and key-management platform for developers. It ships client SDKs and JWT-authenticated cloud services that let applications add end-to-end encryption for messaging and files (E3Kit), breach-proof password and data protection using Password-Hardened Encryp…
   api_count: 1
   score_band: thin
   score_composite: 31.5
-  shared: 1
-- slug: vpn
-  name: VPN
-  description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corporate networks, protecting privacy on public Wi-Fi, and bypass…
-  api_count: 6
-  score_band: thin
-  score_composite: 31.0
   shared: 1
 - slug: lattica
   name: Lattica
@@ -235,8 +235,8 @@ provider_slugs:
 - signal
 - seismic-systems
 - skyflow
-- digicert
 - akeyless
+- digicert
 - ciphertrust
 - preveil
 - plakar
@@ -246,8 +246,8 @@ provider_slugs:
 - here-not-there-labs
 - hvault
 - truevault
-- virgil-security
 - vpn
+- virgil-security
 - lattica
 - sops
 - keybase
@@ -259,7 +259,6 @@ provider_slugs:
 - qusecure
 - shardsecure
 - jmem
-- encryption
 - arqit-limited
 - post-quantum
 - kets
@@ -272,14 +271,11 @@ related:
 - slug: bots
   name: Bots
   shared: 1
-- slug: cli
-  name: Command Line Interface
-  shared: 1
 overview: 'Encryption is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [encryption.apievangelist.com](https://encryption.apievangelist.com).
 
 
   30 providers on the network work in this area, including Paubox, Amazon KMS, Evervault, Amazon Certificate Manager, IronCore Labs, OpenBao, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Bots and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Bots. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

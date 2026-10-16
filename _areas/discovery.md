@@ -13,14 +13,14 @@ providers:
   description: Algolia is a hosted search and discovery platform that delivers fast, typo-tolerant search, browse, recommendations and personalization through a suite of REST APIs and edge-distributed infrastructure. It powers search experiences for ecommerce, media, SaaS and content sites, pairing a synchronous…
   api_count: 15
   score_band: exemplar
-  score_composite: 82.8
+  score_composite: 86.6
   shared: 1
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 21
   score_band: exemplar
-  score_composite: 79.6
+  score_composite: 80.2
   shared: 1
 - slug: taboola
   name: Taboola
@@ -46,7 +46,7 @@ providers:
 - slug: artifact-hub
   name: Artifact Hub
   description: Artifact Hub is a CNCF incubating web-based application that enables finding, installing, and publishing cloud-native packages. Built primarily in TypeScript and Go, it addresses fragmentation in the cloud-native ecosystem by providing a single discovery experience for consumers. It supports 27+ ar…
-  api_count: 1
+  api_count: 2
   score_band: developing
   score_composite: 50.4
   shared: 1
@@ -81,14 +81,14 @@ providers:
 - slug: voidpet
   name: Voidpet
   description: Voidpet is a creative games studio behind emotion-inspired games, stories, characters, and community — including Voidpet Dungeon, a turn-based roguelite RPG about befriending and battling emotion-inspired creatures, and Voidpet Garden, a mental-health companion game for collecting emotions and prac…
-  api_count: 2
+  api_count: 4
   score_band: thin
-  score_composite: 37.0
+  score_composite: 37.5
   shared: 1
 - slug: afmr-ai
   name: Agent Failure Mode Registry
   description: The Agent Failure Mode Registry (AFMR) is a reputation-integrity standard for agentic commerce. AFMR 1.0 is a published, citable vocabulary of 32 permanent failure-mode families in eight classes describing how autonomous agent systems fail as designed mechanisms; afmr.ai is the independent public f…
-  api_count: 1
+  api_count: 2
   score_band: thin
   score_composite: 35.2
   shared: 1
@@ -97,7 +97,7 @@ providers:
   description: Audiomack is an on-demand music streaming and audio discovery platform that lets artists and creators upload unlimited music and podcasts and reach listeners through its iOS, Android, and web apps. The service is widely associated with hip-hop, rap, R&B, Afrobeats, dancehall, reggae, electronic, an…
   api_count: 1
   score_band: thin
-  score_composite: 31.3
+  score_composite: 31.8
   shared: 1
 - slug: bored
   name: Bored API
@@ -105,6 +105,13 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 28.5
+  shared: 1
+- slug: allagents-app
+  name: allagents
+  description: allagents (allagents.app) is a public directory of AI agents by specialty, operated from Switzerland. It lists 811 agents across specialties such as trading, research, coding, memory, automation, legal, commerce, identity and security, each card carrying the agent's name, address, protocols and how…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.6
   shared: 1
 - slug: apinity-io
   name: Apinity.io
@@ -116,16 +123,9 @@ providers:
 - slug: podcastindex
   name: PodcastIndex
   description: The Podcast Index (Podcast Index LLC) is a software developer focused partnership that provides tools and data to anyone who aspires to create new and exciting Podcast experiences without the heavy lifting of indexing, aggregation and data management.
-  api_count: 1
+  api_count: 2
   score_band: thin
-  score_composite: 26.2
-  shared: 1
-- slug: allagents-app
-  name: allagents
-  description: allagents (allagents.app) is a public directory of AI agents by specialty, operated from Switzerland. It lists 811 agents across specialties such as trading, research, coding, memory, automation, legal, commerce, identity and security, each card carrying the agent's name, address, protocols and how…
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.5
+  score_composite: 26.6
   shared: 1
 - slug: tel-aviv-university
   name: Tel Aviv University
@@ -137,7 +137,7 @@ providers:
 - slug: agentic-resource-discovery
   name: Agentic Resource Discovery (ARD)
   description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked set of MCP servers, agent cards, skills, workflows and APIs i…
-  api_count: 1
+  api_count: 2
   score_band: emerging
   score_composite: 23.5
   shared: 1
@@ -176,6 +176,13 @@ providers:
   score_band: emerging
   score_composite: 12.1
   shared: 1
+- slug: launching-next
+  name: Launching Next
+  description: Launching Next is a startup discovery and submission platform that publishes daily listings of new and trending tech startups and side projects worldwide. Founded as a long-running startup directory, the platform has featured over 45,000 startups and side projects, making it a go-to resource for fo…
+  api_count: 1
+  score_band: emerging
+  score_composite: 11.8
+  shared: 1
 - slug: neotaste
   name: NeoTaste
   description: NeoTaste is a restaurant discovery and dining-deals mobile app operated by NeoTaste GmbH (Osnabrück, Germany). Under the tagline "Discover more. Pay less." it surfaces curated local restaurants and exclusive member deals such as 2-for-1 main courses and a free starter with a main, letting diners tr…
@@ -190,19 +197,12 @@ providers:
   score_band: emerging
   score_composite: 11.4
   shared: 1
-- slug: launching-next
-  name: Launching Next
-  description: Launching Next is a startup discovery and submission platform that publishes daily listings of new and trending tech startups and side projects worldwide. Founded as a long-running startup directory, the platform has featured over 45,000 startups and side projects, making it a go-to resource for fo…
-  api_count: 1
-  score_band: emerging
-  score_composite: 11.4
-  shared: 1
 - slug: podchaser
   name: Podchaser
   description: Podchaser provides one of the most comprehensive podcast databases, exposed through a GraphQL API designed to drive podcast discovery for listeners, podcasters, brands, and platform partners. The API surface is GraphQL-only and is therefore not represented as an OpenAPI specification in this index.
   api_count: 1
-  score_band: minimal
-  score_composite: 10.6
+  score_band: emerging
+  score_composite: 11.1
   shared: 1
 - slug: zyla
   name: Zyla
@@ -211,9 +211,9 @@ providers:
   score_band: minimal
   score_composite: 10.6
   shared: 1
-- slug: qraved
-  name: Qraved
-  description: Qraved is Indonesia's leading food discovery platform, self-described as the "No. 1 Food App for Indonesia," helping diners across Jakarta, Bali, Bandung, Surabaya, Medan and other cities explore restaurants, read reviews and dining guides, watch food videos, and connect with a community of food en…
+- slug: atmosfy
+  name: Atmosfy
+  description: Atmosfy is a live-video mapping platform that bills itself as the world's largest live video map, aggregating 500M+ geo-tagged short-form videos across 100M+ places in 20,000+ cities and 150+ countries. The consumer app lets people see what restaurants, bars, hotels, and events actually look like i…
   api_count: 0
   score_band: minimal
   score_composite: 10.2
@@ -233,9 +233,9 @@ provider_slugs:
 - afmr-ai
 - audiomack
 - bored
+- allagents-app
 - apinity-io
 - podcastindex
-- allagents-app
 - tel-aviv-university
 - agentic-resource-discovery
 - amazon-application-discovery-service
@@ -243,13 +243,13 @@ provider_slugs:
 - equipboard
 - qidz-holding
 - startup-ranking
+- launching-next
 - neotaste
 - its-good
-- launching-next
 - podchaser
 - zyla
-- qraved
 - atmosfy
+- qraved
 - shoobs
 - oclc
 - clicker

@@ -6,12 +6,12 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 188
+provider_count: 189
 providers:
 - slug: didomi
   name: Didomi
   description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
-  api_count: 1
+  api_count: 2
   score_band: exemplar
   score_composite: 81.5
   shared: 1
@@ -25,7 +25,7 @@ providers:
 - slug: listrak
   name: Listrak
   description: 'Listrak is a retail customer-engagement platform whose public API surface is eight separate REST APIs served from api.listrak.com: Email (83 operations), SMS (20), Data Import (5), Media (9), Mobile App Push (5), Two-Way SMS (4), Cross Channel custom events (3) and Privacy (2). Together they cover…'
-  api_count: 18
+  api_count: 26
   score_band: exemplar
   score_composite: 74.3
   shared: 1
@@ -53,7 +53,7 @@ providers:
 - slug: blueconic
   name: BlueConic
   description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
-  api_count: 1
+  api_count: 2
   score_band: exemplar
   score_composite: 68.9
   shared: 1
@@ -83,7 +83,14 @@ providers:
   description: Privacy-first, cookieless web analytics from Statable (Key Arg B.V.), EU-hosted in the Netherlands with GDPR compliance and a ~2 KB tracking script. Exposes a server-side REST HTTP API with a public OpenAPI 3.1 contract, a hosted MCP server, an llms.txt, and a CLI for querying visitors, pages, sour…
   api_count: 1
   score_band: strong
-  score_composite: 65.9
+  score_composite: 66.3
+  shared: 1
+- slug: opentext-cybersecurity
+  name: OpenText Cybersecurity
+  description: OpenText Cybersecurity is the security business of OpenText, assembled from the Micro Focus security portfolio (Fortify application security, ArcSight threat detection and response, NetIQ identity and access management, Voltage data privacy) and the SMB/MSP brands OpenText acquired through Webroot,…
+  api_count: 2
+  score_band: strong
+  score_composite: 65.8
   shared: 1
 - slug: singular
   name: Singular
@@ -123,14 +130,14 @@ providers:
 - slug: inrupt
   name: Inrupt
   description: Inrupt is the enterprise company founded by Sir Tim Berners-Lee and John Bruce to commercialize Solid, the open decentralized-data specification he created at MIT. Its flagship product is the Enterprise Solid Server (ESS), a Kubernetes-deployed platform of cooperating services that gives each perso…
-  api_count: 1
+  api_count: 2
   score_band: strong
   score_composite: 61.0
   shared: 1
 - slug: screenpipe
   name: Screenpipe
   description: Screenpipe is a local-first, source-available desktop application (by Mediar AI, Y Combinator S26) that continuously captures everything you see, say, and hear on your computer, reads on-screen text through OS accessibility APIs with an OCR fallback, transcribes system and microphone audio with loc…
-  api_count: 1
+  api_count: 2
   score_band: strong
   score_composite: 60.8
   shared: 1
@@ -140,13 +147,6 @@ providers:
   api_count: 5
   score_band: strong
   score_composite: 60.6
-  shared: 1
-- slug: opentext-cybersecurity
-  name: OpenText Cybersecurity
-  description: OpenText Cybersecurity is the security business of OpenText, assembled from the Micro Focus security portfolio (Fortify application security, ArcSight threat detection and response, NetIQ identity and access management, Voltage data privacy) and the SMB/MSP brands OpenText acquired through Webroot,…
-  api_count: 2
-  score_band: strong
-  score_composite: 60.3
   shared: 1
 - slug: apple-safari
   name: Apple Safari
@@ -169,6 +169,13 @@ providers:
   score_band: strong
   score_composite: 57.5
   shared: 1
+- slug: datavant
+  name: Datavant
+  description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US…
+  api_count: 4
+  score_band: strong
+  score_composite: 57.0
+  shared: 1
 - slug: nord-security
   name: Nord Security
   description: Nord Security is a Lithuania-founded digital security and privacy company whose consumer and business portfolio spans NordVPN, NordPass, NordLocker, NordLayer (network access security for business), NordProtect/Coveron, Saily (eSIM) and NordStellar (external threat exposure management). Its develop…
@@ -176,10 +183,10 @@ providers:
   score_band: strong
   score_composite: 56.9
   shared: 1
-- slug: datavant
-  name: Datavant
-  description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US…
-  api_count: 2
+- slug: tabnine
+  name: Tabnine
+  description: Tabnine provides AI code completion, chat, and agentic workflows across IDEs and CLI, with strong support for SaaS, VPC, and air-gapped on-prem deployments. The Enterprise Context Engine indexes a customer's codebase, dependencies, and architecture. Tabnine's consumer surface is via IDE plugins (VS…
+  api_count: 6
   score_band: strong
   score_composite: 56.5
   shared: 1
@@ -211,13 +218,6 @@ providers:
   score_band: strong
   score_composite: 54.6
   shared: 1
-- slug: osano
-  name: Osano
-  description: Osano is a data privacy platform, founded in 2018 and headquartered in Austin, Texas, that helps organizations build and run privacy programs across consent management, subject rights (DSAR) automation, data mapping and discovery, privacy assessments, and vendor privacy risk management. It is a cer…
-  api_count: 4
-  score_band: strong
-  score_composite: 54.4
-  shared: 1
 provider_slugs:
 - didomi
 - swetrix
@@ -230,6 +230,7 @@ provider_slugs:
 - rybbit
 - appsflyer
 - statable-stats-api
+- opentext-cybersecurity
 - singular
 - amazon-clean-rooms
 - umami
@@ -238,12 +239,12 @@ provider_slugs:
 - inrupt
 - screenpipe
 - liveramp
-- opentext-cybersecurity
 - apple-safari
 - altr
 - sourcepoint
-- nord-security
 - datavant
+- nord-security
+- tabnine
 - apstal
 - california-privacy-protection-agency
 - bigid
@@ -255,12 +256,12 @@ provider_slugs:
 - ironcore-labs
 - freshpaint
 - transcend-io
-- certifaction
 - nym-technologies
+- certifaction
 - fathom
 - habu
-- mine
 - iab-tech-lab
+- mine
 - trustboost-dev
 - inth
 - pimloc
@@ -275,7 +276,6 @@ provider_slugs:
 - k-id
 - sitejabber
 - quantcast
-- tabnine
 - terminal-3
 - kagi
 - opaque
@@ -286,6 +286,7 @@ provider_slugs:
 - seismic-systems
 - skyflow
 - soveren
+- flower
 - ketch-io
 - covatic
 - nightfall-ai
@@ -295,19 +296,18 @@ provider_slugs:
 - hcaptcha
 - blindinsight
 - mostly-ai
-- mobilecoin
 - tonic-ai
+- mobilecoin
 - cookieyes
 - consentx
+- dead-drop
 - aztecprotocol
 - brave-browser
 - mailpace
 - friendly-captcha
-- dead-drop
 - sourcehut
 - truevault
 - cloudflare-turnstile
-- flower
 - aztec-network
 - confidential-computing-consortium
 - monero
@@ -328,9 +328,9 @@ provider_slugs:
 - odaseva
 - miniflux
 - tari
+- trickybird
 - webai
 - aztec
-- trickybird
 - anonyome-labs
 - bearer
 - pi-hole
@@ -352,13 +352,14 @@ provider_slugs:
 - ardent-privacy
 - leapyear
 - zama
+- conifer
 - brandyourself
 - blindmate
 - blockpartyapp
 - datagrail
+- joya-communications
 - cloaked
 - confide
-- joya-communications
 - leapyear-technologies
 - anonos
 - rialo
@@ -375,10 +376,9 @@ provider_slugs:
 - shardsecure
 - xayn
 - ohalo
-- privacy
+- center
 - identiq
 - mdclone
-- conifer
 - divebell
 - ey
 - stack
@@ -390,16 +390,17 @@ provider_slugs:
 - governata
 - trace-data
 - fabric-cryptography
+- one-raven
 - nortonlifelock
 - opencola
 - snips
 - dasera
 - friendster
-- one-raven
 - privitar
+- clinc2
+- gen-digital
 - ballard-spahr
 - cambridge-blockchain
-- gen-digital
 - privacy-by-design
 - atomic-canyon
 - webb-protocol

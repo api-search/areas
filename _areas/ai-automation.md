@@ -6,12 +6,12 @@ description: AI automation combines artificial intelligence with workflow and pr
 area_url: https://ai-automation.apievangelist.com
 area_host: ai-automation.apievangelist.com
 icon: https://ai-automation.apievangelist.com/icon-thumb.png
-provider_count: 553
+provider_count: 595
 providers:
 - slug: tray-ai
   name: Tray.ai
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
-  api_count: 4
+  api_count: 6
   score_band: exemplar
   score_composite: 89.3
   shared: 1
@@ -32,7 +32,7 @@ providers:
 - slug: ada
   name: Ada
   description: Ada is an AI-powered customer service automation platform that enables enterprises to deploy AI agents capable of resolving customer inquiries across digital channels without human intervention. The platform exposes a suite of REST APIs for managing knowledge bases, end-user profiles, conversation…
-  api_count: 4
+  api_count: 6
   score_band: exemplar
   score_composite: 84.4
   shared: 1
@@ -55,7 +55,7 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 21
   score_band: exemplar
-  score_composite: 79.6
+  score_composite: 80.2
   shared: 1
 - slug: adobe-suite
   name: Adobe Suite
@@ -74,9 +74,16 @@ providers:
 - slug: relevance-ai
   name: Relevance AI
   description: Relevance AI is an agent platform for building, testing and running specialist AI agents and multi-agent "workforces" — teams of agents that coordinate on a shared goal. Domain experts build agents in a no-code visual builder, hold them to pass/fail quality bars with a built-in evals system, and co…
-  api_count: 1
+  api_count: 2
   score_band: exemplar
   score_composite: 78.5
+  shared: 1
+- slug: jitterbit
+  name: Jitterbit
+  description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 78.3
   shared: 1
 - slug: salesforce-marketing-cloud
   name: Salesforce Marketing Cloud
@@ -88,7 +95,7 @@ providers:
 - slug: leadping
   name: Leadping
   description: Leadping is a lead-management and responsible-outreach platform for teams that need to move a new inbound lead from source to first touch without stitching together separate tools. It captures leads from approved sources, routes and assigns them, runs follow-up automations, sends SMS and MMS, place…
-  api_count: 1
+  api_count: 2
   score_band: exemplar
   score_composite: 75.4
   shared: 1
@@ -106,12 +113,12 @@ providers:
   score_band: exemplar
   score_composite: 75.1
   shared: 1
-- slug: jitterbit
-  name: Jitterbit
-  description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
+- slug: clarify
+  name: Clarify
+  description: Clarify is an AI-native CRM platform that automates sales workflows, integrates with email, calendar, and various tools, and provides a conversational AI assistant to manage contacts, deals, and pipelines. It offers a JSON:API‑compliant API for programmatic access to CRM data, enabling custom integ…
   api_count: 1
   score_band: exemplar
-  score_composite: 74.0
+  score_composite: 74.7
   shared: 1
 - slug: mailerlite
   name: MailerLite
@@ -146,21 +153,21 @@ providers:
   description: Cohesity is a data security and management company providing backup, disaster recovery, archive, and cyber resilience capabilities across on-premises, cloud, and SaaS workloads. Following the merger with Veritas, the combined company protects enterprise data while powering automation, orchestration…
   api_count: 8
   score_band: exemplar
-  score_composite: 69.5
-  shared: 1
-- slug: appian
-  name: Appian
-  description: Appian is a low-code automation platform that accelerates the creation of high-impact business applications. The platform combines intelligent automation and enterprise low-code development to help organizations build apps and workflows rapidly.
-  api_count: 2
-  score_band: exemplar
-  score_composite: 69.0
+  score_composite: 70.0
   shared: 1
 - slug: zapier
   name: Zapier
   description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
   api_count: 1
   score_band: exemplar
-  score_composite: 68.9
+  score_composite: 69.8
+  shared: 1
+- slug: appian
+  name: Appian
+  description: Appian is a low-code automation platform that accelerates the creation of high-impact business applications. The platform combines intelligent automation and enterprise low-code development to help organizations build apps and workflows rapidly.
+  api_count: 2
+  score_band: exemplar
+  score_composite: 69.7
   shared: 1
 - slug: crawl4ai
   name: Crawl4AI
@@ -169,19 +176,19 @@ providers:
   score_band: exemplar
   score_composite: 68.6
   shared: 1
+- slug: workato
+  name: Workato
+  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 67.9
+  shared: 1
 - slug: browserstack
   name: BrowserStack
   description: BrowserStack provides instant access to 3,500+ real desktop browsers and 30,000+ real mobile device units for manual and automated software testing. Its products span cross-browser testing (Live, Automate), mobile app testing (App Live, App Automate), visual regression testing (Percy, App Percy), a…
   api_count: 1
   score_band: exemplar
   score_composite: 67.8
-  shared: 1
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 67.6
   shared: 1
 - slug: servicenow
   name: ServiceNow
@@ -190,33 +197,26 @@ providers:
   score_band: exemplar
   score_composite: 67.5
   shared: 1
-- slug: workato
-  name: Workato
-  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
+- slug: camunda-services
+  name: Camunda Services
+  description: Camunda Services provides an open platform for workflow and decision automation, offering the Camunda Platform to design, execute, and monitor business processes. It supports BPMN, DMN, and CMMN standards, delivering scalable solutions for enterprises and developers. The company offers cloud and se…
   api_count: 4
   score_band: exemplar
-  score_composite: 67.2
-  shared: 1
-- slug: highlevel
-  name: HighLevel
-  description: HighLevel provides an all‑in‑one SaaS platform for marketing agencies, offering CRM, funnel building, email & SMS automation, reputation management, and client communication tools, enabling agencies to deliver comprehensive digital marketing services.
-  api_count: 40
-  score_band: strong
-  score_composite: 66.4
-  shared: 1
-- slug: postiz
-  name: Postiz
-  description: Postiz is an open-source social media scheduling and management platform for posting across 30+ social, video, community, and blogging channels from a single calendar. It ships as a free AGPL-licensed self-hosted app and as a paid managed Cloud. The Postiz Public API uses simple API-key auth to lis…
-  api_count: 3
-  score_band: strong
-  score_composite: 66.4
+  score_composite: 67.0
   shared: 1
 - slug: aiapplyd
   name: AI Applyd
   description: 'AI Applyd is a job-application automation platform for candidates: it scores a resume against a posting for ATS compatibility, rewrites the resume and writes a cover letter per role, prepares interview material, matches new postings to a profile, and fills and submits applications on the employer''s…'
-  api_count: 2
-  score_band: strong
-  score_composite: 66.3
+  api_count: 4
+  score_band: exemplar
+  score_composite: 66.8
+  shared: 1
+- slug: uipath
+  name: UiPath
+  description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 66.8
   shared: 1
 provider_slugs:
 - tray-ai
@@ -229,130 +229,142 @@ provider_slugs:
 - adobe-suite
 - convertkit
 - relevance-ai
+- jitterbit
 - salesforce-marketing-cloud
 - leadping
 - anysphere-cursor-ai
 - plunk
-- jitterbit
+- clarify
 - mailerlite
 - klaviyo
 - canva
 - browser-use
 - cohesity
-- appian
 - zapier
+- appian
 - crawl4ai
-- browserstack
-- boomi
-- servicenow
 - workato
-- highlevel
-- postiz
+- browserstack
+- servicenow
+- camunda-services
 - aiapplyd
 - uipath
-- campaignmonitor
 - red-hat-ansible-automation-platform
+- highlevel
+- postiz
+- kognitos
+- campaignmonitor
 - cisco-xdr
 - clay-com
 - benchmark-email
-- n8n
 - relmcrm-com
+- n8n
 - buttondown
+- boomi
 - cisco-catalyst-sdwan
+- sciencelogic
 - budibase
 - videogen-io
 - celonis
 - pixiebrix
 - facets
+- gumloop
 - windmill
+- salesflare
 - autogpt
 - smartlead-ai
 - autocontent-api
-- salesflare
+- snaplogic
 - fundamental-research-labs
 - amazon-ec2-image-builder
-- sciencelogic
 - adobe-premiere
 - graphiant
-- dotdigital
 - juniper
-- snaplogic
+- dotdigital
 - coasty
+- bluma
 - augment
 - emailoctopus
 - lindy
-- bluma
-- celigo
 - superai
 - marketo
-- gumloop
 - pipeliner
+- h-company
 - cisco-secure-firewall
 - duvo-ai
-- amazon-datasync
+- coalesceautomation
 - level2
+- amazon-datasync
+- siemens
 - avoma
+- aito-technologies
 - cisco-aci
+- gitar
+- capy
+- prefect
 - cobalt
 - amazon-data-lifecycle-manager
 - koreai
 - pabbly
 - posteahora
-- prefect
 - pixc
-- siemens
 - oracle-integration
 - amazon-swf
 - amazon-incident-manager
 - amazon-iot-events
 - sweep
 - abbyy
+- tale-dev
 - amazon-data-pipeline
 - blue-prism
 - silna
-- microsoft-excel
-- h-company
-- instabase
 - continuous-delivery-foundation
+- carta-fa464
+- microsoft-excel
+- instabase
+- workist
 - replicas
-- kestra
 - amika
-- microsoft-power-automate
+- velaris
+- kestra
 - appmixer
-- aito-technologies
+- microsoft-power-automate
+- brokergenius
+- bookkeep-com
+- stacks-ai
 - microsoft-azure-pipelines
+- devrev
 - ninjaone
+- automation-preflight-api
+- burrow
 - crewai-cloud
 - kubernetes
-- gitar
 - rewst
-- capy
-- automation-preflight-api
 - baserow
 - hilos
 - brownie
 - cast-corporation
 - sharpspring
+- paidhandshake
 - apsis19b1
 - perforce
 - wegalvanize
 - workday-extend
 - uniphore
-- ansible
 - alteryx
 - amazon-systems-manager
 - easywebinar
-- velaris
+- ansible
 - axiom-zen
 - cerby
-- ansible-playbooks
 - manychat
+- ansible-playbooks
 - missive
 - nexthink
 - supra
-- stacks-ai
+- brainbox3ae3
 - runwhen
-- workist
+- cfengine
 - integrately
 - rowguard
 - archastro
@@ -365,21 +377,27 @@ provider_slugs:
 - make
 - superdial
 - google-cloud-workflows
-- devrev
 - lambdatest
+- botkeeper
 - cflow
 - ava-protocol
 - shuffle
 - jinba
+- classet
+- celigo
 - autifyhq
 - amboras
 - ansible-roles
+- amberai
 - salesforce-flow
 - activepieces
+- bryter
 - conductor
 - tofu
+- sema4-ai
 - dreamfactory
 - elementum
+- tzafon
 - microsoft-excel-advanced
 - red-canary
 - calendly
@@ -387,21 +405,22 @@ provider_slugs:
 - morf
 - publer
 - robocorp
+- rows
 - dell-technologies
+- memory
 - rss-app
 - zoho-writer
 - rockwell-factorytalk
 - selenium
+- stilla
 - powershell
 - blotato
 - optimyzee
 - sleekflow
 - microsoft-azure-automation
 - templated
-- botkeeper
 - the-interaction-company-of-california
 - dapta
-- bryter
 - swimlane
 - beeceptor
 - ellipsis
@@ -410,7 +429,6 @@ provider_slugs:
 - polymath
 - jenkins
 - steute-technologies-gmbh-and-co-kg
-- bookkeep-com
 - jifflenow
 - google-apps-script
 - coreview-fka-4ward365
@@ -418,22 +436,19 @@ provider_slugs:
 - teammates
 - adt
 - klaus-ai
-- sema4-ai
-- stilla
 - boltic
-- tzafon
-- creatomate
-- ansible-automation-platform
 - hospitable
+- creatomate
+- vtiger
+- ansible-automation-platform
+- clawdbot
 - hilberts-ai
+- alloy-automation
 - bannerbear
 - jeeva-ai
 - duplo-cloud
-- rows
 - automat
-- alloy-automation
-- memory
-- brainbox3ae3
+- intezer
 - tsenta
 - relay-app
 - locbox-labs
@@ -443,8 +458,9 @@ provider_slugs:
 - kubeark
 - plusthis
 - squillo
-- auditoria
 - freshdesk
+- auditoria
+- clinicalauditai
 - parallels-swsoft
 - puppet
 - bettercloud
@@ -452,26 +468,30 @@ provider_slugs:
 - rundeck
 - snap-api-website-screenshots-in-one-call
 - bmc-software
-- intezer
+- black-ore-technologies
 - gigacatalyst
+- caseblink
+- agent-skills
 - nine-fives
 - hyperscience
-- vtiger
 - grapes-knowledge-base
 - popp
-- agent-skills
 - packer
-- rest-assured
-- boomerangai
 - tabtabtab
+- rest-assured
 - landbot
 - aera-technology
+- boomerangai
 - cucumber
 - google-cloud-scheduler
 - renovate-bot
+- mendral
 - p0stman-com
 - microsoft-excel-macros
+- busup
+- arvow
 - hostbill
+- viktor
 - qingflow
 - apiwiz
 - pulse-software
@@ -480,18 +500,21 @@ provider_slugs:
 - sintra
 - savant-labs
 - shakr-media
-- black-ore-technologies
+- motics-technologies
+- aident
 - echelon-ai
+- certainly
 - unifyapps
+- ultimateai
 - anitian
+- chargezoom
 - apache-ant
 - excel-macros
-- mendral
-- ultimateai
 - openblock-labs
 - backflip-ai
-- headspin
 - ifttt
+- champ-ai
+- headspin
 - pinkfish
 - clicks
 - boostupai
@@ -500,45 +523,55 @@ provider_slugs:
 - ushur
 - aside
 - igent
-- viktor
+- briefcase
 - membrane
 - comulate
 - azimuth-grc
 - genspark
 - infinit
 - notable
-- lonti
-- motics-technologies
-- strawberry
 - zatanna
+- capacity
+- lonti
+- burro-develops
+- cloudfabrixsoftware
+- strawberry
 - step-ci
 - eliseai
 - neotax
 - magical
 - mostlypdf
 - rezo
+- praxis-ai-2
 - trope
+- alkira
 - docketbird
 - quilter
-- alkira
+- sainapse
 - ctrl
 - fullseam
-- champ-ai
+- carv
 - maxima
+- prized
+- artificiallabs
+- tutor-intelligence
 - basata
 - rapidclaims
 - avap-brunix
 - avataar
 - datasnipper
-- artificiallabs
 - ridecell
 - zone-and-company
 - flowscope
+- cmtsolutions
 - shell-scripting
-- briefcase
+- careerist
+- care-gp
 - infera
+- cleoai
 - avarobotics
 - resolve-systems
+- town
 - wenrix
 - sumary
 - ordana
@@ -550,6 +583,7 @@ provider_slugs:
 - donotpay
 - riff
 - wishup
+- cloudnc
 - expedock
 - vectorai
 - aessenseholding
@@ -558,20 +592,24 @@ provider_slugs:
 - ubio-automation-cloud
 - autorabit
 - latenode
-- praxis-ai-2
-- presso
 - shelly
+- chimelabs-holdings-pty-ltd
+- presso
+- readyapi
 - qventus
 - huginn
 - pallet
 - zeroqode
-- readyapi
+- briq
 - robco
 - atomic-machines
 - operator-framework
+- jarmin
+- ray-browser
 - swivl
 - audion
 - auger
+- rational
 - renovate-json
 - ruma-care
 - standard-practice
@@ -579,16 +617,14 @@ provider_slugs:
 - averlon
 - carbonrobotics
 - dusty-robotics
-- jarmin
-- prized
-- ray-browser
 - shred-video
 - whirl
 - finch-legal
 - mona-ai
 - polsia
 - robotiq
-- tutor-intelligence
+- rukaai
+- syntropy
 - pointee
 - roby
 - branch8
@@ -597,6 +633,7 @@ provider_slugs:
 - contextai
 - field-ai
 - axiomatic
+- dwelly
 - intrinsic-ai
 - agile-robots
 - instruct
@@ -611,7 +648,6 @@ provider_slugs:
 - chemify
 - convey
 - cyclone-robotics
-- dwelly
 - kingsware
 - reliable-robotics
 - robustai
@@ -626,126 +662,134 @@ provider_slugs:
 - pitpro-automation
 - photoneo
 - unchained-labs
+- hessian
 - instalily
-- sainapse
+- ontora
 - cellares
 - clarium
-- care-gp
 - careforce
+- nexiu
+- cerebriai
 - sales-patriot
-- ontora
+- solomon
 - farmwise
-- hessian
 - theker
+- emerson-electric
 - kinetic
 - armstrong-robotics
 - poetic
-- solomon
 - the-bot-company
+- atlas
 - graymatter-robotics
 - wonderful
-- emerson-electric
+- anzen
 - augustrobotics
+- nebu
 - zalos
 - zauber
-- anzen
+- comau
 - google-adk
 - thirdwave
-- nebu
 - avidbots
 - realpact
 - akasa
 - istante
 - fernride
+- keenon-robotics
 - meetfuture
 - connected-robotics
 - dryft
 - lydia-ai
 - numos
-- keenon-robotics
+- changingtek
+- cognida-ai
 - procuri
 - sento
 - blendid
 - bnovatetechnologies
 - edra
 - arithmer
-- chimelabs-holdings-pty-ltd
 - mandolin
+- rhyme-fka-priorauthnow
 - agrist
-- atlas
+- espressive
 - netic
 - nimble-robotics
 - autogen
-- town
 - autoai
-- rhyme-fka-priorauthnow
 - bossa-nova-robotics
+- carbonsix
 - kinro
+- slip-robotics
 - tric-robotics
-- espressive
+- autonomize-ai
+- cencorpautomation
 - sunrise
 - avea-robotics
+- cellbri
 - gitops
-- rational
+- plena-health
 - vestris
 - zudo
-- slip-robotics
-- autonomize-ai
+- monumental
+- walter
 - libra-robotics
+- truvio
 - akara
 - beyond-imagination
 - boxbot
 - fortive
-- monumental
 - finern
-- walter
 - botristatechnologyinc
 - presto-automation
 - ami-labs
 - hammoq
 - aoquan
 - byanat
+- cofia
 - massive-dynamic
 - synphony
-- truvio
 - bash
 - cosmic-robotics
-- cofia
-- devsecops
-- dyna-robotics
-- gitai
-- ascend3dbe
 - boson-motors
 - collaborative-robotics
+- devsecops
+- dyna-robotics
 - electio
-- plena-health
-- nexiu
+- bidops
+- ciridae
+- gitai
+- origami-robotics
+- savioke
+- wealor
+- ascend3dbe
+- cassidy
+- celera-semiconductor
 - syenta
 - airkit
 - anon
-- bidops
 - fabrion
 - forge-robotics
 - fulfil
 - mindsay
-- savioke
 - slintel
 - chowbotics
 - calibrate-ventures
-- ciridae
 - mind-robotics
-- origami-robotics
-- rukaai
 - sailplane
-- syntropy
-- wealor
 - beato
+- chengrui
 - asteya
 - automatedmediaprocessingincdbaequilibrium
 - autopilot2
 - axoflow
 - boshihitech
+- chamberlain
+- changzhoufuxingmechanicalandelectricalco
+- clanztechnologies
+- cleanhome
 - botsandusltd
+- tuza
 - orby-ai
 - backofficeco
 - burt
@@ -755,10 +799,8 @@ provider_slugs:
 - replyai
 - sabanto
 - solvvy
-- tuza
 - advancedfarmtechnologies
 - backops
-- ai-automation
 - lighting
 - prompt-md
 - airplane
@@ -775,21 +817,21 @@ provider_slugs:
 related:
 - slug: workflow-automation
   name: Workflow Automation
-  shared: 7
+  shared: 8
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 5
+  shared: 4
+- slug: orchestration
+  name: Orchestration
+  shared: 4
 - slug: ipaas
   name: iPaaS
-  shared: 5
+  shared: 4
 - slug: design
   name: Design
   shared: 3
-- slug: management
-  name: Management
-  shared: 3
-- slug: orchestration
-  name: Orchestration
+- slug: testing
+  name: Testing
   shared: 3
 overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ai-automation.apievangelist.com](https://ai-automation.apievangelist.com).
 
@@ -797,5 +839,5 @@ overview: 'AI Automation is one of the API Evangelist areas on the [APIs.io](htt
   30 providers on the network work in this area, including Tray.ai, Xquik, Dynatrace, Ada, GitHub Actions, Brevo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Workflow Automation, Embedded iPaaS, iPaaS, and Design. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Workflow Automation, Embedded iPaaS, Orchestration, and iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

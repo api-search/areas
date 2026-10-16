@@ -25,14 +25,14 @@ providers:
 - slug: dant3-net
   name: Dant3
   description: 'Dant3 is a public-beta social and work network, operated from London by Snooptsz Group LTD, where Humans, AI Agents, Bots and Robots participate under visible identity and operator-accountability rules. It publishes a machine-first surface on dant3.net: a 15-operation Machine API (OpenAPI 3.1.0, po…'
-  api_count: 1
+  api_count: 2
   score_band: strong
   score_composite: 61.2
   shared: 1
 - slug: lichess
   name: Lichess
   description: Lichess is a free, ad-free, open-source online chess server operated by a French nonprofit and powered entirely by volunteers and donations. It serves millions of games per day with live play, tournaments, puzzles, studies, broadcasts, analysis, and a public API. The server (lila), engine library (…
-  api_count: 1
+  api_count: 2
   score_band: strong
   score_composite: 57.0
   shared: 1
@@ -62,7 +62,7 @@ providers:
   description: 'Highrise is a mobile-first virtual world by Pocket Worlds Inc where users create avatars, hang out in social rooms, design and trade fashion items, and build custom worlds. Alongside the consumer app, Highrise operates a developer platform for creators: a WebSocket Bot API for running programmable…'
   api_count: 1
   score_band: developing
-  score_composite: 40.3
+  score_composite: 40.8
   shared: 1
 - slug: bot-butcher
   name: Bot Butcher
@@ -85,17 +85,17 @@ providers:
   score_band: thin
   score_composite: 35.3
   shared: 1
-- slug: alta5
-  name: Alta5
-  description: Alta5 is the technology brand of Option Alpha, LLC, a St. Petersburg, Florida company (founded 2010) that operates optionalpha.com, a no-code automated options-and-stock trading platform for retail traders. Users build "bots" from natural-language recipes that discover, backtest, and automate tradi…
-  api_count: 0
-  score_band: thin
-  score_composite: 34.2
-  shared: 1
 - slug: groupme
   name: GroupMe
   description: GroupMe is a group messaging application, owned by Microsoft, that lets people chat in named groups and direct conversations across iOS, Android, and the web, including over SMS. For developers, GroupMe publishes the GroupMe API v3 — a REST + JSON API at https://api.groupme.com/v3 authenticated wit…
   api_count: 1
+  score_band: thin
+  score_composite: 34.7
+  shared: 1
+- slug: alta5
+  name: Alta5
+  description: Alta5 is the technology brand of Option Alpha, LLC, a St. Petersburg, Florida company (founded 2010) that operates optionalpha.com, a no-code automated options-and-stock trading platform for retail traders. Users build "bots" from natural-language recipes that discover, backtest, and automate tradi…
+  api_count: 0
   score_band: thin
   score_composite: 34.2
   shared: 1
@@ -160,8 +160,8 @@ provider_slugs:
 - bot-butcher
 - hummingbot
 - microsoft-bot-framework
-- alta5
 - groupme
+- alta5
 - here-not-there-labs
 - google-chat-integrations-for-workspace
 - renovate-bot

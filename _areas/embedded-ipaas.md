@@ -6,33 +6,26 @@ description: This is the index of embedded iPaaS service and tooling repos being
 area_url: https://embedded-ipaas.apievangelist.com
 area_host: embedded-ipaas.apievangelist.com
 icon: https://embedded-ipaas.apievangelist.com/icon-thumb.png
-provider_count: 102
+provider_count: 98
 providers:
 - slug: workato
   name: Workato
   description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
   api_count: 4
   score_band: exemplar
-  score_composite: 67.2
+  score_composite: 67.9
   shared: 2
 - slug: alloy-automation
   name: Alloy Automation
   description: Alloy Automation (runalloy.com) is an embedded integration platform (iPaaS) and Unified API for SaaS products. Its Embedded product lets you drop white-labeled, end-user-facing integrations into your app, while the Connectivity and Unified API provide a single REST interface for connecting to hundr…
   api_count: 1
   score_band: thin
-  score_composite: 34.2
-  shared: 2
-- slug: integrations
-  name: Integrations
-  description: An index and topic collection covering the broad integration tooling market, including iPaaS and embedded-iPaaS platforms, workflow automation tools, unified API providers, ETL and reverse-ETL data pipelines, and orchestration engines. Integration platforms reduce the cost of connecting disparate S…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.5
+  score_composite: 34.7
   shared: 2
 - slug: tray-ai
   name: Tray.ai
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
-  api_count: 4
+  api_count: 6
   score_band: exemplar
   score_composite: 89.3
   shared: 1
@@ -46,30 +39,23 @@ providers:
 - slug: jitterbit
   name: Jitterbit
   description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
-  api_count: 1
+  api_count: 2
   score_band: exemplar
-  score_composite: 74.0
+  score_composite: 78.3
   shared: 1
 - slug: zapier
   name: Zapier
   description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
   api_count: 1
   score_band: exemplar
-  score_composite: 68.9
+  score_composite: 69.8
   shared: 1
 - slug: integration-os
   name: IntegrationOS
   description: IntegrationOS was a unified API platform that let developers add third-party integrations to their products with a single API call. The company rebranded as Pica (picaos.com) and then, on 2026-03-25, as One (withone.ai) — the provider's own changelog records the step as "Pica is now One". One is an…
-  api_count: 1
+  api_count: 2
   score_band: exemplar
   score_composite: 68.1
-  shared: 1
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 67.6
   shared: 1
 - slug: pandium
   name: Pandium
@@ -83,7 +69,14 @@ providers:
   description: Vessel (Kinit Inc.) is a developer-first embedded integrations platform for go-to-market software. It gives a product team one contract to read and write an end customer's CRM, sales engagement, chat, dialer and marketing automation tools, plus a drop-in browser component — Vessel Link — that handl…
   api_count: 20
   score_band: strong
-  score_composite: 64.0
+  score_composite: 64.4
+  shared: 1
+- slug: boomi
+  name: Boomi
+  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
+  api_count: 3
+  score_band: strong
+  score_composite: 63.8
   shared: 1
 - slug: prismatic
   name: Prismatic
@@ -99,6 +92,13 @@ providers:
   score_band: strong
   score_composite: 62.2
   shared: 1
+- slug: integration-app
+  name: Integration.app (Membrane)
+  description: Integration.app, now operating as Membrane (getmembrane.com), is an agentic integration infrastructure platform that lets AI agents, products, and internal tools connect with 100,000+ applications through a unified interface. It exposes integrations via API, CLI, SDK, MCP servers, and embedded UI,…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.6
+  shared: 1
 - slug: agave
   name: Agave
   description: Agave is a unified API platform for the construction industry, enabling software companies and contractors to read and write data across 100+ construction and accounting software systems including Procore, Autodesk Build, QuickBooks, Sage, Viewpoint, and more.
@@ -106,12 +106,12 @@ providers:
   score_band: strong
   score_composite: 61.3
   shared: 1
-- slug: integration-app
-  name: Integration.app (Membrane)
-  description: Integration.app, now operating as Membrane (getmembrane.com), is an agentic integration infrastructure platform that lets AI agents, products, and internal tools connect with 100,000+ applications through a unified interface. It exposes integrations via API, CLI, SDK, MCP servers, and embedded UI,…
+- slug: snaplogic
+  name: SnapLogic
+  description: SnapLogic provides an Agentic Integration and Applied AI Platform that securely connects applications, data, APIs and AI agents across cloud, on‑premise and hybrid environments for enterprises. The platform offers visual ETL/ELT, no‑code iPaaS, API management, legacy modernization tools, and govern…
   api_count: 1
   score_band: strong
-  score_composite: 61.1
+  score_composite: 60.8
   shared: 1
 - slug: viam
   name: Viam
@@ -120,26 +120,19 @@ providers:
   score_band: strong
   score_composite: 60.7
   shared: 1
-- slug: snaplogic
-  name: SnapLogic
-  description: SnapLogic provides an Agentic Integration and Applied AI Platform that securely connects applications, data, APIs and AI agents across cloud, on‑premise and hybrid environments for enterprises. The platform offers visual ETL/ELT, no‑code iPaaS, API management, legacy modernization tools, and govern…
-  api_count: 1
-  score_band: strong
-  score_composite: 59.6
-  shared: 1
-- slug: celigo
-  name: Celigo
-  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.1
-  shared: 1
 - slug: 3shake
   name: 3-shake
   description: 3-shake, Inc. (株式会社スリーシェイク) is a Tokyo-based cloud and reliability engineering company, founded in 2015, that operates four product lines. Sreake is its SRE / platform-engineering consulting and managed-operations practice for AWS, Google Cloud and Kubernetes. Reckoner is a no-code ETL and data-int…
   api_count: 1
   score_band: strong
   score_composite: 57.0
+  shared: 1
+- slug: frends
+  name: Frends
+  description: Frends provides a European AI‑augmented integration platform (iPaaS) that combines workflow automation, API management, data and application integration, and AI orchestration on a low‑code environment. It is targeted at enterprise customers across industries that need to connect legacy systems, ERP…
+  api_count: 2
+  score_band: strong
+  score_composite: 55.2
   shared: 1
 - slug: cobalt
   name: Cobalt
@@ -176,19 +169,19 @@ providers:
   score_band: developing
   score_composite: 51.3
   shared: 1
+- slug: appmixer
+  name: Appmixer
+  description: Let your users build powerful agentic workflowsno code, fully white-labeled, and embedded right in your web app.
+  api_count: 1
+  score_band: developing
+  score_composite: 51.0
+  shared: 1
 - slug: hull
   name: Hull
   description: Hull is a real-time Customer Data Platform (CDP) that unifies customer data from every source — web, product, CRM, marketing and support tools, databases and files — into a single User and Account profile using claim-based identity resolution. It ingests, computes and enriches data through a data-l…
   api_count: 1
   score_band: developing
   score_composite: 50.9
-  shared: 1
-- slug: appmixer
-  name: Appmixer
-  description: Let your users build powerful agentic workflowsno code, fully white-labeled, and embedded right in your web app.
-  api_count: 1
-  score_band: developing
-  score_composite: 50.5
   shared: 1
 - slug: azure-logic-apps
   name: Azure Logic Apps
@@ -218,33 +211,39 @@ providers:
   score_band: developing
   score_composite: 49.3
   shared: 1
+- slug: 1nce
+  name: 1NCE
+  description: 1NCE is a Cologne-headquartered global IoT connectivity provider best known for the IoT Lifetime Flat — a single one-time fee that bundles a multi-network SIM with 500 MB of data and 250 SMS over a 10-year subscription. The 1NCE Management API on api.1nce.com/management-api exposes the same surface…
+  api_count: 15
+  score_band: developing
+  score_composite: 48.9
+  shared: 1
 provider_slugs:
 - workato
 - alloy-automation
-- integrations
 - tray-ai
 - losant
 - jitterbit
 - zapier
 - integration-os
-- boomi
 - pandium
 - vessel
+- boomi
 - prismatic
 - particle
-- agave
 - integration-app
-- viam
+- agave
 - snaplogic
-- celigo
+- viam
 - 3shake
+- frends
 - cobalt
 - syncari
 - oracle-integration
 - whereby
 - aws-step-functions
-- hull
 - appmixer
+- hull
 - azure-logic-apps
 - rewst
 - cyclr
@@ -259,14 +258,14 @@ provider_slugs:
 - make
 - flume-health
 - renesas
+- celigo
 - elastic-io
-- frends
 - modusbox
 - kombo
 - morf
+- cesanta
 - memfault
 - civil-infrastructure-platform
-- cesanta
 - jetic
 - elisa
 - zephyr
@@ -296,9 +295,9 @@ provider_slugs:
 - locoia
 - silabs
 - sensel
+- uhnder
 - apollo3
 - ambiq-micro
-- uhnder
 - ibm-app-connect
 - oneio
 - locale
@@ -307,7 +306,6 @@ provider_slugs:
 - aprilgetaprilcom
 - roofline
 - plumerai
-- unified-apis
 - code-metal
 - apex-ai
 - sourcedev
@@ -315,8 +313,6 @@ provider_slugs:
 - cloud-elements
 - cypress
 - energy-micro
-- embedded-ipaas
-- ipaas
 - azuqua
 - cloudpipes
 - freescale-semiconductor
@@ -333,7 +329,7 @@ related:
   shared: 6
 - slug: ai-automation
   name: AI Automation
-  shared: 5
+  shared: 4
 - slug: orchestration
   name: Orchestration
   shared: 3
@@ -343,7 +339,7 @@ related:
 overview: 'Embedded iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [embedded-ipaas.apievangelist.com](https://embedded-ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Workato, Alloy Automation, Integrations, Tray.ai, Losant, Jitterbit, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Workato, Alloy Automation, Tray.ai, Losant, Jitterbit, Zapier, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: iPaaS, Management, Workflow Automation, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

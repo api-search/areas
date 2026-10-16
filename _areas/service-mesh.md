@@ -6,14 +6,14 @@ description: Service mesh is a dedicated infrastructure layer for handling servi
 area_url: https://service-mesh.apievangelist.com
 area_host: service-mesh.apievangelist.com
 icon: https://service-mesh.apievangelist.com/icon-thumb.png
-provider_count: 34
+provider_count: 36
 providers:
 - slug: kong
   name: Kong
   description: Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agen…
   api_count: 2
   score_band: exemplar
-  score_composite: 73.2
+  score_composite: 73.8
   shared: 1
 - slug: calico
   name: Calico
@@ -25,7 +25,7 @@ providers:
 - slug: solo-io
   name: Solo.io
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gatewa…
-  api_count: 5
+  api_count: 6
   score_band: strong
   score_composite: 63.0
   shared: 1
@@ -183,13 +183,6 @@ providers:
   score_band: thin
   score_composite: 28.6
   shared: 1
-- slug: service-mesh
-  name: Service Mesh
-  description: Service mesh is a dedicated infrastructure layer for handling service-to-service communication in microservices architectures. It provides traffic management, mutual TLS security, observability, policy enforcement, and resilience features without requiring changes to application code. Key implement…
-  api_count: 5
-  score_band: thin
-  score_composite: 28.5
-  shared: 1
 - slug: meshery
   name: Meshery
   description: Meshery is the cloud native manager for Kubernetes and cloud native infrastructure. It is an extensible, self-service engineering platform that enables collaborative design, lifecycle and performance management of cloud native applications and infrastructure. Meshery exposes REST and GraphQL APIs f…
@@ -218,6 +211,13 @@ providers:
   score_band: emerging
   score_composite: 17.1
   shared: 1
+- slug: merbridge
+  name: Merbridge
+  description: Merbridge is an open source, eBPF-based service mesh acceleration tool that replaces iptables rules with eBPF traffic interception and uses msg_redirect to shorten the datapath between sidecars and services. It is a CNCF Sandbox project and supports Istio, Linkerd2, and Kuma.
+  api_count: 1
+  score_band: emerging
+  score_composite: 16.6
+  shared: 1
 provider_slugs:
 - kong
 - calico
@@ -244,7 +244,6 @@ provider_slugs:
 - vmware-tanzu
 - pubmed
 - traefik-mesh
-- service-mesh
 - meshery
 - open-service-mesh
 - greymatter
@@ -252,6 +251,9 @@ provider_slugs:
 - merbridge
 - tripo3d
 - nginx-service-mesh
+- buzzybfd9
+- camber2b5b
+- clasp
 - octarine
 related:
 - slug: microservices
@@ -268,6 +270,9 @@ related:
   shared: 2
 - slug: containers
   name: Containers
+  shared: 1
+- slug: performance
+  name: Performance
   shared: 1
 overview: 'Service Mesh is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [service-mesh.apievangelist.com](https://service-mesh.apievangelist.com).
 

@@ -6,7 +6,7 @@ description: An index of microservices architecture frameworks, service discover
 area_url: https://microservices.apievangelist.com
 area_host: microservices.apievangelist.com
 icon: https://microservices.apievangelist.com/icon-thumb.png
-provider_count: 102
+provider_count: 101
 providers:
 - slug: datadog-apm
   name: Datadog APM
@@ -20,7 +20,7 @@ providers:
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 5
   score_band: exemplar
-  score_composite: 70.8
+  score_composite: 70.2
   shared: 1
 - slug: nvidia-nim
   name: NVIDIA NIM
@@ -36,6 +36,13 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 1
+- slug: pactflow
+  name: PactFlow
+  description: PactFlow provides a comprehensive contract testing platform that enables developers and QA teams to create, verify, and maintain consumer-driven contracts for APIs and microservices. Built on the Pact framework and backed by SmartBear, PactFlow offers hosted Pact Broker services, CI/CD integrations…
+  api_count: 8
+  score_band: strong
+  score_composite: 60.0
+  shared: 1
 - slug: amazon-sqs
   name: Amazon SQS
   description: Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
@@ -48,14 +55,14 @@ providers:
   description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
   api_count: 7
   score_band: strong
-  score_composite: 58.0
+  score_composite: 58.5
   shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
   api_count: 16
   score_band: strong
-  score_composite: 56.0
+  score_composite: 56.6
   shared: 1
 - slug: signadot
   name: Signadot
@@ -77,6 +84,13 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 52.5
+  shared: 1
+- slug: folio
+  name: FOLIO
+  description: FOLIO (Future of Libraries is Open) is an open source library services platform (LSP) built by a community of libraries, developers and vendors. Developer documentation and an API reference are published on the FOLIO developer portal (dev.folio.org), user documentation at docs.folio.org, and source…
+  api_count: 204
+  score_band: developing
+  score_composite: 51.1
   shared: 1
 - slug: amazon-vpc-lattice
   name: Amazon VPC Lattice
@@ -113,13 +127,6 @@ providers:
   score_band: developing
   score_composite: 47.7
   shared: 1
-- slug: pactflow
-  name: PactFlow
-  description: PactFlow provides a comprehensive contract testing platform that enables developers and QA teams to create, verify, and maintain consumer-driven contracts for APIs and microservices. Built on the Pact framework and backed by SmartBear, PactFlow offers hosted Pact Broker services, CI/CD integrations…
-  api_count: 8
-  score_band: developing
-  score_composite: 47.7
-  shared: 1
 - slug: polyapi
   name: PolyAPI
   description: Poly, built using cutting-edge AI and Kubernetes-native technology, accelerates development and simplifies the operation of integrations, orchestrations, and microservices with TypeScript, Python, Java, and C.
@@ -140,6 +147,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 45.7
+  shared: 1
+- slug: docker
+  name: Docker
+  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
+  api_count: 2
+  score_band: developing
+  score_composite: 44.4
   shared: 1
 - slug: spring
   name: Spring Framework
@@ -179,7 +193,7 @@ providers:
 - slug: purplebricks
   name: Purplebricks
   description: Purplebricks is the United Kingdom's largest online (hybrid) estate agency, founded in 2014 by Michael and Kenny Bruce and David Shepherd, selling and letting residential property across England, Wales and Scotland through a fixed-fee, remote model staffed by local property experts rather than a hi…
-  api_count: 32
+  api_count: 46
   score_band: developing
   score_composite: 43.2
   shared: 1
@@ -204,40 +218,28 @@ providers:
   score_band: developing
   score_composite: 42.0
   shared: 1
-- slug: opslevel
-  name: OpsLevel
-  description: OpsLevel is a prescriptive internal developer portal for cataloging, measuring, and scaffolding services according to engineering best practices.
-  api_count: 1
-  score_band: developing
-  score_composite: 41.9
-  shared: 1
-- slug: docker
-  name: Docker
-  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
-  api_count: 1
-  score_band: developing
-  score_composite: 41.1
-  shared: 1
 provider_slugs:
 - datadog-apm
 - apigee
 - nvidia-nim
 - azure-container-apps
+- pactflow
 - amazon-sqs
 - websphere
 - aws-app-runner
 - signadot
 - aws-app-mesh
 - encore-dev
+- folio
 - amazon-vpc-lattice
 - aws-x-ray
 - amazon-fargate
 - zeebe
 - lumigo
-- pactflow
 - polyapi
 - apollo-config
 - mist-ai
+- docker
 - spring
 - microsoft-azure-service-fabric
 - grpc
@@ -248,7 +250,6 @@ provider_slugs:
 - beamable
 - kuma
 - opslevel
-- docker
 - dapr
 - nats
 - zipkin
@@ -267,9 +268,9 @@ provider_slugs:
 - ocelot
 - axon-framework
 - jaeger
+- grafana-tempo
 - akka
 - conductor-oss
-- grafana-tempo
 - vert-x
 - moleculer
 - spring-cloud-stream
@@ -277,7 +278,6 @@ provider_slugs:
 - nacos
 - kratos
 - open-liberty
-- service-mesh
 - orkes
 - lightstep
 - snapser
@@ -297,8 +297,8 @@ provider_slugs:
 - helidon
 - soa
 - littlehorse
-- seneca
 - telepresence
+- seneca
 - nameko
 - netflix-hystrix
 - lura-project
@@ -308,9 +308,9 @@ provider_slugs:
 - go-micro
 - lagom
 - gin
+- amplication
 - fiber
 - mia-platform
-- amplication
 - integration-patterns
 - microservice-architecture-patterns
 - micro
@@ -318,7 +318,6 @@ provider_slugs:
 - microservice-architecture
 - microservice-design
 - services-patterns
-- microservices
 - microservices-architecture
 - microservices-design-patterns
 related:
@@ -328,23 +327,23 @@ related:
 - slug: containers
   name: Containers
   shared: 2
-- slug: developer-experience
-  name: Developer Experience
-  shared: 2
-- slug: portal
-  name: Portal
-  shared: 2
 - slug: serverless
   name: Serverless
+  shared: 2
+- slug: testing
+  name: Testing
   shared: 2
 - slug: aiops
   name: AIOps
   shared: 1
+- slug: dns
+  name: DNS
+  shared: 1
 overview: 'Microservices is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [microservices.apievangelist.com](https://microservices.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Datadog APM, Apigee, NVIDIA NIM, Azure Container Apps, Amazon SQS, IBM WebSphere, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Datadog APM, Apigee, NVIDIA NIM, Azure Container Apps, PactFlow, Amazon SQS, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Service Mesh, Containers, Developer Experience, and Portal. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Service Mesh, Containers, Serverless, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

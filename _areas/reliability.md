@@ -6,7 +6,7 @@ description: An index and topic collection covering site reliability engineering
 area_url: https://reliability.apievangelist.com
 area_host: reliability.apievangelist.com
 icon: https://reliability.apievangelist.com/icon-thumb.png
-provider_count: 20
+provider_count: 21
 providers:
 - slug: svix
   name: Svix
@@ -68,8 +68,8 @@ providers:
   name: Sonarly
   description: Sonarly is an AI production-reliability platform (Y Combinator W2026, Paris) that turns noisy production alerts into clear, deduplicated bug reports and ships ready-to-merge fix pull requests. It connects to a team's code (GitHub/GitLab) and their error and observability stack — Sentry, Datadog, Gr…
   api_count: 1
-  score_band: emerging
-  score_composite: 25.8
+  score_band: thin
+  score_composite: 26.3
   shared: 1
 - slug: nerc
   name: NERC
@@ -113,13 +113,6 @@ providers:
   score_band: emerging
   score_composite: 11.2
   shared: 1
-- slug: reliability
-  name: Reliability
-  description: An index and topic collection covering site reliability engineering (SRE), reliability platforms, service level objectives (SLOs), error budgets, chaos engineering, resilience testing, and incident response. Reliability platforms help teams define and measure reliability targets, intentionally inje…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.5
-  shared: 1
 - slug: augury
   name: Augury
   description: Augury is a New York City-headquartered industrial AI company founded in 2011 by Gal Shaul and Saar Yoskovitz that profiles itself as the leader in Machine Health and Production Health for manufacturing. Its flagship offering pairs purpose-built IoT vibration, temperature, and magnetic sensors — mo…
@@ -139,7 +132,21 @@ providers:
   description: Distributional is an a16z-backed company (security contact Scott Clark) tracked in the API Evangelist network. As of July 2026 distributional.com serves a pre-launch holding page ("Something new is coming") with no public API, backend, or authentication surface. The site does publish machine-readab…
   api_count: 0
   score_band: minimal
-  score_composite: 6.2
+  score_composite: 6.7
+  shared: 1
+- slug: chargerhelp
+  name: Chargerhelp
+  description: ChargerHelp provides Reliability as a Service for electric vehicle (EV) charging infrastructure. Their platform offers data‑first monitoring, predictive maintenance, and performance analytics to ensure high uptime for EVSE operators. Founded to address the growing need for operational excellence in…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.0
+  shared: 1
+- slug: chinaist-testing-service
+  name: ChinaiST Testing Service
+  description: ChinaiST Testing Service is a high‑tech enterprise founded in Shanghai in 2002, offering chip line modification, failure analysis, reliability verification, wafer micro‑structure and material analysis, automotive component reliability testing, and advanced packaging DPA analysis. It serves chip des…
+  api_count: 0
+  score_band: minimal
+  score_composite: 3.7
   shared: 1
 - slug: omen
   name: Omen
@@ -164,10 +171,11 @@ provider_slugs:
 - blameless
 - briza
 - proteantecs
-- reliability
 - augury
 - pairio
 - distributional
+- chargerhelp
+- chinaist-testing-service
 - omen
 related:
 - slug: cli
@@ -179,7 +187,7 @@ related:
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  20 providers on the network work in this area, including Svix, Gremlin, Chaos Mesh, Memfault, Google Cloud Error Reporting, Antithesis, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  21 providers on the network work in this area, including Svix, Gremlin, Chaos Mesh, Memfault, Google Cloud Error Reporting, Antithesis, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Command Line Interface and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'

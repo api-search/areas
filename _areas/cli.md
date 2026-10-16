@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 111
+provider_count: 112
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -54,8 +54,8 @@ providers:
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 1
-  score_band: developing
-  score_composite: 53.9
+  score_band: strong
+  score_composite: 55.8
   shared: 1
 - slug: bruno-api
   name: Bruno
@@ -70,6 +70,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.2
+  shared: 1
+- slug: fern-api
+  name: Fern
+  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generates type-safe SDKs in TypeScript, Python, Go, Java, C#, PHP,…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.7
   shared: 1
 - slug: vlt
   name: vlt
@@ -158,7 +165,7 @@ providers:
 - slug: terminal-use
   name: Terminal Use
   description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
-  api_count: 1
+  api_count: 2
   score_band: developing
   score_composite: 41.4
   shared: 1
@@ -211,13 +218,6 @@ providers:
   score_band: thin
   score_composite: 36.4
   shared: 1
-- slug: plakar
-  name: Plakar
-  description: Plakar is an open-source, end-to-end encrypted, deduplicated backup and restore platform powered by Kloset, an immutable data store engine. It encrypts and deduplicates data at the source before it leaves your system (encryption keys stay in your own secret manager), stores it in a non-proprietary…
-  api_count: 0
-  score_band: thin
-  score_composite: 36.2
-  shared: 1
 provider_slugs:
 - aws-cli
 - svix
@@ -228,6 +228,7 @@ provider_slugs:
 - insomnia
 - bruno-api
 - qfex
+- fern-api
 - vlt
 - continue-dev
 - kiota
@@ -250,6 +251,8 @@ provider_slugs:
 - virtualitics
 - plakar
 - formspree
+- ranger
+- serverless
 - bruin
 - cycode
 - minimus
@@ -258,26 +261,25 @@ provider_slugs:
 - httpie
 - entire
 - certora
+- bugster
 - tensor9
 - onfabric
-- ranger
-- bit
 - tabtabtab
+- openapi-typescript-codegen
+- bit
 - aider
 - guildai
 - terrastruct
-- perkoon-com
 - cluely
+- perseus
+- perkoon-com
 - prodly
-- openapi-typescript-codegen
-- bugster
-- fern-api
-- tolmo
 - qname
+- tolmo
 - coral
 - azure-cli
-- nanovms
 - thunder-client
+- nanovms
 - specific
 - webstudio
 - wget
@@ -285,7 +287,7 @@ provider_slugs:
 - nitric
 - skillsync
 - continua
-- perseus
+- linzumi
 - milaboratories
 - bittensor
 - bearer
@@ -294,9 +296,9 @@ provider_slugs:
 - alkera-ai
 - optic
 - aside
+- openspec
 - prompt-driven
 - hashboard
-- openspec
 - infinit
 - kamal-deploy
 - coasts
@@ -315,11 +317,10 @@ provider_slugs:
 - turintech
 - hurl
 - shell-scripting
-- columnar
-- newman
 - wing-cloud
 - cline
-- linzumi
+- columnar
+- newman
 - kaniko
 - kubectl
 - memverge
@@ -327,13 +328,13 @@ provider_slugs:
 - dokku
 - grpcurl
 - stage
-- qname-ai-whois-api
+- circuit-chisel
 - rome-tools
 - stamplay
 related:
 - slug: sdk
   name: SDKs
-  shared: 3
+  shared: 4
 - slug: testing
   name: Testing
   shared: 2

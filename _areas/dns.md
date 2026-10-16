@@ -11,9 +11,9 @@ providers:
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 25
+  api_count: 26
   score_band: exemplar
-  score_composite: 80.6
+  score_composite: 81.3
   shared: 1
 - slug: whoisfreaks
   name: WhoisFreaks
@@ -26,13 +26,13 @@ providers:
   name: cPanel
   description: cPanel is a web-based control panel that provides a graphical interface and automation tools to simplify the management of web hosting services. cPanel exposes a family of HTTP APIs (UAPI, WHM API 1, and the legacy cPanel API 2) for automating account, domain, email, database, DNS, and server-wide…
   api_count: 3
-  score_band: strong
-  score_composite: 66.2
+  score_band: exemplar
+  score_composite: 66.7
   shared: 1
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
-  api_count: 5
+  api_count: 6
   score_band: strong
   score_composite: 65.0
   shared: 1
@@ -53,9 +53,9 @@ providers:
 - slug: domscan
   name: DomScan
   description: Domain intelligence API for domain availability, DNS, WHOIS/RDAP, valuation, security checks, email posture, social handle checks, and monitoring workflows. Offers REST API, machine-readable contracts, a hosted MCP server, and llms.txt.
-  api_count: 2
+  api_count: 4
   score_band: strong
-  score_composite: 61.5
+  score_composite: 62.0
   shared: 1
 - slug: geekflare
   name: Geekflare
@@ -74,23 +74,23 @@ providers:
 - slug: whisper-online
   name: Whisper Security
   description: Whisper Security (viaGraph B.V., Amsterdam; AS219419) gives AI agents a real, routable IPv6 /128 address as their identity — allocated from its own 2a04:2a01::/32, published in reverse DNS, RDAP/WHOIS and an RFC 6962 transparency log, and DANE-pinned in DNSSEC-signed DNS so anyone can verify an age…
-  api_count: 1
+  api_count: 2
   score_band: strong
   score_composite: 59.3
   shared: 1
 - slug: apifreaks-api-hub-for-developers
   name: APIFreaks - API Hub for Developers
   description: APIFreaks is a first-party REST API hub built by JFreaks Software Solutions (Lahore, Pakistan) that ships more than 100 production endpoints behind a single API key and a single shared credit pool. The catalog spans IP geolocation and threat intelligence, WHOIS (live, historical, reverse, ASN), DNS…
-  api_count: 104
+  api_count: 127
   score_band: strong
   score_composite: 58.3
   shared: 1
 - slug: broke2builtai-com
   name: broke2built
   description: broke2built (Broke to Built) is Anthony Snider's independent one-engineer-plus-AI-agents company, and its API surface is built for other AI agents rather than for human developers. api.broke2builtai.com serves 29 live data skills — email/domain/DNS intelligence, web-page audits (SEO, security heade…
-  api_count: 2
+  api_count: 4
   score_band: strong
-  score_composite: 57.6
+  score_composite: 58.1
   shared: 1
 - slug: amazon-route53-resolver
   name: Amazon Route 53 Resolver
@@ -111,7 +111,7 @@ providers:
   description: Linode — operating as Akamai Cloud since Akamai's acquisition, with the Linode brand retained on the API, the CLI and the developer surface — is a cloud infrastructure provider offering virtual compute instances, GPU and accelerated plans, managed Kubernetes (LKE), S3-compatible Object Storage, Blo…
   api_count: 2
   score_band: strong
-  score_composite: 54.5
+  score_composite: 55.0
   shared: 1
 - slug: amazon-route-53
   name: Amazon Route 53
@@ -197,6 +197,13 @@ providers:
   score_band: developing
   score_composite: 40.2
   shared: 1
+- slug: datum
+  name: Datum
+  description: Datum is an open source network cloud built for AI, founded in 2024 and backed by $13.6M from Amplify Partners, CRV, Encoded Ventures, Cervin Ventures, Ex/Ante, Step Function, and Vine Ventures, and founded by Zac Smith and Jacob Smith (ex-Equinix, Packet). Datum gives AI-native developers and alte…
+  api_count: 1
+  score_band: developing
+  score_composite: 39.8
+  shared: 1
 - slug: silent-push
   name: Silent Push
   description: Silent Push is a preemptive cyber defense company that maps adversary infrastructure before it is weaponized, using a continuously scanned view of the global DNS, web content, certificate and WHOIS landscape. Its platform turns that data into Indicators of Future Attack (IOFA), risk scores for doma…
@@ -210,13 +217,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 39.2
-  shared: 1
-- slug: bunny-net
-  name: Bunny.net
-  description: Bunny.net is a content-delivery and edge platform offering a global CDN, edge storage, video streaming, DNS, image optimisation, edge scripting, and WAF / security shielding. The Bunny.net Core Platform REST API at api.bunny.net manages account-level resources - Pull Zones, Storage Zones, DNS Zones…
-  api_count: 1
-  score_band: thin
-  score_composite: 38.9
   shared: 1
 provider_slugs:
 - cloudflare
@@ -246,15 +246,15 @@ provider_slugs:
 - openprovider
 - d3
 - unstoppable-domains
+- datum
 - silent-push
 - stack-machine
-- bunny-net
 - tucows
+- bunny-net
 - onlinenic
 - hetzner
 - completedns
 - done
-- datum
 - frostbyte
 - spaceship
 - nacos

@@ -6,7 +6,7 @@ description: An index and topic collection covering customer support, help desk,
 area_url: https://support.apievangelist.com
 area_host: support.apievangelist.com
 icon: https://support.apievangelist.com/icon-thumb.png
-provider_count: 10
+provider_count: 11
 providers:
 - slug: zendesk
   name: Zendesk
@@ -64,19 +64,26 @@ providers:
   score_band: thin
   score_composite: 35.6
   shared: 1
+- slug: ujet
+  name: UJET
+  description: UJET is an AI-powered cloud contact center (CCaaS) platform that unifies voice, chat, SMS, email, WhatsApp, and in-app mobile support into a single agentic customer-experience system. Built CRM-native so PII stays in the customer's CRM rather than the contact center layer, UJET pairs its CCaaS foun…
+  api_count: 0
+  score_band: thin
+  score_composite: 26.5
+  shared: 1
+- slug: certainly
+  name: Certainly
+  description: Certainly provides AI‑enabled customer experience and support solutions, combining intelligent automation with human oversight to handle routine requests instantly while routing complex interactions to experts. Their platform supports multiple channels, offering speed, consistency, and care across…
+  api_count: 0
+  score_band: emerging
+  score_composite: 24.5
+  shared: 1
 - slug: fixify
   name: Fixify
   description: Fixify is an AI-native IT help desk automation platform that resolves tier-1 IT support requests and workflows on behalf of internal IT teams and MSPs. It builds AI-generated playbooks from a customer's existing tech stack and executes dynamic automations across chat surfaces (Slack, Teams, email)…
   api_count: 0
   score_band: emerging
   score_composite: 23.4
-  shared: 1
-- slug: ujet
-  name: UJET
-  description: UJET is an AI-powered cloud contact center (CCaaS) platform that unifies voice, chat, SMS, email, WhatsApp, and in-app mobile support into a single agentic customer-experience system. Built CRM-native so PII stays in the customer's CRM rather than the contact center layer, UJET pairs its CCaaS foun…
-  api_count: 0
-  score_band: emerging
-  score_composite: 20.8
   shared: 1
 provider_slugs:
 - zendesk
@@ -87,11 +94,12 @@ provider_slugs:
 - papercups
 - cisco-support-apis
 - mendable
-- fixify
 - ujet
+- certainly
+- fixify
 related: []
 overview: 'Support is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [support.apievangelist.com](https://support.apievangelist.com).
 
 
-  10 providers on the network work in this area, including Zendesk, Salesforce Service Cloud APIs, Plain, Salesforce Knowledge Management, Inkeep, Papercups, and 4 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  11 providers on the network work in this area, including Zendesk, Salesforce Service Cloud APIs, Plain, Salesforce Knowledge Management, Inkeep, Papercups, and 5 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

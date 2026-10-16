@@ -11,16 +11,16 @@ providers:
 - slug: diffbot
   name: Diffbot
   description: Diffbot is a company that provides AI-powered web scraping and data extraction services. Their technology allows businesses to automatically extract and organize data from any website, turning unstructured web content into structured data that can be easily analyzed and used for various purposes. D…
-  api_count: 9
+  api_count: 11
   score_band: exemplar
   score_composite: 75.4
   shared: 1
 - slug: konbiniapi
   name: KonbiniAPI
   description: KonbiniAPI is the social data layer for Instagram, TikTok, X, Reddit and LinkedIn, normalizing real-time public profile, post, video, comment, audio, community, subreddit, location and search data into a single consistent ActivityStreams 2.0 (W3C) shape. Sixty-seven endpoints are exposed through on…
-  api_count: 2
+  api_count: 3
   score_band: strong
-  score_composite: 65.1
+  score_composite: 65.6
   shared: 1
 - slug: serpwow
   name: SerpWow
@@ -60,9 +60,9 @@ providers:
 - slug: scrapingant
   name: ScrapingAnt
   description: ScrapingAnt is a web-data infrastructure platform operated by DATAANT that puts headless Chrome rendering, a rotating pool of 3M+ residential and datacenter proxies, CAPTCHA avoidance and AI-powered extraction behind a single HTTP API. One request returns a fully JavaScript-rendered page as raw HTM…
-  api_count: 2
+  api_count: 3
   score_band: developing
-  score_composite: 51.2
+  score_composite: 51.7
   shared: 1
 - slug: firecrawl
   name: Firecrawl
@@ -92,19 +92,19 @@ providers:
   score_band: thin
   score_composite: 34.9
   shared: 1
-- slug: frostbyte
-  name: Frostbyte
-  description: Free API platform for developers and AI agents — 40+ services including IP Geolocation, Crypto Prices, Screenshots, DNS, Scraping, Code Execution. Free tier of 200 credits with no signup; USDC on Base top-ups via x402 for higher volume.
-  api_count: 7
-  score_band: thin
-  score_composite: 34.0
-  shared: 1
 - slug: steel-dev
   name: Steel
   description: Steel is the open-source browser API for AI agents and apps. The Steel Cloud REST API (https://api.steel.dev/v1) launches and manages cloud browser sessions, runs stateless quick actions (scrape, screenshot, pdf, search), and exposes a live session viewer, while long-running automation connects to…
   api_count: 1
   score_band: thin
-  score_composite: 33.7
+  score_composite: 34.2
+  shared: 1
+- slug: frostbyte
+  name: Frostbyte
+  description: Free API platform for developers and AI agents — 40+ services including IP Geolocation, Crypto Prices, Screenshots, DNS, Scraping, Code Execution. Free tier of 200 credits with no signup; USDC on Base top-ups via x402 for higher volume.
+  api_count: 8
+  score_band: thin
+  score_composite: 34.0
   shared: 1
 - slug: crawlee
   name: Crawlee
@@ -175,8 +175,8 @@ provider_slugs:
 - spider-cloud
 - octoparse
 - notte
-- frostbyte
 - steel-dev
+- frostbyte
 - crawlee
 - nubela
 - scraper-api

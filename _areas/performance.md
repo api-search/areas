@@ -13,7 +13,7 @@ providers:
   description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain real‑time visibility into cloud costs, multi‑cloud and Kuberne…
   api_count: 5
   score_band: exemplar
-  score_composite: 72.3
+  score_composite: 74.4
   shared: 1
 - slug: amazon-global-accelerator
   name: Amazon Global Accelerator
@@ -25,9 +25,9 @@ providers:
 - slug: whoop
   name: WHOOP
   description: WHOOP is a fitness and recovery wearable platform providing a REST API for accessing sleep, recovery, strain, and workout metrics from the WHOOP band. The API uses OAuth 2.0 authorization code flow with Bearer tokens to allow developers to build applications that access member health and performanc…
-  api_count: 2
+  api_count: 3
   score_band: developing
-  score_composite: 53.2
+  score_composite: 53.8
   shared: 1
 - slug: factorial-hr
   name: Factorial
@@ -41,7 +41,7 @@ providers:
   description: APIContext (formerly APImetrics) is a synthetic API testing, monitoring and conformance platform. It calls the APIs you depend on from cloud locations around the world on a schedule, measures latency and availability from the outside in, validates responses against expected schemas and security pro…
   api_count: 6
   score_band: developing
-  score_composite: 51.1
+  score_composite: 51.6
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
@@ -71,6 +71,13 @@ providers:
   score_band: developing
   score_composite: 42.1
   shared: 1
+- slug: codspeed
+  name: CodSpeed
+  description: CodSpeed is a continuous performance testing and optimization platform that automatically detects performance regressions in pull requests and proposes autonomous optimizations. It runs benchmarks with sub-1% variance inside CI (GitHub Actions, GitLab CI, Buildkite), generates differential flamegra…
+  api_count: 0
+  score_band: developing
+  score_composite: 41.2
+  shared: 1
 - slug: google-cloud-profiler
   name: Google Cloud Profiler
   description: Google Cloud Profiler is a statistical, low-overhead profiling service that continuously monitors CPU usage and memory allocation in production applications. It attributes resource consumption to specific source code sections, supports Go, Java, Node.js, and Python, and provides flame graph visuali…
@@ -91,13 +98,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 35.7
-  shared: 1
-- slug: codspeed
-  name: CodSpeed
-  description: CodSpeed is a continuous performance testing and optimization platform that automatically detects performance regressions in pull requests and proposes autonomous optimizations. It runs benchmarks with sub-1% variance inside CI (GitHub Actions, GitLab CI, Buildkite), generates differential flamegra…
-  api_count: 0
-  score_band: thin
-  score_composite: 35.5
   shared: 1
 - slug: questdb
   name: QuestDB
@@ -169,6 +169,13 @@ providers:
   score_band: emerging
   score_composite: 12.2
   shared: 1
+- slug: nazar
+  name: Nazar
+  description: Nazar (nazar.ai) is an AI-powered database performance and cost optimization platform that helps engineering and DBA teams monitor, analyze, and tune their databases. It supports Postgres, MySQL, SQL Server, MariaDB, Amazon Aurora, Oracle, and SAP HANA across cloud, on-premises, and hybrid environm…
+  api_count: 0
+  score_band: emerging
+  score_composite: 11.2
+  shared: 1
 - slug: the-meta
   name: The Meta
   description: 'The Meta is the gaming-performance company behind KovaaK''s Aim Trainer (formerly "Kovaak 2.0: The Meta"), a PC esports training platform distributed on Steam that pairs guided, skill-specific training modules with Kovaak''s Sandbox aim trainer and its library of 2,600+ user-generated scenarios. The…'
@@ -176,26 +183,12 @@ providers:
   score_band: minimal
   score_composite: 10.7
   shared: 1
-- slug: performance
-  name: Performance
-  description: An index and topic collection covering API and web performance, including load testing, performance benchmarking, real user monitoring (RUM), Core Web Vitals measurement, latency profiling, distributed tracing, and application performance monitoring (APM). Performance engineering ensures that APIs…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.5
-  shared: 1
 - slug: big-o-notation
   name: Big O Notation
   description: Big O Notation is a mathematical notation used in computer science to describe the performance or complexity of algorithms, providing a way to classify algorithms by how their runtime or space requirements grow as input size grows. It is foundational to algorithm design, API performance benchmarkin…
   api_count: 0
   score_band: minimal
   score_composite: 6.3
-  shared: 1
-- slug: nazar
-  name: Nazar
-  description: Nazar (nazar.ai) is an AI-powered database performance and cost optimization platform that helps engineering and DBA teams monitor, analyze, and tune their databases. It supports Postgres, MySQL, SQL Server, MariaDB, Amazon Aurora, Oracle, and SAP HANA across cloud, on-premises, and hybrid environm…
-  api_count: 0
-  score_band: minimal
-  score_composite: 5.3
   shared: 1
 - slug: http-2
   name: HTTP/2
@@ -210,6 +203,13 @@ providers:
   api_count: 0
   score_band: minimal
   score_composite: 4.2
+  shared: 1
+- slug: castore
+  name: Castore
+  description: Castore is a premium sportswear brand founded in 2016 in Liverpool, UK, creating precision‑engineered apparel for athletes across cricket, rugby, tennis and endurance sports. The company partners with top teams such as Wolverhampton Wanderers and focuses on high‑performance, technically innovative…
+  api_count: 0
+  score_band: minimal
+  score_composite: 3.0
   shared: 1
 - slug: hinsta
   name: Hinsta
@@ -228,10 +228,10 @@ provider_slugs:
 - unravel-data-systems
 - polar-signals
 - google-cloud-trace
+- codspeed
 - google-cloud-profiler
 - sage-hr
 - kotzilla
-- codspeed
 - questdb
 - grafast
 - headspin
@@ -242,12 +242,12 @@ provider_slugs:
 - flarion
 - ethossystems
 - teamworks
-- the-meta
-- performance
-- big-o-notation
 - nazar
+- the-meta
+- big-o-notation
 - http-2
 - reniac
+- castore
 - hinsta
 - optimyze
 - qos

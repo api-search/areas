@@ -6,15 +6,8 @@ description: An index and topic collection covering data migration, cloud migrat
 area_url: https://migration.apievangelist.com
 area_host: migration.apievangelist.com
 icon: https://migration.apievangelist.com/icon-thumb.png
-provider_count: 18
+provider_count: 16
 providers:
-- slug: migration
-  name: Migration
-  description: An index and topic collection covering data migration, cloud migration, database migration, and API migration platforms and services. Migration platforms help organizations move workloads, databases, files, accounts, and applications between environments, providers, or schemas while preserving inte…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.5
-  shared: 2
 - slug: amazon-mainframe-modernization
   name: Amazon Mainframe Modernization
   description: AWS Mainframe Modernization provides tools and resources to help you plan and implement migration and modernization of your mainframe applications to AWS. It supports automated refactoring and replatforming of COBOL applications to run natively on AWS with managed runtime environments, deployment p…
@@ -83,7 +76,7 @@ providers:
   description: SkyKick is a Seattle-based cloud automation company whose Microsoft 365 migration, cloud backup, SaaS security and cloud automation products for managed service providers were acquired by ConnectWise in September 2024. The SkyKick brand's own domain no longer serves a website — skykick.com answers…
   api_count: 1
   score_band: thin
-  score_composite: 33.8
+  score_composite: 34.3
   shared: 1
 - slug: google-cloud-vmware-engine
   name: Google Cloud VMware Engine
@@ -106,13 +99,6 @@ providers:
   score_band: emerging
   score_composite: 21.4
   shared: 1
-- slug: deprecation
-  name: Deprecation
-  description: API deprecation, sunset headers, end-of-life management, and API retirement practices, including RFC 8594 Sunset, the Deprecation header, OpenAPI deprecation flags, and consumer migration patterns.
-  api_count: 1
-  score_band: emerging
-  score_composite: 18.7
-  shared: 1
 - slug: calypso-migration
   name: Calypso Migration
   description: Nasdaq Calypso Migration services support financial institutions in migrating data and configurations between Calypso environments. Calypso (formerly Adenza / Calypso Technology) is a cross-asset front-to-back capital markets technology platform used by banks, asset managers, central banks, and cle…
@@ -125,7 +111,7 @@ providers:
   description: Tessera Labs is an AI-native enterprise software company building a governed, multi-agent AI platform that automates complex ERP and business-system transformations, compressing SAP ECC-to-S/4HANA migrations and broader modernization work from years to weeks. The platform orchestrates data, process…
   api_count: 0
   score_band: minimal
-  score_composite: 9.7
+  score_composite: 10.2
   shared: 1
 - slug: aelita
   name: Aelita Software
@@ -135,7 +121,6 @@ providers:
   score_composite: 2.5
   shared: 1
 provider_slugs:
-- migration
 - amazon-mainframe-modernization
 - amazon-datasync
 - microsoft-azure-migrate
@@ -149,7 +134,6 @@ provider_slugs:
 - google-cloud-vmware-engine
 - amazon-application-migration-service
 - amazon-application-discovery-service
-- deprecation
 - calypso-migration
 - tessera-labs
 - aelita
@@ -160,14 +144,11 @@ related:
 - slug: virtualization
   name: Virtualization
   shared: 2
-- slug: deprecation
-  name: Deprecation
-  shared: 1
 overview: 'Migration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [migration.apievangelist.com](https://migration.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Migration, Amazon Mainframe Modernization, Amazon DataSync, Azure Migrate, Amazon Migration Hub, Amazon DMS, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  16 providers on the network work in this area, including Amazon Mainframe Modernization, Amazon DataSync, Azure Migrate, Amazon Migration Hub, Amazon DMS, Google Cloud Migration Center, and 10 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Evangelist Discovery, Virtualization, and Deprecation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Discovery and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -6,7 +6,7 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 871
+provider_count: 887
 providers:
 - slug: pynt
   name: Pynt
@@ -155,26 +155,33 @@ providers:
   score_band: null
   score_composite: 0
   shared: 2
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 25
-  score_band: exemplar
-  score_composite: 80.6
-  shared: 1
 - slug: snyk
   name: Snyk
   description: Snyk is a developer-first security platform covering code, open-source dependencies, container images, and infrastructure-as-code. The Snyk REST API and V1 API expose groups, organizations, projects, issues, targets, integrations, audit logs, SBOMs, container images, custom base images, webhooks, a…
   api_count: 3
   score_band: exemplar
-  score_composite: 80.6
+  score_composite: 86.0
+  shared: 1
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 26
+  score_band: exemplar
+  score_composite: 81.3
   shared: 1
 - slug: elk-stack
   name: Elastic Stack
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
   api_count: 19
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 78.5
+  shared: 1
+- slug: elastic
+  name: Elastic
+  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 77.3
   shared: 1
 - slug: amazon-vpn
   name: Amazon VPN
@@ -182,13 +189,6 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 74.6
-  shared: 1
-- slug: elastic
-  name: Elastic
-  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 74.2
   shared: 1
 - slug: onetrust
   name: OneTrust
@@ -204,17 +204,17 @@ providers:
   score_band: exemplar
   score_composite: 72.6
   shared: 1
-- slug: jfrog
-  name: JFrog
-  description: JFrog provides universal DevOps solutions for software supply chain automation and security, offering a unified platform for managing binaries, securing the software supply chain, and automating DevOps workflows.
-  api_count: 14
-  score_band: exemplar
-  score_composite: 71.6
-  shared: 1
 - slug: clerk-com
   name: Clerk
   description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
   api_count: 7
+  score_band: exemplar
+  score_composite: 71.9
+  shared: 1
+- slug: jfrog
+  name: JFrog
+  description: JFrog provides universal DevOps solutions for software supply chain automation and security, offering a unified platform for managing binaries, securing the software supply chain, and automating DevOps workflows.
+  api_count: 14
   score_band: exemplar
   score_composite: 71.4
   shared: 1
@@ -240,81 +240,87 @@ provider_slugs:
 - hex-security
 - tinfoil-security
 - tcell-io
-- cloudflare
 - snyk
+- cloudflare
 - elk-stack
-- amazon-vpn
 - elastic
+- amazon-vpn
 - onetrust
 - aembit
-- jfrog
 - clerk-com
+- jfrog
+- ibm
 - drata
 - auth0
-- ibm
 - mailboxlayer
 - paubox
 - strivacity
 - amazon-secrets-manager
+- anecdotes
 - tenable
+- sonatype
 - f5
+- blumira
 - imgauth-api-di-attestazione-opere-digitali
 - cisco-xdr
 - amazon-vpc
-- databricks
 - fastly
+- censys
 - shodan
 - shieldlabs
-- sonatype
+- strongdm
 - zerotier
-- censys
 - microsoft-azure-private-link
 - routebase
-- anecdotes
 - treblle
 - exclaimer
 - cisco-umbrella
+- splunk
+- transmit-security
 - cisco-ise
 - amazon-kms
 - barndoor
 - stytch
 - microsoft-azure-key-vault
-- splunk
-- openzeppelin
-- blumira
-- transmit-security
-- allegion
 - juniper
+- openzeppelin
+- allegion
+- databricks
 - 1password
+- malwarebytes
 - whisper-online
 - kondukto
-- malwarebytes
 - ledger
 - chef-software
 - amazon-iot-device-defender
 - aptible
+- axway
 - microsoft-entra
 - greynoise
+- atomadic-tech
 - cisco-psirt
 - amazon-guardduty
 - amazon-firewall-manager
 - secureframe
+- saviynt
 - xbow
 - amazon-iam
-- atomadic-tech
 - evervault
 - cisco-secure-firewall
+- chaossearch
 - amazon-config
 - yubico
 - amazon-certificate-manager
 - amazon-private-ca
 - kolide
-- axway
 - sailpoint
 - amazon-fraud-detector
 - jupiterone
 - c1
+- knostic
 - vulncheck
+- cisco
+- keeper-security
 - typingdna
 - dopesecurity
 - airmdr
@@ -322,46 +328,45 @@ provider_slugs:
 - amazon-security-lake
 - cipherowl
 - kisi
+- 2s-io
 - panther
 - amazon-iam-access-analyzer
 - amazon-cloudtrail
 - conductorone
 - agentgateway
 - fraud-net
-- 2s-io
 - huntress
-- saviynt
 - onecli
 - neutrino-api
+- emailrep
 - projectdiscovery
+- qlik
 - smallstep
 - fordefi
 - vettly
 - abnormal
-- emailrep
+- cloudtruth
 - adaptive-automation-technologies
-- channelseal
 - civic
 - qwiet-ai
 - indykite
 - ironcore-labs
-- strongdm
 - macadress
 - amazon-shield
 - basis-theory
+- nym-technologies
 - opal-security
 - openbao
+- patronus-protect
 - snyk-container
 - have-i-been-pwned
-- nym-technologies
+- cloudsmithio
 - hacknotice
 - dnsfilter
-- patronus-protect
+- trusona
 - 1kosmos
 - amazon-verified-permissions
-- cisco
 - mine
-- trusona
 - synack
 - verkada
 - viso-trust
@@ -372,6 +377,7 @@ provider_slugs:
 - npm
 - accuknox
 - horizon3ai
+- dependency-track
 - fossa
 - sumo-logic
 - slashid
@@ -383,6 +389,7 @@ provider_slugs:
 - authlete
 - infoblox
 - vanta
+- coincover
 - angelcam
 - akamai
 - authzed
@@ -393,9 +400,9 @@ provider_slugs:
 - wegalvanize
 - defakto-security
 - clearspeed
-- knostic
 - root-fka-slimai
 - google-cloud-secret-manager
+- hacware
 - apinizer
 - cerby
 - google-cloud-kms
@@ -406,14 +413,14 @@ provider_slugs:
 - sysdig
 - filigran
 - regscale
-- qlik
 - amazon-codeguru-reviewer
 - google-cloud-armor
 - dragos
 - amazon-control-tower
+- clawvisor
+- cfengine
 - google-cloud-iam
 - border0
-- clawvisor
 - dust-identity
 - push-security
 - tracebit
@@ -429,18 +436,18 @@ provider_slugs:
 - binarly
 - adaptive-security
 - doppel
-- keeper-security
 - securden
+- cyble
 - workday-security
 - coro
 - aruba
+- cloudsek
 - fortanix
 - cilium
 - hashicorp-vault
 - permit-io
 - castle
 - adlumininc
-- cyble
 - microsoft-sentinel
 - shuffle
 - socket
@@ -464,7 +471,6 @@ provider_slugs:
 - kuma
 - google-recaptcha
 - gray-swan
-- hacware
 - signal
 - rapid7
 - cakewalk
@@ -476,32 +482,34 @@ provider_slugs:
 - spire
 - cynet
 - symantec
+- viso-trust-protecht
 - veza
+- beyondtrust
 - wallarm
 - proofpoint
 - pulse
 - spycloud
-- viso-trust-protecht
 - apache-knox
 - balbix
 - scanner
 - soveren
+- bmcxiv-com
+- spyderbat
 - stream-security
 - silent-push
-- spyderbat
 - sublime-security
-- beyondtrust
 - immersive-labs
 - nudge-security
 - opensearch
 - certifid
 - eagle-eye-networks
-- netskope
 - stackrox
+- vigil-wtf
 - mcafee
 - onlinenic
 - mondoo
 - sophos
+- anvilogic
 - ciphertrust
 - pangea
 - spring-security
@@ -509,17 +517,16 @@ provider_slugs:
 - akamai-api-security
 - hush-security
 - strata-identity
+- arcjet
+- vgs
 - kyverno
 - urbanfox
 - bot-butcher
 - netbird
 - capy-inc
 - preveil
-- arcjet
 - cybersecurity-and-infrastructure-security-agency
 - linkerd
-- vgs
-- bmcxiv-com
 - google-beyondcorp
 - nvd
 - falco
@@ -544,13 +551,14 @@ provider_slugs:
 - securonix
 - blindinsight
 - nucleus-security
+- sigstore
 - bitwarden
 - ipregistry
 - koi-security
 - echomark
 - watchtowr
-- sigstore
 - cert-manager
+- intezer
 - ubuntu
 - exabeam
 - trivy
@@ -560,12 +568,15 @@ provider_slugs:
 - nevis
 - blowfish
 - openssf
+- heeler
 - vault12
 - runlayer
 - truebiz
 - clumio
 - codacy
 - microsoft-intune
+- mirrortab
+- anydesk
 - escape
 - hvault
 - keyfactor
@@ -573,10 +584,7 @@ provider_slugs:
 - truevault
 - passbolt
 - safeline
-- anvilogic
 - virsec
-- mirrortab
-- anydesk
 - apache-ranger
 - sgnl
 - seventh-sense
@@ -584,6 +592,7 @@ provider_slugs:
 - elonsusk-com
 - lumen-technologies
 - confidential-computing-consortium
+- vpn
 - virgil-security
 - forcepoint
 - movius
@@ -592,7 +601,6 @@ provider_slugs:
 - bitsight
 - prisma-cloud
 - tessian
-- vpn
 - doppler
 - certora
 - illumio
@@ -600,7 +608,6 @@ provider_slugs:
 - prompt-armor
 - aws-security-hub
 - hypernative
-- intezer
 - endor-labs
 - armorcode
 - assembla
@@ -608,6 +615,7 @@ provider_slugs:
 - versa-networks
 - anzenna
 - protectai
+- netskope
 - caplinked
 - tensor9
 - perimeterx
@@ -615,6 +623,7 @@ provider_slugs:
 - uptycs
 - code-42
 - theta-lake
+- evebrief-org
 - ipbase
 - styra
 - nebulock
@@ -630,15 +639,15 @@ provider_slugs:
 - deepip
 - arkose-labs
 - secret-double-octopus
+- datatheorem
 - f5-distributed-cloud-services
 - reality-defender
 - marco-polo
+- mendral
 - cato-networks
-- heeler
 - passbase
 - apache-shiro
 - in-toto
-- evebrief-org
 - splashtop
 - tuf
 - tolmo
@@ -646,14 +655,14 @@ provider_slugs:
 - apiwiz
 - raid-ai
 - valtix
-- blocksec
 - esentire
+- webroot
 - silverfort
 - todyl
 - armis
 - appaegis
 - bridgecrew
-- webroot
+- blocksec
 - mitiga
 - zero-trust-security-model
 - odaseva
@@ -668,9 +677,9 @@ provider_slugs:
 - anitian
 - txone-networks
 - attackiq
-- mendral
 - quadrant-api
 - unisys
+- brivo
 - lastline
 - api-dynamics
 - brinks
@@ -678,6 +687,7 @@ provider_slugs:
 - sops
 - alienvault
 - opnsense
+- segura-security
 - nebula-security
 - lets-encrypt
 - imprivata
@@ -689,35 +699,36 @@ provider_slugs:
 - keybase
 - anonyome-labs
 - resurface
+- behavox
+- ontic
 - breachlock
 - halborn
 - seezo
 - arbor-networks
-- ontic
 - shotspotter
 - brinqa
 - sentinelone
 - ca
+- knoxsystems
 - privado
 - risk-ledger
-- vigil-wtf
 - wireshark
 - 7ai
 - carbide
+- crogl
+- arthur-j-gallagher
 - authentic8
 - appviewx
 - cygnvs
 - upstream-security
 - fxlabs
-- arthur-j-gallagher
 - qi-anxin
 - linx-security
-- behavox
+- networkcalc
 - intego
 - zeroeyes
 - carbon-black
 - kenna-security
-- networkcalc
 - strongkeep
 - distroless
 - echo
@@ -731,24 +742,26 @@ provider_slugs:
 - material-security
 - sonrai-security
 - zafran-security
-- datatheorem
-- adyton
 - alkira
+- owasp
+- adyton
 - astelia
 - feroot
-- attivo-networks-sentinelone
 - frame-security
+- apiiroltd
+- actualyzeai
+- attivo-networks-sentinelone
 - pindrop-security
 - second-front-systems
-- knoxsystems
-- apiiroltd
+- prized
 - orca-security
+- blocks
 - anomali
 - ardent-privacy
 - code4rena
-- crogl
 - cartography
 - copa
+- countertack
 - mandiant
 - astrix-security
 - belfry
@@ -757,22 +770,21 @@ provider_slugs:
 - dropzone-ai
 - venice
 - zip-security
-- countertack
 - chui
 - orionsec
 - anjuna
+- automox
 - securitypal
 - native-security
 - oasis-security
 - grype
+- skopenow
 - xage
 - firemon
 - newcore
 - athena-security
-- automox
 - menlo
 - runsybil
-- skopenow
 - dtexsystems
 - humio
 - spirl
@@ -780,6 +792,7 @@ provider_slugs:
 - clearvector
 - aceiss
 - banyan-security
+- cloudbrink
 - cloaked
 - depthfirst
 - complyance
@@ -802,16 +815,16 @@ provider_slugs:
 - scytale
 - abstract-security
 - biocatch
+- cloudbrinkinc
 - lightbeam-ai
 - exaforce
 - nsknox
 - legion
 - sprinto
-- actualyzeai
 - command-zero
 - rbac
+- cobalt-robotics
 - twingate
-- owasp
 - prophet-security
 - kriptos
 - processbolt
@@ -828,6 +841,7 @@ provider_slugs:
 - exein
 - allcloud
 - qiz-security
+- siemonster
 - authmind
 - enclave
 - redaccess
@@ -836,8 +850,8 @@ provider_slugs:
 - flashpoint
 - outtake
 - pentera
+- perf-ai
 - lastpass
-- siemonster
 - taai-labs-inc
 - observeit-proofpoint
 - artificial-intelligence-underwriting-company
@@ -845,10 +859,8 @@ provider_slugs:
 - hidden-level
 - api-insights
 - averlon
-- perf-ai
-- prized
+- tugboat-logic
 - reken
-- blocks
 - lupin-and-holmes
 - noname-security
 - straiker
@@ -856,15 +868,18 @@ provider_slugs:
 - asilla
 - mate-security
 - qualys
-- tugboat-logic
+- beekeeperai
 - calvis
 - arconnet
+- iovation
+- apex
 - verint-systems
 - concentric-ai
 - aurascape
 - remedio
+- fortune-brands-innovations
+- kratos-defense-and-security-solutions
 - presidio
-- iovation
 - moksa-ai
 - fabrix
 - ohalo
@@ -872,10 +887,9 @@ provider_slugs:
 - codesecure
 - keyme
 - laelaps-ai
-- fortune-brands-innovations
-- kratos-defense-and-security-solutions
 - prosimo
 - authy
+- clearballotgroupinc
 - aizome
 - oligo
 - armadin
@@ -885,38 +899,40 @@ provider_slugs:
 - atsg
 - verisign
 - post-quantum
+- chainalysis123
 - lassen-peak
 - dune-security
 - protectt-ai
 - lucidum
 - arti-analytics
+- oak
 - skysafe
 - autonomous-cyber
+- closure
 - loginradius
 - owlr
 - corvus-insurance
 - effectiv
-- oak
 - artemissecurity
 - beesafe-ai
-- closure
 - cylake
 - witness-ai
 - privacy-com
+- a-security
+- cloudburst-technologies
 - united-states-capitol-police
 - above
 - tenzai
 - ostra-security
 - ebpf
-- a-security
 - dream
-- analysis
 - nodal-industries
 - asignio
 - hackerone
 - arcsight
 - osseus
 - quantstamp
+- sonus
 - complete-criminal-checks
 - microsoft-security-response-center-msrc
 - pulsedive
@@ -927,9 +943,9 @@ provider_slugs:
 - mousecat
 - inauth-american-express
 - sec3
+- clearcam
 - iplogs
 - pci-compliance
-- sonus
 - fraudlabs-pro
 - area-1-security
 - shape-security
@@ -949,9 +965,12 @@ provider_slugs:
 - bannerman
 - antigen
 - hidden-layer
+- cloudmosa
 - ebpf-foundation
 - bedrock-systems
 - kovrai
+- federal-protective-service
+- scytl
 - astra-security
 - behaviosec
 - binaryedge
@@ -959,12 +978,14 @@ provider_slugs:
 - spyse
 - trace-data
 - zengo
+- cogent-security
 - national-security-agency
 - aireye
-- federal-protective-service
+- terra-industries
+- trustai
+- filterlists
 - palerra
 - tripwire
-- scytl
 - application-environment-verification
 - botd
 - intelligence-x
@@ -999,37 +1020,32 @@ provider_slugs:
 - evolv-technology
 - hashable
 - observo
-- terra-industries
-- trustai
 - classify
-- filterlists
 - riskiq
+- clanztechnologies
+- nok-nok-labs
 - ocra
+- protent
 - rsi-video-technologies
 - secure-by-design
+- zimperium
 - anxiatechnology
-- beekeeperai
 - botguard
 - privacy-by-design
 - lightcyber
 - secure-by-default
 - crane
 - fraugster
-- apex
-- authentication
 - bromium
 - ciphercloud
-- nok-nok-labs
 - octarine
 - oneasp
 - paragon-solutions
-- protent
 - reveal-imaging
 - soha-systems
 - stabilitas
 - thistle-technologies
 - uroam
-- zimperium
 - isight-security
 - gem
 - bitkey
@@ -1039,10 +1055,10 @@ provider_slugs:
 - secops
 - security-standards-and-procedures
 - security-by-design
+- barracuda-networks
 - dehash-lt
 - sansa-security
 - shieldx-fortinet
-- barracuda-networks
 - security-md
 - aiignore
 - aim-security

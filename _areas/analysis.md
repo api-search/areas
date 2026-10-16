@@ -6,14 +6,14 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://analysis.apievangelist.com
 area_host: analysis.apievangelist.com
 icon: https://analysis.apievangelist.com/icon-thumb.png
-provider_count: 8
+provider_count: 7
 providers:
 - slug: new-relic
   name: New Relic
   description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain real‑time visibility into cloud costs, multi‑cloud and Kuberne…
   api_count: 5
   score_band: exemplar
-  score_composite: 72.3
+  score_composite: 74.4
   shared: 1
 - slug: tago-io
   name: TagoIO
@@ -41,7 +41,7 @@ providers:
   description: Domo is a cloud-based software company that specializes in providing business intelligence tools for organizations. Their platform allows businesses to gather, analyze, and visualize data from various sources in order to make more informed decisions. Domo helps companies streamline their data manag…
   api_count: 1
   score_band: emerging
-  score_composite: 13.7
+  score_composite: 14.1
   shared: 1
 - slug: lf-research
   name: LF Research
@@ -57,13 +57,6 @@ providers:
   score_band: emerging
   score_composite: 11.3
   shared: 1
-- slug: analysis
-  name: Analysis
-  description: A curated index of services, tooling, and open source solutions for API analysis, analytics, linting, traffic inspection, and intelligence. This topic collection covers the full spectrum of API observability — from real-time traffic capture and replay (Wireshark, mitmproxy, Charles Proxy, GoReplay)…
-  api_count: 0
-  score_band: minimal
-  score_composite: 6.5
-  shared: 1
 provider_slugs:
 - new-relic
 - tago-io
@@ -72,7 +65,6 @@ provider_slugs:
 - domo
 - lf-research
 - api-insights
-- analysis
 related:
 - slug: monitoring
   name: Monitoring
@@ -89,7 +81,7 @@ related:
 overview: 'Analysis is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [analysis.apievangelist.com](https://analysis.apievangelist.com).
 
 
-  8 providers on the network work in this area, including New Relic, TagoIO, DSG Sports Analytics, Lumafield, Domo, LF Research, and 2 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  7 providers on the network work in this area, including New Relic, TagoIO, DSG Sports Analytics, Lumafield, Domo, LF Research, and 1 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monitoring, Observability, Performance, and Visualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'

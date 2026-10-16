@@ -13,14 +13,14 @@ providers:
   description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
   api_count: 6
   score_band: exemplar
-  score_composite: 79.1
+  score_composite: 79.8
   shared: 1
 - slug: elastic
   name: Elastic
   description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
   api_count: 4
   score_band: exemplar
-  score_composite: 74.2
+  score_composite: 77.3
   shared: 1
 - slug: power-bi
   name: Power BI
@@ -75,8 +75,15 @@ providers:
   name: Zoho Analytics
   description: Zoho Analytics is a business intelligence and self-service analytics platform that provides a REST API for managing workspaces, views, reports, dashboards, data import and export, and sharing analytics content. The API enables ISVs, developers, and system integrators to embed powerful reporting and…
   api_count: 7
+  score_band: developing
+  score_composite: 40.7
+  shared: 1
+- slug: windy
+  name: Windy
+  description: Windy.com is a weather visualization platform serving high-resolution forecast models, animated weather maps, and a global webcam network. The Windy API exposes three developer products - a Point Forecast API for multi-model numerical weather data at a coordinate, an embeddable Map Forecast API bas…
+  api_count: 1
   score_band: thin
-  score_composite: 39.1
+  score_composite: 34.8
   shared: 1
 - slug: kibana
   name: Kibana
@@ -84,13 +91,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 34.6
-  shared: 1
-- slug: windy
-  name: Windy
-  description: Windy.com is a weather visualization platform serving high-resolution forecast models, animated weather maps, and a global webcam network. The Windy API exposes three developer products - a Point Forecast API for multi-model numerical weather data at a coordinate, an embeddable Map Forecast API bas…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.4
   shared: 1
 - slug: lucidchart
   name: Lucidchart
@@ -153,7 +153,7 @@ providers:
   description: Domo is a cloud-based software company that specializes in providing business intelligence tools for organizations. Their platform allows businesses to gather, analyze, and visualize data from various sources in order to make more informed decisions. Domo helps companies streamline their data manag…
   api_count: 1
   score_band: emerging
-  score_composite: 13.7
+  score_composite: 14.1
   shared: 1
 - slug: sira-medical
   name: Sira Medical
@@ -176,19 +176,19 @@ providers:
   score_band: minimal
   score_composite: 10.2
   shared: 1
+- slug: all3d
+  name: All3D
+  description: ALL3D, Inc. is a San Francisco AI-powered visual content platform that replaces traditional product photography for ecommerce brands and agencies. Users upload a product photo and its real-world dimensions, build a scene from inspiration images and props, and generate 4K studio and lifestyle images…
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.7
+  shared: 1
 - slug: flowcharts
   name: Flowcharts
   description: Flowcharts are a visual modeling technique used across software engineering, systems analysis, business process design, and education to depict the steps, decisions, and flow of a process or algorithm. Within an API context, flowcharts are used to model workflows, integration patterns, retry logic,…
   api_count: 0
   score_band: minimal
   score_composite: 4.4
-  shared: 1
-- slug: all3d
-  name: All3D
-  description: ALL3D, Inc. is a San Francisco AI-powered visual content platform that replaces traditional product photography for ecommerce brands and agencies. Users upload a product photo and its real-world dimensions, build a scene from inspiration images and props, and generate 4K studio and lifestyle images…
-  api_count: 0
-  score_band: minimal
-  score_composite: 4.0
   shared: 1
 - slug: planby-technologies-inc
   name: Planby Technologies
@@ -229,8 +229,8 @@ provider_slugs:
 - google-data-studio
 - napkin
 - zoho-analytics
-- kibana
 - windy
+- kibana
 - lucidchart
 - apache-zeppelin
 - qlik-cloud
@@ -243,8 +243,8 @@ provider_slugs:
 - sira-medical
 - qbiq
 - brelyon
-- flowcharts
 - all3d
+- flowcharts
 - planby-technologies-inc
 - bloom9
 - gantt-charts
@@ -263,11 +263,11 @@ related:
 - slug: design
   name: Design
   shared: 1
+- slug: logging
+  name: Logging
+  shared: 1
 - slug: observability
   name: Observability
-  shared: 1
-- slug: security
-  name: Security
   shared: 1
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 

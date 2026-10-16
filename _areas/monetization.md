@@ -6,12 +6,12 @@ description: 'An index and topic collection covering API and SaaS monetization p
 area_url: https://monetization.apievangelist.com
 area_host: monetization.apievangelist.com
 icon: https://monetization.apievangelist.com/icon-thumb.png
-provider_count: 71
+provider_count: 69
 providers:
 - slug: drippay
   name: Drippay
   description: 'Drippay, Inc. is a Y Combinator company (YC P26) that operates two connected products. dreach — renamed from drip in 2026, with usedrip.ai now redirecting to dreach.ai — is a local-first Mac app for staffing, recruiting and executive search firms: an Opportunity Radar that watches hiring demand and…'
-  api_count: 1
+  api_count: 2
   score_band: exemplar
   score_composite: 72.0
   shared: 1
@@ -20,21 +20,28 @@ providers:
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 5
   score_band: exemplar
-  score_composite: 70.8
+  score_composite: 70.2
   shared: 1
 - slug: moesif
   name: Moesif
   description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
-  api_count: 2
+  api_count: 4
   score_band: exemplar
-  score_composite: 66.9
+  score_composite: 69.3
   shared: 1
 - slug: tyk
   name: Tyk
   description: Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.
   api_count: 4
   score_band: strong
-  score_composite: 64.0
+  score_composite: 66.1
+  shared: 1
+- slug: netcracker
+  name: Netcracker
+  description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
+  api_count: 4
+  score_band: strong
+  score_composite: 62.3
   shared: 1
 - slug: appcharge
   name: Appcharge
@@ -57,12 +64,12 @@ providers:
   score_band: strong
   score_composite: 60.7
   shared: 1
-- slug: netcracker
-  name: Netcracker
-  description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
-  api_count: 4
+- slug: viglink
+  name: VigLink (Sovrn Commerce)
+  description: VigLink pioneered automatic affiliate link monetization for publishers, turning ordinary product links into revenue-generating affiliate links across a network of tens of thousands of merchants. Founded in 2009 and backed by investors including Uncork Capital, VigLink was acquired by Sovrn in early…
+  api_count: 8
   score_band: strong
-  score_composite: 57.4
+  score_composite: 58.5
   shared: 1
 - slug: paid
   name: Paid
@@ -70,13 +77,6 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 56.8
-  shared: 1
-- slug: viglink
-  name: VigLink (Sovrn Commerce)
-  description: VigLink pioneered automatic affiliate link monetization for publishers, turning ordinary product links into revenue-generating affiliate links across a network of tens of thousands of merchants. Founded in 2009 and backed by investors including Uncork Capital, VigLink was acquired by Sovrn in early…
-  api_count: 8
-  score_band: strong
-  score_composite: 56.4
   shared: 1
 - slug: apiable
   name: Apiable
@@ -144,7 +144,7 @@ providers:
 - slug: streamelements
   name: StreamElements
   description: StreamElements is a cloud-based platform for live streamers and content creators on Twitch, YouTube, Kick and Facebook, offering 100% free customizable overlays and alerts, a chatbot, tipping and donations, loyalty points, giveaways and contests, song requests, a media/merch store, brand sponsorshi…
-  api_count: 1
+  api_count: 2
   score_band: developing
   score_composite: 43.8
   shared: 1
@@ -181,7 +181,7 @@ providers:
   description: Rad TV (Rad.) is a two-sided subscription video platform connecting content creators with consumers. For creators it offers AI-powered content enhancement tools — video upscaling to 4K/8K (Real-ESRGAN/ESPCN), stereo-to-surround audio upmixing, multilingual AI subtitling in 40+ languages, and viral…
   api_count: 1
   score_band: thin
-  score_composite: 37.5
+  score_composite: 38.0
   shared: 1
 - slug: jeeng
   name: Jeeng
@@ -223,12 +223,12 @@ provider_slugs:
 - apigee
 - moesif
 - tyk
+- netcracker
 - appcharge
 - zype
 - solvimon
-- netcracker
-- paid
 - viglink
+- paid
 - apiable
 - coda-payments
 - monetizenow
@@ -249,11 +249,10 @@ provider_slugs:
 - pollfish
 - pokkt
 - kevel
+- acast
 - polar-sh
 - madvertise
-- acast
 - koah-labs
-- api-market
 - google-adsense
 - adcolony
 - frvr
@@ -273,7 +272,6 @@ provider_slugs:
 - blue-wire
 - audiomob
 - favorited
-- monetization
 - art19
 - beacons
 - jetapult
@@ -303,16 +301,16 @@ related:
 - slug: finops
   name: FinOps
   shared: 2
+- slug: observability
+  name: Observability
+  shared: 2
 - slug: developer-experience
   name: Developer Experience
-  shared: 1
-- slug: microservices
-  name: Microservices
   shared: 1
 overview: 'Monetization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monetization.apievangelist.com](https://monetization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Drippay, Apigee, Moesif, Tyk, Appcharge, Zype, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Drippay, Apigee, Moesif, Tyk, Netcracker, Appcharge, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Management, Portal, Gateway, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'

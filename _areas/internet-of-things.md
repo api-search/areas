@@ -11,16 +11,16 @@ providers:
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
-  api_count: 5
+  api_count: 6
   score_band: strong
   score_composite: 65.0
   shared: 1
 - slug: spectrumoutage-api
   name: SpectrumOutage API
   description: Community-powered REST API for live Spectrum internet, TV, and phone outage data across the United States, published by SpectrumOutage.us — an independent outage tracker with no affiliation to Charter Communications or Spectrum. The v1 API exposes eight operations over crowdsourced outage reports:…
-  api_count: 2
+  api_count: 4
   score_band: developing
-  score_composite: 47.6
+  score_composite: 48.6
   shared: 1
 - slug: comcast
   name: Comcast
@@ -76,7 +76,14 @@ providers:
   description: Cablevision Systems was a U.S. cable television company that provided telecommunications and television services (Optimum TV, Optimum Online, Optimum Voice) in the New York metropolitan area. It was acquired by Altice in 2016 and now operates as part of Altice USA under the Optimum consumer brand.
   api_count: 0
   score_band: minimal
-  score_composite: 4.2
+  score_composite: 4.7
+  shared: 1
+- slug: wiom
+  name: Wiom
+  description: 'Wiom is an Indian consumer internet company offering recharge-based home broadband: shared WiFi delivered over a community mesh network so households can pay only for the internet they actually use, without a mobile-data plan or a traditional fixed-line broadband contract. It was surfaced into the…'
+  api_count: 0
+  score_band: minimal
+  score_composite: 3.0
   shared: 1
 - slug: iac-interactivecorp
   name: IAC/InterActiveCorp
@@ -88,13 +95,6 @@ providers:
 - slug: masmovil
   name: Masmovil
   description: Masmovil (MasMovil Group) is a Spanish telecommunications operator providing mobile, fiber optic internet, and fixed-line services to consumers and businesses across Spain, with bundled fiber-plus-mobile packages, device sales, roaming, and international calling. The group operates a family of cons…
-  api_count: 0
-  score_band: minimal
-  score_composite: 2.5
-  shared: 1
-- slug: wiom
-  name: Wiom
-  description: 'Wiom is an Indian consumer internet company offering recharge-based home broadband: shared WiFi delivered over a community mesh network so households can pay only for the internet they actually use, without a mobile-data plan or a traditional fixed-line broadband contract. It was surfaced into the…'
   api_count: 0
   score_band: minimal
   score_composite: 2.5
@@ -117,9 +117,9 @@ provider_slugs:
 - andrena
 - cogent-communications
 - cablevision-systems
+- wiom
 - iac-interactivecorp
 - masmovil
-- wiom
 - sockeye-networks
 related:
 - slug: search

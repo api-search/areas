@@ -6,7 +6,7 @@ description: 'An index and topic collection covering software licensing APIs acr
 area_url: https://licensing.apievangelist.com
 area_host: licensing.apievangelist.com
 icon: https://licensing.apievangelist.com/icon-thumb.png
-provider_count: 39
+provider_count: 38
 providers:
 - slug: replicated
   name: Replicated
@@ -95,7 +95,7 @@ providers:
 - slug: fossology
   name: FOSSology
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations through automated scanning, human clearing workflows, and SP…
-  api_count: 1
+  api_count: 2
   score_band: thin
   score_composite: 35.5
   shared: 1
@@ -109,7 +109,7 @@ providers:
 - slug: story-protocol
   name: Story Protocol
   description: Story Protocol is a purpose-built EVM Layer 1 blockchain for onchain intellectual property (the "IP blockchain"), powered by Proof of Creativity, built by Pip Labs and backed by a16z. Its public REST API (api.storyapis.com) is a read-only indexer that exposes IP assets, collections, license terms,…
-  api_count: 1
+  api_count: 2
   score_band: thin
   score_composite: 27.4
   shared: 1
@@ -160,7 +160,7 @@ providers:
   description: Merlin is a global digital music licensing organization that represents independent music companies, providing them access to licensing deals, tools, and data insights. It operates a membership platform called Wizard, offers technology solutions, and publishes reports and industry insights to suppo…
   api_count: 1
   score_band: emerging
-  score_composite: 15.1
+  score_composite: 15.5
   shared: 1
 - slug: aceable
   name: Aceable
@@ -209,14 +209,14 @@ providers:
   description: Payna is a compliance operating system for financial licensing that automates applications, renewals, maintenance, and monitoring across all 50 US states and jurisdictions. It tracks state statutes, NMLS procedures, and FinCEN requirements in real time, calculates filing deadlines backward from due…
   api_count: 0
   score_band: minimal
-  score_composite: 9.7
+  score_composite: 10.2
   shared: 1
-- slug: licensing
-  name: Licensing
-  description: 'An index and topic collection covering software licensing APIs across two intersecting domains: open-source license metadata and code-license detection (SPDX, OSI license list, ChooseALicense, FOSSology, ScanCode, ClearlyDefined, the GitHub License API, and Software Composition Analysis tooling fro…'
+- slug: bmi
+  name: BMI
+  description: Broadcast Music, Inc. (BMI) is the largest performing rights organization in the United States, representing songwriters, composers and music publishers. It collects and distributes royalties for public performances of music, offers licensing services to businesses, and provides resources, advocacy…
   api_count: 0
   score_band: minimal
-  score_composite: 9.5
+  score_composite: 9.8
   shared: 1
 provider_slugs:
 - replicated
@@ -248,7 +248,6 @@ provider_slugs:
 - universal-music-group
 - spdx
 - payna
-- licensing
 - bmi
 - kaizen-labs
 - filmtrack

@@ -13,7 +13,7 @@ providers:
   description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11), the self-managed/PaaS platform, and OutSystems Developer Clo…
   api_count: 14
   score_band: exemplar
-  score_composite: 75.8
+  score_composite: 81.2
   shared: 1
 - slug: laravel
   name: Laravel
@@ -29,6 +29,13 @@ providers:
   score_band: exemplar
   score_composite: 66.5
   shared: 1
+- slug: mendix
+  name: Mendix
+  description: Mendix, a Siemens company, is an enterprise low-code application development platform for designing, building, deploying, and operating multi-experience applications across web, mobile, and conversational interfaces. The platform spans Studio Pro modeling, the Mendix Cloud and private cloud runtime…
+  api_count: 2
+  score_band: strong
+  score_composite: 64.1
+  shared: 1
 - slug: koyeb
   name: Koyeb
   description: Koyeb is a developer-friendly serverless platform for deploying applications, Postgres databases, GPU workloads and isolated code-execution sandboxes across a global edge network. The Koyeb REST API is a Swagger 2.0 contract generated from protobuf services by grpc-gateway — 126 paths, 177 operatio…
@@ -39,7 +46,7 @@ providers:
 - slug: raygun
   name: Raygun
   description: Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.ra…
-  api_count: 1
+  api_count: 2
   score_band: strong
   score_composite: 61.6
   shared: 1
@@ -71,13 +78,6 @@ providers:
   score_band: strong
   score_composite: 58.4
   shared: 1
-- slug: mendix
-  name: Mendix
-  description: Mendix, a Siemens company, is an enterprise low-code application development platform for designing, building, deploying, and operating multi-experience applications across web, mobile, and conversational interfaces. The platform spans Studio Pro modeling, the Mendix Cloud and private cloud runtime…
-  api_count: 2
-  score_band: strong
-  score_composite: 57.7
-  shared: 1
 - slug: amazon-codedeploy
   name: Amazon CodeDeploy
   description: AWS CodeDeploy is a fully managed deployment service that automates software deployments to various compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and on-premises servers. CodeDeploy makes it easier to rapidly release new features, helps avoid downtime during application deployment,…
@@ -90,7 +90,7 @@ providers:
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
   api_count: 16
   score_band: strong
-  score_composite: 56.0
+  score_composite: 56.6
   shared: 1
 - slug: nuon
   name: Nuon
@@ -99,10 +99,17 @@ providers:
   score_band: strong
   score_composite: 55.8
   shared: 1
+- slug: agentuity
+  name: Agentuity
+  description: Agentuity is a full-stack cloud platform for building, deploying, and operating AI agents and the framework apps around them. Developers keep their existing framework (Next.js, Hono, React Router, SvelteKit, Nuxt, Astro, Vite React, TanStack Start) and attach Agentuity service clients for key-value…
+  api_count: 1
+  score_band: strong
+  score_composite: 55.6
+  shared: 1
 - slug: release
   name: Release
   description: Release is a developer-tools platform that provisions on-demand, full-stack ephemeral environments inside your own AWS or GCP cloud accounts. Positioned as a Heroku replacement and a Vercel alternative for full-stack apps, Release turns a repository plus a .release.yaml (or Docker Compose) file int…
-  api_count: 1
+  api_count: 2
   score_band: developing
   score_composite: 52.6
   shared: 1
@@ -112,13 +119,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.0
-  shared: 1
-- slug: agentuity
-  name: Agentuity
-  description: Agentuity is a full-stack cloud platform for building, deploying, and operating AI agents and the framework apps around them. Developers keep their existing framework (Next.js, Hono, React Router, SvelteKit, Nuxt, Astro, Vite React, TanStack Start) and attach Agentuity service clients for key-value…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.9
   shared: 1
 - slug: microsoft-azure-pipelines
   name: Azure Pipelines
@@ -186,7 +186,7 @@ providers:
 - slug: terminal-use
   name: Terminal Use
   description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
-  api_count: 1
+  api_count: 2
   score_band: developing
   score_composite: 41.4
   shared: 1
@@ -200,16 +200,16 @@ providers:
 - slug: bentoml
   name: BentoML
   description: BentoML is an open-source unified inference platform for building, packaging, and deploying machine learning models as scalable REST API services. Developers define services using Python class decorators that automatically expose model inference logic as HTTP endpoints. BentoCloud, the managed clou…
-  api_count: 1
+  api_count: 2
   score_band: developing
   score_composite: 40.9
   shared: 1
 - slug: vellum
   name: Vellum AI
   description: Vellum AI is an LLM development platform that helps product and engineering teams build, evaluate, deploy, and monitor LLM-powered applications. The platform centers on prompt engineering, a visual Workflows builder for agentic and multi-step pipelines, evaluation suites with dataset management, re…
-  api_count: 1
+  api_count: 2
   score_band: developing
-  score_composite: 40.9
+  score_composite: 40.7
   shared: 1
 - slug: spocket
   name: Spocket
@@ -222,19 +222,19 @@ provider_slugs:
 - outsystems
 - laravel
 - databricks-asset-bundles
+- mendix
 - koyeb
 - raygun
 - upsun
 - vercel
 - aptible
 - platform.sh
-- mendix
 - amazon-codedeploy
 - aws-app-runner
 - nuon
+- agentuity
 - release
 - render
-- agentuity
 - microsoft-azure-pipelines
 - kubernetes
 - codesphere
@@ -259,6 +259,7 @@ provider_slugs:
 - fly-io
 - flightcontrol
 - sevalla
+- serverless
 - shorebird
 - humanitec
 - baseten
@@ -276,7 +277,6 @@ provider_slugs:
 - harpoon
 - dokku
 - kitura
-- deployment
 - operation-support-equipment
 - devfast
 - distelli
@@ -288,7 +288,7 @@ related:
   shared: 5
 - slug: serverless
   name: Serverless
-  shared: 3
+  shared: 4
 - slug: gateway
   name: Gateway
   shared: 2
@@ -304,7 +304,7 @@ related:
 overview: 'Deployment is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deployment.apievangelist.com](https://deployment.apievangelist.com).
 
 
-  30 providers on the network work in this area, including OutSystems, Laravel, Databricks Asset Bundles, Koyeb, Raygun, Upsun, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including OutSystems, Laravel, Databricks Asset Bundles, Mendix, Koyeb, Raygun, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, Serverless, Gateway, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,21 +6,21 @@ description: An index of container runtime, orchestration, registry, security, a
 area_url: https://containers.apievangelist.com
 area_host: containers.apievangelist.com
 icon: https://containers.apievangelist.com/icon-thumb.png
-provider_count: 133
+provider_count: 132
 providers:
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 25
-  score_band: exemplar
-  score_composite: 80.6
-  shared: 1
 - slug: canonical
   name: Canonical
   description: Canonical is the company behind Ubuntu, the world's most popular open source operating system for cloud, servers, desktops, IoT, and Kubernetes. Canonical publishes a broad set of developer APIs spanning the Ubuntu and Canonical ecosystem — the Snap Store and Snapcraft, the Charmhub charm marketpla…
   api_count: 13
   score_band: exemplar
-  score_composite: 76.3
+  score_composite: 81.8
+  shared: 1
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 26
+  score_band: exemplar
+  score_composite: 81.3
   shared: 1
 - slug: amazon-lightsail
   name: Amazon Lightsail
@@ -36,19 +36,12 @@ providers:
   score_band: exemplar
   score_composite: 73.5
   shared: 1
-- slug: red-hat
-  name: Red Hat
-  description: Red Hat provides a comprehensive suite of enterprise open source solutions, offering APIs and developer resources across Linux operating systems, cloud platforms, container technologies, and Kubernetes orchestration. Their offerings enable organizations to manage subscriptions, advanced cluster man…
-  api_count: 6
-  score_band: exemplar
-  score_composite: 70.6
-  shared: 1
 - slug: ibm
   name: IBM
   description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and governance in the AI era. The company targets organizations s…
   api_count: 1
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 71.3
   shared: 1
 - slug: calico
   name: Calico
@@ -64,6 +57,13 @@ providers:
   score_band: strong
   score_composite: 65.7
   shared: 1
+- slug: red-hat
+  name: Red Hat
+  description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
+  api_count: 6
+  score_band: strong
+  score_composite: 65.1
+  shared: 1
 - slug: koyeb
   name: Koyeb
   description: Koyeb is a developer-friendly serverless platform for deploying applications, Postgres databases, GPU workloads and isolated code-execution sandboxes across a global edge network. The Koyeb REST API is a Swagger 2.0 contract generated from protobuf services by grpc-gateway — 126 paths, 177 operatio…
@@ -77,6 +77,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 62.6
+  shared: 1
+- slug: portainer
+  name: Portainer
+  description: Portainer provides a centralized multi‑cluster management platform for Kubernetes, Docker, Swarm and Podman workloads. It offers enterprise identity and access features such as SSO, LDAP and OIDC, as well as GitOps deployment workflows and self‑service guardrails. The product is aimed at engineerin…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.1
   shared: 1
 - slug: jfrog-container-registry
   name: JFrog Container Registry
@@ -130,7 +137,7 @@ providers:
 - slug: seqera-labs
   name: Seqera Labs
   description: Seqera (Seqera Labs) builds open, cloud-based software for scientific data analysis at scale. It is the company behind Nextflow, the widely adopted open-source workflow orchestration engine, and the Seqera Platform (formerly Nextflow Tower) for launching, monitoring, and governing data pipelines ac…
-  api_count: 1
+  api_count: 2
   score_band: strong
   score_composite: 57.3
   shared: 1
@@ -141,6 +148,13 @@ providers:
   score_band: strong
   score_composite: 57.0
   shared: 1
+- slug: aws-app-runner
+  name: AWS App Runner
+  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
+  api_count: 16
+  score_band: strong
+  score_composite: 56.6
+  shared: 1
 - slug: tensordock
   name: TensorDock
   description: TensorDock operates a global GPU cloud marketplace that connects independent hardware hosts with customers needing affordable on-demand and spot GPU compute. The platform exposes two REST APIs — the original Marketplace API (v0) at marketplace.tensordock.com and the newer Instances API (v2) at dash…
@@ -148,31 +162,17 @@ providers:
   score_band: strong
   score_composite: 56.5
   shared: 1
-- slug: aws-app-runner
-  name: AWS App Runner
-  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
-  api_count: 16
-  score_band: strong
-  score_composite: 56.0
-  shared: 1
-- slug: portainer
-  name: Portainer
-  description: Portainer provides a centralized multi‑cluster management platform for Kubernetes, Docker, Swarm and Podman workloads. It offers enterprise identity and access features such as SSO, LDAP and OIDC, as well as GitOps deployment workflows and self‑service guardrails. The product is aimed at engineerin…
-  api_count: 1
-  score_band: developing
-  score_composite: 54.1
-  shared: 1
 - slug: azure-container-instances
   name: Azure Container Instances
   description: Azure Container Instances (ACI) is the fastest and simplest way to run containers in Azure without having to manage virtual machines or adopt a higher-level orchestration service. It offers serverless containers with per-second billing, custom sizes, and seamless integration with the Azure ecosyste…
-  api_count: 1
+  api_count: 2
   score_band: developing
   score_composite: 53.4
   shared: 1
 - slug: scaleway
   name: Scaleway
   description: Scaleway is a European cloud provider offering a full suite of compute, storage, networking, AI, and serverless infrastructure services. Scaleway provides a comprehensive REST API for programmatic management of all cloud resources including Instances, Kubernetes clusters (Kapsule and Kosmos), manag…
-  api_count: 10
+  api_count: 12
   score_band: developing
   score_composite: 52.2
   shared: 1
@@ -200,7 +200,7 @@ providers:
 - slug: azure-container-registry
   name: Azure Container Registry
   description: Azure Container Registry is a managed Docker registry service based on the open-source Docker Registry for storing and managing private container images and artifacts. It supports automated container image builds, geo-replication, and integrates with Azure Kubernetes Service and other Azure deploym…
-  api_count: 1
+  api_count: 2
   score_band: developing
   score_composite: 50.9
   shared: 1
@@ -219,16 +219,17 @@ providers:
   score_composite: 49.5
   shared: 1
 provider_slugs:
-- cloudflare
 - canonical
+- cloudflare
 - amazon-lightsail
 - microsoft-azure-kubernetes-service
-- red-hat
 - ibm
 - calico
 - paperspace
+- red-hat
 - koyeb
 - azure-container-apps
+- portainer
 - jfrog-container-registry
 - upsun
 - cloud-foundry
@@ -238,9 +239,8 @@ provider_slugs:
 - platform.sh
 - seqera-labs
 - dagger
-- tensordock
 - aws-app-runner
-- portainer
+- tensordock
 - azure-container-instances
 - scaleway
 - gameye
@@ -254,10 +254,11 @@ provider_slugs:
 - buildpacks
 - amazon-eks
 - google-cloud-run
-- sysdig
 - smol-machines
+- sysdig
 - rancher
 - argo-workflows
+- docker
 - microsoft-azure-service-fabric
 - coolify
 - timoni
@@ -268,15 +269,14 @@ provider_slugs:
 - aqua-security
 - woodpecker-ci
 - incus
-- docker
-- drone
 - spyderbat
+- drone
 - beam-cloud
 - anchore
 - google-cloud-container-registry
+- solaris-zones
 - veritas-cluster
 - carvel
-- solaris-zones
 - cri-o
 - google-kubernetes-engine
 - oracle-container-engine
@@ -286,14 +286,14 @@ provider_slugs:
 - flatcar-container-linux
 - gitlab-container-registry
 - github-container-registry
+- apptainer
 - io-net
 - podman
 - service-fabric
 - flexera
-- apptainer
+- sigstore
 - vmware-tanzu
 - firecracker
-- sigstore
 - ubuntu
 - trivy
 - inspur-cloud
@@ -344,7 +344,6 @@ provider_slugs:
 - lima
 - diamanti
 - coreos
-- containers
 - apcera
 - bluedata-software-inc
 - d2iq
@@ -353,11 +352,11 @@ provider_slugs:
 - epsagon
 - heptio
 related:
-- slug: serverless
-  name: Serverless
-  shared: 6
 - slug: deployment
   name: Deployment
+  shared: 5
+- slug: serverless
+  name: Serverless
   shared: 5
 - slug: database
   name: Database
@@ -374,8 +373,8 @@ related:
 overview: 'Containers is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [containers.apievangelist.com](https://containers.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cloudflare, Canonical, Amazon Lightsail, Azure Kubernetes Service, Red Hat, IBM, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Canonical, Cloudflare, Amazon Lightsail, Azure Kubernetes Service, IBM, Calico, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Serverless, Deployment, Database, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Deployment, Serverless, Database, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

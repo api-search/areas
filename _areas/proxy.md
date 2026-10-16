@@ -6,19 +6,19 @@ description: This is the index of API proxy, reverse proxy, forward proxy, and p
 area_url: https://proxy.apievangelist.com
 area_host: proxy.apievangelist.com
 icon: https://proxy.apievangelist.com/icon-thumb.png
-provider_count: 25
+provider_count: 24
 providers:
 - slug: chocodata
   name: Chocodata
   description: Web-scraping REST API that returns structured JSON from a large catalog of target sites (e-commerce, search engines, social, real estate, finance, and more), with proxies, CAPTCHA, and anti-bot handling managed server-side. Ships an OpenAPI 3.1 contract, official Node/Python/Go SDKs, a CLI, an npm-…
-  api_count: 1
+  api_count: 2
   score_band: strong
   score_composite: 61.7
   shared: 1
 - slug: bright-data
   name: Bright Data
   description: Bright Data is an Israeli web data platform and operator of the world's largest legitimate residential proxy network (400M+ IPs across 195 countries). The platform combines proxy infrastructure (residential, ISP, datacenter, mobile) with higher-level web-access APIs — Web Unlocker, SERP API, Web Sc…
-  api_count: 10
+  api_count: 11
   score_band: developing
   score_composite: 50.1
   shared: 1
@@ -43,19 +43,19 @@ providers:
   score_band: developing
   score_composite: 44.0
   shared: 1
+- slug: verdaccio
+  name: Verdaccio
+  description: Verdaccio is an open-source, lightweight private npm proxy registry built in Node.js that enables organizations to host, cache, and manage packages privately. It implements the CommonJS Compliant Package Registry specification and provides a REST API for publishing, searching, and managing npm pack…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.5
+  shared: 1
 - slug: soax
   name: SOAX
   description: SOAX provides enterprise-grade proxy infrastructure and web data extraction APIs for developers and data teams. With 155M+ residential IPs, 33M+ mobile IPs, and 300K+ datacenter IPs across 195+ countries, SOAX enables web scraping, CAPTCHA bypass, geo-targeted data collection, and anti-bot circumve…
   api_count: 1
   score_band: developing
   score_composite: 41.2
-  shared: 1
-- slug: verdaccio
-  name: Verdaccio
-  description: Verdaccio is an open-source, lightweight private npm proxy registry built in Node.js that enables organizations to host, cache, and manage packages privately. It implements the CommonJS Compliant Package Registry specification and provides a REST API for publishing, searching, and managing npm pack…
-  api_count: 1
-  score_band: developing
-  score_composite: 39.3
   shared: 1
 - slug: http-toolkit
   name: HTTP Toolkit
@@ -111,7 +111,7 @@ providers:
   description: Sōzu is an open-source, fast and lightweight HTTP reverse proxy written in Rust, designed for high-performance traffic management in immutable infrastructure environments. It is configurable at runtime through a protobuf-based IPC protocol without requiring restarts, making it ideal for always-up d…
   api_count: 3
   score_band: thin
-  score_composite: 26.3
+  score_composite: 26.7
   shared: 1
 - slug: whistle
   name: Whistle
@@ -162,13 +162,6 @@ providers:
   score_band: emerging
   score_composite: 12.6
   shared: 1
-- slug: api-proxies
-  name: API Proxies
-  description: An index and topic collection covering reverse-proxy and edge-proxy software used in front of APIs, including HTTP reverse proxies, edge proxies, load balancers, caching proxies, and service mesh sidecars. API proxies sit between API consumers and upstream services to provide TLS termination, routi…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.5
-  shared: 1
 - slug: proxyman
   name: Proxyman
   description: Proxyman is a modern, native macOS app for HTTP/HTTPS debugging proxy with advanced features for API development and testing.
@@ -189,8 +182,8 @@ provider_slugs:
 - contour
 - envoy
 - haproxy
-- soax
 - verdaccio
+- soax
 - http-toolkit
 - squid
 - zenscrape
@@ -206,7 +199,6 @@ provider_slugs:
 - mosn
 - pipy
 - privoxy
-- api-proxies
 - proxyman
 - pomerium
 related:
@@ -219,7 +211,7 @@ related:
 overview: 'Proxy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [proxy.apievangelist.com](https://proxy.apievangelist.com).
 
 
-  25 providers on the network work in this area, including Chocodata, Bright Data, Contour, Envoy, HAProxy, SOAX, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  24 providers on the network work in this area, including Chocodata, Bright Data, Contour, Envoy, HAProxy, Verdaccio, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Service Mesh and Caching. Browse every area at [areas.apis.io](https://apis.io/areas/).'

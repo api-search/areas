@@ -6,14 +6,14 @@ description: An index and topic collection covering log ingestion, log search, l
 area_url: https://logging.apievangelist.com
 area_host: logging.apievangelist.com
 icon: https://logging.apievangelist.com/icon-thumb.png
-provider_count: 42
+provider_count: 41
 providers:
 - slug: elk-stack
   name: Elastic Stack
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
   api_count: 19
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 78.5
   shared: 1
 - slug: aws-lambda
   name: AWS Lambda
@@ -21,6 +21,20 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 69.8
+  shared: 1
+- slug: chronosphere
+  name: Chronosphere
+  description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
+  api_count: 8
+  score_band: exemplar
+  score_composite: 67.9
+  shared: 1
+- slug: hyperdx
+  name: HyperDX
+  description: HyperDX is an open-source observability platform that unifies logs, metrics, traces, session replay and errors on top of ClickHouse and OpenTelemetry, giving engineers one place to search raw events, correlate a log line to its trace and that span to a session replay, build dashboards and run thres…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 67.5
   shared: 1
 - slug: google-cloud-logging
   name: Google Cloud Logging
@@ -64,26 +78,12 @@ providers:
   score_band: strong
   score_composite: 63.6
   shared: 1
-- slug: hyperdx
-  name: HyperDX
-  description: HyperDX is an open-source observability platform that unifies logs, metrics, traces, session replay and errors on top of ClickHouse and OpenTelemetry, giving engineers one place to search raw events, correlate a log line to its trace and that span to a session replay, build dashboards and run thres…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.5
-  shared: 1
-- slug: chronosphere
-  name: Chronosphere
-  description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
-  api_count: 4
-  score_band: strong
-  score_composite: 62.4
-  shared: 1
 - slug: splunk
   name: Splunk
   description: Splunk is a data platform that enables organizations to search, monitor, analyze, and visualize massive streams of machine-generated data across security, observability, and AI use cases. It offers solutions for security information and event management (SIEM), infrastructure monitoring, applicatio…
   api_count: 1
   score_band: strong
-  score_composite: 60.5
+  score_composite: 62.6
   shared: 1
 - slug: azure-log-analytics
   name: Azure Log Analytics
@@ -99,19 +99,19 @@ providers:
   score_band: strong
   score_composite: 59.5
   shared: 1
-- slug: lightrun
-  name: Lightrun
-  description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.8
-  shared: 1
 - slug: edge-delta
   name: Edge Delta
   description: Edge Delta is an AI-powered observability platform that pairs enterprise-grade telemetry pipelines with agentic AI Teammates for SRE, security, and DevOps teams. Its intelligent pipelines control and route logs, metrics, traces, and events from any source to any destination with in-stream reduction…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.9
+  api_count: 2
+  score_band: strong
+  score_composite: 58.6
+  shared: 1
+- slug: lightrun
+  name: Lightrun
+  description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
+  api_count: 2
+  score_band: strong
+  score_composite: 55.8
   shared: 1
 - slug: bitdrift
   name: bitdrift
@@ -151,9 +151,9 @@ providers:
 - slug: superlog
   name: Superlog
   description: Superlog is an AI-native, open-core observability platform (Y Combinator, Spring 2026) that ingests OpenTelemetry traces, logs, and metrics over OTLP, groups noisy signals into incidents, and dispatches AI agents to investigate root causes and open fix pull requests automatically. It offers a Manag…
-  api_count: 1
+  api_count: 2
   score_band: developing
-  score_composite: 42.4
+  score_composite: 42.8
   shared: 1
 - slug: glitchtip
   name: GlitchTip
@@ -183,13 +183,6 @@ providers:
   score_band: developing
   score_composite: 39.7
   shared: 1
-- slug: log10
-  name: Log10
-  description: Log10 is an LLMOps platform that provides REST API and SDK capabilities for capturing, logging, and managing LLM completions across major providers such as OpenAI, Anthropic, Google Gemini, Mistral, and Meta Llama. The platform enables engineering teams to debug prompt chains, run automated evaluat…
-  api_count: 1
-  score_band: thin
-  score_composite: 38.0
-  shared: 1
 - slug: axiom-controller
   name: Axiom Controller
   description: Axiom is a cloud-native observability platform providing APIs for ingesting, querying, and managing telemetry data including logs, traces, and metrics with support for datasets, monitors, and organization management.
@@ -218,22 +211,29 @@ providers:
   score_band: thin
   score_composite: 35.2
   shared: 1
+- slug: kibana
+  name: Kibana
+  description: Kibana is an open-source data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence. Kibana provides histograms, line graphs, pie charts, heat maps, geospatial visualizations, dashboards, alerting, and management of saved obj…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.6
+  shared: 1
 provider_slugs:
 - elk-stack
 - aws-lambda
+- chronosphere
+- hyperdx
 - google-cloud-logging
 - splunk-observability
 - grafana-loki
 - logz-io
 - fastly
 - highlight-io
-- hyperdx
-- chronosphere
 - splunk
 - azure-log-analytics
 - elastic-observability
-- lightrun
 - edge-delta
+- lightrun
 - bitdrift
 - sumo-logic
 - codag
@@ -244,12 +244,12 @@ provider_slugs:
 - fluentd
 - memfault
 - opentelemetry
-- log10
 - axiom-controller
 - loggly
 - calyptia
 - logrocket
 - kibana
+- log10
 - fluent-bit
 - timber
 - systemd
@@ -260,14 +260,13 @@ provider_slugs:
 - sazabi
 - humio
 - graylog
-- observability
 related:
 - slug: observability
   name: Observability
-  shared: 7
+  shared: 8
 - slug: monitoring
   name: Monitoring
-  shared: 5
+  shared: 7
 - slug: aiops
   name: AIOps
   shared: 3
@@ -283,7 +282,7 @@ related:
 overview: 'Logging is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [logging.apievangelist.com](https://logging.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Elastic Stack, AWS Lambda, Google Cloud Logging, Splunk Observability Cloud, Grafana Loki, Logz.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Elastic Stack, AWS Lambda, Chronosphere, HyperDX, Google Cloud Logging, Splunk Observability Cloud, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, Monitoring, AIOps, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,26 +6,19 @@ description: 'An index and topic collection covering virtualization across two i
 area_url: https://virtualization.apievangelist.com
 area_host: virtualization.apievangelist.com
 icon: https://virtualization.apievangelist.com/icon-thumb.png
-provider_count: 41
+provider_count: 40
 providers:
-- slug: virtualization
-  name: Virtualization
-  description: 'An index and topic collection covering virtualization across two intertwined domains: machine virtualization (hypervisors, virtual machines, VDI, and cloud VM platforms) and API/service virtualization (mock servers, service mocks, and contract-based stubs). Machine virtualization abstracts physical…'
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.5
-  shared: 2
 - slug: nutanix
   name: Nutanix
   description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
   api_count: 2
   score_band: exemplar
-  score_composite: 67.4
+  score_composite: 69.7
   shared: 1
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
-  api_count: 11
+  api_count: 22
   score_band: strong
   score_composite: 60.2
   shared: 1
@@ -36,6 +29,13 @@ providers:
   score_band: developing
   score_composite: 52.8
   shared: 1
+- slug: broadcom
+  name: Broadcom
+  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
+  api_count: 3
+  score_band: developing
+  score_composite: 51.0
+  shared: 1
 - slug: slide
   name: Slide
   description: Slide is a modern, security-first Business Continuity and Disaster Recovery (BCDR) platform built exclusively for Managed Service Providers (MSPs). Founded by Datto creator Austin McChord, Slide pairs on-premise Slide Box appliances with the Slide Cloud to deliver always-encrypted, block-level back…
@@ -43,19 +43,12 @@ providers:
   score_band: developing
   score_composite: 47.8
   shared: 1
-- slug: broadcom
-  name: Broadcom
-  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
-  api_count: 3
-  score_band: developing
-  score_composite: 47.5
-  shared: 1
 - slug: smol-machines
   name: Smol Machines
   description: Smol Machines (smol machines, inc.) is a Y Combinator-backed developer infrastructure company building portable, self-contained Linux microVMs. Its open-source `smolvm` engine and `smol` CLI (both Rust, Apache-2.0) boot hardware-isolated virtual machines from any OCI image in under 200ms — on a lap…
-  api_count: 2
+  api_count: 3
   score_band: developing
-  score_composite: 46.2
+  score_composite: 46.8
   shared: 1
 - slug: oxide-computer
   name: Oxide
@@ -71,19 +64,19 @@ providers:
   score_band: developing
   score_composite: 42.3
   shared: 1
+- slug: citrix
+  name: Citrix
+  description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
+  api_count: 6
+  score_band: developing
+  score_composite: 41.8
+  shared: 1
 - slug: incus
   name: Incus
   description: Incus is a modern open source system container and virtual machine manager maintained by LinuxContainers.org as a community-led fork of Canonical's LXD. It provides a unified experience for running and managing system containers and VMs across single hosts and clusters, with image-based deployment,…
   api_count: 1
   score_band: developing
   score_composite: 41.7
-  shared: 1
-- slug: citrix
-  name: Citrix
-  description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
-  api_count: 6
-  score_band: developing
-  score_composite: 41.3
   shared: 1
 - slug: vagrant
   name: Vagrant
@@ -118,7 +111,7 @@ providers:
   description: API for managing Solaris Zones (containers) and virtualization on Oracle Solaris systems.
   api_count: 9
   score_band: thin
-  score_composite: 38.3
+  score_composite: 38.8
   shared: 1
 - slug: platform9
   name: Platform9
@@ -137,7 +130,7 @@ providers:
 - slug: scale-computing
   name: Scale Computing
   description: Scale Computing builds SC//Platform, an edge-computing and hyperconverged infrastructure stack made up of SC//HyperCore (a self-healing KVM-based virtualization and storage OS that runs on clustered appliance nodes) and SC//Fleet Manager (a cloud console that monitors, updates and orchestrates thou…
-  api_count: 4
+  api_count: 6
   score_band: thin
   score_composite: 37.2
   shared: 1
@@ -216,20 +209,26 @@ providers:
   description: ReadyAPI is SmartBear's enterprise-grade automated API testing platform. It unifies functional, security, performance, and virtualization testing for REST, SOAP, GraphQL, Kafka, JDBC, and JMS APIs. ReadyAPI is delivered as a desktop and CI/CD tool rather than as a public REST API, integrating with…
   api_count: 0
   score_band: emerging
-  score_composite: 11.9
+  score_composite: 12.4
+  shared: 1
+- slug: kerys
+  name: Kerys
+  description: Kerys Software is a European (Palaiseau, France) cybersecurity company behind YS::Desktop, a Type 1 hypervisor that runs multiple fully isolated environments on a single workstation. By preallocating dedicated CPU cores to the hypervisor versus VM workloads and adding hypervisor-level encryption, Y…
+  api_count: 0
+  score_band: minimal
+  score_composite: 10.9
   shared: 1
 provider_slugs:
-- virtualization
 - nutanix
 - intersight
 - vmware
-- slide
 - broadcom
+- slide
 - smol-machines
 - oxide-computer
 - kubevirt
-- incus
 - citrix
+- incus
 - vagrant
 - veritas-infoscale
 - vers
@@ -267,6 +266,9 @@ related:
 - slug: database
   name: Database
   shared: 1
+- slug: management
+  name: Management
+  shared: 1
 - slug: orchestration
   name: Orchestration
   shared: 1
@@ -276,8 +278,8 @@ related:
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Virtualization, Nutanix, Cisco Intersight, VMware, Slide, Broadcom, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Nutanix, Cisco Intersight, VMware, Broadcom, Slide, Smol Machines, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, Database, Orchestration, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, Database, Management, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

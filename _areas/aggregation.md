@@ -6,7 +6,7 @@ description: An index and topic collection covering API aggregation, marketplace
 area_url: https://aggregation.apievangelist.com
 area_host: aggregation.apievangelist.com
 icon: https://aggregation.apievangelist.com/icon-thumb.png
-provider_count: 17
+provider_count: 15
 providers:
 - slug: apis-io
   name: APIs.io
@@ -32,7 +32,7 @@ providers:
 - slug: tietoevry
   name: TietoEVRY
   description: TietoEVRY (Tietoevry Corporation, listed as TIETO on Nasdaq Helsinki and Stockholm, rebranded to "Tieto" in 2026) is a Nordic software and technology company of roughly 14,000 people operating in 20+ countries, serving banking, healthcare, public sector and industry. Its public API surface is publi…
-  api_count: 48
+  api_count: 52
   score_band: developing
   score_composite: 39.5
   shared: 1
@@ -69,7 +69,7 @@ providers:
   description: Urjanet (now part of Arcadia) is a utility-data aggregation platform that programmatically collects utility bill, statement, meter, and interval usage data from thousands of electricity, gas, water, waste, and telecom providers worldwide. Following Arcadia's 2022 acquisition, Urjanet's data access…
   api_count: 1
   score_band: thin
-  score_composite: 30.5
+  score_composite: 31.0
   shared: 1
 - slug: apis-json
   name: APIs.json
@@ -106,20 +106,6 @@ providers:
   score_band: minimal
   score_composite: 9.2
   shared: 1
-- slug: aggregation
-  name: Aggregation
-  description: An index and topic collection covering API aggregation, marketplaces, directories, unified APIs, and catalog platforms. API aggregation brings together multiple APIs under a single interface, simplifying integration, reducing maintenance overhead, and enabling consistent authentication and data nor…
-  api_count: 0
-  score_band: minimal
-  score_composite: 8.6
-  shared: 1
-- slug: unified-apis
-  name: Unified APIs
-  description: This is the index of unified API service and tooling repos being tracked by the API Evangelist network. Unified APIs (also called integration hubs, API aggregators, or universal connectors) abstract multiple third-party APIs behind a single standardized interface, enabling software teams to build o…
-  api_count: 0
-  score_band: minimal
-  score_composite: 8.5
-  shared: 1
 - slug: programmableweb
   name: ProgrammableWeb
   description: ProgrammableWeb was the original API directory and developer resource, founded by John Musser in 2005, documenting over 19,000 open web APIs and thousands of mashups and applications over 17 years of operation. It was acquired by Alcatel-Lucent in 2010, sold to MuleSoft in 2013, and ultimately shut…
@@ -142,8 +128,6 @@ provider_slugs:
 - digitalapi
 - finverse
 - api-harmony
-- aggregation
-- unified-apis
 - programmableweb
 related:
 - slug: agents-skills
@@ -152,7 +136,7 @@ related:
 overview: 'Aggregation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aggregation.apievangelist.com](https://aggregation.apievangelist.com).
 
 
-  17 providers on the network work in this area, including APIs.io, AB Tasty, Belvo, TietoEVRY, Google News RSS, KrakenD, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  15 providers on the network work in this area, including APIs.io, AB Tasty, Belvo, TietoEVRY, Google News RSS, KrakenD, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
