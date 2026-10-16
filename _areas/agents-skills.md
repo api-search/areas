@@ -15,6 +15,13 @@ providers:
   score_band: exemplar
   score_composite: 90.6
   shared: 1
+- slug: parallel-ai
+  name: Parallel
+  description: 'Parallel Web Systems builds web APIs purpose-built for AI agents: a high-accuracy Search API, an Extract API that turns URLs into clean LLM-ready markdown, a Task/Deep Research API with tiered processors (lite through ultra), FindAll for natural-language entity discovery and enrichment, a Monitor A…'
+  api_count: 3
+  score_band: exemplar
+  score_composite: 70.5
+  shared: 1
 - slug: cracked
   name: Cracked API
   description: 'Cracked is a tool router for AI agents: one API key and one prepaid balance to discover, inspect, run and poll thousands of third-party tools. It exposes 9,521 endpoints from 1,183 providers plus 50,000+ Apify actors, publishing measured success rate, median latency and per-call price per tool.'
@@ -77,13 +84,6 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 64.9
-  shared: 1
-- slug: parallel-web-systems
-  name: Parallel Web Systems
-  description: Parallel Web Systems builds infrastructure for intelligence on the web, giving AI agents and developers high-quality, low-latency access to the internet. Its API suite spans a Search API (high-accuracy, cross-referenced web search with turbo/basic/advanced modes), an Extract API for token-efficient…
-  api_count: 2
-  score_band: strong
-  score_composite: 62.8
   shared: 1
 - slug: airops
   name: AirOps
@@ -148,13 +148,6 @@ providers:
   score_band: strong
   score_composite: 58.9
   shared: 1
-- slug: assetfare
-  name: AssetFare
-  description: A capped, non-custodial routing API for a single corridor — Solana SOL to Base native ETH — aimed at AI agents. It returns fee-inclusive quotes and bounded unsigned actions; the caller's agent verifies, signs, and submits every transaction. AssetFare never receives private keys and never signs or s…
-  api_count: 4
-  score_band: strong
-  score_composite: 58.5
-  shared: 1
 - slug: hashnode
   name: Hashnode
   description: Hashnode is a blogging platform for developers and engineering teams, offering publications on a custom domain, a headless CMS mode, and a public GraphQL API covering posts, drafts, publications, users, tags, series, comments and documentation projects. The API is a single GraphQL endpoint with ano…
@@ -218,8 +211,16 @@ providers:
   score_band: strong
   score_composite: 55.2
   shared: 1
+- slug: ballerina
+  name: Ballerina
+  description: 'Ballerina is an open-source programming language for the cloud, created and maintained by WSO2, whose type system, syntax and tooling are built around network interaction: services, clients, data transformation and integration are language constructs rather than framework add-ons. It ships first-pa…'
+  api_count: 1
+  score_band: developing
+  score_composite: 53.9
+  shared: 1
 provider_slugs:
 - apis-io
+- parallel-ai
 - cracked
 - unify
 - smtp2go
@@ -229,7 +230,6 @@ provider_slugs:
 - visier
 - clickfunnels
 - lacuna
-- parallel-web-systems
 - airops
 - se-ranking
 - dant3-net
@@ -239,7 +239,6 @@ provider_slugs:
 - synthflow
 - adanos-market-sentiment-api
 - ledger
-- assetfare
 - hashnode
 - developerhub
 - zyte
@@ -250,13 +249,14 @@ provider_slugs:
 - cadasto
 - credo-ai
 - ballerina
+- assetfare
 - voygr
 - abbyy
 - enigma-analytics
 - plyrium-com
+- apicontext
 - typesafe-ai
 - daloopa
-- apicontext
 - trusona
 - meta-agent-tools
 - lokki
@@ -322,7 +322,7 @@ related:
 overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents-skills.apievangelist.com](https://agents-skills.apievangelist.com).
 
 
-  30 providers on the network work in this area, including APIs.io, Cracked API, Unify, SMTP2GO, Infer by Flow7, Erxes, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including APIs.io, Parallel, Cracked API, Unify, SMTP2GO, Infer by Flow7, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Scraping, Documentation, Privacy, and API Proxies. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -155,26 +155,33 @@ providers:
   score_band: null
   score_composite: 0
   shared: 2
-- slug: cloudflare
-  name: Cloudflare
-  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 25
-  score_band: exemplar
-  score_composite: 80.6
-  shared: 1
 - slug: snyk
   name: Snyk
   description: Snyk is a developer-first security platform covering code, open-source dependencies, container images, and infrastructure-as-code. The Snyk REST API and V1 API expose groups, organizations, projects, issues, targets, integrations, audit logs, SBOMs, container images, custom base images, webhooks, a…
   api_count: 3
   score_band: exemplar
-  score_composite: 80.6
+  score_composite: 86.0
+  shared: 1
+- slug: cloudflare
+  name: Cloudflare
+  description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+  api_count: 25
+  score_band: exemplar
+  score_composite: 81.3
   shared: 1
 - slug: elk-stack
   name: Elastic Stack
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
   api_count: 19
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 78.5
+  shared: 1
+- slug: elastic
+  name: Elastic
+  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 77.3
   shared: 1
 - slug: amazon-vpn
   name: Amazon VPN
@@ -183,12 +190,12 @@ providers:
   score_band: exemplar
   score_composite: 74.6
   shared: 1
-- slug: elastic
-  name: Elastic
-  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
-  api_count: 4
+- slug: jfrog
+  name: JFrog
+  description: JFrog provides universal DevOps solutions for software supply chain automation and security, offering a unified platform for managing binaries, securing the software supply chain, and automating DevOps workflows.
+  api_count: 14
   score_band: exemplar
-  score_composite: 74.2
+  score_composite: 74.0
   shared: 1
 - slug: onetrust
   name: OneTrust
@@ -204,19 +211,12 @@ providers:
   score_band: exemplar
   score_composite: 72.6
   shared: 1
-- slug: jfrog
-  name: JFrog
-  description: JFrog provides universal DevOps solutions for software supply chain automation and security, offering a unified platform for managing binaries, securing the software supply chain, and automating DevOps workflows.
-  api_count: 14
-  score_band: exemplar
-  score_composite: 71.6
-  shared: 1
 - slug: clerk-com
   name: Clerk
   description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
   api_count: 7
   score_band: exemplar
-  score_composite: 71.4
+  score_composite: 71.9
   shared: 1
 provider_slugs:
 - pynt
@@ -240,65 +240,68 @@ provider_slugs:
 - hex-security
 - tinfoil-security
 - tcell-io
-- cloudflare
 - snyk
+- cloudflare
 - elk-stack
-- amazon-vpn
 - elastic
+- amazon-vpn
+- jfrog
 - onetrust
 - aembit
-- jfrog
 - clerk-com
+- ibm
 - drata
 - auth0
-- ibm
 - mailboxlayer
 - paubox
 - strivacity
 - amazon-secrets-manager
-- tenable
-- f5
-- imgauth-api-di-attestazione-opere-digitali
-- cisco-xdr
-- amazon-vpc
 - databricks
+- tenable
+- sonatype
+- f5
+- cisco-xdr
+- imgauth-api-di-attestazione-opere-digitali
+- amazon-vpc
 - fastly
 - shodan
 - shieldlabs
-- sonatype
+- strongdm
 - zerotier
 - censys
 - microsoft-azure-private-link
 - routebase
 - anecdotes
-- treblle
 - exclaimer
 - cisco-umbrella
+- splunk
+- transmit-security
 - cisco-ise
 - amazon-kms
 - barndoor
+- blumira
 - stytch
 - microsoft-azure-key-vault
-- splunk
-- openzeppelin
-- blumira
-- transmit-security
-- allegion
 - juniper
+- openzeppelin
+- allegion
 - 1password
 - whisper-online
+- treblle
 - kondukto
 - malwarebytes
 - ledger
 - chef-software
 - amazon-iot-device-defender
 - aptible
+- axway
 - microsoft-entra
 - greynoise
 - cisco-psirt
 - amazon-guardduty
 - amazon-firewall-manager
 - secureframe
+- saviynt
 - xbow
 - amazon-iam
 - atomadic-tech
@@ -309,12 +312,13 @@ provider_slugs:
 - amazon-certificate-manager
 - amazon-private-ca
 - kolide
-- axway
 - sailpoint
 - amazon-fraud-detector
 - jupiterone
 - c1
 - vulncheck
+- cisco
+- keeper-security
 - typingdna
 - dopesecurity
 - airmdr
@@ -322,30 +326,28 @@ provider_slugs:
 - amazon-security-lake
 - cipherowl
 - kisi
+- 2s-io
 - panther
 - amazon-iam-access-analyzer
 - amazon-cloudtrail
 - conductorone
 - agentgateway
 - fraud-net
-- 2s-io
 - huntress
-- saviynt
 - onecli
 - neutrino-api
+- emailrep
 - projectdiscovery
+- qlik
 - smallstep
 - fordefi
 - vettly
 - abnormal
-- emailrep
 - adaptive-automation-technologies
-- channelseal
 - civic
 - qwiet-ai
 - indykite
 - ironcore-labs
-- strongdm
 - macadress
 - amazon-shield
 - basis-theory
@@ -359,7 +361,6 @@ provider_slugs:
 - patronus-protect
 - 1kosmos
 - amazon-verified-permissions
-- cisco
 - mine
 - trusona
 - synack
@@ -372,6 +373,7 @@ provider_slugs:
 - npm
 - accuknox
 - horizon3ai
+- dependency-track
 - fossa
 - sumo-logic
 - slashid
@@ -385,6 +387,7 @@ provider_slugs:
 - vanta
 - angelcam
 - akamai
+- netskope
 - authzed
 - domaintools
 - virustotal
@@ -406,7 +409,6 @@ provider_slugs:
 - sysdig
 - filigran
 - regscale
-- qlik
 - amazon-codeguru-reviewer
 - google-cloud-armor
 - dragos
@@ -429,7 +431,6 @@ provider_slugs:
 - binarly
 - adaptive-security
 - doppel
-- keeper-security
 - securden
 - workday-security
 - coro
@@ -485,18 +486,17 @@ provider_slugs:
 - apache-knox
 - balbix
 - scanner
+- beyondtrust
 - soveren
 - stream-security
 - silent-push
 - spyderbat
 - sublime-security
-- beyondtrust
 - immersive-labs
 - nudge-security
 - opensearch
 - certifid
 - eagle-eye-networks
-- netskope
 - stackrox
 - mcafee
 - onlinenic
@@ -630,6 +630,7 @@ provider_slugs:
 - deepip
 - arkose-labs
 - secret-double-octopus
+- datatheorem
 - f5-distributed-cloud-services
 - reality-defender
 - marco-polo
@@ -646,7 +647,6 @@ provider_slugs:
 - apiwiz
 - raid-ai
 - valtix
-- blocksec
 - esentire
 - silverfort
 - todyl
@@ -654,6 +654,7 @@ provider_slugs:
 - appaegis
 - bridgecrew
 - webroot
+- blocksec
 - mitiga
 - zero-trust-security-model
 - odaseva
@@ -684,20 +685,20 @@ provider_slugs:
 - daylight
 - rewind
 - mosyle
-- blackcloak
 - qradar
 - keybase
 - anonyome-labs
 - resurface
-- breachlock
 - halborn
 - seezo
 - arbor-networks
+- blackcloak
 - ontic
 - shotspotter
 - brinqa
 - sentinelone
 - ca
+- breachlock
 - privado
 - risk-ledger
 - vigil-wtf
@@ -731,7 +732,6 @@ provider_slugs:
 - material-security
 - sonrai-security
 - zafran-security
-- datatheorem
 - adyton
 - alkira
 - astelia

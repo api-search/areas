@@ -50,13 +50,6 @@ providers:
   score_band: strong
   score_composite: 56.5
   shared: 1
-- slug: insomnia
-  name: Insomnia
-  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
-  api_count: 1
-  score_band: developing
-  score_composite: 53.9
-  shared: 1
 - slug: bruno-api
   name: Bruno
   description: Bruno is an open-source (MIT), git-native API client - a lightweight, offline-first alternative to Postman and Insomnia for exploring and testing APIs. It is a developer TOOL, not a hosted HTTP API provider. Collections are stored on the local filesystem as folders of plain-text files (the .bru "Br…
@@ -70,6 +63,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.2
+  shared: 1
+- slug: insomnia
+  name: Insomnia
+  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.9
   shared: 1
 - slug: vlt
   name: vlt
@@ -225,9 +225,9 @@ provider_slugs:
 - common-room
 - ploy
 - tesslio
-- insomnia
 - bruno-api
 - qfex
+- insomnia
 - vlt
 - continue-dev
 - kiota
@@ -271,10 +271,10 @@ provider_slugs:
 - prodly
 - openapi-typescript-codegen
 - bugster
-- fern-api
 - tolmo
 - qname
 - coral
+- fern-api
 - azure-cli
 - nanovms
 - thunder-client
@@ -334,9 +334,6 @@ related:
 - slug: sdk
   name: SDKs
   shared: 3
-- slug: testing
-  name: Testing
-  shared: 2
 - slug: api-clients
   name: API Clients
   shared: 1
@@ -349,11 +346,14 @@ related:
 - slug: agents-skills
   name: Agent Skills
   shared: 1
+- slug: deployment
+  name: Deployment
+  shared: 1
 overview: 'Command Line Interface is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [cli.apievangelist.com](https://cli.apievangelist.com).
 
 
   30 providers on the network work in this area, including AWS CLI, Svix, Anysphere Cursor.com, Common Room, Ploy, tessl.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: SDKs, Testing, API Clients, and Clients. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: SDKs, API Clients, Clients, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

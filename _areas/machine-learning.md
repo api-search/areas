@@ -13,7 +13,7 @@ providers:
   description: 'ElevenLabs is an AI research and product company building voice and audio models, founded in 2022 and launched publicly in January 2023 with the first human-like AI voice model. It sells across three platforms: ElevenCreative (text to speech, speech to text, voice cloning and design, music, sound e…'
   api_count: 12
   score_band: exemplar
-  score_composite: 81.8
+  score_composite: 82.3
   shared: 1
 - slug: anthropic
   name: Anthropic
@@ -27,7 +27,7 @@ providers:
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
   api_count: 19
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 78.5
   shared: 1
 - slug: amazon-codeguru-profiler
   name: Amazon CodeGuru Profiler
@@ -50,19 +50,26 @@ providers:
   score_band: exemplar
   score_composite: 72.4
   shared: 1
-- slug: cloudera
-  name: Cloudera
-  description: Cloudera is a hybrid data platform company offering the Cloudera Data Platform (CDP) for data engineering, data warehousing, machine learning, streaming, and operational data. The platform exposes multiple REST APIs including the CDP Public Cloud Control Plane API for managing environments, datalak…
-  api_count: 38
-  score_band: exemplar
-  score_composite: 70.3
-  shared: 1
 - slug: google-analytics
   name: Google Analytics
   description: Google Analytics provides data and insights about website and app usage, enabling businesses to understand their audience and optimize their digital properties through customer-centric measurement, machine learning insights, and cross-platform attribution.
   api_count: 6
   score_band: exemplar
-  score_composite: 70.2
+  score_composite: 71.6
+  shared: 1
+- slug: cloudera
+  name: Cloudera
+  description: Cloudera is a hybrid data platform company offering the Cloudera Data Platform (CDP) for data engineering, data warehousing, machine learning, streaming, and operational data. The platform exposes multiple REST APIs including the CDP Public Cloud Control Plane API for managing environments, datalak…
+  api_count: 38
+  score_band: exemplar
+  score_composite: 71.5
+  shared: 1
+- slug: ibm
+  name: IBM
+  description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and governance in the AI era. The company targets organizations s…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 71.3
   shared: 1
 - slug: densify
   name: Densify
@@ -78,13 +85,6 @@ providers:
   score_band: exemplar
   score_composite: 69.4
   shared: 1
-- slug: ibm
-  name: IBM
-  description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and governance in the AI era. The company targets organizations s…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 69.1
-  shared: 1
 - slug: segmind
   name: Segmind
   description: Segmind is a serverless GPU inference platform that puts 200+ generative AI models — image, video, audio, 3D and LLM — behind one REST gateway with a single API key. Calls are metered per GPU-second or per generation against a prepaid credit balance, with the cost of every request reported inline o…
@@ -92,12 +92,26 @@ providers:
   score_band: exemplar
   score_composite: 68.8
   shared: 1
+- slug: posit
+  name: Posit
+  description: Posit, PBC (formerly RStudio) builds open-source and enterprise software for data science teams working in R and Python. Its professional products — Posit Workbench, Posit Connect, and Posit Package Manager (bundled as Posit Team), plus Posit Cloud and the Positron IDE — help organizations develop,…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.7
+  shared: 1
 - slug: google-dialogflow
   name: Google Dialogflow
   description: Google Dialogflow is Google Cloud's conversational-agent platform, shipped as two editions on one API host. Dialogflow ES (Essentials, API v2) builds intent-, entity- and context-driven agents with knowledge connectors and the Agent Assist surface for human contact-centre agents. Dialogflow CX — no…
   api_count: 2
   score_band: exemplar
   score_composite: 68.0
+  shared: 1
+- slug: databricks
+  name: Databricks
+  description: Databricks provides a unified Data + AI Platform that runs analytical and operational workloads on a single open, governed foundation. The platform enables enterprises to build business intelligence and AI applications, stream and analyze data, and manage data engineering, data warehousing, and gov…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.6
   shared: 1
 - slug: amazon-sagemaker
   name: Amazon SageMaker
@@ -148,13 +162,6 @@ providers:
   score_band: strong
   score_composite: 65.7
   shared: 1
-- slug: databricks
-  name: Databricks
-  description: Databricks provides a unified Data + AI Platform that runs analytical and operational workloads on a single open, governed foundation. The platform enables enterprises to build business intelligence and AI applications, stream and analyze data, and manage data engineering, data warehousing, and gov…
-  api_count: 1
-  score_band: strong
-  score_composite: 65.3
-  shared: 1
 - slug: aimlapi
   name: AIMLAPI
   description: AIMLAPI is a unified AI model API gateway providing access to 400+ state-of-the-art AI models from OpenAI, Anthropic, Google, Meta, DeepSeek, Mistral, Stability AI, and 40+ other providers through a single OpenAI-compatible API. Supported modalities include text/chat LLMs, image generation, video g…
@@ -190,13 +197,6 @@ providers:
   score_band: strong
   score_composite: 63.5
   shared: 1
-- slug: posit
-  name: Posit
-  description: Posit, PBC (formerly RStudio) builds open-source and enterprise software for data science teams working in R and Python. Its professional products — Posit Workbench, Posit Connect, and Posit Package Manager (bundled as Posit Team), plus Posit Cloud and the Positron IDE — help organizations develop,…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.3
-  shared: 1
 - slug: microsoft-azure-databricks
   name: Azure Databricks
   description: Azure Databricks is an Apache Spark-based analytics platform optimized for Microsoft Azure. It provides a collaborative workspace for data engineers, data scientists, and analysts to work together on big data and machine learning workloads.
@@ -225,13 +225,15 @@ provider_slugs:
 - amazon-codeguru-profiler
 - qliksense
 - matlab
-- cloudera
 - google-analytics
+- cloudera
+- ibm
 - densify
 - edge-impulse
-- ibm
 - segmind
+- posit
 - google-dialogflow
+- databricks
 - amazon-sagemaker
 - pluralsight
 - databricks-asset-bundles
@@ -239,13 +241,11 @@ provider_slugs:
 - seismic
 - github-copilot
 - paperspace
-- databricks
 - aimlapi
 - exec
 - moloco
 - bria
 - go1
-- posit
 - microsoft-azure-databricks
 - galileo-technologies
 - eden-ai
@@ -256,12 +256,13 @@ provider_slugs:
 - amazon-kendra
 - refuel-ai
 - pyannoteai
+- h2o-ai
 - amazon-polly
 - amazon-entity-resolution
 - viam
 - mithril
+- datarobot
 - hugging-face-transformers
-- teradata
 - ximilar
 - cerebras-systems
 - amazon-glue-databrew
@@ -278,16 +279,17 @@ provider_slugs:
 - zenml
 - the-san-francisco-compute-company
 - tensordock
-- h2o-ai
 - amazon-forecast
 - amazon-fraud-detector
 - roboflow
 - amazon-rekognition
 - modulate
+- dataiku
 - perfect-corp
 - amazon-iot-greengrass
 - openrelay
 - amazon-bedrock
+- teradata
 - tiledb
 - decart
 - amazon-macie
@@ -307,8 +309,8 @@ provider_slugs:
 - claude
 - google-cloud-automl
 - mathpix
+- qlik
 - rapidata
-- dataiku
 - replicate
 - rightnow
 - pixeltable
@@ -325,12 +327,14 @@ provider_slugs:
 - lambda-labs
 - runway
 - typesafe-ai
+- sas
 - dataloop
 - learnosity
 - bito
 - tellius
 - amazon-deepracer
 - amazon-lookout-for-equipment
+- byteplus
 - google-gemini
 - exactly-ai
 - picsart-socialin
@@ -351,7 +355,6 @@ provider_slugs:
 - gptzero
 - salesforce-einstein
 - nixtla
-- sas
 - chroma
 - datasaur
 - ocient
@@ -365,7 +368,6 @@ provider_slugs:
 - multiverse-computing
 - alteryx
 - biodock
-- datarobot
 - weaviate
 - sail-research
 - boltz
@@ -374,7 +376,6 @@ provider_slugs:
 - anomaly-detection
 - sonde-health
 - kugelaudio
-- qlik
 - relace
 - amazon-codeguru-reviewer
 - moore-threads
@@ -495,7 +496,6 @@ provider_slugs:
 - google-cloud-talent-solution
 - kumoai
 - nexar
-- byteplus
 - languagelayer
 - arc-prize-foundation
 - synthesia
@@ -598,10 +598,10 @@ provider_slugs:
 - vineyard
 - superannotate
 - bitfount
-- domino-data-lab
 - google-cloud-recommendations-ai
 - mirelo
 - aible
+- domino-data-lab
 - encord
 - rapidcanvas
 - tachyus
@@ -698,7 +698,6 @@ provider_slugs:
 - floodmapp
 - deepmind
 - kaito
-- brainscape
 - gensyn
 - schoolai
 - ubix
@@ -729,6 +728,7 @@ provider_slugs:
 - magicschool
 - picfinder
 - aetherai
+- brainscape
 - community-labs
 - trifacta
 - risklytics

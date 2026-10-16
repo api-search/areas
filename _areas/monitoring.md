@@ -34,14 +34,35 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 21
   score_band: exemplar
-  score_composite: 79.6
+  score_composite: 80.2
+  shared: 1
+- slug: logicmonitor
+  name: LogicMonitor
+  description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 80.0
   shared: 1
 - slug: datadog
   name: Datadog
   description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
   api_count: 6
   score_band: exemplar
-  score_composite: 79.1
+  score_composite: 79.8
+  shared: 1
+- slug: grafana-com
+  name: Grafana
+  description: Grafana Labs builds the open and composable observability stack used by millions of engineers to visualize, query, alert on, and explore their metrics, logs, traces, and profiles. The flagship Grafana OSS dashboarding platform is paired with Grafana Loki (logs), Grafana Mimir (Prometheus-compatible…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 78.8
+  shared: 1
+- slug: elk-stack
+  name: Elastic Stack
+  description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
+  api_count: 19
+  score_band: exemplar
+  score_composite: 78.5
   shared: 1
 - slug: bugsnag
   name: Bugsnag
@@ -50,12 +71,12 @@ providers:
   score_band: exemplar
   score_composite: 78.4
   shared: 1
-- slug: elk-stack
-  name: Elastic Stack
-  description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
-  api_count: 19
+- slug: elastic
+  name: Elastic
+  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
+  api_count: 4
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 77.3
   shared: 1
 - slug: oracle-cloud
   name: Oracle Cloud Infrastructure
@@ -78,19 +99,12 @@ providers:
   score_band: exemplar
   score_composite: 75.5
   shared: 1
-- slug: logicmonitor
-  name: LogicMonitor
-  description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
-  api_count: 4
+- slug: new-relic
+  name: New Relic
+  description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain real‑time visibility into cloud costs, multi‑cloud and Kuberne…
+  api_count: 5
   score_band: exemplar
-  score_composite: 74.6
-  shared: 1
-- slug: elastic
-  name: Elastic
-  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 74.2
+  score_composite: 74.4
   shared: 1
 - slug: checkly
   name: Checkly
@@ -99,26 +113,12 @@ providers:
   score_band: exemplar
   score_composite: 74.0
   shared: 1
-- slug: new-relic
-  name: New Relic
-  description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain real‑time visibility into cloud costs, multi‑cloud and Kuberne…
-  api_count: 5
-  score_band: exemplar
-  score_composite: 72.3
-  shared: 1
 - slug: bigpanda
   name: BigPanda
   description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
   api_count: 29
   score_band: exemplar
   score_composite: 71.8
-  shared: 1
-- slug: grafana-com
-  name: Grafana
-  description: Grafana Labs builds the open and composable observability stack used by millions of engineers to visualize, query, alert on, and explore their metrics, logs, traces, and profiles. The flagship Grafana OSS dashboarding platform is paired with Grafana Loki (logs), Grafana Mimir (Prometheus-compatible…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 71.0
   shared: 1
 - slug: aws-lambda
   name: AWS Lambda
@@ -141,12 +141,26 @@ providers:
   score_band: exemplar
   score_composite: 69.2
   shared: 1
+- slug: moesif
+  name: Moesif
+  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 68.8
+  shared: 1
 - slug: betterstack
   name: Better Stack
   description: Better Stack is an infrastructure monitoring and observability platform that combines uptime monitoring, heartbeat monitoring for scheduled jobs, incident management with on-call paging and escalation policies, public and private status pages, log/trace/metric telemetry queried with ClickHouse SQL,…
   api_count: 1
   score_band: exemplar
   score_composite: 68.5
+  shared: 1
+- slug: chronosphere
+  name: Chronosphere
+  description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 67.9
   shared: 1
 - slug: google-cloud-logging
   name: Google Cloud Logging
@@ -162,19 +176,12 @@ providers:
   score_band: exemplar
   score_composite: 67.4
   shared: 1
-- slug: moesif
-  name: Moesif
-  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 66.9
-  shared: 1
 - slug: honeycomb
   name: Honeycomb
   description: Honeycomb provides an observability platform that gives engineering teams real‑time visibility into distributed tracing, log analytics, metrics, and AI agent workflows. The platform supports OpenTelemetry, private‑cloud deployments, and telemetry pipelines for enterprises, AI startups, financial se…
   api_count: 1
   score_band: exemplar
-  score_composite: 66.5
+  score_composite: 67.2
   shared: 1
 - slug: dun-and-bradstreet
   name: Dun & Bradstreet
@@ -197,6 +204,13 @@ providers:
   score_band: strong
   score_composite: 66.1
   shared: 1
+- slug: sciencelogic
+  name: ScienceLogic
+  description: ScienceLogic is an AIOps and IT operations company whose ScienceLogic AI Platform — rebranded in 2026 as the Skylar family — covers infrastructure and application observability, network configuration and compliance, and workflow automation. Skylar One (formerly SL1) is the observability platform, w…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.7
+  shared: 1
 - slug: embrace
   name: Embrace
   description: Embrace is a user-focused observability platform for mobile and web applications, built on OpenTelemetry. Its SDKs for iOS, Android, React Native, Flutter, Unity and the browser capture full-fidelity session, crash, exception, log, trace and network telemetry from real users, and the platform turns…
@@ -204,49 +218,38 @@ providers:
   score_band: strong
   score_composite: 65.0
   shared: 1
-- slug: stack-moxie
-  name: Stack Moxie
-  description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
-  api_count: 2
-  score_band: strong
-  score_composite: 64.5
-  shared: 1
-- slug: routebase
-  name: Routebase
-  description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living OpenAPI spec.
-  api_count: 1
-  score_band: strong
-  score_composite: 64.3
-  shared: 1
 provider_slugs:
 - dynatrace
 - redocly
 - sentry-system
 - postman
+- logicmonitor
 - datadog
-- bugsnag
+- grafana-com
 - elk-stack
+- bugsnag
+- elastic
 - oracle-cloud
 - controlup
 - thousandeyes
-- logicmonitor
-- elastic
-- checkly
 - new-relic
+- checkly
 - bigpanda
-- grafana-com
 - aws-lambda
 - laravel
 - rtcstats
+- moesif
 - betterstack
+- chronosphere
 - google-cloud-logging
 - monte-carlo
-- moesif
 - honeycomb
 - dun-and-bradstreet
 - splunk-observability
 - grafana-loki
+- sciencelogic
 - embrace
+- solarwinds
 - stack-moxie
 - routebase
 - groundcover
@@ -254,45 +257,42 @@ provider_slugs:
 - dash0
 - moogsoft
 - galileo-technologies
+- splunk
 - hyperdx
-- solarwinds
-- chronosphere
 - phare
 - raygun
 - geneos
 - social-fetch
 - amazon-xray
 - influxdata
-- splunk
 - azure-log-analytics
-- sciencelogic
 - openzeppelin
 - microsoft-azure-monitor
 - elastic-observability
 - metaplane
 - amazon-cloudwatch
 - conviva
+- coralogix
 - amazon-guardduty
 - broke2builtai-com
-- smartbear
 - cloudwatch
 - lightrun
 - verifiable
 - amazon-managed-grafana
-- vividcortex
 - kentik
+- smartbear
+- vividcortex
 - bigeye
 - edge-delta
 - solar-edge
 - bitdrift
 - oracle-enterprise-manager
+- apicontext
 - zenoss
 - amazon-managed-prometheus
 - hacknotice
-- apicontext
 - bluejay
 - catchpoint
-- coralogix
 - agnost-ai
 - ninjaone
 - diligent
@@ -453,27 +453,27 @@ provider_slugs:
 related:
 - slug: observability
   name: Observability
-  shared: 21
+  shared: 22
 - slug: logging
   name: Logging
-  shared: 5
-- slug: testing
-  name: Testing
+  shared: 6
+- slug: aiops
+  name: AIOps
   shared: 4
-- slug: documentation
-  name: Documentation
-  shared: 3
 - slug: ai-automation
   name: AI Automation
   shared: 2
-- slug: aiops
-  name: AIOps
+- slug: search
+  name: API Evangelist Search
+  shared: 2
+- slug: documentation
+  name: Documentation
   shared: 2
 overview: 'Monitoring is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monitoring.apievangelist.com](https://monitoring.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Dynatrace, Redocly, Sentry, Postman, Datadog, Bugsnag, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Dynatrace, Redocly, Sentry, Postman, LogicMonitor, Datadog, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability, Logging, Testing, and Documentation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Logging, AIOps, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

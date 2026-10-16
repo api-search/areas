@@ -13,7 +13,7 @@ providers:
   description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain real‑time visibility into cloud costs, multi‑cloud and Kuberne…
   api_count: 5
   score_band: exemplar
-  score_composite: 72.3
+  score_composite: 74.4
   shared: 1
 - slug: amazon-global-accelerator
   name: Amazon Global Accelerator
@@ -41,7 +41,7 @@ providers:
   description: APIContext (formerly APImetrics) is a synthetic API testing, monitoring and conformance platform. It calls the APIs you depend on from cloud locations around the world on a schedule, measures latency and availability from the outside in, validates responses against expected schemas and security pro…
   api_count: 6
   score_band: developing
-  score_composite: 51.1
+  score_composite: 51.6
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)

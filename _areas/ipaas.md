@@ -20,14 +20,21 @@ providers:
   description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
   api_count: 1
   score_band: exemplar
-  score_composite: 74.0
+  score_composite: 78.3
   shared: 1
 - slug: zapier
   name: Zapier
   description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
   api_count: 1
   score_band: exemplar
-  score_composite: 68.9
+  score_composite: 69.8
+  shared: 1
+- slug: boomi
+  name: Boomi
+  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 68.3
   shared: 1
 - slug: integration-os
   name: IntegrationOS
@@ -36,19 +43,12 @@ providers:
   score_band: exemplar
   score_composite: 68.1
   shared: 1
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 67.6
-  shared: 1
 - slug: workato
   name: Workato
   description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
   api_count: 4
   score_band: exemplar
-  score_composite: 67.2
+  score_composite: 67.9
   shared: 1
 - slug: pandium
   name: Pandium
@@ -62,7 +62,14 @@ providers:
   description: Vessel (Kinit Inc.) is a developer-first embedded integrations platform for go-to-market software. It gives a product team one contract to read and write an end customer's CRM, sales engagement, chat, dialer and marketing automation tools, plus a drop-in browser component — Vessel Link — that handl…
   api_count: 20
   score_band: strong
-  score_composite: 64.0
+  score_composite: 64.4
+  shared: 1
+- slug: celigo
+  name: Celigo
+  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.7
   shared: 1
 - slug: agave
   name: Agave
@@ -76,14 +83,7 @@ providers:
   description: SnapLogic provides an Agentic Integration and Applied AI Platform that securely connects applications, data, APIs and AI agents across cloud, on‑premise and hybrid environments for enterprises. The platform offers visual ETL/ELT, no‑code iPaaS, API management, legacy modernization tools, and govern…
   api_count: 1
   score_band: strong
-  score_composite: 59.6
-  shared: 1
-- slug: celigo
-  name: Celigo
-  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.1
+  score_composite: 60.3
   shared: 1
 - slug: 3shake
   name: 3-shake
@@ -91,6 +91,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 57.0
+  shared: 1
+- slug: frends
+  name: Frends
+  description: Frends provides a European AI‑augmented integration platform (iPaaS) that combines workflow automation, API management, data and application integration, and AI orchestration on a low‑code environment. It is targeted at enterprise customers across industries that need to connect legacy systems, ERP…
+  api_count: 2
+  score_band: strong
+  score_composite: 55.2
   shared: 1
 - slug: syncari
   name: Syncari
@@ -190,13 +197,6 @@ providers:
   score_band: developing
   score_composite: 43.1
   shared: 1
-- slug: frends
-  name: Frends
-  description: Frends provides a European AI‑augmented integration platform (iPaaS) that combines workflow automation, API management, data and application integration, and AI orchestration on a low‑code environment. It is targeted at enterprise customers across industries that need to connect legacy systems, ERP…
-  api_count: 2
-  score_band: developing
-  score_composite: 42.5
-  shared: 1
 - slug: modusbox
   name: ModusBox
   description: ModusBox now operates as PortX, Inc. — modusbox.com 301s to portx.io. PortX is an AI-native integration platform (iPaaS) purpose-built for community banks, credit unions and fintechs. The PortX Platform spans Integration Manager (core, fintech and enterprise API integration), Data Manager (a govern…
@@ -222,15 +222,16 @@ provider_slugs:
 - tray-ai
 - jitterbit
 - zapier
-- integration-os
 - boomi
+- integration-os
 - workato
 - pandium
 - vessel
+- celigo
 - agave
 - snaplogic
-- celigo
 - 3shake
+- frends
 - syncari
 - oracle-integration
 - aws-step-functions
@@ -245,7 +246,6 @@ provider_slugs:
 - make
 - flume-health
 - elastic-io
-- frends
 - modusbox
 - morf
 - jetic
@@ -273,13 +273,13 @@ provider_slugs:
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 18
+  shared: 19
 - slug: workflow-automation
   name: Workflow Automation
   shared: 8
 - slug: management
   name: Management
-  shared: 6
+  shared: 7
 - slug: ai-automation
   name: AI Automation
   shared: 5
@@ -292,7 +292,7 @@ related:
 overview: 'iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ipaas.apievangelist.com](https://ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Tray.ai, Jitterbit, Zapier, IntegrationOS, Boomi, Workato, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Tray.ai, Jitterbit, Zapier, Boomi, IntegrationOS, Workato, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS, Workflow Automation, Management, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

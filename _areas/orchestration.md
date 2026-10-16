@@ -27,14 +27,21 @@ providers:
   description: Cohesity is a data security and management company providing backup, disaster recovery, archive, and cyber resilience capabilities across on-premises, cloud, and SaaS workloads. Following the merger with Veritas, the combined company protects enterprise data while powering automation, orchestration…
   api_count: 8
   score_band: exemplar
-  score_composite: 69.5
+  score_composite: 70.0
   shared: 1
 - slug: workato
   name: Workato
   description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
   api_count: 4
   score_band: exemplar
-  score_composite: 67.2
+  score_composite: 67.9
+  shared: 1
+- slug: uipath
+  name: UiPath
+  description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 66.8
   shared: 1
 - slug: bonitasoft
   name: Bonitasoft
@@ -43,12 +50,12 @@ providers:
   score_band: strong
   score_composite: 66.3
   shared: 1
-- slug: uipath
-  name: UiPath
-  description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
-  api_count: 6
+- slug: talend
+  name: Talend
+  description: Talend (now part of Qlik) provides data integration, quality, and API management capabilities through cloud-native APIs for ETL, data pipelines, and application integration. The Qlik Talend Cloud platform exposes REST APIs for orchestrating tasks and plans, executing data integration jobs, managing…
+  api_count: 17
   score_band: strong
-  score_composite: 66.3
+  score_composite: 64.1
   shared: 1
 - slug: socure
   name: Socure
@@ -57,12 +64,12 @@ providers:
   score_band: strong
   score_composite: 63.6
   shared: 1
-- slug: talend
-  name: Talend
-  description: Talend (now part of Qlik) provides data integration, quality, and API management capabilities through cloud-native APIs for ETL, data pipelines, and application integration. The Qlik Talend Cloud platform exposes REST APIs for orchestrating tasks and plans, executing data integration jobs, managing…
-  api_count: 17
+- slug: transmit-security
+  name: Transmit Security
+  description: Transmit Security provides the Mosaic platform, a comprehensive CIAM (Customer Identity and Access Management) solution offering REST APIs for passkey and WebAuthn authentication, fraud detection and risk-based access control, identity orchestration, identity verification, and user journey manageme…
+  api_count: 7
   score_band: strong
-  score_composite: 63.0
+  score_composite: 62.6
   shared: 1
 - slug: facets
   name: Facets
@@ -85,19 +92,12 @@ providers:
   score_band: strong
   score_composite: 60.2
   shared: 1
-- slug: transmit-security
-  name: Transmit Security
-  description: Transmit Security provides the Mosaic platform, a comprehensive CIAM (Customer Identity and Access Management) solution offering REST APIs for passkey and WebAuthn authentication, fraud detection and risk-based access control, identity orchestration, identity verification, and user journey manageme…
-  api_count: 7
-  score_band: strong
-  score_composite: 59.9
-  shared: 1
 - slug: netcracker
   name: Netcracker
   description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
   api_count: 4
   score_band: strong
-  score_composite: 57.4
+  score_composite: 57.9
   shared: 1
 - slug: hatchet
   name: Hatchet
@@ -118,7 +118,7 @@ providers:
   description: Prefect is a Python-native workflow orchestration tool for building, scheduling, and monitoring data pipelines with fault tolerance. Prefect provides a hybrid execution model where the cloud control plane coordinates workflows while code and data remain in customer infrastructure, offering both a m…
   api_count: 1
   score_band: strong
-  score_composite: 54.6
+  score_composite: 55.0
   shared: 1
 - slug: ballerina
   name: Ballerina
@@ -169,6 +169,13 @@ providers:
   score_band: developing
   score_composite: 48.3
   shared: 1
+- slug: apache-airflow
+  name: Apache Airflow
+  description: Apache Airflow is an open-source platform to programmatically author, schedule, and monitor workflows, developed by the Apache Software Foundation. It allows you to define workflows as Directed Acyclic Graphs (DAGs) in Python code, making them maintainable, versionable, testable, and collaborative.…
+  api_count: 27
+  score_band: developing
+  score_composite: 48.1
+  shared: 1
 - slug: workday-extend
   name: Workday Extend
   description: Workday Extend is a platform that enables developers to build custom applications that integrate seamlessly with Workday. It provides APIs, development tools, and a runtime environment for creating tailored solutions that extend Workday's core functionality.
@@ -182,13 +189,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 47.8
-  shared: 1
-- slug: apache-airflow
-  name: Apache Airflow
-  description: Apache Airflow is an open-source platform to programmatically author, schedule, and monitor workflows, developed by the Apache Software Foundation. It allows you to define workflows as Directed Acyclic Graphs (DAGs) in Python code, making them maintainable, versionable, testable, and collaborative.…
-  api_count: 27
-  score_band: developing
-  score_composite: 47.6
   shared: 1
 - slug: polyapi
   name: PolyAPI
@@ -223,14 +223,14 @@ provider_slugs:
 - microsoft-azure-data-factory
 - cohesity
 - workato
-- bonitasoft
 - uipath
-- socure
+- bonitasoft
 - talend
+- socure
+- transmit-security
 - facets
 - inngest
 - intersight
-- transmit-security
 - netcracker
 - hatchet
 - tower
@@ -242,9 +242,9 @@ provider_slugs:
 - choreo
 - cisco-crosswork
 - fyno
+- apache-airflow
 - workday-extend
 - ansible
-- apache-airflow
 - polyapi
 - cutover
 - ansible-playbooks
@@ -306,12 +306,12 @@ provider_slugs:
 - ipaas
 - elasticbox
 related:
+- slug: ai-automation
+  name: AI Automation
+  shared: 4
 - slug: management
   name: Management
   shared: 4
-- slug: ai-automation
-  name: AI Automation
-  shared: 3
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 3
@@ -327,8 +327,8 @@ related:
 overview: 'Orchestration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [orchestration.apievangelist.com](https://orchestration.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Tray.ai, Azure Data Factory, Cohesity, Workato, Bonitasoft, UiPath, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Tray.ai, Azure Data Factory, Cohesity, Workato, UiPath, Bonitasoft, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, AI Automation, Embedded iPaaS, and Workflow Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: AI Automation, Management, Embedded iPaaS, and Workflow Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

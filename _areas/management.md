@@ -13,77 +13,84 @@ providers:
   description: SnapLogic provides an Agentic Integration and Applied AI Platform that securely connects applications, data, APIs and AI agents across cloud, on‑premise and hybrid environments for enterprises. The platform offers visual ETL/ELT, no‑code iPaaS, API management, legacy modernization tools, and govern…
   api_count: 1
   score_band: strong
-  score_composite: 59.6
+  score_composite: 60.3
   shared: 2
 - slug: wso2
   name: WSO2
   description: WSO2 API Manager is an open-source API management platform supporting REST, SOAP, and GraphQL with flexible hybrid deployment. It provides a unified control plane for managing APIs, AI models, and agents across on-premises, hybrid, and cloud environments. WSO2 is recognized as a Leader in the Forre…
   api_count: 7
   score_band: exemplar
-  score_composite: 79.9
-  shared: 1
-- slug: microsoft-azure
-  name: Microsoft Azure
-  description: Microsoft Azure is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through Microsoft-managed data centers.
-  api_count: 697
-  score_band: exemplar
-  score_composite: 76.2
+  score_composite: 83.1
   shared: 1
 - slug: jitterbit
   name: Jitterbit
   description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
   api_count: 1
   score_band: exemplar
-  score_composite: 74.0
+  score_composite: 78.3
   shared: 1
-- slug: microsoft-azure-api-management
-  name: Microsoft Azure API Management
-  description: Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments. It is composed of an API gateway (data plane), a management plane, and a developer portal, and supports the complete API lifecycle for publishing, securing, monitoring, and transforming APIs…
-  api_count: 1
+- slug: microsoft-azure
+  name: Microsoft Azure
+  description: Microsoft Azure is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through Microsoft-managed data centers.
+  api_count: 697
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 76.7
   shared: 1
 - slug: apigee
   name: Apigee
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 5
   score_band: exemplar
-  score_composite: 70.8
+  score_composite: 73.1
   shared: 1
 - slug: ibm
   name: IBM
   description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and governance in the AI era. The company targets organizations s…
   api_count: 1
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 71.3
+  shared: 1
+- slug: microsoft-azure-api-management
+  name: Microsoft Azure API Management
+  description: Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments. It is composed of an API gateway (data plane), a management plane, and a developer portal, and supports the complete API lifecycle for publishing, securing, monitoring, and transforming APIs…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 70.4
   shared: 1
 - slug: boomi
   name: Boomi
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 3
   score_band: exemplar
-  score_composite: 67.6
+  score_composite: 68.3
   shared: 1
 - slug: workato
   name: Workato
   description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
   api_count: 4
   score_band: exemplar
-  score_composite: 67.2
+  score_composite: 67.9
   shared: 1
 - slug: gravitee
   name: Gravitee
   description: Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kubernetes Operator, and a new AI Agent Management suite with na…
   api_count: 2
-  score_band: strong
-  score_composite: 65.2
+  score_band: exemplar
+  score_composite: 67.3
   shared: 1
 - slug: tyk
   name: Tyk
   description: Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.
   api_count: 4
   score_band: strong
-  score_composite: 64.0
+  score_composite: 66.1
+  shared: 1
+- slug: talend
+  name: Talend
+  description: Talend (now part of Qlik) provides data integration, quality, and API management capabilities through cloud-native APIs for ETL, data pipelines, and application integration. The Qlik Talend Cloud platform exposes REST APIs for orchestrating tasks and plans, executing data integration jobs, managing…
+  api_count: 17
+  score_band: strong
+  score_composite: 64.1
   shared: 1
 - slug: google-cloud-platform
   name: Google Cloud Platform
@@ -92,19 +99,26 @@ providers:
   score_band: strong
   score_composite: 63.4
   shared: 1
-- slug: talend
-  name: Talend
-  description: Talend (now part of Qlik) provides data integration, quality, and API management capabilities through cloud-native APIs for ETL, data pipelines, and application integration. The Qlik Talend Cloud platform exposes REST APIs for orchestrating tasks and plans, executing data integration jobs, managing…
-  api_count: 17
+- slug: celigo
+  name: Celigo
+  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
+  api_count: 1
   score_band: strong
-  score_composite: 63.0
+  score_composite: 61.7
   shared: 1
 - slug: zuplo
   name: Zuplo
   description: Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.
   api_count: 1
   score_band: strong
-  score_composite: 62.3
+  score_composite: 59.6
+  shared: 1
+- slug: axway
+  name: Axway
+  description: Axway provides API management, integration, and security solutions enabling organizations to connect, secure, and manage APIs across hybrid IT environments. Axway offers the Amplify platform for API management and a range of integration and security products for enterprises.
+  api_count: 1
+  score_band: strong
+  score_composite: 58.5
   shared: 1
 - slug: general-services-administration
   name: General Services Administration
@@ -113,33 +127,26 @@ providers:
   score_band: strong
   score_composite: 58.5
   shared: 1
-- slug: celigo
-  name: Celigo
-  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
+- slug: traefik
+  name: Traefik Labs
+  description: Traefik Labs builds cloud-native traffic and API infrastructure - the open-source Traefik Proxy (an ingress controller, reverse proxy, and load balancer for Kubernetes, Docker, Nomad, ECS, Consul, and bare metal), plus the commercial Traefik Hub product line covering API Gateway, API Management, AI…
   api_count: 1
   score_band: strong
-  score_composite: 58.1
+  score_composite: 58.2
   shared: 1
 - slug: netcracker
   name: Netcracker
   description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
   api_count: 4
   score_band: strong
-  score_composite: 57.4
+  score_composite: 57.9
   shared: 1
-- slug: traefik
-  name: Traefik Labs
-  description: Traefik Labs builds cloud-native traffic and API infrastructure - the open-source Traefik Proxy (an ingress controller, reverse proxy, and load balancer for Kubernetes, Docker, Nomad, ECS, Consul, and bare metal), plus the commercial Traefik Hub product line covering API Gateway, API Management, AI…
+- slug: mulesoft
+  name: MuleSoft
+  description: MuleSoft Anypoint Platform is an enterprise integration and API management platform offering a comprehensive suite of tools including an API gateway, design center, exchange marketplace, and robust monitoring for hybrid deployments. It enables organizations to connect applications, data, and device…
   api_count: 1
   score_band: strong
-  score_composite: 57.0
-  shared: 1
-- slug: axway
-  name: Axway
-  description: Axway provides API management, integration, and security solutions enabling organizations to connect, secure, and manage APIs across hybrid IT environments. Axway offers the Amplify platform for API management and a range of integration and security products for enterprises.
-  api_count: 1
-  score_band: strong
-  score_composite: 56.1
+  score_composite: 56.2
   shared: 1
 - slug: fusio
   name: Fusio
@@ -148,17 +155,17 @@ providers:
   score_band: strong
   score_composite: 55.9
   shared: 1
+- slug: frends
+  name: Frends
+  description: Frends provides a European AI‑augmented integration platform (iPaaS) that combines workflow automation, API management, data and application integration, and AI orchestration on a low‑code environment. It is targeted at enterprise customers across industries that need to connect legacy systems, ERP…
+  api_count: 2
+  score_band: strong
+  score_composite: 55.2
+  shared: 1
 - slug: amuncore
   name: AmunCore
   description: AmunCore turns a database into a secure REST API without writing a backend. You connect a database, pick tables, and endpoints go live with routing, authentication, validation, pagination, joins, errors, logs and docs already handled — the layer between a database and HTTP that would otherwise be a…
   api_count: 2
-  score_band: strong
-  score_composite: 54.8
-  shared: 1
-- slug: mulesoft
-  name: MuleSoft
-  description: MuleSoft Anypoint Platform is an enterprise integration and API management platform offering a comprehensive suite of tools including an API gateway, design center, exchange marketplace, and robust monitoring for hybrid deployments. It enables organizations to connect applications, data, and device…
-  api_count: 1
   score_band: strong
   score_composite: 54.8
   shared: 1
@@ -175,6 +182,13 @@ providers:
   api_count: 11
   score_band: developing
   score_composite: 53.0
+  shared: 1
+- slug: broadcom
+  name: Broadcom
+  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
+  api_count: 3
+  score_band: developing
+  score_composite: 51.0
   shared: 1
 - slug: red-hat-3scale
   name: Red Hat 3scale
@@ -204,45 +218,33 @@ providers:
   score_band: developing
   score_composite: 50.3
   shared: 1
-- slug: google-cloud-api-gateway
-  name: Google Cloud API Gateway
-  description: Google Cloud API Gateway enables you to provide secure access to your backend services through a well-defined REST API that is consistent across all of your services. It is a fully managed, pay-per-use gateway designed for serverless workloads, supporting Cloud Functions, Cloud Run, and App Engine…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.0
-  shared: 1
-- slug: swaggerhub
-  name: SwaggerHub
-  description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.0, OpenAPI 3.0, OpenAPI 3.1, and AsyncAPI specifications. Th…
-  api_count: 2
-  score_band: developing
-  score_composite: 50.0
-  shared: 1
 provider_slugs:
 - snaplogic
 - wso2
-- microsoft-azure
 - jitterbit
-- microsoft-azure-api-management
+- microsoft-azure
 - apigee
 - ibm
+- microsoft-azure-api-management
 - boomi
 - workato
 - gravitee
 - tyk
-- google-cloud-platform
 - talend
-- zuplo
-- general-services-administration
+- google-cloud-platform
 - celigo
-- netcracker
-- traefik
+- zuplo
 - axway
-- fusio
-- amuncore
+- general-services-administration
+- traefik
+- netcracker
 - mulesoft
+- fusio
+- frends
+- amuncore
 - oracle-integration
 - wundergraph
+- broadcom
 - red-hat-3scale
 - lunar
 - elva
@@ -252,17 +254,16 @@ provider_slugs:
 - microsoft-azure-integration-services
 - sap-integration-suite
 - amazon-systems-manager
-- broadcom
 - apinizer
 - dell-servers
 - apiman
 - tibco
 - apitoolkit
 - google-cloud-endpoints
-- frends
 - rapidapi
 - reqkey
 - sap-api-management
+- sensedia
 - grafbase
 - ibm-api-connect
 - blue-yonder
@@ -272,7 +273,6 @@ provider_slugs:
 - amazon-appsync
 - apishare
 - apiwiz
-- sensedia
 - stellate
 - ca
 - bettermanager
@@ -289,15 +289,15 @@ related:
 - slug: gateway
   name: Gateway
   shared: 9
+- slug: embedded-ipaas
+  name: Embedded iPaaS
+  shared: 7
 - slug: portal
   name: Portal
   shared: 7
-- slug: embedded-ipaas
-  name: Embedded iPaaS
-  shared: 6
 - slug: ipaas
   name: iPaaS
-  shared: 6
+  shared: 7
 - slug: monetization
   name: Monetization
   shared: 4
@@ -307,8 +307,8 @@ related:
 overview: 'Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [management.apievangelist.com](https://management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including SnapLogic, WSO2, Microsoft Azure, Jitterbit, Microsoft Azure API Management, Apigee, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including SnapLogic, WSO2, Jitterbit, Microsoft Azure, Apigee, IBM, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Gateway, Portal, Embedded iPaaS, and iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Gateway, Embedded iPaaS, Portal, and iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

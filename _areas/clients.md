@@ -13,7 +13,7 @@ providers:
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 1
   score_band: developing
-  score_composite: 53.9
+  score_composite: 50.9
   shared: 1
 - slug: apollo-graphql
   name: Apollo GraphQL
@@ -165,9 +165,6 @@ related:
   shared: 1
 - slug: orchestration
   name: Orchestration
-  shared: 1
-- slug: testing
-  name: Testing
   shared: 1
 overview: 'Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [clients.apievangelist.com](https://clients.apievangelist.com).
 

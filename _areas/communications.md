@@ -6,8 +6,22 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 175
+provider_count: 176
 providers:
+- slug: twilio
+  name: Twilio
+  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
+  api_count: 89
+  score_band: exemplar
+  score_composite: 88.5
+  shared: 1
+- slug: telnyx
+  name: Telnyx
+  description: Telnyx is a carrier-owned, private-IP cloud communications and AI infrastructure platform. Its REST API (api.telnyx.com/v2, ~1,400 operations) covers programmable voice and SIP trunking, SMS/MMS/RCS/WhatsApp messaging, email, fax, phone numbers and porting, IoT SIM and private wireless, networking,…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 87.6
+  shared: 1
 - slug: nylas
   name: Nylas
   description: Nylas connects your application to every email inbox and calendar in the world. The Nylas v3 platform provides REST APIs for email, calendar, contacts, scheduling, meeting notetaking, authentication, and administration across Google, Microsoft, Exchange, iCloud, Yahoo and any IMAP provider. Officia…
@@ -18,16 +32,9 @@ providers:
 - slug: infobip
   name: Infobip
   description: Infobip is a global communications platform as a service (CPaaS) provider headquartered in Vodnjan, Croatia, and is Croatia's largest technology company. It sells programmable messaging, voice, video, email and customer engagement APIs on top of direct connections into mobile network operators worl…
-  api_count: 48
+  api_count: 51
   score_band: exemplar
-  score_composite: 82.4
-  shared: 1
-- slug: telnyx
-  name: Telnyx
-  description: Telnyx is a private‑IP cloud communications platform that provides a comprehensive suite of real‑time communications APIs. It enables developers to embed voice calling, SMS, MMS, fax, number management, IoT SIM connectivity, AI inference, and authentication capabilities into applications. Telnyx of…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 79.6
+  score_composite: 84.9
   shared: 1
 - slug: amazon-pinpoint
   name: Amazon Pinpoint
@@ -36,19 +43,26 @@ providers:
   score_band: exemplar
   score_composite: 79.4
   shared: 1
-- slug: twilio
-  name: Twilio
-  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
-  api_count: 40
-  score_band: exemplar
-  score_composite: 77.8
-  shared: 1
 - slug: leadping
   name: Leadping
   description: Leadping is a lead-management and responsible-outreach platform for teams that need to move a new inbound lead from source to first touch without stitching together separate tools. It captures leads from approved sources, routes and assigns them, runs follow-up automations, sends SMS and MMS, place…
   api_count: 1
   score_band: exemplar
   score_composite: 75.4
+  shared: 1
+- slug: telesign
+  name: Telesign
+  description: Telesign provides a comprehensive suite of communications and security APIs enabling businesses to verify phone numbers, send SMS, omnichannel and voice messages, and assess fraud risk. The developer portal publishes 22 OpenAPI contracts (65 operations) covering SMS Verify, Voice Verify, Silent Ver…
+  api_count: 28
+  score_band: exemplar
+  score_composite: 73.4
+  shared: 1
+- slug: sinch
+  name: Sinch
+  description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
+  api_count: 22
+  score_band: exemplar
+  score_composite: 71.5
   shared: 1
 - slug: loops
   name: Loops
@@ -57,12 +71,12 @@ providers:
   score_band: exemplar
   score_composite: 71.4
   shared: 1
-- slug: telesign
-  name: Telesign
-  description: Telesign provides a comprehensive suite of communications and security APIs enabling businesses to verify phone numbers, send SMS, omnichannel and voice messages, and assess fraud risk. The developer portal publishes 22 OpenAPI contracts (65 operations) covering SMS Verify, Voice Verify, Silent Ver…
-  api_count: 28
+- slug: vonage
+  name: Vonage
+  description: Vonage (part of Ericsson) provides cloud communications APIs for voice, SMS, messaging, video, and verification. The Vonage API platform enables businesses to embed communication capabilities into applications including voice calls, SMS, multi-channel messaging (WhatsApp, Messenger, Viber, RCS), vi…
+  api_count: 44
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 69.7
   shared: 1
 - slug: smtp2go
   name: SMTP2GO
@@ -78,12 +92,12 @@ providers:
   score_band: exemplar
   score_composite: 68.9
   shared: 1
-- slug: sinch
-  name: Sinch
-  description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
+- slug: webex
+  name: Webex
+  description: Cisco Webex is a comprehensive collaboration platform offering APIs for messaging, meetings, calling, devices, and contact center workflows. The Webex Developer Platform enables developers to build integrations, bots, embedded apps, and automations using REST APIs, SDKs, and webhooks. Webex support…
   api_count: 10
   score_band: exemplar
-  score_composite: 68.3
+  score_composite: 68.6
   shared: 1
 - slug: zoom-phone
   name: Zoom Phone
@@ -120,12 +134,12 @@ providers:
   score_band: strong
   score_composite: 65.3
   shared: 1
-- slug: webex
-  name: Webex
-  description: Cisco Webex is a comprehensive collaboration platform offering APIs for messaging, meetings, calling, devices, and contact center workflows. The Webex Developer Platform enables developers to build integrations, bots, embedded apps, and automations using REST APIs, SDKs, and webhooks. Webex support…
-  api_count: 10
+- slug: bandwidth
+  name: Bandwidth
+  description: Bandwidth is a leading cloud-based communications platform providing voice, messaging, emergency calling, phone number management, multi-factor authentication, and toll-free verification APIs. Built on Bandwidth's own Tier 1 network, the platform delivers enterprise-grade reliability for CPaaS appl…
+  api_count: 3
   score_band: strong
-  score_composite: 63.8
+  score_composite: 65.0
   shared: 1
 - slug: parcellab
   name: parcelLab
@@ -140,27 +154,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 62.9
-  shared: 1
-- slug: bandwidth
-  name: Bandwidth
-  description: Bandwidth is a leading cloud-based communications platform providing voice, messaging, emergency calling, phone number management, multi-factor authentication, and toll-free verification APIs. Built on Bandwidth's own Tier 1 network, the platform delivers enterprise-grade reliability for CPaaS appl…
-  api_count: 3
-  score_band: strong
-  score_composite: 62.7
-  shared: 1
-- slug: saperly
-  name: Saperly
-  description: 'Saperly is the phone carrier for AI agents: one API call gives an agent a real phone number with inbound and outbound voice and SMS, routing to a hosted in-network voice agent or to your own runtime (manual mode), and TCPA compliance enforced in the carrier layer — AI disclosure, consent records, 1…'
-  api_count: 3
-  score_band: strong
-  score_composite: 62.7
-  shared: 1
-- slug: vonage
-  name: Vonage
-  description: Vonage (part of Ericsson) provides cloud communications APIs for voice, SMS, messaging, video, and verification. The Vonage API platform enables businesses to embed communication capabilities into applications including voice calls, SMS, multi-channel messaging (WhatsApp, Messenger, Viber, RCS), vi…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.2
   shared: 1
 - slug: the-mobile-first-company
   name: The Mobile First Company
@@ -204,6 +197,20 @@ providers:
   score_band: strong
   score_composite: 58.6
   shared: 1
+- slug: sonetel
+  name: Sonetel
+  description: Sonetel provides business phone numbers and communication services for entrepreneurs and small businesses, offering local phone numbers in 78 countries that ring in the Sonetel app for iPhone and Android or forward to any phone worldwide, with SMS on some number types, call recording, AI call summa…
+  api_count: 52
+  score_band: strong
+  score_composite: 58.3
+  shared: 1
+- slug: saperly
+  name: Saperly
+  description: 'Saperly is the phone carrier for AI agents: one API call gives an agent a real phone number with inbound and outbound voice and SMS, routing to a hosted in-network voice agent or to your own runtime (manual mode), and TCPA compliance enforced in the carrier layer — AI disclosure, consent records, 1…'
+  api_count: 3
+  score_band: strong
+  score_composite: 57.7
+  shared: 1
 - slug: kixie
   name: Kixie
   description: Kixie is a Los Angeles based sales-engagement and revenue-communications platform built around PowerCall, a multi-line power dialer, business phone service and SMS/MMS product that plugs bi-directionally into HubSpot, Salesforce, Pipedrive, Zoho and GoHighLevel. Its public developer surface is a sm…
@@ -211,42 +218,36 @@ providers:
   score_band: strong
   score_composite: 57.6
   shared: 1
-- slug: kudosity
-  name: Kudosity
-  description: Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, l…
-  api_count: 2
-  score_band: strong
-  score_composite: 57.6
-  shared: 1
 provider_slugs:
+- twilio
+- telnyx
 - nylas
 - infobip
-- telnyx
 - amazon-pinpoint
-- twilio
 - leadping
-- loops
 - telesign
+- sinch
+- loops
+- vonage
 - smtp2go
 - mailboxlayer
-- sinch
+- webex
 - zoom-phone
 - gotowebinar
 - signalwire
 - 8x8
 - orange-business
-- webex
+- bandwidth
 - parcellab
 - hustle
-- bandwidth
-- saperly
-- vonage
 - the-mobile-first-company
 - spruce-health
 - ringcentral
 - entergram
 - zavu
 - weave
+- sonetel
+- saperly
 - kixie
 - kudosity
 - mailersend
@@ -264,16 +265,17 @@ provider_slugs:
 - frontapp
 - veritus
 - truecaller
+- mitto-ch
 - fyno
 - aptly
 - discord
 - phone-com
+- bird
 - commsharbor
 - nextiva
 - beeper
 - nfon
 - zoho-cliq
-- bird
 - kumospace
 - cisco-webex-meetings
 - agentphone
@@ -291,7 +293,6 @@ provider_slugs:
 - confrere
 - smsapi
 - truvideo
-- mitto-ch
 - clicksend
 - sobot
 - muck-rack
@@ -410,7 +411,7 @@ related:
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Nylas, Infobip, Telnyx, Amazon Pinpoint, Twilio, Leadping, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Telnyx, Nylas, Infobip, Amazon Pinpoint, Leadping, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Authentication, AI Automation, Agent Skills, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'

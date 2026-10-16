@@ -13,7 +13,7 @@ providers:
   description: Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agen…
   api_count: 2
   score_band: exemplar
-  score_composite: 73.2
+  score_composite: 73.8
   shared: 1
 - slug: calico
   name: Calico

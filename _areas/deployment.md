@@ -13,7 +13,7 @@ providers:
   description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11), the self-managed/PaaS platform, and OutSystems Developer Clo…
   api_count: 14
   score_band: exemplar
-  score_composite: 75.8
+  score_composite: 81.2
   shared: 1
 - slug: laravel
   name: Laravel
@@ -28,6 +28,13 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 66.5
+  shared: 1
+- slug: mendix
+  name: Mendix
+  description: Mendix, a Siemens company, is an enterprise low-code application development platform for designing, building, deploying, and operating multi-experience applications across web, mobile, and conversational interfaces. The platform spans Studio Pro modeling, the Mendix Cloud and private cloud runtime…
+  api_count: 2
+  score_band: strong
+  score_composite: 64.1
   shared: 1
 - slug: koyeb
   name: Koyeb
@@ -71,12 +78,12 @@ providers:
   score_band: strong
   score_composite: 58.4
   shared: 1
-- slug: mendix
-  name: Mendix
-  description: Mendix, a Siemens company, is an enterprise low-code application development platform for designing, building, deploying, and operating multi-experience applications across web, mobile, and conversational interfaces. The platform spans Studio Pro modeling, the Mendix Cloud and private cloud runtime…
-  api_count: 2
+- slug: aws-app-runner
+  name: AWS App Runner
+  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
+  api_count: 16
   score_band: strong
-  score_composite: 57.7
+  score_composite: 57.1
   shared: 1
 - slug: amazon-codedeploy
   name: Amazon CodeDeploy
@@ -84,13 +91,6 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 56.8
-  shared: 1
-- slug: aws-app-runner
-  name: AWS App Runner
-  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
-  api_count: 16
-  score_band: strong
-  score_composite: 56.0
   shared: 1
 - slug: nuon
   name: Nuon
@@ -209,7 +209,7 @@ providers:
   description: Vellum AI is an LLM development platform that helps product and engineering teams build, evaluate, deploy, and monitor LLM-powered applications. The platform centers on prompt engineering, a visual Workflows builder for agentic and multi-step pipelines, evaluation suites with dataset management, re…
   api_count: 1
   score_band: developing
-  score_composite: 40.9
+  score_composite: 40.7
   shared: 1
 - slug: spocket
   name: Spocket
@@ -222,15 +222,15 @@ provider_slugs:
 - outsystems
 - laravel
 - databricks-asset-bundles
+- mendix
 - koyeb
 - raygun
 - upsun
 - vercel
 - aptible
 - platform.sh
-- mendix
-- amazon-codedeploy
 - aws-app-runner
+- amazon-codedeploy
 - nuon
 - release
 - render
@@ -304,7 +304,7 @@ related:
 overview: 'Deployment is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [deployment.apievangelist.com](https://deployment.apievangelist.com).
 
 
-  30 providers on the network work in this area, including OutSystems, Laravel, Databricks Asset Bundles, Koyeb, Raygun, Upsun, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including OutSystems, Laravel, Databricks Asset Bundles, Mendix, Koyeb, Raygun, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Containers, Serverless, Gateway, and Command Line Interface. Browse every area at [areas.apis.io](https://apis.io/areas/).'

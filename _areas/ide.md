@@ -27,14 +27,14 @@ providers:
   description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
   api_count: 1
   score_band: strong
-  score_composite: 59.6
+  score_composite: 62.0
   shared: 1
 - slug: jetbrains
   name: JetBrains
   description: JetBrains is a software development company that provides integrated development environments, CI/CD tools, issue tracking, and team collaboration platforms for software developers. Their product suite includes IntelliJ IDEA, TeamCity, YouTrack, Space, Hub, and the JetBrains Marketplace, all of whi…
   api_count: 5
   score_band: strong
-  score_composite: 55.0
+  score_composite: 57.3
   shared: 1
 - slug: choreo
   name: Choreo

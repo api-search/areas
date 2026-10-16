@@ -6,7 +6,7 @@ description: An index of microservices architecture frameworks, service discover
 area_url: https://microservices.apievangelist.com
 area_host: microservices.apievangelist.com
 icon: https://microservices.apievangelist.com/icon-thumb.png
-provider_count: 102
+provider_count: 104
 providers:
 - slug: datadog-apm
   name: Datadog APM
@@ -20,7 +20,7 @@ providers:
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 5
   score_band: exemplar
-  score_composite: 70.8
+  score_composite: 73.1
   shared: 1
 - slug: nvidia-nim
   name: NVIDIA NIM
@@ -48,6 +48,13 @@ providers:
   description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
   api_count: 7
   score_band: strong
+  score_composite: 58.5
+  shared: 1
+- slug: pactflow
+  name: PactFlow
+  description: PactFlow provides a comprehensive contract testing platform that enables developers and QA teams to create, verify, and maintain consumer-driven contracts for APIs and microservices. Built on the Pact framework and backed by SmartBear, PactFlow offers hosted Pact Broker services, CI/CD integrations…
+  api_count: 8
+  score_band: strong
   score_composite: 58.0
   shared: 1
 - slug: aws-app-runner
@@ -55,7 +62,7 @@ providers:
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
   api_count: 16
   score_band: strong
-  score_composite: 56.0
+  score_composite: 57.1
   shared: 1
 - slug: signadot
   name: Signadot
@@ -77,6 +84,13 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 52.5
+  shared: 1
+- slug: folio
+  name: FOLIO
+  description: FOLIO (Future of Libraries is Open) is an open source library services platform (LSP) built by a community of libraries, developers and vendors. Developer documentation and an API reference are published on the FOLIO developer portal (dev.folio.org), user documentation at docs.folio.org, and source…
+  api_count: 204
+  score_band: developing
+  score_composite: 51.1
   shared: 1
 - slug: amazon-vpc-lattice
   name: Amazon VPC Lattice
@@ -110,13 +124,6 @@ providers:
   name: Lumigo
   description: Lumigo is an observability and troubleshooting platform for microservices and serverless environments. It provides distributed tracing, logs, and metrics with automatic, no-code instrumentation for AWS Lambda, Amazon ECS, AWS AppSync, API Gateway, Kubernetes, and OpenTelemetry workloads. Lumigo cap…
   api_count: 1
-  score_band: developing
-  score_composite: 47.7
-  shared: 1
-- slug: pactflow
-  name: PactFlow
-  description: PactFlow provides a comprehensive contract testing platform that enables developers and QA teams to create, verify, and maintain consumer-driven contracts for APIs and microservices. Built on the Pact framework and backed by SmartBear, PactFlow offers hosted Pact Broker services, CI/CD integrations…
-  api_count: 8
   score_band: developing
   score_composite: 47.7
   shared: 1
@@ -211,13 +218,6 @@ providers:
   score_band: developing
   score_composite: 41.9
   shared: 1
-- slug: docker
-  name: Docker
-  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
-  api_count: 1
-  score_band: developing
-  score_composite: 41.1
-  shared: 1
 provider_slugs:
 - datadog-apm
 - apigee
@@ -225,16 +225,17 @@ provider_slugs:
 - azure-container-apps
 - amazon-sqs
 - websphere
+- pactflow
 - aws-app-runner
 - signadot
 - aws-app-mesh
 - encore-dev
+- folio
 - amazon-vpc-lattice
 - aws-x-ray
 - amazon-fargate
 - zeebe
 - lumigo
-- pactflow
 - polyapi
 - apollo-config
 - mist-ai
@@ -289,6 +290,7 @@ provider_slugs:
 - micronaut
 - alibaba-sentinel
 - kitex
+- graftcode
 - open-service-mesh
 - netflix-eureka
 - resilience4j
@@ -337,9 +339,9 @@ related:
 - slug: serverless
   name: Serverless
   shared: 2
-- slug: aiops
-  name: AIOps
-  shared: 1
+- slug: testing
+  name: Testing
+  shared: 2
 overview: 'Microservices is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [microservices.apievangelist.com](https://microservices.apievangelist.com).
 
 

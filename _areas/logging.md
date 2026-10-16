@@ -13,7 +13,7 @@ providers:
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
   api_count: 19
   score_band: exemplar
-  score_composite: 78.0
+  score_composite: 78.5
   shared: 1
 - slug: aws-lambda
   name: AWS Lambda
@@ -21,6 +21,13 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 69.8
+  shared: 1
+- slug: chronosphere
+  name: Chronosphere
+  description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 67.9
   shared: 1
 - slug: google-cloud-logging
   name: Google Cloud Logging
@@ -64,26 +71,19 @@ providers:
   score_band: strong
   score_composite: 63.6
   shared: 1
+- slug: splunk
+  name: Splunk
+  description: Splunk is a data platform that enables organizations to search, monitor, analyze, and visualize massive streams of machine-generated data across security, observability, and AI use cases. It offers solutions for security information and event management (SIEM), infrastructure monitoring, applicatio…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.6
+  shared: 1
 - slug: hyperdx
   name: HyperDX
   description: HyperDX is an open-source observability platform that unifies logs, metrics, traces, session replay and errors on top of ClickHouse and OpenTelemetry, giving engineers one place to search raw events, correlate a log line to its trace and that span to a session replay, build dashboards and run thres…
   api_count: 1
   score_band: strong
   score_composite: 62.5
-  shared: 1
-- slug: chronosphere
-  name: Chronosphere
-  description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
-  api_count: 4
-  score_band: strong
-  score_composite: 62.4
-  shared: 1
-- slug: splunk
-  name: Splunk
-  description: Splunk is a data platform that enables organizations to search, monitor, analyze, and visualize massive streams of machine-generated data across security, observability, and AI use cases. It offers solutions for security information and event management (SIEM), infrastructure monitoring, applicatio…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.5
   shared: 1
 - slug: azure-log-analytics
   name: Azure Log Analytics
@@ -221,15 +221,15 @@ providers:
 provider_slugs:
 - elk-stack
 - aws-lambda
+- chronosphere
 - google-cloud-logging
 - splunk-observability
 - grafana-loki
 - logz-io
 - fastly
 - highlight-io
-- hyperdx
-- chronosphere
 - splunk
+- hyperdx
 - azure-log-analytics
 - elastic-observability
 - lightrun
@@ -267,7 +267,7 @@ related:
   shared: 7
 - slug: monitoring
   name: Monitoring
-  shared: 5
+  shared: 6
 - slug: aiops
   name: AIOps
   shared: 3
@@ -283,7 +283,7 @@ related:
 overview: 'Logging is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [logging.apievangelist.com](https://logging.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Elastic Stack, AWS Lambda, Google Cloud Logging, Splunk Observability Cloud, Grafana Loki, Logz.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Elastic Stack, AWS Lambda, Chronosphere, Google Cloud Logging, Splunk Observability Cloud, Grafana Loki, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Observability, Monitoring, AIOps, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'

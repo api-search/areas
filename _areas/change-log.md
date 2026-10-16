@@ -27,7 +27,7 @@ providers:
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into deterministic, observable MCP servers for AI agents. Customers include…
   api_count: 1
   score_band: strong
-  score_composite: 60.6
+  score_composite: 58.5
   shared: 1
 - slug: canny
   name: Canny

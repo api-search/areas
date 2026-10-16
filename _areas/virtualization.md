@@ -20,7 +20,7 @@ providers:
   description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
   api_count: 2
   score_band: exemplar
-  score_composite: 67.4
+  score_composite: 69.7
   shared: 1
 - slug: intersight
   name: Cisco Intersight
@@ -36,19 +36,19 @@ providers:
   score_band: developing
   score_composite: 52.8
   shared: 1
+- slug: broadcom
+  name: Broadcom
+  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
+  api_count: 3
+  score_band: developing
+  score_composite: 51.0
+  shared: 1
 - slug: slide
   name: Slide
   description: Slide is a modern, security-first Business Continuity and Disaster Recovery (BCDR) platform built exclusively for Managed Service Providers (MSPs). Founded by Datto creator Austin McChord, Slide pairs on-premise Slide Box appliances with the Slide Cloud to deliver always-encrypted, block-level back…
   api_count: 1
   score_band: developing
   score_composite: 47.8
-  shared: 1
-- slug: broadcom
-  name: Broadcom
-  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
-  api_count: 3
-  score_band: developing
-  score_composite: 47.5
   shared: 1
 - slug: smol-machines
   name: Smol Machines
@@ -71,19 +71,19 @@ providers:
   score_band: developing
   score_composite: 42.3
   shared: 1
+- slug: citrix
+  name: Citrix
+  description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
+  api_count: 6
+  score_band: developing
+  score_composite: 41.8
+  shared: 1
 - slug: incus
   name: Incus
   description: Incus is a modern open source system container and virtual machine manager maintained by LinuxContainers.org as a community-led fork of Canonical's LXD. It provides a unified experience for running and managing system containers and VMs across single hosts and clusters, with image-based deployment,…
   api_count: 1
   score_band: developing
   score_composite: 41.7
-  shared: 1
-- slug: citrix
-  name: Citrix
-  description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
-  api_count: 6
-  score_band: developing
-  score_composite: 41.3
   shared: 1
 - slug: vagrant
   name: Vagrant
@@ -118,7 +118,7 @@ providers:
   description: API for managing Solaris Zones (containers) and virtualization on Oracle Solaris systems.
   api_count: 9
   score_band: thin
-  score_composite: 38.3
+  score_composite: 38.8
   shared: 1
 - slug: platform9
   name: Platform9
@@ -223,13 +223,13 @@ provider_slugs:
 - nutanix
 - intersight
 - vmware
-- slide
 - broadcom
+- slide
 - smol-machines
 - oxide-computer
 - kubevirt
-- incus
 - citrix
+- incus
 - vagrant
 - veritas-infoscale
 - vers
@@ -267,6 +267,9 @@ related:
 - slug: database
   name: Database
   shared: 1
+- slug: management
+  name: Management
+  shared: 1
 - slug: orchestration
   name: Orchestration
   shared: 1
@@ -276,8 +279,8 @@ related:
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Virtualization, Nutanix, Cisco Intersight, VMware, Slide, Broadcom, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Virtualization, Nutanix, Cisco Intersight, VMware, Broadcom, Slide, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, Database, Orchestration, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, Database, Management, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -20,7 +20,7 @@ providers:
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 25
   score_band: exemplar
-  score_composite: 80.6
+  score_composite: 81.3
   shared: 1
 - slug: amazon-dynamodb
   name: Amazon DynamoDB
@@ -41,7 +41,7 @@ providers:
   description: Prisma gives TypeScript and Node.js teams a type-safe ORM, managed serverless Postgres, and Compute for deploying apps and AI agents next to their database. The product line is Prisma ORM, Prisma Postgres, Prisma Compute, Prisma Composer, Prisma Studio, Object Store buckets and Query Insights, wire…
   api_count: 7
   score_band: exemplar
-  score_composite: 72.7
+  score_composite: 73.2
   shared: 1
 - slug: netlify
   name: Netlify
@@ -49,6 +49,13 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 71.9
+  shared: 1
+- slug: ibm
+  name: IBM
+  description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and governance in the AI era. The company targets organizations s…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 71.3
   shared: 1
 - slug: aws-api-gateway
   name: Amazon API Gateway
@@ -70,13 +77,6 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 69.4
-  shared: 1
-- slug: ibm
-  name: IBM
-  description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and governance in the AI era. The company targets organizations s…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 69.1
   shared: 1
 - slug: segmind
   name: Segmind
@@ -176,19 +176,19 @@ providers:
   score_band: strong
   score_composite: 57.6
   shared: 1
+- slug: aws-app-runner
+  name: AWS App Runner
+  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
+  api_count: 16
+  score_band: strong
+  score_composite: 57.1
+  shared: 1
 - slug: archil
   name: Archil
   description: Archil is the cloud filesystem for AI. It turns an existing object-storage bucket (Amazon S3, Google Cloud Storage, Cloudflare R2, Azure Blob, MinIO, Wasabi, Backblaze B2, DigitalOcean Spaces) into an unlimited, POSIX-compatible local disk that thousands of machines can mount at once — live, in pla…
   api_count: 1
   score_band: strong
   score_composite: 56.5
-  shared: 1
-- slug: aws-app-runner
-  name: AWS App Runner
-  description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
-  api_count: 16
-  score_band: strong
-  score_composite: 56.0
   shared: 1
 - slug: amazon-proton
   name: Amazon Proton
@@ -225,10 +225,10 @@ provider_slugs:
 - oracle-cloud
 - prisma
 - netlify
+- ibm
 - aws-api-gateway
 - aws-lambda
 - microsoft-azure-functions
-- ibm
 - segmind
 - fal-ai
 - modal-labs
@@ -243,8 +243,8 @@ provider_slugs:
 - freestyle-sh
 - amazon-efs
 - formboost
-- archil
 - aws-app-runner
+- archil
 - amazon-proton
 - cloudflare-queues
 - fermyon

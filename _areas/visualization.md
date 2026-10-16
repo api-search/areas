@@ -13,14 +13,14 @@ providers:
   description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
   api_count: 6
   score_band: exemplar
-  score_composite: 79.1
+  score_composite: 79.8
   shared: 1
 - slug: elastic
   name: Elastic
   description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
   api_count: 4
   score_band: exemplar
-  score_composite: 74.2
+  score_composite: 77.3
   shared: 1
 - slug: power-bi
   name: Power BI

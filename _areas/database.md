@@ -13,7 +13,14 @@ providers:
   description: CData Software is a leading provider of data access and connectivity solutions. Our standards-based connectors streamline data access and insulate customers from the complexities of integrating with on-premise or cloud databases, SaaS, APIs, NoSQL, and Big Data.
   api_count: 9
   score_band: exemplar
-  score_composite: 84.4
+  score_composite: 89.9
+  shared: 1
+- slug: mongodb
+  name: MongoDB
+  description: MongoDB provides a document‑model database platform that can be deployed on any cloud or on‑premises infrastructure. It offers services such as MongoDB Atlas for multi‑cloud data management, vector search, real‑time operational workloads, and tools like Compass for GUI access. The platform is used…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 86.2
   shared: 1
 - slug: appwrite
   name: Appwrite
@@ -29,19 +36,19 @@ providers:
   score_band: exemplar
   score_composite: 80.3
   shared: 1
-- slug: mongodb
-  name: MongoDB
-  description: MongoDB provides a document‑model database platform that can be deployed on any cloud or on‑premises infrastructure. It offers services such as MongoDB Atlas for multi‑cloud data management, vector search, real‑time operational workloads, and tools like Compass for GUI access. The platform is used…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 78.4
-  shared: 1
 - slug: oracle-cloud
   name: Oracle Cloud Infrastructure
   description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notificatio…
   api_count: 9
   score_band: exemplar
   score_composite: 76.9
+  shared: 1
+- slug: cockroach-labs
+  name: Cockroach Labs
+  description: Cockroach Labs is the New York-based software company that builds CockroachDB, a cloud-native, distributed, PostgreSQL-compatible SQL database. CockroachDB is offered as Cockroach Labs' fully managed cloud service (Basic, Standard, and Advanced plans) and as self-hosted software. The company provid…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 75.5
   shared: 1
 - slug: amazon-lightsail
   name: Amazon Lightsail
@@ -62,49 +69,42 @@ providers:
   description: Prisma gives TypeScript and Node.js teams a type-safe ORM, managed serverless Postgres, and Compute for deploying apps and AI agents next to their database. The product line is Prisma ORM, Prisma Postgres, Prisma Compute, Prisma Composer, Prisma Studio, Object Store buckets and Query Insights, wire…
   api_count: 7
   score_band: exemplar
-  score_composite: 72.7
-  shared: 1
-- slug: cockroach-labs
-  name: Cockroach Labs
-  description: Cockroach Labs is the New York-based software company that builds CockroachDB, a cloud-native, distributed, PostgreSQL-compatible SQL database. CockroachDB is offered as Cockroach Labs' fully managed cloud service (Basic, Standard, and Advanced plans) and as self-hosted software. The company provid…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 72.0
+  score_composite: 73.2
   shared: 1
 - slug: ibm
   name: IBM
   description: IBM offers solutions that protect identities and sensitive access for enterprise customers. Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and IBM hosts webinars on trust, identity, and governance in the AI era. The company targets organizations s…
   api_count: 1
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 71.3
   shared: 1
 - slug: couchbase
   name: Couchbase
   description: Couchbase is a distributed, document-oriented NoSQL cloud database platform that combines the flexibility of JSON, the power of SQL++ querying, and the performance of an in-memory key-value store. The Couchbase product line includes Couchbase Server (self-managed), Couchbase Capella (fully managed…
   api_count: 12
   score_band: exemplar
-  score_composite: 68.8
-  shared: 1
-- slug: amazon-neptune
-  name: Amazon Neptune
-  description: Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. It supports property graph and RDF models, with multiple query languages including Gremlin, SPARQL, and openCypher.
-  api_count: 9
-  score_band: exemplar
-  score_composite: 67.8
+  score_composite: 71.1
   shared: 1
 - slug: nutanix
   name: Nutanix
   description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
   api_count: 2
   score_band: exemplar
-  score_composite: 67.4
+  score_composite: 69.7
+  shared: 1
+- slug: amazon-neptune
+  name: Amazon Neptune
+  description: Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. It supports property graph and RDF models, with multiple query languages including Gremlin, SPARQL, and openCypher.
+  api_count: 9
+  score_band: exemplar
+  score_composite: 68.4
   shared: 1
 - slug: oracle
   name: Oracle
   description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
   api_count: 161
-  score_band: strong
-  score_composite: 66.0
+  score_band: exemplar
+  score_composite: 68.4
   shared: 1
 - slug: cloudkit
   name: Apple CloudKit
@@ -112,6 +112,20 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 65.9
+  shared: 1
+- slug: redis
+  name: Redis
+  description: Redis is an open source, in-memory data structure store used as a database, cache, message broker, and streaming engine. It supports strings, hashes, lists, sets, sorted sets, streams, JSON, and more. Redis is used by millions of developers for caching, session management, leaderboards, pub/sub mes…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.2
+  shared: 1
+- slug: neo4j
+  name: Neo4j
+  description: Neo4j is the leading graph database platform, enabling developers to build applications powered by connected data. Their developer platform provides HTTP, Query, and Aura cloud APIs alongside official drivers for Python, Java, and JavaScript, as well as a GraphQL library for rapid API development b…
+  api_count: 2
+  score_band: strong
+  score_composite: 64.8
   shared: 1
 - slug: airtable
   name: Airtable
@@ -155,19 +169,12 @@ providers:
   score_band: strong
   score_composite: 61.3
   shared: 1
-- slug: neo4j
-  name: Neo4j
-  description: Neo4j is the leading graph database platform, enabling developers to build applications powered by connected data. Their developer platform provides HTTP, Query, and Aura cloud APIs alongside official drivers for Python, Java, and JavaScript, as well as a GraphQL library for rapid API development b…
-  api_count: 2
-  score_band: strong
-  score_composite: 61.3
-  shared: 1
 - slug: pingcap
   name: PingCAP
   description: PingCAP is the company behind TiDB, an open-source, MySQL-compatible distributed SQL database built for hybrid transactional and analytical processing (HTAP), horizontal scale-out, Raft-based strong consistency, and vector search for AI workloads. PingCAP operates TiDB Cloud, the fully managed DBaa…
   api_count: 22
   score_band: strong
-  score_composite: 60.8
+  score_composite: 61.3
   shared: 1
 - slug: influxdata
   name: InfluxData
@@ -197,62 +204,56 @@ providers:
   score_band: strong
   score_composite: 59.9
   shared: 1
+- slug: yugabyte
+  name: Yugabyte
+  description: Yugabyte is the company behind YugabyteDB, an open source (Apache 2.0), PostgreSQL-compatible distributed SQL database built for cloud-native and mission-critical applications. It pairs PostgreSQL wire-compatibility (the YSQL API) and a Cassandra-inspired API (YCQL) with horizontal scalability, bui…
+  api_count: 73
+  score_band: strong
+  score_composite: 59.6
+  shared: 1
 - slug: singlestore
   name: SingleStore
   description: SingleStore is a cloud-native distributed SQL database designed for real-time analytics and mixed workloads. It offers a management API for provisioning and managing cloud workspaces, and a data API for executing SQL statements over HTTP without requiring native database drivers. SingleStore Helios…
   api_count: 2
   score_band: strong
-  score_composite: 59.8
-  shared: 1
-- slug: redis
-  name: Redis
-  description: Redis is an open source, in-memory data structure store used as a database, cache, message broker, and streaming engine. It supports strings, hashes, lists, sets, sorted sets, streams, JSON, and more. Redis is used by millions of developers for caching, session management, leaderboards, pub/sub mes…
-  api_count: 1
-  score_band: strong
-  score_composite: 59.4
-  shared: 1
-- slug: teradata
-  name: Teradata
-  description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scale. Teradata offers REST APIs for managing QueryGrid data fab…
-  api_count: 1
-  score_band: strong
-  score_composite: 59.4
+  score_composite: 59.5
   shared: 1
 provider_slugs:
 - cdata
+- mongodb
 - appwrite
 - amazon-dynamodb
-- mongodb
 - oracle-cloud
+- cockroach-labs
 - amazon-lightsail
 - clickhouse
 - prisma
-- cockroach-labs
 - ibm
 - couchbase
-- amazon-neptune
 - nutanix
+- amazon-neptune
 - oracle
 - cloudkit
+- redis
+- neo4j
 - airtable
 - notion
 - microsoft-sql-server
 - oracle-goldengate
 - amazon-keyspaces
 - amazon-rds
-- neo4j
 - pingcap
 - influxdata
 - aifordatabase
 - amazon-documentdb
 - abloatai
-- singlestore
-- redis
-- teradata
-- amazon-elasticache
 - yugabyte
+- singlestore
+- amazon-elasticache
 - bubble
 - pinecone
+- enterprisedb
+- teradata
 - tiledb
 - timescale
 - amuncore
@@ -262,15 +263,14 @@ provider_slugs:
 - adaptive-automation-technologies
 - scaleway
 - amazon-simpledb
+- oracle-database
 - ehrbase
 - render
 - neon
-- oracle-database
 - scylladb
 - startree
 - amazon-dms
 - tessell
-- enterprisedb
 - baserow
 - chroma
 - google-cloud-bigtable
@@ -451,7 +451,7 @@ related:
 overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [database.apievangelist.com](https://database.apievangelist.com).
 
 
-  30 providers on the network work in this area, including CData, Appwrite, Amazon DynamoDB, MongoDB, Oracle Cloud Infrastructure, Amazon Lightsail, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including CData, MongoDB, Appwrite, Amazon DynamoDB, Oracle Cloud Infrastructure, Cockroach Labs, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Serverless, Containers, Agents, and Authentication. Browse every area at [areas.apis.io](https://apis.io/areas/).'

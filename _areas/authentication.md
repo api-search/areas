@@ -8,6 +8,13 @@ area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
 provider_count: 384
 providers:
+- slug: twilio
+  name: Twilio
+  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
+  api_count: 89
+  score_band: exemplar
+  score_composite: 88.5
+  shared: 1
 - slug: kinde
   name: Kinde
   description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
@@ -27,7 +34,7 @@ providers:
   description: Microsoft's cloud-based identity and access management service that helps employees sign in and access resources. Azure AD provides OAuth, OpenID Connect, SAML, and other identity protocols for securing applications and managing user identities.
   api_count: 9
   score_band: exemplar
-  score_composite: 82.8
+  score_composite: 83.3
   shared: 1
 - slug: cvent
   name: Cvent
@@ -50,13 +57,6 @@ providers:
   score_band: exemplar
   score_composite: 78.5
   shared: 1
-- slug: twilio
-  name: Twilio
-  description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
-  api_count: 40
-  score_band: exemplar
-  score_composite: 77.8
-  shared: 1
 - slug: cvent-registration
   name: Cvent Registration
   description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
@@ -76,7 +76,14 @@ providers:
   description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Secur…
   api_count: 2
   score_band: exemplar
-  score_composite: 75.3
+  score_composite: 76.1
+  shared: 1
+- slug: telesign
+  name: Telesign
+  description: Telesign provides a comprehensive suite of communications and security APIs enabling businesses to verify phone numbers, send SMS, omnichannel and voice messages, and assess fraud risk. The developer portal publishes 22 OpenAPI contracts (65 operations) covering SMS Verify, Voice Verify, Silent Ver…
+  api_count: 28
+  score_band: exemplar
+  score_composite: 73.4
   shared: 1
 - slug: aembit
   name: Aembit
@@ -92,19 +99,19 @@ providers:
   score_band: exemplar
   score_composite: 72.4
   shared: 1
+- slug: clerk-com
+  name: Clerk
+  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
+  api_count: 7
+  score_band: exemplar
+  score_composite: 71.9
+  shared: 1
 - slug: authentik
   name: Authentik
   description: Authentik is an open source identity provider from Authentik Security Inc., a public benefit company, exposing a 1,193-operation REST API at /api/v3 on every self-hosted instance. The published OpenAPI covers users, groups, applications, tokens, RBAC, flows, stages, policies, property mappings, out…
   api_count: 1
   score_band: exemplar
   score_composite: 71.6
-  shared: 1
-- slug: clerk-com
-  name: Clerk
-  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
-  api_count: 7
-  score_band: exemplar
-  score_composite: 71.4
   shared: 1
 - slug: auth0
   name: Auth0
@@ -119,20 +126,6 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 70.3
-  shared: 1
-- slug: tvarka
-  name: Tvarka ATK API
-  description: A single REST API estate for Lithuanian eID authentication and qualified electronic signing (QES). The ATK API reads the Lithuanian identity card itself - physical smart-card reader or NFC phone tap - through one request, polling, webhook and metering model, and adds standalone validation, timestam…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 70.1
-  shared: 1
-- slug: telesign
-  name: Telesign
-  description: Telesign provides a comprehensive suite of communications and security APIs enabling businesses to verify phone numbers, send SMS, omnichannel and voice messages, and assess fraud risk. The developer portal publishes 22 OpenAPI contracts (65 operations) covering SMS Verify, Voice Verify, Silent Ver…
-  api_count: 28
-  score_band: exemplar
-  score_composite: 69.1
   shared: 1
 - slug: strivacity
   name: Strivacity
@@ -155,6 +148,13 @@ providers:
   score_band: exemplar
   score_composite: 67.7
   shared: 1
+- slug: tvarka
+  name: Tvarka ATK API
+  description: A single REST API estate for Lithuanian eID authentication and qualified electronic signing (QES). The ATK API reads the Lithuanian identity card itself - physical smart-card reader or NFC phone tap - through one request, polling, webhook and metering model, and adds standalone validation, timestam…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 67.6
+  shared: 1
 - slug: amazon-cognito
   name: Amazon Cognito
   description: Amazon Cognito is a fully managed AWS user identity and authentication service that adds sign-up, sign-in, and access control to web and mobile applications, scaling to millions of users. It provides User Pools for authentication (user directories, MFA, customizable auth flows) and Identity Pools f…
@@ -162,19 +162,19 @@ providers:
   score_band: exemplar
   score_composite: 67.0
   shared: 1
+- slug: cisco-xdr
+  name: Cisco XDR
+  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
+  api_count: 12
+  score_band: strong
+  score_composite: 66.1
+  shared: 1
 - slug: cvent-hospitality-cloud
   name: Cvent Hospitality Cloud
   description: Cvent Hospitality Cloud is the hotel and venue product line of the Cvent Platform. It includes the Cvent Supplier Network (the marketplace connecting event planners with hotels and venues for RFPs and bookings), Passkey (hotel room block and housing management), Venue Sourcing (venue search and dis…
   api_count: 17
   score_band: strong
   score_composite: 66.1
-  shared: 1
-- slug: cisco-xdr
-  name: Cisco XDR
-  description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
-  api_count: 12
-  score_band: strong
-  score_composite: 65.6
   shared: 1
 - slug: commerce-layer
   name: Commerce Layer
@@ -219,30 +219,30 @@ providers:
   score_composite: 64.4
   shared: 1
 provider_slugs:
+- twilio
 - kinde
 - appwrite
 - azure-ad
 - cvent
 - zoho-crm
 - convertkit
-- twilio
 - cvent-registration
 - drchrono
 - okta
+- telesign
 - aembit
 - cvent-event-cloud
-- authentik
 - clerk-com
+- authentik
 - auth0
 - ios
-- tvarka
-- telesign
 - strivacity
 - kraken
 - aweber
+- tvarka
 - amazon-cognito
-- cvent-hospitality-cloud
 - cisco-xdr
+- cvent-hospitality-cloud
 - commerce-layer
 - frontegg
 - taskfolk
@@ -254,7 +254,7 @@ provider_slugs:
 - propelauth
 - playable
 - hustle
-- zuplo
+- transmit-security
 - barndoor
 - active-directory
 - stytch
@@ -262,14 +262,15 @@ provider_slugs:
 - criteo
 - rose-rocket
 - workos
-- transmit-security
 - allegion
+- zuplo
 - etsy
 - weave
 - microsoft-entra
 - jane-app
 - appdirect
 - airtm
+- ping-identity
 - unico
 - amazon-iam
 - forgerock
@@ -305,14 +306,15 @@ provider_slugs:
 - amazon-directory-service
 - wahoo
 - cobot
+- api-market
 - 1kosmos
 - neon
-- ping-identity
 - authenticx
 - trusona
 - zitadel
 - kannkidas-de
 - dream-sports
+- prove
 - doximity
 - google-cloud-api-gateway
 - clearslide
@@ -327,24 +329,25 @@ provider_slugs:
 - authlete
 - hopae-inc
 - defakto-security
+- 1f916
 - easywebinar
 - keyo
+- cyberark
 - ory
 - clear
 - zoho-people
 - playfab
 - climate-fieldview
 - firebase
+- oracle-health
 - bluestacks
 - bokio
-- 1f916
 - aol
 - dust-identity
 - idme
 - solaris
 - buoy-health
 - nango
-- cyberark
 - cirrus-identity
 - hanko
 - klavis
@@ -354,27 +357,26 @@ provider_slugs:
 - workday-security
 - logto
 - carefluence
+- eve-online
 - guestready
 - result
 - wish
 - nomos
 - ccp-games
-- eve-online
 - anilist
 - coinlist
-- oracle-health
 - kroger
 - supabase
 - yahoo
 - butterflymx
 - google-cloud-endpoints
 - onfido
+- gadjah-mada-university
 - luminary
 - myfitnesspal
 - bitski
 - unkey
 - nhost
-- gadjah-mada-university
 - altruist
 - arccos-golf
 - kadence
@@ -395,14 +397,14 @@ provider_slugs:
 - shanghai-jiao-tong-university
 - feathery
 - nthu
+- dynamic-labs
 - scalekit
 - nuvemshop-tiendanube
+- withings
 - bullhorn
-- dynamic-labs
 - fdx
 - corbado
 - splitwise
-- withings
 - gojek
 - nudge-security
 - galxe
@@ -441,7 +443,6 @@ provider_slugs:
 - pragma
 - classlink
 - nevis
-- api-market
 - prelude-so
 - pingone
 - capital-one
@@ -453,7 +454,6 @@ provider_slugs:
 - wellfound
 - everledger
 - kakao
-- prove
 - virgil-security
 - spiffe
 - cuvva
@@ -540,6 +540,7 @@ provider_slugs:
 - trustdock
 - didi
 - dex
+- openid-connect
 - zatanna
 - eatstreet
 - hostfully
@@ -558,7 +559,6 @@ provider_slugs:
 - newcore
 - hapi
 - manifest-law
-- openid-connect
 - web3auth
 - cyral
 - magic-link
@@ -625,7 +625,7 @@ related:
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Kinde, Appwrite, Microsoft Entra ID (formerly Azure AD), Cvent, Zoho CRM, Kit, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Kinde, Appwrite, Microsoft Entra ID (formerly Azure AD), Cvent, Zoho CRM, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agents, Communications, Security, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

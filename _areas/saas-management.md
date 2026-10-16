@@ -6,14 +6,28 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 48
+provider_count: 50
 providers:
+- slug: karbonhq
+  name: Karbon
+  description: Karbon is accounting practice management software for accounting firms, built to enhance visibility, efficiency, and connectivity for a firm no matter where its people are located. Through the Karbon Developer Center (developers.karbonhq.com) it publishes a public REST API reference plus guides cov…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 74.4
+  shared: 1
 - slug: boomi
   name: Boomi
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 3
   score_band: exemplar
-  score_composite: 67.6
+  score_composite: 68.3
+  shared: 1
+- slug: monite
+  name: Monite
+  description: Monite (Monite GmbH) is an embedded finance API platform that lets neobanks and B2B SaaS platforms add invoicing, accounts payable automation, payments and related financial workflows to their own products, with a fully embeddable SDK and UI components. Its REST API (api.monite.com, with a sandbox…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 67.2
   shared: 1
 - slug: cledara
   name: Cledara
@@ -27,7 +41,7 @@ providers:
   description: SnapLogic provides an Agentic Integration and Applied AI Platform that securely connects applications, data, APIs and AI agents across cloud, on‑premise and hybrid environments for enterprises. The platform offers visual ETL/ELT, no‑code iPaaS, API management, legacy modernization tools, and govern…
   api_count: 1
   score_band: strong
-  score_composite: 59.6
+  score_composite: 60.3
   shared: 1
 - slug: lumos
   name: Lumos
@@ -50,6 +64,13 @@ providers:
   score_band: developing
   score_composite: 51.4
   shared: 1
+- slug: broadcom
+  name: Broadcom
+  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
+  api_count: 3
+  score_band: developing
+  score_composite: 51.0
+  shared: 1
 - slug: torii
   name: Torii
   description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide license and usage data, automate user onboarding and offboar…
@@ -70,13 +91,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 47.7
-  shared: 1
-- slug: broadcom
-  name: Broadcom
-  description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
-  api_count: 3
-  score_band: developing
-  score_composite: 47.5
   shared: 1
 - slug: dell-servers
   name: Dell Servers
@@ -204,31 +218,19 @@ providers:
   score_band: thin
   score_composite: 26.2
   shared: 1
-- slug: salto
-  name: Salto
-  description: Salto is an AI-powered configuration-management platform for enterprise business and IT applications. It lets teams search, analyze, compare, document, and deploy configuration changes across systems such as Salesforce, Salesforce CPQ, NetSuite, Zendesk, Jira, Confluence, Google Workspace, Okta, Mi…
-  api_count: 0
-  score_band: emerging
-  score_composite: 22.7
-  shared: 1
-- slug: beamy
-  name: Beamy
-  description: Beamy is an enterprise application-portfolio and usage-intelligence platform from Beamy SAS (Lille and Paris, France). It began as a SaaS discovery and governance product — browser-extension detection of shadow IT, SSO and ITSM integrations, spend and license tracking, security and compliance polic…
-  api_count: 1
-  score_band: emerging
-  score_composite: 18.6
-  shared: 1
 provider_slugs:
+- karbonhq
 - boomi
+- monite
 - cledara
 - snaplogic
 - lumos
 - wundergraph
 - axonius
+- broadcom
 - torii
 - zluri
 - amazon-systems-manager
-- broadcom
 - dell-servers
 - augmentt
 - g2-track
@@ -270,7 +272,7 @@ provider_slugs:
 related:
 - slug: management
   name: Management
-  shared: 3
+  shared: 4
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 2
@@ -289,7 +291,7 @@ related:
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Boomi, Cledara, SnapLogic, Lumos, WunderGraph, Axonius, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Karbon, Boomi, Monite, Cledara, SnapLogic, Lumos, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Management, Embedded iPaaS, iPaaS, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

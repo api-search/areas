@@ -85,6 +85,13 @@ providers:
   score_band: strong
   score_composite: 65.9
   shared: 1
+- slug: opentext-cybersecurity
+  name: OpenText Cybersecurity
+  description: OpenText Cybersecurity is the security business of OpenText, assembled from the Micro Focus security portfolio (Fortify application security, ArcSight threat detection and response, NetIQ identity and access management, Voltage data privacy) and the SMB/MSP brands OpenText acquired through Webroot,…
+  api_count: 2
+  score_band: strong
+  score_composite: 65.8
+  shared: 1
 - slug: singular
   name: Singular
   description: Singular (Singular Labs, Inc.) is a mobile measurement partner (MMP) and marketing analytics platform that unifies attribution, cost aggregation, fraud prevention, ad monetization, and cross-platform analytics into a single source of truth. It aggregates campaign, cost, ad-revenue, and creative dat…
@@ -141,13 +148,6 @@ providers:
   score_band: strong
   score_composite: 60.6
   shared: 1
-- slug: opentext-cybersecurity
-  name: OpenText Cybersecurity
-  description: OpenText Cybersecurity is the security business of OpenText, assembled from the Micro Focus security portfolio (Fortify application security, ArcSight threat detection and response, NetIQ identity and access management, Voltage data privacy) and the SMB/MSP brands OpenText acquired through Webroot,…
-  api_count: 2
-  score_band: strong
-  score_composite: 60.3
-  shared: 1
 - slug: apple-safari
   name: Apple Safari
   description: Apple's web browser available across macOS, iOS, and iPadOS, providing a fast, efficient, and private browsing experience with features like Intelligent Tracking Prevention, iCloud syncing, and web standards support.
@@ -183,6 +183,13 @@ providers:
   score_band: strong
   score_composite: 56.5
   shared: 1
+- slug: tabnine
+  name: Tabnine
+  description: Tabnine provides AI code completion, chat, and agentic workflows across IDEs and CLI, with strong support for SaaS, VPC, and air-gapped on-prem deployments. The Enterprise Context Engine indexes a customer's codebase, dependencies, and architecture. Tabnine's consumer surface is via IDE plugins (VS…
+  api_count: 6
+  score_band: strong
+  score_composite: 56.5
+  shared: 1
 - slug: apstal
   name: Apstal
   description: AI-first website analytics and visitor tracking platform that replaces traditional dashboards with a natural-language chatbot interface, offering conversational analytics, cookieless tracking, session replays, heatmaps, funnels, error tracking, Core Web Vitals and AI-agent traffic detection. Apstal…
@@ -211,13 +218,6 @@ providers:
   score_band: strong
   score_composite: 54.6
   shared: 1
-- slug: osano
-  name: Osano
-  description: Osano is a data privacy platform, founded in 2018 and headquartered in Austin, Texas, that helps organizations build and run privacy programs across consent management, subject rights (DSAR) automation, data mapping and discovery, privacy assessments, and vendor privacy risk management. It is a cer…
-  api_count: 4
-  score_band: strong
-  score_composite: 54.4
-  shared: 1
 provider_slugs:
 - didomi
 - swetrix
@@ -230,6 +230,7 @@ provider_slugs:
 - rybbit
 - appsflyer
 - statable-stats-api
+- opentext-cybersecurity
 - singular
 - amazon-clean-rooms
 - umami
@@ -238,12 +239,12 @@ provider_slugs:
 - inrupt
 - screenpipe
 - liveramp
-- opentext-cybersecurity
 - apple-safari
 - altr
 - sourcepoint
 - nord-security
 - datavant
+- tabnine
 - apstal
 - california-privacy-protection-agency
 - bigid
@@ -259,8 +260,8 @@ provider_slugs:
 - nym-technologies
 - fathom
 - habu
-- mine
 - iab-tech-lab
+- mine
 - trustboost-dev
 - inth
 - pimloc
@@ -275,7 +276,6 @@ provider_slugs:
 - k-id
 - sitejabber
 - quantcast
-- tabnine
 - terminal-3
 - kagi
 - opaque
@@ -330,11 +330,11 @@ provider_slugs:
 - tari
 - webai
 - aztec
-- trickybird
 - anonyome-labs
 - bearer
 - pi-hole
 - privado
+- trickybird
 - hamsa
 - intego
 - anoma

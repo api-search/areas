@@ -13,7 +13,7 @@ providers:
   description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain real‑time visibility into cloud costs, multi‑cloud and Kuberne…
   api_count: 5
   score_band: exemplar
-  score_composite: 72.3
+  score_composite: 74.4
   shared: 1
 - slug: tago-io
   name: TagoIO

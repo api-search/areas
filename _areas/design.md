@@ -13,7 +13,7 @@ providers:
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 21
   score_band: exemplar
-  score_composite: 79.6
+  score_composite: 80.2
   shared: 1
 - slug: adobe-suite
   name: Adobe Suite
@@ -71,13 +71,6 @@ providers:
   score_band: strong
   score_composite: 59.4
   shared: 1
-- slug: smartbear
-  name: SmartBear
-  description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI for API testing, PactFlow for contract testing, and other tool…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.3
-  shared: 1
 - slug: thebrief
   name: TheBrief
   description: The Brief (formerly Creatopy) is an AI-powered advertising creation platform that helps brands and agencies discover, create, launch, and optimize ads at scale. Its Ad Studio, AI agents (Discover, Create, Optimize), and native ad server generate on-brand creatives, resize a single design into 50+ a…
@@ -99,19 +92,19 @@ providers:
   score_band: strong
   score_composite: 54.3
   shared: 1
+- slug: smartbear
+  name: SmartBear
+  description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI for API testing, PactFlow for contract testing, and other tool…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.7
+  shared: 1
 - slug: apidog
   name: Apidog
   description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborativ…'
   api_count: 1
   score_band: developing
-  score_composite: 54.0
-  shared: 1
-- slug: insomnia
-  name: Insomnia
-  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
-  api_count: 1
-  score_band: developing
-  score_composite: 53.9
+  score_composite: 53.5
   shared: 1
 - slug: adobe-creative-cloud
   name: Adobe Creative Cloud
@@ -140,6 +133,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.1
+  shared: 1
+- slug: insomnia
+  name: Insomnia
+  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.9
   shared: 1
 - slug: blng
   name: Blng
@@ -211,12 +211,12 @@ providers:
   score_band: developing
   score_composite: 42.0
   shared: 1
-- slug: rapidapi
-  name: RapidAPI
-  description: RapidAPI operates the world's largest API marketplace, connecting developers to thousands of APIs through a single platform. Their developer platform provides tools for API discovery, testing, management, design, and gateway configuration, enabling both individual developers and enterprises to buil…
-  api_count: 6
+- slug: zally
+  name: Zally
+  description: Zally is an open source API linter from Zalando that validates OpenAPI 2 and 3 specifications against configurable rule sets for API design consistency. It exposes a REST API, command-line interface, and web UI for checking API designs against Zalando's RESTful API Guidelines or custom rule sets.
+  api_count: 1
   score_band: developing
-  score_composite: 41.7
+  score_composite: 41.0
   shared: 1
 provider_slugs:
 - postman
@@ -228,16 +228,16 @@ provider_slugs:
 - autodesk
 - onshape
 - savee
-- smartbear
 - thebrief
 - zeroheight
 - budgetpixel
+- smartbear
 - apidog
-- insomnia
 - adobe-creative-cloud
 - adobe-creative-suite
 - ceros
 - sssnack-com
+- insomnia
 - blng
 - swaggerhub
 - autocad
@@ -248,8 +248,8 @@ provider_slugs:
 - apiary
 - hey-api
 - zeplin
-- rapidapi
 - zally
+- rapidapi
 - api-blueprint
 - noun-project
 - acelab
@@ -369,18 +369,18 @@ related:
   shared: 6
 - slug: testing
   name: Testing
-  shared: 5
+  shared: 4
 - slug: ai-automation
   name: AI Automation
   shared: 3
-- slug: monitoring
-  name: Monitoring
-  shared: 2
 - slug: network
   name: Network
   shared: 1
 - slug: api-clients
   name: API Clients
+  shared: 1
+- slug: clients
+  name: Clients
   shared: 1
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 
@@ -388,5 +388,5 @@ overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://ap
   30 providers on the network work in this area, including Postman, Adobe Suite, Stoplight, Canva, Routebase, Figma, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Documentation, Testing, AI Automation, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Documentation, Testing, AI Automation, and Network. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

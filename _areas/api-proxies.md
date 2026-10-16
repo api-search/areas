@@ -6,7 +6,7 @@ description: An index and topic collection covering reverse-proxy and edge-proxy
 area_url: https://api-proxies.apievangelist.com
 area_host: api-proxies.apievangelist.com
 icon: https://api-proxies.apievangelist.com/icon-thumb.png
-provider_count: 16
+provider_count: 17
 providers:
 - slug: mrscraper
   name: MrScraper
@@ -29,19 +29,19 @@ providers:
   score_band: strong
   score_composite: 57.3
   shared: 1
-- slug: trueproxies
-  name: TrueProxies
-  description: 'TrueProxies, LLC (USA) sells residential and datacenter proxies (HTTP/HTTPS/SOCKS5) for developers and data teams, priced per hour, per GB or per day: unlimited-bandwidth Residential IPv4 at a chosen speed tier, GB-based Residential IPv4 with country, city, region and ASN targeting, and Datacenter…'
-  api_count: 2
-  score_band: strong
-  score_composite: 56.5
-  shared: 1
 - slug: nimbleway
   name: Nimbleway
   description: Nimble (Nimbleway) is a real-time web data intelligence platform that turns any public web page into structured, analysis-ready data at scale. Its AI-Native SDK exposes Search, Extract, Map, Crawl, SERP, Media Download, and Web Search Agents over a single REST API (https://sdk.nimbleway.com/v1), pl…
   api_count: 1
   score_band: strong
   score_composite: 55.7
+  shared: 1
+- slug: trueproxies
+  name: TrueProxies
+  description: 'TrueProxies, LLC (USA) sells residential and datacenter proxies (HTTP/HTTPS/SOCKS5) for developers and data teams, priced per hour, per GB or per day: unlimited-bandwidth Residential IPv4 at a chosen speed tier, GB-based Residential IPv4 with country, city, region and ASN targeting, and Datacenter…'
+  api_count: 2
+  score_band: strong
+  score_composite: 55.0
   shared: 1
 - slug: hyperbrowser
   name: Hyperbrowser
@@ -69,7 +69,14 @@ providers:
   description: ngrok is a unified application delivery network for developers, providing secure tunnels, ingress-as-a-service, API gateway, and AI gateway capabilities. It enables developers to expose local services on the public internet, manage edge ingress, and route traffic to AI providers without redeploying…
   api_count: 1
   score_band: developing
-  score_composite: 46.3
+  score_composite: 46.8
+  shared: 1
+- slug: shveik
+  name: shveik
+  description: 'shveik.dev runs five pay-per-call APIs built for AI agents and paid per request in stablecoins over x402 and MPP, with no account or subscription: agdata (unblocking and web data - any URL as Markdown, screenshots, transcripts, maps and social data), agproxy (residential proxy packs and raw fetch),…'
+  api_count: 10
+  score_band: developing
+  score_composite: 45.3
   shared: 1
 - slug: zenrows
   name: ZenRows
@@ -124,12 +131,13 @@ provider_slugs:
 - mrscraper
 - webscraping-ai
 - zyte
-- trueproxies
 - nimbleway
+- trueproxies
 - hyperbrowser
 - oxylabs
 - scrapingant
 - ngrok
+- shveik
 - zenrows
 - spider-cloud
 - envoy-proxy
@@ -153,7 +161,7 @@ related:
 overview: 'API Proxies is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [api-proxies.apievangelist.com](https://api-proxies.apievangelist.com).
 
 
-  16 providers on the network work in this area, including MrScraper, WebScraping.AI, Zyte, TrueProxies, Nimbleway, Hyperbrowser, and 10 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  17 providers on the network work in this area, including MrScraper, WebScraping.AI, Zyte, Nimbleway, TrueProxies, Hyperbrowser, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Scraping, API Evangelist Search, Agent Skills, and Gateway. Browse every area at [areas.apis.io](https://apis.io/areas/).'

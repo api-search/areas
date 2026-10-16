@@ -6,7 +6,7 @@ description: This is the index of workflow automation service and tooling repos 
 area_url: https://workflow-automation.apievangelist.com
 area_host: workflow-automation.apievangelist.com
 icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-provider_count: 717
+provider_count: 720
 providers:
 - slug: tray-ai
   name: Tray.ai
@@ -15,6 +15,13 @@ providers:
   score_band: exemplar
   score_composite: 89.3
   shared: 2
+- slug: jitterbit
+  name: Jitterbit
+  description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 78.3
+  shared: 2
 - slug: plunk
   name: Plunk
   description: Plunk is an open-source (AGPL-3.0) email platform for developers that unifies transactional email, marketing campaigns, contact segmentation and event-driven workflow automation behind a single REST API. It publishes its own OpenAPI 3.1.0 at docs.useplunk.com/openapi.json, declaring next-api.useplu…
@@ -22,26 +29,26 @@ providers:
   score_band: exemplar
   score_composite: 75.1
   shared: 2
-- slug: jitterbit
-  name: Jitterbit
-  description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 74.0
-  shared: 2
 - slug: zapier
   name: Zapier
   description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
   api_count: 1
   score_band: exemplar
-  score_composite: 68.9
+  score_composite: 69.8
   shared: 2
 - slug: boomi
   name: Boomi
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 3
   score_band: exemplar
-  score_composite: 67.6
+  score_composite: 68.3
+  shared: 2
+- slug: workato
+  name: Workato
+  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 67.9
   shared: 2
 - slug: servicenow
   name: ServiceNow
@@ -50,19 +57,19 @@ providers:
   score_band: exemplar
   score_composite: 67.5
   shared: 2
-- slug: workato
-  name: Workato
-  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 67.2
-  shared: 2
 - slug: uipath
   name: UiPath
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
   api_count: 6
+  score_band: exemplar
+  score_composite: 66.8
+  shared: 2
+- slug: kognitos
+  name: Kognitos
+  description: Kognitos is a neurosymbolic agentic AI platform that automates finance, accounts payable, healthcare, and IT workflows in plain English ("English as code"), positioned as deterministic agentic AI for the enterprise with zero hallucinations and full audit compliance. The platform runs on AWS, offers…
+  api_count: 2
   score_band: strong
-  score_composite: 66.3
+  score_composite: 66.2
   shared: 2
 - slug: n8n
   name: n8n
@@ -211,22 +218,16 @@ providers:
   score_band: emerging
   score_composite: 13.9
   shared: 2
-- slug: huginn
-  name: Huginn
-  description: Huginn is an open-source system for building agents that perform automated tasks online. Self-hosted agents can monitor the web, send and receive events, and trigger workflows. Each Huginn instance exposes a JSON-based HTTP interface (the Web Requests API) that lets external systems trigger scenari…
-  api_count: 2
-  score_band: emerging
-  score_composite: 12.2
-  shared: 2
 provider_slugs:
 - tray-ai
-- plunk
 - jitterbit
+- plunk
 - zapier
 - boomi
-- servicenow
 - workato
+- servicenow
 - uipath
+- kognitos
 - n8n
 - budibase
 - celonis
@@ -273,6 +274,8 @@ provider_slugs:
 - controlup
 - leadping
 - anysphere-cursor-ai
+- karbonhq
+- creatio
 - mailerlite
 - klaviyo
 - adobe-campaign
@@ -283,21 +286,22 @@ provider_slugs:
 - browserstack
 - flora-fauna
 - appsmith
+- red-hat-ansible-automation-platform
 - highlevel
 - postiz
 - aiapplyd
 - campaignmonitor
-- red-hat-ansible-automation-platform
 - cisco-xdr
+- sciencelogic
 - clay-com
 - benchmark-email
 - relmcrm-com
 - buttondown
 - cisco-catalyst-sdwan
 - videogen-io
-- creatio
 - facets
 - appsmax-rest-api-v1
+- celigo
 - windmill
 - leankit
 - autogpt
@@ -306,13 +310,12 @@ provider_slugs:
 - salesflare
 - fundamental-research-labs
 - amazon-ec2-image-builder
-- sciencelogic
+- snaplogic
 - aifordatabase
 - adobe-premiere
 - graphiant
-- dotdigital
 - juniper
-- snaplogic
+- dotdigital
 - coasty
 - augment
 - emailoctopus
@@ -320,7 +323,6 @@ provider_slugs:
 - bluma
 - trisotech
 - 1fort
-- celigo
 - superai
 - marketo
 - pipeliner
@@ -329,24 +331,25 @@ provider_slugs:
 - 3shake
 - cisco-secure-firewall
 - duvo-ai
+- level2
 - amazon-datasync
 - bubble
-- level2
+- siemens
 - avoma
 - lawmatics
 - cisco-aci
+- frends
 - mavenlink
 - b3
+- prefect
 - cobalt
 - amazon-data-lifecycle-manager
 - koreai
 - pabbly
-- prefect
 - pipedream
 - suprsend
 - minicor
 - pixc
-- siemens
 - trigger-dev
 - astronomer
 - oracle-integration
@@ -355,19 +358,20 @@ provider_slugs:
 - amazon-iot-events
 - sweep
 - unito
+- tale-dev
 - amazon-data-pipeline
 - blue-prism
 - silna
+- continuous-delivery-foundation
 - microsoft-excel
 - h-company
 - instabase
 - agiloft
-- continuous-delivery-foundation
 - replicas
 - kestra
 - nextworld
-- amika
 - appmixer
+- amika
 - aito-technologies
 - microsoft-azure-pipelines
 - ninjaone
@@ -394,10 +398,11 @@ provider_slugs:
 - alteryx
 - amazon-systems-manager
 - easywebinar
+- docupilot
 - nex
 - aptly
+- bookkeep-com
 - velaris
-- docupilot
 - cerby
 - seven-bridges
 - cutover
@@ -431,6 +436,7 @@ provider_slugs:
 - superdial
 - tooljet
 - google-cloud-workflows
+- brainbox3ae3
 - devrev
 - lambdatest
 - cflow
@@ -440,7 +446,6 @@ provider_slugs:
 - autifyhq
 - amboras
 - ansible-roles
-- frends
 - signnow
 - salesforce-flow
 - conductor
@@ -496,7 +501,6 @@ provider_slugs:
 - jenkins
 - truecontext
 - steute-technologies-gmbh-and-co-kg
-- bookkeep-com
 - jifflenow
 - google-apps-script
 - coreview-fka-4ward365
@@ -522,7 +526,6 @@ provider_slugs:
 - ondemand
 - alloy-automation
 - memory
-- brainbox3ae3
 - tsenta
 - dropbox-sign
 - zoho-forms
@@ -560,11 +563,11 @@ provider_slugs:
 - rhythms
 - plai-labs
 - rest-assured
-- boomerangai
 - revv
 - tabtabtab
 - landbot
 - aera-technology
+- boomerangai
 - cucumber
 - keep
 - formstack
@@ -641,7 +644,6 @@ provider_slugs:
 - bloomfilter
 - orolabs
 - locoia
-- braintrustbac9
 - docketbird
 - quilter
 - ylookup
@@ -652,6 +654,7 @@ provider_slugs:
 - artian
 - maxima
 - revion
+- braintrustbac9
 - basata
 - rapidclaims
 - smartsuite
@@ -937,12 +940,12 @@ provider_slugs:
 - rapid-robotics
 - shoreline
 related:
+- slug: ai-automation
+  name: AI Automation
+  shared: 8
 - slug: ipaas
   name: iPaaS
   shared: 8
-- slug: ai-automation
-  name: AI Automation
-  shared: 7
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 6
@@ -958,8 +961,8 @@ related:
 overview: 'Workflow Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [workflow-automation.apievangelist.com](https://workflow-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Tray.ai, Plunk, Jitterbit, Zapier, Boomi, ServiceNow, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Tray.ai, Jitterbit, Plunk, Zapier, Boomi, Workato, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: iPaaS, AI Automation, Embedded iPaaS, and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: AI Automation, iPaaS, Embedded iPaaS, and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -13,28 +13,28 @@ providers:
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 25
   score_band: exemplar
-  score_composite: 80.6
+  score_composite: 81.3
   shared: 2
 - slug: kong
   name: Kong
   description: Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agen…
   api_count: 2
   score_band: exemplar
-  score_composite: 73.2
+  score_composite: 73.8
   shared: 2
 - slug: microsoft-azure-api-management
   name: Microsoft Azure API Management
   description: Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments. It is composed of an API gateway (data plane), a management plane, and a developer portal, and supports the complete API lifecycle for publishing, securing, monitoring, and transforming APIs…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 70.4
   shared: 2
 - slug: gravitee
   name: Gravitee
   description: Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kubernetes Operator, and a new AI Agent Management suite with na…
   api_count: 2
-  score_band: strong
-  score_composite: 65.2
+  score_band: exemplar
+  score_composite: 67.3
   shared: 2
 - slug: solo-io
   name: Solo.io
@@ -48,14 +48,14 @@ providers:
   description: Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.
   api_count: 1
   score_band: strong
-  score_composite: 62.3
+  score_composite: 59.6
   shared: 2
 - slug: traefik
   name: Traefik Labs
   description: Traefik Labs builds cloud-native traffic and API infrastructure - the open-source Traefik Proxy (an ingress controller, reverse proxy, and load balancer for Kubernetes, Docker, Nomad, ECS, Consul, and bare metal), plus the commercial Traefik Hub product line covering API Gateway, API Management, AI…
   api_count: 1
   score_band: strong
-  score_composite: 57.0
+  score_composite: 58.2
   shared: 2
 - slug: agentgateway
   name: AgentGateway
@@ -83,7 +83,7 @@ providers:
   description: ngrok is a unified application delivery network for developers, providing secure tunnels, ingress-as-a-service, API gateway, and AI gateway capabilities. It enables developers to expose local services on the public internet, manage edge ingress, and route traffic to AI providers without redeploying…
   api_count: 1
   score_band: developing
-  score_composite: 46.3
+  score_composite: 46.8
   shared: 2
 - slug: routerplex
   name: RouterPlex
@@ -111,14 +111,14 @@ providers:
   description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
   api_count: 1
   score_band: exemplar
-  score_composite: 74.0
+  score_composite: 78.3
   shared: 1
 - slug: apigee
   name: Apigee
   description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
   api_count: 5
   score_band: exemplar
-  score_composite: 70.8
+  score_composite: 73.1
   shared: 1
 - slug: aws-api-gateway
   name: Amazon API Gateway
@@ -131,6 +131,13 @@ providers:
   name: F5
   description: F5 is a global company that specializes in application delivery and security solutions for businesses. They provide products and services that help organizations efficiently and securely deliver applications to users across any network or cloud environment. F5's solutions are designed to optimize t…
   api_count: 8
+  score_band: exemplar
+  score_composite: 66.6
+  shared: 1
+- slug: tyk
+  name: Tyk
+  description: Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.
+  api_count: 4
   score_band: strong
   score_composite: 66.1
   shared: 1
@@ -147,13 +154,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 64.7
-  shared: 1
-- slug: tyk
-  name: Tyk
-  description: Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.
-  api_count: 4
-  score_band: strong
-  score_composite: 64.0
   shared: 1
 - slug: eden-ai
   name: Eden AI
@@ -183,6 +183,13 @@ providers:
   score_band: strong
   score_composite: 58.3
   shared: 1
+- slug: citi
+  name: Citi
+  description: 'Citi is the consumer and institutional brand of Citigroup, serving over 200 million customers across 160 countries. Citi runs one of the largest published API estates in banking: 118 machine-readable OpenAPI and Swagger contracts covering 297 operations are served from developer.citi.com across pay…'
+  api_count: 196
+  score_band: strong
+  score_composite: 58.0
+  shared: 1
 - slug: gloo
   name: Gloo
   description: Gloo is Solo.io's family of open-source and enterprise API gateway, service mesh and developer portal products, built on Envoy Proxy and Istio and delivered as software the customer runs in their own Kubernetes clusters rather than as a hosted SaaS. Gloo Edge and Gloo Gateway provide ingress, advan…
@@ -197,13 +204,6 @@ providers:
   score_band: strong
   score_composite: 57.6
   shared: 1
-- slug: citi
-  name: Citi
-  description: 'Citi is the consumer and institutional brand of Citigroup, serving over 200 million customers across 160 countries. Citi runs one of the largest published API estates in banking: 118 machine-readable OpenAPI and Swagger contracts covering 297 operations are served from developer.citi.com across pay…'
-  api_count: 196
-  score_band: strong
-  score_composite: 57.5
-  shared: 1
 - slug: 558686-xyz
   name: gpt55-token-gateway
   description: gpt55-token-gateway is the self-chosen service name of an unnamed operator running two OpenAI-compatible AI API gateways on the 558686.xyz domain. GPT55 Model Gateway (gpt55.558686.xyz) sells single GPT-5.6 Luna, GPT-5.5 and GPT-5.3-codex chat completions, deterministic text and wallet tools, and p…
@@ -211,12 +211,12 @@ providers:
   score_band: strong
   score_composite: 57.2
   shared: 1
-- slug: fusio
-  name: Fusio
-  description: 'Fusio is Apache-2.0, self-hosted API management from apioo (Christoph Kappestein, Germany). An operator installs it and builds APIs inside it: an operation binds an HTTP method and path to an action (SQL, HTTP, MongoDB, Elasticsearch, an LLM agent, or code running in a JavaScript, Python, Java or P…'
-  api_count: 4
+- slug: mulesoft
+  name: MuleSoft
+  description: MuleSoft Anypoint Platform is an enterprise integration and API management platform offering a comprehensive suite of tools including an API gateway, design center, exchange marketplace, and robust monitoring for hybrid deployments. It enables organizations to connect applications, data, and device…
+  api_count: 1
   score_band: strong
-  score_composite: 55.9
+  score_composite: 56.2
   shared: 1
 provider_slugs:
 - cloudflare
@@ -237,26 +237,26 @@ provider_slugs:
 - apigee
 - aws-api-gateway
 - f5
+- tyk
 - aimlapi
 - vendia
-- tyk
 - eden-ai
 - vercel
 - aptible
 - edgee
+- citi
 - gloo
 - portkey
-- citi
 - 558686-xyz
-- fusio
 - mulesoft
+- fusio
 - 2s-io
 - apiable
 - slng
 - insforge
+- helicone
 - wundergraph
 - citrix-netscaler
-- helicone
 - cloudflare-ai-gateway
 - xguardgate-com
 - mcp360
@@ -267,8 +267,8 @@ provider_slugs:
 - google-cloud-api-gateway
 - agentuity
 - unify-ai
-- mcp-manager
 - university-of-helsinki
+- mcp-manager
 - apache-apisix
 - apinizer
 - standard-compute
@@ -310,8 +310,8 @@ provider_slugs:
 - rhapsody
 - tensorzero
 - cumulus-labs
-- apiwiz
 - deutsche-telekom
+- apiwiz
 - adaptigent
 - primerica
 - university-of-indonesia
@@ -334,7 +334,7 @@ related:
   shared: 9
 - slug: portal
   name: Portal
-  shared: 8
+  shared: 7
 - slug: monetization
   name: Monetization
   shared: 3

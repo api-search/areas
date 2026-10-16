@@ -8,19 +8,19 @@ area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
 provider_count: 192
 providers:
+- slug: siemens
+  name: Siemens
+  description: Siemens is a global powerhouse in the fields of electrification, automation and digitalization. The company offers a broad portfolio of products, solutions and services that enable customers to increase their efficiency and sustainability. Siemens operates in a variety of sectors including energy,…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.0
+  shared: 1
 - slug: paperless-parts
   name: Paperless Parts
   description: Paperless Parts, Inc. is a Boston-based manufacturing software company founded in 2017 that builds a secure, ITAR-compliant cloud quoting and sales platform for custom part manufacturers — job shops, contract manufacturers and rapid-prototype businesses working in CNC machining, sheet metal fabrica…
   api_count: 4
   score_band: strong
   score_composite: 54.6
-  shared: 1
-- slug: siemens
-  name: Siemens
-  description: Siemens is a global powerhouse in the fields of electrification, automation and digitalization. The company offers a broad portfolio of products, solutions and services that enable customers to increase their efficiency and sustainability. Siemens operates in a variety of sectors including energy,…
-  api_count: 1
-  score_band: developing
-  score_composite: 53.7
   shared: 1
 - slug: eaton
   name: Eaton
@@ -49,6 +49,13 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 45.0
+  shared: 1
+- slug: brainbox3ae3
+  name: Brainbox3ae3
+  description: Brainboxes Ltd is a UK‑based designer and manufacturer of rugged industrial‑grade data connectivity solutions, including Ethernet switches, serial device servers, edge controllers and remote I/O modules. Founded in 1984, the company provides lifetime support, in‑house design and testing, and serves…
+  api_count: 2
+  score_band: developing
+  score_composite: 44.2
   shared: 1
 - slug: renesas
   name: Renesas
@@ -124,13 +131,6 @@ providers:
   name: AMETEK
   description: 'AMETEK is a leading global manufacturer of electronic instruments and electromechanical devices with annual sales of over $6 billion. The company operates through two differentiated business segments: Electronic Instruments Group (EIG) and Electromechanical Group (EMG), serving industries including…'
   api_count: 1
-  score_band: thin
-  score_composite: 34.1
-  shared: 1
-- slug: brainbox3ae3
-  name: Brainbox3ae3
-  description: Brainboxes Ltd is a UK‑based designer and manufacturer of rugged industrial‑grade data connectivity solutions, including Ethernet switches, serial device servers, edge controllers and remote I/O modules. Founded in 1984, the company provides lifetime support, in‑house design and testing, and serves…
-  api_count: 2
   score_band: thin
   score_composite: 34.1
   shared: 1
@@ -211,20 +211,21 @@ providers:
   score_band: emerging
   score_composite: 22.9
   shared: 1
-- slug: archrock
-  name: Archrock
-  description: 'Archrock (NYSE: AROC) is the premier provider of natural gas compression services and equipment to customers in the oil and natural gas industry throughout the United States. The company operates a large fleet of compression equipment and provides contract operations and aftermarket services.'
-  api_count: 1
+- slug: entytle
+  name: Entytle
+  description: Entytle, Inc. (founded 2014, Austin, Texas) provides an Installed Base Intelligence SaaS platform for equipment manufacturers (OEMs). It unifies fragmented data from ERP, CRM, FSM systems, and spreadsheets into a single "Source of Truth" for an OEM's installed base, then applies purpose-built AI an…
+  api_count: 0
   score_band: emerging
-  score_composite: 22.8
+  score_composite: 22.2
   shared: 1
 provider_slugs:
-- paperless-parts
 - siemens
+- paperless-parts
 - eaton
 - remberg
 - aerones
 - ge-vernova
+- brainbox3ae3
 - renesas
 - cosmo-tech
 - cognite
@@ -236,7 +237,6 @@ provider_slugs:
 - actionstreamer
 - 3m
 - ametek
-- brainbox3ae3
 - helmerich-and-payne
 - parsable
 - markforged
@@ -248,8 +248,8 @@ provider_slugs:
 - rockwell-automation
 - greif
 - graybar-electric
-- archrock
 - entytle
+- archrock
 - control-seat
 - deephow
 - timken
@@ -415,5 +415,5 @@ related: []
 overview: 'Industrial is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [industrial.apievangelist.com](https://industrial.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Paperless Parts, Siemens, Eaton, Remberg, Aerones, GE Vernova, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  30 providers on the network work in this area, including Siemens, Paperless Parts, Eaton, Remberg, Aerones, GE Vernova, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---
