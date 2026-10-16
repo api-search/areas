@@ -6,7 +6,7 @@ description: An index and topic collection covering serverless compute, function
 area_url: https://serverless.apievangelist.com
 area_host: serverless.apievangelist.com
 icon: https://serverless.apievangelist.com/icon-thumb.png
-provider_count: 133
+provider_count: 132
 providers:
 - slug: appwrite
   name: Appwrite
@@ -18,7 +18,7 @@ providers:
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 26
+  api_count: 25
   score_band: exemplar
   score_composite: 81.3
   shared: 1
@@ -46,9 +46,9 @@ providers:
 - slug: netlify
   name: Netlify
   description: Netlify is a cloud platform for building, deploying and scaling modern web applications, with continuous deployment from Git, serverless and edge functions, a global CDN, forms, identity, Postgres storage and an image CDN. Its public REST API at https://api.netlify.com/api/v1 is described by an Ope…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 72.4
+  score_composite: 71.9
   shared: 1
 - slug: ibm
   name: IBM
@@ -113,13 +113,6 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 1
-- slug: archil
-  name: Archil
-  description: Archil is the cloud filesystem for AI. It turns an existing object-storage bucket (Amazon S3, Google Cloud Storage, Cloudflare R2, Azure Blob, MinIO, Wasabi, Backblaze B2, DigitalOcean Spaces) into an unlimited, POSIX-compatible local disk that thousands of machines can mount at once — live, in pla…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.1
-  shared: 1
 - slug: amazon-eventbridge-pipes
   name: Amazon EventBridge Pipes
   description: Amazon EventBridge Pipes helps you create point-to-point integrations between event producers and consumers with optional transform, filter, and enrich steps. It reduces the amount of integration code you need to write and maintain when building event-driven applications.
@@ -162,13 +155,6 @@ providers:
   score_band: strong
   score_composite: 58.8
   shared: 1
-- slug: rightnow
-  name: RightNow AI
-  description: RightNow AI (RunInfra) turns plain-English descriptions of an inference workload into production, OpenAI-compatible AI endpoints. The platform selects open-source models from Hugging Face, benchmarks GPU options, applies kernel optimizations (quantization, speculative decoding, KV-cache tuning, For…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.8
-  shared: 1
 - slug: freestyle-sh
   name: Freestyle
   description: Freestyle is the infrastructure for code you didn't write — VMs and Git for AI agents. The platform provides Linux microVMs that boot in under 600ms with live-fork, pause-resume, and persistent snapshots; a multi-tenant Git service with branchable filesystems, GitHub Sync, full-text search, and web…
@@ -195,7 +181,14 @@ providers:
   description: AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized web applications and APIs at scale. It automatically builds and deploys applications from container images or source code, load balances traffic with encryption, and scales to meet traffic needs wit…
   api_count: 16
   score_band: strong
-  score_composite: 56.6
+  score_composite: 57.1
+  shared: 1
+- slug: archil
+  name: Archil
+  description: Archil is the cloud filesystem for AI. It turns an existing object-storage bucket (Amazon S3, Google Cloud Storage, Cloudflare R2, Azure Blob, MinIO, Wasabi, Backblaze B2, DigitalOcean Spaces) into an unlimited, POSIX-compatible local disk that thousands of machines can mount at once — live, in pla…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.5
   shared: 1
 - slug: amazon-proton
   name: Amazon Proton
@@ -204,19 +197,26 @@ providers:
   score_band: strong
   score_composite: 56.0
   shared: 1
-- slug: agentuity
-  name: Agentuity
-  description: Agentuity is a full-stack cloud platform for building, deploying, and operating AI agents and the framework apps around them. Developers keep their existing framework (Next.js, Hono, React Router, SvelteKit, Nuxt, Astro, Vite React, TanStack Start) and attach Agentuity service clients for key-value…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.6
-  shared: 1
 - slug: cloudflare-queues
   name: Cloudflare Queues
   description: Cloudflare Queues is a flexible, scalable message queue service built into the Cloudflare Workers ecosystem. It provides guaranteed message delivery with a REST API for creating and managing queues, sending individual or batched messages, configuring push-based Worker consumers and HTTP pull consum…
   api_count: 1
   score_band: strong
   score_composite: 55.0
+  shared: 1
+- slug: fermyon
+  name: Fermyon
+  description: Fermyon Wasm Functions is a multi-tenant, hosted, globally distributed engine for serverless functions running on Akamai Cloud, the most distributed cloud network. Fermyon is the company behind the Spin Framework and SpinKube, providing tools and runtimes for building and operating WebAssembly-base…
+  api_count: 2
+  score_band: developing
+  score_composite: 53.8
+  shared: 1
+- slug: azure-container-instances
+  name: Azure Container Instances
+  description: Azure Container Instances (ACI) is the fastest and simplest way to run containers in Azure without having to manage virtual machines or adopt a higher-level orchestration service. It offers serverless containers with per-second billing, custom sizes, and seamless integration with the Azure ecosyste…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.4
   shared: 1
 provider_slugs:
 - appwrite
@@ -234,33 +234,32 @@ provider_slugs:
 - modal-labs
 - koyeb
 - azure-container-apps
-- archil
 - amazon-eventbridge-pipes
 - amazon-eventbridge-scheduler
 - amazon-eventbridge
 - inngest
 - vercel
 - amazon-redshift
-- rightnow
 - freestyle-sh
 - amazon-efs
 - formboost
 - aws-app-runner
+- archil
 - amazon-proton
-- agentuity
 - cloudflare-queues
 - fermyon
 - azure-container-instances
 - insforge
+- rightnow
 - scaleway
-- datastax
-- vast-ai
 - aws-step-functions
 - dataloop
 - neon
 - microsoft-azure-web-pubsub
 - google-cloud-api-gateway
+- agentuity
 - runpod
+- vast-ai
 - amazon-fargate
 - turbopuffer
 - chroma
@@ -272,6 +271,7 @@ provider_slugs:
 - google-cloud-functions
 - google-cloud-run
 - val-town
+- datastax
 - amazon-serverless-application-repository
 - warpstream
 - qstash
@@ -290,35 +290,34 @@ provider_slugs:
 - qubrid-ai
 - partykit
 - codehooks
-- coiled
 - momento
-- chutes
 - aws-glue
 - rivet
 - spocket
 - deno
 - glia
-- cerebrium
-- featherless
 - stack-machine
 - beam-cloud
+- chutes
 - clockwork-labs
-- xano
 - golem-cloud
-- langbase
+- featherless
+- unionai
+- xano
 - nscale
+- cerebrium
 - centml
 - amazon-athena
 - upstash
 - datacrunch
-- unionai
+- coiled
 - fly-io
+- langbase
 - metorial
-- firecracker
-- serverless
 - blaxel
-- deepinfra
+- firecracker
 - apache-event-mesh
+- deepinfra
 - wasmedge
 - amazon-appsync
 - amazon-aurora-dsql
@@ -330,12 +329,12 @@ provider_slugs:
 - quarkus
 - quirrel
 - micronaut
-- unweave
 - nitric
 - motherduck
 - sst-dev
 - 8base
 - alibaba
+- unweave
 - gimlet-labs
 - streamfold
 - defer
@@ -355,13 +354,13 @@ provider_slugs:
 related:
 - slug: containers
   name: Containers
-  shared: 5
+  shared: 6
 - slug: database
   name: Database
   shared: 5
 - slug: deployment
   name: Deployment
-  shared: 4
+  shared: 3
 - slug: gateway
   name: Gateway
   shared: 3

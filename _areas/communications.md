@@ -6,21 +6,28 @@ description: An index and topic collection covering Communications Platform as a
 area_url: https://communications.apievangelist.com
 area_host: communications.apievangelist.com
 icon: https://communications.apievangelist.com/icon-thumb.png
-provider_count: 178
+provider_count: 176
 providers:
-- slug: nylas
-  name: Nylas
-  description: Nylas connects your application to every email inbox and calendar in the world. The Nylas v3 platform provides REST APIs for email, calendar, contacts, scheduling, meeting notetaking, authentication, and administration across Google, Microsoft, Exchange, iCloud, Yahoo and any IMAP provider. Officia…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 93.9
-  shared: 1
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
   api_count: 89
   score_band: exemplar
-  score_composite: 89.3
+  score_composite: 88.5
+  shared: 1
+- slug: telnyx
+  name: Telnyx
+  description: Telnyx is a carrier-owned, private-IP cloud communications and AI infrastructure platform. Its REST API (api.telnyx.com/v2, ~1,400 operations) covers programmable voice and SIP trunking, SMS/MMS/RCS/WhatsApp messaging, email, fax, phone numbers and porting, IoT SIM and private wireless, networking,…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 87.6
+  shared: 1
+- slug: nylas
+  name: Nylas
+  description: Nylas connects your application to every email inbox and calendar in the world. The Nylas v3 platform provides REST APIs for email, calendar, contacts, scheduling, meeting notetaking, authentication, and administration across Google, Microsoft, Exchange, iCloud, Yahoo and any IMAP provider. Officia…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 86.7
   shared: 1
 - slug: infobip
   name: Infobip
@@ -28,13 +35,6 @@ providers:
   api_count: 51
   score_band: exemplar
   score_composite: 84.9
-  shared: 1
-- slug: telnyx
-  name: Telnyx
-  description: Telnyx is a private‑IP cloud communications platform that provides a comprehensive suite of real‑time communications APIs. It enables developers to embed voice calling, SMS, MMS, fax, number management, IoT SIM connectivity, AI inference, and authentication capabilities into applications. Telnyx of…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 82.3
   shared: 1
 - slug: amazon-pinpoint
   name: Amazon Pinpoint
@@ -46,7 +46,7 @@ providers:
 - slug: leadping
   name: Leadping
   description: Leadping is a lead-management and responsible-outreach platform for teams that need to move a new inbound lead from source to first touch without stitching together separate tools. It captures leads from approved sources, routes and assigns them, runs follow-up automations, sends SMS and MMS, place…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 75.4
   shared: 1
@@ -57,26 +57,19 @@ providers:
   score_band: exemplar
   score_composite: 73.4
   shared: 1
-- slug: loops
-  name: Loops
-  description: Loops is an email platform built for software companies, combining marketing campaigns, product and lifecycle automation, and transactional email on one contact model. Its REST API v1 exposes 64 operations across contacts, contact properties, mailing lists, audience segments, events and event patte…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 71.4
-  shared: 1
-- slug: 8x8
-  name: 8x8
-  description: 8x8, Inc. is a San Jose, California headquartered cloud communications provider that sells an integrated UCaaS, CCaaS and CPaaS platform (marketed as XCaaS) to business buyers in its home market of the United States and internationally. In the telecom value chain 8x8 sits in the aggregator half of…
-  api_count: 34
-  score_band: exemplar
-  score_composite: 70.8
-  shared: 1
 - slug: sinch
   name: Sinch
   description: Sinch is a cloud communications platform providing APIs for SMS, voice, video, fax, verification, and omnichannel messaging. It enables businesses to integrate global communication capabilities into their applications through programmable APIs for sending messages, making calls, verifying phone num…
-  api_count: 10
+  api_count: 22
   score_band: exemplar
-  score_composite: 69.7
+  score_composite: 71.5
+  shared: 1
+- slug: loops
+  name: Loops
+  description: Loops is an email platform built for software companies, combining marketing campaigns, product and lifecycle automation, and transactional email on one contact model. Its REST API v1 exposes 64 operations across contacts, contact properties, mailing lists, audience segments, events and event patte…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 71.4
   shared: 1
 - slug: vonage
   name: Vonage
@@ -102,7 +95,7 @@ providers:
 - slug: webex
   name: Webex
   description: Cisco Webex is a comprehensive collaboration platform offering APIs for messaging, meetings, calling, devices, and contact center workflows. The Webex Developer Platform enables developers to build integrations, bots, embedded apps, and automations using REST APIs, SDKs, and webhooks. Webex support…
-  api_count: 20
+  api_count: 10
   score_band: exemplar
   score_composite: 68.6
   shared: 1
@@ -126,6 +119,13 @@ providers:
   api_count: 4
   score_band: strong
   score_composite: 65.9
+  shared: 1
+- slug: 8x8
+  name: 8x8
+  description: 8x8, Inc. is a San Jose, California headquartered cloud communications provider that sells an integrated UCaaS, CCaaS and CPaaS platform (marketed as XCaaS) to business buyers in its home market of the United States and internationally. In the telecom value chain 8x8 sits in the aggregator half of…
+  api_count: 34
+  score_band: strong
+  score_composite: 65.8
   shared: 1
 - slug: orange-business
   name: Orange Business
@@ -151,7 +151,7 @@ providers:
 - slug: hustle
   name: Hustle
   description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and a…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 62.9
   shared: 1
@@ -179,7 +179,7 @@ providers:
 - slug: entergram
   name: Entergram
   description: Entergram is a CRM built specifically for Telegram. It connects personal Telegram accounts (not bots) into a shared team workspace where sales, support, community and trading teams manage conversations at scale — a multi-account inbox, a CRM table and Kanban pipeline, custom columns and labels, bro…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.0
   shared: 1
@@ -189,13 +189,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 60.1
-  shared: 1
-- slug: callfire
-  name: Callfire
-  description: Callfire provides cloud-based communication solutions that enable businesses to engage customers via voice calls, text messaging, and IVR. Their platform offers tools for call tracking, voice broadcasting, and automated messaging, helping companies improve outreach, increase revenue, and streamline…
-  api_count: 2
-  score_band: strong
-  score_composite: 58.7
   shared: 1
 - slug: weave
   name: Weave
@@ -211,24 +204,30 @@ providers:
   score_band: strong
   score_composite: 58.3
   shared: 1
-- slug: mailersend
-  name: MailerSend
-  description: MailerSend is a transactional email and SMS platform built for developers. Its v1 REST API covers email sending (single, bulk to 500 objects per request, and scheduled up to 72 hours out), SMTP relay, templates, sending domains and DNS verification, sender identities, recipients and five suppressio…
-  api_count: 1
+- slug: saperly
+  name: Saperly
+  description: 'Saperly is the phone carrier for AI agents: one API call gives an agent a real phone number with inbound and outbound voice and SMS, routing to a hosted in-network voice agent or to your own runtime (manual mode), and TCPA compliance enforced in the carrier layer — AI disclosure, consent records, 1…'
+  api_count: 3
   score_band: strong
-  score_composite: 57.9
+  score_composite: 57.7
+  shared: 1
+- slug: kixie
+  name: Kixie
+  description: Kixie is a Los Angeles based sales-engagement and revenue-communications platform built around PowerCall, a multi-line power dialer, business phone service and SMS/MMS product that plugs bi-directionally into HubSpot, Salesforce, Pipedrive, Zoho and GoHighLevel. Its public developer surface is a sm…
+  api_count: 3
+  score_band: strong
+  score_composite: 57.6
   shared: 1
 provider_slugs:
-- nylas
 - twilio
-- infobip
 - telnyx
+- nylas
+- infobip
 - amazon-pinpoint
 - leadping
 - telesign
-- loops
-- 8x8
 - sinch
+- loops
 - vonage
 - smtp2go
 - mailboxlayer
@@ -236,6 +235,7 @@ provider_slugs:
 - zoom-phone
 - gotowebinar
 - signalwire
+- 8x8
 - orange-business
 - bandwidth
 - parcellab
@@ -245,13 +245,12 @@ provider_slugs:
 - ringcentral
 - entergram
 - zavu
-- callfire
 - weave
 - sonetel
-- mailersend
 - saperly
 - kixie
 - kudosity
+- mailersend
 - cloudtalk
 - microsoft-teams
 - zoom
@@ -260,22 +259,22 @@ provider_slugs:
 - community
 - simpletexting
 - neutrino-api
-- quo
 - avaya
+- quo
 - whereby
-- veritus
 - frontapp
+- veritus
 - truecaller
-- commsharbor
 - mitto-ch
 - fyno
 - aptly
 - discord
 - phone-com
-- nextiva
-- nfon
 - bird
+- commsharbor
+- nextiva
 - beeper
+- nfon
 - zoho-cliq
 - kumospace
 - cisco-webex-meetings
@@ -290,35 +289,35 @@ provider_slugs:
 - burner
 - documo
 - exotel
-- truvideo
 - rainbow
 - confrere
 - smsapi
+- truvideo
 - clicksend
 - sobot
 - muck-rack
 - dyte
-- alianza
-- groupme
 - textmagic
+- alianza
 - chert
+- groupme
 - justcall
 - cisco-control-hub
 - lifesize
 - textla-inc
 - gupshup
 - 46elks
-- superhuman
-- aircall
 - symphony
 - movius
+- aircall
 - meet
 - dialpad
+- rr-donnelley-and-sons
 - africastalking
 - intelsat
-- rr-donnelley-and-sons
 - newvoicemedia
 - sightcall
+- superhuman
 - airpr
 - motorola-solutions
 - signpost
@@ -326,22 +325,22 @@ provider_slugs:
 - ourpeople
 - sdui
 - xmatters
-- spike
 - voxer
 - loom
 - carbyne
-- beside
 - launchnotes
 - ambr-technologies
 - auranetworksystems
 - moxtra
+- spike
 - volt
 - pigeonly
-- manifest-law
+- beside
 - globalstar
-- joya-communications
+- manifest-law
 - intermedia
 - confide
+- joya-communications
 - smore
 - beekeeper
 - cometa
@@ -352,26 +351,25 @@ provider_slugs:
 - tanla
 - prepared
 - telesat
-- clickatell
 - all-city-communications
 - crew
-- ses
 - northwood-space
 - clubhouse
 - eutelsat
+- ses
 - cesiumastro
 - pinger
-- dialup
 - ksat
 - aptos-orbital
 - c2m
+- dialup
 - satellite
-- remind
 - west
+- remind
 - jive
 - proximusglobal
-- sonus
 - voxeet
+- sonus
 - liveprofile
 - vonbox
 - echostar
@@ -381,9 +379,9 @@ provider_slugs:
 - hotmail
 - teamnote
 - autotalks
-- walkie-talkie
 - cedar-point-communications
 - tandem
+- walkie-talkie
 - voxox
 - gms
 - around
@@ -413,7 +411,7 @@ related:
 overview: 'Communications is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [communications.apievangelist.com](https://communications.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Nylas, Twilio, Infobip, Telnyx, Amazon Pinpoint, Leadping, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Telnyx, Nylas, Infobip, Amazon Pinpoint, Leadping, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Authentication, AI Automation, Agent Skills, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'

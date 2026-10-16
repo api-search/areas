@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://observability.apievangelist.com
 area_host: observability.apievangelist.com
 icon: https://observability.apievangelist.com/icon-thumb.png
-provider_count: 342
+provider_count: 344
 providers:
 - slug: dynatrace
   name: Dynatrace
@@ -60,7 +60,7 @@ providers:
 - slug: relevance-ai
   name: Relevance AI
   description: Relevance AI is an agent platform for building, testing and running specialist AI agents and multi-agent "workforces" — teams of agents that coordinate on a shared goal. Domain experts build agents in a no-code visual builder, hold them to pass/fail quality bars with a built-in evals system, and co…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 78.5
   shared: 1
@@ -81,7 +81,7 @@ providers:
 - slug: controlup
   name: ControlUp
   description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Paral…
-  api_count: 32
+  api_count: 24
   score_band: exemplar
   score_composite: 75.6
   shared: 1
@@ -102,14 +102,14 @@ providers:
 - slug: checkly
   name: Checkly
   description: Checkly is a code-first reliability platform for synthetic monitoring, uptime monitoring, alerting and AI-assisted incident investigation. Engineering teams define monitors as versioned code with the Checkly CLI, Terraform or Pulumi, reuse existing Playwright suites as production browser checks, an…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.0
   shared: 1
 - slug: scvd-store
   name: SCVD General Store
   description: Record Creative Co. LLC is the one-person Oak City, North Carolina company that operates scvd.store — "Sean-Claude Van Damme's General Store", an evidence observatory for agentic commerce and a general store for AI agents. It independently verifies x402 payment endpoints, signed offers and receipts…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.1
   shared: 1
@@ -134,19 +134,19 @@ providers:
   score_band: exemplar
   score_composite: 69.8
   shared: 1
-- slug: moesif
-  name: Moesif
-  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 69.3
-  shared: 1
 - slug: rtcstats
   name: rtcStats
   description: SaaS for developers to troubleshoot and monitor WebRTC applications. Users upload webrtc-internals/rtcstats dumps or stream stats to receive metrics, Observations, Deductions, an Experience Score, and an AI root-cause summary. Offers a REST API, a hosted MCP server, and an open-source collection SD…
   api_count: 2
   score_band: exemplar
   score_composite: 69.2
+  shared: 1
+- slug: moesif
+  name: Moesif
+  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 68.8
   shared: 1
 - slug: betterstack
   name: Better Stack
@@ -158,16 +158,9 @@ providers:
 - slug: chronosphere
   name: Chronosphere
   description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
-  api_count: 8
+  api_count: 4
   score_band: exemplar
   score_composite: 67.9
-  shared: 1
-- slug: hyperdx
-  name: HyperDX
-  description: HyperDX is an open-source observability platform that unifies logs, metrics, traces, session replay and errors on top of ClickHouse and OpenTelemetry, giving engineers one place to search raw events, correlate a log line to its trace and that span to a session replay, build dashboards and run thres…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 67.5
   shared: 1
 - slug: google-cloud-logging
   name: Google Cloud Logging
@@ -211,6 +204,13 @@ providers:
   score_band: strong
   score_composite: 66.1
   shared: 1
+- slug: sciencelogic
+  name: ScienceLogic
+  description: ScienceLogic is an AIOps and IT operations company whose ScienceLogic AI Platform — rebranded in 2026 as the Skylar family — covers infrastructure and application observability, network configuration and compliance, and workflow automation. Skylar One (formerly SL1) is the observability platform, w…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.7
+  shared: 1
 - slug: logz-io
   name: Logz.io
   description: Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Ag…
@@ -237,17 +237,17 @@ provider_slugs:
 - bigpanda
 - ibm
 - aws-lambda
-- moesif
 - rtcstats
+- moesif
 - betterstack
 - chronosphere
-- hyperdx
 - google-cloud-logging
 - honeycomb
 - firehydrant
 - splunk-observability
 - grafana-loki
 - tyk
+- sciencelogic
 - logz-io
 - fastly
 - acceldata
@@ -256,15 +256,14 @@ provider_slugs:
 - solarwinds
 - stack-moxie
 - groundcover
-- treblle
 - cisco-catalyst-sdwan
-- sciencelogic
 - highlight-io
 - seekr
 - dash0
 - moogsoft
-- webscale-networks
 - splunk
+- hyperdx
+- webscale-networks
 - raygun
 - geneos
 - amazon-xray
@@ -276,10 +275,10 @@ provider_slugs:
 - microsoft-azure-monitor
 - elastic-observability
 - foxglove-technologies
+- treblle
 - amazon-cloudwatch
 - vercel
 - cisco-catalyst-center
-- edge-delta
 - conviva
 - edgee
 - coralogix
@@ -287,21 +286,14 @@ provider_slugs:
 - waxell
 - portkey
 - sift-stack
-- coval
 - cloudwatch
-- chaossearch
-- bluejay
-- lucent
 - tigera
 - lightrun
-- vijil
 - cribl
 - pydantic-ai
 - inference
 - scale3
 - agentgateway
-- cloudflare-ai-gateway
-- larridin
 - buoyant
 - amazon-managed-grafana
 - jentic
@@ -309,18 +301,23 @@ provider_slugs:
 - vividcortex
 - scorecard
 - wundergraph
+- edge-delta
 - kubeshop
 - bitdrift
 - encore-dev
 - antimetal
+- cloudflare-ai-gateway
 - jam
 - mezmo
 - apicontext
+- coval
 - zenoss
 - amazon-managed-prometheus
+- bluejay
 - broadcom
 - catchpoint
 - instabug
+- lucent
 - lunar
 - corelayer
 - choreo
@@ -336,7 +333,9 @@ provider_slugs:
 - pixie
 - brownie
 - opik
+- larridin
 - apica-io
+- vijil
 - lumigo
 - hookpulse
 - gloo-mesh
@@ -359,20 +358,18 @@ provider_slugs:
 - polar-signals
 - parea
 - chaos-mesh
-- deeptrace
 - traversal
+- deeptrace
 - runreveal
 - apitoolkit
-- doctor-droid
-- superlog
 - chamber
 - uselemma
-- appneta
+- superlog
 - google-cloud-trace
 - quickwit
+- appneta
 - openobserve
 - google-cloud-monitoring
-- codspeed
 - google-cloud-profiler
 - isovalent
 - requesty
@@ -380,7 +377,6 @@ provider_slugs:
 - reqkey
 - vellum
 - glitchtip
-- neubird
 - secoda
 - devtron
 - memfault
@@ -388,13 +384,13 @@ provider_slugs:
 - nagios
 - opentelemetry
 - raindrop
-- spyderbat
 - stream-security
 - chaoss
 - google-cloud-error-reporting
 - pay-i
-- keywordsai
+- spyderbat
 - zabbix
+- keywordsai
 - zipkin
 - opensearch
 - humanloop
@@ -402,19 +398,19 @@ provider_slugs:
 - langsmith
 - openstatus
 - tempo
+- log10
 - appdynamics
 - promptlayer
 - axiom-controller
 - scale-computing
 - apache-zipkin
+- doctor-droid
 - netbeez
 - linkerd
 - grafbase
-- hyperping
+- neubird
 - judgment-labs
 - the-guild-dev
-- elementl
-- klu-ai
 - sensu
 - devo
 - loggly
@@ -424,39 +420,41 @@ provider_slugs:
 - apiclarity
 - athina
 - axiom-co
-- uptrace
 - calyptia
 - kotzilla
+- codspeed
+- uptrace
 - blocktorch
 - literalai
 - prometheus-io
 - ambient-mesh
 - agenta
+- hyperping
 - kibana
 - langtrace
 - honeybadger
 - langfuse
 - jaeger
+- klu-ai
 - velvt-ai
 - traceable
-- grafana-tempo
-- carrot-labs
 - atla
 - runlayer
 - instana
+- grafana-tempo
 - anodot
-- log10
 - nominal
 - trust3-ai
 - formant
 - avrea
-- uptrain
 - fluent-bit
 - statsd
 - timber
 - oneuptime
 - pepperdata
+- uptrain
 - zenduty
+- elementl
 - thanos
 - kosmoslabs
 - hamming-ai
@@ -465,24 +463,25 @@ provider_slugs:
 - victoriametrics
 - lunary
 - overops
-- openllmetry
 - bluerock-security
+- service-mesh
 - loki
 - keep
 - lightstep
 - akita-software
+- carrot-labs
 - tensorzero
 - confident-ai
 - middleware
-- hyperprobe
 - armature
 - kestrel
-- sonarly
 - apiwiz
 - agentops
+- sonarly
 - airbrake
 - bentolabs-ai
 - maxim
+- openllmetry
 - resolve-ai
 - riverbed-technology
 - vianai-systems
@@ -501,6 +500,7 @@ provider_slugs:
 - aria-networks
 - granulate
 - runscope
+- hyperprobe
 - fiberplane
 - oneapm
 - pingdom
@@ -508,7 +508,6 @@ provider_slugs:
 - zend
 - nobl9
 - geordie
-- actualyzeai
 - victorops
 - streamfold
 - aira-technologies
@@ -516,30 +515,32 @@ provider_slugs:
 - effectful
 - humio
 - codekarma
-- rookout
 - apiphani
+- rookout
 - abstract-security
+- actualyzeai
 - assertsai
-- cloudwise
 - graylog
 - threat-stack
 - authmind
 - netreo
 - scuba
-- nazar
 - baccaai
 - truera
 - komodor
 - nginx-service-mesh
 - quantum-metric
+- monitoring
 - prosimo
 - teserac
 - opsani
 - sevone-turbonomic
 - witness-ai
 - ebpf
+- analysis
 - chemix
 - tracelytics
+- nazar
 - chronicle-labs
 - daqstra
 - lattice-health
@@ -551,6 +552,7 @@ provider_slugs:
 - optimyze
 - amixrio
 - opsmatic
+- observability
 - avenue
 - bluestripe-software
 - cmd
@@ -567,10 +569,10 @@ related:
   shared: 22
 - slug: logging
   name: Logging
-  shared: 8
+  shared: 7
 - slug: aiops
   name: AIOps
-  shared: 5
+  shared: 6
 - slug: ai-automation
   name: AI Automation
   shared: 2

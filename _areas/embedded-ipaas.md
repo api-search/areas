@@ -6,7 +6,7 @@ description: This is the index of embedded iPaaS service and tooling repos being
 area_url: https://embedded-ipaas.apievangelist.com
 area_host: embedded-ipaas.apievangelist.com
 icon: https://embedded-ipaas.apievangelist.com/icon-thumb.png
-provider_count: 98
+provider_count: 102
 providers:
 - slug: workato
   name: Workato
@@ -20,12 +20,19 @@ providers:
   description: Alloy Automation (runalloy.com) is an embedded integration platform (iPaaS) and Unified API for SaaS products. Its Embedded product lets you drop white-labeled, end-user-facing integrations into your app, while the Connectivity and Unified API provide a single REST interface for connecting to hundr…
   api_count: 1
   score_band: thin
-  score_composite: 34.7
+  score_composite: 34.2
+  shared: 2
+- slug: integrations
+  name: Integrations
+  description: An index and topic collection covering the broad integration tooling market, including iPaaS and embedded-iPaaS platforms, workflow automation tools, unified API providers, ETL and reverse-ETL data pipelines, and orchestration engines. Integration platforms reduce the cost of connecting disparate S…
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.5
   shared: 2
 - slug: tray-ai
   name: Tray.ai
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
-  api_count: 6
+  api_count: 4
   score_band: exemplar
   score_composite: 89.3
   shared: 1
@@ -39,7 +46,7 @@ providers:
 - slug: jitterbit
   name: Jitterbit
   description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 78.3
   shared: 1
@@ -50,10 +57,17 @@ providers:
   score_band: exemplar
   score_composite: 69.8
   shared: 1
+- slug: boomi
+  name: Boomi
+  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 68.3
+  shared: 1
 - slug: integration-os
   name: IntegrationOS
   description: IntegrationOS was a unified API platform that let developers add third-party integrations to their products with a single API call. The company rebranded as Pica (picaos.com) and then, on 2026-03-25, as One (withone.ai) — the provider's own changelog records the step as "Pica is now One". One is an…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 68.1
   shared: 1
@@ -71,13 +85,6 @@ providers:
   score_band: strong
   score_composite: 64.4
   shared: 1
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 3
-  score_band: strong
-  score_composite: 63.8
-  shared: 1
 - slug: prismatic
   name: Prismatic
   description: The integration platform for B2B SaaS teams. Prismatic empowers everyone on your team with integration tools for devs and non-devs alike, combining a code-native TypeScript SDK with a low-code designer and an embedded marketplace for shipping customer-facing integrations.
@@ -91,6 +98,13 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 62.2
+  shared: 1
+- slug: celigo
+  name: Celigo
+  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.7
   shared: 1
 - slug: integration-app
   name: Integration.app (Membrane)
@@ -106,19 +120,19 @@ providers:
   score_band: strong
   score_composite: 61.3
   shared: 1
-- slug: snaplogic
-  name: SnapLogic
-  description: SnapLogic provides an Agentic Integration and Applied AI Platform that securely connects applications, data, APIs and AI agents across cloud, on‑premise and hybrid environments for enterprises. The platform offers visual ETL/ELT, no‑code iPaaS, API management, legacy modernization tools, and govern…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.8
-  shared: 1
 - slug: viam
   name: Viam
   description: Viam is a robotics and edge AI platform founded in 2020 by Eliot Horowitz (MongoDB co-founder and former CTO). It pairs viam-server — a gRPC-based runtime that runs on Linux single-board computers (RDK) and ESP32-class microcontrollers (micro-rdk) — with viam.app, a multi-tenant cloud for fleet man…
   api_count: 13
   score_band: strong
   score_composite: 60.7
+  shared: 1
+- slug: snaplogic
+  name: SnapLogic
+  description: SnapLogic provides an Agentic Integration and Applied AI Platform that securely connects applications, data, APIs and AI agents across cloud, on‑premise and hybrid environments for enterprises. The platform offers visual ETL/ELT, no‑code iPaaS, API management, legacy modernization tools, and govern…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.3
   shared: 1
 - slug: 3shake
   name: 3-shake
@@ -204,37 +218,25 @@ providers:
   score_band: developing
   score_composite: 49.4
   shared: 1
-- slug: albato
-  name: Albato
-  description: Albato is a no-code automation platform and embedded iPaaS that enables businesses to automate workflows by connecting 1,000+ apps without writing code. Supports multi-step automations with triggers, actions, conditions, and delays. Albato Embedded allows SaaS companies to offer white-label native…
-  api_count: 2
-  score_band: developing
-  score_composite: 49.3
-  shared: 1
-- slug: 1nce
-  name: 1NCE
-  description: 1NCE is a Cologne-headquartered global IoT connectivity provider best known for the IoT Lifetime Flat — a single one-time fee that bundles a multi-network SIM with 500 MB of data and 250 SMS over a 10-year subscription. The 1NCE Management API on api.1nce.com/management-api exposes the same surface…
-  api_count: 15
-  score_band: developing
-  score_composite: 48.9
-  shared: 1
 provider_slugs:
 - workato
 - alloy-automation
+- integrations
 - tray-ai
 - losant
 - jitterbit
 - zapier
+- boomi
 - integration-os
 - pandium
 - vessel
-- boomi
 - prismatic
 - particle
+- celigo
 - integration-app
 - agave
-- snaplogic
 - viam
+- snaplogic
 - 3shake
 - frends
 - cobalt
@@ -258,14 +260,13 @@ provider_slugs:
 - make
 - flume-health
 - renesas
-- celigo
 - elastic-io
 - modusbox
 - kombo
 - morf
-- cesanta
 - memfault
 - civil-infrastructure-platform
+- cesanta
 - jetic
 - elisa
 - zephyr
@@ -295,9 +296,9 @@ provider_slugs:
 - locoia
 - silabs
 - sensel
-- uhnder
 - apollo3
 - ambiq-micro
+- uhnder
 - ibm-app-connect
 - oneio
 - locale
@@ -306,6 +307,7 @@ provider_slugs:
 - aprilgetaprilcom
 - roofline
 - plumerai
+- unified-apis
 - code-metal
 - apex-ai
 - sourcedev
@@ -313,6 +315,8 @@ provider_slugs:
 - cloud-elements
 - cypress
 - energy-micro
+- embedded-ipaas
+- ipaas
 - azuqua
 - cloudpipes
 - freescale-semiconductor
@@ -320,16 +324,16 @@ provider_slugs:
 related:
 - slug: ipaas
   name: iPaaS
-  shared: 18
+  shared: 19
 - slug: management
   name: Management
-  shared: 6
+  shared: 7
 - slug: workflow-automation
   name: Workflow Automation
   shared: 6
 - slug: ai-automation
   name: AI Automation
-  shared: 4
+  shared: 5
 - slug: orchestration
   name: Orchestration
   shared: 3
@@ -339,7 +343,7 @@ related:
 overview: 'Embedded iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [embedded-ipaas.apievangelist.com](https://embedded-ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Workato, Alloy Automation, Tray.ai, Losant, Jitterbit, Zapier, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Workato, Alloy Automation, Integrations, Tray.ai, Losant, Jitterbit, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: iPaaS, Management, Workflow Automation, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,7 +6,7 @@ description: This is the index of developer experience service and tooling repos
 area_url: https://developer-experience.apievangelist.com
 area_host: developer-experience.apievangelist.com
 icon: https://developer-experience.apievangelist.com/icon-thumb.png
-provider_count: 59
+provider_count: 61
 providers:
 - slug: adobe-suite
   name: Adobe Suite
@@ -25,23 +25,9 @@ providers:
 - slug: atlassian-compass
   name: Atlassian Compass
   description: Atlassian Compass is a developer experience platform that helps engineering teams understand, manage, and improve the health of their software components and services. It provides a centralized catalog of software components with scorecards, metrics, dependency tracking, and event ingestion to impr…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 73.1
-  shared: 1
-- slug: gitbook
-  name: GitBook
-  description: GitBook is a documentation and knowledge platform, positioned as "the knowledge layer for AI", that connects a company's docs, product and users, answers user questions with AI, and identifies gaps in its knowledge. Teams write and publish product and API documentation with docs-as-code support and…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.7
-  shared: 1
-- slug: treblle
-  name: Treblle
-  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.9
+  score_composite: 72.6
   shared: 1
 - slug: apimatic
   name: APIMatic
@@ -50,19 +36,12 @@ providers:
   score_band: strong
   score_composite: 63.1
   shared: 1
-- slug: liblab
-  name: Liblab
-  description: liblab generates and publishes type-safe, idiomatic SDKs in TypeScript, Python, Java, .NET, Go, PHP, and Terraform from OpenAPI/Swagger/Postman specs, plus MCP servers that expose those APIs to AI agents. The platform ships a CLI, hosted portal, and CI/CD GitHub Action that publish SDKs to customer…
-  api_count: 13
-  score_band: strong
-  score_composite: 59.8
-  shared: 1
-- slug: unblocked
-  name: Unblocked
-  description: Unblocked is an AI context engine for engineering teams that consolidates code, documentation, tickets, and conversations from sources like GitHub, Slack, Jira, Confluence, Notion, and Google Drive into grounded, cited answers for engineers and AI coding agents. The product spans developer Q&A, AI…
+- slug: treblle
+  name: Treblle
+  description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
   api_count: 1
   score_band: strong
-  score_composite: 59.5
+  score_composite: 59.2
   shared: 1
 - slug: configure8
   name: Configure8
@@ -70,6 +49,20 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 57.7
+  shared: 1
+- slug: gitbook
+  name: GitBook
+  description: GitBook is a documentation and knowledge platform, positioned as "the knowledge layer for AI", that connects a company's docs, product and users, answers user questions with AI, and identifies gaps in its knowledge. Teams write and publish product and API documentation with docs-as-code support and…
+  api_count: 1
+  score_band: strong
+  score_composite: 57.0
+  shared: 1
+- slug: unblocked
+  name: Unblocked
+  description: Unblocked is an AI context engine for engineering teams that consolidates code, documentation, tickets, and conversations from sources like GitHub, Slack, Jira, Confluence, Notion, and Google Drive into grounded, cited answers for engineers and AI coding agents. The product spans developer Q&A, AI…
+  api_count: 1
+  score_band: strong
+  score_composite: 55.7
   shared: 1
 - slug: signadot
   name: Signadot
@@ -85,19 +78,19 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
+- slug: liblab
+  name: Liblab
+  description: liblab generates and publishes type-safe, idiomatic SDKs in TypeScript, Python, Java, .NET, Go, PHP, and Terraform from OpenAPI/Swagger/Postman specs, plus MCP servers that expose those APIs to AI agents. The platform ships a CLI, hosted portal, and CI/CD GitHub Action that publish SDKs to customer…
+  api_count: 13
+  score_band: developing
+  score_composite: 52.9
+  shared: 1
 - slug: coveo
   name: Coveo
   description: Coveo is a cloud-based AI-relevance platform that delivers personalized search, recommendations, and discovery experiences across digital workplaces, customer service portals, websites, and commerce storefronts. The Coveo platform exposes a family of REST APIs covering search, content indexing (Pus…
   api_count: 31
   score_band: developing
-  score_composite: 52.1
-  shared: 1
-- slug: fern-api
-  name: Fern
-  description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generates type-safe SDKs in TypeScript, Python, Go, Java, C#, PHP,…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.7
+  score_composite: 51.7
   shared: 1
 - slug: viator
   name: Viator
@@ -113,24 +106,17 @@ providers:
   score_band: developing
   score_composite: 48.0
   shared: 1
-- slug: stainless
-  name: Stainless
-  description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic, Cloudflare, Google, and OpenAI, Stainless automates the boil…
-  api_count: 4
-  score_band: developing
-  score_composite: 47.7
-  shared: 1
 - slug: opplevagent-no
   name: Opplevagent
   description: Opplevagent is an agent-native (A2A) marketplace of Norwegian experiences and activities — 547 hand-picked tours, courses, attractions and things to do from 417 providers verified against Brønnøysundregistrene, plus a gårdssalg vertical of 252 farm-sale drink producers (breweries, cideries, winerie…
-  api_count: 4
+  api_count: 2
   score_band: developing
-  score_composite: 47.0
+  score_composite: 44.4
   shared: 1
 - slug: fabric-com
   name: fabric
   description: fabric is a composable, headless commerce platform. Its API covers catalog and product information management, pricing and promotions, cart and checkout, orders and order management, inventory, customers and addresses, and returns and appeasements.
-  api_count: 20
+  api_count: 16
   score_band: developing
   score_composite: 43.2
   shared: 1
@@ -188,14 +174,7 @@ providers:
   description: Cortex (cortex.io) is an internal developer portal (IDP) and software catalog platform. It gives engineering organizations a catalog of services and entities, Scorecards that measure those entities against production-readiness and reliability standards, Initiatives for driving improvement campaigns…
   api_count: 1
   score_band: thin
-  score_composite: 38.0
-  shared: 1
-- slug: driver
-  name: Driver
-  description: Driver is an AI platform that compiles exhaustive, structured context for codebases so AI coding agents and engineers can understand architecture, dependencies, and history without manually assembling context. It analyzes repositories, generates symbol-complete technical documentation, and keeps it…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.8
+  score_composite: 37.5
   shared: 1
 - slug: tock
   name: Tock
@@ -218,23 +197,42 @@ providers:
   score_band: thin
   score_composite: 35.2
   shared: 1
+- slug: roadie-io
+  name: Roadie
+  description: Roadie is managed Backstage - a fully hosted internal developer portal (IDP) and software catalog delivered as SaaS, so teams get the Backstage software catalog, TechDocs, Scaffolder software templates, Tech Insights scorecards, and 75+ plugins without operating Backstage themselves. Roadie exposes…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.1
+  shared: 1
+- slug: autoura
+  name: Autoura
+  description: Autoura is a UK digital experience platform (DXP) for real-world tourism and travel experiences, operated by The Spontaneous Travel Company Limited. It structures and maintains experience data — venues, attractions, tours, routes, stops, accessibility and dietary signals, AI guide characters and st…
+  api_count: 2
+  score_band: thin
+  score_composite: 33.2
+  shared: 1
+- slug: fever
+  name: Fever
+  description: 'Fever is a global live-entertainment discovery and ticketing platform that helps millions of people find events, activities and experiences in their city, and gives venues and partners the tools to sell and analyze tickets. For developers Fever exposes two public surfaces: an official Model Context…'
+  api_count: 1
+  score_band: thin
+  score_composite: 33.1
+  shared: 1
 provider_slugs:
 - adobe-suite
 - acquia
 - atlassian-compass
-- gitbook
-- treblle
 - apimatic
-- liblab
-- unblocked
+- treblle
 - configure8
+- gitbook
+- unblocked
 - signadot
 - apiable
+- liblab
 - coveo
-- fern-api
 - viator
 - peek
-- stainless
 - opplevagent-no
 - fabric-com
 - cycloid
@@ -245,7 +243,6 @@ provider_slugs:
 - software
 - readmeio
 - cortex-idp
-- driver
 - tock
 - rely
 - upbound
@@ -253,16 +250,19 @@ provider_slugs:
 - autoura
 - fever
 - readme-metrics
+- driver
 - supernova
 - port-io
+- stainless
 - northflank
-- nx-dev
 - score
 - american-airlines
 - grounded-tools
 - anyroad
+- fern-api
 - konfetti
 - turneo
+- nx-dev
 - kratix
 - prompt-driven
 - headout
@@ -277,31 +277,33 @@ provider_slugs:
 - bondai
 - wishbird-experiences
 - integrated-development-environment
+- developer-experience
+- portal
 - wanderable
 related:
 - slug: portal
   name: Portal
   shared: 6
-- slug: sdk
-  name: SDKs
-  shared: 4
 - slug: documentation
   name: Documentation
-  shared: 5
+  shared: 4
+- slug: sdk
+  name: SDKs
+  shared: 2
+- slug: microservices
+  name: Microservices
+  shared: 2
 - slug: testing
   name: Testing
   shared: 2
 - slug: ai-automation
   name: AI Automation
   shared: 1
-- slug: search
-  name: API Evangelist Search
-  shared: 1
 overview: 'Developer Experience is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [developer-experience.apievangelist.com](https://developer-experience.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Adobe Suite, Acquia, Atlassian Compass, GitBook, Treblle, APIMatic, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Adobe Suite, Acquia, Atlassian Compass, APIMatic, Treblle, Configure8, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Portal, SDKs, Documentation, and Testing. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Portal, Documentation, SDKs, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

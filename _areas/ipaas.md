@@ -6,19 +6,19 @@ description: This is the index of iPaaS (integration platform as a service) repo
 area_url: https://ipaas.apievangelist.com
 area_host: ipaas.apievangelist.com
 icon: https://ipaas.apievangelist.com/icon-thumb.png
-provider_count: 48
+provider_count: 51
 providers:
 - slug: tray-ai
   name: Tray.ai
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
-  api_count: 6
+  api_count: 4
   score_band: exemplar
   score_composite: 89.3
   shared: 1
 - slug: jitterbit
   name: Jitterbit
   description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 78.3
   shared: 1
@@ -29,10 +29,17 @@ providers:
   score_band: exemplar
   score_composite: 69.8
   shared: 1
+- slug: boomi
+  name: Boomi
+  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 68.3
+  shared: 1
 - slug: integration-os
   name: IntegrationOS
   description: IntegrationOS was a unified API platform that let developers add third-party integrations to their products with a single API call. The company rebranded as Pica (picaos.com) and then, on 2026-03-25, as One (withone.ai) — the provider's own changelog records the step as "Pica is now One". One is an…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 68.1
   shared: 1
@@ -57,12 +64,12 @@ providers:
   score_band: strong
   score_composite: 64.4
   shared: 1
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 3
+- slug: celigo
+  name: Celigo
+  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
+  api_count: 1
   score_band: strong
-  score_composite: 63.8
+  score_composite: 61.7
   shared: 1
 - slug: agave
   name: Agave
@@ -76,7 +83,7 @@ providers:
   description: SnapLogic provides an Agentic Integration and Applied AI Platform that securely connects applications, data, APIs and AI agents across cloud, on‑premise and hybrid environments for enterprises. The platform offers visual ETL/ELT, no‑code iPaaS, API management, legacy modernization tools, and govern…
   api_count: 1
   score_band: strong
-  score_composite: 60.8
+  score_composite: 60.3
   shared: 1
 - slug: 3shake
   name: 3-shake
@@ -144,7 +151,7 @@ providers:
 - slug: skyvia
   name: Skyvia
   description: 'Skyvia is a no-code cloud data platform from Devart covering five products on one account: Data Integration (import, export, replication, synchronization, data flow and control flow across 200+ cloud apps and databases), Automation (trigger-driven business process automation with schedule, polling-…'
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 47.8
   shared: 1
@@ -183,13 +190,6 @@ providers:
   score_band: developing
   score_composite: 44.2
   shared: 1
-- slug: celigo
-  name: Celigo
-  description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.1
-  shared: 1
 - slug: elastic-io
   name: Elastic.io
   description: Elastic IO is a cloud-based integration platform that helps businesses effortlessly connect their various applications, systems, and services. By providing a user-friendly interface and a wide range of pre-built connectors, elastic.io allows organizations to automate and streamline their data integ…
@@ -222,11 +222,12 @@ provider_slugs:
 - tray-ai
 - jitterbit
 - zapier
+- boomi
 - integration-os
 - workato
 - pandium
 - vessel
-- boomi
+- celigo
 - agave
 - snaplogic
 - 3shake
@@ -244,7 +245,6 @@ provider_slugs:
 - runautomat
 - make
 - flume-health
-- celigo
 - elastic-io
 - modusbox
 - morf
@@ -252,8 +252,8 @@ provider_slugs:
 - reachware-inc
 - useparagon
 - hotglue
-- alloy-automation
 - automat
+- alloy-automation
 - sandbox-banking
 - software-ag
 - apifuse
@@ -265,21 +265,24 @@ provider_slugs:
 - oneio
 - locale
 - web-methods
+- integrations
+- unified-apis
+- ipaas
 - azuqua
 - cloudpipes
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 18
+  shared: 19
 - slug: workflow-automation
   name: Workflow Automation
   shared: 8
 - slug: management
   name: Management
-  shared: 6
+  shared: 7
 - slug: ai-automation
   name: AI Automation
-  shared: 4
+  shared: 5
 - slug: orchestration
   name: Orchestration
   shared: 3
@@ -289,7 +292,7 @@ related:
 overview: 'iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ipaas.apievangelist.com](https://ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Tray.ai, Jitterbit, Zapier, IntegrationOS, Workato, Pandium, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Tray.ai, Jitterbit, Zapier, Boomi, IntegrationOS, Workato, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS, Workflow Automation, Management, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

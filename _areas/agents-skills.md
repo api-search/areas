@@ -6,7 +6,7 @@ description: An index and topic collection covering Agent Skills, the packaged, 
 area_url: https://agents-skills.apievangelist.com
 area_host: agents-skills.apievangelist.com
 icon: https://agents-skills.apievangelist.com/icon-thumb.png
-provider_count: 80
+provider_count: 81
 providers:
 - slug: apis-io
   name: APIs.io
@@ -32,7 +32,7 @@ providers:
 - slug: unify
   name: Unify
   description: Unify is a B2B outbound and go-to-market platform that pairs AI agents with reps to find buyers already in market and reach them with the right message, combining 40+ data sources, 1.1B+ contacts and 65M+ companies with intent signals, automated Plays and multi-channel sequences. Founded in 2023 an…
-  api_count: 7
+  api_count: 4
   score_band: exemplar
   score_composite: 70.0
   shared: 1
@@ -60,21 +60,14 @@ providers:
 - slug: konbiniapi
   name: KonbiniAPI
   description: KonbiniAPI is the social data layer for Instagram, TikTok, X, Reddit and LinkedIn, normalizing real-time public profile, post, video, comment, audio, community, subreddit, location and search data into a single consistent ActivityStreams 2.0 (W3C) shape. Sixty-seven endpoints are exposed through on…
-  api_count: 3
+  api_count: 2
   score_band: strong
-  score_composite: 65.6
-  shared: 1
-- slug: lacuna
-  name: Lacuna
-  description: Lacuna (lacuna.fm), operated by JOYLINK LTD, is an AI music creation platform that turns lyrics or a plain-text style description into complete songs with vocals, alongside lyrics writing, word-level timed lyrics (LRC/SRT/VTT), lyric video export, AI mastering, mashups, stem separation, album-cover…
-  api_count: 3
-  score_band: strong
-  score_composite: 65.4
+  score_composite: 65.1
   shared: 1
 - slug: visier
   name: Visier
   description: Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering. Visier publishes a broad suite of public REST APIs — Data…
-  api_count: 13
+  api_count: 9
   score_band: strong
   score_composite: 65.0
   shared: 1
@@ -85,12 +78,12 @@ providers:
   score_band: strong
   score_composite: 64.9
   shared: 1
-- slug: assetfare
-  name: AssetFare
-  description: A capped, non-custodial routing API for a single corridor — Solana SOL to Base native ETH — aimed at AI agents. It returns fee-inclusive quotes and bounded unsigned actions; the caller's agent verifies, signs, and submits every transaction. AssetFare never receives private keys and never signs or s…
-  api_count: 4
+- slug: lacuna
+  name: Lacuna
+  description: Lacuna (lacuna.fm), operated by JOYLINK LTD, is an AI music creation platform that turns lyrics or a plain-text style description into complete songs with vocals, alongside lyrics writing, word-level timed lyrics (LRC/SRT/VTT), lyric video export, AI mastering, mashups, stem separation, album-cover…
+  api_count: 2
   score_band: strong
-  score_composite: 63.9
+  score_composite: 64.9
   shared: 1
 - slug: airops
   name: AirOps
@@ -102,14 +95,14 @@ providers:
 - slug: se-ranking
   name: SE Ranking
   description: SE Ranking is an SEO platform providing a REST API for keyword rank tracking, competitor analysis, backlink monitoring, on-page auditing, AI search visibility, and generating white-label SEO reports. The platform offers two API layers — a Data API with pay-as-you-go credits for SEO data retrieval a…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.8
   shared: 1
 - slug: dant3-net
   name: Dant3
   description: 'Dant3 is a public-beta social and work network, operated from London by Snooptsz Group LTD, where Humans, AI Agents, Bots and Robots participate under visible identity and operator-accountability rules. It publishes a machine-first surface on dant3.net: a 15-operation Machine API (OpenAPI 3.1.0, po…'
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.2
   shared: 1
@@ -130,28 +123,28 @@ providers:
 - slug: criteo
   name: Criteo
   description: Criteo is a global commerce media company whose Retail Media, Marketing Solutions and Commerce Grid platforms let retailers, brands, agencies and partners create, launch and measure onsite and offsite commerce advertising. Criteo publishes three live OpenAPI 3.0.1 documents at api.criteo.com coveri…
-  api_count: 10
+  api_count: 6
   score_band: strong
   score_composite: 60.7
   shared: 1
 - slug: synthflow
   name: Synthflow
   description: Synthflow is an enterprise-ready no-code Voice AI platform for automating phone conversations at scale. The product combines a visual agent designer with in-house telephony, sub-100ms latency, and a 99.99% uptime guarantee, so businesses can build, deploy, and operate voice agents without third-par…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 60.0
   shared: 1
 - slug: adanos-market-sentiment-api
   name: Adanos Market Sentiment API
   description: Key-authenticated REST/JSON API for financial market sentiment analytics across Reddit, X.com, news, and Polymarket, plus stock news and crypto sentiment. Provides Buzz Score, Trend Detection, and directional Sentiment signals for traders, fintech, quant/research teams, and AI agents.
-  api_count: 8
+  api_count: 7
   score_band: strong
   score_composite: 59.7
   shared: 1
 - slug: ledger
   name: Ledger
   description: 'Ledger SAS is the Paris-headquartered maker of the Ledger hardware signer family (Nano, Flex, Stax) and the surrounding self-custody and institutional-custody platform. Its developer surface spans five distinct programs: the Ledger Wallet exchange-provider APIs (Swap, Buy, Sell, Earn and Card OpenA…'
-  api_count: 24
+  api_count: 14
   score_band: strong
   score_composite: 58.9
   shared: 1
@@ -183,13 +176,6 @@ providers:
   score_band: strong
   score_composite: 56.9
   shared: 1
-- slug: lvlltd-com
-  name: LVL LTD CO
-  description: LVL LTD CO is a sole-operator product lab in Cleveland, Georgia (operator Joseph Lamar Taylor; trade name, LLC registration stated as pending) that runs lvlltd.com, an agent-native marketplace of 250 sealed AI-agent skill packs priced in USDC on Base (chain 8453) and settled over the x402 HTTP 402…
-  api_count: 4
-  score_band: strong
-  score_composite: 56.8
-  shared: 1
 - slug: apstal
   name: Apstal
   description: AI-first website analytics and visitor tracking platform that replaces traditional dashboards with a natural-language chatbot interface, offering conversational analytics, cookieless tracking, session replays, heatmaps, funnels, error tracking, Core Web Vitals and AI-agent traffic detection. Apstal…
@@ -197,10 +183,17 @@ providers:
   score_band: strong
   score_composite: 56.4
   shared: 1
+- slug: lvlltd-com
+  name: LVL LTD CO
+  description: LVL LTD CO is a sole-operator product lab in Cleveland, Georgia (operator Joseph Lamar Taylor; trade name, LLC registration stated as pending) that runs lvlltd.com, an agent-native marketplace of 250 sealed AI-agent skill packs priced in USDC on Base (chain 8453) and settled over the x402 HTTP 402…
+  api_count: 2
+  score_band: strong
+  score_composite: 56.3
+  shared: 1
 - slug: lightrun
   name: Lightrun
   description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 55.8
   shared: 1
@@ -218,6 +211,13 @@ providers:
   score_band: strong
   score_composite: 55.2
   shared: 1
+- slug: ballerina
+  name: Ballerina
+  description: 'Ballerina is an open-source programming language for the cloud, created and maintained by WSO2, whose type system, syntax and tooling are built around network interaction: services, clients, data transformation and integration are language constructs rather than framework add-ons. It ships first-pa…'
+  api_count: 1
+  score_band: developing
+  score_composite: 53.9
+  shared: 1
 provider_slugs:
 - apis-io
 - parallel-ai
@@ -227,10 +227,9 @@ provider_slugs:
 - infer-by-flow7
 - erxes
 - konbiniapi
-- lacuna
 - visier
 - clickfunnels
-- assetfare
+- lacuna
 - airops
 - se-ranking
 - dant3-net
@@ -244,30 +243,31 @@ provider_slugs:
 - developerhub
 - zyte
 - nord-security
-- lvlltd-com
 - apstal
+- lvlltd-com
 - lightrun
 - cadasto
 - credo-ai
 - ballerina
+- assetfare
 - voygr
 - abbyy
-- typesafe-ai
 - enigma-analytics
 - plyrium-com
 - apicontext
+- typesafe-ai
 - daloopa
 - trusona
 - meta-agent-tools
 - lokki
 - cloud-academy
-- renoolab-fr
-- btc-war-live-market-data-api
-- seshat-markets
 - bitpanda
+- seshat-markets
 - anew
 - phenom
 - admakeai
+- renoolab-fr
+- btc-war-live-market-data-api
 - aelf-inc
 - mydentify-public-api
 - amazon-seller-central
@@ -276,7 +276,6 @@ provider_slugs:
 - naftiko
 - gloat
 - meetanlora-com
-- heeler
 - growthspace
 - wato
 - limit-break
@@ -285,18 +284,20 @@ provider_slugs:
 - genie-us-software-com
 - agent-skills
 - horizon-robotics
-- perseus
 - perkoon-com
+- heeler
 - cloutjam
 - numeric
-- qname
 - blockscout
 - legal-and-general
+- qname
 - agentic-resource-discovery
+- perseus
 - fxlabs
 - columnar
 - intrinsic-ai
 - agentic-data-intelligence
+- agents-skills
 - emergences-ai-inc
 - clustree
 related:
@@ -309,11 +310,11 @@ related:
 - slug: privacy
   name: Privacy
   shared: 2
-- slug: aggregation
-  name: Aggregation
-  shared: 1
 - slug: api-proxies
   name: API Proxies
+  shared: 1
+- slug: aggregation
+  name: Aggregation
   shared: 1
 - slug: bots
   name: Bots
@@ -324,5 +325,5 @@ overview: 'Agent Skills is one of the API Evangelist areas on the [APIs.io](http
   30 providers on the network work in this area, including APIs.io, Parallel, Cracked API, Unify, SMTP2GO, Infer by Flow7, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Scraping, Documentation, Privacy, and Aggregation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Scraping, Documentation, Privacy, and API Proxies. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

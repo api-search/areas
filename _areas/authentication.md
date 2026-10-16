@@ -6,21 +6,21 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 383
+provider_count: 384
 providers:
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
   api_count: 89
   score_band: exemplar
-  score_composite: 89.3
+  score_composite: 88.5
   shared: 1
 - slug: kinde
   name: Kinde
   description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 88.5
+  score_composite: 88.0
   shared: 1
 - slug: appwrite
   name: Appwrite
@@ -67,9 +67,9 @@ providers:
 - slug: drchrono
   name: drchrono
   description: drchrono, part of EverCommerce's EverHealth portfolio, is an all-in-one EHR, practice management and medical billing platform for independent US medical practices. It publishes two distinct machine-readable API surfaces. The proprietary REST v4 API (codename Hunt Valley) is an OAuth 2.0-secured con…
-  api_count: 4
+  api_count: 2
   score_band: exemplar
-  score_composite: 76.8
+  score_composite: 76.3
   shared: 1
 - slug: okta
   name: Okta
@@ -109,7 +109,7 @@ providers:
 - slug: authentik
   name: Authentik
   description: Authentik is an open source identity provider from Authentik Security Inc., a public benefit company, exposing a 1,193-operation REST API at /api/v3 on every self-hosted instance. The published OpenAPI covers users, groups, applications, tokens, RBAC, flows, stages, policies, property mappings, out…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 71.6
   shared: 1
@@ -126,13 +126,6 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 70.3
-  shared: 1
-- slug: tvarka
-  name: Tvarka ATK API
-  description: A single REST API estate for Lithuanian eID authentication and qualified electronic signing (QES). The ATK API reads the Lithuanian identity card itself - physical smart-card reader or NFC phone tap - through one request, polling, webhook and metering model, and adds standalone validation, timestam…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 70.1
   shared: 1
 - slug: strivacity
   name: Strivacity
@@ -155,17 +148,17 @@ providers:
   score_band: exemplar
   score_composite: 67.7
   shared: 1
+- slug: tvarka
+  name: Tvarka ATK API
+  description: A single REST API estate for Lithuanian eID authentication and qualified electronic signing (QES). The ATK API reads the Lithuanian identity card itself - physical smart-card reader or NFC phone tap - through one request, polling, webhook and metering model, and adds standalone validation, timestam…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 67.6
+  shared: 1
 - slug: amazon-cognito
   name: Amazon Cognito
   description: Amazon Cognito is a fully managed AWS user identity and authentication service that adds sign-up, sign-in, and access control to web and mobile applications, scaling to millions of users. It provides User Pools for authentication (user directories, MFA, customizable auth flows) and Identity Pools f…
   api_count: 2
-  score_band: exemplar
-  score_composite: 67.0
-  shared: 1
-- slug: immutable
-  name: Immutable
-  description: 'Immutable is a games growth and blockchain infrastructure company whose platform spans two connected halves: Immutable Audience, a games-focused CDP, attribution and player-activation stack (ingestion, analytics, engage, conversion funnel, ad-network postbacks), and Immutable Chain, a gaming-optimi…'
-  api_count: 4
   score_band: exemplar
   score_composite: 67.0
   shared: 1
@@ -186,7 +179,7 @@ providers:
 - slug: commerce-layer
   name: Commerce Layer
   description: Commerce Layer is the headless, multi-market commerce API used by global brands to sell everywhere — web, mobile, in-store, chatbot, AI agent, and IoT. The company exposes a JSON:API-compliant Core API with 130+ top-level resources covering orders, line items, SKUs, bundles, prices, markets, stores…
-  api_count: 4
+  api_count: 3
   score_band: strong
   score_composite: 65.6
   shared: 1
@@ -197,17 +190,10 @@ providers:
   score_band: strong
   score_composite: 65.5
   shared: 1
-- slug: lacuna
-  name: Lacuna
-  description: Lacuna (lacuna.fm), operated by JOYLINK LTD, is an AI music creation platform that turns lyrics or a plain-text style description into complete songs with vocals, alongside lyrics writing, word-level timed lyrics (LRC/SRT/VTT), lyric video export, AI mastering, mashups, stem separation, album-cover…
-  api_count: 3
-  score_band: strong
-  score_composite: 65.4
-  shared: 1
 - slug: taskfolk
   name: Taskfolk
   description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backlog, list, calendar and timeline views, with sprints, milesto…
-  api_count: 8
+  api_count: 4
   score_band: strong
   score_composite: 65.2
   shared: 1
@@ -217,6 +203,20 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 64.9
+  shared: 1
+- slug: lacuna
+  name: Lacuna
+  description: Lacuna (lacuna.fm), operated by JOYLINK LTD, is an AI music creation platform that turns lyrics or a plain-text style description into complete songs with vocals, alongside lyrics writing, word-level timed lyrics (LRC/SRT/VTT), lyric video export, AI mastering, mashups, stem separation, album-cover…
+  api_count: 2
+  score_band: strong
+  score_composite: 64.9
+  shared: 1
+- slug: gluu
+  name: Gluu
+  description: Gluu is a technology company that specializes in providing identity and access management solutions for businesses. Their platform allows organizations to centrally manage the authentication and authorization of users across various applications and systems, ensuring secure access to sensitive data…
+  api_count: 23
+  score_band: strong
+  score_composite: 64.4
   shared: 1
 provider_slugs:
 - twilio
@@ -236,24 +236,23 @@ provider_slugs:
 - authentik
 - auth0
 - ios
-- tvarka
 - strivacity
 - kraken
 - aweber
+- tvarka
 - amazon-cognito
-- immutable
 - cisco-xdr
 - cvent-hospitality-cloud
 - commerce-layer
 - frontegg
-- lacuna
 - taskfolk
 - jefferson-health
+- lacuna
 - gluu
+- immutable
 - hootsuite
 - propelauth
 - playable
-- zuplo
 - hustle
 - transmit-security
 - barndoor
@@ -264,27 +263,27 @@ provider_slugs:
 - rose-rocket
 - workos
 - allegion
+- zuplo
 - etsy
 - weave
 - microsoft-entra
-- airtm
 - jane-app
 - appdirect
-- arcade-dev
+- airtm
 - ping-identity
 - unico
-- composio
 - amazon-iam
-- beyond-identity
 - forgerock
-- datavant
+- composio
 - lichess
+- beyond-identity
+- datavant
 - descope
 - yubico
-- aircover
 - snap
 - temple-health
 - lawmatics
+- aircover
 - ironclad
 - tibber
 - trakt
@@ -293,65 +292,65 @@ provider_slugs:
 - authelia
 - uber-eats
 - amazon-iam-identity-center
-- cabify
 - clio
 - onecli
-- trustarc
 - insforge
+- cabify
 - ezoic
+- trustarc
 - civic
 - photon
-- consolidated-edison
 - singlefile
 - spekit
 - fusionauth
 - amazon-directory-service
 - wahoo
 - cobot
-- trusona
+- api-market
 - 1kosmos
-- kannkidas-de
 - neon
 - authenticx
-- doximity
+- trusona
 - zitadel
+- kannkidas-de
 - dream-sports
-- 1f916
+- prove
+- doximity
 - google-cloud-api-gateway
 - clearslide
 - textmaster
 - login-gov
 - opal
 - signiant
+- consolidated-edison
 - cyclr
 - slashid
 - truecaller
 - authlete
 - hopae-inc
 - defakto-security
+- 1f916
 - easywebinar
 - keyo
 - cyberark
-- grammarly
 - ory
 - clear
 - zoho-people
-- aol
 - playfab
 - climate-fieldview
 - firebase
-- idme
 - oracle-health
 - bluestacks
 - bokio
+- aol
 - dust-identity
+- idme
 - solaris
 - buoy-health
 - nango
 - cirrus-identity
 - hanko
 - klavis
-- guestready
 - google-firebase
 - jack-henry
 - flume-health
@@ -359,6 +358,7 @@ provider_slugs:
 - logto
 - carefluence
 - eve-online
+- guestready
 - result
 - wish
 - nomos
@@ -374,16 +374,16 @@ provider_slugs:
 - gadjah-mada-university
 - luminary
 - myfitnesspal
-- arccos-golf
 - bitski
 - unkey
 - nhost
 - altruist
+- arccos-golf
 - kadence
 - linqgg
 - cakewalk
 - era
-- galxe
+- grammarly
 - supertokens
 - monzo
 - reqkey
@@ -407,9 +407,9 @@ provider_slugs:
 - splitwise
 - gojek
 - nudge-security
+- galxe
 - mycase
 - eagle-eye-networks
-- gel-data
 - agentsync
 - nycu
 - ikas-ikas-teknoloji-as
@@ -427,17 +427,17 @@ provider_slugs:
 - planday
 - centralreach
 - keycloak
-- passage-1password
 - telefonica
 - via-science
-- debank
 - autopass
 - express-gateway
 - flipkart
 - liquid
+- passage-1password
 - picogrid
 - surveymonkey
 - aci-dev
+- debank
 - alien
 - authsignal
 - pragma
@@ -449,39 +449,37 @@ provider_slugs:
 - sifive
 - collectors
 - iniciador
+- gel-data
 - neurable
 - wellfound
-- cuvva
 - everledger
 - kakao
-- prove
 - virgil-security
-- onescreen-ai
 - spiffe
+- cuvva
 - keel
 - blueleaf
 - infra
 - nanjing
 - ccc-intelligent-solutions
-- elk
 - onelogin
+- elk
 - kahoot
-- koalaboox
 - grab
 - thrivecom
 - glama-ai
+- koalaboox
 - soundcloud
 - centurylink
 - deezer
 - flockjay
 - hanyang
+- onescreen-ai
 - stream-labs
-- augworlds-ai
 - duo-security
 - nectar-social
 - centrify
 - bmw-connecteddrive
-- getnet
 - actively
 - better-auth
 - farcaster
@@ -489,22 +487,24 @@ provider_slugs:
 - river-financial
 - secret-double-octopus
 - formstack
+- getnet
 - privy
 - rohlik
 - marco-polo
-- blink-ledger-systems
 - itb
 - passbase
 - 3dagogo
 - apache-shiro
 - violet
+- augworlds-ai
+- blink-ledger-systems
 - pulsoid
-- samedi
 - noredink
 - snapser
 - hanr-block
 - numeric
 - skyfire
+- samedi
 - oscar-emr
 - awakens
 - incognia
@@ -525,8 +525,8 @@ provider_slugs:
 - pocketbase
 - stack-auth
 - bright-funds
-- travelclick-amadeus
 - casdoor
+- travelclick-amadeus
 - openblock-labs
 - libryo
 - zero-trust-architecture
@@ -551,14 +551,14 @@ provider_slugs:
 - naver
 - alitheon
 - pindrop-security
-- lovys
 - monnai
+- lovys
 - saib-and-co
 - ithaca
 - rockstar-games
 - newcore
-- manifest-law
 - hapi
+- manifest-law
 - web3auth
 - cyral
 - magic-link
@@ -566,14 +566,14 @@ provider_slugs:
 - bitstrips
 - memorick
 - global-id
-- iovation
 - shippingbo
-- everysim-inc
 - lollipuff
 - bukalapak
 - burbank
 - goat-group
 - tradeblock
+- iovation
+- everysim-inc
 - bag-borrow-or-steal
 - authy
 - remind
@@ -590,12 +590,13 @@ provider_slugs:
 - sawo-labs
 - idsmanager
 - micro-user-service
-- soda
-- nok-nok-labs
 - ocra
 - anetac
 - arcot-systems
+- soda
 - crane
+- authentication
+- nok-nok-labs
 - appnet
 - cyota-inc
 - fusebit

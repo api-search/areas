@@ -6,7 +6,7 @@ description: An index and topic collection covering integrated development envir
 area_url: https://ide.apievangelist.com
 area_host: ide.apievangelist.com
 icon: https://ide.apievangelist.com/icon-thumb.png
-provider_count: 23
+provider_count: 24
 providers:
 - slug: github-copilot
   name: GitHub Copilot
@@ -27,7 +27,7 @@ providers:
   description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
   api_count: 1
   score_band: strong
-  score_composite: 62.5
+  score_composite: 62.0
   shared: 1
 - slug: jetbrains
   name: JetBrains
@@ -57,13 +57,6 @@ providers:
   score_band: developing
   score_composite: 47.9
   shared: 1
-- slug: anysphere
-  name: Anysphere
-  description: Anysphere is the applied-research company behind Cursor, the AI-native code editor and agent platform. Beyond the desktop app, Cursor ships a public Cloud Agents REST API (https://api.cursor.com) that lets developers programmatically create autonomous coding agents, submit prompt runs, stream run e…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.0
-  shared: 1
 - slug: jupyterlab
   name: JupyterLab
   description: JupyterLab is the next-generation web-based interactive development environment for notebooks, code, and data. It is served by Jupyter Server and ships with JupyterLab Server, which provides REST APIs for user-defined settings, workspaces, themes, translations, and license reports, alongside the Ja…
@@ -78,19 +71,19 @@ providers:
   score_band: thin
   score_composite: 37.6
   shared: 1
+- slug: anysphere
+  name: Anysphere
+  description: Anysphere is the applied-research company behind Cursor, the AI-native code editor and agent platform. Beyond the desktop app, Cursor ships a public Cloud Agents REST API (https://api.cursor.com) that lets developers programmatically create autonomous coding agents, submit prompt runs, stream run e…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.3
+  shared: 1
 - slug: windsurf
   name: Windsurf
   description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
   api_count: 1
   score_band: thin
-  score_composite: 31.2
-  shared: 1
-- slug: nx-dev
-  name: Nx
-  description: Nx is a smart, fast, extensible monorepo build system and integrated CI platform created and maintained by Nrwl. The Nx CLI (Rust core, TypeScript plugins) provides task orchestration, dependency-graph analysis, affected-only execution, local caching, and code generation across Angular, React, Next…
-  api_count: 10
-  score_band: thin
-  score_composite: 29.2
+  score_composite: 30.7
   shared: 1
 - slug: microsoft-visual-studio
   name: Microsoft Visual Studio
@@ -112,6 +105,13 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 26.6
+  shared: 1
+- slug: nx-dev
+  name: Nx
+  description: Nx is a smart, fast, extensible monorepo build system and integrated CI platform created and maintained by Nrwl. The Nx CLI (Rust core, TypeScript plugins) provides task orchestration, dependency-graph analysis, affected-only execution, local caching, and code generation across Angular, React, Next…
+  api_count: 10
+  score_band: emerging
+  score_composite: 23.5
   shared: 1
 - slug: qt
   name: Qt
@@ -155,6 +155,13 @@ providers:
   score_band: minimal
   score_composite: 10.6
   shared: 1
+- slug: ide
+  name: IDE
+  description: An index and topic collection covering integrated development environments (IDEs), code editors, and cloud workspaces with APIs. This topic captures the editors, IDEs, and developer workspaces that expose programmable surfaces, including local desktop IDEs (Visual Studio, JetBrains IDEs, Eclipse),…
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.5
+  shared: 1
 - slug: editorconfig
   name: EditorConfig
   description: EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format…
@@ -177,20 +184,21 @@ provider_slugs:
 - choreo
 - workday-studio
 - amazon-cloud9
-- anysphere
 - jupyterlab
 - vs-code-marketplace
+- anysphere
 - windsurf
-- nx-dev
 - microsoft-visual-studio
 - jetbrains-plugin
 - stackblitz
+- nx-dev
 - qt
 - zed-editor
 - refact-ai
 - visual-studio-code
 - clad-labs
 - codeium
+- ide
 - editorconfig
 - integrated-development-environment
 related:
@@ -215,7 +223,7 @@ related:
 overview: 'IDE is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ide.apievangelist.com](https://ide.apievangelist.com).
 
 
-  23 providers on the network work in this area, including GitHub Copilot, Eclipse Foundation, Cursor, JetBrains, Choreo, Workday Studio, and 17 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  24 providers on the network work in this area, including GitHub Copilot, Eclipse Foundation, Cursor, JetBrains, Choreo, Workday Studio, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Unified APIs, FinOps, Machine Learning, and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'

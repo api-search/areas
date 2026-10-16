@@ -6,7 +6,7 @@ description: AIOps applies artificial intelligence and machine learning to IT op
 area_url: https://aiops.apievangelist.com
 area_host: aiops.apievangelist.com
 icon: https://aiops.apievangelist.com/icon-thumb.png
-provider_count: 49
+provider_count: 50
 providers:
 - slug: logicmonitor
   name: LogicMonitor
@@ -39,7 +39,7 @@ providers:
 - slug: chronosphere
   name: Chronosphere
   description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
-  api_count: 8
+  api_count: 4
   score_band: exemplar
   score_composite: 67.9
   shared: 1
@@ -49,6 +49,13 @@ providers:
   api_count: 2
   score_band: strong
   score_composite: 66.4
+  shared: 1
+- slug: sciencelogic
+  name: ScienceLogic
+  description: ScienceLogic is an AIOps and IT operations company whose ScienceLogic AI Platform — rebranded in 2026 as the Skylar family — covers infrastructure and application observability, network configuration and compliance, and workflow automation. Skylar One (formerly SL1) is the observability platform, w…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.7
   shared: 1
 - slug: logz-io
   name: Logz.io
@@ -63,13 +70,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 64.0
-  shared: 1
-- slug: sciencelogic
-  name: ScienceLogic
-  description: ScienceLogic is an AIOps and IT operations company whose ScienceLogic AI Platform — rebranded in 2026 as the Skylar family — covers infrastructure and application observability, network configuration and compliance, and workflow automation. Skylar One (formerly SL1) is the observability platform, w…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.7
   shared: 1
 - slug: moogsoft
   name: Moogsoft
@@ -88,7 +88,7 @@ providers:
 - slug: deployxa
   name: Deployxa
   description: AI-first autonomous cloud deployment platform for deploying AI-built and containerized web apps to production, featuring a deployment intelligence engine, global edge deployment, managed databases, VPS clusters, and a CLI. Publishes an OpenAPI 3.0.3 contract at /openapi.json, an llms.txt, an A2A ag…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 59.4
   shared: 1
@@ -167,14 +167,7 @@ providers:
   description: Deeptrace is an AI SRE (site reliability engineering) agent that automatically investigates and root-causes production alerts by reasoning across logs, traces, metrics, and code. It triages and prioritizes alerts, produces evidence-backed root cause analyses in a couple of minutes, answers natural-…
   api_count: 1
   score_band: developing
-  score_composite: 43.4
-  shared: 1
-- slug: doctor-droid
-  name: Doctor Droid
-  description: Doctor Droid (DrDroid), built by Deep Sea Tech Inc., is an AI-powered SRE and on-call agent that builds a knowledge graph of your technology stack — cloud, code, and telemetry — to accelerate incident response and root-cause analysis. DroidAgent runs automated investigations from the dashboard, fro…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.8
+  score_composite: 42.9
   shared: 1
 - slug: chamber
   name: Chamber
@@ -183,13 +176,6 @@ providers:
   score_band: developing
   score_composite: 42.5
   shared: 1
-- slug: neubird
-  name: Neubird
-  description: NeuBird AI is "The Production Operations Agent" — an autonomous AI SRE platform that investigates, triages, and resolves production incidents. It connects to an organization's existing observability and operations stack (Datadog, Splunk, CloudWatch, PagerDuty, ServiceNow, Slack, Kubernetes, AWS, Az…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.6
-  shared: 1
 - slug: motadata
   name: Motadata
   description: 'Motadata (Mindarray Systems) is a global IT software company running two AI-native platforms on a shared deep-learning foundation: ObserveOps, a unified observability and AIOps platform that brings metrics, logs, traces, flows and topology into one backend, and ServiceOps, an ITIL-aligned IT and en…'
@@ -197,12 +183,19 @@ providers:
   score_band: thin
   score_composite: 38.6
   shared: 1
-- slug: carrot-labs
-  name: Carrot Labs
-  description: Carrot Labs is the company behind SuperPenguin, an AI spend intelligence platform that tracks, attributes, and forecasts spending across 14+ LLM, speech, and gateway providers including OpenAI, Anthropic, Google Gemini, AWS Bedrock, Vercel AI Gateway, Deepgram, ElevenLabs, LiveKit, and LiteLLM. Sup…
+- slug: doctor-droid
+  name: Doctor Droid
+  description: Doctor Droid (DrDroid), built by Deep Sea Tech Inc., is an AI-powered SRE and on-call agent that builds a knowledge graph of your technology stack — cloud, code, and telemetry — to accelerate incident response and root-cause analysis. DroidAgent runs automated investigations from the dashboard, fro…
   api_count: 1
   score_band: thin
-  score_composite: 33.2
+  score_composite: 37.1
+  shared: 1
+- slug: neubird
+  name: Neubird
+  description: NeuBird AI is "The Production Operations Agent" — an autonomous AI SRE platform that investigates, triages, and resolves production incidents. It connects to an organization's existing observability and operations stack (Datadog, Splunk, CloudWatch, PagerDuty, ServiceNow, Slack, Kubernetes, AWS, Az…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.8
   shared: 1
 - slug: kosmoslabs
   name: Kosmos AI Labs
@@ -214,9 +207,16 @@ providers:
 - slug: keep
   name: Keep
   description: Keep is an open-source AIOps and alert management platform that unifies alerts from any monitoring tool, providing deduplication, correlation, enrichment, and workflow automation across observability, incident response, ticketing, and CMDB systems. The Keep REST API enables programmatic access to a…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 28.2
+  shared: 1
+- slug: incident-io
+  name: Incident.io
+  description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
+  api_count: 25
+  score_band: thin
+  score_composite: 28.1
   shared: 1
 provider_slugs:
 - logicmonitor
@@ -225,9 +225,9 @@ provider_slugs:
 - bigpanda
 - chronosphere
 - firehydrant
+- sciencelogic
 - logz-io
 - groundcover
-- sciencelogic
 - moogsoft
 - elastic-observability
 - deployxa
@@ -242,14 +242,14 @@ provider_slugs:
 - mist-ai
 - opsmill
 - deeptrace
-- doctor-droid
 - chamber
-- neubird
 - motadata
-- carrot-labs
+- doctor-droid
+- neubird
 - kosmoslabs
 - keep
 - incident-io
+- carrot-labs
 - rootly
 - striveworks
 - riverbed-technology
@@ -264,19 +264,20 @@ provider_slugs:
 - nebu
 - sevone-turbonomic
 - dorado-software-inc
-- velocity
 - augtera-networks
+- velocity
 - zebrium
+- aiops
 - shoreline
 related:
 - slug: observability
   name: Observability
-  shared: 5
-- slug: logging
-  name: Logging
-  shared: 3
+  shared: 6
 - slug: monitoring
   name: Monitoring
+  shared: 4
+- slug: logging
+  name: Logging
   shared: 3
 - slug: agents
   name: Agents
@@ -293,5 +294,5 @@ overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://api
   30 providers on the network work in this area, including LogicMonitor, Akuity, Soda, BigPanda, Chronosphere, FireHydrant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Observability, Logging, Monitoring, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Observability, Monitoring, Logging, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

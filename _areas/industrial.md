@@ -6,15 +6,8 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 198
+provider_count: 192
 providers:
-- slug: cloudstudioiot
-  name: Cloud Studio IoT
-  description: Cloud Studio IoT provides an Industrial AI IoT platform delivering end‑to‑end solutions for verticals such as smart cities, energy management, agriculture and manufacturing. Their cloud‑based services include data extraction APIs, AI‑driven analytics, device connectivity (LoRaWAN, MQTT, NB‑IoT) and…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.0
-  shared: 1
 - slug: siemens
   name: Siemens
   description: Siemens is a global powerhouse in the fields of electrification, automation and digitalization. The company offers a broad portfolio of products, solutions and services that enable customers to increase their efficiency and sustainability. Siemens operates in a variety of sectors including energy,…
@@ -25,7 +18,7 @@ providers:
 - slug: paperless-parts
   name: Paperless Parts
   description: Paperless Parts, Inc. is a Boston-based manufacturing software company founded in 2017 that builds a secure, ITAR-compliant cloud quoting and sales platform for custom part manufacturers — job shops, contract manufacturers and rapid-prototype businesses working in CNC machining, sheet metal fabrica…
-  api_count: 6
+  api_count: 4
   score_band: strong
   score_composite: 54.6
   shared: 1
@@ -39,23 +32,16 @@ providers:
 - slug: remberg
   name: Remberg
   description: remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventi…
-  api_count: 15
+  api_count: 12
   score_band: developing
   score_composite: 47.9
   shared: 1
 - slug: aerones
   name: Aerones
   description: Aerones is a Latvian robotics company that performs wind turbine blade inspection, cleaning, coating, leading-edge repair and lightning-protection testing with cable-suspended robots and autonomous drones, operating onshore and offshore for owners and OEMs including NextEra, GE, Vestas, Enel and Si…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 47.0
-  shared: 1
-- slug: brainbox3ae3
-  name: Brainbox3ae3
-  description: Brainboxes Ltd is a UK‑based designer and manufacturer of rugged industrial‑grade data connectivity solutions, including Ethernet switches, serial device servers, edge controllers and remote I/O modules. Founded in 1984, the company provides lifetime support, in‑house design and testing, and serves…
-  api_count: 2
-  score_band: developing
-  score_composite: 46.1
   shared: 1
 - slug: ge-vernova
   name: GE Vernova
@@ -63,6 +49,13 @@ providers:
   api_count: 4
   score_band: developing
   score_composite: 45.0
+  shared: 1
+- slug: brainbox3ae3
+  name: Brainbox3ae3
+  description: Brainboxes Ltd is a UK‑based designer and manufacturer of rugged industrial‑grade data connectivity solutions, including Ethernet switches, serial device servers, edge controllers and remote I/O modules. Founded in 1984, the company provides lifetime support, in‑house design and testing, and serves…
+  api_count: 2
+  score_band: developing
+  score_composite: 44.2
   shared: 1
 - slug: renesas
   name: Renesas
@@ -76,7 +69,7 @@ providers:
   description: Cosmo Tech is a predictive and prescriptive AI-simulation (digital twin) platform for industry, based in Lyon, France and backed by Insight Partners. Its open-source Cosmo Tech Cloud Platform API (Kotlin, MIT) lets teams model organizations, workspaces, solutions, datasets, runners and runs, then c…
   api_count: 7
   score_band: developing
-  score_composite: 43.0
+  score_composite: 42.6
   shared: 1
 - slug: cognite
   name: Cognite
@@ -116,7 +109,7 @@ providers:
 - slug: steute-technologies-gmbh-and-co-kg
   name: steute Technologies
   description: 'steute Technologies GmbH & Co. KG is a German industrial technology company headquartered in Löhne that develops switchgear, sensors and controls under the tagline "Applied Intelligence", organized into three divisions: Meditec (certified user interfaces such as foot and hand controls for medical d…'
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 36.5
   shared: 1
@@ -134,19 +127,19 @@ providers:
   score_band: thin
   score_composite: 34.6
   shared: 1
-- slug: helmerich-and-payne
-  name: Helmerich & Payne
-  description: 'Helmerich & Payne, Inc. (H&P, NYSE: HP) is a Tulsa-based drilling solutions company that operates one of the largest land rig fleets in the United States alongside international and offshore operations, and sells rig automation and wellbore-placement technology under the H&P Technologies banner — F…'
-  api_count: 4
-  score_band: thin
-  score_composite: 34.2
-  shared: 1
 - slug: ametek
   name: AMETEK
   description: 'AMETEK is a leading global manufacturer of electronic instruments and electromechanical devices with annual sales of over $6 billion. The company operates through two differentiated business segments: Electronic Instruments Group (EIG) and Electromechanical Group (EMG), serving industries including…'
   api_count: 1
   score_band: thin
   score_composite: 34.1
+  shared: 1
+- slug: helmerich-and-payne
+  name: Helmerich & Payne
+  description: 'Helmerich & Payne, Inc. (H&P, NYSE: HP) is a Tulsa-based drilling solutions company that operates one of the largest land rig fleets in the United States alongside international and offshore operations, and sells rig automation and wellbore-placement technology under the H&P Technologies banner — F…'
+  api_count: 2
+  score_band: thin
+  score_composite: 33.7
   shared: 1
 - slug: parsable
   name: Parsable
@@ -158,7 +151,7 @@ providers:
 - slug: markforged
   name: Markforged
   description: Markforged builds industrial additive manufacturing systems - composite (FX, Onyx, X-series) and metal (Metal X, PX100) 3D printers - managed through the Eiger cloud software platform. The Eiger API (V3) exposes a REST interface over HTTP Basic Auth for managing devices, builds, print jobs, and par…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 31.9
   shared: 1
@@ -190,13 +183,6 @@ providers:
   score_band: thin
   score_composite: 26.4
   shared: 1
-- slug: entytle
-  name: Entytle
-  description: Entytle, Inc. (founded 2014, Austin, Texas) provides an Installed Base Intelligence SaaS platform for equipment manufacturers (OEMs). It unifies fragmented data from ERP, CRM, FSM systems, and spreadsheets into a single "Source of Truth" for an OEM's installed base, then applies purpose-built AI an…
-  api_count: 0
-  score_band: emerging
-  score_composite: 26.0
-  shared: 1
 - slug: seeq
   name: Seeq
   description: Seeq is an industrial analytics, machine learning and AI software company (Seattle, WA; backed by Insight Partners) serving process manufacturing industries such as oil & gas, chemicals, pharmaceuticals & life sciences, mining & metals, power & utilities, food & beverage and semiconductors. The See…
@@ -211,22 +197,35 @@ providers:
   score_band: emerging
   score_composite: 25.7
   shared: 1
+- slug: greif
+  name: Greif
+  description: Greif is an industrial packaging products and services leader with a vision to be the best performing customer service company in the world. Greif also offers digital tools such as the Greif Green Tool carbon footprint calculator and the Greif+ online platform for customers.
+  api_count: 1
+  score_band: emerging
+  score_composite: 23.2
+  shared: 1
 - slug: graybar-electric
   name: Graybar Electric
   description: Graybar Electric Company is an employee-owned Fortune 500 distributor of electrical, communications, and data networking products and a provider of related supply chain management and logistics services. Graybar serves contractors, industrial plants, utilities, institutions and commercial customers…
   api_count: 1
   score_band: emerging
-  score_composite: 25.0
+  score_composite: 22.9
+  shared: 1
+- slug: entytle
+  name: Entytle
+  description: Entytle, Inc. (founded 2014, Austin, Texas) provides an Installed Base Intelligence SaaS platform for equipment manufacturers (OEMs). It unifies fragmented data from ERP, CRM, FSM systems, and spreadsheets into a single "Source of Truth" for an OEM's installed base, then applies purpose-built AI an…
+  api_count: 0
+  score_band: emerging
+  score_composite: 22.2
   shared: 1
 provider_slugs:
-- cloudstudioiot
 - siemens
 - paperless-parts
 - eaton
 - remberg
 - aerones
-- brainbox3ae3
 - ge-vernova
+- brainbox3ae3
 - renesas
 - cosmo-tech
 - cognite
@@ -237,45 +236,44 @@ provider_slugs:
 - steute-technologies-gmbh-and-co-kg
 - actionstreamer
 - 3m
-- helmerich-and-payne
 - ametek
+- helmerich-and-payne
 - parsable
 - markforged
 - innovapptive
 - swipeguide
 - blynk
 - otis-worldwide
-- entytle
 - seeq
 - rockwell-automation
-- graybar-electric
 - greif
-- matthews-international
+- graybar-electric
+- entytle
+- archrock
 - control-seat
 - deephow
-- burro-develops
 - timken
 - redaptive
 - aveva
 - airwave
+- matthews-international
 - realwear
-- archrock
-- circor-international
 - vishay-intertechnology
 - ermeo
 - sanmina
-- honeywell
 - laserhub
+- honeywell
 - uptake
+- circor-international
 - xage
 - manex-ai
 - shapeci
-- bosch
 - active-membranes
 - poka
 - gecko-robotics
 - anixter-international
 - caddi
+- bosch
 - last-energy
 - margo
 - asseta
@@ -286,49 +284,47 @@ provider_slugs:
 - verve-motion
 - nth-cycle
 - ventura
-- kilsar
 - operon
 - magnusmetal
 - minerals-technologies
 - seurat
 - amsc
 - bolo-ai
+- kilsar
 - nacco-industries
 - divergent
 - niron-magnetics
 - venwiz
 - kaman
-- regal-rexnord
-- sensata-technologies
 - c-infinity
 - photoneo
-- bwsensing
 - enpro-industries
 - nordson
+- regal-rexnord
+- sensata-technologies
 - watts-water-technologies
 - monolith-materials
 - re-build
 - worthington-industries
 - electra
 - wesco-international
-- emerson-electric
 - flowserve
 - plotlogic
 - avidbots-corp-9
 - graco
 - stegra
 - textron
+- emerson-electric
 - i-pulse
 - isembard
 - osisoft
 - steel-dynamics
-- andustry
 - cameron-international
 - moog
-- hexcel
 - honess
 - spider-capital
 - riiico
+- hexcel
 - pairio
 - chint
 - herthametals
@@ -339,30 +335,26 @@ provider_slugs:
 - northvolt
 - sortera-alloys
 - sunrise
+- andustry
 - sonoco-products
-- rizm
 - lincoln-electric-holdings
+- rizm
 - utility-global
 - aris-machina
 - hydroleap
 - seppure
 - twine-ventures
-- vanti
 - conxtech
 - conundrum
 - idex
-- on-semiconductor
+- vanti
 - kyten-technologies
 - newmark-group
 - plexus
 - aleris
-- superior-energy-services
 - fmc-technologies
 - recommercex
-- harsco
-- kennametal
-- manitowoc
-- rise-robotics
+- on-semiconductor
 - blacklaketechnologies
 - curtiss-wright
 - glasspoint
@@ -370,46 +362,48 @@ provider_slugs:
 - lyondellbasell
 - prismlab
 - linearlabsinc
-- chaodechuangtechnology
-- chart-industries
+- superior-energy-services
 - ghost-robotics
-- nov
-- celsioncaff
 - championx
 - dresser-rand-group
+- harsco
 - exide-technologies
 - fabrion
 - fastenal
 - general-cable
 - illinois-tool-works
 - jjgmachining
+- kennametal
 - msc-industrial-direct
+- manitowoc
 - pall
+- rise-robotics
 - solugen
 - systemax
 - beephoton
 - prmeasure
 - advanced-ionics
-- candi
-- donaldson
+- chart-industries
 - genuine-parts
 - mrc-global
-- process-sensing-technologies
-- zwitterco
-- airx
+- nov
 - bluetechcbdc
 - parker-hannifin
 - cdhot
 - itt
 - crane
 - dupont
+- airx
+- donaldson
 - dover
 - drishti
 - joy-global
 - metaldyne-performance-group
 - mueller-industries
 - precision-castparts
+- process-sensing-technologies
 - simplex
+- zwitterco
 - berry-plastics-group
 - colfax
 - fulcrum-bioenergy
@@ -421,5 +415,5 @@ related: []
 overview: 'Industrial is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [industrial.apievangelist.com](https://industrial.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cloud Studio IoT, Siemens, Paperless Parts, Eaton, Remberg, Aerones, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  30 providers on the network work in this area, including Siemens, Paperless Parts, Eaton, Remberg, Aerones, GE Vernova, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

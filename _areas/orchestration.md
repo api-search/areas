@@ -6,19 +6,19 @@ description: An index and topic collection covering container orchestration and 
 area_url: https://orchestration.apievangelist.com
 area_host: orchestration.apievangelist.com
 icon: https://orchestration.apievangelist.com/icon-thumb.png
-provider_count: 81
+provider_count: 86
 providers:
 - slug: tray-ai
   name: Tray.ai
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
-  api_count: 6
+  api_count: 4
   score_band: exemplar
   score_composite: 89.3
   shared: 1
 - slug: microsoft-azure-data-factory
   name: Azure Data Factory
   description: Azure Data Factory is Microsoft's cloud-based data integration service, orchestrating and automating the movement and transformation of data across ETL and ELT workloads that span cloud and on-premises stores. Its public interface is the Microsoft.DataFactory resource provider behind Azure Resource…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.0
   shared: 1
@@ -36,19 +36,19 @@ providers:
   score_band: exemplar
   score_composite: 67.9
   shared: 1
-- slug: bonitasoft
-  name: Bonitasoft
-  description: Bonitasoft is the French open-source company behind Bonita, a business process management and process automation platform used to model BPMN processes, build living applications, and orchestrate work across an organization. Bonita ships as Bonita Studio, Bonita Fabric (Process Designer, BPA Studio,…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 66.8
-  shared: 1
 - slug: uipath
   name: UiPath
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
   api_count: 6
   score_band: exemplar
   score_composite: 66.8
+  shared: 1
+- slug: bonitasoft
+  name: Bonitasoft
+  description: Bonitasoft is the French open-source company behind Bonita, a business process management and process automation platform used to model BPMN processes, build living applications, and orchestrate work across an organization. Bonita ships as Bonita Studio, Bonita Fabric (Process Designer, BPA Studio,…
+  api_count: 2
+  score_band: strong
+  score_composite: 66.3
   shared: 1
 - slug: talend
   name: Talend
@@ -71,13 +71,6 @@ providers:
   score_band: strong
   score_composite: 62.6
   shared: 1
-- slug: netcracker
-  name: Netcracker
-  description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
-  api_count: 4
-  score_band: strong
-  score_composite: 62.3
-  shared: 1
 - slug: facets
   name: Facets
   description: Facets is an AI-native SDLC orchestrator and platform-engineering control plane that unifies infrastructure provisioning, CI/CD and configuration management into a single declarative blueprint model, so product teams get self-serve, drift-free cloud environments without writing Terraform by hand. T…
@@ -95,9 +88,16 @@ providers:
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
-  api_count: 22
+  api_count: 11
   score_band: strong
   score_composite: 60.2
+  shared: 1
+- slug: netcracker
+  name: Netcracker
+  description: Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration so…
+  api_count: 4
+  score_band: strong
+  score_composite: 57.9
   shared: 1
 - slug: hatchet
   name: Hatchet
@@ -158,14 +158,14 @@ providers:
 - slug: cisco-crosswork
   name: Cisco Crosswork
   description: 'Cisco Crosswork is Cisco''s service-provider network automation portfolio — Crosswork Network Controller, Data Gateway, Zero Touch Provisioning, Optimization Engine, Network Change Automation and Crosswork Workflow Manager. Unusually for Cisco, the specifications are published openly: the CiscoDevNe…'
-  api_count: 68
+  api_count: 50
   score_band: developing
   score_composite: 49.0
   shared: 1
 - slug: fyno
   name: Fyno
   description: Fyno is a notification routing and orchestration platform that provides a single unified REST API for sending and managing notifications across 10+ communication channels including email, SMS, push, WhatsApp, in-app, RCS, voice, and iMessage. Engineering teams integrate once to gain access to 100+…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 48.3
   shared: 1
@@ -188,7 +188,7 @@ providers:
   description: Ansible is an open-source IT automation platform developed by Red Hat that provides agentless configuration management, application deployment, cloud provisioning, and orchestration. Using YAML-based playbooks and an SSH-native architecture, Ansible automates infrastructure at scale without requiri…
   api_count: 1
   score_band: developing
-  score_composite: 47.4
+  score_composite: 47.8
   shared: 1
 - slug: polyapi
   name: PolyAPI
@@ -223,15 +223,15 @@ provider_slugs:
 - microsoft-azure-data-factory
 - cohesity
 - workato
-- bonitasoft
 - uipath
+- bonitasoft
 - talend
 - socure
 - transmit-security
-- netcracker
 - facets
 - inngest
 - intersight
+- netcracker
 - hatchet
 - tower
 - prefect
@@ -262,11 +262,11 @@ provider_slugs:
 - vers
 - kubeflow-pipelines
 - restate
+- unionai
 - restack
 - haystack-ai
 - julep
 - aalyria
-- unionai
 - ansible-automation-platform
 - clearml
 - formance
@@ -277,28 +277,33 @@ provider_slugs:
 - conductor-oss
 - langgraph
 - notdiamond
-- y42
 - puppet
+- y42
 - rundeck
 - hathora
 - apexxfintech
 - wand-ai
-- ascendio
 - big-picture-medical
 - pinkfish
+- ascendio
 - netflix-conductor
 - agoric
 - pelico
 - resolve-systems
 - melodyarc
 - sakana-ai
+- integrations
+- orchestration
 - dorado-software-inc
 - buglabs
 - daqstra
 - twirl
 - integration-patterns
 - noda-ai
+- containers
 - semantic-kernel
+- pro-code-api-composition
+- ipaas
 - elasticbox
 related:
 - slug: ai-automation
@@ -322,7 +327,7 @@ related:
 overview: 'Orchestration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [orchestration.apievangelist.com](https://orchestration.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Tray.ai, Azure Data Factory, Cohesity, Workato, Bonitasoft, UiPath, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Tray.ai, Azure Data Factory, Cohesity, Workato, UiPath, Bonitasoft, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: AI Automation, Management, Embedded iPaaS, and Workflow Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

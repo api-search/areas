@@ -6,7 +6,7 @@ description: An index and topic collection covering API monitoring, application 
 area_url: https://monitoring.apievangelist.com
 area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
-provider_count: 233
+provider_count: 231
 providers:
 - slug: dynatrace
   name: Dynatrace
@@ -88,7 +88,7 @@ providers:
 - slug: controlup
   name: ControlUp
   description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Paral…
-  api_count: 32
+  api_count: 24
   score_band: exemplar
   score_composite: 75.6
   shared: 1
@@ -109,7 +109,7 @@ providers:
 - slug: checkly
   name: Checkly
   description: Checkly is a code-first reliability platform for synthetic monitoring, uptime monitoring, alerting and AI-assisted incident investigation. Engineering teams define monitors as versioned code with the Checkly CLI, Terraform or Pulumi, reuse existing Playwright suites as production browser checks, an…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.0
   shared: 1
@@ -134,19 +134,19 @@ providers:
   score_band: exemplar
   score_composite: 69.5
   shared: 1
-- slug: moesif
-  name: Moesif
-  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 69.3
-  shared: 1
 - slug: rtcstats
   name: rtcStats
   description: SaaS for developers to troubleshoot and monitor WebRTC applications. Users upload webrtc-internals/rtcstats dumps or stream stats to receive metrics, Observations, Deductions, an Experience Score, and an AI root-cause summary. Offers a REST API, a hosted MCP server, and an open-source collection SD…
   api_count: 2
   score_band: exemplar
   score_composite: 69.2
+  shared: 1
+- slug: moesif
+  name: Moesif
+  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 68.8
   shared: 1
 - slug: betterstack
   name: Better Stack
@@ -158,16 +158,9 @@ providers:
 - slug: chronosphere
   name: Chronosphere
   description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
-  api_count: 8
+  api_count: 4
   score_band: exemplar
   score_composite: 67.9
-  shared: 1
-- slug: hyperdx
-  name: HyperDX
-  description: HyperDX is an open-source observability platform that unifies logs, metrics, traces, session replay and errors on top of ClickHouse and OpenTelemetry, giving engineers one place to search raw events, correlate a log line to its trace and that span to a session replay, build dashboards and run thres…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 67.5
   shared: 1
 - slug: google-cloud-logging
   name: Google Cloud Logging
@@ -211,6 +204,13 @@ providers:
   score_band: strong
   score_composite: 66.1
   shared: 1
+- slug: sciencelogic
+  name: ScienceLogic
+  description: ScienceLogic is an AIOps and IT operations company whose ScienceLogic AI Platform — rebranded in 2026 as the Skylar family — covers infrastructure and application observability, network configuration and compliance, and workflow automation. Skylar One (formerly SL1) is the observability platform, w…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.7
+  shared: 1
 - slug: embrace
   name: Embrace
   description: Embrace is a user-focused observability platform for mobile and web applications, built on OpenTelemetry. Its SDKs for iOS, Android, React Native, Flutter, Unity and the browser capture full-fidelity session, crash, exception, log, trace and network telemetry from real users, and the platform turns…
@@ -237,28 +237,28 @@ provider_slugs:
 - bigpanda
 - aws-lambda
 - laravel
-- moesif
 - rtcstats
+- moesif
 - betterstack
 - chronosphere
-- hyperdx
 - google-cloud-logging
 - monte-carlo
 - honeycomb
 - dun-and-bradstreet
 - splunk-observability
 - grafana-loki
+- sciencelogic
 - embrace
 - solarwinds
 - stack-moxie
 - routebase
 - groundcover
-- sciencelogic
 - socure
 - dash0
 - moogsoft
 - galileo-technologies
 - splunk
+- hyperdx
 - phare
 - raygun
 - geneos
@@ -271,20 +271,19 @@ provider_slugs:
 - elastic-observability
 - metaplane
 - amazon-cloudwatch
-- edge-delta
 - conviva
-- broke2builtai-com
 - coralogix
-- smartbear
 - amazon-guardduty
+- broke2builtai-com
 - cloudwatch
-- bluejay
-- verifiable
 - lightrun
+- verifiable
 - amazon-managed-grafana
 - kentik
+- smartbear
 - vividcortex
 - bigeye
+- edge-delta
 - solar-edge
 - bitdrift
 - oracle-enterprise-manager
@@ -292,6 +291,7 @@ provider_slugs:
 - zenoss
 - amazon-managed-prometheus
 - hacknotice
+- bluejay
 - catchpoint
 - agnost-ai
 - ninjaone
@@ -300,12 +300,12 @@ provider_slugs:
 - signoz
 - virtual-instruments
 - pixie
-- spectrumoutage-api
 - opik
 - agenthealthmonitor-xyz
 - assertible
 - opsgenie
 - lumigo
+- spectrumoutage-api
 - apinizer
 - hookpulse
 - sifflet
@@ -321,49 +321,46 @@ provider_slugs:
 - netdata
 - sentio
 - amazon-monitron
-- cleaninglab
-- deeptrace
 - rollbar
 - forta
-- pickedbyagents
 - cronitor
+- deeptrace
 - apitoolkit
-- doctor-droid
 - google-cloud-endpoints
-- superlog
 - chamber
 - uselemma
+- superlog
 - venueauthority
 - appneta
 - sorry
 - google-cloud-monitoring
-- supply-wisdom
 - nagios
 - opentelemetry
 - vapor-io
 - raindrop
 - spyderbat
-- keywordsai
 - zabbix
+- keywordsai
 - spike-sh
 - motadata
+- supply-wisdom
 - openstatus
 - tempo
-- vigil-wtf
 - appdynamics
 - 1factory
 - axiom-controller
-- tableaux-de-bord
 - apache-zipkin
+- doctor-droid
+- tableaux-de-bord
 - judgment-labs
 - sensu
 - signl4
 - loggly
 - athina
-- uptrace
 - adt
 - kotzilla
 - moda
+- uptrace
 - blocktorch
 - literalai
 - prometheus-io
@@ -389,16 +386,16 @@ provider_slugs:
 - middleware
 - sonarly
 - spring-boot-admin-console
-- notyfi
 - deep-sentinel
 - maxim
+- notyfi
 - groundwork-open-source
 - headspin
 - sentrial
 - perses
 - apache-skywalking
 - ca
-- codenotary
+- vigil-wtf
 - control-seat
 - hydrolix
 - runscope
@@ -421,28 +418,29 @@ provider_slugs:
 - api-insights
 - omnidian
 - fibersense
+- monitoring
 - alinia-ai
 - optoscale
 - teserac
 - dorado-software-inc
 - bnovatetechnologies
-- chargerhelp
+- analysis
 - captains-eye
-- skyfri
 - lattice-health
+- skyfri
 - scalyr
 - blacksky
 - fox-tech
-- nimsoft
 - empirix
+- nimsoft
 - breathmedical
-- clanztechnologies
 - nova-metrix
-- process-sensing-technologies
 - api-fortress
 - amixrio
 - information-technology-infrastructure
 - oneasp
+- process-sensing-technologies
+- observability
 - amazon-lookout-for-metrics
 - bluestripe-software
 - dashbase
@@ -458,10 +456,10 @@ related:
   shared: 22
 - slug: logging
   name: Logging
-  shared: 7
+  shared: 6
 - slug: aiops
   name: AIOps
-  shared: 3
+  shared: 4
 - slug: ai-automation
   name: AI Automation
   shared: 2

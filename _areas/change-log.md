@@ -6,7 +6,7 @@ description: An index and topic collection covering developer changelog publishi
 area_url: https://change-log.apievangelist.com
 area_host: change-log.apievangelist.com
 icon: https://change-log.apievangelist.com/icon-thumb.png
-provider_count: 8
+provider_count: 9
 providers:
 - slug: announcekit
   name: AnnounceKit
@@ -15,19 +15,19 @@ providers:
   score_band: strong
   score_composite: 64.4
   shared: 1
-- slug: bump-sh
-  name: Bump.sh
-  description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into deterministic, observable MCP servers for AI agents. Customers include…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.7
-  shared: 1
 - slug: beamer
   name: Beamer
   description: Beamer is a changelog and notification center tool for announcing product updates, new features, and API changes to end users. It provides an embeddable feed widget, push notifications, email digests, and a public changelog page. The Beamer REST API enables programmatic management of posts, users,…
   api_count: 1
   score_band: strong
   score_composite: 61.3
+  shared: 1
+- slug: bump-sh
+  name: Bump.sh
+  description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into deterministic, observable MCP servers for AI agents. Customers include…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.5
   shared: 1
 - slug: canny
   name: Canny
@@ -57,6 +57,13 @@ providers:
   score_band: minimal
   score_composite: 10.0
   shared: 1
+- slug: change-log
+  name: Change Log
+  description: An index and topic collection covering developer changelog publishing, release-notes platforms, and API change-tracking services. Change Log services help product, engineering, and developer-relations teams communicate releases, deprecations, and breaking changes to customers and integrators throug…
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.5
+  shared: 1
 - slug: makelog
   name: Makelog
   description: Makelog was a product changelog and release-notes platform that helped software and product teams collect, curate, and publish product updates to communicate releases with customers and internal stakeholders. It was surfaced as a portfolio company of Accel and added to the API Evangelist network as…
@@ -66,20 +73,21 @@ providers:
   shared: 1
 provider_slugs:
 - announcekit
-- bump-sh
 - beamer
+- bump-sh
 - canny
 - launchnotes
 - changelog-md
 - oasdiff
+- change-log
 - makelog
 related:
 - slug: deprecation
   name: Deprecation
-  shared: 3
+  shared: 4
 - slug: versioning
   name: Versioning
-  shared: 1
+  shared: 2
 - slug: documentation
   name: Documentation
   shared: 1
@@ -89,7 +97,7 @@ related:
 overview: 'Change Log is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [change-log.apievangelist.com](https://change-log.apievangelist.com).
 
 
-  8 providers on the network work in this area, including AnnounceKit, Bump.sh, Beamer, Canny, LaunchNotes, CHANGELOG.md (Keep a Changelog), and 2 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  9 providers on the network work in this area, including AnnounceKit, Beamer, Bump.sh, Canny, LaunchNotes, CHANGELOG.md (Keep a Changelog), and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Deprecation, Versioning, Documentation, and Portal. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://design.apievangelist.com
 area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
-provider_count: 145
+provider_count: 144
 providers:
 - slug: postman
   name: Postman
@@ -39,7 +39,7 @@ providers:
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living OpenAPI spec.
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 1
@@ -57,13 +57,6 @@ providers:
   score_band: strong
   score_composite: 60.4
   shared: 1
-- slug: savee
-  name: Savee
-  description: 'Savee is a curated visual-inspiration platform for designers. Its public surface is programmatic two ways: a read-only REST API — an OpenAPI 3.1 contract of 10 GET operations and 12 schemas served live from api.savee.com/v1/openapi.json, authenticated with a personal access token or OAuth 2.1 — and…'
-  api_count: 4
-  score_band: strong
-  score_composite: 59.9
-  shared: 1
 - slug: onshape
   name: Onshape
   description: Onshape is a cloud-native computer-aided design (CAD) and product data management (PDM) platform, part of PTC, that runs entirely in a web browser with real-time collaboration, versioning, and configurations. Its public REST API (OpenAPI 3.0.1, base https://cad.onshape.com/api/v16) exposes document…
@@ -71,12 +64,12 @@ providers:
   score_band: strong
   score_composite: 59.7
   shared: 1
-- slug: smartbear
-  name: SmartBear
-  description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI for API testing, PactFlow for contract testing, and other tool…
-  api_count: 1
+- slug: savee
+  name: Savee
+  description: 'Savee is a curated visual-inspiration platform for designers. Its public surface is programmatic two ways: a read-only REST API — an OpenAPI 3.1 contract of 10 GET operations and 12 schemas served live from api.savee.com/v1/openapi.json, authenticated with a personal access token or OAuth 2.1 — and…'
+  api_count: 2
   score_band: strong
-  score_composite: 57.9
+  score_composite: 59.4
   shared: 1
 - slug: thebrief
   name: TheBrief
@@ -85,26 +78,12 @@ providers:
   score_band: strong
   score_composite: 56.9
   shared: 1
-- slug: apidog
-  name: Apidog
-  description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborativ…'
-  api_count: 1
-  score_band: strong
-  score_composite: 56.7
-  shared: 1
 - slug: zeroheight
   name: Zeroheight
   description: 'zeroheight is a design system platform where teams document components, patterns, guidelines and design tokens in a styleguide, then deliver that documentation to designers, engineers and AI agents. It exposes two machine surfaces: a small key-authenticated REST API (https://zeroheight.com/open_api…'
   api_count: 1
   score_band: strong
   score_composite: 56.3
-  shared: 1
-- slug: insomnia
-  name: Insomnia
-  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.8
   shared: 1
 - slug: budgetpixel
   name: BudgetPixel
@@ -113,19 +92,26 @@ providers:
   score_band: strong
   score_composite: 54.3
   shared: 1
+- slug: smartbear
+  name: SmartBear
+  description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI for API testing, PactFlow for contract testing, and other tool…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.7
+  shared: 1
+- slug: apidog
+  name: Apidog
+  description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborativ…'
+  api_count: 1
+  score_band: developing
+  score_composite: 53.5
+  shared: 1
 - slug: adobe-creative-cloud
   name: Adobe Creative Cloud
   description: Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development, photography, and 3D content creation. Its developer platform provides APIs for generative AI via Firefly Services, cloud storage and asset management, PDF document processing, electron…
   api_count: 4
   score_band: developing
   score_composite: 53.4
-  shared: 1
-- slug: allspice-io
-  name: AllSpice.io
-  description: AllSpice.io provides a platform for hardware engineering teams to manage design data, collaborate on schematics, and automate releases with AI assistance. The service offers version control, design review tools, secure document sharing, and integration with issue trackers. It targets electrical eng…
-  api_count: 2
-  score_band: developing
-  score_composite: 52.8
   shared: 1
 - slug: adobe-creative-suite
   name: Adobe Creative Suite
@@ -147,6 +133,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 51.1
+  shared: 1
+- slug: insomnia
+  name: Insomnia
+  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
+  api_count: 1
+  score_band: developing
+  score_composite: 50.9
   shared: 1
 - slug: blng
   name: Blng
@@ -197,13 +190,6 @@ providers:
   score_band: developing
   score_composite: 44.6
   shared: 1
-- slug: rapidapi
-  name: RapidAPI
-  description: RapidAPI operates the world's largest API marketplace, connecting developers to thousands of APIs through a single platform. Their developer platform provides tools for API discovery, testing, management, design, and gateway configuration, enabling both individual developers and enterprises to buil…
-  api_count: 6
-  score_band: developing
-  score_composite: 44.0
-  shared: 1
 - slug: apiary
   name: Apiary
   description: Apiary is an API design and documentation platform, now part of Oracle Cloud Infrastructure. With 486,000+ users and 591,000+ APIs managed, it uses API Blueprint and Swagger/OpenAPI specifications to produce interactive API documentation, mock servers, automated testing, and collaborative API desig…
@@ -218,6 +204,20 @@ providers:
   score_band: developing
   score_composite: 42.8
   shared: 1
+- slug: zeplin
+  name: Zeplin
+  description: Zeplin is a design-to-development handoff platform that bridges the gap between designers and developers by providing a structured workspace for accessing design specs, assets, style guides, components, and annotations. The Zeplin REST API enables programmatic access to all resources within Zeplin…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.0
+  shared: 1
+- slug: zally
+  name: Zally
+  description: Zally is an open source API linter from Zalando that validates OpenAPI 2 and 3 specifications against configurable rule sets for API design consistency. It exposes a REST API, command-line interface, and web UI for checking API designs against Zalando's RESTful API Guidelines or custom rule sets.
+  api_count: 1
+  score_band: developing
+  score_composite: 41.0
+  shared: 1
 provider_slugs:
 - postman
 - adobe-suite
@@ -226,19 +226,18 @@ provider_slugs:
 - routebase
 - figma
 - autodesk
-- savee
 - onshape
-- smartbear
+- savee
 - thebrief
-- apidog
 - zeroheight
-- insomnia
 - budgetpixel
+- smartbear
+- apidog
 - adobe-creative-cloud
-- allspice-io
 - adobe-creative-suite
 - ceros
 - sssnack-com
+- insomnia
 - blng
 - swaggerhub
 - autocad
@@ -246,21 +245,21 @@ provider_slugs:
 - 99designs
 - adobe-illustrator
 - napkin
-- rapidapi
 - apiary
 - hey-api
-- gamma
 - zeplin
 - zally
-- uxpin
+- rapidapi
 - api-blueprint
 - noun-project
 - acelab
 - kittl
 - ogen
 - tdaycom
+- gamma
 - havenly
 - penpot
+- uxpin
 - superside
 - apple-keynote
 - recraft
@@ -269,13 +268,10 @@ provider_slugs:
 - voiden
 - typespec
 - api-fiddle
-- ux-magic-ai
-- beautifulai
 - makerbot
 - paperless-post
 - snaptrude
 - abstract
-- allo
 - domestika
 - smithy
 - brandai
@@ -283,67 +279,68 @@ provider_slugs:
 - apigit
 - apigovernance-dev
 - conektto
-- modeinspect
+- ux-magic-ai
+- beautifulai
 - prezi
 - vacuum
 - rive
-- uizard-technologies
 - spectral
-- make-the-dot
 - paper
 - rayon
 - the-color-api
 - sketch
 - vizcom
 - soa
-- glyf
 - taste
-- framer
 - versioning-protocols
+- framer
 - avocode
-- presentationsai
+- modeinspect
 - shapr3d
 - spotlight-rules
-- spline
 - rest
 - pulse-labs
 - lottiefiles
+- uizard-technologies
+- make-the-dot
+- spline
 - speclynx
 - creativelive
 - connexion
 - api-stack
 - illoca
-- concepts
 - creative-market
+- presentationsai
+- concepts
 - artlimesd1e6
 - design-patterns
 - user-stories
+- glyf
 - nexus-ai
 - jargon
 - moo
 - api-insights
-- scoutzie
 - think-parametric
 - utopia
 - sxd
 - pic-collage
-- knoll
 - customink-api
 - higharc
+- knoll
 - povio
 - designstripe
 - caba
-- colormind
-- dribbble
 - icons8
 - lordicon
+- scoutzie
+- colormind
 - colourlovers
+- dribbble
 - cooper-hewitt
 - variant
 - antidot
 - bravegroup
 - mockups
-- rivet-design
 - minted
 - bounty-hunter
 - gravity-sketch
@@ -352,12 +349,14 @@ provider_slugs:
 - strategic-grow
 - studio
 - float
+- rivet-design
 - iconfinder
 - xcolors
-- bureoskateboards
+- developer-experience
 - facet
 - herman-miller
 - millerknoll
+- design
 - prototypes
 - fashion
 - fiftythree
@@ -370,18 +369,18 @@ related:
   shared: 6
 - slug: testing
   name: Testing
-  shared: 5
+  shared: 4
 - slug: ai-automation
   name: AI Automation
   shared: 3
 - slug: network
   name: Network
   shared: 1
-- slug: sdk
-  name: SDKs
-  shared: 1
 - slug: api-clients
   name: API Clients
+  shared: 1
+- slug: clients
+  name: Clients
   shared: 1
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 

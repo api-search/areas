@@ -11,7 +11,7 @@ providers:
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 26
+  api_count: 25
   score_band: exemplar
   score_composite: 81.3
   shared: 2
@@ -27,7 +27,7 @@ providers:
   description: Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments. It is composed of an API gateway (data plane), a management plane, and a developer portal, and supports the complete API lifecycle for publishing, securing, monitoring, and transforming APIs…
   api_count: 1
   score_band: exemplar
-  score_composite: 73.6
+  score_composite: 70.4
   shared: 2
 - slug: gravitee
   name: Gravitee
@@ -39,7 +39,7 @@ providers:
 - slug: solo-io
   name: Solo.io
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gatewa…
-  api_count: 6
+  api_count: 5
   score_band: strong
   score_composite: 63.0
   shared: 2
@@ -48,7 +48,7 @@ providers:
   description: Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.
   api_count: 1
   score_band: strong
-  score_composite: 63.0
+  score_composite: 59.6
   shared: 2
 - slug: traefik
   name: Traefik Labs
@@ -88,7 +88,7 @@ providers:
 - slug: routerplex
   name: RouterPlex
   description: RouterPlex is an OpenAI- and Anthropic-compatible AI gateway that fronts 39 chat and image models from 14 vendors — OpenAI, Anthropic, Google, DeepSeek, Moonshot, Alibaba, MiniMax, Zhipu, xAI and others — behind one API key and one prepaid balance, at vendor list prices with no markup and no top-up…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 43.5
   shared: 2
@@ -109,9 +109,16 @@ providers:
 - slug: jitterbit
   name: Jitterbit
   description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 78.3
+  shared: 1
+- slug: apigee
+  name: Apigee
+  description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
+  api_count: 5
+  score_band: exemplar
+  score_composite: 73.1
   shared: 1
 - slug: aws-api-gateway
   name: Amazon API Gateway
@@ -119,13 +126,6 @@ providers:
   api_count: 13
   score_band: exemplar
   score_composite: 70.6
-  shared: 1
-- slug: apigee
-  name: Apigee
-  description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
-  api_count: 5
-  score_band: exemplar
-  score_composite: 70.2
   shared: 1
 - slug: f5
   name: F5
@@ -162,13 +162,6 @@ providers:
   score_band: strong
   score_composite: 62.7
   shared: 1
-- slug: cashfree-payments
-  name: Cashfree Payments
-  description: Cashfree Payments provides a comprehensive payment gateway platform enabling businesses to collect online payments across multiple modes, including cards, UPI, wallets, and international payment methods. Their solutions cover hosted checkout, payment links, recurring subscriptions, payouts, and com…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.1
-  shared: 1
 - slug: vercel
   name: Vercel
   description: Vercel is a cloud platform that helps developers build, deploy, and scale modern web applications quickly and efficiently. It provides an optimized hosting environment for frontend frameworks like Next.js (which it created), as well as other React, Vue, Angular, and static site projects. Vercel aut…
@@ -186,7 +179,7 @@ providers:
 - slug: edgee
   name: Edgee
   description: Edgee is a French edge-native AI Gateway that sits between coding agents and LLM providers, intercepting, routing, compressing, metering and securing every request. Its OpenAI-compatible gateway API at edgee.io exposes chat completions, an Anthropic Messages endpoint, an OpenAI Responses endpoint,…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 58.3
   shared: 1
@@ -216,7 +209,14 @@ providers:
   description: gpt55-token-gateway is the self-chosen service name of an unnamed operator running two OpenAI-compatible AI API gateways on the 558686.xyz domain. GPT55 Model Gateway (gpt55.558686.xyz) sells single GPT-5.6 Luna, GPT-5.5 and GPT-5.3-codex chat completions, deterministic text and wallet tools, and p…
   api_count: 3
   score_band: strong
-  score_composite: 57.6
+  score_composite: 57.2
+  shared: 1
+- slug: mulesoft
+  name: MuleSoft
+  description: MuleSoft Anypoint Platform is an enterprise integration and API management platform offering a comprehensive suite of tools including an API gateway, design center, exchange marketplace, and robust monitoring for hybrid deployments. It enables organizations to connect applications, data, and device…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.2
   shared: 1
 provider_slugs:
 - cloudflare
@@ -234,14 +234,13 @@ provider_slugs:
 - ai-gateway
 - apipark
 - jitterbit
-- aws-api-gateway
 - apigee
+- aws-api-gateway
 - f5
 - tyk
 - aimlapi
 - vendia
 - eden-ai
-- cashfree-payments
 - vercel
 - aptible
 - edgee
@@ -249,24 +248,24 @@ provider_slugs:
 - gloo
 - portkey
 - 558686-xyz
-- speko
+- mulesoft
 - fusio
-- agentuity
 - 2s-io
-- cloudflare-ai-gateway
 - apiable
 - slng
 - insforge
 - helicone
 - wundergraph
-- xguardgate-com
 - citrix-netscaler
+- cloudflare-ai-gateway
+- xguardgate-com
 - mcp360
 - bifrost
-- mulesoft
 - red-hat-3scale
 - ucsd
+- speko
 - google-cloud-api-gateway
+- agentuity
 - unify-ai
 - university-of-helsinki
 - mcp-manager
@@ -278,19 +277,19 @@ provider_slugs:
 - apiman
 - nginx
 - hkust
-- rapidapi
 - google-cloud-endpoints
 - envoy-gateway
 - palebluedotai
-- langdb
+- rapidapi
 - aalto
 - apache-knox
-- kong-ai-gateway
-- sapiom
+- langdb
 - nexosai
+- kong-ai-gateway
 - krakend
 - grafbase
 - the-guild-dev
+- sapiom
 - express-gateway
 - mindlogic
 - spring-cloud-gateway
@@ -328,10 +327,11 @@ provider_slugs:
 - caimitech
 - syncloop
 - idsmanager
+- gateway
 related:
 - slug: management
   name: Management
-  shared: 8
+  shared: 9
 - slug: portal
   name: Portal
   shared: 7

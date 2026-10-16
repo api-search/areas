@@ -6,14 +6,14 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://portal.apievangelist.com
 area_host: portal.apievangelist.com
 icon: https://portal.apievangelist.com/icon-thumb.png
-provider_count: 40
+provider_count: 44
 providers:
 - slug: readme
   name: ReadMe
   description: ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive API explorer, Try-It console, Developer Dashboard with real-t…
   api_count: 2
   score_band: strong
-  score_composite: 59.1
+  score_composite: 55.9
   shared: 2
 - slug: apiable
   name: Apiable
@@ -29,6 +29,13 @@ providers:
   score_band: exemplar
   score_composite: 82.6
   shared: 1
+- slug: apigee
+  name: Apigee
+  description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
+  api_count: 5
+  score_band: exemplar
+  score_composite: 73.1
+  shared: 1
 - slug: archbee
   name: Archbee
   description: Archbee is a documentation and knowledge-portal platform for software teams. It creates, manages and publishes technical documentation, API references and internal wikis, with collaborative editing, revision history, branching and review, custom-domain publishing, an embeddable in-product docs widg…
@@ -43,19 +50,12 @@ providers:
   score_band: exemplar
   score_composite: 70.6
   shared: 1
-- slug: apigee
-  name: Apigee
-  description: Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.
-  api_count: 5
-  score_band: exemplar
-  score_composite: 70.2
-  shared: 1
 - slug: moesif
   name: Moesif
   description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
-  api_count: 4
+  api_count: 2
   score_band: exemplar
-  score_composite: 69.3
+  score_composite: 68.8
   shared: 1
 - slug: gravitee
   name: Gravitee
@@ -78,17 +78,10 @@ providers:
   score_band: strong
   score_composite: 66.1
   shared: 1
-- slug: mintlify
-  name: Mintlify
-  description: Mintlify is an AI-native intelligent documentation platform designed for the next generation of technical documentation, combining beautiful out-of-the-box design with advanced collaboration and AI capabilities.
-  api_count: 1
-  score_band: strong
-  score_composite: 64.2
-  shared: 1
 - slug: solo-io
   name: Solo.io
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gatewa…
-  api_count: 6
+  api_count: 5
   score_band: strong
   score_composite: 63.0
   shared: 1
@@ -99,12 +92,19 @@ providers:
   score_band: strong
   score_composite: 62.8
   shared: 1
+- slug: mintlify
+  name: Mintlify
+  description: Mintlify is an AI-native intelligent documentation platform designed for the next generation of technical documentation, combining beautiful out-of-the-box design with advanced collaboration and AI capabilities.
+  api_count: 1
+  score_band: strong
+  score_composite: 60.8
+  shared: 1
 - slug: bump-sh
   name: Bump.sh
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into deterministic, observable MCP servers for AI agents. Customers include…
   api_count: 1
   score_band: strong
-  score_composite: 62.7
+  score_composite: 58.5
   shared: 1
 - slug: traefik
   name: Traefik Labs
@@ -127,13 +127,6 @@ providers:
   score_band: strong
   score_composite: 57.7
   shared: 1
-- slug: theneo
-  name: Theneo
-  description: Beautiful, up-to-date docs without the effort. Theneo is an AI-native API documentation and developer portal platform that auto-generates interactive docs from OpenAPI, Swagger, Postman, GraphQL, gRPC, SOAP/WSDL, and AsyncAPI specifications. Its AI Co-pilot can fully generate, enhance, or stay out…
-  api_count: 1
-  score_band: strong
-  score_composite: 57.6
-  shared: 1
 - slug: developerhub
   name: DeveloperHub
   description: DeveloperHub is a hosted developer documentation platform that enables teams to create beautiful API references, user guides, and knowledge bases. It features auto-generated API documentation from OpenAPI specifications, built-in versioning, full-text search, custom domains, and a WYSIWYG editor. D…
@@ -147,6 +140,13 @@ providers:
   api_count: 4
   score_band: strong
   score_composite: 55.9
+  shared: 1
+- slug: theneo
+  name: Theneo
+  description: Beautiful, up-to-date docs without the effort. Theneo is an AI-native API documentation and developer portal platform that auto-generates interactive docs from OpenAPI, Swagger, Postman, GraphQL, gRPC, SOAP/WSDL, and AsyncAPI specifications. Its AI Co-pilot can fully generate, enhance, or stay out…
+  api_count: 1
+  score_band: strong
+  score_composite: 54.3
   shared: 1
 - slug: red-hat-3scale
   name: Red Hat 3scale
@@ -165,7 +165,7 @@ providers:
 - slug: apiman
   name: Apiman
   description: Apiman is an open source API management platform featuring a REST API, manager UI, and standalone developer portal with multi-tenancy, events, notifications, permissions, and approval workflows. It provides extensible API gateway capabilities through a simple Java plugin architecture with support f…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 45.5
   shared: 1
@@ -202,7 +202,7 @@ providers:
   description: Cortex (cortex.io) is an internal developer portal (IDP) and software catalog platform. It gives engineering organizations a catalog of services and entities, Scorecards that measure those entities against production-readiness and reliability standards, Initiatives for driving improvement campaigns…
   api_count: 1
   score_band: thin
-  score_composite: 38.0
+  score_composite: 37.5
   shared: 1
 - slug: rely
   name: Rely.io
@@ -222,23 +222,23 @@ provider_slugs:
 - readme
 - apiable
 - redocly
+- apigee
 - archbee
 - aws-api-gateway
-- apigee
 - moesif
 - gravitee
 - api-evangelist
 - tyk
-- mintlify
 - solo-io
 - backstage
+- mintlify
 - bump-sh
 - traefik
 - gloo
 - configure8
-- theneo
 - developerhub
 - fusio
+- theneo
 - red-hat-3scale
 - choreo
 - apiman
@@ -258,7 +258,11 @@ provider_slugs:
 - docusaurus
 - apinotes
 - web-methods
+- management
 - pronovix
+- developer-experience
+- documentation
+- portal
 related:
 - slug: documentation
   name: Documentation
@@ -275,13 +279,13 @@ related:
 - slug: monetization
   name: Monetization
   shared: 4
-- slug: monitoring
-  name: Monitoring
+- slug: microservices
+  name: Microservices
   shared: 2
 overview: 'Portal is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [portal.apievangelist.com](https://portal.apievangelist.com).
 
 
-  30 providers on the network work in this area, including ReadMe, Apiable, Redocly, Archbee, Amazon API Gateway, Apigee, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including ReadMe, Apiable, Redocly, Apigee, Archbee, Amazon API Gateway, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation, Gateway, Management, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'

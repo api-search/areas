@@ -6,15 +6,8 @@ description: SaaS Management covers the tools, platforms, and practices used by 
 area_url: https://saas-management.apievangelist.com
 area_host: saas-management.apievangelist.com
 icon: https://saas-management.apievangelist.com/icon-thumb.png
-provider_count: 94
+provider_count: 50
 providers:
-- slug: cobot2
-  name: Cobot2
-  description: Cobot2 provides coworking management software that helps operators automate member onboarding, bookings, invoicing, access control, and community engagement. The platform offers a mobile app, white‑label member portal, analytics, and integrations with payment and access systems, serving coworking s…
-  api_count: 1
-  score_band: thin
-  score_composite: 38.5
-  shared: 2
 - slug: karbonhq
   name: Karbon
   description: Karbon is accounting practice management software for accounting firms, built to enhance visibility, efficiency, and connectivity for a firm no matter where its people are located. Through the Karbon Developer Center (developers.karbonhq.com) it publishes a public REST API reference plus guides cov…
@@ -22,19 +15,19 @@ providers:
   score_band: exemplar
   score_composite: 74.4
   shared: 1
+- slug: boomi
+  name: Boomi
+  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 68.3
+  shared: 1
 - slug: monite
   name: Monite
   description: Monite (Monite GmbH) is an embedded finance API platform that lets neobanks and B2B SaaS platforms add invoicing, accounts payable automation, payments and related financial workflows to their own products, with a fully embeddable SDK and UI components. Its REST API (api.monite.com, with a sandbox…
   api_count: 5
   score_band: exemplar
   score_composite: 67.2
-  shared: 1
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 3
-  score_band: strong
-  score_composite: 63.8
   shared: 1
 - slug: cledara
   name: Cledara
@@ -48,28 +41,14 @@ providers:
   description: SnapLogic provides an Agentic Integration and Applied AI Platform that securely connects applications, data, APIs and AI agents across cloud, on‑premise and hybrid environments for enterprises. The platform offers visual ETL/ELT, no‑code iPaaS, API management, legacy modernization tools, and govern…
   api_count: 1
   score_band: strong
-  score_composite: 60.8
-  shared: 1
-- slug: allocations
-  name: Allocations
-  description: Allocations provides a cloud‑based fund administration platform that enables general partners, syndicates and emerging managers to launch and manage SPVs and private funds. The service automates legal formation, banking, compliance, investor onboarding and reporting, offering pricing plans from $9,…
-  api_count: 1
-  score_band: strong
-  score_composite: 58.2
+  score_composite: 60.3
   shared: 1
 - slug: lumos
   name: Lumos
   description: Lumos is the first Autonomous Identity Platform that helps organizations discover and manage access to all apps with enhanced security, increased productivity, and reduced cost. Lumos automates access requests, enforces least privilege, speeds up user access reviews, and eliminates extra SaaS app s…
-  api_count: 3
+  api_count: 2
   score_band: strong
-  score_composite: 56.5
-  shared: 1
-- slug: chrome-river
-  name: Chrome River
-  description: Chrome River provides enterprise expense and invoice management solutions, now operating as part of Emburse. The platform offers automated expense reporting, compliance controls, analytics, and integration capabilities for large organizations, helping streamline travel and spend processes across gl…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.0
+  score_composite: 56.0
   shared: 1
 - slug: wundergraph
   name: WunderGraph
@@ -98,13 +77,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 49.9
-  shared: 1
-- slug: burrow
-  name: Burrow
-  description: Burrow provides a client reporting and operations platform for web agencies, offering an event‑driven orchestration layer that ingests data from tools like WordPress, Shopify, Stripe, and many others. It supplies SDKs, plugins, and a JSON‑RPC MCP for AI agents to automate agency workflows, generate…
-  api_count: 1
-  score_band: developing
-  score_composite: 49.8
   shared: 1
 - slug: zluri
   name: Zluri
@@ -169,40 +141,12 @@ providers:
   score_band: thin
   score_composite: 38.7
   shared: 1
-- slug: cake-equity
-  name: Cake Equity
-  description: Cake Equity provides a cap table and equity management platform for growing startups. It offers tools for accurate cap tables, compliance readiness, equity grant tracking, scenario modeling for raises, and an employee app that turns equity ownership into a performance driver. The platform supports…
-  api_count: 0
-  score_band: thin
-  score_composite: 38.6
-  shared: 1
-- slug: allfly
-  name: AllFly
-  description: AllFly is a modern travel platform that simplifies group and corporate travel. It offers a marketplace for booking flights for teams, custom charter services, and a forecasting tool to estimate travel costs. The platform provides resources such as blogs, case studies, and e‑books, and supports inte…
-  api_count: 1
-  score_band: thin
-  score_composite: 38.4
-  shared: 1
-- slug: capillary-technologies
-  name: Capillary Technologies
-  description: Capillary Technologies provides enterprise loyalty management software, enabling brands to engage customers through personalized rewards, campaigns, and analytics. The platform offers tools for omnichannel loyalty, AI-driven insights, and integration with e‑commerce and CRM systems, serving global…
-  api_count: 2
-  score_band: thin
-  score_composite: 38.0
-  shared: 1
 - slug: snow-software
   name: Snow Software
   description: Snow Software (now Flexera Snow) is an IT asset and SaaS management platform providing visibility into software licenses, cloud spend, SaaS usage, and hardware assets across the enterprise. Snow Atlas is the cloud-native platform offering SAM (Software Asset Management), SaaS Management, Cloud Lice…
   api_count: 4
   score_band: thin
   score_composite: 37.8
-  shared: 1
-- slug: claravine
-  name: Claravine
-  description: Claravine provides a Data Standards Platform that helps enterprises govern taxonomy and naming standards across marketing campaigns, content, and data pipelines. Their SaaS solution integrates with major ad platforms, CRM, and analytics tools, offering APIs for submitting and reading standardized d…
-  api_count: 2
-  score_band: thin
-  score_composite: 37.7
   shared: 1
 - slug: productiv
   name: Productiv
@@ -218,21 +162,73 @@ providers:
   score_band: thin
   score_composite: 36.0
   shared: 1
+- slug: cloudeagle
+  name: CloudEagle.ai
+  description: CloudEagle.ai is an AI-powered SaaS management, procurement and identity governance platform that helps IT, security, finance and procurement teams discover, govern, optimize and renew their SaaS and AI application portfolio. It offers application discovery via 500+ integrations with SSO, HRIS, fin…
+  api_count: 2
+  score_band: thin
+  score_composite: 35.4
+  shared: 1
+- slug: trelica
+  name: Trelica
+  description: Trelica is a SaaS management platform (now part of 1Password SaaS Manager) providing application discovery, license optimization, contract management, and workflow automation for IT teams. The platform offers a REST API covering applications, users, people, contracts, workflows, assets, and audit l…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.0
+  shared: 1
+- slug: bettercloud
+  name: BetterCloud
+  description: BetterCloud is the end-to-end SaaS management platform that enables IT teams to discover, manage, and secure the growing SaaS environment. The platform provides automated workflows, security policies, and management capabilities for SaaS applications in enterprise environments, handling billions of…
+  api_count: 5
+  score_band: thin
+  score_composite: 31.2
+  shared: 1
+- slug: zenadmin
+  name: ZenAdmin
+  description: 'ZenAdmin is an all-in-one IT management platform for global teams, covering the full device and employee lifecycle: IT procurement, device lifecycle management, asset and inventory tracking, mobile device management (MDM), identity and access management, SaaS/app management, IT helpdesk, and 24/7 I…'
+  api_count: 1
+  score_band: thin
+  score_composite: 29.7
+  shared: 1
+- slug: blissfully
+  name: Blissfully
+  description: Blissfully was a SaaS management platform providing SaaS discovery, spend optimization, and workflow automation for IT and finance teams. Blissfully was acquired by Vendr in 2022 and integrated into the Vendr platform. Vendr is now a leading SaaS buying and management platform that helps companies…
+  api_count: 7
+  score_band: thin
+  score_composite: 29.0
+  shared: 1
+- slug: spendflo
+  name: Spendflo
+  description: Spendflo is an AI-native procurement platform that centralizes intake-to-pay, enforces procurement policy, and reduces SaaS and vendor spend by combining AI-powered automation with expert-led negotiation. The Flash AI suite includes a Contract Analyst, Payables Agent, Procurement Analyst, and AI Wo…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.8
+  shared: 1
+- slug: leanix
+  name: LeanIX
+  description: LeanIX (now SAP LeanIX) is an enterprise architecture and SaaS management platform providing IT portfolio management, application portfolio rationalization, SaaS discovery, and technology risk management. The platform exposes REST APIs for integrating with the fact sheet inventory, running inbound…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.3
+  shared: 1
+- slug: sastrify
+  name: Sastrify
+  description: Sastrify is an AI-powered SaaS management and procurement platform that unites IT, Finance, and Procurement on one intelligent platform. It discovers every tool in an organization's stack, manages licenses and renewals, benchmarks spend automatically against market data, and provides procurement wo…
+  api_count: 1
+  score_band: thin
+  score_composite: 26.2
+  shared: 1
 provider_slugs:
-- cobot2
 - karbonhq
-- monite
 - boomi
+- monite
 - cledara
 - snaplogic
-- allocations
 - lumos
-- chrome-river
 - wundergraph
 - axonius
 - broadcom
 - torii
-- burrow
 - zluri
 - amazon-systems-manager
 - dell-servers
@@ -242,77 +238,37 @@ provider_slugs:
 - cakewalk
 - tropic
 - nudge-security
-- cake-equity
-- allfly
-- capillary-technologies
 - snow-software
-- claravine
 - productiv
 - coreview-fka-4ward365
 - cloudeagle
 - trelica
 - bettercloud
-- clubhousesoftware
-- bushel
 - zenadmin
 - blissfully
 - spendflo
-- clientsuccess
-- albi
 - leanix
-- busup
 - sastrify
-- ceipal
-- codekeeperbv
-- cargofy
-- bsportsolution
 - salto
-- captura
-- capacity
-- careharmony
 - beamy
 - substly
 - vertice
 - certero
-- cleanshelf
-- cleargov
 - cloudnuro
-- chefhero
 - electric
-- capango
+- cleanshelf
 - bettermanager
-- cloudbrink
-- circuittransit
-- cleoai
-- cloudbrinkinc
-- charterup
 - binadox
 - josys
-- carver-edison
 - corma
 - beepluscoworkingspace
-- buildos
-- briq
-- clouddentistry
-- carefeed
 - nickl
-- cardinalityai
-- caredox
-- carbontrack
 - oomnitza
-- alongsidefinance
-- cloudburst-technologies
-- chargerhelp
+- saas-management
 - intello
-- car-capital-technologies
-- bucketplace2da2
-- cognizer-ai
-- buku-ship
-- cloudhelixinc
 - amcandp
-- ceipalllc
 - vendorhawk
-- clipline
+- albi
 related:
 - slug: management
   name: Management
@@ -323,20 +279,20 @@ related:
 - slug: ipaas
   name: iPaaS
   shared: 2
+- slug: ai-automation
+  name: AI Automation
+  shared: 1
 - slug: finops
   name: FinOps
   shared: 1
 - slug: virtualization
   name: Virtualization
   shared: 1
-- slug: workflow-automation
-  name: Workflow Automation
-  shared: 1
 overview: 'SaaS Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [saas-management.apievangelist.com](https://saas-management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Cobot2, Karbon, Monite, Boomi, Cledara, SnapLogic, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Karbon, Boomi, Monite, Cledara, SnapLogic, Lumos, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, Embedded iPaaS, iPaaS, and FinOps. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, Embedded iPaaS, iPaaS, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

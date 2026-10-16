@@ -6,7 +6,7 @@ description: An index and topic collection covering managed databases and databa
 area_url: https://database.apievangelist.com
 area_host: database.apievangelist.com
 icon: https://database.apievangelist.com/icon-thumb.png
-provider_count: 211
+provider_count: 210
 providers:
 - slug: cdata
   name: CData
@@ -46,7 +46,7 @@ providers:
 - slug: cockroach-labs
   name: Cockroach Labs
   description: Cockroach Labs is the New York-based software company that builds CockroachDB, a cloud-native, distributed, PostgreSQL-compatible SQL database. CockroachDB is offered as Cockroach Labs' fully managed cloud service (Basic, Standard, and Advanced plans) and as self-hosted software. The company provid…
-  api_count: 4
+  api_count: 3
   score_band: exemplar
   score_composite: 75.5
   shared: 1
@@ -176,19 +176,19 @@ providers:
   score_band: strong
   score_composite: 61.3
   shared: 1
-- slug: aifordatabase
-  name: AI for Database
-  description: AI for Database is a natural-language data layer for operational databases, built by Wavicle.tech. It connects read-only to PostgreSQL, MySQL, MariaDB, SQL Server, MongoDB, SQLite and Google Sheets, translates plain-English questions into SQL, returns the SQL alongside the answer, pins results as s…
-  api_count: 4
-  score_band: strong
-  score_composite: 60.7
-  shared: 1
 - slug: influxdata
   name: InfluxData
   description: InfluxData is the company behind InfluxDB, the leading open source time series database purpose-built for real-time analytics, monitoring, IoT and sensor data, application metrics, and observability workloads. InfluxDB ingests millions of data points per second and ships as open source (InfluxDB OS…
   api_count: 2
   score_band: strong
   score_composite: 60.7
+  shared: 1
+- slug: aifordatabase
+  name: AI for Database
+  description: AI for Database is a natural-language data layer for operational databases, built by Wavicle.tech. It connects read-only to PostgreSQL, MySQL, MariaDB, SQL Server, MongoDB, SQLite and Google Sheets, translates plain-English questions into SQL, returns the SQL alongside the answer, pins results as s…
+  api_count: 2
+  score_band: strong
+  score_composite: 60.2
   shared: 1
 - slug: amazon-documentdb
   name: Amazon DocumentDB
@@ -200,7 +200,7 @@ providers:
 - slug: abloatai
   name: Ablo
   description: 'Ablo is collaboration infrastructure for AI agents: one API that lets agents, apps and people claim, change and confirm the same database rows without clobbering each other. Rows stay in the customer''s own Postgres — Ablo holds only an ordered transaction log and the coordination state — while dura…'
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 59.9
   shared: 1
@@ -211,12 +211,12 @@ providers:
   score_band: strong
   score_composite: 59.6
   shared: 1
-- slug: amazon-elasticache
-  name: Amazon ElastiCache
-  description: Amazon ElastiCache is a fully managed in-memory caching service supporting Redis and Memcached. ElastiCache makes it easy to deploy, operate, and scale popular open-source compatible in-memory data stores, improving the performance of web applications.
-  api_count: 1
+- slug: singlestore
+  name: SingleStore
+  description: SingleStore is a cloud-native distributed SQL database designed for real-time analytics and mixed workloads. It offers a management API for provisioning and managing cloud workspaces, and a data API for executing SQL statements over HTTP without requiring native database drivers. SingleStore Helios…
+  api_count: 2
   score_band: strong
-  score_composite: 59.2
+  score_composite: 59.5
   shared: 1
 provider_slugs:
 - cdata
@@ -243,27 +243,26 @@ provider_slugs:
 - amazon-keyspaces
 - amazon-rds
 - pingcap
-- aifordatabase
 - influxdata
+- aifordatabase
 - amazon-documentdb
 - abloatai
 - yugabyte
+- singlestore
 - amazon-elasticache
 - bubble
 - pinecone
 - enterprisedb
-- amuncore
 - teradata
 - tiledb
 - timescale
+- amuncore
 - vividcortex
 - insforge
 - microsoft-azure-mysql
 - adaptive-automation-technologies
 - scaleway
 - amazon-simpledb
-- datastax
-- arangodb
 - oracle-database
 - ehrbase
 - render
@@ -288,12 +287,13 @@ provider_slugs:
 - nocodb
 - kurrent
 - amazon-timestream
+- datastax
 - startree-cortexdata
+- arangodb
 - amazon-memorydb
 - firebase
 - border0
 - macrometa
-- singlestore
 - microsoft-azure-postgresql
 - convex
 - aiven
@@ -327,7 +327,6 @@ provider_slugs:
 - risingwave
 - instantdb
 - stack-machine
-- gel-data
 - vastdata
 - zoho-creator
 - cassandra
@@ -336,34 +335,34 @@ provider_slugs:
 - clockwork-labs
 - electric-sql
 - vitess
-- xano
 - ninox
 - microsoft-access
 - parse
-- influxdb
-- rawg
+- xano
 - smartmind
 - quasar
+- influxdb
 - upstash
 - microsoft-entity-framework
 - 4paradigm
-- manticore
+- rawg
 - triplit
 - backendless
 - softr
+- manticore
 - qdrant
 - sevalla
-- bytebase
 - mongodb-atlas
-- timescaledb
 - inspur-cloud
+- bytebase
 - edgedb
 - teable
+- timescaledb
 - thegamesdb
 - dolthub
 - caspio
+- gel-data
 - bigchaindb
-- mindsdb
 - questdb
 - yunqi
 - mysql
@@ -373,7 +372,6 @@ provider_slugs:
 - amazon-aurora
 - synthesized
 - knack
-- postgresml
 - planetscale
 - duckdb
 - victoriametrics
@@ -385,21 +383,22 @@ provider_slugs:
 - paradedb
 - apache-shardingsphere
 - kvdb
+- mindsdb
 - redplanetlabs
-- riak
 - aerospike
-- netezza
+- riak
+- postgresml
 - hibernate
-- wine-vybe
 - villagesql
+- wine-vybe
 - vertica
 - apache-pinot
 - heavyai
 - transwarp
 - readyset
 - 8base
+- netezza
 - objectbox
-- celerdata
 - dragonfly
 - sql
 - pgvector
@@ -410,16 +409,16 @@ provider_slugs:
 - citus-data
 - customer-database
 - sequoiadb
-- nazar
-- podchaser
 - jpa
+- podchaser
+- database
 - rethinkdb
 - timesten
 - arcion-labs
+- nazar
 - akashx
 - diamond
 - reniac
-- alpacadb
 - versant
 - partitioning
 - bitio
@@ -437,9 +436,6 @@ related:
 - slug: containers
   name: Containers
   shared: 2
-- slug: caching
-  name: Caching
-  shared: 1
 - slug: agents
   name: Agents
   shared: 1
@@ -449,11 +445,14 @@ related:
 - slug: machine-learning
   name: Machine Learning
   shared: 1
+- slug: management
+  name: Management
+  shared: 1
 overview: 'Database is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [database.apievangelist.com](https://database.apievangelist.com).
 
 
   30 providers on the network work in this area, including CData, MongoDB, Appwrite, Amazon DynamoDB, Oracle Cloud Infrastructure, Cockroach Labs, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Serverless, Containers, Caching, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Serverless, Containers, Agents, and Authentication. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

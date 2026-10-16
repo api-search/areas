@@ -6,8 +6,15 @@ description: 'An index and topic collection covering virtualization across two i
 area_url: https://virtualization.apievangelist.com
 area_host: virtualization.apievangelist.com
 icon: https://virtualization.apievangelist.com/icon-thumb.png
-provider_count: 40
+provider_count: 41
 providers:
+- slug: virtualization
+  name: Virtualization
+  description: 'An index and topic collection covering virtualization across two intertwined domains: machine virtualization (hypervisors, virtual machines, VDI, and cloud VM platforms) and API/service virtualization (mock servers, service mocks, and contract-based stubs). Machine virtualization abstracts physical…'
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.5
+  shared: 2
 - slug: nutanix
   name: Nutanix
   description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
@@ -18,7 +25,7 @@ providers:
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
-  api_count: 22
+  api_count: 11
   score_band: strong
   score_composite: 60.2
   shared: 1
@@ -46,9 +53,9 @@ providers:
 - slug: smol-machines
   name: Smol Machines
   description: Smol Machines (smol machines, inc.) is a Y Combinator-backed developer infrastructure company building portable, self-contained Linux microVMs. Its open-source `smolvm` engine and `smol` CLI (both Rust, Apache-2.0) boot hardware-isolated virtual machines from any OCI image in under 200ms — on a lap…
-  api_count: 3
+  api_count: 2
   score_band: developing
-  score_composite: 46.8
+  score_composite: 46.2
   shared: 1
 - slug: oxide-computer
   name: Oxide
@@ -130,7 +137,7 @@ providers:
 - slug: scale-computing
   name: Scale Computing
   description: Scale Computing builds SC//Platform, an edge-computing and hyperconverged infrastructure stack made up of SC//HyperCore (a self-healing KVM-based virtualization and storage OS that runs on clustered appliance nodes) and SC//Fleet Manager (a cloud console that monitors, updates and orchestrates thou…
-  api_count: 6
+  api_count: 4
   score_band: thin
   score_composite: 37.2
   shared: 1
@@ -209,16 +216,10 @@ providers:
   description: ReadyAPI is SmartBear's enterprise-grade automated API testing platform. It unifies functional, security, performance, and virtualization testing for REST, SOAP, GraphQL, Kafka, JDBC, and JMS APIs. ReadyAPI is delivered as a desktop and CI/CD tool rather than as a public REST API, integrating with…
   api_count: 0
   score_band: emerging
-  score_composite: 12.4
-  shared: 1
-- slug: kerys
-  name: Kerys
-  description: Kerys Software is a European (Palaiseau, France) cybersecurity company behind YS::Desktop, a Type 1 hypervisor that runs multiple fully isolated environments on a single workstation. By preallocating dedicated CPU cores to the hypervisor versus VM workloads and adding hypervisor-level encryption, Y…
-  api_count: 0
-  score_band: minimal
-  score_composite: 10.9
+  score_composite: 11.9
   shared: 1
 provider_slugs:
+- virtualization
 - nutanix
 - intersight
 - vmware
@@ -278,7 +279,7 @@ related:
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Nutanix, Cisco Intersight, VMware, Broadcom, Slide, Smol Machines, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Virtualization, Nutanix, Cisco Intersight, VMware, Broadcom, Slide, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Migration, Database, Management, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'

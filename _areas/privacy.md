@@ -6,12 +6,12 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 189
+provider_count: 188
 providers:
 - slug: didomi
   name: Didomi
   description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 81.5
   shared: 1
@@ -25,7 +25,7 @@ providers:
 - slug: listrak
   name: Listrak
   description: 'Listrak is a retail customer-engagement platform whose public API surface is eight separate REST APIs served from api.listrak.com: Email (83 operations), SMS (20), Data Import (5), Media (9), Mobile App Push (5), Two-Way SMS (4), Cross Channel custom events (3) and Privacy (2). Together they cover…'
-  api_count: 26
+  api_count: 18
   score_band: exemplar
   score_composite: 74.3
   shared: 1
@@ -53,7 +53,7 @@ providers:
 - slug: blueconic
   name: BlueConic
   description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 68.9
   shared: 1
@@ -83,7 +83,7 @@ providers:
   description: Privacy-first, cookieless web analytics from Statable (Key Arg B.V.), EU-hosted in the Netherlands with GDPR compliance and a ~2 KB tracking script. Exposes a server-side REST HTTP API with a public OpenAPI 3.1 contract, a hosted MCP server, an llms.txt, and a CLI for querying visitors, pages, sour…
   api_count: 1
   score_band: strong
-  score_composite: 66.3
+  score_composite: 65.9
   shared: 1
 - slug: opentext-cybersecurity
   name: OpenText Cybersecurity
@@ -130,14 +130,14 @@ providers:
 - slug: inrupt
   name: Inrupt
   description: Inrupt is the enterprise company founded by Sir Tim Berners-Lee and John Bruce to commercialize Solid, the open decentralized-data specification he created at MIT. Its flagship product is the Enterprise Solid Server (ESS), a Kubernetes-deployed platform of cooperating services that gives each perso…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.0
   shared: 1
 - slug: screenpipe
   name: Screenpipe
   description: Screenpipe is a local-first, source-available desktop application (by Mediar AI, Y Combinator S26) that continuously captures everything you see, say, and hear on your computer, reads on-screen text through OS accessibility APIs with an OCR fallback, transcribes system and microphone audio with loc…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 60.8
   shared: 1
@@ -169,19 +169,19 @@ providers:
   score_band: strong
   score_composite: 57.5
   shared: 1
-- slug: datavant
-  name: Datavant
-  description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US…
-  api_count: 4
-  score_band: strong
-  score_composite: 57.0
-  shared: 1
 - slug: nord-security
   name: Nord Security
   description: Nord Security is a Lithuania-founded digital security and privacy company whose consumer and business portfolio spans NordVPN, NordPass, NordLocker, NordLayer (network access security for business), NordProtect/Coveron, Saily (eSIM) and NordStellar (external threat exposure management). Its develop…
   api_count: 7
   score_band: strong
   score_composite: 56.9
+  shared: 1
+- slug: datavant
+  name: Datavant
+  description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US…
+  api_count: 2
+  score_band: strong
+  score_composite: 56.5
   shared: 1
 - slug: tabnine
   name: Tabnine
@@ -242,8 +242,8 @@ provider_slugs:
 - apple-safari
 - altr
 - sourcepoint
-- datavant
 - nord-security
+- datavant
 - tabnine
 - apstal
 - california-privacy-protection-agency
@@ -256,8 +256,8 @@ provider_slugs:
 - ironcore-labs
 - freshpaint
 - transcend-io
-- nym-technologies
 - certifaction
+- nym-technologies
 - fathom
 - habu
 - iab-tech-lab
@@ -286,7 +286,6 @@ provider_slugs:
 - seismic-systems
 - skyflow
 - soveren
-- flower
 - ketch-io
 - covatic
 - nightfall-ai
@@ -296,18 +295,19 @@ provider_slugs:
 - hcaptcha
 - blindinsight
 - mostly-ai
-- tonic-ai
 - mobilecoin
+- tonic-ai
 - cookieyes
 - consentx
-- dead-drop
 - aztecprotocol
 - brave-browser
 - mailpace
 - friendly-captcha
+- dead-drop
 - sourcehut
 - truevault
 - cloudflare-turnstile
+- flower
 - aztec-network
 - confidential-computing-consortium
 - monero
@@ -328,13 +328,13 @@ provider_slugs:
 - odaseva
 - miniflux
 - tari
-- trickybird
 - webai
 - aztec
 - anonyome-labs
 - bearer
 - pi-hole
 - privado
+- trickybird
 - hamsa
 - intego
 - anoma
@@ -352,14 +352,13 @@ provider_slugs:
 - ardent-privacy
 - leapyear
 - zama
-- conifer
 - brandyourself
 - blindmate
 - blockpartyapp
 - datagrail
-- joya-communications
 - cloaked
 - confide
+- joya-communications
 - leapyear-technologies
 - anonos
 - rialo
@@ -376,9 +375,10 @@ provider_slugs:
 - shardsecure
 - xayn
 - ohalo
-- center
+- privacy
 - identiq
 - mdclone
+- conifer
 - divebell
 - ey
 - stack
@@ -390,17 +390,16 @@ provider_slugs:
 - governata
 - trace-data
 - fabric-cryptography
-- one-raven
 - nortonlifelock
 - opencola
 - snips
 - dasera
 - friendster
+- one-raven
 - privitar
-- clinc2
-- gen-digital
 - ballard-spahr
 - cambridge-blockchain
+- gen-digital
 - privacy-by-design
 - atomic-canyon
 - webb-protocol
