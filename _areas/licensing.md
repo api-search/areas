@@ -6,21 +6,21 @@ description: 'An index and topic collection covering software licensing APIs acr
 area_url: https://licensing.apievangelist.com
 area_host: licensing.apievangelist.com
 icon: https://licensing.apievangelist.com/icon-thumb.png
-provider_count: 38
+provider_count: 40
 providers:
 - slug: replicated
   name: Replicated
   description: Replicated is a commercial software distribution platform that lets independent software vendors (ISVs) deliver and manage modern applications into complex, customer-controlled environments — including on-prem, self-hosted, and air-gapped networks with little or no outbound internet access. The pla…
   api_count: 1
   score_band: strong
-  score_composite: 61.9
+  score_composite: 62.0
   shared: 1
 - slug: certifyos
   name: Certifyos
   description: 'Certify (operating as CertifyOS, certifyos.com) is a New York-based healthcare provider data platform that automates the end-to-end provider network management lifecycle: credentialing, licensing, payer enrollment, compliance monitoring, and roster management. Founded in 2020 by CEO Anshul Rathi, t…'
   api_count: 3
   score_band: strong
-  score_composite: 57.1
+  score_composite: 57.2
   shared: 1
 - slug: sendowl
   name: SendOwl
@@ -50,13 +50,6 @@ providers:
   score_band: developing
   score_composite: 44.3
   shared: 1
-- slug: shutterstock
-  name: Shutterstock
-  description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.0
-  shared: 1
 - slug: madaket
   name: Madaket
   description: Madaket Health is a Cambridge, Massachusetts healthcare administration company whose Provider Data Management (PDM) platform automates payer enrollment, EDI enrollment, credentialing, licensing and provider directory data management between healthcare providers and payers. Madaket maintains connect…
@@ -64,12 +57,12 @@ providers:
   score_band: developing
   score_composite: 41.7
   shared: 1
-- slug: 7digital
-  name: 7digital
-  description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
-  api_count: 23
-  score_band: thin
-  score_composite: 39.0
+- slug: shutterstock
+  name: Shutterstock
+  description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.5
   shared: 1
 - slug: agentsync
   name: Agentsync
@@ -78,38 +71,45 @@ providers:
   score_band: thin
   score_composite: 38.3
   shared: 1
-- slug: soundstripe
-  name: Soundstripe
-  description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.8
-  shared: 1
 - slug: warner-music-group
   name: Warner Music Group
   description: Warner Music Group is one of the major record labels in the music industry, with recorded music and music publishing operations spanning a roster of artists, songwriters, and labels around the world. WMG includes Warner Records, Atlantic Records, Elektra Records, and Warner Chappell Music (one of t…
   api_count: 1
   score_band: thin
-  score_composite: 36.9
+  score_composite: 35.4
   shared: 1
 - slug: fossology
   name: FOSSology
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations through automated scanning, human clearing workflows, and SP…
   api_count: 2
   score_band: thin
-  score_composite: 35.5
+  score_composite: 34.0
   shared: 1
-- slug: fcc
-  name: FCC (Federal Communications Commission)
-  description: The Federal Communications Commission provides free public REST APIs for radio station license lookup, broadband coverage maps, spectrum auction data, broadcast contours, census block conversions, consumer complaint databases, electronic comment filings, and regulatory data. All APIs are free with…
-  api_count: 6
+- slug: 7digital
+  name: 7digital
+  description: 7digital (now operating as MassiveMusic following a corporate pivot toward Songtradr-affiliated business music services) is a B2B music platform that licenses a 100M+ track music catalogue and provides the streaming, download-delivery, royalty-reporting, and content-ingestion infrastructure that po…
+  api_count: 23
   score_band: thin
-  score_composite: 31.8
+  score_composite: 32.1
+  shared: 1
+- slug: soundstripe
+  name: Soundstripe
+  description: Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sou…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.5
   shared: 1
 - slug: story-protocol
   name: Story Protocol
   description: Story Protocol is a purpose-built EVM Layer 1 blockchain for onchain intellectual property (the "IP blockchain"), powered by Proof of Creativity, built by Pip Labs and backed by a16z. Its public REST API (api.storyapis.com) is a read-only indexer that exposes IP assets, collections, license terms,…
   api_count: 2
+  score_band: thin
+  score_composite: 27.5
+  shared: 1
+- slug: fcc
+  name: FCC (Federal Communications Commission)
+  description: The Federal Communications Commission provides free public REST APIs for radio station license lookup, broadband coverage maps, spectrum auction data, broadcast contours, census block conversions, consumer complaint databases, electronic comment filings, and regulatory data. All APIs are free with…
+  api_count: 6
   score_band: thin
   score_composite: 27.4
   shared: 1
@@ -118,19 +118,12 @@ providers:
   description: 'Centric Brands LLC is a New York-headquartered global lifestyle brand management and product-development platform formed in October 2018 when Differential Brands Group (NASDAQ: DFBG) acquired Global Brands Group''s $1.2B North American licensing business. The company designs, sources, markets, and d…'
   api_count: 1
   score_band: emerging
-  score_composite: 23.6
+  score_composite: 23.7
   shared: 1
 - slug: medallion
   name: Medallion
   description: Medallion is an AI-powered healthcare operations platform for provider credentialing, enrollment, and licensing, operated by FirstLayerAI, Inc. It positions itself as the AI operations partner powering healthcare's first real-time CVO (Credentialing Verification Organization), NCQA-certified, and s…
   api_count: 0
-  score_band: emerging
-  score_composite: 20.2
-  shared: 1
-- slug: occ
-  name: Office of the Comptroller of the Currency (OCC)
-  description: The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks. The OCC provides REST APIs and data tools for national bank and federal savings association data, C…
-  api_count: 3
   score_band: emerging
   score_composite: 20.2
   shared: 1
@@ -146,21 +139,28 @@ providers:
   description: Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media,…
   api_count: 1
   score_band: emerging
-  score_composite: 16.0
+  score_composite: 16.1
+  shared: 1
+- slug: occ
+  name: Office of the Comptroller of the Currency (OCC)
+  description: The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks. The OCC provides REST APIs and data tools for national bank and federal savings association data, C…
+  api_count: 3
+  score_band: emerging
+  score_composite: 15.9
   shared: 1
 - slug: ascap
   name: ASCAP
   description: The American Society of Composers, Authors and Publishers (ASCAP) is a not‑for‑profit performance‑rights organization representing over 1.1 million songwriters, composers and music publishers. It licenses public performances of music, collects royalties, and distributes them to creators. ASCAP also…
   api_count: 0
   score_band: emerging
-  score_composite: 15.7
+  score_composite: 15.8
   shared: 1
 - slug: merlin
   name: Merlin
   description: Merlin is a global digital music licensing organization that represents independent music companies, providing them access to licensing deals, tools, and data insights. It operates a membership platform called Wizard, offers technology solutions, and publishes reports and industry insights to suppo…
   api_count: 1
   score_band: emerging
-  score_composite: 15.5
+  score_composite: 15.6
   shared: 1
 - slug: aceable
   name: Aceable
@@ -174,35 +174,35 @@ providers:
   description: PRS for Music is the UK’s leading performing rights organisation representing songwriters, composers and music publishers. It collects royalties on behalf of its members when music is used across broadcast, streaming, live performance and public venues, ensuring creators are fairly compensated. The…
   api_count: 0
   score_band: emerging
-  score_composite: 14.9
+  score_composite: 15.0
   shared: 1
 - slug: tradespace
   name: Tradespace
   description: Tradespace is an AI-powered intellectual property management platform that combines IP management software, AI tooling, and on-demand patent attorneys in a single full-service patent practice. The platform spans the IP lifecycle across four products — Create (invention harvesting and disclosure, wi…
   api_count: 0
   score_band: emerging
-  score_composite: 14.7
+  score_composite: 14.8
   shared: 1
 - slug: the-mlc
   name: The MLC
   description: The Mechanical Licensing Collective (MLC) is a U.S. statutory organization that administers mechanical licensing and royalty distribution for music creators. It provides a centralized database of musical works, facilitates licensing for digital music services, and ensures creators receive proper co…
   api_count: 0
   score_band: emerging
-  score_composite: 13.5
+  score_composite: 13.6
   shared: 1
 - slug: universal-music-group
   name: Universal Music Group
   description: 'Universal Music Group N.V. (UMG) is the world''s largest music company, headquartered in Hilversum, Netherlands with operational headquarters in Santa Monica, California. Spun off from Vivendi and listed on Euronext Amsterdam (ticker: UMG) on September 21, 2021 at a EUR 54 billion valuation, UMG ope…'
   api_count: 4
   score_band: emerging
-  score_composite: 12.7
+  score_composite: 12.8
   shared: 1
-- slug: spdx
-  name: SPDX
-  description: The Software Package Data Exchange (SPDX) is an open standard under the Linux Foundation for communicating software bill of materials information including components, licenses, copyrights, and security references. It is an ISO/IEC standard (ISO/IEC 5962) used for software supply chain transparency.
-  api_count: 1
-  score_band: minimal
-  score_composite: 10.6
+- slug: troveo
+  name: Troveo
+  description: Troveo provides a platform that unlocks non‑public, real‑world data for frontier AI applications. By aggregating multimodal business data—including company information, videos, audio, gaming content, and more—Troveo enables data owners to license their datasets and generate recurring revenue. The s…
+  api_count: 0
+  score_band: emerging
+  score_composite: 11.3
   shared: 1
 - slug: payna
   name: Payna
@@ -225,20 +225,20 @@ provider_slugs:
 - accela
 - acma
 - opengov
-- shutterstock
 - madaket
-- 7digital
+- shutterstock
 - agentsync
-- soundstripe
 - warner-music-group
 - fossology
-- fcc
+- 7digital
+- soundstripe
 - story-protocol
+- fcc
 - centric-brands
 - medallion
-- occ
 - govwell
 - endeavor
+- occ
 - ascap
 - merlin
 - aceable
@@ -246,10 +246,12 @@ provider_slugs:
 - tradespace
 - the-mlc
 - universal-music-group
-- spdx
+- troveo
 - payna
 - bmi
 - kaizen-labs
+- licensing
+- spdx
 - filmtrack
 - lexyom
 - nuro

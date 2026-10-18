@@ -12,15 +12,15 @@ providers:
   name: Fieldwire
   description: Fieldwire is a construction field-management platform. Its API covers plans and drawings, tasks and punch lists, forms, change orders, budget line items and actual costs, BIM models, and the people and companies attached to a project.
   api_count: 6
-  score_band: strong
-  score_composite: 56.7
+  score_band: developing
+  score_composite: 50.9
   shared: 1
 - slug: priceops
   name: PriceOps
   description: PriceOps is a pricing and packaging infrastructure platform for SaaS companies that enables simulation of pricing strategies, design of packaging tiers, and launch of pricing pages within minutes. The platform provides REST APIs for managing customer information, usage records, pricing plans, entit…
   api_count: 1
   score_band: emerging
-  score_composite: 23.8
+  score_composite: 19.5
   shared: 1
 provider_slugs:
 - fieldwire

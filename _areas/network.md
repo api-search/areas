@@ -11,9 +11,9 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 21
+  api_count: 22
   score_band: exemplar
-  score_composite: 80.2
+  score_composite: 78.0
   shared: 1
 provider_slugs:
 - postman

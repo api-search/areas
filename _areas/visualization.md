@@ -13,21 +13,28 @@ providers:
   description: Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platfo…
   api_count: 6
   score_band: exemplar
-  score_composite: 79.8
+  score_composite: 77.6
   shared: 1
 - slug: elastic
   name: Elastic
   description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
   api_count: 4
   score_band: exemplar
-  score_composite: 77.3
+  score_composite: 77.6
   shared: 1
 - slug: power-bi
   name: Power BI
   description: Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. It provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards.
   api_count: 1
-  score_band: exemplar
-  score_composite: 67.5
+  score_band: strong
+  score_composite: 65.9
+  shared: 1
+- slug: amazon-quicksight
+  name: Amazon QuickSight
+  description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
+  api_count: 1
+  score_band: strong
+  score_composite: 61.3
   shared: 1
 - slug: foxglove-technologies
   name: Foxglove Technologies
@@ -36,82 +43,75 @@ providers:
   score_band: strong
   score_composite: 59.4
   shared: 1
-- slug: amazon-quicksight
-  name: Amazon QuickSight
-  description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
-  api_count: 1
-  score_band: strong
-  score_composite: 58.0
-  shared: 1
 - slug: amazon-managed-grafana
   name: Amazon Managed Grafana
   description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
   api_count: 1
   score_band: developing
-  score_composite: 53.9
-  shared: 1
-- slug: visio
-  name: Microsoft Visio API
-  description: Microsoft Visio provides APIs for creating, editing, and managing Visio diagrams and drawings. The Visio JavaScript API enables developers to build Office Add-ins that interact with Visio diagrams embedded in SharePoint Online pages, accessing document elements such as pages, shapes, hyperlinks, co…
-  api_count: 1
-  score_band: developing
-  score_composite: 50.6
-  shared: 1
-- slug: google-data-studio
-  name: Google Data Studio
-  description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sources and supports community connectors and visualizations for…
-  api_count: 2
-  score_band: developing
-  score_composite: 48.8
+  score_composite: 52.4
   shared: 1
 - slug: napkin
   name: Napkin
   description: 'Napkin AI turns typed or pasted text into editable visuals — diagrams, charts, icons, and infographics — and into full presentation decks, with no prompting or design skill required. Two products share one text-to-visual engine: Napkin Visuals (standalone diagrams and graphics) and Napkin Slides (b…'
   api_count: 1
   score_band: developing
-  score_composite: 44.6
+  score_composite: 51.0
+  shared: 1
+- slug: visio
+  name: Microsoft Visio API
+  description: Microsoft Visio provides APIs for creating, editing, and managing Visio diagrams and drawings. The Visio JavaScript API enables developers to build Office Add-ins that interact with Visio diagrams embedded in SharePoint Online pages, accessing document elements such as pages, shapes, hyperlinks, co…
+  api_count: 1
+  score_band: developing
+  score_composite: 49.1
+  shared: 1
+- slug: google-data-studio
+  name: Google Data Studio
+  description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sources and supports community connectors and visualizations for…
+  api_count: 2
+  score_band: developing
+  score_composite: 47.3
   shared: 1
 - slug: zoho-analytics
   name: Zoho Analytics
   description: Zoho Analytics is a business intelligence and self-service analytics platform that provides a REST API for managing workspaces, views, reports, dashboards, data import and export, and sharing analytics content. The API enables ISVs, developers, and system integrators to embed powerful reporting and…
   api_count: 7
-  score_band: developing
-  score_composite: 40.7
-  shared: 1
-- slug: windy
-  name: Windy
-  description: Windy.com is a weather visualization platform serving high-resolution forecast models, animated weather maps, and a global webcam network. The Windy API exposes three developer products - a Point Forecast API for multi-model numerical weather data at a coordinate, an embeddable Map Forecast API bas…
-  api_count: 1
   score_band: thin
-  score_composite: 34.8
+  score_composite: 35.1
   shared: 1
 - slug: kibana
   name: Kibana
   description: Kibana is an open-source data visualization and exploration tool used for log and time-series analytics, application monitoring, and operational intelligence. Kibana provides histograms, line graphs, pie charts, heat maps, geospatial visualizations, dashboards, alerting, and management of saved obj…
   api_count: 1
   score_band: thin
-  score_composite: 34.6
+  score_composite: 33.1
   shared: 1
 - slug: lucidchart
   name: Lucidchart
   description: Lucidchart is a web-based intelligent diagramming application by Lucid Software, part of the Lucid Visual Collaboration Suite (Lucidchart, Lucidspark, Lucidscale). The Lucid Developer Platform exposes a REST API for documents/folders/collaborators/content, an Extension API for in-editor extensions,…
   api_count: 1
   score_band: thin
-  score_composite: 33.9
+  score_composite: 32.5
   shared: 1
 - slug: apache-zeppelin
   name: Apache Zeppelin
   description: Apache Zeppelin is a web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala, Python, R, and more. It provides built-in data visualization, collaboration features, and interpreter integration with Apache Spark, JDBC, Python, R, Shell, and…
   api_count: 1
   score_band: thin
-  score_composite: 33.6
+  score_composite: 32.2
   shared: 1
 - slug: qlik-cloud
   name: Qlik Cloud
   description: Collection of APIs for Qlik Cloud platform, providing data integration, analytics, and visualization capabilities.
   api_count: 13
   score_band: thin
-  score_composite: 31.8
+  score_composite: 30.3
+  shared: 1
+- slug: windy
+  name: Windy
+  description: Windy.com is a weather visualization platform serving high-resolution forecast models, animated weather maps, and a global webcam network. The Windy API exposes three developer products - a Point Forecast API for multi-model numerical weather data at a coordinate, an embeddable Map Forecast API bas…
+  api_count: 1
+  score_band: thin
+  score_composite: 26.5
   shared: 1
 - slug: threejs
   name: Three.js
@@ -125,91 +125,91 @@ providers:
   description: Perses is an open-source monitoring and dashboarding tool designed as a modern alternative for visualizing time-series data with a focus on performance, extensibility, and GitOps. Perses exposes a REST API for managing dashboards, datasources, ephemeral dashboards, projects, roles, role bindings, s…
   api_count: 1
   score_band: emerging
-  score_composite: 22.7
+  score_composite: 21.2
   shared: 1
 - slug: qlik-mashups
   name: Qlik Mashups
   description: APIs and resources for building custom visualizations and analytics applications using Qlik Sense mashups.
   api_count: 5
   score_band: emerging
-  score_composite: 15.9
-  shared: 1
-- slug: matplotlib
-  name: Matplotlib
-  description: Matplotlib is a comprehensive open source library for creating static, animated, and interactive visualizations in Python. It provides a MATLAB-like interface via pyplot and an object-oriented API for full customization of publication-quality figures and plots.
-  api_count: 1
-  score_band: emerging
-  score_composite: 15.0
+  score_composite: 14.4
   shared: 1
 - slug: tech-soft-3d
   name: Tech Soft 3D
   description: Tech Soft 3D builds developer SDKs and enterprise applications that power 3D data exchange, visualization, and analysis across engineering, manufacturing, and design. Its HOOPS toolkits (Exchange for CAD data translation and access, Visualize for high-performance 3D graphics, Access, Mesh, Solve, a…
   api_count: 0
   score_band: emerging
-  score_composite: 14.2
+  score_composite: 14.3
+  shared: 1
+- slug: matplotlib
+  name: Matplotlib
+  description: Matplotlib is a comprehensive open source library for creating static, animated, and interactive visualizations in Python. It provides a MATLAB-like interface via pyplot and an object-oriented API for full customization of publication-quality figures and plots.
+  api_count: 1
+  score_band: emerging
+  score_composite: 13.5
   shared: 1
 - slug: domo
   name: Domo
   description: Domo is a cloud-based software company that specializes in providing business intelligence tools for organizations. Their platform allows businesses to gather, analyze, and visualize data from various sources in order to make more informed decisions. Domo helps companies streamline their data manag…
   api_count: 1
   score_band: emerging
-  score_composite: 14.1
+  score_composite: 12.6
   shared: 1
 - slug: sira-medical
   name: Sira Medical
   description: Sira Medical develops augmented reality software that transforms 3D radiological imaging into patient-specific holographic models projected onto real-world backgrounds. Delivered through head-mounted AR devices (such as Microsoft HoloLens) and mobile platforms, the technology helps surgeons perform…
   api_count: 0
   score_band: emerging
-  score_composite: 11.5
+  score_composite: 11.6
   shared: 1
 - slug: qbiq
   name: Qbiq
   description: Qbiq is an AI-powered space planning and architectural visualization platform for real estate. It lets brokers, architects, developers, and space planners generate optimized 2D floor plans, photorealistic 3D renderings, virtual tours, Revit/CAD models, and quantity takeoffs from an uploaded space p…
   api_count: 0
   score_band: emerging
-  score_composite: 11.3
+  score_composite: 11.4
   shared: 1
 - slug: brelyon
   name: Brelyon
   description: Brelyon is an MIT Media Lab spin-off building headset-free virtual displays — desktop monitors that use electro-optics and computational rendering to produce monocular image depth rather than autostereoscopic 3D. Its Ultra Reality line delivers a 122-inch virtual screen filling roughly 110 degrees…
   api_count: 0
   score_band: minimal
-  score_composite: 10.2
+  score_composite: 10.3
   shared: 1
 - slug: all3d
   name: All3D
   description: ALL3D, Inc. is a San Francisco AI-powered visual content platform that replaces traditional product photography for ecommerce brands and agencies. Users upload a product photo and its real-world dimensions, build a scene from inspiration images and props, and generate 4K studio and lifestyle images…
   api_count: 0
   score_band: minimal
-  score_composite: 9.7
+  score_composite: 10.0
   shared: 1
 - slug: flowcharts
   name: Flowcharts
   description: Flowcharts are a visual modeling technique used across software engineering, systems analysis, business process design, and education to depict the steps, decisions, and flow of a process or algorithm. Within an API context, flowcharts are used to model workflows, integration patterns, retry logic,…
   api_count: 0
   score_band: minimal
-  score_composite: 4.4
+  score_composite: 4.5
   shared: 1
 - slug: planby-technologies-inc
   name: Planby Technologies
   description: Planby Technologies, Inc. (PLANBY) is a Seoul-based AI transformation partner for architecture and construction organizations, helping construction firms, architectural offices, and interior studios adopt AI-powered workflows. Its products include PLANA (interior and concept CG rendering automation…
   api_count: 0
   score_band: minimal
-  score_composite: 3.8
+  score_composite: 3.9
   shared: 1
 - slug: bloom9
   name: Bloom9
   description: Bloom9 is a data analytics platform that claims to provide businesses with tools for data integration, visualization, and predictive insights. The company was initially identified through secondary‑market listings and lacks a clearly documented public website or API endpoints. Preliminary searches…
   api_count: 0
   score_band: minimal
-  score_composite: 3.0
+  score_composite: 3.1
   shared: 1
 - slug: gantt-charts
   name: Gantt Charts
   description: Gantt charts are a project-management visualization that depicts tasks, timelines, dependencies, and progress against a calendar. This repository tracks APIs, libraries, and SaaS providers that produce, render, or expose Gantt-chart data for project planning and scheduling use cases.
   api_count: 0
   score_band: minimal
-  score_composite: 1.6
+  score_composite: 1.7
   shared: 1
 - slug: lagoa
   name: Lagoa
@@ -222,23 +222,23 @@ provider_slugs:
 - datadog
 - elastic
 - power-bi
-- foxglove-technologies
 - amazon-quicksight
+- foxglove-technologies
 - amazon-managed-grafana
+- napkin
 - visio
 - google-data-studio
-- napkin
 - zoho-analytics
-- windy
 - kibana
 - lucidchart
 - apache-zeppelin
 - qlik-cloud
+- windy
 - threejs
 - perses
 - qlik-mashups
-- matplotlib
 - tech-soft-3d
+- matplotlib
 - domo
 - sira-medical
 - qbiq
@@ -272,7 +272,7 @@ related:
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Datadog, Elastic, Power BI, Foxglove Technologies, Amazon QuickSight, Amazon Managed Grafana, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Datadog, Elastic, Power BI, Amazon QuickSight, Foxglove Technologies, Amazon Managed Grafana, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monitoring, Analysis, API Evangelist Search, and Design. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -13,7 +13,7 @@ providers:
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 6
   score_band: strong
-  score_composite: 65.0
+  score_composite: 56.7
   shared: 1
 - slug: spectrumoutage-api
   name: SpectrumOutage API
@@ -27,56 +27,56 @@ providers:
   description: Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on…
   api_count: 3
   score_band: thin
-  score_composite: 33.3
+  score_composite: 31.7
   shared: 1
 - slug: lumen-technologies
   name: Lumen Technologies
   description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Center, Lumen exposes REST APIs that allow customers to programm…
   api_count: 1
   score_band: thin
-  score_composite: 31.6
+  score_composite: 30.0
   shared: 1
 - slug: internet-engineering-task-force
   name: Internet Engineering Task Force
   description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of the internet. The IETF publishes freely accessible RFCs (Reque…
   api_count: 6
   score_band: thin
-  score_composite: 28.4
-  shared: 1
-- slug: cox
-  name: Cox Communications
-  description: Cox Communications is a leading American telecommunications provider offering broadband internet, cable TV, and phone services for residential and business customers. Cox provides REST APIs for account management, service configuration, network diagnostics, and customer portal integrations across i…
-  api_count: 3
-  score_band: emerging
-  score_composite: 20.1
+  score_composite: 26.9
   shared: 1
 - slug: ziff-davis-enterprise
   name: Ziff Davis Enterprise
   description: 'Ziff Davis (Nasdaq: ZD) is a vertically focused digital media and internet company whose portfolio includes leading brands across technology, entertainment, shopping, health, cybersecurity, and marketing technology. Its brands include PCMag, Mashable, IGN, Lifehacker, RetailMeNot, Spiceworks, Every…'
   api_count: 0
   score_band: emerging
-  score_composite: 18.0
+  score_composite: 18.1
   shared: 1
 - slug: andrena
   name: Andrena
   description: Andrena provides high-speed wireless internet service to multi-tenant buildings, businesses, and households at affordable rates. Founded to make internet accessible for everyone, Andrena offers plans up to 1 Gbps with simple sign‑up, no installation delays, and a focus on customer experience. The c…
   api_count: 0
   score_band: emerging
-  score_composite: 15.8
+  score_composite: 15.9
+  shared: 1
+- slug: cox
+  name: Cox Communications
+  description: Cox Communications is a leading American telecommunications provider offering broadband internet, cable TV, and phone services for residential and business customers. Cox provides REST APIs for account management, service configuration, network diagnostics, and customer portal integrations across i…
+  api_count: 3
+  score_band: emerging
+  score_composite: 14.4
   shared: 1
 - slug: cogent-communications
   name: Cogent Communications
   description: 'Cogent Communications Holdings, Inc. (NASDAQ: CCOI, AS174) is a facilities-based Tier 1 internet service provider headquartered in Washington, DC, selling Dedicated Internet Access, IP Transit, Ethernet, MPLS IP-VPN, SD-WAN, optical wavelength transport, Global Peer Connect peering ports and coloca…'
   api_count: 0
   score_band: emerging
-  score_composite: 13.8
+  score_composite: 12.2
   shared: 1
 - slug: cablevision-systems
   name: Cablevision Systems
   description: Cablevision Systems was a U.S. cable television company that provided telecommunications and television services (Optimum TV, Optimum Online, Optimum Voice) in the New York metropolitan area. It was acquired by Altice in 2016 and now operates as part of Altice USA under the Optimum consumer brand.
   api_count: 0
   score_band: minimal
-  score_composite: 4.7
+  score_composite: 3.1
   shared: 1
 - slug: wiom
   name: Wiom
@@ -90,7 +90,7 @@ providers:
   description: IAC (InterActiveCorp) is a media and internet company comprising widely known consumer brands such as Vimeo, Dotdash Meredith (People Inc.), Angi, Care.com, Search (Ask Media Group, Investopedia), and Emerging brands including Vivian Health, The Daily Beast, Daily Burn, Apalon, Mosaic Group, and Nu…
   api_count: 0
   score_band: minimal
-  score_composite: 2.5
+  score_composite: 2.6
   shared: 1
 - slug: masmovil
   name: Masmovil
@@ -112,9 +112,9 @@ provider_slugs:
 - comcast
 - lumen-technologies
 - internet-engineering-task-force
-- cox
 - ziff-davis-enterprise
 - andrena
+- cox
 - cogent-communications
 - cablevision-systems
 - wiom
@@ -131,7 +131,7 @@ related:
 overview: 'Internet of Things is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [internet-of-things.apievangelist.com](https://internet-of-things.apievangelist.com).
 
 
-  14 providers on the network work in this area, including Shodan, SpectrumOutage API, Comcast, Lumen Technologies, Internet Engineering Task Force, Cox Communications, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  14 providers on the network work in this area, including Shodan, SpectrumOutage API, Comcast, Lumen Technologies, Internet Engineering Task Force, Ziff Davis Enterprise, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Evangelist Search and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

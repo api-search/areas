@@ -6,133 +6,126 @@ description: This is the index of workflow automation service and tooling repos 
 area_url: https://workflow-automation.apievangelist.com
 area_host: workflow-automation.apievangelist.com
 icon: https://workflow-automation.apievangelist.com/icon-thumb.png
-provider_count: 720
+provider_count: 831
 providers:
 - slug: tray-ai
   name: Tray.ai
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
-  api_count: 4
+  api_count: 6
   score_band: exemplar
-  score_composite: 89.3
-  shared: 2
-- slug: jitterbit
-  name: Jitterbit
-  description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 78.3
+  score_composite: 87.8
   shared: 2
 - slug: plunk
   name: Plunk
   description: Plunk is an open-source (AGPL-3.0) email platform for developers that unifies transactional email, marketing campaigns, contact segmentation and event-driven workflow automation behind a single REST API. It publishes its own OpenAPI 3.1.0 at docs.useplunk.com/openapi.json, declaring next-api.useplu…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 74.2
+  shared: 2
+- slug: jitterbit
+  name: Jitterbit
+  description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
   api_count: 2
   score_band: exemplar
-  score_composite: 75.1
+  score_composite: 72.5
+  shared: 2
+- slug: n8n
+  name: n8n
+  description: n8n is a fair-code workflow automation and iPaaS platform with AI-agent tooling. It exposes an instance-scoped REST API (public OpenAPI 3.0 contract), MCP server/client capabilities via built-in nodes, and an llms.txt documentation index.
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.1
   shared: 2
 - slug: zapier
   name: Zapier
   description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
   api_count: 1
   score_band: exemplar
-  score_composite: 69.8
-  shared: 2
-- slug: boomi
-  name: Boomi
-  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 68.3
-  shared: 2
-- slug: workato
-  name: Workato
-  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 67.9
+  score_composite: 67.4
   shared: 2
 - slug: servicenow
   name: ServiceNow
   description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
   api_count: 9
-  score_band: exemplar
-  score_composite: 67.5
+  score_band: strong
+  score_composite: 66.0
+  shared: 2
+- slug: workato
+  name: Workato
+  description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
+  api_count: 4
+  score_band: strong
+  score_composite: 65.7
   shared: 2
 - slug: uipath
   name: UiPath
   description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
   api_count: 6
-  score_band: exemplar
-  score_composite: 66.8
-  shared: 2
-- slug: kognitos
-  name: Kognitos
-  description: Kognitos is a neurosymbolic agentic AI platform that automates finance, accounts payable, healthcare, and IT workflows in plain English ("English as code"), positioned as deterministic agentic AI for the enterprise with zero hallucinations and full audit compliance. The platform runs on AWS, offers…
-  api_count: 2
   score_band: strong
-  score_composite: 66.2
+  score_composite: 65.2
   shared: 2
-- slug: n8n
-  name: n8n
-  description: n8n is a fair-code workflow automation and iPaaS platform with AI-agent tooling. It exposes an instance-scoped REST API (public OpenAPI 3.0 contract), MCP server/client capabilities via built-in nodes, and an llms.txt documentation index.
-  api_count: 1
+- slug: boomi
+  name: Boomi
+  description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
+  api_count: 3
   score_band: strong
-  score_composite: 64.9
-  shared: 2
-- slug: budibase
-  name: Budibase
-  description: Budibase is an open source low-code platform for building AI agents, internal tools, and workflow automations. It enables teams to connect databases, spreadsheets, and business systems, then build applications and automations on top without extensive coding. Used by over 300,000 teams ranging from…
-  api_count: 1
-  score_band: strong
-  score_composite: 63.3
+  score_composite: 62.7
   shared: 2
 - slug: celonis
   name: Celonis
   description: Celonis is the process intelligence and process mining company. Its cloud platform ingests event data from enterprise systems, builds Knowledge Models of how business processes actually run, and surfaces KPIs, bottlenecks and automation opportunities. For developers Celonis publishes a Developer Ce…
   api_count: 7
   score_band: strong
-  score_composite: 62.4
+  score_composite: 62.5
   shared: 2
 - slug: pixiebrix
   name: PixieBrix
   description: PixieBrix is a browser-based platform for customer care and enterprise operations teams that layers automation, AI assistance, integrations and real-time policy enforcement onto the web applications a team already uses, deployed as a lightweight browser extension and companion web app rather than a…
-  api_count: 1
+  api_count: 2
   score_band: strong
-  score_composite: 62.2
+  score_composite: 62.3
   shared: 2
 - slug: gumloop
   name: Gumloop
   description: Gumloop is an AI-agent automation platform for building, deploying, and governing agents that automate real work — data analysis, customer support, CRM management, and back-office tasks — across tools like Slack, Microsoft Teams, and Gmail. Its public REST API (https://api.gumloop.com/api/v1) expos…
   api_count: 1
   score_band: strong
-  score_composite: 57.8
+  score_composite: 62.1
   shared: 2
-- slug: microsoft-power-automate
-  name: Microsoft Power Automate
-  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automated, instant, and scheduled cloud flows, as well as desktop f…
-  api_count: 10
-  score_band: developing
-  score_composite: 50.8
+- slug: budibase
+  name: Budibase
+  description: Budibase is an open source low-code platform for building AI agents, internal tools, and workflow automations. It enables teams to connect databases, spreadsheets, and business systems, then build applications and automations on top without extensive coding. Used by over 300,000 teams ranging from…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.8
+  shared: 2
+- slug: kognitos
+  name: Kognitos
+  description: Kognitos is a neurosymbolic agentic AI platform that automates finance, accounts payable, healthcare, and IT workflows in plain English ("English as code"), positioned as deterministic agentic AI for the enterprise with zero hallucinations and full audit compliance. The platform runs on AWS, offers…
+  api_count: 2
+  score_band: strong
+  score_composite: 61.0
   shared: 2
 - slug: rewst
   name: Rewst
   description: Rewst is a workflow automation and integration (iPaaS/RPA) platform built specifically for managed service providers (MSPs). It combines a visual workflow builder, a form builder, an app builder, 90+ managed MSP integrations (PSA, RMM, Microsoft 365, security tools), reusable automation packages ca…
   api_count: 1
   score_band: developing
-  score_composite: 49.5
+  score_composite: 49.6
+  shared: 2
+- slug: microsoft-power-automate
+  name: Microsoft Power Automate
+  description: Microsoft Power Automate is a cloud-based service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and automate business processes. It supports automated, instant, and scheduled cloud flows, as well as desktop f…
+  api_count: 10
+  score_band: developing
+  score_composite: 49.3
   shared: 2
 - slug: integrately
   name: Integrately
   description: Integrately is a one-click workflow automation platform offering 20 million+ ready-to-use automations across 1500+ applications. It positions itself as a no-code, lower-cost alternative to other iPaaS and workflow tools, using SmartConnect technology to auto-detect connections between apps and bund…
   api_count: 1
   score_band: developing
-  score_composite: 45.6
-  shared: 2
-- slug: make
-  name: Make
-  description: Make (formerly Integromat) is a visual scenario-based automation builder with advanced data transformation and routing logic.
-  api_count: 1
-  score_band: developing
-  score_composite: 44.4
+  score_composite: 44.1
   shared: 2
 - slug: jinba
   name: Jinba
@@ -141,61 +134,75 @@ providers:
   score_band: developing
   score_composite: 43.5
   shared: 2
-- slug: activepieces
-  name: Activepieces
-  description: Activepieces is an open-source, no-code automation platform that enables users to streamline workflows by connecting various applications and automating tasks. It supports over 400 MCP servers and integrations, allowing developers to build custom TypeScript-based pieces. The platform offers AI agen…
+- slug: make
+  name: Make
+  description: Make (formerly Integromat) is a visual scenario-based automation builder with advanced data transformation and routing logic.
   api_count: 1
   score_band: developing
-  score_composite: 42.0
-  shared: 2
-- slug: robocorp
-  name: Robocorp
-  description: Robocorp is an open source RPA and workflow automation platform for building Python-based automation bots. The platform provides the Control Room API for managing workspaces, workers, processes, work items, assets, vaults, webhooks, and task packages. Robocorp also provides the RPA Framework, an op…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.1
+  score_composite: 42.9
   shared: 2
 - slug: bryter
   name: Bryter
   description: BRYTER is a no-code service automation and AI productivity platform for legal and professional-services teams, used by law firms and corporate legal, compliance, and operations departments to build self-service applications, document automation, and rule-based workflows without writing code. Beyond…
   api_count: 3
-  score_band: thin
-  score_composite: 38.1
+  score_band: developing
+  score_composite: 42.4
   shared: 2
-- slug: relay-app
-  name: Relay App
-  description: Relay.app is an AI-powered workflow automation platform that converts plain language into reliable visual workflows across 200+ app integrations. It supports webhook triggers, custom HTTP requests, scheduled automation, human-in-the-loop approval workflows, and MCP server tooling for AI agent integ…
+- slug: activepieces
+  name: Activepieces
+  description: Activepieces is an open-source, no-code automation platform that enables users to streamline workflows by connecting various applications and automating tasks. It supports over 400 MCP servers and integrations, allowing developers to build custom TypeScript-based pieces. The platform offers AI agen…
+  api_count: 1
+  score_band: developing
+  score_composite: 40.5
+  shared: 2
+- slug: robocorp
+  name: Robocorp
+  description: Robocorp is an open source RPA and workflow automation platform for building Python-based automation bots. The platform provides the Control Room API for managing workspaces, workers, processes, work items, assets, vaults, webhooks, and task packages. Robocorp also provides the RPA Framework, an op…
   api_count: 1
   score_band: thin
-  score_composite: 33.5
+  score_composite: 34.3
   shared: 2
 - slug: kubeark
   name: Kubeark
   description: 'Kubeark is an enterprise orchestration and AI automation platform that standardizes system integration across hybrid estates. It combines three surfaces: workflow automation, where technical teams and end users build language-agnostic workflows and long-running jobs from a node-based editor; integr…'
   api_count: 0
   score_band: thin
-  score_composite: 32.7
+  score_composite: 32.8
+  shared: 2
+- slug: relay-app
+  name: Relay App
+  description: Relay.app is an AI-powered workflow automation platform that converts plain language into reliable visual workflows across 200+ app integrations. It supports webhook triggers, custom HTTP requests, scheduled automation, human-in-the-loop approval workflows, and MCP server tooling for AI agent integ…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.0
   shared: 2
 - slug: ema
   name: Ema
   description: Ema is an enterprise "AI Employee" platform that builds autonomous agents to automate cross-functional workflows across HR, IT, Finance, customer support and healthcare operations. Its Autopilot builder turns plain-language descriptions into working AI Employees, EmaFusion combines 100+ AI models t…
   api_count: 1
   score_band: emerging
-  score_composite: 25.8
+  score_composite: 25.4
+  shared: 2
+- slug: champ-ai
+  name: Champ Ai
+  description: Champ AI is an AI operations platform that automates complex, multi-step enterprise back-office workflows through autonomous agents that browse, read, call, and act on behalf of operations teams. Positioned as an AI-native replacement for traditional business process outsourcing (BPO), Champ combin…
+  api_count: 0
+  score_band: emerging
+  score_composite: 23.7
   shared: 2
 - slug: ifttt
   name: IFTTT
   description: IFTTT (If This Then That) is a consumer and prosumer automation platform that connects more than 750 apps, devices, and services through conditional Applets that chain triggers to actions. The IFTTT Maker Webhooks service exposes a public HTTP API that lets developers fire triggers and execute Appl…
   api_count: 1
   score_band: emerging
-  score_composite: 22.8
+  score_composite: 23.3
   shared: 2
 - slug: bubble-lab
   name: Bubble Lab
   description: Bubble Lab is an open-core, agentic workflow automation platform built for developers. Its open-source (Apache-2.0) TypeScript engine lets you compose AI agents and integrations as typed, composable units called "Bubbles" — service bubbles (Slack, Gmail, PostgreSQL, Google Sheets, Airtable, ElevenL…
   api_count: 0
   score_band: emerging
-  score_composite: 21.6
+  score_composite: 21.7
   shared: 2
 - slug: magical
   name: Magical
@@ -203,13 +210,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 18.7
-  shared: 2
-- slug: champ-ai
-  name: Champ Ai
-  description: Champ AI is an AI operations platform that automates complex, multi-step enterprise back-office workflows through autonomous agents that browse, read, call, and act on behalf of operations teams. Positioned as an AI-native replacement for traditional business process outsourcing (BPO), Champ combin…
-  api_count: 0
-  score_band: emerging
-  score_composite: 17.4
   shared: 2
 - slug: ramain
   name: RamAIn
@@ -220,706 +220,817 @@ providers:
   shared: 2
 provider_slugs:
 - tray-ai
-- jitterbit
 - plunk
-- zapier
-- boomi
-- workato
-- servicenow
-- uipath
-- kognitos
+- jitterbit
 - n8n
-- budibase
+- zapier
+- servicenow
+- workato
+- uipath
+- boomi
 - celonis
 - pixiebrix
 - gumloop
-- microsoft-power-automate
+- budibase
+- kognitos
 - rewst
+- microsoft-power-automate
 - integrately
-- make
 - jinba
+- make
+- bryter
 - activepieces
 - robocorp
-- bryter
-- relay-app
 - kubeark
+- relay-app
 - ema
+- champ-ai
 - ifttt
 - bubble-lab
 - magical
-- champ-ai
 - ramain
-- huginn
 - pointee
+- huginn
 - luminai
 - convey
 - akkari
-- instalily
 - hessian
+- instalily
 - cofia
 - tuza
 - azuqua
-- xquik-api
-- dynatrace
 - ada
+- dynatrace
+- xquik-api
 - losant
 - github-actions
 - brevo
+- convertkit
+- salesforce-marketing-cloud
 - postman
 - adobe-suite
-- convertkit
 - relevance-ai
-- salesforce-marketing-cloud
-- automation-anywhere
 - controlup
 - leadping
 - anysphere-cursor-ai
-- karbonhq
-- creatio
+- aiapplyd
+- automation-anywhere
+- clarify
 - mailerlite
 - klaviyo
 - adobe-campaign
-- canva
 - workfront
+- tembo
+- canva
 - cohesity
-- appian
-- browserstack
-- flora-fauna
-- appsmith
-- red-hat-ansible-automation-platform
-- highlevel
-- postiz
-- aiapplyd
-- campaignmonitor
 - cisco-xdr
-- sciencelogic
+- appian
+- flora-fauna
+- highlevel
+- browserstack
+- appsmith
+- relmcrm-com
+- red-hat-ansible-automation-platform
+- postiz
+- 1fort
+- campaignmonitor
 - clay-com
 - benchmark-email
-- relmcrm-com
-- buttondown
 - cisco-catalyst-sdwan
-- videogen-io
-- facets
-- appsmax-rest-api-v1
-- celigo
-- windmill
-- leankit
-- autogpt
-- smartlead-ai
-- autocontent-api
-- salesflare
-- fundamental-research-labs
-- amazon-ec2-image-builder
 - snaplogic
+- videogen-io
+- buttondown
+- creatio
+- tale-dev
+- appsmax-rest-api-v1
+- leankit
 - aifordatabase
-- adobe-premiere
-- graphiant
-- juniper
+- fundamental-research-labs
+- facets
 - dotdigital
+- graphiant
+- salesflare
+- autogpt
+- postonce
+- smartlead-ai
 - coasty
 - augment
-- emailoctopus
-- lindy
+- autocontent-api
+- amazon-ec2-image-builder
+- adobe-premiere
+- juniper
 - bluma
 - trisotech
-- 1fort
+- auphonic
 - superai
-- marketo
+- sciencelogic
 - pipeliner
 - ai-squared
-- nanonets
+- h-company
+- replicas
+- emailoctopus
+- lindy
 - 3shake
 - cisco-secure-firewall
 - duvo-ai
-- level2
-- amazon-datasync
-- bubble
-- siemens
+- marketo
+- aito-technologies
 - avoma
-- lawmatics
+- gitar
+- windmill
+- capy
 - cisco-aci
-- frends
 - mavenlink
 - b3
-- prefect
-- cobalt
-- amazon-data-lifecycle-manager
+- level2
+- amazon-datasync
 - koreai
+- lawmatics
+- prefect
+- minicor
+- camunda-services
+- pixc
+- astronomer
+- amazon-data-lifecycle-manager
+- cobalt
 - pabbly
 - pipedream
-- suprsend
-- minicor
-- pixc
-- trigger-dev
-- astronomer
-- oracle-integration
-- amazon-swf
-- amazon-incident-manager
-- amazon-iot-events
 - sweep
 - unito
-- tale-dev
+- workist
+- silna
+- trigger-dev
+- oracle-integration
+- agiloft
+- copyai
+- instabase
+- amazon-swf
+- velaris
+- amazon-incident-manager
+- amazon-iot-events
+- amika
+- nextworld
+- nanonets
 - amazon-data-pipeline
 - blue-prism
-- silna
 - continuous-delivery-foundation
+- devrev
 - microsoft-excel
-- h-company
-- instabase
-- agiloft
-- replicas
-- kestra
-- nextworld
-- appmixer
-- amika
-- aito-technologies
-- microsoft-azure-pipelines
+- stacks-ai
 - ninjaone
-- crewai-cloud
-- kubernetes
-- gitar
-- serval
-- capy
-- albato
+- appmixer
 - automation-preflight-api
+- kestra
+- beam-ai
+- serval
+- echorelay
+- zamp
+- runautomat
 - cisco-crosswork
-- baserow
-- hilos
 - brownie
+- uniphore
 - cast-corporation
+- microsoft-azure-pipelines
 - sharpspring
 - apsis19b1
-- perforce
-- wegalvanize
-- workday-extend
-- uniphore
+- hilos
+- kubernetes
 - ansible
+- wegalvanize
 - skyvia
-- alteryx
-- amazon-systems-manager
+- albato
+- bubble
 - easywebinar
-- docupilot
 - nex
+- popp
 - aptly
-- bookkeep-com
-- velaris
+- baserow
 - cerby
+- manychat
 - seven-bridges
 - cutover
-- ansible-playbooks
-- enboarder
 - pega
+- enboarder
+- perforce
 - tallyfy
-- happyrobot
-- manychat
-- missive
 - nexthink
+- workday-extend
 - supra
-- stacks-ai
+- amazon-systems-manager
+- happyrobot
 - runwhen
-- workist
+- alteryx
 - humaans-io
 - process-street
-- wrike
-- phonely
+- paidhandshake
 - mitratech
 - rowguard
-- aisera
+- suprsend
+- ansible-playbooks
 - archastro
-- cognito-forms
 - luminance
-- sauce-labs
-- runautomat
-- rhel
+- missive
+- classet
+- aisera
+- botkeeper
 - splunk-soar
-- pulumi
+- wrike
 - superdial
-- tooljet
-- google-cloud-workflows
-- brainbox3ae3
-- devrev
-- lambdatest
-- cflow
+- codewords
+- coalesceautomation
 - logicgate
 - ava-protocol
-- shuffle
+- cloudploy
+- momentum
+- rhel
+- camunda
 - autifyhq
+- pulumi
 - amboras
-- ansible-roles
-- signnow
-- salesforce-flow
-- conductor
-- tines
-- tofu
+- google-cloud-workflows
+- cflow
+- foxit
+- sema4-ai
+- shuffle
+- tzafon
 - appfire
 - coordinate
-- dreamfactory
+- shapelessai
+- tofu
+- ansible-roles
+- crowdsec
 - elementum
-- microsoft-excel-advanced
+- crewai-cloud
+- aritma
+- flows360
+- signnow
+- element5
 - mutiny
 - red-canary
-- ricoh-usa
-- calendly
 - parseur
+- rows
 - tonkean
-- transifex
+- memory
 - morf
+- salesforce-flow
 - apriori
-- element5
-- publer
-- node-red
-- rapidfolio
-- dell-technologies
+- celigo
+- conductor
 - eigenpal
+- rapidfolio
+- docupilot
+- stilla
+- connectly
 - rss-app
-- zoho-writer
+- dreamfactory
+- localscreenshot
+- microsoft-excel-advanced
+- calendly
+- node-red
+- publer
+- composabl
+- optimyzee
+- phonely
+- smartsheet
+- sauce-labs
+- aaico
 - rockwell-factorytalk
 - selenium
-- camunda
+- application-platform
+- amberai
+- dapta
+- the-interaction-company-of-california
+- ninox
 - powershell
 - blotato
-- optimyzee
-- sleekflow
-- microsoft-azure-automation
-- smartsheet
-- stacker
-- templated
-- botkeeper
-- the-interaction-company-of-california
-- dapta
-- aaico
-- swimlane
-- ninox
-- beeceptor
 - ellipsis
-- temporal-io
-- trato
-- unisson
-- lua-global-inc
-- polymath
+- simplybook-me
 - leena-ai
-- jenkins
+- sleekflow
+- trato
+- microsoft-azure-automation
+- unisson
+- polymath
+- stacker
+- brokergenius
+- cognito-forms
+- cfengine
 - truecontext
 - steute-technologies-gmbh-and-co-kg
+- lua-global-inc
+- bookkeep-com
 - jifflenow
-- google-apps-script
+- tines
+- beeceptor
 - coreview-fka-4ward365
-- bardeen
+- tooljet
+- siemens
 - teammates
-- adt
 - klaus-ai
-- sema4-ai
-- stilla
-- boltic
+- lambdatest
+- vtiger
+- burrow
+- payer
 - m-files
-- tzafon
-- creatomate
-- processmaker
-- ansible-automation-platform
-- hospitable
+- kissflow
+- jenkins
+- transifex
 - hilberts-ai
-- bannerbear
+- intezer
+- bytechef
+- google-apps-script
 - jeeva-ai
 - duplo-cloud
-- rows
 - automat
+- bardeen
 - ondemand
-- alloy-automation
-- memory
+- adt
+- dell-technologies
 - tsenta
-- dropbox-sign
-- zoho-forms
+- zoho-writer
+- boltic
+- brainbox3ae3
+- ansible-automation-platform
 - locbox-labs
-- monday-com
-- tuya
+- youcanbook-me
 - caspio
 - wato
-- forestadmin
 - plusthis
-- squillo
+- ricoh-usa
 - pipefy
+- cloudmcp
 - auditoria
-- freshdesk
-- terapi
+- monday-com
+- swimlane
+- tuya
+- caseblink
 - parallels-swsoft
-- puppet
-- bettercloud
-- fibery
-- rundeck
+- black-ore-technologies
 - snap-api-website-screenshots-in-one-call
+- squillo
 - wealthbox
 - bmc-software
-- intezer
+- freshdesk
 - cafex-communications
 - gigacatalyst
+- clinicalauditai
+- processmaker
+- terapi
+- vertex
 - stackmint
+- puppet
+- bettercloud
+- kodjin
 - nine-fives
-- hyperscience
-- vtiger
-- grapes-knowledge-base
-- popp
-- agent-skills
-- packer
+- templated
+- tasklet-2
+- rundeck
+- lemonlime
 - rhythms
-- plai-labs
-- rest-assured
-- revv
 - tabtabtab
-- landbot
-- aera-technology
+- pinkfish
+- plai-labs
+- agentkey
 - boomerangai
-- cucumber
+- temporal-io
+- revv
+- aera-technology
+- arvow
 - keep
-- formstack
-- google-cloud-scheduler
+- agent-skills
+- mendral
 - renovate-bot
 - hive
-- apifuse
-- vantaca
-- microsoft-excel-macros
+- controlupinc
+- grapes-knowledge-base
+- rest-assured
+- apizr
+- hyperscience
+- packer
+- apiposture
+- hospitable
 - vertigis
-- hostbill
-- nected
+- viktor
+- cucumber
+- creatomate
+- google-cloud-scheduler
+- alloy-automation
 - qingflow
-- apiwiz
-- pulse-software
+- apifuse
+- microsoft-excel-macros
+- filehub
+- aident
+- bannerbear
 - niteshift
 - sintra
+- motics-technologies
 - savant-labs
+- certainly
+- fibery
 - rattle
+- zoho-forms
+- clawdbot
 - shakr-media
 - 17hats
-- black-ore-technologies
 - echelon-ai
-- lemonlime
-- quirrel
+- hostbill
+- nected
+- chargezoom
+- apiwiz
+- pulse-software
+- forestadmin
 - unifyapps
-- flyte
+- docuware
 - anitian
+- openblock-labs
+- ultimateai
+- wordware
+- keelvar
+- backflip-ai
+- aline
+- distillsync
+- headspin
+- flyte
+- quirrel
+- busup
+- xmatters
 - apache-ant
 - excel-macros
-- mendral
-- wordware
-- ultimateai
-- openblock-labs
-- backflip-ai
-- tasklet-2
-- headspin
-- xmatters
-- pinkfish
+- landbot
 - clicks
+- digitalbpm
+- formstack
 - boostupai
+- clockspring
 - adonis
+- multion
+- vantaca
+- briefcase
 - ushur
 - beacon-health
 - aside
+- nintex
 - igent
-- viktor
-- membrane
-- control-seat
 - unframe-ai
+- control-seat
+- capacity
+- azimuth-grc
 - comulate
 - intellectible
-- azimuth-grc
-- thread-ai
-- genspark
+- burro-develops
+- cloudfabrixsoftware
 - infinit
+- thread-ai
+- cloudqix
+- genspark
 - notable
-- lonti
-- motics-technologies
+- hubert
+- ai-agents-pitstop
+- zatanna
 - openprose
 - strawberry
 - st-labs
+- membrane
 - plant-an-app
-- zatanna
-- aline
-- step-ci
+- 6estates
+- coheed
+- praxis-ai-2
+- buildmyagent
 - eliseai
 - neotax
+- cosmiccloud
 - sully-ai
 - mostlypdf
-- rezo
+- datasynca
+- lonti
 - levity
+- sainapse
+- vroozi
 - trope
-- bloomfilter
-- orolabs
-- locoia
-- docketbird
-- quilter
-- ylookup
 - alkira
+- bloomfilter
+- crowdboticsinc
+- orolabs
+- rezo
+- braintrustbac9
+- docketbird
+- lysa
+- ylookup
+- carv
 - ctrl
 - fullseam
+- prized
+- quilter
+- step-ci
+- tutor-intelligence
 - osly
 - artian
 - maxima
 - revion
-- braintrustbac9
+- artificiallabs
 - basata
 - rapidclaims
 - smartsuite
-- avap-brunix
 - avataar
 - datasnipper
-- artificiallabs
+- locoia
 - hubsync
+- plex-systems
 - ridecell
 - zone-and-company
 - flowscope
 - zinier
+- cmtsolutions
 - regrello
-- shell-scripting
+- appify
+- care-gp
 - talus-network
+- town
+- avap-brunix
 - savana
-- briefcase
 - faro
 - infera
-- conductor-ai
-- avarobotics
-- resolve-systems
-- wenrix
-- sumary
+- anaimo
 - ascent-platform
+- cleoai
+- conductor-ai
+- resolve-systems
+- avarobotics
+- wenrix
 - ordana
+- sumary
 - wiselayer
-- nurix
+- shell-scripting
 - tmrw-life-sciences
 - back
 - fintor
-- donotpay
+- nurix
 - riff
+- donotpay
 - wishup
+- cloudnc
 - expedock
 - vectorai
 - aessenseholding
-- zomma
-- adept
+- chimelabs-holdings-pty-ltd
 - neura-robotics
+- zomma
 - ubio-automation-cloud
 - autorabit
-- latenode
-- thorin
-- automatisch
-- pabbly-connect
-- praxis-ai-2
-- locale
-- presso
 - shelly
+- thorin
+- briq
+- locale
+- readyapi
+- presso
 - asepha
+- o11
 - qventus
 - pallet
-- zeroqode
-- melodyarc
-- readyapi
-- robco
-- atomic-machines
-- operator-framework
-- plenful
-- swivl
-- audion
-- auger
 - renovate-json
-- ruma-care
-- standard-practice
+- melodyarc
+- rational
+- robco
+- plenful
+- atomic-machines
+- jarmin
+- ray-browser
+- rukaai
+- syntropy
+- auger
+- worktrace-ai
+- audion
+- clientbook
+- anyllm
 - amp-robotics
 - averlon
 - carbonrobotics
-- appify
+- standard-practice
+- swivl
 - dusty-robotics
-- jarmin
-- prized
-- ray-browser
+- latenode
 - shred-video
 - whirl
-- finch-legal
-- mona-ai
+- automatisch
 - polsia
 - robotiq
 - robylon
-- tutor-intelligence
-- worktrace-ai
+- adept
+- finch-legal
+- mona-ai
+- pabbly-connect
 - roby
+- ruma-care
 - nabu
+- biztex
 - botrista
 - contextai
-- field-ai
 - trunk-tools
 - axiomatic
-- intrinsic-ai
-- sarisai
-- squint
-- agile-robots
-- instruct
-- rabbit
-- autoxing
-- haber
-- agtonomy
-- emancro
 - kilsar
+- dwelly
+- intrinsic-ai
+- squint
+- instruct
+- sarisai
+- zeroqode
+- agile-robots
+- autoxing
+- field-ai
+- rabbit
+- agtonomy
+- corvus-robotics
+- haber
+- emancro
+- operator-framework
+- photoneo
 - widgera-inc
 - baseframe
-- arzana
 - chemify
 - cyclone-robotics
-- dwelly
 - kingsware
-- reliable-robotics
 - robustai
+- arzana
 - coplane
 - collabra
-- agile-loop-llc
+- reliable-robotics
+- cerebriai
 - denta
-- amera
-- brain
-- defer
+- nexiu
 - jenkins-pipeline
 - pitpro-automation
-- photoneo
+- amera
+- brain
+- apidna
 - integrations
 - unchained-labs
-- sainapse
+- ontora
+- agile-loop-llc
+- careforce
 - cellares
 - clarium
-- care-gp
-- careforce
+- solomon
 - sales-patriot
-- ontora
 - farmwise
 - theker
+- emerson-electric
 - kinetic
 - armstrong-robotics
 - poetic
-- solomon
 - the-bot-company
+- atlas
 - graymatter-robotics
-- wonderful
-- emerson-electric
+- anzen
 - augustrobotics
-- snapsheet
+- nebu
 - teserac
+- wonderful
 - zalos
 - zauber
-- anzen
-- thirdwave
-- nebu
+- comau
+- defer
+- snapsheet
+- diligen
 - newgen-software
+- seamflow
+- thirdwave
 - avidbots
 - realpact
-- akasa
 - istante
+- akasa
+- sheetrocks
 - fernride
+- keenon-robotics
 - matterway
 - meetfuture
-- sheetrocks
 - connected-robotics
 - dryft
 - lydia-ai
-- seamflow
+- changingtek
 - numos
-- keenon-robotics
+- cognida-ai
 - procuri
-- servicenow-flow-designer
 - sento
 - blendid
 - bnovatetechnologies
 - edra
 - arithmer
-- chimelabs-holdings-pty-ltd
+- carbonsix
+- centrly
+- rhyme-fka-priorauthnow
 - mandolin
 - agrist
-- atlas
-- evenup
-- netic
+- mitsubishi-electric
 - nimble-robotics
-- town
+- evenup
 - autoai
-- rhyme-fka-priorauthnow
+- actionize
 - bossa-nova-robotics
-- kinro
-- tric-robotics
+- slip-robotics
 - espressive
+- kinro
+- netic
+- tric-robotics
 - sunrise
+- autonomize-ai
 - buglabs
+- cencorpautomation
 - avea-robotics
+- cellbri
 - gitops
-- rational
+- plena-health
 - vestris
 - zudo
-- slip-robotics
-- autonomize-ai
+- monumental
+- godhands
+- servicenow-flow-designer
+- walter
 - libra-robotics
 - flowdash
 - akara
-- beyond-imagination
 - bookend
 - boxbot
 - fortive
-- godhands
-- monumental
+- truvio
+- beyond-imagination
 - finern
-- walter
 - botristatechnologyinc
-- presto-automation
 - ami-labs
-- hammoq
-- aoquan
-- byanat
+- poth-labs
 - massive-dynamic
 - synphony
-- truvio
+- aoquan
+- bridgewire
+- byanat
+- celera-semiconductor
 - bash
-- cosmic-robotics
-- poth-labs
-- devsecops
-- dyna-robotics
-- gitai
-- ascend3dbe
+- hammoq
+- presto-automation
 - boson-motors
+- cosmic-robotics
+- devsecops
 - collaborative-robotics
+- copilotkit
 - electio
-- plena-health
-- nerviom
-- nexiu
-- syenta
-- airkit
-- anon
+- coretigo
+- ciridae
+- gitai
+- origami-robotics
+- savioke
+- wealor
 - bidops
+- epiroc
+- ascend3dbe
+- cassidy
+- dyna-robotics
 - fabrion
 - forge-robotics
+- nerviom
+- syenta
+- aavenir
+- anon
+- calibrate-ventures
+- complexa
 - fulfil
-- mindsay
-- savioke
+- mind-robotics
+- sailplane
 - slintel
 - chowbotics
-- aavenir
-- calibrate-ventures
-- ciridae
-- mind-robotics
-- o11
-- origami-robotics
-- rukaai
-- sailplane
-- syntropy
-- wealor
 - beato
+- chengrui
+- agentorbit
 - asteya
 - automatedmediaprocessingincdbaequilibrium
 - autopilot2
 - axoflow
+- blendr
 - boshihitech
+- chamberlain
+- changzhoufuxingmechanicalandelectricalco
+- clanztechnologies
+- cleanhome
+- conveyor9c1e
+- core-automation
+- counterworks
+- airkit
 - botsandusltd
-- saris
+- contoro-robotics
+- copilot4a49
+- mindsay
+- software-applications-incorporated
 - orby-ai
-- backofficeco
+- saris
 - burt
 - eigentech
 - generalastro
-- jadu
-- replyai
 - sabanto
-- solvvy
+- backofficeco
+- jadu
 - advancedfarmtechnologies
 - backops
+- butterfly
+- replyai
+- solvvy
 - ai-automation
 - lighting
 - workflow-automation
@@ -940,15 +1051,15 @@ provider_slugs:
 - rapid-robotics
 - shoreline
 related:
-- slug: ai-automation
-  name: AI Automation
-  shared: 8
 - slug: ipaas
   name: iPaaS
   shared: 8
 - slug: embedded-ipaas
   name: Embedded iPaaS
   shared: 6
+- slug: ai-automation
+  name: AI Automation
+  shared: 5
 - slug: management
   name: Management
   shared: 3
@@ -961,8 +1072,8 @@ related:
 overview: 'Workflow Automation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [workflow-automation.apievangelist.com](https://workflow-automation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Tray.ai, Jitterbit, Plunk, Zapier, Boomi, Workato, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Tray.ai, Plunk, Jitterbit, n8n, Zapier, ServiceNow, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: AI Automation, iPaaS, Embedded iPaaS, and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: iPaaS, Embedded iPaaS, AI Automation, and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

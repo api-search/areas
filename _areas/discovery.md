@@ -13,70 +13,56 @@ providers:
   description: Algolia is a hosted search and discovery platform that delivers fast, typo-tolerant search, browse, recommendations and personalization through a suite of REST APIs and edge-distributed infrastructure. It powers search experiences for ecommerce, media, SaaS and content sites, pairing a synchronous…
   api_count: 15
   score_band: exemplar
-  score_composite: 86.6
+  score_composite: 81.3
   shared: 1
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 21
+  api_count: 22
   score_band: exemplar
-  score_composite: 80.2
+  score_composite: 78.0
   shared: 1
 - slug: taboola
   name: Taboola
   description: 'Taboola (NASDAQ: TBLA) is a New-York-headquartered native and discovery advertising company founded in 2007 by Adam Singolda. Its Realize performance marketing platform serves recommendation widgets across major publishers (a 30-year exclusive partnership with Yahoo since 2022) and offers advertise…'
   api_count: 7
   score_band: exemplar
-  score_composite: 70.9
-  shared: 1
-- slug: tmdb
-  name: The Movie Database
-  description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
-  api_count: 21
-  score_band: strong
-  score_composite: 54.6
+  score_composite: 71.0
   shared: 1
 - slug: microsoft-azure-migrate
   name: Azure Migrate
   description: Azure Migrate provides a unified platform for discovering, assessing, and migrating on-premises servers, infrastructure, applications, databases, and data to Azure. Its REST APIs enable programmatic management of migration projects, discovery, assessment, and replication workflows for VMs, database…
   api_count: 9
   score_band: developing
-  score_composite: 53.1
+  score_composite: 51.6
   shared: 1
 - slug: artifact-hub
   name: Artifact Hub
   description: Artifact Hub is a CNCF incubating web-based application that enables finding, installing, and publishing cloud-native packages. Built primarily in TypeScript and Go, it addresses fragmentation in the cloud-native ecosystem by providing a single discovery experience for consumers. It supports 27+ ar…
   api_count: 2
   score_band: developing
-  score_composite: 50.4
+  score_composite: 49.1
+  shared: 1
+- slug: tmdb
+  name: The Movie Database
+  description: The Movie Database (TMDB) is a community-built movie, TV, and people metadata catalog with a free REST API used by streaming apps, recommendation engines, second-screen experiences, fan sites, and AI/ML workflows. The TMDB API v3 exposes ~150 endpoints across movies, TV series, seasons, episodes, p…
+  api_count: 21
+  score_band: developing
+  score_composite: 47.7
   shared: 1
 - slug: amazon-resource-explorer
   name: Amazon Resource Explorer
   description: AWS Resource Explorer is a resource search and discovery service. With Resource Explorer, you can explore your resources across AWS Regions using an internet search-like experience. It provides a unified view of your AWS resources and helps you understand your resource inventory.
   api_count: 1
   score_band: developing
-  score_composite: 48.0
+  score_composite: 46.5
   shared: 1
 - slug: google-cloud-migration-center
   name: Google Cloud Migration Center
   description: Google Cloud Migration Center is a unified platform that helps accelerate end-to-end cloud migration journeys from on-premises or other cloud environments to Google Cloud. It provides discovery, assessment, and planning tools to help organizations understand their existing infrastructure and plan o…
   api_count: 1
   score_band: developing
-  score_composite: 44.4
-  shared: 1
-- slug: worldcat
-  name: WorldCat
-  description: OCLC WorldCat REST API for searching 500 million+ library holdings worldwide, accessing bibliographic records, finding library locations, and retrieving rich metadata for books, videos, music, and other media. Provides access to the WorldCat Search API, WorldCat Metadata API, WorldCat Knowledge Bas…
-  api_count: 4
-  score_band: developing
-  score_composite: 41.6
-  shared: 1
-- slug: productplan
-  name: ProductPlan
-  description: ProductPlan is a road mapping software platform providing a REST API for creating and managing roadmaps, features, goals, OKRs, launches, and discovery. It integrates with tools like Jira, GitHub, Slack, and Trello, enabling teams to plan, align, and share product strategies with stakeholders.
-  api_count: 1
-  score_band: thin
-  score_composite: 39.0
+  score_composite: 42.9
   shared: 1
 - slug: voidpet
   name: Voidpet
@@ -90,47 +76,54 @@ providers:
   description: The Agent Failure Mode Registry (AFMR) is a reputation-integrity standard for agentic commerce. AFMR 1.0 is a published, citable vocabulary of 32 permanent failure-mode families in eight classes describing how autonomous agent systems fail as designed mechanisms; afmr.ai is the independent public f…
   api_count: 2
   score_band: thin
-  score_composite: 35.2
+  score_composite: 35.3
+  shared: 1
+- slug: productplan
+  name: ProductPlan
+  description: ProductPlan is a road mapping software platform providing a REST API for creating and managing roadmaps, features, goals, OKRs, launches, and discovery. It integrates with tools like Jira, GitHub, Slack, and Trello, enabling teams to plan, align, and share product strategies with stakeholders.
+  api_count: 1
+  score_band: thin
+  score_composite: 34.8
+  shared: 1
+- slug: worldcat
+  name: WorldCat
+  description: OCLC WorldCat REST API for searching 500 million+ library holdings worldwide, accessing bibliographic records, finding library locations, and retrieving rich metadata for books, videos, music, and other media. Provides access to the WorldCat Search API, WorldCat Metadata API, WorldCat Knowledge Bas…
+  api_count: 4
+  score_band: thin
+  score_composite: 33.2
   shared: 1
 - slug: audiomack
   name: Audiomack
   description: Audiomack is an on-demand music streaming and audio discovery platform that lets artists and creators upload unlimited music and podcasts and reach listeners through its iOS, Android, and web apps. The service is widely associated with hip-hop, rap, R&B, Afrobeats, dancehall, reggae, electronic, an…
   api_count: 1
   score_band: thin
-  score_composite: 31.8
+  score_composite: 31.9
   shared: 1
 - slug: bored
   name: Bored API
   description: The Bored API is a free, open-source, no-authentication public API that serves suggestions for things to do when you are bored. The canonical reference implementation is an MEVN (MongoDB / Express / Vue / Node) project maintained by Drew Thoennes at github.com/drewthoennes/Bored-API (MIT licensed).…
   api_count: 2
   score_band: thin
-  score_composite: 28.5
+  score_composite: 28.6
   shared: 1
 - slug: allagents-app
   name: allagents
   description: allagents (allagents.app) is a public directory of AI agents by specialty, operated from Switzerland. It lists 811 agents across specialties such as trading, research, coding, memory, automation, legal, commerce, identity and security, each card carrying the agent's name, address, protocols and how…
   api_count: 1
   score_band: thin
-  score_composite: 27.6
+  score_composite: 27.7
   shared: 1
 - slug: apinity-io
   name: Apinity.io
   description: Apinity empowers organisations to run their compliant API marketplace that simplifies integration, drives adoption, and secures governance. The platform provides tools for managing API lifecycle, enabling API discovery, enforcing compliance policies, and facilitating secure API-driven integrations…
   api_count: 1
-  score_band: thin
-  score_composite: 26.9
+  score_band: emerging
+  score_composite: 25.6
   shared: 1
 - slug: podcastindex
   name: PodcastIndex
   description: The Podcast Index (Podcast Index LLC) is a software developer focused partnership that provides tools and data to anyone who aspires to create new and exciting Podcast experiences without the heavy lifting of indexing, aggregation and data management.
   api_count: 2
-  score_band: thin
-  score_composite: 26.6
-  shared: 1
-- slug: tel-aviv-university
-  name: Tel Aviv University
-  description: Tel Aviv University (TAU / אוניברסיטת תל אביב) is Israel's largest university, a public research institution in Tel Aviv with roughly 30,000 students across nine faculties, and a member of the Israeli research-university group served by the Inter-University Computation Center (IUCC). Re-profiled on…
-  api_count: 5
   score_band: emerging
   score_composite: 25.2
   shared: 1
@@ -139,21 +132,21 @@ providers:
   description: Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks "what is available for this task?" and gets back a ranked set of MCP servers, agent cards, skills, workflows and APIs i…
   api_count: 2
   score_band: emerging
-  score_composite: 23.5
+  score_composite: 23.6
   shared: 1
 - slug: amazon-application-discovery-service
   name: Amazon Application Discovery Service
   description: Amazon Application Discovery Service helps enterprise customers plan application migration projects by automatically identifying servers, virtual machines, software, and software dependencies running in their on-premises data centers.
   api_count: 6
   score_band: emerging
-  score_composite: 21.4
+  score_composite: 21.5
   shared: 1
-- slug: api-stack
-  name: API Stack
-  description: 'API Stack is a free, public directory and discovery platform for third-party API tooling, built and operated by Apideck B.V. as a tenant of its own Apideck Ecosystem marketplace platform. It catalogs 213 API tools and services across 46 published category pages spanning the whole API lifecycle: gat…'
-  api_count: 1
+- slug: tel-aviv-university
+  name: Tel Aviv University
+  description: Tel Aviv University (TAU / אוניברסיטת תל אביב) is Israel's largest university, a public research institution in Tel Aviv with roughly 30,000 students across nine faculties, and a member of the Israeli research-university group served by the Inter-University Computation Center (IUCC). Re-profiled on…
+  api_count: 5
   score_band: emerging
-  score_composite: 14.1
+  score_composite: 19.1
   shared: 1
 - slug: equipboard
   name: Equipboard
@@ -167,6 +160,13 @@ providers:
   description: QiDZ Holding operates theQapp (formerly QiDZ), a consumer mobile platform that helps families discover, compare, and book activities, entertainment, and dining experiences across the United Arab Emirates and the wider Middle East (Dubai, Abu Dhabi, Riyadh, Jeddah, Eastern Province, Manama, and Cair…
   api_count: 0
   score_band: emerging
+  score_composite: 12.7
+  shared: 1
+- slug: api-stack
+  name: API Stack
+  description: 'API Stack is a free, public directory and discovery platform for third-party API tooling, built and operated by Apideck B.V. as a tenant of its own Apideck Ecosystem marketplace platform. It catalogs 213 API tools and services across 46 published category pages spanning the whole API lifecycle: gat…'
+  api_count: 1
+  score_band: emerging
   score_composite: 12.6
   shared: 1
 - slug: startup-ranking
@@ -174,86 +174,86 @@ providers:
   description: Startup Ranking is a platform that tracks, ranks, and indexes startups worldwide based on web presence, social metrics, and growth signals. It provides startup discovery, competitive benchmarking, and market intelligence for investors, entrepreneurs, and researchers.
   api_count: 0
   score_band: emerging
-  score_composite: 12.1
-  shared: 1
-- slug: launching-next
-  name: Launching Next
-  description: Launching Next is a startup discovery and submission platform that publishes daily listings of new and trending tech startups and side projects worldwide. Founded as a long-running startup directory, the platform has featured over 45,000 startups and side projects, making it a go-to resource for fo…
-  api_count: 1
-  score_band: emerging
-  score_composite: 11.8
+  score_composite: 12.2
   shared: 1
 - slug: neotaste
   name: NeoTaste
   description: NeoTaste is a restaurant discovery and dining-deals mobile app operated by NeoTaste GmbH (Osnabrück, Germany). Under the tagline "Discover more. Pay less." it surfaces curated local restaurants and exclusive member deals such as 2-for-1 main courses and a free starter with a main, letting diners tr…
   api_count: 0
   score_band: emerging
-  score_composite: 11.8
+  score_composite: 11.9
   shared: 1
 - slug: its-good
   name: Its Good
   description: It's Good is a social dining recommendation app that reimagines how people discover restaurants and bars by surfacing recommendations from trusted friends rather than crowdsourced reviews from strangers. Founded in 2023 and co-founded by Mike Rosenthal (CEO) and musician John Legend, the iOS app le…
   api_count: 0
   score_band: emerging
-  score_composite: 11.4
-  shared: 1
-- slug: podchaser
-  name: Podchaser
-  description: Podchaser provides one of the most comprehensive podcast databases, exposed through a GraphQL API designed to drive podcast discovery for listeners, podcasters, brands, and platform partners. The API surface is GraphQL-only and is therefore not represented as an OpenAPI specification in this index.
-  api_count: 1
-  score_band: emerging
-  score_composite: 11.1
-  shared: 1
-- slug: zyla
-  name: Zyla
-  description: Zyla API Hub is an API marketplace that provides unified access to over 10,000 APIs through a single account, API key, and SDK, simplifying API discovery, integration, and management for developers.
-  api_count: 1
-  score_band: minimal
-  score_composite: 10.6
+  score_composite: 11.5
   shared: 1
 - slug: atmosfy
   name: Atmosfy
   description: Atmosfy is a live-video mapping platform that bills itself as the world's largest live video map, aggregating 500M+ geo-tagged short-form videos across 100M+ places in 20,000+ cities and 150+ countries. The consumer app lets people see what restaurants, bars, hotels, and events actually look like i…
   api_count: 0
   score_band: minimal
-  score_composite: 10.2
+  score_composite: 10.3
+  shared: 1
+- slug: launching-next
+  name: Launching Next
+  description: Launching Next is a startup discovery and submission platform that publishes daily listings of new and trending tech startups and side projects worldwide. Founded as a long-running startup directory, the platform has featured over 45,000 startups and side projects, making it a go-to resource for fo…
+  api_count: 1
+  score_band: minimal
+  score_composite: 10.3
+  shared: 1
+- slug: qraved
+  name: Qraved
+  description: Qraved is Indonesia's leading food discovery platform, self-described as the "No. 1 Food App for Indonesia," helping diners across Jakarta, Bali, Bandung, Surabaya, Medan and other cities explore restaurants, read reviews and dining guides, watch food videos, and connect with a community of food en…
+  api_count: 0
+  score_band: minimal
+  score_composite: 10.3
+  shared: 1
+- slug: podchaser
+  name: Podchaser
+  description: Podchaser provides one of the most comprehensive podcast databases, exposed through a GraphQL API designed to drive podcast discovery for listeners, podcasters, brands, and platform partners. The API surface is GraphQL-only and is therefore not represented as an OpenAPI specification in this index.
+  api_count: 1
+  score_band: minimal
+  score_composite: 9.6
   shared: 1
 provider_slugs:
 - algolia
 - postman
 - taboola
-- tmdb
 - microsoft-azure-migrate
 - artifact-hub
+- tmdb
 - amazon-resource-explorer
 - google-cloud-migration-center
-- worldcat
-- productplan
 - voidpet
 - afmr-ai
+- productplan
+- worldcat
 - audiomack
 - bored
 - allagents-app
 - apinity-io
 - podcastindex
-- tel-aviv-university
 - agentic-resource-discovery
 - amazon-application-discovery-service
-- api-stack
+- tel-aviv-university
 - equipboard
 - qidz-holding
+- api-stack
 - startup-ranking
-- launching-next
 - neotaste
 - its-good
-- podchaser
-- zyla
 - atmosfy
+- launching-next
 - qraved
+- podchaser
 - shoobs
-- oclc
+- zyla
 - clicker
 - paxton-ai
+- oclc
 - habitus-associates-co-ltd
 - anveshan
 - animoldiscovery
@@ -282,7 +282,7 @@ related:
 overview: 'API Evangelist Discovery is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [discovery.apievangelist.com](https://discovery.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Algolia, Postman, Taboola, The Movie Database, Azure Migrate, Artifact Hub, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Algolia, Postman, Taboola, Azure Migrate, Artifact Hub, The Movie Database, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Migration, Network, AI Automation, and API Evangelist Search. Browse every area at [areas.apis.io](https://apis.io/areas/).'

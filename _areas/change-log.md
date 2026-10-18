@@ -6,28 +6,35 @@ description: An index and topic collection covering developer changelog publishi
 area_url: https://change-log.apievangelist.com
 area_host: change-log.apievangelist.com
 icon: https://change-log.apievangelist.com/icon-thumb.png
-provider_count: 9
+provider_count: 10
 providers:
 - slug: announcekit
   name: AnnounceKit
   description: AnnounceKit is a product communication platform providing changelog management, in-app notification widgets, feature request boards, roadmaps, and NPS surveys. It enables product teams to communicate updates to users via 10+ widget display modes, email digests, Slack, webhooks, and RSS, with GraphQ…
   api_count: 1
   score_band: strong
-  score_composite: 64.4
+  score_composite: 62.9
   shared: 1
 - slug: beamer
   name: Beamer
   description: Beamer is a changelog and notification center tool for announcing product updates, new features, and API changes to end users. It provides an embeddable feed widget, push notifications, email digests, and a public changelog page. The Beamer REST API enables programmatic management of posts, users,…
   api_count: 1
   score_band: strong
-  score_composite: 61.3
+  score_composite: 59.8
   shared: 1
 - slug: bump-sh
   name: Bump.sh
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into deterministic, observable MCP servers for AI agents. Customers include…
   api_count: 1
   score_band: strong
-  score_composite: 58.5
+  score_composite: 55.6
+  shared: 1
+- slug: suggix
+  name: Suggix
+  description: Suggix provides a SaaS platform for collecting and managing customer feedback, roadmaps, and changelogs. It enables product teams to centralize user suggestions, prioritize features, and communicate updates through a public changelog. The service includes tools for tagging, voting, discussion threa…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.9
   shared: 1
 - slug: canny
   name: Canny
@@ -41,28 +48,28 @@ providers:
   description: LaunchNotes is a release communication platform for sharing changelogs, roadmaps, and deprecation notices. The platform helps product, engineering, and customer-facing teams coordinate launches, communicate releases, and notify customers about deprecations through a structured publishing workflow a…
   api_count: 1
   score_band: emerging
-  score_composite: 18.5
+  score_composite: 17.0
   shared: 1
 - slug: changelog-md
   name: CHANGELOG.md (Keep a Changelog)
   description: CHANGELOG.md is a community convention for a human-readable, Markdown- formatted file at the root of a project that records notable changes between versions. The leading specification is "Keep a Changelog" by Olivier Lacan, which defines a stable, opinionated set of section headings (Added, Changed…
   api_count: 0
   score_band: emerging
-  score_composite: 13.3
-  shared: 1
-- slug: oasdiff
-  name: Oasdiff
-  description: Oasdiff is an open-source tool for detecting breaking changes and generating changelogs from OpenAPI specifications.
-  api_count: 1
-  score_band: minimal
-  score_composite: 10.0
+  score_composite: 13.4
   shared: 1
 - slug: change-log
   name: Change Log
   description: An index and topic collection covering developer changelog publishing, release-notes platforms, and API change-tracking services. Change Log services help product, engineering, and developer-relations teams communicate releases, deprecations, and breaking changes to customers and integrators throug…
   api_count: 0
   score_band: minimal
-  score_composite: 9.5
+  score_composite: 9.6
+  shared: 1
+- slug: oasdiff
+  name: Oasdiff
+  description: Oasdiff is an open-source tool for detecting breaking changes and generating changelogs from OpenAPI specifications.
+  api_count: 1
+  score_band: minimal
+  score_composite: 8.5
   shared: 1
 - slug: makelog
   name: Makelog
@@ -75,11 +82,12 @@ provider_slugs:
 - announcekit
 - beamer
 - bump-sh
+- suggix
 - canny
 - launchnotes
 - changelog-md
-- oasdiff
 - change-log
+- oasdiff
 - makelog
 related:
 - slug: deprecation
@@ -97,7 +105,7 @@ related:
 overview: 'Change Log is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [change-log.apievangelist.com](https://change-log.apievangelist.com).
 
 
-  9 providers on the network work in this area, including AnnounceKit, Beamer, Bump.sh, Canny, LaunchNotes, CHANGELOG.md (Keep a Changelog), and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  10 providers on the network work in this area, including AnnounceKit, Beamer, Bump.sh, Suggix, Canny, LaunchNotes, and 4 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Deprecation, Versioning, Documentation, and Portal. Browse every area at [areas.apis.io](https://apis.io/areas/).'
