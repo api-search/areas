@@ -93,6 +93,16 @@ layout: default
 <p class="empty-note">No network providers are tagged for this area yet. Explore the full area at <a href="{{ page.area_url }}" rel="noopener" target="_blank">{{ page.area_host }}</a>, or <a href="https://apis.io/?search={{ page.name | url_encode }}">search the catalog</a>.</p>
 {% endif %}
 
+{%- comment -%} roadmap#881: concepts that are terms of this area (Scrum, RBAC, Pub-Sub), not providers. {%- endcomment -%}
+{% if page.terms.size > 0 %}
+<h2 class="section-title" id="terms">Terms in this area ({{ page.terms.size }})</h2>
+<ul style="padding-left: 1.1rem;">
+  {% for t in page.terms %}
+  <li><a href="https://apis.io{{ t.url }}">{{ t.name }}</a>{% if t.short %} &mdash; <span style="color: #6c757d;">{{ t.short }}</span>{% endif %}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
 {% if page.related.size > 0 %}
 <h2 class="section-title">Related areas</h2>
 <div>
