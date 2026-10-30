@@ -6,7 +6,7 @@ description: An index and topic collection covering customer support, help desk,
 area_url: https://support.apievangelist.com
 area_host: support.apievangelist.com
 icon: https://support.apievangelist.com/icon-thumb.png
-provider_count: 12
+provider_count: 14
 providers:
 - slug: zendesk
   name: Zendesk
@@ -29,6 +29,13 @@ providers:
   score_band: developing
   score_composite: 53.3
   shared: 1
+- slug: useclad-ai
+  name: Clad Labs
+  description: Clad Labs builds an AI-powered support platform that triages, investigates, and resolves customer support tickets across Slack, Discord, Teams, and email. The system captures conversation threads, provides evidence‑backed handoffs, and automates ticket creation with root‑cause analysis. By integrat…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.0
+  shared: 1
 - slug: snipe-it
   name: Snipe-IT
   description: Snipe-IT provides free, open‑source IT asset management software that helps organizations track, manage, and maintain their hardware, software, and other technology assets. The platform offers a robust REST API for integration, detailed reporting, user‑friendly interface, and strong security featur…
@@ -42,6 +49,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 43.3
+  shared: 1
+- slug: suppfusion
+  name: Support Fusion
+  description: Support Fusion provides a platform that connects IT teams across companies and platforms, enabling bidirectional sync, multi‑platform integration, and zero‑storage ticketing. It offers features such as field mapping, sync filters, history, and extensive partner integrations, targeting service provi…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.9
   shared: 1
 - slug: cisco-support-apis
   name: Cisco Support APIs
@@ -96,8 +110,10 @@ provider_slugs:
 - zendesk
 - service-cloud
 - plain
+- useclad-ai
 - snipe-it
 - salesforce-knowledge-management
+- suppfusion
 - cisco-support-apis
 - mendable
 - inkeep
@@ -105,9 +121,15 @@ provider_slugs:
 - ujet
 - certainly
 - fixify
-related: []
+related:
+- slug: saas-management
+  name: SaaS Management
+  shared: 1
 overview: 'Support is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [support.apievangelist.com](https://support.apievangelist.com).
 
 
-  12 providers on the network work in this area, including Zendesk, Salesforce Service Cloud APIs, Plain, Snipe-IT, Salesforce Knowledge Management, Cisco Support APIs, and 6 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  14 providers on the network work in this area, including Zendesk, Salesforce Service Cloud APIs, Plain, Clad Labs, Snipe-IT, Salesforce Knowledge Management, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+
+
+  Related areas: SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

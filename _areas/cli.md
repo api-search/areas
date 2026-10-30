@@ -13,12 +13,12 @@ providers:
   description: The AWS Command Line Interface (AWS CLI) is a unified tool to manage AWS services from the command line. With just one tool to download and configure, you can control multiple AWS services and automate them through scripts. AWS CLI v2 supports all AWS services with auto-completion, AWS SSO, and imp…
   api_count: 1
   score_band: emerging
-  score_composite: 24.6
+  score_composite: 25.9
   shared: 2
 - slug: anysphere-cursor.com
   name: Anysphere Cursor.com
   description: Anysphere Cursor.com, doing business as Cursor, is an applied research lab and subsidiary of SpaceXAI focused on AI-native code editing tools. It offers the Cursor AI coding agent and development environment, targeting developers and enterprises with generative AI for software creation.
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 75.1
   shared: 1
@@ -27,7 +27,7 @@ providers:
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 73.1
   shared: 1
 - slug: common-room
   name: Common Room
@@ -55,7 +55,7 @@ providers:
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 52.6
   shared: 1
 - slug: qfex
   name: Qfex
@@ -123,7 +123,7 @@ providers:
 - slug: terminal-use
   name: Terminal Use
   description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 41.5
   shared: 1
@@ -211,12 +211,12 @@ providers:
   score_band: thin
   score_composite: 36.2
   shared: 1
-- slug: ranger
-  name: Ranger
-  description: Ranger is an AI-powered quality-assurance platform that lets coding agents verify their own work in a real browser. Its CLI (@ranger-testing/ranger-cli) sets up a project so an AI coding agent — Claude Code, OpenCode, Cursor, Codex, or any bash-capable agent — can run autonomous end-to-end feature…
-  api_count: 0
+- slug: amazon-cloudshell
+  name: Amazon CloudShell
+  description: AWS CloudShell is a browser-based terminal that enables users to manage and explore AWS resources directly from the AWS Management Console. Pre-authenticated, pre-installed with AWS CLI and dev tools, with 1 GB of persistent storage per region.
+  api_count: 1
   score_band: thin
-  score_composite: 35.3
+  score_composite: 35.9
   shared: 1
 provider_slugs:
 - aws-cli
@@ -248,13 +248,13 @@ provider_slugs:
 - virtualitics
 - promptfoo
 - plakar
+- amazon-cloudshell
+- formspree
 - ranger
 - serverless
-- amazon-cloudshell
 - bruin
 - fern-api
 - cycode
-- formspree
 - minimus
 - machine0
 - entire
@@ -298,38 +298,38 @@ provider_slugs:
 - hashboard
 - dvc
 - infinit
+- llmstatus
 - optic
 - kamal-deploy
 - coasts
 - pnpm
+- nitric
 - fiberplane
 - didimo
 - heex-technologies
 - branding-brand
 - recurse
 - doublezero
-- nitric
 - ezkl
 - databand
 - synthetic-sciences
 - astral
 - turintech
 - wing-cloud
+- cline
 - columnar
 - copa
 - hurl
 - shell-scripting
-- cline
 - newman
+- kubectl
 - kaniko
 - memverge
-- kubectl
 - dokku
 - github-cli
 - grpcurl
 - stage
 - qname-ai-whois-api
-- companion
 - circuit-chisel
 - rome-tools
 - stamplay
@@ -337,9 +337,6 @@ related:
 - slug: sdk
   name: SDKs
   shared: 3
-- slug: testing
-  name: Testing
-  shared: 2
 - slug: api-clients
   name: API Clients
   shared: 1
@@ -352,11 +349,14 @@ related:
 - slug: agents-skills
   name: Agent Skills
   shared: 1
+- slug: deployment
+  name: Deployment
+  shared: 1
 overview: 'Command Line Interface is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [cli.apievangelist.com](https://cli.apievangelist.com).
 
 
   30 providers on the network work in this area, including AWS CLI, Anysphere Cursor.com, Svix, Common Room, Ploy, tessl.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: SDKs, Testing, API Clients, and Clients. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: SDKs, API Clients, Clients, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

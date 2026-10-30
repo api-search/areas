@@ -6,21 +6,21 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://documentation.apievangelist.com
 area_host: documentation.apievangelist.com
 icon: https://documentation.apievangelist.com/icon-thumb.png
-provider_count: 97
+provider_count: 106
 providers:
 - slug: readme
   name: ReadMe
   description: ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive API explorer, Try-It console, Developer Dashboard with real-t…
   api_count: 2
   score_band: strong
-  score_composite: 60.3
+  score_composite: 61.6
   shared: 3
 - slug: scalar
   name: Scalar
   description: Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rules, and automated SDK generation for TypeScript, Python, Go,…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 70.8
+  score_composite: 70.3
   shared: 2
 - slug: archbee
   name: Archbee
@@ -36,19 +36,19 @@ providers:
   score_band: strong
   score_composite: 59.9
   shared: 2
+- slug: bump-sh
+  name: Bump.sh
+  description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into deterministic, observable MCP servers for AI agents. Customers include…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.0
+  shared: 2
 - slug: developerhub
   name: DeveloperHub
   description: DeveloperHub is a hosted developer documentation platform that enables teams to create beautiful API references, user guides, and knowledge bases. It features auto-generated API documentation from OpenAPI specifications, built-in versioning, full-text search, custom domains, and a WYSIWYG editor. D…
   api_count: 1
   score_band: strong
   score_composite: 56.0
-  shared: 2
-- slug: bump-sh
-  name: Bump.sh
-  description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into deterministic, observable MCP servers for AI agents. Customers include…
-  api_count: 1
-  score_band: strong
-  score_composite: 55.6
   shared: 2
 - slug: readmeio
   name: ReadMe.io
@@ -116,35 +116,35 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 1
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism (mock server), Spectral (JSON/YAML linter), and Elements (do…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.8
   shared: 1
 - slug: confluence
   name: Confluence
   description: APIs for Atlassian Confluence - team collaboration and knowledge management software.
-  api_count: 5
+  api_count: 3
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 70.4
   shared: 1
 - slug: speakeasy
   name: Speakeasy
   description: Speakeasy provides an AI control plane platform that lets enterprises govern, secure, and observe AI agents, MCP servers, and Skills. The platform integrates with existing identity providers to assign permissioned identities to each agent and enforces policy in real time. It offers audit logs, comp…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 66.3
   shared: 1
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living OpenAPI spec.
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 1
@@ -162,19 +162,19 @@ providers:
   score_band: strong
   score_composite: 61.6
   shared: 1
-- slug: gitbook
-  name: GitBook
-  description: GitBook is a documentation and knowledge platform, positioned as "the knowledge layer for AI", that connects a company's docs, product and users, answers user questions with AI, and identifies gaps in its knowledge. Teams write and publish product and API documentation with docs-as-code support and…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.3
-  shared: 1
 - slug: theneo
   name: Theneo
   description: Beautiful, up-to-date docs without the effort. Theneo is an AI-native API documentation and developer portal platform that auto-generates interactive docs from OpenAPI, Swagger, Postman, GraphQL, gRPC, SOAP/WSDL, and AsyncAPI specifications. Its AI Co-pilot can fully generate, enhance, or stay out…
   api_count: 1
   score_band: strong
   score_composite: 60.5
+  shared: 1
+- slug: gitbook
+  name: GitBook
+  description: GitBook is a documentation and knowledge platform, positioned as "the knowledge layer for AI", that connects a company's docs, product and users, answers user questions with AI, and identifies gaps in its knowledge. Teams write and publish product and API documentation with docs-as-code support and…
+  api_count: 1
+  score_band: strong
+  score_composite: 60.2
   shared: 1
 - slug: hashnode
   name: Hashnode
@@ -193,7 +193,7 @@ providers:
 - slug: companycam
   name: CompanyCam
   description: CompanyCam is a photo-based job-site documentation platform for contractors and the trades — roofing, restoration, solar, home services and construction. Its mobile apps capture location- and time-stamped photos and videos that sync to a shared, project-organized workspace so crews, offices and cli…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 55.6
   shared: 1
@@ -223,8 +223,8 @@ provider_slugs:
 - scalar
 - archbee
 - mintlify
-- developerhub
 - bump-sh
+- developerhub
 - readmeio
 - fern-api
 - elements
@@ -241,8 +241,8 @@ provider_slugs:
 - routebase
 - treblle
 - apimatic
-- gitbook
 - theneo
+- gitbook
 - hashnode
 - smartbear
 - companycam
@@ -252,25 +252,29 @@ provider_slugs:
 - sweep
 - planradar
 - scribe
-- stainless
 - hackmd
+- stainless
+- document360
 - swaggerhub
+- promptessor
 - swytchcode
 - salesforce-knowledge-management
-- apiary
 - helpjuice
+- apiary
 - corestory
 - openapi-generator
 - sideko
 - dreamfactory
+- specway
 - echoapi
 - api-blueprint
-- document360
+- getxapi
 - kapa-ai
 - nuclino
 - eraser
 - apigen
 - rapidoc
+- heretto
 - inkeep
 - docoapi
 - zudoku
@@ -282,8 +286,8 @@ provider_slugs:
 - doctave
 - api-fiddle
 - princess-beef-heavy-industries
-- docdriven
 - slab
+- docdriven
 - prox
 - grounded-tools
 - guidde
@@ -293,8 +297,10 @@ provider_slugs:
 - vacuum
 - nextra
 - docusaurus
+- slurpit
 - bookstack
 - swimm
+- dataflexc737
 - vitepress
 - openapi
 - almanac-labs
@@ -308,9 +314,12 @@ provider_slugs:
 - joggr
 - icontrol
 - flowcharts
+- pinusx
 - wikidocs
+- miredot
 - developer-experience
 - markup-language
+- docdoccom
 - process-flow-diagrams
 - product-specifications
 - acknowledgments-md
@@ -338,7 +347,7 @@ related:
 overview: 'Documentation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [documentation.apievangelist.com](https://documentation.apievangelist.com).
 
 
-  30 providers on the network work in this area, including ReadMe, Scalar, Archbee, Mintlify, DeveloperHub, Bump.sh, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including ReadMe, Scalar, Archbee, Mintlify, Bump.sh, DeveloperHub, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Portal, Design, Testing, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,21 +6,28 @@ description: An index and topic collection covering site reliability engineering
 area_url: https://reliability.apievangelist.com
 area_host: reliability.apievangelist.com
 icon: https://reliability.apievangelist.com/icon-thumb.png
-provider_count: 22
+provider_count: 23
 providers:
 - slug: svix
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 73.1
+  shared: 1
+- slug: zespan
+  name: Zespan
+  description: Zespan provides AI agent reliability tooling that detects and prevents silent mistakes in production AI agents. It offers guardrails, monitoring, tracing, evaluation, and cost management across major LLM providers. Users can self‑host or use a SaaS version, integrating with OpenAI, Anthropic, Googl…
+  api_count: 2
+  score_band: developing
+  score_composite: 49.0
   shared: 1
 - slug: gremlin
   name: Gremlin
   description: Gremlin is a chaos engineering platform that helps teams build more resilient systems by running controlled failure experiments. It provides tools to simulate infrastructure failures, network issues, and resource exhaustion to identify and fix weaknesses before they cause real outages.
   api_count: 1
   score_band: developing
-  score_composite: 46.9
+  score_composite: 47.4
   shared: 1
 - slug: chaos-mesh
   name: Chaos Mesh
@@ -34,7 +41,21 @@ providers:
   description: Google Cloud Error Reporting groups and counts similar errors from cloud services and applications, reports new errors, and provides access to error groups and statistics. It automatically analyzes exceptions and displays them in a centralized interface with alerting, helping developers quickly ide…
   api_count: 1
   score_band: thin
-  score_composite: 37.8
+  score_composite: 39.1
+  shared: 1
+- slug: fiix-software
+  name: Fiix Software
+  description: Fiix (by Rockwell Automation) is a cloud-based CMMS (Computerized Maintenance Management System) platform for maintenance and reliability teams in manufacturing, facilities, and utilities. The Fiix API provides programmatic access to assets, work orders, purchase orders, parts, users, and maintenan…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.9
+  shared: 1
+- slug: statuspage
+  name: Statuspage
+  description: Statuspage by Atlassian is a hosted status page and incident communication platform that helps companies communicate real-time service status, incident updates, scheduled maintenance, and component health to customers and internal stakeholders. It supports public and private pages, audience-specifi…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.1
   shared: 1
 - slug: antithesis
   name: Antithesis
@@ -50,13 +71,6 @@ providers:
   score_band: thin
   score_composite: 34.1
   shared: 1
-- slug: statuspage
-  name: Statuspage
-  description: Statuspage by Atlassian is a hosted status page and incident communication platform that helps companies communicate real-time service status, incident updates, scheduled maintenance, and component health to customers and internal stakeholders. It supports public and private pages, audience-specifi…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.7
-  shared: 1
 - slug: overops
   name: Overops
   description: OverOps (formerly Takipi) is a continuous reliability platform that helps teams who ship software ensure rapid code changes do not degrade the customer experience. It runs in the cloud or on-premises, instruments Java and .NET applications with a micro-agent, and automatically identifies, prevents,…
@@ -71,6 +85,13 @@ providers:
   score_band: thin
   score_composite: 26.4
   shared: 1
+- slug: augury
+  name: Augury
+  description: Augury is a New York City-headquartered industrial AI company founded in 2011 by Gal Shaul and Saar Yoskovitz that profiles itself as the leader in Machine Health and Production Health for manufacturing. Its flagship offering pairs purpose-built IoT vibration, temperature, and magnetic sensors — mo…
+  api_count: 0
+  score_band: emerging
+  score_composite: 24.7
+  shared: 1
 - slug: nerc
   name: NERC
   description: The North American Electric Reliability Corporation (NERC) is the not-for-profit international regulatory authority certified by FERC in July 2006 as the Electric Reliability Organization under Section 215 of the Federal Power Act, added by the Energy Policy Act of 2005. From offices in Washington,…
@@ -84,13 +105,6 @@ providers:
   api_count: 2
   score_band: emerging
   score_composite: 18.3
-  shared: 1
-- slug: fiix-software
-  name: Fiix Software
-  description: Fiix (by Rockwell Automation) is a cloud-based CMMS (Computerized Maintenance Management System) platform for maintenance and reliability teams in manufacturing, facilities, and utilities. The Fiix API provides programmatic access to assets, work orders, purchase orders, parts, users, and maintenan…
-  api_count: 1
-  score_band: emerging
-  score_composite: 18.1
   shared: 1
 - slug: blameless
   name: Blameless
@@ -120,12 +134,12 @@ providers:
   score_band: minimal
   score_composite: 9.6
   shared: 1
-- slug: augury
-  name: Augury
-  description: Augury is a New York City-headquartered industrial AI company founded in 2011 by Gal Shaul and Saar Yoskovitz that profiles itself as the leader in Machine Health and Production Health for manufacturing. Its flagship offering pairs purpose-built IoT vibration, temperature, and magnetic sensors — mo…
+- slug: chargerhelp
+  name: Chargerhelp
+  description: ChargerHelp provides Reliability as a Service for electric vehicle (EV) charging infrastructure. Their platform offers data‑first monitoring, predictive maintenance, and performance analytics to ensure high uptime for EVSE operators. Founded to address the growing need for operational excellence in…
   api_count: 0
   score_band: minimal
-  score_composite: 9.5
+  score_composite: 8.1
   shared: 1
 - slug: pairio
   name: Pairio
@@ -140,13 +154,6 @@ providers:
   api_count: 0
   score_band: minimal
   score_composite: 6.8
-  shared: 1
-- slug: chargerhelp
-  name: Chargerhelp
-  description: ChargerHelp provides Reliability as a Service for electric vehicle (EV) charging infrastructure. Their platform offers data‑first monitoring, predictive maintenance, and performance analytics to ensure high uptime for EVSE operators. Founded to address the growing need for operational excellence in…
-  api_count: 0
-  score_band: minimal
-  score_composite: 6.7
   shared: 1
 - slug: chinaist-testing-service
   name: ChinaiST Testing Service
@@ -164,25 +171,26 @@ providers:
   shared: 1
 provider_slugs:
 - svix
+- zespan
 - gremlin
 - chaos-mesh
 - google-cloud-error-reporting
+- fiix-software
+- statuspage
 - antithesis
 - memfault
-- statuspage
 - overops
 - sonarly
+- augury
 - nerc
 - nobl9
-- fiix-software
 - blameless
 - briza
 - proteantecs
 - reliability
-- augury
+- chargerhelp
 - pairio
 - distributional
-- chargerhelp
 - chinaist-testing-service
 - omen
 related:
@@ -195,7 +203,7 @@ related:
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  22 providers on the network work in this area, including Svix, Gremlin, Chaos Mesh, Google Cloud Error Reporting, Antithesis, Memfault, and 16 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  23 providers on the network work in this area, including Svix, Zespan, Gremlin, Chaos Mesh, Google Cloud Error Reporting, Fiix Software, and 17 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Command Line Interface and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'

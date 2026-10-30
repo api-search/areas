@@ -6,7 +6,7 @@ description: An index and topic collection covering data visualization, charts, 
 area_url: https://visualization.apievangelist.com
 area_host: visualization.apievangelist.com
 icon: https://visualization.apievangelist.com/icon-thumb.png
-provider_count: 31
+provider_count: 32
 providers:
 - slug: datadog
   name: Datadog
@@ -34,7 +34,7 @@ providers:
   description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
   api_count: 1
   score_band: strong
-  score_composite: 61.3
+  score_composite: 62.6
   shared: 1
 - slug: foxglove-technologies
   name: Foxglove Technologies
@@ -48,7 +48,7 @@ providers:
   description: Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 53.7
   shared: 1
 - slug: napkin
   name: Napkin
@@ -62,21 +62,28 @@ providers:
   description: Microsoft Visio provides APIs for creating, editing, and managing Visio diagrams and drawings. The Visio JavaScript API enables developers to build Office Add-ins that interact with Visio diagrams embedded in SharePoint Online pages, accessing document elements such as pages, shapes, hyperlinks, co…
   api_count: 1
   score_band: developing
-  score_composite: 49.1
+  score_composite: 50.5
   shared: 1
 - slug: google-data-studio
   name: Google Data Studio
   description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sources and supports community connectors and visualizations for…
   api_count: 2
   score_band: developing
-  score_composite: 47.3
+  score_composite: 48.6
   shared: 1
 - slug: zoho-analytics
   name: Zoho Analytics
   description: Zoho Analytics is a business intelligence and self-service analytics platform that provides a REST API for managing workspaces, views, reports, dashboards, data import and export, and sharing analytics content. The API enables ISVs, developers, and system integrators to embed powerful reporting and…
   api_count: 7
   score_band: thin
-  score_composite: 35.1
+  score_composite: 36.5
+  shared: 1
+- slug: lucidchart
+  name: Lucidchart
+  description: Lucidchart is a web-based intelligent diagramming application by Lucid Software, part of the Lucid Visual Collaboration Suite (Lucidchart, Lucidspark, Lucidscale). The Lucid Developer Platform exposes a REST API for documents/folders/collaborators/content, an Extension API for in-editor extensions,…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.6
   shared: 1
 - slug: kibana
   name: Kibana
@@ -84,13 +91,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 33.1
-  shared: 1
-- slug: lucidchart
-  name: Lucidchart
-  description: Lucidchart is a web-based intelligent diagramming application by Lucid Software, part of the Lucid Visual Collaboration Suite (Lucidchart, Lucidspark, Lucidscale). The Lucid Developer Platform exposes a REST API for documents/folders/collaborators/content, an Extension API for in-editor extensions,…
-  api_count: 1
-  score_band: thin
-  score_composite: 32.5
   shared: 1
 - slug: apache-zeppelin
   name: Apache Zeppelin
@@ -111,7 +111,7 @@ providers:
   description: Windy.com is a weather visualization platform serving high-resolution forecast models, animated weather maps, and a global webcam network. The Windy API exposes three developer products - a Point Forecast API for multi-model numerical weather data at a coordinate, an embeddable Map Forecast API bas…
   api_count: 1
   score_band: thin
-  score_composite: 26.5
+  score_composite: 27.9
   shared: 1
 - slug: threejs
   name: Three.js
@@ -190,6 +190,13 @@ providers:
   score_band: minimal
   score_composite: 4.5
   shared: 1
+- slug: mylar3
+  name: Mylar3
+  description: Mylar3 is a technology company focused on providing advanced data analytics and visualization tools for businesses. It offers a platform that integrates data from multiple sources, applies machine learning models, and delivers interactive dashboards. The company emphasizes security, scalability, an…
+  api_count: 1
+  score_band: minimal
+  score_composite: 3.9
+  shared: 1
 - slug: planby-technologies-inc
   name: Planby Technologies
   description: Planby Technologies, Inc. (PLANBY) is a Seoul-based AI transformation partner for architecture and construction organizations, helping construction firms, architectural offices, and interior studios adopt AI-powered workflows. Its products include PLANA (interior and concept CG rendering automation…
@@ -211,13 +218,6 @@ providers:
   score_band: minimal
   score_composite: 1.7
   shared: 1
-- slug: lagoa
-  name: Lagoa
-  description: Lagoa was a cloud-based 3D visualization, rendering, and CAD publishing platform built by TeamUp Technologies Inc., billed as the first web-based platform for photoreal 3D visualization and rendering. It let artists, designers, engineers, and architects import over 40 native CAD formats, build kine…
-  api_count: 0
-  score_band: minimal
-  score_composite: 0
-  shared: 1
 provider_slugs:
 - datadog
 - elastic
@@ -229,8 +229,8 @@ provider_slugs:
 - visio
 - google-data-studio
 - zoho-analytics
-- kibana
 - lucidchart
+- kibana
 - apache-zeppelin
 - qlik-cloud
 - windy
@@ -245,6 +245,7 @@ provider_slugs:
 - brelyon
 - all3d
 - flowcharts
+- mylar3
 - planby-technologies-inc
 - bloom9
 - gantt-charts
@@ -266,8 +267,8 @@ related:
 - slug: logging
   name: Logging
   shared: 1
-- slug: observability
-  name: Observability
+- slug: machine-learning
+  name: Machine Learning
   shared: 1
 overview: 'Visualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [visualization.apievangelist.com](https://visualization.apievangelist.com).
 

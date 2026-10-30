@@ -6,12 +6,12 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 395
+provider_count: 401
 providers:
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
-  api_count: 89
+  api_count: 55
   score_band: exemplar
   score_composite: 91.6
   shared: 1
@@ -25,9 +25,9 @@ providers:
 - slug: kinde
   name: Kinde
   description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 82.9
+  score_composite: 82.4
   shared: 1
 - slug: appwrite
   name: Appwrite
@@ -50,12 +50,12 @@ providers:
   score_band: exemplar
   score_composite: 79.7
   shared: 1
-- slug: drchrono
-  name: drchrono
-  description: drchrono, part of EverCommerce's EverHealth portfolio, is an all-in-one EHR, practice management and medical billing platform for independent US medical practices. It publishes two distinct machine-readable API surfaces. The proprietary REST v4 API (codename Hunt Valley) is an OAuth 2.0-secured con…
-  api_count: 4
+- slug: cvent-registration
+  name: Cvent Registration
+  description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
+  api_count: 2
   score_band: exemplar
-  score_composite: 77.5
+  score_composite: 77.2
   shared: 1
 - slug: cvent
   name: Cvent
@@ -64,19 +64,19 @@ providers:
   score_band: exemplar
   score_composite: 77.1
   shared: 1
-- slug: cvent-registration
-  name: Cvent Registration
-  description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
+- slug: drchrono
+  name: drchrono
+  description: drchrono, part of EverCommerce's EverHealth portfolio, is an all-in-one EHR, practice management and medical billing platform for independent US medical practices. It publishes two distinct machine-readable API surfaces. The proprietary REST v4 API (codename Hunt Valley) is an OAuth 2.0-secured con…
   api_count: 2
   score_band: exemplar
-  score_composite: 75.9
+  score_composite: 77.0
   shared: 1
 - slug: okta
   name: Okta
   description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Secur…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 74.3
+  score_composite: 73.8
   shared: 1
 - slug: aembit
   name: Aembit
@@ -99,38 +99,45 @@ providers:
   score_band: exemplar
   score_composite: 70.9
   shared: 1
-- slug: clerk-com
-  name: Clerk
-  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
-  api_count: 7
-  score_band: exemplar
-  score_composite: 70.3
-  shared: 1
 - slug: tvarka
   name: Tvarka ATK API
   description: A single REST API estate for Lithuanian eID authentication and qualified electronic signing (QES). The ATK API reads the Lithuanian identity card itself - physical smart-card reader or NFC phone tap - through one request, polling, webhook and metering model, and adds standalone validation, timestam…
   api_count: 4
   score_band: exemplar
-  score_composite: 70.2
+  score_composite: 70.9
   shared: 1
-- slug: authentik
-  name: Authentik
-  description: Authentik is an open source identity provider from Authentik Security Inc., a public benefit company, exposing a 1,193-operation REST API at /api/v3 on every self-hosted instance. The published OpenAPI covers users, groups, applications, tokens, RBAC, flows, stages, policies, property mappings, out…
-  api_count: 2
+- slug: clerk-com
+  name: Clerk
+  description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
+  api_count: 7
   score_band: exemplar
-  score_composite: 70.1
+  score_composite: 70.5
   shared: 1
 - slug: auth0
   name: Auth0
   description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes a Management API (OpenAPI 3.1, 221 paths, 2,567 schemas), an…
   api_count: 3
   score_band: exemplar
-  score_composite: 69.1
+  score_composite: 70.4
+  shared: 1
+- slug: authentik
+  name: Authentik
+  description: Authentik is an open source identity provider from Authentik Security Inc., a public benefit company, exposing a 1,193-operation REST API at /api/v3 on every self-hosted instance. The published OpenAPI covers users, groups, applications, tokens, RBAC, flows, stages, policies, property mappings, out…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 70.1
+  shared: 1
+- slug: aweber
+  name: AWeber
+  description: AWeber is an email marketing and automation platform for small businesses, creators, and entrepreneurs providing email broadcasts, drip campaigns, landing pages, sign-up forms, and subscriber management. The AWeber REST API at api.aweber.com offers full programmatic access to lists, subscribers, br…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 69.0
   shared: 1
 - slug: strivacity
   name: Strivacity
   description: Strivacity is a customer identity and access management (CIAM) vendor that runs a single-tenant, dedicated-cloud identity platform for consumer, partner, B2B and — since its Agentic AI release — AI-agent identities. The product covers registration and self-service, adaptive multi-factor authenticat…
-  api_count: 12
+  api_count: 8
   score_band: exemplar
   score_composite: 68.5
   shared: 1
@@ -141,19 +148,26 @@ providers:
   score_band: exemplar
   score_composite: 68.3
   shared: 1
-- slug: aweber
-  name: AWeber
-  description: AWeber is an email marketing and automation platform for small businesses, creators, and entrepreneurs providing email broadcasts, drip campaigns, landing pages, sign-up forms, and subscriber management. The AWeber REST API at api.aweber.com offers full programmatic access to lists, subscribers, br…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 67.7
-  shared: 1
 - slug: immutable
   name: Immutable
   description: 'Immutable is a games growth and blockchain infrastructure company whose platform spans two connected halves: Immutable Audience, a games-focused CDP, attribution and player-activation stack (ingestion, analytics, engage, conversion funnel, ad-network postbacks), and Immutable Chain, a gaming-optimi…'
-  api_count: 4
+  api_count: 2
   score_band: exemplar
-  score_composite: 67.0
+  score_composite: 67.7
+  shared: 1
+- slug: lacuna
+  name: Lacuna
+  description: Lacuna (lacuna.fm), operated by JOYLINK LTD, is an AI music creation platform that turns lyrics or a plain-text style description into complete songs with vocals, alongside lyrics writing, word-level timed lyrics (LRC/SRT/VTT), lyric video export, AI mastering, mashups, stem separation, album-cover…
+  api_count: 2
+  score_band: strong
+  score_composite: 65.8
+  shared: 1
+- slug: amazon-cognito
+  name: Amazon Cognito
+  description: Amazon Cognito is a fully managed AWS user identity and authentication service that adds sign-up, sign-in, and access control to web and mobile applications, scaling to millions of users. It provides User Pools for authentication (user directories, MFA, customizable auth flows) and Identity Pools f…
+  api_count: 2
+  score_band: strong
+  score_composite: 65.7
   shared: 1
 - slug: zuplo
   name: Zuplo
@@ -165,16 +179,9 @@ providers:
 - slug: taskfolk
   name: Taskfolk
   description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backlog, list, calendar and timeline views, with sprints, milesto…
-  api_count: 8
+  api_count: 2
   score_band: strong
-  score_composite: 65.3
-  shared: 1
-- slug: lacuna
-  name: Lacuna
-  description: Lacuna (lacuna.fm), operated by JOYLINK LTD, is an AI music creation platform that turns lyrics or a plain-text style description into complete songs with vocals, alongside lyrics writing, word-level timed lyrics (LRC/SRT/VTT), lyric video export, AI mastering, mashups, stem separation, album-cover…
-  api_count: 3
-  score_band: strong
-  score_composite: 65.0
+  score_composite: 64.8
   shared: 1
 - slug: cvent-hospitality-cloud
   name: Cvent Hospitality Cloud
@@ -183,38 +190,31 @@ providers:
   score_band: strong
   score_composite: 64.6
   shared: 1
+- slug: kraken
+  name: Kraken
+  description: Kraken is one of the world's largest and longest-running cryptocurrency exchanges, founded in 2011 and headquartered in San Francisco. Kraken offers Spot and Futures trading, staking and yield through Kraken Earn, NFT marketplace access, OTC services, custody, prime brokerage, and a B2B Embed surfa…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.4
+  shared: 1
 - slug: hootsuite
   name: Hootsuite
   description: Hootsuite is a social media management platform that lets organizations schedule posts, monitor conversations, run paid campaigns, and analyze performance across LinkedIn, X (Twitter), Facebook, Instagram, TikTok, YouTube, and Pinterest from a single dashboard. The platform serves marketers, agenci…
-  api_count: 12
+  api_count: 8
   score_band: strong
-  score_composite: 63.9
-  shared: 1
-- slug: amazon-cognito
-  name: Amazon Cognito
-  description: Amazon Cognito is a fully managed AWS user identity and authentication service that adds sign-up, sign-in, and access control to web and mobile applications, scaling to millions of users. It provides User Pools for authentication (user directories, MFA, customizable auth flows) and Identity Pools f…
-  api_count: 2
-  score_band: strong
-  score_composite: 63.7
+  score_composite: 64.3
   shared: 1
 - slug: playable
   name: Playable
   description: Playable (formerly Leadfamly, Playable ApS, Aarhus Denmark and London UK) is a self-service marketing gamification platform used by brands to build, publish and measure interactive campaigns — spin-the-wheel, advent calendars, quizzes, scratch cards, memory and skill games — across web, email, in-a…
-  api_count: 4
+  api_count: 1
   score_band: strong
-  score_composite: 63.7
+  score_composite: 63.2
   shared: 1
 - slug: gluu
   name: Gluu
   description: Gluu is a technology company that specializes in providing identity and access management solutions for businesses. Their platform allows organizations to centrally manage the authentication and authorization of users across various applications and systems, ensuring secure access to sensitive data…
-  api_count: 23
-  score_band: strong
-  score_composite: 62.9
-  shared: 1
-- slug: hustle
-  name: Hustle
-  description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and a…
-  api_count: 2
+  api_count: 12
   score_band: strong
   score_composite: 62.9
   shared: 1
@@ -225,58 +225,60 @@ provider_slugs:
 - appwrite
 - azure-ad
 - convertkit
-- drchrono
-- cvent
 - cvent-registration
+- cvent
+- drchrono
 - okta
 - aembit
 - telesign
 - cvent-event-cloud
-- clerk-com
 - tvarka
-- authentik
+- clerk-com
 - auth0
+- authentik
+- aweber
 - strivacity
 - cisco-xdr
-- aweber
 - immutable
+- lacuna
+- amazon-cognito
 - zuplo
 - taskfolk
-- lacuna
 - cvent-hospitality-cloud
+- kraken
 - hootsuite
-- amazon-cognito
 - playable
 - gluu
 - hustle
-- beeketing
+- memberstack
 - active-directory
+- beeketing
 - rose-rocket
 - stytch
-- jefferson-health
-- kraken
+- workos
 - criteo
+- jefferson-health
+- ios
 - commerce-layer
 - arcade-dev
-- workos
-- airtm
+- microsoft-entra
 - jane-app
 - appdirect
-- ios
+- airtm
 - centrify
-- datavant
-- frontegg
-- unico
-- microsoft-entra
-- descope
-- propelauth
-- yubico
-- snap
-- aircover
-- composio
 - amazon-iam
 - forgerock
+- frontegg
+- unico
+- yubico
+- datavant
+- descope
+- propelauth
+- aircover
+- composio
+- snap
 - mixmax
+- amazon-iam-identity-center
 - barndoor
 - typingdna
 - thenile
@@ -284,47 +286,47 @@ provider_slugs:
 - lawmatics
 - cabify
 - onecli
-- trustarc
 - insforge
 - altruist
 - authelia
+- trustarc
 - ezoic
-- photon
-- amazon-iam-identity-center
-- singlefile
-- spekit
-- ironclad
-- cobot
 - lichess
 - transmit-security
 - allegion
-- eagle-eye-networks
-- kannkidas-de
-- authenticx
+- photon
+- singlefile
+- spekit
+- amazon-directory-service
 - fusionauth
+- ironclad
+- cobot
+- eagle-eye-networks
+- clio
+- prove
+- 1f916
+- neon
 - doximity
 - tibber
-- trusona
-- amazon-directory-service
-- 1f916
-- 1kosmos
+- kannkidas-de
 - dream-sports
 - etsy
 - weave
-- clearslide
+- authenticx
+- trusona
+- google-cloud-api-gateway
 - textmaster
 - opal
 - signiant
-- clio
-- prove
 - ping-identity
-- neon
 - truecaller
+- 1kosmos
+- clearslide
+- idme
 - trakt
 - zitadel
 - authlete
 - beyond-identity
-- google-cloud-api-gateway
 - hopae-inc
 - defakto-security
 - easywebinar
@@ -334,64 +336,66 @@ provider_slugs:
 - uber-eats
 - clear
 - wahoo
+- secureauth
 - firebase
 - solaris
-- idme
 - bluestacks
-- bokio
 - dust-identity
+- bokio
 - buoy-health
 - ory
+- eve-online
 - civic
-- secureauth
+- climate-fieldview
+- api-market
+- nango
 - oracle-health
 - aol
 - cirrus-identity
-- climate-fieldview
-- guestready
 - flume-health
-- eve-online
+- google-firebase
 - skyfire
 - carefluence
 - nomos
+- guestready
 - result
 - wish
-- cyclr
 - ccp-games
-- nango
+- hostfully
 - anilist
-- api-market
 - coinlist
 - butterflymx
-- google-firebase
+- supabase
+- cyclr
+- google-cloud-endpoints
 - logto
 - luminary
 - workday-security
 - endpointblank
-- arccos-golf
+- spire
+- bankid
 - myfitnesspal
 - bitski
-- spire
-- hostfully
+- reqkey
+- arccos-golf
 - kadence
 - linqgg
 - cakewalk
 - kroger
-- supabase
 - yahoo
 - era
 - galxe
-- google-cloud-endpoints
-- bankid
 - slashid
 - monzo
-- reqkey
 - onfido
 - unkey
+- pathfix
 - comunicate-top-api
 - fusewp
 - playfab
 - spycloud
+- zoho-people
+- charles-schwab
 - hypr
 - nuvemshop-tiendanube
 - bullhorn
@@ -401,101 +405,103 @@ provider_slugs:
 - klavis
 - gojek
 - splitwise
-- zoho-people
-- apache-knox
-- charles-schwab
 - agentsync
 - ikas-ikas-teknoloji-as
 - wolt
 - strata-identity
+- nhost
+- spring-security
 - burner
 - jeeng
 - parse
 - capy-inc
 - nudge-security
+- google-identity-platform
 - planday
 - centralreach
-- nhost
-- gadjah-mada-university
-- spring-security
-- supertokens
 - hanko
+- gadjah-mada-university
+- supertokens
 - medium
+- apache-knox
 - via-science
-- debank
+- ampersand
 - autopass
 - flipkart
 - jack-henry
+- keycloak
 - liquid
-- ampersand
 - picogrid
-- google-identity-platform
+- debank
 - aci-dev
 - mycase
-- keycloak
+- nthu
+- pingone
 - telefonica
 - alien
 - express-gateway
+- blink-ledger-systems
 - feathery
 - pragma
 - nevis
-- shanghai-jiao-tong-university
 - surveymonkey
-- nthu
-- pingone
 - sifive
+- shanghai-jiao-tong-university
 - withings
 - collectors
 - iniciador
 - spiffe
 - kia
+- dynamic-labs
 - neurable
 - wellfound
 - capital-one
 - authress
+- corbado
 - everledger
 - cuvva
 - virgil-security
 - onescreen-ai
-- dynamic-labs
 - keel
 - scalekit
 - blueleaf
+- fdx
 - infra
 - abblix
 - ccc-intelligent-solutions
-- corbado
-- fdx
+- terapi
 - koalaboox
+- passage-1password
 - glama-ai
 - pangea
 - thrivecom
 - flockjay
+- soundcloud
 - stream-labs
 - augworlds-ai
+- deezer
 - elk
+- mozilla-accounts
 - nectar-social
 - onelogin
+- libryo
 - nycu
 - bmw-connecteddrive
+- duo-security
 - curity
 - getnet
-- passage-1password
 - actively
 - arkose-labs
 - secret-double-octopus
 - river-financial
 - authsignal
-- soundcloud
 - marco-polo
+- privy
 - rohlik
-- deezer
 - centurylink
 - hanyang
-- blink-ledger-systems
 - 3dagogo
 - violet
-- duo-security
 - samedi
 - noredink
 - passbase
@@ -503,21 +509,22 @@ provider_slugs:
 - numeric
 - classlink
 - oscar-emr
-- privy
+- esentire
 - awakens
 - incognia
-- esentire
 - securew2
 - equipmentshare
-- apache-shiro
 - iyk
 - silverfort
 - kakao
 - pulsoid
+- apache-shiro
 - connect2id
 - prelude-so
 - hanr-block
+- kahoot
 - wibmo
+- grab
 - cyberark-identity
 - onymos
 - verto-education
@@ -526,24 +533,22 @@ provider_slugs:
 - toutiao
 - bright-funds
 - travelclick-amadeus
-- kahoot
 - callsign
-- grab
 - openblock-labs
 - primerica
+- thirdwatch
+- formstack
 - glacier-bancorp
 - bishop-fox
-- libryo
 - scnd
-- better-auth
+- zero-trust-architecture
 - farcaster
 - imprivata
 - casdoor
 - acrisure
-- formstack
-- zero-trust-architecture
-- itb
 - sage-accounting
+- better-auth
+- itb
 - nickelytics
 - ramper
 - trustdock
@@ -559,12 +564,12 @@ provider_slugs:
 - pocketbase
 - alitheon
 - mural
+- rockstar-games
 - lovys
 - monnai
 - pindrop-security
 - saib-and-co
 - ithaca
-- rockstar-games
 - manifest-law
 - newcore
 - cyral
@@ -584,14 +589,14 @@ provider_slugs:
 - bukalapak
 - burbank
 - goat-group
+- remind
 - tradeblock
 - bag-borrow-or-steal
 - authy
-- remind
 - dewu-poizon
+- mojoauth
 - kinvey
 - openldap
-- mojoauth
 - asignio
 - inauth-american-express
 - blink-identity
@@ -603,6 +608,7 @@ provider_slugs:
 - micro-user-service
 - soda
 - ocra
+- ssolo
 - anetac
 - nok-nok-labs
 - arcot-systems
@@ -615,17 +621,14 @@ provider_slugs:
 - opennetwork-tech
 - proxy
 related:
-- slug: communications
-  name: Communications
-  shared: 3
 - slug: ai-automation
   name: AI Automation
   shared: 2
 - slug: agents
   name: Agents
   shared: 2
-- slug: security
-  name: Security
+- slug: communications
+  name: Communications
   shared: 2
 - slug: agents-skills
   name: Agent Skills
@@ -633,11 +636,14 @@ related:
 - slug: database
   name: Database
   shared: 1
+- slug: gateway
+  name: Gateway
+  shared: 1
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
   30 providers on the network work in this area, including Twilio, Zoho CRM, Kinde, Appwrite, Microsoft Entra ID (formerly Azure AD), Kit, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Communications, AI Automation, Agents, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: AI Automation, Agents, Communications, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

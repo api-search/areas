@@ -6,7 +6,7 @@ description: An index and topic collection covering encryption services, key man
 area_url: https://encryption.apievangelist.com
 area_host: encryption.apievangelist.com
 icon: https://encryption.apievangelist.com/icon-thumb.png
-provider_count: 50
+provider_count: 53
 providers:
 - slug: paubox
   name: Paubox
@@ -20,28 +20,35 @@ providers:
   description: AWS Key Management Service (KMS) is a managed service that makes it easy to create and control the cryptographic keys used to protect your data, integrated with other AWS services to simplify encryption of data stored and managed in those services.
   api_count: 1
   score_band: strong
-  score_composite: 60.6
+  score_composite: 62.0
   shared: 1
 - slug: evervault
   name: Evervault
   description: Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption keys on Evervault's side while customers hold the ciphertext,…
   api_count: 1
   score_band: strong
-  score_composite: 57.4
+  score_composite: 58.4
   shared: 1
 - slug: amazon-certificate-manager
   name: Amazon Certificate Manager
   description: AWS Certificate Manager (ACM) handles the complexity of creating, storing, and renewing public and private SSL/TLS X.509 certificates and keys that protect your AWS websites and applications, enabling you to manage certificate lifecycles centrally.
   api_count: 1
   score_band: strong
-  score_composite: 56.3
+  score_composite: 56.5
+  shared: 1
+- slug: filen
+  name: Filen
+  description: Filen provides end‑to‑end encrypted cloud storage, offering 10 GiB of free space, secure file sharing, and cross‑platform clients for web, desktop, and mobile. The service emphasizes privacy, zero‑knowledge encryption, and user‑controlled data.
+  api_count: 2
+  score_band: strong
+  score_composite: 55.8
   shared: 1
 - slug: ironcore-labs
   name: IronCore Labs
   description: IronCore Labs builds application-layer encryption tools that keep sensitive data private while it stays usable. Its products include SaaS Shield (tenant-controlled envelope encryption with customer-managed keys / BYOK for multi-tenant SaaS), Cloaked Search (a transparent encrypting proxy for Elasti…
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 52.7
+  score_composite: 52.9
   shared: 1
 - slug: openbao
   name: OpenBao
@@ -62,7 +69,14 @@ providers:
   description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symmetric and asymmetric keys for securing data and workloads.
   api_count: 1
   score_band: developing
-  score_composite: 45.5
+  score_composite: 46.8
+  shared: 1
+- slug: infisical
+  name: Infisical
+  description: Infisical is an open-source secrets management platform that provides developers with a centralized, end-to-end encrypted vault for storing, syncing, and rotating secrets across teams, environments, and cloud infrastructure. The platform offers a REST API enabling programmatic management of secrets…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.3
   shared: 1
 - slug: spideroak
   name: SpiderOak
@@ -78,13 +92,6 @@ providers:
   score_band: developing
   score_composite: 44.1
   shared: 1
-- slug: infisical
-  name: Infisical
-  description: Infisical is an open-source secrets management platform that provides developers with a centralized, end-to-end encrypted vault for storing, syncing, and rotating secrets across teams, environments, and cloud infrastructure. The platform offers a REST API enabling programmatic management of secrets…
-  api_count: 1
-  score_band: developing
-  score_composite: 43.9
-  shared: 1
 - slug: hashicorp-vault
   name: HashiCorp Vault
   description: HashiCorp Vault is a secrets management tool that provides secure storage, access control, and distribution of tokens, passwords, certificates, and encryption keys. It provides a unified interface to any secret while providing tight access control and recording a detailed audit log.
@@ -99,6 +106,13 @@ providers:
   score_band: developing
   score_composite: 41.7
   shared: 1
+- slug: signal
+  name: Signal
+  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
+  api_count: 1
+  score_band: developing
+  score_composite: 41.4
+  shared: 1
 - slug: seismic-systems
   name: Seismic Systems
   description: Seismic Systems Inc. is a fintech company building a privacy-enabled ("encrypted") blockchain — a shielded EVM implementing the "Mercury" specification — that aims to power a complete stablecoin stack. Backed by a $17M seed led by a16z crypto, Seismic lets developers build private tokens (SRC20) wh…
@@ -112,13 +126,6 @@ providers:
   api_count: 2
   score_band: developing
   score_composite: 40.5
-  shared: 1
-- slug: signal
-  name: Signal
-  description: Signal is a privacy-focused messaging platform that provides end-to-end encrypted communication through open-source applications on mobile and desktop. Their developer ecosystem centers around the open-source Signal Protocol, client SDKs, and server infrastructure, enabling developers to study, aud…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.1
   shared: 1
 - slug: digicert
   name: Digicert
@@ -158,7 +165,7 @@ providers:
 - slug: blindinsight
   name: BlindInsight
   description: BlindInsight (Blind Insight) is an end-to-end encrypted datastore and privacy-preserving data-analysis platform. It lets teams encrypt, ingest, search, and run machine learning and LLM queries over fully encrypted records without ever exposing plaintext, using a locally deployed Blind Proxy that tr…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 35.1
   shared: 1
@@ -183,6 +190,13 @@ providers:
   score_band: thin
   score_composite: 32.6
   shared: 1
+- slug: vpn
+  name: VPN
+  description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corporate networks, protecting privacy on public Wi-Fi, and bypass…
+  api_count: 6
+  score_band: thin
+  score_composite: 31.8
+  shared: 1
 - slug: virgil-security
   name: Virgil Security
   description: Virgil Security is an end-to-end encryption and key-management platform for developers. It ships client SDKs and JWT-authenticated cloud services that let applications add end-to-end encryption for messaging and files (E3Kit), breach-proof password and data protection using Password-Hardened Encryp…
@@ -197,44 +211,31 @@ providers:
   score_band: thin
   score_composite: 31.0
   shared: 1
-- slug: vpn
-  name: VPN
-  description: A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. VPN technology is widely used for secure remote access to corporate networks, protecting privacy on public Wi-Fi, and bypass…
-  api_count: 6
+- slug: proton-me
+  name: Proton Drive
+  description: Proton Drive provides end‑to‑end encrypted cloud storage from Switzerland, allowing users to securely back up files, access them from any device, share with anyone, and integrate with Proton’s privacy‑focused ecosystem. The service emphasizes zero‑knowledge security, strong encryption, and complian…
+  api_count: 0
   score_band: thin
-  score_composite: 30.4
-  shared: 1
-- slug: lattica
-  name: Lattica
-  description: LatticaAI is an Israeli privacy-technology company building Fully Homomorphic Encryption (FHE) as a service, letting AI inference and database queries run on encrypted data at cloud scale with zero plaintext exposure. Lattica builds the full stack — the cryptography, a compiler that turns models in…
-  api_count: 1
-  score_band: thin
-  score_composite: 28.7
-  shared: 1
-- slug: xmtp
-  name: XMTP
-  description: XMTP (Extensible Message Transport Protocol) is a decentralized, open messaging protocol that enables end-to-end encrypted communication between Ethereum wallet addresses and other decentralized identifiers. Built on MLS (Messaging Layer Security), XMTP provides developer SDKs and a gRPC-based netw…
-  api_count: 7
-  score_band: thin
-  score_composite: 27.2
+  score_composite: 30.2
   shared: 1
 provider_slugs:
 - paubox
 - amazon-kms
 - evervault
 - amazon-certificate-manager
+- filen
 - ironcore-labs
 - openbao
 - virtru
 - google-cloud-kms
+- infisical
 - spideroak
 - fortanix
-- infisical
 - hashicorp-vault
 - incountry
+- signal
 - seismic-systems
 - skyflow
-- signal
 - digicert
 - ciphertrust
 - preveil
@@ -244,14 +245,16 @@ provider_slugs:
 - akeyless
 - here-not-there-labs
 - truevault
+- vpn
 - virgil-security
 - hvault
-- vpn
+- proton-me
 - lattica
 - xmtp
 - keybase
 - sops
 - pipe-network
+- wodan-ai
 - anjuna
 - cy4data-labs
 - confide
@@ -282,7 +285,7 @@ related:
 overview: 'Encryption is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [encryption.apievangelist.com](https://encryption.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Paubox, Amazon KMS, Evervault, Amazon Certificate Manager, IronCore Labs, OpenBao, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Paubox, Amazon KMS, Evervault, Amazon Certificate Manager, Filen, IronCore Labs, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Bots, Command Line Interface, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

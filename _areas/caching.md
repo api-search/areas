@@ -11,7 +11,7 @@ providers:
 - slug: microsoft-azure-cdn
   name: Microsoft Azure Cdn
   description: Azure Content Delivery Network (CDN) caches static web content at strategically placed edge locations to deliver it to users with maximum throughput and minimum latency. The product is operated through the Microsoft.Cdn Azure Resource Manager resource provider, a 115-operation REST contract on mana…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 71.3
   shared: 1
@@ -33,8 +33,8 @@ providers:
   name: Google Cloud CDN
   description: Google Cloud CDN (Content Delivery Network) uses Google's globally distributed edge points of presence to cache HTTP(S) load-balanced content close to users. It accelerates content delivery, reduces serving costs, and improves availability by leveraging Google's global network infrastructure for fa…
   api_count: 1
-  score_band: developing
-  score_composite: 53.3
+  score_band: strong
+  score_composite: 54.7
   shared: 1
 - slug: ezoic
   name: ezoic
@@ -46,16 +46,16 @@ providers:
 - slug: cloudflare-ai-gateway
   name: Cloudflare AI Gateway
   description: Cloudflare AI Gateway is a managed LLM proxy that sits in front of 23+ AI providers (OpenAI, Anthropic, Google AI Studio, Google Vertex AI, Amazon Bedrock, Azure OpenAI, Workers AI, Mistral, Cohere, Groq, DeepSeek, Cerebras, xAI, Perplexity, Replicate, HuggingFace, OpenRouter, ElevenLabs, Deepgram,…
-  api_count: 1
+  api_count: 7
   score_band: developing
-  score_composite: 51.6
+  score_composite: 49.3
   shared: 1
 - slug: nginx
   name: NGINX
   description: NGINX is a high-performance open-source web server, reverse proxy, and API gateway widely used for load balancing, SSL termination, caching, and traffic management for APIs and microservices. Originally written by Igor Sysoev and released under the 2-clause BSD license, NGINX powers a significant p…
   api_count: 1
   score_band: developing
-  score_composite: 44.0
+  score_composite: 44.2
   shared: 1
 - slug: momento
   name: Momento
@@ -67,9 +67,9 @@ providers:
 - slug: apache-ignite
   name: Apache Ignite
   description: Apache Ignite is a distributed database for mission-critical high-velocity applications requiring in-memory performance. It provides ACID transactions, SQL queries, key-value storage, compute grid, and backpressured streaming across distributed clusters. Governed by the Apache Software Foundation u…
-  api_count: 2
+  api_count: 1
   score_band: thin
-  score_composite: 37.0
+  score_composite: 38.4
   shared: 1
 - slug: turborepo
   name: Turborepo
@@ -81,9 +81,9 @@ providers:
 - slug: apache-geode
   name: Apache Geode
   description: Apache Geode is an in-memory data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures. It pools memory, CPU, network resources, and local disk storage across multiple processes, offering a REST API for data…
-  api_count: 1
+  api_count: 5
   score_band: thin
-  score_composite: 32.3
+  score_composite: 33.2
   shared: 1
 - slug: avrea
   name: Avrea
@@ -99,6 +99,13 @@ providers:
   score_band: thin
   score_composite: 28.6
   shared: 1
+- slug: blacksmith-sh
+  name: Blacksmith
+  description: Blacksmith runs your GitHub Actions up to 2x faster at half the cost on a fleet of modern gaming-CPU bare metal, booting ephemeral Firecracker microVMs in under three seconds. It is a drop-in replacement integrated as a GitHub App and selected via runs-on runner tags, with a co-located CI cache, 40…
+  api_count: 1
+  score_band: thin
+  score_composite: 27.1
+  shared: 1
 - slug: tailcall
   name: Tailcall
   description: Tailcall is a high-performance GraphQL API gateway and runtime that lets developers compose multiple upstream REST, gRPC, and GraphQL APIs into a unified GraphQL schema. Built in Rust, it offers declarative configuration via .graphql files with directives for HTTP, caching, batching, and security c…
@@ -112,13 +119,6 @@ providers:
   api_count: 1
   score_band: emerging
   score_composite: 25.5
-  shared: 1
-- slug: blacksmith-sh
-  name: Blacksmith
-  description: Blacksmith runs your GitHub Actions up to 2x faster at half the cost on a fleet of modern gaming-CPU bare metal, booting ephemeral Firecracker microVMs in under three seconds. It is a drop-in replacement integrated as a GitHub App and selected via runs-on runner tags, with a co-located CI cache, 40…
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.3
   shared: 1
 - slug: readyset
   name: ReadySet
@@ -169,20 +169,20 @@ provider_slugs:
 - apache-geode
 - avrea
 - gridgain
+- blacksmith-sh
 - tailcall
 - openpipe
-- blacksmith-sh
 - readyset
 - varnish
 - caching
 - timesten
 - picasso
 related:
-- slug: proxy
-  name: Proxy
-  shared: 1
 - slug: performance
   name: Performance
+  shared: 1
+- slug: proxy
+  name: Proxy
   shared: 1
 overview: 'Caching is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [caching.apievangelist.com](https://caching.apievangelist.com).
 
@@ -190,5 +190,5 @@ overview: 'Caching is one of the API Evangelist areas on the [APIs.io](https://a
   21 providers on the network work in this area, including Microsoft Azure Cdn, CloudFront, Amazon ElastiCache, Google Cloud CDN, ezoic, Cloudflare AI Gateway, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Proxy and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Performance and Proxy. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

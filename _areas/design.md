@@ -6,12 +6,12 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://design.apievangelist.com
 area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
-provider_count: 148
+provider_count: 154
 providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 1
@@ -25,7 +25,7 @@ providers:
 - slug: stoplight
   name: Stoplight
   description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism (mock server), Spectral (JSON/YAML linter), and Elements (do…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.8
   shared: 1
@@ -34,21 +34,21 @@ providers:
   description: 'Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run…'
   api_count: 1
   score_band: exemplar
-  score_composite: 69.4
+  score_composite: 69.3
   shared: 1
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living OpenAPI spec.
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 1
-- slug: savee
-  name: Savee
-  description: 'Savee is a curated visual-inspiration platform for designers. Its public surface is programmatic two ways: a read-only REST API — an OpenAPI 3.1 contract of 10 GET operations and 12 schemas served live from api.savee.com/v1/openapi.json, authenticated with a personal access token or OAuth 2.1 — and…'
-  api_count: 4
+- slug: autodesk
+  name: Autodesk
+  description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction pr…
+  api_count: 12
   score_band: strong
-  score_composite: 60.0
+  score_composite: 60.3
   shared: 1
 - slug: onshape
   name: Onshape
@@ -64,12 +64,12 @@ providers:
   score_band: strong
   score_composite: 59.6
   shared: 1
-- slug: autodesk
-  name: Autodesk
-  description: Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction pr…
-  api_count: 12
+- slug: savee
+  name: Savee
+  description: 'Savee is a curated visual-inspiration platform for designers. Its public surface is programmatic two ways: a read-only REST API — an OpenAPI 3.1 contract of 10 GET operations and 12 schemas served live from api.savee.com/v1/openapi.json, authenticated with a personal access token or OAuth 2.1 — and…'
+  api_count: 1
   score_band: strong
-  score_composite: 58.9
+  score_composite: 59.5
   shared: 1
 - slug: thebrief
   name: TheBrief
@@ -95,7 +95,7 @@ providers:
 - slug: budgetpixel
   name: BudgetPixel
   description: BudgetPixel is an AI creative platform offering credit-based access to 70+ generative media models for image, video, music and sound-effect generation, plus upscaling, lip sync, motion control, format conversion and content moderation. Alongside a free design-studio canvas, LoRA training and a publ…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 54.0
   shared: 1
@@ -106,19 +106,26 @@ providers:
   score_band: developing
   score_composite: 52.9
   shared: 1
-- slug: insomnia
-  name: Insomnia
-  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.4
-  shared: 1
 - slug: ceros
   name: Ceros
   description: Ceros is an experiential content platform used by marketing, design and agency teams to build interactive, no-code web content — microsites, landing pages, interactive reports, infographics, pitch decks and embeddable experiences — in a browser design studio and publish them to a CDN. Its developer…
   api_count: 3
   score_band: developing
-  score_composite: 51.5
+  score_composite: 52.9
+  shared: 1
+- slug: insomnia
+  name: Insomnia
+  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.6
+  shared: 1
+- slug: adobe-creative-suite
+  name: Adobe Creative Suite
+  description: Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography.
+  api_count: 4
+  score_band: developing
+  score_composite: 51.6
   shared: 1
 - slug: adobe-creative-cloud
   name: Adobe Creative Cloud
@@ -144,16 +151,9 @@ providers:
 - slug: blng
   name: Blng
   description: BLNG is an AI-driven creative suite for the jewelry industry, giving jewelers, designers, brands, and retailers tools to explore, refine, and present designs fast and without compromise. Its Design product turns sketches, doodles, photos, illustrations, or text prompts into photorealistic rendering…
-  api_count: 4
+  api_count: 3
   score_band: developing
-  score_composite: 50.4
-  shared: 1
-- slug: adobe-creative-suite
-  name: Adobe Creative Suite
-  description: Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography.
-  api_count: 4
-  score_band: developing
-  score_composite: 50.2
+  score_composite: 50.5
   shared: 1
 - slug: swaggerhub
   name: SwaggerHub
@@ -162,19 +162,19 @@ providers:
   score_band: developing
   score_composite: 48.5
   shared: 1
+- slug: autocad
+  name: AutoCAD
+  description: APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities through Autodesk Platform Services (APS, formerly Forge) and desktop development environments including AutoLISP, ObjectARX, .NET, and JavaScript.
+  api_count: 6
+  score_band: developing
+  score_composite: 47.7
+  shared: 1
 - slug: 99designs
   name: 99designs
   description: 99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.…
   api_count: 1
   score_band: developing
   score_composite: 46.6
-  shared: 1
-- slug: autocad
-  name: AutoCAD
-  description: APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities through Autodesk Platform Services (APS, formerly Forge) and desktop development environments including AutoLISP, ObjectARX, .NET, and JavaScript.
-  api_count: 6
-  score_band: developing
-  score_composite: 46.3
   shared: 1
 - slug: adobe-illustrator
   name: Adobe Illustrator
@@ -197,6 +197,13 @@ providers:
   score_band: developing
   score_composite: 42.6
   shared: 1
+- slug: google-fonts
+  name: Google Fonts Developer
+  description: The Google Fonts Developer API provides programmatic access to the metadata for all font families served by Google Fonts. Developers can query for available font families, retrieve details about variants, subsets, and categories, access font file URLs, and work with variable font axis metadata. The…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.4
+  shared: 1
 - slug: hey-api
   name: Hey API
   description: Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR hooks, MSW and Playwright test doubles, and Fastify/NestJS/Hon…
@@ -204,17 +211,10 @@ providers:
   score_band: developing
   score_composite: 41.5
   shared: 1
-- slug: google-fonts
-  name: Google Fonts Developer
-  description: The Google Fonts Developer API provides programmatic access to the metadata for all font families served by Google Fonts. Developers can query for available font families, retrieve details about variants, subsets, and categories, access font file URLs, and work with variable font axis metadata. The…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.0
-  shared: 1
-- slug: uxpin
-  name: UXPin
-  description: UXPin is an AI-powered, code-based design and prototyping platform where designers work with real production React components instead of vector approximations. Its Merge technology syncs a team's design system from Git or Storybook onto the design canvas, its Forge AI assistant generates and iterat…
-  api_count: 0
+- slug: allspice-io
+  name: AllSpice.io
+  description: AllSpice.io provides a platform for hardware engineering teams to manage design data, collaborate on schematics, and automate releases with AI assistance. The service offers version control, design review tools, secure document sharing, and integration with issue trackers. It targets electrical eng…
+  api_count: 2
   score_band: developing
   score_composite: 40.5
   shared: 1
@@ -224,54 +224,55 @@ provider_slugs:
 - stoplight
 - canva
 - routebase
-- savee
+- autodesk
 - onshape
 - figma
-- autodesk
+- savee
 - thebrief
 - smartbear
 - zeroheight
 - budgetpixel
 - apidog
-- insomnia
 - ceros
+- insomnia
+- adobe-creative-suite
 - adobe-creative-cloud
 - sssnack-com
 - napkin
 - blng
-- adobe-creative-suite
 - swaggerhub
-- 99designs
 - autocad
+- 99designs
 - adobe-illustrator
 - gamma
 - apiary
-- hey-api
 - google-fonts
+- hey-api
+- allspice-io
 - uxpin
 - rapidapi
 - zally
-- allspice-io
 - acelab
 - kittl
 - api-blueprint
 - tdaycom
 - havenly
 - ogen
+- inkstudioai-com
 - zeplin
 - superside
 - penpot
 - apple-keynote
+- recraft
 - noun-project
 - apicurio
-- recraft
 - ux-magic-ai
 - beautifulai
+- paperless-post
 - voiden
 - typespec
 - api-fiddle
 - makerbot
-- paperless-post
 - allo
 - rayon
 - snaptrude
@@ -279,6 +280,7 @@ provider_slugs:
 - brandai
 - conektto
 - apiops-cycles-canvas
+- finsweet
 - smithy
 - modeinspect
 - apiwiz
@@ -287,36 +289,37 @@ provider_slugs:
 - prezi
 - the-color-api
 - uizard-technologies
+- spline
+- moonchild
 - make-the-dot
 - rive
 - paper
 - vacuum
-- spline
 - domestika
 - glyf
 - spectral
+- soa
 - vizcom
 - taste
 - abstract
-- soa
+- framer
 - presentationsai
 - shapr3d
-- framer
 - pulse-labs
 - versioning-protocols
+- sketch
 - lottiefiles
 - rest
-- sketch
 - speclynx
 - creativelive
-- spotlight-rules
+- mockko
+- user-stories
 - illoca
 - concepts
 - connexion
 - creative-market
 - artlimesd1e6
 - api-stack
-- user-stories
 - nexus-ai
 - avocode
 - scoutzie
@@ -325,12 +328,14 @@ provider_slugs:
 - design-patterns
 - utopia
 - sxd
+- customink-api
+- dailyobjectscom
 - jargon
 - api-insights
 - pic-collage
-- customink-api
 - higharc
 - povio
+- reprezen
 - knoll
 - designstripe
 - caba
@@ -339,6 +344,7 @@ provider_slugs:
 - icons8
 - lordicon
 - colourlovers
+- lunchbadger
 - cooper-hewitt
 - antidot
 - bravegroup
@@ -373,7 +379,7 @@ related:
   shared: 6
 - slug: testing
   name: Testing
-  shared: 5
+  shared: 4
 - slug: ai-automation
   name: AI Automation
   shared: 3
@@ -389,7 +395,7 @@ related:
 overview: 'Design is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [design.apievangelist.com](https://design.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, Adobe Suite, Stoplight, Canva, Routebase, Savee, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, Adobe Suite, Stoplight, Canva, Routebase, Autodesk, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation, Testing, AI Automation, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'

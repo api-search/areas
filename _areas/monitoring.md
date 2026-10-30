@@ -6,14 +6,14 @@ description: An index and topic collection covering API monitoring, application 
 area_url: https://monitoring.apievangelist.com
 area_host: monitoring.apievangelist.com
 icon: https://monitoring.apievangelist.com/icon-thumb.png
-provider_count: 249
+provider_count: 275
 providers:
 - slug: dynatrace
   name: Dynatrace
   description: Dynatrace is a software intelligence platform that provides application performance monitoring, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management.
   api_count: 6
   score_band: exemplar
-  score_composite: 84.8
+  score_composite: 84.5
   shared: 1
 - slug: redocly
   name: Redocly
@@ -32,7 +32,7 @@ providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 1
@@ -50,13 +50,6 @@ providers:
   score_band: exemplar
   score_composite: 77.6
   shared: 1
-- slug: elk-stack
-  name: Elastic Stack
-  description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
-  api_count: 19
-  score_band: exemplar
-  score_composite: 77.0
-  shared: 1
 - slug: bugsnag
   name: Bugsnag
   description: BugSnag is an application stability monitoring platform from SmartBear that helps software teams detect, diagnose and fix errors in web, mobile, desktop and back-end applications. It combines error monitoring, real user monitoring and end-to-end distributed tracing behind a stability score that tel…
@@ -64,17 +57,24 @@ providers:
   score_band: exemplar
   score_composite: 76.9
   shared: 1
+- slug: elk-stack
+  name: Elastic Stack
+  description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
+  api_count: 10
+  score_band: exemplar
+  score_composite: 76.9
+  shared: 1
 - slug: controlup
   name: ControlUp
   description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Paral…
-  api_count: 32
+  api_count: 12
   score_band: exemplar
   score_composite: 75.6
   shared: 1
 - slug: thousandeyes
   name: ThousandEyes
   description: ThousandEyes is Cisco's digital experience monitoring platform, acquired in 2020 and operated as part of Cisco Networking. It runs a global fleet of Cloud, Enterprise, Endpoint and Connected Device agents that measure network paths, BGP routing, DNS, application response and internet outages end to…
-  api_count: 53
+  api_count: 27
   score_band: exemplar
   score_composite: 75.6
   shared: 1
@@ -88,16 +88,23 @@ providers:
 - slug: logicmonitor
   name: LogicMonitor
   description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
-  api_count: 4
+  api_count: 2
   score_band: exemplar
-  score_composite: 73.1
+  score_composite: 72.6
   shared: 1
 - slug: checkly
   name: Checkly
   description: Checkly is a code-first reliability platform for synthetic monitoring, uptime monitoring, alerting and AI-assisted incident investigation. Engineering teams define monitors as versioned code with the Checkly CLI, Terraform or Pulumi, reuse existing Playwright suites as production browser checks, an…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.5
+  shared: 1
+- slug: bigpanda
+  name: BigPanda
+  description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
+  api_count: 29
+  score_band: exemplar
+  score_composite: 71.6
   shared: 1
 - slug: new-relic
   name: New Relic
@@ -105,13 +112,6 @@ providers:
   api_count: 5
   score_band: exemplar
   score_composite: 71.0
-  shared: 1
-- slug: bigpanda
-  name: BigPanda
-  description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
-  api_count: 29
-  score_band: exemplar
-  score_composite: 70.3
   shared: 1
 - slug: laravel
   name: Laravel
@@ -123,7 +123,7 @@ providers:
 - slug: rtcstats
   name: rtcStats
   description: SaaS for developers to troubleshoot and monitor WebRTC applications. Users upload webrtc-internals/rtcstats dumps or stream stats to receive metrics, Observations, Deductions, an Experience Score, and an AI root-cause summary. Offers a REST API, a hosted MCP server, and an open-source collection SD…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 69.2
   shared: 1
@@ -137,7 +137,7 @@ providers:
 - slug: hyperdx
   name: HyperDX
   description: HyperDX is an open-source observability platform that unifies logs, metrics, traces, session replay and errors on top of ClickHouse and OpenTelemetry, giving engineers one place to search raw events, correlate a log line to its trace and that span to a session replay, build dashboards and run thres…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 68.1
   shared: 1
@@ -155,6 +155,13 @@ providers:
   score_band: exemplar
   score_composite: 67.0
   shared: 1
+- slug: embrace
+  name: Embrace
+  description: Embrace is a user-focused observability platform for mobile and web applications, built on OpenTelemetry. Its SDKs for iOS, Android, React Native, Flutter, Unity and the browser capture full-fidelity session, crash, exception, log, trace and network telemetry from real users, and the platform turns…
+  api_count: 3
+  score_band: strong
+  score_composite: 66.4
+  shared: 1
 - slug: splunk-observability
   name: Splunk Observability Cloud
   description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk…'
@@ -162,26 +169,19 @@ providers:
   score_band: strong
   score_composite: 66.3
   shared: 1
+- slug: google-cloud-logging
+  name: Google Cloud Logging
+  description: Google Cloud Logging is a fully managed, real-time log management service that ingests, stores, searches, analyzes, routes and alerts on application and system log data at scale across Google Cloud, AWS and on-premises environments. The v2 API writes log entries and manages the configuration surfac…
+  api_count: 1
+  score_band: strong
+  score_composite: 66.1
+  shared: 1
 - slug: grafana-loki
   name: Grafana Loki
   description: Grafana Loki is Grafana Labs' open source log aggregation system — "like Prometheus, but for logs." Rather than full-text indexing log contents, Loki indexes only a small set of labels per log stream and stores the compressed lines in object storage, which is what makes it cheap to run at scale. It…
   api_count: 3
   score_band: strong
   score_composite: 66.1
-  shared: 1
-- slug: google-cloud-logging
-  name: Google Cloud Logging
-  description: Google Cloud Logging is a fully managed, real-time log management service that ingests, stores, searches, analyzes, routes and alerts on application and system log data at scale across Google Cloud, AWS and on-premises environments. The v2 API writes log entries and manages the configuration surfac…
-  api_count: 1
-  score_band: strong
-  score_composite: 65.9
-  shared: 1
-- slug: embrace
-  name: Embrace
-  description: Embrace is a user-focused observability platform for mobile and web applications, built on OpenTelemetry. Its SDKs for iOS, Android, React Native, Flutter, Unity and the browser capture full-fidelity session, crash, exception, log, trace and network telemetry from real users, and the platform turns…
-  api_count: 3
-  score_band: strong
-  score_composite: 65.1
   shared: 1
 - slug: honeycomb
   name: Honeycomb
@@ -193,7 +193,7 @@ providers:
 - slug: stack-moxie
   name: Stack Moxie
   description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.5
   shared: 1
@@ -207,7 +207,7 @@ providers:
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living OpenAPI spec.
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 1
@@ -216,7 +216,7 @@ providers:
   description: Dash0 is an OpenTelemetry-native observability platform for engineering teams who want full visibility into logs, metrics, traces, profiles and events without operating complex pipelines or proprietary agents. Founded in 2023 (Series B, $110M, 2026), Dash0 ingests OTLP natively, correlates signals…
   api_count: 1
   score_band: strong
-  score_composite: 63.1
+  score_composite: 63.5
   shared: 1
 provider_slugs:
 - dynatrace
@@ -225,139 +225,148 @@ provider_slugs:
 - postman
 - datadog
 - elastic
-- elk-stack
 - bugsnag
+- elk-stack
 - controlup
 - thousandeyes
 - oracle-cloud
 - logicmonitor
 - checkly
-- new-relic
 - bigpanda
+- new-relic
 - laravel
 - rtcstats
 - aws-lambda
 - hyperdx
 - monte-carlo
 - betterstack
-- splunk-observability
-- grafana-loki
-- google-cloud-logging
 - embrace
+- splunk-observability
+- google-cloud-logging
+- grafana-loki
 - honeycomb
 - stack-moxie
 - grafana-com
 - routebase
 - dash0
+- observeinc
 - groundcover
-- moesif
+- amazon-guardduty
 - adslighthouse
 - phare
-- observeinc
+- appsignal
+- moesif
 - moogsoft
 - social-fetch
 - solarwinds
-- amazon-guardduty
 - chronosphere
 - influxdata
 - dun-and-bradstreet
+- amazon-cloudwatch
 - sifflet
 - geneos
+- broke2builtai-com
 - amazon-xray
 - edge-delta
-- amazon-cloudwatch
 - splunk
-- galileo-technologies
 - azure-log-analytics
 - conviva
 - microsoft-azure-monitor
-- broke2builtai-com
 - elastic-observability
 - sciencelogic
+- galileo-technologies
+- latitude-so
 - metaplane
 - raygun
 - bluejay
-- verifiable
-- lightrun
-- smartbear
 - cloudwatch
 - socure
+- coralogix
+- lightrun
+- smartbear
+- verifiable
 - zelto
 - kentik
+- amazon-managed-grafana
 - vividcortex
 - bigeye
 - openzeppelin
 - bitdrift
-- amazon-managed-grafana
 - axiom
+- amazon-managed-prometheus
 - hacknotice
 - catchpoint
 - oracle-enterprise-manager
 - apicontext
 - zenoss
-- amazon-managed-prometheus
 - ninjaone
 - diligent
 - agnost-ai
-- coralogix
 - virtual-instruments
-- spectrumoutage-api
+- zespan
+- amazon-monitron
 - agenthealthmonitor-xyz
 - sumo-logic
+- opsgenie
+- spectrumoutage-api
 - lumigo
 - signoz
-- amazon-monitron
 - hookpulse
-- pixie
 - opik
+- pixie
 - assertible
-- opsgenie
 - laminar
 - apinizer
-- solar-edge
-- anomaly-detection
 - sematext
 - sysdig
+- google-cloud-operations-suite
+- solar-edge
 - cleaninglab
 - sentio
 - braintrust
-- google-cloud-operations-suite
-- healthchecks-io
+- promptlens
 - doctor-droid
+- healthchecks-io
 - pagerduty
 - deeptrace
 - forta
+- trackmcp
+- dell-servers
 - superlog
-- venueauthority
+- anomaly-detection
+- google-cloud-endpoints
+- opsmeter
 - chamber
 - uselemma
 - endpointblank
 - appneta
+- blacksky
 - rollbar
-- dell-servers
-- apitoolkit
-- google-cloud-endpoints
-- supply-wisdom
-- xproapi
+- nodesource
 - sorry
+- apitoolkit
 - google-cloud-monitoring
+- supply-wisdom
+- venueauthority
+- xproapi
+- site24x7
+- vigil-wtf
 - vapor-io
 - raindrop
-- spyderbat
 - pickedbyagents
-- vigil-wtf
+- spyderbat
 - opentelemetry
-- site24x7
 - kloudfuse
 - tempo
 - netdata
 - motadata
+- virtuprobe
 - judgment-labs
+- 1factory
+- appdynamics
 - signl4
 - sensu
-- appdynamics
 - loggly
-- 1factory
 - axiom-controller
 - kotzilla
 - tableaux-de-bord
@@ -367,57 +376,66 @@ provider_slugs:
 - blocktorch
 - jaeger
 - prometheus-io
-- zabbix
-- cronitor
-- uptrace
-- adt
 - statuspage
+- zabbix
+- adt
+- uptrace
+- cronitor
 - atla
 - kibana
 - spike-sh
 - truebiz
-- timber
 - instana
+- timber
+- openstatus
 - pepperdata
 - keywordsai
 - hypernative
 - unravel
-- openstatus
 - sendible
 - thanos
 - victoriametrics
+- incident-io
 - controlupinc
 - athina
 - nodeping
 - pushover
 - apiposture
 - literalai
+- middleware
 - uptime-com
-- incident-io
+- quality-clouds
 - sonarly
 - lightstep
-- middleware
+- toladata
+- flashduty
+- skylight
 - notyfi
 - deep-sentinel
 - spring-boot-admin-console
+- thirdwatch
 - groundwork-open-source
 - deepchecks
 - headspin
 - sentrial
+- apache-skywalking
 - codenotary
 - perses
-- apache-skywalking
 - control-seat
 - hydrolix
+- llmstatus
 - ca
 - runscope
 - maxim
 - pulse-grow
+- emporia-energy
 - oneapm
 - pingdom
+- changedetection-io
+- lytix
 - tanaza
 - log4j
-- emporia-energy
+- preval
 - assetwatch
 - ammp
 - streamfold
@@ -426,9 +444,11 @@ provider_slugs:
 - humio
 - aceiss
 - amperecloud
+- oneteg
 - blocknative
 - api-stack
 - assertsai
+- gatus
 - growatt
 - omnidian
 - corrosionradar
@@ -437,27 +457,33 @@ provider_slugs:
 - monitoring
 - alinia-ai
 - optoscale
+- prompthalo
 - teserac
-- dorado-software-inc
-- bnovatetechnologies
 - chargerhelp
+- dorado-software-inc
+- saaspec
+- bnovatetechnologies
 - analysis
+- obseva
 - captains-eye
 - skyfri
 - lattice-health
 - scalyr
-- blacksky
 - fox-tech
 - nimsoft
 - empirix
 - breathmedical
 - clanztechnologies
+- metrist
+- scouter-com-mx
+- trymohi
 - nova-metrix
 - process-sensing-technologies
 - api-fortress
 - amixrio
 - information-technology-infrastructure
 - oneasp
+- glances
 - observability
 - amazon-lookout-for-metrics
 - bluestripe-software

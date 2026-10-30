@@ -47,8 +47,8 @@ providers:
   name: LF Research
   description: LF Research is the Linux Foundation's research arm that publishes reports and studies on open source trends, OSPO practices, technology adoption, and industry analysis. It provides data-driven insights to help organizations understand and participate in open source ecosystems.
   api_count: 1
-  score_band: minimal
-  score_composite: 10.0
+  score_band: emerging
+  score_composite: 11.4
   shared: 1
 - slug: api-insights
   name: API Insights

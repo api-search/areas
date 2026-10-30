@@ -6,19 +6,19 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://testing.apievangelist.com
 area_host: testing.apievangelist.com
 icon: https://testing.apievangelist.com/icon-thumb.png
-provider_count: 178
+provider_count: 190
 providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
-  api_count: 22
+  api_count: 21
   score_band: exemplar
   score_composite: 78.0
   shared: 2
 - slug: keploy
   name: Keploy
   description: Open-source, AI-native testing platform that captures real production API traffic with eBPF and replays it in CI as deterministic tests, auto-generated mocks, and production-like sandboxes with zero code changes. Publishes a first-party OpenAPI 3.0.3 for its Cloud REST API, a hosted MCP server with…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 57.1
   shared: 2
@@ -53,7 +53,7 @@ providers:
 - slug: testim-io
   name: Testim
   description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-engineering portfolio. It exposes a public REST API (api.test…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.3
   shared: 2
@@ -85,19 +85,33 @@ providers:
   score_band: emerging
   score_composite: 16.4
   shared: 2
+- slug: roark
+  name: Roark
+  description: Roark provides a platform for voice AI testing, evaluation, and continuous improvement. Their services include simulation testing, post‑call analysis, human review, and self‑improvement loops for voice agents across industries such as healthcare, finance, insurance, and retail. Roark helps organiza…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 72.6
+  shared: 1
 - slug: checkly
   name: Checkly
   description: Checkly is a code-first reliability platform for synthetic monitoring, uptime monitoring, alerting and AI-assisted incident investigation. Engineering teams define monitors as versioned code with the Checkly CLI, Terraform or Pulumi, reuse existing Playwright suites as production browser checks, an…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.5
   shared: 1
 - slug: tricentis
   name: Tricentis
   description: Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, Tosca Cloud), AI-driven test management (qTest), performance t…
-  api_count: 9
+  api_count: 8
   score_band: exemplar
   score_composite: 68.6
+  shared: 1
+- slug: uipath
+  name: UiPath
+  description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 66.6
   shared: 1
 - slug: browserstack
   name: BrowserStack
@@ -109,37 +123,37 @@ providers:
 - slug: speakeasy
   name: Speakeasy
   description: Speakeasy provides an AI control plane platform that lets enterprises govern, secure, and observe AI agents, MCP servers, and Skills. The platform integrates with existing identity providers to assign permissioned identities to each agent and enforces policy in real time. It offers audit logs, comp…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 66.3
   shared: 1
-- slug: uipath
-  name: UiPath
-  description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
-  api_count: 6
+- slug: cekura-ai
+  name: Cekura
+  description: Cekura provides automated quality assurance for voice AI and chat AI agents. Their platform lets developers test, monitor, and continuously improve voice agents by simulating real production calls, identifying issues, and suggesting fixes. Features include benchmark comparisons across leading platf…
+  api_count: 1
   score_band: strong
-  score_composite: 65.2
+  score_composite: 65.1
   shared: 1
 - slug: stack-moxie
   name: Stack Moxie
   description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.5
   shared: 1
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living OpenAPI spec.
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.3
   shared: 1
 - slug: tempmailgrab
   name: TempMailGrab API
   description: Privacy-first disposable/temporary email service with private 24-hour inboxes, real-time WebSocket delivery, automatic OTP and verification-link extraction, attachments, webhooks, custom domains, and a versioned REST API for QA, test automation, and bots.
-  api_count: 4
+  api_count: 1
   score_band: strong
-  score_composite: 63.0
+  score_composite: 63.2
   shared: 1
 - slug: treblle
   name: Treblle
@@ -165,9 +179,9 @@ providers:
 - slug: gradle
   name: Gradle
   description: Gradle Inc. (Gradle Technologies) is the company behind the open-source Gradle Build Tool, downloaded more than 25 million times a month across the Java, JVM, Android, Kotlin, C/C++, and native ecosystems, and Develocity (formerly Gradle Enterprise), its commercial Developer Productivity Engineerin…
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 57.1
+  score_composite: 57.3
   shared: 1
 - slug: artillery
   name: Artillery
@@ -200,23 +214,9 @@ providers:
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypress, Playwright, k6, JMeter, pytest and others — then aggreg…
-  api_count: 5
+  api_count: 3
   score_band: developing
   score_composite: 52.9
-  shared: 1
-- slug: insomnia
-  name: Insomnia
-  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.4
-  shared: 1
-- slug: accessibe
-  name: accessiBe
-  description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility Act. Its portfolio spans accessWidget (an AI-driven remediat…
-  api_count: 2
-  score_band: developing
-  score_composite: 52.1
   shared: 1
 provider_slugs:
 - postman
@@ -230,11 +230,13 @@ provider_slugs:
 - supertest
 - step-ci
 - muuktest
+- roark
 - checkly
 - tricentis
+- uipath
 - browserstack
 - speakeasy
-- uipath
+- cekura-ai
 - stack-moxie
 - routebase
 - tempmailgrab
@@ -253,8 +255,8 @@ provider_slugs:
 - replay
 - elva
 - apicontext
-- automation-preflight-api
 - panaya
+- automation-preflight-api
 - rainforest-qa
 - testsigma
 - pactflow
@@ -262,25 +264,29 @@ provider_slugs:
 - emerge-tools
 - launchable
 - teamcity
+- okareo
+- promptlens
 - qa-wolf
 - localstack
-- ardent
 - autifyhq
 - apiary
 - chaos-mesh
 - codspeed
-- apitoolkit
+- nuclei
 - reflect
+- apitoolkit
+- ardent
 - copado
 - confident-cannabis
-- nuclei
 - rapidapi
 - testsprite
-- apache-jmeter
+- microworker
 - sauce-labs
 - limrun
 - selenium
+- apache-jmeter
 - cypressio
+- diffblue
 - beeceptor
 - owasp-zap
 - parea
@@ -289,16 +295,17 @@ provider_slugs:
 - pearson
 - a2apark-com
 - agent-diff
-- antithesis
-- microcks
 - ambassador
-- testmail-app
+- trafficparrot
+- antithesis
 - appium
+- microcks
+- testmail-app
 - archal
 - reqres
+- traceable
 - mockserver
 - playground
-- traceable
 - pact
 - coval-ai
 - mockoon
@@ -312,8 +319,8 @@ provider_slugs:
 - firecamp
 - scalability-testing
 - hoppscotch
-- k6
 - openlayer
+- mockfly
 - mabl
 - testiny
 - testrail
@@ -322,13 +329,16 @@ provider_slugs:
 - goreplay
 - ressl-ai
 - conektto
-- applitools
 - rest-client
 - hoverfly
 - jsonplaceholder
+- mocko
 - platzi-fake-store-api
+- mocki
 - apigit
 - jmeter
+- k6
+- applitools
 - qase
 - locust
 - thunder-client
@@ -343,6 +353,7 @@ provider_slugs:
 - restfox
 - optic
 - runscope
+- parasoft
 - testcontainers
 - testlio
 - httpstat
@@ -360,11 +371,12 @@ provider_slugs:
 - mitmproxy
 - specflow
 - evvy
+- http-client
 - newman
 - prism
-- http-client
 - api-stack
 - readyapi
+- prompteams
 - jest
 - nunit
 - mirage-js
@@ -372,6 +384,7 @@ provider_slugs:
 - voidzero
 - portman
 - dependency-injection
+- ul-solutions
 - mobileum
 - fuchsia
 - approxima
@@ -382,7 +395,6 @@ provider_slugs:
 - paw
 - nordson
 - reqbin
-- ul-solutions
 - canary
 - physical-property-testing
 - testing
@@ -403,24 +415,24 @@ related:
   shared: 6
 - slug: design
   name: Design
-  shared: 5
+  shared: 4
 - slug: monitoring
   name: Monitoring
   shared: 4
-- slug: ai-automation
-  name: AI Automation
-  shared: 2
-- slug: cli
-  name: Command Line Interface
-  shared: 2
 - slug: developer-experience
   name: Developer Experience
   shared: 2
+- slug: observability
+  name: Observability
+  shared: 2
+- slug: network
+  name: Network
+  shared: 1
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 
 
   30 providers on the network work in this area, including Postman, Keploy, SmartBear, Apidog, Bruno, Assertible, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Documentation, Design, Monitoring, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Documentation, Design, Monitoring, and Developer Experience. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

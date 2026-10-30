@@ -8,13 +8,6 @@ area_host: aiops.apievangelist.com
 icon: https://aiops.apievangelist.com/icon-thumb.png
 provider_count: 50
 providers:
-- slug: logicmonitor
-  name: LogicMonitor
-  description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 73.1
-  shared: 1
 - slug: akuity
   name: Akuity
   description: 'Akuity is the enterprise software delivery company founded by the creators of Argo CD and Kargo. The Akuity Platform is its commercial, fully-managed offering: hosted, enterprise-grade Argo CD control planes for GitOps continuous delivery, managed Kargo for multi-stage progressive promotion, the Ak…'
@@ -22,19 +15,26 @@ providers:
   score_band: exemplar
   score_composite: 73.0
   shared: 1
-- slug: soda-data
-  name: Soda
-  description: Soda is a data quality and data observability platform for the modern data stack. Its core abstraction is the data contract — a declarative YAML source of truth that defines the checks a dataset must pass — extended by organization-wide data standards, ML-based metric monitors for anomaly detection…
-  api_count: 1
+- slug: logicmonitor
+  name: LogicMonitor
+  description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
+  api_count: 2
   score_band: exemplar
-  score_composite: 70.4
+  score_composite: 72.6
   shared: 1
 - slug: bigpanda
   name: BigPanda
   description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
   api_count: 29
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 71.6
+  shared: 1
+- slug: soda-data
+  name: Soda
+  description: Soda is a data quality and data observability platform for the modern data stack. Its core abstraction is the data contract — a declarative YAML source of truth that defines the checks a dataset must pass — extended by organization-wide data standards, ML-based metric monitors for anomaly detection…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 70.4
   shared: 1
 - slug: firehydrant
   name: FireHydrant
@@ -60,7 +60,7 @@ providers:
 - slug: chronosphere
   name: Chronosphere
   description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
-  api_count: 8
+  api_count: 4
   score_band: strong
   score_composite: 60.9
   shared: 1
@@ -74,7 +74,7 @@ providers:
 - slug: deployxa
   name: Deployxa
   description: AI-first autonomous cloud deployment platform for deploying AI-built and containerized web apps to production, featuring a deployment intelligence engine, global edge deployment, managed databases, VPS clusters, and a CLI. Publishes an OpenAPI 3.0.3 contract at /openapi.json, an llms.txt, an A2A ag…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 59.5
   shared: 1
@@ -102,16 +102,23 @@ providers:
 - slug: 7signalsolutions
   name: 7SIGNAL
   description: 7SIGNAL is an enterprise wireless and wired network experience monitoring platform, headquartered in Independence, Ohio, that measures Wi-Fi and network performance from the client's point of view using vendor-agnostic Sapphire Eye hardware sensors and Mobile Eye software agents installed on endpoi…
-  api_count: 3
+  api_count: 2
   score_band: strong
-  score_composite: 57.2
+  score_composite: 56.7
+  shared: 1
+- slug: coralogix
+  name: Coralogix
+  description: Coralogix is a comprehensive observability platform that delivers real‑time log analytics, metrics, tracing, and AI‑driven insights. It enables developers, DevOps, and SRE teams to monitor applications, infrastructure, and services across cloud, on‑premise, and hybrid environments. Features include…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.5
   shared: 1
 - slug: kentik
   name: Kentik
   description: Kentik is a network observability company whose SaaS platform (the Kentik Portal) unifies network flow records, BGP routing, SNMP and streaming telemetry, synthetic tests, and cloud VPC/flow logs into one analytics engine for network performance monitoring, capacity planning, DDoS detection and mit…
   api_count: 20
   score_band: developing
-  score_composite: 53.7
+  score_composite: 54.0
   shared: 1
 - slug: zenoss
   name: Zenoss
@@ -119,13 +126,6 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 50.1
-  shared: 1
-- slug: coralogix
-  name: Coralogix
-  description: Coralogix is a comprehensive observability platform that delivers real‑time log analytics, metrics, tracing, and AI‑driven insights. It enables developers, DevOps, and SRE teams to monitor applications, infrastructure, and services across cloud, on‑premise, and hybrid environments. Features include…
-  api_count: 4
-  score_band: developing
-  score_composite: 49.2
   shared: 1
 - slug: virtual-instruments
   name: Virtana (Virtual Instruments)
@@ -158,7 +158,7 @@ providers:
 - slug: opsmill
   name: OpsMill
   description: OpsMill is the company behind Infrahub, an open-source, graph-based infrastructure data management platform that unifies a source of truth for network, data center, and cloud automation. Infrahub combines a flexible, extensible schema, native version control with branching and merging, and unified…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 45.7
   shared: 1
@@ -211,18 +211,18 @@ providers:
   score_band: thin
   score_composite: 30.7
   shared: 1
-- slug: keep
-  name: Keep
-  description: Keep is an open-source AIOps and alert management platform that unifies alerts from any monitoring tool, providing deduplication, correlation, enrichment, and workflow automation across observability, incident response, ticketing, and CMDB systems. The Keep REST API enables programmatic access to a…
-  api_count: 2
+- slug: incident-io
+  name: Incident.io
+  description: incident.io is an incident management platform that helps teams declare, manage, and learn from incidents.
+  api_count: 1
   score_band: thin
-  score_composite: 28.3
+  score_composite: 28.9
   shared: 1
 provider_slugs:
-- logicmonitor
 - akuity
-- soda-data
+- logicmonitor
 - bigpanda
+- soda-data
 - firehydrant
 - groundcover
 - moogsoft
@@ -233,9 +233,9 @@ provider_slugs:
 - sciencelogic
 - metaplane
 - 7signalsolutions
+- coralogix
 - kentik
 - zenoss
-- coralogix
 - virtual-instruments
 - brownie
 - runwhen
@@ -248,10 +248,10 @@ provider_slugs:
 - motadata
 - carrot-labs
 - kosmoslabs
-- keep
 - incident-io
-- striveworks
+- keep
 - rootly
+- striveworks
 - riverbed-technology
 - aruba-hpe
 - hyground
@@ -261,8 +261,8 @@ provider_slugs:
 - apiphani
 - blameless
 - nile-com
-- nebu
 - sevone-turbonomic
+- nebu
 - dorado-software-inc
 - velocity
 - augtera-networks
@@ -291,7 +291,7 @@ related:
 overview: 'AIOps is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aiops.apievangelist.com](https://aiops.apievangelist.com).
 
 
-  30 providers on the network work in this area, including LogicMonitor, Akuity, Soda, BigPanda, FireHydrant, Groundcover, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Akuity, LogicMonitor, BigPanda, Soda, FireHydrant, Groundcover, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Logging, Observability, Monitoring, and Agents. Browse every area at [areas.apis.io](https://apis.io/areas/).'

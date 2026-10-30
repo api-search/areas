@@ -6,7 +6,7 @@ description: An index and topic collection covering integrated development envir
 area_url: https://ide.apievangelist.com
 area_host: ide.apievangelist.com
 icon: https://ide.apievangelist.com/icon-thumb.png
-provider_count: 24
+provider_count: 25
 providers:
 - slug: github-copilot
   name: GitHub Copilot
@@ -41,14 +41,21 @@ providers:
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
   api_count: 3
   score_band: developing
-  score_composite: 48.8
+  score_composite: 50.2
   shared: 1
 - slug: amazon-cloud9
   name: Amazon Cloud9
   description: AWS Cloud9 is a browser-based integrated development environment (IDE) that enables developers to write, run, and debug code without installing local software. Supports 40+ programming languages with real-time collaboration, integrated terminal, and pre-authenticated AWS CLI.
   api_count: 2
   score_band: developing
-  score_composite: 47.9
+  score_composite: 49.5
+  shared: 1
+- slug: codenvy
+  name: Codenvy
+  description: Codenvy was a provider of cloud‑native development tools and collaborative IDEs, enabling developers to create, test, and run applications in containerized workspaces directly from a browser. Founded in 2014, Codenvy offered a platform for continuous development, integration, and delivery, later be…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.5
   shared: 1
 - slug: workday-studio
   name: Workday Studio
@@ -68,22 +75,29 @@ providers:
   name: JupyterLab
   description: JupyterLab is the next-generation web-based interactive development environment for notebooks, code, and data. It is served by Jupyter Server and ships with JupyterLab Server, which provides REST APIs for user-defined settings, workspaces, themes, translations, and license reports, alongside the Ja…
   api_count: 1
-  score_band: thin
-  score_composite: 38.2
+  score_band: developing
+  score_composite: 39.5
   shared: 1
 - slug: vs-code-marketplace
   name: VS Code Marketplace
   description: VS Code Marketplace is Microsoft's official extension marketplace for Visual Studio Code, offering thousands of extensions for languages, debuggers, themes, and developer tools. It provides a Gallery API for programmatically searching, discovering, and retrieving extension metadata, enabling integr…
   api_count: 1
   score_band: thin
-  score_composite: 36.1
+  score_composite: 36.3
   shared: 1
 - slug: windsurf
   name: Windsurf
   description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
   api_count: 1
   score_band: thin
-  score_composite: 34.7
+  score_composite: 36.0
+  shared: 1
+- slug: jetbrains-plugin
+  name: JetBrains Marketplace
+  description: JetBrains Marketplace is the official plugin and theme distribution platform for JetBrains IDEs including IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, Rider, and other IntelliJ Platform products. The marketplace hosts thousands of free and paid plugins that extend IDE functionality with new…
+  api_count: 1
+  score_band: thin
+  score_composite: 30.0
   shared: 1
 - slug: nx-dev
   name: Nx
@@ -92,19 +106,12 @@ providers:
   score_band: thin
   score_composite: 29.9
   shared: 1
-- slug: jetbrains-plugin
-  name: JetBrains Marketplace
-  description: JetBrains Marketplace is the official plugin and theme distribution platform for JetBrains IDEs including IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, Rider, and other IntelliJ Platform products. The marketplace hosts thousands of free and paid plugins that extend IDE functionality with new…
-  api_count: 1
-  score_band: thin
-  score_composite: 28.6
-  shared: 1
 - slug: microsoft-visual-studio
   name: Microsoft Visual Studio
   description: Microsoft Visual Studio is an integrated development environment (IDE) for building applications. It provides APIs for extending the IDE functionality, publishing extensions to the marketplace, and building VS Code extensions.
   api_count: 4
   score_band: thin
-  score_composite: 27.2
+  score_composite: 28.6
   shared: 1
 - slug: stackblitz
   name: StackBlitz
@@ -148,6 +155,13 @@ providers:
   score_band: emerging
   score_composite: 11.9
   shared: 1
+- slug: codeium
+  name: Codeium
+  description: Codeium has been rebranded as Windsurf. The codeium.com URL now redirects to windsurf.com. The legacy Codeium product offered AI-powered code completion, search, and chat across IDEs (VS Code, JetBrains, Vim, Emacs, etc.). Codeium for Enterprise lives on as the enterprise / self-host SKU within Win…
+  api_count: 2
+  score_band: minimal
+  score_composite: 10.4
+  shared: 1
 - slug: ide
   name: IDE
   description: An index and topic collection covering integrated development environments (IDEs), code editors, and cloud workspaces with APIs. This topic captures the editors, IDEs, and developer workspaces that expose programmable surfaces, including local desktop IDEs (Visual Studio, JetBrains IDEs, Eclipse),…
@@ -161,13 +175,6 @@ providers:
   api_count: 0
   score_band: minimal
   score_composite: 9.3
-  shared: 1
-- slug: codeium
-  name: Codeium
-  description: Codeium has been rebranded as Windsurf. The codeium.com URL now redirects to windsurf.com. The legacy Codeium product offered AI-powered code completion, search, and chat across IDEs (VS Code, JetBrains, Vim, Emacs, etc.). Codeium for Enterprise lives on as the enterprise / self-host SKU within Win…
-  api_count: 2
-  score_band: minimal
-  score_composite: 9.1
   shared: 1
 - slug: integrated-development-environment
   name: Integrated Development Environment
@@ -183,13 +190,14 @@ provider_slugs:
 - jetbrains
 - choreo
 - amazon-cloud9
+- codenvy
 - workday-studio
 - anysphere
 - jupyterlab
 - vs-code-marketplace
 - windsurf
-- nx-dev
 - jetbrains-plugin
+- nx-dev
 - microsoft-visual-studio
 - stackblitz
 - qt
@@ -197,9 +205,9 @@ provider_slugs:
 - refact-ai
 - clad-labs
 - visual-studio-code
+- codeium
 - ide
 - editorconfig
-- codeium
 - integrated-development-environment
 related:
 - slug: unified-apis
@@ -223,7 +231,7 @@ related:
 overview: 'IDE is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ide.apievangelist.com](https://ide.apievangelist.com).
 
 
-  24 providers on the network work in this area, including GitHub Copilot, Eclipse Foundation, Cursor, JetBrains, Choreo, Amazon Cloud9, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  25 providers on the network work in this area, including GitHub Copilot, Eclipse Foundation, Cursor, JetBrains, Choreo, Amazon Cloud9, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Unified APIs, FinOps, Machine Learning, and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'

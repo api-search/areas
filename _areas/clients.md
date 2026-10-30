@@ -13,7 +13,7 @@ providers:
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 1
   score_band: developing
-  score_composite: 52.4
+  score_composite: 52.6
   shared: 1
 - slug: apollo-graphql
   name: Apollo GraphQL
@@ -85,19 +85,19 @@ providers:
   score_band: emerging
   score_composite: 18.1
   shared: 1
+- slug: http-client
+  name: HTTP Client
+  description: HTTP Client is JetBrains' built-in tool for creating, editing, and executing HTTP requests directly from the IDE. Requests are stored in .http and .rest files alongside source code, with code highlighting, completion for hosts and methods, code folding, inline documentation, and live templates acce…
+  api_count: 1
+  score_band: emerging
+  score_composite: 14.3
+  shared: 1
 - slug: yaak
   name: Yaak
   description: Yaak is an open-source desktop API client for organizing and executing REST, GraphQL, WebSockets, Server Sent Events, and gRPC requests. Built with Tauri, Rust, and React, it is a privacy-first, fast desktop client with no telemetry and no cloud lock-in.
   api_count: 1
   score_band: emerging
   score_composite: 13.9
-  shared: 1
-- slug: http-client
-  name: HTTP Client
-  description: HTTP Client is JetBrains' built-in tool for creating, editing, and executing HTTP requests directly from the IDE. Requests are stored in .http and .rest files alongside source code, with code highlighting, completion for hosts and methods, code folding, inline documentation, and live templates acce…
-  api_count: 1
-  score_band: emerging
-  score_composite: 12.9
   shared: 1
 - slug: got
   name: Got
@@ -146,8 +146,8 @@ provider_slugs:
 - node-fetch
 - wget
 - httpx
-- yaak
 - http-client
+- yaak
 - got
 - paw
 - nightingale
@@ -165,9 +165,6 @@ related:
   shared: 1
 - slug: orchestration
   name: Orchestration
-  shared: 1
-- slug: testing
-  name: Testing
   shared: 1
 overview: 'Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [clients.apievangelist.com](https://clients.apievangelist.com).
 

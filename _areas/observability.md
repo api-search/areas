@@ -6,14 +6,14 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://observability.apievangelist.com
 area_host: observability.apievangelist.com
 icon: https://observability.apievangelist.com/icon-thumb.png
-provider_count: 350
+provider_count: 363
 providers:
 - slug: dynatrace
   name: Dynatrace
   description: Dynatrace is a software intelligence platform that provides application performance monitoring, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management.
   api_count: 6
   score_band: exemplar
-  score_composite: 84.8
+  score_composite: 84.5
   shared: 1
 - slug: datadog-apm
   name: Datadog APM
@@ -25,9 +25,9 @@ providers:
 - slug: launchdarkly
   name: LaunchDarkly
   description: LaunchDarkly is a feature management and runtime control platform. Development teams use it to wrap releases in feature flags, target variations at specific users, contexts, segments and environments, run experiments and guarded rollouts, and turn a change back off without shipping new code. The pl…
-  api_count: 3
+  api_count: 4
   score_band: exemplar
-  score_composite: 79.3
+  score_composite: 79.7
   shared: 1
 - slug: sentry-system
   name: Sentry
@@ -43,17 +43,10 @@ providers:
   score_band: exemplar
   score_composite: 77.6
   shared: 1
-- slug: elk-stack
-  name: Elastic Stack
-  description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
-  api_count: 19
-  score_band: exemplar
-  score_composite: 77.0
-  shared: 1
 - slug: relevance-ai
   name: Relevance AI
   description: Relevance AI is an agent platform for building, testing and running specialist AI agents and multi-agent "workforces" — teams of agents that coordinate on a shared goal. Domain experts build agents in a no-code visual builder, hold them to pass/fail quality bars with a built-in evals system, and co…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 77.0
   shared: 1
@@ -64,40 +57,54 @@ providers:
   score_band: exemplar
   score_composite: 76.9
   shared: 1
+- slug: elk-stack
+  name: Elastic Stack
+  description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
+  api_count: 10
+  score_band: exemplar
+  score_composite: 76.9
+  shared: 1
 - slug: controlup
   name: ControlUp
   description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Paral…
-  api_count: 32
+  api_count: 12
   score_band: exemplar
   score_composite: 75.6
   shared: 1
 - slug: thousandeyes
   name: ThousandEyes
   description: ThousandEyes is Cisco's digital experience monitoring platform, acquired in 2020 and operated as part of Cisco Networking. It runs a global fleet of Cloud, Enterprise, Endpoint and Connected Device agents that measure network paths, BGP routing, DNS, application response and internet outages end to…
-  api_count: 53
+  api_count: 27
   score_band: exemplar
   score_composite: 75.6
   shared: 1
 - slug: logicmonitor
   name: LogicMonitor
   description: LogicMonitor is an AI-powered hybrid observability and AIOps platform that monitors infrastructure, cloud and multi-cloud estates, containers, networks, databases, storage, logs, traces, websites and internet performance from a single SaaS portal, with an agentic AIOps layer (Edwin AI) for event co…
-  api_count: 4
+  api_count: 2
   score_band: exemplar
-  score_composite: 73.1
+  score_composite: 72.6
   shared: 1
 - slug: checkly
   name: Checkly
   description: Checkly is a code-first reliability platform for synthetic monitoring, uptime monitoring, alerting and AI-assisted incident investigation. Engineering teams define monitors as versioned code with the Checkly CLI, Terraform or Pulumi, reuse existing Playwright suites as production browser checks, an…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.5
   shared: 1
 - slug: scvd-store
   name: SCVD General Store
   description: Record Creative Co. LLC is the one-person Oak City, North Carolina company that operates scvd.store — "Sean-Claude Van Damme's General Store", an evidence observatory for agentic commerce and a general store for AI agents. It independently verifies x402 payment endpoints, signed offers and receipts…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.2
+  shared: 1
+- slug: bigpanda
+  name: BigPanda
+  description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
+  api_count: 29
+  score_band: exemplar
+  score_composite: 71.6
   shared: 1
 - slug: new-relic
   name: New Relic
@@ -106,17 +113,10 @@ providers:
   score_band: exemplar
   score_composite: 71.0
   shared: 1
-- slug: bigpanda
-  name: BigPanda
-  description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
-  api_count: 29
-  score_band: exemplar
-  score_composite: 70.3
-  shared: 1
 - slug: rtcstats
   name: rtcStats
   description: SaaS for developers to troubleshoot and monitor WebRTC applications. Users upload webrtc-internals/rtcstats dumps or stream stats to receive metrics, Observations, Deductions, an Experience Score, and an AI root-cause summary. Offers a REST API, a hosted MCP server, and an open-source collection SD…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 69.2
   shared: 1
@@ -130,7 +130,7 @@ providers:
 - slug: hyperdx
   name: HyperDX
   description: HyperDX is an open-source observability platform that unifies logs, metrics, traces, session replay and errors on top of ClickHouse and OpenTelemetry, giving engineers one place to search raw events, correlate a log line to its trace and that span to a session replay, build dashboards and run thres…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 68.1
   shared: 1
@@ -140,6 +140,13 @@ providers:
   api_count: 1
   score_band: exemplar
   score_composite: 67.0
+  shared: 1
+- slug: embrace
+  name: Embrace
+  description: Embrace is a user-focused observability platform for mobile and web applications, built on OpenTelemetry. Its SDKs for iOS, Android, React Native, Flutter, Unity and the browser capture full-fidelity session, crash, exception, log, trace and network telemetry from real users, and the platform turns…
+  api_count: 3
+  score_band: strong
+  score_composite: 66.4
   shared: 1
 - slug: ibm
   name: IBM
@@ -155,6 +162,13 @@ providers:
   score_band: strong
   score_composite: 66.3
   shared: 1
+- slug: google-cloud-logging
+  name: Google Cloud Logging
+  description: Google Cloud Logging is a fully managed, real-time log management service that ingests, stores, searches, analyzes, routes and alerts on application and system log data at scale across Google Cloud, AWS and on-premises environments. The v2 API writes log entries and manages the configuration surfac…
+  api_count: 1
+  score_band: strong
+  score_composite: 66.1
+  shared: 1
 - slug: grafana-loki
   name: Grafana Loki
   description: Grafana Loki is Grafana Labs' open source log aggregation system — "like Prometheus, but for logs." Rather than full-text indexing log contents, Loki indexes only a small set of labels per log stream and stores the compressed lines in object storage, which is what makes it cheap to run at scale. It…
@@ -162,19 +176,12 @@ providers:
   score_band: strong
   score_composite: 66.1
   shared: 1
-- slug: google-cloud-logging
-  name: Google Cloud Logging
-  description: Google Cloud Logging is a fully managed, real-time log management service that ingests, stores, searches, analyzes, routes and alerts on application and system log data at scale across Google Cloud, AWS and on-premises environments. The v2 API writes log entries and manages the configuration surfac…
+- slug: graphiant
+  name: Graphiant
+  description: Graphiant is a Network-as-a-Service (NaaS) provider that replaces fragmented SD-WAN, MPLS and cloud-networking stacks with a single cloud-native subscription service built on a stateless core architecture. Founded by former Viptela CTO Khalid Raza, the platform connects branches, data centers, publ…
   api_count: 1
   score_band: strong
-  score_composite: 65.9
-  shared: 1
-- slug: embrace
-  name: Embrace
-  description: Embrace is a user-focused observability platform for mobile and web applications, built on OpenTelemetry. Its SDKs for iOS, Android, React Native, Flutter, Unity and the browser capture full-fidelity session, crash, exception, log, trace and network telemetry from real users, and the platform turns…
-  api_count: 3
-  score_band: strong
-  score_composite: 65.1
+  score_composite: 65.2
   shared: 1
 - slug: honeycomb
   name: Honeycomb
@@ -193,14 +200,14 @@ providers:
 - slug: nasuni
   name: Nasuni
   description: Nasuni is an enterprise hybrid-cloud file data platform that consolidates distributed NAS and file servers into UniFS, a cloud-native global file system backed by customer-owned object storage (Azure Blob, Amazon S3, Google Cloud Storage and S3-compatible on-prem targets). Edge appliances cache hot…
-  api_count: 14
+  api_count: 7
   score_band: strong
   score_composite: 64.9
   shared: 1
 - slug: stack-moxie
   name: Stack Moxie
   description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 64.5
   shared: 1
@@ -211,38 +218,32 @@ providers:
   score_band: strong
   score_composite: 64.3
   shared: 1
-- slug: cisco-catalyst-sdwan
-  name: Cisco Catalyst SD-WAN
-  description: 'Cisco Catalyst SD-WAN, built on the Viptela platform Cisco acquired in 2017, is Cisco''s wide-area network overlay: centralized policy, application-aware routing, and secure transport across MPLS, broadband and LTE. Its controller — SD-WAN Manager, formerly vManage — exposes a REST API of 4,138 publ…'
-  api_count: 13
-  score_band: strong
-  score_composite: 63.8
-  shared: 1
 provider_slugs:
 - dynatrace
 - datadog-apm
 - launchdarkly
 - sentry-system
 - elastic
-- elk-stack
 - relevance-ai
 - bugsnag
+- elk-stack
 - controlup
 - thousandeyes
 - logicmonitor
 - checkly
 - scvd-store
-- new-relic
 - bigpanda
+- new-relic
 - rtcstats
 - aws-lambda
 - hyperdx
 - betterstack
+- embrace
 - ibm
 - splunk-observability
-- grafana-loki
 - google-cloud-logging
-- embrace
+- grafana-loki
+- graphiant
 - honeycomb
 - firehydrant
 - nasuni
@@ -251,36 +252,37 @@ provider_slugs:
 - cisco-catalyst-sdwan
 - fastly
 - acceldata
-- seekr
 - dash0
-- webscale-networks
+- seekr
+- observeinc
 - treblle
 - groundcover
+- webscale-networks
+- appsignal
 - moesif
-- observeinc
 - moogsoft
+- s2-dev
 - solarwinds
 - chronosphere
 - influxdata
-- s2-dev
+- amazon-cloudwatch
 - upsun
-- graphiant
 - geneos
 - logz-io
 - amazon-xray
 - foxglove-technologies
+- hookdeck
 - scorecard
 - edge-delta
-- hookdeck
-- amazon-cloudwatch
 - splunk
 - cisco-catalyst-center
 - conviva
 - edgee
-- microsoft-azure-monitor
 - laserdata
+- microsoft-azure-monitor
 - elastic-observability
 - sciencelogic
+- latitude-so
 - raygun
 - coval
 - vercel
@@ -288,69 +290,70 @@ provider_slugs:
 - lucent
 - bluejay
 - highlight-io
+- cloudwatch
+- coralogix
 - vijil
+- lightrun
 - portkey
 - tigera
-- lightrun
-- cloudwatch
 - larridin
 - inference
 - scale3
 - kentik
+- amazon-managed-grafana
 - vividcortex
+- grepr
 - agentgateway
 - kubeshop
 - bitdrift
 - buoyant
 - antimetal
-- amazon-managed-grafana
 - jentic
 - jam
-- cloudflare-ai-gateway
 - wundergraph
 - axiom
+- amazon-managed-prometheus
 - catchpoint
 - waxell
+- cribl
 - corelayer
 - dream-sports
+- choreo
 - apicontext
 - zenoss
-- amazon-managed-prometheus
+- aws-x-ray
 - agnost-ai
-- coralogix
-- cribl
+- cloudflare-ai-gateway
 - virtual-instruments
 - agntcy
 - mcp-manager
-- choreo
-- aws-x-ray
 - brownie
+- pydantic-ai
 - sumo-logic
 - lumigo
 - signoz
-- pydantic-ai
 - hookpulse
+- opik
 - pixie
 - codag
-- opik
 - lakeside-software
 - nexthink
 - laminar
 - runwhen
 - broadcom
 - gloo-mesh
-- anomaly-detection
+- encore-dev
 - sematext
 - sysdig
+- google-cloud-operations-suite
 - cast-ai
 - mezmo
 - apica-io
 - sentio
 - braintrust
 - polar-signals
-- encore-dev
+- promptlens
 - validio
-- google-cloud-operations-suite
 - chaossearch
 - doctor-droid
 - deeptrace
@@ -358,62 +361,64 @@ provider_slugs:
 - lunar
 - traversal
 - runreveal
-- superlog
 - instabug
+- superlog
+- anomaly-detection
+- opsmeter
 - chamber
 - uselemma
 - appneta
 - chaos-mesh
+- reqkey
+- google-cloud-trace
 - codspeed
 - archestra
 - apitoolkit
-- crewai-cloud
+- google-cloud-monitoring
 - isovalent
+- google-cloud-profiler
 - neubird
 - hami
-- reqkey
-- google-cloud-trace
+- crewai-cloud
 - secoda
 - devtron
 - openobserve
-- google-cloud-monitoring
-- scanner
-- google-cloud-profiler
-- raindrop
-- spyderbat
-- stream-security
-- pay-i
 - requesty
-- opentelemetry
 - site24x7
+- scanner
+- raindrop
+- stream-security
+- betteruptime
+- google-cloud-error-reporting
+- spyderbat
+- pay-i
+- opentelemetry
 - promptlayer
 - chaoss
-- google-cloud-error-reporting
 - kloudfuse
 - axiom-co
-- betteruptime
 - tempo
 - zipkin
 - elementl
 - netbeez
 - netdata
 - opensearch
-- scale-computing
 - motadata
-- langsmith
+- virtuprobe
 - judgment-labs
-- sensu
+- scale-computing
 - appdynamics
+- sensu
 - devo
 - loggly
 - axiom-controller
 - qpoint
 - parea
-- calyptia
+- linkerd
 - kotzilla
 - quickwit
 - apache-zipkin
-- linkerd
+- calyptia
 - nagios
 - blocktorch
 - jaeger
@@ -421,58 +426,62 @@ provider_slugs:
 - the-guild-dev
 - zabbix
 - vellum
+- infere
 - uptrace
 - apiclarity
 - honeybadger
+- langfuse
 - memfault
 - carrot-labs
 - ambient-mesh
 - velvt-ai
 - agenta
+- traceable
 - atla
 - kibana
-- langfuse
 - klu-ai
 - runlayer
+- instana
+- langsmith
+- grafbase
 - humanloop
 - nominal
-- glitchtip
 - trust3-ai
-- traceable
+- glitchtip
 - formant
 - avrea
 - timber
-- instana
+- openstatus
 - pepperdata
-- grafbase
 - zenduty
 - keywordsai
 - anodot
-- grafana-tempo
 - kosmoslabs
 - fluent-bit
 - oneuptime
-- openstatus
 - reforge
 - glama-ai
 - overops
 - thanos
+- victoriametrics
 - openlayer
 - log10
 - openllmetry
 - bluerock-security
 - hyperping
+- observee
 - keep
-- victoriametrics
+- grafana-tempo
 - lunary
 - statsd
-- freeplay
 - athina
+- freeplay
 - hyperprobe
 - tensorzero
 - literalai
 - loki
 - service-mesh
+- middleware
 - armature
 - sonarly
 - langtrace
@@ -480,7 +489,6 @@ provider_slugs:
 - akita-software
 - uptrain
 - airbrake
-- middleware
 - bentolabs-ai
 - kestrel
 - apiwiz
@@ -492,12 +500,12 @@ provider_slugs:
 - vianai-systems
 - hamming-ai
 - sentrial
+- apache-skywalking
 - ashr
 - confident-ai
 - api-dynamics
 - hyground
 - perses
-- apache-skywalking
 - agentops
 - evals
 - resurface
@@ -512,23 +520,26 @@ provider_slugs:
 - bloomfilter
 - pingdom
 - zend
+- victorops
 - actualyzeai
 - geordie
-- victorops
+- preval
+- rookout
 - streamfold
 - aira-technologies
 - sazabi
 - humio
 - effectful
 - codekarma
-- rookout
 - apiphani
 - abstract-security
+- databahn-ai
 - assertsai
 - cloudwise
 - threat-stack
 - authmind
 - nazar
+- resect
 - scuba
 - baccaai
 - graylog
@@ -537,16 +548,17 @@ provider_slugs:
 - quantum-metric
 - monitoring
 - prosimo
+- sevone-turbonomic
 - truera
 - nginx-service-mesh
 - teserac
 - opsani
-- sevone-turbonomic
 - witness-ai
 - ebpf
 - analysis
 - chemix
 - tracelytics
+- tracea
 - chronicle-labs
 - daqstra
 - lattice-health
@@ -555,6 +567,7 @@ provider_slugs:
 - nimsoft
 - observo
 - zebrium
+- metrist
 - optimyze
 - amixrio
 - opsmatic
@@ -591,7 +604,7 @@ related:
 overview: 'Observability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [observability.apievangelist.com](https://observability.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Dynatrace, Datadog APM, LaunchDarkly, Sentry, Elastic, Elastic Stack, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Dynatrace, Datadog APM, LaunchDarkly, Sentry, Elastic, Relevance AI, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monitoring, Logging, AIOps, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

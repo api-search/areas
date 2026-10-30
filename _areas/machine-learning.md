@@ -6,28 +6,28 @@ description: An index and topic collection covering machine learning APIs, MLOps
 area_url: https://machine-learning.apievangelist.com
 area_host: machine-learning.apievangelist.com
 icon: https://machine-learning.apievangelist.com/icon-thumb.png
-provider_count: 1187
+provider_count: 1202
 providers:
 - slug: anthropic
   name: Anthropic
   description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking…'
-  api_count: 6
+  api_count: 5
   score_band: exemplar
-  score_composite: 88.8
+  score_composite: 89.0
   shared: 1
 - slug: elevenlabs
   name: ElevenLabs
   description: 'ElevenLabs is an AI research and product company building voice and audio models, founded in 2022 and launched publicly in January 2023 with the first human-like AI voice model. It sells across three platforms: ElevenCreative (text to speech, speech to text, voice cloning and design, music, sound e…'
-  api_count: 13
+  api_count: 12
   score_band: exemplar
   score_composite: 80.4
   shared: 1
 - slug: elk-stack
   name: Elastic Stack
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
-  api_count: 19
+  api_count: 10
   score_band: exemplar
-  score_composite: 77.0
+  score_composite: 76.9
   shared: 1
 - slug: amazon-codeguru-profiler
   name: Amazon CodeGuru Profiler
@@ -64,19 +64,19 @@ providers:
   score_band: exemplar
   score_composite: 68.7
   shared: 1
-- slug: edge-impulse
-  name: Edge Impulse
-  description: 'Edge Impulse is the end-to-end edge AI MLOps platform for building datasets, training and optimizing machine learning models, and deploying them directly on device — from the smallest microcontrollers to gateways with the latest neural accelerators. The platform covers the whole workflow: sensor da…'
-  api_count: 3
-  score_band: exemplar
-  score_composite: 68.4
-  shared: 1
 - slug: densify
   name: Densify
   description: Densify — now trading as Kubex — provides a machine-learning driven cloud, GPU and container optimization platform that continuously right-sizes resources to cut cost and protect performance across Kubernetes, public cloud and GPU/AI infrastructure. The Kubex REST API publishes 65 operations across…
-  api_count: 43
+  api_count: 23
   score_band: exemplar
   score_composite: 68.0
+  shared: 1
+- slug: edge-impulse
+  name: Edge Impulse
+  description: 'Edge Impulse is the end-to-end edge AI MLOps platform for building datasets, training and optimizing machine learning models, and deploying them directly on device — from the smallest microcontrollers to gateways with the latest neural accelerators. The platform covers the whole workflow: sensor da…'
+  api_count: 2
+  score_band: exemplar
+  score_composite: 67.9
   shared: 1
 - slug: segmind
   name: Segmind
@@ -95,7 +95,7 @@ providers:
 - slug: nexgen-cloud
   name: NexGen Cloud
   description: NexGen Cloud Limited is a UK-headquartered AI cloud and GPU infrastructure provider. Its on-demand platform, Hyperstack, sells NVIDIA GPU and CPU virtual machines, managed Kubernetes clusters, block storage volumes, S3-compatible object storage and high-speed networking across three regions (CANADA…
-  api_count: 5
+  api_count: 3
   score_band: exemplar
   score_composite: 66.5
   shared: 1
@@ -105,6 +105,20 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 66.4
+  shared: 1
+- slug: amazon-kendra
+  name: Amazon Kendra
+  description: Amazon Kendra is an intelligent enterprise search service powered by machine learning that enables organizations to index and search across multiple data sources, delivering highly accurate and relevant answers to natural language queries.
+  api_count: 1
+  score_band: strong
+  score_composite: 66.2
+  shared: 1
+- slug: seismic
+  name: Seismic
+  description: Seismic is the global leader in enablement, helping organizations engage customers, enable teams, and ignite revenue growth. The Seismic platform provides content management, learning and coaching, dynamic document generation, and buyer engagement capabilities through a comprehensive suite of APIs.
+  api_count: 4
+  score_band: strong
+  score_composite: 66.2
   shared: 1
 - slug: google-dialogflow
   name: Google Dialogflow
@@ -130,6 +144,13 @@ providers:
 - slug: exec
   name: Exec
   description: Exec is an AI-powered roleplay and sales-training platform (exec.com) for practicing high-stakes conversations. Teams run voice-based AI roleplays, automatically score real calls, build structured programs and certifications, coach one-on-one, and manage training content in a Knowledge Hub. The Exe…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.5
+  shared: 1
+- slug: amazon-polly
+  name: Amazon Polly
+  description: Amazon Polly is a cloud service that converts text into lifelike speech, enabling you to create applications that talk and build entirely new categories of speech-enabled products. Polly supports multiple voices, languages, and audio output formats including neural and generative engines for natura…
   api_count: 2
   score_band: strong
   score_composite: 65.2
@@ -141,26 +162,12 @@ providers:
   score_band: strong
   score_composite: 65.0
   shared: 1
-- slug: seismic
-  name: Seismic
-  description: Seismic is the global leader in enablement, helping organizations engage customers, enable teams, and ignite revenue growth. The Seismic platform provides content management, learning and coaching, dynamic document generation, and buyer engagement capabilities through a comprehensive suite of APIs.
-  api_count: 4
-  score_band: strong
-  score_composite: 64.9
-  shared: 1
-- slug: amazon-kendra
-  name: Amazon Kendra
-  description: Amazon Kendra is an intelligent enterprise search service powered by machine learning that enables organizations to index and search across multiple data sources, delivering highly accurate and relevant answers to natural language queries.
-  api_count: 1
-  score_band: strong
-  score_composite: 64.8
-  shared: 1
 - slug: bria
   name: Bria
   description: Bria is an enterprise visual generative AI platform that exposes image generation, image editing, video editing, product-shot and automotive imagery, tailored (fine-tuned) model training, ads generation and content attribution as production REST APIs on engine.prod.bria-api.com. Its models are trai…
-  api_count: 10
+  api_count: 11
   score_band: strong
-  score_composite: 64.4
+  score_composite: 64.8
   shared: 1
 - slug: paperspace
   name: Paperspace
@@ -172,16 +179,16 @@ providers:
 - slug: moloco
   name: MOLOCO
   description: 'Moloco is a machine-learning advertising company that operates three developer-facing platforms: Moloco Ads (a performance demand-side platform for app marketers), Moloco Commerce Media / MCM (a retail-media platform that lets marketplaces and retailers run sponsored product, brand, display and res…'
-  api_count: 11
+  api_count: 6
   score_band: strong
   score_composite: 64.1
   shared: 1
-- slug: amazon-polly
-  name: Amazon Polly
-  description: Amazon Polly is a cloud service that converts text into lifelike speech, enabling you to create applications that talk and build entirely new categories of speech-enabled products. Polly supports multiple voices, languages, and audio output formats including neural and generative engines for natura…
-  api_count: 2
+- slug: amazon-glue-databrew
+  name: Amazon Glue DataBrew
+  description: AWS Glue DataBrew is a visual data preparation tool that makes it easy for data analysts and data scientists to clean and normalize data to prepare it for analytics and machine learning. It provides over 250 pre-built transformations to automate data preparation tasks.
+  api_count: 1
   score_band: strong
-  score_composite: 63.8
+  score_composite: 63.5
   shared: 1
 - slug: go1
   name: Go1
@@ -193,7 +200,7 @@ providers:
 - slug: posit
   name: Posit
   description: Posit, PBC (formerly RStudio) builds open-source and enterprise software for data science teams working in R and Python. Its professional products — Posit Workbench, Posit Connect, and Posit Package Manager (bundled as Posit Team), plus Posit Cloud and the Positron IDE — help organizations develop,…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 63.4
   shared: 1
@@ -204,19 +211,12 @@ providers:
   score_band: strong
   score_composite: 63.3
   shared: 1
-- slug: celonis
-  name: Celonis
-  description: Celonis is the process intelligence and process mining company. Its cloud platform ingests event data from enterprise systems, builds Knowledge Models of how business processes actually run, and surfaces KPIs, bottlenecks and automation opportunities. For developers Celonis publishes a Developer Ce…
-  api_count: 7
-  score_band: strong
-  score_composite: 62.5
-  shared: 1
-- slug: amazon-glue-databrew
-  name: Amazon Glue DataBrew
-  description: AWS Glue DataBrew is a visual data preparation tool that makes it easy for data analysts and data scientists to clean and normalize data to prepare it for analytics and machine learning. It provides over 250 pre-built transformations to automate data preparation tasks.
+- slug: amazon-quicksight
+  name: Amazon QuickSight
+  description: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards.
   api_count: 1
   score_band: strong
-  score_composite: 62.2
+  score_composite: 62.6
   shared: 1
 provider_slugs:
 - anthropic
@@ -227,111 +227,114 @@ provider_slugs:
 - qliksense
 - matlab
 - github-copilot
-- edge-impulse
 - densify
+- edge-impulse
 - segmind
 - cloudera
 - nexgen-cloud
 - ibm
+- amazon-kendra
+- seismic
 - google-dialogflow
 - amazon-sagemaker
 - pluralsight
 - exec
+- amazon-polly
 - databricks-asset-bundles
-- seismic
-- amazon-kendra
 - bria
 - paperspace
 - moloco
-- amazon-polly
+- amazon-glue-databrew
 - go1
 - posit
 - aimlapi
+- amazon-quicksight
 - celonis
-- amazon-glue-databrew
+- amazon-guardduty
 - refuel-ai
 - roboflow
 - amazon-entity-resolution
 - amazon-redshift
 - landingai
-- pyannoteai
 - modulate
-- amazon-quicksight
+- riskified
 - eden-ai
-- amazon-guardduty
+- pyannoteai
 - mithril
 - anaconda
-- riskified
 - amazon-nova
 - lalal-ai
 - rightnow
-- lightricks
-- sambanova-systems
+- amazon-macie
 - cerebras-systems
 - viam
-- galileo-technologies
-- hugging-face-transformers
+- amazon-comprehend
+- lightricks
+- sambanova-systems
+- amazon-devops-guru
+- amazon-kinesis-video-streams
+- amazon-healthimaging
 - amazon-rekognition
 - picsart
 - microsoft-azure-databricks
-- crusoe
+- galileo-technologies
 - ximilar
-- amazon-macie
+- hugging-face-transformers
 - ai-squared
+- amazon-iot-greengrass
 - h-company
 - corti
 - fixie
 - learnosity
-- amazon-comprehend
-- amazon-kinesis-video-streams
+- crusoe
 - the-san-francisco-compute-company
-- amazon-devops-guru
 - amazon-transcribe
-- amazon-healthimaging
-- simplismart
-- h2o-ai
-- aito-technologies
-- amazon-iot-greengrass
 - databricks
+- simplismart
+- aito-technologies
+- h2o-ai
 - claude
 - zenml
+- amazon-forecast
+- amazon-fraud-detector
 - replicate
+- amazon-compute-optimizer
+- amazon-lookout-for-equipment
 - openrelay
 - perfect-corp
 - datasaur
 - ocient
 - tiledb
+- kugelaudio
 - tensordock
-- amazon-forecast
-- amazon-fraud-detector
-- amazon-compute-optimizer
 - decart
 - inference
-- amazon-lookout-for-equipment
 - ocrolus
 - sail-research
 - boltz
 - fiddlerai
+- amazon-mechanical-turk
 - agibot
 - google-gemini
 - rapidata
+- amazon-personalize
 - friendliai
+- google-cloud-automl
 - sarvam
-- amazon-mechanical-turk
-- kugelaudio
 - pixeltable
 - advanced-micro-devices
 - fraud-net
 - quadrillion
-- relace
-- amazon-personalize
-- interfaze
-- typesafe-ai
-- google-cloud-automl
-- dataiku
-- instabase
-- ultralytics
 - chroma
+- relace
+- interfaze
+- coveo
+- instabase
+- genialis
+- dataiku
+- deepl
+- typesafe-ai
+- ultralytics
 - mathpix
 - pruna-ai
 - memories
@@ -343,123 +346,121 @@ provider_slugs:
 - tellius
 - weaviate
 - dataloop
-- coveo
 - exactly-ai
+- hivemapper
+- amazon-deepracer
+- teradata
 - scalarr
 - aignostics
-- qure.ai
+- lambda-labs
 - mindee
 - picsart-socialin
+- langai
 - mirage
 - runway
-- teradata
+- android
+- higgsfield
+- qure.ai
 - runware
 - numerai
 - akkio
-- amazon-deepracer
 - gptzero
+- hedra
 - runpod
 - runautomat
 - vast-ai
+- amazon-monitron
+- amazon-bedrock
 - uniphore
 - kaedim
-- deepl
-- langai
-- nixtla
-- android
-- lambda-labs
 - krisp
+- nixtla
 - moore-threads
 - tensorwave
 - multiverse-computing
 - inception
-- biodock
-- hedra
-- mistral
-- amazon-monitron
-- fastino-labs
 - salesforce-einstein
-- amazon-bedrock
+- amazon-codeguru-reviewer
+- biodock
+- mistral
+- fastino-labs
+- alteryx
 - datarobot
 - opik
+- actava
 - centaur-labs
+- google-vertex-ai
 - sonde-health
 - moondream
 - microsoft-azure-machine-learning
-- amazon-codeguru-reviewer
-- dyno
+- kensho
 - launchable
-- alteryx
 - bytez
 - tenyks
 - arcee-ai
+- google-cloud-vision
 - rasa
 - useapi
-- actava
-- higgsfield
+- dyno
 - inscribe
 - unisound
 - reducto
-- anomaly-detection
 - constellation-space
-- google-vertex-ai
+- google-cloud-video-intelligence
 - aleph-alpha
 - spyne
 - superb-ai
+- google-cloud-speech-to-text
 - moises
+- google-cloud-text-to-speech
 - flexai
-- kensho
 - qubole
 - glio
-- google-cloud-vision
 - arpeggi-labs
+- coactive
+- azure-ai-foundry
 - weights-and-biases
-- google-cloud-video-intelligence
-- green-screens-ai
-- hivemapper
-- google-cloud-speech-to-text
+- amazon-textract
 - argo-workflows
-- google-cloud-text-to-speech
+- green-screens-ai
 - runai
 - furiosa
 - kairos-ar
 - osmosis
+- renaissance
 - qlik
-- genialis
 - oxen
-- azure-ai-foundry
+- google-cloud-document-ai
 - stability-ai
 - modular
+- unify-ai
+- anomaly-detection
+- google-cloud-natural-language
 - understudy-labs
 - vehicles-dev-api
 - chalk
 - chamber
 - pryon
-- amazon-textract
 - palebluedotai
 - sahara-ai
 - nace-ai
-- resistant-ai
 - thinking-machines
 - butterpayments
 - coiled
 - indico-data
 - crunchdao
-- renaissance
-- google-cloud-document-ai
-- label-studio
 - streamlit
+- resistant-ai
+- label-studio
 - dynamic-yield
 - probabl
-- unify-ai
-- coreweave
-- google-cloud-natural-language
 - kotoba
 - volcano
 - marqo
 - qubrid-ai
 - videoverse
 - prevedere
+- google-colab
 - conxai
 - jupyter-notebook
 - ai-coustics
@@ -474,24 +475,27 @@ provider_slugs:
 - leapsome
 - physna
 - preferred-networks
+- amazon-supply-chain
 - goodfire
 - sapien
-- google-colab
+- codametrix
+- coreweave
 - bespoke-labs
+- siftscience-com
 - reson8
 - magicx
 - wolframalpha
 - localai
 - abacusai
-- amazon-supply-chain
-- nexosai
 - detectlanguage
+- nexosai
 - trojai
 - traceloop
-- codametrix
 - unitlab-ai
+- ravelin
 - nexar
 - byteplus
+- google-cloud-talent-solution
 - secton-api
 - arc-prize-foundation
 - elementl
@@ -502,7 +506,6 @@ provider_slugs:
 - openmind
 - polymath
 - smartmind
-- azumio
 - predicthq
 - definedcrowd
 - xiaomi
@@ -510,26 +513,23 @@ provider_slugs:
 - mlflow
 - triton
 - apache-spark
-- coactive
 - adaption
 - virtualitics
-- ravelin
-- kimola
 - entrypointai
+- kimola
 - flywheel
 - strand-ai
 - 4paradigm
-- aquabyte
 - parea
 - domino-data-lab
-- google-cloud-talent-solution
 - sas
 - anomalo
+- algorithmia
+- aquabyte
 - mirelo
 - vizit
 - labelbox
 - orderly-health
-- overshoot
 - trueaccord
 - tecton-databricks
 - blindinsight
@@ -537,37 +537,39 @@ provider_slugs:
 - tensorflow
 - pearson
 - unionai
+- overshoot
 - segments-ai
 - bud-co
+- clearml
 - bigml
 - evolutionaryscale
 - ondemand
 - argilla
-- songtradr
-- algorithmia
 - causalens
 - modelop
 - unsloth
 - scalable-inference-serving
 - ai-arena
-- geoinsight
-- a-alpha-bio
+- songtradr
 - affectiva
+- geoinsight
 - kalpa-labs
 - unitary-ai
 - akridata
-- clearml
 - asterlab
+- a-alpha-bio
 - ai-habitat
 - hailo
 - mindsdb
 - reasonblocks
 - uplimit
 - bentoml
-- positron
+- amazon-augmented-ai
+- ai-sdk
 - codecombat
 - conduent
 - granica
+- positron
 - seldon
 - commaai
 - pecan
@@ -577,18 +579,20 @@ provider_slugs:
 - boosted
 - kubeflow
 - languagelayer
-- amazon-augmented-ai
+- jina-ai
 - baseten
 - quantum-art
 - quizizz
+- aible
+- azumio
 - arist
 - imentiv-ai
-- jina-ai
 - black-crow-ai
 - julia-computing
 - anodot
 - cloudsight
 - mangoboost
+- voxel51
 - google-tensorflow
 - synthesia
 - contextsdk
@@ -607,12 +611,12 @@ provider_slugs:
 - kuaishou
 - smolagents
 - bitfount
+- google-cloud-recommendations-ai
+- clarifai
 - rapidcanvas
-- aible
 - log10
 - figure-eight
 - horizon-robotics
-- voxel51
 - orakl
 - sqream-technologies
 - lattica
@@ -622,14 +626,16 @@ provider_slugs:
 - deepmind
 - lm-studio
 - symbolica
+- forithmus
 - knewton
 - heuritech
 - vineyard
-- clarifai
-- google-cloud-recommendations-ai
+- antimatter
+- parallel-domain
 - neuracore
 - disperse
 - modelbit
+- apache-mahout
 - carbonfarm
 - visual-layer
 - reality-defender
@@ -639,7 +645,6 @@ provider_slugs:
 - nous-research
 - sarus
 - agrology
-- forithmus
 - cumulus-labs
 - fluidstack
 - sift
@@ -647,15 +652,15 @@ provider_slugs:
 - pachyderm
 - predictive-oncology-model-and-data-clearinghouse
 - tecton
-- apache-mahout
 - evolv
+- signifyd
 - comet-ml
 - xilinx
+- yuma-ai
 - lightning-ai
 - magicschool
 - outerbounds
 - seeq
-- parallel-domain
 - unruly-studios
 - revyze
 - feedzai
@@ -671,17 +676,18 @@ provider_slugs:
 - oumi
 - aleph-alpha2
 - sensetime
-- signifyd
 - artisight
 - odyssey
 - rosettaai
 - anumana
 - crossing-minds
+- nebius
 - gradient-health
 - dagshub
 - inflammatix
 - university-of-waikato
 - harbinger-health
+- apache-systemds
 - cables
 - gradient
 - netezza
@@ -691,20 +697,20 @@ provider_slugs:
 - afterquery
 - witai
 - unweave
-- catfact
 - pageup-people
 - windbornesystems
-- nebius
 - verta
 - vianai-systems
 - chai-discovery
-- apache-systemds
+- neutrinoapp
+- tensormesh
 - true-footage
 - kneron
 - webai
 - aftershoot
-- flyte
+- apache-opennlp
 - floodmapp
+- motiva
 - forter
 - protectai
 - brainscape
@@ -714,18 +720,18 @@ provider_slugs:
 - paige
 - bittensor
 - encord
+- flyte
 - angstrom-bio
 - graphistry
-- apache-opennlp
 - runanywhere
 - zefr
-- motiva
 - qwak
 - determined-ai
 - stormforge
 - lendbuzz
 - agerpoint
 - kaito
+- catfact
 - merlyn-mind
 - arundo-analytics
 - kodable
@@ -751,6 +757,7 @@ provider_slugs:
 - prescience-inc
 - alaffia
 - alife
+- ibm-watson
 - microsoft-viva
 - peaxy
 - scaled-cognition
@@ -765,20 +772,23 @@ provider_slugs:
 - tresata
 - cardiosense
 - precisedx
+- apache-madlib
 - cellarity
 - lith
 - owkin
+- antares-therapeutics
 - pyspark
-- ibm-watson
 - tredence
 - achronix-semiconductor
 - leantaas
 - alif-semiconductor
 - edyoucated
 - actualyzeai
+- uptake
 - aizon
 - feedvisor
 - sunthetics
+- urbint
 - ecorobotix
 - saama
 - waiv
@@ -786,11 +796,10 @@ provider_slugs:
 - instance
 - monkeylearn
 - sunlight
-- apache-madlib
+- cape-analytics
 - general-intuition
 - gimlet-labs
 - leapyear
-- antares-therapeutics
 - ezkl
 - educative
 - graphcore
@@ -802,8 +811,6 @@ provider_slugs:
 - virgo
 - zama
 - turintech
-- uptake
-- urbint
 - biostate-ai
 - cognoa
 - girnarsoft
@@ -843,7 +850,6 @@ provider_slugs:
 - kayrros
 - inkling
 - beginlearning
-- cape-analytics
 - wizerme
 - wave-ai
 - aquin
@@ -885,7 +891,6 @@ provider_slugs:
 - splashlearn
 - beyond-limits
 - luel
-- docs
 - polymorph
 - tamr
 - silk-labs
@@ -895,6 +900,8 @@ provider_slugs:
 - jarmin
 - minersai
 - inductive
+- resect
+- 3t-biosciences
 - outpost-bio
 - sima
 - life-is-tech
@@ -919,7 +926,6 @@ provider_slugs:
 - kobold-metals
 - labgenius
 - monitaur
-- 3t-biosciences
 - brilliant-org
 - kampi
 - lepton-ai
@@ -996,6 +1002,7 @@ provider_slugs:
 - ineffable
 - plumerai
 - sequen-ai
+- api-harmony
 - anto-biosciences
 - fetcherr
 - machine-learning
@@ -1012,11 +1019,12 @@ provider_slugs:
 - cortica
 - earth-ai
 - prellis-biologics
+- tunetrain
 - equilibrium-energy
-- hub
 - physicsx
 - insitro
 - guide-labs
+- tensorfeed
 - classif-io
 - envelop-risk
 - outsmart-college
@@ -1038,7 +1046,6 @@ provider_slugs:
 - intrinsic
 - roboflow-universe
 - timetrace-labs
-- api-harmony
 - bagel-labs
 - biostack-platforms
 - alchemab-therapeutics
@@ -1049,12 +1056,15 @@ provider_slugs:
 - acurastem
 - proteinea
 - aiperia
+- getcausal-ai
 - derq
 - enveil
 - infinitopes
 - knit-health
 - wise-systems
+- deepcode
 - icardioai
+- messengerx-io
 - birentech
 - generate-biomedicines
 - pulsedata
@@ -1065,7 +1075,6 @@ provider_slugs:
 - noetik
 - numerion-labs
 - twig
-- tensorfeed
 - aaktelescienceinc
 - distributional
 - everstring
@@ -1088,6 +1097,7 @@ provider_slugs:
 - spatialedge
 - agilesoda
 - autoai
+- mlc
 - logility
 - evolutioniq
 - pluralis
@@ -1097,12 +1107,11 @@ provider_slugs:
 - inherent
 - mecka-ai
 - specific-labs
-- deepcode
-- messengerx-io
 - synthesis-ai
 - 451-degrees
 - flexion
 - infly
+- insightdlm
 - ten63-therapeutics
 - deepai
 - habana-labs
@@ -1132,6 +1141,7 @@ provider_slugs:
 - beyond-imagination
 - clinc
 - eos-ai
+- merlot
 - civil-maps
 - manabio
 - morphl
@@ -1211,8 +1221,10 @@ provider_slugs:
 - firnas-aero
 - general-instinct
 - gigacrop
+- markr
 - mirendil
 - monolith-ai
+- mylar3
 - origami-robotics
 - parasma
 - proxima
@@ -1254,6 +1266,7 @@ provider_slugs:
 - confluence-labs
 - datafox
 - datasine
+- databaker
 - datacurve
 - eigen
 - eka-robotics
@@ -1309,6 +1322,7 @@ provider_slugs:
 - 'off'
 - peltarion
 - silicon-therapeutics
+- zenith-ai
 - altera
 - applica
 - blinkist
@@ -1337,6 +1351,7 @@ provider_slugs:
 - 8financialservices
 - ai-baas
 - graft
+- markovml
 - simility
 - mlnetworks
 - additiveintelligencea7d2

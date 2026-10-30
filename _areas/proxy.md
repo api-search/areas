@@ -6,19 +6,19 @@ description: This is the index of API proxy, reverse proxy, forward proxy, and p
 area_url: https://proxy.apievangelist.com
 area_host: proxy.apievangelist.com
 icon: https://proxy.apievangelist.com/icon-thumb.png
-provider_count: 26
+provider_count: 30
 providers:
 - slug: chocodata
   name: Chocodata
   description: Web-scraping REST API that returns structured JSON from a large catalog of target sites (e-commerce, search engines, social, real estate, finance, and more), with proxies, CAPTCHA, and anti-bot handling managed server-side. Ships an OpenAPI 3.1 contract, official Node/Python/Go SDKs, a CLI, an npm-…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.8
   shared: 1
 - slug: bright-data
   name: Bright Data
   description: Bright Data is an Israeli web data platform and operator of the world's largest legitimate residential proxy network (400M+ IPs across 195 countries). The platform combines proxy infrastructure (residential, ISP, datacenter, mobile) with higher-level web-access APIs — Web Unlocker, SERP API, Web Sc…
-  api_count: 11
+  api_count: 10
   score_band: developing
   score_composite: 45.8
   shared: 1
@@ -49,6 +49,13 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 39.7
+  shared: 1
+- slug: jackett
+  name: Jackett
+  description: Jackett provides a proxy server that translates queries from various torrent clients into a unified API, allowing users to search and retrieve torrent tracker results across many sources. It supports a wide range of trackers, offers configuration options, and can be self‑hosted via Docker or native…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.8
   shared: 1
 - slug: verdaccio
   name: Verdaccio
@@ -92,6 +99,13 @@ providers:
   score_band: thin
   score_composite: 31.0
   shared: 1
+- slug: nginx-proxy-manager
+  name: Nginx Proxy Manager
+  description: Nginx Proxy Manager is an open-source Docker-based web application that provides a simple, powerful interface for managing Nginx proxy hosts. It enables users to expose services securely with free SSL certificates from Let's Encrypt, supports custom Nginx configurations, and is designed with securi…
+  api_count: 1
+  score_band: thin
+  score_composite: 29.7
+  shared: 1
 - slug: zenscrape
   name: Zenscrape
   description: Zenscrape is a web scraping API that returns the rendered HTML of any target URL while handling proxy rotation, headless-browser JavaScript rendering, geotargeting, and Cloudflare protection. A single GET /get request fetches a page through a rotating pool of standard or premium residential proxies…
@@ -120,6 +134,13 @@ providers:
   score_band: emerging
   score_composite: 25.4
   shared: 1
+- slug: httpeep
+  name: HTTPeep
+  description: HTTPeep provides a modern web debugging proxy and HTTP debugger built with Rust. It captures and inspects HTTPS traffic in real-time, supports rule‑based forwarding, mock local files, DNS overrides, and offers a CLI for Linux alongside GUI apps for macOS and Windows. The platform targets developers…
+  api_count: 2
+  score_band: emerging
+  score_composite: 25.1
+  shared: 1
 - slug: whistle
   name: Whistle
   description: Whistle is a cross-platform HTTP, HTTPS, HTTP/2, WebSocket, and TCP debugging proxy built on Node.js. It enables developers to inspect, intercept, modify, and replay network traffic through a rule-based configuration system with a built-in web UI.
@@ -139,7 +160,7 @@ providers:
   description: Dev Proxy is a Microsoft command-line tool for simulating, testing, and debugging API interactions during development.
   api_count: 1
   score_band: emerging
-  score_composite: 18.4
+  score_composite: 19.7
   shared: 1
 - slug: varnish
   name: Varnish Cache
@@ -147,6 +168,13 @@ providers:
   api_count: 3
   score_band: emerging
   score_composite: 17.0
+  shared: 1
+- slug: pilotoken
+  name: PiloToken
+  description: PiloToken provides a local AI request proxy that compresses and caches calls to large language model APIs, reducing token usage and costs. It integrates with popular tools like VS Code, Python agents, and various LLM providers, offering a zero‑trust, offline‑first solution that keeps data on the us…
+  api_count: 0
+  score_band: emerging
+  score_composite: 15.8
   shared: 1
 - slug: mosn
   name: MOSN
@@ -197,20 +225,24 @@ provider_slugs:
 - envoy
 - contour
 - soax
+- jackett
 - verdaccio
 - squid
 - rapidproxy
 - apache-httpd
 - http-toolkit
 - safeline
+- nginx-proxy-manager
 - zenscrape
 - crawlbase
 - tinyproxy
 - sozu
+- httpeep
 - whistle
 - oauth2-proxy
 - dev-proxy
 - varnish
+- pilotoken
 - mosn
 - pipy
 - privoxy
@@ -218,17 +250,17 @@ provider_slugs:
 - proxyman
 - pomerium
 related:
-- slug: service-mesh
-  name: Service Mesh
-  shared: 2
 - slug: caching
   name: Caching
+  shared: 1
+- slug: service-mesh
+  name: Service Mesh
   shared: 1
 overview: 'Proxy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [proxy.apievangelist.com](https://proxy.apievangelist.com).
 
 
-  26 providers on the network work in this area, including Chocodata, Bright Data, HAProxy, Envoy, Contour, SOAX, and 20 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Chocodata, Bright Data, HAProxy, Envoy, Contour, SOAX, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Service Mesh and Caching. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Caching and Service Mesh. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -8,24 +8,10 @@ area_host: sdk.apievangelist.com
 icon: https://sdk.apievangelist.com/icon-thumb.png
 provider_count: 18
 providers:
-- slug: swagger-codegen
-  name: Swagger Codegen
-  description: Swagger Codegen is an open-source template-driven code generation tool that automatically generates client libraries, server stubs, and API documentation from OpenAPI Specification definitions. It supports 40+ client languages and 20+ server frameworks. Available as a CLI, Docker image, Maven/Gradl…
-  api_count: 5
-  score_band: strong
-  score_composite: 56.2
-  shared: 2
-- slug: ogen
-  name: Ogen
-  description: 'Ogen is an Apache-2.0 OpenAPI v3 code generator for Go, maintained by the ogen-go organization. It reads an OpenAPI v3 document at build time and emits a statically typed Go client and server: code-generated JSON encoding with no reflection or interface{}, code-generated validators, a static radix…'
-  api_count: 1
-  score_band: thin
-  score_composite: 36.7
-  shared: 2
 - slug: speakeasy
   name: Speakeasy
   description: Speakeasy provides an AI control plane platform that lets enterprises govern, secure, and observe AI agents, MCP servers, and Skills. The platform integrates with existing identity providers to assign permissioned identities to each agent and enforces policy in real time. It offers audit logs, comp…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 66.3
   shared: 1
@@ -36,12 +22,19 @@ providers:
   score_band: strong
   score_composite: 61.6
   shared: 1
+- slug: swagger-codegen
+  name: Swagger Codegen
+  description: Swagger Codegen is an open-source template-driven code generation tool that automatically generates client libraries, server stubs, and API documentation from OpenAPI Specification definitions. It supports 40+ client languages and 20+ server frameworks. Available as a CLI, Docker image, Maven/Gradl…
+  api_count: 3
+  score_band: strong
+  score_composite: 55.7
+  shared: 1
 - slug: stainless
   name: Stainless
   description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic, Cloudflare, Google, and OpenAI, Stainless automates the boil…
-  api_count: 7
+  api_count: 2
   score_band: developing
-  score_composite: 50.1
+  score_composite: 49.5
   shared: 1
 - slug: liblab
   name: Liblab
@@ -67,7 +60,7 @@ providers:
 - slug: openapi-generator
   name: OpenAPI Generator
   description: OpenAPI Generator is a community-governed, Apache-2.0 open-source project that generates client libraries (SDKs), server stubs, API documentation and configuration automatically from an OpenAPI Specification (v2 and v3). Forked from Swagger Codegen in 2018 by more than 40 of that project's top cont…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 40.5
   shared: 1
@@ -84,6 +77,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 37.0
+  shared: 1
+- slug: ogen
+  name: Ogen
+  description: 'Ogen is an Apache-2.0 OpenAPI v3 code generator for Go, maintained by the ogen-go organization. It reads an OpenAPI v3 document at build time and emits a statically typed Go client and server: code-generated JSON encoding with no reflection or interface{}, code-generated validators, a static radix…'
+  api_count: 1
+  score_band: thin
+  score_composite: 36.2
   shared: 1
 - slug: autorest
   name: AutoRest
@@ -135,10 +135,9 @@ providers:
   score_composite: 1.7
   shared: 1
 provider_slugs:
-- swagger-codegen
-- ogen
 - speakeasy
 - apimatic
+- swagger-codegen
 - stainless
 - liblab
 - kiota
@@ -146,6 +145,7 @@ provider_slugs:
 - openapi-generator
 - sideko
 - orval
+- ogen
 - autorest
 - fern-api
 - oapi-codegen
@@ -172,7 +172,7 @@ related:
 overview: 'SDKs is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [sdk.apievangelist.com](https://sdk.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Swagger Codegen, Ogen, Speakeasy, APIMatic, Stainless, Liblab, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Speakeasy, APIMatic, Swagger Codegen, Stainless, Liblab, Kiota, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Developer Experience, Command Line Interface, Documentation, and Design. Browse every area at [areas.apis.io](https://apis.io/areas/).'

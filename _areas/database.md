@@ -6,12 +6,12 @@ description: An index and topic collection covering managed databases and databa
 area_url: https://database.apievangelist.com
 area_host: database.apievangelist.com
 icon: https://database.apievangelist.com/icon-thumb.png
-provider_count: 217
+provider_count: 219
 providers:
 - slug: cdata
   name: CData
   description: CData Software is a leading provider of data access and connectivity solutions. Our standards-based connectors streamline data access and insulate customers from the complexities of integrating with on-premise or cloud databases, SaaS, APIs, NoSQL, and Big Data.
-  api_count: 9
+  api_count: 7
   score_band: exemplar
   score_composite: 82.9
   shared: 1
@@ -60,14 +60,14 @@ providers:
 - slug: prisma
   name: Prisma
   description: Prisma gives TypeScript and Node.js teams a type-safe ORM, managed serverless Postgres, and Compute for deploying apps and AI agents next to their database. The product line is Prisma ORM, Prisma Postgres, Prisma Compute, Prisma Composer, Prisma Studio, Object Store buckets and Query Insights, wire…
-  api_count: 8
+  api_count: 7
   score_band: exemplar
   score_composite: 71.7
   shared: 1
 - slug: cockroach-labs
   name: Cockroach Labs
   description: Cockroach Labs is the New York-based software company that builds CockroachDB, a cloud-native, distributed, PostgreSQL-compatible SQL database. CockroachDB is offered as Cockroach Labs' fully managed cloud service (Basic, Standard, and Advanced plans) and as self-hosted software. The company provid…
-  api_count: 4
+  api_count: 3
   score_band: exemplar
   score_composite: 71.5
   shared: 1
@@ -97,7 +97,14 @@ providers:
   description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
   api_count: 161
   score_band: strong
-  score_composite: 64.5
+  score_composite: 65.9
+  shared: 1
+- slug: couchbase
+  name: Couchbase
+  description: Couchbase is a distributed, document-oriented NoSQL cloud database platform that combines the flexibility of JSON, the power of SQL++ querying, and the performance of an in-memory key-value store. The Couchbase product line includes Couchbase Server (self-managed), Couchbase Capella (fully managed…
+  api_count: 12
+  score_band: strong
+  score_composite: 64.4
   shared: 1
 - slug: timescale
   name: Timescale
@@ -106,12 +113,19 @@ providers:
   score_band: strong
   score_composite: 63.9
   shared: 1
-- slug: couchbase
-  name: Couchbase
-  description: Couchbase is a distributed, document-oriented NoSQL cloud database platform that combines the flexibility of JSON, the power of SQL++ querying, and the performance of an in-memory key-value store. The Couchbase product line includes Couchbase Server (self-managed), Couchbase Capella (fully managed…
-  api_count: 12
+- slug: airtable
+  name: Airtable
+  description: Airtable is a cloud-based collaboration service that combines the simplicity of a spreadsheet with the complexity of a database. It provides APIs for managing bases, tables, records, and more.
+  api_count: 3
   score_band: strong
-  score_composite: 63.0
+  score_composite: 62.9
+  shared: 1
+- slug: amazon-keyspaces
+  name: Amazon Keyspaces
+  description: Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra-compatible database service that lets you run Cassandra workloads on AWS without managing servers or software.
+  api_count: 1
+  score_band: strong
+  score_composite: 62.1
   shared: 1
 - slug: cloudkit
   name: Apple CloudKit
@@ -119,13 +133,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 61.7
-  shared: 1
-- slug: airtable
-  name: Airtable
-  description: Airtable is a cloud-based collaboration service that combines the simplicity of a spreadsheet with the complexity of a database. It provides APIs for managing bases, tables, records, and more.
-  api_count: 3
-  score_band: strong
-  score_composite: 61.5
   shared: 1
 - slug: notion
   name: Notion
@@ -155,13 +162,6 @@ providers:
   score_band: strong
   score_composite: 61.1
   shared: 1
-- slug: aifordatabase
-  name: AI for Database
-  description: AI for Database is a natural-language data layer for operational databases, built by Wavicle.tech. It connects read-only to PostgreSQL, MySQL, MariaDB, SQL Server, MongoDB, SQLite and Google Sheets, translates plain-English questions into SQL, returns the SQL alongside the answer, pins results as s…
-  api_count: 4
-  score_band: strong
-  score_composite: 60.8
-  shared: 1
 - slug: influxdata
   name: InfluxData
   description: InfluxData is the company behind InfluxDB, the leading open source time series database purpose-built for real-time analytics, monitoring, IoT and sensor data, application metrics, and observability workloads. InfluxDB ingests millions of data points per second and ships as open source (InfluxDB OS…
@@ -169,17 +169,17 @@ providers:
   score_band: strong
   score_composite: 60.8
   shared: 1
-- slug: amazon-keyspaces
-  name: Amazon Keyspaces
-  description: Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra-compatible database service that lets you run Cassandra workloads on AWS without managing servers or software.
+- slug: aifordatabase
+  name: AI for Database
+  description: AI for Database is a natural-language data layer for operational databases, built by Wavicle.tech. It connects read-only to PostgreSQL, MySQL, MariaDB, SQL Server, MongoDB, SQLite and Google Sheets, translates plain-English questions into SQL, returns the SQL alongside the answer, pins results as s…
   api_count: 1
   score_band: strong
-  score_composite: 60.7
+  score_composite: 60.3
   shared: 1
 - slug: abloatai
   name: Ablo
   description: 'Ablo is collaboration infrastructure for AI agents: one API that lets agents, apps and people claim, change and confirm the same database rows without clobbering each other. Rows stay in the customer''s own Postgres — Ablo holds only an ordered transaction log and the coordination state — while dura…'
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 60.0
   shared: 1
@@ -207,7 +207,7 @@ providers:
 - slug: pinecone
   name: Pinecone
   description: With its vector database at the core, Pinecone is the leading knowledge platform for building accurate, secure, and scalable AI applications. The Pinecone APIs cover Database (vector storage and search), Inference (embeddings and reranking), Assistant (RAG over documents), and Admin (organization a…
-  api_count: 11
+  api_count: 6
   score_band: strong
   score_composite: 59.2
   shared: 1
@@ -232,17 +232,17 @@ provider_slugs:
 - ibm
 - nutanix
 - oracle
-- timescale
 - couchbase
-- cloudkit
+- timescale
 - airtable
+- amazon-keyspaces
+- cloudkit
 - notion
 - pingcap
 - microsoft-sql-server
 - oracle-goldengate
-- aifordatabase
 - influxdata
-- amazon-keyspaces
+- aifordatabase
 - abloatai
 - amazon-rds
 - neo4j
@@ -250,116 +250,118 @@ provider_slugs:
 - pinecone
 - amazon-documentdb
 - amazon-elasticache
-- amuncore
 - ocient
 - tiledb
+- amuncore
 - thenile
+- upcloud
 - vividcortex
 - insforge
 - adaptive-automation-technologies
 - datastax
 - arangodb
-- upcloud
-- microsoft-azure-mysql
-- chroma
-- ehrbase
-- weaviate
-- scaleway
 - amazon-simpledb
+- chroma
+- scaleway
+- microsoft-azure-mysql
+- ehrbase
+- render
+- weaviate
+- neon
+- teradata
 - oracle-database
 - startree
-- teradata
-- render
-- neon
+- amazon-dms
 - tessell
 - enterprisedb
-- amazon-dms
-- artie
-- bubble
-- delphix
-- baserow
 - google-cloud-bigtable
+- artie
 - google-cloud-sql
 - google-cloud-spanner
-- kurrent
 - google-cloud-firestore
+- bubble
+- delphix
+- redis
+- amazon-qldb
+- baserow
+- kurrent
+- amazon-timestream
 - startree-cortexdata
 - crunchy-data
+- amazon-memorydb
 - firebase
 - border0
-- redis
 - macrometa
-- amazon-qldb
-- amazon-timestream
-- amazon-memorydb
-- vultr
 - singlestore
-- microsoft-azure-postgresql
-- convex
-- result
-- aiven
 - sap-hana
+- aiven
+- convex
+- vultr
+- microsoft-azure-postgresql
+- result
 - dokploy
 - oracle-apex
 - anilist
-- ardent
+- supabase
 - scylladb
 - cockroachdb
-- imply
-- supabase
 - elasticsearch
+- sybase
+- imply
+- ardent
 - kinetica
 - popsink
+- turso
 - microsoft-azure-sql-database
 - superblocks
 - altinity
-- sybase
-- crate-io
-- codehooks
-- turso
 - apache-couchdb
-- apache-doris
 - coda
+- codehooks
+- crate-io
+- apache-doris
 - nocodb
 - apache-hbase
+- azure-cosmos-db
 - gel-data
 - stack-machine
 - milvus
+- xata
 - vastdata
 - tikv
 - qdrant
-- azure-cosmos-db
+- apache-druid
 - clockwork-labs
-- cloudflare-d1
 - ninox
 - parse
-- smartmind
-- xata
+- microsoft-access
 - ditto-live
-- cassandra
-- apache-druid
+- smartmind
 - grist
+- influxdb
 - vitess
 - quasar
 - upstash
 - 4paradigm
-- microsoft-access
-- influxdb
-- rawg
 - mongodb-atlas
+- cloudflare-d1
+- rawg
 - timescaledb
 - inspur-cloud
+- zoho-creator
+- cassandra
 - caspio
 - mindsdb
 - microsoft-entity-framework
-- zoho-creator
+- restheart
+- google-cloud-datastore
 - bigchaindb
+- amazon-aurora
 - thegamesdb
 - yunqi
 - risingwave
 - instantdb
-- google-cloud-datastore
-- amazon-aurora
+- xano
 - questdb
 - postgresml
 - triplit
@@ -367,26 +369,25 @@ provider_slugs:
 - synthesized
 - knack
 - spring-data
-- electric-sql
-- xano
-- sqream-technologies
-- manticore
-- planetscale
 - surrealdb
-- duckdb
+- electric-sql
 - victoriametrics
+- sqream-technologies
+- apache-derby
+- planetscale
+- duckdb
+- manticore
 - virtualmin
 - backendless
 - softr
 - debezium
-- apache-derby
+- apache-shardingsphere
 - dolthub
 - edgedb
 - sevalla
-- bytebase
 - redplanetlabs
+- bytebase
 - teable
-- apache-shardingsphere
 - kvdb
 - riak
 - aerospike
@@ -394,20 +395,21 @@ provider_slugs:
 - villagesql
 - vertica
 - hibernate
+- paradedb
 - wine-vybe
 - heavyai
 - transwarp
+- apache-pinot
 - readyset
 - 8base
 - powersync
-- apache-pinot
-- paradedb
 - objectbox
 - celerdata
+- devart
 - dragonfly
+- ibm-db2
 - pgvector
 - hobbydb
-- ibm-db2
 - citus-data
 - sql
 - orioledb

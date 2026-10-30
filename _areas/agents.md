@@ -6,49 +6,49 @@ description: An index and topic collection covering AI agents, agent frameworks,
 area_url: https://agents.apievangelist.com
 area_host: agents.apievangelist.com
 icon: https://agents.apievangelist.com/icon-thumb.png
-provider_count: 503
+provider_count: 514
 providers:
-- slug: anthropic
-  name: Anthropic
-  description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking…'
-  api_count: 6
-  score_band: exemplar
-  score_composite: 88.8
-  shared: 1
 - slug: smklog-com
   name: SMKlog
   description: 'SMKlog (SMKLOG-2022 LLC, Berkeley Heights, New Jersey) is an independent US parcel shipping calculator and label seller: describe an item in plain words, get live USPS, UPS, FedEx and DHL Express rates from a US origin to the US, Canada, the UK, Germany or Australia, and buy the label online. The s…'
-  api_count: 4
+  api_count: 1
   score_band: exemplar
-  score_composite: 86.1
+  score_composite: 94.0
+  shared: 1
+- slug: anthropic
+  name: Anthropic
+  description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking…'
+  api_count: 5
+  score_band: exemplar
+  score_composite: 89.0
   shared: 1
 - slug: eventwren
   name: Eventwren
   description: Eventwren is an agent-first publishing site operated by API Evangelist. AI agents sign up, prepay from a card, and publish event listings that stay live until the event ends through a REST API or an MCP server; humans browse and search the same posts on the website. Every post is moderated by an op…
-  api_count: 6
+  api_count: 3
   score_band: exemplar
   score_composite: 85.6
   shared: 1
 - slug: hagglebee
   name: Hagglebee
   description: Hagglebee is an agent-first publishing site operated by API Evangelist. AI agents sign up, prepay from a card, and publish classified ads that run 30 days through a REST API or an MCP server; humans browse and search the same posts on the website. Every post is moderated by an open model (gpt-oss-s…
-  api_count: 5
+  api_count: 2
   score_band: exemplar
-  score_composite: 84.8
+  score_composite: 84.3
   shared: 1
 - slug: yarnhen
   name: Yarnhen
   description: Yarnhen is an agent-first publishing site operated by API Evangelist. AI agents sign up, prepay from a card, and publish medium-form stories (150 to 2,500 words) through a REST API or an MCP server; humans browse and search the same posts on the website. Every post is moderated by an open model (gp…
-  api_count: 5
+  api_count: 2
   score_band: exemplar
-  score_composite: 84.8
+  score_composite: 84.3
   shared: 1
 - slug: yawplet
   name: Yawplet
   description: Yawplet is an agent-first publishing site operated by API Evangelist. AI agents sign up, prepay from a card, and publish short messages (up to 500 characters) through a REST API or an MCP server; humans browse and search the same posts on the website. Every post is moderated by an open model (gpt-o…
-  api_count: 5
+  api_count: 2
   score_band: exemplar
-  score_composite: 84.8
+  score_composite: 84.3
   shared: 1
 - slug: appwrite
   name: Appwrite
@@ -60,14 +60,14 @@ providers:
 - slug: agoragentic-com
   name: Agoragentic
   description: 'Agoragentic is an agent-commerce platform operated by a New York-based sole proprietor: Triptych OS (Agent OS), a governed runtime for deploying autonomous agents under budgets, approvals and receipts, plus a Router / Marketplace where agents discover, quote, invoke and pay for each other''s service…'
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 80.4
   shared: 1
 - slug: elevenlabs
   name: ElevenLabs
   description: 'ElevenLabs is an AI research and product company building voice and audio models, founded in 2022 and launched publicly in January 2023 with the first human-like AI voice model. It sells across three platforms: ElevenCreative (text to speech, speech to text, voice cloning and design, music, sound e…'
-  api_count: 13
+  api_count: 12
   score_band: exemplar
   score_composite: 80.4
   shared: 1
@@ -81,7 +81,7 @@ providers:
 - slug: outreach
   name: Outreach
   description: Outreach is a sales execution and revenue platform for go-to-market teams, unifying email, calling, social and meetings into sequenced outbound motions with AI agents layered on top. Its public developer surface is a JSON API 1.0 REST API at api.outreach.io/api/v2 covering accounts, prospects, oppo…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 79.3
   shared: 1
@@ -99,52 +99,66 @@ providers:
   score_band: exemplar
   score_composite: 75.6
   shared: 1
+- slug: thecolony-ai
+  name: The Colony
+  description: The Colony (thecolony.ai, also served at thecolony.cc) is an AI-agent forum, social network, marketplace and messaging platform operated by Starsol Ltd (Norwich, England) where agents register themselves over the API with no human verification and take part alongside humans in topic-based sub-commu…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 74.8
+  shared: 1
 - slug: thehiveryiq-com
   name: Hive Civilization
   description: 'Hive Civilization (DBAs The Hivery and The Hivery IQ; Walnut Creek, California; single-founder Wyoming corporation established 2026) sells signed, independently verifiable receipts for automated and AI-agent actions: every call returns a dual-signed record (Ed25519 plus ML-DSA-65) over an artifact…'
-  api_count: 8
-  score_band: exemplar
-  score_composite: 74.7
-  shared: 1
-- slug: dify
-  name: Dify
-  description: Dify is an open-source platform for building AI applications, combining Backend-as-a-Service and LLMOps to streamline the development of generative AI solutions for developers and non-technical innovators alike. Teams build agentic workflows, chatflows, agents and RAG knowledge pipelines on a visua…
   api_count: 3
   score_band: exemplar
-  score_composite: 74.3
+  score_composite: 74.7
   shared: 1
 - slug: parallel-ai
   name: Parallel
   description: 'Parallel Web Systems builds web APIs purpose-built for AI agents: a high-accuracy Search API, an Extract API that turns URLs into clean LLM-ready markdown, a Task/Deep Research API with tiered processors (lite through ultra), FindAll for natural-language entity discovery and enrichment, a Monitor A…'
-  api_count: 11
+  api_count: 10
   score_band: exemplar
-  score_composite: 73.6
+  score_composite: 74.2
+  shared: 1
+- slug: dify
+  name: Dify
+  description: Dify is an open-source platform for building AI applications, combining Backend-as-a-Service and LLMOps to streamline the development of generative AI solutions for developers and non-technical innovators alike. Teams build agentic workflows, chatflows, agents and RAG knowledge pipelines on a visua…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 73.8
   shared: 1
 - slug: delx-ai
   name: Delx
   description: 'Delx is an independent, founder-led AI agent lab (David Batista) that publishes an agent-native stack on delx.ai: the free Delx Protocol for agent recovery, continuity, witness lineage and handoff (30 core MCP tools over Streamable HTTP at api.delx.ai/mcp, a JSON-RPC A2A endpoint at api.delx.ai/v1/…'
-  api_count: 4
+  api_count: 2
   score_band: exemplar
-  score_composite: 73.0
+  score_composite: 72.5
   shared: 1
 - slug: carsxe
   name: CarsXE
   description: CarsXE is a B2B vehicle data API platform operated by PiWaves, LLC, offering VIN decoding, vehicle specifications, market value estimates, vehicle history, vehicle imagery, license plate decoding and recognition, VIN OCR, OBD fault-code decoding, international VIN decoding, lien and theft screening…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.4
   shared: 1
 - slug: scvd-store
   name: SCVD General Store
   description: Record Creative Co. LLC is the one-person Oak City, North Carolina company that operates scvd.store — "Sean-Claude Van Damme's General Store", an evidence observatory for agentic commerce and a general store for AI agents. It independently verifies x402 payment endpoints, signed offers and receipts…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.2
+  shared: 1
+- slug: bigpanda
+  name: BigPanda
+  description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
+  api_count: 29
+  score_band: exemplar
+  score_composite: 71.6
   shared: 1
 - slug: octen-ai
   name: Octen
   description: Octen (Octen.AI) is an AI-native web search and retrieval platform built for LLM applications and agents. Its REST API at api.octen.ai exposes Broad Search (multi-angle query decomposition), Web Search, News Search, Business Search, Image Search, Video Search, URL Extract, text and vision-language…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 71.5
   shared: 1
@@ -165,21 +179,21 @@ providers:
 - slug: impact
   name: Impact
   description: impact.com is a partnership management platform for affiliate, creator, influencer and customer-referral programs. It publishes four REST API personas - Brand v14, Partner v16, Agency v3 and Advocate v13 - across 69 OpenAPI 3.1 documents and 245 operations, a remote OAuth 2.1 MCP server at mcp.impa…
-  api_count: 138
+  api_count: 69
   score_band: exemplar
   score_composite: 70.4
   shared: 1
-- slug: bigpanda
-  name: BigPanda
-  description: BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through A…
-  api_count: 29
+- slug: loops
+  name: Loops
+  description: Loops is an email platform built for software companies, combining marketing campaigns, product and lifecycle automation, and transactional email on one contact model. Its REST API v1 exposes 64 operations across contacts, contact properties, mailing lists, audience segments, events and event patte…
+  api_count: 1
   score_band: exemplar
-  score_composite: 70.3
+  score_composite: 70.1
   shared: 1
 - slug: textql
   name: TextQL
   description: TextQL is an enterprise AI data platform built around Ana, an AI data scientist that connects to a company's warehouses, databases, BI tools and SaaS APIs and answers questions in plain language. Ana writes SQL, runs Python in a managed gVisor sandbox, searches the web, and produces charts, dashboa…
-  api_count: 15
+  api_count: 8
   score_band: exemplar
   score_composite: 70.1
   shared: 1
@@ -197,30 +211,16 @@ providers:
   score_band: exemplar
   score_composite: 69.8
   shared: 1
-- slug: loops
-  name: Loops
-  description: Loops is an email platform built for software companies, combining marketing campaigns, product and lifecycle automation, and transactional email on one contact model. Its REST API v1 exposes 64 operations across contacts, contact properties, mailing lists, audience segments, events and event patte…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 69.8
-  shared: 1
-- slug: lightfield
-  name: Lightfield
-  description: Lightfield is an agent-native customer relationship management (CRM) platform for high-growth and AI-native go-to-market teams. Rather than depending on manual data entry, Lightfield captures customer interactions — calls, emails, meetings and external signals — as unstructured data, organizes them…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 69.4
-  shared: 1
-- slug: x
-  name: X
-  description: X (formerly Twitter) operates the X Developer Platform, the programmable interface to the public conversation on X. The X API v2 is a 190-operation REST surface covering Posts, Users, Direct Messages, the encrypted Chat API, Lists, Spaces, Media, Communities, Community Notes, Broadcasts, News, Tren…
-  api_count: 2
+- slug: daytona-io
+  name: Daytona
+  description: Daytona is open-source, secure, and elastic infrastructure for running AI-generated code. Daytona sandboxes spin up in under 90 milliseconds and provide isolated Linux, Windows, and macOS environments where autonomous agents and developer workflows can execute untrusted code, perform file system an…
+  api_count: 3
   score_band: exemplar
   score_composite: 69.4
   shared: 1
 provider_slugs:
-- anthropic
 - smklog-com
+- anthropic
 - eventwren
 - hagglebee
 - yarnhen
@@ -232,197 +232,203 @@ provider_slugs:
 - outreach
 - veeva
 - boom-ai
+- thecolony-ai
 - thehiveryiq-com
-- dify
 - parallel-ai
+- dify
 - delx-ai
 - carsxe
 - scvd-store
+- bigpanda
 - octen-ai
 - qliksense
 - bitly
 - impact
-- bigpanda
+- loops
 - textql
 - instacart
 - cogny
-- loops
+- daytona-io
 - lightfield
 - x
-- daytona-io
-- gitdealflow-com
 - github-copilot
-- anecdotes
+- gitdealflow-com
 - hyperdx
 - n8n
 - clix-so
+- anecdotes
 - transcriptfetch
 - crawl4ai
 - facebook-business-manager
 - api-evangelist
 - buildkite-com
 - chili-piper
-- dust-tt
 - google-dialogflow
-- seamless-ai
 - buffer
+- seamless-ai
+- e2b-dev
 - northbeam
 - ploid
 - natural-ai
-- agent-ready-dev
+- inflectionio
+- dust-tt
 - postiz
-- thecolony-ai
+- bria
 - thoughtspot
 - vendia
-- inflectionio
 - flint
-- bria
-- konbiniapi
-- e2b-dev
+- agent-ready-dev
 - apollo-io
+- konbiniapi
 - seekr
-- gong
 - comet
+- gong
 - salesloft
+- agentuity
 - aicomglobal-com
 - landingai
 - tale-dev
+- perplexity
 - hex
 - bykaranteli
 - lilt
 - navattic
-- perplexity
 - fundamental-research-labs
-- fundz
 - nooks
-- nextroll
+- fundz
 - beyond-presence
+- workos
 - compresr
-- clari
+- nextroll
 - scorecard
-- sambanova-systems
 - whisper-online
 - brainfish
+- clari
 - cursor
-- mercury-hq-com
 - dedaluslabs
-- galileo-technologies
 - jasper
-- postalform-com
 - arcade-dev
-- workos
+- sambanova-systems
+- mercury-hq-com
 - conviva
 - edgee
-- councilof-ai
+- postalform-com
+- galileo-technologies
 - h-company
+- latitude-so
 - corti
 - fixie
 - end-game
 - read-ai
+- councilof-ai
 - leadpages
 - plinth-us-grants-data
-- lvlltd-com
 - duvo-ai
 - ok-capsule
-- agentuity
+- lvlltd-com
 - monid
 - altimate-ai
-- anp2-com
 - akia
-- amuncore
+- anp2-com
 - opkey
 - perfect-corp
+- amuncore
 - mixmax
 - serper
 - airweave
 - 2s-io
-- greenhelix-net
 - insider
 - koreai
 - tako
 - hiveagentiq-com
 - horizonshield-dev
-- lifi
-- opus
 - langdock
+- movehome-org
+- opus
+- greenhelix-net
+- prime-intellect
 - sail-research
+- supermemory
+- exa-ai
+- lifi
 - google-gemini
 - sitefire
 - graphy
 - super-studio
 - aaaai-me
 - ezoic
-- xguardgate-com
 - adaptive-automation-technologies
+- linktree
 - canfly-ai
 - spekit
 - antimetal
 - trybloom
-- prime-intellect
 - reevo
-- exa-ai
-- movehome-org
+- xguardgate-com
 - chainaware-ai
-- freestyle-sh
 - yutori
 - letta
 - wegtultrarich
 - wundergraph
-- clarifeye
+- freestyle-sh
 - tana
 - madkudu
 - sssnack-com
+- clarifeye
 - typeface
 - microsoft-copilot
-- itsgloria-ai
 - macaroonnetwork-com
 - stacks-ai
 - tether
-- decision-anchor-com
-- pictomancer-ai
-- trustboost-dev
-- linktree
-- luthersystems-com
-- amperity
 - hevn-inc
+- trustboost-dev
+- aquant
+- amperity
+- coinrailz-com
+- itsgloria-ai
+- decision-anchor-com
 - lokki
 - monaco
-- sandboxaq
+- pictomancer-ai
+- agentexchange-work
+- luthersystems-com
 - listen-labs
+- sandboxaq
 - mason
-- coinrailz-com
 - runautomat
 - seltz
+- zespan
+- amazon-bedrock
 - uniphore
+- bird
 - revnu
-- hergertsynthora-com
 - avalix-ai
 - vectara
-- wagerx-io
 - agenthealthmonitor-xyz
-- agentexchange-work
-- charitysense-com
 - govly
+- pydantic-ai
+- hergertsynthora-com
 - linqalpha
 - meetsmore
 - polycode-co-uk
 - ragflow
+- wagerx-io
 - chronicle
 - dokki-one
 - mistral
 - popp
+- charitysense-com
 - fastino-labs
-- pydantic-ai
-- amazon-bedrock
 - permutive
-- bird
 - geoloods
 - vooma
-- anchor-x402
 - ando
+- anchor-x402
 - light
 - fixture
 - simetrik
+- getdynamiq
+- symphonyos
 - rasa
 - theorg
 - dialect
@@ -432,12 +438,11 @@ provider_slugs:
 - 01mind-net
 - aleph-alpha
 - muj428-com
-- aureliusagent-dev
-- aquant
 - flexai
-- onchainagentintel-io
-- symphonyos
+- aureliusagent-dev
 - privatedao-org
+- 1up
+- onchainagentintel-io
 - berrergate-com
 - result
 - admakeai
@@ -448,7 +453,6 @@ provider_slugs:
 - waniwani
 - klutch
 - lightsprint
-- 1up
 - cognee
 - langchain
 - rokid
@@ -459,15 +463,16 @@ provider_slugs:
 - whisperr-inc
 - poolparty-io
 - caretta
-- recipe-api
 - chatwoot
+- recipe-api
+- substructure
 - langflow
 - terminal-use
 - tofu
 - elementum
-- agentum-lat
-- causa-prima
 - keyframe-labs
+- causa-prima
+- agentum-lat
 - screaming-frog
 - rapidfolio
 - superscale
@@ -478,13 +483,14 @@ provider_slugs:
 - mutiny-hq
 - raindrop
 - bmcxiv-com
+- sight-machine
 - culture-sbs
-- gonna-bond
+- agentql
 - plandex
 - publer
 - chilledsites-com
 - composabl
-- sight-machine
+- gonna-bond
 - anvilogic
 - driver
 - localai
@@ -496,13 +502,14 @@ provider_slugs:
 - aaico
 - linear-app
 - tdaycom
-- capepartners-fr
+- openhands
 - scratchpad
 - the-interaction-company-of-california
 - exponential
 - kgninja-dev
 - mastra
-- voidpet
+- capepartners-fr
+- directhireagents-com
 - 21st
 - writer
 - arc-prize-foundation
@@ -515,16 +522,16 @@ provider_slugs:
 - vantara
 - openmind
 - vana
+- voidpet
 - judgment-labs
 - patlytics
 - getaiscan-app
-- openhands
 - meetanlora-com
 - merchant-0-com
 - flowhomes-eu
 - 4paradigm
+- windsurf
 - databook
-- directhireagents-com
 - io-net
 - kotzilla
 - llamaindex
@@ -534,7 +541,7 @@ provider_slugs:
 - wisdom-ai
 - aci-dev
 - klue
-- windsurf
+- langbase
 - ondemand
 - vapi
 - macroscope
@@ -542,8 +549,7 @@ provider_slugs:
 - causalens
 - koah-labs
 - heeler
-- langbase
-- agentql
+- blaxel
 - arphie
 - llama-box
 - adapter
@@ -552,25 +558,27 @@ provider_slugs:
 - sesame-labs
 - inkeep
 - rainfocus
+- whiteclover-ai
+- moltbook
 - superhuman
-- blaxel
 - linusbio
-- hello-therma
+- bland-ai
 - elonsusk-com
 - auditoria
 - boosted
-- hatchable-site
 - coval-ai
 - agentio
 - langgraph
+- hatchable-site
 - unified
-- bland-ai
+- memorilabs
 - superlist
 - packdigital
 - gigacatalyst
 - korso
 - reflexivity
 - hakuto-0209-com
+- hello-therma
 - nx-dev
 - david-protein
 - golem-cloud
@@ -586,18 +594,17 @@ provider_slugs:
 - instawork
 - fleethelp-ai
 - pipecat-ai
+- spotwise-inc
 - voiceops
 - xmtp
-- whiteclover-ai
 - cloutjam
 - maven-agi
 - nous-research
 - prox
-- botmarket-bot
 - esentire
+- botmarket-bot
 - graph8
 - wibandwob-com
-- spotwise-inc
 - songt50-us
 - fibe
 - ema
@@ -608,10 +615,13 @@ provider_slugs:
 - genie-ai
 - miriel
 - verto-education
+- kuverto
 - tlon-corporation
 - persado
 - afterquery
 - stacklet
+- rembr
+- glean
 - klarity
 - continua
 - skillsync
@@ -623,7 +633,6 @@ provider_slugs:
 - globaldata
 - elderlycarematch-com
 - paper
-- glean
 - bluefish-ai
 - ushur
 - valid
@@ -631,33 +640,37 @@ provider_slugs:
 - gleefulai
 - martini
 - jigso
+- thousandbirds
 - ossio
 - thread-ai
 - moneyyoureowed-com
 - notable
 - omnea
 - pango
+- atlas-openai
 - accordance-ai
 - getaleph
 - kakao-entertainment
 - maxim
+- ottic
 - scaled-cognition
 - opendoor
 - fiberplane
 - jakegaylor-com
 - remerrill-com
 - agenthaven-dev
-- atlas-openai
 - trope
 - tresata
+- sierra
 - osly
 - maxima
 - hyperwrite
 - gimlet-labs
-- sierra
 - bolt-new
 - synthetic-sciences
 - flowscope
+- comet-browser
+- cline
 - sazabi
 - town
 - meshgateway-app
@@ -667,8 +680,6 @@ provider_slugs:
 - agentifai
 - intersection
 - wiselayer
-- comet-browser
-- cline
 - active-membranes
 - decagon
 - command-zero
@@ -676,13 +687,13 @@ provider_slugs:
 - lato
 - primary
 - plural-ai
-- docs
 - vocca-ai
 - ray-browser
 - taai-labs-inc
 - worktrace-ai
 - goomp-inc-kalendar-ai
 - belvedir
+- dia-browser
 - adept
 - parloa
 - aitomatic
@@ -690,7 +701,6 @@ provider_slugs:
 - huginn
 - hippo-insurance
 - instruct
-- dia-browser
 - agentic-data-intelligence
 - productnow
 - apidna
@@ -702,6 +712,7 @@ provider_slugs:
 - generally-intelligent
 - lightberry
 - coru
+- gigi
 - poetic
 - heyclicky
 - zalos
@@ -744,7 +755,7 @@ related:
 overview: 'Agents is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [agents.apievangelist.com](https://agents.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Anthropic, SMKlog, Eventwren, Hagglebee, Yarnhen, Yawplet, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including SMKlog, Anthropic, Eventwren, Hagglebee, Yarnhen, Yawplet, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Machine Learning, Authentication, Observability, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

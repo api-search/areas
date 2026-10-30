@@ -6,14 +6,14 @@ description: 'An index and topic collection covering API and SaaS monetization p
 area_url: https://monetization.apievangelist.com
 area_host: monetization.apievangelist.com
 icon: https://monetization.apievangelist.com/icon-thumb.png
-provider_count: 73
+provider_count: 78
 providers:
 - slug: drippay
   name: Drippay
   description: 'Drippay, Inc. is a Y Combinator company (YC P26) that operates two connected products. dreach — renamed from drip in 2026, with usedrip.ai now redirecting to dreach.ai — is a local-first Mac app for staffing, recruiting and executive search firms: an Opportunity Radar that watches hiring demand and…'
-  api_count: 2
+  api_count: 1
   score_band: exemplar
-  score_composite: 72.0
+  score_composite: 72.3
   shared: 1
 - slug: apigee
   name: Apigee
@@ -22,12 +22,19 @@ providers:
   score_band: exemplar
   score_composite: 66.9
   shared: 1
+- slug: apiable
+  name: Apiable
+  description: Apiable is an API portal platform that enables businesses to create single-tenant, white-label developer portals with custom domains, branding, and API product management. It supports API monetization, developer self-service onboarding, usage metrics, subscription lifecycle management, and integrat…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.2
+  shared: 1
 - slug: paid
   name: Paid
   description: Paid (paid.ai) is the monetization platform for AI agents. It gives teams that build and sell AI agents the pricing, billing, and margin infrastructure to charge with flexible models — credits, usage-based, seat-based, and outcome-based pricing — while tracking the AI costs and delivered value behi…
-  api_count: 3
+  api_count: 2
   score_band: strong
-  score_composite: 63.6
+  score_composite: 63.1
   shared: 1
 - slug: netcracker
   name: Netcracker
@@ -36,13 +43,6 @@ providers:
   score_band: strong
   score_composite: 62.8
   shared: 1
-- slug: moesif
-  name: Moesif
-  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
-  api_count: 4
-  score_band: strong
-  score_composite: 62.4
-  shared: 1
 - slug: appcharge
   name: Appcharge
   description: Appcharge is a monetization and payments platform (merchant of record) for mobile game publishers. It lets studios sell in-game offers direct-to-consumer outside the app stores through a hosted web store, a mobile Checkout SDK, and Payment Links — covering checkout sessions, price localization, cou…
@@ -50,10 +50,17 @@ providers:
   score_band: strong
   score_composite: 61.9
   shared: 1
+- slug: moesif
+  name: Moesif
+  description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), q…
+  api_count: 1
+  score_band: strong
+  score_composite: 61.9
+  shared: 1
 - slug: solvimon
   name: Solvimon
   description: Solvimon is an IPO-ready billing and monetization platform for usage-based and hybrid pricing that unifies metering, CPQ (quote-to-cash), subscriptions, invoicing, payments and revenue recognition in a single system. It is PSP-agnostic (Stripe, Adyen, Checkout.com) with multi-currency support, and…
-  api_count: 6
+  api_count: 4
   score_band: strong
   score_composite: 60.7
   shared: 1
@@ -78,12 +85,12 @@ providers:
   score_band: developing
   score_composite: 53.6
   shared: 1
-- slug: apiable
-  name: Apiable
-  description: Apiable is an API portal platform that enables businesses to create single-tenant, white-label developer portals with custom domains, branding, and API product management. It supports API monetization, developer self-service onboarding, usage metrics, subscription lifecycle management, and integrat…
-  api_count: 1
+- slug: stay22
+  name: Stay22
+  description: Stay22 provides a travel affiliate platform that helps publishers and content creators monetize their travel-related content through automated link insertion, interactive maps, and AI-driven recommendation tools. Their solution includes products like Smart Script, Nova, Spark, and Interactive Maps,…
+  api_count: 2
   score_band: developing
-  score_composite: 52.1
+  score_composite: 53.1
   shared: 1
 - slug: monetizenow
   name: MonetizeNow
@@ -127,10 +134,17 @@ providers:
   score_band: developing
   score_composite: 46.5
   shared: 1
+- slug: api-market
+  name: API.market
+  description: API.market (Noveum) is an API marketplace launched in April 2024 where developers discover, subscribe to and call third-party APIs and AI models with one account, one x-api-market-key and unified billing, and where sellers import an OpenAPI source, set pricing plans and get paid. The platform itsel…
+  api_count: 3
+  score_band: developing
+  score_composite: 44.8
+  shared: 1
 - slug: streamelements
   name: StreamElements
   description: StreamElements is a cloud-based platform for live streamers and content creators on Twitch, YouTube, Kick and Facebook, offering 100% free customizable overlays and alerts, a chatbot, tipping and donations, loyalty points, giveaways and contests, song requests, a media/merch store, brand sponsorshi…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 43.5
   shared: 1
@@ -147,13 +161,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 43.2
-  shared: 1
-- slug: api-market
-  name: API.market
-  description: API.market (Noveum) is an API marketplace launched in April 2024 where developers discover, subscribe to and call third-party APIs and AI models with one account, one x-api-market-key and unified billing, and where sellers import an OpenAPI source, set pricing plans and get paid. The platform itsel…
-  api_count: 3
-  score_band: developing
-  score_composite: 43.0
   shared: 1
 - slug: dappier
   name: Dappier
@@ -197,6 +204,13 @@ providers:
   score_band: thin
   score_composite: 35.0
   shared: 1
+- slug: kevel
+  name: Kevel
+  description: Kevel is an API-first ad serving platform that lets brands and publishers build unified, fully customized ad systems supporting any ad format, any creative, and multiple demand sources. Kevel exposes a Decision API for ad requests, a Management API for campaign and creative operations, a Reporting…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.3
+  shared: 1
 - slug: koah-labs
   name: Koah Labs
   description: 'Koah Labs operates Koah, an advertising network purpose-built for AI applications. It ships two products: an Ad SDK that lets publishers monetize chat and agent experiences with native, intent-matched ad formats (action card, image card, poll, expandable, catalog, side rail) across JavaScript, Reac…'
@@ -204,57 +218,44 @@ providers:
   score_band: thin
   score_composite: 34.0
   shared: 1
-- slug: kevel
-  name: Kevel
-  description: Kevel is an API-first ad serving platform that lets brands and publishers build unified, fully customized ad systems supporting any ad format, any creative, and multiple demand sources. Kevel exposes a Decision API for ad requests, a Management API for campaign and creative operations, a Reporting…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.9
-  shared: 1
-- slug: adcolony
-  name: AdColony
-  description: AdColony was a mobile advertising and app-monetization company known for its high-definition video and interactive (Aurora HD) mobile ad SDKs and its Publisher and Advertiser reporting APIs. AdColony was acquired by Digital Turbine in 2021; adcolony.com and its developer support/docs hosts now 308-…
-  api_count: 0
-  score_band: thin
-  score_composite: 31.3
-  shared: 1
 provider_slugs:
 - drippay
 - apigee
+- apiable
 - paid
 - netcracker
-- moesif
 - appcharge
+- moesif
 - solvimon
 - zype
 - viglink
 - coda-payments
-- apiable
+- stay22
 - monetizenow
 - sovrn
 - inmobi
 - opera
 - amberflo
 - news-break
+- api-market
 - streamelements
 - lunar
 - domob
-- api-market
 - dappier
 - vungle
 - rad
 - jeeng
 - pokkt
 - madvertise
-- koah-labs
 - kevel
-- adcolony
-- podbean
+- koah-labs
 - google-adsense
 - gameanalytics
+- adcolony
+- podbean
+- spreaker
 - themonetizr
 - frvr
-- spreaker
 - pollfish
 - acast
 - polar-sh
@@ -265,9 +266,12 @@ provider_slugs:
 - gleefulai
 - zeroclick
 - priceops
+- apyflux
 - touchmark
 - redcircle
 - firstory
+- pangle
+- adjoe
 - dubclub
 - passes
 - sanlo
@@ -275,6 +279,7 @@ provider_slugs:
 - audiomob
 - favorited
 - monetization
+- adaction
 - art19
 - beacons
 - jetapult
@@ -293,14 +298,14 @@ provider_slugs:
 - tapsense
 - trialpay
 related:
+- slug: gateway
+  name: Gateway
+  shared: 3
 - slug: portal
   name: Portal
   shared: 3
 - slug: finops
   name: FinOps
-  shared: 2
-- slug: gateway
-  name: Gateway
   shared: 2
 - slug: management
   name: Management
@@ -314,8 +319,8 @@ related:
 overview: 'Monetization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [monetization.apievangelist.com](https://monetization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Drippay, Apigee, Paid, Netcracker, Moesif, Appcharge, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Drippay, Apigee, Apiable, Paid, Netcracker, Appcharge, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Portal, FinOps, Gateway, and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Gateway, Portal, FinOps, and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

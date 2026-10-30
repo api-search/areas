@@ -6,7 +6,7 @@ description: Searching across API Evangelist.
 area_url: https://search.apievangelist.com
 area_host: search.apievangelist.com
 icon: https://search.apievangelist.com/icon-thumb.png
-provider_count: 212
+provider_count: 219
 providers:
 - slug: algolia
   name: Algolia
@@ -25,21 +25,21 @@ providers:
 - slug: elk-stack
   name: Elastic Stack
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
-  api_count: 19
+  api_count: 10
   score_band: exemplar
-  score_composite: 77.0
+  score_composite: 76.9
   shared: 1
 - slug: cloro-dev
   name: cloro
   description: 'cloro is one API for Google Search and AI answer engines: a REST surface at api.cloro.dev that submits a prompt to ChatGPT, Gemini, Perplexity, Microsoft Copilot, Grok, Google AI Mode, Google Search, Google AI Overview and Google News from a chosen country (and US state) and returns the engine''s an…'
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 74.6
   shared: 1
 - slug: octen-ai
   name: Octen
   description: Octen (Octen.AI) is an AI-native web search and retrieval platform built for LLM applications and agents. Its REST API at api.octen.ai exposes Broad Search (multi-angle query decomposition), Web Search, News Search, Business Search, Image Search, Video Search, URL Extract, text and vision-language…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 71.5
   shared: 1
@@ -60,7 +60,7 @@ providers:
 - slug: s1-dev
   name: Search1API
   description: Search1API is web access infrastructure for AI agents, operated by SuperAgents, LLC (Delaware). One credit-metered REST API at api.search1api.com provides multi-engine web search (Google, Bing, DuckDuckGo, Yandex, GitHub, arXiv, Reddit, X, Baidu and more), agentic search routed by the TypeSafe Jev…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 71.0
   shared: 1
@@ -71,17 +71,17 @@ providers:
   score_band: exemplar
   score_composite: 68.6
   shared: 1
-- slug: perigon
-  name: Perigon
-  description: Perigon is a real-time global news data and intelligence platform. It provides structured, enriched news data from 200,000+ sources worldwide through REST APIs — articles, clustered stories, AI search summaries, semantic vector search, sources, companies, people, journalists, topics and Wikipedia —…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 67.7
-  shared: 1
 - slug: google-search-console
   name: Google Search Console
   description: 'Google Search Console gives site owners programmatic access to how their site appears in Google Search. Three separately versioned Google APIs make up the surface: the Search Console API for search analytics, sitemaps, site management and URL inspection; the URL Testing Tools API for the mobile-fri…'
   api_count: 5
+  score_band: exemplar
+  score_composite: 67.2
+  shared: 1
+- slug: perigon
+  name: Perigon
+  description: Perigon is a real-time global news data and intelligence platform. It provides structured, enriched news data from 200,000+ sources worldwide through REST APIs — articles, clustered stories, AI search summaries, semantic vector search, sources, companies, people, journalists, topics and Wikipedia —…
+  api_count: 1
   score_band: exemplar
   score_composite: 67.2
   shared: 1
@@ -97,19 +97,19 @@ providers:
   description: Amazon Kendra is an intelligent enterprise search service powered by machine learning that enables organizations to index and search across multiple data sources, delivering highly accurate and relevant answers to natural language queries.
   api_count: 1
   score_band: strong
-  score_composite: 64.8
+  score_composite: 66.2
   shared: 1
 - slug: open-food-facts
   name: Open Food Facts
   description: Open Food Facts is a collaborative, free and open database of food products from around the world, built by everyone for everyone. Anyone can scan a barcode and contribute product data, and the whole database is published under the Open Database License so it can be re-used for any purpose. The pro…
-  api_count: 11
+  api_count: 8
   score_band: strong
   score_composite: 64.5
   shared: 1
 - slug: ahrefs
   name: Ahrefs
   description: Ahrefs is a Singapore-based SEO and marketing intelligence platform built on its own web crawler and index, offering Site Explorer, Keywords Explorer, Site Audit, Rank Tracker, SERP Overview, Brand Radar, Web Analytics and Social Media Management. The Ahrefs API v3 exposes that data set as a REST A…
-  api_count: 16
+  api_count: 15
   score_band: strong
   score_composite: 64.3
   shared: 1
@@ -123,9 +123,9 @@ providers:
 - slug: machinelibrary-ai
   name: Space Frontiers
   description: 'Space Frontiers is a Wyoming corporation whose search and AI product, Machine Library (formerly Space Frontiers search, moved to machinelibrary.ai on 2026-09-12), is a full-text retrieval API and hosted MCP server over a corpus the provider describes as multi-billion documents: peer-reviewed papers…'
-  api_count: 4
+  api_count: 1
   score_band: strong
-  score_composite: 62.8
+  score_composite: 63.4
   shared: 1
 - slug: google-indexing
   name: Google Indexing
@@ -144,9 +144,9 @@ providers:
 - slug: perplexity
   name: Perplexity
   description: Perplexity AI is an answer engine that delivers accurate answers to complex questions using large language models with real-time web search capabilities.
-  api_count: 3
+  api_count: 2
   score_band: strong
-  score_composite: 60.8
+  score_composite: 61.6
   shared: 1
 - slug: serpwow
   name: SerpWow
@@ -167,26 +167,26 @@ providers:
   description: Amazon CloudSearch is a managed search service that makes it easy to set up, manage, and scale a search solution for your website or application. Supports full-text search, Boolean search, faceted search, autocomplete, geospatial search, and 34 languages.
   api_count: 1
   score_band: strong
-  score_composite: 58.3
+  score_composite: 59.7
   shared: 1
 - slug: youtube
   name: Youtube
   description: YouTube APIs provide programmatic access to YouTube data including videos, playlists, channels, user interactions, live streaming, analytics, captions, and embedded player controls.
   api_count: 5
   score_band: strong
-  score_composite: 58.3
+  score_composite: 59.6
   shared: 1
 - slug: sociallisteningapi
   name: SocialListeningAPI
   description: SocialListeningAPI is a social listening API for developers and AI agents that searches public posts, videos, profiles, forum discussions and Google results across LinkedIn, X, Reddit, Facebook, Hacker News, TikTok, YouTube, Pinterest, Instagram, Google and Discourse through one x-api-key and a nor…
-  api_count: 4
+  api_count: 1
   score_band: strong
-  score_composite: 57.3
+  score_composite: 56.8
   shared: 1
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
-  api_count: 6
+  api_count: 5
   score_band: strong
   score_composite: 56.7
   shared: 1
@@ -195,28 +195,28 @@ providers:
   description: Aito Technologies (Aito.ai, legal entity Episto Oy of Vantaa, Finland) builds a predictive database that delivers instant, calibrated machine-learning predictions from live business data with no model training. Its REST Query API exposes a SQL-like JSON interface for prediction, recommendation, sim…
   api_count: 1
   score_band: strong
+  score_composite: 56.5
+  shared: 1
+- slug: active-network
+  name: Active Network
+  description: ACTIVE Network provides intelligent activity and event management software for communities and organizations, powering registration, payments, marketing, and attendance for recreation departments, YMCAs, camps, schools, event organizers, and municipalities, and is trusted by over 6,300 organization…
+  api_count: 2
+  score_band: strong
   score_composite: 56.3
   shared: 1
 - slug: anyapi
   name: AnyAPI
   description: AnyAPI is a unified gateway and marketplace for scraping and data APIs, operated by AnyAPI Labs, Inc. One key and one prepaid USD wallet reach 363 normalized third-party data sources - social profiles and posts, search and SEO, commerce listings and reviews, sales enrichment and email verification,…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 55.3
   shared: 1
 - slug: crustapi
   name: CrustAPI
   description: Hosted API delivering structured Google (Search/Maps/etc.) and public LinkedIn data as JSON for developers, data teams, and AI agents. Pay-per-successful-result billing with an OpenAPI spec, an llms.txt, an x402 agent-payment endpoint, and a local MCP server.
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 55.3
-  shared: 1
-- slug: serper
-  name: Serper
-  description: Serper is the world's fastest and most affordable Google Search API, delivering real-time SERP data in 1-2 seconds via a simple REST interface. It supports web search, images, news, maps, places, videos, shopping, scholar, patents, and autocomplete — all returned as structured JSON. Widely used in…
-  api_count: 2
-  score_band: strong
-  score_composite: 54.8
+  score_composite: 55.2
   shared: 1
 provider_slugs:
 - algolia
@@ -228,8 +228,8 @@ provider_slugs:
 - mrscraper
 - s1-dev
 - google
-- perigon
 - google-search-console
+- perigon
 - crawl4ai
 - amazon-kendra
 - open-food-facts
@@ -246,76 +246,80 @@ provider_slugs:
 - sociallisteningapi
 - shodan
 - aito-technologies
+- active-network
 - anyapi
 - crustapi
 - serper
 - airweave
-- depict
 - searchapi
 - insider
+- depict
 - tako
 - constructorio
+- exa-ai
 - clerk-io
 - wego
 - litescrape
 - mixedbread-ai
-- rettfrabonden-com
-- bonsai-io
-- exa-ai
-- sylvia-api
-- brightedge
-- mcp360
 - amazon-opensearch
+- bonsai-io
+- rettfrabonden-com
 - chroma
+- sylvia-api
+- coveo
+- mcp360
 - scribe
 - vespa-ai
-- kannkidas-de
 - tweetapi
-- coveo
+- antfly
+- cribl
+- brightedge
+- kannkidas-de
+- trove
 - getty-images
 - openserp
-- cribl
 - vectara
 - zeroentropy
+- listennotes
 - ragflow
 - dokki-one
 - tmdb
 - dexcare
-- listennotes
+- google-custom-search
 - moz
 - browserless
 - tinyfish
 - microsoft-azure-search
 - macrometa
+- meilisearch
 - janus-machine-market
-- google-custom-search
 - artlist
 - delphi
+- mojeek
 - tvu-networks
-- outdoorsy
-- meilisearch
 - opoint
+- outdoorsy
 - topk
-- active-network
 - alphasense
 - rentberry
+- wikimedia
+- elasticsearch
 - jetify
 - mem
 - tollbit
-- apache-nutch
 - dynamic-yield
-- wikimedia
-- elasticsearch
+- zerorank-ai
 - europeana
 - openmenu
-- finn-tannlege-com
 - landing
 - motion-elements
+- finn-tannlege-com
 - radar-cnpj
-- apache-solr
+- apache-nutch
 - trieve
 - lily-ai
 - misoai
+- duckduckgo
 - physna
 - telenav
 - epicdirectories
@@ -323,56 +327,57 @@ provider_slugs:
 - tavily
 - typesense
 - wolframalpha
-- duckduckgo
 - prorataai
 - twelvelabs
-- newscatcher
-- opensearch
-- azure-ai-search
 - kagi
+- newscatcher
 - google-cloud-talent-solution
 - new-york-times-company
+- opensearch
+- apache-solr
+- azure-ai-search
 - quickwit
+- tenor
 - newsapi
 - the-news-api
 - mytomorrows
 - apiserpent
 - preply
-- tenor
+- google-books
 - searchstax
 - openverse
 - vertex-ai-search
 - federal-laboratory-consortium-for-technology-transfer
-- google-books
 - point-me
 - golden
 - nuclia
 - qeenai
-- openlaws
+- serpapi
+- brave-browser
 - jina-ai
+- openlaws
+- lucidworks
 - midpage
 - snapmagic
-- nutrientsdb
-- serpapi
-- lucidworks
+- chroniclingamerica
 - nuxeo
-- brave-browser
+- nutrientsdb
 - slite
 - iconik
 - gnews
-- zincsearch
 - quissly-inc
-- chroniclingamerica
+- yavy
+- zincsearch
 - moda-operandi
-- manticore
 - solve-intelligence
 - parseflow
 - phraseanet
 - google-patents
 - coworkingview-api
+- manticore
 - mastodon-instances
-- allagents-app
 - you-com
+- allagents-app
 - apache-lucene
 - dvids-api
 - orama
@@ -381,26 +386,26 @@ provider_slugs:
 - searchcraft
 - demo-openapi
 - marginalia-search
+- solr
 - shelf
+- glean
 - open-library
 - launchmetrics
 - the-index-fyi
-- solr
-- glean
+- paradedb
 - taddy
 - swiftype
 - digiant-nz
-- genspark
 - poetry-db
+- genspark
 - cliptoai
 - crystallize
-- paradedb
-- pgvector
 - comet-browser
-- regular-expressions
-- nannostomus
 - openevidence
+- pgvector
+- regular-expressions
 - pixabay
+- nannostomus
 - naver
 - plush
 - statmuse
@@ -417,6 +422,8 @@ provider_slugs:
 - my-china-roots
 - amundsen
 - alphabet
+- tryindex-com
+- fyyd
 - command-e
 - alien-labs
 - ask

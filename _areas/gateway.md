@@ -6,12 +6,12 @@ description: A collection of services, tooling, and open source solutions for AP
 area_url: https://gateway.apievangelist.com
 area_host: gateway.apievangelist.com
 icon: https://gateway.apievangelist.com/icon-thumb.png
-provider_count: 114
+provider_count: 118
 providers:
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 26
+  api_count: 25
   score_band: exemplar
   score_composite: 80.6
   shared: 2
@@ -41,12 +41,12 @@ providers:
   description: Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kubernetes Operator, and a new AI Agent Management suite with na…
   api_count: 2
   score_band: strong
-  score_composite: 63.8
+  score_composite: 65.1
   shared: 2
 - slug: solo-io
   name: Solo.io
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gatewa…
-  api_count: 6
+  api_count: 5
   score_band: strong
   score_composite: 61.6
   shared: 2
@@ -83,12 +83,12 @@ providers:
   description: ngrok is a unified application delivery network for developers, providing secure tunnels, ingress-as-a-service, API gateway, and AI gateway capabilities. It enables developers to expose local services on the public internet, manage edge ingress, and route traffic to AI providers without redeploying…
   api_count: 1
   score_band: developing
-  score_composite: 45.6
+  score_composite: 46.8
   shared: 2
 - slug: routerplex
   name: RouterPlex
-  description: RouterPlex is an OpenAI- and Anthropic-compatible AI gateway that fronts 39 chat and image models from 14 vendors — OpenAI, Anthropic, Google, DeepSeek, Moonshot, Alibaba, MiniMax, Zhipu, xAI and others — behind one API key and one prepaid balance, at vendor list prices with no markup and no top-up…
-  api_count: 2
+  description: RouterPlex is an OpenAI- and Anthropic-compatible AI gateway that fronts 64 chat and image models from 15 vendors — OpenAI, Anthropic, Google, DeepSeek, Moonshot, Alibaba, MiniMax, Zhipu, xAI and others — behind one API key and one prepaid balance, at vendor list prices with no markup and no top-up…
+  api_count: 1
   score_band: developing
   score_composite: 43.5
   shared: 2
@@ -116,7 +116,7 @@ providers:
 - slug: jitterbit
   name: Jitterbit
   description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.5
   shared: 1
@@ -137,7 +137,7 @@ providers:
 - slug: f5
   name: F5
   description: F5 is a global company that specializes in application delivery and security solutions for businesses. They provide products and services that help organizations efficiently and securely deliver applications to users across any network or cloud environment. F5's solutions are designed to optimize t…
-  api_count: 8
+  api_count: 6
   score_band: strong
   score_composite: 65.1
   shared: 1
@@ -148,6 +148,13 @@ providers:
   score_band: strong
   score_composite: 64.8
   shared: 1
+- slug: apiable
+  name: Apiable
+  description: Apiable is an API portal platform that enables businesses to create single-tenant, white-label developer portals with custom domains, branding, and API product management. It supports API monetization, developer self-service onboarding, usage metrics, subscription lifecycle management, and integrat…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.2
+  shared: 1
 - slug: aimlapi
   name: AIMLAPI
   description: AIMLAPI is a unified AI model API gateway providing access to 400+ state-of-the-art AI models from OpenAI, Anthropic, Google, Meta, DeepSeek, Mistral, Stability AI, and 40+ other providers through a single OpenAI-compatible API. Supported modalities include text/chat LLMs, image generation, video g…
@@ -155,10 +162,17 @@ providers:
   score_band: strong
   score_composite: 63.3
   shared: 1
+- slug: agentuity
+  name: Agentuity
+  description: Agentuity is a full-stack cloud platform for building, deploying, and operating AI agents and the framework apps around them. Developers keep their existing framework (Next.js, Hono, React Router, SvelteKit, Nuxt, Astro, Vite React, TanStack Start) and attach Agentuity service clients for key-value…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.4
+  shared: 1
 - slug: citi
   name: Citi
   description: 'Citi is the consumer and institutional brand of Citigroup, serving over 200 million customers across 160 countries. Citi runs one of the largest published API estates in banking: 118 machine-readable OpenAPI and Swagger contracts covering 297 operations are served from developer.citi.com across pay…'
-  api_count: 196
+  api_count: 117
   score_band: strong
   score_composite: 61.4
   shared: 1
@@ -172,7 +186,7 @@ providers:
 - slug: slng
   name: SLNG
   description: SLNG is a compliance-first speech AI gateway that gives developers a single, unified API for speech-to-text, text-to-speech, and LLM-driven voice agents across 30+ models from providers like Deepgram, Rime, Cartesia, ElevenLabs, and OpenAI Whisper. The platform acts as an execution layer between an…
-  api_count: 8
+  api_count: 7
   score_band: strong
   score_composite: 59.6
   shared: 1
@@ -182,6 +196,13 @@ providers:
   api_count: 4
   score_band: strong
   score_composite: 59.6
+  shared: 1
+- slug: fusio
+  name: Fusio
+  description: 'Fusio is Apache-2.0, self-hosted API management from apioo (Christoph Kappestein, Germany). An operator installs it and builds APIs inside it: an operation binds an HTTP method and path to an action (SQL, HTTP, MongoDB, Elasticsearch, an LLM agent, or code running in a JavaScript, Python, Java or P…'
+  api_count: 4
+  score_band: strong
+  score_composite: 59.4
   shared: 1
 - slug: aptible
   name: Aptible
@@ -193,30 +214,9 @@ providers:
 - slug: edgee
   name: Edgee
   description: Edgee is a French edge-native AI Gateway that sits between coding agents and LLM providers, intercepting, routing, compressing, metering and securing every request. Its OpenAI-compatible gateway API at edgee.io exposes chat completions, an Anthropic Messages endpoint, an OpenAI Responses endpoint,…
-  api_count: 2
-  score_band: strong
-  score_composite: 58.4
-  shared: 1
-- slug: 558686-xyz
-  name: gpt55-token-gateway
-  description: gpt55-token-gateway is the self-chosen service name of an unnamed operator running two OpenAI-compatible AI API gateways on the 558686.xyz domain. GPT55 Model Gateway (gpt55.558686.xyz) sells single GPT-5.6 Luna, GPT-5.5 and GPT-5.3-codex chat completions, deterministic text and wallet tools, and p…
-  api_count: 3
-  score_band: strong
-  score_composite: 57.7
-  shared: 1
-- slug: vercel
-  name: Vercel
-  description: Vercel is a cloud platform that helps developers build, deploy, and scale modern web applications quickly and efficiently. It provides an optimized hosting environment for frontend frameworks like Next.js (which it created), as well as other React, Vue, Angular, and static site projects. Vercel aut…
-  api_count: 2
-  score_band: strong
-  score_composite: 57.5
-  shared: 1
-- slug: speko
-  name: Speko
-  description: Speko is a voice-AI gateway - "one API for the whole voice stack." It continuously benchmarks speech-to-text, LLM, and text-to-speech providers and routes every call to the best provider for your language, latency, and cost intent, with transparent server-side failover. Developers ship voice agents…
   api_count: 1
   score_band: strong
-  score_composite: 56.5
+  score_composite: 58.4
   shared: 1
 provider_slugs:
 - cloudflare
@@ -239,39 +239,40 @@ provider_slugs:
 - apigee
 - f5
 - vendia
+- apiable
 - aimlapi
+- agentuity
 - citi
 - eden-ai
 - slng
 - tyk
+- fusio
 - aptible
 - edgee
 - 558686-xyz
 - vercel
 - speko
-- agentuity
 - gloo
 - portkey
 - webhook-relay
 - 2s-io
-- fusio
 - insforge
 - bifrost
+- ibm-api-connect
 - xguardgate-com
 - aihubmix
-- apiable
 - mcp360
-- cloudflare-ai-gateway
 - helicone
-- ibm-api-connect
 - fastrouter
 - wundergraph
 - citrix-netscaler
 - red-hat-3scale
-- mcp-manager
 - google-cloud-api-gateway
 - mulesoft
+- cloudflare-ai-gateway
 - university-of-helsinki
+- mcp-manager
+- hasmcp
 - apache-apisix
 - standard-compute
 - apinizer
@@ -279,47 +280,50 @@ provider_slugs:
 - zotgpt
 - apiman
 - nginx
-- langwatch
-- palebluedotai
 - unify-ai
 - google-cloud-endpoints
+- langwatch
+- palebluedotai
 - envoy-gateway
 - rapidapi
 - hkust
-- apache-knox
 - sapiom
 - nexosai
+- cubenexus-inc
 - kong-ai-gateway
 - langdb
+- uplinkswitch
+- apache-knox
 - krakend
 - mindlogic
 - the-guild-dev
-- aalto
-- express-gateway
-- weaveapi
 - ambassador
+- express-gateway
+- aalto
+- weaveapi
 - spring-cloud-gateway
 - ocelot
 - runlayer
+- grafbase
 - litellm
 - hiscox
 - apiida
-- grafbase
 - software-ag
 - safeline
 - stepzen
 - emissary-ingress
 - kgateway
 - rhapsody
+- deutsche-telekom
 - tensorzero
 - cumulus-labs
-- deutsche-telekom
 - tailcall
+- bridgestackapi
 - apiwiz
 - adaptigent
 - primerica
-- bridgestackapi
 - containo
+- getenroute
 - membrane
 - higress
 - bloomberg-platform
@@ -336,18 +340,18 @@ provider_slugs:
 related:
 - slug: management
   name: Management
-  shared: 7
+  shared: 8
 - slug: portal
   name: Portal
-  shared: 6
+  shared: 8
+- slug: monetization
+  name: Monetization
+  shared: 3
 - slug: serverless
   name: Serverless
   shared: 3
 - slug: deployment
   name: Deployment
-  shared: 2
-- slug: monetization
-  name: Monetization
   shared: 2
 - slug: service-mesh
   name: Service Mesh
@@ -358,5 +362,5 @@ overview: 'Gateway is one of the API Evangelist areas on the [APIs.io](https://a
   30 providers on the network work in this area, including Cloudflare, Kong, Microsoft Azure API Management, Zuplo, Gravitee, Solo.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Management, Portal, Serverless, and Deployment. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Management, Portal, Monetization, and Serverless. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

@@ -6,12 +6,12 @@ description: An index and topic collection covering privacy management, consent 
 area_url: https://privacy.apievangelist.com
 area_host: privacy.apievangelist.com
 icon: https://privacy.apievangelist.com/icon-thumb.png
-provider_count: 194
+provider_count: 219
 providers:
 - slug: didomi
   name: Didomi
   description: Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law lan…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 80.0
   shared: 1
@@ -25,7 +25,7 @@ providers:
 - slug: listrak
   name: Listrak
   description: 'Listrak is a retail customer-engagement platform whose public API surface is eight separate REST APIs served from api.listrak.com: Email (83 operations), SMS (20), Data Import (5), Media (9), Mobile App Push (5), Two-Way SMS (4), Cross Channel custom events (3) and Privacy (2). Together they cover…'
-  api_count: 26
+  api_count: 15
   score_band: exemplar
   score_composite: 72.7
   shared: 1
@@ -36,12 +36,26 @@ providers:
   score_band: exemplar
   score_composite: 71.7
   shared: 1
+- slug: umami
+  name: Umami
+  description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full programmatic access to analytics data, website management, sess…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 71.7
+  shared: 1
 - slug: adobe-campaign
   name: Adobe Campaign
   description: 'Adobe Campaign is Adobe''s enterprise cross-channel campaign management and marketing automation platform, orchestrating email, SMS, push, direct mail and web messaging against a customer-owned marketing database. It ships two distinct programmable surfaces: a JSON REST API on https://mc.adobe.io/{O…'
   api_count: 2
   score_band: exemplar
-  score_composite: 70.5
+  score_composite: 70.7
+  shared: 1
+- slug: appsflyer
+  name: AppsFlyer
+  description: AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers to measure, attribute and optimize user acquisition across mobile, web, CTV, console and PC. Its developer surface spans mobile and platform SDKs (iOS, Android, Unity, React Native, Flutter, Cordova, Unreal, Ro…
+  api_count: 39
+  score_band: exemplar
+  score_composite: 69.2
   shared: 1
 - slug: matomo
   name: Matomo
@@ -50,17 +64,10 @@ providers:
   score_band: exemplar
   score_composite: 69.0
   shared: 1
-- slug: appsflyer
-  name: AppsFlyer
-  description: AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers to measure, attribute and optimize user acquisition across mobile, web, CTV, console and PC. Its developer surface spans mobile and platform SDKs (iOS, Android, Unity, React Native, Flutter, Cordova, Unreal, Ro…
-  api_count: 78
-  score_band: exemplar
-  score_composite: 67.8
-  shared: 1
 - slug: blueconic
   name: BlueConic
   description: BlueConic is a customer data platform (CDP) with a REST API for managing unified customer profiles, lifecycle stages, segments, connections, and permissions-based data activation. The API provides OAuth 2.0-secured access to visitor profiles, segments, interactions, and audit events via an OpenAPI-…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 67.4
   shared: 1
@@ -99,13 +106,6 @@ providers:
   score_band: strong
   score_composite: 65.3
   shared: 1
-- slug: umami
-  name: Umami
-  description: Umami is an open source, privacy-first web analytics platform that provides website traffic insights without cookies or personal data collection, serving as a simple and fast alternative to Google Analytics. The Umami API provides full programmatic access to analytics data, website management, sess…
-  api_count: 7
-  score_band: strong
-  score_composite: 62.0
-  shared: 1
 - slug: plausible
   name: Plausible
   description: Plausible is an open source, privacy-friendly web analytics platform designed as a lightweight alternative to Google Analytics. It provides essential website traffic metrics without using cookies or collecting personal data, making it compliant with GDPR, CCPA, and other privacy regulations out of…
@@ -123,35 +123,42 @@ providers:
 - slug: inrupt
   name: Inrupt
   description: Inrupt is the enterprise company founded by Sir Tim Berners-Lee and John Bruce to commercialize Solid, the open decentralized-data specification he created at MIT. Its flagship product is the Enterprise Solid Server (ESS), a Kubernetes-deployed platform of cooperating services that gives each perso…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.0
   shared: 1
 - slug: screenpipe
   name: Screenpipe
   description: Screenpipe is a local-first, source-available desktop application (by Mediar AI, Y Combinator S26) that continuously captures everything you see, say, and hear on your computer, reads on-screen text through OS accessibility APIs with an OCR fallback, transcribes system and microphone audio with loc…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 60.9
   shared: 1
 - slug: opentext-cybersecurity
   name: OpenText Cybersecurity
   description: OpenText Cybersecurity is the security business of OpenText, assembled from the Micro Focus security portfolio (Fortify application security, ArcSight threat detection and response, NetIQ identity and access management, Voltage data privacy) and the SMB/MSP brands OpenText acquired through Webroot,…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 60.4
   shared: 1
 - slug: altr
   name: ALTR
   description: ALTR is a unified data security platform that discovers, classifies, masks, tokenizes and monitors sensitive data across Snowflake, Databricks and OLTP databases (PostgreSQL, MySQL, SQL Server, Oracle, MongoDB). The platform combines automated data classification, tag-based and column-based dynamic…
-  api_count: 42
+  api_count: 21
   score_band: strong
   score_composite: 59.3
+  shared: 1
+- slug: amazon-macie
+  name: Amazon Macie
+  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the discovery of sensitive data, such as personally identifiable…
+  api_count: 2
+  score_band: strong
+  score_composite: 59.2
   shared: 1
 - slug: liveramp
   name: LiveRamp
   description: LiveRamp is a data collaboration platform that lets enterprises connect, control, and activate first-party customer data across the digital ecosystem without moving raw PII between parties. Its developer surface spans identity resolution (AbiliTec links and RampID), programmatic activation to more…
-  api_count: 5
+  api_count: 3
   score_band: strong
   score_composite: 59.1
   shared: 1
@@ -162,26 +169,12 @@ providers:
   score_band: strong
   score_composite: 58.0
   shared: 1
-- slug: amazon-macie
-  name: Amazon Macie
-  description: Amazon Macie is a data security service that discovers sensitive data by using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks. Macie automates the discovery of sensitive data, such as personally identifiable…
-  api_count: 2
-  score_band: strong
-  score_composite: 57.8
-  shared: 1
 - slug: sourcepoint
   name: Sourcepoint
   description: Sourcepoint is a New York City-headquartered enterprise privacy and consent management technology company founded in 2015 by Ben Barokas and Brian Kane. The platform began as an ad-block recovery solution for publishers and evolved into a Consent Management Platform (CMP) used by leading global pub…
-  api_count: 14
+  api_count: 7
   score_band: strong
   score_composite: 57.6
-  shared: 1
-- slug: datavant
-  name: Datavant
-  description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US…
-  api_count: 4
-  score_band: strong
-  score_composite: 57.1
   shared: 1
 - slug: nord-security
   name: Nord Security
@@ -197,10 +190,17 @@ providers:
   score_band: strong
   score_composite: 56.5
   shared: 1
-- slug: venice-ai
-  name: Venice.ai
-  description: Venice.ai is a privacy-first, uncensored AI platform and API offering text generation, image generation, audio synthesis, speech-to-speech voice conversion, video generation, music, embeddings and developer tools (web search, document parsing, blockchain RPC) with zero data retention, through an Op…
-  api_count: 2
+- slug: datavant
+  name: Datavant
+  description: Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US…
+  api_count: 1
+  score_band: strong
+  score_composite: 56.5
+  shared: 1
+- slug: california-privacy-protection-agency
+  name: California Privacy Protection Agency
+  description: The California Privacy Protection Agency (CPPA, branded CalPrivacy) is the state regulator that administers and enforces the California Consumer Privacy Act and the Delete Act. Under the Delete Act it operates DROP, the Delete Request and Opt-out Platform, through which California residents file a…
+  api_count: 1
   score_band: strong
   score_composite: 56.3
   shared: 1
@@ -209,90 +209,96 @@ providers:
   description: Pimloc is a UK-based AI company whose Secure Redact platform automates the redaction and anonymization of personally identifiable information (PII) in video, audio, images and documents — blurring faces, license plates, screens, on-screen text and full bodies with high accuracy. Used across law enf…
   api_count: 1
   score_band: strong
-  score_composite: 55.5
+  score_composite: 56.3
   shared: 1
-- slug: california-privacy-protection-agency
-  name: California Privacy Protection Agency
-  description: The California Privacy Protection Agency (CPPA, branded CalPrivacy) is the state regulator that administers and enforces the California Consumer Privacy Act and the Delete Act. Under the Delete Act it operates DROP, the Delete Request and Opt-out Platform, through which California residents file a…
+- slug: venice-ai
+  name: Venice.ai
+  description: Venice.ai is a privacy-first, uncensored AI platform and API offering text generation, image generation, audio synthesis, speech-to-speech voice conversion, video generation, music, embeddings and developer tools (web search, document parsing, blockchain RPC) with zero data retention, through an Op…
   api_count: 1
   score_band: strong
-  score_composite: 54.9
+  score_composite: 56.3
   shared: 1
 provider_slugs:
 - didomi
 - swetrix
 - listrak
 - onetrust
+- umami
 - adobe-campaign
-- matomo
 - appsflyer
+- matomo
 - blueconic
 - pirsch
 - rybbit
 - statable-stats-api
 - singular
 - amazon-clean-rooms
-- umami
 - plausible
 - simpleanalytics
 - inrupt
 - screenpipe
 - opentext-cybersecurity
 - altr
+- amazon-macie
 - liveramp
 - apple-safari
-- amazon-macie
 - sourcepoint
-- datavant
 - nord-security
 - apstal
-- venice-ai
-- pimloc
+- datavant
 - california-privacy-protection-agency
-- osano
+- pimloc
+- venice-ai
+- filen
 - immuta
+- osano
 - trustarc
 - ironcore-labs
+- bigid
+- certifaction
 - nym-technologies
 - goatcounter
-- certifaction
 - habu
 - iab-tech-lab
-- bigid
 - freshpaint
 - mine
-- trustboost-dev
 - inth
+- trustboost-dev
 - virtru
 - servghost-agent-api
 - counter-dev
+- thalium
+- mojeek
 - millimetric
 - privatedao-org
-- sitejabber
 - transcend-io
+- sitejabber
 - k-id
 - quantcast
+- endurain
+- mullvad
+- fathom
+- tabnine
 - workday-security
 - terminal-3
-- fathom
 - opaque
 - diaspora
 - incountry
+- signal
 - airouter
-- tabnine
 - aleo
 - seismic-systems
 - skyflow
 - flower
-- signal
-- soveren
 - duckduckgo
+- soveren
+- immich
 - covatic
 - fastmail
-- burner
 - nightfall-ai
-- usercentrics
 - kagi
+- burner
+- usercentrics
 - vlex
 - blindinsight
 - mobilecoin
@@ -301,12 +307,13 @@ provider_slugs:
 - consentx
 - aztecprotocol
 - truevault
+- vpn
 - aztec-network
+- brave-browser
 - contextsdk
 - hcaptcha
 - privacera
-- vpn
-- brave-browser
+- proton-me
 - synthesized
 - confidential-computing-consortium
 - audigent
@@ -316,15 +323,18 @@ provider_slugs:
 - tonic-ai
 - vgs
 - lattica
+- privadovpn-com
 - demox-labs
 - oasis-labs
 - dead-drop
 - iron-fish
 - sarus
+- hyvor-talk
 - skale-labs
 - friendly-captcha
-- cloudflare-turnstile
 - mailpace
+- cloudflare-turnstile
+- gaianet-ai
 - monero
 - odaseva
 - miniflux
@@ -335,26 +345,36 @@ provider_slugs:
 - zcash
 - webai
 - aztec
+- promptprivacy
 - anonyome-labs
+- demystdata
 - bearer
+- gptguard
 - pi-hole
 - privado
 - intego
 - hamsa
 - anoma
+- posteo
 - 360-privacy
 - anonymco
 - cape
+- mewe
 - lifelock
 - sunscreen
 - relyance-ai
 - aura
 - feroot
 - 1touch-io
+- boundaryintelligentcontrol
+- sesame-com
 - ardent-privacy
+- koofr
 - leapyear
 - conifer
 - zama
+- drawio
+- lightbeam-ai
 - brandyourself
 - blindmate
 - blockpartyapp
@@ -364,7 +384,7 @@ provider_slugs:
 - confide
 - leapyear-technologies
 - anonos
-- lightbeam-ai
+- gluetun
 - securiti-ai
 - rialo
 - orchid-labs
@@ -374,16 +394,19 @@ provider_slugs:
 - mozi
 - picnic
 - theom
-- safeshepherd
 - perf-ai
+- safeshepherd
 - shardsecure
 - xayn
 - ohalo
 - privacy
+- deepingsourceinc
+- gigi
 - identiq
 - center
 - mdclone
 - divebell
+- hypermink
 - ey
 - stack
 - irreducible
@@ -391,8 +414,10 @@ provider_slugs:
 - stealth-worker
 - blink-identity
 - 451-degrees
+- campfire-37signals
 - duane-morris
 - governata
+- windowai
 - trace-data
 - fabric-cryptography
 - one-raven
@@ -423,7 +448,7 @@ related:
 overview: 'Privacy is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [privacy.apievangelist.com](https://privacy.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Didomi, Swetrix, Listrak, OneTrust, Adobe Campaign, Matomo, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Didomi, Swetrix, Listrak, OneTrust, Umami, Adobe Campaign, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agent Skills and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'

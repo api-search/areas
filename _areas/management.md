@@ -6,7 +6,7 @@ description: An index and topic collection covering full-stack API management pl
 area_url: https://management.apievangelist.com
 area_host: management.apievangelist.com
 icon: https://management.apievangelist.com/icon-thumb.png
-provider_count: 72
+provider_count: 88
 providers:
 - slug: snaplogic
   name: SnapLogic
@@ -18,21 +18,28 @@ providers:
 - slug: wso2
   name: WSO2
   description: WSO2 API Manager is an open-source API management platform supporting REST, SOAP, and GraphQL with flexible hybrid deployment. It provides a unified control plane for managing APIs, AI models, and agents across on-premises, hybrid, and cloud environments. WSO2 is recognized as a Leader in the Forre…
-  api_count: 9
+  api_count: 7
   score_band: exemplar
   score_composite: 83.0
   shared: 1
 - slug: microsoft-azure
   name: Microsoft Azure
   description: Microsoft Azure is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through Microsoft-managed data centers.
-  api_count: 870
+  api_count: 697
   score_band: exemplar
-  score_composite: 75.2
+  score_composite: 76.5
+  shared: 1
+- slug: knoxcall
+  name: KnoxCall
+  description: KnoxCall provides a secure API key management platform that stores third‑party API keys (such as Stripe, OpenAI, and many others) and injects them at egress. This enables applications, CI pipelines, and AI agents to use revocable tokens instead of permanent credentials, reducing risk of key leakage…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 73.7
   shared: 1
 - slug: jitterbit
   name: Jitterbit
   description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 72.5
   shared: 1
@@ -76,7 +83,7 @@ providers:
   description: Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kubernetes Operator, and a new AI Agent Management suite with na…
   api_count: 2
   score_band: strong
-  score_composite: 63.8
+  score_composite: 65.1
   shared: 1
 - slug: netcracker
   name: Netcracker
@@ -97,7 +104,7 @@ providers:
   description: Google Cloud Platform enables developers to build, test, and deploy applications on Google's highly-scalable and reliable infrastructure.
   api_count: 1
   score_band: strong
-  score_composite: 61.9
+  score_composite: 62.3
   shared: 1
 - slug: tyk
   name: Tyk
@@ -106,17 +113,24 @@ providers:
   score_band: strong
   score_composite: 59.6
   shared: 1
+- slug: fusio
+  name: Fusio
+  description: 'Fusio is Apache-2.0, self-hosted API management from apioo (Christoph Kappestein, Germany). An operator installs it and builds APIs inside it: an operation binds an HTTP method and path to an action (SQL, HTTP, MongoDB, Elasticsearch, an LLM agent, or code running in a JavaScript, Python, Java or P…'
+  api_count: 4
+  score_band: strong
+  score_composite: 59.4
+  shared: 1
 - slug: talend
   name: Talend
   description: Talend (now part of Qlik) provides data integration, quality, and API management capabilities through cloud-native APIs for ETL, data pipelines, and application integration. The Qlik Talend Cloud platform exposes REST APIs for orchestrating tasks and plans, executing data integration jobs, managing…
-  api_count: 17
+  api_count: 16
   score_band: strong
   score_composite: 57.2
   shared: 1
 - slug: general-services-administration
   name: General Services Administration
   description: The General Services Administration (GSA) provides workplaces by constructing, managing, and preserving government buildings and by leasing and managing commercial real estate. GSA acquisition solutions offer private sector professional services, equipment, supplies, and IT to government organizati…
-  api_count: 22
+  api_count: 21
   score_band: strong
   score_composite: 56.9
   shared: 1
@@ -130,9 +144,9 @@ providers:
 - slug: amuncore
   name: AmunCore
   description: AmunCore turns a database into a secure REST API without writing a backend. You connect a database, pick tables, and endpoints go live with routing, authentication, validation, pagination, joins, errors, logs and docs already handled — the layer between a database and HTTP that would otherwise be a…
-  api_count: 4
+  api_count: 2
   score_band: strong
-  score_composite: 55.4
+  score_composite: 54.9
   shared: 1
 - slug: axway
   name: Axway
@@ -141,12 +155,12 @@ providers:
   score_band: strong
   score_composite: 54.6
   shared: 1
-- slug: fusio
-  name: Fusio
-  description: 'Fusio is Apache-2.0, self-hosted API management from apioo (Christoph Kappestein, Germany). An operator installs it and builds APIs inside it: an operation binds an HTTP method and path to an action (SQL, HTTP, MongoDB, Elasticsearch, an LLM agent, or code running in a JavaScript, Python, Java or P…'
+- slug: ibm-api-connect
+  name: IBM API Connect
+  description: IBM API Connect is a comprehensive end-to-end API management solution that enables organizations to create, secure, manage, share, monetize, and analyze APIs across clouds. It provides an API gateway, developer portal, and lifecycle management capabilities.
   api_count: 4
-  score_band: strong
-  score_composite: 54.5
+  score_band: developing
+  score_composite: 53.0
   shared: 1
 - slug: oracle-integration
   name: Oracle Integration
@@ -155,10 +169,10 @@ providers:
   score_band: developing
   score_composite: 51.9
   shared: 1
-- slug: ibm-api-connect
-  name: IBM API Connect
-  description: IBM API Connect is a comprehensive end-to-end API management solution that enables organizations to create, secure, manage, share, monetize, and analyze APIs across clouds. It provides an API gateway, developer portal, and lifecycle management capabilities.
-  api_count: 4
+- slug: knit
+  name: Knit
+  description: Knit is a unified API platform for B2B products, AI agents, and MCP clients, providing integrations infrastructure for HR, recruitment, and collaboration tools. Knit manages cron jobs, rate limits, and retries out of the box for predictable data syncing at scale.
+  api_count: 1
   score_band: developing
   score_composite: 51.6
   shared: 1
@@ -169,6 +183,13 @@ providers:
   score_band: developing
   score_composite: 51.5
   shared: 1
+- slug: red-hat-3scale
+  name: Red Hat 3scale
+  description: Red Hat 3scale API Management is an enterprise-grade API management platform that enables organizations to share, secure, distribute, control, and monetize APIs across internal and external teams. It provides a developer portal, analytics, access control, policy enforcement, and billing for REST, S…
+  api_count: 5
+  score_band: developing
+  score_composite: 50.9
+  shared: 1
 - slug: elva
   name: Elva
   description: 'API management platform for the agentic era: reads repos to build an API catalog, enforces per-audience contracts, generates tests, and turns APIs into governed, hosted MCP servers for AI agents. Built by Theneo. Exposes a public no-auth OpenAPI scoring REST API and an llms.txt.'
@@ -176,52 +197,32 @@ providers:
   score_band: developing
   score_composite: 50.6
   shared: 1
-- slug: red-hat-3scale
-  name: Red Hat 3scale
-  description: Red Hat 3scale API Management is an enterprise-grade API management platform that enables organizations to share, secure, distribute, control, and monetize APIs across internal and external teams. It provides a developer portal, analytics, access control, policy enforcement, and billing for REST, S…
-  api_count: 5
-  score_band: developing
-  score_composite: 49.7
-  shared: 1
 - slug: choreo
   name: Choreo
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
   api_count: 3
   score_band: developing
-  score_composite: 48.8
+  score_composite: 50.2
   shared: 1
 - slug: google-cloud-api-gateway
   name: Google Cloud API Gateway
   description: Google Cloud API Gateway enables you to provide secure access to your backend services through a well-defined REST API that is consistent across all of your services. It is a fully managed, pay-per-use gateway designed for serverless workloads, supporting Cloud Functions, Cloud Run, and App Engine…
   api_count: 1
   score_band: developing
-  score_composite: 48.5
-  shared: 1
-- slug: swaggerhub
-  name: SwaggerHub
-  description: SwaggerHub is SmartBear's enterprise collaborative API design and documentation platform built around the OpenAPI specification. It provides tools for designing, building, documenting, and consuming RESTful APIs with support for OpenAPI 2.0, OpenAPI 3.0, OpenAPI 3.1, and AsyncAPI specifications. Th…
-  api_count: 2
-  score_band: developing
-  score_composite: 48.5
+  score_composite: 49.9
   shared: 1
 - slug: mulesoft
   name: MuleSoft
   description: MuleSoft Anypoint Platform is an enterprise integration and API management platform offering an API gateway, design center, exchange marketplace, and monitoring for hybrid deployments connecting applications and data.
   api_count: 1
   score_band: developing
-  score_composite: 48.3
-  shared: 1
-- slug: microsoft-azure-integration-services
-  name: Microsoft Azure Integration Services
-  description: Microsoft Azure Integration Services is a collection of cloud-based integration capabilities that connect applications, data, and processes across cloud and on-premises environments. It includes API Management, Logic Apps, Service Bus, Event Grid, and Event Hubs to enable enterprise integration, me…
-  api_count: 6
-  score_band: developing
-  score_composite: 47.8
+  score_composite: 49.7
   shared: 1
 provider_slugs:
 - snaplogic
 - wso2
 - microsoft-azure
+- knoxcall
 - jitterbit
 - microsoft-azure-api-management
 - apigee
@@ -233,60 +234,75 @@ provider_slugs:
 - boomi
 - google-cloud-platform
 - tyk
+- fusio
 - talend
 - general-services-administration
 - traefik
 - amuncore
 - axway
-- fusio
-- oracle-integration
 - ibm-api-connect
+- oracle-integration
+- knit
 - wundergraph
-- elva
 - red-hat-3scale
+- elva
 - choreo
 - google-cloud-api-gateway
-- swaggerhub
 - mulesoft
-- microsoft-azure-integration-services
+- swaggerhub
 - sap-integration-suite
+- microsoft-azure-integration-services
 - amazon-systems-manager
 - broadcom
 - apinizer
 - apiman
 - tibco
 - lunar
-- endpointblank
 - dell-servers
-- apitoolkit
 - google-cloud-endpoints
+- cobot2
+- endpointblank
 - reqkey
 - celigo
+- apitoolkit
+- pathfix
 - rapidapi
-- cobot2
 - sap-api-management
+- koodisi
+- hasfiyat
+- grafbase
+- amazon-appsync
 - blue-yonder
 - apiida
-- grafbase
 - software-ag
 - apipark
-- amazon-appsync
+- ebridgeconnections
+- apiboost
 - apishare
 - albi
 - sensedia
 - apiwiz
 - stellate
 - sunbird
+- easy-metrics
 - ca
+- akana
 - restroworks
+- charterworks-com
 - bettermanager
 - api-stack
 - web-methods
+- orion-law
+- torryharrisproducts
 - beepluscoworkingspace
+- forumsys
 - management
 - syncloop
+- turbomcp
+- ceptor
 - bucketplace2da2
 - lumera
+- synativ
 - amberpoint
 - altierre
 - amcandp
@@ -294,16 +310,16 @@ provider_slugs:
 related:
 - slug: gateway
   name: Gateway
-  shared: 7
+  shared: 8
 - slug: portal
   name: Portal
   shared: 7
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 5
+  shared: 6
 - slug: ipaas
   name: iPaaS
-  shared: 5
+  shared: 6
 - slug: orchestration
   name: Orchestration
   shared: 4
@@ -313,7 +329,7 @@ related:
 overview: 'Management is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [management.apievangelist.com](https://management.apievangelist.com).
 
 
-  30 providers on the network work in this area, including SnapLogic, WSO2, Microsoft Azure, Jitterbit, Microsoft Azure API Management, Apigee, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including SnapLogic, WSO2, Microsoft Azure, KnoxCall, Jitterbit, Microsoft Azure API Management, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Gateway, Portal, Embedded iPaaS, and iPaaS. Browse every area at [areas.apis.io](https://apis.io/areas/).'

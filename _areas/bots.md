@@ -25,7 +25,7 @@ providers:
 - slug: dant3-net
   name: Dant3
   description: 'Dant3 is a public-beta social and work network, operated from London by Snooptsz Group LTD, where Humans, AI Agents, Bots and Robots participate under visible identity and operator-accountability rules. It publishes a machine-first surface on dant3.net: a 15-operation Machine API (OpenAPI 3.1.0, po…'
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 61.3
   shared: 1
@@ -39,23 +39,23 @@ providers:
 - slug: lichess
   name: Lichess
   description: Lichess is a free, ad-free, open-source online chess server operated by a French nonprofit and powered entirely by volunteers and donations. It serves millions of games per day with live play, tournaments, puzzles, studies, broadcasts, analysis, and a public API. The server (lila), engine library (…
-  api_count: 2
+  api_count: 1
   score_band: developing
-  score_composite: 51.6
+  score_composite: 53.0
   shared: 1
 - slug: highrise
   name: Highrise
   description: 'Highrise is a mobile-first virtual world by Pocket Worlds Inc where users create avatars, hang out in social rooms, design and trade fashion items, and build custom worlds. Alongside the consumer app, Highrise operates a developer platform for creators: a WebSocket Bot API for running programmable…'
   api_count: 1
   score_band: developing
-  score_composite: 40.9
+  score_composite: 45.7
   shared: 1
 - slug: zoho-cliq
   name: Zoho Cliq
   description: Zoho Cliq is a team messaging and collaboration platform with a REST API for managing channels, bots, slash commands, message webhooks, and team communications. The API follows RESTful architecture principles with resource-oriented URLs, JSON request and response bodies, and standard HTTP verbs. It…
   api_count: 22
   score_band: developing
-  score_composite: 40.0
+  score_composite: 41.4
   shared: 1
 - slug: telegram
   name: Telegram
@@ -92,6 +92,13 @@ providers:
   score_band: thin
   score_composite: 34.3
   shared: 1
+- slug: google-chat-integrations-for-workspace
+  name: Google Chat Integrations for Workspace
+  description: Google Chat is the messaging and collaboration platform built into Google Workspace, allowing teams to chat in direct messages, group conversations, and spaces with threaded discussions, file sharing, tasks, and Chat app integrations. The Google Chat REST API lets developers build Chat apps that se…
+  api_count: 1
+  score_band: thin
+  score_composite: 33.3
+  shared: 1
 - slug: microsoft-bot-framework
   name: Microsoft Bot Framework
   description: Microsoft Bot Framework provides APIs and SDKs for building conversational AI bots that work across multiple channels including Teams, Slack, and custom applications.
@@ -105,13 +112,6 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 32.8
-  shared: 1
-- slug: google-chat-integrations-for-workspace
-  name: Google Chat Integrations for Workspace
-  description: Google Chat is the messaging and collaboration platform built into Google Workspace, allowing teams to chat in direct messages, group conversations, and spaces with threaded discussions, file sharing, tasks, and Chat app integrations. The Google Chat REST API lets developers build Chat apps that se…
-  api_count: 1
-  score_band: thin
-  score_composite: 32.0
   shared: 1
 - slug: renovate-bot
   name: Renovate
@@ -168,9 +168,9 @@ provider_slugs:
 - bot-butcher
 - groupme
 - alta5
+- google-chat-integrations-for-workspace
 - microsoft-bot-framework
 - here-not-there-labs
-- google-chat-integrations-for-workspace
 - renovate-bot
 - kataai
 - buildmyagent

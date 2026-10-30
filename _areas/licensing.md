@@ -6,21 +6,21 @@ description: 'An index and topic collection covering software licensing APIs acr
 area_url: https://licensing.apievangelist.com
 area_host: licensing.apievangelist.com
 icon: https://licensing.apievangelist.com/icon-thumb.png
-provider_count: 40
+provider_count: 42
 providers:
+- slug: certifyos
+  name: Certifyos
+  description: 'Certify (operating as CertifyOS, certifyos.com) is a New York-based healthcare provider data platform that automates the end-to-end provider network management lifecycle: credentialing, licensing, payer enrollment, compliance monitoring, and roster management. Founded in 2020 by CEO Anshul Rathi, t…'
+  api_count: 1
+  score_band: strong
+  score_composite: 65.8
+  shared: 1
 - slug: replicated
   name: Replicated
   description: Replicated is a commercial software distribution platform that lets independent software vendors (ISVs) deliver and manage modern applications into complex, customer-controlled environments — including on-prem, self-hosted, and air-gapped networks with little or no outbound internet access. The pla…
   api_count: 1
   score_band: strong
   score_composite: 62.0
-  shared: 1
-- slug: certifyos
-  name: Certifyos
-  description: 'Certify (operating as CertifyOS, certifyos.com) is a New York-based healthcare provider data platform that automates the end-to-end provider network management lifecycle: credentialing, licensing, payer enrollment, compliance monitoring, and roster management. Founded in 2020 by CEO Anshul Rathi, t…'
-  api_count: 3
-  score_band: strong
-  score_composite: 57.2
   shared: 1
 - slug: sendowl
   name: SendOwl
@@ -46,9 +46,16 @@ providers:
 - slug: opengov
   name: OpenGov
   description: OpenGov builds cloud enterprise resource planning and public service software for state and local government, serving more than 2,000 communities across budgeting and performance, financial management, procurement and contract management, vendor management, permitting and licensing, enterprise asse…
-  api_count: 12
+  api_count: 11
   score_band: developing
   score_composite: 44.3
+  shared: 1
+- slug: shutterstock
+  name: Shutterstock
+  description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
+  api_count: 1
+  score_band: developing
+  score_composite: 42.9
   shared: 1
 - slug: madaket
   name: Madaket
@@ -56,13 +63,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 41.7
-  shared: 1
-- slug: shutterstock
-  name: Shutterstock
-  description: Shutterstock is a leading global technology company providing high-quality images, videos, audio tracks, sound effects, and editorial content to businesses, individuals, and organizations worldwide. With a library of over 350 million assets, Shutterstock offers royalty-free creative content for mar…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.5
   shared: 1
 - slug: agentsync
   name: Agentsync
@@ -81,7 +81,7 @@ providers:
 - slug: fossology
   name: FOSSology
   description: FOSSology is a Linux Foundation project providing open source license compliance software that scans source code for licenses, copyrights, and export control information. It helps organizations manage their open source license obligations through automated scanning, human clearing workflows, and SP…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 34.0
   shared: 1
@@ -102,7 +102,7 @@ providers:
 - slug: story-protocol
   name: Story Protocol
   description: Story Protocol is a purpose-built EVM Layer 1 blockchain for onchain intellectual property (the "IP blockchain"), powered by Proof of Creativity, built by Pip Labs and backed by a16z. Its public REST API (api.storyapis.com) is a read-only indexer that exposes IP assets, collections, license terms,…
-  api_count: 2
+  api_count: 1
   score_band: thin
   score_composite: 27.5
   shared: 1
@@ -183,6 +183,13 @@ providers:
   score_band: emerging
   score_composite: 14.8
   shared: 1
+- slug: nuro
+  name: Nuro
+  description: Nuro is a Mountain View-based autonomy company that has pivoted from its original autonomous-goods-delivery vehicle program (R1, R2, R3) to a licensable, vehicle-agnostic autonomous driving stack. The Nuro Driver is an AI-first Level 4 self-driving system, validated through 5+ years of driverless d…
+  api_count: 0
+  score_band: emerging
+  score_composite: 14.2
+  shared: 1
 - slug: the-mlc
   name: The MLC
   description: The Mechanical Licensing Collective (MLC) is a U.S. statutory organization that administers mechanical licensing and royalty distribution for music creators. It provides a centralized database of musical works, facilitates licensing for digital music services, and ensures creators receive proper co…
@@ -211,22 +218,15 @@ providers:
   score_band: minimal
   score_composite: 10.2
   shared: 1
-- slug: bmi
-  name: BMI
-  description: Broadcast Music, Inc. (BMI) is the largest performing rights organization in the United States, representing songwriters, composers and music publishers. It collects and distributes royalties for public performances of music, offers licensing services to businesses, and provides resources, advocacy…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.8
-  shared: 1
 provider_slugs:
-- replicated
 - certifyos
+- replicated
 - sendowl
 - accela
 - acma
 - opengov
-- madaket
 - shutterstock
+- madaket
 - agentsync
 - warner-music-group
 - fossology
@@ -244,6 +244,7 @@ provider_slugs:
 - aceable
 - prs
 - tradespace
+- nuro
 - the-mlc
 - universal-music-group
 - troveo
@@ -252,9 +253,10 @@ provider_slugs:
 - kaizen-labs
 - licensing
 - spdx
+- softwaresolution24
 - filmtrack
 - lexyom
-- nuro
+- dimensional-energy
 - eql-games
 - peerless-systems
 - acknowledgments-md
@@ -263,5 +265,5 @@ related: []
 overview: 'Licensing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [licensing.apievangelist.com](https://licensing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Replicated, Certifyos, SendOwl, Accela, ACMA, OpenGov, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  30 providers on the network work in this area, including Certifyos, Replicated, SendOwl, Accela, ACMA, OpenGov, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 ---

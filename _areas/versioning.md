@@ -6,7 +6,7 @@ description: An index and topic collection covering API versioning patterns, sch
 area_url: https://versioning.apievangelist.com
 area_host: versioning.apievangelist.com
 icon: https://versioning.apievangelist.com/icon-thumb.png
-provider_count: 6
+provider_count: 7
 providers:
 - slug: endpointblank
   name: Bengal Technologies
@@ -21,6 +21,13 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 32.2
+  shared: 1
+- slug: mirascope
+  name: Mirascope
+  description: 'Mirascope is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.'
+  api_count: 2
+  score_band: emerging
+  score_composite: 23.4
   shared: 1
 - slug: dvc
   name: DVC
@@ -53,6 +60,7 @@ providers:
 provider_slugs:
 - endpointblank
 - silverstripe
+- mirascope
 - dvc
 - changelog-md
 - change-log
@@ -67,7 +75,7 @@ related:
 overview: 'Versioning is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [versioning.apievangelist.com](https://versioning.apievangelist.com).
 
 
-  Providers on the network working in this area include Bengal Technologies, SilverStripe, DVC, CHANGELOG.md (Keep a Changelog), Change Log, and Versioning — each links out to that provider''s APIs, schemas, and governance artifacts.
+  7 providers on the network work in this area, including Bengal Technologies, SilverStripe, Mirascope, DVC, CHANGELOG.md (Keep a Changelog), Change Log, and 1 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Deprecation and Change Log. Browse every area at [areas.apis.io](https://apis.io/areas/).'

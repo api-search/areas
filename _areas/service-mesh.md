@@ -6,7 +6,7 @@ description: Service mesh is a dedicated infrastructure layer for handling servi
 area_url: https://service-mesh.apievangelist.com
 area_host: service-mesh.apievangelist.com
 icon: https://service-mesh.apievangelist.com/icon-thumb.png
-provider_count: 34
+provider_count: 36
 providers:
 - slug: kong
   name: Kong
@@ -25,14 +25,14 @@ providers:
 - slug: solo-io
   name: Solo.io
   description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gatewa…
-  api_count: 6
+  api_count: 5
   score_band: strong
   score_composite: 61.6
   shared: 1
 - slug: gloo
   name: Gloo
   description: Gloo is Solo.io's family of open-source and enterprise API gateway, service mesh and developer portal products, built on Envoy Proxy and Istio and delivered as software the customer runs in their own Kubernetes clusters rather than as a hosted SaaS. Gloo Edge and Gloo Gateway provide ingress, advan…
-  api_count: 8
+  api_count: 4
   score_band: strong
   score_composite: 56.3
   shared: 1
@@ -40,8 +40,8 @@ providers:
   name: AWS App Mesh
   description: AWS App Mesh is a service mesh based on the Envoy proxy that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure including Amazon ECS, EKS, EC2, and Fargate. App Mesh standardizes service communication, gi…
   api_count: 1
-  score_band: developing
-  score_composite: 53.6
+  score_band: strong
+  score_composite: 55.0
   shared: 1
 - slug: buoyant
   name: Buoyant
@@ -55,7 +55,7 @@ providers:
   description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
   api_count: 73
   score_band: developing
-  score_composite: 49.4
+  score_composite: 50.7
   shared: 1
 - slug: gloo-mesh
   name: Gloo Mesh
@@ -70,13 +70,6 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 42.6
-  shared: 1
-- slug: apache-dubbo
-  name: Apache Dubbo
-  description: Apache Dubbo is a high-performance, Java-based open-source RPC framework that provides service discovery, traffic management, and observability capabilities for building enterprise-level microservices. It supports multiple protocols including Triple (gRPC-compatible), Dubbo, and REST, with SDKs for…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.5
   shared: 1
 - slug: isovalent
   name: Isovalent
@@ -99,6 +92,13 @@ providers:
   score_band: developing
   score_composite: 40.7
   shared: 1
+- slug: apache-dubbo
+  name: Apache Dubbo
+  description: Apache Dubbo is a high-performance, Java-based open-source RPC framework that provides service discovery, traffic management, and observability capabilities for building enterprise-level microservices. It supports multiple protocols including Triple (gRPC-compatible), Dubbo, and REST, with SDKs for…
+  api_count: 16
+  score_band: developing
+  score_composite: 40.3
+  shared: 1
 - slug: tetrate
   name: Tetrate
   description: Tetrate is an enterprise service mesh company that provides Tetrate Service Bridge (TSB), a multi-cluster, multi-cloud service mesh management platform built on Istio and Envoy Proxy. Tetrate offers management APIs for traffic, security, and observability across distributed microservice environment…
@@ -113,26 +113,26 @@ providers:
   score_band: thin
   score_composite: 37.0
   shared: 1
+- slug: google-anthos
+  name: Google Anthos
+  description: Google Anthos is a managed application platform that extends Google Cloud services and engineering practices to hybrid and multi-cloud environments. Built on Kubernetes, Anthos enables consistent development and operations across on-premises data centers, Google Cloud, and other public clouds like…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.8
+  shared: 1
 - slug: linkerd
   name: Linkerd
   description: Service mesh without the mess. Linkerd adds security, observability, and reliability to any Kubernetes cluster without the complexity of bloat of other meshes.
   api_count: 3
   score_band: thin
-  score_composite: 35.7
+  score_composite: 35.9
   shared: 1
 - slug: consul
   name: HashiCorp Consul
   description: HashiCorp Consul is a distributed, highly available service-networking control plane that automates network configuration, discovers services, enables secure service-to-service communication, and exposes a strongly consistent key/value store. The Consul HTTP API is a REST + JSON service exposed by…
   api_count: 1
   score_band: thin
-  score_composite: 35.5
-  shared: 1
-- slug: google-anthos
-  name: Google Anthos
-  description: Google Anthos is a managed application platform that extends Google Cloud services and engineering practices to hybrid and multi-cloud environments. Built on Kubernetes, Anthos enables consistent development and operations across on-premises data centers, Google Cloud, and other public clouds like…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.4
+  score_composite: 35.7
   shared: 1
 - slug: istio
   name: Istio
@@ -204,19 +204,19 @@ providers:
   score_band: emerging
   score_composite: 21.5
   shared: 1
+- slug: getenroute
+  name: Saaras
+  description: Saaras provides cloud‑native API gateway and service‑mesh solutions built on Kubernetes. Their EnRoute Gateway offers high‑performance traffic management, security, observability, and dynamic routing for modern cloud applications. Saaras also delivers Istio‑based subscriptions, FIPS‑validated distr…
+  api_count: 4
+  score_band: emerging
+  score_composite: 19.9
+  shared: 1
 - slug: greymatter
   name: Greymatter
   description: Greymatter is a Kubernetes-native, zero trust networking platform that delivers secure, agentic, and scalable service connectivity across multi-cloud, hybrid, and edge environments. It provides a unified platform with five integrated layers covering service connectivity, zero trust security, orches…
   api_count: 3
   score_band: emerging
   score_composite: 16.5
-  shared: 1
-- slug: mosn
-  name: MOSN
-  description: MOSN (Modular Open Smart Network) is a cloud-native network proxy written in Go, open-sourced by Ant Group. It serves as a Service Mesh data plane and can function as L4/L7 load balancer, API gateway, and cloud-native ingress, with multi-protocol support including HTTP/1.1, HTTP/2, and gRPC.
-  api_count: 1
-  score_band: emerging
-  score_composite: 15.7
   shared: 1
 provider_slugs:
 - kong
@@ -228,15 +228,15 @@ provider_slugs:
 - amazon-vpc-lattice
 - gloo-mesh
 - envoy
-- apache-dubbo
 - isovalent
 - envoy-gateway
 - kuma
+- apache-dubbo
 - tetrate
 - google-cloud-service-mesh
+- google-anthos
 - linkerd
 - consul
-- google-anthos
 - istio
 - apiclarity
 - ambient-mesh
@@ -247,8 +247,10 @@ provider_slugs:
 - service-mesh
 - pubmed
 - open-service-mesh
+- getenroute
 - greymatter
 - mosn
+- pict-rs
 - merbridge
 - tripo3d
 - nginx-service-mesh
@@ -257,9 +259,6 @@ related:
 - slug: microservices
   name: Microservices
   shared: 4
-- slug: proxy
-  name: Proxy
-  shared: 2
 - slug: gateway
   name: Gateway
   shared: 2
@@ -269,11 +268,14 @@ related:
 - slug: containers
   name: Containers
   shared: 1
+- slug: proxy
+  name: Proxy
+  shared: 1
 overview: 'Service Mesh is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [service-mesh.apievangelist.com](https://service-mesh.apievangelist.com).
 
 
   30 providers on the network work in this area, including Kong, Calico, Solo.io, Gloo, AWS App Mesh, Buoyant, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Microservices, Proxy, Gateway, and Portal. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Microservices, Gateway, Portal, and Containers. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

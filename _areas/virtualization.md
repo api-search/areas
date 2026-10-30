@@ -25,7 +25,7 @@ providers:
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
-  api_count: 22
+  api_count: 11
   score_band: strong
   score_composite: 60.3
   shared: 1
@@ -39,16 +39,16 @@ providers:
 - slug: slide
   name: Slide
   description: Slide is a modern, security-first Business Continuity and Disaster Recovery (BCDR) platform built exclusively for Managed Service Providers (MSPs). Founded by Datto creator Austin McChord, Slide pairs on-premise Slide Box appliances with the Slide Cloud to deliver always-encrypted, block-level back…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 48.3
   shared: 1
 - slug: smol-machines
   name: Smol Machines
   description: Smol Machines (smol machines, inc.) is a Y Combinator-backed developer infrastructure company building portable, self-contained Linux microVMs. Its open-source `smolvm` engine and `smol` CLI (both Rust, Apache-2.0) boot hardware-isolated virtual machines from any OCI image in under 200ms — on a lap…
-  api_count: 3
+  api_count: 2
   score_band: developing
-  score_composite: 46.9
+  score_composite: 46.3
   shared: 1
 - slug: oxide-computer
   name: Oxide
@@ -78,19 +78,26 @@ providers:
   score_band: developing
   score_composite: 41.0
   shared: 1
-- slug: citrix
-  name: Citrix
-  description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
-  api_count: 6
-  score_band: developing
-  score_composite: 40.3
-  shared: 1
 - slug: incus
   name: Incus
   description: Incus is a modern open source system container and virtual machine manager maintained by LinuxContainers.org as a community-led fork of Canonical's LXD. It provides a unified experience for running and managing system containers and VMs across single hosts and clusters, with image-based deployment,…
   api_count: 1
   score_band: developing
   score_composite: 40.3
+  shared: 1
+- slug: veritas-infoscale
+  name: Veritas InfoScale
+  description: APIs for Veritas InfoScale, an enterprise storage and availability management solution that provides high availability, disaster recovery, and storage management capabilities across physical, virtual, and cloud environments.
+  api_count: 13
+  score_band: developing
+  score_composite: 39.8
+  shared: 1
+- slug: citrix
+  name: Citrix
+  description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
+  api_count: 7
+  score_band: developing
+  score_composite: 39.7
   shared: 1
 - slug: vers
   name: Vers
@@ -105,13 +112,6 @@ providers:
   api_count: 2
   score_band: thin
   score_composite: 38.8
-  shared: 1
-- slug: veritas-infoscale
-  name: Veritas InfoScale
-  description: APIs for Veritas InfoScale, an enterprise storage and availability management solution that provides high availability, disaster recovery, and storage management capabilities across physical, virtual, and cloud environments.
-  api_count: 13
-  score_band: thin
-  score_composite: 38.6
   shared: 1
 - slug: apache-cloudstack
   name: Apache CloudStack
@@ -132,14 +132,14 @@ providers:
   description: API for managing Solaris Zones (containers) and virtualization on Oracle Solaris systems.
   api_count: 9
   score_band: thin
-  score_composite: 37.3
+  score_composite: 37.5
   shared: 1
 - slug: scale-computing
   name: Scale Computing
   description: Scale Computing builds SC//Platform, an edge-computing and hyperconverged infrastructure stack made up of SC//HyperCore (a self-healing KVM-based virtualization and storage OS that runs on clustered appliance nodes) and SC//Fleet Manager (a cloud console that monitors, updates and orchestrates thou…
-  api_count: 6
+  api_count: 2
   score_band: thin
-  score_composite: 37.2
+  score_composite: 36.7
   shared: 1
 - slug: openstack
   name: OpenStack
@@ -160,7 +160,7 @@ providers:
   description: Google Cloud VMware Engine is a fully managed service that lets you run VMware workloads natively on Google Cloud infrastructure. It provides dedicated, single-tenant VMware SDDC environments with vSphere, vSAN, NSX-T, and HCX, enabling seamless migration and management of VMware-based applications…
   api_count: 1
   score_band: thin
-  score_composite: 32.1
+  score_composite: 33.5
   shared: 1
 - slug: parallels-swsoft
   name: Parallels (SWSoft)
@@ -190,19 +190,19 @@ providers:
   score_band: thin
   score_composite: 26.6
   shared: 1
+- slug: proxmox
+  name: Proxmox VE
+  description: Proxmox Virtual Environment (Proxmox VE) is an open-source server virtualization platform that combines KVM hypervisor and LXC containers, software-defined storage and networking, and clustering and high- availability features in a single web-managed solution. The Proxmox VE API exposes all platfor…
+  api_count: 1
+  score_band: emerging
+  score_composite: 25.7
+  shared: 1
 - slug: nanovms
   name: NanoVMs
   description: NanoVMs builds unikernel infrastructure that lets developers run a single application as its own lightweight, secure virtual machine with no operating system and no devops. Its open-source toolchain centers on OPS (the ops CLI, ops.city) for building and deploying unikernels to any cloud in seconds…
   api_count: 0
   score_band: emerging
   score_composite: 24.9
-  shared: 1
-- slug: proxmox
-  name: Proxmox VE
-  description: Proxmox Virtual Environment (Proxmox VE) is an open-source server virtualization platform that combines KVM hypervisor and LXC containers, software-defined storage and networking, and clustering and high- availability features in a single web-managed solution. The Proxmox VE API exposes all platfor…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.4
   shared: 1
 - slug: tintri
   name: Tintri
@@ -229,11 +229,11 @@ provider_slugs:
 - broadcom
 - controlplane
 - kubevirt
-- citrix
 - incus
+- veritas-infoscale
+- citrix
 - vers
 - vagrant
-- veritas-infoscale
 - apache-cloudstack
 - platform9
 - solaris-zones
@@ -245,8 +245,8 @@ provider_slugs:
 - simplivity
 - hypori
 - parallels
-- nanovms
 - proxmox
+- nanovms
 - tintri
 - green-hills-software
 - readyapi
@@ -271,14 +271,11 @@ related:
 - slug: orchestration
   name: Orchestration
   shared: 1
-- slug: saas-management
-  name: SaaS Management
-  shared: 1
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
   30 providers on the network work in this area, including Virtualization, Nutanix, Cisco Intersight, VMware, Slide, Smol Machines, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, Database, Orchestration, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, Database, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

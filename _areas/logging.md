@@ -11,9 +11,9 @@ providers:
 - slug: elk-stack
   name: Elastic Stack
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
-  api_count: 19
+  api_count: 10
   score_band: exemplar
-  score_composite: 77.0
+  score_composite: 76.9
   shared: 1
 - slug: aws-lambda
   name: AWS Lambda
@@ -25,7 +25,7 @@ providers:
 - slug: hyperdx
   name: HyperDX
   description: HyperDX is an open-source observability platform that unifies logs, metrics, traces, session replay and errors on top of ClickHouse and OpenTelemetry, giving engineers one place to search raw events, correlate a log line to its trace and that span to a session replay, build dashboards and run thres…
-  api_count: 2
+  api_count: 1
   score_band: exemplar
   score_composite: 68.1
   shared: 1
@@ -36,19 +36,19 @@ providers:
   score_band: strong
   score_composite: 66.3
   shared: 1
+- slug: google-cloud-logging
+  name: Google Cloud Logging
+  description: Google Cloud Logging is a fully managed, real-time log management service that ingests, stores, searches, analyzes, routes and alerts on application and system log data at scale across Google Cloud, AWS and on-premises environments. The v2 API writes log entries and manages the configuration surfac…
+  api_count: 1
+  score_band: strong
+  score_composite: 66.1
+  shared: 1
 - slug: grafana-loki
   name: Grafana Loki
   description: Grafana Loki is Grafana Labs' open source log aggregation system — "like Prometheus, but for logs." Rather than full-text indexing log contents, Loki indexes only a small set of labels per log stream and stores the compressed lines in object storage, which is what makes it cheap to run at scale. It…
   api_count: 3
   score_band: strong
   score_composite: 66.1
-  shared: 1
-- slug: google-cloud-logging
-  name: Google Cloud Logging
-  description: Google Cloud Logging is a fully managed, real-time log management service that ingests, stores, searches, analyzes, routes and alerts on application and system log data at scale across Google Cloud, AWS and on-premises environments. The v2 API writes log entries and manages the configuration surfac…
-  api_count: 1
-  score_band: strong
-  score_composite: 65.9
   shared: 1
 - slug: fastly
   name: Fastly
@@ -60,7 +60,7 @@ providers:
 - slug: chronosphere
   name: Chronosphere
   description: Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a…
-  api_count: 8
+  api_count: 4
   score_band: strong
   score_composite: 60.9
   shared: 1
@@ -74,7 +74,7 @@ providers:
 - slug: edge-delta
   name: Edge Delta
   description: Edge Delta is an AI-powered observability platform that pairs enterprise-grade telemetry pipelines with agentic AI Teammates for SRE, security, and DevOps teams. Its intelligent pipelines control and route logs, metrics, traces, and events from any source to any destination with in-stream reduction…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 59.3
   shared: 1
@@ -109,9 +109,9 @@ providers:
 - slug: lightrun
   name: Lightrun
   description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving…
-  api_count: 2
+  api_count: 1
   score_band: strong
-  score_composite: 55.9
+  score_composite: 56.2
   shared: 1
 - slug: bitdrift
   name: bitdrift
@@ -144,7 +144,7 @@ providers:
 - slug: sematext
   name: Sematext
   description: Sematext is an observability company offering Sematext Cloud, a SaaS platform for log management, infrastructure and application monitoring, tracing, synthetic monitoring and real user monitoring, with Elasticsearch-API-compatible log ingestion and search and professional Solr / Elasticsearch / Ope…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 45.5
   shared: 1
@@ -153,12 +153,12 @@ providers:
   description: Google Cloud Operations Suite (formerly Stackdriver) provides integrated monitoring, logging, and diagnostics for applications and infrastructure running on Google Cloud. It encompasses Cloud Monitoring, Cloud Logging, Cloud Trace, Cloud Profiler, and Error Reporting to deliver comprehensive observ…
   api_count: 1
   score_band: developing
-  score_composite: 43.9
+  score_composite: 45.2
   shared: 1
 - slug: superlog
   name: Superlog
   description: Superlog is an AI-native, open-core observability platform (Y Combinator, Spring 2026) that ingests OpenTelemetry traces, logs, and metrics over OTLP, groups noisy signals into incidents, and dispatches AI agents to investigate root causes and open fix pull requests automatically. It offers a Manag…
-  api_count: 2
+  api_count: 1
   score_band: developing
   score_composite: 42.9
   shared: 1
@@ -174,7 +174,7 @@ providers:
   description: Vendor-neutral open-source observability framework for cloud-native software, providing a collection of tools, APIs, and SDKs for instrumenting, generating, collecting, and exporting telemetry data including metrics, logs, and traces.
   api_count: 1
   score_band: thin
-  score_composite: 38.4
+  score_composite: 38.6
   shared: 1
 - slug: loggly
   name: Loggly
@@ -195,7 +195,7 @@ providers:
   description: Calyptia builds Calyptia Cloud (Telemetry Pipeline) and Calyptia Core, a commercial management plane for Fluent Bit — the widely deployed open-source agent and processor for logs, metrics and traces. The Calyptia Cloud API lets teams create and operate core instances, telemetry pipelines, agent fle…
   api_count: 1
   score_band: thin
-  score_composite: 35.9
+  score_composite: 35.7
   shared: 1
 - slug: memfault
   name: Memfault
@@ -223,8 +223,8 @@ provider_slugs:
 - aws-lambda
 - hyperdx
 - splunk-observability
-- grafana-loki
 - google-cloud-logging
+- grafana-loki
 - fastly
 - chronosphere
 - logz-io
@@ -284,7 +284,7 @@ related:
 overview: 'Logging is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [logging.apievangelist.com](https://logging.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Elastic Stack, AWS Lambda, HyperDX, Splunk Observability Cloud, Grafana Loki, Google Cloud Logging, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Elastic Stack, AWS Lambda, HyperDX, Splunk Observability Cloud, Google Cloud Logging, Grafana Loki, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Monitoring, Observability, AIOps, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'

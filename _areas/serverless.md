@@ -6,7 +6,7 @@ description: An index and topic collection covering serverless compute, function
 area_url: https://serverless.apievangelist.com
 area_host: serverless.apievangelist.com
 icon: https://serverless.apievangelist.com/icon-thumb.png
-provider_count: 135
+provider_count: 136
 providers:
 - slug: appwrite
   name: Appwrite
@@ -18,7 +18,7 @@ providers:
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 26
+  api_count: 25
   score_band: exemplar
   score_composite: 80.6
   shared: 1
@@ -39,16 +39,16 @@ providers:
 - slug: prisma
   name: Prisma
   description: Prisma gives TypeScript and Node.js teams a type-safe ORM, managed serverless Postgres, and Compute for deploying apps and AI agents next to their database. The product line is Prisma ORM, Prisma Postgres, Prisma Compute, Prisma Composer, Prisma Studio, Object Store buckets and Query Insights, wire…
-  api_count: 8
+  api_count: 7
   score_band: exemplar
   score_composite: 71.7
   shared: 1
 - slug: netlify
   name: Netlify
   description: Netlify is a cloud platform for building, deploying and scaling modern web applications, with continuous deployment from Git, serverless and edge functions, a global CDN, forms, identity, Postgres storage and an image CDN. Its public REST API at https://api.netlify.com/api/v1 is described by an Ope…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 71.0
+  score_composite: 70.6
   shared: 1
 - slug: aws-api-gateway
   name: Amazon API Gateway
@@ -63,6 +63,13 @@ providers:
   api_count: 2
   score_band: exemplar
   score_composite: 68.4
+  shared: 1
+- slug: azion
+  name: Azion
+  description: Azion provides an edge computing platform that enables developers to deploy serverless functions, AI inference, and other compute workloads close to users worldwide. Their solutions include edge functions, durable objects, load balancer, AI gateway, object storage, and security services, all manage…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 67.7
   shared: 1
 - slug: segmind
   name: Segmind
@@ -98,6 +105,13 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 62.8
+  shared: 1
+- slug: agentuity
+  name: Agentuity
+  description: Agentuity is a full-stack cloud platform for building, deploying, and operating AI agents and the framework apps around them. Developers keep their existing framework (Next.js, Hono, React Router, SvelteKit, Nuxt, Astro, Vite React, TanStack Start) and attach Agentuity service clients for key-value…
+  api_count: 1
+  score_band: strong
+  score_composite: 62.4
   shared: 1
 - slug: amazon-redshift
   name: Amazon Redshift
@@ -141,16 +155,16 @@ providers:
   score_band: strong
   score_composite: 59.5
   shared: 1
-- slug: amazon-eventbridge
-  name: Amazon EventBridge
-  description: Amazon EventBridge is a serverless event bus service that makes it easy to connect your applications with data from a variety of sources. EventBridge delivers a stream of real-time data from your own applications, SaaS applications, and AWS services and routes that data to targets such as Lambda, S…
-  api_count: 1
-  score_band: strong
-  score_composite: 59.2
-  shared: 1
 - slug: inngest
   name: Inngest
   description: Inngest is an event-driven durable execution platform for background jobs, step functions, scheduled workflows, and AI agent orchestration. It exposes a v1 event ingestion and run inspection API, a v2 management API (accounts, environments, apps, webhooks, keys, function invocation, runs, traces),…
+  api_count: 1
+  score_band: strong
+  score_composite: 59.3
+  shared: 1
+- slug: amazon-eventbridge
+  name: Amazon EventBridge
+  description: Amazon EventBridge is a serverless event bus service that makes it easy to connect your applications with data from a variety of sources. EventBridge delivers a stream of real-time data from your own applications, SaaS applications, and AWS services and routes that data to targets such as Lambda, S…
   api_count: 1
   score_band: strong
   score_composite: 59.2
@@ -176,12 +190,12 @@ providers:
   score_band: strong
   score_composite: 56.9
   shared: 1
-- slug: agentuity
-  name: Agentuity
-  description: Agentuity is a full-stack cloud platform for building, deploying, and operating AI agents and the framework apps around them. Developers keep their existing framework (Next.js, Hono, React Router, SvelteKit, Nuxt, Astro, Vite React, TanStack Start) and attach Agentuity service clients for key-value…
+- slug: amazon-proton
+  name: Amazon Proton
+  description: AWS Proton is a managed service for platform engineers that helps them publish standardized container and serverless application templates to empower developers. It provides automated infrastructure provisioning and manages deployment pipelines for all your applications, enabling self-service devel…
   api_count: 1
   score_band: strong
-  score_composite: 56.3
+  score_composite: 56.5
   shared: 1
 - slug: modal-labs
   name: Modal
@@ -197,26 +211,12 @@ providers:
   score_band: strong
   score_composite: 55.6
   shared: 1
-- slug: amazon-proton
-  name: Amazon Proton
-  description: AWS Proton is a managed service for platform engineers that helps them publish standardized container and serverless application templates to empower developers. It provides automated infrastructure provisioning and manages deployment pipelines for all your applications, enabling self-service devel…
-  api_count: 1
-  score_band: strong
-  score_composite: 54.5
-  shared: 1
 - slug: thenile
   name: Nile
   description: Nile is a serverless PostgreSQL platform re-engineered for multi-tenant B2B applications, offering virtual tenant databases, tenant isolation, vector embeddings, and built-in user and tenant authentication (Nile Auth). Its control-plane REST API manages workspaces, databases, credentials, regions a…
-  api_count: 7
+  api_count: 4
   score_band: strong
   score_composite: 54.5
-  shared: 1
-- slug: insforge
-  name: Insforge
-  description: InsForge is an open-source (Apache-2.0), agent-native cloud infrastructure platform built so that AI coding agents can provision and operate an entire backend end to end through a CLI and packaged agent skills instead of a human clicking through a dashboard. A single project bundles a Postgres data…
-  api_count: 25
-  score_band: developing
-  score_composite: 53.4
   shared: 1
 provider_slugs:
 - appwrite
@@ -227,105 +227,106 @@ provider_slugs:
 - netlify
 - aws-api-gateway
 - aws-lambda
+- azion
 - segmind
 - ibm
 - fal-ai
 - microsoft-azure-functions
 - archil
+- agentuity
 - amazon-redshift
 - koyeb
 - azure-container-apps
 - amazon-eventbridge-pipes
 - amazon-eventbridge-scheduler
 - rightnow
-- amazon-eventbridge
 - inngest
+- amazon-eventbridge
 - formboost
 - vercel
 - amazon-efs
-- agentuity
+- amazon-proton
 - modal-labs
 - aws-app-runner
-- amazon-proton
 - thenile
 - insforge
-- datastax
-- fermyon
-- freestyle-sh
 - azure-container-instances
+- datastax
 - chroma
-- axiom
-- dataloop
+- fermyon
 - scaleway
+- axiom
+- freestyle-sh
 - aws-step-functions
+- dataloop
 - neon
+- google-cloud-api-gateway
 - runpod
+- amazon-fargate
 - microsoft-azure-web-pubsub
 - vast-ai
-- cloudflare-queues
-- google-cloud-api-gateway
 - vlt
 - lumigo
-- amazon-fargate
 - ironio
 - knative
-- azure-function-apps
-- macrometa
 - google-cloud-functions
 - google-cloud-run
 - amazon-serverless-application-repository
+- azure-function-apps
+- cloudflare-queues
+- macrometa
 - google-cloud-app-engine
 - convex
-- result
-- localstack
 - aws-glue
 - google-cloud-workflows
+- result
 - google-cloud-eventarc
-- coiled
+- localstack
 - google-bigquery
 - supabase
+- coiled
 - turbopuffer
 - qubrid-ai
 - momento
-- rivet
 - codehooks
+- rivet
 - spocket
+- deno
 - glia
 - val-town
 - stack-machine
-- deno
-- clockwork-labs
-- cloudflare-d1
-- warpstream
-- qstash
-- chutes
 - xata
+- qstash
+- clockwork-labs
+- warpstream
+- chutes
 - upstash
 - cerebrium
 - featherless
 - partykit
 - metorial
 - unionai
+- cloudflare-d1
+- langbase
 - serverless
 - fly-io
-- langbase
+- blaxel
 - openfaas
 - firecracker
-- blaxel
 - apache-event-mesh
-- deepinfra
-- beam-cloud
 - amazon-appsync
 - amazon-athena
 - amazon-aurora-dsql
-- wasmedge
+- deepinfra
 - xano
+- beam-cloud
+- wasmedge
+- datacrunch
 - golem-cloud
 - nscale
 - centml
 - spin
 - planetscale
-- datacrunch
 - quarkus
 - apache-openwhisk
 - kvdb

@@ -6,7 +6,7 @@ description: An index of microservices architecture frameworks, service discover
 area_url: https://microservices.apievangelist.com
 area_host: microservices.apievangelist.com
 icon: https://microservices.apievangelist.com/icon-thumb.png
-provider_count: 104
+provider_count: 106
 providers:
 - slug: datadog-apm
   name: Datadog APM
@@ -34,7 +34,21 @@ providers:
   description: NVIDIA NIM (NVIDIA Inference Microservices) is a catalog of GPU-accelerated, containerized AI inference microservices that package optimized model engines (TensorRT-LLM, vLLM, SGLang, Triton) behind industry-standard OpenAI-compatible REST APIs. NIM covers large language models, embeddings and rera…
   api_count: 3
   score_band: strong
-  score_composite: 59.3
+  score_composite: 60.6
+  shared: 1
+- slug: websphere
+  name: IBM WebSphere
+  description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
+  api_count: 7
+  score_band: strong
+  score_composite: 58.4
+  shared: 1
+- slug: folio
+  name: FOLIO
+  description: FOLIO (Future of Libraries is Open) is an open source library services platform (LSP) built by a community of libraries, developers and vendors. Developer documentation and an API reference are published on the FOLIO developer portal (dev.folio.org), user documentation at docs.folio.org, and source…
+  api_count: 101
+  score_band: strong
+  score_composite: 57.6
   shared: 1
 - slug: amazon-sqs
   name: Amazon SQS
@@ -42,20 +56,6 @@ providers:
   api_count: 1
   score_band: strong
   score_composite: 57.2
-  shared: 1
-- slug: websphere
-  name: IBM WebSphere
-  description: IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications.
-  api_count: 7
-  score_band: strong
-  score_composite: 57.0
-  shared: 1
-- slug: folio
-  name: FOLIO
-  description: FOLIO (Future of Libraries is Open) is an open source library services platform (LSP) built by a community of libraries, developers and vendors. Developer documentation and an API reference are published on the FOLIO developer portal (dev.folio.org), user documentation at docs.folio.org, and source…
-  api_count: 204
-  score_band: strong
-  score_composite: 56.2
   shared: 1
 - slug: aws-app-runner
   name: AWS App Runner
@@ -75,22 +75,36 @@ providers:
   name: AWS App Mesh
   description: AWS App Mesh is a service mesh based on the Envoy proxy that provides application-level networking to make it easy for services to communicate with each other across multiple types of compute infrastructure including Amazon ECS, EKS, EC2, and Fargate. App Mesh standardizes service communication, gi…
   api_count: 1
-  score_band: developing
-  score_composite: 53.6
+  score_band: strong
+  score_composite: 55.0
   shared: 1
 - slug: amazon-vpc-lattice
   name: Amazon VPC Lattice
   description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications between your services, helping you to improve productivity so that your developers can focus on building features that matter to your business. It simplifies service-to-service c…
   api_count: 73
   score_band: developing
-  score_composite: 49.4
+  score_composite: 50.7
   shared: 1
 - slug: aws-x-ray
   name: AWS X-Ray
   description: AWS X-Ray is a service that helps developers analyze and debug distributed applications by providing end-to-end tracing of requests as they travel through the application, identifying performance bottlenecks and errors. It is now part of Amazon CloudWatch Application Signals for unified observabili…
   api_count: 1
   score_band: developing
-  score_composite: 48.7
+  score_composite: 50.0
+  shared: 1
+- slug: amazon-fargate
+  name: Amazon Fargate
+  description: Amazon Fargate is a serverless compute engine for containers that works with both Amazon ECS and Amazon EKS. Fargate removes the need to provision and manage servers, letting you specify and pay for resources per application, and improves security through application isolation by design.
+  api_count: 6
+  score_band: developing
+  score_composite: 49.1
+  shared: 1
+- slug: zeebe
+  name: Zeebe
+  description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It implements BPMN 2.0 process execution and provides a REST AP…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.4
   shared: 1
 - slug: lumigo
   name: Lumigo
@@ -99,26 +113,12 @@ providers:
   score_band: developing
   score_composite: 47.8
   shared: 1
-- slug: amazon-fargate
-  name: Amazon Fargate
-  description: Amazon Fargate is a serverless compute engine for containers that works with both Amazon ECS and Amazon EKS. Fargate removes the need to provision and manage servers, letting you specify and pay for resources per application, and improves security through application isolation by design.
-  api_count: 6
-  score_band: developing
-  score_composite: 47.7
-  shared: 1
 - slug: pactflow
   name: PactFlow
   description: PactFlow provides a comprehensive contract testing platform that enables developers and QA teams to create, verify, and maintain consumer-driven contracts for APIs and microservices. Built on the Pact framework and backed by SmartBear, PactFlow offers hosted Pact Broker services, CI/CD integrations…
   api_count: 8
   score_band: developing
   score_composite: 47.7
-  shared: 1
-- slug: zeebe
-  name: Zeebe
-  description: Zeebe is the cloud-native workflow engine that powers Camunda 8, providing scalable, resilient workflow automation and microservices orchestration without relying on a central database, enabling high throughput with horizontal scaling. It implements BPMN 2.0 process execution and provides a REST AP…
-  api_count: 1
-  score_band: developing
-  score_composite: 47.1
   shared: 1
 - slug: polyapi
   name: PolyAPI
@@ -134,6 +134,27 @@ providers:
   score_band: developing
   score_composite: 45.8
   shared: 1
+- slug: encore-dev
+  name: Encore
+  description: Encore is a backend application framework and developer cloud that lets engineering teams build type-safe distributed systems in TypeScript (Encore.ts) and Go (Encore.go) using declarative Infrastructure from Code. Developers describe APIs, databases, Pub/Sub, object storage, caches, cron jobs, and…
+  api_count: 2
+  score_band: developing
+  score_composite: 45.5
+  shared: 1
+- slug: amazon-cloud-map
+  name: Amazon Cloud Map
+  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
+  api_count: 3
+  score_band: developing
+  score_composite: 45.3
+  shared: 1
+- slug: docker
+  name: Docker
+  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
+  api_count: 1
+  score_band: developing
+  score_composite: 44.6
+  shared: 1
 - slug: apollo-config
   name: Apollo Config
   description: Apollo is a reliable, open-source configuration management system suitable for microservice configuration management scenarios, providing centralized configuration management, real-time updates, versioning, and multi-environment support. Originally developed by Ctrip, now maintained by the apolloco…
@@ -141,33 +162,12 @@ providers:
   score_band: developing
   score_composite: 44.4
   shared: 1
-- slug: encore-dev
-  name: Encore
-  description: Encore is a backend application framework and developer cloud that lets engineering teams build type-safe distributed systems in TypeScript (Encore.ts) and Go (Encore.go) using declarative Infrastructure from Code. Developers describe APIs, databases, Pub/Sub, object storage, caches, cron jobs, and…
-  api_count: 2
-  score_band: developing
-  score_composite: 44.2
-  shared: 1
-- slug: amazon-cloud-map
-  name: Amazon Cloud Map
-  description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
-  api_count: 3
-  score_band: developing
-  score_composite: 43.7
-  shared: 1
 - slug: purplebricks
   name: Purplebricks
   description: Purplebricks is the United Kingdom's largest online (hybrid) estate agency, founded in 2014 by Michael and Kenny Bruce and David Shepherd, selling and letting residential property across England, Wales and Scotland through a fixed-fee, remote model staffed by local property experts rather than a hi…
-  api_count: 46
+  api_count: 18
   score_band: developing
   score_composite: 43.3
-  shared: 1
-- slug: docker
-  name: Docker
-  description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
-  api_count: 2
-  score_band: developing
-  score_composite: 43.2
   shared: 1
 - slug: microsoft-azure-service-fabric
   name: Azure Service Fabric
@@ -190,13 +190,6 @@ providers:
   score_band: developing
   score_composite: 42.2
   shared: 1
-- slug: apache-dubbo
-  name: Apache Dubbo
-  description: Apache Dubbo is a high-performance, Java-based open-source RPC framework that provides service discovery, traffic management, and observability capabilities for building enterprise-level microservices. It supports multiple protocols including Triple (gRPC-compatible), Dubbo, and REST, with SDKs for…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.5
-  shared: 1
 - slug: kuma
   name: Kuma
   description: Kuma is a platform-agnostic open-source service mesh built on top of Envoy proxy. It provides universal connectivity, security, and observability for services and microservices running on any infrastructure including Kubernetes and VMs.
@@ -211,78 +204,86 @@ providers:
   score_band: developing
   score_composite: 40.7
   shared: 1
-- slug: dapr
-  name: Dapr
-  description: Dapr (Distributed Application Runtime) is a portable, event-driven runtime that makes it easy for developers to build resilient, stateless, and stateful applications that run on the cloud and edge. It provides building block APIs for state management, pub/sub messaging, service invocation, bindings…
-  api_count: 13
-  score_band: thin
-  score_composite: 39.1
+- slug: apache-dubbo
+  name: Apache Dubbo
+  description: Apache Dubbo is a high-performance, Java-based open-source RPC framework that provides service discovery, traffic management, and observability capabilities for building enterprise-level microservices. It supports multiple protocols including Triple (gRPC-compatible), Dubbo, and REST, with SDKs for…
+  api_count: 16
+  score_band: developing
+  score_composite: 40.3
+  shared: 1
+- slug: spring
+  name: Spring Framework
+  description: Spring is the leading open-source application framework for Java. The Spring ecosystem provides a comprehensive programming and configuration model for modern Java-based enterprise applications, covering web MVC, data access, security, messaging, cloud-native patterns, and AI integrations. Spring B…
+  api_count: 3
+  score_band: developing
+  score_composite: 40.0
   shared: 1
 provider_slugs:
 - datadog-apm
 - apigee
 - azure-container-apps
 - nvidia-nim
-- amazon-sqs
 - websphere
 - folio
+- amazon-sqs
 - aws-app-runner
 - signadot
 - aws-app-mesh
 - amazon-vpc-lattice
 - aws-x-ray
-- lumigo
 - amazon-fargate
-- pactflow
 - zeebe
+- lumigo
+- pactflow
 - polyapi
 - mist-ai
-- apollo-config
 - encore-dev
 - amazon-cloud-map
-- purplebricks
 - docker
+- apollo-config
+- purplebricks
 - microsoft-azure-service-fabric
 - grpc
 - webflux
-- apache-dubbo
 - kuma
 - opslevel
-- dapr
+- apache-dubbo
 - spring
+- dapr
 - nats
+- spring-cloud-config
 - zipkin
 - google-cloud-service-mesh
-- spring-cloud-config
 - restate
 - apache-zipkin
 - jaeger
+- service-fabric
 - the-guild-dev
 - diagrid
 - istio
 - beamable
 - express-gateway
-- service-fabric
+- spring-boot
 - spring-cloud-gateway
 - ambient-mesh
 - ocelot
 - axon-framework
-- spring-boot
 - conductor-oss
-- akka
-- grafana-tempo
 - vert-x
-- moleculer
-- spin
+- akka
 - spring-cloud-stream
+- moleculer
+- devprime
+- spin
 - nacos
+- grafana-tempo
 - kratos
+- orkes
+- quarkus
 - open-liberty
 - service-mesh
 - snapser
-- orkes
 - lightstep
-- quarkus
 - jboss
 - nestjs
 - spring-boot-admin-console
@@ -295,9 +296,9 @@ provider_slugs:
 - open-service-mesh
 - netflix-eureka
 - resilience4j
+- soa
 - netflix-conductor
 - eventuate
-- soa
 - telepresence
 - littlehorse
 - seneca
@@ -313,6 +314,7 @@ provider_slugs:
 - gin
 - fiber
 - mia-platform
+- lunchbadger
 - integration-patterns
 - microservice-architecture-patterns
 - micro
@@ -329,7 +331,7 @@ related:
   shared: 4
 - slug: containers
   name: Containers
-  shared: 2
+  shared: 3
 - slug: developer-experience
   name: Developer Experience
   shared: 2
@@ -345,7 +347,7 @@ related:
 overview: 'Microservices is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [microservices.apievangelist.com](https://microservices.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Datadog APM, Apigee, Azure Container Apps, NVIDIA NIM, Amazon SQS, IBM WebSphere, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Datadog APM, Apigee, Azure Container Apps, NVIDIA NIM, IBM WebSphere, FOLIO, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Service Mesh, Containers, Developer Experience, and Portal. Browse every area at [areas.apis.io](https://apis.io/areas/).'

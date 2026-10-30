@@ -11,7 +11,7 @@ providers:
 - slug: cloudflare
   name: Cloudflare
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
-  api_count: 26
+  api_count: 25
   score_band: exemplar
   score_composite: 80.6
   shared: 1
@@ -25,16 +25,16 @@ providers:
 - slug: cpanel
   name: cPanel
   description: cPanel is a web-based control panel that provides a graphical interface and automation tools to simplify the management of web hosting services. cPanel exposes a family of HTTP APIs (UAPI, WHM API 1, and the legacy cPanel API 2) for automating account, domain, email, database, DNS, and server-wide…
-  api_count: 3
+  api_count: 2
   score_band: strong
-  score_composite: 65.2
+  score_composite: 64.7
   shared: 1
 - slug: microsoft-azure-private-link
   name: Microsoft Azure Private Link
   description: Microsoft Azure Private Link gives a virtual network a private IP address onto an Azure PaaS service, a partner service, or a service the customer publishes themselves, so traffic reaches it across the Microsoft backbone and never traverses the public internet. It has two sides. A consumer creates…
-  api_count: 3
+  api_count: 2
   score_band: strong
-  score_composite: 63.3
+  score_composite: 62.8
   shared: 1
 - slug: cisco-umbrella
   name: Cisco Umbrella
@@ -46,9 +46,9 @@ providers:
 - slug: domscan
   name: DomScan
   description: Domain intelligence API for domain availability, DNS, WHOIS/RDAP, valuation, security checks, email posture, social handle checks, and monitoring workflows. Offers REST API, machine-readable contracts, a hosted MCP server, and llms.txt.
-  api_count: 4
+  api_count: 1
   score_band: strong
-  score_composite: 62.1
+  score_composite: 61.8
   shared: 1
 - slug: geekflare
   name: Geekflare
@@ -64,47 +64,47 @@ providers:
   score_band: strong
   score_composite: 60.9
   shared: 1
+- slug: broke2builtai-com
+  name: broke2built
+  description: broke2built (Broke to Built) is Anthony Snider's independent one-engineer-plus-AI-agents company, and its API surface is built for other AI agents rather than for human developers. api.broke2builtai.com serves 29 live data skills — email/domain/DNS intelligence, web-page audits (SEO, security heade…
+  api_count: 2
+  score_band: strong
+  score_composite: 59.7
+  shared: 1
 - slug: whisper-online
   name: Whisper Security
   description: Whisper Security (viaGraph B.V., Amsterdam; AS219419) gives AI agents a real, routable IPv6 /128 address as their identity — allocated from its own 2a04:2a01::/32, published in reverse DNS, RDAP/WHOIS and an RFC 6962 transparency log, and DANE-pinned in DNSSEC-signed DNS so anyone can verify an age…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 59.3
   shared: 1
 - slug: apifreaks-api-hub-for-developers
   name: APIFreaks - API Hub for Developers
   description: APIFreaks is a first-party REST API hub built by JFreaks Software Solutions (Lahore, Pakistan) that ships more than 100 production endpoints behind a single API key and a single shared credit pool. The catalog spans IP geolocation and threat intelligence, WHOIS (live, historical, reverse, ASN), DNS…
-  api_count: 127
+  api_count: 104
   score_band: strong
   score_composite: 58.4
-  shared: 1
-- slug: broke2builtai-com
-  name: broke2built
-  description: broke2built (Broke to Built) is Anthony Snider's independent one-engineer-plus-AI-agents company, and its API surface is built for other AI agents rather than for human developers. api.broke2builtai.com serves 29 live data skills — email/domain/DNS intelligence, web-page audits (SEO, security heade…
-  api_count: 4
-  score_band: strong
-  score_composite: 58.1
   shared: 1
 - slug: contabo
   name: Contabo
   description: Contabo GmbH is a German hosting provider offering VPS, VDS, dedicated and GPU servers, S3-compatible object storage, private networking, DNS and domains. The Contabo API (https://api.contabo.com, OpenAPI 3.0.3, 157 operations) manages compute instances, snapshots, images, object storage, private n…
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 57.6
-  shared: 1
-- slug: shodan
-  name: Shodan
-  description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
-  api_count: 6
-  score_band: strong
-  score_composite: 56.7
   shared: 1
 - slug: amazon-route53-resolver
   name: Amazon Route 53 Resolver
   description: Amazon Route 53 Resolver provides DNS resolution for hybrid cloud environments, enabling DNS queries between your VPCs and on-premises networks. It allows you to configure DNS forwarding rules, manage resolver endpoints, and set up conditional forwarding to resolve domain names across your hybrid i…
   api_count: 1
   score_band: strong
-  score_composite: 55.7
+  score_composite: 57.1
+  shared: 1
+- slug: shodan
+  name: Shodan
+  description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
+  api_count: 5
+  score_band: strong
+  score_composite: 56.7
   shared: 1
 - slug: linode
   name: Linode
@@ -118,7 +118,7 @@ providers:
   description: Google Cloud DNS is a scalable, reliable, and managed authoritative Domain Name System (DNS) service running on the same infrastructure as Google. It provides low-latency, high-availability DNS serving with 100% uptime SLA, supporting both public and private DNS zones for domain name resolution.
   api_count: 1
   score_band: strong
-  score_composite: 54.3
+  score_composite: 55.6
   shared: 1
 - slug: mcp360
   name: MCP360
@@ -167,14 +167,21 @@ providers:
   description: Amazon Cloud Map is a cloud resource discovery service that maintains an updated registry of application resources and their locations. Define custom names for application resources and use Cloud Map to dynamically discover service dependencies with integrated health checking and automatic updates.
   api_count: 3
   score_band: developing
-  score_composite: 43.7
+  score_composite: 45.3
   shared: 1
 - slug: quantcdn
   name: QuantCDN
   description: QuantCDN is an edge delivery, static site hosting, and cloud applications platform that lets teams generate, host, and maintain static and dynamic versions of their websites with a global CDN, WAF, edge functions, key-value storage, AI inference, and DNS management.
   api_count: 1
   score_band: developing
-  score_composite: 41.9
+  score_composite: 43.3
+  shared: 1
+- slug: openprovider
+  name: Openprovider
+  description: 'Openprovider is a wholesaler of Internet services and products with a unique platform from which you can find and manage all the products you need: domains, new gTLDs, SSL certificates, licenses for Plesk and Virtuozzo, spam filters, and more.'
+  api_count: 1
+  score_band: developing
+  score_composite: 41.1
   shared: 1
 - slug: d3
   name: D3
@@ -189,13 +196,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 40.5
-  shared: 1
-- slug: openprovider
-  name: Openprovider
-  description: 'Openprovider is a wholesaler of Internet services and products with a unique platform from which you can find and manage all the products you need: domains, new gTLDs, SSL certificates, licenses for Plesk and Virtuozzo, spam filters, and more.'
-  api_count: 1
-  score_band: developing
-  score_composite: 39.7
   shared: 1
 - slug: coredns
   name: CoreDNS
@@ -227,12 +227,12 @@ provider_slugs:
 - domscan
 - geekflare
 - apiverve
+- broke2builtai-com
 - whisper-online
 - apifreaks-api-hub-for-developers
-- broke2builtai-com
 - contabo
-- shodan
 - amazon-route53-resolver
+- shodan
 - linode
 - google-cloud-dns
 - mcp360
@@ -243,9 +243,9 @@ provider_slugs:
 - amazon-route-53
 - amazon-cloud-map
 - quantcdn
+- openprovider
 - d3
 - datum
-- openprovider
 - coredns
 - silent-push
 - stack-machine
@@ -259,13 +259,13 @@ provider_slugs:
 - spaceship
 - unstoppable-domains
 - frostbyte
-- nacos
-- dns-check
-- dnsimple
 - godaddy
+- dns-check
+- nacos
+- dnsimple
 - virtualmin
-- canyougrab
 - gandi
+- canyougrab
 - ns1
 - pi-hole
 - networkcalc
@@ -288,14 +288,14 @@ related:
 - slug: containers
   name: Containers
   shared: 1
-- slug: deployment
-  name: Deployment
-  shared: 1
 - slug: gateway
   name: Gateway
   shared: 1
 - slug: microservices
   name: Microservices
+  shared: 1
+- slug: security
+  name: Security
   shared: 1
 overview: 'DNS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [dns.apievangelist.com](https://dns.apievangelist.com).
 
@@ -303,5 +303,5 @@ overview: 'DNS is one of the API Evangelist areas on the [APIs.io](https://apis.
   30 providers on the network work in this area, including Cloudflare, WhoisFreaks, cPanel, Microsoft Azure Private Link, Cisco Umbrella, DomScan, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Evangelist Search, Internet of Things, Containers, and Deployment. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Search, Internet of Things, Containers, and Gateway. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 ---

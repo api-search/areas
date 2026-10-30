@@ -39,7 +39,7 @@ providers:
 - slug: trueproxies
   name: TrueProxies
   description: 'TrueProxies, LLC (USA) sells residential and datacenter proxies (HTTP/HTTPS/SOCKS5) for developers and data teams, priced per hour, per GB or per day: unlimited-bandwidth Residential IPv4 at a chosen speed tier, GB-based Residential IPv4 with country, city, region and ASN targeting, and Datacenter…'
-  api_count: 2
+  api_count: 1
   score_band: strong
   score_composite: 55.0
   shared: 1
@@ -53,9 +53,16 @@ providers:
 - slug: scrapingant
   name: ScrapingAnt
   description: ScrapingAnt is a web-data infrastructure platform operated by DATAANT that puts headless Chrome rendering, a rotating pool of 3M+ residential and datacenter proxies, CAPTCHA avoidance and AI-powered extraction behind a single HTTP API. One request returns a fully JavaScript-rendered page as raw HTM…
-  api_count: 3
+  api_count: 2
   score_band: developing
-  score_composite: 50.2
+  score_composite: 49.7
+  shared: 1
+- slug: ngrok
+  name: ngrok
+  description: ngrok is a unified application delivery network for developers, providing secure tunnels, ingress-as-a-service, API gateway, and AI gateway capabilities. It enables developers to expose local services on the public internet, manage edge ingress, and route traffic to AI providers without redeploying…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.8
   shared: 1
 - slug: hyperbrowser
   name: Hyperbrowser
@@ -64,17 +71,10 @@ providers:
   score_band: developing
   score_composite: 46.3
   shared: 1
-- slug: ngrok
-  name: ngrok
-  description: ngrok is a unified application delivery network for developers, providing secure tunnels, ingress-as-a-service, API gateway, and AI gateway capabilities. It enables developers to expose local services on the public internet, manage edge ingress, and route traffic to AI providers without redeploying…
-  api_count: 1
-  score_band: developing
-  score_composite: 45.6
-  shared: 1
 - slug: shveik
   name: shveik
   description: 'shveik.dev runs five pay-per-call APIs built for AI agents and paid per request in stablecoins over x402 and MPP, with no account or subscription: agdata (unblocking and web data - any URL as Markdown, screenshots, transcripts, maps and social data), agproxy (residential proxy packs and raw fetch),…'
-  api_count: 10
+  api_count: 5
   score_band: developing
   score_composite: 45.0
   shared: 1
@@ -135,8 +135,8 @@ provider_slugs:
 - trueproxies
 - oxylabs
 - scrapingant
-- hyperbrowser
 - ngrok
+- hyperbrowser
 - shveik
 - envoy-proxy
 - zenrows

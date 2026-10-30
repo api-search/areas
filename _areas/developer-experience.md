@@ -6,7 +6,7 @@ description: This is the index of developer experience service and tooling repos
 area_url: https://developer-experience.apievangelist.com
 area_host: developer-experience.apievangelist.com
 icon: https://developer-experience.apievangelist.com/icon-thumb.png
-provider_count: 63
+provider_count: 65
 providers:
 - slug: adobe-suite
   name: Adobe Suite
@@ -20,14 +20,21 @@ providers:
   description: Acquia is a leading provider of digital experience management solutions for organizations looking to enhance their online presence. They offer a range of services, including cloud hosting, digital asset management, and content management, to help businesses create, manage, and optimize their websit…
   api_count: 20
   score_band: exemplar
-  score_composite: 75.3
+  score_composite: 75.5
   shared: 1
 - slug: atlassian-compass
   name: Atlassian Compass
   description: Atlassian Compass is a developer experience platform that helps engineering teams understand, manage, and improve the health of their software components and services. It provides a centralized catalog of software components with scorecards, metrics, dependency tracking, and event ingestion to impr…
-  api_count: 3
+  api_count: 2
   score_band: exemplar
-  score_composite: 71.5
+  score_composite: 71.3
+  shared: 1
+- slug: apiable
+  name: Apiable
+  description: Apiable is an API portal platform that enables businesses to create single-tenant, white-label developer portals with custom domains, branding, and API product management. It supports API monetization, developer self-service onboarding, usage metrics, subscription lifecycle management, and integrat…
+  api_count: 1
+  score_band: strong
+  score_composite: 64.2
   shared: 1
 - slug: treblle
   name: Treblle
@@ -48,7 +55,7 @@ providers:
   description: GitBook is a documentation and knowledge platform, positioned as "the knowledge layer for AI", that connects a company's docs, product and users, answers user questions with AI, and identifies gaps in its knowledge. Teams write and publish product and API documentation with docs-as-code support and…
   api_count: 1
   score_band: strong
-  score_composite: 61.3
+  score_composite: 60.2
   shared: 1
 - slug: unblocked
   name: Unblocked
@@ -71,6 +78,13 @@ providers:
   score_band: strong
   score_composite: 55.6
   shared: 1
+- slug: lunch-flow
+  name: Lunch Flow
+  description: Lunch Flow provides a unified API platform that connects bank accounts, investment accounts, and financial data across 30+ countries. It enables developers to embed financial data into their applications, offering personal and platform APIs for account transactions, balances, holdings, and user man…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.4
+  shared: 1
 - slug: withlocals
   name: Withlocals
   description: Withlocals is an experiential travel platform that connects travelers with verified local hosts for private, personalized tours, food experiences and home dinners — over 2,500 experiences in more than 250 destinations (per withlocals.com). It publishes a Withlocals Partner API for distribution part…
@@ -78,26 +92,19 @@ providers:
   score_band: developing
   score_composite: 52.5
   shared: 1
-- slug: apiable
-  name: Apiable
-  description: Apiable is an API portal platform that enables businesses to create single-tenant, white-label developer portals with custom domains, branding, and API product management. It supports API monetization, developer self-service onboarding, usage metrics, subscription lifecycle management, and integrat…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.1
-  shared: 1
 - slug: coveo
   name: Coveo
   description: Coveo is a cloud-based AI-relevance platform that delivers personalized search, recommendations, and discovery experiences across digital workplaces, customer service portals, websites, and commerce storefronts. The Coveo platform exposes a family of REST APIs covering search, content indexing (Pus…
   api_count: 31
   score_band: developing
-  score_composite: 50.6
+  score_composite: 52.0
   shared: 1
 - slug: stainless
   name: Stainless
   description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic, Cloudflare, Google, and OpenAI, Stainless automates the boil…
-  api_count: 7
+  api_count: 2
   score_band: developing
-  score_composite: 50.1
+  score_composite: 49.5
   shared: 1
 - slug: viator
   name: Viator
@@ -116,9 +123,9 @@ providers:
 - slug: opplevagent-no
   name: Opplevagent
   description: Opplevagent is an agent-native (A2A) marketplace of Norwegian experiences and activities — 547 hand-picked tours, courses, attractions and things to do from 417 providers verified against Brønnøysundregistrene, plus a gårdssalg vertical of 252 farm-sale drink producers (breweries, cideries, winerie…
-  api_count: 4
+  api_count: 1
   score_band: developing
-  score_composite: 47.0
+  score_composite: 46.5
   shared: 1
 - slug: software
   name: Software
@@ -134,6 +141,13 @@ providers:
   score_band: developing
   score_composite: 46.1
   shared: 1
+- slug: konfetti
+  name: konfetti
+  description: konfetti (Konfetti GmbH, Berlin) operates a marketplace for bookable experiences — cooking classes, pottery and ceramics workshops, cocktail courses, tastings, boat tours, creative and craft workshops, DIY kits and team events — across Germany and Austria, with more than 7,600 bookable experience l…
+  api_count: 5
+  score_band: developing
+  score_composite: 43.2
+  shared: 1
 - slug: klook
   name: Klook
   description: Klook is a Hong Kong-headquartered travel and experiences booking platform for the "things to do" sector — attractions, tours and activities, theme parks, food and beverage, WiFi and SIM cards, and transportation passes. Klook publishes an Open API specification for merchants, suppliers, reservatio…
@@ -147,13 +161,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 41.0
-  shared: 1
-- slug: getyourguide
-  name: GetYourGuide
-  description: GetYourGuide is a Berlin-based online travel marketplace for booking tours, activities, attraction tickets, and experiences in destinations around the world. Founded in 2009, the company connects travelers with local activity suppliers and operators, and exposes a public Partner API that gives affi…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.8
   shared: 1
 - slug: opslevel
   name: OpsLevel
@@ -172,9 +179,16 @@ providers:
 - slug: fabric-com
   name: fabric
   description: fabric is a composable, headless commerce platform. Its API covers catalog and product information management, pricing and promotions, cart and checkout, orders and order management, inventory, customers and addresses, and returns and appeasements.
-  api_count: 20
+  api_count: 16
   score_band: thin
   score_composite: 39.0
+  shared: 1
+- slug: tock
+  name: Tock
+  description: Tock is a Chicago-founded reservation, ticketed events, takeout, and delivery management platform for restaurants, wineries, and hospitality venues. Founded in 2014 by Nick Kokonas, Brian Fitzpatrick, and Grant Achatz to support prepaid and ticketed dining (originated at Alinea Group), Tock pioneer…
+  api_count: 2
+  score_band: thin
+  score_composite: 38.6
   shared: 1
 - slug: driver
   name: Driver
@@ -190,13 +204,6 @@ providers:
   score_band: thin
   score_composite: 37.2
   shared: 1
-- slug: tock
-  name: Tock
-  description: Tock is a Chicago-founded reservation, ticketed events, takeout, and delivery management platform for restaurants, wineries, and hospitality venues. Founded in 2014 by Nick Kokonas, Brian Fitzpatrick, and Grant Achatz to support prepaid and ticketed dining (originated at Alinea Group), Tock pioneer…
-  api_count: 2
-  score_band: thin
-  score_composite: 35.5
-  shared: 1
 - slug: fern-api
   name: Fern
   description: Fern is a developer-tools platform that turns a single API specification into idiomatic client SDKs, beautiful API documentation, and MCP servers. Given OpenAPI, AsyncAPI, gRPC/Protobuf, or Fern's own Fern Definition as input, Fern generates type-safe SDKs in TypeScript, Python, Go, Java, C#, PHP,…
@@ -211,25 +218,19 @@ providers:
   score_band: thin
   score_composite: 33.8
   shared: 1
-- slug: upbound
-  name: Upbound
-  description: Upbound is a universal cloud platform built on Crossplane, providing managed control planes and a marketplace for cloud infrastructure APIs. The Upbound API enables programmatic management of organizations, spaces, control planes, package repositories, teams, and robot accounts.
-  api_count: 1
-  score_band: thin
-  score_composite: 33.7
-  shared: 1
 provider_slugs:
 - adobe-suite
 - acquia
 - atlassian-compass
+- apiable
 - treblle
 - apimatic
 - gitbook
 - unblocked
 - configure8
 - signadot
+- lunch-flow
 - withlocals
-- apiable
 - coveo
 - stainless
 - viator
@@ -237,31 +238,31 @@ provider_slugs:
 - opplevagent-no
 - software
 - liblab
+- konfetti
 - klook
 - qovery
-- getyourguide
 - opslevel
 - readmeio
 - fabric-com
+- tock
 - driver
 - cycloid
-- tock
 - fern-api
 - rely
 - upbound
-- fever
 - autoura
+- fever
 - supernova
 - readme-metrics
+- getyourguide
 - cortex-idp
-- nx-dev
 - northflank
+- nx-dev
 - score
 - anyroad
 - american-airlines
 - port-io
 - roadie-io
-- konfetti
 - grounded-tools
 - turneo
 - prompt-driven
@@ -269,8 +270,8 @@ provider_slugs:
 - headout
 - fiberplane
 - eola
-- uplevelteam
 - user-stories
+- uplevelteam
 - '222'
 - sandbox-vr
 - truly-experiences
@@ -279,6 +280,7 @@ provider_slugs:
 - musement
 - wishbird-experiences
 - integrated-development-environment
+- famous-co
 - developer-experience
 - portal
 - wanderable
@@ -304,7 +306,7 @@ related:
 overview: 'Developer Experience is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [developer-experience.apievangelist.com](https://developer-experience.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Adobe Suite, Acquia, Atlassian Compass, Treblle, APIMatic, GitBook, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Adobe Suite, Acquia, Atlassian Compass, Apiable, Treblle, APIMatic, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Documentation, Portal, SDKs, and Microservices. Browse every area at [areas.apis.io](https://apis.io/areas/).'

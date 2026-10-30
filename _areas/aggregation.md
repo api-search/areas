@@ -13,7 +13,7 @@ providers:
   description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Post…
   api_count: 20
   score_band: exemplar
-  score_composite: 93.6
+  score_composite: 93.8
   shared: 1
 - slug: ab-tasty
   name: AB Tasty
@@ -25,9 +25,16 @@ providers:
 - slug: tietoevry
   name: TietoEVRY
   description: TietoEVRY (Tietoevry Corporation, listed as TIETO on Nasdaq Helsinki and Stockholm, rebranded to "Tieto" in 2026) is a Nordic software and technology company of roughly 14,000 people operating in 20+ countries, serving banking, healthcare, public sector and industry. Its public API surface is publi…
-  api_count: 52
+  api_count: 24
   score_band: developing
   score_composite: 39.5
+  shared: 1
+- slug: belvo
+  name: Belvo
+  description: Belvo is a Latin American open-finance API platform that lets companies connect to bank, fiscal, and employment institutions across Mexico, Brazil, and Colombia to aggregate accounts, balances, transactions, owners, and income data, and to initiate account-to-account payments over Brazil's Pix / Op…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.7
   shared: 1
 - slug: krakend
   name: KrakenD
@@ -36,19 +43,12 @@ providers:
   score_band: thin
   score_composite: 35.7
   shared: 1
-- slug: belvo
-  name: Belvo
-  description: Belvo is a Latin American open-finance API platform that lets companies connect to bank, fiscal, and employment institutions across Mexico, Brazil, and Colombia to aggregate accounts, balances, transactions, owners, and income data, and to initiate account-to-account payments over Brazil's Pix / Op…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.5
-  shared: 1
 - slug: google-news
   name: Google News RSS
   description: Google News provides RSS feeds that deliver news headlines organized by topic, location, and search query. The feeds expose structured XML data that can be consumed programmatically to retrieve top stories, topic-based headlines (World, Business, Technology, Sports, etc.), location-specific news, a…
   api_count: 1
   score_band: thin
-  score_composite: 33.7
+  score_composite: 35.1
   shared: 1
 - slug: statsd
   name: StatsD
@@ -92,6 +92,13 @@ providers:
   score_band: minimal
   score_composite: 9.8
   shared: 1
+- slug: api-harmony
+  name: API Harmony
+  description: API Harmony was an API discovery and recommendation tool from IBM Research that used graph-based search, machine learning, and cognitive technologies to help developers find, compare, and select compatible APIs. It was offered as a cloud service on IBM Bluemix and has since been discontinued.
+  api_count: 1
+  score_band: minimal
+  score_composite: 9.1
+  shared: 1
 - slug: aggregation
   name: Aggregation
   description: An index and topic collection covering API aggregation, marketplaces, directories, unified APIs, and catalog platforms. API aggregation brings together multiple APIs under a single interface, simplifying integration, reducing maintenance overhead, and enabling consistent authentication and data nor…
@@ -113,13 +120,6 @@ providers:
   score_band: minimal
   score_composite: 8.6
   shared: 1
-- slug: api-harmony
-  name: API Harmony
-  description: API Harmony was an API discovery and recommendation tool from IBM Research that used graph-based search, machine learning, and cognitive technologies to help developers find, compare, and select compatible APIs. It was offered as a cloud service on IBM Bluemix and has since been discontinued.
-  api_count: 1
-  score_band: minimal
-  score_composite: 7.7
-  shared: 1
 - slug: programmableweb
   name: ProgrammableWeb
   description: ProgrammableWeb was the original API directory and developer resource, founded by John Musser in 2005, documenting over 19,000 open web APIs and thousands of mashups and applications over 17 years of operation. It was acquired by Alcatel-Lucent in 2010, sold to MuleSoft in 2013, and ultimately shut…
@@ -131,8 +131,8 @@ provider_slugs:
 - apis-io
 - ab-tasty
 - tietoevry
-- krakend
 - belvo
+- krakend
 - google-news
 - statsd
 - apis-json
@@ -140,10 +140,10 @@ provider_slugs:
 - urjanet
 - public-apis
 - digitalapi
+- api-harmony
 - aggregation
 - finverse
 - unified-apis
-- api-harmony
 - programmableweb
 related:
 - slug: agents-skills
@@ -152,7 +152,7 @@ related:
 overview: 'Aggregation is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [aggregation.apievangelist.com](https://aggregation.apievangelist.com).
 
 
-  17 providers on the network work in this area, including APIs.io, AB Tasty, TietoEVRY, KrakenD, Belvo, Google News RSS, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  17 providers on the network work in this area, including APIs.io, AB Tasty, TietoEVRY, Belvo, KrakenD, Google News RSS, and 11 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -6,21 +6,21 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 14
+provider_count: 15
 providers:
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
-  api_count: 6
+  api_count: 5
   score_band: strong
   score_composite: 56.7
   shared: 1
 - slug: spectrumoutage-api
   name: SpectrumOutage API
   description: Community-powered REST API for live Spectrum internet, TV, and phone outage data across the United States, published by SpectrumOutage.us — an independent outage tracker with no affiliation to Charter Communications or Spectrum. The v1 API exposes eight operations over crowdsourced outage reports:…
-  api_count: 4
+  api_count: 1
   score_band: developing
-  score_composite: 48.6
+  score_composite: 48.0
   shared: 1
 - slug: comcast
   name: Comcast
@@ -62,7 +62,7 @@ providers:
   description: Cox Communications is a leading American telecommunications provider offering broadband internet, cable TV, and phone services for residential and business customers. Cox provides REST APIs for account management, service configuration, network diagnostics, and customer portal integrations across i…
   api_count: 3
   score_band: emerging
-  score_composite: 14.4
+  score_composite: 15.7
   shared: 1
 - slug: cogent-communications
   name: Cogent Communications
@@ -70,6 +70,13 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 12.2
+  shared: 1
+- slug: netgsm
+  name: Netgsm
+  description: Netgsm is a Turkish telecommunications provider offering a wide range of digital communication services, including SMS, voice, virtual numbers, IoT/M2M data lines, cloud PBX, and custom API integrations. Their platform enables businesses to send bulk SMS, manage OTP, integrate WhatsApp, and utilize…
+  api_count: 0
+  score_band: minimal
+  score_composite: 7.4
   shared: 1
 - slug: cablevision-systems
   name: Cablevision Systems
@@ -116,6 +123,7 @@ provider_slugs:
 - andrena
 - cox
 - cogent-communications
+- netgsm
 - cablevision-systems
 - wiom
 - iac-interactivecorp
@@ -131,7 +139,7 @@ related:
 overview: 'Internet of Things is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [internet-of-things.apievangelist.com](https://internet-of-things.apievangelist.com).
 
 
-  14 providers on the network work in this area, including Shodan, SpectrumOutage API, Comcast, Lumen Technologies, Internet Engineering Task Force, Ziff Davis Enterprise, and 8 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  15 providers on the network work in this area, including Shodan, SpectrumOutage API, Comcast, Lumen Technologies, Internet Engineering Task Force, Ziff Davis Enterprise, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Evangelist Search and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
