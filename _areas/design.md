@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://design.apievangelist.com
 area_host: design.apievangelist.com
 icon: https://design.apievangelist.com/icon-thumb.png
-provider_count: 154
+provider_count: 147
 providers:
 - slug: postman
   name: Postman
@@ -312,8 +312,6 @@ provider_slugs:
 - rest
 - speclynx
 - creativelive
-- mockko
-- user-stories
 - illoca
 - concepts
 - connexion
