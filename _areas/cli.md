@@ -6,7 +6,7 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://cli.apievangelist.com
 area_host: cli.apievangelist.com
 icon: https://cli.apievangelist.com/icon-thumb.png
-provider_count: 114
+provider_count: 127
 providers:
 - slug: aws-cli
   name: AWS CLI
@@ -15,75 +15,103 @@ providers:
   score_band: emerging
   score_composite: 25.9
   shared: 2
-- slug: anysphere-cursor.com
-  name: Anysphere Cursor.com
-  description: Anysphere Cursor.com, doing business as Cursor, is an applied research lab and subsidiary of SpaceXAI focused on AI-native code editing tools. It offers the Cursor AI coding agent and development environment, targeting developers and enterprises with generative AI for software creation.
-  api_count: 1
-  score_band: exemplar
-  score_composite: 75.1
-  shared: 1
 - slug: svix
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 1
   score_band: exemplar
-  score_composite: 73.1
+  score_composite: 74.5
   shared: 1
 - slug: common-room
   name: Common Room
   description: Common Room is an AI-native go-to-market and buyer-intelligence platform that unifies first-party product, community, social, web and CRM signals into a single identity-resolved view of contacts and organizations. It exposes a v1 Core REST API for ingesting contacts and activity from your own sourc…
   api_count: 3
+  score_band: exemplar
+  score_composite: 67.3
+  shared: 1
+- slug: anysphere-cursor.com
+  name: Anysphere Cursor.com
+  description: Anysphere Cursor.com, doing business as Cursor, is an applied research lab and subsidiary of SpaceXAI focused on AI-native code editing tools. It offers the Cursor AI coding agent and development environment, targeting developers and enterprises with generative AI for software creation.
+  api_count: 1
   score_band: strong
-  score_composite: 65.7
+  score_composite: 63.9
   shared: 1
 - slug: ploy
   name: Ploy
   description: Ploy is an AI-powered web marketing automation platform that turns a company's marketing website into a growth channel. Founded in 2025 by former Webflow CTO Bryant Chou, backed by Y Combinator and First Round Capital ($27M), Ploy runs AI agents that build and optimize Astro/Tailwind marketing site…
   api_count: 1
   score_band: strong
-  score_composite: 60.9
+  score_composite: 62.4
   shared: 1
 - slug: tesslio
   name: tessl.io
   description: Tessl is an agent-enablement platform for spec-driven and agentic software development. It provides a registry of versioned "tiles"/plugins (10,000+ library docs) and 3,000+ searchable Agent Skills, a CLI for authoring, linting, reviewing, and publishing skills and plugins, server-side quality revi…
   api_count: 1
   score_band: strong
-  score_composite: 56.3
+  score_composite: 59.5
   shared: 1
-- slug: insomnia
-  name: Insomnia
-  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
+- slug: okteto
+  name: Okteto
+  description: 'Okteto is a development-environment platform built on Kubernetes. Its site says it "gives coding agents production-like environments to verify their work": isolated, full-stack environments that run on your own infrastructure. Teams use it for Kubernetes development environments, preview environmen…'
   api_count: 1
-  score_band: developing
-  score_composite: 52.6
+  score_band: strong
+  score_composite: 54.4
   shared: 1
 - slug: qfex
   name: Qfex
   description: QFEX is the first 24/7 exchange built exclusively for US equities, commodities, and FX, offering high-leverage perpetual futures on traditional assets without a broker. Founded by former Tower Research and Citadel engineers who met studying mathematics at Cambridge, QFEX gives retail and institutio…
   api_count: 1
   score_band: developing
-  score_composite: 51.3
+  score_composite: 52.9
+  shared: 1
+- slug: insomnia
+  name: Insomnia
+  description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.3
   shared: 1
 - slug: bruno-api
   name: Bruno
   description: Bruno is an open-source (MIT), git-native API client - a lightweight, offline-first alternative to Postman and Insomnia for exploring and testing APIs. It is a developer TOOL, not a hosted HTTP API provider. Collections are stored on the local filesystem as folders of plain-text files (the .bru "Br…
   api_count: 3
   score_band: developing
-  score_composite: 50.4
+  score_composite: 52.0
+  shared: 1
+- slug: jetify
+  name: Jetify
+  description: Jetify builds developer tooling for reproducible environments and package management, backed by the Nix ecosystem. Its open-source Devbox CLI creates instant, isolated, predictable development shells; Jetify Cloud adds team secrets management, a private Nix package cache, and deployments; Nixhub in…
+  api_count: 1
+  score_band: developing
+  score_composite: 52.0
   shared: 1
 - slug: vlt
   name: vlt
   description: vlt (pronounced "volt") is a JavaScript package management company started by the creator of npm and former members of the npm core team, and backed by Accel. It ships the open source vlt package manager CLI, the npm-compatible vlt serverless registry (vsr) that runs on Cloudflare's edge network, a…
   api_count: 1
   score_band: developing
-  score_composite: 48.1
+  score_composite: 49.7
   shared: 1
 - slug: landbase
   name: Landbase
   description: Landbase is a Palo Alto, California go-to-market (GTM) data and agentic-AI company whose platform builds, qualifies, enriches and activates B2B audiences from natural-language requests. Its GTM-1/GTM-2 Omni models sit behind a B2B database of 300M+ contacts with 1,500+ enrichment fields, an agentic…
   api_count: 1
   score_band: developing
-  score_composite: 45.8
+  score_composite: 48.3
+  shared: 1
+- slug: apitoolkit
+  name: APIToolkit (Monoscope)
+  description: APIToolkit (now Monoscope) is an open-source-friendly API observability and monitoring platform that helps teams find and fix production issues before customers notice. It unifies logs, traces, metrics, errors, monitors, and session replay across 17+ framework SDKs and 780+ OpenTelemetry integratio…
+  api_count: 1
+  score_band: developing
+  score_composite: 48.1
+  shared: 1
+- slug: sideko
+  name: Sideko
+  description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
+  api_count: 1
+  score_band: developing
+  score_composite: 46.7
   shared: 1
 - slug: continue-dev
   name: Continue
@@ -99,6 +127,13 @@ providers:
   score_band: developing
   score_composite: 45.1
   shared: 1
+- slug: stakpak
+  name: StakPak
+  description: Stakpak is an open-source autonomous DevOps AI agent, distributed as a single Rust binary, that runs 24/7 on your machines to keep applications running — performing health checks, auto-healing failures, monitoring cloud cost, rotating secrets, renewing certificates, and alerting teams only when hum…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.1
+  shared: 1
 - slug: kiota
   name: Kiota
   description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the need to take a dependency on a different hand-written SDK f…'
@@ -106,33 +141,26 @@ providers:
   score_band: developing
   score_composite: 45.0
   shared: 1
-- slug: stakpak
-  name: StakPak
-  description: Stakpak is an open-source autonomous DevOps AI agent, distributed as a single Rust binary, that runs 24/7 on your machines to keep applications running — performing health checks, auto-healing failures, monitoring cloud cost, rotating secrets, renewing certificates, and alerting teams only when hum…
+- slug: arena-predictions-com
+  name: Arena
+  description: 'Test prediction-market strategies in Arena''s sandbox: live prices, paper fills and a graded track record, from the website, a CLI or an MCP server. Private accounts by default, public AI model records, a public leaderboard and large-order signals.'
   api_count: 1
   score_band: developing
-  score_composite: 43.6
-  shared: 1
-- slug: jetify
-  name: Jetify
-  description: Jetify builds developer tooling for reproducible environments and package management, backed by the Nix ecosystem. Its open-source Devbox CLI creates instant, isolated, predictable development shells; Jetify Cloud adds team secrets management, a private Nix package cache, and deployments; Nixhub in…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.5
+  score_composite: 44.4
   shared: 1
 - slug: terminal-use
   name: Terminal Use
   description: Terminal Use is a deployment and orchestration platform for background AI agents — "Vercel for background agents." It gives agents that need long-lived task state, persistent files at /workspace, and production deployment primitives (versions, rollback, logs, environment secrets) a single runtime m…
   api_count: 1
   score_band: developing
-  score_composite: 41.5
+  score_composite: 44.3
   shared: 1
-- slug: apitoolkit
-  name: APIToolkit (Monoscope)
-  description: APIToolkit (now Monoscope) is an open-source-friendly API observability and monitoring platform that helps teams find and fix production issues before customers notice. It unifies logs, traces, metrics, errors, monitors, and session replay across 17+ framework SDKs and 780+ OpenTelemetry integratio…
+- slug: aiogeoprotocol-com
+  name: AIO.GEO Protocol
+  description: AIO.GEO Protocol provides a measurement layer for AI search readiness, evaluating structural DOM semantics, JSON‑LD schema graphs, and crawler access policies. It offers deterministic audits, remediation fix packs, and cryptographic proof receipts to prove what large language models see on a websit…
   api_count: 1
   score_band: developing
-  score_composite: 41.3
+  score_composite: 41.4
   shared: 1
 - slug: cosign
   name: Cosign
@@ -140,13 +168,6 @@ providers:
   api_count: 3
   score_band: developing
   score_composite: 41.1
-  shared: 1
-- slug: sideko
-  name: Sideko
-  description: Sideko is an API tooling generation platform that turns an OpenAPI specification into a complete developer-tooling suite — SDKs in six languages (Python, TypeScript, Java, Go, C#, Rust), Model Context Protocol (MCP) servers for AI agents, on-brand documentation sites with an Automatic MCP surface,…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.4
   shared: 1
 - slug: qumulo
   name: Qumulo
@@ -162,19 +183,33 @@ providers:
   score_band: thin
   score_composite: 38.9
   shared: 1
+- slug: digger
+  name: Digger
+  description: Digger (diggerhq), backed by Initialized Capital, builds developer infrastructure across two open-source-rooted product lines. OpenTaco (formerly the Digger CE project) is an Infrastructure-as-Code orchestration and Terraform/OpenTofu state-management platform that runs plan/apply inside your exist…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.7
+  shared: 1
+- slug: bernstein-run
+  name: Bernstein
+  description: 'Bernstein is the open-source governance layer for AI agents: a deterministic python scheduler runs them in parallel, with no model in the coordination loop, so the same plan replays byte-identically. It runs on policy as code: you write the policy, Bernstein enforces it, and produces the verifiable…'
+  api_count: 1
+  score_band: thin
+  score_composite: 38.6
+  shared: 1
+- slug: formspree
+  name: Formspree
+  description: 'Formspree is a form backend for static and Jamstack sites. Two API surfaces matter: (1) the public form-submission endpoint (formspree.io/f/{hashid}) that accepts POST submissions and returns JSON when the Accept header is set, and (2) the Forms API (formspree.io/api/0/...) for programmatic submiss…'
+  api_count: 1
+  score_band: thin
+  score_composite: 38.6
+  shared: 1
 - slug: flutterflow
   name: FlutterFlow
   description: FlutterFlow is a visual, low-code development platform for building native mobile, web, and desktop applications on Flutter without sacrificing app quality or features. Beyond the visual builder, FlutterFlow exposes Project APIs — a REST surface at api.flutterflow.io/v2 for programmatically listing…
   api_count: 1
   score_band: thin
   score_composite: 37.8
-  shared: 1
-- slug: digger
-  name: Digger
-  description: Digger (diggerhq), backed by Initialized Capital, builds developer infrastructure across two open-source-rooted product lines. OpenTaco (formerly the Digger CE project) is an Infrastructure-as-Code orchestration and Terraform/OpenTofu state-management platform that runs plan/apply inside your exist…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.6
   shared: 1
 - slug: carvel
   name: Carvel
@@ -183,137 +218,114 @@ providers:
   score_band: thin
   score_composite: 37.2
   shared: 1
-- slug: orval
-  name: Orval
-  description: Orval is an MIT-licensed open source code generator that turns any valid OpenAPI v3 or Swagger v2 specification into type-safe TypeScript. From one spec it emits HTTP request functions (Fetch by default, Axios optional), TanStack Query hooks for React, Vue, Svelte, Solid and Angular, SWR hooks, Ang…
-  api_count: 1
-  score_band: thin
-  score_composite: 37.0
-  shared: 1
-- slug: virtualitics
-  name: Virtualitics
-  description: Virtualitics, Inc. is a Pasadena, California AI software company founded in 2016 on more than a decade of research at Caltech and NASA's Jet Propulsion Laboratory. It builds the Virtualitics AI Platform (VAIP), a secure deployment target for mission-critical AI Apps; Virtualitics Explore, a 3D/imme…
-  api_count: 2
-  score_band: thin
-  score_composite: 36.4
-  shared: 1
-- slug: promptfoo
-  name: Promptfoo
-  description: Promptfoo is an open-source LLM evaluation and red-teaming framework distributed as a TypeScript CLI and Node.js library under the MIT license. Developers use it to evaluate prompts, models, and RAG pipelines side by side, run automated red team attacks against LLM applications, scan code for LLM v…
-  api_count: 6
-  score_band: thin
-  score_composite: 36.3
-  shared: 1
-- slug: plakar
-  name: Plakar
-  description: Plakar is an open-source, end-to-end encrypted, deduplicated backup and restore platform powered by Kloset, an immutable data store engine. It encrypts and deduplicates data at the source before it leaves your system (encryption keys stay in your own secret manager), stores it in a non-proprietary…
-  api_count: 0
-  score_band: thin
-  score_composite: 36.2
-  shared: 1
-- slug: amazon-cloudshell
-  name: Amazon CloudShell
-  description: AWS CloudShell is a browser-based terminal that enables users to manage and explore AWS resources directly from the AWS Management Console. Pre-authenticated, pre-installed with AWS CLI and dev tools, with 1 GB of persistent storage per region.
-  api_count: 1
-  score_band: thin
-  score_composite: 35.9
-  shared: 1
 provider_slugs:
 - aws-cli
-- anysphere-cursor.com
 - svix
 - common-room
+- anysphere-cursor.com
 - ploy
 - tesslio
-- insomnia
+- okteto
 - qfex
+- insomnia
 - bruno-api
+- jetify
 - vlt
 - landbase
+- apitoolkit
+- sideko
 - continue-dev
 - mammoth-media
-- kiota
 - stakpak
-- jetify
+- kiota
+- arena-predictions-com
 - terminal-use
-- apitoolkit
+- aiogeoprotocol-com
 - cosign
-- sideko
 - qumulo
 - plandex
-- flutterflow
 - digger
+- bernstein-run
+- formspree
+- flutterflow
 - carvel
 - orval
+- amazon-cloudshell
+- aft-page
 - virtualitics
 - promptfoo
 - plakar
-- amazon-cloudshell
-- formspree
 - ranger
 - serverless
 - bruin
-- fern-api
+- github-cli
+- entire
 - cycode
 - minimus
 - machine0
-- entire
 - mockoon
 - bugster
 - certora
+- bit
 - httpie
 - tensor9
+- fern-api
+- aifra-ru
 - onfabric
 - tabtabtab
-- bit
 - perseus
 - guildai
 - terrastruct
 - cluely
-- perkoon-com
-- openapi-typescript-codegen
 - prodly
 - qname
 - tolmo
+- openapi-typescript-codegen
 - aider
 - coral
+- agentdomains-co
 - nanovms
+- docbin-app
 - specific
 - webstudio
+- perkoon-com
 - azure-cli
 - thunder-client
-- linzumi
 - continua
 - nebula-security
 - skillsync
+- openspec
+- linzumi
 - bittensor
 - milaboratories
 - bearer
 - hotcake
+- didimo
 - wget
 - alkera-ai
 - aside
-- openspec
 - prompt-driven
 - hashboard
 - dvc
 - infinit
-- llmstatus
+- adwarp-dev
 - optic
 - kamal-deploy
 - coasts
 - pnpm
 - nitric
 - fiberplane
-- didimo
 - heex-technologies
+- databand
 - branding-brand
 - recurse
+- agentic-mermaid-dev
 - doublezero
+- otfabric
 - ezkl
-- databand
 - synthetic-sciences
 - astral
+- getfilmcraft-org
 - turintech
 - wing-cloud
 - cline
@@ -324,19 +336,20 @@ provider_slugs:
 - newman
 - kubectl
 - kaniko
+- llmstatus
 - memverge
 - dokku
-- github-cli
+- shiori
 - grpcurl
 - stage
-- qname-ai-whois-api
+- charm
 - circuit-chisel
 - rome-tools
 - stamplay
 related:
 - slug: sdk
   name: SDKs
-  shared: 3
+  shared: 2
 - slug: api-clients
   name: API Clients
   shared: 1
@@ -355,8 +368,9 @@ related:
 overview: 'Command Line Interface is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [cli.apievangelist.com](https://cli.apievangelist.com).
 
 
-  30 providers on the network work in this area, including AWS CLI, Anysphere Cursor.com, Svix, Common Room, Ploy, tessl.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including AWS CLI, Svix, Common Room, Anysphere Cursor.com, Ploy, tessl.io, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: SDKs, API Clients, Clients, and Reliability. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+terms: []
 ---

@@ -6,8 +6,15 @@ description: An index and topic collection covering chatbots, conversational age
 area_url: https://bots.apievangelist.com
 area_host: bots.apievangelist.com
 icon: https://bots.apievangelist.com/icon-thumb.png
-provider_count: 21
+provider_count: 25
 providers:
+- slug: slack
+  name: Slack
+  description: Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.
+  api_count: 32
+  score_band: exemplar
+  score_composite: 74.7
+  shared: 1
 - slug: automation-anywhere
   name: Automation Anywhere
   description: Automation Anywhere is an enterprise robotic process automation (RPA) platform that enables organizations to automate business processes using software bots. Their developer platform, centered around the Automation 360 Control Room, provides a comprehensive suite of REST APIs for managing bot deplo…
@@ -15,68 +22,75 @@ providers:
   score_band: exemplar
   score_composite: 74.6
   shared: 1
-- slug: slack
-  name: Slack
-  description: Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.
-  api_count: 32
-  score_band: exemplar
-  score_composite: 66.9
-  shared: 1
 - slug: dant3-net
   name: Dant3
   description: 'Dant3 is a public-beta social and work network, operated from London by Snooptsz Group LTD, where Humans, AI Agents, Bots and Robots participate under visible identity and operator-accountability rules. It publishes a machine-first surface on dant3.net: a 15-operation Machine API (OpenAPI 3.1.0, po…'
   api_count: 1
   score_band: strong
-  score_composite: 61.3
+  score_composite: 64.2
   shared: 1
 - slug: zenzap
   name: ZenZap
   description: Zenzap is an AI-native work communication platform — "Work Chat Built for the AI Era" — used by teams in healthcare, hospitality, construction, food service, retail, franchise, manufacturing, and non-profit operations. It organizes work into topics (group chats / channels / conversations) carrying…
   api_count: 1
-  score_band: developing
-  score_composite: 53.7
+  score_band: strong
+  score_composite: 63.3
+  shared: 1
+- slug: telegram
+  name: Telegram
+  description: Telegram is a cloud-based instant messaging and voice-over-IP service that provides a comprehensive Bot API for developers to build bots, automate workflows, send notifications, and create interactive experiences on the Telegram platform. The platform supports text messages, media sharing, payments…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.4
   shared: 1
 - slug: lichess
   name: Lichess
   description: Lichess is a free, ad-free, open-source online chess server operated by a French nonprofit and powered entirely by volunteers and donations. It serves millions of games per day with live play, tournaments, puzzles, studies, broadcasts, analysis, and a public API. The server (lila), engine library (…
   api_count: 1
-  score_band: developing
-  score_composite: 53.0
+  score_band: strong
+  score_composite: 54.4
   shared: 1
-- slug: highrise
-  name: Highrise
-  description: 'Highrise is a mobile-first virtual world by Pocket Worlds Inc where users create avatars, hang out in social rooms, design and trade fashion items, and build custom worlds. Alongside the consumer app, Highrise operates a developer platform for creators: a WebSocket Bot API for running programmable…'
-  api_count: 1
+- slug: microsoft-bot-framework
+  name: Microsoft Bot Framework
+  description: Microsoft Bot Framework provides APIs and SDKs for building conversational AI bots that work across multiple channels including Teams, Slack, and custom applications. Its public REST surface is the Bot Connector API, the Bot Token service and the Direct Line API, hosted through Azure AI Bot Service…
+  api_count: 2
   score_band: developing
-  score_composite: 45.7
+  score_composite: 53.6
   shared: 1
 - slug: zoho-cliq
   name: Zoho Cliq
   description: Zoho Cliq is a team messaging and collaboration platform with a REST API for managing channels, bots, slash commands, message webhooks, and team communications. The API follows RESTful architecture principles with resource-oriented URLs, JSON request and response bodies, and standard HTTP verbs. It…
   api_count: 22
   score_band: developing
-  score_composite: 41.4
+  score_composite: 47.7
   shared: 1
-- slug: telegram
-  name: Telegram
-  description: Telegram is a cloud-based instant messaging and voice-over-IP service that provides a comprehensive Bot API for developers to build bots, automate workflows, send notifications, and create interactive experiences on the Telegram platform. The platform supports text messages, media sharing, payments…
+- slug: highrise
+  name: Highrise
+  description: 'Highrise is a mobile-first virtual world by Pocket Worlds Inc where users create avatars, hang out in social rooms, design and trade fashion items, and build custom worlds. Alongside the consumer app, Highrise operates a developer platform for creators: a WebSocket Bot API for running programmable…'
   api_count: 1
-  score_band: thin
-  score_composite: 38.0
+  score_band: developing
+  score_composite: 41.6
   shared: 1
 - slug: hummingbot
   name: Hummingbot
   description: 'Hummingbot is an open source Python framework, maintained by the Hummingbot Foundation, that lets traders build and run automated, high-frequency crypto trading strategies across both centralized (CEX) and decentralized (DEX) venues. The project ships several developer-facing components: the Hummin…'
   api_count: 1
   score_band: thin
-  score_composite: 35.9
+  score_composite: 37.6
   shared: 1
 - slug: bot-butcher
   name: Bot Butcher
   description: Bot Butcher is an AI-powered spam detection API that uses a fine-tuned large language model to classify contact form submissions as spam or legitimate messages. The service analyzes messages within the context of what each website is about, providing context-aware classification with 99% reported a…
   api_count: 1
   score_band: thin
-  score_composite: 35.8
+  score_composite: 37.4
+  shared: 1
+- slug: google-chat-integrations-for-workspace
+  name: Google Chat Integrations for Workspace
+  description: Google Chat is the messaging and collaboration platform built into Google Workspace, allowing teams to chat in direct messages, group conversations, and spaces with threaded discussions, file sharing, tasks, and Chat app integrations. The Google Chat REST API lets developers build Chat apps that se…
+  api_count: 1
+  score_band: thin
+  score_composite: 35.0
   shared: 1
 - slug: groupme
   name: GroupMe
@@ -92,26 +106,19 @@ providers:
   score_band: thin
   score_composite: 34.3
   shared: 1
-- slug: google-chat-integrations-for-workspace
-  name: Google Chat Integrations for Workspace
-  description: Google Chat is the messaging and collaboration platform built into Google Workspace, allowing teams to chat in direct messages, group conversations, and spaces with threaded discussions, file sharing, tasks, and Chat app integrations. The Google Chat REST API lets developers build Chat apps that se…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.3
-  shared: 1
-- slug: microsoft-bot-framework
-  name: Microsoft Bot Framework
-  description: Microsoft Bot Framework provides APIs and SDKs for building conversational AI bots that work across multiple channels including Teams, Slack, and custom applications.
-  api_count: 6
-  score_band: thin
-  score_composite: 33.3
-  shared: 1
 - slug: here-not-there-labs
   name: Here Not There Labs
   description: Here Not There Labs (Here Not There, Inc., operating as hntlabs.com) is the a16z-backed company behind Towns Protocol, an open, decentralized messaging protocol built on Base (an Ethereum L2) that powers ownable, programmable group chat spaces, memberships, direct messages, and decentralized financ…
   api_count: 1
   score_band: thin
   score_composite: 32.8
+  shared: 1
+- slug: botx402-io
+  name: BotX402
+  description: BotX402 provides pay‑per‑use bots that perform one‑off business jobs such as audits, compliance reports, and analyses. Small businesses can submit data, pay per run, and receive a PDF report without creating an account or subscription. The service emphasizes simplicity, low cost, and defencible out…
+  api_count: 1
+  score_band: thin
+  score_composite: 31.5
   shared: 1
 - slug: renovate-bot
   name: Renovate
@@ -120,19 +127,26 @@ providers:
   score_band: thin
   score_composite: 28.2
   shared: 1
+- slug: blitz-cloud
+  name: BlitzWorks
+  description: Deploy your app, API or bot from GitHub and keep it online around the clock in the EU, with nightly backups. Try it free, Pro from 7 EUR a month. blitz.cloud puts apps online under an address that belongs to you, offering EU servers, backups, and AI integration.
+  api_count: 2
+  score_band: thin
+  score_composite: 27.4
+  shared: 1
 - slug: kataai
   name: Kata.ai
   description: Kata.ai is an Indonesian enterprise conversational-AI company that builds AI agents and chatbots for customer experience, marketing, sales, and HR across financial services, retail, healthcare, automotive, and government. Its developer-facing Kata Platform lets teams create bot projects that bundle…
   api_count: 2
   score_band: emerging
-  score_composite: 22.6
+  score_composite: 24.2
   shared: 1
-- slug: buildmyagent
-  name: Testmyprompt
-  description: BuildMyAgent is an AI automation platform that enables users to create, customize, and deploy intelligent agents that integrate with over 800 applications. The service offers a visual builder, pre‑built templates, and extensive integration options for tools like Gmail, Slack, Salesforce, and more.…
+- slug: printmoneylab-com
+  name: printmoneylab-com
+  description: PrintMoneyLab is a Blogger-hosted site that shares real‑world experiments in AI automation, including crypto bots, prediction markets, and AI agents. The content emphasizes practical, no‑fluff guides for users without a coding background, detailing what worked and what didn’t.
   api_count: 1
   score_band: emerging
-  score_composite: 19.0
+  score_composite: 23.7
   shared: 1
 - slug: liveperson
   name: LivePerson
@@ -148,6 +162,20 @@ providers:
   score_band: emerging
   score_composite: 15.0
   shared: 1
+- slug: buildmyagent
+  name: Testmyprompt
+  description: BuildMyAgent is an AI automation platform that enables users to create, customize, and deploy intelligent agents that integrate with over 800 applications. The service offers a visual builder, pre‑built templates, and extensive integration options for tools like Gmail, Slack, Salesforce, and more.…
+  api_count: 1
+  score_band: emerging
+  score_composite: 14.8
+  shared: 1
+- slug: seoapi-com
+  name: seoapi-com
+  description: SEO API provides a suite of free, publicly accessible APIs that let developers identify search engine bot traffic, validate HTTP status codes, measure cumulative layout shift, and validate disavow files. Each endpoint returns IP address ranges for major bots such as Googlebot, Bingbot, YandexBot, A…
+  api_count: 1
+  score_band: minimal
+  score_composite: 4.9
+  shared: 1
 - slug: botsandusltd
   name: Botsandusltd
   description: Botsandusltd is a technology services company offering AI-driven automation solutions for businesses. The company focuses on integrating bots and custom software to streamline workflows, improve customer engagement, and enhance operational efficiency across various industries. While detailed public…
@@ -156,26 +184,30 @@ providers:
   score_composite: 3.0
   shared: 1
 provider_slugs:
-- automation-anywhere
 - slack
+- automation-anywhere
 - dant3-net
 - zenzap
-- lichess
-- highrise
-- zoho-cliq
 - telegram
+- lichess
+- microsoft-bot-framework
+- zoho-cliq
+- highrise
 - hummingbot
 - bot-butcher
+- google-chat-integrations-for-workspace
 - groupme
 - alta5
-- google-chat-integrations-for-workspace
-- microsoft-bot-framework
 - here-not-there-labs
+- botx402-io
 - renovate-bot
+- blitz-cloud
 - kataai
-- buildmyagent
+- printmoneylab-com
 - liveperson
 - regression-games
+- buildmyagent
+- seoapi-com
 - botsandusltd
 related:
 - slug: agents-skills
@@ -187,8 +219,9 @@ related:
 overview: 'Bots is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [bots.apievangelist.com](https://bots.apievangelist.com).
 
 
-  21 providers on the network work in this area, including Automation Anywhere, Slack, Dant3, ZenZap, Lichess, Highrise, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  25 providers on the network work in this area, including Slack, Automation Anywhere, Dant3, ZenZap, Telegram, Lichess, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Agent Skills and Encryption. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+terms: []
 ---

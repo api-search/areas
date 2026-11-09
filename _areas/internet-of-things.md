@@ -6,21 +6,28 @@ description: An index and topic collection covering consumer and commercial Inte
 area_url: https://internet-of-things.apievangelist.com
 area_host: internet-of-things.apievangelist.com
 icon: https://internet-of-things.apievangelist.com/icon-thumb.png
-provider_count: 15
+provider_count: 20
 providers:
 - slug: shodan
   name: Shodan
   description: Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Stre…
   api_count: 5
   score_band: strong
-  score_composite: 56.7
+  score_composite: 63.1
   shared: 1
 - slug: spectrumoutage-api
   name: SpectrumOutage API
   description: Community-powered REST API for live Spectrum internet, TV, and phone outage data across the United States, published by SpectrumOutage.us — an independent outage tracker with no affiliation to Charter Communications or Spectrum. The v1 API exposes eight operations over crowdsourced outage reports:…
   api_count: 1
   score_band: developing
-  score_composite: 48.0
+  score_composite: 52.7
+  shared: 1
+- slug: autonet-work
+  name: Autonet
+  description: Autonet provides internet utilities for software agents, offering temporary callback inboxes, network diagnostics, endpoint monitoring, and coin‑based usage limits. Agents can receive webhooks, check DNS and TLS, trace network paths, and track liveness without deploying servers. The service is free…
+  api_count: 1
+  score_band: thin
+  score_composite: 38.0
   shared: 1
 - slug: comcast
   name: Comcast
@@ -34,7 +41,7 @@ providers:
   description: Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Center, Lumen exposes REST APIs that allow customers to programm…
   api_count: 1
   score_band: thin
-  score_composite: 30.0
+  score_composite: 31.6
   shared: 1
 - slug: internet-engineering-task-force
   name: Internet Engineering Task Force
@@ -43,19 +50,19 @@ providers:
   score_band: thin
   score_composite: 26.9
   shared: 1
+- slug: ripe-ncc
+  name: RIPE NCC
+  description: RIPE NCC is the Regional Internet Registry for Europe, the Middle East and parts of Central Asia. It is a not‑for‑profit membership association that allocates IP address space, manages the DNS root for the .ripe region, and provides a range of services to support the RIPE community, including RIPE…
+  api_count: 2
+  score_band: thin
+  score_composite: 26.6
+  shared: 1
 - slug: ziff-davis-enterprise
   name: Ziff Davis Enterprise
   description: 'Ziff Davis (Nasdaq: ZD) is a vertically focused digital media and internet company whose portfolio includes leading brands across technology, entertainment, shopping, health, cybersecurity, and marketing technology. Its brands include PCMag, Mashable, IGN, Lifehacker, RetailMeNot, Spiceworks, Every…'
   api_count: 0
   score_band: emerging
   score_composite: 18.1
-  shared: 1
-- slug: andrena
-  name: Andrena
-  description: Andrena provides high-speed wireless internet service to multi-tenant buildings, businesses, and households at affordable rates. Founded to make internet accessible for everyone, Andrena offers plans up to 1 Gbps with simple sign‑up, no installation delays, and a focus on customer experience. The c…
-  api_count: 0
-  score_band: emerging
-  score_composite: 15.9
   shared: 1
 - slug: cox
   name: Cox Communications
@@ -64,6 +71,13 @@ providers:
   score_band: emerging
   score_composite: 15.7
   shared: 1
+- slug: abonnement24-nl
+  name: Abonnement24
+  description: Abonnement24 is a Dutch comparison platform that helps consumers compare mobile phone contracts, sim‑only plans, internet and TV bundles. It aggregates live prices from major providers such as Odido, Vodafone, KPN, Youfone and others, presenting the total cost over the full contract term, including…
+  api_count: 1
+  score_band: emerging
+  score_composite: 12.2
+  shared: 1
 - slug: cogent-communications
   name: Cogent Communications
   description: 'Cogent Communications Holdings, Inc. (NASDAQ: CCOI, AS174) is a facilities-based Tier 1 internet service provider headquartered in Washington, DC, selling Dedicated Internet Access, IP Transit, Ethernet, MPLS IP-VPN, SD-WAN, optical wavelength transport, Global Peer Connect peering ports and coloca…'
@@ -71,12 +85,33 @@ providers:
   score_band: emerging
   score_composite: 12.2
   shared: 1
+- slug: myspeed
+  name: MySpeed
+  description: MySpeed is an open-source, self-hosted application that automatically runs internet speed tests to monitor download, upload, and ping metrics over time. It provides detailed analytics, visualizations, multilingual support, and integrations with services like Discord, Telegram, and webhooks. Users c…
+  api_count: 0
+  score_band: emerging
+  score_composite: 12.2
+  shared: 1
+- slug: andrena
+  name: Andrena
+  description: Andrena provides high-speed wireless internet service to multi-tenant buildings, businesses, and households at affordable rates. Founded to make internet accessible for everyone, Andrena offers plans up to 1 Gbps with simple sign‑up, no installation delays, and a focus on customer experience. The c…
+  api_count: 0
+  score_band: minimal
+  score_composite: 9.5
+  shared: 1
 - slug: netgsm
   name: Netgsm
   description: Netgsm is a Turkish telecommunications provider offering a wide range of digital communication services, including SMS, voice, virtual numbers, IoT/M2M data lines, cloud PBX, and custom API integrations. Their platform enables businesses to send bulk SMS, manage OTP, integrate WhatsApp, and utilize…
   api_count: 0
   score_band: minimal
-  score_composite: 7.4
+  score_composite: 7.1
+  shared: 1
+- slug: pilotfiber-com
+  name: Pilot
+  description: Pilot provides fiber internet services for businesses and residential customers across the United States, offering dedicated internet, dark fiber, IP transit, wavelength, and Ethernet solutions. The company focuses on high-performance network connectivity, leveraging its own fiber infrastructure to…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.4
   shared: 1
 - slug: cablevision-systems
   name: Cablevision Systems
@@ -116,14 +151,19 @@ providers:
 provider_slugs:
 - shodan
 - spectrumoutage-api
+- autonet-work
 - comcast
 - lumen-technologies
 - internet-engineering-task-force
+- ripe-ncc
 - ziff-davis-enterprise
-- andrena
 - cox
+- abonnement24-nl
 - cogent-communications
+- myspeed
+- andrena
 - netgsm
+- pilotfiber-com
 - cablevision-systems
 - wiom
 - iac-interactivecorp
@@ -139,8 +179,9 @@ related:
 overview: 'Internet of Things is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [internet-of-things.apievangelist.com](https://internet-of-things.apievangelist.com).
 
 
-  15 providers on the network work in this area, including Shodan, SpectrumOutage API, Comcast, Lumen Technologies, Internet Engineering Task Force, Ziff Davis Enterprise, and 9 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  20 providers on the network work in this area, including Shodan, SpectrumOutage API, Autonet, Comcast, Lumen Technologies, Internet Engineering Task Force, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Evangelist Search and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+terms: []
 ---

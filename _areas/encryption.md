@@ -6,49 +6,63 @@ description: An index and topic collection covering encryption services, key man
 area_url: https://encryption.apievangelist.com
 area_host: encryption.apievangelist.com
 icon: https://encryption.apievangelist.com/icon-thumb.png
-provider_count: 53
+provider_count: 58
 providers:
 - slug: paubox
   name: Paubox
   description: Paubox is a HIPAA compliant, HITRUST certified email infrastructure company serving healthcare organizations in the United States. Its products encrypt outbound email without recipient portals, passwords, or plugins, and work alongside Google Workspace and Microsoft 365. The developer surface is th…
   api_count: 3
   score_band: exemplar
-  score_composite: 77.0
+  score_composite: 75.8
   shared: 1
 - slug: amazon-kms
   name: Amazon KMS
   description: AWS Key Management Service (KMS) is a managed service that makes it easy to create and control the cryptographic keys used to protect your data, integrated with other AWS services to simplify encryption of data stored and managed in those services.
   api_count: 1
-  score_band: strong
-  score_composite: 62.0
+  score_band: exemplar
+  score_composite: 70.2
   shared: 1
 - slug: evervault
   name: Evervault
   description: Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption keys on Evervault's side while customers hold the ciphertext,…
   api_count: 1
-  score_band: strong
-  score_composite: 58.4
+  score_band: exemplar
+  score_composite: 67.9
   shared: 1
 - slug: amazon-certificate-manager
   name: Amazon Certificate Manager
   description: AWS Certificate Manager (ACM) handles the complexity of creating, storing, and renewing public and private SSL/TLS X.509 certificates and keys that protect your AWS websites and applications, enabling you to manage certificate lifecycles centrally.
   api_count: 1
   score_band: strong
-  score_composite: 56.5
+  score_composite: 66.3
   shared: 1
-- slug: filen
-  name: Filen
-  description: Filen provides end‑to‑end encrypted cloud storage, offering 10 GiB of free space, secure file sharing, and cross‑platform clients for web, desktop, and mobile. The service emphasizes privacy, zero‑knowledge encryption, and user‑controlled data.
-  api_count: 2
+- slug: virtru
+  name: Virtru
+  description: Virtru is a data-centric security company whose Data Security Platform is built on OpenTDF, the open Trusted Data Format. Applications encrypt data with attribute-based access control (ABAC) and enforce who can decrypt it through Key Access Servers (KAS), independent of where the data travels — ema…
+  api_count: 15
   score_band: strong
-  score_composite: 55.8
+  score_composite: 58.7
   shared: 1
 - slug: ironcore-labs
   name: IronCore Labs
   description: IronCore Labs builds application-layer encryption tools that keep sensitive data private while it stays usable. Its products include SaaS Shield (tenant-controlled envelope encryption with customer-managed keys / BYOK for multi-tenant SaaS), Cloaked Search (a transparent encrypting proxy for Elasti…
   api_count: 1
+  score_band: strong
+  score_composite: 55.9
+  shared: 1
+- slug: fortanix
+  name: Fortanix
+  description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, HSM, tokenization and secrets service delivered as SaaS or as…
+  api_count: 3
+  score_band: strong
+  score_composite: 55.2
+  shared: 1
+- slug: google-cloud-kms
+  name: Google Cloud KMS
+  description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symmetric and asymmetric keys for securing data and workloads.
+  api_count: 1
   score_band: developing
-  score_composite: 52.9
+  score_composite: 53.2
   shared: 1
 - slug: openbao
   name: OpenBao
@@ -57,26 +71,26 @@ providers:
   score_band: developing
   score_composite: 51.7
   shared: 1
-- slug: virtru
-  name: Virtru
-  description: Virtru is a data-centric security company whose Data Security Platform is built on OpenTDF, the open Trusted Data Format. Applications encrypt data with attribute-based access control (ABAC) and enforce who can decrypt it through Key Access Servers (KAS), independent of where the data travels — ema…
-  api_count: 15
-  score_band: developing
-  score_composite: 49.2
-  shared: 1
-- slug: google-cloud-kms
-  name: Google Cloud KMS
-  description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symmetric and asymmetric keys for securing data and workloads.
-  api_count: 1
-  score_band: developing
-  score_composite: 46.8
-  shared: 1
 - slug: infisical
   name: Infisical
   description: Infisical is an open-source secrets management platform that provides developers with a centralized, end-to-end encrypted vault for storing, syncing, and rotating secrets across teams, environments, and cloud infrastructure. The platform offers a REST API enabling programmatic management of secrets…
   api_count: 1
   score_band: developing
-  score_composite: 45.3
+  score_composite: 47.5
+  shared: 1
+- slug: filen
+  name: Filen
+  description: Filen provides next‑generation end‑to‑end encrypted cloud storage, offering zero‑knowledge security for individuals and teams. Its platform includes web, desktop, mobile, and CLI clients, a network drive feature, and a focus on privacy, transparency, and open‑source tools. Users can store, sync, an…
+  api_count: 2
+  score_band: developing
+  score_composite: 46.0
+  shared: 1
+- slug: incountry
+  name: InCountry
+  description: InCountry is a data-residency-as-a-service (DRaaS) platform that lets companies store, process, and comply with the data-localization and privacy laws of specific countries without building in-country infrastructure. Its OAuth2-secured REST API stores regulated records (PII, financial, and health d…
+  api_count: 1
+  score_band: developing
+  score_composite: 45.9
   shared: 1
 - slug: spideroak
   name: SpiderOak
@@ -85,26 +99,12 @@ providers:
   score_band: developing
   score_composite: 44.8
   shared: 1
-- slug: fortanix
-  name: Fortanix
-  description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, HSM, tokenization and secrets service delivered as SaaS or as…
-  api_count: 3
-  score_band: developing
-  score_composite: 44.1
-  shared: 1
-- slug: hashicorp-vault
-  name: HashiCorp Vault
-  description: HashiCorp Vault is a secrets management tool that provides secure storage, access control, and distribution of tokens, passwords, certificates, and encryption keys. It provides a unified interface to any secret while providing tight access control and recording a detailed audit log.
-  api_count: 8
-  score_band: developing
-  score_composite: 42.4
-  shared: 1
-- slug: incountry
-  name: InCountry
-  description: InCountry is a data-residency-as-a-service (DRaaS) platform that lets companies store, process, and comply with the data-localization and privacy laws of specific countries without building in-country infrastructure. Its OAuth2-secured REST API stores regulated records (PII, financial, and health d…
+- slug: seismic-systems
+  name: Seismic Systems
+  description: Seismic Systems Inc. is a fintech company building a privacy-enabled ("encrypted") blockchain — a shielded EVM implementing the "Mercury" specification — that aims to power a complete stablecoin stack. Backed by a $17M seed led by a16z crypto, Seismic lets developers build private tokens (SRC20) wh…
   api_count: 1
   score_band: developing
-  score_composite: 41.7
+  score_composite: 42.4
   shared: 1
 - slug: signal
   name: Signal
@@ -112,13 +112,6 @@ providers:
   api_count: 1
   score_band: developing
   score_composite: 41.4
-  shared: 1
-- slug: seismic-systems
-  name: Seismic Systems
-  description: Seismic Systems Inc. is a fintech company building a privacy-enabled ("encrypted") blockchain — a shielded EVM implementing the "Mercury" specification — that aims to power a complete stablecoin stack. Backed by a $17M seed led by a16z crypto, Seismic lets developers build private tokens (SRC20) wh…
-  api_count: 1
-  score_band: developing
-  score_composite: 40.8
   shared: 1
 - slug: skyflow
   name: Skyflow
@@ -131,15 +124,15 @@ providers:
   name: Digicert
   description: Digicert is a leading provider of digital security solutions, specializing in SSL/TLS certificates, PKI solutions, and website security. They help organizations of all sizes protect their websites, data, and communications from cyber threats by providing secure encryption and authentication service…
   api_count: 9
-  score_band: thin
-  score_composite: 38.7
+  score_band: developing
+  score_composite: 40.3
   shared: 1
-- slug: ciphertrust
-  name: CipherTrust
-  description: CipherTrust Manager is Thales's centralized key- and data-security management platform and the control plane of the CipherTrust Data Security Platform (CDSP). It provides a unified plane for encryption key lifecycle management, secrets management, certificates, tokenization, data discovery, and pol…
+- slug: blindinsight
+  name: BlindInsight
+  description: BlindInsight (Blind Insight) is an end-to-end encrypted datastore and privacy-preserving data-analysis platform. It lets teams encrypt, ingest, search, and run machine learning and LLM queries over fully encrypted records without ever exposing plaintext, using a locally deployed Blind Proxy that tr…
   api_count: 1
   score_band: thin
-  score_composite: 38.0
+  score_composite: 37.9
   shared: 1
 - slug: preveil
   name: PreVeil
@@ -162,12 +155,12 @@ providers:
   score_band: thin
   score_composite: 35.9
   shared: 1
-- slug: blindinsight
-  name: BlindInsight
-  description: BlindInsight (Blind Insight) is an end-to-end encrypted datastore and privacy-preserving data-analysis platform. It lets teams encrypt, ingest, search, and run machine learning and LLM queries over fully encrypted records without ever exposing plaintext, using a locally deployed Blind Proxy that tr…
-  api_count: 1
+- slug: seekrit-dev
+  name: seekrit-dev
+  description: Seekrit provides an end‑to‑end encrypted, multi‑tenant secrets management service built on Cloudflare Workers. It allows developers and organizations to store, retrieve, and rotate secrets such as API keys, passwords, and certificates without ever exposing the plaintext to the server. The platform…
+  api_count: 4
   score_band: thin
-  score_composite: 35.1
+  score_composite: 35.0
   shared: 1
 - slug: akeyless
   name: Akeyless
@@ -211,61 +204,73 @@ providers:
   score_band: thin
   score_composite: 31.0
   shared: 1
-- slug: proton-me
-  name: Proton Drive
-  description: Proton Drive provides end‑to‑end encrypted cloud storage from Switzerland, allowing users to securely back up files, access them from any device, share with anyone, and integrate with Proton’s privacy‑focused ecosystem. The service emphasizes zero‑knowledge security, strong encryption, and complian…
-  api_count: 0
+- slug: ciphertrust
+  name: CipherTrust
+  description: CipherTrust Manager is Thales's centralized key- and data-security management platform and the control plane of the CipherTrust Data Security Platform (CDSP). It provides a unified plane for encryption key lifecycle management, secrets management, certificates, tokenization, data discovery, and pol…
+  api_count: 1
   score_band: thin
-  score_composite: 30.2
+  score_composite: 30.9
+  shared: 1
+- slug: lattica
+  name: Lattica
+  description: LatticaAI is an Israeli privacy-technology company building Fully Homomorphic Encryption (FHE) as a service, letting AI inference and database queries run on encrypted data at cloud scale with zero plaintext exposure. Lattica builds the full stack — the cryptography, a compiler that turns models in…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.7
   shared: 1
 provider_slugs:
 - paubox
 - amazon-kms
 - evervault
 - amazon-certificate-manager
-- filen
-- ironcore-labs
-- openbao
 - virtru
-- google-cloud-kms
-- infisical
-- spideroak
+- ironcore-labs
 - fortanix
-- hashicorp-vault
+- google-cloud-kms
+- openbao
+- infisical
+- filen
 - incountry
-- signal
+- spideroak
 - seismic-systems
+- signal
 - skyflow
 - digicert
-- ciphertrust
+- blindinsight
 - preveil
 - plakar
 - via-science
-- blindinsight
+- seekrit-dev
 - akeyless
 - here-not-there-labs
 - truevault
 - vpn
 - virgil-security
 - hvault
-- proton-me
+- ciphertrust
 - lattica
+- proton-me
 - xmtp
+- agtrepo-com
+- becomefluent-io
 - keybase
 - sops
 - pipe-network
-- wodan-ai
+- syncthing
 - anjuna
-- cy4data-labs
 - confide
+- internxt
 - vera
-- baffle
+- wodan-ai
+- defined-networking
 - qusecure
 - shardsecure
 - jmem
-- encryption
-- arqit-limited
+- cy4data-labs
 - post-quantum
+- baffle
+- proxykey-org
+- arqit-limited
 - kets
 - identify3d
 - keynexus
@@ -276,17 +281,15 @@ related:
 - slug: bots
   name: Bots
   shared: 1
-- slug: cli
-  name: Command Line Interface
-  shared: 1
 - slug: security
   name: Security
   shared: 1
 overview: 'Encryption is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [encryption.apievangelist.com](https://encryption.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Paubox, Amazon KMS, Evervault, Amazon Certificate Manager, Filen, IronCore Labs, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Paubox, Amazon KMS, Evervault, Amazon Certificate Manager, Virtru, IronCore Labs, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Bots, Command Line Interface, and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Bots and Security. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+terms: []
 ---

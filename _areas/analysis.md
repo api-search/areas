@@ -13,14 +13,14 @@ providers:
   description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain real‑time visibility into cloud costs, multi‑cloud and Kuberne…
   api_count: 5
   score_band: exemplar
-  score_composite: 71.0
+  score_composite: 76.5
   shared: 1
 - slug: tago-io
   name: TagoIO
   description: TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO…
   api_count: 1
   score_band: developing
-  score_composite: 40.7
+  score_composite: 49.1
   shared: 1
 - slug: dsg-sports-analytics
   name: DSG Sports Analytics
@@ -57,12 +57,12 @@ providers:
   score_band: minimal
   score_composite: 9.8
   shared: 1
-- slug: analysis
-  name: Analysis
-  description: A curated index of services, tooling, and open source solutions for API analysis, analytics, linting, traffic inspection, and intelligence. This topic collection covers the full spectrum of API observability — from real-time traffic capture and replay (Wireshark, mitmproxy, Charles Proxy, GoReplay)…
-  api_count: 0
+- slug: blast-radius-ai
+  name: Blast Radius
+  description: Blast Radius is a living investment memo by Kip McClanahan that tracks the AI capability surge. It publishes a weekly analysis of the five forces reshaping AI, covering frontier models, enterprise readiness, agents, harnesses, open‑weight vs owned stacks, economics and capital, providing evidence‑b…
+  api_count: 1
   score_band: minimal
-  score_composite: 6.6
+  score_composite: 5.7
   shared: 1
 provider_slugs:
 - new-relic
@@ -72,7 +72,7 @@ provider_slugs:
 - domo
 - lf-research
 - api-insights
-- analysis
+- blast-radius-ai
 related:
 - slug: monitoring
   name: Monitoring
@@ -93,4 +93,5 @@ overview: 'Analysis is one of the API Evangelist areas on the [APIs.io](https://
 
 
   Related areas: Monitoring, Observability, Performance, and Visualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+terms: []
 ---

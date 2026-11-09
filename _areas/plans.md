@@ -12,8 +12,8 @@ providers:
   name: Fieldwire
   description: Fieldwire is a construction field-management platform. Its API covers plans and drawings, tasks and punch lists, forms, change orders, budget line items and actual costs, BIM models, and the people and companies attached to a project.
   api_count: 6
-  score_band: developing
-  score_composite: 50.9
+  score_band: strong
+  score_composite: 55.6
   shared: 1
 - slug: priceops
   name: PriceOps
@@ -30,4 +30,5 @@ overview: 'Plans is one of the API Evangelist areas on the [APIs.io](https://api
 
 
   Providers on the network working in this area include Fieldwire and PriceOps — each links out to that provider''s APIs, schemas, and governance artifacts.'
+terms: []
 ---

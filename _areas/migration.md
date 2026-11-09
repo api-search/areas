@@ -6,49 +6,42 @@ description: An index and topic collection covering data migration, cloud migrat
 area_url: https://migration.apievangelist.com
 area_host: migration.apievangelist.com
 icon: https://migration.apievangelist.com/icon-thumb.png
-provider_count: 19
+provider_count: 18
 providers:
-- slug: migration
-  name: Migration
-  description: An index and topic collection covering data migration, cloud migration, database migration, and API migration platforms and services. Migration platforms help organizations move workloads, databases, files, accounts, and applications between environments, providers, or schemas while preserving inte…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.6
-  shared: 2
-- slug: amazon-mainframe-modernization
-  name: Amazon Mainframe Modernization
-  description: AWS Mainframe Modernization provides tools and resources to help you plan and implement migration and modernization of your mainframe applications to AWS. It supports automated refactoring and replatforming of COBOL applications to run natively on AWS with managed runtime environments, deployment p…
-  api_count: 1
-  score_band: strong
-  score_composite: 56.1
-  shared: 1
 - slug: amazon-datasync
   name: Amazon DataSync
   description: AWS DataSync is an online data transfer service that simplifies, automates, and accelerates moving data between on-premises storage systems, AWS storage services, and other cloud storage. DataSync can transfer data at speeds up to 10 times faster than open-source tools by using purpose-built networ…
   api_count: 1
   score_band: strong
-  score_composite: 55.9
+  score_composite: 64.2
   shared: 1
-- slug: amazon-migration-hub
-  name: Amazon Migration Hub
-  description: AWS Migration Hub provides a single location to track the progress of application migrations across multiple AWS and partner solutions, giving visibility into migration progress and enabling the use of other AWS migration tools.
+- slug: amazon-mainframe-modernization
+  name: Amazon Mainframe Modernization
+  description: AWS Mainframe Modernization provides tools and resources to help you plan and implement migration and modernization of your mainframe applications to AWS. It supports automated refactoring and replatforming of COBOL applications to run natively on AWS with managed runtime environments, deployment p…
   api_count: 1
-  score_band: developing
-  score_composite: 52.7
+  score_band: strong
+  score_composite: 62.5
   shared: 1
 - slug: microsoft-azure-migrate
   name: Azure Migrate
   description: Azure Migrate provides a unified platform for discovering, assessing, and migrating on-premises servers, infrastructure, applications, databases, and data to Azure. Its REST APIs enable programmatic management of migration projects, discovery, assessment, and replication workflows for VMs, database…
   api_count: 9
-  score_band: developing
-  score_composite: 51.9
+  score_band: strong
+  score_composite: 58.2
   shared: 1
 - slug: amazon-dms
   name: Amazon DMS
   description: AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. AWS DMS can migrate your data to and from the most widely used commerc…
   api_count: 2
   score_band: developing
-  score_composite: 49.5
+  score_composite: 53.2
+  shared: 1
+- slug: amazon-migration-hub
+  name: Amazon Migration Hub
+  description: AWS Migration Hub provides a single location to track the progress of application migrations across multiple AWS and partner solutions, giving visibility into migration progress and enabling the use of other AWS migration tools.
+  api_count: 1
+  score_band: developing
+  score_composite: 52.9
   shared: 1
 - slug: google-cloud-migration-center
   name: Google Cloud Migration Center
@@ -68,8 +61,8 @@ providers:
   name: Import2
   description: Import2 is a fully automated data-migration platform that moves customer data between SaaS applications — CRM, helpdesk, and project-management tools — without CSV exports or custom development. Users connect a source and destination app and Import2 moves records, custom fields, pipelines, and deal…
   api_count: 1
-  score_band: thin
-  score_composite: 38.5
+  score_band: developing
+  score_composite: 40.1
   shared: 1
 - slug: google-cloud-transfer-service
   name: Google Cloud Transfer Service
@@ -77,6 +70,13 @@ providers:
   api_count: 1
   score_band: thin
   score_composite: 37.4
+  shared: 1
+- slug: amazon-application-discovery-service
+  name: Amazon Application Discovery Service
+  description: Amazon Application Discovery Service helps enterprise customers plan application migration projects by automatically identifying servers, virtual machines, software, and software dependencies running in their on-premises data centers.
+  api_count: 7
+  score_band: thin
+  score_composite: 34.6
   shared: 1
 - slug: skykick
   name: SkyKick
@@ -92,33 +92,26 @@ providers:
   score_band: thin
   score_composite: 33.5
   shared: 1
-- slug: opshub
-  name: OpsHub
-  description: OpsHub provides enterprise-grade integration and migration solutions for Application Lifecycle Management (ALM), IT Service Management (ITSM), Customer Relationship Management (CRM), and DevOps systems. Their platform enables seamless data synchronization, process automation, and migration across d…
-  api_count: 1
-  score_band: thin
-  score_composite: 32.6
-  shared: 1
 - slug: amazon-application-migration-service
   name: Amazon Application Migration Service
   description: AWS Application Migration Service (MGN) is the primary migration service recommended for lift-and-shift migrations to AWS. It allows organizations to quickly realize the benefits of migrating applications to the cloud without changes and with minimal downtime.
   api_count: 1
   score_band: thin
-  score_composite: 30.5
+  score_composite: 31.7
   shared: 1
-- slug: amazon-application-discovery-service
-  name: Amazon Application Discovery Service
-  description: Amazon Application Discovery Service helps enterprise customers plan application migration projects by automatically identifying servers, virtual machines, software, and software dependencies running in their on-premises data centers.
-  api_count: 6
-  score_band: emerging
-  score_composite: 22.9
+- slug: bringyour-ai
+  name: Bring Your AI
+  description: Bring Your AI provides a portable agent setup that moves, syncs, distills, and builds context across AI tools like Claude Code, Codex, and Cursor. It offers local‑first, review‑gated migrations, preserving original files while enabling seamless switching between AI assistants. The service includes…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.8
   shared: 1
-- slug: deprecation
-  name: Deprecation
-  description: API deprecation, sunset headers, end-of-life management, and API retirement practices, including RFC 8594 Sunset, the Deprecation header, OpenAPI deprecation flags, and consumer migration patterns.
+- slug: opshub
+  name: OpsHub
+  description: OpsHub provides enterprise-grade integration and migration solutions for Application Lifecycle Management (ALM), IT Service Management (ITSM), Customer Relationship Management (CRM), and DevOps systems. Their platform enables seamless data synchronization, process automation, and migration across d…
   api_count: 1
   score_band: emerging
-  score_composite: 17.2
+  score_composite: 24.9
   shared: 1
 - slug: calypso-migration
   name: Calypso Migration
@@ -142,22 +135,21 @@ providers:
   score_composite: 2.6
   shared: 1
 provider_slugs:
-- migration
-- amazon-mainframe-modernization
 - amazon-datasync
-- amazon-migration-hub
+- amazon-mainframe-modernization
 - microsoft-azure-migrate
 - amazon-dms
+- amazon-migration-hub
 - google-cloud-migration-center
 - kubevirt
 - import2
 - google-cloud-transfer-service
+- amazon-application-discovery-service
 - skykick
 - google-cloud-vmware-engine
-- opshub
 - amazon-application-migration-service
-- amazon-application-discovery-service
-- deprecation
+- bringyour-ai
+- opshub
 - calypso-migration
 - tessera-labs
 - aelita
@@ -168,14 +160,12 @@ related:
 - slug: virtualization
   name: Virtualization
   shared: 2
-- slug: deprecation
-  name: Deprecation
-  shared: 1
 overview: 'Migration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [migration.apievangelist.com](https://migration.apievangelist.com).
 
 
-  19 providers on the network work in this area, including Migration, Amazon Mainframe Modernization, Amazon DataSync, Amazon Migration Hub, Azure Migrate, Amazon DMS, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  18 providers on the network work in this area, including Amazon DataSync, Amazon Mainframe Modernization, Azure Migrate, Amazon DMS, Amazon Migration Hub, Google Cloud Migration Center, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Evangelist Discovery, Virtualization, and Deprecation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Discovery and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+terms: []
 ---

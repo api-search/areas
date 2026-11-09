@@ -22,4 +22,5 @@ overview: 'Issues is one of the API Evangelist areas on the [APIs.io](https://ap
 
 
   Providers on the network working in this area include Forgejo — each links out to that provider''s APIs, schemas, and governance artifacts.'
+terms: []
 ---

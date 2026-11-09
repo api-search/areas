@@ -6,42 +6,42 @@ description: An index and topic collection covering developer changelog publishi
 area_url: https://change-log.apievangelist.com
 area_host: change-log.apievangelist.com
 icon: https://change-log.apievangelist.com/icon-thumb.png
-provider_count: 10
+provider_count: 9
 providers:
 - slug: announcekit
   name: AnnounceKit
   description: AnnounceKit is a product communication platform providing changelog management, in-app notification widgets, feature request boards, roadmaps, and NPS surveys. It enables product teams to communicate updates to users via 10+ widget display modes, email digests, Slack, webhooks, and RSS, with GraphQ…
   api_count: 1
   score_band: strong
-  score_composite: 62.9
+  score_composite: 64.5
   shared: 1
 - slug: beamer
   name: Beamer
   description: Beamer is a changelog and notification center tool for announcing product updates, new features, and API changes to end users. It provides an embeddable feed widget, push notifications, email digests, and a public changelog page. The Beamer REST API enables programmatic management of posts, users,…
   api_count: 1
   score_band: strong
-  score_composite: 59.8
+  score_composite: 61.4
   shared: 1
 - slug: bump-sh
   name: Bump.sh
   description: Bump.sh is "the modern API doc platform" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into deterministic, observable MCP servers for AI agents. Customers include…
   api_count: 1
   score_band: strong
-  score_composite: 56.0
+  score_composite: 60.1
   shared: 1
 - slug: suggix
   name: Suggix
   description: Suggix provides a SaaS platform for collecting and managing customer feedback, roadmaps, and changelogs. It enables product teams to centralize user suggestions, prioritize features, and communicate updates through a public changelog. The service includes tools for tagging, voting, discussion threa…
   api_count: 1
-  score_band: developing
-  score_composite: 52.9
+  score_band: thin
+  score_composite: 35.1
   shared: 1
 - slug: canny
   name: Canny
   description: Canny is a customer feedback and product management platform that collects, organizes, and prioritizes feature requests from users and internal teams, ties them to roadmaps and changelogs, and surfaces product analytics. The Canny REST API exposes boards, posts, comments, votes, users, companies, c…
   api_count: 1
   score_band: thin
-  score_composite: 33.3
+  score_composite: 35.0
   shared: 1
 - slug: launchnotes
   name: LaunchNotes
@@ -56,13 +56,6 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 13.4
-  shared: 1
-- slug: change-log
-  name: Change Log
-  description: An index and topic collection covering developer changelog publishing, release-notes platforms, and API change-tracking services. Change Log services help product, engineering, and developer-relations teams communicate releases, deprecations, and breaking changes to customers and integrators throug…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.6
   shared: 1
 - slug: oasdiff
   name: Oasdiff
@@ -86,16 +79,15 @@ provider_slugs:
 - canny
 - launchnotes
 - changelog-md
-- change-log
 - oasdiff
 - makelog
 related:
 - slug: deprecation
   name: Deprecation
-  shared: 4
+  shared: 3
 - slug: versioning
   name: Versioning
-  shared: 2
+  shared: 1
 - slug: documentation
   name: Documentation
   shared: 1
@@ -105,8 +97,9 @@ related:
 overview: 'Change Log is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [change-log.apievangelist.com](https://change-log.apievangelist.com).
 
 
-  10 providers on the network work in this area, including AnnounceKit, Beamer, Bump.sh, Suggix, Canny, LaunchNotes, and 4 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  9 providers on the network work in this area, including AnnounceKit, Beamer, Bump.sh, Suggix, Canny, LaunchNotes, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Deprecation, Versioning, Documentation, and Portal. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+terms: []
 ---

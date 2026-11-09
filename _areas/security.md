@@ -6,42 +6,49 @@ description: An index and topic collection covering API security, identity, acce
 area_url: https://security.apievangelist.com
 area_host: security.apievangelist.com
 icon: https://security.apievangelist.com/icon-thumb.png
-provider_count: 981
+provider_count: 1149
 providers:
+- slug: detectify
+  name: detectify
+  description: Detectify is an External Attack Surface Management (EASM) and Dynamic Application Security Testing (DAST) platform that continuously discovers an organization's internet-facing assets and runs real, payload-based vulnerability tests against them. Its testing engine is fuelled by Crowdsource, a netw…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.3
+  shared: 2
 - slug: upwind
   name: Upwind
   description: Upwind is a cloud and AI security platform (CNAPP) that secures cloud infrastructure, workloads, and applications in real time — spanning cloud security posture management (CSPM), vulnerability management, container and Kubernetes security, API security, data security posture management (DSPM), ide…
   api_count: 2
-  score_band: developing
-  score_composite: 52.1
+  score_band: strong
+  score_composite: 54.6
   shared: 2
 - slug: pynt
   name: Pynt
   description: Pynt is an API security testing platform that discovers and secures APIs, LLM endpoints and MCP servers. It wraps a team's existing functional tests — or proxies live traffic — and runs automated attack simulations against whatever API surface it observes, covering business-logic flaws, injection,…
   api_count: 2
   score_band: developing
-  score_composite: 51.2
+  score_composite: 54.0
   shared: 2
 - slug: cycognito
   name: CyCognito
   description: CyCognito is a cybersecurity company providing an external attack surface management (EASM) and exposure management platform. Its cloud-native platform continuously discovers, maps, and tests an organization's internet-exposed assets—domains, IPs, web apps, APIs, and cloud environments—to surface a…
-  api_count: 12
-  score_band: developing
-  score_composite: 42.8
-  shared: 2
-- slug: detectify
-  name: detectify
-  description: Detectify is an External Attack Surface Management (EASM) and Dynamic Application Security Testing (DAST) platform that continuously discovers an organization's internet-facing assets and runs real, payload-based vulnerability tests against them. Its testing engine is fuelled by Crowdsource, a netw…
   api_count: 1
   score_band: developing
-  score_composite: 41.6
+  score_composite: 52.4
   shared: 2
 - slug: chaitin
   name: Chaitin Tech
   description: Chaitin Tech (长亭科技) is a Chinese cybersecurity company best known for SafeLine (雷池), a self-hosted, semantic-analysis Web Application Firewall and reverse proxy with 22k+ GitHub stars. Its broader security portfolio spans web application firewalling, vulnerability and risk assessment (X-Ray), autom…
   api_count: 6
   score_band: thin
-  score_composite: 34.5
+  score_composite: 36.1
+  shared: 2
+- slug: imperva
+  name: Imperva
+  description: Imperva (a Thales company) is a cybersecurity company providing cloud-based and on-premises application security, data security, and network security solutions. Their developer APIs cover cloud WAF management, DDoS protection, API security, advanced bot protection, and data security fabric for ente…
+  api_count: 2
+  score_band: thin
+  score_composite: 34.1
   shared: 2
 - slug: traceable
   name: Traceable
@@ -50,12 +57,12 @@ providers:
   score_band: thin
   score_composite: 33.3
   shared: 2
-- slug: imperva
-  name: Imperva
-  description: Imperva (a Thales company) is a cybersecurity company providing cloud-based and on-premises application security, data security, and network security solutions. Their developer APIs cover cloud WAF management, DDoS protection, API security, advanced bot protection, and data security fabric for ente…
+- slug: cybret-ai
+  name: CYBRET
+  description: CYBRET provides continuous black, grey, and white‑box penetration testing services, delivering authorized target coverage, exploit evidence, and remediation guidance. Their platform secures applications, APIs, and infrastructure, emphasizing comprehensive risk reduction and compliance support for m…
   api_count: 2
   score_band: thin
-  score_composite: 31.5
+  score_composite: 29.8
   shared: 2
 - slug: akto
   name: Akto
@@ -68,8 +75,8 @@ providers:
   name: 42Crunch
   description: 42Crunch is a leading API security company that specializes in protecting and securing APIs. They provide innovative solutions that help organizations safeguard their sensitive data and critical assets from potential cyber threats. With their comprehensive API security platform, 42Crunch offers a r…
   api_count: 6
-  score_band: emerging
-  score_composite: 26.0
+  score_band: thin
+  score_composite: 27.6
   shared: 2
 - slug: impart-security
   name: Impart Security
@@ -160,72 +167,66 @@ providers:
   description: Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
   api_count: 25
   score_band: exemplar
-  score_composite: 80.6
+  score_composite: 82.8
   shared: 1
 - slug: snyk
   name: Snyk
   description: Snyk is a developer-first security platform covering code, open-source dependencies, container images, and infrastructure-as-code. The Snyk REST API and V1 API expose groups, organizations, projects, issues, targets, integrations, audit logs, SBOMs, container images, custom base images, webhooks, a…
   api_count: 3
   score_band: exemplar
-  score_composite: 79.1
-  shared: 1
-- slug: elastic
-  name: Elastic
-  description: Elastic is a software company that builds search-powered solutions for observability, security, and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations ingest, search, analyze, and visualize structured and unstructured data in real time. Elastic Cloud d…
-  api_count: 4
-  score_band: exemplar
-  score_composite: 77.6
-  shared: 1
-- slug: paubox
-  name: Paubox
-  description: Paubox is a HIPAA compliant, HITRUST certified email infrastructure company serving healthcare organizations in the United States. Its products encrypt outbound email without recipient portals, passwords, or plugins, and work alongside Google Workspace and Microsoft 365. The developer surface is th…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 77.0
+  score_composite: 80.5
   shared: 1
 - slug: elk-stack
   name: Elastic Stack
   description: The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely us…
-  api_count: 10
+  api_count: 11
   score_band: exemplar
-  score_composite: 76.9
-  shared: 1
-- slug: knoxcall
-  name: KnoxCall
-  description: KnoxCall provides a secure API key management platform that stores third‑party API keys (such as Stripe, OpenAI, and many others) and injects them at egress. This enables applications, CI pipelines, and AI agents to use revocable tokens instead of permanent credentials, reducing risk of key leakage…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 73.7
-  shared: 1
-- slug: amazon-vpn
-  name: Amazon VPN
-  description: 'AWS VPN solutions establish secure connections between on-premises networks, remote offices, client devices, and the AWS global network. AWS offers two types of private connectivity: AWS Site-to-Site VPN and AWS Client VPN, enabling encrypted tunnels between your network and Amazon Virtual Private…'
-  api_count: 1
-  score_band: exemplar
-  score_composite: 73.3
-  shared: 1
-- slug: aembit
-  name: Aembit
-  description: Aembit is a Workload Identity and Access Management (Workload IAM) platform for non-human identities — AI agents, applications, microservices, CI/CD pipelines, scripts and service accounts. Instead of long-lived, hard-coded secrets, Aembit cryptographically attests a workload against a Trust Provid…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 72.6
+  score_composite: 80.2
   shared: 1
 - slug: onetrust
   name: OneTrust
   description: OneTrust is an enterprise trust, privacy, and AI-governance platform. Its developer portal publishes 37 downloadable OpenAPI definitions covering roughly 631 operations across Universal Consent & Preference Management, Cookie Consent / CMP, Consent Receipts, Data Subject Request (DSR) Automation, A…
   api_count: 37
   score_band: exemplar
-  score_composite: 71.7
+  score_composite: 77.1
+  shared: 1
+- slug: aembit
+  name: Aembit
+  description: Aembit is a Workload Identity and Access Management (Workload IAM) platform for non-human identities — AI agents, applications, microservices, CI/CD pipelines, scripts and service accounts. Instead of long-lived, hard-coded secrets, Aembit cryptographically attests a workload against a Trust Provid…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 75.9
+  shared: 1
+- slug: paubox
+  name: Paubox
+  description: Paubox is a HIPAA compliant, HITRUST certified email infrastructure company serving healthcare organizations in the United States. Its products encrypt outbound email without recipient portals, passwords, or plugins, and work alongside Google Workspace and Microsoft 365. The developer surface is th…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 75.8
+  shared: 1
+- slug: amazon-vpn
+  name: Amazon VPN
+  description: 'AWS VPN solutions establish secure connections between on-premises networks, remote offices, client devices, and the AWS global network. AWS offers two types of private connectivity: AWS Site-to-Site VPN and AWS Client VPN, enabling encrypted tunnels between your network and Amazon Virtual Private…'
+  api_count: 1
+  score_band: exemplar
+  score_composite: 74.9
+  shared: 1
+- slug: jfrog
+  name: JFrog
+  description: JFrog provides universal DevOps solutions for software supply chain automation and security, offering a unified platform for managing binaries, securing the software supply chain, and automating DevOps workflows.
+  api_count: 14
+  score_band: exemplar
+  score_composite: 74.4
   shared: 1
 provider_slugs:
+- detectify
 - upwind
 - pynt
 - cycognito
-- detectify
 - chaitin
-- traceable
 - imperva
+- traceable
+- cybret-ai
 - akto
 - 42crunch
 - impart-security
@@ -242,531 +243,603 @@ provider_slugs:
 - tcell-io
 - cloudflare
 - snyk
-- elastic
-- paubox
 - elk-stack
-- knoxcall
-- amazon-vpn
-- aembit
 - onetrust
+- aembit
+- paubox
+- amazon-vpn
+- jfrog
+- strivacity
+- microsoft-entra
+- f5
+- amazon-security-lake
+- tenable
 - clerk-com
 - auth0
 - malwarebytes
-- drata
-- jfrog
-- strivacity
-- cisco-xdr
-- anecdotes
-- tenable
-- mailboxlayer
-- shieldlabs
-- amazon-secrets-manager
-- ibm
 - imgauth-api-di-attestazione-opere-digitali
-- f5
-- zerotier
+- drata
+- amazon-secrets-manager
+- amazon-kms
+- elastic
+- cisco-xdr
+- shieldlabs
+- microsoft-intune
+- anecdotes
+- mailboxlayer
 - routebase
+- microsoft-azure-private-link
+- chef-software
+- zerotier
+- evervault
+- 1password
+- exclaimer
+- amazon-cloudtrail
+- kondukto
+- treblle
+- amazon-certificate-manager
+- amazon-config
+- censys
+- cisco-umbrella
 - amazon-vpc
 - fastly
-- sonatype
-- exclaimer
-- microsoft-azure-private-link
-- cisco-umbrella
-- treblle
-- cisco-ise
+- cipherowl
+- neutrino-api
+- huntress
+- ibm
+- dopesecurity
+- typingdna
 - amazon-guardduty
-- amazon-kms
-- 1password
-- stytch
-- blumira
-- duo
-- whisper-online
-- kondukto
-- splunk
-- ledger
-- chef-software
-- juniper
-- amazon-iot-device-defender
-- aptible
-- evervault
-- microsoft-entra
-- amazon-config
-- cisco-psirt
-- sipi
-- xbow
-- centrify
-- amazon-firewall-manager
-- censys
-- atomadic-tech
-- contraforce
-- amazon-iam
-- databricks
-- cisco-secure-firewall
-- shodan
-- yubico
-- amazon-private-ca
-- amazon-certificate-manager
-- kolide
-- knostic
-- amazon-cloudtrail
-- secureframe
+- knoxcall
+- projectdiscovery
+- sonarqube
 - amazon-fraud-detector
 - jupiterone
-- c1
-- vulncheck
-- dopesecurity
-- airmdr
+- shodan
+- amazon-private-ca
+- amazon-firewall-manager
+- verkada
+- stytch
+- whisper-online
+- aptible
+- splunk
 - amazon-inspector
-- amazon-security-lake
-- cipherowl
-- kisi
-- barndoor
-- typingdna
-- axway
-- panther
-- sailpoint
-- 2s-io
-- amazon-iam-access-analyzer
 - cisco
-- conductorone
-- microsoft-azure-key-vault
-- huntress
-- mcpgate
-- armis
-- neutrino-api
-- onecli
+- synack
+- amazon-iot-device-defender
+- ledger
+- cisco-psirt
+- npm
+- greynoise
+- qwiet-ai
+- amazon-shield
+- authlete
+- cisco-secure-firewall
+- 2s-io
+- microsoft-sentinel
 - smallstep
-- fordefi
-- projectdiscovery
+- xbow
+- kisi
+- secureframe
 - emailrep
+- amazon-iam
+- barndoor
+- cisco-ise
+- termius
+- kolide
+- juniper
+- c1
+- dashlane
+- knostic
+- yubico
+- amazon-cloudhsm
+- socket
+- horizon3ai
+- snyk-container
+- fossa
+- cognethics-com
+- conductorone
+- vulncheck
+- databricks
+- panther
+- root-fka-slimai
+- intruder
+- mcp-manager
+- sonatype
+- airmdr
+- macadress
+- fordefi
+- tracebit
 - vettly
-- abnormal
+- google-cloud-api-gateway
+- amazon-detective
+- onecli
+- ironcore-labs
+- spycloud
+- clawvisor
+- fortanix
 - transmit-security
+- aws-waf
+- akamai
+- sonarsource
+- centrify
+- abnormal
+- castle
+- sailpoint
+- hacknotice
+- plerion
+- dnsfilter
+- google-cloud-security-command-center
+- indykite
+- mine
+- amazon-iam-access-analyzer
+- nym-technologies
+- accuknox
+- google-cloud-secret-manager
+- sealgate-ai
+- opal-security
+- microsoft-azure-key-vault
+- eagle-eye-networks
+- google-cloud-kms
+- trusona
+- civic
 - agentgateway
 - allegion
-- ironcore-labs
 - adaptive-automation-technologies
-- greynoise
-- macadress
+- armis
 - openzeppelin
-- indykite
-- qwiet-ai
+- binarly
+- cerby
 - fraud-net
-- amazon-shield
-- opal-security
-- openbao
-- eagle-eye-networks
-- nym-technologies
-- snyk-container
-- hacknotice
-- dnsfilter
-- patronus-protect
-- modoboa
+- splunk-soar
+- google-cloud-armor
+- anomaly-detection
 - amazon-verified-permissions
-- mine
-- synack
-- verkada
+- axway
+- 1kosmos
 - viso-trust
 - levelblue
-- trusona
-- google-cloud-api-gateway
 - method-security
-- amazon-detective
-- horizon3ai
-- accuknox
-- fossa
-- clearspeed
-- termius
-- sandboxaq
-- 1kosmos
-- krosyn
-- hookdeploy
-- amazon-signer
-- dashlane
-- mcp-manager
-- authlete
+- amazon-verified-access
 - angelcam
-- vanta
-- cerby
-- domaintools
-- npm
-- hacware
-- jottacloud
-- defakto-security
-- sumo-logic
-- wegalvanize
-- google-cloud-security-command-center
-- amazon-codeguru-reviewer
-- root-fka-slimai
-- dependency-track
-- etchv
-- google-cloud-secret-manager
-- have-i-been-pwned
-- infoblox
-- comp-ai
-- akamai
-- fastn
-- plerion
+- blumira
+- openbao
 - amazon-trusted-advisor
-- filigran
-- google-cloud-kms
-- dynamo-ai
-- pixee-ai
-- requestrocket
-- cloudidr
-- doppel
-- bureau-of-industry-and-security
-- regscale
-- cloudtruth
-- dragos
-- clawvisor
-- google-cloud-armor
-- amazon-control-tower
+- hacware
+- push-security
+- amazon-privatelink
+- contraforce
+- google-cloud-certificate-manager
+- clearspeed
+- adlumininc
+- sandboxaq
+- atomadic-tech
+- c-side
 - border0
+- coro
+- patronus-protect
+- adaptive-security
+- base-operations
+- amazon-signer
+- domaintools
+- doppel
+- strongdm
+- wegalvanize
+- bewary
+- pixee-ai
+- scanner
+- basis-theory
+- dragos
+- infoblox
+- amazon-control-tower
+- vanta
 - apinizer
 - google-cloud-iam
-- mcpnest
+- coronet
+- have-i-been-pwned
+- bureau-of-industry-and-security
+- defakto-security
+- google-recaptcha
 - dust-identity
-- push-security
-- tracebit
-- mintmcp
-- amazon-verified-access
-- civic
-- forcepoint
-- infisical
 - sysdig
+- amazon-codeguru-reviewer
 - tanium
+- infisical
+- layercall-com
+- cve-security-com
+- deck
+- sublime-security
+- sumo-logic
+- cynet
 - zero-networks
-- amazon-privatelink
+- filigran
+- stackhawk
+- mcpgate
+- cyble
+- authzed
+- permit-io
+- domaindrift-io
+- regscale
+- stream-security
+- echelongraph-io
+- securden
+- sipi
 - kodex
-- google-cloud-certificate-manager
-- anomali
+- venafi
+- astraverify-com
+- axiorank-com
+- cubist
+- keeper-security
+- kenna-security
+- gray-swan
 - rhel
 - spideroak
-- binarly
-- splunk-soar
-- adaptive-security
-- keeper-security
-- securden
-- snipe-it
-- coro
-- fortanix
-- getastra
-- castle
-- adlumininc
-- cyble
-- permit-io
-- strongdm
-- chaossearch
-- socket
-- aws-waf
+- certscore-ai
+- arctic-wolf
+- aruba
+- p0-security
+- disban-io
+- microsoft-security-response-center-msrc
 - shuffle
-- cubist
+- algeriacertify-com
 - forta
 - qlik
 - google-safe-browsing
 - runreveal
-- c-side
-- basis-theory
-- anomaly-detection
-- mullvad
-- arctic-wolf
-- venafi
+- dataassist-io
+- sophos
+- isovalent
+- crowdsec
 - cilium
-- p0-security
-- stackhawk
 - workday-security
-- aruba
-- base-operations
-- hashicorp-vault
+- bmcxiv-com
+- dependency-track
+- soveren
+- cloudtruth
 - spire
-- ivalt
-- qwist
-- kenna-security
-- microsoft-sentinel
-- coronet
-- nodesource
-- gray-swan
-- aqara
-- google-recaptcha
+- viso-trust-protecht
+- krosyn
+- spyderbat
+- agentrux-com
 - cakewalk
 - signal
-- crowdsec
-- v12
+- agentsim-dev
 - cequence
-- isovalent
-- nuki
+- cloudsmithio
+- detectif-ai
 - safe-security
 - slashid
-- authzed
+- anomali
 - red-canary
-- sonar
 - aqua-security
+- proweblook-com
 - kuma
-- amazon-cloudhsm
-- cynet
-- immersa
-- viso-trust-protecht
-- mandiant
+- cloudidr
+- forcepoint
 - veza
+- certifid
+- comp-ai
 - dreamfactory
 - proofpoint
-- spycloud
 - virustotal
 - balbix
-- cloudsmithio
-- hypr
-- vigil-wtf
-- chronoloq
-- scanner
-- soveren
-- stream-security
-- calypsoai-com
+- stairwell
+- openpath
+- whoisgeni-us
+- cabal-hunter-com
+- sqlguard-io
 - silent-push
-- spyderbat
-- sublime-security
-- bmcxiv-com
+- mallory
+- urbanfox
 - symantec
+- capy-inc
 - kyverno
+- mandiant
+- simpleverifier-com
 - wallarm
+- apache-knox
 - anvilogic
 - immersive-labs
-- certifid
+- doppler
+- hookdeploy
+- ocean-security
 - pulse
-- saviynt
+- v12
+- akamai-api-security
+- requestly
+- etchv
 - mondoo
-- fastmail
-- ciphertrust
-- beyondtrust
+- saviynt
+- iboss
+- snipe-it
+- nudge-security
+- blindinsight
+- demisto
+- hypr
+- requestrocket
 - strata-identity
 - hush-security
 - spring-security
-- urbanfox
-- capy-inc
+- corridor
+- datakoot-com
+- sealgate-jp
+- empirical-security
+- bot-butcher
 - preveil
-- localxpose
-- nudge-security
+- beyondtrust
 - opensearch
+- qwist
 - stackrox
+- nvd
+- digitalpipe-net
 - rapid7
+- securonix
+- chaossearch
 - google-beyondcorp
 - mcafee
-- ocean-security
+- blowfish
+- fastn
 - onlinenic
-- cfengine
-- sophos
-- demisto
-- devo
 - stellar-cyber
-- akamai-api-security
+- netbird
+- watchtowr
+- aws-security-hub
+- dechonet-com
+- devo
+- exabeam
+- koi-security
+- ciphera-net
 - coreview-fka-4ward365
 - qpoint
-- stairwell
-- apache-knox
-- corridor
+- secure-flows-com
+- apiclarity
 - linkerd
 - via-science
-- bot-butcher
+- blackveilsecurity-com
 - natoma
-- netbird
 - zero-trust-network-access
-- keycloak
-- falco
-- nvd
-- securonix
-- blindinsight
-- nucleus-security
-- intezer
-- apyguard
-- echomark
-- koi-security
-- watchtowr
-- adt
-- sonarqube
-- apiclarity
-- checkpoint
+- blackwalltier-com
+- devarmor
 - oso
-- kopia
-- corelight
-- exabeam
-- immunefi
-- backplain
-- truffle-security
-- coincover
-- nevis
-- heeler
-- blowfish
+- aqara
+- escape
+- santosautomation-com
+- seventh-sense
+- vigil-wtf
+- falco
+- keycloak
+- mcpnest
+- pangolin-net
+- issafesite
+- nucleus-security
+- portscan-com
+- seekrit-dev
 - bitwarden
-- cert-manager
-- openpath
-- sigstore
-- vault12
+- calypsoai-com
+- intezer
+- echomark
+- adt
+- getastra
+- ecocitizenz-com
+- truebiz
+- helix-ml
+- mintmcp
+- mirrortab
+- crimsoncrawler-com
+- arkose-labs
+- beaglesecurity
+- boundaryai-ai
+- corelight
+- immunefi
+- obligationsign-com
+- vibgrate-com
 - cisco-secure-client
+- truffle-security
+- nevis
+- passbolt
+- sigstore
+- tessian
+- heeler
+- raid-ai
+- senseon
+- aikido-security
+- cert-manager
+- defade-org
+- vault12
+- immersa
 - clumio
 - runlayer
 - spiffe
-- truebiz
-- doppler
+- dnsspy-io
 - trivy
 - ubuntu
 - anydesk
-- mirrortab
-- seventh-sense
+- checkpoint
 - keyfactor
-- microsoft-intune
 - truevault
-- cloudconnect
+- infra
 - virsec
-- passbolt
+- arcjet
 - sgnl
-- aws-security-hub
 - apache-ranger
 - cybersecurity-and-infrastructure-security-agency
-- empirical-security
-- llmrouter
-- elonsusk-com
-- vpn
-- openssf
-- virgil-security
-- pcloud
-- bitsight
-- movius
 - prompt-armor
-- threatx
-- escape
-- tessian
-- aikido-security
+- elonsusk-com
+- duo-security
+- vpn
+- cato-networks
+- openssf
+- lumen-technologies
+- virgil-security
+- ansvar-eu
+- nebulock
+- bitsight
+- codacy
+- movius
+- pangea
+- prisma-cloud
 - hvault
 - safeline
 - certora
+- ciphertrust
 - illumio
-- infra
+- vgs
 - hypernative
-- appcheck-ng
-- arcjet
+- localxpose
+- arkforge-tech
+- styra
+- vectranetworks-com
 - armorcode
-- assembla
+- perimeter-81
 - repacket
 - theta-lake
 - versa-networks
 - anzenna
 - confidential-computing-consortium
-- lumen-technologies
+- chaincontext-dev
 - tensor9
 - caplinked
-- cloudsek
+- deepsource
+- f5-distributed-cloud-services
+- jit-fka-cbrix
 - perimeterx
-- stormmcp
 - bettercloud
-- pangea
-- iboss
-- prisma-cloud
+- averta-io
+- firetail
+- stormmcp
+- blvigil-com
+- mendral
+- chronoloq
 - code-42
 - uptycs
-- evebrief-org
-- vgs
+- foxnose-net
+- endor-labs
+- compuute-se
 - bluerock-security
-- styra
-- nebulock
+- petra
+- cfengine
+- evebrief-org
+- fastmail
+- apir-ai
+- bountyhunte-rs
 - dataminr
 - lattica
-- perimeter-81
-- pexip
-- curity
+- coincover
 - cynomi
-- plainid
-- hypori
-- jit-fka-cbrix
-- deepip
-- arkose-labs
-- secret-double-octopus
-- f5-distributed-cloud-services
-- mendral
-- deepsource
-- marco-polo
-- privadovpn-com
-- ipregistry
-- synqly
-- cato-networks
-- reality-defender
-- apiposture
 - passbase
-- splashtop
-- flashpoint
-- tolmo
-- mcpforge
-- red-balloon-security
+- plainid
+- gatsby-events
+- hypori
+- attestari-ai
+- deepip
+- cipherhub-cloud
+- riskiq
+- secret-double-octopus
+- bountyoperator-com
+- duplicati
+- marco-polo
+- ipregistry
 - esentire
-- codacy
+- humio
+- qi-anxin
+- reality-defender
+- teejlab
+- apache-shiro
+- ayurak-com
+- gallagher-animal-management
+- splashtop
+- custosa-com
+- leen
+- apyguard
+- tolmo
+- red-balloon-security
 - valtix
-- blocksec
+- cake-ai
 - webroot
-- gaianet-ai
 - in-toto
 - silverfort
 - todyl
 - bridgecrew
-- raid-ai
 - appaegis
 - mitiga
-- yash12007
-- apache-shiro
+- navless
+- anitian
 - odaseva
+- quadrant-api
+- runlocal-eu
+- accesscontrolcost-co-uk
+- opnsense
 - zero-trust-security-model
+- dynamo-ai
+- aislabs-ai
 - deep-sentinel
 - strider
 - tuf
+- brightsec-com
+- mullvad
+- indices-io
 - thoropass
+- alienvault
+- neuvector
+- e2llm-com
 - apiwiz
-- metlo
-- brivo
+- cloudsek
+- alterauth-com
+- lets-encrypt
+- protectai
 - txone-networks
-- anitian
+- pcloud
+- anha-ai
 - attackiq
-- segura-security
+- brinqa
+- apiposture
 - callsign
 - unisys
-- opnsense
+- domainposture-com
+- llmrouter
 - lastline
-- indusface
-- cylance
-- alienvault
+- ivalt
+- arthur-j-gallagher
+- brinks
+- backplain
+- nodesource
 - zero-trust-architecture
-- neuvector
+- assembla
+- hirosecure-com
+- mcaptcha
+- appcheck-ng
+- goodflag
 - kata-containers
 - nebula-security
 - chainguard
+- threatx
 - gvisor
 - imprivata
-- lets-encrypt
-- protectai
+- networkcalc
 - daylight
 - rewind
 - mosyle
 - netskope
-- quadrant-api
 - sentinelone
-- blackcloak
+- threema
+- mcprating-io
 - keybase
-- anonyome-labs
-- arthur-j-gallagher
-- behavox
+- acunetix
 - qradar
 - ontic
 - sops
 - api-dynamics
-- breachlock
-- brinks
 - halborn
 - seezo
 - arbor-networks
+- synqly
 - knoxsystems
-- networkcalc
-- project-honeypot
 - shotspotter
-- brinqa
-- sophtron
+- zerothreat
+- behavox
 - crogl
+- gaianet-ai
+- privadovpn-com
 - ipbase
 - privado
 - risk-ledger
@@ -775,298 +848,390 @@ provider_slugs:
 - wireshark
 - resurface
 - authentic8
-- appviewx
+- flashpoint
+- prized
 - cygnvs
-- endor-labs
+- cylance
+- knocknoc
 - upstream-security
 - fxlabs
-- doppel9e9d
-- qi-anxin
+- files
+- nuki
 - linx-security
-- petra
 - ca
+- mcpforge
+- blinkco-io
 - intego
+- metlo
 - carbon-black
+- deepbom-org
 - zeroeyes
 - strongkeep
 - echo
-- posteo
-- constellaintelligence
 - ratify
+- blocksec
 - radiant-security
 - token
+- domain-bannin-jp
 - beamy
+- pexip
 - cape
 - pontera
 - material-security
 - owasp
 - sonrai-security
 - cyberhaven
+- yash12007
 - zafran-security
+- ogenalabs-com
 - alkira
-- datatheorem
-- belfry
+- secdim-com
+- closinglock
+- curity
+- equixly
+- etesync
 - adyton
-- prized
+- project-honeypot
 - actualyzeai
 - astelia
 - blocks
 - distroless
-- dtexsystems
 - feroot
-- apiiroltd
 - automox
+- kopia
+- cobalt-io
 - attivo-networks-sentinelone
+- carapace-bot
 - frame-security
 - second-front-systems
-- autumo
+- anonyome-labs
 - astrix-security
-- ardent-privacy
+- segura-security
 - code4rena
+- aiwebsitesecurity-com
 - countertack
 - pindrop-security
-- misp
-- armorcodeinc
+- geetest
+- brivo
 - venice
 - zip-security
-- cyrebro
+- agentnx-ai
+- armorcodeinc
+- dtexsystems
 - orionsec
 - wiz
 - anjuna
 - native-security
 - oasis-security
+- securelayer7
 - securitypal
+- truelook
+- oti-labs-com
 - aadyasecurity
 - skopenow
 - validit
-- cloudbrink
+- blackcloak
+- cimento
 - xage
 - chui
+- firehol
 - firemon
 - lightbeam-ai
-- athena-security
 - menlo
 - newcore
+- apiiroltd
 - runsybil
-- humio
 - spirl
 - blockpartyapp
 - cartography
 - clearvector
 - copa
-- banyan-security
+- golem-team
+- storadera
 - aceiss
 - cloaked
+- datatheorem
+- indusface
 - depthfirst
-- assa-abloy
-- cloudbrinkinc
 - complyance
-- dryrun-security
 - qevlar-ai
-- '2021'
 - geocomply
 - apiphani
 - confide
 - cloudlock
 - cloudpost-networks
 - clover-security
-- cobaltrobotics-com
+- wazuh
+- alertd
 - bluecoat-symantec
 - cogent
 - grype
 - periphery
 - scytale
+- subdomain-app
+- breachlock
+- kusari
 - ordr
 - pensando
 - raven
 - abstract-security
 - biocatch
-- cobalt-robotics
+- nextdns
+- prophaze
 - exaforce
+- misp
+- hiretofu-com
 - nsknox
-- oneteg
 - legion
 - command-zero
-- rbac
 - twingate
-- lockheed-martin
+- levo
 - prophet-security
-- databahn-ai
 - kriptos
 - processbolt
-- ingenico
+- ecoa-dev
+- agentsql-cn
+- appviewx
 - voatz
+- getbotlens-com
+- edgescan
 - novee-security
 - terra
 - api-stack
-- closinglock
 - qiz-security
+- icite
 - opendns
 - threat-stack
 - owasp-api-security-project
 - rapidfort
 - exein
+- '2021'
 - anagram
+- ardent-privacy
 - efflux-systems
 - orca-security
 - siemonster
-- allcloud
-- authmind
 - sprinto
 - enclave
-- corsha
 - eclypsium
 - redaccess
 - ent
-- forumsys
 - outtake
 - pentera
+- spamhaus
 - taai-labs-inc
 - observeit-proofpoint
 - perf-ai
-- switch-ch
-- securitas
+- disclose-io
+- constellaintelligence
 - artificial-intelligence-underwriting-company
-- averlon
 - beekeeperai
+- belfry
 - clear-ballot
 - dropzone-ai
 - hidden-level
-- humanix
+- softwarfare
+- ves-io
+- calmido-com
+- cobalt-robotics
 - lupin-and-holmes
 - straiker
+- authoryze-ai
 - bae-systems
 - bugcrowd
-- apex
+- slashnext
+- pindropsecurity-com
 - qualys
-- asilla
+- cobalt-ai
 - mate-security
 - chainalysis123
+- cloudbrink
 - reken
+- tugboat-logic
+- emudhra
+- banyan-security
 - calvis
-- converus
+- nira
+- autumo
+- appnary-com
+- cyrebro
 - iovation
-- arconnet
-- atsg
+- air
+- oneteg
+- hulft
+- posteo
+- aevumsecurity-com-sg
+- netdocuments
+- datahubz-com
 - concentric-ai
+- skuuy-com
+- athena-security
 - aurascape
 - remedio
+- youredi
 - lastpass
 - moksa-ai
+- my-casa
+- droneshield
 - fabrix
+- kipling-secure
 - ohalo
-- deepstream
-- unizo
+- apex
+- cloudbrinkinc
 - api-insights
 - keyme
-- tugboat-logic
+- stopforumspam
 - codesecure
+- effectiv
 - laelaps-ai
-- cwsi
 - noname-security
+- poetic
 - prosimo
-- clearballotgroupinc
+- assa-abloy
 - authy
 - aizome
+- databahn-ai
 - oligo
 - armadin
-- slashnext
 - eon-pass
 - nozomi
+- nevatech
+- arconnet
+- nordspam
+- lockheed-martin
 - post-quantum
 - verint-systems
-- tandemtrace
+- desec
+- allcloud
 - dune-security
 - lassen-peak
 - lucidum
-- arti-analytics
+- quicklogic
+- vantage-data-centers
+- evy
 - fortune-brands-innovations
 - kratos-defense-and-security-solutions
 - presidio
 - protectt-ai
+- shotanvil-com
+- authshore-ai
+- permiso
+- clearballotgroupinc
 - oak
-- prompthalo
 - skysafe
+- kongsberg-defence-aerospace-as
+- ikeytz-com
+- ingenico
+- unizo
+- atsg
 - autonomous-cyber
 - closure
-- deterrence
+- corsha
 - loginradius
 - owlr
-- nordspam
+- authmind
+- proxykey-org
+- averlon
 - corvus-insurance
-- effectiv
 - artemissecurity
 - beesafe-ai
-- eluviant
+- aiegis-ie
+- switch-ch
+- asilla
+- forumsys
+- securitas
 - complete-criminal-checks
 - cylake
-- microsoft-security-response-center-msrc
+- cymphony
+- osseus
 - privacy-com
 - pulsedive
 - verisign
 - vuldb
 - witness-ai
 - a-security
-- copernicus
+- humanix
 - above
-- cloudburst-technologies
+- tandemtrace
 - tenzai
+- deepstream
+- converus
 - united-states-capitol-police
+- gain-security
 - ostra-security
 - ebpf
+- facetec
+- cwsi
 - dream
-- entrino
-- analysis
+- prompthalo
+- arcsight
 - nodal-industries
 - fullhunt
 - gitguardian
 - hackerone
-- arcsight
-- osseus
 - quantstamp
 - innovatrix-tech-corp
-- aiculus
+- rugslayer-com
+- auditon-co
 - dux
 - mousecat
+- paratus
+- scalyr
 - sonus
 - surf-ai
-- asignio
+- technitium
+- arti-analytics
+- eluviant
 - inauth-american-express
 - sec3
-- clearcam
+- deterrence
+- cloudburst-technologies
 - iplogs
 - pci-compliance
-- sureshot
 - binaryedge
 - fraudlabs-pro
-- dfn-verein
+- sureshot
+- aiculus
+- akooda
+- leapwallet-io
+- saab-ab
 - area-1-security
+- entrino
 - shape-security
+- copernicus
 - national-vulnerability-database
 - phishstats
 - securitytrails
+- spyse
 - uk-police
 - virushee
 - cerberus-tech-inc
 - ermetic
+- portle
 - 6cloudtechnology
 - alyne
-- scalyr
 - bannerman
+- fmelo-net
+- 808bits-com
 - antigen
+- asignio
 - hidden-layer
-- cloudmosa
-- cogent-security
 - incandor
 - ebpf-foundation
 - bedrock-systems
+- cogent-security
+- apexhq-ai
+- clearcam
 - kovrai
+- somfy
 - astra-security
 - devsecops
 - federal-protective-service
-- spyse
 - trace-data
 - scytl
+- arvancloud
+- cloudmosa
+- dfn-verein
 - ftnnetwork-com
 - zengo
 - aireye
@@ -1077,6 +1242,8 @@ provider_slugs:
 - tripwire
 - behaviosec
 - filterlists
+- ontaurus-com
+- braxos-com
 - application-environment-verification
 - botd
 - intelligence-x
@@ -1096,6 +1263,8 @@ provider_slugs:
 - divide
 - evolv-technology
 - expanse
+- frontex
+- 3dfortify-com
 - guardicore
 - huaun
 - keynexus
@@ -1103,30 +1272,29 @@ provider_slugs:
 - normalyze
 - observo
 - silk
+- spamcop
 - wizzpass
 - eeye-digital
 - idsmanager
+- vboxx
 - avatao
 - crxcavator
 - classify
 - hashable
-- riskiq
 - clanztechnologies
-- ocra
 - rsi-video-technologies
 - ssolo
-- secure-by-design
+- uusec
 - 3vr
+- agentkernel-si
 - botguard
 - nok-nok-labs
 - protent
 - thesparkle-ai
 - zimperium
-- privacy-by-design
 - lightcyber
 - secure-by-default
 - anxiatechnology
-- authentication
 - bromium
 - ciphercloud
 - crane
@@ -1142,17 +1310,17 @@ provider_slugs:
 - gem
 - threat-jammer
 - bitkey
-- cord0d3f
+- appsentinels
 - beseyecloudsecuritycoltd
 - simility
 - barracuda-networks
 - secops
 - security-standards-and-procedures
-- security-by-design
 - dehash-lt
 - sansa-security
 - shieldx-fortinet
 - isight-security
+- prox-inc
 - security-md
 - aiignore
 - aim-security
@@ -1203,13 +1371,7 @@ provider_slugs:
 related:
 - slug: search
   name: API Evangelist Search
-  shared: 2
-- slug: monitoring
-  name: Monitoring
-  shared: 2
-- slug: observability
-  name: Observability
-  shared: 2
+  shared: 1
 - slug: authentication
   name: Authentication
   shared: 1
@@ -1219,11 +1381,38 @@ related:
 - slug: dns
   name: DNS
   shared: 1
+- slug: encryption
+  name: Encryption
+  shared: 1
+- slug: gateway
+  name: Gateway
+  shared: 1
 overview: 'Security is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [security.apievangelist.com](https://security.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Upwind, Pynt, CyCognito, detectify, Chaitin Tech, Traceable, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including detectify, Upwind, Pynt, CyCognito, Chaitin Tech, Imperva, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Evangelist Search, Monitoring, Observability, and Authentication. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Search, Authentication, Containers, and DNS. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+terms:
+- slug: ocra
+  name: OCRA
+  short: OCRA (OATH Challenge-Response Algorithm) is a standard for generating one-time passwords based on challenge-response authentication as defined in RFC 6287. It…
+  url: /topics/ocra/
+- slug: rbac
+  name: RBAC
+  short: Role-Based Access Control (RBAC) is a security paradigm that restricts system access based on assigned roles rather than individual user identities. Users are…
+  url: /topics/rbac/
+- slug: secure-by-design
+  name: Secure-By-Design
+  short: A software development approach that prioritizes security from the initial design phase through implementation, ensuring security considerations are built into…
+  url: /topics/secure-by-design/
+- slug: security-by-design
+  name: Security by Design
+  short: A software development approach that integrates security considerations and practices from the initial design phase through the entire development lifecycle, r…
+  url: /topics/security-by-design/
+- slug: security-standards
+  name: Security Standards
+  short: Security Standards is a cybersecurity technology or practice designed to protect systems, networks, and data from unauthorized access, attacks, and vulnerabili…
+  url: /topics/security-standards/
 ---

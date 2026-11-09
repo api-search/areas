@@ -6,14 +6,21 @@ description: An index and topic collection covering API versioning patterns, sch
 area_url: https://versioning.apievangelist.com
 area_host: versioning.apievangelist.com
 icon: https://versioning.apievangelist.com/icon-thumb.png
-provider_count: 7
+provider_count: 6
 providers:
+- slug: jsonpad-io
+  name: jsonpad-io
+  description: jsonpad.io provides a JSON storage platform with an instant RESTful API, versioning, validation, search, and real-time updates. Users can create lists, push JSON data, and retrieve it via simple HTTP endpoints without managing any backend infrastructure. The service includes schema validation, data…
+  api_count: 2
+  score_band: thin
+  score_composite: 38.8
+  shared: 1
 - slug: endpointblank
   name: Bengal Technologies
   description: Bengal Technologies provides a platform for API lifecycle management, enabling versioning, deprecation scheduling, and machine‑to‑machine authentication. Their portal lets developers register applications, obtain scoped credentials, and monitor usage across multiple API versions, with built‑in logg…
   api_count: 11
-  score_band: developing
-  score_composite: 42.4
+  score_band: thin
+  score_composite: 36.8
   shared: 1
 - slug: silverstripe
   name: SilverStripe
@@ -27,7 +34,7 @@ providers:
   description: 'Mirascope is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.'
   api_count: 2
   score_band: emerging
-  score_composite: 23.4
+  score_composite: 20.4
   shared: 1
 - slug: dvc
   name: DVC
@@ -43,40 +50,23 @@ providers:
   score_band: emerging
   score_composite: 13.4
   shared: 1
-- slug: change-log
-  name: Change Log
-  description: An index and topic collection covering developer changelog publishing, release-notes platforms, and API change-tracking services. Change Log services help product, engineering, and developer-relations teams communicate releases, deprecations, and breaking changes to customers and integrators throug…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.6
-  shared: 1
-- slug: versioning
-  name: Versioning
-  description: An index and topic collection covering API versioning patterns, schema evolution, and breaking-change detection across the API lifecycle. API versioning communicates change to consumers, while schema versioning and diff tooling makes those changes explicit, reviewable, and reversible. This collecti…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.6
-  shared: 1
 provider_slugs:
+- jsonpad-io
 - endpointblank
 - silverstripe
 - mirascope
 - dvc
 - changelog-md
-- change-log
-- versioning
 related:
-- slug: deprecation
-  name: Deprecation
-  shared: 2
 - slug: change-log
   name: Change Log
-  shared: 2
+  shared: 1
 overview: 'Versioning is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [versioning.apievangelist.com](https://versioning.apievangelist.com).
 
 
-  7 providers on the network work in this area, including Bengal Technologies, SilverStripe, Mirascope, DVC, CHANGELOG.md (Keep a Changelog), Change Log, and 1 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  Providers on the network working in this area include jsonpad-io, Bengal Technologies, SilverStripe, Mirascope, DVC, and CHANGELOG.md (Keep a Changelog) — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Deprecation and Change Log. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Change Log. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+terms: []
 ---

@@ -6,28 +6,28 @@ description: An index and topic collection covering site reliability engineering
 area_url: https://reliability.apievangelist.com
 area_host: reliability.apievangelist.com
 icon: https://reliability.apievangelist.com/icon-thumb.png
-provider_count: 23
+provider_count: 26
 providers:
 - slug: svix
   name: Svix
   description: Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for s…
   api_count: 1
   score_band: exemplar
-  score_composite: 73.1
-  shared: 1
-- slug: zespan
-  name: Zespan
-  description: Zespan provides AI agent reliability tooling that detects and prevents silent mistakes in production AI agents. It offers guardrails, monitoring, tracing, evaluation, and cost management across major LLM providers. Users can self‑host or use a SaaS version, integrating with OpenAI, Anthropic, Googl…
-  api_count: 2
-  score_band: developing
-  score_composite: 49.0
+  score_composite: 74.5
   shared: 1
 - slug: gremlin
   name: Gremlin
   description: Gremlin is a chaos engineering platform that helps teams build more resilient systems by running controlled failure experiments. It provides tools to simulate infrastructure failures, network issues, and resource exhaustion to identify and fix weaknesses before they cause real outages.
+  api_count: 2
+  score_band: developing
+  score_composite: 47.3
+  shared: 1
+- slug: anyhook-net
+  name: AnyHook
+  description: AnyHook provides a durable webhook relay service that stores every webhook event even when your server is down, allowing one‑click replay, inspection, and reliable delivery across integrations such as Stripe, Shopify, GitHub, Slack, and more. It offers free and paid plans with configurable retentio…
   api_count: 1
   score_band: developing
-  score_composite: 47.4
+  score_composite: 42.2
   shared: 1
 - slug: chaos-mesh
   name: Chaos Mesh
@@ -36,6 +36,20 @@ providers:
   score_band: developing
   score_composite: 42.2
   shared: 1
+- slug: tektolo-com
+  name: tektolo-com
+  description: Tektolo builds small, reliable tools for real-world operations work. Each one is a tested engine over rules with sources. You can use it on the web, from your AI assistant, or over an API, and each way runs the same engine and the same rules.
+  api_count: 1
+  score_band: developing
+  score_composite: 41.5
+  shared: 1
+- slug: zespan
+  name: Zespan
+  description: Zespan provides AI agent reliability tooling that detects and prevents silent mistakes in production AI agents. It offers guardrails, monitoring, tracing, evaluation, and cost management across major LLM providers. Users can self‑host or use a SaaS version, integrating with OpenAI, Anthropic, Googl…
+  api_count: 2
+  score_band: developing
+  score_composite: 40.4
+  shared: 1
 - slug: google-cloud-error-reporting
   name: Google Cloud Error Reporting
   description: Google Cloud Error Reporting groups and counts similar errors from cloud services and applications, reports new errors, and provides access to error groups and statistics. It automatically analyzes exceptions and displays them in a centralized interface with alerting, helping developers quickly ide…
@@ -43,12 +57,12 @@ providers:
   score_band: thin
   score_composite: 39.1
   shared: 1
-- slug: fiix-software
-  name: Fiix Software
-  description: Fiix (by Rockwell Automation) is a cloud-based CMMS (Computerized Maintenance Management System) platform for maintenance and reliability teams in manufacturing, facilities, and utilities. The Fiix API provides programmatic access to assets, work orders, purchase orders, parts, users, and maintenan…
+- slug: memfault
+  name: Memfault
+  description: Memfault is a device observability and reliability platform for connected products built on MCUs, embedded Linux, and Android. The Memfault Cloud ingests device data (coredumps, logs, metrics, reboots) and provides issue grouping, alerting, charting, fleet analytics, and over-the-air firmware updat…
   api_count: 1
   score_band: thin
-  score_composite: 37.9
+  score_composite: 35.8
   shared: 1
 - slug: statuspage
   name: Statuspage
@@ -64,33 +78,26 @@ providers:
   score_band: thin
   score_composite: 34.2
   shared: 1
-- slug: memfault
-  name: Memfault
-  description: Memfault is a device observability and reliability platform for connected products built on MCUs, embedded Linux, and Android. The Memfault Cloud ingests device data (coredumps, logs, metrics, reboots) and provides issue grouping, alerting, charting, fleet analytics, and over-the-air firmware updat…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.1
-  shared: 1
 - slug: overops
   name: Overops
   description: OverOps (formerly Takipi) is a continuous reliability platform that helps teams who ship software ensure rapid code changes do not degrade the customer experience. It runs in the cloud or on-premises, instruments Java and .NET applications with a micro-agent, and automatically identifies, prevents,…
   api_count: 1
   score_band: thin
-  score_composite: 29.4
+  score_composite: 33.7
+  shared: 1
+- slug: fiix-software
+  name: Fiix Software
+  description: Fiix (by Rockwell Automation) is a cloud-based CMMS (Computerized Maintenance Management System) platform for maintenance and reliability teams in manufacturing, facilities, and utilities. The Fiix API provides programmatic access to assets, work orders, purchase orders, parts, users, and maintenan…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.3
   shared: 1
 - slug: sonarly
   name: Sonarly
   description: Sonarly is an AI production-reliability platform (Y Combinator W2026, Paris) that turns noisy production alerts into clear, deduplicated bug reports and ships ready-to-merge fix pull requests. It connects to a team's code (GitHub/GitLab) and their error and observability stack — Sentry, Datadog, Gr…
   api_count: 1
   score_band: thin
-  score_composite: 26.4
-  shared: 1
-- slug: augury
-  name: Augury
-  description: Augury is a New York City-headquartered industrial AI company founded in 2011 by Gal Shaul and Saar Yoskovitz that profiles itself as the leader in Machine Health and Production Health for manufacturing. Its flagship offering pairs purpose-built IoT vibration, temperature, and magnetic sensors — mo…
-  api_count: 0
-  score_band: emerging
-  score_composite: 24.7
+  score_composite: 28.0
   shared: 1
 - slug: nerc
   name: NERC
@@ -98,6 +105,20 @@ providers:
   api_count: 0
   score_band: emerging
   score_composite: 20.6
+  shared: 1
+- slug: tero
+  name: Tero
+  description: Tero provides an agent‑native telemetry layer that connects read‑only to existing observability data stores. It continuously identifies costly waste, sensitive data exposure, and operational risks that traditional tools miss. By delivering actionable issue evidence, Tero helps organizations cut cos…
+  api_count: 1
+  score_band: emerging
+  score_composite: 19.7
+  shared: 1
+- slug: augury
+  name: Augury
+  description: Augury is a New York City-headquartered industrial AI company founded in 2011 by Gal Shaul and Saar Yoskovitz that profiles itself as the leader in Machine Health and Production Health for manufacturing. Its flagship offering pairs purpose-built IoT vibration, temperature, and magnetic sensors — mo…
+  api_count: 0
+  score_band: emerging
+  score_composite: 18.8
   shared: 1
 - slug: nobl9
   name: Nobl9
@@ -113,6 +134,13 @@ providers:
   score_band: emerging
   score_composite: 13.7
   shared: 1
+- slug: agentreliability-dev
+  name: Agent Reliability
+  description: Agent Reliability provides testing, benchmarking, and auditing tools for autonomous AI agents. It offers a public knowledge corpus, open data, and APIs for accessing evidence, metrics, and evaluation results, supporting developers to improve agent reliability and transparency.
+  api_count: 1
+  score_band: emerging
+  score_composite: 11.8
+  shared: 1
 - slug: briza
   name: Briza
   description: Briza helps insurance carriers stop losing premium to slow integrations and submission errors, treating carrier API reliability as a manufacturing discipline. A team of Six Sigma Black Belts, Briza applies Kaizen principles to API connectivity across commercial insurance, focusing on submission int…
@@ -127,26 +155,19 @@ providers:
   score_band: emerging
   score_composite: 11.2
   shared: 1
-- slug: reliability
-  name: Reliability
-  description: An index and topic collection covering site reliability engineering (SRE), reliability platforms, service level objectives (SLOs), error budgets, chaos engineering, resilience testing, and incident response. Reliability platforms help teams define and measure reliability targets, intentionally inje…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.6
-  shared: 1
-- slug: chargerhelp
-  name: Chargerhelp
-  description: ChargerHelp provides Reliability as a Service for electric vehicle (EV) charging infrastructure. Their platform offers data‑first monitoring, predictive maintenance, and performance analytics to ensure high uptime for EVSE operators. Founded to address the growing need for operational excellence in…
-  api_count: 0
-  score_band: minimal
-  score_composite: 8.1
-  shared: 1
 - slug: pairio
   name: Pairio
   description: Pairio is an AI-powered maintenance assistant for manufacturing and industrial teams, built by Pairio GmbH in Munich, Germany and backed by Y Combinator. Technicians capture voice, photos, and video on the shop floor, and Pairio troubleshoots machine breakdowns, searches technical documentation and…
   api_count: 0
   score_band: minimal
   score_composite: 7.2
+  shared: 1
+- slug: chargerhelp
+  name: Chargerhelp
+  description: ChargerHelp provides Reliability as a Service for electric vehicle (EV) charging infrastructure. Their platform offers data‑first monitoring, predictive maintenance, and performance analytics to ensure high uptime for EVSE operators. Founded to address the growing need for operational excellence in…
+  api_count: 0
+  score_band: minimal
+  score_composite: 6.8
   shared: 1
 - slug: distributional
   name: Distributional
@@ -171,25 +192,28 @@ providers:
   shared: 1
 provider_slugs:
 - svix
-- zespan
 - gremlin
+- anyhook-net
 - chaos-mesh
+- tektolo-com
+- zespan
 - google-cloud-error-reporting
-- fiix-software
+- memfault
 - statuspage
 - antithesis
-- memfault
 - overops
+- fiix-software
 - sonarly
-- augury
 - nerc
+- tero
+- augury
 - nobl9
 - blameless
+- agentreliability-dev
 - briza
 - proteantecs
-- reliability
-- chargerhelp
 - pairio
+- chargerhelp
 - distributional
 - chinaist-testing-service
 - omen
@@ -203,8 +227,29 @@ related:
 overview: 'Reliability is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [reliability.apievangelist.com](https://reliability.apievangelist.com).
 
 
-  23 providers on the network work in this area, including Svix, Zespan, Gremlin, Chaos Mesh, Google Cloud Error Reporting, Fiix Software, and 17 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  26 providers on the network work in this area, including Svix, Gremlin, AnyHook, Chaos Mesh, tektolo-com, Zespan, and 20 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Command Line Interface and Logging. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+terms:
+- slug: itil
+  name: ITIL
+  short: ITIL (IT Infrastructure Library) is a set of detailed practices for IT service management (ITSM) that focuses on aligning IT services with the needs of busines…
+  url: /topics/itil/
+- slug: itsm
+  name: ITSM
+  short: IT Service Management (ITSM) refers to the entirety of activities directed by policies, organized and structured in processes and supporting procedures that ar…
+  url: /topics/itsm/
+- slug: qos
+  name: QoS
+  short: Quality of Service (QoS) is the description or measurement of overall performance of a service, particularly in computer networking and telecommunications. QoS…
+  url: /topics/qos/
+- slug: quality-of-service
+  name: Quality of Service
+  short: Quality Of Service provides specialized quality of capabilities delivered as a managed offering, often accessible via APIs or cloud interfaces. It allows organ…
+  url: /topics/quality-of-service/
+- slug: quality-standards
+  name: Quality Standards
+  short: Frameworks and benchmarks that define acceptable levels of quality for products, services, or processes to ensure consistency and meet customer expectations. P…
+  url: /topics/quality-standards/
 ---

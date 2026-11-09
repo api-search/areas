@@ -6,56 +6,56 @@ description: An index and topic collection covering integrated development envir
 area_url: https://ide.apievangelist.com
 area_host: ide.apievangelist.com
 icon: https://ide.apievangelist.com/icon-thumb.png
-provider_count: 25
+provider_count: 24
 providers:
 - slug: github-copilot
   name: GitHub Copilot
   description: APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster.
   api_count: 1
   score_band: exemplar
-  score_composite: 68.7
+  score_composite: 72.5
   shared: 1
 - slug: eclipse
   name: Eclipse Foundation
   description: 'The Eclipse Foundation is a non-profit (Belgian AISBL) that provides a global community of individuals and organizations with a mature, scalable and business-friendly environment for open source software collaboration and innovation. It is also a substantial API provider in its own right: it publis…'
   api_count: 19
+  score_band: exemplar
+  score_composite: 72.2
+  shared: 1
+- slug: amazon-cloud9
+  name: Amazon Cloud9
+  description: AWS Cloud9 is a browser-based integrated development environment (IDE) that enables developers to write, run, and debug code without installing local software. Supports 40+ programming languages with real-time collaboration, integrated terminal, and pre-authenticated AWS CLI.
+  api_count: 4
+  score_band: exemplar
+  score_composite: 66.6
+  shared: 1
+- slug: choreo
+  name: Choreo
+  description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
+  api_count: 3
   score_band: strong
-  score_composite: 62.6
+  score_composite: 56.5
   shared: 1
 - slug: cursor
   name: Cursor
   description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Ag…'
   api_count: 1
   score_band: strong
-  score_composite: 59.1
+  score_composite: 54.9
   shared: 1
 - slug: jetbrains
   name: JetBrains
   description: JetBrains is a software development company that provides integrated development environments, CI/CD tools, issue tracking, and team collaboration platforms for software developers. Their product suite includes IntelliJ IDEA, TeamCity, YouTrack, Space, Hub, and the JetBrains Marketplace, all of whi…
   api_count: 5
   score_band: developing
-  score_composite: 53.5
+  score_composite: 48.4
   shared: 1
-- slug: choreo
-  name: Choreo
-  description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
-  api_count: 3
+- slug: anysphere
+  name: Anysphere
+  description: Anysphere is the applied-research company behind Cursor, the AI-native code editor and agent platform. Beyond the desktop app, Cursor ships a public Cloud Agents REST API (https://api.cursor.com) that lets developers programmatically create autonomous coding agents, submit prompt runs, stream run e…
+  api_count: 1
   score_band: developing
-  score_composite: 50.2
-  shared: 1
-- slug: amazon-cloud9
-  name: Amazon Cloud9
-  description: AWS Cloud9 is a browser-based integrated development environment (IDE) that enables developers to write, run, and debug code without installing local software. Supports 40+ programming languages with real-time collaboration, integrated terminal, and pre-authenticated AWS CLI.
-  api_count: 2
-  score_band: developing
-  score_composite: 49.5
-  shared: 1
-- slug: codenvy
-  name: Codenvy
-  description: Codenvy was a provider of cloud‑native development tools and collaborative IDEs, enabling developers to create, test, and run applications in containerized workspaces directly from a browser. Founded in 2014, Codenvy offered a platform for continuous development, integration, and delivery, later be…
-  api_count: 2
-  score_band: developing
-  score_composite: 46.5
+  score_composite: 48.3
   shared: 1
 - slug: workday-studio
   name: Workday Studio
@@ -64,19 +64,19 @@ providers:
   score_band: developing
   score_composite: 46.5
   shared: 1
-- slug: anysphere
-  name: Anysphere
-  description: Anysphere is the applied-research company behind Cursor, the AI-native code editor and agent platform. Beyond the desktop app, Cursor ships a public Cloud Agents REST API (https://api.cursor.com) that lets developers programmatically create autonomous coding agents, submit prompt runs, stream run e…
-  api_count: 1
-  score_band: developing
-  score_composite: 42.7
-  shared: 1
 - slug: jupyterlab
   name: JupyterLab
   description: JupyterLab is the next-generation web-based interactive development environment for notebooks, code, and data. It is served by Jupyter Server and ships with JupyterLab Server, which provides REST APIs for user-defined settings, workspaces, themes, translations, and license reports, alongside the Ja…
   api_count: 1
   score_band: developing
   score_composite: 39.5
+  shared: 1
+- slug: windsurf
+  name: Windsurf
+  description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
+  api_count: 1
+  score_band: thin
+  score_composite: 39.0
   shared: 1
 - slug: vs-code-marketplace
   name: VS Code Marketplace
@@ -85,33 +85,33 @@ providers:
   score_band: thin
   score_composite: 36.3
   shared: 1
-- slug: windsurf
-  name: Windsurf
-  description: Windsurf (formerly Codeium) is the AI-native code editor and plugin family from the Codeium team, featuring Cascade - an agentic chatbot that collaborates with the user across files. Built on a VS Code base with proprietary inference, MCP server support, Devin Cloud sessions, and the SWE-1.5 fast a…
-  api_count: 1
-  score_band: thin
-  score_composite: 36.0
-  shared: 1
 - slug: jetbrains-plugin
   name: JetBrains Marketplace
   description: JetBrains Marketplace is the official plugin and theme distribution platform for JetBrains IDEs including IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, Rider, and other IntelliJ Platform products. The marketplace hosts thousands of free and paid plugins that extend IDE functionality with new…
   api_count: 1
   score_band: thin
-  score_composite: 30.0
-  shared: 1
-- slug: nx-dev
-  name: Nx
-  description: Nx is a smart, fast, extensible monorepo build system and integrated CI platform created and maintained by Nrwl. The Nx CLI (Rust core, TypeScript plugins) provides task orchestration, dependency-graph analysis, affected-only execution, local caching, and code generation across Angular, React, Next…
-  api_count: 10
-  score_band: thin
-  score_composite: 29.9
+  score_composite: 31.6
   shared: 1
 - slug: microsoft-visual-studio
   name: Microsoft Visual Studio
   description: Microsoft Visual Studio is an integrated development environment (IDE) for building applications. It provides APIs for extending the IDE functionality, publishing extensions to the marketplace, and building VS Code extensions.
   api_count: 4
   score_band: thin
-  score_composite: 28.6
+  score_composite: 31.0
+  shared: 1
+- slug: nx-dev
+  name: Nx
+  description: Nx is a smart, fast, extensible monorepo build system and integrated CI platform created and maintained by Nrwl. The Nx CLI (Rust core, TypeScript plugins) provides task orchestration, dependency-graph analysis, affected-only execution, local caching, and code generation across Angular, React, Next…
+  api_count: 10
+  score_band: thin
+  score_composite: 28.8
+  shared: 1
+- slug: visual-studio-code
+  name: Visual Studio Code
+  description: Visual Studio Code is a free, open-source, cross-platform code editor developed by Microsoft for Windows, Linux, macOS, and the web, built on the MIT-licensed Code - OSS project and distinguished by features such as IntelliSense, debugging, integrated Git, and a marketplace with tens of thousands o…
+  api_count: 1
+  score_band: emerging
+  score_composite: 19.5
   shared: 1
 - slug: stackblitz
   name: StackBlitz
@@ -139,19 +139,19 @@ providers:
   description: Refact.ai is an open-source, local-first AI coding assistant and autonomous software-engineering agent built by Small Magellanic Cloud Ai Ltd. ("SmallCloud"). The product combines an IDE-integrated chat experience (Ask / Explore / Debug / Review / Plan modes), accurate code completion powered by Qw…
   api_count: 2
   score_band: emerging
-  score_composite: 12.6
+  score_composite: 14.8
+  shared: 1
+- slug: repl-it
+  name: Repl.it
+  description: Replit (formerly Repl.it) is an online IDE and collaborative coding platform that lets users write, run, and host code in many programming languages directly from a browser. It provides instant development environments, multi-user collaboration, deployment tools, and a marketplace for apps and exte…
+  api_count: 0
+  score_band: emerging
+  score_composite: 12.2
   shared: 1
 - slug: clad-labs
   name: Clad Labs
   description: Clad Labs is a San Francisco developer-tools startup (Y Combinator, Fall 2025) building Chad IDE, a desktop development environment that orchestrates multiple AI coding agents — Claude Code, Cursor CLI, and OpenAI Codex — from a single interface. Developers spin up teams of parallel agents, keep ea…
   api_count: 0
-  score_band: emerging
-  score_composite: 11.9
-  shared: 1
-- slug: visual-studio-code
-  name: Visual Studio Code
-  description: Visual Studio Code is a free, open-source, cross-platform code editor developed by Microsoft for Windows, Linux, macOS, and the web, built on the MIT-licensed Code - OSS project and distinguished by features such as IntelliSense, debugging, integrated Git, and a marketplace with tens of thousands o…
-  api_count: 1
   score_band: emerging
   score_composite: 11.9
   shared: 1
@@ -161,13 +161,6 @@ providers:
   api_count: 2
   score_band: minimal
   score_composite: 10.4
-  shared: 1
-- slug: ide
-  name: IDE
-  description: An index and topic collection covering integrated development environments (IDEs), code editors, and cloud workspaces with APIs. This topic captures the editors, IDEs, and developer workspaces that expose programmable surfaces, including local desktop IDEs (Visual Studio, JetBrains IDEs, Eclipse),…
-  api_count: 0
-  score_band: minimal
-  score_composite: 9.6
   shared: 1
 - slug: editorconfig
   name: EditorConfig
@@ -186,32 +179,34 @@ providers:
 provider_slugs:
 - github-copilot
 - eclipse
+- amazon-cloud9
+- choreo
 - cursor
 - jetbrains
-- choreo
-- amazon-cloud9
-- codenvy
-- workday-studio
 - anysphere
+- workday-studio
 - jupyterlab
-- vs-code-marketplace
 - windsurf
+- vs-code-marketplace
 - jetbrains-plugin
-- nx-dev
 - microsoft-visual-studio
+- nx-dev
+- visual-studio-code
 - stackblitz
 - qt
 - zed-editor
 - refact-ai
+- repl-it
 - clad-labs
-- visual-studio-code
 - codeium
-- ide
 - editorconfig
 - integrated-development-environment
 related:
 - slug: unified-apis
   name: Unified APIs
+  shared: 1
+- slug: agents
+  name: Agents
   shared: 1
 - slug: finops
   name: FinOps
@@ -225,14 +220,12 @@ related:
 - slug: orchestration
   name: Orchestration
   shared: 1
-- slug: portal
-  name: Portal
-  shared: 1
 overview: 'IDE is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ide.apievangelist.com](https://ide.apievangelist.com).
 
 
-  25 providers on the network work in this area, including GitHub Copilot, Eclipse Foundation, Cursor, JetBrains, Choreo, Amazon Cloud9, and 19 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  24 providers on the network work in this area, including GitHub Copilot, Eclipse Foundation, Amazon Cloud9, Choreo, Cursor, JetBrains, and 18 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Unified APIs, FinOps, Machine Learning, and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Unified APIs, Agents, FinOps, and Machine Learning. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+terms: []
 ---

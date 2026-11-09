@@ -6,56 +6,63 @@ description: An index and topic collection covering industrial APIs across indus
 area_url: https://industrial.apievangelist.com
 area_host: industrial.apievangelist.com
 icon: https://industrial.apievangelist.com/icon-thumb.png
-provider_count: 212
+provider_count: 233
 providers:
 - slug: paperless-parts
   name: Paperless Parts
   description: Paperless Parts, Inc. is a Boston-based manufacturing software company founded in 2017 that builds a secure, ITAR-compliant cloud quoting and sales platform for custom part manufacturers — job shops, contract manufacturers and rapid-prototype businesses working in CNC machining, sheet metal fabrica…
   api_count: 2
-  score_band: developing
-  score_composite: 54.1
+  score_band: strong
+  score_composite: 56.5
   shared: 1
-- slug: cloudstudioiot
-  name: Cloud Studio IoT
-  description: Cloud Studio IoT provides an Industrial AI IoT platform delivering end‑to‑end solutions for verticals such as smart cities, energy management, agriculture and manufacturing. Their cloud‑based services include data extraction APIs, AI‑driven analytics, device connectivity (LoRaWAN, MQTT, NB‑IoT) and…
+- slug: remberg
+  name: Remberg
+  description: remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventi…
+  api_count: 12
+  score_band: strong
+  score_composite: 54.9
+  shared: 1
+- slug: aerones
+  name: Aerones
+  description: Aerones is a Latvian robotics company that performs wind turbine blade inspection, cleaning, coating, leading-edge repair and lightning-protection testing with cable-suspended robots and autonomous drones, operating onshore and offshore for owners and OEMs including NextEra, GE, Vestas, Enel and Si…
+  api_count: 2
+  score_band: developing
+  score_composite: 52.7
+  shared: 1
+- slug: weavix
+  name: Weavix
+  description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
   api_count: 1
   score_band: developing
-  score_composite: 52.3
+  score_composite: 48.5
   shared: 1
 - slug: rockwell-automation
   name: Rockwell Automation
   description: Rockwell Automation is a global provider of industrial automation and digital transformation solutions, helping manufacturers boost productivity, sustainability, and agility. The company offers a portfolio of hardware, software, and services including programmable logic controllers (PLCs), industri…
   api_count: 2
   score_band: developing
-  score_composite: 48.7
+  score_composite: 47.9
   shared: 1
-- slug: remberg
-  name: Remberg
-  description: remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventi…
-  api_count: 12
-  score_band: developing
-  score_composite: 48.0
-  shared: 1
-- slug: aerones
-  name: Aerones
-  description: Aerones is a Latvian robotics company that performs wind turbine blade inspection, cleaning, coating, leading-edge repair and lightning-protection testing with cable-suspended robots and autonomous drones, operating onshore and offshore for owners and OEMs including NextEra, GE, Vestas, Enel and Si…
+- slug: renesas
+  name: Renesas
+  description: 'Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products for automotive, industrial, infrastructure, and consumer el…'
   api_count: 1
   score_band: developing
-  score_composite: 47.0
+  score_composite: 45.2
   shared: 1
 - slug: ge-vernova
   name: GE Vernova
   description: GE Vernova is accelerating the path to more reliable, affordable, and sustainable energy through its innovative portfolio of electrification, power, and decarbonization technologies. Spun off from General Electric in April 2024, GE Vernova brings together the legacy GE Power, Renewable Energy, Digi…
   api_count: 4
   score_band: developing
-  score_composite: 45.6
+  score_composite: 44.9
   shared: 1
-- slug: emerson-electric
-  name: Emerson Electric
-  description: Emerson Electric is a Fortune 500 global automation leader with more than 135 years of innovation history. Its portfolio spans automation systems, discrete automation, final control, measurement instrumentation, and test and measurement, marketed through brands such as Fisher, Rosemount, DeltaV, Mi…
-  api_count: 1
+- slug: cosmo-tech
+  name: Cosmo Tech
+  description: Cosmo Tech is a predictive and prescriptive AI-simulation (digital twin) platform for industry, based in Lyon, France and backed by Insight Partners. Its open-source Cosmo Tech Cloud Platform API (Kotlin, MIT) lets teams model organizations, workspaces, solutions, datasets, runners and runs, then c…
+  api_count: 7
   score_band: developing
-  score_composite: 44.5
+  score_composite: 44.8
   shared: 1
 - slug: eaton
   name: Eaton
@@ -71,19 +78,12 @@ providers:
   score_band: developing
   score_composite: 43.5
   shared: 1
-- slug: renesas
-  name: Renesas
-  description: 'Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products for automotive, industrial, infrastructure, and consumer el…'
+- slug: cloudstudioiot
+  name: Cloud Studio IoT
+  description: Cloud Studio IoT provides an Industrial AI IoT platform delivering end‑to‑end solutions for verticals such as smart cities, energy management, agriculture and manufacturing. Their cloud‑based services include data extraction APIs, AI‑driven analytics, device connectivity (LoRaWAN, MQTT, NB‑IoT) and…
   api_count: 1
   score_band: developing
-  score_composite: 43.5
-  shared: 1
-- slug: cosmo-tech
-  name: Cosmo Tech
-  description: Cosmo Tech is a predictive and prescriptive AI-simulation (digital twin) platform for industry, based in Lyon, France and backed by Insight Partners. Its open-source Cosmo Tech Cloud Platform API (Kotlin, MIT) lets teams model organizations, workspaces, solutions, datasets, runners and runs, then c…
-  api_count: 7
-  score_band: developing
-  score_composite: 43.1
+  score_composite: 42.5
   shared: 1
 - slug: siemens-mindsphere
   name: Siemens Insights Hub (MindSphere)
@@ -92,19 +92,26 @@ providers:
   score_band: developing
   score_composite: 41.9
   shared: 1
-- slug: weavix
-  name: Weavix
-  description: weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, r…
-  api_count: 1
-  score_band: developing
-  score_composite: 41.6
-  shared: 1
-- slug: keba
-  name: KEBA
-  description: KEBA provides innovative automation solutions for industrial automation, e‑mobility, and building technology. With over 50 years of experience, the company develops and manufactures hardware and software for access control, charging stations, and industrial control systems, serving a global custome…
+- slug: brainiall-com
+  name: brainiall-com
+  description: Brainiall provides industrial AI autopilot solutions, delivering full‑stack artificial intelligence across energy, process industries, manufacturing, and mining. Their platform offers domain‑specific AI agents and fine‑tuned models for regulated sectors where precision and reliability are critical.…
   api_count: 1
   score_band: developing
   score_composite: 39.9
+  shared: 1
+- slug: steute-technologies-gmbh-and-co-kg
+  name: steute Technologies
+  description: 'steute Technologies GmbH & Co. KG is a German industrial technology company headquartered in Löhne that develops switchgear, sensors and controls under the tagline "Applied Intelligence", organized into three divisions: Meditec (certified user interfaces such as foot and hand controls for medical d…'
+  api_count: 1
+  score_band: developing
+  score_composite: 39.4
+  shared: 1
+- slug: actionstreamer
+  name: ActionStreamer
+  description: ActionStreamer is a Cincinnati, Ohio IoT video platform company, founded in 2016, that builds wearable and connected-device live streaming technology for industrial, public-safety, defense, aerospace/MRO and sports operations. Its ActionSync platform manages fleets of smart cameras and body-worn de…
+  api_count: 2
+  score_band: thin
+  score_composite: 37.9
   shared: 1
 - slug: siemens
   name: Siemens
@@ -113,19 +120,26 @@ providers:
   score_band: thin
   score_composite: 37.4
   shared: 1
-- slug: steute-technologies-gmbh-and-co-kg
-  name: steute Technologies
-  description: 'steute Technologies GmbH & Co. KG is a German industrial technology company headquartered in Löhne that develops switchgear, sensors and controls under the tagline "Applied Intelligence", organized into three divisions: Meditec (certified user interfaces such as foot and hand controls for medical d…'
+- slug: aitwire-com
+  name: aitwire-com
+  description: aitwire-com is a technology company that provides IoT connectivity solutions for industrial devices, enabling remote monitoring, data collection, and device management across various sectors such as manufacturing, energy, and logistics. Their platform offers secure, scalable APIs for device provisi…
+  api_count: 1
+  score_band: thin
+  score_composite: 37.4
+  shared: 1
+- slug: emerson-electric
+  name: Emerson Electric
+  description: Emerson Electric is a Fortune 500 global automation leader with more than 135 years of innovation history. Its portfolio spans automation systems, discrete automation, final control, measurement instrumentation, and test and measurement, marketed through brands such as Fisher, Rosemount, DeltaV, Mi…
   api_count: 1
   score_band: thin
   score_composite: 36.6
   shared: 1
-- slug: actionstreamer
-  name: ActionStreamer
-  description: ActionStreamer is a Cincinnati, Ohio IoT video platform company, founded in 2016, that builds wearable and connected-device live streaming technology for industrial, public-safety, defense, aerospace/MRO and sports operations. Its ActionSync platform manages fleets of smart cameras and body-worn de…
+- slug: helmerich-and-payne
+  name: Helmerich & Payne
+  description: 'Helmerich & Payne, Inc. (H&P, NYSE: HP) is a Tulsa-based drilling solutions company that operates one of the largest land rig fleets in the United States alongside international and offshore operations, and sells rig automation and wellbore-placement technology under the H&P Technologies banner — F…'
   api_count: 1
   score_band: thin
-  score_composite: 36.4
+  score_composite: 35.6
   shared: 1
 - slug: civil-infrastructure-platform
   name: Civil Infrastructure Platform
@@ -134,26 +148,12 @@ providers:
   score_band: thin
   score_composite: 34.8
   shared: 1
-- slug: aveva
-  name: AVEVA
-  description: AVEVA is an industrial software company (a subsidiary of Schneider Electric) providing engineering, operations, and data management software for energy, utilities, marine, and manufacturing industries. AVEVA's product portfolio includes System Platform (unified SCADA/MES/IIoT), Plant SCADA, MES, Ed…
-  api_count: 2
-  score_band: thin
-  score_composite: 34.4
-  shared: 1
-- slug: brainbox3ae3
-  name: Brainbox3ae3
-  description: Brainboxes Ltd is a UK‑based designer and manufacturer of rugged industrial‑grade data connectivity solutions, including Ethernet switches, serial device servers, edge controllers and remote I/O modules. Founded in 1984, the company provides lifetime support, in‑house design and testing, and serves…
-  api_count: 2
-  score_band: thin
-  score_composite: 34.1
-  shared: 1
-- slug: helmerich-and-payne
-  name: Helmerich & Payne
-  description: 'Helmerich & Payne, Inc. (H&P, NYSE: HP) is a Tulsa-based drilling solutions company that operates one of the largest land rig fleets in the United States alongside international and offshore operations, and sells rig automation and wellbore-placement technology under the H&P Technologies banner — F…'
+- slug: ametek
+  name: AMETEK
+  description: 'AMETEK is a leading global manufacturer of electronic instruments and electromechanical devices with annual sales of over $6 billion. The company operates through two differentiated business segments: Electronic Instruments Group (EIG) and Electromechanical Group (EMG), serving industries including…'
   api_count: 1
   score_band: thin
-  score_composite: 33.7
+  score_composite: 34.2
   shared: 1
 - slug: parsable
   name: Parsable
@@ -169,20 +169,6 @@ providers:
   score_band: thin
   score_composite: 33.1
   shared: 1
-- slug: ametek
-  name: AMETEK
-  description: 'AMETEK is a leading global manufacturer of electronic instruments and electromechanical devices with annual sales of over $6 billion. The company operates through two differentiated business segments: Electronic Instruments Group (EIG) and Electromechanical Group (EMG), serving industries including…'
-  api_count: 1
-  score_band: thin
-  score_composite: 32.5
-  shared: 1
-- slug: honeywell
-  name: Honeywell
-  description: Honeywell is a Fortune 100 technology company that delivers industry-specific solutions including aerospace products and services, control technologies, performance materials, and safety and productivity solutions. Honeywell Forge is the company's connected platform for building automation, industr…
-  api_count: 1
-  score_band: thin
-  score_composite: 32.4
-  shared: 1
 - slug: ptc
   name: PTC
   description: PTC is an industrial technology company providing software platforms and APIs for Industrial IoT (ThingWorx), Product Lifecycle Management (Windchill, Arena), Augmented Reality (Vuforia), Field Service Management (ServiceMax), and industrial connectivity (Kepware) in manufacturing environments.
@@ -197,12 +183,33 @@ providers:
   score_band: thin
   score_composite: 31.2
   shared: 1
+- slug: 21risk-com
+  name: 21RISK
+  description: '21RISK makes software for large industrial companies that streamlines how they work with property insurance: value collection, COPE information, sites master data, engineering reports, natcat and climate data, and claims.'
+  api_count: 2
+  score_band: thin
+  score_composite: 29.7
+  shared: 1
 - slug: swipeguide
   name: Swipeguide
   description: SwipeGuide was a frontline digital work-instruction platform for manufacturing that has since been acquired by L2L (formerly Leading2Lean); the swipeguide.com domain now 301-redirects to l2l.com. L2L operates a Connected Workforce / Connected Manufacturing Operations platform (the L2L Dispatch Smar…
   api_count: 1
   score_band: thin
   score_composite: 29.6
+  shared: 1
+- slug: aveva
+  name: AVEVA
+  description: AVEVA is an industrial software company (a subsidiary of Schneider Electric) providing engineering, operations, and data management software for energy, utilities, marine, and manufacturing industries. AVEVA's product portfolio includes System Platform (unified SCADA/MES/IIoT), Plant SCADA, MES, Ed…
+  api_count: 2
+  score_band: thin
+  score_composite: 29.1
+  shared: 1
+- slug: honeywell
+  name: Honeywell
+  description: Honeywell is a Fortune 100 technology company that delivers industry-specific solutions including aerospace products and services, control technologies, performance materials, and safety and productivity solutions. Honeywell Forge is the company's connected platform for building automation, industr…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.7
   shared: 1
 - slug: blynk
   name: Blynk
@@ -211,112 +218,111 @@ providers:
   score_band: thin
   score_composite: 27.5
   shared: 1
-- slug: entytle
-  name: Entytle
-  description: Entytle, Inc. (founded 2014, Austin, Texas) provides an Installed Base Intelligence SaaS platform for equipment manufacturers (OEMs). It unifies fragmented data from ERP, CRM, FSM systems, and spreadsheets into a single "Source of Truth" for an OEM's installed base, then applies purpose-built AI an…
-  api_count: 0
-  score_band: thin
-  score_composite: 26.5
-  shared: 1
 provider_slugs:
 - paperless-parts
-- cloudstudioiot
-- rockwell-automation
 - remberg
 - aerones
+- weavix
+- rockwell-automation
+- renesas
 - ge-vernova
-- emerson-electric
+- cosmo-tech
 - eaton
 - cognite
-- renesas
-- cosmo-tech
+- cloudstudioiot
 - siemens-mindsphere
-- weavix
-- keba
-- siemens
+- brainiall-com
 - steute-technologies-gmbh-and-co-kg
 - actionstreamer
-- civil-infrastructure-platform
-- aveva
-- brainbox3ae3
+- siemens
+- aitwire-com
+- emerson-electric
 - helmerich-and-payne
+- civil-infrastructure-platform
+- ametek
 - parsable
 - 3m
-- ametek
-- honeywell
 - ptc
 - innovapptive
+- 21risk-com
 - swipeguide
+- aveva
+- honeywell
 - blynk
 - entytle
+- markforged
 - otis-worldwide
 - seeq
-- graybar-electric
 - greif
-- markforged
+- brainbox3ae3
+- tinkermode-com
+- graybar-electric
 - control-seat
-- burro-develops
 - deephow
+- keba
 - redaptive
-- matthews-international
+- sensorup-inc
 - airwave
+- danfoss
+- matthews-international
 - realwear
 - timken
 - uptake
-- autoalign
-- vaisala
 - ermeo
 - laserhub
-- circor-international
-- archrock
 - vishay-intertechnology
+- archrock
 - xage
+- circor-international
 - sanmina
 - bosch
 - manex-ai
-- congatec
 - shapeci
+- dolphinindustrialparts-com
 - active-membranes
 - poka
 - gecko-robotics
 - caddi
 - last-energy
+- farmo
+- burro-develops
 - asseta
 - enersys
-- corsha
+- ams-osram
 - anixter-international
-- dupont
 - nth-cycle
 - verve-motion
 - margo
+- autoalign
 - ventura
-- e6
+- vaisala
+- crosser
 - kilsar
 - operon
 - magnusmetal
-- concentricinc
 - seurat
 - ashland
-- bolo-ai
 - amsc
 - photoneo
 - venwiz
 - divergent
 - flowserve
+- mosaicmanufacturing-com
 - niron-magnetics
+- timeseerai
 - c-infinity
-- bwsensing
+- minerals-technologies
+- nordson
 - monolith-materials
 - re-build
-- trainbeyond
 - worthington-industries
+- breakerindustries-com
 - wesco-international
 - electra
-- minerals-technologies
+- avidbots
 - plotlogic
-- avidbots-corp-9
+- congatec
 - nacco-industries
-- atlas-copco
 - stegra
 - textron
 - kaman
@@ -326,35 +332,46 @@ provider_slugs:
 - isembard
 - osisoft
 - steel-dynamics
+- corsha
 - enpro-industries
-- nordson
 - watts-water-technologies
-- andustry
+- depureco-com
 - cameron-international
 - hexcel
+- dupont
 - honess
 - spider-capital
 - riiico
+- e6
 - pairio
 - graco
+- trainbeyond
+- concentricinc
+- andustry
+- bolo-ai
+- bwsensing
 - chint
 - herthametals
 - oshkosh
 - scope
-- boruspanprecision
 - moog
 - archimetis
 - sortera-alloys
 - northvolt
 - schaeffler
 - sunrise
+- atlas-copco
+- boruspanprecision
 - newmark-group
 - sonoco-products
+- dolphincentrifuge-com
+- intergrid
 - te-connectivity
 - rizm
 - lincoln-electric-holdings
 - aris-machina
 - hydroleap
+- nvision-imaging-technologies
 - seppure
 - twine-ventures
 - utility-global
@@ -362,22 +379,26 @@ provider_slugs:
 - championx
 - dresser-rand-group
 - msc-industrial-direct
+- zenos
+- cellinkcorp-com
 - conxtech
 - conundrum
 - idex
+- deepfine
 - on-semiconductor
 - chaodechuangtechnology
 - kyten-technologies
 - plexus
 - aleris
+- channel-robotics
 - cosemitech
 - superior-energy-services
 - coretigo
-- deepfine
 - recommercex
 - harsco
 - fmc-technologies
 - kennametal
+- luqia-technologies
 - manitowoc
 - rise-robotics
 - hyster-yale-materials-handling
@@ -393,7 +414,6 @@ provider_slugs:
 - nov
 - pall
 - beephoton
-- celsioncaff
 - exide-technologies
 - fastenal
 - general-cable
@@ -402,10 +422,11 @@ provider_slugs:
 - solugen
 - systemax
 - prmeasure
+- celsioncaff
+- aether-grid-io
 - advanced-ionics
 - candi
 - compassjapan
-- conveyor9c1e
 - airx
 - bluetechcbdc
 - donaldson
@@ -435,5 +456,6 @@ related: []
 overview: 'Industrial is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [industrial.apievangelist.com](https://industrial.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Paperless Parts, Cloud Studio IoT, Rockwell Automation, Remberg, Aerones, GE Vernova, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  30 providers on the network work in this area, including Paperless Parts, Remberg, Aerones, Weavix, Rockwell Automation, Renesas, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+terms: []
 ---

@@ -5,14 +5,12 @@ layout: none
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>{{ site.url }}/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <priority>1.0</priority>
   </url>
-  {% for item in site.areas %}
+  {% for item in site.areas %}{% unless item.sitemap == false or item.layout == 'redirect' %}
   <url>
     <loc>{{ site.url }}{{ item.url }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <priority>0.8</priority>
   </url>
-  {% endfor %}
+  {% endunless %}{% endfor %}
 </urlset>

@@ -6,21 +6,21 @@ description: This is the index of API client, HTTP client, and API consumer tool
 area_url: https://clients.apievangelist.com
 area_host: clients.apievangelist.com
 icon: https://clients.apievangelist.com/icon-thumb.png
-provider_count: 18
+provider_count: 19
 providers:
+- slug: apollo-graphql
+  name: Apollo GraphQL
+  description: 'Apollo Graph, Inc. — trading publicly as Apollo and Apollo GraphQL — is the San Francisco company behind the Apollo GraphQL platform: Apollo GraphOS (a hosted supergraph platform with a schema registry, schema checks, proposals, launches, and operation/field insights), the Apollo Router and Apollo…'
+  api_count: 11
+  score_band: strong
+  score_composite: 55.3
+  shared: 1
 - slug: insomnia
   name: Insomnia
   description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools…
   api_count: 1
   score_band: developing
-  score_composite: 52.6
-  shared: 1
-- slug: apollo-graphql
-  name: Apollo GraphQL
-  description: 'Apollo Graph, Inc. — trading publicly as Apollo and Apollo GraphQL — is the San Francisco company behind the Apollo GraphQL platform: Apollo GraphOS (a hosted supergraph platform with a schema registry, schema checks, proposals, launches, and operation/field insights), the Apollo Router and Apollo…'
-  api_count: 11
-  score_band: developing
-  score_composite: 49.0
+  score_composite: 52.3
   shared: 1
 - slug: httpie
   name: HTTPie
@@ -113,6 +113,13 @@ providers:
   score_band: minimal
   score_composite: 8.8
   shared: 1
+- slug: qbittorrent
+  name: qBittorrent
+  description: qBittorrent is an open‑source BitTorrent client written in C++/Qt that provides a feature‑rich, ad‑free, cross‑platform alternative to proprietary torrent clients. It supports full‑featured torrent management, integrated search, RSS feeds, encryption, DHT, PEX, and a web UI for remote control. The…
+  api_count: 0
+  score_band: minimal
+  score_composite: 8.1
+  shared: 1
 - slug: nightingale
   name: Nightingale
   description: Nightingale REST Client is a modern, resource-friendly REST API client for Windows.
@@ -135,8 +142,8 @@ providers:
   score_composite: 4.6
   shared: 1
 provider_slugs:
-- insomnia
 - apollo-graphql
+- insomnia
 - httpie
 - firecamp
 - hoppscotch
@@ -150,13 +157,14 @@ provider_slugs:
 - yaak
 - got
 - paw
+- qbittorrent
 - nightingale
 - ezy
 - okhttp
 related:
 - slug: api-clients
   name: API Clients
-  shared: 18
+  shared: 19
 - slug: cli
   name: Command Line Interface
   shared: 1
@@ -169,8 +177,9 @@ related:
 overview: 'Clients is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [clients.apievangelist.com](https://clients.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Insomnia, Apollo GraphQL, HTTPie, Firecamp, Hoppscotch, REST Client, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  19 providers on the network work in this area, including Apollo GraphQL, Insomnia, HTTPie, Firecamp, Hoppscotch, REST Client, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: API Clients, Command Line Interface, Design, and Orchestration. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+terms: []
 ---

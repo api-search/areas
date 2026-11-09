@@ -11,4 +11,5 @@ providers: []
 provider_slugs: []
 related: []
 overview: Scraping is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [scraping.apievangelist.com](https://scraping.apievangelist.com).
+terms: []
 ---
