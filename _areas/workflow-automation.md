@@ -847,7 +847,6 @@ provider_slugs:
 - barvinca-com
 - processmaker
 - valet-dev
-- browserforest-com
 - context-link-ai
 - revv
 - team0-ai

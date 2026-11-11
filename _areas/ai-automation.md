@@ -747,7 +747,6 @@ provider_slugs:
 - sheetbest-com
 - barvinca-com
 - valet-dev
-- browserforest-com
 - context-link-ai
 - team0-ai
 - openhelm-ai
