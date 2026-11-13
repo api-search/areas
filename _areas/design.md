@@ -256,7 +256,6 @@ provider_slugs:
 - zally
 - havenly
 - acelab
-- sketchxflow-com
 - kittl
 - tdaycom
 - zeplin
