@@ -13,28 +13,28 @@ providers:
   description: Cast Corporation (Cast.app) is an AI-agent platform that automates customer success and post-sales revenue operations for B2B SaaS and technology companies. Its autonomous "digital CSM" agents deliver personalized business reviews, grounded answers, onboarding, usage adoption, churn reduction, rene…
   api_count: 2
   score_band: developing
-  score_composite: 48.5
+  score_composite: 49.2
   shared: 1
 - slug: confrere
   name: Confrere
   description: Confrere is a privacy-first, embeddable video-consultation platform (now a Compodium product) built in the Nordics for healthcare providers, therapists, consultants, tutors, and sales teams who need secure, encrypted video meetings that clients join from any modern browser with no download. Its ser…
   api_count: 1
   score_band: thin
-  score_composite: 38.3
+  score_composite: 37.9
   shared: 1
 - slug: screenleap
   name: Screenleap
   description: Screenleap is a screen sharing and online meeting service that lets anyone share their screen instantly from a browser with no software install required for viewers. Beyond the consumer product, Screenleap offers a REST-style developer API (api.screenleap.com/v2) that lets businesses embed live int…
   api_count: 1
   score_band: thin
-  score_composite: 34.5
+  score_composite: 35.2
   shared: 1
 - slug: desmos
   name: Desmos
   description: Desmos (Desmos Studio PBC) is the dead-simple way to embed rich, interactive math into a web page or web app. Its developer product is not a REST API but a client-side JavaScript library that mounts embeddable calculators — a full-featured Graphing Calculator, a 3D Calculator, and Geometry, Scienti…
   api_count: 1
   score_band: thin
-  score_composite: 30.7
+  score_composite: 31.5
   shared: 1
 provider_slugs:
 - cast-corporation

@@ -12,50 +12,71 @@ providers:
   name: Nutanix
   description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutani…
   api_count: 2
+  score_band: exemplar
+  score_composite: 72.2
+  shared: 1
+- slug: google-cloud-vmware-engine
+  name: Google Cloud VMware Engine
+  description: Google Cloud VMware Engine is a fully managed service that lets you run VMware workloads natively on Google Cloud infrastructure. It provides dedicated, single-tenant VMware SDDC environments with vSphere, vSAN, NSX-T, and HCX, enabling seamless migration and management of VMware-based applications…
+  api_count: 1
   score_band: strong
-  score_composite: 65.8
+  score_composite: 61.0
   shared: 1
 - slug: intersight
   name: Cisco Intersight
   description: Cisco Intersight is Cisco's SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contra…
   api_count: 11
   score_band: strong
-  score_composite: 63.2
+  score_composite: 60.1
   shared: 1
 - slug: smol-machines
   name: Smol Machines
   description: Smol Machines (smol machines, inc.) is a Y Combinator-backed developer infrastructure company building portable, self-contained Linux microVMs. Its open-source `smolvm` engine and `smol` CLI (both Rust, Apache-2.0) boot hardware-isolated virtual machines from any OCI image in under 200ms — on a lap…
   api_count: 2
   score_band: strong
-  score_composite: 56.6
-  shared: 1
-- slug: slide
-  name: Slide
-  description: Slide is a modern, security-first Business Continuity and Disaster Recovery (BCDR) platform built exclusively for Managed Service Providers (MSPs). Founded by Datto creator Austin McChord, Slide pairs on-premise Slide Box appliances with the Slide Cloud to deliver always-encrypted, block-level back…
-  api_count: 1
-  score_band: developing
-  score_composite: 51.4
-  shared: 1
-- slug: vmware
-  name: VMware
-  description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
-  api_count: 1
-  score_band: developing
-  score_composite: 51.3
+  score_composite: 54.5
   shared: 1
 - slug: broadcom
   name: Broadcom
   description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electro…
   api_count: 3
   score_band: developing
-  score_composite: 48.4
+  score_composite: 53.8
+  shared: 1
+- slug: slide
+  name: Slide
+  description: Slide is a modern, security-first Business Continuity and Disaster Recovery (BCDR) platform built exclusively for Managed Service Providers (MSPs). Founded by Datto creator Austin McChord, Slide pairs on-premise Slide Box appliances with the Slide Cloud to deliver always-encrypted, block-level back…
+  api_count: 1
+  score_band: developing
+  score_composite: 53.4
+  shared: 1
+- slug: controlplane
+  name: ControlPlane
+  description: ControlPlane provides a virtual cloud platform that unifies compute, networking, identity, and services across multiple clouds, bare metal, and on‑prem environments. It enables teams to build, ship, and scale applications with AI‑native automation, universal cloud identity, and zero‑ops operations,…
+  api_count: 12
+  score_band: developing
+  score_composite: 51.8
+  shared: 1
+- slug: vmware
+  name: VMware
+  description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
+  api_count: 1
+  score_band: developing
+  score_composite: 49.8
   shared: 1
 - slug: oxide-computer
   name: Oxide
   description: 'Oxide Computer Company builds a rack-scale cloud computer: integrated server sleds (Gimlet), a rack-level switch (Sidecar), Oxide''s own illumos distribution (Helios), the Propolis/bhyve hypervisor and the Crucible distributed block store, all driven by a single control plane called Nexus. Nexus exp…'
   api_count: 1
   score_band: developing
-  score_composite: 47.8
+  score_composite: 48.2
+  shared: 1
+- slug: firecracker
+  name: Firecracker
+  description: Firecracker is an open source virtual machine monitor (VMM) built by Amazon Web Services that uses KVM to create and manage lightweight microVMs. Designed for serverless computing and container workloads, it provides the security and isolation of traditional VMs with the speed and resource efficien…
+  api_count: 1
+  score_band: developing
+  score_composite: 47.1
   shared: 1
 - slug: vers
   name: Vers
@@ -64,13 +85,6 @@ providers:
   score_band: developing
   score_composite: 47.0
   shared: 1
-- slug: controlplane
-  name: ControlPlane
-  description: ControlPlane provides a virtual cloud platform that unifies compute, networking, identity, and services across multiple clouds, bare metal, and on‑prem environments. It enables teams to build, ship, and scale applications with AI‑native automation, universal cloud identity, and zero‑ops operations,…
-  api_count: 12
-  score_band: developing
-  score_composite: 42.0
-  shared: 1
 - slug: kubevirt
   name: KubeVirt
   description: KubeVirt is a CNCF incubating project that extends Kubernetes to run traditional virtual machines alongside containers. It allows users to create, manage, and run VMs using the same Kubernetes APIs and tools used for containers. KubeVirt is ideal for migrating legacy workloads to Kubernetes without…
@@ -78,10 +92,10 @@ providers:
   score_band: developing
   score_composite: 41.0
   shared: 1
-- slug: incus
-  name: Incus
-  description: Incus is a modern open source system container and virtual machine manager maintained by LinuxContainers.org as a community-led fork of Canonical's LXD. It provides a unified experience for running and managing system containers and VMs across single hosts and clusters, with image-based deployment,…
-  api_count: 1
+- slug: vagrant
+  name: Vagrant
+  description: Vagrant, by HashiCorp, is a tool for building and managing virtualized development environments. Their developer platform provides APIs and SDKs for interacting with Vagrant Cloud and the HCP Vagrant Box Registry, enabling automation of box lifecycle management, plugin development, and integration…
+  api_count: 2
   score_band: developing
   score_composite: 40.3
   shared: 1
@@ -90,156 +104,142 @@ providers:
   description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud pl…
   api_count: 7
   score_band: developing
-  score_composite: 39.8
+  score_composite: 39.7
   shared: 1
-- slug: veritas-infoscale
-  name: Veritas InfoScale
-  description: APIs for Veritas InfoScale, an enterprise storage and availability management solution that provides high availability, disaster recovery, and storage management capabilities across physical, virtual, and cloud environments.
-  api_count: 13
+- slug: incus
+  name: Incus
+  description: Incus is a modern open source system container and virtual machine manager maintained by LinuxContainers.org as a community-led fork of Canonical's LXD. It provides a unified experience for running and managing system containers and VMs across single hosts and clusters, with image-based deployment,…
+  api_count: 1
   score_band: developing
-  score_composite: 39.8
+  score_composite: 39.6
   shared: 1
 - slug: scale-computing
   name: Scale Computing
   description: Scale Computing builds SC//Platform, an edge-computing and hyperconverged infrastructure stack made up of SC//HyperCore (a self-healing KVM-based virtualization and storage OS that runs on clustered appliance nodes) and SC//Fleet Manager (a cloud console that monitors, updates and orchestrates thou…
   api_count: 2
-  score_band: thin
-  score_composite: 39.0
-  shared: 1
-- slug: vagrant
-  name: Vagrant
-  description: Vagrant, by HashiCorp, is a tool for building and managing virtualized development environments. Their developer platform provides APIs and SDKs for interacting with Vagrant Cloud and the HCP Vagrant Box Registry, enabling automation of box lifecycle management, plugin development, and integration…
-  api_count: 2
-  score_band: thin
-  score_composite: 38.7
+  score_band: developing
+  score_composite: 39.3
   shared: 1
 - slug: apache-cloudstack
   name: Apache CloudStack
   description: Apache CloudStack is an open-source cloud computing platform developed by the Apache Software Foundation for creating, managing, and deploying infrastructure cloud services. It provides a comprehensive IaaS platform supporting multiple hypervisors (KVM, VMware vSphere, XenServer) and a rich API for…
   api_count: 4
   score_band: thin
-  score_composite: 38.0
+  score_composite: 39.1
+  shared: 1
+- slug: veritas-infoscale
+  name: Veritas InfoScale
+  description: APIs for Veritas InfoScale, an enterprise storage and availability management solution that provides high availability, disaster recovery, and storage management capabilities across physical, virtual, and cloud environments.
+  api_count: 13
+  score_band: thin
+  score_composite: 38.5
   shared: 1
 - slug: platform9
   name: Platform9
   description: Platform9 is an enterprise private cloud company whose flagship Private Cloud Director is a full-featured VMware alternative for running virtual machines and containers on your own hardware. Built on a hardened OpenStack and Kubernetes foundation, it delivers high availability, live migration, dyna…
   api_count: 1
   score_band: thin
-  score_composite: 37.8
+  score_composite: 36.0
   shared: 1
 - slug: solaris-zones
   name: Solaris Zones
   description: API for managing Solaris Zones (containers) and virtualization on Oracle Solaris systems.
   api_count: 9
   score_band: thin
-  score_composite: 37.5
+  score_composite: 35.8
   shared: 1
 - slug: openstack
   name: OpenStack
   description: Open source cloud computing platform for building and managing public and private clouds, providing infrastructure as a service (IaaS) through a set of interrelated services including Compute (Nova), Object Storage (Swift), Block Storage (Cinder), Networking (Neutron), Identity (Keystone), Image (G…
   api_count: 2
   score_band: thin
-  score_composite: 36.1
-  shared: 1
-- slug: firecracker
-  name: Firecracker
-  description: Firecracker is an open source virtual machine monitor (VMM) built by Amazon Web Services that uses KVM to create and manage lightweight microVMs. Designed for serverless computing and container workloads, it provides the security and isolation of traditional VMs with the speed and resource efficien…
-  api_count: 1
-  score_band: thin
-  score_composite: 35.0
-  shared: 1
-- slug: google-cloud-vmware-engine
-  name: Google Cloud VMware Engine
-  description: Google Cloud VMware Engine is a fully managed service that lets you run VMware workloads natively on Google Cloud infrastructure. It provides dedicated, single-tenant VMware SDDC environments with vSphere, vSAN, NSX-T, and HCX, enabling seamless migration and management of VMware-based applications…
-  api_count: 1
-  score_band: thin
-  score_composite: 33.5
+  score_composite: 34.5
   shared: 1
 - slug: simplivity
   name: SimpliVity
   description: SimpliVity is the hyperconverged infrastructure (HCI) pioneer acquired by Hewlett Packard Enterprise in 2017 and now shipped as HPE SimpliVity. Its data virtualization platform runs on the OmniStack software stack, delivering built-in deduplication, compression, backup, replication, and disaster re…
   api_count: 1
   score_band: thin
-  score_composite: 32.7
+  score_composite: 31.8
   shared: 1
 - slug: parallels-swsoft
   name: Parallels (SWSoft)
   description: Parallels is a virtualization and remote-access software company, originally founded as SWSoft in 1999 and renamed Parallels in 2008 (now part of Alludo/Corel). Its flagship enterprise product, Parallels Remote Application Server (RAS), delivers virtual apps and desktops and exposes a public REST A…
   api_count: 1
   score_band: thin
-  score_composite: 31.4
+  score_composite: 31.6
   shared: 1
 - slug: hypori
   name: Hypori
   description: Hypori, Inc. is a Reston, Virginia headquartered, service-disabled veteran-owned software company that builds Virtual Mobile Infrastructure (VMI) for zero-trust mobile access. Its products — Hypori Mobile, Hypori Lyte and Hypori Secure Messaging — run a fully isolated virtual Android workspace in H…
   api_count: 1
   score_band: thin
-  score_composite: 28.5
+  score_composite: 29.7
   shared: 1
 - slug: proxmox
   name: Proxmox VE
   description: Proxmox Virtual Environment (Proxmox VE) is an open-source server virtualization platform that combines KVM hypervisor and LXC containers, software-defined storage and networking, and clustering and high- availability features in a single web-managed solution. The Proxmox VE API exposes all platfor…
   api_count: 1
   score_band: thin
-  score_composite: 27.4
+  score_composite: 26.8
   shared: 1
 - slug: parallels
   name: Parallels
   description: Parallels is a virtualization and remote-access software company (part of Alludo, with the Parallels virtualization division held by KKR) best known for Parallels Desktop for Mac, which runs Windows, Linux and other operating systems on Apple hardware for over 7 million users. Its enterprise line,…
   api_count: 1
-  score_band: thin
-  score_composite: 26.6
+  score_band: emerging
+  score_composite: 25.5
   shared: 1
 - slug: nanovms
   name: NanoVMs
   description: NanoVMs builds unikernel infrastructure that lets developers run a single application as its own lightweight, secure virtual machine with no operating system and no devops. Its open-source toolchain centers on OPS (the ops CLI, ops.city) for building and deploying unikernels to any cloud in seconds…
   api_count: 0
   score_band: emerging
-  score_composite: 24.9
+  score_composite: 24.8
   shared: 1
 - slug: tintri
   name: Tintri
   description: 'Tintri, now part of DDN, builds intelligent enterprise data-management and storage infrastructure: the VMstore virtualization-aware storage platform, the Tintri Cloud Platform (TCP) and Cloud Engine (TCE), and the Tintri Global Center (TGC) management fabric. Tintri exposes a versioned, session-aut…'
   api_count: 1
   score_band: emerging
-  score_composite: 23.6
+  score_composite: 24.6
   shared: 1
 - slug: green-hills-software
   name: Green Hills Software
   description: Green Hills Software is a privately held embedded software company founded in 1982 by Dan O'Dowd and Carl Rosenberg and headquartered in Santa Barbara, California. It builds safety- and security-certified real-time operating systems (INTEGRITY, INTEGRITY-178 tuMP, u-velOSity), embedded hypervisors…
   api_count: 0
   score_band: emerging
-  score_composite: 13.5
+  score_composite: 12.8
   shared: 1
 - slug: readyapi
   name: ReadyAPI
   description: ReadyAPI is SmartBear's enterprise-grade automated API testing platform. It unifies functional, security, performance, and virtualization testing for REST, SOAP, GraphQL, Kafka, JDBC, and JMS APIs. ReadyAPI is delivered as a desktop and CI/CD tool rather than as a public REST API, integrating with…
   api_count: 0
   score_band: emerging
-  score_composite: 12.5
+  score_composite: 11.9
   shared: 1
 provider_slugs:
 - nutanix
+- google-cloud-vmware-engine
 - intersight
 - smol-machines
-- slide
-- vmware
 - broadcom
-- oxide-computer
-- vers
+- slide
 - controlplane
+- vmware
+- oxide-computer
+- firecracker
+- vers
 - kubevirt
-- incus
-- citrix
-- veritas-infoscale
-- scale-computing
 - vagrant
+- citrix
+- incus
+- scale-computing
 - apache-cloudstack
+- veritas-infoscale
 - platform9
 - solaris-zones
 - openstack
-- firecracker
-- google-cloud-vmware-engine
 - simplivity
 - parallels-swsoft
 - hypori
@@ -250,8 +250,8 @@ provider_slugs:
 - green-hills-software
 - readyapi
 - kerys
-- unidesk
 - bedrock-systems
+- unidesk
 - lima
 - cloudphysics
 - platespin
@@ -264,14 +264,11 @@ related:
 - slug: migration
   name: Migration
   shared: 2
-- slug: orchestration
-  name: Orchestration
-  shared: 2
-- slug: containers
-  name: Containers
-  shared: 1
 - slug: database
   name: Database
+  shared: 1
+- slug: orchestration
+  name: Orchestration
   shared: 1
 - slug: saas-management
   name: SaaS Management
@@ -279,9 +276,9 @@ related:
 overview: 'Virtualization is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [virtualization.apievangelist.com](https://virtualization.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Nutanix, Cisco Intersight, Smol Machines, Slide, VMware, Broadcom, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Nutanix, Google Cloud VMware Engine, Cisco Intersight, Smol Machines, Broadcom, Slide, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Migration, Orchestration, Containers, and Database. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Migration, Database, Orchestration, and SaaS Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 terms: []
 ---

@@ -6,430 +6,449 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://testing.apievangelist.com
 area_host: testing.apievangelist.com
 icon: https://testing.apievangelist.com/icon-thumb.png
-provider_count: 217
+provider_count: 236
 providers:
 - slug: postman
   name: Postman
   description: Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows,…
   api_count: 21
   score_band: exemplar
-  score_composite: 83.5
-  shared: 2
-- slug: keploy
-  name: Keploy
-  description: Open-source, AI-native testing platform that captures real production API traffic with eBPF and replays it in CI as deterministic tests, auto-generated mocks, and production-like sandboxes with zero code changes. Publishes a first-party OpenAPI 3.0.3 for its Cloud REST API, a hosted MCP server with…
-  api_count: 1
-  score_band: strong
-  score_composite: 61.7
+  score_composite: 82.5
   shared: 2
 - slug: apidog
   name: Apidog
   description: 'Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborativ…'
   api_count: 1
   score_band: strong
-  score_composite: 58.0
+  score_composite: 59.5
+  shared: 2
+- slug: keploy
+  name: Keploy
+  description: Open-source, AI-native testing platform that captures real production API traffic with eBPF and replays it in CI as deterministic tests, auto-generated mocks, and production-like sandboxes with zero code changes. Publishes a first-party OpenAPI 3.0.3 for its Cloud REST API, a hosted MCP server with…
+  api_count: 1
+  score_band: strong
+  score_composite: 58.9
   shared: 2
 - slug: smartbear
   name: SmartBear
   description: SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI for API testing, PactFlow for contract testing, and other tool…
   api_count: 1
   score_band: strong
-  score_composite: 54.8
+  score_composite: 57.0
   shared: 2
 - slug: bruno-api
   name: Bruno
   description: Bruno is an open-source (MIT), git-native API client - a lightweight, offline-first alternative to Postman and Insomnia for exploring and testing APIs. It is a developer TOOL, not a hosted HTTP API provider. Collections are stored on the local filesystem as folders of plain-text files (the .bru "Br…
   api_count: 3
   score_band: developing
-  score_composite: 52.0
+  score_composite: 51.4
   shared: 2
 - slug: assertible
   name: Assertible
   description: Assertible provides a reliable first line of defense against web service failures by providing simple and powerful assertions to test and monitor APIs. It enables automated API testing with assertions on response status, headers, body content, and performance, with integrations for CI/CD pipelines…
   api_count: 1
   score_band: developing
-  score_composite: 49.9
+  score_composite: 48.9
   shared: 2
 - slug: testim-io
   name: Testim
   description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-engineering portfolio. It exposes a public REST API (api.test…
   api_count: 1
   score_band: developing
-  score_composite: 49.6
+  score_composite: 46.9
   shared: 2
 - slug: rest-assured
   name: REST Assured
   description: REST Assured is a Java library for simplifying the testing and validation of RESTful APIs. It provides a fluent domain-specific language (DSL) built on the given-when-then BDD pattern, making it easy to write readable and maintainable API tests. REST Assured supports HTTP methods GET, POST, PUT, DE…
   api_count: 1
   score_band: thin
-  score_composite: 27.6
+  score_composite: 28.3
   shared: 2
 - slug: supertest
   name: SuperTest
   description: SuperTest is a Node.js library for testing HTTP servers by providing a high-level abstraction for HTTP assertions with a fluent API built on SuperAgent. Maintained by the Forward Email / ladjs open source organization, SuperTest allows developers to pass any http.Server or Express/Koa application a…
   api_count: 1
   score_band: emerging
-  score_composite: 22.9
-  shared: 2
-- slug: step-ci
-  name: Step CI
-  description: Step CI is an open source API testing and monitoring framework that uses YAML-based workflows to define and run automated API test scenarios. It supports REST, GraphQL, gRPC, tRPC, and SOAP protocols in a single unified testing framework. Step CI is language-agnostic, self-hosted, and integrates wi…
-  api_count: 1
-  score_band: emerging
-  score_composite: 17.5
+  score_composite: 23.2
   shared: 2
 - slug: muuktest
   name: Muuktest
   description: MuukTest (MuukLabs) is an AI-powered test automation and managed QA services company founded in 2019 that helps software teams reach high end-to-end test coverage in weeks rather than months. It blends an AI-driven automation platform with expert QA engineers to deliver end-to-end, functional, regr…
   api_count: 0
   score_band: emerging
+  score_composite: 16.6
+  shared: 2
+- slug: step-ci
+  name: Step CI
+  description: Step CI is an open source API testing and monitoring framework that uses YAML-based workflows to define and run automated API test scenarios. It supports REST, GraphQL, gRPC, tRPC, and SOAP protocols in a single unified testing framework. Step CI is language-agnostic, self-hosted, and integrates wi…
+  api_count: 1
+  score_band: emerging
   score_composite: 16.4
   shared: 2
+- slug: currents-dev
+  name: Currents
+  description: Currents (Currents Software Inc., currents.dev) is a Playwright-focused test reporter, cloud dashboard and test orchestrator that helps teams scale Playwright tests in CI and optimize complex test suites for health, reliability and performance. It also supports Cypress and other frameworks, and off…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 77.7
+  shared: 1
 - slug: checkly
   name: Checkly
   description: Checkly is a code-first reliability platform for synthetic monitoring, uptime monitoring, alerting and AI-assisted incident investigation. Engineering teams define monitors as versioned code with the Checkly CLI, Terraform or Pulumi, reuse existing Playwright suites as production browser checks, an…
   api_count: 1
   score_band: exemplar
-  score_composite: 77.1
-  shared: 1
-- slug: uipath
-  name: UiPath
-  description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
-  api_count: 6
-  score_band: exemplar
-  score_composite: 72.9
+  score_composite: 76.2
   shared: 1
 - slug: speakeasy
   name: Speakeasy
   description: Speakeasy provides an AI control plane platform that lets enterprises govern, secure, and observe AI agents, MCP servers, and Skills. The platform integrates with existing identity providers to assign permissioned identities to each agent and enforces policy in real time. It offers audit logs, comp…
   api_count: 1
   score_band: exemplar
-  score_composite: 70.7
+  score_composite: 72.3
+  shared: 1
+- slug: uipath
+  name: UiPath
+  description: UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intel…
+  api_count: 6
+  score_band: exemplar
+  score_composite: 71.0
+  shared: 1
+- slug: roark
+  name: Roark
+  description: Roark provides a platform for voice AI testing, evaluation, and continuous improvement. Their services include simulation testing, post‑call analysis, human review, and self‑improvement loops for voice agents across industries such as healthcare, finance, insurance, and retail. Roark helps organiza…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 69.0
   shared: 1
 - slug: tricentis
   name: Tricentis
   description: Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, Tosca Cloud), AI-driven test management (qTest), performance t…
   api_count: 8
   score_band: exemplar
-  score_composite: 70.5
+  score_composite: 68.6
   shared: 1
 - slug: tempmailgrab
   name: TempMailGrab API
   description: Privacy-first disposable/temporary email service with private 24-hour inboxes, real-time WebSocket delivery, automatic OTP and verification-link extraction, attachments, webhooks, custom domains, and a versioned REST API for QA, test automation, and bots.
   api_count: 1
   score_band: exemplar
-  score_composite: 69.6
+  score_composite: 68.5
   shared: 1
 - slug: browserstack
   name: BrowserStack
   description: BrowserStack provides instant access to 3,500+ real desktop browsers and 30,000+ real mobile device units for manual and automated software testing. Its products span cross-browser testing (Live, Automate), mobile app testing (App Live, App Automate), visual regression testing (Percy, App Percy), a…
   api_count: 1
   score_band: exemplar
-  score_composite: 69.5
+  score_composite: 68.1
   shared: 1
 - slug: routebase
   name: Routebase
   description: API lifecycle platform covering Design (visual OpenAPI editor), Mock (spec-driven mock servers), Test (suites, assertions, OWASP security scanning), Document (published docs portals), and Agents (MCP server), built around a single living OpenAPI spec.
   api_count: 1
   score_band: exemplar
-  score_composite: 69.0
-  shared: 1
-- slug: stack-moxie
-  name: Stack Moxie
-  description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 67.8
+  score_composite: 67.7
   shared: 1
 - slug: treblle
   name: Treblle
   description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40…
   api_count: 1
   score_band: exemplar
-  score_composite: 66.8
+  score_composite: 67.4
+  shared: 1
+- slug: stack-moxie
+  name: Stack Moxie
+  description: Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents…
+  api_count: 1
+  score_band: strong
+  score_composite: 65.4
+  shared: 1
+- slug: agentdrives-com
+  name: agentdrives-com
+  description: AgentDrives is an independent lab that evaluates how AI agents can access and use software. It provides open data on agent-driven interactions, tools, and APIs, offering a searchable directory of software products, detailed drive reports, and an MCP server for agents to discover suitable tools befo…
+  api_count: 1
+  score_band: strong
+  score_composite: 63.3
   shared: 1
 - slug: signadot
   name: Signadot
   description: 'Signadot is a Kubernetes-native platform for validating microservices and AI-generated code changes against real dependencies before merge. Its core is environment virtualization: large numbers of lightweight ephemeral "sandboxes" spin up in seconds by routing request-level traffic to only the chan…'
   api_count: 1
   score_band: strong
-  score_composite: 65.2
+  score_composite: 63.2
+  shared: 1
+- slug: buildpulse-io
+  name: BuildPulse
+  description: BuildPulse helps engineering teams ship faster on GitHub Actions by providing test analytics, faster runners, and AI code review. It detects flaky tests, quarantines them, and offers performance insights, serving customers like Replit and Auditboard.
+  api_count: 1
+  score_band: strong
+  score_composite: 62.2
   shared: 1
 - slug: kubeshop
   name: Kubeshop
   description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-native test orchestration platform. Testkube runs agents inside Kubernetes clusters under a central control plane, orchestrating tests written for existing frameworks — Cypress, Playwright, k6, JMeter, pytest and others — then aggreg…
   api_count: 3
   score_band: strong
-  score_composite: 62.8
+  score_composite: 62.2
   shared: 1
 - slug: scorecard
   name: Scorecard
   description: Scorecard is a simulation and evaluation platform for building, testing, and deploying frontier AI agents. Teams run their agents through thousands of realistic scenarios, judge outputs with configurable AI, human, and heuristic metrics, and ship new capabilities with confidence. The platform organ…
   api_count: 1
   score_band: strong
-  score_composite: 62.7
-  shared: 1
-- slug: testfairy
-  name: TestFairy
-  description: TestFairy is a mobile app testing and distribution platform, now part of Sauce Labs, that lets teams upload iOS and Android builds, distribute them to beta testers, and record video sessions of testers using the app alongside device logs, crash reports, and CPU/memory/network telemetry for debuggin…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.2
+  score_composite: 61.6
   shared: 1
 - slug: apicontext
   name: APIContext
   description: APIContext (formerly APImetrics) is a synthetic API testing, monitoring and conformance platform. It calls the APIs you depend on from cloud locations around the world on a schedule, measures latency and availability from the outside in, validates responses against expected schemas and security pro…
   api_count: 5
   score_band: strong
-  score_composite: 60.9
-  shared: 1
-- slug: coval
-  name: Coval
-  description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Coval supports inbound/outbound voice, standard chat, chat over…
-  api_count: 20
-  score_band: strong
-  score_composite: 60.8
-  shared: 1
-- slug: difficat-com
-  name: DiffiCat
-  description: 'DiffiCat is a browser-based website migration testing and visual regression tool. It compares a source site (Site A) against a target site (Site B) page by page across three checks: page existence (HTTP status, broken pages and redirects), content accuracy (text and SEO changes) and pixel-level vis…'
-  api_count: 1
-  score_band: strong
-  score_composite: 60.6
-  shared: 1
-- slug: opkey
-  name: Opkey
-  description: Opkey (Smart Software Testing Solutions, Inc.) is a US-headquartered Cloud Application Lifecycle Management and AI-powered test automation vendor for enterprise packaged applications. Its no-code platform ships pre-built automated tests and change-impact analysis for Oracle Cloud/EBS, Workday, Sale…
-  api_count: 1
-  score_band: strong
-  score_composite: 60.6
+  score_composite: 61.2
   shared: 1
 - slug: gradle
   name: Gradle
   description: Gradle Inc. (Gradle Technologies) is the company behind the open-source Gradle Build Tool, downloaded more than 25 million times a month across the Java, JVM, Android, Kotlin, C/C++, and native ecosystems, and Develocity (formerly Gradle Enterprise), its commercial Developer Productivity Engineerin…
   api_count: 1
   score_band: strong
-  score_composite: 60.3
+  score_composite: 61.1
   shared: 1
-- slug: emerge-tools
-  name: Emerge Tools
-  description: Emerge Tools is a mobile developer-tools platform used by teams at DoorDash, Square, and Duolingo to ship faster, smaller, better-performing iOS and Android apps. Its products include Size Analysis (monitor and reduce app size with PR alerts and competitor benchmarking), Snapshots (visual regressio…
-  api_count: 1
+- slug: coval
+  name: Coval
+  description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Coval supports inbound/outbound voice, standard chat, chat over…
+  api_count: 20
   score_band: strong
-  score_composite: 59.9
+  score_composite: 60.9
   shared: 1
 provider_slugs:
 - postman
-- keploy
 - apidog
+- keploy
 - smartbear
 - bruno-api
 - assertible
 - testim-io
 - rest-assured
 - supertest
-- step-ci
 - muuktest
+- step-ci
+- currents-dev
 - checkly
-- uipath
 - speakeasy
+- uipath
+- roark
 - tricentis
 - tempmailgrab
 - browserstack
 - routebase
-- stack-moxie
 - treblle
+- stack-moxie
+- agentdrives-com
 - signadot
+- buildpulse-io
 - kubeshop
 - scorecard
-- testfairy
 - apicontext
+- gradle
 - coval
+- emerge-tools
+- microsoft-playwright
+- codecov
 - difficat-com
 - opkey
-- gradle
-- emerge-tools
+- mailfixture-com
+- lambdatest
+- testfairy
+- cekura-ai
+- insomnia
 - artillery
+- azure-test-labs
 - accessibe
-- roark
-- microsoft-playwright
-- ardent
+- emailens-dev
 - pynt
 - rainforest-qa
+- bugbug-io
+- ardent
+- replay
 - qa-wolf
 - localstack
-- replay
-- insomnia
-- buildpulse-io
+- completionkit-com
+- panaya
+- mobilerun-ai
+- fabricatedemail-com
 - elva
 - automation-preflight-api
-- azure-test-labs
-- agentdrives-com
-- codecov
-- panaya
-- lambdatest
-- apitoolkit
-- cekura-ai
 - testsigma
+- pactflow
 - confident-cannabis
-- teamcity
-- emailens-dev
-- launchable
-- bugbug-io
 - copado
-- apiary
-- reflect
-- fabricatedemail-com
-- codspeed
-- nuclei
-- chaos-mesh
-- testsprite
-- rapidapi
+- apitoolkit
+- teamcity
+- fixsim-com
+- onedroid-ai
+- requestly
 - okareo
+- promptlens
+- enokilabs-ai
+- codspeed
+- qodex
+- reflect
+- apiary
+- chaos-mesh
+- launchable
+- autifyhq
+- nuclei
+- chargerdojo-com
+- testsprite
+- email-spam-tester-com
 - apache-jmeter
 - limrun
-- selenium
-- pactflow
 - owasp-zap
-- requestly
-- sauce-labs
-- beeceptor
-- cypressio
-- mabl
-- parea
-- promptlens
-- archal
-- qodex
-- ranger
-- onedroid-ai
-- autifyhq
+- microworker
+- rapidapi
+- selenium
+- dev-proxy
 - pearson
+- cypressio
+- sauce-labs
+- antithesis
+- aiva-works
+- mabl
+- mocklab
+- mimiqai-com
+- beeceptor
+- mockfly
+- parallelsandbox-com
+- letagentsin-com
+- parea
+- ranger
+- brightsec-com
+- archal
+- diffblue
+- appium
+- fetchsandbox-com
+- mockserver
+- microcks
+- trafficparrot
+- a2apark-com
 - playground
 - agent-diff
-- ambassador
-- antithesis
-- appium
-- microcks
-- mockserver
-- testmail-app
-- a2apark-com
-- chargerdojo-com
-- mockfly
-- reqres
-- pact
-- traceable
-- coval-ai
-- microworker
-- letagentsin-com
-- mockoon
 - jetpackio
-- bugster
-- http-toolkit
-- aiva-works
+- traceable
+- pact
+- testmail-app
+- reqres
+- ambassador
+- skyramp
+- coval-ai
+- generaterandomiban-com
+- acunetix
+- mockoon
 - openlayer
-- k6
-- applitools
-- speedscale
-- wiremock
 - schemathesis
-- httpie
-- voiden
-- firecamp
 - bugiadata-com
-- scalability-testing
-- testiny
-- mocklab
+- laboratory-love
+- voiden
+- speedscale
+- firecamp
+- applitools
+- k6
+- http-toolkit
 - hoppscotch
+- wiremock
+- qase
+- httpie
 - testrail
+- avalyz-com
+- scalability-testing
 - percy
+- bugster
+- testiny
+- meticulous-ai
 - ressl-ai
 - hoverfly
-- qase
-- cucumber
-- platzi-fake-store-api
-- goreplay
 - conektto
-- rest-client
-- trafficparrot
-- diffblue
-- jsonplaceholder
-- brightsec-com
-- hamming-ai
-- deepchecks
-- apigit
-- jmeter
-- locust
-- skyramp
-- thunder-client
-- headspin
+- goreplay
+- cucumber
 - mocko
-- acunetix
-- vegeta
-- mockito
-- evinced
-- junit
-- restfox
-- optic
-- avalyz-com
-- meticulous-ai
-- runscope
+- platzi-fake-store-api
 - mocki
-- testcontainers
+- jmeter
+- rest-client
+- glockapps-com
+- jsonplaceholder
+- deepchecks
+- headspin
+- hamming-ai
+- locust
+- fixture-email
+- evinced
+- apigit
+- connectorreport-com
+- vegeta
+- optic
+- thunder-client
+- mockito
 - testlio
-- httpstat
-- mock-service-worker
-- atomicjar
-- karate
-- dredd
-- mockapi
-- charles-proxy
-- waldo
-- simantic
-- nameko
-- arga-labs
-- gatling
-- regression-games
-- mitmproxy
-- specflow
-- evvy
-- http-client
-- newman
-- prism
-- edgescan
-- parasoft
-- api-stack
-- readyapi
-- jest
-- nunit
-- mirage-js
-- agentreliability-dev
-- jmock
+- junit
 - usetrace-com
-- mocklets
-- voidzero
-- portman
-- ul-solutions
-- prodpoke-com
-- mobileum
+- restfox
+- hemelion-com
+- karate
 - vivioo-io
-- fuchsia
-- approxima
-- functionize
-- noname-security
-- nordson
-- keyrunner
-- 3tg-dev
-- paw
+- parasoft
+- mocklets
+- runscope
+- mock-service-worker
+- simantic
+- testcontainers
+- agentreliability-dev
+- httpstat
+- nameko
+- mockapi
+- dredd
+- waldo
+- evvy
+- atomicjar
+- edgescan
+- prodpoke-com
+- charles-proxy
+- regression-games
+- ul-solutions
+- gatling
+- arga-labs
+- mitmproxy
+- newman
+- http-client
+- specflow
+- nunit
+- prism
 - canaryusers-ai
+- approxima
+- voidzero
+- readyapi
+- api-stack
+- jest
+- 3tg-dev
+- portman
+- mobileum
+- mirage-js
+- jmock
 - prompteams
-- reqbin
+- fuchsia
+- noname-security
+- functionize
+- keyrunner
 - bureauveritas
+- nordson
+- paw
+- nocticas-com
 - canary
+- reqbin
 - physical-property-testing
+- liedetectortest-com
 - chinaist-testing-service
 - monolith-ai
-- institut-f-r-produktqualit-t
 - api-fortress
+- institut-f-r-produktqualit-t
 - muir-test-systems
 - mockable
 - appurify
@@ -443,24 +462,24 @@ related:
 - slug: design
   name: Design
   shared: 4
-- slug: monitoring
-  name: Monitoring
-  shared: 4
-- slug: ai-automation
-  name: AI Automation
-  shared: 3
-- slug: observability
-  name: Observability
-  shared: 3
 - slug: developer-experience
   name: Developer Experience
   shared: 2
+- slug: monitoring
+  name: Monitoring
+  shared: 2
+- slug: observability
+  name: Observability
+  shared: 2
+- slug: network
+  name: Network
+  shared: 1
 overview: 'Testing is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [testing.apievangelist.com](https://testing.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Postman, Keploy, Apidog, SmartBear, Bruno, Assertible, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Postman, Apidog, Keploy, SmartBear, Bruno, Assertible, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Documentation, Design, Monitoring, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Documentation, Design, Developer Experience, and Monitoring. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 terms: []
 ---

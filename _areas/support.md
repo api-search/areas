@@ -6,91 +6,112 @@ description: An index and topic collection covering customer support, help desk,
 area_url: https://support.apievangelist.com
 area_host: support.apievangelist.com
 icon: https://support.apievangelist.com/icon-thumb.png
-provider_count: 19
+provider_count: 20
 providers:
-- slug: service-cloud
-  name: Salesforce Service Cloud APIs
-  description: Salesforce Service Cloud is the customer-service and contact-centre product on the Salesforce Platform, and its API surface is the Salesforce Platform API applied to service objects — Case, CaseComment, Knowledge articles, LiveChatTranscript, MessagingSession, entitlements and omni-channel routing…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 73.6
-  shared: 1
 - slug: zendesk
   name: Zendesk
   description: Zendesk provides customer service and engagement software that helps businesses manage support tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and phonethrough a unified platform.
   api_count: 76
   score_band: exemplar
-  score_composite: 72.8
+  score_composite: 72.4
+  shared: 1
+- slug: service-cloud
+  name: Salesforce Service Cloud APIs
+  description: Salesforce Service Cloud is the customer-service and contact-centre product on the Salesforce Platform, and its API surface is the Salesforce Platform API applied to service objects — Case, CaseComment, Knowledge articles, LiveChatTranscript, MessagingSession, entitlements and omni-channel routing…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 70.3
   shared: 1
 - slug: plain
   name: Plain
   description: Plain is a customer support platform for B2B and technical SaaS companies, built entirely on its own public GraphQL API so there is full parity between what the product UI and the API can do. It unifies support across email, chat, Slack, and API-created threads, with customers, companies, tenants,…
   api_count: 1
   score_band: strong
-  score_composite: 61.2
+  score_composite: 61.8
   shared: 1
 - slug: deskcrew-io
   name: DeskCrew
   description: DeskCrew provides an agent‑native helpdesk platform that lets AI agents and humans collaborate on support tickets across Slack, Discord and web. It features an x402 agent door with a Model Context Protocol (MCP) server enabling anonymous AI agents to pay per action in USDC on multiple blockchains,…
   api_count: 1
-  score_band: strong
-  score_composite: 55.4
+  score_band: developing
+  score_composite: 53.4
+  shared: 1
+- slug: snipe-it
+  name: Snipe-IT
+  description: Snipe-IT provides free, open‑source IT asset management software that helps organizations track, manage, and maintain their hardware, software, and other technology assets. The platform offers a robust REST API for integration, detailed reporting, user‑friendly interface, and strong security featur…
+  api_count: 5
+  score_band: developing
+  score_composite: 48.6
   shared: 1
 - slug: salesforce-knowledge-management
   name: Salesforce Knowledge Management
   description: API for managing knowledge articles, categories, and data in Salesforce Knowledge. Enables creating, reading, updating, publishing, and archiving knowledge articles for customer self-service and agent-assisted support scenarios across multiple channels including internal app, public knowledge base,…
   api_count: 1
   score_band: developing
-  score_composite: 49.6
+  score_composite: 48.1
   shared: 1
-- slug: snipe-it
-  name: Snipe-IT
-  description: Snipe-IT provides free, open‑source IT asset management software that helps organizations track, manage, and maintain their hardware, software, and other technology assets. The platform offers a robust REST API for integration, detailed reporting, user‑friendly interface, and strong security featur…
-  api_count: 5
-  score_band: thin
-  score_composite: 38.1
+- slug: zammad
+  name: Zammad
+  description: Zammad provides an AI‑powered service platform for customer support, helpdesk and IT operations. It centralises communication across channels, adds AI‑driven efficiency, and offers a free trial for teams of any size. The platform combines human expertise with automation to deliver seamless support…
+  api_count: 1
+  score_band: developing
+  score_composite: 39.8
   shared: 1
 - slug: cisco-support-apis
   name: Cisco Support APIs
   description: 'The Cisco Support APIs are the machine-readable side of Cisco''s TAC and lifecycle operations: EoX for end-of-life milestones, Serial Number to Information for entitlement and coverage, Product Information, Software Suggestion, Bug, Case, Automated Software Distribution, and Service Order Return. Th…'
   api_count: 8
   score_band: thin
-  score_composite: 36.8
-  shared: 1
-- slug: mendable
-  name: Mendable
-  description: Mendable is an AI answers and enterprise search platform that lets teams ingest their documentation, websites, and knowledge sources and serve grounded, cited AI chat answers over them. Built by the Firecrawl / Mendable team, it exposes a REST API at https://api.mendable.ai/v1 for creating conversa…
-  api_count: 1
-  score_band: thin
-  score_composite: 34.6
-  shared: 1
-- slug: inkeep
-  name: Inkeep
-  description: Inkeep is an AI support and agent platform for documentation and products. Its developer platform exposes an OpenAI-compatible RAG / chat completions API over your own content, an Analytics API for logging conversations, feedback, and events, and an Agents / management surface for building and oper…
-  api_count: 2
-  score_band: thin
-  score_composite: 31.3
-  shared: 1
-- slug: papercups
-  name: Papercups
-  description: Papercups is an open-source customer-messaging and live-chat platform built on Elixir/Phoenix, positioned as a self-hosted alternative to Intercom. It exposes a REST API for conversations, messages, and customers, a realtime chat surface over Phoenix WebSocket channels, and outbound webhooks. The p…
-  api_count: 1
-  score_band: thin
-  score_composite: 30.8
-  shared: 1
-- slug: zammad
-  name: Zammad
-  description: Zammad provides an AI‑powered service platform for customer support, helpdesk and IT operations. It centralises communication across channels, adds AI‑driven efficiency, and offers a free trial for teams of any size. The platform combines human expertise with automation to deliver seamless support…
-  api_count: 1
-  score_band: thin
-  score_composite: 29.7
+  score_composite: 38.7
   shared: 1
 - slug: useclad-ai
   name: Clad Labs
   description: Clad Labs builds an AI-powered support platform that triages, investigates, and resolves customer support tickets across Slack, Discord, Teams, and email. The system captures conversation threads, provides evidence‑backed handoffs, and automates ticket creation with root‑cause analysis. By integrat…
   api_count: 1
   score_band: thin
-  score_composite: 27.2
+  score_composite: 36.3
+  shared: 1
+- slug: suppfusion
+  name: Support Fusion
+  description: Support Fusion provides a platform that connects IT teams across companies and platforms, enabling bidirectional sync, multi‑platform integration, and zero‑storage ticketing. It offers features such as field mapping, sync filters, history, and extensive partner integrations, targeting service provi…
+  api_count: 1
+  score_band: thin
+  score_composite: 36.1
+  shared: 1
+- slug: mendable
+  name: Mendable
+  description: Mendable is an AI answers and enterprise search platform that lets teams ingest their documentation, websites, and knowledge sources and serve grounded, cited AI chat answers over them. Built by the Firecrawl / Mendable team, it exposes a REST API at https://api.mendable.ai/v1 for creating conversa…
+  api_count: 1
+  score_band: thin
+  score_composite: 34.3
+  shared: 1
+- slug: acornreply-com
+  name: AcornReply
+  description: AcornReply provides a support inbox solution for small teams, enabling them to receive customer messages via email, live chat, or API, and reply with AI‑assisted drafts in their own voice. The platform emphasizes simplicity, no ticket numbers, and quick setup, targeting teams of under ten who want…
+  api_count: 1
+  score_band: thin
+  score_composite: 32.7
+  shared: 1
+- slug: inkeep
+  name: Inkeep
+  description: Inkeep is an AI support and agent platform for documentation and products. Its developer platform exposes an OpenAI-compatible RAG / chat completions API over your own content, an Analytics API for logging conversations, feedback, and events, and an Agents / management surface for building and oper…
+  api_count: 1
+  score_band: thin
+  score_composite: 31.4
+  shared: 1
+- slug: papercups
+  name: Papercups
+  description: Papercups is an open-source customer-messaging and live-chat platform built on Elixir/Phoenix, positioned as a self-hosted alternative to Intercom. It exposes a REST API for conversations, messages, and customers, a realtime chat surface over Phoenix WebSocket channels, and outbound webhooks. The p…
+  api_count: 1
+  score_band: thin
+  score_composite: 29.9
+  shared: 1
+- slug: heycactus-ai
+  name: Cactus
+  description: Cactus is an AI help center and support agent that learns a product from its codebase, answers customers live, and keeps its help site and changelog current with every release. It provides developers with an easy-to-integrate AI support solution, offering real-time assistance and automated document…
+  api_count: 1
+  score_band: thin
+  score_composite: 28.9
   shared: 1
 - slug: ujet
   name: UJET
@@ -99,72 +120,59 @@ providers:
   score_band: thin
   score_composite: 27.2
   shared: 1
-- slug: suppfusion
-  name: Support Fusion
-  description: Support Fusion provides a platform that connects IT teams across companies and platforms, enabling bidirectional sync, multi‑platform integration, and zero‑storage ticketing. It offers features such as field mapping, sync filters, history, and extensive partner integrations, targeting service provi…
-  api_count: 1
-  score_band: emerging
-  score_composite: 25.5
-  shared: 1
-- slug: acornreply-com
-  name: AcornReply
-  description: AcornReply provides a support inbox solution for small teams, enabling them to receive customer messages via email, live chat, or API, and reply with AI‑assisted drafts in their own voice. The platform emphasizes simplicity, no ticket numbers, and quick setup, targeting teams of under ten who want…
-  api_count: 1
-  score_band: emerging
-  score_composite: 24.7
-  shared: 1
 - slug: fixify
   name: Fixify
   description: Fixify is an AI-native IT help desk automation platform that resolves tier-1 IT support requests and workflows on behalf of internal IT teams and MSPs. It builds AI-generated playbooks from a customer's existing tech stack and executes dynamic automations across chat surfaces (Slack, Teams, email)…
   api_count: 0
   score_band: emerging
-  score_composite: 23.5
-  shared: 1
-- slug: dovri-io
-  name: Dovri
-  description: Dovri provides an AI‑powered support desk that integrates directly into your product’s chat interface. Teams can read conversations within Dovri and reply inside the customer’s chat, enabling seamless assistance without leaving the app. The platform offers free workspace for one app, supports email…
-  api_count: 1
-  score_band: emerging
-  score_composite: 21.3
+  score_composite: 25.0
   shared: 1
 - slug: certainly
   name: Certainly
   description: Certainly provides AI‑enabled customer experience and support solutions, combining intelligent automation with human oversight to handle routine requests instantly while routing complex interactions to experts. Their platform supports multiple channels, offering speed, consistency, and care across…
   api_count: 0
   score_band: emerging
-  score_composite: 17.4
+  score_composite: 23.1
+  shared: 1
+- slug: dovri-io
+  name: Dovri
+  description: Dovri provides an AI‑powered support desk that integrates directly into your product’s chat interface. Teams can read conversations within Dovri and reply inside the customer’s chat, enabling seamless assistance without leaving the app. The platform offers free workspace for one app, supports email…
+  api_count: 1
+  score_band: emerging
+  score_composite: 18.1
   shared: 1
 - slug: aptedge
   name: AptEdge
   description: AptEdge provides AI-powered autonomous support agents for B2B technical support, enabling enterprises to resolve tickets, bridge knowledge gaps, and assist engineers across CRM and knowledge bases. Their platform includes products like Autonomous Support Response, Knowledge Gap Analysis, Engineer A…
   api_count: 0
   score_band: minimal
-  score_composite: 6.3
+  score_composite: 8.5
   shared: 1
 provider_slugs:
-- service-cloud
 - zendesk
+- service-cloud
 - plain
 - deskcrew-io
-- salesforce-knowledge-management
 - snipe-it
+- salesforce-knowledge-management
+- zammad
 - cisco-support-apis
+- useclad-ai
+- suppfusion
 - mendable
+- acornreply-com
 - inkeep
 - papercups
-- zammad
-- useclad-ai
+- heycactus-ai
 - ujet
-- suppfusion
-- acornreply-com
 - fixify
-- dovri-io
 - certainly
+- dovri-io
 - aptedge
 related: []
 overview: 'Support is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [support.apievangelist.com](https://support.apievangelist.com).
 
 
-  19 providers on the network work in this area, including Salesforce Service Cloud APIs, Zendesk, Plain, DeskCrew, Salesforce Knowledge Management, Snipe-IT, and 13 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
+  20 providers on the network work in this area, including Zendesk, Salesforce Service Cloud APIs, Plain, DeskCrew, Snipe-IT, Salesforce Knowledge Management, and 14 more — each links out to that provider''s APIs, schemas, and governance artifacts.'
 terms: []
 ---

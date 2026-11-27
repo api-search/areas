@@ -13,14 +13,14 @@ providers:
   description: Prosci is a global leader in change management research, methodology, and solutions. They provide change management training, certification, tools, and consulting services to help organizations successfully implement change initiatives.
   api_count: 1
   score_band: thin
-  score_composite: 31.6
+  score_composite: 31.4
   shared: 1
 - slug: agile-today-org
   name: Agile Today
   description: Agile Today provides a methodology graph for AI agents to manage projects through a structured set of gates and stages. The platform integrates practices from PMBOK®, PRINCE2®, Scrum, Kanban, and BABOK®, offering reproducible, traceable decision support for hybrid delivery, complex scopes, and fixe…
   api_count: 0
-  score_band: minimal
-  score_composite: 9.2
+  score_band: emerging
+  score_composite: 16.6
   shared: 1
 provider_slugs:
 - prosci

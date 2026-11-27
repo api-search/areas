@@ -10,6 +10,7 @@ layout: none
   {% for item in site.areas %}{% unless item.sitemap == false or item.layout == 'redirect' %}
   <url>
     <loc>{{ site.url }}{{ item.url }}</loc>
+    {% if item.modified %}<lastmod>{{ item.modified | date_to_xmlschema }}</lastmod>{% endif %}
     <priority>0.8</priority>
   </url>
   {% endunless %}{% endfor %}

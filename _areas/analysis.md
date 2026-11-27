@@ -6,56 +6,63 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://analysis.apievangelist.com
 area_host: analysis.apievangelist.com
 icon: https://analysis.apievangelist.com/icon-thumb.png
-provider_count: 8
+provider_count: 9
 providers:
 - slug: new-relic
   name: New Relic
   description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain real‑time visibility into cloud costs, multi‑cloud and Kuberne…
   api_count: 5
   score_band: exemplar
-  score_composite: 76.5
+  score_composite: 74.4
   shared: 1
 - slug: tago-io
   name: TagoIO
   description: TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO…
   api_count: 1
   score_band: developing
-  score_composite: 49.1
+  score_composite: 47.2
   shared: 1
 - slug: dsg-sports-analytics
   name: DSG Sports Analytics
   description: DSG Sports Analytics, operated by Data Sports Group, is a sports data provider offering live scores, statistics, historical data, fixtures, player and team information, and odds across more than 80 sports including soccer, basketball, American football, cricket, tennis, ice hockey, e-sports, and Ol…
   api_count: 1
   score_band: emerging
-  score_composite: 22.5
+  score_composite: 23.5
+  shared: 1
+- slug: chessxray-com
+  name: Chess X-Ray
+  description: Chess X-Ray offers AI-powered analysis of chess games. Users can submit their Chess.com or Lichess games, which are evaluated move-by-move using Stockfish. The service returns detailed coaching videos that explain strengths, weaknesses, and strategic insights. It aims to help players improve by pro…
+  api_count: 0
+  score_band: emerging
+  score_composite: 15.5
   shared: 1
 - slug: lumafield
   name: Lumafield
   description: Lumafield is a manufacturing technology company that builds accessible industrial X-ray computed tomography (CT) scanning hardware and AI-powered cloud analysis software. Its Neptune and Triton scanners pair with the Voyager cloud platform so engineers and manufacturers can inspect the inside of pa…
   api_count: 0
   score_band: emerging
-  score_composite: 14.8
+  score_composite: 15.5
   shared: 1
 - slug: domo
   name: Domo
   description: Domo is a cloud-based software company that specializes in providing business intelligence tools for organizations. Their platform allows businesses to gather, analyze, and visualize data from various sources in order to make more informed decisions. Domo helps companies streamline their data manag…
   api_count: 1
   score_band: emerging
-  score_composite: 12.6
+  score_composite: 11.6
   shared: 1
 - slug: lf-research
   name: LF Research
   description: LF Research is the Linux Foundation's research arm that publishes reports and studies on open source trends, OSPO practices, technology adoption, and industry analysis. It provides data-driven insights to help organizations understand and participate in open source ecosystems.
   api_count: 1
-  score_band: emerging
-  score_composite: 11.4
+  score_band: minimal
+  score_composite: 10.8
   shared: 1
 - slug: api-insights
   name: API Insights
   description: API Insights is a free online tool powered by Treblle that provides advanced API analysis and monitoring by evaluating OpenAPI specifications across multiple dimensions including AI readiness, design quality, performance, and security. It scores APIs against industry benchmarks and provides actiona…
   api_count: 1
   score_band: minimal
-  score_composite: 9.8
+  score_composite: 8.5
   shared: 1
 - slug: blast-radius-ai
   name: Blast Radius
@@ -68,6 +75,7 @@ provider_slugs:
 - new-relic
 - tago-io
 - dsg-sports-analytics
+- chessxray-com
 - lumafield
 - domo
 - lf-research
@@ -83,15 +91,12 @@ related:
 - slug: performance
   name: Performance
   shared: 1
-- slug: visualization
-  name: Visualization
-  shared: 1
 overview: 'Analysis is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [analysis.apievangelist.com](https://analysis.apievangelist.com).
 
 
-  8 providers on the network work in this area, including New Relic, TagoIO, DSG Sports Analytics, Lumafield, Domo, LF Research, and 2 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  9 providers on the network work in this area, including New Relic, TagoIO, DSG Sports Analytics, Chess X-Ray, Lumafield, Domo, and 3 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: Monitoring, Observability, Performance, and Visualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Monitoring, Observability, and Performance. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 terms: []
 ---

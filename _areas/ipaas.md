@@ -13,284 +13,284 @@ providers:
   description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (…
   api_count: 4
   score_band: exemplar
-  score_composite: 89.6
+  score_composite: 89.5
+  shared: 1
+- slug: aws-step-functions
+  name: AWS Step Functions
+  description: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error handling and retries.
+  api_count: 9
+  score_band: exemplar
+  score_composite: 74.5
   shared: 1
 - slug: jitterbit
   name: Jitterbit
   description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway),…
   api_count: 1
   score_band: exemplar
-  score_composite: 72.9
+  score_composite: 73.1
   shared: 1
 - slug: zapier
   name: Zapier
   description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
   api_count: 1
   score_band: exemplar
-  score_composite: 72.0
-  shared: 1
-- slug: integration-os
-  name: IntegrationOS
-  description: IntegrationOS was a unified API platform that let developers add third-party integrations to their products with a single API call. The company rebranded as Pica (picaos.com) and then, on 2026-03-25, as One (withone.ai) — the provider's own changelog records the step as "Pica is now One". One is an…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 69.4
+  score_composite: 72.9
   shared: 1
 - slug: workato
   name: Workato
   description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases…
   api_count: 4
   score_band: exemplar
-  score_composite: 69.2
+  score_composite: 70.5
+  shared: 1
+- slug: emporix
+  name: Emporix
+  description: Emporix (Emporix AG) is a German commerce software company offering the Autonomous Commerce Execution (ACE) platform, a composable, API-first digital commerce platform for B2B and B2C that combines core commerce services, commerce orchestration with a no-code value stream modeler, agentic commerce…
+  api_count: 44
+  score_band: exemplar
+  score_composite: 69.1
   shared: 1
 - slug: boomi
   name: Boomi
   description: Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline proc…
   api_count: 3
   score_band: exemplar
-  score_composite: 69.0
+  score_composite: 68.5
+  shared: 1
+- slug: integration-os
+  name: IntegrationOS
+  description: IntegrationOS was a unified API platform that let developers add third-party integrations to their products with a single API call. The company rebranded as Pica (picaos.com) and then, on 2026-03-25, as One (withone.ai) — the provider's own changelog records the step as "Pica is now One". One is an…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 68.0
   shared: 1
 - slug: pandium
   name: Pandium
   description: Transform integration development from a fragmented, ad hoc process into a streamlined, repeatable workflow with Pandiums Integration Platform. With Pandium, B2B SaaS companies can meet customer demands, reduce technical debt, and stay ahead in an increasingly connected world.
   api_count: 2
-  score_band: exemplar
-  score_composite: 67.8
+  score_band: strong
+  score_composite: 63.8
   shared: 1
 - slug: snaplogic
   name: SnapLogic
   description: SnapLogic provides an Agentic Integration and Applied AI Platform that securely connects applications, data, APIs and AI agents across cloud, on‑premise and hybrid environments for enterprises. The platform offers visual ETL/ELT, no‑code iPaaS, API management, legacy modernization tools, and govern…
   api_count: 1
   score_band: strong
-  score_composite: 61.3
+  score_composite: 63.7
   shared: 1
-- slug: 3shake
-  name: 3-shake
-  description: 3-shake, Inc. (株式会社スリーシェイク) is a Tokyo-based cloud and reliability engineering company, founded in 2015, that operates four product lines. Sreake is its SRE / platform-engineering consulting and managed-operations practice for AWS, Google Cloud and Kubernetes. Reckoner is a no-code ETL and data-int…
-  api_count: 1
+- slug: azure-logic-apps
+  name: Azure Logic Apps
+  description: Azure Logic Apps is a cloud-based integration platform that enables you to create and run automated workflows integrating apps, data, services, and systems across cloud and on-premises environments.
+  api_count: 2
   score_band: strong
-  score_composite: 60.3
+  score_composite: 60.7
   shared: 1
 - slug: agave
   name: Agave
   description: Agave is a unified API platform for the construction industry, enabling software companies and contractors to read and write data across 100+ construction and accounting software systems including Procore, Autodesk Build, QuickBooks, Sage, Viewpoint, and more.
   api_count: 18
   score_band: strong
-  score_composite: 59.8
+  score_composite: 59.7
   shared: 1
-- slug: emporix
-  name: Emporix
-  description: Emporix (Emporix AG) is a German commerce software company offering the Autonomous Commerce Execution (ACE) platform, a composable, API-first digital commerce platform for B2B and B2C that combines core commerce services, commerce orchestration with a no-code value stream modeler, agentic commerce…
-  api_count: 44
+- slug: 3shake
+  name: 3-shake
+  description: 3-shake, Inc. (株式会社スリーシェイク) is a Tokyo-based cloud and reliability engineering company, founded in 2015, that operates four product lines. Sreake is its SRE / platform-engineering consulting and managed-operations practice for AWS, Google Cloud and Kubernetes. Reckoner is a no-code ETL and data-int…
+  api_count: 1
   score_band: strong
-  score_composite: 59.3
-  shared: 1
-- slug: vessel
-  name: Vessel
-  description: Vessel (Kinit Inc.) is a developer-first embedded integrations platform for go-to-market software. It gives a product team one contract to read and write an end customer's CRM, sales engagement, chat, dialer and marketing automation tools, plus a drop-in browser component — Vessel Link — that handl…
-  api_count: 20
-  score_band: strong
-  score_composite: 59.3
+  score_composite: 59.2
   shared: 1
 - slug: oracle-integration
   name: Oracle Integration
   description: Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises applications, such as Oracle ERP Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP, NetSuite and others. It combines application integration, process automation,…
   api_count: 25
   score_band: strong
-  score_composite: 58.2
+  score_composite: 58.1
   shared: 1
-- slug: syncari
-  name: Syncari
-  description: Syncari is an agentic master data management (MDM) and data unification platform that syncs, cleans, governs and activates business data across CRM, marketing, finance, support and warehouse systems from a single unified data model. Its multidirectional stateful sync engine connects 50+ prebuilt "S…
-  api_count: 2
+- slug: vessel
+  name: Vessel
+  description: Vessel (Kinit Inc.) is a developer-first embedded integrations platform for go-to-market software. It gives a product team one contract to read and write an end customer's CRM, sales engagement, chat, dialer and marketing automation tools, plus a drop-in browser component — Vessel Link — that handl…
+  api_count: 20
   score_band: strong
-  score_composite: 58.2
+  score_composite: 57.3
   shared: 1
 - slug: skyvia
   name: Skyvia
   description: 'Skyvia is a no-code cloud data platform from Devart covering five products on one account: Data Integration (import, export, replication, synchronization, data flow and control flow across 200+ cloud apps and databases), Automation (trigger-driven business process automation with schedule, polling-…'
   api_count: 1
   score_band: strong
-  score_composite: 58.1
-  shared: 1
-- slug: aws-step-functions
-  name: AWS Step Functions
-  description: AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error handling and retries.
-  api_count: 10
-  score_band: strong
   score_composite: 56.9
+  shared: 1
+- slug: syncari
+  name: Syncari
+  description: Syncari is an agentic master data management (MDM) and data unification platform that syncs, cleans, governs and activates business data across CRM, marketing, finance, support and warehouse systems from a single unified data model. Its multidirectional stateful sync engine connects 50+ prebuilt "S…
+  api_count: 2
+  score_band: strong
+  score_composite: 56.8
+  shared: 1
+- slug: meshes
+  name: Meshes
+  description: Meshes provides an embedded integration platform as a service (iPaaS) enabling SaaS applications to easily connect, route, and manage outbound integrations. The platform offers features such as multi‑tenant workspaces, fan‑out routing, retry handling, webhook support, and detailed delivery history.…
+  api_count: 2
+  score_band: strong
+  score_composite: 56.4
+  shared: 1
+- slug: knit
+  name: Knit
+  description: Knit is a unified API platform for B2B products, AI agents, and MCP clients, providing integrations infrastructure for HR, recruitment, and collaboration tools. Knit manages cron jobs, rate limits, and retries out of the box for predictable data syncing at scale.
+  api_count: 1
+  score_band: strong
+  score_composite: 55.4
   shared: 1
 - slug: runautomat
   name: Runautomat
   description: Runautomat (dba Automat) builds AI agents that operate computers the way people do, replacing legacy RPA tools like UiPath, Automation Anywhere, and Blue Prism with self-healing managed automations. Founded in 2022 by ex-Google engineers Lucas Ochoa and Gautam Bose and backed by Felicis, Khosla Ven…
   api_count: 1
   score_band: developing
-  score_composite: 53.6
-  shared: 1
-- slug: hull
-  name: Hull
-  description: Hull is a real-time Customer Data Platform (CDP) that unifies customer data from every source — web, product, CRM, marketing and support tools, databases and files — into a single User and Account profile using claim-based identity resolution. It ingests, computes and enriches data through a data-l…
-  api_count: 1
-  score_band: developing
-  score_composite: 52.6
+  score_composite: 53.2
   shared: 1
 - slug: rewst
   name: Rewst
   description: Rewst is a workflow automation and integration (iPaaS/RPA) platform built specifically for managed service providers (MSPs). It combines a visual workflow builder, a form builder, an app builder, 90+ managed MSP integrations (PSA, RMM, Microsoft 365, security tools), reusable automation packages ca…
   api_count: 1
   score_band: developing
-  score_composite: 49.6
-  shared: 1
-- slug: azure-logic-apps
-  name: Azure Logic Apps
-  description: Azure Logic Apps is a cloud-based integration platform that enables you to create and run automated workflows integrating apps, data, services, and systems across cloud and on-premises environments.
-  api_count: 1
-  score_band: developing
-  score_composite: 49.4
-  shared: 1
-- slug: morf
-  name: Morf
-  description: Morf is a HIPAA-compliant healthcare automation and integration platform that connects EHRs, CRMs, payment systems, and communication tools so digital health teams can eliminate manual work and put patient outreach on autopilot. Workflows are triggered by inbound webhooks from source applications (…
-  api_count: 1
-  score_band: developing
-  score_composite: 48.4
+  score_composite: 51.2
   shared: 1
 - slug: flume-health
   name: Flume Health
   description: Flume Health is a New York based healthcare data platform for the payer ecosystem. Its Relay product is an integration platform (iPaaS) that maps eligibility, claims, and other health plan data between source and destination Endpoints — SFTP, cloud storage, databases, Snowflake, and APIs — through…
   api_count: 1
   score_band: developing
-  score_composite: 47.4
+  score_composite: 50.0
   shared: 1
-- slug: knit
-  name: Knit
-  description: Knit is a unified API platform for B2B products, AI agents, and MCP clients, providing integrations infrastructure for HR, recruitment, and collaboration tools. Knit manages cron jobs, rate limits, and retries out of the box for predictable data syncing at scale.
+- slug: hull
+  name: Hull
+  description: Hull is a real-time Customer Data Platform (CDP) that unifies customer data from every source — web, product, CRM, marketing and support tools, databases and files — into a single User and Account profile using claim-based identity resolution. It ingests, computes and enriches data through a data-l…
   api_count: 1
   score_band: developing
-  score_composite: 47.4
+  score_composite: 49.6
   shared: 1
-- slug: sap-integration-suite
-  name: SAP Integration Suite
-  description: SAP Integration Suite is an enterprise integration platform as a service (iPaaS) that connects applications, processes, and people across cloud and on-premises environments. It includes capabilities for Cloud Integration, API Management, Integration Advisor, Open Connectors, Trading Partner Managem…
-  api_count: 2
+- slug: morf
+  name: Morf
+  description: Morf is a HIPAA-compliant healthcare automation and integration platform that connects EHRs, CRMs, payment systems, and communication tools so digital health teams can eliminate manual work and put patient outreach on autopilot. Workflows are triggered by inbound webhooks from source applications (…
+  api_count: 1
   score_band: developing
-  score_composite: 46.9
+  score_composite: 47.0
   shared: 1
 - slug: celigo
   name: Celigo
   description: Celigo is an intelligent automation platform (iPaaS) that enables organizations to integrate applications, automate business processes, and connect data across their technology stack with low-code tooling. Celigo offers a REST-based integrator.io Platform API, an API Management console, OAuth 2.0 a…
   api_count: 1
   score_band: developing
-  score_composite: 46.6
+  score_composite: 46.7
   shared: 1
 - slug: integrately
   name: Integrately
   description: Integrately is a one-click workflow automation platform offering 20 million+ ready-to-use automations across 1500+ applications. It positions itself as a no-code, lower-cost alternative to other iPaaS and workflow tools, using SmartConnect technology to auto-detect connections between apps and bund…
   api_count: 1
   score_band: developing
-  score_composite: 45.7
+  score_composite: 45.4
   shared: 1
-- slug: elastic-io
-  name: Elastic.io
-  description: Elastic IO is a cloud-based integration platform that helps businesses effortlessly connect their various applications, systems, and services. By providing a user-friendly interface and a wide range of pre-built connectors, elastic.io allows organizations to automate and streamline their data integ…
-  api_count: 1
+- slug: sap-integration-suite
+  name: SAP Integration Suite
+  description: SAP Integration Suite is an enterprise integration platform as a service (iPaaS) that connects applications, processes, and people across cloud and on-premises environments. It includes capabilities for Cloud Integration, API Management, Integration Advisor, Open Connectors, Trading Partner Managem…
+  api_count: 2
   score_band: developing
-  score_composite: 45.6
+  score_composite: 45.1
   shared: 1
 - slug: make
   name: Make
   description: Make (formerly Integromat) is a visual scenario-based automation builder with advanced data transformation and routing logic.
   api_count: 1
   score_band: developing
-  score_composite: 43.5
+  score_composite: 43.4
   shared: 1
 - slug: reachware-inc
   name: Reachware
   description: Reachware is an Integration Platform as a Service (iPaaS) that lets separate SaaS and business systems operate as one connected ecosystem, with 200+ prebuilt connectors to systems like NetSuite, QuickBooks, Microsoft Dynamics 365, Odoo, SAP, Oracle, Magento, Zid and Qoyod. Alongside the core platfo…
   api_count: 1
   score_band: developing
-  score_composite: 42.8
+  score_composite: 43.0
   shared: 1
-- slug: modusbox
-  name: ModusBox
-  description: ModusBox now operates as PortX, Inc. — modusbox.com 301s to portx.io. PortX is an AI-native integration platform (iPaaS) purpose-built for community banks, credit unions and fintechs. The PortX Platform spans Integration Manager (core, fintech and enterprise API integration), Data Manager (a govern…
+- slug: elastic-io
+  name: Elastic.io
+  description: Elastic IO is a cloud-based integration platform that helps businesses effortlessly connect their various applications, systems, and services. By providing a user-friendly interface and a wide range of pre-built connectors, elastic.io allows organizations to automate and streamline their data integ…
   api_count: 1
   score_band: developing
-  score_composite: 42.6
+  score_composite: 42.8
   shared: 1
 provider_slugs:
 - tray-ai
+- aws-step-functions
 - jitterbit
 - zapier
-- integration-os
 - workato
+- emporix
 - boomi
+- integration-os
 - pandium
 - snaplogic
-- 3shake
-- agave
-- emporix
-- vessel
-- oracle-integration
-- syncari
-- skyvia
-- aws-step-functions
-- runautomat
-- hull
-- rewst
 - azure-logic-apps
-- morf
-- flume-health
+- agave
+- 3shake
+- oracle-integration
+- vessel
+- skyvia
+- syncari
+- meshes
 - knit
-- sap-integration-suite
+- runautomat
+- rewst
+- flume-health
+- hull
+- morf
 - celigo
 - integrately
-- elastic-io
+- sap-integration-suite
 - make
 - reachware-inc
+- elastic-io
+- appseconnect
 - modusbox
-- meshes
-- hotglue
 - automat
-- jetic
-- software-ag
-- sandbox-banking
+- hotglue
 - middle
 - koodisi
-- alloy-automation
-- useparagon
-- eonesolutions
-- appseconnect
+- jetic
 - klamp
-- apifuse
-- ebridgeconnections
+- eonesolutions
+- software-ag
 - alumio
-- ifttt
+- sandbox-banking
+- ebridgeconnections
+- useparagon
+- alloy-automation
+- aonflow
 - unifyapps
 - apizr
+- apifuse
+- ifttt
 - wevo
-- aonflow
-- lonti
-- frends
-- datablend
-- lingk
 - cazoomi
-- locoia
-- emagiz
-- cloudqix
-- ibm-app-connect
-- locale
-- web-methods
+- lingk
+- datablend
 - thecloudconnectors
+- emagiz
+- frends
+- lonti
 - cintaporbit
-- oneio
+- cloudqix
+- locoia
 - edicom
 - bizdata360
 - magicsoftware
 - actrecipe
+- ibm-app-connect
 - inter-operate
-- hubbroker
 - synqup
+- locale
+- web-methods
+- oneio
+- hubbroker
 - plumbed
 - devapi
 - azuqua
@@ -298,16 +298,16 @@ provider_slugs:
 related:
 - slug: embedded-ipaas
   name: Embedded iPaaS
-  shared: 18
+  shared: 21
 - slug: workflow-automation
   name: Workflow Automation
   shared: 8
 - slug: management
   name: Management
-  shared: 5
+  shared: 6
 - slug: ai-automation
   name: AI Automation
-  shared: 4
+  shared: 3
 - slug: orchestration
   name: Orchestration
   shared: 3
@@ -317,7 +317,7 @@ related:
 overview: 'iPaaS is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [ipaas.apievangelist.com](https://ipaas.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Tray.ai, Jitterbit, Zapier, IntegrationOS, Workato, Boomi, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Tray.ai, AWS Step Functions, Jitterbit, Zapier, Workato, Emporix, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
   Related areas: Embedded iPaaS, Workflow Automation, Management, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'

@@ -13,21 +13,21 @@ providers:
   description: WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and application orchestration platform that helps organizations build, deploy, manage, and observe APIs, microservices, integrations, and AI applications across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or ups…
   api_count: 3
   score_band: strong
-  score_composite: 56.5
+  score_composite: 56.4
   shared: 1
 - slug: unifically-com
   name: unifically-com
   description: UnificAlly provides a unified AI API that aggregates over 120 video, image, audio, and text generation models, including Veo, Suno, Kling, GPT, Claude, and many others. Users can access these models via a single REST endpoint, paying per generation with no subscription or contracts. The platform of…
   api_count: 2
   score_band: thin
-  score_composite: 26.9
+  score_composite: 34.7
   shared: 1
 - slug: gridsquid
   name: Grid Squid
   description: Grid Squid provides a unified CRM API that connects developers to five major CRM platforms, simplifying authentication, bulk import/export, and data synchronization. The service offers a single endpoint to manage contacts, leads, and other CRM entities, reducing integration complexity and accelerat…
   api_count: 1
   score_band: emerging
-  score_composite: 11.5
+  score_composite: 12.3
   shared: 1
 provider_slugs:
 - choreo

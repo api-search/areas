@@ -6,35 +6,35 @@ description: A curated index of services, tooling, and open source solutions for
 area_url: https://authentication.apievangelist.com
 area_host: authentication.apievangelist.com
 icon: https://authentication.apievangelist.com/icon-thumb.png
-provider_count: 423
+provider_count: 428
 providers:
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js,…
   api_count: 55
   score_band: exemplar
-  score_composite: 90.3
-  shared: 1
-- slug: azure-ad
-  name: Microsoft Entra ID (formerly Azure AD)
-  description: Microsoft's cloud-based identity and access management service that helps employees sign in and access resources. Azure AD provides OAuth, OpenID Connect, SAML, and other identity protocols for securing applications and managing user identities.
-  api_count: 9
-  score_band: exemplar
-  score_composite: 89.0
+  score_composite: 90.8
   shared: 1
 - slug: kinde
   name: Kinde
   description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, K…
   api_count: 2
   score_band: exemplar
-  score_composite: 88.8
+  score_composite: 89.0
   shared: 1
 - slug: zoho-crm
   name: Zoho CRM
   description: Zoho CRM is Zoho Corporation's AI-powered sales and customer relationship management platform, used to manage leads, contacts, accounts, deals, activities and customer engagement across channels. Its REST API is currently at v8 and is published as first-party OpenAPI 3.1.0 — 105 specification files…
   api_count: 105
   score_band: exemplar
-  score_composite: 86.0
+  score_composite: 85.4
+  shared: 1
+- slug: azure-ad
+  name: Microsoft Entra ID (formerly Azure AD)
+  description: Microsoft's cloud-based identity and access management service that helps employees sign in and access resources. Azure AD provides OAuth, OpenID Connect, SAML, and other identity protocols for securing applications and managing user identities.
+  api_count: 10
+  score_band: exemplar
+  score_composite: 85.1
   shared: 1
 - slug: appwrite
   name: Appwrite
@@ -43,23 +43,23 @@ providers:
   score_band: exemplar
   score_composite: 84.6
   shared: 1
+- slug: okta
+  name: Okta
+  description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Secur…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 81.8
+  shared: 1
 - slug: convertkit
   name: Kit
   description: Kit (formerly ConvertKit) is a creator email marketing platform whose REST API v4 covers subscribers, tags, custom fields, forms and landing pages, sequences, broadcasts, snippets, posts, purchases, segments and webhooks across 72 operations on https://api.kit.com/v4. It authenticates with an X-Kit…
   api_count: 2
   score_band: exemplar
-  score_composite: 79.6
+  score_composite: 80.4
   shared: 1
 - slug: drchrono
   name: drchrono
   description: drchrono, part of EverCommerce's EverHealth portfolio, is an all-in-one EHR, practice management and medical billing platform for independent US medical practices. It publishes two distinct machine-readable API surfaces. The proprietary REST v4 API (codename Hunt Valley) is an OAuth 2.0-secured con…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 79.5
-  shared: 1
-- slug: okta
-  name: Okta
-  description: Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Secur…
   api_count: 2
   score_band: exemplar
   score_composite: 78.0
@@ -69,91 +69,112 @@ providers:
   description: Telesign provides a comprehensive suite of communications and security APIs enabling businesses to verify phone numbers, send SMS, omnichannel and voice messages, and assess fraud risk. The developer portal publishes 22 OpenAPI contracts (65 operations) covering SMS Verify, Voice Verify, Silent Ver…
   api_count: 28
   score_band: exemplar
-  score_composite: 76.9
-  shared: 1
-- slug: cvent-registration
-  name: Cvent Registration
-  description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 76.7
-  shared: 1
-- slug: cvent
-  name: Cvent
-  description: Cvent is a leading meetings, events, and hospitality technology provider with over 4,800 employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration, mobile event apps, virtual and hybrid events, Attendee Hub, surveys, Diagramming, and analytics)…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 76.6
+  score_composite: 77.6
   shared: 1
 - slug: aembit
   name: Aembit
   description: Aembit is a Workload Identity and Access Management (Workload IAM) platform for non-human identities — AI agents, applications, microservices, CI/CD pipelines, scripts and service accounts. Instead of long-lived, hard-coded secrets, Aembit cryptographically attests a workload against a Trust Provid…
   api_count: 2
   score_band: exemplar
-  score_composite: 75.9
-  shared: 1
-- slug: authentik
-  name: Authentik
-  description: Authentik is an open source identity provider from Authentik Security Inc., a public benefit company, exposing a 1,193-operation REST API at /api/v3 on every self-hosted instance. The published OpenAPI covers users, groups, applications, tokens, RBAC, flows, stages, policies, property mappings, out…
-  api_count: 1
-  score_band: exemplar
   score_composite: 74.5
   shared: 1
-- slug: strivacity
-  name: Strivacity
-  description: Strivacity is a customer identity and access management (CIAM) vendor that runs a single-tenant, dedicated-cloud identity platform for consumer, partner, B2B and — since its Agentic AI release — AI-agent identities. The product covers registration and self-service, adaptive multi-factor authenticat…
+- slug: amazon-cognito
+  name: Amazon Cognito
+  description: Amazon Cognito is a fully managed AWS user identity and authentication service that adds sign-up, sign-in, and access control to web and mobile applications, scaling to millions of users. It provides User Pools for authentication (user directories, MFA, customizable auth flows) and Identity Pools f…
   api_count: 8
   score_band: exemplar
-  score_composite: 74.2
+  score_composite: 74.5
   shared: 1
 - slug: tvarka
   name: Tvarka ATK API
   description: A single REST API estate for Lithuanian eID authentication and qualified electronic signing (QES). The ATK API reads the Lithuanian identity card itself - physical smart-card reader or NFC phone tap - through one request, polling, webhook and metering model, and adds standalone validation, timestam…
   api_count: 4
   score_band: exemplar
-  score_composite: 74.1
-  shared: 1
-- slug: microsoft-entra
-  name: Microsoft Entra
-  description: Microsoft Entra (formerly Azure Active Directory) is Microsoft's family of identity and network access products, providing authentication, authorization, directory, identity governance, external identities, verifiable credentials and secure access services. Its APIs are exposed mainly through Micro…
-  api_count: 1
-  score_band: exemplar
   score_composite: 73.9
   shared: 1
-- slug: hootsuite
-  name: Hootsuite
-  description: Hootsuite is a social media management platform that lets organizations schedule posts, monitor conversations, run paid campaigns, and analyze performance across LinkedIn, X (Twitter), Facebook, Instagram, TikTok, YouTube, and Pinterest from a single dashboard. The platform serves marketers, agenci…
+- slug: cvent-registration
+  name: Cvent Registration
+  description: Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is expose…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 73.6
+  shared: 1
+- slug: strivacity
+  name: Strivacity
+  description: Strivacity is a customer identity and access management (CIAM) vendor that runs a single-tenant, dedicated-cloud identity platform for consumer, partner, B2B and — since its Agentic AI release — AI-agent identities. The product covers registration and self-service, adaptive multi-factor authenticat…
   api_count: 8
   score_band: exemplar
-  score_composite: 72.7
-  shared: 1
-- slug: aweber
-  name: AWeber
-  description: AWeber is an email marketing and automation platform for small businesses, creators, and entrepreneurs providing email broadcasts, drip campaigns, landing pages, sign-up forms, and subscriber management. The AWeber REST API at api.aweber.com offers full programmatic access to lists, subscribers, br…
-  api_count: 5
-  score_band: exemplar
-  score_composite: 72.2
+  score_composite: 73.5
   shared: 1
 - slug: clerk-com
   name: Clerk
   description: Clerk is a complete user management and authentication infrastructure platform offering embeddable UI components, flexible APIs, and admin dashboards. It provides full-stack authentication including multi-factor authentication, social sign-on, passkeys, organizations for B2B SaaS, billing, session…
   api_count: 8
   score_band: exemplar
-  score_composite: 72.2
+  score_composite: 73.4
   shared: 1
-- slug: auth0
-  name: Auth0
-  description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes a Management API (OpenAPI 3.1, 221 paths, 2,567 schemas), an…
-  api_count: 4
+- slug: authentik
+  name: Authentik
+  description: Authentik is an open source identity provider from Authentik Security Inc., a public benefit company, exposing a 1,193-operation REST API at /api/v3 on every self-hosted instance. The published OpenAPI covers users, groups, applications, tokens, RBAC, flows, stages, policies, property mappings, out…
+  api_count: 1
   score_band: exemplar
-  score_composite: 72.1
+  score_composite: 73.1
+  shared: 1
+- slug: hootsuite
+  name: Hootsuite
+  description: Hootsuite is a social media management platform that lets organizations schedule posts, monitor conversations, run paid campaigns, and analyze performance across LinkedIn, X (Twitter), Facebook, Instagram, TikTok, YouTube, and Pinterest from a single dashboard. The platform serves marketers, agenci…
+  api_count: 8
+  score_band: exemplar
+  score_composite: 72.8
   shared: 1
 - slug: zuplo
   name: Zuplo
   description: Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.
   api_count: 1
   score_band: exemplar
-  score_composite: 72.0
+  score_composite: 72.8
+  shared: 1
+- slug: cvent
+  name: Cvent
+  description: Cvent is a leading meetings, events, and hospitality technology provider with over 4,800 employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration, mobile event apps, virtual and hybrid events, Attendee Hub, surveys, Diagramming, and analytics)…
+  api_count: 2
+  score_band: exemplar
+  score_composite: 72.6
+  shared: 1
+- slug: auth0
+  name: Auth0
+  description: Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes a Management API (OpenAPI 3.1, 221 paths, 2,567 schemas), an…
+  api_count: 4
+  score_band: exemplar
+  score_composite: 71.8
+  shared: 1
+- slug: google-cloud-api-gateway
+  name: Google Cloud API Gateway
+  description: Google Cloud API Gateway enables you to provide secure access to your backend services through a well-defined REST API that is consistent across all of your services. It is a fully managed, pay-per-use gateway designed for serverless workloads, supporting Cloud Functions, Cloud Run, and App Engine…
+  api_count: 1
+  score_band: exemplar
+  score_composite: 71.8
+  shared: 1
+- slug: aweber
+  name: AWeber
+  description: AWeber is an email marketing and automation platform for small businesses, creators, and entrepreneurs providing email broadcasts, drip campaigns, landing pages, sign-up forms, and subscriber management. The AWeber REST API at api.aweber.com offers full programmatic access to lists, subscribers, br…
+  api_count: 5
+  score_band: exemplar
+  score_composite: 71.7
+  shared: 1
+- slug: active-directory
+  name: Microsoft Active Directory
+  description: Microsoft Active Directory and Microsoft Entra ID provide identity and access management for organizations of all sizes. Microsoft Graph API is the unified REST API gateway for accessing and managing Microsoft Entra ID (formerly Azure Active Directory), including users, groups, applications, device…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 71.3
+  shared: 1
+- slug: amazon-iam-identity-center
+  name: Amazon IAM Identity Center
+  description: AWS IAM Identity Center (successor to AWS Single Sign-On) is where you create, or connect, your workforce identities in AWS once and manage access centrally across your AWS organization. You can create user identities directly in IAM Identity Center, or bring them from Microsoft Active Directory, a…
+  api_count: 12
+  score_band: exemplar
+  score_composite: 71.2
   shared: 1
 - slug: immutable
   name: Immutable
@@ -162,479 +183,463 @@ providers:
   score_band: exemplar
   score_composite: 71.1
   shared: 1
-- slug: cvent-event-cloud
-  name: Cvent Event Cloud
-  description: 'Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hybrid event delivery via the Attendee Hub, surveys, and analyt…'
-  api_count: 2
+- slug: amazon-iam
+  name: Amazon IAM
+  description: Amazon Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users, groups, roles, and policies, and use permissions to allow and deny their access to AWS resources. IAM is a feature of your AWS account off…
+  api_count: 28
   score_band: exemplar
-  score_composite: 70.5
+  score_composite: 70.8
   shared: 1
-- slug: lacuna
-  name: Lacuna
-  description: Lacuna (lacuna.fm), operated by JOYLINK LTD, is an AI music creation platform that turns lyrics or a plain-text style description into complete songs with vocals, alongside lyrics writing, word-level timed lyrics (LRC/SRT/VTT), lyric video export, AI mastering, mashups, stem separation, album-cover…
+- slug: microsoft-entra
+  name: Microsoft Entra
+  description: Microsoft Entra (formerly Azure Active Directory) is Microsoft's family of identity and network access products, providing authentication, authorization, directory, identity governance, external identities, verifiable credentials and secure access services. Its APIs are exposed mainly through Micro…
   api_count: 2
   score_band: exemplar
-  score_composite: 70.0
+  score_composite: 70.3
   shared: 1
 - slug: cisco-xdr
   name: Cisco XDR
   description: Cisco XDR is Cisco's extended detection and response platform, the successor to SecureX. It correlates telemetry from Cisco Secure Endpoint, Secure Firewall, Umbrella, Duo, Secure Email and third-party sources into incidents, and exposes four distinct REST API families behind a single OAuth 2.0 aut…
   api_count: 12
   score_band: exemplar
-  score_composite: 69.9
-  shared: 1
-- slug: taskfolk
-  name: Taskfolk
-  description: Taskfolk is a project-management and issue-tracking platform built for teams and their AI agents working side by side, operated by UTTER L.L.C-FZ of Dubai, UAE. Workspaces contain projects; projects contain issues moved across board, backlog, list, calendar and timeline views, with sprints, milesto…
-  api_count: 2
-  score_band: exemplar
-  score_composite: 69.3
+  score_composite: 69.6
   shared: 1
 - slug: rose-rocket
   name: Rose Rocket
   description: Rose Rocket is a Toronto-based transportation management system (TMS) for freight brokers, carriers and 3PLs, sold as an AI-native, configurable operations platform rather than an off-the-shelf template. The product covers order intake, dispatch, tendering, tracking, documents, invoicing and billin…
   api_count: 1
   score_band: exemplar
-  score_composite: 68.6
+  score_composite: 69.4
   shared: 1
-- slug: active-directory
-  name: Microsoft Active Directory
-  description: Microsoft Active Directory and Microsoft Entra ID provide identity and access management for organizations of all sizes. Microsoft Graph API is the unified REST API gateway for accessing and managing Microsoft Entra ID (formerly Azure Active Directory), including users, groups, applications, device…
-  api_count: 3
-  score_band: exemplar
-  score_composite: 68.2
-  shared: 1
-- slug: amazon-cognito
-  name: Amazon Cognito
-  description: Amazon Cognito is a fully managed AWS user identity and authentication service that adds sign-up, sign-in, and access control to web and mobile applications, scaling to millions of users. It provides User Pools for authentication (user directories, MFA, customizable auth flows) and Identity Pools f…
+- slug: lacuna
+  name: Lacuna
+  description: Lacuna (lacuna.fm), operated by JOYLINK LTD, is an AI music creation platform that turns lyrics or a plain-text style description into complete songs with vocals, alongside lyrics writing, word-level timed lyrics (LRC/SRT/VTT), lyric video export, AI mastering, mashups, stem separation, album-cover…
   api_count: 2
   score_band: exemplar
-  score_composite: 67.7
-  shared: 1
-- slug: beeketing
-  name: Beeketing
-  description: Beeketing began as a Vietnam-founded e-commerce marketing startup (backed by 500 Global) that built conversion-optimization apps for Shopify and other online stores, and evolved into OpenCommerce Group — the operator of ShopBase, a cross-border commerce platform serving 100,000+ merchants across 19…
-  api_count: 1
-  score_band: exemplar
-  score_composite: 67.5
+  score_composite: 69.3
   shared: 1
 provider_slugs:
 - twilio
-- azure-ad
 - kinde
 - zoho-crm
+- azure-ad
 - appwrite
+- okta
 - convertkit
 - drchrono
-- okta
 - telesign
-- cvent-registration
-- cvent
 - aembit
-- authentik
-- strivacity
-- tvarka
-- microsoft-entra
-- hootsuite
-- aweber
-- clerk-com
-- auth0
-- zuplo
-- immutable
-- cvent-event-cloud
-- lacuna
-- cisco-xdr
-- taskfolk
-- rose-rocket
-- active-directory
 - amazon-cognito
-- beeketing
+- tvarka
+- cvent-registration
+- strivacity
+- clerk-com
+- authentik
+- hootsuite
+- zuplo
+- cvent
+- auth0
+- google-cloud-api-gateway
+- aweber
+- active-directory
+- amazon-iam-identity-center
+- immutable
+- amazon-iam
+- microsoft-entra
+- cisco-xdr
+- rose-rocket
+- lacuna
+- amazon-directory-service
+- taskfolk
+- signicat
+- daon
+- cvent-event-cloud
 - hustle
-- photon
-- cvent-hospitality-cloud
 - gluu
-- playable
-- descope
-- typingdna
-- altruist
-- kraken
-- insforge
-- aircover
+- photon
 - vim
-- cobot
-- stytch
+- altruist
+- descope
+- aircover
+- playable
+- cvent-hospitality-cloud
+- insforge
+- kraken
 - composio
 - criteo
+- beeketing
+- google-firebase
 - jane-app
-- workos
-- propelauth
-- datavant
+- typingdna
 - airtm
-- forgerock
-- spekit
+- corroborateme-com
+- google-cloud-endpoints
+- datavant
+- stytch
+- cobot
+- workos
 - authlete
-- commerce-layer
-- mixmax
 - appdirect
+- spekit
+- centrify
+- forgerock
+- butterflymx
+- commerce-layer
+- google-identity-platform
+- mixmax
+- propelauth
+- snap
+- transmit-security
+- unico
 - jefferson-health
-- frontegg
-- ios
-- amazon-iam
-- barndoor
-- arcade-dev
 - bokio
 - weave
+- barndoor
 - yubico
-- snap
 - singlefile
-- butterflymx
-- neon
-- unico
-- amazon-iam-identity-center
-- fusionauth
-- google-cloud-api-gateway
-- daon
-- lawmatics
-- onecli
-- dream-sports
-- spycloud
 - trustarc
-- cabify
-- zitadel
-- transmit-security
-- centrify
-- signicat
-- authelia
-- beyond-identity
-- temple-health
+- dream-sports
+- comunicate-eu
+- lawmatics
+- ios
+- sent
+- fusionauth
+- arcade-dev
+- neon
 - lichess
-- hostfully
-- signiant
-- ironclad
 - ping-identity
-- amazon-directory-service
-- clio
-- eagle-eye-networks
-- ezoic
-- trusona
-- civic
-- allegion
-- authenticx
-- nango
-- ory
-- doximity
-- 1kosmos
-- clear
-- playfab
-- opal
-- textmaster
-- clearslide
-- hopae-inc
-- comunicate-top-api
-- tibber
-- etsy
-- firebase
-- keyo
-- kadence
-- truecaller
-- easywebinar
-- grammarly
-- supabase
-- ccp-games
-- cyclr
-- google-cloud-endpoints
-- solaris
-- trakt
-- idme
-- luminary
-- defakto-security
+- spycloud
+- frontegg
+- iproov
+- onecli
+- authelia
 - thenile
-- dust-identity
+- eagle-eye-networks
+- hostfully
+- authenticx
+- signops
+- playfab
+- zitadel
+- clear
+- doximity
+- prove
+- cabify
+- etsy
+- signiant
+- temple-health
+- opal
+- beyond-identity
+- trusona
+- ezoic
+- allegion
+- civic
+- nango
+- ironclad
+- clearslide
+- ory
+- 1f916
+- 1kosmos
+- kannkidas-de
+- clio
+- hopae-inc
+- agentsim-dev
+- truecaller
 - buoy-health
 - flume-health
-- google-firebase
-- anilist
-- nomos
-- unkey
-- iproov
-- login-gov
-- uber-eats
-- guestready
-- wahoo
+- keyo
+- dust-identity
+- ccp-games
+- defakto-security
+- obeliskgate-com
+- luminary
+- solaris
+- textmaster
+- tibber
+- supabase
+- cyclr
+- idme
 - aol
-- cirrus-identity
-- skyfire
-- bluestacks
-- logto
-- climate-fieldview
-- prove
-- oracle-health
-- eve-online
-- wish
-- shopware
-- coinlist
-- sent
-- arccos-golf
-- 1f916
-- jeeng
-- carefluence
-- bitski
-- kannkidas-de
-- reqkey
-- era
-- result
-- workday-security
-- onfido
-- spire
-- myfitnesspal
-- fusewp
-- linqgg
-- cakewalk
-- kroger
-- yahoo
-- agentsim-dev
-- nuvemshop-tiendanube
-- slashid
-- monzo
-- splitwise
-- galxe
-- picogrid
-- zoho-people
-- charles-schwab
-- secureauth
-- klavis
-- bullhorn
-- gel-data
-- jupyterhub
-- cyberark
-- capy-inc
-- apache-knox
-- gojek
-- agentsync
-- ikas-ikas-teknoloji-as
-- debank
-- nudge-security
-- wolt
 - hypr
-- strata-identity
-- nhost
-- spring-security
-- sealgate-jp
-- burner
-- gadjah-mada-university
-- autopass
-- parse
-- ampersand
+- easywebinar
+- trakt
+- anilist
+- secureauth
+- cirrus-identity
+- kadence
+- coinlist
+- oracle-health
+- grammarly
+- login-gov
+- guestready
+- nomos
+- skyfire
+- wahoo
+- wish
+- eve-online
+- bluestacks
 - 5arz-com
-- endpointblank
-- google-identity-platform
-- withings
-- pingone
-- planday
-- centralreach
-- hanko
-- supertokens
-- medium
+- jeeng
+- uber-eats
+- arccos-golf
+- climate-fieldview
+- unkey
 - secure-flows-com
-- collectors
-- express-gateway
-- via-science
-- memberstack
-- flipkart
-- jack-henry
-- liquid
-- dynamic-labs
-- surveymonkey
 - api-market
-- keycloak
-- aci-dev
-- mycase
-- nthu
+- logto
 - bankid
-- neurable
-- telefonica
-- alien
-- arkose-labs
-- blink-ledger-systems
-- feathery
+- shopware
+- spire
+- workday-security
+- carefluence
+- endpointblank
+- bifrostorbit-com
+- era
+- yahoo
+- reqkey
+- result
+- sealgate-jp
+- bitski
+- kroger
+- secondfactor
+- nuvemshop-tiendanube
+- splitwise
+- monzo
+- memberstack
+- zoho-people
+- slashid
+- galxe
+- myfitnesspal
+- onfido
+- picogrid
+- linqgg
+- lathe-live
+- pathfix
+- cakewalk
+- gojek
+- klavis
 - keycard
-- pragma
-- nevis
-- koalaboox
-- corbado
-- sifive
-- shanghai-jiao-tong-university
+- fusewp
+- burner
+- jupyterhub
+- charles-schwab
+- spring-security
+- gel-data
+- apache-knox
+- capy-inc
+- nhost
+- wolt
+- debank
+- agentsync
+- parse
+- ikas-ikas-teknoloji-as
+- pingone
+- ampersand
+- bullhorn
+- collectors
+- liquid
+- gadjah-mada-university
+- withings
+- strata-identity
+- arkose-labs
+- medium
+- nudge-security
+- flipkart
+- coros
+- mycase
+- centralreach
+- autopass
+- blink-ledger-systems
 - iniciador
-- spiffe
-- scalekit
-- infra
+- supertokens
+- neurable
+- alien
+- keycloak
+- sifive
+- via-science
+- express-gateway
+- hanko
+- surveymonkey
+- jack-henry
+- duo-security
+- corbado
+- nthu
+- cuvva
+- aci-dev
+- planday
+- capital-one
+- blueleaf
+- pragma
+- dynamic-labs
+- keel
+- nevis
 - wellfound
 - ccc-intelligent-solutions
-- pathfix
-- capital-one
-- stream-labs
-- everledger
-- cuvva
-- duo-security
-- passage-1password
-- virgil-security
-- keel
-- pangea
-- blueleaf
-- soundcloud
-- fdx
-- deezer
-- onelogin
-- onescreen-ai
-- bmw-connecteddrive
-- incognia
-- glama-ai
-- authsignal
-- thrivecom
-- bifrostorbit-com
-- privy
-- terapi
-- flockjay
-- augworlds-ai
-- elk
-- hanyang
-- nectar-social
-- nycu
-- getnet
-- passbase
-- actively
-- secret-double-octopus
-- river-financial
-- coros
-- marco-polo
-- rohlik
-- esentire
-- centurylink
-- secondfactor
-- 3dagogo
-- violet
-- apache-shiro
-- kakao
-- libryo
-- pulsoid
-- samedi
-- noredink
-- prelude-so
-- snapser
-- hanr-block
-- grab
-- numeric
-- classlink
-- cyberark-identity
-- oscar-emr
-- awakens
-- securew2
-- equipmentshare
-- iyk
-- silverfort
-- kahoot
-- wibmo
-- authress
-- onymos
-- verto-education
-- nanjing
-- birkinbagstock-com
-- laundryheap
-- farcaster
-- toutiao
-- edgedb-com
-- formstack
+- spiffe
+- feathery
+- inboxguard-io
 - kia
-- bright-funds
-- travelclick-amadeus
-- casdoor
-- callsign
-- openblock-labs
-- primerica
 - abblix
-- glacier-bancorp
-- bishop-fox
-- scnd
-- zero-trust-architecture
-- mural
-- imprivata
-- acrisure
-- sage-accounting
-- better-auth
-- nickelytics
-- itb
-- ramper
-- trustdock
+- telefonica
+- scalekit
+- cyberark
+- passage-1password
+- birkinbagstock-com
+- authress
+- flockjay
+- shanghai-jiao-tong-university
+- everledger
+- infra
+- virgil-security
+- glama-ai
+- koalaboox
+- esentire
+- soundcloud
+- deezer
+- incognia
+- onescreen-ai
+- stream-labs
+- actively
+- pangea
+- fdx
 - aeroz-io
-- didi
-- stack-auth
-- zatanna
-- uae-pass
-- eatstreet
-- gigya
-- redotpay
-- dex
-- yeshid
-- connect2id
+- onelogin
+- river-financial
+- privy
+- thrivecom
+- nectar-social
+- secret-double-octopus
+- bmw-connecteddrive
+- hanyang
+- elk
+- libryo
+- authsignal
+- augworlds-ai
+- nycu
+- noredink
+- numeric
+- terapi
+- passbase
+- centurylink
+- violet
+- securew2
+- marco-polo
+- awakens
+- rohlik
+- getnet
+- samedi
+- pulsoid
 - curity
-- thirdwatch
-- mozilla-accounts
-- pocketbase
-- rockstar-games
-- lovys
 - singpass
-- monnai
+- apache-shiro
+- kahoot
+- iyk
+- prelude-so
+- equipmentshare
+- grab
+- hanr-block
+- edgedb-com
+- kakao
+- snapser
+- primerica
+- classlink
+- casdoor
+- onymos
+- 3dagogo
+- callsign
+- silverfort
+- imprivata
+- connect2id
+- oscar-emr
+- laundryheap
+- wibmo
+- cyberark-identity
+- verto-education
+- formstack
+- bright-funds
+- acrisure
+- bishop-fox
+- farcaster
+- glacier-bancorp
+- travelclick-amadeus
+- thirdwatch
+- toutiao
+- mozilla-accounts
+- nanjing
+- mural
+- zero-trust-architecture
+- openblock-labs
+- better-auth
+- scnd
+- sage-accounting
+- uae-pass
+- ramper
+- eatstreet
+- trustdock
+- itb
+- zatanna
+- nickelytics
+- didi
+- rockstar-games
+- freja-eid
+- gigya
+- dex
+- stack-auth
 - pindrop-security
-- saib-and-co
-- ithaca
-- manifest-law
+- softwarfare
 - newcore
+- saib-and-co
+- yeshid
+- alitheon
+- redotpay
+- ithaca
+- pocketbase
+- manifest-law
+- monnai
+- lovys
 - cyral
+- dejbox
+- memorick
 - hapi
 - magic-link
-- dejbox
-- bitstrips
-- web3auth
-- freja-eid
-- alitheon
-- memorick
-- naver
-- softwarfare
-- everysim-inc
-- global-id
-- iovation
-- shippingbo
-- lollipuff
-- bukalapak
-- burbank
-- goat-group
-- remind
-- tradeblock
-- authy
 - authshore-ai
+- bitstrips
+- tradeblock
+- remind
+- web3auth
+- lollipuff
 - uidai
-- dewu-poizon
-- mojoauth
+- bag-borrow-or-steal
+- burbank
+- everysim-inc
+- naver
+- global-id
+- shippingbo
+- bukalapak
+- iovation
 - kanidm
-- kinvey
 - netid
+- mojoauth
+- authy
+- goat-group
+- mcpal-io
+- dewu-poizon
+- kinvey
 - openldap
 - inauth-american-express
-- bag-borrow-or-steal
 - blink-identity
 - getotp
 - asignio
 - scorce
 - sawo-labs
-- behaviosec
-- idsmanager
 - micro-user-service
-- soda
-- ssolo
-- anetac
 - nok-nok-labs
-- arcot-systems
+- behaviosec
 - crane
+- idsmanager
+- soda
+- anetac
+- ssolo
+- arcot-systems
 - appnet
 - cyota-inc
 - fusebit
@@ -643,30 +648,30 @@ provider_slugs:
 - opennetwork-tech
 - proxy
 related:
-- slug: ai-automation
-  name: AI Automation
-  shared: 2
 - slug: agents
   name: Agents
   shared: 2
 - slug: communications
   name: Communications
   shared: 2
-- slug: agents-skills
-  name: Agent Skills
-  shared: 1
-- slug: database
-  name: Database
-  shared: 1
 - slug: gateway
   name: Gateway
+  shared: 2
+- slug: management
+  name: Management
+  shared: 2
+- slug: serverless
+  name: Serverless
+  shared: 2
+- slug: ai-automation
+  name: AI Automation
   shared: 1
 overview: 'Authentication is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [authentication.apievangelist.com](https://authentication.apievangelist.com).
 
 
-  30 providers on the network work in this area, including Twilio, Microsoft Entra ID (formerly Azure AD), Kinde, Zoho CRM, Appwrite, Kit, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  30 providers on the network work in this area, including Twilio, Kinde, Zoho CRM, Microsoft Entra ID (formerly Azure AD), Appwrite, Okta, and 24 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: AI Automation, Agents, Communications, and Agent Skills. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: Agents, Communications, Gateway, and Management. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 terms: []
 ---

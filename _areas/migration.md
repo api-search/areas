@@ -6,49 +6,77 @@ description: An index and topic collection covering data migration, cloud migrat
 area_url: https://migration.apievangelist.com
 area_host: migration.apievangelist.com
 icon: https://migration.apievangelist.com/icon-thumb.png
-provider_count: 18
+provider_count: 21
 providers:
 - slug: amazon-datasync
   name: Amazon DataSync
   description: AWS DataSync is an online data transfer service that simplifies, automates, and accelerates moving data between on-premises storage systems, AWS storage services, and other cloud storage. DataSync can transfer data at speeds up to 10 times faster than open-source tools by using purpose-built networ…
-  api_count: 1
-  score_band: strong
-  score_composite: 64.2
+  api_count: 14
+  score_band: exemplar
+  score_composite: 77.7
   shared: 1
 - slug: amazon-mainframe-modernization
   name: Amazon Mainframe Modernization
   description: AWS Mainframe Modernization provides tools and resources to help you plan and implement migration and modernization of your mainframe applications to AWS. It supports automated refactoring and replatforming of COBOL applications to run natively on AWS with managed runtime environments, deployment p…
-  api_count: 1
-  score_band: strong
-  score_composite: 62.5
+  api_count: 6
+  score_band: exemplar
+  score_composite: 69.8
+  shared: 1
+- slug: amazon-application-migration-service
+  name: Amazon Application Migration Service
+  description: AWS Application Migration Service (MGN) is the primary migration service recommended for lift-and-shift migrations to AWS. It allows organizations to quickly realize the benefits of migrating applications to the cloud without changes and with minimal downtime.
+  api_count: 12
+  score_band: exemplar
+  score_composite: 68.3
+  shared: 1
+- slug: google-cloud-transfer-service
+  name: Google Cloud Transfer Service
+  description: Google Cloud Storage Transfer Service enables seamless data movement across object and file storage systems, including transfers from Amazon S3, Azure Blob Storage, or Cloud Storage to Cloud Storage, and from on-premises storage to Cloud Storage. It is optimized for large-scale transfers involving…
+  api_count: 3
+  score_band: exemplar
+  score_composite: 67.3
   shared: 1
 - slug: microsoft-azure-migrate
   name: Azure Migrate
   description: Azure Migrate provides a unified platform for discovering, assessing, and migrating on-premises servers, infrastructure, applications, databases, and data to Azure. Its REST APIs enable programmatic management of migration projects, discovery, assessment, and replication workflows for VMs, database…
-  api_count: 9
+  api_count: 3
   score_band: strong
-  score_composite: 58.2
+  score_composite: 66.4
   shared: 1
 - slug: amazon-dms
   name: Amazon DMS
   description: AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. AWS DMS can migrate your data to and from the most widely used commerc…
-  api_count: 2
-  score_band: developing
-  score_composite: 53.2
+  api_count: 14
+  score_band: strong
+  score_composite: 65.1
   shared: 1
 - slug: amazon-migration-hub
   name: Amazon Migration Hub
   description: AWS Migration Hub provides a single location to track the progress of application migrations across multiple AWS and partner solutions, giving visibility into migration progress and enabling the use of other AWS migration tools.
+  api_count: 14
+  score_band: strong
+  score_composite: 62.2
+  shared: 1
+- slug: google-cloud-vmware-engine
+  name: Google Cloud VMware Engine
+  description: Google Cloud VMware Engine is a fully managed service that lets you run VMware workloads natively on Google Cloud infrastructure. It provides dedicated, single-tenant VMware SDDC environments with vSphere, vSAN, NSX-T, and HCX, enabling seamless migration and management of VMware-based applications…
   api_count: 1
-  score_band: developing
-  score_composite: 52.9
+  score_band: strong
+  score_composite: 61.0
   shared: 1
 - slug: google-cloud-migration-center
   name: Google Cloud Migration Center
   description: Google Cloud Migration Center is a unified platform that helps accelerate end-to-end cloud migration journeys from on-premises or other cloud environments to Google Cloud. It provides discovery, assessment, and planning tools to help organizations understand their existing infrastructure and plan o…
-  api_count: 1
-  score_band: developing
-  score_composite: 44.2
+  api_count: 2
+  score_band: strong
+  score_composite: 57.8
+  shared: 1
+- slug: amazon-application-discovery-service
+  name: Amazon Application Discovery Service
+  description: Amazon Application Discovery Service helps enterprise customers plan application migration projects by automatically identifying servers, virtual machines, software, and software dependencies running in their on-premises data centers.
+  api_count: 7
+  score_band: strong
+  score_composite: 55.1
   shared: 1
 - slug: kubevirt
   name: KubeVirt
@@ -61,71 +89,64 @@ providers:
   name: Import2
   description: Import2 is a fully automated data-migration platform that moves customer data between SaaS applications — CRM, helpdesk, and project-management tools — without CSV exports or custom development. Users connect a source and destination app and Import2 moves records, custom fields, pipelines, and deal…
   api_count: 1
-  score_band: developing
-  score_composite: 40.1
-  shared: 1
-- slug: google-cloud-transfer-service
-  name: Google Cloud Transfer Service
-  description: Google Cloud Storage Transfer Service enables seamless data movement across object and file storage systems, including transfers from Amazon S3, Azure Blob Storage, or Cloud Storage to Cloud Storage, and from on-premises storage to Cloud Storage. It is optimized for large-scale transfers involving…
-  api_count: 1
   score_band: thin
-  score_composite: 37.4
-  shared: 1
-- slug: amazon-application-discovery-service
-  name: Amazon Application Discovery Service
-  description: Amazon Application Discovery Service helps enterprise customers plan application migration projects by automatically identifying servers, virtual machines, software, and software dependencies running in their on-premises data centers.
-  api_count: 7
-  score_band: thin
-  score_composite: 34.6
+  score_composite: 38.1
   shared: 1
 - slug: skykick
   name: SkyKick
   description: SkyKick is a Seattle-based cloud automation company whose Microsoft 365 migration, cloud backup, SaaS security and cloud automation products for managed service providers were acquired by ConnectWise in September 2024. The SkyKick brand's own domain no longer serves a website — skykick.com answers…
   api_count: 1
   score_band: thin
-  score_composite: 34.4
+  score_composite: 34.3
   shared: 1
-- slug: google-cloud-vmware-engine
-  name: Google Cloud VMware Engine
-  description: Google Cloud VMware Engine is a fully managed service that lets you run VMware workloads natively on Google Cloud infrastructure. It provides dedicated, single-tenant VMware SDDC environments with vSphere, vSAN, NSX-T, and HCX, enabling seamless migration and management of VMware-based applications…
+- slug: opshub
+  name: OpsHub
+  description: OpsHub provides enterprise-grade integration and migration solutions for Application Lifecycle Management (ALM), IT Service Management (ITSM), Customer Relationship Management (CRM), and DevOps systems. Their platform enables seamless data synchronization, process automation, and migration across d…
   api_count: 1
   score_band: thin
-  score_composite: 33.5
-  shared: 1
-- slug: amazon-application-migration-service
-  name: Amazon Application Migration Service
-  description: AWS Application Migration Service (MGN) is the primary migration service recommended for lift-and-shift migrations to AWS. It allows organizations to quickly realize the benefits of migrating applications to the cloud without changes and with minimal downtime.
-  api_count: 1
-  score_band: thin
-  score_composite: 31.7
+  score_composite: 33.1
   shared: 1
 - slug: bringyour-ai
   name: Bring Your AI
   description: Bring Your AI provides a portable agent setup that moves, syncs, distills, and builds context across AI tools like Claude Code, Codex, and Cursor. It offers local‑first, review‑gated migrations, preserving original files while enabling seamless switching between AI assistants. The service includes…
   api_count: 1
   score_band: thin
-  score_composite: 28.8
+  score_composite: 29.8
   shared: 1
-- slug: opshub
-  name: OpsHub
-  description: OpsHub provides enterprise-grade integration and migration solutions for Application Lifecycle Management (ALM), IT Service Management (ITSM), Customer Relationship Management (CRM), and DevOps systems. Their platform enables seamless data synchronization, process automation, and migration across d…
+- slug: memol-app
+  name: Memol
+  description: Memol is an AI‑powered note‑taking and knowledge‑sharing platform for teams. It offers AI‑assisted organization, search, and summarization of notes, with features like task management, tagging, and real‑time collaboration. Users can capture text, voice, and images, and the AI helps surface relevant…
   api_count: 1
   score_band: emerging
-  score_composite: 24.9
+  score_composite: 17.4
   shared: 1
 - slug: calypso-migration
   name: Calypso Migration
   description: Nasdaq Calypso Migration services support financial institutions in migrating data and configurations between Calypso environments. Calypso (formerly Adenza / Calypso Technology) is a cross-asset front-to-back capital markets technology platform used by banks, asset managers, central banks, and cle…
   api_count: 1
   score_band: emerging
-  score_composite: 11.9
+  score_composite: 14.3
+  shared: 1
+- slug: immigrationdb-com
+  name: ImmigrationDB
+  description: ImmigrationDB provides an independent, free, source‑backed migration reference covering countries, cities, visas, reports and research. Every data point is linked to its official national, regional or international source, with scope and verification dates, and is available via machine‑readable acc…
+  api_count: 1
+  score_band: emerging
+  score_composite: 12.2
   shared: 1
 - slug: tessera-labs
   name: Tessera Labs
   description: Tessera Labs is an AI-native enterprise software company building a governed, multi-agent AI platform that automates complex ERP and business-system transformations, compressing SAP ECC-to-S/4HANA migrations and broader modernization work from years to weeks. The platform orchestrates data, process…
   api_count: 0
   score_band: minimal
-  score_composite: 10.3
+  score_composite: 9.3
+  shared: 1
+- slug: iisrescue-com
+  name: IIS Rescue
+  description: IIS Rescue provides migration services for legacy IIS, classic ASP, and SQL Server websites, moving them to modern cloud hosting with a fixed-price, zero-downtime approach. They test sites before go-live, ensuring continuity for small businesses. The company focuses on reliable, hassle‑free transit…
+  api_count: 1
+  score_band: minimal
+  score_composite: 8.7
   shared: 1
 - slug: aelita
   name: Aelita Software
@@ -137,21 +158,24 @@ providers:
 provider_slugs:
 - amazon-datasync
 - amazon-mainframe-modernization
+- amazon-application-migration-service
+- google-cloud-transfer-service
 - microsoft-azure-migrate
 - amazon-dms
 - amazon-migration-hub
+- google-cloud-vmware-engine
 - google-cloud-migration-center
+- amazon-application-discovery-service
 - kubevirt
 - import2
-- google-cloud-transfer-service
-- amazon-application-discovery-service
 - skykick
-- google-cloud-vmware-engine
-- amazon-application-migration-service
-- bringyour-ai
 - opshub
+- bringyour-ai
+- memol-app
 - calypso-migration
+- immigrationdb-com
 - tessera-labs
+- iisrescue-com
 - aelita
 related:
 - slug: discovery
@@ -160,12 +184,15 @@ related:
 - slug: virtualization
   name: Virtualization
   shared: 2
+- slug: ai-automation
+  name: AI Automation
+  shared: 1
 overview: 'Migration is one of the API Evangelist areas on the [APIs.io](https://apis.io/) network — a focused corner of the API landscape. The full area lives at [migration.apievangelist.com](https://migration.apievangelist.com).
 
 
-  18 providers on the network work in this area, including Amazon DataSync, Amazon Mainframe Modernization, Azure Migrate, Amazon DMS, Amazon Migration Hub, Google Cloud Migration Center, and 12 more — each links out to that provider''s APIs, schemas, and governance artifacts.
+  21 providers on the network work in this area, including Amazon DataSync, Amazon Mainframe Modernization, Amazon Application Migration Service, Google Cloud Transfer Service, Azure Migrate, Amazon DMS, and 15 more — each links out to that provider''s APIs, schemas, and governance artifacts.
 
 
-  Related areas: API Evangelist Discovery and Virtualization. Browse every area at [areas.apis.io](https://apis.io/areas/).'
+  Related areas: API Evangelist Discovery, Virtualization, and AI Automation. Browse every area at [areas.apis.io](https://apis.io/areas/).'
 terms: []
 ---

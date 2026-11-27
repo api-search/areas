@@ -13,7 +13,7 @@ providers:
   description: 'Artsy (art.sy) is the online marketplace and platform for discovering, buying, and selling fine art, connecting collectors with galleries, museums, art fairs, and auction houses worldwide. Artsy operates a public developer program: the Artsy Public API (v2) is a HAL hypermedia REST API exposing Art…'
   api_count: 1
   score_band: thin
-  score_composite: 28.4
+  score_composite: 29.6
   shared: 1
 provider_slugs:
 - art
